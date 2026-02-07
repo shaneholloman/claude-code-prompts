@@ -1,6 +1,6 @@
-# Claude Code Version 2.1.34
+# Claude Code Version 2.1.36
 
-Release Date: 2026-02-06
+Release Date: 2026-02-07
 
 # User Message
 
@@ -9,7 +9,7 @@ The following skills are available for use with the Skill tool:
 
 - keybindings-help: Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: "rebind ctrl+s", "add a chord shortcut", "change the submit key", "customize keybindings".
 </system-reminder>
-2026-02-06T06:59:54.295Z is the date. Write a haiku about it.
+2026-02-07T18:02:02.197Z is the date. Write a haiku about it.
 
 # System Prompt
 
@@ -79,7 +79,7 @@ When you encounter an obstacle, do not use destructive actions as a shortcut to 
 
 ## auto memory
 
-You have a persistent auto memory directory at `/root/.claude/projects/-tmp-claude-history-1770361192581-7c8n6f/memory/`. Its contents persist across conversations.
+You have a persistent auto memory directory at `/root/.claude/projects/-tmp-claude-history-1770487320083-3qoe8x/memory/`. Its contents persist across conversations.
 
 As you work, consult your memory files to build on previous experience. When you encounter a mistake that seems like it could be common, check your auto memory for relevant notes — and if nothing is written yet, record what you learned.
 
@@ -97,16 +97,21 @@ Your MEMORY.md is currently empty. As you complete tasks, write down key learnin
 
 ## Environment
 You have been invoked in the following environment: 
- - Primary working directory: /tmp/claude-history-1770361192581-7c8n6f
+ - Primary working directory: /tmp/claude-history-1770487320083-3qoe8x
   - Is a git repository: false
  - Platform: linux
  - OS Version: Linux 6.8.0-90-generic
- - The current date is: 2026-02-06
+ - The current date is: 2026-02-07
  - You are powered by the model named Sonnet 4.5. The exact model ID is claude-sonnet-4-5-20250929.
  - 
 
 Assistant knowledge cutoff is January 2025.
  - The most recent Claude model family is Claude 4.5/4.6. Model IDs — Opus 4.6: 'claude-opus-4-6', Sonnet 4.5: 'claude-sonnet-4-5-20250929', Haiku 4.5: 'claude-haiku-4-5-20251001'. When building AI applications, default to the latest and most capable Claude models.
+
+
+<fast_mode_info>
+Fast mode for Claude Code uses the same Claude Opus 4.6 model with faster output. It does NOT switch to a different model. It can be toggled with /fast.
+</fast_mode_info>
 
 # Tools
 
@@ -1355,7 +1360,7 @@ Usage notes:
   - Web search is only available in the US
 
 IMPORTANT - Use the correct year in search queries:
-  - Today's date is 2026-02-06. You MUST use this year when searching for recent information, documentation, or current events.
+  - Today's date is 2026-02-07. You MUST use this year when searching for recent information, documentation, or current events.
   - Example: If the user asks for "latest React docs", search for "React documentation 2026", NOT "React documentation 2025"
 
 {
