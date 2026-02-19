@@ -7,33 +7,33 @@
 
 ## Bundle
 
-- Entry bytes: 11446479 bytes
-- Entry lines: 7660
+- Entry bytes: 11469785 bytes
+- Entry lines: 7655
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 14696582 bytes
-- Pretty lines: 283941
+- Pretty bytes: 14726036 bytes
+- Pretty lines: 284568
 
 ## Inventory
 
-- File count: 20
-- Size bytes: 71337042
+- File count: 22
+- Size bytes: 79326044
 
 ### Extension Counts
 
-- `.exe`: 1 files, 5407744 bytes
-- `.js`: 1 files, 11446479 bytes
+- `.exe`: 2 files, 9349632 bytes
+- `.js`: 1 files, 11469785 bytes
 - `.json`: 1 files, 1200 bytes
 - `.lock`: 1 files, 551 bytes
 - `.md`: 2 files, 2184 bytes
-- `.node`: 5 files, 28944544 bytes
+- `.node`: 6 files, 32968352 bytes
 - `.ts`: 1 files, 67421 bytes
 - `.wasm`: 3 files, 4064873 bytes
 
 ### Asset Sizes
 
-- `.exe`: 5407744 bytes
-- `.node`: 28944544 bytes
+- `.exe`: 9349632 bytes
+- `.node`: 32968352 bytes
 - `.wasm`: 4064873 bytes
 
 ### Files
@@ -51,6 +51,8 @@
 - `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
 - `vendor/ripgrep/arm64-linux/ripgrep.node`
+- `vendor/ripgrep/arm64-win32/rg.exe`
+- `vendor/ripgrep/arm64-win32/ripgrep.node`
 - `vendor/ripgrep/COPYING`
 - `vendor/ripgrep/x64-darwin/rg`
 - `vendor/ripgrep/x64-darwin/ripgrep.node`
@@ -61,22 +63,22 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 20:39:54 UTC
+- Snapshot generated at: 2026-02-18 20:46:36 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `20b5e822e01bf23a5cd869764a09dffc86ece8f0007e3b450ab55098de852dbe`
-- Embedded build timestamp: 2026-02-10 21:11:01 UTC
-- Relative to embedded build timestamp: 7d 23h 28m 53s (2026-02-10 21:11:01 UTC → 2026-02-18 20:39:54 UTC)
+- Config hash: `206ca5198927bacdf978384fc856fef50bb0f7e06750fff0f3cfdfc620fe4806`
+- Embedded build timestamp: 2026-02-12 00:53:43 UTC
+- Relative to embedded build timestamp: 6d 19h 52m 53s (2026-02-12 00:53:43 UTC → 2026-02-18 20:46:36 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 404,003
-- Token p95 / p99: 243 / 1,199
+- Total prompt tokens: 400,232
+- Token p95 / p99: 237 / 1,163
 
 ### By Kind
 
-- `system-data`: 269,821 tokens (66.8%)
-- `system-reminder`: 54,433 tokens (13.5%)
-- `system`: 54,130 tokens (13.4%)
-- `tool`: 16,917 tokens (4.2%)
+- `system-data`: 269,840 tokens (67.4%)
+- `system`: 52,516 tokens (13.1%)
+- `system-reminder`: 52,247 tokens (13.1%)
+- `tool`: 16,922 tokens (4.2%)
 - `skill`: 5,572 tokens (1.4%)
-- `agent`: 3,130 tokens (0.8%)
+- `agent`: 3,135 tokens (0.8%)

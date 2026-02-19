@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 26
-- Options: 59
-- Env vars: 406
-- Config keys: 507
+- Commands: 30
+- Options: 62
+- Env vars: 413
+- Config keys: 510
 - Tools: 3
 - Skills: 0
-- Models: 79
+- Models: 81
 - Providers: 7
 
 ## Commands
@@ -18,6 +18,7 @@
 - `add`
 - `add-from-claude-desktop`
 - `add-json`
+- `auth`
 - `call`
 - `disable`
 - `doctor`
@@ -27,6 +28,8 @@
 - `info`
 - `install`
 - `list`
+- `login`
+- `logout`
 - `marketplace`
 - `mcp`
 - `plugin`
@@ -37,6 +40,7 @@
 - `serve`
 - `servers`
 - `setup-token`
+- `status`
 - `tools`
 - `uninstall`
 - `update`
@@ -48,6 +52,7 @@
 - `add <source>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
+- `auth`
 - `call`
 - `disable [plugin]`
 - `doctor`
@@ -58,6 +63,8 @@
 - `install [target]`
 - `install <plugin>`
 - `list`
+- `login`
+- `logout`
 - `marketplace`
 - `mcp`
 - `plugin`
@@ -68,6 +75,7 @@
 - `serve`
 - `servers`
 - `setup-token`
+- `status`
 - `tools`
 - `uninstall <plugin>`
 - `update`
@@ -99,6 +107,7 @@
 - `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
+- `--email`
 - `--env`
 - `--fallback-model`
 - `--file`
@@ -123,7 +132,9 @@
 - `--session-id`
 - `--setting-sources`
 - `--settings`
+- `--sso`
 - `--strict-mcp-config`
+- `--text`
 - `--timeout`
 - `--tools`
 - `--transport`
@@ -157,6 +168,7 @@
 - `--debug-file <path>`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
+- `--email <email>`
 - `--fallback-model <model>`
 - `--file <specs...>`
 - `--force`
@@ -175,7 +187,9 @@
 - `--session-id <uuid>`
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
+- `--sso`
 - `--strict-mcp-config`
+- `--text`
 - `--timeout <ms>`
 - `--tools <tools...>`
 - `--verbose`
@@ -254,6 +268,7 @@
 - `CHOKIDAR_USEPOLLING`
 - `CIRCLECI`
 - `CLAUBBIT`
+- `CLAUDE_AFTER_LAST_COMPACT`
 - `CLAUDE_AGENT_SDK_CLIENT_APP`
 - `CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS`
 - `CLAUDE_AGENT_SDK_MCP_NO_PREFIX`
@@ -300,6 +315,7 @@
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
 - `CLAUDE_CODE_ENABLE_CFC`
+- `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TASKS`
@@ -320,6 +336,7 @@
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
 - `CLAUDE_CODE_GLOB_TIMEOUT_SECONDS`
+- `CLAUDE_CODE_HOST_PLATFORM`
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
@@ -346,6 +363,7 @@
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
+- `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSION_ID`
 - `CLAUDE_CODE_SHELL`
@@ -359,6 +377,7 @@
 - `CLAUDE_CODE_SNIPPET_SAVE`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
+- `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TASK_LIST_ID`
@@ -376,10 +395,12 @@
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_DEBUG`
+- `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_TMPDIR`
+- `CLAUDECODE`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CODESPACES`
@@ -653,6 +674,7 @@
 - `autoMemoryEnabled`
 - `autoUpdate`
 - `autoUpdatesChannel`
+- `availableModels`
 - `awaitingLeaderApproval`
 - `awsAuthRefresh`
 - `awsCredentialExport`
@@ -739,6 +761,7 @@
 - `duration_ms`
 - `durationMs`
 - `durationSeconds`
+- `Dy`
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
@@ -750,6 +773,7 @@
 - `enabledMcpjsonServers`
 - `enabledPlugins`
 - `enableWeakerNestedSandbox`
+- `enableWeakerNetworkIsolation`
 - `end`
 - `entries`
 - `env`
@@ -831,7 +855,6 @@
 - `isImage`
 - `isSynthetic`
 - `keywords`
-- `Ky`
 - `label`
 - `language`
 - `lastModified`
@@ -1006,6 +1029,7 @@
 - `shouldBlock`
 - `skill`
 - `skills`
+- `skipDangerousModePermissionPrompt`
 - `skipWebFetchPreflight`
 - `slash_commands`
 - `socketPath`
@@ -1156,6 +1180,7 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
+- `claude-empty-`
 - `claude-folder`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
@@ -1201,6 +1226,7 @@ _None detected_
 - `opus-pro-update`
 - `sonnet-1m-welcome`
 - `sonnet-4`
+- `sonnet-4-5`
 
 ## Providers
 
