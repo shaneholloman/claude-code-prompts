@@ -17,6 +17,6 @@ Format a command message with name, args, and contents XML-like fields.
 
 # Raw Prompt Text
 <command-message>${EXPR_1} is ${EXPR_2}…<${PATH}>
-                    <command-name>${EXPR_3}<${PATH}>
-                    <command-args>${NUM}<${PATH}>
-                    <command-contents>${EXPR_4}<${PATH}>
+                      <command-name>${EXPR_3}<${PATH}>
+                      <command-args>${NUM}<${PATH}>
+                      <command-contents>${EXPR_4}<${PATH}>
