@@ -1,6 +1,6 @@
 # Tool Description: submit-feedback
 
-- Name: bug
+- Name: feedback
 
 ## Summary
 
