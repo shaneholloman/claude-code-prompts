@@ -11,7 +11,6 @@ Indicates failure creating the ANTHROPIC_API_KEY directory, including user and h
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Failed to create ANTHROPIC_API_KEY directory: ${EXPR_1}@${EXPR_2}
+Failed to create ANTHROPIC_API_KEY directory: ${EXPR_1}
