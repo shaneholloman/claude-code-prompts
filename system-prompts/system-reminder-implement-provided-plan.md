@@ -10,9 +10,9 @@ Directive to implement the provided plan text exactly as given.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | true | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Implement the following plan:
 
-${EXPR_1: true}
+${EXPR_1}
