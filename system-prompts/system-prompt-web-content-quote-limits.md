@@ -11,11 +11,12 @@ Answer only from supplied page content with limited quotes and no lyrics.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Web page content:
 ---
-${EXPR_1}
+mcp__${EXPR_1}__${EXPR_2}
 ---
 
 \\.\pipe\claude-mcp-browser-bridge-default
