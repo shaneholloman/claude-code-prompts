@@ -163,3 +163,6 @@ EOF
 Important:
 - NEVER update the git config
 - Return an empty response - the user will see the gh output directly
+
+# Other common operations
+- View comments on a Github PR: gh api repos${PATH}
