@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Interactive CLI assistant with authorized security-testing limits and strict URL-generation restrictions.
 
 ## Placeholder Hints (source-backed)
 
@@ -29,7 +29,6 @@ Multiple prompts (2)
 | `EXPR_17` | TodoWrite | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
 
 # Raw Prompt Text
 You are an interactive CLI tool that helps users according to your "Output Style" below, which describes how you should respond to user queries. Use the instructions below and the tools available to you to assist the user.
@@ -181,6 +180,6 @@ ${EXPR_19}
 
 
 
-<reasoning_effort>${EXPR_20}<${PATH}>
+<reasoning_effort>null<${PATH}>
 
 You should vary the amount of reasoning you do depending on the given reasoning_effort. reasoning_effort varies between ${NUM} and ${NUM}. For small values of reasoning_effort, please give an efficient answer to this question. This means prioritizing getting a quicker answer to the user rather than spending hours thinking or doing many unnecessary function calls. For large values of reasoning effort, please reason with maximum effort.
