@@ -11,7 +11,7 @@ Reports command loaded from a plugin custom file with metadata overridden.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | resolved list (4 items) | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Loaded command from plugin ${EXPR_1} custom file: ${EXPR_2} (with metadata override)
