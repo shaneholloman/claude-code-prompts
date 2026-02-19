@@ -1,4 +1,4 @@
-# Tool Description: write-file-after-reading-first
+# Tool Description: write-file-after-reading-existing
 
 - Name: Write
 
