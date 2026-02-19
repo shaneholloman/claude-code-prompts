@@ -10,16 +10,21 @@ Requests a fixed-length conversation title, returning only the title text.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Claude Code | None |
-| `EXPR_2` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | Claude Code | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${URL}
+Please write a ${NUM}-${NUM} word title the following conversation:
 
-${URL}
+${EXPR_1}
 
-You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
+
+Respond with the title for the conversation and nothing else.
+
+You are ${EXPR_2: 'Claude Code'}, Anthropic's official CLI for Claude.
+
+${NUM}
 
 ${NUM}
 
@@ -27,9 +32,7 @@ ${NUM}
 
 ${NUM}
 
-${NUM}
-
-${EXPR_2}
+${EXPR_3}
 
 underline
 
@@ -64,10 +67,3 @@ brightWhite
 brightCyan
 
 brightMagenta
-
-Please write a ${NUM}-${NUM} word title the following conversation:
-
-${EXPR_3}
-
-
-Respond with the title for the conversation and nothing else.
