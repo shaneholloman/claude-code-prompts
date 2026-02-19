@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.9
+# Prompt Stats 0.2.14
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -12,13 +12,15 @@
 | system | [System Prompt: Delegated Search Guidance](../system-prompts/system-prompt-delegated-search-guidance.md) | 1724 | 420 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Delphi Ui Components List](../system-prompts/system-prompt-delphi-ui-components-list.md) | 422 | 148 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 228 | 60 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 229 | 57 | 0.2.14 | 0.2.14 |
+| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 228 | 60 | 0.2.9 | 0.2.14 |
 | system | [System Prompt: Extract Command File Paths](../system-prompts/system-prompt-extract-command-file-paths.md) | 502 | 143 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Feedback Issue Title](../system-prompts/system-prompt-feedback-issue-title.md) | 220 | 56 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fetch Pr Comments](../system-prompts/system-prompt-fetch-pr-comments.md) | 1469 | 444 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: File Updated Snippet Output](../system-prompts/system-prompt-file-updated-snippet-output.md) | 117 | 38 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 292 | 81 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Initial Git Status Snapshot](../system-prompts/system-prompt-initial-git-status-snapshot.md) | 313 | 83 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Initial Git Status Snapshot](../system-prompts/system-prompt-initial-git-status-snapshot.md) | 316 | 83 | 0.2.14 | 0.2.14 |
+| system | [System Prompt: Read Directory](../system-prompts/system-prompt-read-directory.md) | 212 | 69 | 0.2.14 | 0.2.14 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Safe Bash Command Runner](../system-prompts/system-prompt-safe-bash-command-runner.md) | 9415 | 2389 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 10081 | 2353 | 0.2.9 | 0.2.9 |
@@ -29,9 +31,10 @@
 | system-data | [System Data: Ascii Art Banner](../system-prompts/system-data-ascii-art-banner.md) | 8491 | 2451 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 230 | 75 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 230 | 75 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 274 | 103 | 0.2.14 | 0.2.14 |
 | system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 230 | 75 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 219 | 68 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 274 | 103 | 0.2.14 | 0.2.14 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
@@ -70,8 +73,8 @@
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 378 | 127 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 565 | 166 | 0.2.9 | 0.2.14 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 0.2.14 |
 | system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Symbol Grid Ascii Art](../system-prompts/system-data-symbol-grid-ascii-art.md) | 261 | 164 | 0.2.9 | 0.2.9 |
