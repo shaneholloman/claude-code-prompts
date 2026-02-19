@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 14
+- Commands: 16
 - Options: 37
-- Env vars: 277
-- Config keys: 349
+- Env vars: 276
+- Config keys: 351
 - Tools: 3
 - Skills: 0
 - Models: 44
@@ -24,11 +24,13 @@
 - `list`
 - `mcp`
 - `migrate-installer`
+- `plugin`
 - `remove`
 - `reset-project-choices`
 - `serve`
 - `setup-token`
 - `update`
+- `validate`
 
 ### Specs
 
@@ -41,11 +43,13 @@
 - `list`
 - `mcp`
 - `migrate-installer`
+- `plugin`
 - `remove <name>`
 - `reset-project-choices`
 - `serve`
 - `setup-token`
 - `update`
+- `validate <path>`
 
 ## Options
 
@@ -241,7 +245,6 @@
 - `DYNO`
 - `EDITOR`
 - `ENABLE_BASH_WRAPPER_MATCHING`
-- `ENABLE_PLUGINS`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
@@ -413,12 +416,14 @@
 - `agentId`
 - `agents`
 - `allow`
+- `allowedTools`
 - `allowLocalBinding`
 - `allowUnixSockets`
 - `alwaysThinkingEnabled`
 - `api`
 - `apiKeyHelper`
 - `args`
+- `argumentHint`
 - `arguments`
 - `ask`
 - `async`
