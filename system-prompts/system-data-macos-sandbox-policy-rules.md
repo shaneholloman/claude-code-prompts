@@ -4,21 +4,14 @@
 
 ## Summary
 
-Sandbox policy denying by default, allowing process control and whitelisted Mach service lookups.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+Sandbox profile allowing specific process permissions and Mach service lookups.
 
 # Raw Prompt Text
 (version ${NUM})
 
-(deny default (with message "${EXPR_1}"))
+(deny default (with message "null"))
 
-; LogTag: ${EXPR_2}
+; LogTag: null
 
 ; Essential permissions - based on Chrome sandbox policy
 
