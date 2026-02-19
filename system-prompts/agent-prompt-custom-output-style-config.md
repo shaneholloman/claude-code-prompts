@@ -2,7 +2,7 @@
 
 - Agent Type: output-style-setup
 - When to use: Use this agent to create a Claude Code output style.
-- Tools: Read, Write, Edit, Glob, LS
+- Tools: Read, Write, Edit, Glob, LS, Grep
 - Model: sonnet
 - Source: built-in
 - Color: blue
