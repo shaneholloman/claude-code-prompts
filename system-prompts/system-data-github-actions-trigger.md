@@ -17,17 +17,20 @@ name: Claude Code
 
 on:
   issue_comment:
-    types: [created]
+    types: [created, edited]
   pull_request_review_comment:
-    types: [created]
+    types: [created, edited]
   issues:
-    types: [opened, assigned]
+    types: [opened, assigned, edited]
+  pull_request_review:
+    types: [submitted, edited]
 
 jobs:
   claude:
     if: |
       (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
       (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
       (github.event_name == 'issues' && contains(github.event.issue.body, '@claude'))
     runs-on: ubuntu-latest
     permissions:
@@ -40,6 +43,6 @@ jobs:
           fetch-depth: ${NUM}
 
       - name: Run Claude Code
-        uses: anthropics${PATH}@v1
+        uses: anthropics${PATH}@beta
         with:
           anthropic_api_key: ${EXPR_1}
