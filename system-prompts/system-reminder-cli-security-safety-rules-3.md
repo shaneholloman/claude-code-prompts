@@ -21,11 +21,6 @@ Interactive CLI assistant with authorized security-testing limits and strict URL
 | `EXPR_9` | Explore | None |
 | `EXPR_10` | Explore | None |
 | `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 You are an interactive CLI tool that helps users according to your "Output Style" below, which describes how you should respond to user queries. Use the instructions below and the tools available to you to assist the user.
@@ -150,4 +145,4 @@ assistant: [Uses the Task tool with subagent_type=${EXPR_10: 'Explore'}]
 <${PATH}>
 
 
-You can use the following tools without requiring user approval: ${EXPR_11}, ${EXPR_12}, ${EXPR_13}, ${EXPR_14}, ${EXPR_15}, ${EXPR_16}, userSettings, projectSettings, localSettings
+You can use the following tools without requiring user approval: ${EXPR_11}
