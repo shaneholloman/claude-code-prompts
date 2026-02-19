@@ -10,7 +10,7 @@ Logs commandPath check results showing whether it is a directory or file.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 
