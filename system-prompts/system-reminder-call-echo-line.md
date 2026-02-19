@@ -1,0 +1,17 @@
+# System Reminder: call-echo-line
+
+- Source: inline
+
+## Summary
+
+Log line noting a tool invocation and the exact input provided.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | JSON stringified value | None |
+
+# Raw Prompt Text
+Called the ${EXPR_1} tool with the following input: ${EXPR_2}
