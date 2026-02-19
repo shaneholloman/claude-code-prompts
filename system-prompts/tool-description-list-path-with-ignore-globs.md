@@ -1,6 +1,6 @@
 # Tool Description: list-path-with-ignore-globs
 
-- Name: LS
+- Name: LSTool
 
 ## Summary
 
