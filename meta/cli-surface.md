@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 30
-- Env vars: 217
-- Config keys: 253
+- Env vars: 215
+- Config keys: 254
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -194,7 +194,6 @@
 - `EDITOR`
 - `ENABLE_BACKGROUND_TASKS`
 - `FLY_REGION`
-- `FORCE_AUTO_BACKGROUND_TASKS`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
@@ -298,7 +297,6 @@
 - `TERMINATOR_UUID`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
-- `TMUX`
 - `UNDICI_NO_FG`
 - `USE_BUILTIN_RIPGREP`
 - `USE_LOCAL_OAUTH`
@@ -431,6 +429,7 @@
 - `id`
 - `idempotentHint`
 - `ideName`
+- `ideRunningInWindows`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
 - `input`

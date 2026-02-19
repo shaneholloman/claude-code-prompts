@@ -7,29 +7,29 @@
 
 ## Bundle
 
-- Entry bytes: 7676104 bytes
-- Entry lines: 2651
+- Entry bytes: 7678644 bytes
+- Entry lines: 2655
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 9993723 bytes
-- Pretty lines: 171576
+- Pretty bytes: 9997460 bytes
+- Pretty lines: 171665
 
 ## Inventory
 
-- File count: 53
-- Size bytes: 169304523
+- File count: 54
+- Size bytes: 169316284
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12407309 bytes
-- `.js`: 2 files, 7677070 bytes
+- `.js`: 2 files, 7679610 bytes
 - `.json`: 1 files, 1201 bytes
 - `.md`: 2 files, 2422 bytes
-- `.mjs`: 1 files, 9119 bytes
+- `.mjs`: 1 files, 9135 bytes
 - `.node`: 5 files, 122220044 bytes
-- `.ts`: 1 files, 3251 bytes
-- `.vsix`: 1 files, 100307 bytes
+- `.ts`: 2 files, 12155 bytes
+- `.vsix`: 1 files, 100608 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
@@ -37,7 +37,7 @@
 - `.exe`: 5407744 bytes
 - `.jar`: 12407309 bytes
 - `.node`: 122220044 bytes
-- `.vsix`: 100307 bytes
+- `.vsix`: 100608 bytes
 - `.wasm`: 88658 bytes
 
 ### Files
@@ -47,6 +47,7 @@
 - `package.json`
 - `README.md`
 - `scripts/preinstall.js`
+- `sdk-tools.d.ts`
 - `sdk.d.ts`
 - `sdk.mjs`
 - `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
@@ -98,19 +99,19 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 05:57:31 UTC
+- Snapshot generated at: 2026-02-18 05:59:15 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `ba8429a0668c76d37b826b73fa16b9a47a5f709c1cf22965c1c4d9e3479da1a1`
+- Config hash: `b4eef6e19ddae12edacc2937d1b9f48727df1085ae673188c47cf14c1124c006`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 270,318
+- Total prompt tokens: 270,382
 - Token p95 / p99: 1,000 / 2,810
 
 ### By Kind
 
-- `system-data`: 241,820 tokens (89.5%)
-- `system`: 17,681 tokens (6.5%)
+- `system-data`: 241,820 tokens (89.4%)
+- `system`: 17,740 tokens (6.6%)
 - `tool`: 5,961 tokens (2.2%)
-- `system-reminder`: 4,569 tokens (1.7%)
+- `system-reminder`: 4,574 tokens (1.7%)
 - `agent`: 287 tokens (0.1%)
