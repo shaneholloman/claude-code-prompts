@@ -4,12 +4,12 @@
 
 - Commands: 26
 - Options: 50
-- Env vars: 384
-- Config keys: 333
+- Env vars: 391
+- Config keys: 340
 - Tools: 3
 - Skills: 0
-- Models: 73
-- Providers: 8
+- Models: 81
+- Providers: 7
 
 ## Commands
 
@@ -246,6 +246,7 @@
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BASH_NO_LOGIN`
+- `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
 - `CLAUDE_CODE_AGENT_ID`
@@ -255,6 +256,7 @@
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
+- `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BUBBLEWRAP`
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
@@ -280,6 +282,7 @@
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
 - `CLAUDE_CODE_EXTRA_BODY`
+- `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
@@ -296,7 +299,6 @@
 - `CLAUDE_CODE_PARENT_SESSION_ID`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
-- `CLAUDE_CODE_PROFILE_QUERY`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_REMOTE`
@@ -339,6 +341,7 @@
 - `DENO_DEPLOYMENT_ID`
 - `DETECT_GCP_RETRIES`
 - `DEV`
+- `DISABLE_AUTO_COMPACT`
 - `DISABLE_AUTO_MIGRATE_TO_NATIVE`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
@@ -429,10 +432,12 @@
 - `MAX_STRUCTURED_OUTPUT_RETRIES`
 - `MAX_THINKING_TOKENS`
 - `MCP_OAUTH_CALLBACK_PORT`
+- `MCP_REMOTE_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
+- `MODIFIERS_NODE_PATH`
 - `MSYSTEM`
 - `N`
 - `NETLIFY`
@@ -499,6 +504,7 @@
 - `SWE_BENCH_RUN_ID`
 - `SWE_BENCH_TASK_ID`
 - `SYSTEMROOT`
+- `TASK_MAX_OUTPUT_LENGTH`
 - `TEMP`
 - `TENCENTCLOUD_APPID`
 - `TENCENTCLOUD_REGION`
@@ -512,6 +518,7 @@
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `TMPDIR`
+- `TMUX`
 - `UNDICI_NO_FG`
 - `USE_API_CLEAR_TOOL_RESULTS`
 - `USE_API_CLEAR_TOOL_USES`
@@ -563,6 +570,7 @@
 
 ## Config Keys
 
+- `__`
 - `$schema`
 - `A`
 - `activeForm`
@@ -602,6 +610,7 @@
 - `autoUpdatesChannel`
 - `awsAuthRefresh`
 - `awsCredentialExport`
+- `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
 - `behavior`
@@ -620,7 +629,6 @@
 - `checksum`
 - `cleanupPeriodDays`
 - `code`
-- `code_restored`
 - `codeText`
 - `command`
 - `commandName`
@@ -633,7 +641,6 @@
 - `content`
 - `contents`
 - `continue`
-- `course_correction`
 - `created_at`
 - `dangerouslyDisableSandbox`
 - `data`
@@ -720,7 +727,6 @@
 - `interrupted`
 - `isAgent`
 - `isImage`
-- `isLocal`
 - `keywords`
 - `label`
 - `language`
@@ -751,12 +757,15 @@
 - `multiSelect`
 - `name`
 - `network`
+- `networkTimeoutMs`
 - `new_source`
 - `newLines`
 - `newStart`
 - `newString`
 - `newTodos`
+- `newValue`
 - `noResponseRetries`
+- `notebook_path`
 - `numFiles`
 - `numLines`
 - `numMatches`
@@ -765,14 +774,17 @@
 - `oldStart`
 - `oldString`
 - `oldTodos`
+- `once`
 - `operation`
 - `options`
+- `original_file`
 - `originalFile`
 - `originalHeight`
 - `originalSize`
 - `originalWidth`
 - `otelHeadersHelper`
 - `output_tokens`
+- `outputFile`
 - `outputStyle`
 - `outputStyles`
 - `owner`
@@ -791,6 +803,7 @@
 - `plugins`
 - `policySettings`
 - `pr`
+- `previousValue`
 - `projectPath`
 - `projectSettings`
 - `prompt`
@@ -816,7 +829,6 @@
 - `resume`
 - `returnCodeInterpretation`
 - `ripgrep`
-- `Rk`
 - `ruleContent`
 - `rules`
 - `run_in_background`
@@ -830,6 +842,7 @@
 - `serverName`
 - `serverUrl`
 - `service_tier`
+- `setting`
 - `settings`
 - `shell_id`
 - `skill`
@@ -859,7 +872,6 @@
 - `syntaxHighlightingDisabled`
 - `systemMessage`
 - `tabId`
-- `target_message_preview`
 - `task`
 - `taskId`
 - `tasks`
@@ -882,6 +894,7 @@
 - `turns`
 - `type`
 - `updated_at`
+- `updated_file`
 - `updatedFields`
 - `updatedInput`
 - `updatedMCPToolOutput`
@@ -892,6 +905,7 @@
 - `userModified`
 - `userSettings`
 - `uuid`
+- `value`
 - `version`
 - `wasResolved`
 - `web_fetch_requests`
@@ -943,6 +957,8 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
+- `Claude-Generated-By:`
+- `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
@@ -970,17 +986,23 @@ _None detected_
 - `claude-review`
 - `claude-settings`
 - `claude-socks-`
+- `claude-sonnet-3-7`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
 - `claude-vscode`
+- `haiku-3-5`
 - `haiku-4`
+- `haiku-4-5`
 - `opus-4`
+- `opus-4-1`
 - `opus-4-5`
 - `opus-4.5-available`
 - `sonnet-1m-welcome`
+- `sonnet-3-7`
 - `sonnet-4`
+- `sonnet-4-5`
 - `sonnet-4.5-update`
 
 ## Providers
@@ -991,5 +1013,4 @@ _None detected_
 - `bedrock`
 - `foundry`
 - `google`
-- `openai`
 - `vertex`
