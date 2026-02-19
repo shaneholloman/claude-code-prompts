@@ -15,10 +15,10 @@ Multiple prompts (2)
 # Raw Prompt Text
 Web page content:
 ---
-${NUM}
+${EXPR_1}
 ---
 
-${EXPR_1}
+${NUM}
 
 Provide a concise response based only on the content above. In your response:
  - Enforce a strict ${NUM}-character maximum for quotes from any source document. Open Source Software is ok as long as we respect the license.
