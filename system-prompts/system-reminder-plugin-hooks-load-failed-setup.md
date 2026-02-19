@@ -10,7 +10,7 @@ Warns plugin hooks failed to load, so Setup hooks will not run, with error detai
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Warning: Failed to load plugin hooks. Setup hooks from plugins will not execute. Error: ${EXPR_1}
