@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 50
-- Env vars: 391
-- Config keys: 340
+- Env vars: 392
+- Config keys: 341
 - Tools: 3
 - Skills: 0
-- Models: 81
+- Models: 80
 - Providers: 7
 
 ## Commands
@@ -375,6 +375,7 @@
 - `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
+- `ENABLE_RELEASE_CHANNELS`
 - `ENABLE_TOOL_SEARCH`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -823,6 +824,7 @@
 - `repository`
 - `requestHandler`
 - `required`
+- `respectGitignore`
 - `result`
 - `resultCount`
 - `results`
@@ -957,7 +959,6 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
-- `Claude-Generated-By:`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
