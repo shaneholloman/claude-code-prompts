@@ -82,13 +82,13 @@ ${EXPR_17}
 
 ${EXPR_18}
 
+${EXPR_19}
+
 userSettings
 
 projectSettings
 
 localSettings
-
-${EXPR_19}
 
 ${EXPR_20}
 
@@ -96,4 +96,6 @@ ${EXPR_21}
 
 ${EXPR_22}
 
-Found ${EXPR_23} references across ${EXPR_24} files:
+${EXPR_23}
+
+Found ${EXPR_24} references across ${EXPR_25} files:
