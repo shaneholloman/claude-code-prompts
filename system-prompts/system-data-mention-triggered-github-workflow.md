@@ -61,4 +61,4 @@ jobs:
           # Optional: Add claude_args to customize behavior and configuration
           # See ${URL}
           # or ${URL} for available options
-          # claude_args: '--model claude-opus-${NUM}-${NUM}-${NUM} --allowed-tools Bash(gh pr:*)'
+          # claude_args: '--allowed-tools Bash(gh pr:*)'
