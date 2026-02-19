@@ -1,4 +1,4 @@
-# System Data Block: extended-background-bash-status
+# System Data Block: extended-background-bash-log
 
 - Source: inline
 
