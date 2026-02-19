@@ -103,7 +103,6 @@ It is more important to be correct than to avoid showing permission dialogs. The
 
 Use sandbox=true to improve UX, but ONLY per the rules above. WHEN IN DOUBT, USE sandbox=false.
 
-
 # Committing changes with git
 
 When the user asks you to create a new git commit, follow these steps carefully:
