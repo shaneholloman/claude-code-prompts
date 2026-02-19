@@ -16,13 +16,15 @@ Browser bridge task notification with pipe task-id, output path, status, and res
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 <task-notification>
 <task-id>\\.\pipe\claude-mcp-browser-bridge-default<${PATH}>
-<output-file>${EXPR_1}<${PATH}>
-<status>${EXPR_2}<${PATH}>
-<summary>[${EXPR_3}] [Claude Chrome Native Host] ${EXPR_4}${EXPR_5}
+<output-file>mcp__${EXPR_1}__${EXPR_2}<${PATH}>
+<status>${EXPR_3}<${PATH}>
+<summary>[${EXPR_4}] [Claude Chrome Native Host] ${EXPR_5}${EXPR_6}
 <${PATH}>
 <${PATH}>
-Read the output file to retrieve the result: ${EXPR_6}
+Read the output file to retrieve the result: mcp__${EXPR_7}__${EXPR_8}
