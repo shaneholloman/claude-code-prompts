@@ -11,11 +11,11 @@ Remote agent task notification including task ID, output path, status, and actio
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
+| `EXPR_6` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 <task-notification>
