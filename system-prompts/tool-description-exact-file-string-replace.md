@@ -1,4 +1,4 @@
-# Tool Description: exact-file-string-replacement
+# Tool Description: exact-file-string-replace
 
 - Name: Edit
 
