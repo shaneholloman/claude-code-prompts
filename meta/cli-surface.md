@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 24
 - Env vars: 161
-- Config keys: 135
+- Config keys: 136
 - Tools: 0
 - Skills: 0
 - Models: 22
@@ -266,7 +266,6 @@
 
 - `_meta`
 - `access_token`
-- `addToPrompt`
 - `allow`
 - `annotations`
 - `api`
@@ -326,6 +325,8 @@
 - `jwks_uri`
 - `libvips`
 - `line`
+- `lineEnd`
+- `lineStart`
 - `listChanged`
 - `logging`
 - `logo_uri`
