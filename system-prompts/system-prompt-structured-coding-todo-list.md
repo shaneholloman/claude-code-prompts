@@ -162,7 +162,7 @@ ${NUM}. **Task States**: Use these states to track progress:
 ${NUM}. **Task Management**:
    - Update task status in real-time as you work
    - Mark tasks complete IMMEDIATELY after finishing (don't batch completions)
-   - Only have ONE task in_progress at any time
+   - Exactly ONE task must be in_progress at any time (not less, not more)
    - Complete current tasks before starting new ones
    - Remove tasks that are no longer relevant from the list entirely
 
