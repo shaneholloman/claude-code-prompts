@@ -27,6 +27,7 @@ Specifies an API PUT request to update repository content with message and branc
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
 
 # Raw Prompt Text
 api
@@ -55,11 +56,9 @@ project
 
 local
 
-@anthropic-ai${PATH}
+${EXPR_6}
 
-pattern: "${EXPR_6}"
-
-${EXPR_7}
+pattern: "${EXPR_7}"
 
 ${EXPR_8}
 
@@ -80,3 +79,5 @@ ${EXPR_15}
 ${EXPR_16}
 
 ${EXPR_17}
+
+${EXPR_18}
