@@ -13,7 +13,6 @@ Warn that a manifest-specified hooks file is missing at the expected path.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Hooks file ${EXPR_1} specified in manifest but not found at ${EXPR_2}@${EXPR_3} for ${EXPR_4}
+Hooks file ${EXPR_1} specified in manifest but not found at ${EXPR_2} for ${EXPR_3}
