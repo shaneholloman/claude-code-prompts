@@ -4,7 +4,7 @@
 
 ## Summary
 
-Formats a task prompt and includes optional prior conversation context block.
+System reminder framing a task with optional local prior conversation context summary.
 
 ## Placeholder Hints (source-backed)
 
