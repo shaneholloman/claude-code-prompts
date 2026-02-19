@@ -13,10 +13,10 @@ Generate a NUM–NUM word conversation title following pattern and recent messag
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | false | None |
+| `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
+| `EXPR_7` | true | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
@@ -32,13 +32,13 @@ ${EXPR_2}
 
 ${EXPR_3}
 
-${EXPR_4: false}
+${EXPR_4}
 
 ${EXPR_5}
 
 ${EXPR_6}
 
-${EXPR_7}
+${EXPR_7: true}
 
 ${EXPR_8}
 
