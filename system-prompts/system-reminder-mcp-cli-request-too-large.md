@@ -10,7 +10,7 @@ Reports MCP CLI endpoint request exceeded the allowed size in bytes.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 [MCP CLI Endpoint] Request too large: ${EXPR_1} bytes
