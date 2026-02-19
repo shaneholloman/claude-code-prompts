@@ -1,0 +1,59 @@
+# Tool Description: update-and-resolve-tasks
+
+- Name: TaskUpdate
+
+## Summary
+
+Explains updating task fields, adding comments, and marking tasks resolved.
+
+# Raw Prompt Text
+Use this tool to update a task in the task list.
+
+## When to Use This Tool
+
+**Mark tasks as resolved:**
+- When you have completed the work described in a task
+- When a task is no longer needed or has been superseded
+- IMPORTANT: Always mark your assigned tasks as resolved when you finish them
+
+**Update task details:**
+- When requirements change or become clearer
+- When you need to add context via comments
+- When establishing dependencies between tasks
+
+## Fields You Can Update
+
+- **status**: Set to 'resolved' when work is complete, or 'open' to reopen
+- **subject**: Change the task title
+- **description**: Change the task description
+- **addComment**: Add a comment with {author, content} to track progress or decisions. **Teammates**: Use your `CLAUDE_CODE_AGENT_ID` environment variable as the author
+- **addReferences**: Link to related tasks (bidirectional)
+- **addBlocks**: Mark tasks that cannot start until this one completes
+- **addBlockedBy**: Mark tasks that must complete before this one can start
+
+## Task Ownership (IMPORTANT)
+
+**You MUST claim a task before updating it.** In a team context, you can only update tasks that are assigned to you.
+
+To claim a task, use TeammateTool with the `assignTask` or `claimTask` operation:
+- Team lead can assign tasks to teammates using `assignTask`
+- Teammates can self-claim using `claimTask`
+
+Attempting to update an unclaimed task or a task owned by another agent will fail with an error. Team leads can update any task.
+
+## Examples
+
+Mark task as resolved after completing work:
+```json
+{"taskId": "${NUM}", "status": "resolved"}
+```
+
+Add a progress comment (use your CLAUDE_CODE_AGENT_ID as author):
+```json
+{"taskId": "${NUM}", "addComment": {"author": "your-agent-id-here", "content": "Found the root cause, fixing now"}}
+```
+
+Mark resolved with a completion comment:
+```json
+{"taskId": "${NUM}", "status": "resolved", "addComment": {"author": "your-agent-id-here", "content": "Implemented and tested"}}
+```
