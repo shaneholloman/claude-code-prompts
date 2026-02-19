@@ -4,11 +4,11 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 235
-- Config keys: 266
+- Env vars: 236
+- Config keys: 267
 - Tools: 1
 - Skills: 0
-- Models: 30
+- Models: 34
 - Providers: 7
 
 ## Commands
@@ -104,7 +104,7 @@
 - `--mcp-debug`
 - `--model <model>`
 - `--session-id <uuid>`
-- `--settings <file>`
+- `--settings <file-or-json>`
 - `--strict-mcp-config`
 - `--verbose`
 - `-c, --continue`
@@ -337,6 +337,7 @@
 - `VERTEX_REGION_CLAUDE_3_7_SONNET`
 - `VERTEX_REGION_CLAUDE_4_0_OPUS`
 - `VERTEX_REGION_CLAUDE_4_0_SONNET`
+- `VERTEX_REGION_CLAUDE_4_1_OPUS`
 - `VISUAL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
@@ -444,6 +445,7 @@
 - `file`
 - `filenames`
 - `filePath`
+- `filterPattern`
 - `forceLoginMethod`
 - `format`
 - `grant_types`
@@ -524,7 +526,6 @@
 - `permissions`
 - `plan`
 - `policy_uri`
-- `priority`
 - `progress`
 - `progressToken`
 - `prompt`
@@ -593,6 +594,7 @@
 - `systemMessage`
 - `text`
 - `timeout`
+- `timestamp`
 - `title`
 - `tls_client_certificate_bound_access_tokens`
 - `token`
@@ -638,11 +640,11 @@ _None detected_
 - `claude-1.3-100k`
 - `claude-2.0`
 - `claude-2.1`
+- `claude-3-`
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
-- `claude-3-7`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
@@ -659,9 +661,13 @@ _None detected_
 - `claude-local`
 - `claude-opus-4`
 - `claude-opus-4-0`
+- `claude-opus-4-1`
+- `claude-opus-4-1-20250805`
 - `claude-opus-4-20250514`
+- `claude-prompt`
 - `claude-review`
 - `claude-sandbox-`
+- `claude-settings`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
 

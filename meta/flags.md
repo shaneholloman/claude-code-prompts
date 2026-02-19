@@ -1,7 +1,8 @@
-# Claude Code 1.0.68 – Flags
+# Claude Code 1.0.69 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
+| `cc_sr` | gate | safety | Controls availability of the security review prompt command in CLI commands list | Only observed gating command list filtering. | medium | 1 |
 | `claude_code_docs_config` | config | prompts | Configures CLI assistant documentation instructions and URL safety guidance in prompt | Appears to load docs-related prompt/config content. | high | 1 |
 | `claude_code_unicode_sanitize` | gate | tools | Optionally sanitize Unicode in MCP tool and prompt lists before mapping results. | IL() behavior not shown; inferred as sanitization step. | high | 2 |
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
