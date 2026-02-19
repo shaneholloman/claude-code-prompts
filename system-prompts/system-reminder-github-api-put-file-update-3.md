@@ -4,20 +4,34 @@
 
 ## Summary
 
-CLI sequence to PUT updated file content to a repository branch via API.
+API PUT template to update repository file using settings, session, message, content, branch.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | unknown | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
-start
+${EXPR_1}
+
+userSettings
+
+projectSettings
+
+localSettings
+
+cliArg
+
+session
+
+${EXPR_2: 'unknown'}
 
 api
 
@@ -25,16 +39,16 @@ api
 
 PUT
 
-repos/${EXPR_1}${PATH}${EXPR_2}
+repos/${EXPR_3}${PATH}${EXPR_4}
 
 -f
 
-message="Update ${EXPR_3}"
+message="Update ${EXPR_5}"
 
 -f
 
-content=${EXPR_4}
+content=${EXPR_6}
 
 -f
 
-branch=${EXPR_5}
+branch=${EXPR_7}
