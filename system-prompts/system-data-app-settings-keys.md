@@ -33,7 +33,7 @@ env
 
 tipsHistory
 
-parallelAgents
+parallelTasksCount
 
 todoFeatureEnabled
 
