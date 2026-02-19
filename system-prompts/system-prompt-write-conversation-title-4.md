@@ -21,4 +21,4 @@ ${EXPR_1}
 
 Respond with the title for the conversation and nothing else.
 
-app/${EXPR_2}
+${EXPR_2}
