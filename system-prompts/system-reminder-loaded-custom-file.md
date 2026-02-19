@@ -11,7 +11,7 @@ Reports agent loaded from a plugin custom file with its path.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Loaded agent from plugin ${EXPR_1} custom file: ${EXPR_2}
