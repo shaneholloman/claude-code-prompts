@@ -1,4 +1,4 @@
-# System Prompt: cite-with-limited-quotes
+# System Reminder: quote-limited-web-response
 
 - Source: inline
 
