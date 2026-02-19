@@ -12,7 +12,6 @@ Log remote teleport git source summary, identifier, and revision hash.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-[teleportToRemote] Git source:  summary="${EXPR_1}"/${EXPR_2}, revision: ${EXPR_3}
+[teleportToRemote] Git source:  summary="${EXPR_1}"${PATH}, revision: ${EXPR_2}
