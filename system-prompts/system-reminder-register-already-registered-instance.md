@@ -10,7 +10,7 @@ Attempted to register an instance that was already registered, with instance ide
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | \ud800-\udfff | None |
 
 # Raw Prompt Text
-Tried to register registered instance: [^${EXPR_1}]
+Tried to register registered instance: [^${EXPR_1: '\\ud800-\\udfff'}]
