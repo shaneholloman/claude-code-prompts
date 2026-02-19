@@ -21,7 +21,7 @@ Use this tool to list all tasks in the task list.
 - To see what tasks are available to work on (status: 'pending', no owner, not blocked)
 - To check overall progress on the project
 - To find tasks that are blocked and need dependencies resolved
-\\.\pipe\claude-mcp-browser-bridge-default- After completing a task, to check for newly unblocked work or claim the next available task
+${PATH} After completing a task, to check for newly unblocked work or claim the next available task
 
 ## Output
 
