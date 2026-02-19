@@ -10,7 +10,7 @@ Operation failed to complete, with an error message explaining the failure.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Failed to ${EXPR_1}: ${NUM}
+Failed to ${NUM}: ${EXPR_1}
