@@ -10,7 +10,7 @@ Inline content command failed to load from a plugin in global scope.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
