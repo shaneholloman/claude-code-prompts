@@ -15,6 +15,8 @@ Create a short conversation title from the latest messages, using provided file 
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 --files
@@ -40,8 +42,36 @@ ${EXPR_5}
 
 Respond with the title for the conversation and nothing else.
 
+${EXPR_6}
+
 uninstall
 
 -g
 
 --force
+
+<!DOCTYPE html>
+
+<html>
+
+<${PATH}>
+
+${EXPR_7}
+
+uninstall
+
+-g
+
+--force
+
+<!DOCTYPE html>
+
+<html>
+
+<${PATH}>
+
+<!DOCTYPE html>
+
+<html>
+
+<${PATH}>
