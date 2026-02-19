@@ -1,4 +1,4 @@
-# System Data Block: bedrock-invocation-job-response-2
+# System Data Block: bedrock-invocation-job-summary
 
 - Source: inline
 
