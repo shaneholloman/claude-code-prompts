@@ -1,6 +1,6 @@
 # Tool Description: exit-planning-when-ready
 
-- Name: exit_plan_mode
+- Name: ExitPlanMode
 
 ## Summary
 
