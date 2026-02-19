@@ -13,7 +13,6 @@ Extract repeatable workflow from session context, then interview user to formali
 | `userDescriptionBlock` | User-provided description header/context for the skillification request | None |
 | `sessionMemory` | Condensed memory summary of the prior session to analyze | None |
 | `userMessages` | Full list or transcript of the user's messages from the session | None |
-| `skillName` | Canonical skill identifier (often TitleCase or internal name) | None |
 | `skill_name` | Alternative skill identifier (often snake_case) used in templates | None |
 | `one_line_description` | Single-sentence/short phrase description of what the skill does | None |
 | `list_of_tool_permission_patterns_observe` | Enumerated tool/permission patterns to watch for while analyzing the session | None |
@@ -69,6 +68,9 @@ You will use the AskUserQuestion to understand what the user wants to automate. 
 - Present the high-level steps you identified as a numbered list. Tell the user you will dig into the detail in the next round.
 - If you think the skill will require arguments, suggest arguments based on what you observed. Make sure you understand what someone would need to provide.
 - If it's not clear, ask if this skill should run inline (in the current conversation) or forked (as a sub-agent with its own context). Forked is better for self-contained tasks that don't need mid-process user input; inline is better when the user wants to steer mid-process.
+- Ask where the skill should be saved. Suggest a default based on context (repo-specific workflows → repo, cross-repo personal workflows → user). Options:
+  - **This repo** (`.claude${PATH}<name>${PATH}`) — for workflows specific to this project
+  - **Personal** (`~${PATH}<name>${PATH}`) — follows you across all repos
 
 **Round ${NUM}: Breaking down each step**
 For each major step, if it's not glaringly obvious, ask:
@@ -91,7 +93,7 @@ Stop interviewing once you have enough information. IMPORTANT: Don't over-ask fo
 
 ### Step ${NUM}: Write the SKILL.md
 
-Create the skill directory and file at `.claude${PATH}{{skillName}}${PATH}`.
+Create the skill directory and file at the location the user chose in Round ${NUM}.
 
 Use this format:
 
@@ -149,7 +151,7 @@ IMPORTANT: see the next section below for the per-step annotations you can optio
 
 ### Step ${NUM}: Confirm and Save
 
-Before writing the file, show the user the complete SKILL.md content and ask for final confirmation using AskUserQuestion.
+Before writing the file, output the complete SKILL.md content as a yaml code block in your response so the user can review it with proper syntax highlighting. Then ask for confirmation using AskUserQuestion with a simple question like "Does this SKILL.md look good to save?" — do NOT use the body field, keep the question concise.
 
 After writing, tell the user:
 - Where the skill was saved
