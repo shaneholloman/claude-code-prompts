@@ -10,10 +10,10 @@ Provide HTTP request timing event markers from redirect start through response e
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | claude-code-20250219 | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-${EXPR_1: 'claude-code-20250219'}
+${EXPR_1}
 
 http.request.redirect_start
 
