@@ -31,7 +31,7 @@ Usage notes:
   - You can specify an optional timeout in milliseconds (up to 600000ms / ${EXPR_1} minutes). If not specified, commands will timeout after 120000ms (${EXPR_2} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
   - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
-  - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use GrepTool, GlobTool, or dispatch_agent to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use View and LS to read files.
+  - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use GrepTool, GlobTool, or AgentTool to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use View and LSTool to read files.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
   - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
     <good-example>
