@@ -1,6 +1,6 @@
 # Tool Description: chrome-native-host-log
 
-- Name: external_tool_search_env_var
+- Name: 0
 
 ## Summary
 
