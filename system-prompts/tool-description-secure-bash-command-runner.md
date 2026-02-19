@@ -126,7 +126,7 @@ ${NUM}. Use ${EXPR_14: 'BatchTool'} to run the following commands in parallel, i
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
    - Run a git log command and `git diff main...HEAD` to understand the full commit history for the current branch (from the time it diverged from the `main` branch)
 
-${NUM}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (not just the latest commit, but all commits that will be included in the pull request!), and draft a pull request summary. Wrap your analysis process in <pr_analysis> tags:
+${NUM}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request!!!), and draft a pull request summary. Wrap your analysis process in <pr_analysis> tags:
 
 <pr_analysis>
 - List the commits since diverging from the main branch
