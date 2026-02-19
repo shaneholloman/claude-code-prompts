@@ -21,6 +21,9 @@ Generate a num-word conversation title with embedded GitHub API PUT update param
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
 
 # Raw Prompt Text
 Please write a ${NUM}-${NUM} word title for the following conversation:
@@ -38,6 +41,44 @@ ${EXPR_5}
 
 ${EXPR_6}
 
+${EXPR_7}
+
+${EXPR_8}
+
+${EXPR_9}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
 --files
 
 --follow
@@ -50,19 +91,19 @@ api
 
 PUT
 
-repos/${EXPR_7}${PATH}${EXPR_8}
+repos/${EXPR_10}${PATH}${EXPR_11}
 
 -f
 
-message="Update ${EXPR_9}"
+message="Update ${EXPR_12}"
 
 -f
 
-content=${EXPR_10}
+content=${EXPR_13}
 
 -f
 
-branch=${EXPR_11}
+branch=${EXPR_14}
 
 ${NUM}
 
