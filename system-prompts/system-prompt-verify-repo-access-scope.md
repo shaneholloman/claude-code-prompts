@@ -10,10 +10,10 @@ Validate GitHub repository name, access permissions, and token scopes for privat
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | false | None |
 
 # Raw Prompt Text
-Check that the repository name is correct: ${EXPR_1}
+Check that the repository name is correct: ${EXPR_1: false}
 
 Ensure you have access to this repository
 
