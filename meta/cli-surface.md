@@ -4,11 +4,11 @@
 
 - Commands: 16
 - Options: 35
-- Env vars: 246
-- Config keys: 273
+- Env vars: 248
+- Config keys: 269
 - Tools: 3
 - Skills: 0
-- Models: 35
+- Models: 34
 - Providers: 7
 
 ## Commands
@@ -132,6 +132,8 @@
 - `ANTHROPIC_BASE_URL`
 - `ANTHROPIC_BETAS`
 - `ANTHROPIC_CUSTOM_HEADERS`
+- `ANTHROPIC_DEFAULT_OPUS_MODEL`
+- `ANTHROPIC_DEFAULT_SONNET_MODEL`
 - `ANTHROPIC_LOG`
 - `ANTHROPIC_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL`
@@ -230,12 +232,12 @@
 - `GCLOUD_PROJECT`
 - `GCP_PROJECT`
 - `GITHUB_ACTION_INPUTS`
-- `GITHUB_ACTION_REF`
-- `GITHUB_ACTION_REPOSITORY`
+- `GITHUB_ACTION_PATH`
 - `GITHUB_ACTIONS`
 - `GITHUB_ACTOR`
 - `GITHUB_ACTOR_ID`
 - `GITHUB_EVENT_NAME`
+- `GITHUB_REPOSITORY`
 - `GITHUB_REPOSITORY_ID`
 - `GITHUB_REPOSITORY_OWNER`
 - `GITHUB_REPOSITORY_OWNER_ID`
@@ -373,7 +375,6 @@
 ## Config Keys
 
 - `_meta`
-- `-c`
 - `$schema`
 - `access_token`
 - `additionalContext`
@@ -420,10 +421,8 @@
 - `content`
 - `contents`
 - `continue`
-- `core.fsmonitor=false`
 - `costPriority`
 - `created_at`
-- `credential.helper=`
 - `data`
 - `decision`
 - `default`
@@ -504,7 +503,6 @@
 - `logging`
 - `login`
 - `logo_uri`
-- `maintenance.auto=false`
 - `matcher`
 - `maximum`
 - `maxLength`
@@ -688,7 +686,6 @@ _None detected_
 - `claude-opus-4-20250514`
 - `claude-prompt`
 - `claude-review`
-- `claude-sandbox-`
 - `claude-settings`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
