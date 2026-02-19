@@ -10,16 +10,15 @@ Delegate multi-step tasks to specialized subagents and prefer direct search tool
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | Read | None |
+| `EXPR_1` | Read | None |
+| `EXPR_2` | Glob | None |
 | `EXPR_3` | Glob | None |
-| `EXPR_4` | Glob | None |
-| `EXPR_5` | Read | None |
-| `EXPR_6` | Task | None |
+| `EXPR_4` | Read | None |
+| `EXPR_5` | Task | None |
+| `EXPR_6` | Write | None |
 | `EXPR_7` | Write | None |
-| `EXPR_8` | Write | None |
+| `EXPR_8` | Task | None |
 | `EXPR_9` | Task | None |
-| `EXPR_10` | Task | None |
 
 # Raw Prompt Text
 Launch a new agent to handle complex, multi-step tasks autonomously.
@@ -27,14 +26,13 @@ Launch a new agent to handle complex, multi-step tasks autonomously.
 Available agent types and the tools they have access to:
 ${URL}
 ${URL}
-${EXPR_1}
 
 When using the Task tool, you must specify a subagent_type parameter to select which agent type to use.
 
 When NOT to use the Agent tool:
-- If you want to read a specific file path, use the ${EXPR_2: 'Read'} or ${EXPR_3: 'Glob'} tool instead of the Agent tool, to find the match more quickly
-- If you are searching for a specific class definition like "class Foo", use the ${EXPR_4: 'Glob'} tool instead, to find the match more quickly
-- If you are searching for code within a specific file or set of ${NUM}-${NUM} files, use the ${EXPR_5: 'Read'} tool instead of the Agent tool, to find the match more quickly
+- If you want to read a specific file path, use the ${EXPR_1: 'Read'} or ${EXPR_2: 'Glob'} tool instead of the Agent tool, to find the match more quickly
+- If you are searching for a specific class definition like "class Foo", use the ${EXPR_3: 'Glob'} tool instead, to find the match more quickly
+- If you are searching for code within a specific file or set of ${NUM}-${NUM} files, use the ${EXPR_4: 'Read'} tool instead of the Agent tool, to find the match more quickly
 - Other tasks that are not related to the agent descriptions above
 
 
@@ -45,7 +43,7 @@ ${NUM}. Each agent invocation is stateless. You will not be able to send additio
 ${NUM}. The agent's outputs should generally be trusted
 ${NUM}. Clearly tell the agent whether you expect it to write code or just to do research (search, file reads, web fetches, etc.), since it is not aware of the user's intent
 ${NUM}. If the agent description mentions that it should be used proactively, then you should try your best to use it without the user having to ask for it first. Use your judgement.
-${NUM}. If the user specifies that they want you to run agents "in parallel", you MUST send a single message with multiple ${EXPR_6: 'Task'} tool use content blocks. For example, if you need to launch both a code-reviewer agent and a test-runner agent in parallel, send a single message with both tool calls.
+${NUM}. If the user specifies that they want you to run agents "in parallel", you MUST send a single message with multiple ${EXPR_5: 'Task'} tool use content blocks. For example, if you need to launch both a code-reviewer agent and a test-runner agent in parallel, send a single message with both tool calls.
 
 Example usage:
 
@@ -57,8 +55,8 @@ Example usage:
 <example>
 user: "Please write a function that checks if a number is prime"
 assistant: Sure let me write a function that checks if a number is prime
-assistant: First let me use the ${EXPR_7: 'Write'} tool to write a function that checks if a number is prime
-assistant: I'm going to use the ${EXPR_8: 'Write'} tool to write the following code:
+assistant: First let me use the ${EXPR_6: 'Write'} tool to write a function that checks if a number is prime
+assistant: I'm going to use the ${EXPR_7: 'Write'} tool to write the following code:
 <code>
 function isPrime(n) {
   if (n <= ${NUM}) return false
@@ -72,7 +70,7 @@ function isPrime(n) {
 Since a signficant piece of code was written and the task was completed, now use the code-reviewer agent to review the code
 <${PATH}>
 assistant: Now let me use the code-reviewer agent to review the code
-assistant: Uses the ${EXPR_9: 'Task'} tool to launch the with the code-reviewer agent
+assistant: Uses the ${EXPR_8: 'Task'} tool to launch the with the code-reviewer agent
 <${PATH}>
 
 <example>
@@ -80,5 +78,5 @@ user: "Hello"
 <commentary>
 Since the user is greeting, use the greeting-responder agent to respond with a friendly joke
 <${PATH}>
-assistant: "I'm going to use the ${EXPR_10: 'Task'} tool to launch the with the greeting-responder agent"
+assistant: "I'm going to use the ${EXPR_9: 'Task'} tool to launch the with the greeting-responder agent"
 <${PATH}>
