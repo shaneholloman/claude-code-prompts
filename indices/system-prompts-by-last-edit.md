@@ -1,37 +1,36 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **123**
+- Total prompt files: **122**
 
 ## Categories
 
-- System prompts (35)
-- Tool prompts (27)
-- System data (61)
+- System prompts (34)
+- Tool prompts (26)
+- System data (62)
 
-## System prompts (35)
+## System prompts (34)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-cli-coding-safety-rules.md`](../system-prompts/system-prompt-cli-coding-safety-rules.md) | Interactive CLI assistant for software tasks with strict refusal of malicious code help. | 3,142 | 0.2.76 | 0.2.76 |
+| [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,046 | 0.2.60 | 0.2.76 |
+| [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.76 |
+| [`system-prompt-grhx-object-token-list.md`](../system-prompts/system-prompt-grhx-object-token-list.md) | Long enumeration of internal object and constant tokens. | 921 | 0.2.76 | 0.2.76 |
+| [`system-prompt-delegated-search-vs-direct-lookup.md`](../system-prompts/system-prompt-delegated-search-vs-direct-lookup.md) | Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools. | 433 | 0.2.72 | 0.2.76 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.76 |
+| [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 | [`system-prompt-whimsical-safe-gerund-verb.md`](../system-prompts/system-prompt-whimsical-safe-gerund-verb.md) | Create a single capitalized gerund verb with playful surprise while avoiding destructive or offensive terms. | 131 | 0.2.74 | 0.2.74 |
 | [`system-prompt-safe-bash-command-runner-2.md`](../system-prompts/system-prompt-safe-bash-command-runner-2.md) | Run shell commands with directory checks and security restrictions against banned utilities. | 2,976 | 0.2.73 | 0.2.73 |
 | [`system-prompt-snapshot-aliases-and-path.md`](../system-prompts/system-prompt-snapshot-aliases-and-path.md) | Write a shell snapshot file that unaliases, captures aliases, and exports PATH. | 261 | 0.2.73 | 0.2.73 |
-| [`system-prompt-snapshot-shell-functions-options.md`](../system-prompts/system-prompt-snapshot-shell-functions-options.md) | Write user-defined functions and enabled shell options into a snapshot file. | 213 | 0.2.73 | 0.2.73 |
 | [`system-prompt-snapshot-zsh-functions-options.md`](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | Capture zsh functions and active options into a snapshot file. | 158 | 0.2.73 | 0.2.73 |
-| [`system-prompt-pasted-object-enum-garbage.md`](../system-prompts/system-prompt-pasted-object-enum-garbage.md) | Long pasted stream of object and enum-like tokens. | 1,192 | 0.2.72 | 0.2.72 |
-| [`system-prompt-assisted-search-guidelines.md`](../system-prompts/system-prompt-assisted-search-guidelines.md) | Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools. | 433 | 0.2.72 | 0.2.72 |
 | [`system-prompt-local-file-read.md`](../system-prompts/system-prompt-local-file-read.md) | Instructions for a tool that reads local files and images by absolute path. | 314 | 0.2.72 | 0.2.72 |
 | [`system-prompt-multi-synthesis.md`](../system-prompts/system-prompt-multi-synthesis.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 0.2.72 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.72 |
-| [`system-prompt-parallel-agents-token-note.md`](../system-prompts/system-prompt-parallel-agents-token-note.md) | Announces enabled parallel agents count and warns of multiplied token usage overhead. | 49 | 0.2.72 | 0.2.72 |
-| [`system-prompt-cli-coding-safety-rules.md`](../system-prompts/system-prompt-cli-coding-safety-rules.md) | Interactive CLI assistant for software tasks with strict refusal of malicious code help. | 2,809 | 0.2.66 | 0.2.66 |
 | [`system-prompt-follow-codebase-user.md`](../system-prompts/system-prompt-follow-codebase-user.md) | Strictly follow shown codebase and user instructions, overriding all default behaviors. | 47 | 0.2.64 | 0.2.64 |
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.62 |
 | [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 77 | 0.2.32 | 0.2.62 |
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 52 | 0.2.30 | 0.2.62 |
-| [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Multiple prompts (2) | 1,046 | 0.2.60 | 0.2.61 |
-| [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.61 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.60 | 0.2.60 |
 | [`system-prompt-create-md-guidelines.md`](../system-prompts/system-prompt-create-md-guidelines.md) | Analyze repository to write or improve CLAUDE.md with build commands and code style rules. | 218 | 0.2.59 | 0.2.59 |
 | [`system-prompt-summarize-shell-command.md`](../system-prompts/system-prompt-summarize-shell-command.md) | Write a brief input-output description of a shell command in a few words. | 78 | 0.2.59 | 0.2.59 |
@@ -50,17 +49,16 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
-## Tool prompts (27)
+## Tool prompts (26)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-update-session-todos.md`](../system-prompts/tool-description-update-session-todos.md) | Add and maintain session to-dos to track progress and capture new work items. | 270 | 0.2.76 | 0.2.76 |
 | [`tool-description-restricted-shell-command-runner.md`](../system-prompts/tool-description-restricted-shell-command-runner.md) | Execute a bash command with directory checks, timeouts, truncation limits, and blocked search commands. | 3,014 | 0.2.73 | 0.2.73 |
 | [`tool-description-read-session-todo-list.md`](../system-prompts/tool-description-read-session-todo-list.md) | Retrieve the current session to-do list frequently to stay aligned on tasks. | 254 | 0.2.73 | 0.2.73 |
 | [`tool-description-filesystem-file-reader.md`](../system-prompts/tool-description-filesystem-file-reader.md) | Read a local file by absolute path with line limits, truncation, and image support. | 328 | 0.2.72 | 0.2.72 |
-| [`tool-description-toggle-parallel-agents-setting.md`](../system-prompts/tool-description-toggle-parallel-agents-setting.md) | Tool description for enabling or setting parallel agent execution. | 10 | 0.2.72 | 0.2.72 |
-| [`tool-description-update-session-todos.md`](../system-prompts/tool-description-update-session-todos.md) | Add and maintain session to-dos to track progress and capture new work items. | 247 | 0.2.66 | 0.2.66 |
 | [`tool-description-edit-files-by-replacement.md`](../system-prompts/tool-description-edit-files-by-replacement.md) | Edit files by exact string replacement with path checks, context viewing, and replacement counts. | 851 | 0.2.57 | 0.2.57 |
 | [`tool-description-clear-chat-keep-summary.md`](../system-prompts/tool-description-clear-chat-keep-summary.md) | Clears conversation history while retaining a summary in context. | 24 | 0.2.54 | 0.2.57 |
 | [`tool-description-fetch-url-analyze-content.md`](../system-prompts/tool-description-fetch-url-analyze-content.md) | Fetch a URL, convert it to markdown, and analyze it with a small model using a given query. | 271 | 0.2.54 | 0.2.54 |
@@ -84,23 +82,25 @@ _Sorted by last edit (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (61)
+## System data (62)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.74 |
-| [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 166 | 0.2.66 | 0.2.74 |
+| [`system-data-shell-function-snapshot-script.md`](../system-prompts/system-data-shell-function-snapshot-script.md) | Bash snippet that snapshots functions and shell options into a file using base64-encoded eval. | 296 | 0.2.76 | 0.2.76 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.76 |
+| [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 166 | 0.2.66 | 0.2.76 |
+| [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 166 | 0.2.66 | 0.2.76 |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.76 |
+| [`system-data-runtime-environment-details.md`](../system-prompts/system-data-runtime-environment-details.md) | Environment metadata: working directory, platform, OS version, date, model, and git repo status. | 81 | 0.2.76 | 0.2.76 |
+| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.76 |
+| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 75 | 0.2.9 | 0.2.76 |
+| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.76 |
+| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 68 | 0.2.9 | 0.2.76 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.74 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.74 |
-| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 75 | 0.2.9 | 0.2.74 |
-| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.74 |
-| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.74 |
-| [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 68 | 0.2.9 | 0.2.74 |
 | [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.73 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.73 |
-| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 166 | 0.2.66 | 0.2.72 |
 | [`system-data-user-settings-flags-list.md`](../system-prompts/system-data-user-settings-flags-list.md) | List of internal user settings and feature flags. | 71 | 0.2.72 | 0.2.72 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 283 | 0.2.66 | 0.2.66 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 0.2.64 |
@@ -145,7 +145,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-swift-compiler-directives-list.md`](../system-prompts/system-data-swift-compiler-directives-list.md) | List of Swift compiler directives and magic literals. | 83 | 0.2.9 | 0.2.9 |
 | [`system-data-csharp-query-keywords-list.md`](../system-prompts/system-data-csharp-query-keywords-list.md) | Lists query and async-related language keywords. | 81 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-keyword-list.md`](../system-prompts/system-data-javascript-keyword-list.md) | List of JavaScript reserved words and control-flow keywords. | 76 | 0.2.9 | 0.2.9 |
-| [`system-data-runtime-environment-metadata.md`](../system-prompts/system-data-runtime-environment-metadata.md) | Display environment details like working directory, platform, date, model, and PATH. | 71 | 0.2.9 | 0.2.9 |
 | [`system-data-julia-keywords-list.md`](../system-prompts/system-data-julia-keywords-list.md) | List of Julia language keywords and core syntactic forms. | 69 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-current-context-functions.md`](../system-prompts/system-data-sql-current-context-functions.md) | Lists SQL current context and time functions. | 69 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-data-types-list.md`](../system-prompts/system-data-sql-data-types-list.md) | Lists SQL numeric, character, binary, and temporal types. | 64 | 0.2.9 | 0.2.9 |

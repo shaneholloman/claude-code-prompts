@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 14
-- Options: 18
-- Env vars: 127
-- Config keys: 73
+- Options: 19
+- Env vars: 149
+- Config keys: 120
 - Tools: 0
 - Skills: 0
-- Models: 17
+- Models: 18
 - Providers: 7
 
 ## Commands
@@ -60,6 +60,7 @@
 - `--env`
 - `--global`
 - `--json`
+- `--mcp-config`
 - `--mcp-debug`
 - `--output-format`
 - `--print`
@@ -78,6 +79,7 @@
 - `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
 - `--json`
+- `--mcp-config <file>`
 - `--mcp-debug`
 - `--output-format <format>`
 - `--verbose`
@@ -111,6 +113,7 @@
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
+- `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
@@ -147,6 +150,14 @@
 - `GOOGLE_APPLICATION_CREDENTIALS`
 - `GOOGLE_CLOUD_PROJECT`
 - `GOOGLE_CLOUD_QUOTA_PROJECT`
+- `GRPC_DEFAULT_SSL_ROOTS_FILE_PATH`
+- `GRPC_EXPERIMENTAL_ENABLE_OUTLIER_DETECTION`
+- `GRPC_NODE_TRACE`
+- `GRPC_NODE_USE_ALTERNATIVE_RESOLVER`
+- `GRPC_NODE_VERBOSITY`
+- `GRPC_SSL_CIPHER_SUITES`
+- `GRPC_TRACE`
+- `GRPC_VERBOSITY`
 - `HOME`
 - `HTTP_PROXY`
 - `HTTPS_PROXY`
@@ -166,7 +177,19 @@
 - `NO_PROXY`
 - `NODE_DEBUG`
 - `NODE_OPTIONS`
+- `OSTYPE`
+- `OTEL_EXPORTER_OTLP_ENDPOINT`
+- `OTEL_EXPORTER_OTLP_HEADERS`
+- `OTEL_EXPORTER_OTLP_INSECURE`
+- `OTEL_EXPORTER_OTLP_METRICS_PROTOCOL`
+- `OTEL_EXPORTER_OTLP_PROTOCOL`
+- `OTEL_EXPORTER_PROMETHEUS_HOST`
+- `OTEL_EXPORTER_PROMETHEUS_PORT`
+- `OTEL_METRIC_EXPORT_INTERVAL`
+- `OTEL_METRICS_EXPORTER`
 - `PATH`
+- `PATHEXT`
+- `PERSIST_OAUTH_TOKENS`
 - `PKG_CONFIG_PATH`
 - `REGION_NAME`
 - `SENTRY_BAGGAGE`
@@ -187,6 +210,7 @@
 - `STY`
 - `SWE_BENCH`
 - `SYSTEMROOT`
+- `TEMP`
 - `TENCENTCLOUD_APPID`
 - `TENCENTCLOUD_REGION`
 - `TENCENTCLOUD_ZONE`
@@ -221,15 +245,26 @@
 ## Config Keys
 
 - `_meta`
+- `access_token`
 - `allow`
 - `api`
 - `args`
 - `arguments`
+- `authorization_endpoint`
 - `character`
 - `charset`
+- `client_id`
+- `client_id_issued_at`
+- `client_name`
+- `client_secret`
+- `client_secret_expires_at`
+- `client_uri`
 - `code`
+- `code_challenge_methods_supported`
 - `command`
+- `completions`
 - `compressible`
+- `contacts`
 - `content`
 - `costPriority`
 - `data`
@@ -238,21 +273,34 @@
 - `end`
 - `env`
 - `error`
+- `error_description`
+- `error_uri`
 - `experimental`
+- `expires_in`
 - `extensions`
 - `filePath`
+- `grant_types`
+- `grant_types_supported`
 - `hasMore`
 - `hints`
 - `httpMethodsToRetry`
 - `id`
+- `initialWindowSize`
 - `input`
 - `inputSchema`
 - `intelligencePriority`
+- `introspection_endpoint`
+- `introspection_endpoint_auth_methods_supported`
+- `introspection_endpoint_auth_signing_alg_values_supported`
+- `issuer`
 - `jsonrpc`
+- `jwks`
+- `jwks_uri`
 - `libvips`
 - `line`
 - `listChanged`
 - `logging`
+- `logo_uri`
 - `mcpServers`
 - `message`
 - `method`
@@ -261,6 +309,7 @@
 - `noResponseRetries`
 - `params`
 - `permissions`
+- `policy_uri`
 - `priority`
 - `progress`
 - `progressToken`
@@ -268,23 +317,45 @@
 - `prompts`
 - `properties`
 - `reason`
+- `redirect_uris`
+- `refresh_token`
+- `registration_endpoint`
 - `required`
 - `resource`
 - `resources`
+- `response_modes_supported`
+- `response_types`
+- `response_types_supported`
 - `result`
+- `revocation_endpoint`
+- `revocation_endpoint_auth_methods_supported`
+- `revocation_endpoint_auth_signing_alg_values_supported`
 - `role`
 - `roots`
 - `sampling`
+- `scope`
+- `scopes_supported`
 - `selection`
 - `server`
+- `service_documentation`
+- `software_id`
+- `software_version`
 - `source`
 - `speedPriority`
 - `start`
 - `status`
 - `subscribe`
 - `text`
+- `token`
+- `token_endpoint`
+- `token_endpoint_auth_method`
+- `token_endpoint_auth_methods_supported`
+- `token_endpoint_auth_signing_alg_values_supported`
+- `token_type`
+- `token_type_hint`
 - `tool_name`
 - `tools`
+- `tos_uri`
 - `total`
 - `type`
 - `uri`
@@ -315,6 +386,7 @@ _None detected_
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
 - `claude-cli`
+- `claude-code`
 - `claude-code-20250219`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
