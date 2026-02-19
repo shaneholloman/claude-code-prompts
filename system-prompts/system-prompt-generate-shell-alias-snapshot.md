@@ -16,35 +16,34 @@ Generate a shell alias snapshot file by unaliasing first, then writing filtered 
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
-SNAPSHOT_FILE=${EXPR_1}
-      source "${EXPR_2}" < ${PATH}
+source "${EXPR_1}" < ${PATH} > ${PATH} ${NUM}>&${NUM}
 
-      # First, create${PATH} the snapshot file
-      echo "# Snapshot file" >| "$SNAPSHOT_FILE"
+      # First, output snapshot header
+      echo "# Snapshot file"
 
       # When this file is sourced, we first unalias to avoid conflicts
       # This is necessary because aliases get "frozen" inside function definitions at definition time,
       # which can cause unexpected behavior when functions use commands that conflict with aliases
-      echo "# Unset all aliases to avoid conflicts with functions" >> "$SNAPSHOT_FILE"
-      echo "unalias -a ${NUM}>${PATH} || true" >> "$SNAPSHOT_FILE"
+      echo "# Unset all aliases to avoid conflicts with functions"
+      echo "unalias -a ${NUM}>${PATH} || true"
 
-      local
+      ${EXPR_2}
 
-      echo "# Aliases" >> "$SNAPSHOT_FILE"
+      echo "# Aliases"
       # Filter out winpty aliases on Windows to avoid "stdin is not a tty" errors
       # Git Bash automatically creates aliases like "alias node='winpty node.exe'" for
       # programs that need Win32 Console in mintty, but winpty fails when there's no TTY
       if [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]]; then
-        alias | grep -v "='winpty " | sed 's/^alias //g' | sed 's/^${PATH} -- /' | head -n ${NUM} >> "$SNAPSHOT_FILE"
+        alias | grep -v "='winpty " | sed 's/^alias //g' | sed 's/^${PATH} -- /' | head -n ${NUM}
       else
-        alias | sed 's/^alias //g' | sed 's/^${PATH} -- /' | head -n ${NUM} >> "$SNAPSHOT_FILE"
+        alias | sed 's/^alias //g' | sed 's/^${PATH} -- /' | head -n ${NUM}
       fi
 
       # Check if rg is available, if not create an alias to bundled ripgrep
-      echo "# Check for rg availability" >> "$SNAPSHOT_FILE"
-      echo "if ! command -v rg >${PATH} ${NUM}>&${NUM}; then" >> "$SNAPSHOT_FILE"
-      echo "  alias rg='${EXPR_3}'" >> "$SNAPSHOT_FILE"
-      echo "fi" >> "$SNAPSHOT_FILE"
+      echo "# Check for rg availability"
+      echo "if ! command -v rg >${PATH} ${NUM}>&${NUM}; then"
+      echo "  alias rg='${EXPR_3}'"
+      echo "fi"
 
-      # Add PATH to the file
-      echo "export PATH=${EXPR_4}" >> "$SNAPSHOT_FILE"
+      # Add PATH to stdout
+      echo "export PATH=${EXPR_4}"
