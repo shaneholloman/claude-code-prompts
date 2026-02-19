@@ -10,8 +10,8 @@ Reports an unknown function pointer signature, including signature and pointer v
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | \ud800-\udfff | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-unknown function pointer with signature [${EXPR_1: '\\ud800-\\udfff'}]: [${EXPR_2}]
+unknown function pointer with signature ${EXPR_1}: [${EXPR_2}]
