@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Commands: 26
+- Commands: 27
 - Options: 44
-- Env vars: 329
+- Env vars: 334
 - Config keys: 381
 - Tools: 3
 - Skills: 0
@@ -31,6 +31,7 @@
 - `mcp`
 - `migrate-installer`
 - `plugin`
+- `read`
 - `remove`
 - `reset-project-choices`
 - `resources`
@@ -62,6 +63,7 @@
 - `mcp`
 - `migrate-installer`
 - `plugin`
+- `read`
 - `remove <name>`
 - `reset-project-choices`
 - `resources`
@@ -180,6 +182,8 @@
 - `ANTHROPIC_SMALL_FAST_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL_AWS_REGION`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
+- `API_MAX_INPUT_TOKENS`
+- `API_TARGET_INPUT_TOKENS`
 - `API_TIMEOUT_MS`
 - `APP_URL`
 - `APPDATA`
@@ -287,6 +291,7 @@
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_DOCTOR_COMMAND`
 - `DISABLE_ERROR_REPORTING`
+- `DISABLE_EXTRA_USAGE_COMMAND`
 - `DISABLE_FEEDBACK_COMMAND`
 - `DISABLE_INSTALL_GITHUB_APP_COMMAND`
 - `DISABLE_INSTALLATION_CHECKS`
@@ -447,6 +452,8 @@
 - `TILIX_ID`
 - `TMPDIR`
 - `UNDICI_NO_FG`
+- `USE_API_CLEAR_TOOL_RESULTS`
+- `USE_API_CLEAR_TOOL_USES`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
 - `USE_HAIKU_SESSION_MEMORY`
