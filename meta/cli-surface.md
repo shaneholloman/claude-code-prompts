@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 26
-- Options: 48
-- Env vars: 385
-- Config keys: 457
+- Options: 50
+- Env vars: 388
+- Config keys: 340
 - Tools: 3
 - Skills: 0
-- Models: 69
+- Models: 72
 - Providers: 8
 
 ## Commands
@@ -86,6 +86,7 @@
 - `--allowed-tools`
 - `--allowedTools`
 - `--betas`
+- `--chrome`
 - `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
@@ -104,6 +105,7 @@
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
+- `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir`
 - `--print`
@@ -136,6 +138,7 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--betas <betas...>`
+- `--chrome`
 - `--dangerously-skip-permissions`
 - `--debug`
 - `--disable-slash-commands`
@@ -149,6 +152,7 @@
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
+- `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir <paths...>`
 - `--replay-user-messages`
@@ -178,6 +182,7 @@
 - `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
 - `ANTHROPIC_BASE_URL`
+- `ANTHROPIC_BEDROCK_BASE_URL`
 - `ANTHROPIC_BETAS`
 - `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL`
@@ -269,7 +274,7 @@
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EFFORT_LEVEL`
-- `CLAUDE_CODE_ENABLE_ASK_USER_QUESTION_TOOL`
+- `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
@@ -368,6 +373,7 @@
 - `ENABLE_LSP_TOOL`
 - `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
+- `ENABLE_MCP_LARGE_OUTPUT_FILES`
 - `ENABLE_TOOL_SEARCH`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -517,6 +523,7 @@
 - `USE_BUILTIN_RIPGREP`
 - `USE_MCP_CLI_DIR`
 - `USER`
+- `USERNAME`
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
 - `V`
@@ -560,11 +567,8 @@
 
 ## Config Keys
 
-- `_meta`
 - `$schema`
 - `A`
-- `access_token`
-- `acr_values_supported`
 - `activeForm`
 - `additionalContext`
 - `additionalDirectories`
@@ -591,15 +595,11 @@
 - `appliedOffset`
 - `args`
 - `argumentHint`
-- `arguments`
 - `ask`
 - `async`
 - `asyncTimeout`
 - `attribution`
 - `author`
-- `authorization_details_types_supported`
-- `authorization_endpoint`
-- `authorization_servers`
 - `authToken`
 - `autoAllowBashIfSandboxed`
 - `autoUpdate`
@@ -609,7 +609,6 @@
 - `awsCredentialExport`
 - `backgroundTaskId`
 - `base64`
-- `bearer_methods_supported`
 - `behavior`
 - `blockedBy`
 - `blocks`
@@ -623,19 +622,8 @@
 - `character`
 - `charset`
 - `checksum`
-- `claim_types_supported`
-- `claims_locales_supported`
-- `claims_parameter_supported`
-- `claims_supported`
 - `cleanupPeriodDays`
-- `client_id`
-- `client_id_issued_at`
-- `client_name`
-- `client_secret`
-- `client_secret_expires_at`
-- `client_uri`
 - `code`
-- `code_challenge_methods_supported`
 - `code_restored`
 - `codeText`
 - `command`
@@ -644,21 +632,16 @@
 - `comments`
 - `commit`
 - `companyAnnouncements`
-- `completions`
 - `compressible`
 - `config`
-- `contacts`
 - `content`
 - `contents`
 - `continue`
-- `costPriority`
 - `course_correction`
 - `created_at`
 - `createdAt`
 - `dangerouslyDisableSandbox`
-- `data`
 - `decision`
-- `default`
 - `default_branch`
 - `defaultEnvironmentId`
 - `defaultMode`
@@ -670,24 +653,19 @@
 - `desc`
 - `description`
 - `destination`
-- `destructiveHint`
 - `dimensions`
 - `directories`
 - `disableAllHooks`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `disallowedTools`
-- `display_values_supported`
 - `displayHeight`
 - `displayWidth`
-- `dpop_bound_access_tokens_required`
-- `dpop_signing_alg_values_supported`
 - `durationMs`
 - `durationSeconds`
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
-- `elicitation`
 - `email`
 - `enableAllProjectMcpServers`
 - `enabled`
@@ -695,19 +673,13 @@
 - `enabledPlugins`
 - `enableWeakerNestedSandbox`
 - `end`
-- `enum`
-- `enumNames`
 - `env`
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
 - `error`
-- `error_description`
-- `error_uri`
 - `eventData`
 - `eventName`
 - `excludedCommands`
-- `experimental`
-- `expires_in`
 - `extensions`
 - `extraKnownMarketplaces`
 - `feedback`
@@ -720,20 +692,15 @@
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
-- `format`
 - `fullName`
 - `generatedSizeBytes`
 - `gitCommitSha`
-- `grant_types`
-- `grant_types_supported`
-- `hasMore`
 - `hasPrompts`
 - `hasResources`
 - `hasTools`
 - `header`
 - `headers`
 - `headersHelper`
-- `hints`
 - `homepage`
 - `hookEventName`
 - `hooks`
@@ -741,11 +708,6 @@
 - `httpMethodsToRetry`
 - `httpProxyPort`
 - `id`
-- `id_token`
-- `id_token_encryption_alg_values_supported`
-- `id_token_encryption_enc_values_supported`
-- `id_token_signing_alg_values_supported`
-- `idempotentHint`
 - `ideName`
 - `ideRunningInWindows`
 - `ignoreCase`
@@ -758,19 +720,11 @@
 - `installedAt`
 - `installLocation`
 - `installPath`
-- `intelligencePriority`
 - `interrupt`
 - `interrupted`
-- `introspection_endpoint`
-- `introspection_endpoint_auth_methods_supported`
-- `introspection_endpoint_auth_signing_alg_values_supported`
 - `isAgent`
 - `isImage`
 - `isLocal`
-- `issuer`
-- `jsonrpc`
-- `jwks`
-- `jwks_uri`
 - `keywords`
 - `label`
 - `language`
@@ -782,26 +736,19 @@
 - `lineEnd`
 - `lines`
 - `lineStart`
-- `listChanged`
 - `localSettings`
-- `logging`
 - `login`
-- `logo_uri`
 - `lspServers`
 - `mandatoryDenySearchDepth`
 - `matcher`
 - `matches`
 - `max_results`
-- `maximum`
-- `maxLength`
 - `mcp_response`
 - `mcpServers`
 - `message`
 - `metadata`
 - `method`
 - `mimeType`
-- `minimum`
-- `minLength`
 - `mode`
 - `model`
 - `multiSelect`
@@ -821,9 +768,6 @@
 - `oldStart`
 - `oldString`
 - `oldTodos`
-- `op_policy_uri`
-- `op_tos_uri`
-- `openWorldHint`
 - `operation`
 - `options`
 - `originalFile`
@@ -850,79 +794,47 @@
 - `pluginConfigs`
 - `pluginRoot`
 - `plugins`
-- `policy_uri`
 - `policySettings`
 - `pr`
-- `progress`
-- `progressToken`
 - `projectPath`
 - `projectSettings`
 - `prompt`
-- `prompts`
-- `properties`
+- `promptSuggestionEnabled`
 - `query`
 - `question`
 - `questions`
 - `rawOutputPath`
-- `readOnlyHint`
 - `reason`
-- `redirect_uris`
 - `ref`
 - `references`
-- `refresh_token`
 - `region`
-- `registration_endpoint`
 - `registry`
 - `remote`
 - `replaceAll`
 - `repo`
 - `repository`
-- `request_object_encryption_alg_values_supported`
-- `request_object_encryption_enc_values_supported`
-- `request_object_signing_alg_values_supported`
-- `request_parameter_supported`
-- `request_uri_parameter_supported`
 - `requestHandler`
 - `requestId`
-- `require_request_uri_registration`
 - `required`
 - `resolvedAt`
 - `resolvedBy`
-- `resource`
-- `resource_documentation`
-- `resource_name`
-- `resource_policy_uri`
-- `resource_signing_alg_values_supported`
-- `resource_tos_uri`
-- `resources`
-- `response_modes_supported`
-- `response_types`
-- `response_types_supported`
 - `result`
 - `resultCount`
 - `results`
 - `resume`
 - `returnCodeInterpretation`
-- `revocation_endpoint`
-- `revocation_endpoint_auth_methods_supported`
-- `revocation_endpoint_auth_signing_alg_values_supported`
 - `ripgrep`
-- `role`
-- `roots`
 - `ruleContent`
 - `rules`
 - `run_in_background`
-- `sampling`
 - `sandbox`
 - `scope`
-- `scopes_supported`
 - `selection`
 - `server`
 - `server_tool_use`
 - `serverCommand`
 - `serverInfo`
 - `serverName`
-- `service_documentation`
 - `service_tier`
 - `settings`
 - `shell_id`
@@ -932,11 +844,7 @@
 - `skippedPlugins`
 - `skipWebFetchPreflight`
 - `socksProxyPort`
-- `software_id`
-- `software_statement`
-- `software_version`
 - `source`
-- `speedPriority`
 - `spinnerTipsEnabled`
 - `start`
 - `startLine`
@@ -951,12 +859,11 @@
 - `structuredPatch`
 - `subagent_type`
 - `subject`
-- `subject_types_supported`
-- `subscribe`
 - `success`
 - `summary`
 - `suppressOutput`
 - `systemMessage`
+- `Ta`
 - `target_message_preview`
 - `task`
 - `taskId`
@@ -967,14 +874,6 @@
 - `timeout`
 - `timeoutMs`
 - `title`
-- `tls_client_certificate_bound_access_tokens`
-- `token`
-- `token_endpoint`
-- `token_endpoint_auth_method`
-- `token_endpoint_auth_methods_supported`
-- `token_endpoint_auth_signing_alg_values_supported`
-- `token_type`
-- `token_type_hint`
 - `tool`
 - `tool_name`
 - `tool_use_id`
@@ -982,8 +881,6 @@
 - `tools`
 - `toolUseId`
 - `toolUseID`
-- `tos_uri`
-- `total`
 - `total_mcp_tools`
 - `totalDurationMs`
 - `totalLines`
@@ -992,7 +889,6 @@
 - `truncated`
 - `turns`
 - `type`
-- `ui_locales_supported`
 - `updated_at`
 - `updatedFields`
 - `updatedInput`
@@ -1001,15 +897,9 @@
 - `uri`
 - `url`
 - `usage`
-- `userinfo_encryption_alg_values_supported`
-- `userinfo_encryption_enc_values_supported`
-- `userinfo_endpoint`
-- `userinfo_signing_alg_values_supported`
 - `userModified`
 - `userSettings`
 - `uuid`
-- `value`
-- `values`
 - `version`
 - `wasResolved`
 - `web_fetch_requests`
@@ -1067,10 +957,13 @@ _None detected_
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
+- `claude-in-chrome`
+- `claude-in-chrome-default-enabled`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-mcp-browser-bridge-`
 - `claude-md-project`
 - `claude-md-user`
 - `claude-opus-4`
