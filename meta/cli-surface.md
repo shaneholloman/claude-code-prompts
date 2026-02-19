@@ -5,10 +5,10 @@
 - Commands: 16
 - Options: 36
 - Env vars: 258
-- Config keys: 310
+- Config keys: 313
 - Tools: 3
 - Skills: 0
-- Models: 37
+- Models: 36
 - Providers: 7
 
 ## Commands
@@ -395,6 +395,7 @@
 - `additionalContext`
 - `additionalDirectories`
 - `allow`
+- `allowedWriteDirs`
 - `api`
 - `apiKeyHelper`
 - `args`
@@ -490,6 +491,7 @@
 - `file`
 - `filenames`
 - `filePath`
+- `filesystem`
 - `filterPattern`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
@@ -550,6 +552,7 @@
 - `mode`
 - `model`
 - `name`
+- `network`
 - `new_source`
 - `newLines`
 - `newStart`
@@ -731,7 +734,6 @@ _None detected_
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-jetbrains-plugin`
-- `claude-code.vsix`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`

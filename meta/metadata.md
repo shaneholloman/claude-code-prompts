@@ -7,29 +7,28 @@
 
 ## Bundle
 
-- Entry bytes: 9278573 bytes
-- Entry lines: 3684
+- Entry bytes: 9285898 bytes
+- Entry lines: 3703
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 11953880 bytes
-- Pretty lines: 207559
+- Pretty bytes: 11963007 bytes
+- Pretty lines: 207775
 
 ## Inventory
 
-- File count: 53
-- Size bytes: 78170487
+- File count: 52
+- Size bytes: 78068132
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12407309 bytes
-- `.js`: 1 files, 9278573 bytes
+- `.js`: 1 files, 9285898 bytes
 - `.json`: 1 files, 1153 bytes
 - `.md`: 2 files, 2422 bytes
-- `.mjs`: 1 files, 509261 bytes
+- `.mjs`: 1 files, 509368 bytes
 - `.node`: 5 files, 28944544 bytes
-- `.ts`: 2 files, 18886 bytes
-- `.vsix`: 1 files, 109891 bytes
+- `.ts`: 2 files, 18990 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
@@ -37,7 +36,6 @@
 - `.exe`: 5407744 bytes
 - `.jar`: 12407309 bytes
 - `.node`: 28944544 bytes
-- `.vsix`: 109891 bytes
 - `.wasm`: 88658 bytes
 
 ### Files
@@ -82,7 +80,6 @@
 - `vendor/claude-code-jetbrains-plugin/lib/ktor-websocket-serialization-jvm-3.0.2.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/ktor-websockets-jvm-3.0.2.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/slf4j-api-2.0.16.jar`
-- `vendor/claude-code.vsix`
 - `vendor/ripgrep/arm64-darwin/rg`
 - `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
@@ -98,19 +95,19 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 08:45:03 UTC
+- Snapshot generated at: 2026-02-18 08:48:52 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `5f34ae9bb7988e7ec6f3d344e9df7efc1156bcb96540ce744026b9ebb08245b3`
+- Config hash: `783c08b21f4984cde01f8b386d95577a8364ddccf3a71bfb5ce5cbaf96d31b86`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 289,143
+- Total prompt tokens: 287,896
 - Token p95 / p99: 1,063 / 2,438
 
 ### By Kind
 
-- `system-data`: 247,517 tokens (85.6%)
-- `system`: 23,385 tokens (8.1%)
-- `system-reminder`: 8,521 tokens (2.9%)
-- `tool`: 7,635 tokens (2.6%)
+- `system-data`: 246,270 tokens (85.5%)
+- `system`: 23,487 tokens (8.2%)
+- `system-reminder`: 8,419 tokens (2.9%)
+- `tool`: 7,635 tokens (2.7%)
 - `agent`: 2,085 tokens (0.7%)
