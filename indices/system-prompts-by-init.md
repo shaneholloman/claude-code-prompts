@@ -1,12 +1,12 @@
 # System Prompts Index – by init
 
-- Total prompt files: **94**
+- Total prompt files: **103**
 
 ## Categories
 
 - System prompts (25)
 - Tool prompts (23)
-- System data (46)
+- System data (55)
 
 ## System prompts (25)
 
@@ -70,12 +70,21 @@ _Sorted by init (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (46)
+## System data (55)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-cli-usage-types-listing.md`](../system-prompts/system-data-cli-usage-types-listing.md) | CLI help and usage template including type keywords, styles, and multi-line sections. | 198 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 182 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-project-permissions-banner.md`](../system-prompts/system-data-cli-project-permissions-banner.md) | CLI banner text showing project status, invalid warning, and dangerouslySkipPermissions setting. | 139 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 138 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Multiple prompts (3) | 110 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-global-options.md`](../system-prompts/system-data-cli-global-options.md) | Official Claude CLI header with color/style tokens and Global Options section intro. | 107 | 0.2.31 | 0.2.31 |
+| [`system-data-anthropic-official-cli-styles.md`](../system-prompts/system-data-anthropic-official-cli-styles.md) | Official Claude CLI header with color/style tokens and Options section intro. | 106 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Multiple prompts (2) | 106 | 0.2.31 | 0.2.31 |
+| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 103 | 0.2.31 | 0.2.31 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 235 | 0.2.30 | 0.2.30 |
 | [`system-data-http-request-timing-events.md`](../system-prompts/system-data-http-request-timing-events.md) | Lists HTTP request lifecycle timing event markers. | 113 | 0.2.30 | 0.2.30 |
 | [`system-data-cell-tag-template.md`](../system-prompts/system-data-cell-tag-template.md) | XML-like cell tag with multiple dynamic attributes and nested path element. | 86 | 0.2.30 | 0.2.30 |

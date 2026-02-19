@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.30
+# Prompt Stats 0.2.31
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -27,7 +27,16 @@
 | system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 9934 | 2322 | 0.2.30 | 0.2.30 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Sysref Edocument Reference Types](../system-prompts/system-prompt-sysref-edocument-reference-types.md) | 1905 | 849 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Anthropic Official Cli Styles](../system-prompts/system-data-anthropic-official-cli-styles.md) | 284 | 106 | 0.2.31 | 0.2.31 |
 | system-data | [System Data: Cell Tag Template](../system-prompts/system-data-cell-tag-template.md) | 141 | 86 | 0.2.30 | 0.2.30 |
+| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 285 | 110 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 331 | 138 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 252 | 103 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 410 | 182 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 286 | 106 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Global Options](../system-prompts/system-data-cli-global-options.md) | 291 | 107 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Project Permissions Banner](../system-prompts/system-data-cli-project-permissions-banner.md) | 362 | 139 | 0.2.31 | 0.2.31 |
+| system-data | [System Data: Cli Usage Types Listing](../system-prompts/system-data-cli-usage-types-listing.md) | 467 | 198 | 0.2.31 | 0.2.31 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |

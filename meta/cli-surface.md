@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 10
-- Options: 15
+- Options: 16
 - Env vars: 110
 - Config keys: 51
 - Tools: 0
@@ -52,6 +52,7 @@
 - `--enable-architect`
 - `--env`
 - `--global`
+- `--mcp-debug`
 - `--print`
 - `--scope`
 - `--verbose`
@@ -65,6 +66,7 @@
 ### Specs
 
 - `--dangerously-skip-permissions`
+- `--mcp-debug`
 - `--verbose`
 - `-c, --cwd <cwd>`
 - `-d, --debug`
