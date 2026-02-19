@@ -1,7 +1,7 @@
 # Tool Description: educational-cli-engineering-help
 
 - Name: Explanatory
-- Description: Claude explains its implementation choices and codebase patterns
+- Description: [DEPRECATED] Claude explains its implementation choices and codebase patterns
 - Source: built-in
 
 ## Summary
