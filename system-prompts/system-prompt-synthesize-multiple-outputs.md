@@ -14,8 +14,9 @@ Synthesize multiple agents’ analyses into one unified, contradiction-resolved 
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | 0 | None |
+| `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | 0 | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -43,10 +44,10 @@ ${NUM}. Is well-structured and complete
 
 Your synthesis should be thorough but focused on the original task.
 
-${NUM}
-
 ${EXPR_4}
 
-${EXPR_5: 0}
+${EXPR_5}
 
 ${EXPR_6}
+
+${EXPR_7: 0}
