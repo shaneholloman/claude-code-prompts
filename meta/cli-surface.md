@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 20
-- Options: 38
+- Options: 39
 - Env vars: 305
-- Config keys: 364
+- Config keys: 365
 - Tools: 3
 - Skills: 0
 - Models: 48
@@ -68,6 +68,7 @@
 
 - `--add-dir`
 - `--agents`
+- `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
 - `--continue`
@@ -109,6 +110,7 @@
 
 - `--add-dir <directories...>`
 - `--agents <json>`
+- `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--dangerously-skip-permissions`
 - `--disallowedTools, --disallowed-tools <tools...>`
@@ -519,7 +521,7 @@
 - `continue`
 - `costPriority`
 - `created_at`
-- `dangerouslyOverrideSandbox`
+- `dangerouslyDisableSandbox`
 - `data`
 - `decision`
 - `default`
@@ -572,6 +574,7 @@
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `format`
+- `gitCommitSha`
 - `grant_types`
 - `grant_types_supported`
 - `hasMore`
@@ -609,6 +612,7 @@
 - `introspection_endpoint_auth_signing_alg_values_supported`
 - `isAgent`
 - `isImage`
+- `isLocal`
 - `issuer`
 - `jsonrpc`
 - `jwks`
@@ -628,7 +632,6 @@
 - `logging`
 - `login`
 - `logo_uri`
-- `marketplace`
 - `matcher`
 - `maximum`
 - `maxLength`

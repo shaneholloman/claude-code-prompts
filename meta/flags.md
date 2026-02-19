@@ -1,4 +1,4 @@
-# Claude Code 2.0.25 – Flags
+# Claude Code 2.0.26 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -23,5 +23,4 @@
 | `tengu_skip_file_edit_safety_checks` | gate | filesystem | Bypass file edit validation requiring prior read and unchanged file state | Affects validateInput checks for safe file writes. | high | 2 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
-| `thinking_on_default` | experiment | prompts | Controls whether extended thinking mode is enabled by default for a specific model | Exact behavior depends on model list and config overrides. | medium | 1 |
 | `trust_folder_dialog_copy` | experiment | safety | Selects copy variant for a trust-folder security prompt with continue/exit choices. | Actual variant text mapping not included. | high | 1 |

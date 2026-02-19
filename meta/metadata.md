@@ -7,35 +7,33 @@
 
 ## Bundle
 
-- Entry bytes: 9833269 bytes
+- Entry bytes: 9940388 bytes
 - Entry lines: 3792
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 12532380 bytes
-- Pretty lines: 225387
+- Pretty bytes: 12642742 bytes
+- Pretty lines: 225700
 
 ## Inventory
 
-- File count: 50
-- Size bytes: 78094319
+- File count: 49
+- Size bytes: 78112779
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12407309 bytes
-- `.js`: 1 files, 9833269 bytes
+- `.js`: 1 files, 9940388 bytes
 - `.json`: 1 files, 1152 bytes
 - `.md`: 2 files, 2169 bytes
 - `.node`: 5 files, 28944544 bytes
-- `.ts`: 1 files, 7428 bytes
-- `.wasm`: 1 files, 88658 bytes
+- `.ts`: 1 files, 7427 bytes
 
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
 - `.jar`: 12407309 bytes
 - `.node`: 28944544 bytes
-- `.wasm`: 88658 bytes
 
 ### Files
 
@@ -88,23 +86,22 @@
 - `vendor/ripgrep/x64-linux/ripgrep.node`
 - `vendor/ripgrep/x64-win32/rg.exe`
 - `vendor/ripgrep/x64-win32/ripgrep.node`
-- `yoga.wasm`
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 12:17:06 UTC
+- Snapshot generated at: 2026-02-18 12:20:53 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `b0df1b725fd1dffa6e8e099c888738474c8d91ab3c38be6829f8fd4ea4ba8792`
+- Config hash: `ac057a2b2ef4574f3d1162da70bebc840de8d0818c54d4645555b09fc18d6c79`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 290,304
+- Total prompt tokens: 290,605
 - Token p95 / p99: 1,119 / 2,438
 
 ### By Kind
 
-- `system-data`: 246,306 tokens (84.8%)
-- `system`: 24,757 tokens (8.5%)
-- `system-reminder`: 9,223 tokens (3.2%)
+- `system-data`: 246,785 tokens (84.9%)
+- `system`: 24,760 tokens (8.5%)
+- `system-reminder`: 9,042 tokens (3.1%)
 - `tool`: 7,738 tokens (2.7%)
 - `agent`: 2,280 tokens (0.8%)
