@@ -12,7 +12,7 @@ Displays two lines of text followed by a parenthesized PID value.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | resolved list (4 items) | None |
+| `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
