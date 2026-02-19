@@ -10,7 +10,7 @@ Cannot use a val after it has been deleted.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | \ud800-\udfff | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Cannot use deleted val. handle = [${EXPR_1: '\\ud800-\\udfff'}]
+Cannot use deleted val. handle = ${EXPR_1}
