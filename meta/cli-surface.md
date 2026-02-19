@@ -5,10 +5,10 @@
 - Commands: 26
 - Options: 50
 - Env vars: 388
-- Config keys: 340
+- Config keys: 346
 - Tools: 3
 - Skills: 0
-- Models: 72
+- Models: 73
 - Providers: 8
 
 ## Commands
@@ -611,6 +611,7 @@
 - `base64`
 - `behavior`
 - `blockedBy`
+- `blockedMarketplaces`
 - `blocks`
 - `bytes`
 - `cache_creation`
@@ -641,6 +642,7 @@
 - `created_at`
 - `createdAt`
 - `dangerouslyDisableSandbox`
+- `data`
 - `decision`
 - `default_branch`
 - `defaultEnvironmentId`
@@ -666,6 +668,7 @@
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
+- `Ek`
 - `email`
 - `enableAllProjectMcpServers`
 - `enabled`
@@ -712,6 +715,7 @@
 - `ideRunningInWindows`
 - `ignoreCase`
 - `ignoreViolations`
+- `image`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
 - `input`
@@ -745,10 +749,12 @@
 - `max_results`
 - `mcp_response`
 - `mcpServers`
+- `media_type`
 - `message`
 - `metadata`
 - `method`
 - `mimeType`
+- `minimumVersion`
 - `mode`
 - `model`
 - `multiSelect`
@@ -863,7 +869,7 @@
 - `summary`
 - `suppressOutput`
 - `systemMessage`
-- `Ta`
+- `tabId`
 - `target_message_preview`
 - `task`
 - `taskId`
@@ -984,6 +990,7 @@ _None detected_
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
+- `claude-swarm-`
 - `claude-vscode`
 - `haiku-4`
 - `opus-4`
