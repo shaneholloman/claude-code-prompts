@@ -10,25 +10,25 @@ Declare CLI identity, enumerate style tokens, and append extra trailing data.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | Claude Code | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
+| `EXPR_1` | Claude Code | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+${URL}
 
-You are ${EXPR_2: 'Claude Code'}, Anthropic's official CLI for Claude.
+${URL}
 
-${NUM}
-
-${NUM}
+You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 ${NUM}
 
 ${NUM}
 
-${EXPR_3}
+${NUM}
+
+${NUM}
+
+${EXPR_2}
 
 underline
 
@@ -63,5 +63,3 @@ brightWhite
 brightCyan
 
 brightMagenta
-
-${EXPR_4}
