@@ -25,7 +25,6 @@ Outputs pattern header and enumerates found outgoing calls with task details
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 ┼
@@ -75,5 +74,3 @@ Task #${EXPR_12}: ${EXPR_13}
 Status: ${EXPR_14}
 
 Description: ${EXPR_15}
-
-${EXPR_16}
