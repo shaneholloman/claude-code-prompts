@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 176
-- Config keys: 138
+- Env vars: 178
+- Config keys: 139
 - Tools: 0
 - Skills: 0
 - Models: 21
@@ -86,7 +86,7 @@
 - `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
 - `--disallowedTools <tools...>`
-- `--mcp-config <file>`
+- `--mcp-config <file or string>`
 - `--mcp-debug`
 - `--output-format <format>`
 - `--system-prompt <prompt>`
@@ -132,6 +132,8 @@
 - `CF_PAGES_COMMIT_SHA`
 - `CLAUBBIT`
 - `CLAUDE_CODE_ACTION`
+- `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
+- `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
@@ -294,6 +296,7 @@
 - `behavior`
 - `character`
 - `charset`
+- `cleanupPeriodDays`
 - `client_id`
 - `client_id_issued_at`
 - `client_name`
