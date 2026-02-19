@@ -10,7 +10,7 @@ Automatically installs marketplaces from the provided list.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 4 | None |
 
 # Raw Prompt Text
-Installing ${EXPR_1} marketplaces automatically
+Installing ${EXPR_1: 4} marketplaces automatically
