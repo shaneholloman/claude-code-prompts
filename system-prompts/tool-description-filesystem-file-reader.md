@@ -1,6 +1,6 @@
 # Tool Description: filesystem-file-reader
 
-- Name: View
+- Name: Read
 
 ## Summary
 
@@ -14,8 +14,8 @@ Read a local file by absolute path with line limits, truncation, and image suppo
 | `EXPR_2` | 2000 | None |
 | `EXPR_3` | Claude Code | None |
 | `EXPR_4` | Claude Code | None |
-| `EXPR_5` | NotebookReadTool | None |
-| `EXPR_6` | BatchTool | None |
+| `EXPR_5` | NotebookRead | None |
+| `EXPR_6` | Batch | None |
 
 # Raw Prompt Text
 Reads a file from the local filesystem. You can access any file directly by using this tool.
@@ -27,7 +27,7 @@ Usage:
 - You can optionally specify a line offset and limit (especially handy for long files), but it's recommended to read the whole file by not providing these parameters
 - Any lines longer than ${EXPR_2: 2000} characters will be truncated
 - Results are returned using cat -n format, with line numbers starting at ${NUM}
-- This tool allows ${EXPR_3: 'Claude Code'} to VIEW images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as ${EXPR_4: 'Claude Code'} is a multimodal LLM.
-- For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'NotebookReadTool'} instead
-- When reading multiple files, you MUST use the ${EXPR_6: 'BatchTool'} tool to read them all at once
-- You will regularly be asked to view screenshots. If the user provides a path to a screenshot ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths like ${PATH}
+- This tool allows ${EXPR_3: 'Claude Code'} to read images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as ${EXPR_4: 'Claude Code'} is a multimodal LLM.
+- For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'NotebookRead'} instead
+- When reading multiple files, you MUST use the ${EXPR_6: 'Batch'} tool to read them all at once
+- You will regularly be asked to read screenshots. If the user provides a path to a screenshot ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths like ${PATH}
