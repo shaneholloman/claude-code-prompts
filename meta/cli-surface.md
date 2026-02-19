@@ -4,8 +4,8 @@
 
 - Commands: 20
 - Options: 37
-- Env vars: 303
-- Config keys: 362
+- Env vars: 304
+- Config keys: 364
 - Tools: 3
 - Skills: 0
 - Models: 48
@@ -220,6 +220,7 @@
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
+- `CLAUDE_CODE_SESSION_ID`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
@@ -473,6 +474,7 @@
 - `authorization_endpoint`
 - `authorization_servers`
 - `authToken`
+- `autoAllowBashIfSandboxed`
 - `awsAuthRefresh`
 - `awsCredentialExport`
 - `backgroundTaskId`
@@ -562,7 +564,6 @@
 - `file`
 - `filenames`
 - `filePath`
-- `filesystem`
 - `filterPattern`
 - `flagSettings`
 - `forceLoginMethod`
@@ -580,6 +581,7 @@
 - `hooks`
 - `hookSpecificOutput`
 - `httpMethodsToRetry`
+- `httpProxyPort`
 - `id`
 - `id_token`
 - `id_token_encryption_alg_values_supported`
@@ -740,6 +742,7 @@
 - `skippedMarketplaces`
 - `skippedPlugins`
 - `skipWebFetchPreflight`
+- `socksProxyPort`
 - `software_id`
 - `software_statement`
 - `software_version`
