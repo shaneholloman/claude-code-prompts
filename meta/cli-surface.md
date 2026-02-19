@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 25
-- Env vars: 189
-- Config keys: 140
+- Env vars: 196
+- Config keys: 143
 - Tools: 0
 - Skills: 0
-- Models: 31
+- Models: 29
 - Providers: 7
 
 ## Commands
@@ -126,6 +126,7 @@
 - `BASH_DEFAULT_TIMEOUT_MS`
 - `BASH_MAX_OUTPUT_LENGTH`
 - `BASH_MAX_TIMEOUT_MS`
+- `BEDROCK_BASE_URL`
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
@@ -135,8 +136,12 @@
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
+- `CLAUDE_CODE_ENABLE_UNIFIED_READ_TOOL`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
+- `CLAUDE_CODE_IDE_HOST_OVERRIDE`
+- `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
+- `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
@@ -230,6 +235,7 @@
 - `PATH`
 - `PATHEXT`
 - `PKG_CONFIG_PATH`
+- `PWD`
 - `REGION_NAME`
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
@@ -272,6 +278,7 @@
 - `VERCEL_GITHUB_COMMIT_SHA`
 - `VERCEL_GITLAB_COMMIT_SHA`
 - `VERCEL_REGION`
+- `VERTEX_BASE_URL`
 - `VERTEX_REGION_CLAUDE_3_5_HAIKU`
 - `VERTEX_REGION_CLAUDE_3_5_SONNET`
 - `VERTEX_REGION_CLAUDE_3_7_SONNET`
@@ -327,6 +334,9 @@
 - `deny`
 - `description`
 - `destructiveHint`
+- `disabledMcpjsonServers`
+- `enableAllProjectMcpServers`
+- `enabledMcpjsonServers`
 - `end`
 - `env`
 - `error`
@@ -468,12 +478,10 @@ _None detected_
 - `claude-local`
 - `claude-native-installer`
 - `claude-opus-4`
-- `claude-opus-4-`
 - `claude-opus-4-20250514`
 - `claude-opus-welcome`
 - `claude-sandbox-`
 - `claude-sonnet-4`
-- `claude-sonnet-4-`
 - `claude-sonnet-4-20250514`
 
 ## Providers
