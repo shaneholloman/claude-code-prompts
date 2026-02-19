@@ -8,7 +8,7 @@
 - Config keys: 411
 - Tools: 3
 - Skills: 0
-- Models: 56
+- Models: 59
 - Providers: 8
 
 ## Commands
@@ -1003,6 +1003,8 @@ _None detected_
 - `claude-opus-4-1`
 - `claude-opus-4-1-20250805`
 - `claude-opus-4-20250514`
+- `claude-opus-4-5`
+- `claude-opus-4-5-20251101`
 - `claude-prompt`
 - `claude-review`
 - `claude-settings`
@@ -1014,6 +1016,7 @@ _None detected_
 - `claude-vscode`
 - `haiku-4`
 - `opus-4`
+- `opus-4.5-available`
 - `sonnet-1m-welcome`
 - `sonnet-4`
 - `sonnet-4.5-update`
