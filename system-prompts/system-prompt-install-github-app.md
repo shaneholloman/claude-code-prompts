@@ -45,6 +45,6 @@ Once the workflow is triggered, Claude will analyze the comment and surrounding 
 allowed_tools: Bash(npm install),Bash(npm run build),Bash(npm run lint),Bash(npm run test)
 ```
 
-There's more information in the [Claude Code documentation](${URL}).
+There's more information in the [Claude Code action repo](${URL}).
 
 After merging this PR, let's try mentioning @claude in a comment on any PR to get started!
