@@ -10,7 +10,7 @@ Cannot register the same public name more than once.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | \ud800-\udfff | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Cannot register public name '[${EXPR_1: '\\ud800-\\udfff'}]' twice
+Cannot register public name '${EXPR_1}' twice
