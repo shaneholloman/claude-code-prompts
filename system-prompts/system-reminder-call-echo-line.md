@@ -11,6 +11,7 @@ Log line noting a tool invocation and the exact input provided.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Called the ${PATH} tool with the following input: ${EXPR_1}
+Called the ${EXPR_1} tool with the following input: ${EXPR_2}
