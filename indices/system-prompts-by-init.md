@@ -1,40 +1,39 @@
 # System Prompts Index – by init
 
-- Total prompt files: **123**
+- Total prompt files: **120**
 
 ## Categories
 
-- System prompts (33)
+- System prompts (31)
 - Tool prompts (25)
-- System data (65)
+- System data (64)
 
-## System prompts (33)
+## System prompts (31)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,046 | 0.2.60 | 0.2.60 |
+| [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.60 | 0.2.60 |
 | [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,217 | 0.2.59 | 0.2.59 |
 | [`system-prompt-create-md-guidelines.md`](../system-prompts/system-prompt-create-md-guidelines.md) | Analyze repository to write or improve CLAUDE.md with build commands and code style rules. | 218 | 0.2.59 | 0.2.59 |
 | [`system-prompt-summarize-shell-command.md`](../system-prompts/system-prompt-summarize-shell-command.md) | Write a brief input-output description of a shell command in a few words. | 78 | 0.2.59 | 0.2.59 |
 | [`system-prompt-read-local-file.md`](../system-prompts/system-prompt-read-local-file.md) | Read an absolute-path file with optional offset and line limits, including images. | 265 | 0.2.57 | 0.2.57 |
 | [`system-prompt-whimsical-gerund-generator.md`](../system-prompts/system-prompt-whimsical-gerund-generator.md) | Generates a single capitalized whimsical gerund related to the message, avoiding destructive verbs. | 102 | 0.2.57 | 0.2.57 |
-| [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,041 | 0.2.56 | 0.2.57 |
-| [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.57 |
+| [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.60 |
 | [`system-prompt-secure-cli-coding-2.md`](../system-prompts/system-prompt-secure-cli-coding-2.md) | Interactive CLI software engineering assistant with strict refusal rules and safe URL handling. | 2,340 | 0.2.54 | 0.2.54 |
 | [`system-prompt-nested-template-functions.md`](../system-prompts/system-prompt-nested-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 0.2.54 |
-| [`system-prompt-update-memory-file-2.md`](../system-prompts/system-prompt-update-memory-file-2.md) | Update or append memories in a file at a given path using one tool call. | 130 | 0.2.54 | 0.2.54 |
 | [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.54 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Continue from prior conversation state and resume the last task without questions. | 38 | 0.2.54 | 0.2.54 |
 | [`system-prompt-cli-external-path.md`](../system-prompts/system-prompt-cli-external-path.md) | External reference to a claude CLI path with a dynamic segment. | 12 | 0.2.53 | 0.2.53 |
 | [`system-prompt-learn-more-link.md`](../system-prompts/system-prompt-learn-more-link.md) | Directs the user to learn more using the provided URL. | 10 | 0.2.53 | 0.2.53 |
 | [`system-prompt-latest-version-tag.md`](../system-prompts/system-prompt-latest-version-tag.md) | Specifies a package name pinned to the latest release tag. | 8 | 0.2.53 | 0.2.53 |
 | [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
-| [`system-prompt-static-project-file-snapshot.md`](../system-prompts/system-prompt-static-project-file-snapshot.md) | Static snapshot of project file structure at conversation start, ignoring .gitignore patterns. | 55 | 0.2.44 | 0.2.44 |
 | [`system-prompt-batch-invocations-guide.md`](../system-prompts/system-prompt-batch-invocations-guide.md) | Defines parallel batch tool invocations list, aggregating results and requiring post-call user message. | 308 | 0.2.42 | 0.2.42 |
 | [`system-prompt-assisted-search-guidelines.md`](../system-prompts/system-prompt-assisted-search-guidelines.md) | Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools. | 497 | 0.2.41 | 0.2.41 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.40 |
-| [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 89 | 0.2.36 | 0.2.36 |
+| [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 77 | 0.2.32 | 0.2.32 |
 | [`system-prompt-bash-command-prefix-detection.md`](../system-prompts/system-prompt-bash-command-prefix-detection.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 658 | 0.2.30 | 0.2.30 |
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 52 | 0.2.30 | 0.2.30 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 444 | 0.2.9 | 0.2.9 |
@@ -44,7 +43,6 @@ _Sorted by init (newest first)._
 | [`system-prompt-select-core-frequently-modified-files.md`](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | Choose five diverse frequently modified core-logic filenames from git history stats. | 90 | 0.2.9 | 0.2.9 |
 | [`system-prompt-detect-new-topic-title.md`](../system-prompts/system-prompt-detect-new-topic-title.md) | Detect whether a message starts a new topic and extract a short title. | 85 | 0.2.9 | 0.2.9 |
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.9 |
-| [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 81 | 0.2.9 | 0.2.9 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
@@ -80,15 +78,16 @@ _Sorted by init (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (65)
+## System data (64)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-shell-snapshot-aliases-path.md`](../system-prompts/system-data-shell-snapshot-aliases-path.md) | Create a snapshot file of aliases and exported PATH after sourcing a script. | 84 | 0.2.60 | 0.2.60 |
 | [`system-data-pirate-gerund-wordlist.md`](../system-prompts/system-data-pirate-gerund-wordlist.md) | Provides a themed list of piratey gerund-style words ending in -in'. | 297 | 0.2.57 | 0.2.57 |
 | [`system-data-ignore-build-artifacts.md`](../system-prompts/system-data-ignore-build-artifacts.md) | Lists common dependency, virtualenv, and build output directories to exclude. | 84 | 0.2.57 | 0.2.57 |
-| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 152 | 0.2.55 | 0.2.57 |
+| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 152 | 0.2.55 | 0.2.60 |
 | [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 152 | 0.2.55 | 0.2.57 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 0.2.56 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 0.2.56 |
@@ -99,8 +98,6 @@ _Sorted by init (newest first)._
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.46 | 0.2.46 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 259 | 0.2.44 | 0.2.51 |
 | [`system-data-whimsical-verb-synonyms-list.md`](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | Playful list of gerund verbs describing thinking or doing. | 221 | 0.2.42 | 0.2.42 |
-| [`system-data-placeholder-array-paths-exprs.md`](../system-prompts/system-data-placeholder-array-paths-exprs.md) | Bracketed list of four path-prefixed expression pairs plus a trailing expression | 109 | 0.2.36 | 0.2.54 |
-| [`system-data-placeholder-object-paths-exprs.md`](../system-prompts/system-data-placeholder-object-paths-exprs.md) | Braced object literal with four path-expression pairs and trailing expression placeholder | 108 | 0.2.36 | 0.2.54 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-media-input-events-list.md`](../system-prompts/system-data-dom-media-input-events-list.md) | List of common DOM, media, and form event names. | 153 | 0.2.33 | 0.2.33 |
@@ -109,8 +106,8 @@ _Sorted by init (newest first)._
 | [`system-data-wolfram-language-symbols-list.md`](../system-prompts/system-data-wolfram-language-symbols-list.md) | Alphabetical list of Wolfram Language built-in symbol names. | 35,789 | 0.2.9 | 0.2.9 |
 | [`system-data-stan-functions-reference-list.md`](../system-prompts/system-data-stan-functions-reference-list.md) | Partial catalog of Stan math, RNG, and distribution functions. | 2,155 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-placeholder-sequence.md`](../system-prompts/system-data-numeric-placeholder-sequence.md) | Repeated numeric placeholder tokens in a long sequence. | 1,791 | 0.2.9 | 0.2.9 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.59 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.59 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.60 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.60 |
 | [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 0.2.9 | 0.2.9 |
 | [`system-data-repeated-numeric-placeholders.md`](../system-prompts/system-data-repeated-numeric-placeholders.md) | Long sequence of repeated numeric placeholder tokens. | 895 | 0.2.9 | 0.2.9 |
 | [`system-data-julia-base-types-list.md`](../system-prompts/system-data-julia-base-types-list.md) | List of Julia core types and standard library names. | 723 | 0.2.9 | 0.2.9 |
@@ -141,9 +138,9 @@ _Sorted by init (newest first)._
 | [`system-data-swift-compiler-directives-list.md`](../system-prompts/system-data-swift-compiler-directives-list.md) | List of Swift compiler directives and magic literals. | 83 | 0.2.9 | 0.2.9 |
 | [`system-data-csharp-query-keywords-list.md`](../system-prompts/system-data-csharp-query-keywords-list.md) | Lists query and async-related language keywords. | 81 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-keyword-list.md`](../system-prompts/system-data-javascript-keyword-list.md) | List of JavaScript reserved words and control-flow keywords. | 76 | 0.2.9 | 0.2.9 |
-| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 75 | 0.2.9 | 0.2.59 |
-| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.59 |
-| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.59 |
+| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.60 |
+| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.60 |
+| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 75 | 0.2.9 | 0.2.60 |
 | [`system-data-runtime-environment-metadata.md`](../system-prompts/system-data-runtime-environment-metadata.md) | Display environment details like working directory, platform, date, model, and PATH. | 71 | 0.2.9 | 0.2.9 |
 | [`system-data-julia-keywords-list.md`](../system-prompts/system-data-julia-keywords-list.md) | List of Julia language keywords and core syntactic forms. | 69 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-current-context-functions.md`](../system-prompts/system-data-sql-current-context-functions.md) | Lists SQL current context and time functions. | 69 | 0.2.9 | 0.2.9 |
