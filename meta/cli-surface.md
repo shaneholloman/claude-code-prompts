@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 16
-- Options: 32
+- Options: 35
 - Env vars: 246
 - Config keys: 273
 - Tools: 3
@@ -59,10 +59,12 @@
 ### Flags
 
 - `--add-dir`
+- `--allowed-tools`
 - `--allowedTools`
 - `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
+- `--disallowed-tools`
 - `--disallowedTools`
 - `--env`
 - `--fallback-model`
@@ -74,6 +76,7 @@
 - `--mcp-debug`
 - `--model`
 - `--print`
+- `--replay-user-messages`
 - `--resume`
 - `--scope`
 - `--session-id`
@@ -94,15 +97,16 @@
 ### Specs
 
 - `--add-dir <directories...>`
-- `--allowedTools <tools...>`
+- `--allowedTools, --allowed-tools <tools...>`
 - `--dangerously-skip-permissions`
-- `--disallowedTools <tools...>`
+- `--disallowedTools, --disallowed-tools <tools...>`
 - `--fallback-model <model>`
 - `--force`
 - `--ide`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
+- `--replay-user-messages`
 - `--session-id <uuid>`
 - `--settings <file-or-json>`
 - `--strict-mcp-config`
