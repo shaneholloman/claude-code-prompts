@@ -1,4 +1,4 @@
-# Tool Description: structured-todo-list-guidelines
+# Tool Description: structured-todo-list-usage-guidelines
 
 - Name: TodoWrite
 
