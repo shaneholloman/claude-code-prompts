@@ -7,34 +7,36 @@
 
 ## Bundle
 
-- Entry bytes: 7014125 bytes
-- Entry lines: 2075
+- Entry bytes: 6850588 bytes
+- Entry lines: 2196
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 9124561 bytes
-- Pretty lines: 162015
+- Pretty bytes: 8882350 bytes
+- Pretty lines: 155432
 
 ## Inventory
 
-- File count: 54
-- Size bytes: 46739303
+- File count: 61
+- Size bytes: 168811278
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.jar`: 33 files, 12280586 bytes
-- `.js`: 2 files, 7015091 bytes
-- `.json`: 5 files, 21405 bytes
+- `.jar`: 33 files, 12288340 bytes
+- `.js`: 2 files, 6851554 bytes
+- `.json`: 6 files, 28866 bytes
 - `.md`: 2 files, 3940 bytes
+- `.node`: 5 files, 122220044 bytes
 - `.sh`: 1 files, 3158 bytes
-- `.sql`: 3 files, 1349 bytes
+- `.sql`: 4 files, 1602 bytes
 - `.vsix`: 1 files, 529974 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
-- `.jar`: 12280586 bytes
+- `.jar`: 12288340 bytes
+- `.node`: 122220044 bytes
 - `.vsix`: 529974 bytes
 - `.wasm`: 88658 bytes
 
@@ -46,16 +48,18 @@
 - `migrations/0000_daffy_genesis.sql`
 - `migrations/0001_reflective_ulik.sql`
 - `migrations/0002_daffy_masked_marvel.sql`
+- `migrations/0003_dusty_ezekiel_stane.sql`
 - `migrations/meta/_journal.json`
 - `migrations/meta/0000_snapshot.json`
 - `migrations/meta/0001_snapshot.json`
 - `migrations/meta/0002_snapshot.json`
+- `migrations/meta/0003_snapshot.json`
 - `package.json`
 - `README.md`
 - `scripts/preinstall.js`
 - `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.0.3-alpha-searchableOptions.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.0.3-alpha.jar`
+- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.0.5-alpha-searchableOptions.jar`
+- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.0.5-alpha.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/config-1.4.3.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/jansi-2.4.1.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/kotlin-logging-jvm-7.0.0.jar`
@@ -88,26 +92,31 @@
 - `vendor/claude-code-jetbrains-plugin/lib/slf4j-api-2.0.16.jar`
 - `vendor/claude-code.vsix`
 - `vendor/ripgrep/arm64-darwin/rg`
+- `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
+- `vendor/ripgrep/arm64-linux/ripgrep.node`
 - `vendor/ripgrep/COPYING`
 - `vendor/ripgrep/x64-darwin/rg`
+- `vendor/ripgrep/x64-darwin/ripgrep.node`
 - `vendor/ripgrep/x64-linux/rg`
+- `vendor/ripgrep/x64-linux/ripgrep.node`
 - `vendor/ripgrep/x64-win32/rg.exe`
+- `vendor/ripgrep/x64-win32/ripgrep.node`
 - `yoga.wasm`
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:00:18 UTC
+- Snapshot generated at: 2026-02-18 04:02:34 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `24147ee86d23dd39949f5309747b3d017ab8a098b4bfdd5326708fc404fd6d3f`
+- Config hash: `0f0745e88eb114e3f619d775d2410da298c60caa2379ffb4107fa497827a10d7`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 286,638
-- Token p95 / p99: 1,099 / 3,047
+- Total prompt tokens: 287,799
+- Token p95 / p99: 1,791 / 3,042
 
 ### By Kind
 
-- `system-data`: 265,081 tokens (92.5%)
-- `system`: 14,295 tokens (5.0%)
-- `tool`: 7,262 tokens (2.5%)
+- `system-data`: 264,740 tokens (92.0%)
+- `system`: 15,239 tokens (5.3%)
+- `tool`: 7,820 tokens (2.7%)

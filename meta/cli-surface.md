@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 24
-- Env vars: 155
+- Env vars: 157
 - Config keys: 129
 - Tools: 0
 - Skills: 0
-- Models: 21
+- Models: 22
 - Providers: 7
 
 ## Commands
@@ -137,6 +137,7 @@
 - `DEBUG`
 - `DEBUG_AUTH`
 - `DETECT_GCP_RETRIES`
+- `DEV`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
 - `DISABLE_COST_WARNINGS`
@@ -220,6 +221,7 @@
 - `SSH_CLIENT`
 - `SSH_CONNECTION`
 - `SSH_TTY`
+- `STRICT_ALLOWED_TOOLS`
 - `STY`
 - `SWE_BENCH`
 - `SYSTEMROOT`
@@ -418,6 +420,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-migrations-`
 - `claude-sandbox-`
 
 ## Providers
