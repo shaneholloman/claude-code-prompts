@@ -1,8 +1,9 @@
-# Claude Code Flags 0.2.118
+# Claude Code Flags 0.2.119
 
 ## Feature Gates
 
 - `contents_identical`
+- `force_local_installation_migration`
 - `missing_file_edits`
 - `tool_use_invalid`
 
