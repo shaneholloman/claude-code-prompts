@@ -4,7 +4,7 @@
 
 ## Summary
 
-Record starting git status snapshot, including current branch and recent commits.
+Record initial git status snapshot, including current branch and main branch names.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,6 +12,7 @@ Record starting git status snapshot, including current branch and recent commits
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 This is the git status at the start of the conversation. Note that this status is a snapshot in time, and will not update during the conversation.
@@ -23,4 +24,4 @@ Status:
 (clean)
 
 Recent commits:
-local
+${EXPR_3}
