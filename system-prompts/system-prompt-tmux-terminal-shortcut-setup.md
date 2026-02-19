@@ -12,6 +12,8 @@ Sets Shift+Enter multiline shortcut by running terminal command outside tmux, pe
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 Terminal setup cannot be run from ${EXPR_1}.
@@ -22,6 +24,6 @@ ${EXPR_2}
 To set up the shortcut (optional):
 ${NUM}. Exit tmux${PATH} temporarily
 ${NUM}. Run ${PATH} directly in one of these terminals:
-global   • IDE: VSCode, Cursor, Windsurf
+mcp__${EXPR_3}__${EXPR_4}   • IDE: VSCode, Cursor, Windsurf
    • Other: Ghostty, WezTerm
 ${NUM}. Return to tmux${PATH} - settings will persist
