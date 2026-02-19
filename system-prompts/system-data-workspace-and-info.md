@@ -16,7 +16,7 @@ Describe working directories, environment details, and recommended latest Claude
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | resolved list (4 items) | None |
+| `EXPR_7` | None | None |
 | `EXPR_8` | claude-opus-4-6 | None |
 | `EXPR_9` | claude-sonnet-4-6 | None |
 | `EXPR_10` | claude-haiku-4-5-20251001 | None |
