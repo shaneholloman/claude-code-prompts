@@ -1,4 +1,4 @@
-# System Data Block: conversation-title-generator-4
+# System Data Block: generate-conversation-title
 
 - Source: inline
 
