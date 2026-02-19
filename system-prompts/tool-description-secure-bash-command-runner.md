@@ -18,8 +18,11 @@ Run a bash command with directory verification, banned-command checks, and outpu
 | `EXPR_6` | View | None |
 | `EXPR_7` | LS | None |
 | `EXPR_8` | Claude Code | None |
-| `EXPR_9` | Claude Code | None |
+| `EXPR_9` | https://claude.ai/code | None |
 | `EXPR_10` | Claude Code | None |
+| `EXPR_11` | https://claude.ai/code | None |
+| `EXPR_12` | Claude Code | None |
+| `EXPR_13` | https://claude.ai/code | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -88,7 +91,7 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 <${PATH}>
 
 ${NUM}. Create the commit with a message ending with:
-🤖 Generated with ${EXPR_8: 'Claude Code'}
+🤖 Generated with [${EXPR_8: 'Claude Code'}](${EXPR_9: 'https://claude.ai/code'})
 Co-Authored-By: Claude <noreply@anthropic.com>
 
 - In order to ensure good formatting, ALWAYS pass the commit message via a HEREDOC, a la this example:
@@ -96,7 +99,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   🤖 Generated with ${EXPR_9: 'Claude Code'}
+   🤖 Generated with [${EXPR_10: 'Claude Code'}](${EXPR_11: 'https://claude.ai/code'})
    Co-Authored-By: Claude <noreply@anthropic.com>
    EOF
    )"
@@ -159,7 +162,7 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-🤖 Generated with ${EXPR_10: 'Claude Code'}
+🤖 Generated with [${EXPR_12: 'Claude Code'}](${EXPR_13: 'https://claude.ai/code'})
 EOF
 )"
 <${PATH}>
