@@ -4,7 +4,13 @@
 
 ## Summary
 
-Type requires a positive integer typeid pointer.
+Validation error saying a type must have a positive integer typeid pointer.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-type "\d+" must have a positive integer typeid pointer
+type "${EXPR_1}" must have a positive integer typeid pointer
