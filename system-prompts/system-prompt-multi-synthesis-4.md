@@ -14,7 +14,7 @@ Synthesize multiple agents’ analyses into one unified, contradiction-resolved 
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${NUM}:Original task: ${EXPR_1}
+Original task: ${EXPR_1}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
