@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 17
-- Env vars: 124
+- Env vars: 126
 - Config keys: 70
 - Tools: 5
 - Skills: 0
-- Models: 16
+- Models: 17
 - Providers: 7
 
 ## Commands
@@ -129,6 +129,7 @@
 - `DYNO`
 - `EDITOR`
 - `FLY_REGION`
+- `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
 - `GAE_MODULE_NAME`
@@ -137,6 +138,7 @@
 - `GCE_METADATA_IP`
 - `GCLOUD_PROJECT`
 - `GCP_PROJECT`
+- `GITHUB_ACTIONS`
 - `GITHUB_SHA`
 - `GNOME_TERMINAL_SERVICE`
 - `GOOGLE_APPLICATION_CREDENTIALS`
@@ -316,6 +318,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-sandbox-`
 
 ## Providers
 
