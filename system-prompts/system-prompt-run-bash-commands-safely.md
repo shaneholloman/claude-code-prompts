@@ -14,10 +14,11 @@ Run a bash command with directory checks, quoting rules, and configurable timeou
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | TodoWrite | None |
-| `EXPR_6` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | TodoWrite | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | TodoWrite | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | TodoWrite | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -44,7 +45,7 @@ Usage notes:
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
   - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use Grep, Glob, or Task to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use Read and LS to read files.
-  - If you _still_ need to run `grep`, STOP. ALWAYS USE ripgrep at `rg` first, which all Claude Code users have pre-installed.
+ - If you _still_ need to run `grep`, STOP. ALWAYS USE ripgrep at `rg` first, which all ${EXPR_4} users have pre-installed.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
   - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
     <good-example>
@@ -137,14 +138,14 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 ${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
-   ${EXPR_4}
+   ${EXPR_5}
    - Run git status to make sure the commit succeeded.
 ${NUM}. If the commit fails due to pre-commit hook changes, retry the commit ONCE to include these automated changes. If it fails again, it usually means a pre-commit hook is preventing the commit. If the commit succeeds but you notice that files were modified by the pre-commit hook, you MUST amend your commit to include them.
 
 Important notes:
 - NEVER update the git config
 - NEVER run additional commands to read or explore code, besides git bash commands
-- NEVER use the ${EXPR_5: 'TodoWrite'} or Task tools
+- NEVER use the ${EXPR_6: 'TodoWrite'} or Task tools
 - DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - If there are no changes to commit (i.e., no untracked files and no modifications), do not create an empty commit
@@ -153,7 +154,7 @@ Important notes:
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   ${EXPR_6}
+   ${EXPR_7}
    EOF
    )"
 <${PATH}>
@@ -181,14 +182,14 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-${EXPR_7}
+${EXPR_8}
 EOF
 )"
 <${PATH}>
 
 Important:
 - NEVER update the git config
-- DO NOT use the ${EXPR_8: 'TodoWrite'} or Task tools
+- DO NOT use the ${EXPR_9: 'TodoWrite'} or Task tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
