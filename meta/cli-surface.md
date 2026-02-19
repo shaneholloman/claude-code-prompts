@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 47
-- Env vars: 374
-- Config keys: 430
+- Env vars: 375
+- Config keys: 435
 - Tools: 3
 - Skills: 0
-- Models: 63
+- Models: 65
 - Providers: 8
 
 ## Commands
@@ -496,6 +496,7 @@
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `TMPDIR`
+- `TMUX`
 - `UNDICI_NO_FG`
 - `USE_API_CLEAR_TOOL_RESULTS`
 - `USE_API_CLEAR_TOOL_USES`
@@ -562,8 +563,10 @@
 - `allowedDomains`
 - `allowedMcpServers`
 - `allowedTools`
+- `allowGitConfig`
 - `allowLocalBinding`
 - `allowManagedHooksOnly`
+- `allowPty`
 - `allowUnixSockets`
 - `allowUnsandboxedCommands`
 - `allowWrite`
@@ -579,6 +582,7 @@
 - `ask`
 - `async`
 - `asyncTimeout`
+- `attribution`
 - `author`
 - `authorization_details_types_supported`
 - `authorization_endpoint`
@@ -621,6 +625,7 @@
 - `commandName`
 - `commands`
 - `comments`
+- `commit`
 - `companyAnnouncements`
 - `completions`
 - `compressible`
@@ -820,6 +825,7 @@
 - `plugins`
 - `policy_uri`
 - `policySettings`
+- `pr`
 - `progress`
 - `progressToken`
 - `projectPath`
@@ -1036,6 +1042,8 @@ _None detected_
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
 - `claude-opus-4-5-20251101`
+- `claude-plugin-directory`
+- `claude-plugins-official`
 - `claude-prompt`
 - `claude-review`
 - `claude-settings`
