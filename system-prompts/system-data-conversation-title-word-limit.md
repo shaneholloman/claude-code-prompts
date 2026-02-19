@@ -12,8 +12,8 @@ Writes a fixed-length title for a conversation based on recent messages.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | unknown | None |
+| `EXPR_3` | unknown | None |
+| `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
@@ -27,16 +27,13 @@ Writes a fixed-length title for a conversation based on recent messages.
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
-[Last ${EXPR_2} of ${EXPR_3} messages]
+[Last ${EXPR_1} of ${EXPR_2} messages]
 
-${EXPR_4: 'unknown'}
+${EXPR_3: 'unknown'}
 
 
 Respond with the title for the conversation and nothing else.
@@ -77,6 +74,8 @@ ${NUM}
 
 ${NUM}
 
+${EXPR_4}
+
 ${EXPR_5}
 
 ${EXPR_6}
@@ -87,49 +86,47 @@ ${EXPR_8}
 
 ${EXPR_9}
 
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
 ${EXPR_10}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
 
 ${EXPR_11}
 
 ${EXPR_12}
-
-${EXPR_13}
 
 api
 
@@ -137,16 +134,48 @@ api
 
 PUT
 
-repos/${EXPR_14}${PATH}${EXPR_15}
+repos/${EXPR_13}${PATH}${EXPR_14}
 
 -f
 
-message="Update ${EXPR_16}"
+message="Update ${EXPR_15}"
 
 -f
 
-content=${EXPR_17}
+content=${EXPR_16}
 
 -f
 
-branch=${EXPR_18}
+branch=${EXPR_17}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
