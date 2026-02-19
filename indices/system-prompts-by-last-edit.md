@@ -14,9 +14,9 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-read-local-file-lines.md`](../system-prompts/system-prompt-read-local-file-lines.md) | Reads absolute-path files with optional offset/limit, truncation, numbered lines; use EXPR_1 for notebooks. | 158 | 0.2.40 | 0.2.43 |
 | [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,481 | 0.2.42 | 0.2.42 |
 | [`system-prompt-batch-invocations-guide.md`](../system-prompts/system-prompt-batch-invocations-guide.md) | Defines parallel batch tool invocations list, aggregating results and requiring post-call user message. | 308 | 0.2.42 | 0.2.42 |
-| [`system-prompt-read-local-file-lines.md`](../system-prompts/system-prompt-read-local-file-lines.md) | Reads absolute-path files with optional offset/limit, truncation, numbered lines; use EXPR_1 for notebooks. | 158 | 0.2.40 | 0.2.42 |
 | [`system-prompt-assisted-search-guidelines.md`](../system-prompts/system-prompt-assisted-search-guidelines.md) | Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools. | 497 | 0.2.41 | 0.2.41 |
 | [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, timeouts, and banned-command restrictions. | 2,202 | 0.2.40 | 0.2.40 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.40 |
@@ -47,7 +47,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-read-local-file-lines-2.md`](../system-prompts/tool-description-read-local-file-lines-2.md) | Reads absolute-path files with optional offset/limit, truncation, numbered lines; use EXPR_1 for notebooks. | 158 | 0.2.40 | 0.2.42 |
+| [`tool-description-read-local-file-lines-2.md`](../system-prompts/tool-description-read-local-file-lines-2.md) | Reads absolute-path files with optional offset/limit, truncation, numbered lines; use EXPR_1 for notebooks. | 158 | 0.2.40 | 0.2.43 |
 | [`tool-description-fetch-url-and-summarize.md`](../system-prompts/tool-description-fetch-url-and-summarize.md) | Fetches an HTTPS URL, converts to markdown, and analyzes it with a small model using a provided prompt. | 156 | 0.2.42 | 0.2.42 |
 | [`tool-description-mcp-connection-status.md`](../system-prompts/tool-description-mcp-connection-status.md) | Display current MCP server connection status. | 6 | 0.2.41 | 0.2.41 |
 | [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,179 | 0.2.40 | 0.2.40 |
@@ -77,14 +77,14 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.42 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.42 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.43 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.43 |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.43 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.43 |
+| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.43 |
+| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.43 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 247 | 0.2.42 | 0.2.42 |
 | [`system-data-whimsical-verb-synonyms-list.md`](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | Playful list of gerund verbs describing thinking or doing. | 221 | 0.2.42 | 0.2.42 |
-| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.42 |
-| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.42 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.41 |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.41 |
 | [`system-data-path-list-template.md`](../system-prompts/system-data-path-list-template.md) | Multiple prompts (2) | 111 | 0.2.40 | 0.2.40 |
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.38 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
