@@ -6,8 +6,14 @@
 
 Read-only plan mode: explore codebase, compare approaches, and propose an implementation strategy.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
-${PATH}
+${EXPR_1}
 
 In plan mode, you should:
 ${NUM}. Thoroughly explore the codebase to understand existing patterns
