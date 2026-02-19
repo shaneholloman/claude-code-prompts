@@ -4,7 +4,7 @@
 
 ## Summary
 
-Synthesize multiple agent findings into one cohesive response addressing the original task.
+Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task
 
 ## Placeholder Hints (source-backed)
 
@@ -12,15 +12,13 @@ Synthesize multiple agent findings into one cohesive response addressing the ori
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-Original task: ${EXPR_2}
+Original task: ${EXPR_1}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_3}
+${EXPR_2}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
