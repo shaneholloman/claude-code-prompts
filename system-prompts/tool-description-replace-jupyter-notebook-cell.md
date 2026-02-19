@@ -1,6 +1,6 @@
 # Tool Description: replace-jupyter-notebook-cell
 
-- Name: NotebookEditTool
+- Name: NotebookEdit
 
 ## Summary
 
