@@ -26,17 +26,17 @@ ${NUM}. Command Execution:
 Usage notes:
   - The command argument is required.
   - You can specify an optional timeout in milliseconds (up to 600000ms / ${NUM} minutes). If not specified, commands will timeout after ${NUM} minutes.
-- If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
+  - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
+  - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use GrepTool, GlobTool, or dispatch_agent to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use View and LS to read files.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
-  - IMPORTANT: All commands share the same shell session. Shell state (environment variables, virtual environments, current directory, etc.) persist between commands. For example, if you set an environment variable as part of a command, the environment variable will persist for subsequent commands.
   - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
-  <good-example>
-  pytest ${PATH}
-  <${PATH}>
-  <bad-example>
-  cd ${PATH} && pytest tests
-  <${PATH}>
+    <good-example>
+    pytest ${PATH}
+    <${PATH}>
+    <bad-example>
+    cd ${PATH} && pytest tests
+    <${PATH}>
 
 # Committing changes with git
 
