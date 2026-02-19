@@ -11,32 +11,11 @@ System instruction to run mcp-cli info before any mcp-cli tool call.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 You are Claude Code, Anthropic's official CLI for Claude, running within the Claude Agent SDK.
 
 ${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5}
-
-${EXPR_6}
-
-userSettings
-
-projectSettings
-
-localSettings
 
 
 
