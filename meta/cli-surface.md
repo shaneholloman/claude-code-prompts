@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 35
-- Env vars: 249
-- Config keys: 295
+- Env vars: 250
+- Config keys: 296
 - Tools: 3
 - Skills: 0
 - Models: 34
@@ -342,6 +342,7 @@
 - `USE_BUILTIN_RIPGREP`
 - `USE_LOCAL_OAUTH`
 - `USERPROFILE`
+- `UV_THREADPOOL_SIZE`
 - `V`
 - `VERCEL`
 - `VERCEL_BITBUCKET_COMMIT_SHA`
@@ -520,6 +521,7 @@
 - `matcher`
 - `maximum`
 - `maxLength`
+- `mcp_response`
 - `mcpServers`
 - `message`
 - `method`
