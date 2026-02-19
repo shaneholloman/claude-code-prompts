@@ -9,9 +9,9 @@ Sandbox profile allowing specific process permissions and Mach service lookups.
 # Raw Prompt Text
 (version ${NUM})
 
-(deny default (with message "local"))
+(deny default (with message "stdio"))
 
-; LogTag: local
+; LogTag: stdio
 
 ; Essential permissions - based on Chrome sandbox policy
 
