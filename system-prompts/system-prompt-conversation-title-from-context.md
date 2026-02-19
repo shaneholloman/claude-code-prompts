@@ -21,6 +21,7 @@ Compose a 3-5 word conversation title after reporting workspace reference and sy
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -31,21 +32,17 @@ ${EXPR_3}
 
 Found ${EXPR_4} references across ${EXPR_5} files:
 
---files
+Found ${EXPR_6} symbols in workspace:
 
---follow
+Found ${EXPR_7} references across ${EXPR_8} files:
 
---hidden
-
-Found ${EXPR_6} references across ${EXPR_7} files:
-
-Found ${EXPR_8} symbols in workspace:
+Found ${EXPR_9} symbols in workspace:
 
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
-[Last ${EXPR_9} of ${EXPR_10} messages]
+[Last ${EXPR_10} of ${EXPR_11} messages]
 
-${EXPR_11}
+${EXPR_12}
 
 
 Respond with the title for the conversation and nothing else.
