@@ -32,6 +32,7 @@ Local template capturing background bash command, status, and numeric fields.
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
 
 # Raw Prompt Text
 local
@@ -84,34 +85,4 @@ ${EXPR_21}
 
 ${EXPR_22}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
+${EXPR_23}
