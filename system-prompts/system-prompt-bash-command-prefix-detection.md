@@ -43,6 +43,7 @@ Examples:
 - git log --oneline -n ${NUM} => git log
 - grep -A ${NUM} "from foo.bar.baz import" alpha${PATH} => grep
 - pig tail zerba.log => pig tail
+- notion test some${PATH} => notion test
 - npm test => none
 - npm test --foo => npm test
 - npm test -- -f "foo" => npm test
