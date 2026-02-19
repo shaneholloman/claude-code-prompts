@@ -13,6 +13,8 @@ installMethod
 
 autoUpdates
 
+autoUpdatesProtectedForNative
+
 theme
 
 verbose
