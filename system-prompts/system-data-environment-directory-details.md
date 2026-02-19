@@ -1,4 +1,4 @@
-# System Data Block: runtime-environment-details
+# System Data Block: environment-directory-details
 
 - Source: inline
 
