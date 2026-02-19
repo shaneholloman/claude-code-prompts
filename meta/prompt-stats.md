@@ -1,12 +1,12 @@
-# Prompt Stats 2.1.42
+# Prompt Stats 2.1.44
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | agent | [Agent Prompt: Codebase Search Analysis Guide](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | 1362 | 287 | 1.0.45 | 2.0.70 |
+| agent | [Agent Prompt: Ps1 To Statusline](../system-prompts/agent-prompt-ps1-to-statusline.md) | 5256 | 1568 | 2.1.41 | 2.1.44 |
 | agent | [Agent Prompt: Read Only Architecture Planning 2](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | 2487 | 644 | 2.0.56 | 2.0.56 |
 | agent | [Agent Prompt: Read Only Codebase Search](../system-prompts/agent-prompt-read-only-codebase-search.md) | 2082 | 503 | 2.0.56 | 2.1.41 |
 | agent | [Agent Prompt: Safe Bash Command Execution](../system-prompts/agent-prompt-safe-bash-command-execution.md) | 513 | 102 | 2.0.77 | 2.0.77 |
-| agent | [Agent Prompt: Shell Ps1 To Statusline](../system-prompts/agent-prompt-shell-ps1-to-statusline.md) | 5256 | 1568 | 2.1.41 | 2.1.41 |
 | agent | [Agent Prompt: Use Current Configuration](../system-prompts/agent-prompt-use-current-configuration.md) | 239 | 57 | 2.1.40 | 2.1.40 |
 | system | [System Prompt: Absolute Paths And Call Format](../system-prompts/system-prompt-absolute-paths-and-call-format.md) | 553 | 141 | 2.1.33 | 2.1.33 |
 | system | [System Prompt: Add Native Path Export](../system-prompts/system-prompt-add-native-path-export.md) | 143 | 54 | 2.0.32 | 2.1.33 |
@@ -76,7 +76,7 @@
 | system | [System Prompt: Github Repo Access Help](../system-prompts/system-prompt-github-repo-access-help.md) | 194 | 52 | 1.0.28 | 1.0.28 |
 | system | [System Prompt: Guide Scope Docs](../system-prompts/system-prompt-guide-scope-docs.md) | 3101 | 780 | 2.0.73 | 2.1.27 |
 | system | [System Prompt: Guide Scope Docs 2](../system-prompts/system-prompt-guide-scope-docs-2.md) | 3069 | 755 | 2.0.73 | 2.1.27 |
-| system | [System Prompt: Handle Interrupting User Message](../system-prompts/system-prompt-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.42 |
+| system | [System Prompt: Handle Interrupting User Message](../system-prompts/system-prompt-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.44 |
 | system | [System Prompt: Handle Permission Denials](../system-prompts/system-prompt-handle-permission-denials.md) | 732 | 160 | 2.1.39 | 2.1.39 |
 | system | [System Prompt: Handle Subagent Exit Codes](../system-prompts/system-prompt-handle-subagent-exit-codes.md) | 243 | 71 | 2.1.26 | 2.1.26 |
 | system | [System Prompt: Handle Truncated Output](../system-prompts/system-prompt-handle-truncated-output.md) | 316 | 68 | 2.0.43 | 2.0.43 |
@@ -97,13 +97,13 @@
 | system | [System Prompt: Interruptible Wait Duration](../system-prompts/system-prompt-interruptible-wait-duration.md) | 578 | 143 | 2.1.38 | 2.1.38 |
 | system | [System Prompt: Invoke Matching](../system-prompts/system-prompt-invoke-matching.md) | 1285 | 323 | 2.1.23 | 2.1.23 |
 | system | [System Prompt: Iso Date Parser Rules](../system-prompts/system-prompt-iso-date-parser-rules.md) | 745 | 207 | 2.1.38 | 2.1.42 |
-| system | [System Prompt: Iso Date Parser Rules 2](../system-prompts/system-prompt-iso-date-parser-rules-2.md) | 1537 | 436 | 2.1.38 | 2.1.42 |
-| system | [System Prompt: Iso Date Parser Rules 3](../system-prompts/system-prompt-iso-date-parser-rules-3.md) | 747 | 214 | 2.1.40 | 2.1.42 |
-| system | [System Prompt: Iso Date Parser Rules 4](../system-prompts/system-prompt-iso-date-parser-rules-4.md) | 1573 | 457 | 2.1.40 | 2.1.42 |
+| system | [System Prompt: Iso Date Parser Rules 2](../system-prompts/system-prompt-iso-date-parser-rules-2.md) | 747 | 214 | 2.1.40 | 2.1.44 |
+| system | [System Prompt: Iso Date Parser Rules 3](../system-prompts/system-prompt-iso-date-parser-rules-3.md) | 1573 | 457 | 2.1.40 | 2.1.44 |
+| system | [System Prompt: Iso Date Parser Rules 4](../system-prompts/system-prompt-iso-date-parser-rules-4.md) | 1537 | 436 | 2.1.38 | 2.1.44 |
 | system | [System Prompt: Iso Date Parser Rules 5](../system-prompts/system-prompt-iso-date-parser-rules-5.md) | 756 | 209 | 2.1.40 | 2.1.42 |
 | system | [System Prompt: Iso Date Parser Rules 6](../system-prompts/system-prompt-iso-date-parser-rules-6.md) | 731 | 202 | 2.1.38 | 2.1.42 |
 | system | [System Prompt: Iso Date Parser Rules 7](../system-prompts/system-prompt-iso-date-parser-rules-7.md) | 849 | 265 | 2.1.41 | 2.1.42 |
-| system | [System Prompt: Iso Date Parser Rules 8](../system-prompts/system-prompt-iso-date-parser-rules-8.md) | 733 | 200 | 2.1.38 | 2.1.42 |
+| system | [System Prompt: Iso Date Parser Rules 8](../system-prompts/system-prompt-iso-date-parser-rules-8.md) | 733 | 200 | 2.1.38 | 2.1.44 |
 | system | [System Prompt: Json Command Exit Handling](../system-prompts/system-prompt-json-command-exit-handling.md) | 152 | 40 | 2.0.36 | 2.0.36 |
 | system | [System Prompt: Json Command Exit Rules](../system-prompts/system-prompt-json-command-exit-rules.md) | 146 | 34 | 1.0.85 | 1.0.85 |
 | system | [System Prompt: Json Command Io Exit Codes](../system-prompts/system-prompt-json-command-io-exit-codes.md) | 173 | 46 | 2.0.43 | 2.0.44 |
@@ -173,7 +173,7 @@
 | system | [System Prompt: Task Exit Handling](../system-prompts/system-prompt-task-exit-handling.md) | 263 | 74 | 2.1.33 | 2.1.33 |
 | system | [System Prompt: Task For Search](../system-prompts/system-prompt-task-for-search.md) | 219 | 51 | 2.1.20 | 2.1.20 |
 | system | [System Prompt: Teammate Exit Handling](../system-prompts/system-prompt-teammate-exit-handling.md) | 242 | 65 | 2.1.33 | 2.1.33 |
-| system | [System Prompt: Teammate Task Selection Rules](../system-prompts/system-prompt-teammate-task-selection-rules.md) | 541 | 147 | 2.1.38 | 2.1.38 |
+| system | [System Prompt: Teammate Task Claiming Order](../system-prompts/system-prompt-teammate-task-claiming-order.md) | 541 | 147 | 2.1.38 | 2.1.44 |
 | system | [System Prompt: Terminal Shortcut Setup 2](../system-prompts/system-prompt-terminal-shortcut-setup-2.md) | 424 | 157 | 2.0.77 | 2.1.33 |
 | system | [System Prompt: Update Definition Files](../system-prompts/system-prompt-update-definition-files.md) | 102 | 17 | 2.1.39 | 2.1.39 |
 | system | [System Prompt: Update Magic Doc File](../system-prompts/system-prompt-update-magic-doc-file.md) | 3178 | 711 | 2.0.30 | 2.0.30 |
@@ -192,7 +192,7 @@
 | system | [System Prompt: Watch Next Message Preferences](../system-prompts/system-prompt-watch-next-message-preferences.md) | 218 | 44 | 2.1.40 | 2.1.42 |
 | system | [System Prompt: Watch Next Message Preferences 2](../system-prompts/system-prompt-watch-next-message-preferences-2.md) | 220 | 49 | 2.1.40 | 2.1.42 |
 | system | [System Prompt: Web Search](../system-prompts/system-prompt-web-search.md) | 57 | 11 | 0.2.108 | 2.0.22 |
-| system | [System Prompt: Web Search With Mandatory Sources](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | 1307 | 310 | 2.1.42 | 2.1.42 |
+| system | [System Prompt: Web Search With Mandatory Sources](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | 1307 | 310 | 2.1.42 | 2.1.44 |
 | system | [System Prompt: Webfetch Auth Url Warning](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | 1510 | 361 | 2.1.16 | 2.1.16 |
 | system | [System Prompt: When Not To Delegate](../system-prompts/system-prompt-when-not-to-delegate.md) | 4437 | 1094 | 2.1.38 | 2.1.40 |
 | system | [System Prompt: Write Command Descriptions](../system-prompts/system-prompt-write-command-descriptions.md) | 776 | 211 | 2.1.3 | 2.1.3 |
@@ -880,7 +880,7 @@
 | system-reminder | [System Reminder: Haiku Fallback Returned Null](../system-prompts/system-reminder-haiku-fallback-returned-null.md) | 76 | 24 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Halt After Rejected Action](../system-prompts/system-reminder-halt-after-rejected-action.md) | 225 | 56 | 2.0.33 | 2.0.33 |
 | system-reminder | [System Reminder: Handle Chrome Message Type](../system-prompts/system-reminder-handle-chrome-message-type.md) | 39 | 12 | 2.1.38 | 2.1.38 |
-| system-reminder | [System Reminder: Handle Interrupting User Message](../system-prompts/system-reminder-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.42 |
+| system-reminder | [System Reminder: Handle Interrupting User Message](../system-prompts/system-reminder-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.44 |
 | system-reminder | [System Reminder: Handle Truncated Message](../system-prompts/system-reminder-handle-truncated-message.md) | 62 | 27 | 2.0.56 | 2.1.40 |
 | system-reminder | [System Reminder: Headless Marketplace Plugin Install Failed](../system-prompts/system-reminder-headless-marketplace-plugin-install-failed.md) | 80 | 20 | 2.1.41 | 2.1.41 |
 | system-reminder | [System Reminder: Headless Marketplace Plugin Installed](../system-prompts/system-reminder-headless-marketplace-plugin-installed.md) | 72 | 18 | 2.1.41 | 2.1.41 |
@@ -1333,7 +1333,6 @@
 | system-reminder | [System Reminder: Metrics Check Fallback Disabled](../system-prompts/system-reminder-metrics-check-fallback-disabled.md) | 44 | 9 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Metrics Export Failure](../system-prompts/system-reminder-metrics-export-failure.md) | 32 | 11 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Metrics Opt Out Api Response](../system-prompts/system-reminder-metrics-opt-out-api-response.md) | 69 | 25 | 2.1.38 | 2.1.38 |
-| system-reminder | [System Reminder: Metrics Opt Out Check Failure](../system-prompts/system-reminder-metrics-opt-out-check-failure.md) | 39 | 14 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Migration Completed Notes](../system-prompts/system-reminder-migration-completed-notes.md) | 45 | 7 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Missing](../system-prompts/system-reminder-missing.md) | 69 | 19 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Missing Access Token Assume Not Installed](../system-prompts/system-reminder-missing-access-token-assume-not-installed.md) | 74 | 17 | 2.1.38 | 2.1.38 |
@@ -1396,10 +1395,10 @@
 | system-reminder | [System Reminder: Native Install Issues Cleanup](../system-prompts/system-reminder-native-install-issues-cleanup.md) | 70 | 14 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Native Installation Updater](../system-prompts/system-reminder-native-installation-updater.md) | 58 | 11 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Native Installer Cap Update](../system-prompts/system-reminder-native-installer-cap-update.md) | 83 | 21 | 2.1.40 | 2.1.40 |
-| system-reminder | [System Reminder: Native Installer Skip Update](../system-prompts/system-reminder-native-installer-skip-update.md) | 101 | 23 | 2.1.40 | 2.1.42 |
+| system-reminder | [System Reminder: Native Installer Skip Update](../system-prompts/system-reminder-native-installer-skip-update.md) | 101 | 23 | 2.1.40 | 2.1.44 |
 | system-reminder | [System Reminder: Native Wasm Support Missing](../system-prompts/system-reminder-native-wasm-support-missing.md) | 31 | 6 | 1.0.25 | 1.0.25 |
 | system-reminder | [System Reminder: Natural Language To Iso Date](../system-prompts/system-reminder-natural-language-to-iso-date.md) | 722 | 193 | 2.1.38 | 2.1.42 |
-| system-reminder | [System Reminder: Natural Language To Iso Date 2](../system-prompts/system-reminder-natural-language-to-iso-date-2.md) | 733 | 200 | 2.1.38 | 2.1.42 |
+| system-reminder | [System Reminder: Natural Language To Iso Date 2](../system-prompts/system-reminder-natural-language-to-iso-date-2.md) | 733 | 200 | 2.1.38 | 2.1.44 |
 | system-reminder | [System Reminder: Needs User Input](../system-prompts/system-reminder-needs-user-input.md) | 28 | 5 | 2.0.30 | 2.0.30 |
 | system-reminder | [System Reminder: Nested Mappings Not Allowed](../system-prompts/system-reminder-nested-mappings-not-allowed.md) | 51 | 11 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: New Message Log Line](../system-prompts/system-reminder-new-message-log-line.md) | 43 | 21 | 2.1.38 | 2.1.38 |
@@ -1482,9 +1481,9 @@
 | system-reminder | [System Reminder: Outgoing Calls Missing To Field](../system-prompts/system-reminder-outgoing-calls-missing-to-field.md) | 75 | 21 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Output Style Force Ignored](../system-prompts/system-reminder-output-style-force-ignored.md) | 127 | 35 | 2.1.40 | 2.1.40 |
 | system-reminder | [System Reminder: Outside Tmux Iterm Tmux Available](../system-prompts/system-reminder-outside-tmux-iterm-tmux-available.md) | 66 | 24 | 2.1.38 | 2.1.38 |
-| system-reminder | [System Reminder: Package Update Available](../system-prompts/system-reminder-package-update-available.md) | 66 | 22 | 2.1.38 | 2.1.42 |
+| system-reminder | [System Reminder: Package Update Available](../system-prompts/system-reminder-package-update-available.md) | 66 | 22 | 2.1.38 | 2.1.44 |
 | system-reminder | [System Reminder: Package Updater Cap Update](../system-prompts/system-reminder-package-updater-cap-update.md) | 98 | 35 | 2.1.40 | 2.1.40 |
-| system-reminder | [System Reminder: Package Updater Skip Update](../system-prompts/system-reminder-package-updater-skip-update.md) | 113 | 31 | 2.1.40 | 2.1.42 |
+| system-reminder | [System Reminder: Package Updater Skip Update](../system-prompts/system-reminder-package-updater-skip-update.md) | 113 | 31 | 2.1.40 | 2.1.44 |
 | system-reminder | [System Reminder: Package Url Reported](../system-prompts/system-reminder-package-url-reported.md) | 30 | 11 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Panebackendexecutor Shutdown Request Sent](../system-prompts/system-reminder-panebackendexecutor-shutdown-request-sent.md) | 68 | 20 | 2.1.38 | 2.1.38 |
 | system-reminder | [System Reminder: Panebackendexecutor Terminate Called](../system-prompts/system-reminder-panebackendexecutor-terminate-called.md) | 65 | 24 | 2.1.38 | 2.1.38 |
@@ -2364,8 +2363,8 @@
 | system-data | [System Data: Bedrock Customization Job Summary Fields](../system-prompts/system-data-bedrock-customization-job-summary-fields.md) | 333 | 141 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Evaluation Job Request](../system-prompts/system-data-bedrock-evaluation-job-request.md) | 330 | 131 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Evaluation Job Summary](../system-prompts/system-data-bedrock-evaluation-job-summary.md) | 398 | 162 | 2.0.63 | 2.0.63 |
-| system-data | [System Data: Bedrock Foundation Details](../system-prompts/system-data-bedrock-foundation-details.md) | 341 | 135 | 2.0.63 | 2.1.41 |
-| system-data | [System Data: Bedrock Foundation Details 2](../system-prompts/system-data-bedrock-foundation-details-2.md) | 341 | 137 | 2.0.63 | 2.1.41 |
+| system-data | [System Data: Bedrock Foundation Details](../system-prompts/system-data-bedrock-foundation-details.md) | 341 | 137 | 2.0.63 | 2.1.44 |
+| system-data | [System Data: Bedrock Foundation Details 2](../system-prompts/system-data-bedrock-foundation-details-2.md) | 341 | 135 | 2.0.63 | 2.1.44 |
 | system-data | [System Data: Bedrock Get Async Invoke Response](../system-prompts/system-data-bedrock-get-async-invoke-response.md) | 289 | 121 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Get Custom Deployment](../system-prompts/system-data-bedrock-get-custom-deployment.md) | 286 | 119 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Get Custom Response Fields](../system-prompts/system-data-bedrock-get-custom-response-fields.md) | 468 | 182 | 2.0.63 | 2.0.63 |
@@ -2468,8 +2467,8 @@
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 378 | 127 | 0.2.9 | 0.2.25 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 565 | 166 | 0.2.9 | 2.1.33 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 2.1.42 |
-| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 2.1.42 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 567 | 171 | 0.2.9 | 2.1.44 |
+| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 554 | 162 | 0.2.9 | 2.1.44 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Template Function Compiled Output](../system-prompts/system-data-template-function-compiled-output.md) | 271 | 126 | 2.0.66 | 2.0.66 |
 | system-data | [System Data: Truncated Numeric Placeholders](../system-prompts/system-data-truncated-numeric-placeholders.md) | 1970 | 1119 | 1.0.59 | 1.0.59 |
@@ -2557,5 +2556,5 @@
 | tool | [Tool Description: Terminal Window Size Changed](../system-prompts/tool-description-terminal-window-size-changed.md) | 28 | 4 | 1.0.68 | 1.0.68 |
 | tool | [Tool Description: Update Task Status Details](../system-prompts/tool-description-update-task-status-details.md) | 2290 | 598 | 2.1.20 | 2.1.20 |
 | tool | [Tool Description: Upload Image To Target](../system-prompts/tool-description-upload-image-to-target.md) | 332 | 75 | 2.0.71 | 2.0.71 |
-| tool | [Tool Description: Web Search With Mandatory Sources](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | 1307 | 310 | 2.1.42 | 2.1.42 |
+| tool | [Tool Description: Web Search With Mandatory Sources](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | 1307 | 310 | 2.1.42 | 2.1.44 |
 | tool | [Tool Description: Write File Safely](../system-prompts/tool-description-write-file-safely.md) | 482 | 114 | 2.1.20 | 2.1.20 |

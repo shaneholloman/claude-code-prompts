@@ -1,6 +1,6 @@
 # System Prompts Index – by init
 
-- Total prompt files: **2557**
+- Total prompt files: **2556**
 
 ## Categories
 
@@ -9,7 +9,7 @@
 - Agent prompts (6)
 - Skills (3)
 - System data (131)
-- System reminders (2150)
+- System reminders (2149)
 
 ## System prompts (190)
 
@@ -18,7 +18,7 @@ _Sorted by init (newest first)._
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-prompt-use-persistent-memory-files-2.md`](../system-prompts/system-prompt-use-persistent-memory-files-2.md) | Consult and maintain persistent memory directory files, recording reusable lessons and conventions. | 375 | 2.1.42 | 2.1.42 |
-| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 310 | 2.1.42 | 2.1.42 |
+| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 310 | 2.1.42 | 2.1.44 |
 | [`system-prompt-runtime-environment-details.md`](../system-prompts/system-prompt-runtime-environment-details.md) | Multiple prompts (2) | 139 | 2.1.42 | 2.1.42 |
 | [`system-prompt-search-past-context-with-grep.md`](../system-prompts/system-prompt-search-past-context-with-grep.md) | Search memory markdown and transcript logs with narrow grep patterns for past context. | 122 | 2.1.42 | 2.1.42 |
 | [`system-prompt-extract-repeatable-session-steps.md`](../system-prompts/system-prompt-extract-repeatable-session-steps.md) | Extract repeatable workflow from session context, then interview user to formalize a reusable skill. | 1,889 | 2.1.41 | 2.1.41 |
@@ -28,8 +28,8 @@ _Sorted by init (newest first)._
 | [`system-prompt-use-subagent-for-deep-codebase-research.md`](../system-prompts/system-prompt-use-subagent-for-deep-codebase-research.md) | Use Task subagents for broad codebase research when simple searches are insufficient. | 175 | 2.1.41 | 2.1.41 |
 | [`system-prompt-classify-command-prefix-policy.md`](../system-prompts/system-prompt-classify-command-prefix-policy.md) | Process agent-requested commands and decide correct prefix for a given command type. | 41 | 2.1.41 | 2.1.41 |
 | [`system-prompt-avoid-disabling-sandbox.md`](../system-prompts/system-prompt-avoid-disabling-sandbox.md) | Warns against disabling sandbox except under explicit user request or proven sandbox-caused failure. | 458 | 2.1.40 | 2.1.40 |
-| [`system-prompt-iso-date-parser-rules-4.md`](../system-prompts/system-prompt-iso-date-parser-rules-4.md) | Multiple prompts (2) | 457 | 2.1.40 | 2.1.42 |
-| [`system-prompt-iso-date-parser-rules-3.md`](../system-prompts/system-prompt-iso-date-parser-rules-3.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 214 | 2.1.40 | 2.1.42 |
+| [`system-prompt-iso-date-parser-rules-3.md`](../system-prompts/system-prompt-iso-date-parser-rules-3.md) | Multiple prompts (2) | 457 | 2.1.40 | 2.1.44 |
+| [`system-prompt-iso-date-parser-rules-2.md`](../system-prompts/system-prompt-iso-date-parser-rules-2.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 214 | 2.1.40 | 2.1.44 |
 | [`system-prompt-iso-date-parser-rules-5.md`](../system-prompts/system-prompt-iso-date-parser-rules-5.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 209 | 2.1.40 | 2.1.42 |
 | [`system-prompt-verify-stop-condition-json-2.md`](../system-prompts/system-prompt-verify-stop-condition-json-2.md) | Verify planned work completion by reviewing transcript and codebase, then report status. | 142 | 2.1.40 | 2.1.40 |
 | [`system-prompt-stop-after-rejection.md`](../system-prompts/system-prompt-stop-after-rejection.md) | Stops work when the user rejects a tool action and waits for guidance. | 99 | 2.1.40 | 2.1.40 |
@@ -46,15 +46,15 @@ _Sorted by init (newest first)._
 | [`system-prompt-when-not-to-delegate.md`](../system-prompts/system-prompt-when-not-to-delegate.md) | Rules for when to use Task tool and how to run subagents effectively. | 1,094 | 2.1.38 | 2.1.40 |
 | [`system-prompt-interactive-secure-assistance-rules.md`](../system-prompts/system-prompt-interactive-secure-assistance-rules.md) | Provides interactive help with strict authorized-security and URL constraints. | 935 | 2.1.38 | 2.1.38 |
 | [`system-prompt-software-engineering-guidelines.md`](../system-prompts/system-prompt-software-engineering-guidelines.md) | Guidelines for completing coding tasks by reading context and editing real files. | 500 | 2.1.38 | 2.1.38 |
-| [`system-prompt-iso-date-parser-rules-2.md`](../system-prompts/system-prompt-iso-date-parser-rules-2.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 436 | 2.1.38 | 2.1.42 |
+| [`system-prompt-iso-date-parser-rules-4.md`](../system-prompts/system-prompt-iso-date-parser-rules-4.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 436 | 2.1.38 | 2.1.44 |
 | [`system-prompt-use-persistent-memory-files.md`](../system-prompts/system-prompt-use-persistent-memory-files.md) | Consult and maintain persistent memory directory files, recording reusable lessons and conventions. | 387 | 2.1.38 | 2.1.38 |
 | [`system-prompt-write-continuation-work-summary.md`](../system-prompts/system-prompt-write-continuation-work-summary.md) | Produces a structured handoff summary to resume the unfinished task later. | 301 | 2.1.38 | 2.1.38 |
 | [`system-prompt-suggest-coordinator-next-message.md`](../system-prompts/system-prompt-suggest-coordinator-next-message.md) | Predicts what the coordinating user would type next, often silence. | 289 | 2.1.38 | 2.1.38 |
 | [`system-prompt-iso-date-parser-rules.md`](../system-prompts/system-prompt-iso-date-parser-rules.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 207 | 2.1.38 | 2.1.42 |
 | [`system-prompt-iso-date-parser-rules-6.md`](../system-prompts/system-prompt-iso-date-parser-rules-6.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 202 | 2.1.38 | 2.1.42 |
-| [`system-prompt-iso-date-parser-rules-8.md`](../system-prompts/system-prompt-iso-date-parser-rules-8.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 200 | 2.1.38 | 2.1.42 |
+| [`system-prompt-iso-date-parser-rules-8.md`](../system-prompts/system-prompt-iso-date-parser-rules-8.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 200 | 2.1.38 | 2.1.44 |
 | [`system-prompt-authorized-security-rules.md`](../system-prompts/system-prompt-authorized-security-rules.md) | Security assistance policy emphasizing authorization limits and no URL guessing. | 179 | 2.1.38 | 2.1.38 |
-| [`system-prompt-teammate-task-selection-rules.md`](../system-prompts/system-prompt-teammate-task-selection-rules.md) | Guidelines for finding, prioritizing, and claiming available work items. | 147 | 2.1.38 | 2.1.38 |
+| [`system-prompt-teammate-task-claiming-order.md`](../system-prompts/system-prompt-teammate-task-claiming-order.md) | Guidelines for finding, prioritizing, and claiming available work items. | 147 | 2.1.38 | 2.1.44 |
 | [`system-prompt-interruptible-wait-duration.md`](../system-prompts/system-prompt-interruptible-wait-duration.md) | Sleep for a specified duration with user-interruptible wakeups and periodic tick check-ins. | 143 | 2.1.38 | 2.1.38 |
 | [`system-prompt-verify-stop-condition-json.md`](../system-prompts/system-prompt-verify-stop-condition-json.md) | Verify planned work completion by reviewing transcript and codebase, then report status. | 123 | 2.1.38 | 2.1.38 |
 | [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.38 | 2.1.38 |
@@ -117,7 +117,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-hook-evaluation-json-response.md`](../system-prompts/system-prompt-hook-evaluation-json-response.md) | Hook evaluator requiring a JSON ok result with an optional failure reason. | 81 | 2.1.20 | 2.1.20 |
 | [`system-prompt-detect-new-topic-title-3.md`](../system-prompts/system-prompt-detect-new-topic-title-3.md) | Determine if a message starts a new topic and produce a short title in JSON. | 76 | 2.1.20 | 2.1.20 |
 | [`system-prompt-task-for-search.md`](../system-prompts/system-prompt-task-for-search.md) | Use Task tool for file searches and delegate matching work to specialized agents. | 51 | 2.1.20 | 2.1.20 |
-| [`system-prompt-handle-interrupting-user-message.md`](../system-prompts/system-prompt-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.42 |
+| [`system-prompt-handle-interrupting-user-message.md`](../system-prompts/system-prompt-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.44 |
 | [`system-prompt-discover-deferred-capabilities-first-2.md`](../system-prompts/system-prompt-discover-deferred-capabilities-first-2.md) | Search for or select deferred tools to make them available before calling. | 815 | 2.1.19 | 2.1.39 |
 | [`system-prompt-summarize-coding-actions.md`](../system-prompts/system-prompt-summarize-coding-actions.md) | brief past-tense summary of completed coding work under a word limit. | 170 | 2.1.19 | 2.1.19 |
 | [`system-prompt-webfetch-auth-url-warning.md`](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | Warns WebFetch fails on authenticated URLs and suggests using an authenticated tool. | 361 | 2.1.16 | 2.1.16 |
@@ -214,7 +214,7 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 310 | 2.1.42 | 2.1.42 |
+| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 310 | 2.1.42 | 2.1.44 |
 | [`tool-description-at-a-glance-summary-guidelines.md`](../system-prompts/tool-description-at-a-glance-summary-guidelines.md) | Draft NUM-part Claude Code “At a Glance” usage insights: working, hindrances, quick wins, ambitious workflows. | 586 | 2.1.40 | 2.1.40 |
 | [`tool-description-switch-chrome-automation-browser.md`](../system-prompts/tool-description-switch-chrome-automation-browser.md) | Request and switch the Chrome instance used for browser automation via user connection. | 50 | 2.1.38 | 2.1.38 |
 | [`tool-description-spawn-and-manage-teams.md`](../system-prompts/tool-description-spawn-and-manage-teams.md) | Use TeammateTool to create and manage multi-agent teams when collaboration or parallel work would help. | 1,664 | 2.1.33 | 2.1.33 |
@@ -298,7 +298,7 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-shell-ps1-to-statusline.md`](../system-prompts/agent-prompt-shell-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,568 | 2.1.41 | 2.1.41 |
+| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,568 | 2.1.41 | 2.1.44 |
 | [`agent-prompt-use-current-configuration.md`](../system-prompts/agent-prompt-use-current-configuration.md) | Incorporate the user’s custom environment configuration when answering and suggesting features. | 57 | 2.1.40 | 2.1.40 |
 | [`agent-prompt-safe-bash-command-execution.md`](../system-prompts/agent-prompt-safe-bash-command-execution.md) | Execute shell and git commands efficiently with clear output and safety checks. | 102 | 2.0.77 | 2.0.77 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce an implementation plan under strict read-only constraints. | 644 | 2.0.56 | 2.0.56 |
@@ -364,9 +364,9 @@ _Sorted by init (newest first)._
 | [`system-data-bedrock-customization-job-summary-fields.md`](../system-prompts/system-data-bedrock-customization-job-summary-fields.md) | Field list for ModelCustomizationJobSummary including jobArn, status, and timestamps. | 141 | 2.0.63 | 2.0.63 |
 | [`system-data-list-copy-jobs-request-filters.md`](../system-prompts/system-data-list-copy-jobs-request-filters.md) | Specifies request parameters for filtering and sorting model copy jobs. | 141 | 2.0.63 | 2.0.63 |
 | [`system-data-sts-assume-role-request-fields.md`](../system-prompts/system-data-sts-assume-role-request-fields.md) | Parameters for AWS STS AssumeRoleRequest including session and policy options. | 140 | 2.0.63 | 2.0.63 |
-| [`system-data-bedrock-foundation-details-2.md`](../system-prompts/system-data-bedrock-foundation-details-2.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 137 | 2.0.63 | 2.1.41 |
+| [`system-data-bedrock-foundation-details.md`](../system-prompts/system-data-bedrock-foundation-details.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 137 | 2.0.63 | 2.1.44 |
 | [`system-data-get-policy-build-workflow-response.md`](../system-prompts/system-data-get-policy-build-workflow-response.md) | Lists fields returned when fetching an automated reasoning policy build workflow. | 136 | 2.0.63 | 2.0.63 |
-| [`system-data-bedrock-foundation-details.md`](../system-prompts/system-data-bedrock-foundation-details.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 135 | 2.0.63 | 2.1.41 |
+| [`system-data-bedrock-foundation-details-2.md`](../system-prompts/system-data-bedrock-foundation-details-2.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 135 | 2.0.63 | 2.1.44 |
 | [`system-data-invoke-response-stream-request-fields.md`](../system-prompts/system-data-invoke-response-stream-request-fields.md) | Fields for Bedrock runtime InvokeModelWithResponseStream request. | 135 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrockruntime-converse-request-fields.md`](../system-prompts/system-data-bedrockruntime-converse-request-fields.md) | Field list for ConverseRequest including modelId, messages, and configs. | 134 | 2.0.63 | 2.1.42 |
 | [`system-data-bedrockruntime-converse-request-fields-2.md`](../system-prompts/system-data-bedrockruntime-converse-request-fields-2.md) | Field list for ConverseRequest including modelId, messages, and configs. | 133 | 2.0.63 | 2.1.42 |
@@ -432,9 +432,9 @@ _Sorted by init (newest first)._
 | [`system-data-css-selectors-pseudo-classes.md`](../system-prompts/system-data-css-selectors-pseudo-classes.md) | Comprehensive list of CSS pseudo-classes and pseudo-elements. | 228 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
 | [`system-data-css-pseudo-class-keywords.md`](../system-prompts/system-data-css-pseudo-class-keywords.md) | List of CSS selector pseudo-classes and state keywords. | 186 | 0.2.9 | 0.2.9 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.1.42 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.1.44 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 2.1.33 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.1.42 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.1.44 |
 | [`system-data-html-element-name-list.md`](../system-prompts/system-data-html-element-name-list.md) | List of common HTML element tag names. | 160 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-constants-and-paths.md`](../system-prompts/system-data-numeric-constants-and-paths.md) | Lists core constants and environment paths like Inf, NaN, missing, and LOAD_PATH. | 159 | 0.2.9 | 0.2.9 |
 | [`system-data-swift-standard-library-functions.md`](../system-prompts/system-data-swift-standard-library-functions.md) | List of Swift standard library functions and assertions utilities. | 151 | 0.2.9 | 0.2.9 |
@@ -453,7 +453,7 @@ _Sorted by init (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (2150)
+## System reminders (2149)
 
 _Sorted by init (newest first). Showing **201** reminders with more than **30** tokens._
 
@@ -493,14 +493,14 @@ _Sorted by init (newest first). Showing **201** reminders with more than **30** 
 | [`system-reminder-autoupdater-skips-max-version.md`](../system-prompts/system-reminder-autoupdater-skips-max-version.md) | Skip autoupdate because current PID version is already at or above maxVersion. | 32 | 2.1.40 | 2.1.40 |
 | [`system-reminder-fast-mode-mcp-servers.md`](../system-prompts/system-reminder-fast-mode-mcp-servers.md) | Fast mode status line reporting number of detected MCP servers in Claude Desktop. | 32 | 2.1.40 | 2.1.40 |
 | [`system-reminder-invalid-effort-setting.md`](../system-prompts/system-reminder-invalid-effort-setting.md) | Report an invalid agent effort setting and list the allowed effort values. | 32 | 2.1.40 | 2.1.40 |
-| [`system-reminder-package-updater-skip-update.md`](../system-prompts/system-reminder-package-updater-skip-update.md) | PackageManagerAutoUpdater skips update when current version is at or above maxVersion. | 31 | 2.1.40 | 2.1.42 |
+| [`system-reminder-package-updater-skip-update.md`](../system-prompts/system-reminder-package-updater-skip-update.md) | PackageManagerAutoUpdater skips update when current version is at or above maxVersion. | 31 | 2.1.40 | 2.1.44 |
 | [`system-reminder-process-id.md`](../system-prompts/system-reminder-process-id.md) | Displays two lines of text followed by a parenthesized PID value. | 31 | 2.1.40 | 2.1.40 |
 | [`system-reminder-ask-what-to-clarify.md`](../system-prompts/system-reminder-ask-what-to-clarify.md) | Ask what to clarify, then adjust and restate questions based on response. | 67 | 2.1.39 | 2.1.39 |
 | [`system-reminder-finish-plan-no-more-questions.md`](../system-prompts/system-reminder-finish-plan-no-more-questions.md) | Stop clarifying and finish the plan using the provided Q&A transcript. | 46 | 2.1.39 | 2.1.39 |
 | [`system-reminder-mcp-servers-found-message.md`](../system-prompts/system-reminder-mcp-servers-found-message.md) | Log message with timestamp noting MCP server count found in Claude Desktop. | 40 | 2.1.39 | 2.1.39 |
 | [`system-reminder-template-expression-placeholders.md`](../system-prompts/system-reminder-template-expression-placeholders.md) | Multiple prompts (4) | 34 | 2.1.39 | 2.1.39 |
 | [`system-reminder-mcp-cli-schema-first.md`](../system-prompts/system-reminder-mcp-cli-schema-first.md) | Enforce running mcp-cli info before any mcp-cli call to verify schemas. | 1,291 | 2.1.38 | 2.1.38 |
-| [`system-reminder-natural-language-to-iso-date-2.md`](../system-prompts/system-reminder-natural-language-to-iso-date-2.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 200 | 2.1.38 | 2.1.42 |
+| [`system-reminder-natural-language-to-iso-date-2.md`](../system-prompts/system-reminder-natural-language-to-iso-date-2.md) | Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs. | 200 | 2.1.38 | 2.1.44 |
 | [`system-reminder-natural-language-to-iso-date.md`](../system-prompts/system-reminder-natural-language-to-iso-date.md) | Convert natural language date/time inputs into ISO format or INVALID. | 193 | 2.1.38 | 2.1.42 |
 | [`system-reminder-process-command-chain.md`](../system-prompts/system-reminder-process-command-chain.md) | Iterates parent process IDs from a starting PID and prints command lines. | 166 | 2.1.38 | 2.1.38 |
 | [`system-reminder-opentelemetry-flush-timeout-help.md`](../system-prompts/system-reminder-opentelemetry-flush-timeout-help.md) | Warn that OpenTelemetry flush timed out and show current and suggested timeout values. | 146 | 2.1.38 | 2.1.38 |
@@ -621,7 +621,7 @@ _Sorted by init (newest first). Showing **201** reminders with more than **30** 
 | [`system-reminder-powershell-process-command-trace.md`](../system-prompts/system-reminder-powershell-process-command-trace.md) | Iterate up parent processes to collect command lines and join into one string. | 174 | 2.1.23 | 2.1.38 |
 | [`system-reminder-single-turn-direct-answer.md`](../system-prompts/system-reminder-single-turn-direct-answer.md) | Answer a side question once with no tools or follow-ups. | 166 | 2.1.23 | 2.1.33 |
 | [`system-reminder-powershell-process-ancestor-pids.md`](../system-prompts/system-reminder-powershell-process-ancestor-pids.md) | Walk up parent process IDs to build and output a comma-separated ancestor list. | 144 | 2.1.23 | 2.1.38 |
-| [`system-reminder-handle-interrupting-user-message.md`](../system-prompts/system-reminder-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.42 |
+| [`system-reminder-handle-interrupting-user-message.md`](../system-prompts/system-reminder-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.44 |
 | [`system-reminder-shutdown-team-before-response.md`](../system-prompts/system-reminder-shutdown-team-before-response.md) | Requires shutting down the team before delivering the final user response. | 151 | 2.1.16 | 2.1.16 |
 | [`system-reminder-task-tracking.md`](../system-prompts/system-reminder-task-tracking.md) | Suggests creating and updating tasks to track progress when relevant. | 98 | 2.1.16 | 2.1.16 |
 | [`system-reminder-plan-mode-end-with-actions.md`](../system-prompts/system-reminder-plan-mode-end-with-actions.md) | Requires ending each turn with a question or plan-approval action in plan mode. | 69 | 2.1.16 | 2.1.16 |
@@ -662,7 +662,7 @@ _Sorted by init (newest first). Showing **201** reminders with more than **30** 
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 1949 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 1948 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
@@ -737,7 +737,7 @@ _Sorted by init (newest first). Showing **201** reminders with more than **30** 
 | [`system-reminder-fallback-markdown-highlighting.md`](../system-prompts/system-reminder-fallback-markdown-highlighting.md) | Falls back to Markdown when code highlighting language is unsupported. | 23 | 2.1.40 | 2.1.40 |
 | [`system-reminder-fileindex-applied-ignore-patterns.md`](../system-prompts/system-reminder-fileindex-applied-ignore-patterns.md) | Report FileIndex ignore patterns applied and the resulting matched file count. | 23 | 2.1.40 | 2.1.40 |
 | [`system-reminder-found-plan-approval-requests.md`](../system-prompts/system-reminder-found-plan-approval-requests.md) | Log number of plan approval requests found and auto-approved by InboxPoller. | 23 | 2.1.40 | 2.1.40 |
-| [`system-reminder-native-installer-skip-update.md`](../system-prompts/system-reminder-native-installer-skip-update.md) | Notes native installer skipped updating because current version meets or exceeds maximum. | 23 | 2.1.40 | 2.1.42 |
+| [`system-reminder-native-installer-skip-update.md`](../system-prompts/system-reminder-native-installer-skip-update.md) | Notes native installer skipped updating because current version meets or exceeds maximum. | 23 | 2.1.40 | 2.1.44 |
 | [`system-reminder-sent-idle-notification-leader-2.md`](../system-prompts/system-reminder-sent-idle-notification-leader-2.md) | Sends an idle notification to the Anthropic leader. | 23 | 2.1.40 | 2.1.40 |
 | [`system-reminder-cleanup-errors.md`](../system-prompts/system-reminder-cleanup-errors.md) | Report errors encountered during cleanup with provided error details. | 22 | 2.1.40 | 2.1.40 |
 | [`system-reminder-loaded-mcpb-extracted.md`](../system-prompts/system-reminder-loaded-mcpb-extracted.md) | Confirms an MCPB was loaded successfully and extracted to the specified destination. | 22 | 2.1.40 | 2.1.40 |
@@ -1084,7 +1084,7 @@ _Sorted by init (newest first). Showing **201** reminders with more than **30** 
 | [`system-reminder-mcp-servers-found.md`](../system-prompts/system-reminder-mcp-servers-found.md) | Reports how many MCP servers were found for the current installation type. | 22 | 2.1.38 | 2.1.38 |
 | [`system-reminder-missing-mcp-servers-scope.md`](../system-prompts/system-reminder-missing-mcp-servers-scope.md) | Warns that the user:mcp_servers scope is missing from the token. | 22 | 2.1.38 | 2.1.38 |
 | [`system-reminder-no-teammate-context-set.md`](../system-prompts/system-reminder-no-teammate-context-set.md) | Reconnection message indicating no teammate context was set because not a teammate. | 22 | 2.1.38 | 2.1.38 |
-| [`system-reminder-package-update-available.md`](../system-prompts/system-reminder-package-update-available.md) | Announces a PackageManagerAutoUpdater update is available from one version to another. | 22 | 2.1.38 | 2.1.42 |
+| [`system-reminder-package-update-available.md`](../system-prompts/system-reminder-package-update-available.md) | Announces a PackageManagerAutoUpdater update is available from one version to another. | 22 | 2.1.38 | 2.1.44 |
 | [`system-reminder-permissionsync-sandbox-request-failed.md`](../system-prompts/system-reminder-permissionsync-sandbox-request-failed.md) | Report failure sending a sandbox permission request via mailbox with error info. | 22 | 2.1.38 | 2.1.38 |
 | [`system-reminder-permissionsync-sandbox-response-failed.md`](../system-prompts/system-reminder-permissionsync-sandbox-response-failed.md) | PermissionSync mailbox failed sending sandbox permission response with error details. | 22 | 2.1.38 | 2.1.38 |
 | [`system-reminder-plugin-output-styles-default-dir-failure.md`](../system-prompts/system-reminder-plugin-output-styles-default-dir-failure.md) | Failure loading output styles from a plugin default directory, including error details. | 22 | 2.1.38 | 2.1.40 |
@@ -1768,7 +1768,6 @@ _Sorted by init (newest first). Showing **201** reminders with more than **30** 
 | [`system-reminder-marketplace-json-read-failure.md`](../system-prompts/system-reminder-marketplace-json-read-failure.md) | Reading raw marketplace.json failed with a numeric code. | 14 | 2.1.38 | 2.1.40 |
 | [`system-reminder-mcpb-extraction-path-missing.md`](../system-prompts/system-reminder-mcpb-extraction-path-missing.md) | Warns that the MCPB extraction output path is missing for a given target. | 14 | 2.1.38 | 2.1.38 |
 | [`system-reminder-mcpb-source-file-missing.md`](../system-prompts/system-reminder-mcpb-source-file-missing.md) | Warns that a required MCPB source file is missing at the specified path. | 14 | 2.1.38 | 2.1.40 |
-| [`system-reminder-metrics-opt-out-check-failure.md`](../system-prompts/system-reminder-metrics-opt-out-check-failure.md) | Reports a failure when checking metrics opt-out status with error details. | 14 | 2.1.38 | 2.1.38 |
 | [`system-reminder-missing-plugin-path-skipping.md`](../system-prompts/system-reminder-missing-plugin-path-skipping.md) | Warn that a plugin path is missing and will be skipped. | 14 | 2.1.38 | 2.1.38 |
 | [`system-reminder-missing-streaming-callbacks.md`](../system-prompts/system-reminder-missing-streaming-callbacks.md) | Warns that a stream event arrived without streaming callbacks configured. | 14 | 2.1.38 | 2.1.38 |
 | [`system-reminder-native-install-issues-cleanup.md`](../system-prompts/system-reminder-native-install-issues-cleanup.md) | Notes native installation setup issues with cleanup completed. | 14 | 2.1.38 | 2.1.38 |
