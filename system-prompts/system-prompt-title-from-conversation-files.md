@@ -11,12 +11,11 @@ States found file count and requests a short title for the conversation.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Found ${EXPR_1} files
+Found ${NUM} files
 Please write a ${NUM}-${NUM} word title the following conversation:
 
-${EXPR_2}
+${EXPR_1}
 
 Respond with the title for the conversation and nothing else.
