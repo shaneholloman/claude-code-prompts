@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 59
-- Env vars: 393
-- Config keys: 495
+- Env vars: 398
+- Config keys: 496
 - Tools: 3
 - Skills: 0
-- Models: 80
+- Models: 79
 - Providers: 7
 
 ## Commands
@@ -172,7 +172,7 @@
 - `--no-session-persistence`
 - `--plugin-dir <paths...>`
 - `--replay-user-messages`
-- `--session-id <uuid>`
+- `--session-id <id>`
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
 - `--strict-mcp-config`
@@ -265,7 +265,6 @@
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
-- `CLAUDE_CODE_AGENT_SWARMS`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
@@ -279,6 +278,7 @@
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
 - `CLAUDE_CODE_CONTAINER_ID`
+- `CLAUDE_CODE_CUSTOM_OAUTH_URL`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
@@ -294,6 +294,7 @@
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
+- `CLAUDE_CODE_EAGER_FLUSH`
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
 - `CLAUDE_CODE_ENABLE_CFC`
@@ -304,9 +305,11 @@
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
+- `CLAUDE_CODE_ENVIRONMENT_KIND`
 - `CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION`
 - `CLAUDE_CODE_EXIT_AFTER_FIRST_RENDER`
 - `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
+- `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
@@ -318,6 +321,8 @@
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
+- `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
+- `CLAUDE_CODE_IS_COWORK`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
@@ -611,6 +616,7 @@
 - `allowedTools`
 - `allowGitConfig`
 - `allowLocalBinding`
+- `allowManagedDomainsOnly`
 - `allowManagedHooksOnly`
 - `allowManagedPermissionRulesOnly`
 - `allowPty`
@@ -862,6 +868,7 @@
 - `noResponseRetries`
 - `notebook_path`
 - `notification_type`
+- `NR`
 - `num_turns`
 - `numFiles`
 - `numLines`
@@ -1083,7 +1090,6 @@
 - `workerColor`
 - `workerId`
 - `workerName`
-- `wR`
 
 ## Tools
 
@@ -1143,8 +1149,6 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
-- `claude-md-project`
-- `claude-md-user`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
@@ -1152,6 +1156,7 @@ _None detected_
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
 - `claude-opus-4-5-20251101`
+- `claude-opus-4-6`
 - `claude-plugin-directory`
 - `claude-plugin-temp-`
 - `claude-plugins-official`
@@ -1167,12 +1172,12 @@ _None detected_
 - `claude-swarm-`
 - `claude-vscode`
 - `haiku-4`
-- `haiku-4-5`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
-- `opus-4.5-available`
-- `opus-45-upgrade-nudge`
+- `opus-4-6`
+- `opus-4.6-available`
+- `opus-46-upgrade-nudge`
 - `opus-pro-update`
 - `sonnet-1m-welcome`
 - `sonnet-4`
