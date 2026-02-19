@@ -26,4 +26,4 @@ ${EXPR_2}Platform: ${EXPR_3}
 OS Version: ${EXPR_4}
 Today's date: ${EXPR_5}
 <${PATH}>
-${EXPR_6}
+${EXPR_6}local
