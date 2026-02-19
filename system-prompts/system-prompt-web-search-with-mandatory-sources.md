@@ -40,4 +40,4 @@ Usage notes:
 
 IMPORTANT - Use the correct year in search queries:
   - Today's date is ${EXPR_1}-${EXPR_2}-${EXPR_3}. You MUST use this year when searching for recent information, documentation, or current events.
-  - Example: If the user asks for "latest React docs", search for "React documentation \\.\pipe\claude-mcp-browser-bridge-default", NOT "React documentation ${EXPR_4}"
+  - Example: If the user asks for "latest React docs", search for "React documentation ${PATH}", NOT "React documentation ${EXPR_4}"
