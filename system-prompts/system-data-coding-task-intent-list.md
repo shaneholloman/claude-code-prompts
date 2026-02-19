@@ -11,38 +11,16 @@ Enumerates coding help intents: lint/type fixes, refactors, questions, logging, 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | unknown | None |
+| `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | false | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2: 'unknown'}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5: false}
-
 fix lint errors
-
 fix typecheck errors
-
-how does ${EXPR_6} work?
-
-refactor ${EXPR_7}
-
+how does ${EXPR_1} work?
+refactor ${EXPR_2}
 how do I log an error?
-
-edit ${EXPR_8} to...
-
-write a test for ${EXPR_9}
-
+edit ${EXPR_3} to...
+write a test for ${EXPR_4}
 create a util logging.py that...
