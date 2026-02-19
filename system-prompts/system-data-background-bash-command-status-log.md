@@ -29,7 +29,7 @@ Template for reporting background bash command and status fields.
 | `EXPR_17` | WebFetch | None |
 | `EXPR_18` | WebSearch | None |
 | `EXPR_19` | BashOutput | None |
-| `EXPR_20` | KillBash | None |
+| `EXPR_20` | KillShell | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
@@ -73,7 +73,7 @@ ${EXPR_18: 'WebSearch'}
 
 ${EXPR_19: 'BashOutput'}
 
-${EXPR_20: 'KillBash'}
+${EXPR_20: 'KillShell'}
 
 Background Bash ${EXPR_21}
 
