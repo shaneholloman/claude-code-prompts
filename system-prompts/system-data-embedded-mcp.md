@@ -15,15 +15,16 @@ Function template listing coding-assistant commands for linting, refactoring, lo
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
-function ${EXPR_1}(${URL}){
+function mcp__${EXPR_1}__${EXPR_2}(${URL}){
   fix lint errors
   fix typecheck errors
-  how does ${EXPR_2} work?
-  refactor ${EXPR_3}
+  how does ${EXPR_3} work?
+  refactor ${EXPR_4}
   how do I log an error?
-  edit ${EXPR_4} to...
-  write a test for ${EXPR_5}
+  edit ${EXPR_5} to...
+  write a test for ${EXPR_6}
   create a util logging.py that...
 }
