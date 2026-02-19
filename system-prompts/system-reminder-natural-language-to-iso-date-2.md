@@ -4,7 +4,13 @@
 
 ## Summary
 
-Convert natural language date/time inputs into ISO format or INVALID.
+Converts natural-language dates into ISO format strings, preferring future and rejecting incomplete inputs.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 You are a date${PATH} parser that converts natural language into ISO ${NUM} format.
@@ -22,3 +28,5 @@ If the input is incomplete or you cannot confidently parse it into a valid date,
 Examples of INVALID input: partial dates like "${NUM}-${NUM}-", lone numbers like "${NUM}", gibberish.
 
 Examples of valid natural language: "tomorrow", "next Monday", "jan 1st ${NUM}", "in ${NUM} hours", "yesterday".
+
+${EXPR_1}
