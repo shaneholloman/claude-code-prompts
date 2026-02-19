@@ -1,4 +1,4 @@
-# System Prompt: initial-git-status-snapshot-2
+# System Prompt: git-status-session-start
 
 - Source: inline
 
