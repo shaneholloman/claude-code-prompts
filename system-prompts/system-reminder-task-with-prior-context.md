@@ -1,4 +1,4 @@
-# System Prompt: task-with-prior-context
+# System Reminder: task-with-prior-context
 
 - Source: inline
 
