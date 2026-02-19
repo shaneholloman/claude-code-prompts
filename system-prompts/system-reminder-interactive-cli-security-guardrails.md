@@ -21,7 +21,7 @@ Multiple prompts (2)
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
+| `EXPR_12` | resolved list (4 items) | None |
 | `EXPR_13` | Explore | None |
 | `EXPR_14` | Explore | None |
 | `EXPR_15` | Explore | None |
