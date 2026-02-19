@@ -4,7 +4,7 @@
 
 ## Summary
 
-Unify multi-agent findings into a single, contradiction-resolved solution with complete code and structure.
+Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task
 
 ## Placeholder Hints (source-backed)
 
@@ -17,16 +17,13 @@ Unify multi-agent findings into a single, contradiction-resolved solution with c
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
 
 # Raw Prompt Text
-Original task: ${EXPR_1}
+${EXPR_1}${EXPR_2}${EXPR_3} ${EXPR_4}${EXPR_5}:Original task: ${EXPR_6}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_2}
+${EXPR_7}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
@@ -36,19 +33,3 @@ ${NUM}. Includes all important details and code examples from the individual res
 ${NUM}. Is well-structured and complete
 
 Your synthesis should be thorough but focused on the original task.
-
-null
-
-${EXPR_3}
-
-${EXPR_4}
-
-${NUM}
-
-bypassPermissions
-
-${EXPR_5}
-
-stdio
-
-${EXPR_6}${EXPR_7}${EXPR_8} ${EXPR_9}${EXPR_10}
