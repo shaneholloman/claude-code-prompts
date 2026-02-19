@@ -11,14 +11,15 @@ Answer only from supplied page content with limited quotes and no lyrics.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Web page content:
 ---
-\\.\pipe\claude-mcp-browser-bridge-default
+mcp__${EXPR_1}__${EXPR_2}
 ---
 
-${EXPR_1}
+\\.\pipe\claude-mcp-browser-bridge-default
 
 Provide a concise response based only on the content above. In your response:
  - Enforce a strict ${NUM}-character maximum for quotes from any source document. Open Source Software is ok as long as we respect the license.
