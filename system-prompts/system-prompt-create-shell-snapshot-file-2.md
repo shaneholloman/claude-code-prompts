@@ -15,7 +15,7 @@ Initialize a snapshot shell file, unalias all, then append additional generated 
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-SNAPSHOT_FILE=${EXPR_1}
+SNAPSHOT_FILE=${URL} ${URL} ${EXPR_1}
       # No user config file to source
 
       # First, create${PATH} the snapshot file
