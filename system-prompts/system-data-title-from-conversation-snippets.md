@@ -23,6 +23,8 @@ Generate a …-… word title from conversation text plus appended snippets.
 | `EXPR_11` | NotebookRead | None |
 | `EXPR_12` | NotebookEdit | None |
 | `EXPR_13` | WebFetch | None |
+| `EXPR_14` | TodoRead | None |
+| `EXPR_15` | TodoWrite | None |
 
 # Raw Prompt Text
 Please write a ${NUM}-${NUM} word title the following conversation:
@@ -55,3 +57,7 @@ ${EXPR_11: 'NotebookRead'}
 ${EXPR_12: 'NotebookEdit'}
 
 ${EXPR_13: 'WebFetch'}
+
+${EXPR_14: 'TodoRead'}
+
+${EXPR_15: 'TodoWrite'}
