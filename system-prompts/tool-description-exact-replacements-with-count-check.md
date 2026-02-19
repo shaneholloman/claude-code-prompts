@@ -1,6 +1,6 @@
-# System Prompt: exact-replace-with-validation
+# Tool Description: exact-replacements-with-count-check
 
-- Source: inline
+- Name: Edit
 
 ## Summary
 
