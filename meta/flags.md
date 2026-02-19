@@ -1,4 +1,4 @@
-# Claude Code 2.0.67 – Flags
+# Claude Code 2.0.68 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -25,12 +25,15 @@
 | `tengu_opus_default_pro_plan` | experiment | tools | Controls whether Opus is the default model for plan subscribers | Exact effect inferred from nearby model/plan selection logic. | medium | 1 |
 | `tengu_session_memory` | gate | caching | Enable persistent session memory and compact summaries in CLI repl. | Inferred from file read/write and repl_main_thread gating. | medium | 2 |
 | `tengu_sm_compact` | gate | prompts | Enables compact summary messages for session memory handling in CLI transcript. | Only seen as combined gate check; exact behavior elsewhere unknown. | medium | 1 |
+| `tengu_sm_config` | config | caching | Configure thresholds for initializing and updating session memory based on tokens and tool calls | Only shows config read and threshold fields, not how updates are applied. | medium | 1 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
 | `tengu_streaming_tool_execution2` | gate | tools | Gates creation of a tool-execution handler in the streaming CLI request loop | Only observed gating EV0 construction; exact behavior of EV0 is unclear. | high | 1 |
 | `tengu_sumi` | gate | tools | controls CLI stream I/O configuration or console patching behavior | Only appears as a simple gate in a CLI helper. | low | 1 |
 | `tengu_teams_usage_limit_notifications` | experiment | ui | Enable usage limit notifications when running in team context. | Only applies if another gate is enabled and context is "team". | medium | 1 |
+| `tengu_thinkback` | gate | tools | Enables Thinkback year-in-review command and hidden animation playback tool | Controls availability of local CLI/plugin commands. | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `tengu_tool_result_persistence` | gate | caching | Persist large tool result text by storing and replacing oversized content. | Exact persistence mechanism not shown; only size-based transformation is visible. | medium | 2 |
+| `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |
 | `tengu_vscode_review_upsell` | gate | ui | Enable VS Code review upsell experiment gate sent to connected client. | Only shows gate transmission and event logging, not the upsell UI itself. | medium | 1 |
 | `tool_use_examples` | experiment | tools | Include tool input example data and enable related first-party tool option. | Applies only when enabled; one path gated to firstParty. | high | 1 |
 | `trust_folder_dialog_copy` | experiment | safety | Selects copy variant for a trust-folder security prompt with continue/exit choices. | Actual variant text mapping not included. | high | 1 |
