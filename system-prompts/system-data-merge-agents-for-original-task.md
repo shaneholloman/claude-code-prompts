@@ -47,14 +47,15 @@ ${EXPR_2}${EXPR_3}${EXPR_4} ${EXPR_5}${EXPR_6}
 flip
 
 ${EXPR_7}
+${EXPR_8}
 
 partial
 
-Original task: ${EXPR_8}
+Original task: ${EXPR_9}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_9}
+${EXPR_10}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
@@ -67,9 +68,8 @@ Your synthesis should be thorough but focused on the original task.
 
 partialRight
 
-${EXPR_10}
+${EXPR_11}
 
 rearg
 
-${EXPR_11}
 ${EXPR_12}
