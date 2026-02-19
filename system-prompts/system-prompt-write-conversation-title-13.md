@@ -4,20 +4,16 @@
 
 ## Summary
 
-Generate a …-… word title summarizing the provided conversation text.
+Produce a fixed-length title summarizing the provided conversation, outputting only the title.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
+, blocking domains: Please write a ${NUM}-${NUM} word title the following conversation:
+
 ${EXPR_1}
-
-Please write a ${NUM}-${NUM} word title the following conversation:
-
-${EXPR_2}
-
-Respond with the title for the conversation and nothing else.
+, Respond with the title for the conversation and nothing else.
