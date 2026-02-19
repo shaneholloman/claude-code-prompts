@@ -10,10 +10,10 @@ Shows a message then an ARGUMENTS line populated with provided arguments text.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | false | None |
-| `EXPR_2` | true | None |
+| `EXPR_1` | true | None |
+| `EXPR_2` | stream-json | None |
 
 # Raw Prompt Text
-${EXPR_1: false}
+${EXPR_1: true}
 
-ARGUMENTS: ${EXPR_2: true}
+ARGUMENTS: ${EXPR_2: 'stream-json'}
