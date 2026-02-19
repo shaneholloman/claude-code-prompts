@@ -21,7 +21,7 @@ Lists workspace paths, git status, platform metadata, current date, MCP info, an
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
-| `EXPR_12` | claude-opus-4-5-20251101 | None |
+| `EXPR_12` | claude-opus-4-6 | None |
 | `EXPR_13` | claude-sonnet-4-5-20250929 | None |
 | `EXPR_14` | claude-haiku-4-5-20251001 | None |
 
@@ -44,4 +44,4 @@ mcp__${EXPR_9}__${EXPR_10}
 
 ${EXPR_11}
 
-The most recent Claude model family is Claude ${NUM}. Model IDs — Opus ${NUM}: '${EXPR_12: 'claude-opus-4-5-20251101'}', Sonnet ${NUM}: '${EXPR_13: 'claude-sonnet-4-5-20250929'}', Haiku ${NUM}: '${EXPR_14: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
+The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_12: 'claude-opus-4-6'}', Sonnet ${NUM}: '${EXPR_13: 'claude-sonnet-4-5-20250929'}', Haiku ${NUM}: '${EXPR_14: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
