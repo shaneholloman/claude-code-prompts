@@ -1,6 +1,6 @@
 # Tool Description: fast-glob-file-matching
 
-- Name: GlobTool
+- Name: Glob
 
 ## Summary
 
