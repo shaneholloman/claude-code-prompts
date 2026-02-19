@@ -48,3 +48,5 @@ autoInstallIdeExtension
 autocheckpointingEnabled
 
 checkpointingShadowRepos
+
+fileCheckpointingEnabled
