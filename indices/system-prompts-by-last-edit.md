@@ -4,19 +4,21 @@
 
 ## Categories
 
-- System prompts (23)
+- System prompts (25)
 - Tool prompts (22)
-- System data (51)
+- System data (49)
 
-## System prompts (23)
+## System prompts (25)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, timeouts, and banned-command restrictions. | 2,202 | 0.2.40 | 0.2.40 |
+| [`system-prompt-read-local-file-lines.md`](../system-prompts/system-prompt-read-local-file-lines.md) | Reads absolute-path files with optional offset/limit, truncation, numbered lines; use EXPR_1 for notebooks. | 158 | 0.2.40 | 0.2.40 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.40 |
 | [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,329 | 0.2.38 | 0.2.38 |
 | [`system-prompt-continue-from-prior-session.md`](../system-prompts/system-prompt-continue-from-prior-session.md) | Continue a context-limited session using the provided prior conversation summary. | 40 | 0.2.38 | 0.2.38 |
-| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, timeouts, and banned-command restrictions. | 2,202 | 0.2.36 | 0.2.36 |
 | [`system-prompt-technical-conversation-summary-format.md`](../system-prompts/system-prompt-technical-conversation-summary-format.md) | Produces a detailed development-focused conversation summary with required sections. | 663 | 0.2.36 | 0.2.36 |
 | [`system-prompt-organize-project-memories-file-2.md`](../system-prompts/system-prompt-organize-project-memories-file-2.md) | Update or add memories in CLAUDE.md, grouped by global preferences and project sections. | 340 | 0.2.36 | 0.2.36 |
 | [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 89 | 0.2.36 | 0.2.36 |
@@ -44,14 +46,14 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,179 | 0.2.40 | 0.2.40 |
+| [`tool-description-fetch-url-and-summarize.md`](../system-prompts/tool-description-fetch-url-and-summarize.md) | Fetches an HTTPS URL, converts to markdown, and analyzes it with a small model using a provided prompt. | 163 | 0.2.40 | 0.2.40 |
+| [`tool-description-read-local-file-lines-2.md`](../system-prompts/tool-description-read-local-file-lines-2.md) | Reads absolute-path files with optional offset/limit, truncation, numbered lines; use EXPR_1 for notebooks. | 158 | 0.2.40 | 0.2.40 |
+| [`tool-description-list-allowed-capabilities.md`](../system-prompts/tool-description-list-allowed-capabilities.md) | Lists all currently allowed tools. | 5 | 0.2.40 | 0.2.40 |
 | [`tool-description-change-light-theme.md`](../system-prompts/tool-description-change-light-theme.md) | Change the interface theme to light mode. | 11 | 0.2.38 | 0.2.38 |
-| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,179 | 0.2.36 | 0.2.36 |
-| [`tool-description-fetch-url-content-analyze.md`](../system-prompts/tool-description-fetch-url-content-analyze.md) | Tool that fetches an HTTPS page, converts to markdown, and analyzes it with a model. | 139 | 0.2.33 | 0.2.33 |
 | [`tool-description-list-path-with-ignore-globs.md`](../system-prompts/tool-description-list-path-with-ignore-globs.md) | Lists files and directories at an absolute path with optional ignore glob patterns. | 60 | 0.2.29 | 0.2.29 |
-| [`tool-description-list-approved-tools.md`](../system-prompts/tool-description-list-approved-tools.md) | Request to enumerate all currently approved tools. | 5 | 0.2.25 | 0.2.25 |
 | [`tool-description-toggle-vim-emacs-modes.md`](../system-prompts/tool-description-toggle-vim-emacs-modes.md) | Switch between vim and emacs editing modes. | 8 | 0.2.19 | 0.2.19 |
 | [`tool-description-edit-file-by-replacing-string.md`](../system-prompts/tool-description-edit-file-by-replacing-string.md) | Edit a file by replacing one unique old string with new text. | 687 | 0.2.9 | 0.2.9 |
-| [`tool-description-read-local-file-lines.md`](../system-prompts/tool-description-read-local-file-lines.md) | Read a local file by absolute path with optional line offset and limits. | 128 | 0.2.9 | 0.2.9 |
 | [`tool-description-fast-regex-content-search.md`](../system-prompts/tool-description-fast-regex-content-search.md) | Searches file contents with regular expressions and optional include globs. | 123 | 0.2.9 | 0.2.9 |
 | [`tool-description-replace-jupyter-notebook-cell.md`](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | Replaces, inserts, or deletes a specific Jupyter notebook cell by index. | 117 | 0.2.9 | 0.2.9 |
 | [`tool-description-fast-glob-file-matching.md`](../system-prompts/tool-description-fast-glob-file-matching.md) | Finds files by glob patterns and returns paths sorted by modification time. | 84 | 0.2.9 | 0.2.9 |
@@ -67,22 +69,20 @@ _Sorted by last edit (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (51)
+## System data (49)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.38 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.38 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.38 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.40 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.40 |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.40 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.40 |
+| [`system-data-path-list-template.md`](../system-prompts/system-data-path-list-template.md) | Multiple prompts (2) | 111 | 0.2.40 | 0.2.40 |
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.38 |
-| [`system-data-typed-stan-template-snippet.md`](../system-prompts/system-data-typed-stan-template-snippet.md) | Lists basic type keywords, Stan block labels, and inserts paths and usage examples. | 115 | 0.2.38 | 0.2.38 |
-| [`system-data-placeholder-array-paths-exprs.md`](../system-prompts/system-data-placeholder-array-paths-exprs.md) | Bracketed list of four path-prefixed expression pairs plus a trailing expression | 109 | 0.2.36 | 0.2.36 |
-| [`system-data-placeholder-object-paths-exprs.md`](../system-prompts/system-data-placeholder-object-paths-exprs.md) | Braced object literal with four path-expression pairs and trailing expression placeholder | 108 | 0.2.36 | 0.2.36 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.33 |
 | [`system-data-dom-media-input-events-list.md`](../system-prompts/system-data-dom-media-input-events-list.md) | List of common DOM, media, and form event names. | 153 | 0.2.33 | 0.2.33 |
 | [`system-data-html-block-elements-list.md`](../system-prompts/system-data-html-block-elements-list.md) | List of uppercase HTML structural and block-level tag names. | 148 | 0.2.33 | 0.2.33 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 235 | 0.2.30 | 0.2.30 |

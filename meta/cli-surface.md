@@ -4,7 +4,7 @@
 
 - Commands: 12
 - Options: 16
-- Env vars: 119
+- Env vars: 120
 - Config keys: 60
 - Tools: 0
 - Skills: 0
@@ -87,6 +87,7 @@
 - `ALACRITTY_LOG`
 - `ALIYUN_REGION_ID`
 - `ANTHROPIC_AUTH_TOKEN`
+- `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_MODEL`
 - `API_TIMEOUT_MS`
 - `APPDATA`
