@@ -11,7 +11,7 @@ Indicates a bash command permission check failed, with location, command, and er
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
