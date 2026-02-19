@@ -1,4 +1,4 @@
-# System Prompt: delegate-tasks-to-subagents
+# System Prompt: delegate-work-to-specialists
 
 - Source: inline
 
