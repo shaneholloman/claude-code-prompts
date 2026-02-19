@@ -1,4 +1,4 @@
-# System Reminder: background-bash-command-status
+# System Reminder: background-bash-status-line
 
 - Source: inline
 
