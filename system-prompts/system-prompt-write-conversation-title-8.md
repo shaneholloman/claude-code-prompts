@@ -4,7 +4,7 @@
 
 ## Summary
 
-Generate a …-… word title summarizing the provided conversation text only.
+Generate a …-… word title summarizing the provided conversation text.
 
 ## Placeholder Hints (source-backed)
 
@@ -19,9 +19,3 @@ ${EXPR_1}
 
 
 Respond with the title for the conversation and nothing else.
-
-allow
-
-deny
-
-workspace
