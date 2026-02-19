@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.96
+# Prompt Stats 0.2.97
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -45,10 +45,10 @@
 | system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 147 | 42 | 0.2.92 | 0.2.96 |
 | system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 158 | 49 | 0.2.91 | 0.2.96 |
 | system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 147 | 42 | 0.2.91 | 0.2.96 |
-| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 159 | 48 | 0.2.91 | 0.2.96 |
+| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 159 | 48 | 0.2.91 | 0.2.97 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 158 | 48 | 0.2.91 | 0.2.96 |
 | system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 147 | 42 | 0.2.91 | 0.2.96 |
-| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 159 | 48 | 0.2.91 | 0.2.96 |
+| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 159 | 48 | 0.2.91 | 0.2.97 |
 | system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 181 | 62 | 0.2.91 | 0.2.93 |
 | system | [System Prompt: Write Title For Conversation](../system-prompts/system-prompt-write-title-for-conversation.md) | 161 | 46 | 0.2.91 | 0.2.91 |
 | system-data | [System Data: Append Memory Entry](../system-prompts/system-data-append-memory-entry.md) | 93 | 37 | 0.2.54 | 0.2.54 |
