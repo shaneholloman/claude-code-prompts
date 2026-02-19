@@ -11,7 +11,6 @@ Use absolute paths, include filenames and code snippets, avoid emojis in final r
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 ${URL}
@@ -25,4 +24,4 @@ Notes:
 - In your final response always share relevant file names and code snippets. Any file paths you return in your response MUST be absolute. Do NOT use relative paths.
 - For clear communication with the user the assistant MUST avoid using emojis.
 
-mcp__${EXPR_1}__${EXPR_2}
+${EXPR_1}
