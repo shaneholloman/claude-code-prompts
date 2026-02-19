@@ -12,7 +12,7 @@ Add or update a generic password in keychain for an account and service.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
+| `EXPR_3` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 add-generic-password -U -a "${EXPR_1}" -s "${EXPR_2}" -X "${EXPR_3}"
