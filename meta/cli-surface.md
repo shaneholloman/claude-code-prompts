@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 37
-- Env vars: 276
-- Config keys: 354
+- Env vars: 277
+- Config keys: 349
 - Tools: 3
 - Skills: 0
 - Models: 44
@@ -184,6 +184,7 @@
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
+- `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
@@ -413,7 +414,6 @@
 - `agents`
 - `allow`
 - `allowLocalBinding`
-- `allowOnly`
 - `allowUnixSockets`
 - `alwaysThinkingEnabled`
 - `api`
@@ -475,9 +475,8 @@
 - `default`
 - `default_branch`
 - `defaultMode`
+- `defaultOn`
 - `deny`
-- `denyOnly`
-- `denyWithinAllow`
 - `description`
 - `destination`
 - `destructiveHint`
@@ -508,6 +507,7 @@
 - `error_uri`
 - `eventData`
 - `eventName`
+- `excludedCommands`
 - `exitCode`
 - `experimental`
 - `expires_in`
@@ -543,7 +543,6 @@
 - `ideRunningInWindows`
 - `ignoreViolations`
 - `includeCoAuthoredBy`
-- `includeDefaults`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
@@ -634,7 +633,6 @@
 - `properties`
 - `query`
 - `rawOutputPath`
-- `read`
 - `readOnlyHint`
 - `reason`
 - `redirect_uris`
@@ -737,7 +735,6 @@
 - `turns`
 - `type`
 - `ui_locales_supported`
-- `unsandboxedCommands`
 - `updated_at`
 - `updatedInput`
 - `updatedPermissions`
@@ -754,7 +751,6 @@
 - `values`
 - `version`
 - `web_search_requests`
-- `write`
 
 ## Tools
 

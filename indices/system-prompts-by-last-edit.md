@@ -1,14 +1,14 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **303**
+- Total prompt files: **302**
 
 ## Categories
 
 - System prompts (82)
 - Tool prompts (68)
-- Agent prompts (3)
+- Agent prompts (4)
 - System data (75)
-- System reminders (75)
+- System reminders (73)
 
 ## System prompts (82)
 
@@ -16,16 +16,18 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.10 |
-| [`system-prompt-coding-tasks-and-title-3.md`](../system-prompts/system-prompt-coding-tasks-and-title-3.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 231 | 2.0.9 | 2.0.10 |
-| [`system-prompt-coding-tasks-and-title.md`](../system-prompts/system-prompt-coding-tasks-and-title.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 191 | 2.0.9 | 2.0.10 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.11 |
+| [`system-prompt-coding-tasks-and-title-2.md`](../system-prompts/system-prompt-coding-tasks-and-title-2.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 231 | 2.0.9 | 2.0.11 |
+| [`system-prompt-coding-tasks-and-title-3.md`](../system-prompts/system-prompt-coding-tasks-and-title-3.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 191 | 2.0.9 | 2.0.11 |
+| [`system-prompt-coding-tasks-and-title.md`](../system-prompts/system-prompt-coding-tasks-and-title.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 170 | 2.0.9 | 2.0.11 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.11 |
+| [`system-prompt-simple-conversation-title-2.md`](../system-prompts/system-prompt-simple-conversation-title-2.md) | Multiple prompts (2) | 88 | 2.0.8 | 2.0.11 |
+| [`system-prompt-replace-all-occurrences-warning.md`](../system-prompts/system-prompt-replace-all-occurrences-warning.md) | Warns about multiple replacement matches when replace_all is false, requesting unique context. | 61 | 1.0.18 | 2.0.11 |
+| [`system-prompt-simple-conversation-title.md`](../system-prompts/system-prompt-simple-conversation-title.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 60 | 1.0.77 | 2.0.11 |
+| [`system-prompt-background-task-monitoring.md`](../system-prompts/system-prompt-background-task-monitoring.md) | Announces task moved to background; provides monitoring link and teleport resume command. | 59 | 2.0.11 | 2.0.11 |
+| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.11 |
 | [`system-prompt-exit-plan-mode-for-coding.md`](../system-prompts/system-prompt-exit-plan-mode-for-coding.md) | Instructs when to trigger leaving planning mode before starting implementation. | 178 | 2.0.10 | 2.0.10 |
-| [`system-prompt-coding-tasks-and-title-2.md`](../system-prompts/system-prompt-coding-tasks-and-title-2.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 170 | 2.0.9 | 2.0.10 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.10 |
 | [`system-prompt-absolute-paths-output-rules.md`](../system-prompts/system-prompt-absolute-paths-output-rules.md) | Requires absolute file paths and sharing relevant filenames and snippets without emojis. | 95 | 2.0.10 | 2.0.10 |
-| [`system-prompt-simple-conversation-title.md`](../system-prompts/system-prompt-simple-conversation-title.md) | Multiple prompts (2) | 88 | 2.0.8 | 2.0.10 |
-| [`system-prompt-simple-conversation-title-2.md`](../system-prompts/system-prompt-simple-conversation-title-2.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 60 | 1.0.77 | 2.0.10 |
-| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.10 |
 | [`system-prompt-coding-session-title-generator.md`](../system-prompts/system-prompt-coding-session-title-generator.md) | Generate a concise XML-wrapped title from the provided coding session description. | 198 | 1.0.68 | 2.0.9 |
 | [`system-prompt-coding-tasks-and-title-4.md`](../system-prompts/system-prompt-coding-tasks-and-title-4.md) | Aggregates code maintenance prompts and generates a concise conversation title from recent messages. | 170 | 2.0.9 | 2.0.9 |
 | [`system-prompt-coding-session-title-generator-2.md`](../system-prompts/system-prompt-coding-session-title-generator-2.md) | Creates a short XML-wrapped title from a coding session description. | 167 | 1.0.68 | 2.0.9 |
@@ -40,12 +42,10 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-create-shell-snapshot-file-3.md`](../system-prompts/system-prompt-create-shell-snapshot-file-3.md) | Writes a snapshot script file, clears aliases, injects dynamic sections, and verifies output exists | 251 | 1.0.122 | 1.0.122 |
 | [`system-prompt-frustration-and-pr-detection.md`](../system-prompts/system-prompt-frustration-and-pr-detection.md) | Analyze conversation to output frustration and explicit GitHub pull request send intent flags. | 220 | 1.0.122 | 1.0.122 |
 | [`system-prompt-tmux-terminal-shortcut-setup.md`](../system-prompts/system-prompt-tmux-terminal-shortcut-setup.md) | Sets Shift+Enter multiline shortcut by running terminal command outside tmux, persisting settings. | 145 | 1.0.122 | 1.0.122 |
-| [`system-prompt-background-task-monitoring.md`](../system-prompts/system-prompt-background-task-monitoring.md) | Announces task moved to background; provides monitoring link and teleport resume command. | 58 | 1.0.102 | 1.0.122 |
 | [`system-prompt-exit-transcript-rules.md`](../system-prompts/system-prompt-exit-transcript-rules.md) | Specifies how stdout and stderr are displayed for tool call inputs and responses by exit code. | 70 | 1.0.113 | 1.0.113 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 381 | 1.0.112 | 1.0.112 |
 | [`system-prompt-command-purpose-in-words.md`](../system-prompts/system-prompt-command-purpose-in-words.md) | Guidelines to describe a shell command’s function in a fixed word range with examples. | 80 | 1.0.102 | 1.0.102 |
 | [`system-prompt-git-status-session-start.md`](../system-prompts/system-prompt-git-status-session-start.md) | Record initial git status snapshot, including current branch and main branch names. | 77 | 0.2.32 | 1.0.94 |
-| [`system-prompt-replace-all-occurrences-warning.md`](../system-prompts/system-prompt-replace-all-occurrences-warning.md) | Warns about multiple replacement matches when replace_all is false, requesting unique context. | 61 | 1.0.18 | 1.0.94 |
 | [`system-prompt-socat-tcp-to-unix-bridge.md`](../system-prompts/system-prompt-socat-tcp-to-unix-bridge.md) | Launches socat TCP listener to Unix socket, traps cleanup, then evals command | 112 | 1.0.93 | 1.0.93 |
 | [`system-prompt-structured-coding-todo-list.md`](../system-prompts/system-prompt-structured-coding-todo-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,433 | 1.0.89 | 1.0.89 |
 | [`system-prompt-github-issue-title-generator.md`](../system-prompts/system-prompt-github-issue-title-generator.md) | Generates a concise technical GitHub issue title from a bug report. | 254 | 1.0.89 | 1.0.89 |
@@ -174,12 +174,13 @@ _Sorted by last edit (newest first)._
 | [`tool-description-clear-conversation-history.md`](../system-prompts/tool-description-clear-conversation-history.md) | Clears conversation history to free up context. | 7 | 0.2.9 | 0.2.9 |
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 
-## Agent prompts (3)
+## Agent prompts (4)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`agent-prompt-codebase-file-search.md`](../system-prompts/agent-prompt-codebase-file-search.md) | Searches codebases using glob and regex and reports absolute file paths. | 178 | 2.0.11 | 2.0.11 |
 | [`agent-prompt-custom-output-style-config.md`](../system-prompts/agent-prompt-custom-output-style-config.md) | Derive user preferences and generate a configuration for a custom output style. | 743 | 1.0.84 | 1.0.98 |
 | [`agent-prompt-configure-statusline.md`](../system-prompts/agent-prompt-configure-statusline.md) | Create or update a Claude Code statusLine by converting shell PS1 settings. | 1,055 | 1.0.81 | 1.0.81 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 1.0.78 |
@@ -190,12 +191,17 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.0.11 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.0.11 |
+| [`system-data-github-put-repo-update.md`](../system-prompts/system-data-github-put-repo-update.md) | Template for updating repository content via PUT API with parameters and paths. | 322 | 2.0.11 | 2.0.11 |
+| [`system-data-put-repo-content-update.md`](../system-prompts/system-data-put-repo-content-update.md) | API PUT request template to update repository content with message, content, and branch. | 276 | 2.0.11 | 2.0.11 |
+| [`system-data-template-pattern-placeholders.md`](../system-prompts/system-data-template-pattern-placeholders.md) | Lists path and expression placeholders for a pattern template. | 260 | 2.0.11 | 2.0.11 |
+| [`system-data-pattern-metadata-record.md`](../system-prompts/system-data-pattern-metadata-record.md) | Pattern record listing multiple expression fields, numeric counters, filesystem paths, and trailing notes | 232 | 1.0.62 | 2.0.11 |
+| [`system-data-repo-file-update-api.md`](../system-prompts/system-data-repo-file-update-api.md) | API PUT request template to update a repository file with message, content, and branch. | 144 | 2.0.11 | 2.0.11 |
+| [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 2.0.11 |
+| [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 2.0.11 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 2.0.10 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.0.10 |
-| [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 2.0.10 |
-| [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 2.0.10 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.0.9 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.0.9 |
 | [`system-data-conversation-title-generator-4.md`](../system-prompts/system-data-conversation-title-generator-4.md) | Generates a short conversation title from recent messages plus common coding tasks. | 282 | 2.0.9 | 2.0.9 |
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.0.9 |
 | [`system-data-conversation-title-generator-variables.md`](../system-prompts/system-data-conversation-title-generator-variables.md) | Compose a word title from the last messages using multiple inserted sections. | 144 | 2.0.2 | 2.0.9 |
@@ -204,11 +210,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-common-coding-request-list-2.md`](../system-prompts/system-data-common-coding-request-list-2.md) | Lists common code maintenance tasks and questions, interleaving repository path references and edits | 109 | 2.0.9 | 2.0.9 |
 | [`system-data-github-pr-review.md`](../system-prompts/system-data-github-pr-review.md) | GitHub Actions pull_request workflow checks out code and runs Claude review on a PR. | 526 | 2.0.8 | 2.0.8 |
 | [`system-data-mention-triggered-github-workflow.md`](../system-prompts/system-data-mention-triggered-github-workflow.md) | Runs Claude Code action on issues or comments mentioning @claude, using Anthropic API key. | 494 | 2.0.8 | 2.0.8 |
-| [`system-data-github-put-repo-update.md`](../system-prompts/system-data-github-put-repo-update.md) | Template for updating repository content via PUT API with parameters and paths. | 343 | 2.0.8 | 2.0.8 |
-| [`system-data-put-repo-content-update.md`](../system-prompts/system-data-put-repo-content-update.md) | API PUT request template to update repository content with message, content, and branch. | 297 | 2.0.8 | 2.0.8 |
-| [`system-data-pattern-match-results-dump.md`](../system-prompts/system-data-pattern-match-results-dump.md) | Lists a pattern followed by multiple matching paths and extracted fields. | 281 | 2.0.8 | 2.0.8 |
-| [`system-data-pattern-match-results-list.md`](../system-prompts/system-data-pattern-match-results-list.md) | Lists a pattern with associated matches and extracted values. | 253 | 2.0.8 | 2.0.8 |
-| [`system-data-repo-file-update-api.md`](../system-prompts/system-data-repo-file-update-api.md) | Specifies an API PUT request to update repository content with message and branch. | 165 | 2.0.2 | 2.0.8 |
 | [`system-data-url-pair-snippet.md`](../system-prompts/system-data-url-pair-snippet.md) | Outputs two URL lines followed by an injected expression value. | 20 | 0.2.108 | 2.0.2 |
 | [`system-data-http-request-timing-events.md`](../system-prompts/system-data-http-request-timing-events.md) | Lists HTTP request lifecycle timing event markers. | 97 | 1.0.127 | 1.0.127 |
 | [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox profile allowing specific process permissions and Mach service lookups. | 1,769 | 1.0.125 | 1.0.125 |
@@ -266,20 +267,19 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (75)
+## System reminders (73)
 
-_Sorted by last edit (newest first). Showing **35** reminders with more than **30** tokens._
+_Sorted by last edit (newest first). Showing **34** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-defensive-security-cli-guidelines-2.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines-2.md) | Defines CLI behavior with strict defensive-security limits and URL caution. | 2,818 | 2.0.10 | 2.0.10 |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.10 |
-| [`system-reminder-url-expr-pattern-line.md`](../system-prompts/system-reminder-url-expr-pattern-line.md) | Template joins two URLs, an expression, a quoted pattern string, and trailing expression. | 169 | 2.0.10 | 2.0.10 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.10 |
+| [`system-reminder-defensive-security-cli-guidelines-3.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines-3.md) | Enforces defensive-only security assistance, bans malicious code, and restricts URL generation. | 1,894 | 2.0.11 | 2.0.11 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.11 |
+| [`system-reminder-url-expr-pattern-line.md`](../system-prompts/system-reminder-url-expr-pattern-line.md) | Template joins two URLs, an expression, a quoted pattern string, and trailing expression. | 148 | 2.0.11 | 2.0.11 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.11 |
+| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.11 |
 | [`system-reminder-expression-placeholders-block.md`](../system-prompts/system-reminder-expression-placeholders-block.md) | Empty bracketed header block followed by twelve sequential expression placeholder insertions. | 87 | 1.0.20 | 2.0.10 |
 | [`system-reminder-async-notification-output-retrieval.md`](../system-prompts/system-reminder-async-notification-output-retrieval.md) | Async system notification that agent finished, with instructions to retrieve output by agentId. | 56 | 2.0.10 | 2.0.10 |
-| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.10 |
-| [`system-reminder-conversation-title-generator.md`](../system-prompts/system-reminder-conversation-title-generator.md) | Generate a NUM–NUM word conversation title from the last EXPR_6 of EXPR_7 messages. | 61 | 2.0.9 | 2.0.9 |
 | [`system-reminder-use-context-only-when-relevant.md`](../system-prompts/system-reminder-use-context-only-when-relevant.md) | Multiple prompts (2) | 69 | 2.0.2 | 2.0.2 |
 | [`system-reminder-force-uninstall-global-package.md`](../system-prompts/system-reminder-force-uninstall-global-package.md) | Forced global uninstall command template with two package arguments and path tag. | 33 | 2.0.2 | 2.0.2 |
 | [`system-reminder-token-usage-warning.md`](../system-prompts/system-reminder-token-usage-warning.md) | System warning displays tokens used out of limit and remaining balance. | 35 | 2.0.0 | 2.0.0 |
@@ -309,7 +309,7 @@ _Sorted by last edit (newest first). Showing **35** reminders with more than **3
 | [`system-reminder-ldct-document-types-list.md`](../system-prompts/system-reminder-ldct-document-types-list.md) | Lists ldct route, wizard, script, report, and related type identifiers. | 52 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 40 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 39 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
@@ -331,7 +331,6 @@ _Sorted by last edit (newest first). Showing **35** reminders with more than **3
 | [`system-reminder-report-new-diagnostic-issues.md`](../system-prompts/system-reminder-report-new-diagnostic-issues.md) | Announces newly detected diagnostic issues and prints the associated details block. | 27 | 1.0.18 | 1.0.94 |
 | [`system-reminder-show-existing-todo-list.md`](../system-prompts/system-reminder-show-existing-todo-list.md) | Shows the current todo list contents inside a bracketed placeholder. | 19 | 1.0.52 | 1.0.94 |
 | [`system-reminder-shutdown-on-websocket-close.md`](../system-prompts/system-reminder-shutdown-on-websocket-close.md) | Indicates the bridge is shutting down due to a closed WebSocket connection. | 11 | 1.0.94 | 1.0.94 |
-| [`system-reminder-end-of-input-marker.md`](../system-prompts/system-reminder-end-of-input-marker.md) | Signals the end of provided input. | 3 | 1.0.93 | 1.0.93 |
 | [`system-reminder-active-style-guidelines.md`](../system-prompts/system-reminder-active-style-guidelines.md) | Reminder that the active output style must be followed exactly for responses. | 21 | 1.0.78 | 1.0.78 |
 | [`system-reminder-address-user-message.md`](../system-prompts/system-reminder-address-user-message.md) | Address the user’s provided message and continue ongoing tasks accordingly. | 25 | 1.0.73 | 1.0.73 |
 | [`system-reminder-check-new-bash-output.md`](../system-prompts/system-reminder-check-new-bash-output.md) | Notifies that new Bash output is available to view. | 17 | 1.0.69 | 1.0.69 |
