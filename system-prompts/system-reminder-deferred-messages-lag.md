@@ -15,4 +15,4 @@ Log how many messages were deferred, showing previous and updated counts.
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-[useDeferredValue] Messages deferred by ${EXPR_1} (${EXPR_2}→${EXPR_3})
+[useDeferredValue] Messages deferred by [${EXPR_1}] (${EXPR_2}→${EXPR_3})
