@@ -13,4 +13,5 @@ Introduces and includes the user’s message content verbatim.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-The user sent the following message: ${EXPR_1}
+The user sent the following message:
+${EXPR_1}
