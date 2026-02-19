@@ -10,7 +10,7 @@ Error indicating asynchronous WebAssembly preparation failed with a specific fai
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 01 | None |
+| `EXPR_1` | a-z\xdf-\xf6\xf8-\xff | None |
 
 # Raw Prompt Text
-failed to asynchronously prepare wasm: [${EXPR_1: 01}]
+failed to asynchronously prepare wasm: [${EXPR_1: 'a-z\\xdf-\\xf6\\xf8-\\xff'}]
