@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 25
-- Env vars: 188
-- Config keys: 142
+- Env vars: 189
+- Config keys: 140
 - Tools: 0
 - Skills: 0
 - Models: 31
@@ -285,6 +285,7 @@
 - `WS_NO_UTF_8_VALIDATE`
 - `WSL_DISTRO_NAME`
 - `WT_SESSION`
+- `XDG_CONFIG_HOME`
 - `XTERM_VERSION`
 - `ZEIT_BITBUCKET_COMMIT_SHA`
 - `ZEIT_GITHUB_COMMIT_SHA`
@@ -348,7 +349,6 @@
 - `ideName`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
-- `input`
 - `inputSchema`
 - `intelligencePriority`
 - `introspection_endpoint`
@@ -422,7 +422,6 @@
 - `token_endpoint_auth_signing_alg_values_supported`
 - `token_type`
 - `token_type_hint`
-- `tool_name`
 - `tools`
 - `tos_uri`
 - `total`
