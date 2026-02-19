@@ -1,4 +1,4 @@
-# Tool Description: share-free-week-invite
+# Tool Description: share-free-week-referral
 
 - Name: passes
 
