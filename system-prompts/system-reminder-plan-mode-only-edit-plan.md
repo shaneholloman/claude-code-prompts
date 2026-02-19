@@ -21,6 +21,8 @@ Plan mode: only edit designated plan file, use specified subagent types per phas
 | `EXPR_9` | ExitPlanMode | None |
 | `EXPR_10` | ExitPlanMode | None |
 | `EXPR_11` | ExitPlanMode | None |
+| `EXPR_12` | ExitPlanMode | None |
+| `EXPR_13` | ExitPlanMode | None |
 
 # Raw Prompt Text
 Plan mode is active. The user indicated that they do not want you to execute yet -- you MUST NOT make any edits (with the exception of the plan file mentioned below), run any non-readonly tools (including changing configs or making commits), or otherwise make any changes to the system. This supercedes any other instructions you have received.
@@ -71,9 +73,12 @@ Goal: Write your final plan to the plan file (the only file you can edit).
 - Include only your recommended approach, not all alternatives
 - Ensure that the plan file is concise enough to scan quickly, but detailed enough to execute effectively
 - Include the paths of critical files to be modified
+- Include a verification section describing how to test the changes end-to-end (run the code, use MCP tools, run tests)
 
 ### Phase ${NUM}: Call ${EXPR_9: 'ExitPlanMode'}
 At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call ${EXPR_10: 'ExitPlanMode'} to indicate to the user that you are done planning.
 This is critical - your turn should only end with either asking the user a question or calling ${EXPR_11: 'ExitPlanMode'}. Do not stop unless it's for these ${NUM} reasons.
+
+**Important:** Use AskUserQuestion to clarify requirements${PATH}, use ${EXPR_12: 'ExitPlanMode'} to request plan approval. Do NOT use AskUserQuestion to ask "Is this plan okay?" - that's what ${EXPR_13: 'ExitPlanMode'} does.
 
 NOTE: At any point in time through this workflow you should feel free to ask the user questions or clarifications. Don't make large assumptions about user intent. The goal is to present a well researched plan to the user, and tie any loose ends before implementation begins.
