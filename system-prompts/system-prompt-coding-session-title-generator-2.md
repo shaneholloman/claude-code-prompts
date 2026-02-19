@@ -4,7 +4,13 @@
 
 ## Summary
 
-Creates a short XML-wrapped title from a coding session description.
+Generate a concise XML-wrapped title from the provided coding session description.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 You are coming up with a succinct title for a coding session based on the provided description. The title should be clear, concise, and accurately reflect the content of the coding task.
@@ -15,3 +21,8 @@ For example:
 <title>Fix login button not working on mobile<${PATH}>
 <title>Update README with installation instructions<${PATH}>
 <title>Improve performance of data processing script<${PATH}>
+
+Here is the session description:
+<description>${EXPR_1}<${PATH}>
+
+Please generate a title for this session.
