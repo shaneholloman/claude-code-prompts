@@ -1,6 +1,6 @@
 # Tool Description: application-specific-realtime-signal
 
-- Name: SIGRT(none)1
+- Name: SIGRTstable1
 
 ## Summary
 
