@@ -10,7 +10,7 @@ Reports the number of old Windows executables cleaned up on startup.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Cleaned up ${EXPR_1} old Windows executables on startup
