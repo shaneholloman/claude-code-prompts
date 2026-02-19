@@ -22,6 +22,7 @@ Ten expression blocks separated by long numeric placeholders, ending with hidden
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 ${NUM}
@@ -66,38 +67,6 @@ ${EXPR_4}
 
 ${EXPR_5}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 ${EXPR_6}
 
 ${EXPR_7}
@@ -111,6 +80,8 @@ ${EXPR_10}
 ${EXPR_11}
 
 ${EXPR_12}
+
+${EXPR_13}
 
 --hidden
 
