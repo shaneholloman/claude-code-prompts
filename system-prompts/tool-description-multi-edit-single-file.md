@@ -42,7 +42,12 @@ ${NUM}. All edits follow the same requirements as the single Edit tool
 ${NUM}. The edits are atomic - either all succeed or none are applied
 ${NUM}. Plan your edits carefully to avoid conflicts between sequential operations
 
-WARNING: Since edits are applied in sequence, ensure that earlier edits don't affect the text that later edits are trying to find.
+WARNING:
+- The tool will fail if edits.old_string matches multiple locations and edits.expected_replacements isn't specified
+- The tool will fail if the number of matches doesn't equal edits.expected_replacements when it's specified
+- The tool will fail if edits.old_string doesn't match the file contents exactly (including whitespace)
+- The tool will fail if edits.old_string and edits.new_string are the same
+- Since edits are applied in sequence, ensure that earlier edits don't affect the text that later edits are trying to find
 
 When making edits:
 - Ensure all edits result in idiomatic, correct code
