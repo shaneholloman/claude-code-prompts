@@ -10,7 +10,7 @@ Confirm notification handlers registered successfully for all configured servers
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 LSP notification handlers registered successfully for all ${EXPR_1} server(s)
