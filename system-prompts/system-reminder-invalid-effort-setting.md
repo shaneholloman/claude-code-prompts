@@ -12,7 +12,6 @@ Report an invalid agent effort setting and list the allowed effort values.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Agent file ${EXPR_1} has invalid effort '${EXPR_2}:${EXPR_3}'. Valid options: low, medium, high, max or an integer
+Agent file ${EXPR_1} has invalid effort '${EXPR_2}'. Valid options: low, medium, high, max or an integer
