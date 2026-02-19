@@ -5,7 +5,7 @@
 - Commands: 26
 - Options: 59
 - Env vars: 397
-- Config keys: 499
+- Config keys: 500
 - Tools: 3
 - Skills: 0
 - Models: 79
@@ -755,6 +755,7 @@
 - `extensions`
 - `extraKnownMarketplaces`
 - `failed`
+- `fastMode`
 - `feedback`
 - `file`
 - `file_id`
@@ -770,6 +771,7 @@
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `format`
+- `FR`
 - `from`
 - `fullName`
 - `getOAuthToken`
@@ -812,7 +814,6 @@
 - `installPath`
 - `interrupt`
 - `interrupted`
-- `IR`
 - `is_error`
 - `is_interrupt`
 - `isAgent`
