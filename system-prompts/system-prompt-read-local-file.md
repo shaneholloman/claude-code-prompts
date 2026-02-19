@@ -17,4 +17,5 @@ Usage:
 - Any lines longer than ${NUM} characters will be truncated
 - Results are returned using cat -n format, with line numbers starting at ${NUM}
 - This tool allows Claude Code to VIEW images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as Claude Code is a multimodal LLM.
-For Jupyter notebooks (.ipynb files), use the ReadNotebook instead
+- For Jupyter notebooks (.ipynb files), use the ReadNotebook instead
+- When reading multiple files, you MUST use the BatchTool tool to read them all at once
