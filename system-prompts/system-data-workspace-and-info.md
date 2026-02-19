@@ -18,7 +18,7 @@ Describe working directories, environment details, and recommended latest Claude
 | `EXPR_6` | None | None |
 | `EXPR_7` | resolved list (4 items) | None |
 | `EXPR_8` | claude-opus-4-6 | None |
-| `EXPR_9` | claude-sonnet-4-5-20250929 | None |
+| `EXPR_9` | claude-sonnet-4-6 | None |
 | `EXPR_10` | claude-haiku-4-5-20251001 | None |
 
 # Raw Prompt Text
@@ -40,4 +40,4 @@ ${EXPR_7}
 
 global
 
-The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_8: 'claude-opus-4-6'}', Sonnet ${NUM}: '${EXPR_9: 'claude-sonnet-4-5-20250929'}', Haiku ${NUM}: '${EXPR_10: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
+The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_8: 'claude-opus-4-6'}', Sonnet ${NUM}: '${EXPR_9: 'claude-sonnet-4-6'}', Haiku ${NUM}: '${EXPR_10: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
