@@ -1,6 +1,6 @@
-# Tool Description: regex-codebase-search
+# System Prompt: regex-content-search
 
-- Name: Grep
+- Source: inline
 
 ## Summary
 
