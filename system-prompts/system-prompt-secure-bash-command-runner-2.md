@@ -83,8 +83,10 @@ Use sandbox=false when you suspect the command might modify the system or access
 Use sandbox=true for:
   - Information gathering: ls, cat, head, tail, rg, find, du, df, ps
   - File inspection: file, stat, wc, diff, md5sum
-  - Git reads: git status, git log, git diff, git show
+  - Git reads: git status, git log, git diff, git show, git branch
+  - Package info: npm list, pip list, gem list, cargo tree
   - Environment checks: echo, pwd, whoami, which, type, env, printenv
+  - Version checks: node --version, python --version, git --version
   - Documentation: man, help, --help, -h
 
 Before you run a command, think hard about whether it is likely to work correctly without network access and without write access to the filesystem. Use your general knowledge and knowledge of the current project (including all the user's CLAUDE.md files) as inputs to your decision. Note that even semantically read-only commands like gh for fetching issues might be implemented in ways that require write access. ERR ON THE SIDE OF RUNNING WITH sandbox=false.
