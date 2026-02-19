@@ -4,13 +4,7 @@
 
 ## Summary
 
-Produce a chronological, technically detailed conversation summary with analysis wrapped in tags.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Create a chronological, technically detailed conversation summary with analysis notes.
 
 # Raw Prompt Text
 Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
@@ -111,4 +105,4 @@ When you are using compact - please focus on test output and code changes. Inclu
 
 
 Additional Instructions:
-${EXPR_1}
+local
