@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 209
-- Config keys: 147
+- Env vars: 208
+- Config keys: 148
 - Tools: 0
 - Skills: 0
-- Models: 30
+- Models: 28
 - Providers: 7
 
 ## Commands
@@ -219,7 +219,6 @@
 - `KONSOLE_VERSION`
 - `LOCALAPPDATA`
 - `MAX_THINKING_TOKENS`
-- `MCP_SSE_AUTH_ENABLED`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
@@ -395,6 +394,7 @@
 - `logging`
 - `logo_uri`
 - `maintenance.auto=false`
+- `matcher`
 - `mcpServers`
 - `message`
 - `method`
@@ -486,7 +486,6 @@ _None detected_
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
 - `claude-cli`
-- `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-jetbrains-plugin`
@@ -495,7 +494,6 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
-- `claude-native-installer`
 - `claude-opus-4`
 - `claude-opus-4-20250514`
 - `claude-opus-welcome`
