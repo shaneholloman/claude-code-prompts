@@ -13,10 +13,7 @@ Generate a …-… word title summarizing the provided conversation text.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-${NUM}
-
 Please write a ${NUM}-${NUM} word title the following conversation:
 
 ${EXPR_1}
-
-Respond with the title for the conversation and nothing else.
+0Respond with the title for the conversation and nothing else.
