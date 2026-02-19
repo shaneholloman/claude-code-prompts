@@ -12,7 +12,6 @@ Writes a snapshot script file, clears aliases, injects dynamic sections, and ver
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 SNAPSHOT_FILE=${EXPR_1}
@@ -27,7 +26,7 @@ SNAPSHOT_FILE=${EXPR_1}
       echo "# Unset all aliases to avoid conflicts with functions" >> "$SNAPSHOT_FILE"
       echo "unalias -a ${NUM}>${PATH} || true" >> "$SNAPSHOT_FILE"
 
-      mcp__${EXPR_2}__${EXPR_3}
+      ${EXPR_2}
 
       unknown
 
