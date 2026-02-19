@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 14
-- Options: 19
+- Options: 20
 - Env vars: 152
-- Config keys: 121
+- Config keys: 126
 - Tools: 0
 - Skills: 0
 - Models: 19
@@ -57,6 +57,7 @@
 - `--allowedTools`
 - `--dangerously-skip-permissions`
 - `--debug`
+- `--disallowedTools`
 - `--env`
 - `--global`
 - `--json`
@@ -78,6 +79,7 @@
 
 - `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
+- `--disallowedTools <tools...>`
 - `--json`
 - `--mcp-config <file>`
 - `--mcp-debug`
@@ -279,6 +281,8 @@
 - `error`
 - `error_description`
 - `error_uri`
+- `eventData`
+- `eventName`
 - `experimental`
 - `expires_in`
 - `extensions`
@@ -320,6 +324,7 @@
 - `prompt`
 - `prompts`
 - `properties`
+- `query`
 - `reason`
 - `redirect_uris`
 - `refresh_token`
@@ -337,8 +342,10 @@
 - `role`
 - `roots`
 - `sampling`
+- `schema`
 - `scope`
 - `scopes_supported`
+- `selectedFields`
 - `selection`
 - `server`
 - `service_documentation`
