@@ -10,8 +10,8 @@ Display remaining context percentage and suggest command to trigger auto-compact
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 | `EXPR_2` | sonnet[1m] | None |
 
 # Raw Prompt Text
-${EXPR_1}% context left until auto-compact · try ${PATH} ${EXPR_2: 'sonnet[1m]'}
+${EXPR_1: 0}% context left until auto-compact · try ${PATH} ${EXPR_2: 'sonnet[1m]'}
