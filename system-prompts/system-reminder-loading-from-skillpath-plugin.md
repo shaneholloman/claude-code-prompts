@@ -10,7 +10,7 @@ Indicate a plugin is loading resources from a specified skillPath.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
