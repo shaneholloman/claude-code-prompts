@@ -4,7 +4,7 @@
 
 ## Summary
 
-Generate a …-… word title summarizing the provided conversation text only.
+Multiple prompts (4)
 
 ## Placeholder Hints (source-backed)
 
@@ -16,12 +16,4 @@ Generate a …-… word title summarizing the provided conversation text only.
 Please write a ${NUM}-${NUM} word title the following conversation:
 
 ${EXPR_1}
-
-
-Respond with the title for the conversation and nothing else.
-
-allow
-
-deny
-
-workspace
+ Respond with the title for the conversation and nothing else.
