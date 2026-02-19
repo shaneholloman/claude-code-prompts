@@ -4,7 +4,7 @@
 
 - Commands: 10
 - Options: 15
-- Env vars: 107
+- Env vars: 109
 - Config keys: 51
 - Tools: 0
 - Skills: 0
@@ -108,6 +108,7 @@
 - `DOTENV_CONFIG_PATH`
 - `DOTENV_KEY`
 - `DYNO`
+- `EDITOR`
 - `FLY_REGION`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
@@ -124,6 +125,7 @@
 - `GOOGLE_CLOUD_QUOTA_PROJECT`
 - `HOME`
 - `IBM_CLOUD_REGION`
+- `IGNORE_TEST_WIN32`
 - `K_CONFIGURATION`
 - `K_SERVICE`
 - `KITTY_WINDOW_ID`

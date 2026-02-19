@@ -1,14 +1,14 @@
 # System Prompts Index – by tokens
 
-- Total prompt files: **107**
+- Total prompt files: **108**
 
 ## Categories
 
-- System prompts (26)
+- System prompts (27)
 - Tool prompts (25)
 - System data (56)
 
-## System prompts (26)
+## System prompts (27)
 
 _Sorted by tokens (desc)._
 
@@ -35,8 +35,9 @@ _Sorted by tokens (desc)._
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.9 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.18 | 0.2.18 |
 | [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 72 | 0.2.25 | 0.2.25 |
-| [`system-prompt-explore-large-repository-tree.md`](../system-prompts/system-prompt-explore-large-repository-tree.md) | Multiple prompts (2) | 60 | 0.2.9 | 0.2.19 |
+| [`system-prompt-explore-large-repository-tree-2.md`](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | Multiple prompts (2) | 60 | 0.2.9 | 0.2.29 |
 | [`system-prompt-feedback-issue-title.md`](../system-prompts/system-prompt-feedback-issue-title.md) | Create a concise issue title summarizing user feedback. | 56 | 0.2.9 | 0.2.9 |
+| [`system-prompt-explore-large-repository-tree.md`](../system-prompts/system-prompt-explore-large-repository-tree.md) | Explore a massive repository with LS and Bash, using provided initial directory listing. | 55 | 0.2.29 | 0.2.29 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 | [`system-prompt-use-provided-context-links.md`](../system-prompts/system-prompt-use-provided-context-links.md) | Instruction to answer using provided contextual URLs and information. | 29 | 0.2.25 | 0.2.25 |
@@ -57,8 +58,8 @@ _Sorted by tokens (desc)._
 | [`tool-description-fast-glob-file-matching.md`](../system-prompts/tool-description-fast-glob-file-matching.md) | Finds files by glob patterns and returns paths sorted by modification time. | 84 | 0.2.9 | 0.2.9 |
 | [`tool-description-write-file-to-disk.md`](../system-prompts/tool-description-write-file-to-disk.md) | Writes a file to the local filesystem, overwriting if it exists. | 84 | 0.2.9 | 0.2.9 |
 | [`tool-description-read-jupyter-notebook-cells.md`](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | Loads an ipynb from an absolute path and returns cells with outputs. | 62 | 0.2.9 | 0.2.9 |
+| [`tool-description-list-path-with-ignore-globs.md`](../system-prompts/tool-description-list-path-with-ignore-globs.md) | Lists files and directories at an absolute path with optional ignore glob patterns. | 60 | 0.2.29 | 0.2.29 |
 | [`tool-description-technical-planning-and-implementation-steps.md`](../system-prompts/tool-description-technical-planning-and-implementation-steps.md) | Breaks technical tasks into clear requirements and actionable implementation steps. | 51 | 0.2.9 | 0.2.9 |
-| [`tool-description-list-files-and-directories.md`](../system-prompts/tool-description-list-files-and-directories.md) | Lists files and directories for an absolute path. | 43 | 0.2.9 | 0.2.9 |
 | [`tool-description-install-shift-enter-binding.md`](../system-prompts/tool-description-install-shift-enter-binding.md) | Installs a Shift+Enter key binding for newlines in supported terminals and editors. | 20 | 0.2.9 | 0.2.9 |
 | [`tool-description-run-onboarding-flow.md`](../system-prompts/tool-description-run-onboarding-flow.md) | Runs through the onboarding flow. | 14 | 0.2.9 | 0.2.9 |
 | [`tool-description-show-session-cost-and-duration.md`](../system-prompts/tool-description-show-session-cost-and-duration.md) | Displays the current session total cost and duration. | 10 | 0.2.9 | 0.2.9 |
@@ -100,10 +101,10 @@ _Sorted by tokens (desc)._
 | [`system-data-whimsical-verb-synonyms-list.md`](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | Playful list of gerund verbs describing thinking or doing. | 217 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
 | [`system-data-css-pseudo-class-keywords.md`](../system-prompts/system-data-css-pseudo-class-keywords.md) | List of CSS selector pseudo-classes and state keywords. | 186 | 0.2.9 | 0.2.9 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.19 |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.27 |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.29 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.29 |
 | [`system-data-symbol-grid-ascii-art.md`](../system-prompts/system-data-symbol-grid-ascii-art.md) | Multiple 5x5 ASCII symbol grids for characters like at, star, plus, and slashes. | 164 | 0.2.9 | 0.2.9 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.27 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.29 |
 | [`system-data-html-element-name-list.md`](../system-prompts/system-data-html-element-name-list.md) | List of common HTML element tag names. | 160 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-constants-and-paths.md`](../system-prompts/system-data-numeric-constants-and-paths.md) | Lists core constants and environment paths like Inf, NaN, missing, and LOAD_PATH. | 159 | 0.2.9 | 0.2.9 |
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.9 | 0.2.9 |
@@ -111,7 +112,7 @@ _Sorted by tokens (desc)._
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 127 | 0.2.9 | 0.2.25 |
 | [`system-data-media-query-features-list.md`](../system-prompts/system-data-media-query-features-list.md) | List CSS media query features and prefers settings. | 124 | 0.2.9 | 0.2.9 |
 | [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 117 | 0.2.18 | 0.2.27 |
-| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 117 | 0.2.18 | 0.2.27 |
+| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 117 | 0.2.18 | 0.2.29 |
 | [`system-data-mongodb-collection-methods-list.md`](../system-prompts/system-data-mongodb-collection-methods-list.md) | Lists MongoDB collection operations and index methods. | 116 | 0.2.9 | 0.2.9 |
 | [`system-data-csharp-keywords-list.md`](../system-prompts/system-data-csharp-keywords-list.md) | List of C# language keywords and modifiers. | 113 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-builtins-and-typedarrays.md`](../system-prompts/system-data-javascript-builtins-and-typedarrays.md) | List of JavaScript built-ins and typed array constructors. | 111 | 0.2.9 | 0.2.9 |
@@ -121,8 +122,8 @@ _Sorted by tokens (desc)._
 | [`system-data-cli-branding-colors.md`](../system-prompts/system-data-cli-branding-colors.md) | Declare Claude Code CLI identity and list supported color and style tokens. | 83 | 0.2.9 | 0.2.9 |
 | [`system-data-read-additional-files.md`](../system-prompts/system-data-read-additional-files.md) | Alert to read extra CLAUDE.md instructions in listed directories. | 83 | 0.2.18 | 0.2.18 |
 | [`system-data-swift-compiler-directives-list.md`](../system-prompts/system-data-swift-compiler-directives-list.md) | List of Swift compiler directives and magic literals. | 83 | 0.2.9 | 0.2.9 |
-| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.25 |
-| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.25 |
+| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.29 |
+| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.29 |
 | [`system-data-csharp-query-keywords-list.md`](../system-prompts/system-data-csharp-query-keywords-list.md) | Lists query and async-related language keywords. | 81 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-keyword-list.md`](../system-prompts/system-data-javascript-keyword-list.md) | List of JavaScript reserved words and control-flow keywords. | 76 | 0.2.9 | 0.2.9 |
 | [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.25 |

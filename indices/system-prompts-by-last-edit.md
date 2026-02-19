@@ -1,26 +1,27 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **107**
+- Total prompt files: **108**
 
 ## Categories
 
-- System prompts (26)
+- System prompts (27)
 - Tool prompts (25)
 - System data (56)
 
-## System prompts (26)
+## System prompts (27)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-explore-large-repository-tree-2.md`](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | Multiple prompts (2) | 60 | 0.2.9 | 0.2.29 |
+| [`system-prompt-explore-large-repository-tree.md`](../system-prompts/system-prompt-explore-large-repository-tree.md) | Explore a massive repository with LS and Bash, using provided initial directory listing. | 55 | 0.2.29 | 0.2.29 |
 | [`system-prompt-sysref-constants-and-buglink.md`](../system-prompts/system-prompt-sysref-constants-and-buglink.md) | Sysref constants block mixed with tool header text, classified banner, and bug URL template. | 1,367 | 0.2.27 | 0.2.27 |
 | [`system-prompt-sysref-classified-banner-constants.md`](../system-prompts/system-prompt-sysref-classified-banner-constants.md) | Noisy template preamble followed by sysref constant names list with classified banner. | 1,108 | 0.2.27 | 0.2.27 |
 | [`system-prompt-bash-command-prefix-detection.md`](../system-prompts/system-prompt-bash-command-prefix-detection.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 625 | 0.2.27 | 0.2.27 |
 | [`system-prompt-safe-bash-command-runner.md`](../system-prompts/system-prompt-safe-bash-command-runner.md) | Execute bash commands with pre-run directory checks, banned-command enforcement, and output truncation limits. | 2,413 | 0.2.25 | 0.2.25 |
 | [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 72 | 0.2.25 | 0.2.25 |
 | [`system-prompt-use-provided-context-links.md`](../system-prompts/system-prompt-use-provided-context-links.md) | Instruction to answer using provided contextual URLs and information. | 29 | 0.2.25 | 0.2.25 |
-| [`system-prompt-explore-large-repository-tree.md`](../system-prompts/system-prompt-explore-large-repository-tree.md) | Multiple prompts (2) | 60 | 0.2.9 | 0.2.19 |
 | [`system-prompt-delegated-search-guidance.md`](../system-prompts/system-prompt-delegated-search-guidance.md) | Instruct when to launch a search agent versus using direct file or grep tools. | 432 | 0.2.18 | 0.2.18 |
 | [`system-prompt-secret-sticker-operation-banner.md`](../system-prompts/system-prompt-secret-sticker-operation-banner.md) | Shows classified banner and discovered secret operation message with table name placeholders. | 85 | 0.2.18 | 0.2.18 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.18 | 0.2.18 |
@@ -47,6 +48,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-list-path-with-ignore-globs.md`](../system-prompts/tool-description-list-path-with-ignore-globs.md) | Lists files and directories at an absolute path with optional ignore glob patterns. | 60 | 0.2.29 | 0.2.29 |
 | [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,390 | 0.2.25 | 0.2.25 |
 | [`tool-description-list-approved-tools.md`](../system-prompts/tool-description-list-approved-tools.md) | Request to enumerate all currently approved tools. | 5 | 0.2.25 | 0.2.25 |
 | [`tool-description-toggle-vim-emacs-modes.md`](../system-prompts/tool-description-toggle-vim-emacs-modes.md) | Switch between vim and emacs editing modes. | 8 | 0.2.19 | 0.2.19 |
@@ -60,7 +62,6 @@ _Sorted by last edit (newest first)._
 | [`tool-description-write-file-to-disk.md`](../system-prompts/tool-description-write-file-to-disk.md) | Writes a file to the local filesystem, overwriting if it exists. | 84 | 0.2.9 | 0.2.9 |
 | [`tool-description-read-jupyter-notebook-cells.md`](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | Loads an ipynb from an absolute path and returns cells with outputs. | 62 | 0.2.9 | 0.2.9 |
 | [`tool-description-technical-planning-and-implementation-steps.md`](../system-prompts/tool-description-technical-planning-and-implementation-steps.md) | Breaks technical tasks into clear requirements and actionable implementation steps. | 51 | 0.2.9 | 0.2.9 |
-| [`tool-description-list-files-and-directories.md`](../system-prompts/tool-description-list-files-and-directories.md) | Lists files and directories for an absolute path. | 43 | 0.2.9 | 0.2.9 |
 | [`tool-description-install-shift-enter-binding.md`](../system-prompts/tool-description-install-shift-enter-binding.md) | Installs a Shift+Enter key binding for newlines in supported terminals and editors. | 20 | 0.2.9 | 0.2.9 |
 | [`tool-description-run-onboarding-flow.md`](../system-prompts/tool-description-run-onboarding-flow.md) | Runs through the onboarding flow. | 14 | 0.2.9 | 0.2.9 |
 | [`tool-description-show-session-cost-and-duration.md`](../system-prompts/tool-description-show-session-cost-and-duration.md) | Displays the current session total cost and duration. | 10 | 0.2.9 | 0.2.9 |
@@ -79,20 +80,20 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.29 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.29 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.29 |
+| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 117 | 0.2.18 | 0.2.29 |
+| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.29 |
+| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.29 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.27 |
 | [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.27 |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.27 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.27 |
 | [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 117 | 0.2.18 | 0.2.27 |
-| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 117 | 0.2.18 | 0.2.27 |
 | [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 68 | 0.2.9 | 0.2.27 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 127 | 0.2.9 | 0.2.25 |
-| [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.25 |
-| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 82 | 0.2.25 | 0.2.25 |
 | [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.25 |
 | [`system-data-runtime-urls-paths-variables.md`](../system-prompts/system-data-runtime-urls-paths-variables.md) | Inject runtime URLs, paths, and other environment-provided variables into the prompt. | 69 | 0.2.25 | 0.2.25 |
 | [`system-data-user-preferences-session-flags.md`](../system-prompts/system-data-user-preferences-session-flags.md) | List of stored user settings and onboarding-related session flags. | 68 | 0.2.25 | 0.2.25 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.19 |
 | [`system-data-read-additional-files.md`](../system-prompts/system-data-read-additional-files.md) | Alert to read extra CLAUDE.md instructions in listed directories. | 83 | 0.2.18 | 0.2.18 |
 | [`system-data-mapped-valid-disallowed-std.md`](../system-prompts/system-data-mapped-valid-disallowed-std.md) | Repeated tokens for mapped and valid with disallowed std markers and ignored numbers. | 211,885 | 0.2.9 | 0.2.9 |
 | [`system-data-wolfram-language-symbols-list.md`](../system-prompts/system-data-wolfram-language-symbols-list.md) | Alphabetical list of Wolfram Language built-in symbol names. | 35,789 | 0.2.9 | 0.2.9 |

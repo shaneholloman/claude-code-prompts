@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.27
+# Prompt Stats 0.2.29
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -12,7 +12,8 @@
 | system | [System Prompt: Delegated Search Guidance](../system-prompts/system-prompt-delegated-search-guidance.md) | 1777 | 432 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Delphi Ui Components List](../system-prompts/system-prompt-delphi-ui-components-list.md) | 422 | 148 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 228 | 60 | 0.2.9 | 0.2.19 |
+| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 226 | 55 | 0.2.29 | 0.2.29 |
+| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 228 | 60 | 0.2.9 | 0.2.29 |
 | system | [System Prompt: Extract Command File Paths](../system-prompts/system-prompt-extract-command-file-paths.md) | 502 | 143 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Feedback Issue Title](../system-prompts/system-prompt-feedback-issue-title.md) | 220 | 56 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fetch Pr Comments](../system-prompts/system-prompt-fetch-pr-comments.md) | 1469 | 444 | 0.2.9 | 0.2.9 |
@@ -32,10 +33,10 @@
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 219 | 68 | 0.2.9 | 0.2.27 |
 | system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 296 | 117 | 0.2.18 | 0.2.27 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 296 | 117 | 0.2.18 | 0.2.27 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 241 | 82 | 0.2.25 | 0.2.29 |
 | system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 230 | 75 | 0.2.9 | 0.2.25 |
-| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 241 | 82 | 0.2.25 | 0.2.25 |
-| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 241 | 82 | 0.2.25 | 0.2.25 |
+| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 296 | 117 | 0.2.18 | 0.2.29 |
+| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 241 | 82 | 0.2.25 | 0.2.29 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
@@ -76,9 +77,9 @@
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 378 | 127 | 0.2.9 | 0.2.25 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 565 | 166 | 0.2.9 | 0.2.27 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 0.2.27 |
-| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.19 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 567 | 171 | 0.2.9 | 0.2.29 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.29 |
+| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 554 | 162 | 0.2.9 | 0.2.29 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Symbol Grid Ascii Art](../system-prompts/system-data-symbol-grid-ascii-art.md) | 261 | 164 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: User Preferences Session Flags](../system-prompts/system-data-user-preferences-session-flags.md) | 228 | 68 | 0.2.25 | 0.2.25 |
@@ -92,7 +93,7 @@
 | tool | [Tool Description: Fast Regex Content Search](../system-prompts/tool-description-fast-regex-content-search.md) | 522 | 123 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Install Shift Enter Binding](../system-prompts/tool-description-install-shift-enter-binding.md) | 69 | 20 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: List Approved Tools](../system-prompts/tool-description-list-approved-tools.md) | 33 | 5 | 0.2.25 | 0.2.25 |
-| tool | [Tool Description: List Files And Directories](../system-prompts/tool-description-list-files-and-directories.md) | 204 | 43 | 0.2.9 | 0.2.9 |
+| tool | [Tool Description: List Path With Ignore Globs](../system-prompts/tool-description-list-path-with-ignore-globs.md) | 294 | 60 | 0.2.29 | 0.2.29 |
 | tool | [Tool Description: Log Complex Reasoning Notes](../system-prompts/tool-description-log-complex-reasoning-notes.md) | 975 | 221 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Read Jupyter Notebook Cells](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | 309 | 62 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Read Local File Lines](../system-prompts/tool-description-read-local-file-lines.md) | 544 | 128 | 0.2.9 | 0.2.9 |
