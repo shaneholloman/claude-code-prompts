@@ -10,7 +10,7 @@ Merge specified improvements into an existing skill file while preserving format
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
