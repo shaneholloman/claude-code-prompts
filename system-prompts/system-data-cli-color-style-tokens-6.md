@@ -13,6 +13,10 @@ Declare CLI identity, enumerate style tokens, and append extra trailing data.
 | `EXPR_1` | Claude Code | None |
 
 # Raw Prompt Text
+${URL}
+
+${URL}
+
 You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 underline
@@ -48,7 +52,3 @@ brightWhite
 brightCyan
 
 brightMagenta
-
-${URL}
-
-${URL}
