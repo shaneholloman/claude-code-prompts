@@ -7,22 +7,22 @@
 
 ## Bundle
 
-- Entry bytes: 10322401 bytes
+- Entry bytes: 10323005 bytes
 - Entry lines: 4715
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 13206006 bytes
-- Pretty lines: 246424
+- Pretty bytes: 13206718 bytes
+- Pretty lines: 246433
 
 ## Inventory
 
 - File count: 19
-- Size bytes: 70210452
+- Size bytes: 70211056
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.js`: 1 files, 10322401 bytes
+- `.js`: 1 files, 10323005 bytes
 - `.json`: 1 files, 1200 bytes
 - `.md`: 2 files, 2133 bytes
 - `.node`: 5 files, 28944544 bytes
@@ -59,11 +59,11 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 15:13:58 UTC
+- Snapshot generated at: 2026-02-18 15:16:42 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `8ed1fdf936f1e2571a2fe52c17bbc2c47264037c5b3134a18ba8be445c312f13`
-- Embedded build timestamp: 2025-12-09 19:43:43 UTC
-- Relative to embedded build timestamp: 70d 19h 30m 15s (2025-12-09 19:43:43 UTC → 2026-02-18 15:13:58 UTC)
+- Config hash: `9d82fdc4f2eb3e459d142b06b87a8c4069f10b600d40b0e308b71ca6cab39f43`
+- Embedded build timestamp: 2025-12-10 01:14:48 UTC
+- Relative to embedded build timestamp: 70d 14h 1m 54s (2025-12-10 01:14:48 UTC → 2026-02-18 15:16:42 UTC)
 
 ## Prompt Token Distribution
 
