@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 240
+- Env vars: 239
 - Config keys: 267
 - Tools: 3
 - Skills: 0
@@ -211,7 +211,6 @@
 - `DISABLE_UPGRADE_COMMAND`
 - `DYNO`
 - `EDITOR`
-- `ENABLE_BACKGROUND_TASKS`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
