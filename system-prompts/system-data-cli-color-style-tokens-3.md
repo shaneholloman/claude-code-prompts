@@ -4,14 +4,27 @@
 
 ## Summary
 
-Multiple prompts (3)
+Declare CLI identity, enumerate style tokens, and append extra trailing data.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | Claude Code | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | AgentTool | None |
+| `EXPR_3` | Bash | None |
+| `EXPR_4` | BatchTool | None |
+| `EXPR_5` | GlobTool | None |
+| `EXPR_6` | GrepTool | None |
+| `EXPR_7` | LSTool | None |
+| `EXPR_8` | View | None |
+| `EXPR_9` | Edit | None |
+| `EXPR_10` | Replace | None |
+| `EXPR_11` | NotebookReadTool | None |
+| `EXPR_12` | NotebookEditTool | None |
+| `EXPR_13` | WebFetchTool | None |
+| `EXPR_14` | TodoRead | None |
+| `EXPR_15` | TodoWrite | None |
 
 # Raw Prompt Text
 You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
@@ -50,4 +63,30 @@ brightCyan
 
 brightMagenta
 
-${EXPR_2}
+${EXPR_2: 'AgentTool'}
+
+${EXPR_3: 'Bash'}
+
+${EXPR_4: 'BatchTool'}
+
+${EXPR_5: 'GlobTool'}
+
+${EXPR_6: 'GrepTool'}
+
+${EXPR_7: 'LSTool'}
+
+${EXPR_8: 'View'}
+
+${EXPR_9: 'Edit'}
+
+${EXPR_10: 'Replace'}
+
+${EXPR_11: 'NotebookReadTool'}
+
+${EXPR_12: 'NotebookEditTool'}
+
+${EXPR_13: 'WebFetchTool'}
+
+${EXPR_14: 'TodoRead'}
+
+${EXPR_15: 'TodoWrite'}
