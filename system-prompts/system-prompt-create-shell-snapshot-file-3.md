@@ -26,7 +26,7 @@ SNAPSHOT_FILE=${EXPR_1}
       echo "# Unset all aliases to avoid conflicts with functions" >> "$SNAPSHOT_FILE"
       echo "unalias -a ${NUM}>${PATH} || true" >> "$SNAPSHOT_FILE"
 
-      local
+      global
 
       ${EXPR_2}
 
