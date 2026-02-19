@@ -1,4 +1,4 @@
-# Claude Code 1.0.126 – Flags
+# Claude Code 1.0.127 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -15,10 +15,9 @@
 | `max_user_opusplan` | gate | auth | Controls whether Opus-plan users get an active default model override. | Exact behavior beyond enabling override is unclear. | medium | 1 |
 | `new_max_user_default_model` | gate | tools | Controls default model override selection, optionally forcing opus plan based on gating and token date. | Behavior inferred from obfuscated CLI snippet and surrounding Statsig keys. | medium | 1 |
 | `tengu_ant_prompts` | gate | networking | Selects an alternate fetch implementation for CLI API requests when enabled. | Currently unreachable because the controlling variable is set to false. | medium | 1 |
-| `tengu_auto_checkpointing` | gate | ui | Enables showing autocheckpointing availability in the config panel when not disabled by env | Only seen wired into config UI state. | medium | 1 |
-| `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
+| `tengu_external_model_override` | gate | tools | Selects a default model override based on plan status and first-token timing | Exact model list/behavior depends on fetched config values. | high | 1 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
+| `tengu_sandbox_disabled_commands` | gate | safety | Determines whether a CLI command is blocked in the sandbox environment | Behavior depends on configured commands/substrings and runtime sandbox settings. | high | 1 |
 | `tengu_show_all_subscription_types` | gate | ui | Enable displaying all subscription types in a setup or login flow UI | Exact UI/flow unclear from limited snippet. | medium | 1 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
-| `tengu_use_file_checkpoints` | gate | filesystem | Enables restoring conversation or code using file-based checkpoints in message selector | Only declared here; actual conditional behavior not shown. | medium | 1 |
