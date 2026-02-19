@@ -4,7 +4,13 @@
 
 ## Summary
 
-Message entry flagged as an attachment.
+Marks a message entry as an attachment for the specified message identifier.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Message ${NUM}: [ATTACHMENT]
+Message ${EXPR_1}${NUM}: [ATTACHMENT]
