@@ -65,7 +65,7 @@ Respond with the title for the conversation and nothing else.
 
 │
 
-${EXPR_4}
+pattern: "${EXPR_4}"
 
 ${EXPR_5}
 
@@ -74,38 +74,6 @@ ${EXPR_6}
 ${EXPR_7}
 
 ${EXPR_8}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
 
 ${EXPR_9}
 
@@ -117,105 +85,13 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${NUM}
+Found ${EXPR_14} outgoing calls:
 
-${NUM}
+Task #${EXPR_15}: ${EXPR_16}
 
-${NUM}
+Status: ${EXPR_17}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${EXPR_14}
-
-${EXPR_15}
-
-${EXPR_16}
-
-${EXPR_17}
-
-${EXPR_18}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${EXPR_19}
-
-${EXPR_20}
-
-${EXPR_21}
-
-${EXPR_22}
-
-${EXPR_23}
-
-${EXPR_24}
-
-${EXPR_25}
-
-${EXPR_26}
-
-${EXPR_27}
-
-Found ${EXPR_28} outgoing calls:
-
-Task #${EXPR_29}: ${EXPR_30}
-
-Status: ${EXPR_31}
-
-Description: ${EXPR_32}
+Description: ${EXPR_18}
 
 user
 
@@ -223,7 +99,7 @@ project
 
 local
 
-${EXPR_33}:
+${EXPR_19}:
 
 api
 
@@ -231,20 +107,20 @@ api
 
 PUT
 
-repos/${EXPR_34}${PATH}${EXPR_35}
+repos/${EXPR_20}${PATH}${EXPR_21}
 
 -f
 
-message="Update ${EXPR_36}"
+message="Update ${EXPR_22}"
 
 -f
 
-content=${EXPR_37}
+content=${EXPR_23}
 
 -f
 
-branch=${EXPR_38}
+branch=${EXPR_24}
 
-${EXPR_39}
+${EXPR_25}
 
-${EXPR_40}:
+${EXPR_26}:
