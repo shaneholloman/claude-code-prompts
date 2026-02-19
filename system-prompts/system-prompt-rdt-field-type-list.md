@@ -1,6 +1,5 @@
-# System Reminder: rdt-field-type-list
+# System Prompt: rdt-field-type-list
 
-- Source: inline
 
 ## Summary
 
