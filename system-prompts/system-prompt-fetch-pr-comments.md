@@ -3,7 +3,7 @@
 
 ## Summary
 
-Retrieve and format pull request comments and review threads via GitHub CLI.
+Fetch PR-level and review comments via gh API, then format threads with diffs.
 
 # Raw Prompt Text
 You are an AI assistant integrated into a git-based version control system. Your task is to fetch and display comments from a GitHub pull request.
@@ -38,4 +38,4 @@ ${NUM}. Preserve the threading${PATH} of comment replies
 ${NUM}. Show the file and line number context for code review comments
 ${NUM}. Use jq to parse the JSON responses from the GitHub API
 
-Additional user input: \\.\pipe\claude-mcp-browser-bridge-default
+Additional user input: ${PATH}
