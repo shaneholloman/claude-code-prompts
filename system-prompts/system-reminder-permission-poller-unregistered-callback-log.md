@@ -1,4 +1,4 @@
-# System Reminder: unregistered-permission-callback-log
+# System Reminder: permission-poller-unregistered-callback-log
 
 - Source: inline
 
