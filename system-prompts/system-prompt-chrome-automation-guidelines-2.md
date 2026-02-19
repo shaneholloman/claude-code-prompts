@@ -54,7 +54,6 @@ ${NUM}. Otherwise, create a new tab with mcp__claude-in-chrome__tabs_create_mcp
 ${NUM}. If a tool returns an error indicating the tab doesn't exist or is invalid, call tabs_context_mcp to get fresh tab IDs
 ${NUM}. When a tab is closed by the user or a navigation error occurs, call tabs_context_mcp to see what tabs are available
 
-
 Now that this skill is invoked, you have access to Chrome browser automation tools. You can now use the mcp__claude-in-chrome__* tools to interact with web pages.
 
 IMPORTANT: Start by calling mcp__claude-in-chrome__tabs_context_mcp to get information about the user's current browser tabs.
