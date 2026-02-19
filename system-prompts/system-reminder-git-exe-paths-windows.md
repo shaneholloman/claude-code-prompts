@@ -12,20 +12,15 @@ Repeated numeric markers with two expressions and Windows Git executable path op
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 ${EXPR_1}
+
+${EXPR_2}
 
 ${PATH} Files\Git\cmd\git.exe
 
 ${PATH} Files (x86)\Git\cmd\git.exe
 
-${EXPR_2}
+${EXPR_3}
