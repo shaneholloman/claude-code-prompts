@@ -15,11 +15,10 @@ Iterate over object keys and assign stream-json array elements into typed variab
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 Agent changes:
 ${EXPR_1} = Agent changes:
 ${EXPR_2} || Object.keys(${NUM}); for (var stream-json=${NUM}; stream-json<Agent changes:
-${EXPR_3}.length; stream-json++) { var ${EXPR_4}:${EXPR_5} = Agent changes:
-${EXPR_6}[stream-json];
+${EXPR_3}.length; stream-json++) { var ${EXPR_4} = Agent changes:
+${EXPR_5}[stream-json];
