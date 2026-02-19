@@ -6,5 +6,11 @@
 
 Confirms plugins installed and requests restart to load them.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
-✓ Installed ${NUM} plugins. Restart Claude Code to load new plugins.
+✓ Installed ${EXPR_1} plugins. Restart Claude Code to load new plugins.
