@@ -1,4 +1,4 @@
-# Prompt Stats 2.0.22
+# Prompt Stats 2.0.23
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -17,7 +17,7 @@
 | system | [System Prompt: Bash Command Prefix Risk Policy](../system-prompts/system-prompt-bash-command-prefix-risk-policy.md) | 2934 | 864 | 2.0.14 | 2.0.18 |
 | system | [System Prompt: Built In Mode Commands](../system-prompts/system-prompt-built-in-mode-commands.md) | 352 | 76 | 2.0.12 | 2.0.12 |
 | system | [System Prompt: Check Rg And Alias](../system-prompts/system-prompt-check-rg-and-alias.md) | 214 | 82 | 1.0.65 | 1.0.65 |
-| system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 2.0.22 |
+| system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 2.0.23 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Cli Identity 2](../system-prompts/system-prompt-cli-identity-2.md) | 94 | 21 | 1.0.128 | 1.0.128 |
 | system | [System Prompt: Coding Session Title](../system-prompts/system-prompt-coding-session-title.md) | 802 | 198 | 1.0.68 | 2.0.17 |
@@ -32,7 +32,7 @@
 | system | [System Prompt: Create View Instrument Selector](../system-prompts/system-prompt-create-view-instrument-selector.md) | 319 | 110 | 0.2.76 | 0.2.76 |
 | system | [System Prompt: Detect Interaction Features](../system-prompts/system-prompt-detect-interaction-features.md) | 98 | 16 | 1.0.122 | 2.0.22 |
 | system | [System Prompt: Detect New Topic Title 2](../system-prompts/system-prompt-detect-new-topic-title-2.md) | 379 | 101 | 2.0.22 | 2.0.22 |
-| system | [System Prompt: Dev Conversation Summary](../system-prompts/system-prompt-dev-conversation-summary.md) | 5308 | 1273 | 1.0.103 | 2.0.22 |
+| system | [System Prompt: Dev Conversation Summary](../system-prompts/system-prompt-dev-conversation-summary.md) | 5308 | 1273 | 1.0.103 | 2.0.23 |
 | system | [System Prompt: Educational Insights](../system-prompts/system-prompt-educational-insights.md) | 562 | 134 | 1.0.63 | 1.0.64 |
 | system | [System Prompt: Educational Insights Cli](../system-prompts/system-prompt-educational-insights-cli.md) | 1047 | 220 | 1.0.78 | 1.0.78 |
 | system | [System Prompt: Exact String Edits In Files](../system-prompts/system-prompt-exact-string-edits-in-files.md) | 1112 | 258 | 1.0.8 | 1.0.8 |
@@ -99,9 +99,9 @@
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
 | system-reminder | [System Reminder: Call Result](../system-prompts/system-reminder-call-result.md) | 47 | 18 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Check New Bash Output](../system-prompts/system-reminder-check-new-bash-output.md) | 77 | 17 | 1.0.69 | 1.0.69 |
+| system-reminder | [System Reminder: Cli Url Safety Help](../system-prompts/system-reminder-cli-url-safety-help.md) | 8853 | 2017 | 2.0.22 | 2.0.23 |
 | system-reminder | [System Reminder: Continued Session Warning](../system-prompts/system-reminder-continued-session-warning.md) | 132 | 26 | 1.0.68 | 1.0.68 |
-| system-reminder | [System Reminder: Conversation Development Summary](../system-prompts/system-reminder-conversation-development-summary.md) | 5308 | 1273 | 1.0.103 | 2.0.22 |
-| system-reminder | [System Reminder: Defensive Security Cli Guidelines 3](../system-prompts/system-reminder-defensive-security-cli-guidelines-3.md) | 8853 | 2017 | 2.0.22 | 2.0.22 |
+| system-reminder | [System Reminder: Conversation Development Summary](../system-prompts/system-reminder-conversation-development-summary.md) | 5308 | 1273 | 1.0.103 | 2.0.23 |
 | system-reminder | [System Reminder: Empty Existing File Warning](../system-prompts/system-reminder-empty-existing-file-warning.md) | 80 | 22 | 0.2.115 | 1.0.53 |
 | system-reminder | [System Reminder: Empty Todo List](../system-prompts/system-reminder-empty-todo-list.md) | 325 | 72 | 1.0.69 | 1.0.69 |
 | system-reminder | [System Reminder: Exit Status](../system-prompts/system-reminder-exit-status.md) | 22 | 10 | 1.0.69 | 1.0.69 |
@@ -130,7 +130,7 @@
 | system-reminder | [System Reminder: Other Users Modified Files](../system-prompts/system-reminder-other-users-modified-files.md) | 40 | 13 | 1.0.109 | 1.0.109 |
 | system-reminder | [System Reminder: Plan Mode No Execution](../system-prompts/system-reminder-plan-mode-no-execution.md) | 664 | 161 | 2.0.21 | 2.0.21 |
 | system-reminder | [System Reminder: Preserve Intentional File Changes](../system-prompts/system-reminder-preserve-intentional-file-changes.md) | 319 | 84 | 1.0.114 | 1.0.114 |
-| system-reminder | [System Reminder: Quote Limited Web Response](../system-prompts/system-reminder-quote-limited-web-response.md) | 549 | 140 | 0.2.40 | 2.0.22 |
+| system-reminder | [System Reminder: Quote Limited Web Response](../system-prompts/system-reminder-quote-limited-web-response.md) | 549 | 140 | 0.2.40 | 2.0.23 |
 | system-reminder | [System Reminder: Remote Session Task Status](../system-prompts/system-reminder-remote-session-task-status.md) | 136 | 55 | 1.0.111 | 1.0.111 |
 | system-reminder | [System Reminder: Report New Diagnostic Issues](../system-prompts/system-reminder-report-new-diagnostic-issues.md) | 89 | 27 | 1.0.18 | 1.0.94 |
 | system-reminder | [System Reminder: Selected Lines Context Note](../system-prompts/system-reminder-selected-lines-context-note.md) | 129 | 46 | 1.0.65 | 1.0.65 |
