@@ -10,10 +10,10 @@ Background task notice with commands to monitor status or resume later via place
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | false | None |
 
 # Raw Prompt Text
 <background-task-output>This task is now running in the background.
 Monitor it with ${PATH} or at unknown
 
-Or, resume it later with: ${EXPR_1}<${PATH}>
+Or, resume it later with: ${EXPR_1: false}<${PATH}>
