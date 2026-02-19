@@ -10,12 +10,6 @@ Provides a structured template for summarizing task, worklog, codebase, workflow
 # Task specification
 _What did the user ask to build? Any design decisions or other explanatory context_
 
-# Worklog
-_Step by step, what was attempted, done? Very terse summary for each step_
-
-# Codebase and System Documentation
-_What are the important system components? How do they work${PATH} together?_
-
 # Files and Functions
 _What are the important files? In short, what do they contain and why are they relevant?_
 
@@ -25,5 +19,11 @@ _What bash commands are usually run and in what order? How to interpret their ou
 # User Corrections / Mistakes
 _What did the user correct Assistant about? What did not work and should not be tried again?_
 
+# Codebase and System Documentation
+_What are the important system components? How do they work${PATH} together?_
+
 # Learnings
-_What has worked well? What has not? What to avoid? Do not duplicate items in other sections_
+_What has worked well? What has not? What to avoid? Do not duplicate items from other sections_
+
+# Worklog
+_Step by step, what was attempted, done? Very terse summary for each step_
