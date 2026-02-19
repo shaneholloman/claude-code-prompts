@@ -52,27 +52,27 @@ ${EXPR_7}
 
 ${EXPR_8}
 
+${EXPR_9}
+
 api
 
 --method
 
 PUT
 
-repos/${EXPR_9}${PATH}${EXPR_10}
+repos/${EXPR_10}${PATH}${EXPR_11}
 
 -f
 
-message="Update ${EXPR_11}"
+message="Update ${EXPR_12}"
 
 -f
 
-content=${EXPR_12}
+content=${EXPR_13}
 
 -f
 
-branch=${EXPR_13}
-
-${EXPR_14}
+branch=${EXPR_14}
 
 ${EXPR_15}
 
@@ -99,6 +99,10 @@ ${EXPR_25}
 ${EXPR_26}
 
 ${EXPR_27}
+
+${EXPR_28}
+
+${EXPR_29}
 
 userSettings
 
