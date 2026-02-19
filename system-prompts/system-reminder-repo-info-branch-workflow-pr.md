@@ -1,4 +1,4 @@
-# System Prompt: repo-info-branch-workflow-pr
+# System Reminder: repo-info-branch-workflow-pr
 
 - Source: inline
 
