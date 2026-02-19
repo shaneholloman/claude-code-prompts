@@ -4,7 +4,7 @@
 
 - Commands: 13
 - Options: 17
-- Env vars: 122
+- Env vars: 123
 - Config keys: 61
 - Tools: 5
 - Skills: 0
@@ -151,6 +151,7 @@
 - `KONSOLE_VERSION`
 - `MAX_THINKING_TOKENS`
 - `MCP_TIMEOUT`
+- `MCP_TOOL_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
 - `MSYSTEM`
 - `NETLIFY`
