@@ -5,10 +5,10 @@
 - Commands: 16
 - Options: 36
 - Env vars: 258
-- Config keys: 313
+- Config keys: 314
 - Tools: 3
 - Skills: 0
-- Models: 36
+- Models: 37
 - Providers: 7
 
 ## Commands
@@ -642,6 +642,7 @@
 - `software_version`
 - `source`
 - `speedPriority`
+- `spinnerTipsEnabled`
 - `start`
 - `startLine`
 - `status`
@@ -738,6 +739,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-netbridge-`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
