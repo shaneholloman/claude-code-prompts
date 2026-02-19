@@ -1,4 +1,4 @@
-# System Prompt: teammate-operations-reference
+# System Prompt: team-ops-mailbox-messaging
 
 - Source: inline
 
