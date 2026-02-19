@@ -10,11 +10,12 @@ Merge multi-agent findings into one structured answer, resolving conflicts and p
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | true | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 ary
@@ -23,15 +24,15 @@ null
 
 bind
 
-${NUM}
+${EXPR_1: true}_${EXPR_2}
 
 bindKey
 
-${EXPR_1}
+${NUM}
 
 curry
 
-${EXPR_2}
+${EXPR_3}
 
 curryRight
 
@@ -39,15 +40,15 @@ null
 
 flip
 
-${EXPR_3}
+${EXPR_4}
 
 partial
 
-Original task: ${EXPR_4}
+Original task: ${EXPR_5}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_5}
+${EXPR_6}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
