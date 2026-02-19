@@ -1,6 +1,5 @@
-# System Reminder: web-search
+# System Prompt: web-search
 
-- Source: inline
 
 ## Summary
 
