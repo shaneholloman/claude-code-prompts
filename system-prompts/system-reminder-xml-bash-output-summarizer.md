@@ -1,4 +1,4 @@
-# System Prompt: xml-decision-for-log-summary
+# System Reminder: xml-bash-output-summarizer
 
 - Source: inline
 
