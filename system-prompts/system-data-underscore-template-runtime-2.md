@@ -26,23 +26,23 @@ ${EXPR_1}
 
 ${EXPR_2}
 
-thru
-
 ${EXPR_3}
 
 ${EXPR_4}
 
-${EXPR_5}
-
-function(${EXPR_6}) {
+function(${EXPR_5}) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape, __j = Array.prototype.join;
 function print() { __p += __j.call(arguments, '') }
-${EXPR_7}return __p
+${EXPR_6}return __p
 }
+
+${EXPR_7}
 
 ${EXPR_8}
 
 ${EXPR_9}
 
 ${EXPR_10}
+
+${NUM}
