@@ -13,4 +13,4 @@ Attempted to unregister an instance that was not registered, with instance ident
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Tried to unregister unregistered instance: [^${EXPR_1}]
+Tried to unregister unregistered instance: ${URL}${EXPR_1}?m=${NUM}
