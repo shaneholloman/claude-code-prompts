@@ -205,6 +205,8 @@ Sandbox profile allowing specific process permissions and Mach service lookups.
 
   (sysctl-name-prefix "hw.perflevel")
 
+  (sysctl-name-prefix "kern.proc.all")
+
   (sysctl-name-prefix "kern.proc.pgrp.")
 
   (sysctl-name-prefix "kern.proc.pid.")
