@@ -4,13 +4,7 @@
 
 ## Summary
 
-Discover and load MCP tools by direct selection or keyword search before use.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Tool for discovering and loading MCP tools via selection or keyword search.
 
 # Raw Prompt Text
 Search for or select MCP tools to make them available for use.
@@ -64,4 +58,4 @@ WRONG - You must load the tool FIRST using this tool
 <${PATH}>
 
 Available MCP tools (must be loaded before use):
-${EXPR_1}
+fcoeoabgfenejglbffodgkkbkcdhcgfn
