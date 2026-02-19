@@ -1,6 +1,5 @@
 # System Reminder: empty-existing-file-warning
 
-- Source: inline
 
 ## Summary
 
