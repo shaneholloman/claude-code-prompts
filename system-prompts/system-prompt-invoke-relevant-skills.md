@@ -11,8 +11,6 @@ Immediately invoke the relevant Skill tool for slash-command tasks before any te
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Execute a skill within the main conversation
@@ -37,10 +35,10 @@ Important:
 - When a skill is relevant, you must invoke this tool IMMEDIATELY as your first action
 - NEVER just announce or mention a skill in your text response without actually calling this tool
 - This is a BLOCKING REQUIREMENT: invoke the relevant Skill tool BEFORE generating any other response about the task
-- Only use skills listed in "Available skills" below
+- Skills listed below are available for invocation
 - Do not invoke a skill that is already running
 - Do not use this tool for built-in CLI commands (like ${PATH}, ${PATH}, etc.)
 - If you see a <command-name> tag in the current conversation turn (e.g., <command-name>${PATH}<${PATH}>), the skill has ALREADY been loaded and its instructions follow in the next message. Do NOT call this tool - just follow the skill instructions directly.
 
 Available skills:
-[${EXPR_1}] [Claude Chrome Native Host] ${EXPR_2}${EXPR_3}
+${EXPR_1}
