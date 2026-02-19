@@ -15,13 +15,15 @@ Execute bash commands in persistent shell with directory checks, quoting, and op
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | TodoWrite | None |
+| `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | TodoWrite | None |
+| `EXPR_8` | TodoWrite | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | TodoWrite | None |
 
 # Raw Prompt Text
-Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
+${EXPR_1}Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
 
 Before executing the command, please follow these steps:
 
@@ -41,10 +43,11 @@ ${NUM}. Command Execution:
 
 Usage notes:
   - The command argument is required.
-  - You can specify an optional timeout in milliseconds (up to ${EXPR_1}ms / ${EXPR_2} minutes). If not specified, commands will timeout after 120000ms (${EXPR_3} minutes).
+  - You can specify an optional timeout in milliseconds (up to ${EXPR_2}ms / ${EXPR_3} minutes). If not specified, commands will timeout after 120000ms (${EXPR_4} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
-  - If the output exceeds ${EXPR_4} characters, output will be truncated before being returned to you.
+  - If the output exceeds ${EXPR_5} characters, output will be truncated before being returned to you.
   - You can use the `run_in_background` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the Bash tool as it becomes available. Never use `run_in_background` to run 'sleep' as it will return immediately. You do not need to use '&' at the end of the command when using this parameter.
+${EXPR_6}
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use Grep, Glob, or Task to search. You MUST avoid read tools like `cat`, `head`, and `tail`, and use Read to read files.
  - If you _still_ need to run `grep`, STOP. ALWAYS USE ripgrep at `rg` first, which all Claude Code users have pre-installed.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
@@ -72,14 +75,14 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 ${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
-   ${EXPR_5}
+   ${EXPR_7}
    - Run git status to make sure the commit succeeded.
 ${NUM}. If the commit fails due to pre-commit hook changes, retry the commit ONCE to include these automated changes. If it fails again, it usually means a pre-commit hook is preventing the commit. If the commit succeeds but you notice that files were modified by the pre-commit hook, you MUST amend your commit to include them.
 
 Important notes:
 - NEVER update the git config
 - NEVER run additional commands to read or explore code, besides git bash commands
-- NEVER use the ${EXPR_6: 'TodoWrite'} or Task tools
+- NEVER use the ${EXPR_8: 'TodoWrite'} or Task tools
 - DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - If there are no changes to commit (i.e., no untracked files and no modifications), do not create an empty commit
@@ -88,7 +91,7 @@ Important notes:
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   ${EXPR_7}
+   ${EXPR_9}
    EOF
    )"
 <${PATH}>
@@ -116,14 +119,14 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-${EXPR_8}
+${EXPR_10}
 EOF
 )"
 <${PATH}>
 
 Important:
 - NEVER update the git config
-- DO NOT use the ${EXPR_9: 'TodoWrite'} or Task tools
+- DO NOT use the ${EXPR_11: 'TodoWrite'} or Task tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
