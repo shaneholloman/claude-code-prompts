@@ -22,7 +22,7 @@ Instruct when to launch a search agent versus using direct file or grep tools.
 # Raw Prompt Text
 Launch a new agent that has access to the following tools: ${EXPR_1}. When you are searching for a keyword or file and are not confident that you will find the right match on the first try, use the Agent tool to perform the search for you. For example:
 
-- If you are searching for a keyword like "config" or "logger", the Agent tool is appropriate
+- If you are searching for a keyword like "config" or "logger", or for questions like "which file does X?", the Agent tool is strongly recommended
 - If you want to read a specific file path, use the ${EXPR_2: 'View'} or ${EXPR_3: 'GlobTool'} tool instead of the Agent tool, to find the match more quickly
 - If you are searching for a specific class definition like "class Foo", use the ${EXPR_4: 'GlobTool'} tool instead, to find the match more quickly
 
