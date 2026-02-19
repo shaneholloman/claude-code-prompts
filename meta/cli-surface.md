@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 32
 - Env vars: 235
-- Config keys: 263
+- Config keys: 264
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -515,6 +515,7 @@
 - `originalSize`
 - `otelHeadersHelper`
 - `output_tokens`
+- `outputMode`
 - `outputs`
 - `owner`
 - `params`
