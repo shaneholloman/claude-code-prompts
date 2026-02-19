@@ -4,13 +4,7 @@
 
 ## Summary
 
-Invoke an available skill by exact name to expand its task instructions.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Run an available skill by name following invocation and selection rules.
 
 # Raw Prompt Text
 Execute a skill within the main conversation
@@ -34,5 +28,5 @@ Important:
 <${PATH}>
 
 <available_skills>
-${EXPR_1}null
+unknownunknown
 <${PATH}>
