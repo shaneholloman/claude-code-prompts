@@ -11,7 +11,6 @@ Assess whether command output merits summarization, then summarize key relevant 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Command executed: `${EXPR_1}`
@@ -20,6 +19,6 @@ Recent conversation context:
 No recent conversation context
 
 Bash output to analyze:
-${EXPR_2}
+local
 
 Should this output be summarized? If yes, provide a summary focusing on the most relevant information.
