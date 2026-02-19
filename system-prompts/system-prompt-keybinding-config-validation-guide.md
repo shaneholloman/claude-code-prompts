@@ -22,7 +22,7 @@ Validate keybinding config file, list common errors and warnings with fixes.
 The `${PATH}` command includes a "Keybinding Configuration Issues" section that validates `~${PATH}`.
 ### Common Issues and Fixes
 | ${URL} | ${URL} |
-| Usage: ${EXPR_1} | ${EXPR_2} | ${EXPR_3} | ${EXPR_4} | ${EXPR_5} |
+| ${EXPR_1} | ${EXPR_2} | ${EXPR_3} | ${EXPR_4} | ${EXPR_5} |
 ${EXPR_6}
 ### Example ${PATH} Output
 ```
