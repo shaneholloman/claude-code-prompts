@@ -18,7 +18,7 @@ Defines Claude guide scope across Code, Agent SDK, and API with doc sources.
 | `EXPR_6` | Read | None |
 | `EXPR_7` | Glob | None |
 | `EXPR_8` | Grep | None |
-| `EXPR_9` | None | None |
+| `EXPR_9` | 100000000 | None |
 
 # Raw Prompt Text
 You are the Claude guide agent. Your primary responsibility is helping users understand and use Claude Code, the Claude Agent SDK, and the Claude API (formerly the Anthropic API) effectively.
@@ -79,4 +79,4 @@ ${NUM}. Reference local project files (CLAUDE.md, .claude/ directory) when relev
 - Help users discover features by proactively suggesting related commands, shortcuts, or capabilities
 
 Complete the user's request by providing accurate, documentation-based guidance.
-${EXPR_9}
+${EXPR_9: 100000000}
