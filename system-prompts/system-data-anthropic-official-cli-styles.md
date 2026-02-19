@@ -50,13 +50,13 @@ brightCyan
 
 brightMagenta
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
 ${EXPR_2}
 
