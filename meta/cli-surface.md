@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 27
-- Options: 44
+- Options: 45
 - Env vars: 372
 - Config keys: 417
 - Tools: 3
@@ -85,6 +85,7 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
+- `--betas`
 - `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
@@ -131,6 +132,7 @@
 - `--agents <json>`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
+- `--betas <betas...>`
 - `--dangerously-skip-permissions`
 - `--debug`
 - `--disallowedTools, --disallowed-tools <tools...>`
@@ -159,7 +161,7 @@
 - `-H, --header <header...>`
 - `-i, --ignore-case`
 - `-p, --print`
-- `-r, --resume [sessionId]`
+- `-r, --resume [value]`
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
 

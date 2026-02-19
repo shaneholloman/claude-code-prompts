@@ -1,4 +1,4 @@
-# Claude Code 2.0.57 – Flags
+# Claude Code 2.0.58 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -11,6 +11,7 @@
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
 | `sonnet_1m_default` | experiment | tools | Enables default selection/display of a specific model in the CLI when accessible | Appears to gate a fallback model name when none is chosen. | high | 1 |
 | `sonnet_45_1m_header` | experiment | networking | Enables adding a special 1-minute header for a specific Sonnet model variant. | Exact meaning of pushed header value is unclear from snippet. | medium | 1 |
+| `tengu_backstage_only` | gate | ui | Restricts Pro plan extra usage and changes Opus plan labeling for internal mode | Exact UI string suffix purpose unclear from snippet. | medium | 12 |
 | `tengu_bash_command_backgrounded` | gate | telemetry | logs/records when a shell command is backgrounded, including timeout and auto-background cases | Appears to be event logging rather than behavior gating. | medium | 1 |
 | `tengu_bash_command_timeout_backgrounded` | gate | telemetry | Logs timeout events when a bash command is backgrounded | Appears to emit an event/metric, not alter behavior. | high | 1 |
 | `tengu_cap_grep_results` | experiment | tools | Limit grep tool output size via configurable cap when head_limit not provided | Appears to control default head_limit for grep results. | high | 1 |

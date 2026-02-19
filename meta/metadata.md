@@ -3,29 +3,29 @@
 ## Embedded Metadata
 
 - Package URL: @anthropic-ai/claude-code
-- README URL: https://docs.claude.com/s/claude-code
+- README URL: https://code.claude.com/docs/en/overview
 
 ## Bundle
 
-- Entry bytes: 10916416 bytes
-- Entry lines: 4626
+- Entry bytes: 10932147 bytes
+- Entry lines: 4631
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 13850959 bytes
-- Pretty lines: 254813
+- Pretty bytes: 13871145 bytes
+- Pretty lines: 255216
 
 ## Inventory
 
 - File count: 51
-- Size bytes: 80746390
+- Size bytes: 80762085
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12421096 bytes
-- `.js`: 1 files, 10916416 bytes
+- `.js`: 1 files, 10932147 bytes
 - `.json`: 1 files, 1196 bytes
-- `.md`: 2 files, 2169 bytes
+- `.md`: 2 files, 2133 bytes
 - `.node`: 5 files, 28944544 bytes
 - `.ts`: 1 files, 64912 bytes
 - `.wasm`: 2 files, 1586267 bytes
@@ -93,19 +93,19 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 14:22:05 UTC
+- Snapshot generated at: 2026-02-18 14:24:28 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `9941c8e42be315397972a7f5e77a7bbf22edda31b5b7d73e243dad4ef5615c82`
+- Config hash: `464438f99d8b621a51ad2f44c9dcaaede1ab88b1bfbced00b0361b36e341f4a8`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 308,148
+- Total prompt tokens: 308,197
 - Token p95 / p99: 1,099 / 2,808
 
 ### By Kind
 
-- `system-data`: 248,778 tokens (80.7%)
-- `system`: 33,391 tokens (10.8%)
-- `system-reminder`: 14,604 tokens (4.7%)
-- `tool`: 8,834 tokens (2.9%)
+- `system-data`: 248,747 tokens (80.7%)
+- `system`: 33,420 tokens (10.8%)
+- `system-reminder`: 14,661 tokens (4.8%)
+- `tool`: 8,828 tokens (2.9%)
 - `agent`: 2,541 tokens (0.8%)
