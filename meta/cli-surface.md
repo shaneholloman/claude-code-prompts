@@ -8,7 +8,7 @@
 - Config keys: 269
 - Tools: 3
 - Skills: 0
-- Models: 34
+- Models: 35
 - Providers: 7
 
 ## Commands
@@ -677,6 +677,7 @@ _None detected_
 - `claude-settings`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
+- `sonnet-1m-welcome`
 
 ## Providers
 
