@@ -9,9 +9,9 @@ Sandbox profile allowing specific process permissions and Mach service lookups.
 # Raw Prompt Text
 (version ${NUM})
 
-(deny default (with message "unknown"))
+(deny default (with message "null"))
 
-; LogTag: unknown
+; LogTag: null
 
 ; Essential permissions - based on Chrome sandbox policy
 
