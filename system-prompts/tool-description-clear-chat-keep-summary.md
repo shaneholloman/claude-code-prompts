@@ -1,4 +1,4 @@
-# Tool Description: clear-history-keep-summary
+# Tool Description: clear-chat-keep-summary
 
 - Name: compact
 
