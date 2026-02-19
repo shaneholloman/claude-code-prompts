@@ -14,4 +14,4 @@ Continue from prior conversation state and resume the last task without question
 
 # Raw Prompt Text
 ${EXPR_1}
-Please continue the conversation from where we left it off without asking the user any further questions. Continue with the last task that you were asked to work on.
+Please continue the conversation from where we left off without asking the user any further questions. Continue with the last task that you were asked to work on.
