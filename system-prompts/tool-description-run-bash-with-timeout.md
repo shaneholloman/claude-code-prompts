@@ -15,6 +15,7 @@ Bash execution tool spec with directory verification guidance and configurable t
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -52,4 +53,6 @@ Usage notes:
     <${PATH}>
 
 ${EXPR_4}
+
 ${EXPR_5}
+${EXPR_6}
