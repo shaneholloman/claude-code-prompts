@@ -11,7 +11,7 @@ Log markMessagesAsRead failure for a target with the associated error message.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | resolved list (4 items) | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 [TeammateMailbox] markMessagesAsRead FAILED for ${EXPR_1}: ${EXPR_2}
