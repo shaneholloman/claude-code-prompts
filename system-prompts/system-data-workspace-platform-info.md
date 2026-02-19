@@ -18,7 +18,7 @@ Lists workspace paths, git status, platform metadata, current date, MCP info, an
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
+| `EXPR_9` | resolved list (4 items) | None |
 | `EXPR_10` | claude-opus-4-6 | None |
 | `EXPR_11` | claude-sonnet-4-5-20250929 | None |
 | `EXPR_12` | claude-haiku-4-5-20251001 | None |
