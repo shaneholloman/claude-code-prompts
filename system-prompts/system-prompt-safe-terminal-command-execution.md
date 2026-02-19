@@ -16,12 +16,10 @@ Defines safe bash command execution steps with directory checks and proper path 
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
+| `EXPR_7` | TodoWrite | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | TodoWrite | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | TodoWrite | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | TodoWrite | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -52,7 +50,7 @@ Usage notes:
   - You can use the `run_in_background` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the Bash tool as it becomes available. You do not need to use '&' at the end of the command when using this parameter.
   - Commands run in a sandbox by default with the following restrictions:
 Usage: ${EXPR_5}
-mcp__${EXPR_6}__${EXPR_7}
+null
   - IMPORTANT: For temporary files, use `${PATH}` as your temporary directory
     - The TMPDIR environment variable is automatically set to `${PATH}` when running in sandbox mode
     - Do NOT use `${PATH}` directly - use `${PATH}` or rely on TMPDIR instead
@@ -102,7 +100,7 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 ${NUM}. You can call multiple tools in a single response. When multiple independent pieces of information are requested and all commands are likely to succeed, run multiple tool calls in parallel for optimal performance. run the following commands:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
-   ${EXPR_8}
+   ${EXPR_6}
    - Run git status after the commit completes to verify success.
    Note: git status depends on the commit completing, so run it sequentially after the commit.
 ${NUM}. If the commit fails due to pre-commit hook changes, retry ONCE. If it succeeds but files were modified by the hook, verify it's safe to amend:
@@ -112,7 +110,7 @@ ${NUM}. If the commit fails due to pre-commit hook changes, retry ONCE. If it su
 
 Important notes:
 - NEVER run additional commands to read or explore code, besides git bash commands
-- NEVER use the ${EXPR_9: 'TodoWrite'} or Task tools
+- NEVER use the ${EXPR_7: 'TodoWrite'} or Task tools
 - DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - If there are no changes to commit (i.e., no untracked files and no modifications), do not create an empty commit
@@ -121,7 +119,7 @@ Important notes:
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   ${EXPR_10}
+   ${EXPR_8}
    EOF
    )"
 <${PATH}>
@@ -149,13 +147,13 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Bulleted markdown checklist of TODOs for testing the pull request...]
 
-${EXPR_11}
+${EXPR_9}
 EOF
 )"
 <${PATH}>
 
 Important:
-- DO NOT use the ${EXPR_12: 'TodoWrite'} or Task tools
+- DO NOT use the ${EXPR_10: 'TodoWrite'} or Task tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
