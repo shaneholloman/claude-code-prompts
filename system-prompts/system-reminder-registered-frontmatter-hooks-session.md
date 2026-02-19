@@ -10,7 +10,7 @@ Confirm frontmatter hooks registered, showing count, source, and session identif
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 
