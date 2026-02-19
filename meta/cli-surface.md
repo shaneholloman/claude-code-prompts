@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 14
-- Options: 26
-- Env vars: 178
+- Options: 24
+- Env vars: 180
 - Config keys: 139
 - Tools: 0
 - Skills: 0
@@ -64,11 +64,9 @@
 - `--header`
 - `--mcp-config`
 - `--mcp-debug`
-- `--output-format`
 - `--print`
 - `--resume`
 - `--scope`
-- `--system-prompt`
 - `--transport`
 - `--verbose`
 - `-c`
@@ -88,8 +86,6 @@
 - `--disallowedTools <tools...>`
 - `--mcp-config <file or string>`
 - `--mcp-debug`
-- `--output-format <format>`
-- `--system-prompt <prompt>`
 - `--verbose`
 - `-c, --continue`
 - `-d, --debug`
@@ -160,8 +156,10 @@
 - `DISABLE_TELEMETRY`
 - `DYNO`
 - `EDITOR`
+- `ENABLE_BACKGROUND_TASKS`
 - `ENABLE_IDE_INTEGRATION`
 - `FLY_REGION`
+- `FORCE_AUTO_BACKGROUND_TASKS`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
