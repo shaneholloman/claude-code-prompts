@@ -4,13 +4,7 @@
 
 ## Summary
 
-JavaScript for toggling collapsibles and copying code or selected command text.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+JavaScript helpers for collapsible sections and copying code or command text to clipboard.
 
 # Raw Prompt Text
 function toggleCollapsible(header) {
@@ -52,7 +46,7 @@ function toggleCollapsible(header) {
       }
     }
     // Timezone selector for time of day chart (data is from our own analytics, not user input)
-    const rawHourCounts = ${EXPR_1};
+    const rawHourCounts = global;
     function updateHourHistogram(offsetFromPT) {
       const periods = [
         { label: "Morning (${NUM}-${NUM})", range: [${NUM},${NUM},${NUM},${NUM},${NUM},${NUM}] },
