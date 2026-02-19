@@ -14,7 +14,7 @@ Read a local file by absolute path with line limits, truncation, and image suppo
 | `EXPR_2` | 2000 | None |
 | `EXPR_3` | Claude Code | None |
 | `EXPR_4` | Claude Code | None |
-| `EXPR_5` | ReadNotebook | None |
+| `EXPR_5` | NotebookReadTool | None |
 | `EXPR_6` | BatchTool | None |
 
 # Raw Prompt Text
@@ -28,6 +28,6 @@ Usage:
 - Any lines longer than ${EXPR_2: 2000} characters will be truncated
 - Results are returned using cat -n format, with line numbers starting at ${NUM}
 - This tool allows ${EXPR_3: 'Claude Code'} to VIEW images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as ${EXPR_4: 'Claude Code'} is a multimodal LLM.
-- For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'ReadNotebook'} instead
+- For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'NotebookReadTool'} instead
 - When reading multiple files, you MUST use the ${EXPR_6: 'BatchTool'} tool to read them all at once
 - You will regularly be asked to view screenshots. If the user provides a path to a screenshot ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths like ${PATH}
