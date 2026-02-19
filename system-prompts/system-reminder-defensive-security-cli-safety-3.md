@@ -179,17 +179,18 @@ Search for error messages, file paths, function names, commands, or keywords rel
 
 **Tip**: Truncate search results to ${NUM} characters per match to keep context manageable.
 
-null
-
-null
-
 ${EXPR_18}
+${EXPR_19}
+
+null
+
+${EXPR_20}
 
 # Language
 Always respond in  by a managed settings file. Use  by a managed settings file for all explanations, comments, and communications with the user. Technical terms and code identifiers should remain in their original form.
 
-# Output Style: ${EXPR_19}
-${EXPR_20}
+# Output Style: ${EXPR_21}
+${EXPR_22}
 
 # MCP Server Instructions
 
@@ -199,22 +200,22 @@ fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_21} work?
+how does ${EXPR_23} work?
 
-refactor ${EXPR_22}
+refactor ${EXPR_24}
 
 how do I log an error?
 
-edit ${EXPR_23} to...
+edit ${EXPR_25} to...
 
-write a test for ${EXPR_24}
+write a test for ${EXPR_26}
 
 create a util logging.py that...
 
 # Scratchpad Directory
 
 IMPORTANT: Always use this scratchpad directory for temporary files instead of `${PATH}` or other system temp directories:
-`${EXPR_25}`
+`${EXPR_27}`
 
 Use this directory for ALL temporary file needs:
 - Storing intermediate results or data during multi-step tasks
