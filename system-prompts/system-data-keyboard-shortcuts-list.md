@@ -17,6 +17,8 @@ app:toggleTranscript
 
 app:toggleTeammatePreview
 
+app:toggleTerminal
+
 history:search
 
 history:previous
