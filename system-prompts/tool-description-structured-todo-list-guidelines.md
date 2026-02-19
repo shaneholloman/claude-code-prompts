@@ -43,11 +43,11 @@ NOTE that you should not use this tool if there is only one trivial task to do. 
 User: I want to add a dark mode toggle to the application settings. Make sure you run the tests and build when you're done!
 Assistant: I'll help add a dark mode toggle to your application settings. Let me create a todo list to track this implementation.
 *Creates todo list with the following items:*
-${NUM}. Create dark mode toggle component in Settings page
-${NUM}. Add dark mode state management (context${PATH})
-${NUM}. Implement CSS-in-JS styles for dark theme
-${NUM}. Update existing components to support theme switching
-${NUM}. Run tests and build process, addressing any failures or errors that occur
+${NUM}. Creating dark mode toggle component in Settings page
+${NUM}. Adding dark mode state management (context${PATH})
+${NUM}. Implementing CSS-in-JS styles for dark theme
+${NUM}. Updating existing components to support theme switching
+${NUM}. Running tests and build process, addressing any failures or errors that occur
 *Begins working on the first task*
 
 <reasoning>
@@ -94,7 +94,7 @@ User: Can you help optimize my React application? It's rendering slowly and has 
 Assistant: I'll help optimize your React application. First, let me examine your codebase to identify potential performance bottlenecks.
 *Reviews component structure, render patterns, state management, and data fetching*
 Assistant: After analyzing your codebase, I've identified several performance issues. Let me create a todo list to track our optimization efforts.
-*Creates todo list with items like: ${NUM}) Implement memoization for expensive calculations in ProductList, ${NUM}) Add virtualization for long lists in Dashboard, ${NUM}) Optimize image loading in Gallery component, ${NUM}) Fix state update loops in ShoppingCart, ${NUM}) Review bundle size and implement code splitting*
+*Creates todo list with items like: ${NUM}) Implementing memoization for expensive calculations in ProductList, ${NUM}) Adding virtualization for long lists in Dashboard, ${NUM}) Optimizing image loading in Gallery component, ${NUM}) Fixing state update loops in ShoppingCart, ${NUM}) Reviewing bundle size and implementing code splitting*
 Let's start by implementing memoization for the expensive calculations in your ProductList component.<${PATH}>
 
 <reasoning>
@@ -165,6 +165,10 @@ ${NUM}. **Task States**: Use these states to track progress:
    - in_progress: Currently working on (limit to ONE task at a time)
    - completed: Task finished successfully
 
+   **IMPORTANT**: Task descriptions must have two forms:
+   - content: The imperative form describing what needs to be done (e.g., "Run tests", "Build the project")
+   - activeForm: The present continuous form shown during execution (e.g., "Running tests", "Building the project")
+
 ${NUM}. **Task Management**:
    - Update task status in real-time as you work
    - Mark tasks complete IMMEDIATELY after finishing (don't batch completions)
@@ -186,5 +190,8 @@ ${NUM}. **Task Breakdown**:
    - Create specific, actionable items
    - Break complex tasks into smaller, manageable steps
    - Use clear, descriptive task names
+   - Always provide both forms:
+     - content: "Fix authentication bug"
+     - activeForm: "Fixing authentication bug"
 
 When in doubt, use this tool. Being proactive with task management demonstrates attentiveness and ensures you complete all requirements successfully.
