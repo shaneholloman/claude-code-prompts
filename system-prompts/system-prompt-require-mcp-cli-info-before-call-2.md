@@ -1,4 +1,4 @@
-# System Prompt: require-mcp-cli-schema-check
+# System Prompt: require-mcp-cli-info-before-call-2
 
 - Source: inline
 
