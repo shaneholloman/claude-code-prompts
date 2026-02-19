@@ -13,6 +13,15 @@ Documents HTTP request timing fields and a background Bash command with status o
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | true | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | stream-json | None |
 
 # Raw Prompt Text
 Background Bash ${EXPR_1}
@@ -23,7 +32,23 @@ Background Bash ${EXPR_1}
 
 ${NUM}
 
-files
+${EXPR_4: true}
+
+${EXPR_5}
+
+${EXPR_6}
+
+${EXPR_7}
+
+${EXPR_8}
+
+${EXPR_9}
+
+${EXPR_10}
+
+${EXPR_11}
+
+${EXPR_12: 'stream-json'}
 
 http.request.redirect_start
 
