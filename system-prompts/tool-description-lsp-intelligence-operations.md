@@ -1,0 +1,25 @@
+# Tool Description: lsp-intelligence-operations
+
+- Name: LSP
+
+## Summary
+
+Provides LSP-based definition, reference, hover, and symbol lookup by file and position.
+
+# Raw Prompt Text
+Interact with Language Server Protocol (LSP) servers to get code intelligence features.
+
+Supported operations:
+- goToDefinition: Find where a symbol is defined
+- findReferences: Find all references to a symbol
+- hover: Get hover information (documentation, type info) for a symbol
+- documentSymbol: Get all symbols (functions, classes, variables) in a document
+- workspaceSymbol: Search for symbols across the entire workspace
+- goToImplementation: Find implementations of an interface or abstract method
+
+All operations require:
+- filePath: The file to operate on
+- line: The line number (${NUM}-based, as shown in editors)
+- character: The character offset (${NUM}-based, as shown in editors)
+
+Note: LSP servers must be configured for the file type. If no server is available, an error will be returned.
