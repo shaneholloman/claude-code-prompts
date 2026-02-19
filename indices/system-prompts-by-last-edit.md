@@ -16,9 +16,9 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.114 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.115 |
+| [`system-prompt-execute-slash-commands-safely.md`](../system-prompts/system-prompt-execute-slash-commands-safely.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.115 |
 | [`system-prompt-constants-groups-languages.md`](../system-prompts/system-prompt-constants-groups-languages.md) | List of constants for groups, values, and language codes with stream markers. | 268 | 1.0.114 | 1.0.114 |
-| [`system-prompt-execute-slash-commands-safely.md`](../system-prompts/system-prompt-execute-slash-commands-safely.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.114 |
 | [`system-prompt-nullstream-jsonstream-hook.md`](../system-prompts/system-prompt-nullstream-jsonstream-hook.md) | Nullstream jsonstream hook scaffold with nulluser_permanent markers and truncated output sentinel | 117 | 1.0.114 | 1.0.114 |
 | [`system-prompt-api-output-token-limit.md`](../system-prompts/system-prompt-api-output-token-limit.md) | Error reports Claude output exceeded token limit, referencing configured submit hook expression | 70 | 1.0.114 | 1.0.114 |
 | [`system-prompt-verrors-array-push-snippet.md`](../system-prompts/system-prompt-verrors-array-push-snippet.md) | JavaScript builds err from submit-hook expression, pushes into vErrors, increments errors counter. | 64 | 1.0.114 | 1.0.114 |
@@ -106,7 +106,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-execute-slash-command-guide.md`](../system-prompts/tool-description-execute-slash-command-guide.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.114 |
+| [`tool-description-execute-slash-command-guide.md`](../system-prompts/tool-description-execute-slash-command-guide.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.115 |
 | [`tool-description-structured-todo-list-usage-guidelines.md`](../system-prompts/tool-description-structured-todo-list-usage-guidelines.md) | Criteria for starting, updating, and avoiding a structured todo tool during coding sessions | 2,438 | 1.0.89 | 1.0.113 |
 | [`tool-description-kill-background-bash-shell.md`](../system-prompts/tool-description-kill-background-bash-shell.md) | Terminate a running background bash shell by shell id and return status. | 65 | 1.0.60 | 1.0.113 |
 | [`tool-description-safe-bash-command-execution.md`](../system-prompts/tool-description-safe-bash-command-execution.md) | Execute bash in persistent session with directory verification, path quoting, and timeout limits | 694 | 1.0.108 | 1.0.108 |
@@ -192,9 +192,10 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-background-bash-status-block.md`](../system-prompts/system-data-background-bash-status-block.md) | Template for reporting background bash command and status fields. | 372 | 1.0.114 | 1.0.115 |
+| [`system-data-background-bash-status-with-urls.md`](../system-prompts/system-data-background-bash-status-with-urls.md) | Captures URLs plus a background bash command and status metadata. | 295 | 1.0.114 | 1.0.115 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 1.0.114 |
 | [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 1.0.114 |
-| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | Template for reporting background bash command and status fields. | 372 | 1.0.114 | 1.0.114 |
 | [`system-data-background-bash-status-log-4.md`](../system-prompts/system-data-background-bash-status-log-4.md) | Background bash output segment capturing command status and values. | 372 | 1.0.114 | 1.0.114 |
 | [`system-data-background-bash-output-dump.md`](../system-prompts/system-data-background-bash-output-dump.md) | Large numeric and expression output ending with a background bash command and status. | 358 | 1.0.114 | 1.0.114 |
 | [`system-data-repo-ignores-and-bash-run.md`](../system-prompts/system-data-repo-ignores-and-bash-run.md) | Output listing repo paths like git and editor folders plus a background bash run and args. | 323 | 1.0.114 | 1.0.114 |
@@ -203,7 +204,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-two-background-bash-statuses.md`](../system-prompts/system-data-two-background-bash-statuses.md) | Records two background bash command executions with their statuses. | 311 | 1.0.114 | 1.0.114 |
 | [`system-data-git-vscode-idea-entries.md`](../system-prompts/system-data-git-vscode-idea-entries.md) | Background bash context referencing git and common editor config folders. | 305 | 1.0.114 | 1.0.114 |
 | [`system-data-background-bash-after-urls.md`](../system-prompts/system-data-background-bash-after-urls.md) | Long output with URLs and expressions culminating in a background bash command and status. | 295 | 1.0.114 | 1.0.114 |
-| [`system-data-background-bash-with-urls.md`](../system-prompts/system-data-background-bash-with-urls.md) | Captures URLs plus a background bash command and status metadata. | 295 | 1.0.114 | 1.0.114 |
 | [`system-data-applied-edits-and-background-bash.md`](../system-prompts/system-data-applied-edits-and-background-bash.md) | Log line showing applied local edits followed by background bash command and status. | 293 | 1.0.114 | 1.0.114 |
 | [`system-data-cli-identity-and-bash-status.md`](../system-prompts/system-data-cli-identity-and-bash-status.md) | Defines CLI identity and includes background bash command status reporting. | 289 | 1.0.114 | 1.0.114 |
 | [`system-data-background-bash-output-block.md`](../system-prompts/system-data-background-bash-output-block.md) | Captures background bash command, status, and surrounding output lines. | 281 | 1.0.114 | 1.0.114 |
@@ -295,10 +295,10 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.115 |
+| [`system-reminder-background-bash-status-line.md`](../system-prompts/system-reminder-background-bash-status-line.md) | Displays background Bash job id, command, status, and associated output details. | 237 | 1.0.114 | 1.0.115 |
 | [`system-reminder-defensive-security-cli-guidelines.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines.md) | CLI assistant rules for defensive security help, safe tool use, and feedback guidance. | 3,323 | 1.0.114 | 1.0.114 |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.114 |
 | [`system-reminder-bash-status.md`](../system-prompts/system-reminder-bash-status.md) | System reminder wrapper containing background bash command and status info. | 251 | 1.0.114 | 1.0.114 |
-| [`system-reminder-background-bash-command-status.md`](../system-prompts/system-reminder-background-bash-command-status.md) | Displays background Bash job id, command, status, and associated output details. | 237 | 1.0.114 | 1.0.114 |
 | [`system-reminder-multiple-background-bash-results.md`](../system-prompts/system-reminder-multiple-background-bash-results.md) | Shows two background bash commands with their statuses and output blocks. | 220 | 1.0.114 | 1.0.114 |
 | [`system-reminder-preserve-intentional-file-changes.md`](../system-prompts/system-reminder-preserve-intentional-file-changes.md) | Honor intentional modifications to EXPR_1; consider listed diffs without mentioning them to user. | 84 | 1.0.114 | 1.0.114 |
 | [`system-reminder-task-with-prior-context.md`](../system-prompts/system-reminder-task-with-prior-context.md) | System reminder framing a task with optional local prior conversation context summary. | 58 | 1.0.114 | 1.0.114 |

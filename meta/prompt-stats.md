@@ -1,4 +1,4 @@
-# Prompt Stats 1.0.114
+# Prompt Stats 1.0.115
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -30,11 +30,11 @@
 | system | [System Prompt: Create View Instrument Selector](../system-prompts/system-prompt-create-view-instrument-selector.md) | 319 | 110 | 0.2.76 | 0.2.76 |
 | system | [System Prompt: Delegate Work To Specialists](../system-prompts/system-prompt-delegate-work-to-specialists.md) | 3681 | 972 | 1.0.111 | 1.0.111 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Dev Conversation Summary](../system-prompts/system-prompt-dev-conversation-summary.md) | 5308 | 1273 | 1.0.103 | 1.0.114 |
+| system | [System Prompt: Dev Conversation Summary](../system-prompts/system-prompt-dev-conversation-summary.md) | 5308 | 1273 | 1.0.103 | 1.0.115 |
 | system | [System Prompt: Educational Insights](../system-prompts/system-prompt-educational-insights.md) | 562 | 134 | 1.0.63 | 1.0.64 |
 | system | [System Prompt: Educational Insights Cli](../system-prompts/system-prompt-educational-insights-cli.md) | 1047 | 220 | 1.0.78 | 1.0.78 |
 | system | [System Prompt: Exact String Edits In Files](../system-prompts/system-prompt-exact-string-edits-in-files.md) | 1112 | 258 | 1.0.8 | 1.0.8 |
-| system | [System Prompt: Execute Slash Commands Safely](../system-prompts/system-prompt-execute-slash-commands-safely.md) | 601 | 154 | 1.0.114 | 1.0.114 |
+| system | [System Prompt: Execute Slash Commands Safely](../system-prompts/system-prompt-execute-slash-commands-safely.md) | 601 | 154 | 1.0.114 | 1.0.115 |
 | system | [System Prompt: Exit Handling](../system-prompts/system-prompt-exit-handling.md) | 231 | 62 | 1.0.53 | 1.0.53 |
 | system | [System Prompt: Exit Output Handling](../system-prompts/system-prompt-exit-output-handling.md) | 160 | 45 | 1.0.53 | 1.0.53 |
 | system | [System Prompt: Exit Transcript Rules](../system-prompts/system-prompt-exit-transcript-rules.md) | 266 | 70 | 1.0.113 | 1.0.113 |
@@ -92,8 +92,8 @@
 | system-reminder | [System Reminder: Active Style Guidelines](../system-prompts/system-reminder-active-style-guidelines.md) | 92 | 21 | 1.0.78 | 1.0.78 |
 | system-reminder | [System Reminder: Address User Message](../system-prompts/system-reminder-address-user-message.md) | 105 | 25 | 1.0.73 | 1.0.73 |
 | system-reminder | [System Reminder: Architect Configs From Needs](../system-prompts/system-reminder-architect-configs-from-needs.md) | 5082 | 1150 | 1.0.60 | 1.0.60 |
-| system-reminder | [System Reminder: Background Bash Command Status](../system-prompts/system-reminder-background-bash-command-status.md) | 445 | 237 | 1.0.114 | 1.0.114 |
 | system-reminder | [System Reminder: Background Bash Run](../system-prompts/system-reminder-background-bash-run.md) | 25 | 9 | 1.0.69 | 1.0.69 |
+| system-reminder | [System Reminder: Background Bash Status Line](../system-prompts/system-reminder-background-bash-status-line.md) | 445 | 237 | 1.0.114 | 1.0.115 |
 | system-reminder | [System Reminder: Bash Status](../system-prompts/system-reminder-bash-status.md) | 476 | 251 | 1.0.114 | 1.0.114 |
 | system-reminder | [System Reminder: Call Echo Line](../system-prompts/system-reminder-call-echo-line.md) | 61 | 20 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
@@ -101,7 +101,7 @@
 | system-reminder | [System Reminder: Check New Bash Output](../system-prompts/system-reminder-check-new-bash-output.md) | 77 | 17 | 1.0.69 | 1.0.69 |
 | system-reminder | [System Reminder: Connection Upgrade Header](../system-prompts/system-reminder-connection-upgrade-header.md) | 38 | 12 | 1.0.94 | 1.0.94 |
 | system-reminder | [System Reminder: Continued Session Warning](../system-prompts/system-reminder-continued-session-warning.md) | 132 | 26 | 1.0.68 | 1.0.68 |
-| system-reminder | [System Reminder: Conversation Development Summary](../system-prompts/system-reminder-conversation-development-summary.md) | 5308 | 1273 | 1.0.103 | 1.0.114 |
+| system-reminder | [System Reminder: Conversation Development Summary](../system-prompts/system-reminder-conversation-development-summary.md) | 5308 | 1273 | 1.0.103 | 1.0.115 |
 | system-reminder | [System Reminder: Defensive Security Cli Guidelines](../system-prompts/system-reminder-defensive-security-cli-guidelines.md) | 13829 | 3323 | 1.0.114 | 1.0.114 |
 | system-reminder | [System Reminder: Empty Existing File Warning](../system-prompts/system-reminder-empty-existing-file-warning.md) | 80 | 22 | 0.2.115 | 1.0.53 |
 | system-reminder | [System Reminder: Empty Todo List](../system-prompts/system-reminder-empty-todo-list.md) | 325 | 72 | 1.0.69 | 1.0.69 |
@@ -150,7 +150,6 @@
 | system-reminder | [System Reminder: Xml Bash Output Summarizer](../system-prompts/system-reminder-xml-bash-output-summarizer.md) | 2740 | 657 | 1.0.60 | 1.0.109 |
 | system-data | [System Data: Applied Edits And Background Bash](../system-prompts/system-data-applied-edits-and-background-bash.md) | 490 | 293 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Background Bash After Urls](../system-prompts/system-data-background-bash-after-urls.md) | 518 | 295 | 1.0.114 | 1.0.114 |
-| system-data | [System Data: Background Bash Command Status](../system-prompts/system-data-background-bash-command-status.md) | 650 | 372 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Background Bash Command Status 2](../system-prompts/system-data-background-bash-command-status-2.md) | 327 | 171 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Background Bash Command Status Log](../system-prompts/system-data-background-bash-command-status-log.md) | 314 | 176 | 1.0.110 | 1.0.113 |
 | system-data | [System Data: Background Bash Compact Output](../system-prompts/system-data-background-bash-compact-output.md) | 445 | 274 | 1.0.114 | 1.0.114 |
@@ -158,12 +157,13 @@
 | system-data | [System Data: Background Bash Output Block](../system-prompts/system-data-background-bash-output-block.md) | 494 | 281 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Background Bash Output Dump](../system-prompts/system-data-background-bash-output-dump.md) | 626 | 358 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Background Bash Run Metadata](../system-prompts/system-data-background-bash-run-metadata.md) | 446 | 253 | 1.0.114 | 1.0.114 |
+| system-data | [System Data: Background Bash Status Block](../system-prompts/system-data-background-bash-status-block.md) | 650 | 372 | 1.0.114 | 1.0.115 |
 | system-data | [System Data: Background Bash Status Format](../system-prompts/system-data-background-bash-status-format.md) | 197 | 98 | 1.0.69 | 1.0.90 |
 | system-data | [System Data: Background Bash Status Log 3](../system-prompts/system-data-background-bash-status-log-3.md) | 505 | 280 | 1.0.98 | 1.0.113 |
 | system-data | [System Data: Background Bash Status Log 4](../system-prompts/system-data-background-bash-status-log-4.md) | 650 | 372 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Background Bash Status Report](../system-prompts/system-data-background-bash-status-report.md) | 494 | 281 | 1.0.114 | 1.0.114 |
+| system-data | [System Data: Background Bash Status With Urls](../system-prompts/system-data-background-bash-status-with-urls.md) | 518 | 295 | 1.0.114 | 1.0.115 |
 | system-data | [System Data: Background Bash With Sentry Trace](../system-prompts/system-data-background-bash-with-sentry-trace.md) | 460 | 258 | 1.0.114 | 1.0.114 |
-| system-data | [System Data: Background Bash With Urls](../system-prompts/system-data-background-bash-with-urls.md) | 518 | 295 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Character Mapping Table](../system-prompts/system-data-character-mapping-table.md) | 317123 | 184755 | 1.0.32 | 1.0.32 |
 | system-data | [System Data: Cli Identity And Bash Status](../system-prompts/system-data-cli-identity-and-bash-status.md) | 541 | 289 | 1.0.114 | 1.0.114 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
@@ -265,7 +265,7 @@
 | tool | [Tool Description: Educational Cli Engineering Help](../system-prompts/tool-description-educational-cli-engineering-help.md) | 493 | 92 | 1.0.78 | 1.0.78 |
 | tool | [Tool Description: Emulated Command Not Implemented](../system-prompts/tool-description-emulated-command-not-implemented.md) | 49 | 9 | 1.0.68 | 1.0.68 |
 | tool | [Tool Description: Exact File String Replacement](../system-prompts/tool-description-exact-file-string-replacement.md) | 1117 | 263 | 1.0.8 | 1.0.8 |
-| tool | [Tool Description: Execute Slash Command Guide](../system-prompts/tool-description-execute-slash-command-guide.md) | 601 | 154 | 1.0.114 | 1.0.114 |
+| tool | [Tool Description: Execute Slash Command Guide](../system-prompts/tool-description-execute-slash-command-guide.md) | 601 | 154 | 1.0.114 | 1.0.115 |
 | tool | [Tool Description: Exit Planning When Ready](../system-prompts/tool-description-exit-planning-when-ready.md) | 802 | 180 | 1.0.32 | 1.0.57 |
 | tool | [Tool Description: Export Conversation To File](../system-prompts/tool-description-export-conversation-to-file.md) | 54 | 9 | 1.0.44 | 1.0.44 |
 | tool | [Tool Description: Fast Glob File Matching 2](../system-prompts/tool-description-fast-glob-file-matching-2.md) | 545 | 118 | 0.2.116 | 0.2.116 |
