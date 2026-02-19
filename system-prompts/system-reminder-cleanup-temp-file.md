@@ -10,7 +10,7 @@ Indicates cleanup of a temporary file at the specified path.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Cleaning up temp file: ${EXPR_1}
