@@ -1,4 +1,4 @@
-# System Data Block: background-bash-status-block
+# System Data Block: background-bash-run-metadata
 
 - Source: inline
 
