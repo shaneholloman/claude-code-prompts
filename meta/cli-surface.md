@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 27
-- Options: 45
-- Env vars: 372
-- Config keys: 417
+- Commands: 26
+- Options: 46
+- Env vars: 370
+- Config keys: 427
 - Tools: 3
 - Skills: 0
 - Models: 61
@@ -29,7 +29,6 @@
 - `list`
 - `marketplace`
 - `mcp`
-- `migrate-installer`
 - `plugin`
 - `read`
 - `remove`
@@ -61,7 +60,6 @@
 - `list`
 - `marketplace`
 - `mcp`
-- `migrate-installer`
 - `plugin`
 - `read`
 - `remove <name>`
@@ -81,6 +79,7 @@
 ### Flags
 
 - `--add-dir`
+- `--agent`
 - `--agents`
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
@@ -129,6 +128,7 @@
 ### Specs
 
 - `--add-dir <directories...>`
+- `--agent <agent>`
 - `--agents <json>`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
@@ -258,7 +258,6 @@
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_ENABLE_ASK_USER_QUESTION_TOOL`
-- `CLAUDE_CODE_ENABLE_GROWTHBOOK`
 - `CLAUDE_CODE_ENABLE_PROCESS_CLAUDE_RULES`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
@@ -296,6 +295,7 @@
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
+- `CLAUDE_CODE_TEAMMATE_ID`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_FOUNDRY`
@@ -333,7 +333,6 @@
 - `DISABLE_LOGIN_COMMAND`
 - `DISABLE_LOGOUT_COMMAND`
 - `DISABLE_MICROCOMPACT`
-- `DISABLE_MIGRATE_INSTALLER_COMMAND`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_PROMPT_CACHING_HAIKU`
 - `DISABLE_PROMPT_CACHING_OPUS`
@@ -349,7 +348,6 @@
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
 - `ENABLE_MCP_CLI_ENDPOINT`
-- `ENABLE_TOOL_RESULT_SIZE_LIMIT`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
@@ -550,6 +548,7 @@
 - `activeForm`
 - `additionalContext`
 - `additionalDirectories`
+- `agent`
 - `agentId`
 - `agents`
 - `allow`
@@ -586,6 +585,8 @@
 - `base64`
 - `bearer_methods_supported`
 - `behavior`
+- `blockedBy`
+- `blocks`
 - `bytes`
 - `cache_creation`
 - `cache_creation_input_tokens`
@@ -613,6 +614,7 @@
 - `command`
 - `commandName`
 - `commands`
+- `comments`
 - `companyAnnouncements`
 - `completions`
 - `compressible`
@@ -826,6 +828,7 @@
 - `reason`
 - `redirect_uris`
 - `ref`
+- `references`
 - `refresh_token`
 - `region`
 - `registration_endpoint`
@@ -905,6 +908,7 @@
 - `structuredContent`
 - `structuredPatch`
 - `subagent_type`
+- `subject`
 - `subject_types_supported`
 - `subscribe`
 - `success`
@@ -912,6 +916,9 @@
 - `suppressOutput`
 - `systemMessage`
 - `target_message_preview`
+- `task`
+- `taskId`
+- `tasks`
 - `text`
 - `timeout`
 - `timeoutMs`
@@ -942,6 +949,7 @@
 - `type`
 - `ui_locales_supported`
 - `updated_at`
+- `updatedFields`
 - `updatedInput`
 - `updatedMCPToolOutput`
 - `updatedPermissions`

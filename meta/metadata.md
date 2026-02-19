@@ -7,23 +7,22 @@
 
 ## Bundle
 
-- Entry bytes: 10932147 bytes
-- Entry lines: 4631
+- Entry bytes: 10946249 bytes
+- Entry lines: 4628
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 13871145 bytes
-- Pretty lines: 255216
+- Pretty bytes: 13888795 bytes
+- Pretty lines: 255720
 
 ## Inventory
 
-- File count: 51
-- Size bytes: 80762085
+- File count: 18
+- Size bytes: 68355091
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.jar`: 33 files, 12421096 bytes
-- `.js`: 1 files, 10932147 bytes
+- `.js`: 1 files, 10946249 bytes
 - `.json`: 1 files, 1196 bytes
 - `.md`: 2 files, 2133 bytes
 - `.node`: 5 files, 28944544 bytes
@@ -33,7 +32,6 @@
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
-- `.jar`: 12421096 bytes
 - `.node`: 28944544 bytes
 - `.wasm`: 1586267 bytes
 
@@ -46,39 +44,6 @@
 - `sdk-tools.d.ts`
 - `tree-sitter-bash.wasm`
 - `tree-sitter.wasm`
-- `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.12-beta-searchableOptions.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.12-beta.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/config-1.4.3.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/jansi-2.4.1.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlin-logging-jvm-7.0.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlin-reflect-2.0.21.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlin-sdk-jvm-0.4.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlin-stdlib-2.1.20.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlinx-coroutines-core-jvm-1.9.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlinx-coroutines-slf4j-1.9.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlinx-io-bytestring-jvm-0.5.4.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlinx-io-core-jvm-0.5.4.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlinx-serialization-core-jvm-1.8.1.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/kotlinx-serialization-json-jvm-1.8.1.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-client-cio-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-client-core-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-events-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-http-cio-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-http-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-io-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-network-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-network-tls-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-serialization-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-server-cio-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-server-core-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-server-sse-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-server-websockets-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-sse-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-utils-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-websocket-serialization-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/ktor-websockets-jvm-3.0.2.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/slf4j-api-2.0.16.jar`
 - `vendor/ripgrep/arm64-darwin/rg`
 - `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
@@ -93,19 +58,19 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 14:24:28 UTC
+- Snapshot generated at: 2026-02-18 15:00:16 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `464438f99d8b621a51ad2f44c9dcaaede1ab88b1bfbced00b0361b36e341f4a8`
+- Config hash: `8058ed04318a84323c48a4c23fcc510c6e9f97326edde18846b382edb802d0e0`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 308,197
-- Token p95 / p99: 1,099 / 2,808
+- Total prompt tokens: 311,673
+- Token p95 / p99: 1,119 / 2,927
 
 ### By Kind
 
-- `system-data`: 248,747 tokens (80.7%)
-- `system`: 33,420 tokens (10.8%)
-- `system-reminder`: 14,661 tokens (4.8%)
-- `tool`: 8,828 tokens (2.9%)
+- `system-data`: 249,430 tokens (80.0%)
+- `system`: 33,143 tokens (10.6%)
+- `system-reminder`: 17,455 tokens (5.6%)
+- `tool`: 9,104 tokens (2.9%)
 - `agent`: 2,541 tokens (0.8%)

@@ -1,4 +1,4 @@
-# Claude Code 2.0.58 – Flags
+# Claude Code 2.0.59 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -6,7 +6,6 @@
 | `cache_warming` | experiment | caching | Controls cache warmup behavior after idle, with interval and request limits. | Only config retrieval and early-return usage shown. | medium | 1 |
 | `cc_microcompact_ext` | experiment | prompts | Disable micro-compact behavior for items without assistant messages. | Only indicates gating a set; exact feature purpose unclear. | medium | 1 |
 | `claude_code_overages_upgrade_cta` | experiment | ui | Controls CLI overage upgrade call-to-action variant and interactive options menu behavior | Only seen in CLI React component logic. | high | 1 |
-| `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `preserve_thinking` | experiment | networking | Adds a beta option for preserving model thinking in first-party requests | Ny2 meaning not shown; inferred as request beta/header token. | medium | 2 |
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
 | `sonnet_1m_default` | experiment | tools | Enables default selection/display of a specific model in the CLI when accessible | Appears to gate a fallback model name when none is chosen. | high | 1 |
@@ -15,6 +14,7 @@
 | `tengu_bash_command_backgrounded` | gate | telemetry | logs/records when a shell command is backgrounded, including timeout and auto-background cases | Appears to be event logging rather than behavior gating. | medium | 1 |
 | `tengu_bash_command_timeout_backgrounded` | gate | telemetry | Logs timeout events when a bash command is backgrounded | Appears to emit an event/metric, not alter behavior. | high | 1 |
 | `tengu_cap_grep_results` | experiment | tools | Limit grep tool output size via configurable cap when head_limit not provided | Appears to control default head_limit for grep results. | high | 1 |
+| `tengu_deep_ocean_current` | experiment | prompts | Enable always-thinking mode for specific Claude models in CLI | Only affects Opus path; Sonnet forced on. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_effort_exp` | experiment | prompts | Chooses a reasoning effort level and injects a reasoning_effort prompt block. | Only seen constructing a prompt string in cli.js. | high | 1 |
 | `tengu_enable_versioned_plugins` | gate | caching | Enables copying and loading plugins from a versioned on-disk cache. | Falls back to marketplace path on copy/cache failures. | high | 7 |
@@ -26,8 +26,9 @@
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
 | `tengu_show_extra_usage_bar` | gate | ui | Shows an extra usage bar in CLI for eligible paid tiers | Only visible for pro/max and when extra usage enabled. | high | 1 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
-| `tengu_streaming_tool_execution` | gate | tools | Enables streaming-time tool execution handler during CLI request loop | Only observed gating creation of a tool execution object. | high | 1 |
+| `tengu_streaming_tool_execution2` | gate | tools | Gates creation of a tool-execution handler in the streaming CLI request loop | Only observed gating EV0 construction; exact behavior of EV0 is unclear. | high | 1 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
+| `tengu_tool_result_persistence` | gate | caching | Persist large tool result text by storing and replacing oversized content. | Exact persistence mechanism not shown; only size-based transformation is visible. | medium | 1 |
 | `tengu_vscode_review_upsell` | gate | ui | Enable VS Code review upsell experiment gate sent to connected client. | Only shows gate transmission and event logging, not the upsell UI itself. | medium | 1 |
 | `tengu_web_tasks` | gate | ui | Enables background command mode using an '&' prefix in CLI input parsing. | Only observed gating of '&' background mode parsing. | high | 7 |
 | `tool_use_examples` | experiment | tools | Include tool input example data and enable related first-party tool option. | Applies only when enabled; one path gated to firstParty. | high | 1 |
