@@ -44,6 +44,10 @@ Attempting to update an unclaimed task or a task owned by another agent will fai
 
 Teammates should add comments while working to signal progress to the team and team lead.
 
+## Staleness
+
+Make sure to read a task's latest state using `TaskGet` before updating it.
+
 ## Examples
 
 Mark task as resolved after completing work:
