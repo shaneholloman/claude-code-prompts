@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (3)
+Multiple prompts (5)
 
 ## Placeholder Hints (source-backed)
 
@@ -16,18 +16,17 @@ Multiple prompts (3)
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
 ${EXPR_2}
 ${EXPR_3}
-${NUM}
-${NUM}
-${NUM}
-${NUM}
 ${EXPR_4}
+${EXPR_5}
 ${PATH} Files\Git\cmd\git.exe
 ${PATH} Files (x86)\Git\cmd\git.exe
 
-${NUM};${NUM};${NUM};${NUM};${EXPR_5};${PATH} Files\Git\cmd\git.exe;${PATH} Files (x86)\Git\cmd\git.exe
-${EXPR_6}
+${EXPR_6};${EXPR_7};${PATH} Files\Git\cmd\git.exe;${PATH} Files (x86)\Git\cmd\git.exe
+${EXPR_8}
