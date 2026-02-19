@@ -65,6 +65,8 @@ confirm:previousField
 
 confirm:cycleMode
 
+confirm:toggle
+
 confirm:toggleExplanation
 
 tabs:next
