@@ -1,7 +1,8 @@
-# Claude Code 1.0.107 – Flags
+# Claude Code 1.0.108 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
+| `auto_migrate_to_native` | gate | tools | Enables automatic CLI migration to a native updater, with analytics events emitted. | Exact migration behavior not shown; only gating and event names are visible. | medium | 1 |
 | `claude_code_unicode_sanitize` | gate | tools | Optionally sanitize Unicode in MCP tool and prompt lists before mapping results. | IL() behavior not shown; inferred as sanitization step. | high | 2 |
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `tengu_auto_checkpointing` | gate | ui | Enables showing autocheckpointing availability in the config panel when not disabled by env | Only seen wired into config UI state. | medium | 1 |

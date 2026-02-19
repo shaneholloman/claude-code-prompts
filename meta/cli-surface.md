@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 35
-- Env vars: 252
+- Env vars: 253
 - Config keys: 308
 - Tools: 3
 - Skills: 0
@@ -206,6 +206,7 @@
 - `DEBUG_AUTH`
 - `DETECT_GCP_RETRIES`
 - `DEV`
+- `DISABLE_AUTO_MIGRATE_TO_NATIVE`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
 - `DISABLE_COST_WARNINGS`
