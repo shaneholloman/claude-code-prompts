@@ -37,6 +37,12 @@ projectSettings
 
 localSettings
 
+userSettings
+
+projectSettings
+
+localSettings
+
 ${EXPR_1: 'Task'}
 
 ${EXPR_2: 'Bash'}
@@ -66,13 +72,3 @@ ${EXPR_13: 'WebSearch'}
 ${EXPR_14: 'BashOutput'}
 
 ${EXPR_15: 'KillBash'}
-
-${URL}
-
-${URL}
-
-userSettings
-
-projectSettings
-
-localSettings
