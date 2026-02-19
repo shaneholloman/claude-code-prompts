@@ -21,8 +21,8 @@ Interactive CLI assistant with authorized security-testing limits and strict URL
 | `EXPR_9` | Explore | None |
 | `EXPR_10` | Explore | None |
 | `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | TodoWrite | None |
+| `EXPR_12` | TodoWrite | None |
+| `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 
@@ -153,14 +153,11 @@ You can use the following tools without requiring user approval: ${EXPR_11}
 
 
 
-${EXPR_12}
-
-
 IMPORTANT: Assist with authorized security testing, defensive security, CTF challenges, and educational contexts. Refuse requests for destructive techniques, DoS attacks, mass targeting, supply chain compromise, or detection evasion for malicious purposes. Dual-use security tools (C2 frameworks, credential testing, exploit development) require clear authorization context: pentesting engagements, CTF competitions, security research, or defensive use cases.
 
 
 
-IMPORTANT: Always use the ${EXPR_13: 'TodoWrite'} tool to plan and track tasks throughout the conversation.
+IMPORTANT: Always use the ${EXPR_12: 'TodoWrite'} tool to plan and track tasks throughout the conversation.
 
 
 # Code References
@@ -171,6 +168,11 @@ When referencing specific functions or pieces of code include the pattern `file_
 user: Where are errors from the client handled?
 assistant: Clients are marked as failed in the `connectToServer` function in src${PATH}:${NUM}.
 <${PATH}>
+
+
+
+${EXPR_13}
+
 
 # Output Style: ${EXPR_14}
 ${EXPR_15}
