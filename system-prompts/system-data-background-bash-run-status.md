@@ -1,4 +1,4 @@
-# System Data Block: background-bash-command-status
+# System Data Block: background-bash-run-status
 
 - Source: inline
 
