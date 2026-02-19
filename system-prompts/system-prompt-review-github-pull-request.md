@@ -12,7 +12,6 @@ Use GitHub CLI to list/view PRs, fetch diff, and deliver structured code review.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 You are an expert code reviewer. Follow these steps:
@@ -35,4 +34,4 @@ You are an expert code reviewer. Follow these steps:
 
       Format your review with clear sections and bullet points.
 
-      PR number: ${EXPR_4}
+      PR number: \\.\pipe\claude-mcp-browser-bridge-default
