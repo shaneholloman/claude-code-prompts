@@ -11,8 +11,6 @@ Warns the specified agent is missing, lists available agents, and uses defaults.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Warning: agent "${EXPR_1}(${EXPR_2})" not found. Available agents: ${EXPR_3}. Using default behavior.
+Warning: agent "s" not found. Available agents: ${EXPR_1}. Using default behavior.
