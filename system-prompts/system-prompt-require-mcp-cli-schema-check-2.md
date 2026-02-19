@@ -4,18 +4,18 @@
 
 ## Summary
 
-System instruction to run mcp-cli info before any mcp-cli tool call.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Enforces running mcp-cli info before any tool call to confirm parameters.
 
 # Raw Prompt Text
 You are Claude Code, Anthropic's official CLI for Claude, running within the Claude Agent SDK.
 
-${EXPR_1}
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
 
 
 
