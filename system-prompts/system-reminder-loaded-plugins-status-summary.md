@@ -12,9 +12,9 @@ Report loaded plugin status, listing enabled, disabled, commands, agents, and er
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
+| `EXPR_3` | 4 | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-Loaded plugins - Enabled: ${EXPR_1}, Disabled: ${EXPR_2}, Commands: ${EXPR_3}, Agents: ${EXPR_4}, Errors: ${EXPR_5}
+Loaded plugins - Enabled: ${EXPR_1}, Disabled: ${EXPR_2}, Commands: ${EXPR_3: 4}, Agents: ${EXPR_4}, Errors: ${EXPR_5}
