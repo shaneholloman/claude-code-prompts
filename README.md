@@ -62,7 +62,7 @@ This repo is the backbone of the [@ClaudeCodeLog](https://x.com/ClaudeCodeLog) X
 <!-- SYSTEM_PROMPTS_INDEX_START -->
 ## System Prompts Index
 
-- Total prompt files: **230**
+- Total prompt files: **231**
 - [By tokens](indices/system-prompts-by-token.md)
 - [By init (newest first)](indices/system-prompts-by-init.md)
 - [By last edit (newest first)](indices/system-prompts-by-last-edit.md)
