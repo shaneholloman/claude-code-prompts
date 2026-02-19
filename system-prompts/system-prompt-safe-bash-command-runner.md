@@ -30,17 +30,10 @@ ${NUM}. Command Execution:
    - After ensuring proper quoting, execute the command.
    - Capture the output of the command.
 
-${NUM}. Output Processing:
-   - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
-   - Prepare the output for display to the user.
-
-${NUM}. Return Result:
-   - Provide the processed output of the command.
-   - If any errors occurred during execution, include those in the output.
-
 Usage notes:
   - The command argument is required.
   - You can specify an optional timeout in milliseconds (up to 600000ms / ${NUM} minutes). If not specified, commands will timeout after ${NUM} minutes.
+- If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use GrepTool, GlobTool, or dispatch_agent to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use ${EXPR_1: 'View'} and ${EXPR_2: 'LS'} to read files.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
   - IMPORTANT: All commands share the same shell session. Shell state (environment variables, virtual environments, current directory, etc.) persist between commands. For example, if you set an environment variable as part of a command, the environment variable will persist for subsequent commands.
@@ -56,12 +49,12 @@ Usage notes:
 
 When the user asks you to create a new git commit, follow these steps carefully:
 
-${NUM}. Start with a single message that contains exactly three tool_use blocks that do the following (it is VERY IMPORTANT that you send these tool_use blocks in a single message, otherwise it will feel slow to the user!):
+${NUM}. Run the following commands in parallel:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
 
-${NUM}. Use the git context at the start of this conversation to determine which files are relevant to your commit. Add relevant untracked files to the staging area. Do not commit files that were already modified at the start of this conversation, if they are not relevant to your commit.
+${NUM}. Use the git context at the start of this conversation to determine which files are relevant to your commit. Add relevant untracked files to the staging area. Do not commit files that were already modified at the start of this conversation, if they are not relevant to your commit. Do not run additional commands to read or explore code, beyond what is available in the git context.
 
 ${NUM}. Analyze all staged changes (both previously staged and newly added) and draft a commit message. Wrap your analysis process in <commit_analysis> tags:
 
@@ -113,7 +106,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. Understand the current state of the branch. Remember to send a single message that contains multiple tool_use blocks (it is VERY IMPORTANT that you do this in a single message, otherwise it will feel slow to the user!):
+${NUM}. Run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
