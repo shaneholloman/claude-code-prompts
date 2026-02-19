@@ -6,7 +6,7 @@
 - Options: 18
 - Env vars: 126
 - Config keys: 73
-- Tools: 5
+- Tools: 0
 - Skills: 0
 - Models: 17
 - Providers: 7
@@ -295,11 +295,7 @@
 
 ## Tools
 
-- `⚒`
-- `⚔`
-- `⚗`
-- `⚙`
-- `⛏`
+_None detected_
 
 ## Skills
 
