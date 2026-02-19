@@ -14,7 +14,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,193 | 0.2.46 | 0.2.46 |
+| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,213 | 0.2.47 | 0.2.47 |
+| [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-static-project-file-snapshot.md`](../system-prompts/system-prompt-static-project-file-snapshot.md) | Static snapshot of project file structure at conversation start, ignoring .gitignore patterns. | 55 | 0.2.44 | 0.2.44 |
 | [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,481 | 0.2.42 | 0.2.42 |
 | [`system-prompt-batch-invocations-guide.md`](../system-prompts/system-prompt-batch-invocations-guide.md) | Defines parallel batch tool invocations list, aggregating results and requiring post-call user message. | 308 | 0.2.42 | 0.2.42 |
@@ -37,7 +38,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-detect-new-topic-title.md`](../system-prompts/system-prompt-detect-new-topic-title.md) | Detect whether a message starts a new topic and extract a short title. | 85 | 0.2.9 | 0.2.9 |
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.9 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 81 | 0.2.9 | 0.2.9 |
-| [`system-prompt-feedback-issue-title.md`](../system-prompts/system-prompt-feedback-issue-title.md) | Create a concise issue title summarizing user feedback. | 56 | 0.2.9 | 0.2.9 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
@@ -47,10 +47,10 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,211 | 0.2.47 | 0.2.47 |
 | [`tool-description-read-local-file-lines-2.md`](../system-prompts/tool-description-read-local-file-lines-2.md) | Reads an absolute-path file with optional offsets, truncation, and numbered output. | 155 | 0.2.46 | 0.2.46 |
 | [`tool-description-fetch-url-and-summarize.md`](../system-prompts/tool-description-fetch-url-and-summarize.md) | Fetches an HTTPS URL, converts to markdown, and analyzes it with a small model using a provided prompt. | 156 | 0.2.42 | 0.2.42 |
 | [`tool-description-mcp-connection-status.md`](../system-prompts/tool-description-mcp-connection-status.md) | Display current MCP server connection status. | 6 | 0.2.41 | 0.2.41 |
-| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,179 | 0.2.40 | 0.2.40 |
 | [`tool-description-list-allowed-capabilities.md`](../system-prompts/tool-description-list-allowed-capabilities.md) | Lists all currently allowed tools. | 5 | 0.2.40 | 0.2.40 |
 | [`tool-description-change-light-theme.md`](../system-prompts/tool-description-change-light-theme.md) | Change the interface theme to light mode. | 11 | 0.2.38 | 0.2.38 |
 | [`tool-description-list-path-with-ignore-globs.md`](../system-prompts/tool-description-list-path-with-ignore-globs.md) | Lists files and directories at an absolute path with optional ignore glob patterns. | 60 | 0.2.29 | 0.2.29 |
@@ -77,16 +77,16 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.46 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.46 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.47 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.47 |
+| [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 247 | 0.2.42 | 0.2.47 |
+| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.47 |
+| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.47 |
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.46 | 0.2.46 |
-| [`system-data-bypass-permissions-array-paths.md`](../system-prompts/system-data-bypass-permissions-array-paths.md) | Multiple prompts (2) | 107 | 0.2.46 | 0.2.46 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.44 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.44 |
-| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.43 |
-| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.43 |
-| [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 247 | 0.2.42 | 0.2.42 |
 | [`system-data-whimsical-verb-synonyms-list.md`](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | Playful list of gerund verbs describing thinking or doing. | 221 | 0.2.42 | 0.2.42 |
+| [`system-data-path-list-template.md`](../system-prompts/system-data-path-list-template.md) | Multiple prompts (2) | 111 | 0.2.40 | 0.2.40 |
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.38 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |

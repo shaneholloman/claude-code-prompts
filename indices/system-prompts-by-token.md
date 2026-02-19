@@ -15,7 +15,7 @@ _Sorted by tokens (desc)._
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,481 | 0.2.42 | 0.2.42 |
-| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,193 | 0.2.46 | 0.2.46 |
+| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,213 | 0.2.47 | 0.2.47 |
 | [`system-prompt-technical-conversation-summary-format.md`](../system-prompts/system-prompt-technical-conversation-summary-format.md) | Produces a detailed development-focused conversation summary with required sections. | 663 | 0.2.36 | 0.2.36 |
 | [`system-prompt-bash-command-prefix-detection.md`](../system-prompts/system-prompt-bash-command-prefix-detection.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 658 | 0.2.30 | 0.2.30 |
 | [`system-prompt-assisted-search-guidelines.md`](../system-prompts/system-prompt-assisted-search-guidelines.md) | Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools. | 497 | 0.2.41 | 0.2.41 |
@@ -28,13 +28,13 @@ _Sorted by tokens (desc)._
 | [`system-prompt-delphi-ui-components-list.md`](../system-prompts/system-prompt-delphi-ui-components-list.md) | Lists UI component class names and checklist states. | 148 | 0.2.9 | 0.2.9 |
 | [`system-prompt-extract-command-file-paths.md`](../system-prompts/system-prompt-extract-command-file-paths.md) | Extract verbatim file paths read or modified by a command. | 143 | 0.2.9 | 0.2.9 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.40 |
+| [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-command-writer.md`](../system-prompts/system-prompt-command-writer.md) | Write a brief plain-language description of a shell command. | 95 | 0.2.9 | 0.2.9 |
 | [`system-prompt-select-core-frequently-modified-files.md`](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | Choose five diverse frequently modified core-logic filenames from git history stats. | 90 | 0.2.9 | 0.2.9 |
 | [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 89 | 0.2.36 | 0.2.36 |
 | [`system-prompt-detect-new-topic-title.md`](../system-prompts/system-prompt-detect-new-topic-title.md) | Detect whether a message starts a new topic and extract a short title. | 85 | 0.2.9 | 0.2.9 |
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.9 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 81 | 0.2.9 | 0.2.9 |
-| [`system-prompt-feedback-issue-title.md`](../system-prompts/system-prompt-feedback-issue-title.md) | Create a concise issue title summarizing user feedback. | 56 | 0.2.9 | 0.2.9 |
 | [`system-prompt-static-project-file-snapshot.md`](../system-prompts/system-prompt-static-project-file-snapshot.md) | Static snapshot of project file structure at conversation start, ignoring .gitignore patterns. | 55 | 0.2.44 | 0.2.44 |
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 52 | 0.2.30 | 0.2.30 |
 | [`system-prompt-continue-from-prior-session.md`](../system-prompts/system-prompt-continue-from-prior-session.md) | Continue a context-limited session using the provided prior conversation summary. | 40 | 0.2.38 | 0.2.38 |
@@ -47,7 +47,7 @@ _Sorted by tokens (desc)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,179 | 0.2.40 | 0.2.40 |
+| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,211 | 0.2.47 | 0.2.47 |
 | [`tool-description-edit-file-by-replacing-string.md`](../system-prompts/tool-description-edit-file-by-replacing-string.md) | Edit a file by replacing one unique old string with new text. | 687 | 0.2.9 | 0.2.9 |
 | [`tool-description-fetch-url-and-summarize.md`](../system-prompts/tool-description-fetch-url-and-summarize.md) | Fetches an HTTPS URL, converts to markdown, and analyzes it with a small model using a provided prompt. | 156 | 0.2.42 | 0.2.42 |
 | [`tool-description-read-local-file-lines-2.md`](../system-prompts/tool-description-read-local-file-lines-2.md) | Reads an absolute-path file with optional offsets, truncation, and numbered output. | 155 | 0.2.46 | 0.2.46 |
@@ -81,8 +81,8 @@ _Sorted by tokens (desc)._
 | [`system-data-wolfram-language-symbols-list.md`](../system-prompts/system-data-wolfram-language-symbols-list.md) | Alphabetical list of Wolfram Language built-in symbol names. | 35,789 | 0.2.9 | 0.2.9 |
 | [`system-data-stan-functions-reference-list.md`](../system-prompts/system-data-stan-functions-reference-list.md) | Partial catalog of Stan math, RNG, and distribution functions. | 2,155 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-placeholder-sequence.md`](../system-prompts/system-data-numeric-placeholder-sequence.md) | Repeated numeric placeholder tokens in a long sequence. | 1,791 | 0.2.9 | 0.2.9 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.46 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.46 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.47 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.47 |
 | [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 0.2.9 | 0.2.9 |
 | [`system-data-repeated-numeric-placeholders.md`](../system-prompts/system-data-repeated-numeric-placeholders.md) | Long sequence of repeated numeric placeholder tokens. | 895 | 0.2.9 | 0.2.9 |
 | [`system-data-julia-base-types-list.md`](../system-prompts/system-data-julia-base-types-list.md) | List of Julia core types and standard library names. | 723 | 0.2.9 | 0.2.9 |
@@ -92,7 +92,7 @@ _Sorted by tokens (desc)._
 | [`system-data-hex-color-swatches-ccff.md`](../system-prompts/system-data-hex-color-swatches-ccff.md) | Sequence of hexadecimal color codes in CC/FF step combinations. | 387 | 0.2.9 | 0.2.9 |
 | [`system-data-months-weekdays-number-mapping.md`](../system-prompts/system-data-months-weekdays-number-mapping.md) | Month and weekday names paired with numeric placeholders. | 341 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-functions-json-regression.md`](../system-prompts/system-data-sql-functions-json-regression.md) | Catalog of SQL functions including JSON, analytics, and regression aggregates. | 297 | 0.2.9 | 0.2.9 |
-| [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 247 | 0.2.42 | 0.2.42 |
+| [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 247 | 0.2.42 | 0.2.47 |
 | [`system-data-stan-distributions-list.md`](../system-prompts/system-data-stan-distributions-list.md) | Enumerates probability distributions used in modeling. | 244 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-placeholders-repeated.md`](../system-prompts/system-data-numeric-placeholders-repeated.md) | Repeated numeric placeholder entries. | 237 | 0.2.9 | 0.2.9 |
 | [`system-data-css-selectors-pseudo-classes.md`](../system-prompts/system-data-css-selectors-pseudo-classes.md) | Comprehensive list of CSS pseudo-classes and pseudo-elements. | 228 | 0.2.9 | 0.2.9 |
@@ -113,10 +113,10 @@ _Sorted by tokens (desc)._
 | [`system-data-mongodb-collection-methods-list.md`](../system-prompts/system-data-mongodb-collection-methods-list.md) | Lists MongoDB collection operations and index methods. | 116 | 0.2.9 | 0.2.9 |
 | [`system-data-csharp-keywords-list.md`](../system-prompts/system-data-csharp-keywords-list.md) | List of C# language keywords and modifiers. | 113 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-builtins-and-typedarrays.md`](../system-prompts/system-data-javascript-builtins-and-typedarrays.md) | List of JavaScript built-ins and typed array constructors. | 111 | 0.2.9 | 0.2.9 |
-| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.43 |
-| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.43 |
+| [`system-data-path-list-template.md`](../system-prompts/system-data-path-list-template.md) | Multiple prompts (2) | 111 | 0.2.40 | 0.2.40 |
+| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.47 |
+| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.47 |
 | [`system-data-roman-numeral-sequence.md`](../system-prompts/system-data-roman-numeral-sequence.md) | Roman numerals listed sequentially from i through xl. | 108 | 0.2.9 | 0.2.9 |
-| [`system-data-bypass-permissions-array-paths.md`](../system-prompts/system-data-bypass-permissions-array-paths.md) | Multiple prompts (2) | 107 | 0.2.46 | 0.2.46 |
 | [`system-data-cloud-throttling-exception-names.md`](../system-prompts/system-data-cloud-throttling-exception-names.md) | Collection of throttling and limit-exceeded exception identifiers. | 93 | 0.2.9 | 0.2.9 |
 | [`system-data-http-request-timing-events.md`](../system-prompts/system-data-http-request-timing-events.md) | Provide HTTP request timing event markers from redirect start through response end. | 92 | 0.2.9 | 0.2.9 |
 | [`system-data-swift-compiler-directives-list.md`](../system-prompts/system-data-swift-compiler-directives-list.md) | List of Swift compiler directives and magic literals. | 83 | 0.2.9 | 0.2.9 |

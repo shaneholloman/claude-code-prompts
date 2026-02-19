@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 12
-- Options: 17
-- Env vars: 123
+- Options: 15
+- Env vars: 124
 - Config keys: 61
 - Tools: 0
 - Skills: 0
@@ -51,7 +51,6 @@
 ### Flags
 
 - `--allowedTools`
-- `--cwd`
 - `--dangerously-skip-permissions`
 - `--debug`
 - `--env`
@@ -61,7 +60,6 @@
 - `--print`
 - `--scope`
 - `--verbose`
-- `-c`
 - `-d`
 - `-e`
 - `-g`
@@ -75,7 +73,6 @@
 - `--json`
 - `--mcp-debug`
 - `--verbose`
-- `-c, --cwd <cwd>`
 - `-d, --debug`
 - `-e, --env <env...>`
 - `-g, --global`
@@ -151,6 +148,7 @@
 - `K_SERVICE`
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
+- `MAX_THINKING_TOKENS`
 - `MCP_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
 - `MSYSTEM`
