@@ -22,8 +22,10 @@ XML-like cell tag with multiple dynamic attributes and nested path element.
 | `EXPR_11` | NotebookRead | None |
 | `EXPR_12` | NotebookEdit | None |
 | `EXPR_13` | WebFetch | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
+| `EXPR_14` | TodoRead | None |
+| `EXPR_15` | TodoWrite | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
 
 # Raw Prompt Text
-<cell ${EXPR_1}>${EXPR_2: 'Task'}${EXPR_3: 'Bash'}${EXPR_4: 'Batch'}${EXPR_5: 'Glob'}${EXPR_6: 'Grep'}${EXPR_7: 'LS'}${EXPR_8: 'Read'}${EXPR_9: 'Edit'}${EXPR_10: 'Write'}${EXPR_11: 'NotebookRead'}${EXPR_12: 'NotebookEdit'}${EXPR_13: 'WebFetch'}${EXPR_14}<${PATH} ${EXPR_15}>
+<cell ${EXPR_1}>${EXPR_2: 'Task'}${EXPR_3: 'Bash'}${EXPR_4: 'Batch'}${EXPR_5: 'Glob'}${EXPR_6: 'Grep'}${EXPR_7: 'LS'}${EXPR_8: 'Read'}${EXPR_9: 'Edit'}${EXPR_10: 'Write'}${EXPR_11: 'NotebookRead'}${EXPR_12: 'NotebookEdit'}${EXPR_13: 'WebFetch'}${EXPR_14: 'TodoRead'}${EXPR_15: 'TodoWrite'}${EXPR_16}<${PATH} ${EXPR_17}>
