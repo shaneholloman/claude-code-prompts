@@ -1,6 +1,6 @@
 # Tool Description: fast-regex-content-search
 
-- Name: GrepTool
+- Name: Grep
 
 ## Summary
 
