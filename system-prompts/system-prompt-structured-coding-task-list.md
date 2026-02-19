@@ -29,7 +29,7 @@ ${NUM}. The task is trivial and tracking it provides no organizational benefit
 ${NUM}. The task can be completed in less than ${NUM} trivial steps
 ${NUM}. The task is purely conversational or informational
 
-NOTE that you should use should not use this tool if there is only one trivial task to do. In this case you are better off just doing the task directly.
+NOTE that you should not use this tool if there is only one trivial task to do. In this case you are better off just doing the task directly.
 
 ## Examples of When to Use the Todo List
 
