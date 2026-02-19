@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Answer strictly from provided web content with capped quotes and no song lyrics.
 
 ## Placeholder Hints (source-backed)
 
@@ -18,7 +18,7 @@ Web page content:
 ${EXPR_1}
 ---
 
-${NUM}
+null
 
 Provide a concise response based only on the content above. In your response:
  - Enforce a strict ${NUM}-character maximum for quotes from any source document. Open Source Software is ok as long as we respect the license.
