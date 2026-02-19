@@ -4,7 +4,7 @@
 
 ## Summary
 
-Create a chronological, technically detailed conversation summary with analysis notes.
+Multiple prompts (2)
 
 # Raw Prompt Text
 Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
@@ -84,7 +84,3 @@ When summarizing the conversation focus on typescript code changes and also reme
 # Summary instructions
 When you are using compact - please focus on test output and code changes. Include file reads verbatim.
 <${PATH}>
-
-
-Additional Instructions:
-local
