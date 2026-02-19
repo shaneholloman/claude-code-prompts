@@ -22,8 +22,8 @@ _Sorted by init (newest first)._
 | [`system-prompt-command-message-template.md`](../system-prompts/system-prompt-command-message-template.md) | Template formatting a command message and name, with command args set to null. | 60 | 0.2.123 | 0.2.123 |
 | [`system-prompt-replacement-count-mismatch.md`](../system-prompts/system-prompt-replacement-count-mismatch.md) | Error message when actual string replacement matches differ from expected replacement count. | 51 | 0.2.123 | 0.2.123 |
 | [`system-prompt-command-metadata-fields.md`](../system-prompts/system-prompt-command-metadata-fields.md) | Multiple prompts (2) | 49 | 0.2.123 | 0.2.123 |
-| [`system-prompt-conversation-title-generator-2.md`](../system-prompts/system-prompt-conversation-title-generator-2.md) | Instructs writing a fixed-length title summarizing the provided conversation text. | 44 | 0.2.123 | 0.2.123 |
-| [`system-prompt-conversation-title-generator.md`](../system-prompts/system-prompt-conversation-title-generator.md) | Instructs writing a fixed-length title summarizing the provided conversation text. | 43 | 0.2.123 | 0.2.123 |
+| [`system-prompt-conversation-title-generator.md`](../system-prompts/system-prompt-conversation-title-generator.md) | Instructs writing a fixed-length title summarizing the provided conversation text. | 44 | 0.2.123 | 0.2.124 |
+| [`system-prompt-conversation-title-generator-2.md`](../system-prompts/system-prompt-conversation-title-generator-2.md) | Instructs writing a fixed-length title summarizing the provided conversation text. | 43 | 0.2.123 | 0.2.124 |
 | [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text. | 43 | 0.2.123 | 0.2.123 |
 | [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.123 | 0.2.123 |
 | [`system-prompt-secure-bash-command-runner-2.md`](../system-prompts/system-prompt-secure-bash-command-runner-2.md) | Execute bash commands in a persistent sandbox with directory checks and timeout limits. | 3,024 | 0.2.122 | 0.2.122 |
@@ -54,8 +54,8 @@ _Sorted by init (newest first)._
 | [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 0.2.122 |
 | [`system-prompt-local-function-conversation-title.md`](../system-prompts/system-prompt-local-function-conversation-title.md) | Inside a wrapper function, output only a …-… word conversation title. | 56 | 0.2.91 | 0.2.91 |
 | [`system-prompt-generate-word-count-title.md`](../system-prompts/system-prompt-generate-word-count-title.md) | Output only a …-… word title for the given conversation. | 50 | 0.2.91 | 0.2.91 |
-| [`system-prompt-write-conversation-title-5.md`](../system-prompts/system-prompt-write-conversation-title-5.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.123 |
-| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.123 |
+| [`system-prompt-write-conversation-title-5.md`](../system-prompts/system-prompt-write-conversation-title-5.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.124 |
+| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.124 |
 | [`system-prompt-conversation-title-only-output.md`](../system-prompts/system-prompt-conversation-title-only-output.md) | Write a NUM-NUM word conversation title using the provided transcript only. | 47 | 0.2.91 | 0.2.91 |
 | [`system-prompt-title-with-files-context.md`](../system-prompts/system-prompt-title-with-files-context.md) | Generate a …-… word title using conversation text and file context. | 46 | 0.2.91 | 0.2.91 |
 | [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.119 |
@@ -71,7 +71,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-summarize-shell-command.md`](../system-prompts/system-prompt-summarize-shell-command.md) | Write a brief input-output description of a shell command in a few words. | 78 | 0.2.59 | 0.2.59 |
 | [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.101 |
 | [`system-prompt-nested-template-functions.md`](../system-prompts/system-prompt-nested-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 0.2.119 |
-| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.123 |
+| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.124 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Continue from prior conversation state and resume the last task without questions. | 38 | 0.2.54 | 0.2.54 |
 | [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-batch-invocations-guide.md`](../system-prompts/system-prompt-batch-invocations-guide.md) | Defines parallel batch tool invocations list, aggregating results and requiring post-call user message. | 308 | 0.2.42 | 0.2.83 |
@@ -130,7 +130,7 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-cli-launcher-fallback-script.md`](../system-prompts/system-data-cli-launcher-fallback-script.md) | Bash launcher resolves script directory and execs latest or known-good symlink. | 488 | 0.2.123 | 0.2.123 |
+| [`system-data-latest-known-good-cli-launcher.md`](../system-prompts/system-data-latest-known-good-cli-launcher.md) | Shell launcher executes latest symlinked binary, falls back to known-good, else prints error. | 399 | 0.2.124 | 0.2.124 |
 | [`system-data-linter-formatter-list.md`](../system-prompts/system-data-linter-formatter-list.md) | Lists common linters, formatters, and code quality tools. | 98 | 0.2.123 | 0.2.123 |
 | [`system-data-app-settings-keys.md`](../system-prompts/system-data-app-settings-keys.md) | Lists configuration keys for updater, theme, notifications, and editor behavior. | 79 | 0.2.123 | 0.2.123 |
 | [`system-data-multiline-dotall-flag-notes.md`](../system-prompts/system-data-multiline-dotall-flag-notes.md) | System-data block listing multiline and dotall flags with quoting examples and substitutions. | 40 | 0.2.119 | 0.2.119 |
@@ -168,9 +168,9 @@ _Sorted by init (newest first)._
 | [`system-data-css-selectors-pseudo-classes.md`](../system-prompts/system-data-css-selectors-pseudo-classes.md) | Comprehensive list of CSS pseudo-classes and pseudo-elements. | 228 | 0.2.9 | 0.2.9 |
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
 | [`system-data-css-pseudo-class-keywords.md`](../system-prompts/system-data-css-pseudo-class-keywords.md) | List of CSS selector pseudo-classes and state keywords. | 186 | 0.2.9 | 0.2.9 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.123 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.123 |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.123 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.124 |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.124 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.124 |
 | [`system-data-html-element-name-list.md`](../system-prompts/system-data-html-element-name-list.md) | List of common HTML element tag names. | 160 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-constants-and-paths.md`](../system-prompts/system-data-numeric-constants-and-paths.md) | Lists core constants and environment paths like Inf, NaN, missing, and LOAD_PATH. | 159 | 0.2.9 | 0.2.9 |
 | [`system-data-swift-standard-library-functions.md`](../system-prompts/system-data-swift-standard-library-functions.md) | List of Swift standard library functions and assertions utilities. | 151 | 0.2.9 | 0.2.9 |
@@ -205,7 +205,7 @@ _Sorted by init (newest first). Showing **9** reminders with more than **30** to
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 | [`system-reminder-ignore-local-command-messages.md`](../system-prompts/system-reminder-ignore-local-command-messages.md) | Warns that local command output messages should be ignored unless explicitly requested. | 39 | 0.2.106 | 0.2.106 |
 | [`system-reminder-synthesize-multi-findings.md`](../system-prompts/system-reminder-synthesize-multi-findings.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 0.2.106 |
-| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.123 |
+| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.124 |
 
 <details>
 <summary>Show 13 low-token reminders (≤ 30 tokens)</summary>
