@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 12
-- Options: 16
-- Env vars: 122
+- Options: 17
+- Env vars: 123
 - Config keys: 61
 - Tools: 0
 - Skills: 0
-- Models: 15
+- Models: 16
 - Providers: 7
 
 ## Commands
@@ -56,6 +56,7 @@
 - `--debug`
 - `--env`
 - `--global`
+- `--json`
 - `--mcp-debug`
 - `--print`
 - `--scope`
@@ -71,6 +72,7 @@
 
 - `--allowedTools <tools>`
 - `--dangerously-skip-permissions`
+- `--json`
 - `--mcp-debug`
 - `--verbose`
 - `-c, --cwd <cwd>`
@@ -89,6 +91,7 @@
 - `ANTHROPIC_AUTH_TOKEN`
 - `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_MODEL`
+- `ANTHROPIC_SMALL_FAST_MODEL`
 - `API_TIMEOUT_MS`
 - `APPDATA`
 - `AWS_ACCESS_KEY_ID`
@@ -294,6 +297,7 @@ _None detected_
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
+- `claude-local`
 
 ## Providers
 
