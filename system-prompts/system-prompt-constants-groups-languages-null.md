@@ -26,8 +26,8 @@ Constant list for group names, language codes, lock types, and null defaults.
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | false | None |
+| `EXPR_17` | false | None |
+| `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
@@ -39,4 +39,4 @@ Constant list for group names, language codes, lock types, and null defaults.
 localCR FALSE nil NO_VALUE NULL TAB TRUE YES_VALUE ADMINISTRATORS_GROUP_NAME CUSTOMIZERS_GROUP_NAME DEVELOPERS_GROUP_NAME SERVICE_USERS_GROUP_NAME localstdio${EXPR_1}ENGLISH_LANGUAGE_CODE RUSSIAN_LANGUAGE_CODE smHidden smMaximized smMinimized smNormal wmNo wmYes ${EXPR_2}COMPONENT_TOKEN_LOCK_TYPE EDOCUMENT_VERSION_LOCK_TYPE ${EXPR_3}_${EXPR_4}${NUM}${EXPR_5}:${EXPR_6}stream-jsonstream-json${EXPR_7: 'stream-json'}${EXPR_8: true}
 
 ARGUMENTS: ${EXPR_9: 'stream-json'}nullAgent changes:
-${EXPR_10}${EXPR_11}${EXPR_12}RESULT_VAR_NAME RESULT_VAR_NAME_ENG ${EXPR_13} (${EXPR_14})${EXPR_15}default${EXPR_16}${EXPR_17}${EXPR_18: false}${EXPR_19}${EXPR_20}${EXPR_21}${EXPR_22}null${EXPR_23}${EXPR_24}${EXPR_25}
+${EXPR_10}${EXPR_11}${EXPR_12}RESULT_VAR_NAME RESULT_VAR_NAME_ENG ${EXPR_13}${EXPR_14}default${EXPR_15}${EXPR_16}${EXPR_17: false}${EXPR_18}${EXPR_19}${EXPR_20}${EXPR_21}null${EXPR_22}${EXPR_23}${EXPR_24}
