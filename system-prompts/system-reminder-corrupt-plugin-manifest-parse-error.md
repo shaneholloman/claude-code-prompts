@@ -12,7 +12,7 @@ Reports plugin manifest is corrupt at a path, including parse error details.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | resolved list (4 items) | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Plugin ${EXPR_1} has a corrupt manifest file at ${EXPR_2}. Parse error: ${EXPR_3}
