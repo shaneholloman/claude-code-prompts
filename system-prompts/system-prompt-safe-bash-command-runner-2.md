@@ -4,7 +4,14 @@
 
 ## Summary
 
-Run shell commands with directory checks and security restrictions against banned utilities.
+Execute bash commands securely with directory checks, timeouts, output limits, and banned search utilities.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -21,7 +28,7 @@ ${NUM}. Command Execution:
 
 Usage notes:
   - The command argument is required.
-  - You can specify an optional timeout in milliseconds (up to 600000ms / ${NUM} minutes). If not specified, commands will timeout after ${NUM} minutes.
+  - You can specify an optional timeout in milliseconds (up to 600000ms / ${EXPR_1} minutes). If not specified, commands will timeout after 120000ms (${EXPR_2} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
   - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use GrepTool, GlobTool, or dispatch_agent to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use View and LS to read files.
