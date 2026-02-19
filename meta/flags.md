@@ -1,4 +1,4 @@
-# Claude Code 2.0.32 – Flags
+# Claude Code 2.0.33 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -21,6 +21,7 @@
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_gha_plugin_code_review` | gate | tools | Controls which GitHub Actions code review workflow template is written | Gate selects between two workflow contents (OY2 vs MY2). | high | 1 |
 | `tengu_haiku_default_pro_plan` | experiment | tools | Switches default model selection to Haiku for plan users. | Exact effect depends on XY and surrounding model-selection logic. | medium | 1 |
+| `tengu_log_segment_events` | gate | analytics | Enable sending Segment analytics events from CLI when telemetry is allowed | Exact event destinations and payload details are not fully shown. | medium | 1 |
 | `tengu_migrate_ignore_patterns` | gate | filesystem | Run a migration step related to ignore patterns during startup | Exact effect of ji2() is unclear from snippet. | medium | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |

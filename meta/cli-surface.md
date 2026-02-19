@@ -5,7 +5,7 @@
 - Commands: 20
 - Options: 40
 - Env vars: 326
-- Config keys: 378
+- Config keys: 379
 - Tools: 3
 - Skills: 0
 - Models: 52
@@ -835,6 +835,7 @@
 - `ui_locales_supported`
 - `updated_at`
 - `updatedInput`
+- `updatedMCPToolOutput`
 - `updatedPermissions`
 - `uri`
 - `url`
