@@ -18,10 +18,6 @@ Run bash commands safely with directory checks, banned-command validation, and t
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -58,7 +54,7 @@ ${EXPR_5}
 
 When the user asks you to create a new git commit, follow these steps carefully:
 
-${NUM}. ${EXPR_6} run the following bash commands in parallel, each using the Bash tool:
+${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following bash commands in parallel, each using the Bash tool:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
@@ -78,9 +74,9 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 - Review the draft message to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. ${EXPR_7} run the following commands in parallel:
+${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following commands in parallel:
    - Add relevant untracked files to the staging area.
-   - Create the commit with a message${EXPR_8}
+   - Create the commit with a message${EXPR_6}
    - Run git status to make sure the commit succeeded.
 
 ${NUM}. If the commit fails due to pre-commit hook changes, retry the commit ONCE to include these automated changes. If it fails again, it usually means a pre-commit hook is preventing the commit. If the commit succeeds but you notice that files were modified by the pre-commit hook, you MUST amend your commit to include them.
@@ -97,7 +93,7 @@ Important notes:
 - In order to ensure good formatting, ALWAYS pass the commit message via a HEREDOC, a la this example:
 <example>
 git commit -m "$(cat <<'EOF'
-   Commit message here.${EXPR_9}
+   Commit message here.${EXPR_7}
    EOF
    )"
 <${PATH}>
@@ -107,7 +103,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. ${EXPR_10} run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
@@ -130,7 +126,7 @@ ${NUM}. Analyze all changes that will be included in the pull request, making su
 - Review the draft summary to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. ${EXPR_11} run the following commands in parallel:
+${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
    - Create PR using gh pr create with the format below. Use a HEREDOC to pass the body to ensure correct formatting.
@@ -140,7 +136,7 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 <${NUM}-${NUM} bullet points>
 
 ## Test plan
-[Checklist of TODOs for testing the pull request...]${EXPR_12}
+[Checklist of TODOs for testing the pull request...]${EXPR_8}
 EOF
 )"
 <${PATH}>
