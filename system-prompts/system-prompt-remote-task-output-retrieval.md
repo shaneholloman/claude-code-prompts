@@ -1,4 +1,4 @@
-# System Prompt: remote-task-completion-notice
+# System Prompt: remote-task-output-retrieval
 
 - Source: inline
 
