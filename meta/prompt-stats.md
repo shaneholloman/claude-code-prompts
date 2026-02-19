@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.18
+# Prompt Stats 0.2.19
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -12,8 +12,8 @@
 | system | [System Prompt: Delegated Search Guidance](../system-prompts/system-prompt-delegated-search-guidance.md) | 1777 | 432 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Delphi Ui Components List](../system-prompts/system-prompt-delphi-ui-components-list.md) | 422 | 148 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 229 | 57 | 0.2.14 | 0.2.14 |
-| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 228 | 60 | 0.2.9 | 0.2.14 |
+| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 228 | 60 | 0.2.9 | 0.2.19 |
+| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 229 | 57 | 0.2.14 | 0.2.19 |
 | system | [System Prompt: Extract Command File Paths](../system-prompts/system-prompt-extract-command-file-paths.md) | 502 | 143 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Feedback Issue Title](../system-prompts/system-prompt-feedback-issue-title.md) | 220 | 56 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fetch Pr Comments](../system-prompts/system-prompt-fetch-pr-comments.md) | 1469 | 444 | 0.2.9 | 0.2.9 |
@@ -25,17 +25,17 @@
 | system | [System Prompt: Secret Sticker Operation Banner](../system-prompts/system-prompt-secret-sticker-operation-banner.md) | 255 | 85 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 10081 | 2353 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Sysref Classified Banner Log](../system-prompts/system-prompt-sysref-classified-banner-log.md) | 2531 | 1122 | 0.2.18 | 0.2.18 |
-| system | [System Prompt: Sysref Constants And Buglink](../system-prompts/system-prompt-sysref-constants-and-buglink.md) | 3259 | 1381 | 0.2.18 | 0.2.18 |
+| system | [System Prompt: Sysref Classified Banner Log](../system-prompts/system-prompt-sysref-classified-banner-log.md) | 2527 | 1118 | 0.2.19 | 0.2.19 |
+| system | [System Prompt: Sysref Constants And Buglink](../system-prompts/system-prompt-sysref-constants-and-buglink.md) | 3255 | 1377 | 0.2.19 | 0.2.19 |
 | system | [System Prompt: Sysref Edocument Reference Types](../system-prompts/system-prompt-sysref-edocument-reference-types.md) | 1905 | 849 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Ascii Art Banner](../system-prompts/system-data-ascii-art-banner.md) | 8491 | 2451 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 296 | 117 | 0.2.18 | 0.2.18 |
+| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 219 | 68 | 0.2.9 | 0.2.19 |
 | system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 230 | 75 | 0.2.9 | 0.2.18 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 230 | 75 | 0.2.9 | 0.2.18 |
-| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 219 | 68 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 230 | 75 | 0.2.9 | 0.2.19 |
+| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 296 | 117 | 0.2.18 | 0.2.19 |
 | system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 296 | 117 | 0.2.18 | 0.2.18 |
-| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 230 | 75 | 0.2.9 | 0.2.18 |
+| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 230 | 75 | 0.2.9 | 0.2.19 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
@@ -43,8 +43,8 @@
 | system-data | [System Data: Css Selectors Pseudo Classes](../system-prompts/system-data-css-selectors-pseudo-classes.md) | 733 | 228 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Dart Core Types List](../system-prompts/system-data-dart-core-types-list.md) | 218 | 61 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Hex Color Swatches Ccff](../system-prompts/system-data-hex-color-swatches-ccff.md) | 682 | 387 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2578 | 1099 | 0.2.9 | 0.2.18 |
-| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2490 | 1063 | 0.2.9 | 0.2.18 |
+| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2490 | 1063 | 0.2.9 | 0.2.19 |
+| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2578 | 1099 | 0.2.9 | 0.2.19 |
 | system-data | [System Data: Html Element Name List](../system-prompts/system-data-html-element-name-list.md) | 442 | 160 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Http Request Timing Events](../system-prompts/system-data-http-request-timing-events.md) | 309 | 92 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Javascript Builtins And Typed Arrays](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | 696 | 216 | 0.2.9 | 0.2.9 |
@@ -75,11 +75,12 @@
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 378 | 127 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 567 | 171 | 0.2.9 | 0.2.18 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.18 |
-| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 554 | 162 | 0.2.9 | 0.2.18 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 565 | 166 | 0.2.9 | 0.2.19 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 0.2.19 |
+| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.19 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Symbol Grid Ascii Art](../system-prompts/system-data-symbol-grid-ascii-art.md) | 261 | 164 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: User Preferences And Status Flags](../system-prompts/system-data-user-preferences-and-status-flags.md) | 206 | 61 | 0.2.19 | 0.2.19 |
 | system-data | [System Data: Whimsical Verb Synonyms List](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | 607 | 217 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Wolfram Language Symbols List](../system-prompts/system-data-wolfram-language-symbols-list.md) | 104946 | 35789 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Check Health](../system-prompts/tool-description-check-health.md) | 50 | 9 | 0.2.9 | 0.2.9 |
@@ -104,4 +105,5 @@
 | tool | [Tool Description: Stickers And Swag Shipping Form](../system-prompts/tool-description-stickers-and-swag-shipping-form.md) | 1181 | 280 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Submit Feedback](../system-prompts/tool-description-submit-feedback.md) | 33 | 5 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Technical Planning And Implementation Steps](../system-prompts/tool-description-technical-planning-and-implementation-steps.md) | 257 | 51 | 0.2.9 | 0.2.9 |
+| tool | [Tool Description: Toggle Vim Emacs Modes](../system-prompts/tool-description-toggle-vim-emacs-modes.md) | 42 | 8 | 0.2.19 | 0.2.19 |
 | tool | [Tool Description: Write File To Disk](../system-prompts/tool-description-write-file-to-disk.md) | 353 | 84 | 0.2.9 | 0.2.9 |
