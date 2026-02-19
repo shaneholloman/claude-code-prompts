@@ -4,7 +4,7 @@
 
 ## Summary
 
-Captures URLs plus a background bash command and status metadata.
+Background bash command and status template including URL fields.
 
 ## Placeholder Hints (source-backed)
 
@@ -23,19 +23,23 @@ Captures URLs plus a background bash command and status metadata.
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | Task | None |
-| `EXPR_15` | Bash | None |
-| `EXPR_16` | Glob | None |
-| `EXPR_17` | Grep | None |
-| `EXPR_18` | ExitPlanMode | None |
-| `EXPR_19` | Read | None |
-| `EXPR_20` | Edit | None |
-| `EXPR_21` | MultiEdit | None |
-| `EXPR_22` | Write | None |
-| `EXPR_23` | NotebookEdit | None |
-| `EXPR_24` | WebFetch | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
+${URL}
+
+${URL}
+
 ${EXPR_1}
 
 ${EXPR_2}
@@ -62,58 +66,28 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14: 'Task'}
-
-${EXPR_15: 'Bash'}
-
-${EXPR_16: 'Glob'}
-
-${EXPR_17: 'Grep'}
-
-${EXPR_18: 'ExitPlanMode'}
-
-${EXPR_19: 'Read'}
-
-${EXPR_20: 'Edit'}
-
-${EXPR_21: 'MultiEdit'}
-
-${EXPR_22: 'Write'}
-
-${EXPR_23: 'NotebookEdit'}
-
-${EXPR_24: 'WebFetch'}
-
-${EXPR_25}
-
-${EXPR_26}
-
-${EXPR_27}
-
-Background Bash ${EXPR_28}
-
-(command: ${EXPR_29})
-
-(status: ${EXPR_30})
+${EXPR_14}
 
 ${NUM}
 
-${EXPR_31}
+Background Bash ${EXPR_15}
 
-${EXPR_32}
+(command: ${EXPR_16})
 
-${EXPR_33}
+(status: ${EXPR_17})
 
-${EXPR_34}
+${NUM}
 
-${EXPR_35}
+${EXPR_18}
 
-${EXPR_36}
+${EXPR_19}
 
-${EXPR_37}
+${EXPR_20}
 
-${URL}
+${EXPR_21}
 
-${URL}
+${EXPR_22}
 
-${EXPR_38}
+${EXPR_23}
+
+${EXPR_24}
