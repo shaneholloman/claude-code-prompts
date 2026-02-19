@@ -4,13 +4,7 @@
 
 ## Summary
 
-Define command prefix extraction and injection detection with illustrative shell command examples.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Policy spec for extracting shell command prefixes and detecting command injection risk.
 
 # Raw Prompt Text
 <policy_spec>
@@ -77,4 +71,4 @@ Note that not every command has a prefix. If a command has no prefix, return "no
 
 ONLY return the prefix. Do not return any other text, markdown markers, or other content or formatting.
 
-Command: ${EXPR_1}
+Command: \\.\pipe\claude-mcp-browser-bridge-default
