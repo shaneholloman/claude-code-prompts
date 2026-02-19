@@ -36,11 +36,11 @@ Template combining a pattern field with background bash command and status.
 | `EXPR_24` | None | None |
 
 # Raw Prompt Text
-Background Bash ${EXPR_1}
+${EXPR_1}
 
-(command: ${EXPR_2})
+${EXPR_2}
 
-(status: ${EXPR_3})
+${EXPR_3}
 
 ${EXPR_4}
 
@@ -50,29 +50,29 @@ ${EXPR_6}
 
 ${EXPR_7}
 
-${EXPR_8}
+pattern: "${EXPR_8}"
 
 ${EXPR_9}
 
-pattern: "${EXPR_10}"
+${EXPR_10}
 
 ${EXPR_11}
 
 ${EXPR_12}
 
-${EXPR_13}
+Background Bash ${EXPR_13}
 
-${EXPR_14}
+(command: ${EXPR_14})
 
-${EXPR_15}
+(status: ${EXPR_15})
 
 ${EXPR_16}
 
-Background Bash ${EXPR_17}
+${EXPR_17}
 
-(command: ${EXPR_18})
+${EXPR_18}
 
-(status: ${EXPR_19})
+${EXPR_19}
 
 ${EXPR_20}
 
@@ -85,11 +85,3 @@ ${EXPR_23}
 ${EXPR_24}
 
 ${EXPR_25}
-
-${EXPR_26}
-
-${EXPR_27}
-
-${EXPR_28}
-
-${EXPR_29}
