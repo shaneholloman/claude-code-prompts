@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 15
-- Options: 28
-- Env vars: 210
-- Config keys: 157
+- Options: 29
+- Env vars: 211
+- Config keys: 173
 - Tools: 0
 - Skills: 0
-- Models: 28
+- Models: 30
 - Providers: 7
 
 ## Commands
@@ -67,6 +67,7 @@
 - `--force`
 - `--global`
 - `--header`
+- `--ide`
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
@@ -93,6 +94,7 @@
 - `--disallowedTools <tools...>`
 - `--fallback-model <model>`
 - `--force`
+- `--ide`
 - `--mcp-config <file or string>`
 - `--mcp-debug`
 - `--model <model>`
@@ -144,6 +146,7 @@
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
+- `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
@@ -327,13 +330,15 @@
 - `access_token`
 - `additionalDirectories`
 - `allow`
-- `annotations`
 - `api`
 - `apiKeyHelper`
 - `args`
 - `arguments`
+- `authorization_details_types_supported`
 - `authorization_endpoint`
+- `authorization_servers`
 - `authToken`
+- `bearer_methods_supported`
 - `behavior`
 - `character`
 - `charset`
@@ -357,15 +362,21 @@
 - `credential.helper=`
 - `data`
 - `decision`
+- `default`
 - `defaultMode`
 - `deny`
 - `description`
 - `destructiveHint`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
+- `dpop_bound_access_tokens_required`
+- `dpop_signing_alg_values_supported`
+- `elicitation`
 - `enableAllProjectMcpServers`
 - `enabledMcpjsonServers`
 - `end`
+- `enum`
+- `enumNames`
 - `env`
 - `error`
 - `error_description`
@@ -377,6 +388,7 @@
 - `extensions`
 - `filePath`
 - `forceLoginMethod`
+- `format`
 - `grant_types`
 - `grant_types_supported`
 - `hasMore`
@@ -389,7 +401,6 @@
 - `ideName`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
-- `inputSchema`
 - `intelligencePriority`
 - `introspection_endpoint`
 - `introspection_endpoint_auth_methods_supported`
@@ -408,10 +419,14 @@
 - `logo_uri`
 - `maintenance.auto=false`
 - `matcher`
+- `maximum`
+- `maxLength`
 - `mcpServers`
 - `message`
 - `method`
 - `mimeType`
+- `minimum`
+- `minLength`
 - `model`
 - `modelInstruction`
 - `name`
@@ -434,6 +449,11 @@
 - `registration_endpoint`
 - `required`
 - `resource`
+- `resource_documentation`
+- `resource_name`
+- `resource_policy_uri`
+- `resource_signing_alg_values_supported`
+- `resource_tos_uri`
 - `resources`
 - `response_modes_supported`
 - `response_types`
@@ -461,6 +481,7 @@
 - `suppressOutput`
 - `text`
 - `title`
+- `tls_client_certificate_bound_access_tokens`
 - `token`
 - `token_endpoint`
 - `token_endpoint_auth_method`
@@ -474,11 +495,9 @@
 - `type`
 - `updatedInput`
 - `uri`
-- `uriTemplate`
 - `url`
 - `value`
 - `values`
-- `version`
 
 ## Tools
 
@@ -502,6 +521,7 @@ _None detected_
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
+- `claude-4-opus-20250514`
 - `claude-cli`
 - `claude-code`
 - `claude-code-20250219`
@@ -512,6 +532,7 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-opus-4`
+- `claude-opus-4-0`
 - `claude-opus-4-20250514`
 - `claude-opus-welcome`
 - `claude-review`
