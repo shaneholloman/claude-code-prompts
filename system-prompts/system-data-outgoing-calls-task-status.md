@@ -56,7 +56,7 @@ Displays outgoing calls with task status and a follow-on repo update request.
 
 │
 
-${EXPR_1}
+pattern: "${EXPR_1}"
 
 ${EXPR_2}
 
@@ -65,38 +65,6 @@ ${EXPR_3}
 ${EXPR_4}
 
 ${EXPR_5}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
 
 ${EXPR_6}
 
@@ -108,105 +76,13 @@ ${EXPR_9}
 
 ${EXPR_10}
 
-${NUM}
+Found ${EXPR_11} outgoing calls:
 
-${NUM}
+Task #${EXPR_12}: ${EXPR_13}
 
-${NUM}
+Status: ${EXPR_14}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${EXPR_11}
-
-${EXPR_12}
-
-${EXPR_13}
-
-${EXPR_14}
-
-${EXPR_15}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${EXPR_16}
-
-${EXPR_17}
-
-${EXPR_18}
-
-${EXPR_19}
-
-${EXPR_20}
-
-${EXPR_21}
-
-${EXPR_22}
-
-${EXPR_23}
-
-${EXPR_24}
-
-Found ${EXPR_25} outgoing calls:
-
-Task #${EXPR_26}: ${EXPR_27}
-
-Status: ${EXPR_28}
-
-Description: ${EXPR_29}
+Description: ${EXPR_15}
 
 api
 
@@ -214,32 +90,32 @@ api
 
 PUT
 
-repos/${EXPR_30}${PATH}${EXPR_31}
+repos/${EXPR_16}${PATH}${EXPR_17}
 
 -f
 
-message="Update ${EXPR_32}"
+message="Update ${EXPR_18}"
 
 -f
 
-content=${EXPR_33}
+content=${EXPR_19}
 
 -f
 
-branch=${EXPR_34}
+branch=${EXPR_20}
 
-${EXPR_35}
+${EXPR_21}
 
-${EXPR_36}:
+${EXPR_22}:
 
 start
 
-mcp__${EXPR_37}__
+mcp__${EXPR_23}__
 
-${EXPR_38}
+${EXPR_24}
 
-${EXPR_39}
+${EXPR_25}
 
-${EXPR_40}
+${EXPR_26}
 
-${EXPR_41}
+${EXPR_27}
