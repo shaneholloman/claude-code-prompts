@@ -1,0 +1,98 @@
+# System Prompt: http-request-timing-events-2
+
+- Source: inline
+
+## Summary
+
+Injects bash command context and status, then enumerates HTTP request timing phase markers.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+You are Claude Code, Anthropic's official CLI for Claude.
+
+eslint
+
+eslint-plugin
+
+tslint
+
+prettier
+
+stylelint
+
+jshint
+
+standardjs
+
+xo
+
+rome
+
+biome
+
+deno-lint
+
+rubocop
+
+pylint
+
+flake8
+
+black
+
+ruff
+
+clippy
+
+rustfmt
+
+golangci-lint
+
+gofmt
+
+swiftlint
+
+detekt
+
+ktlint
+
+checkstyle
+
+pmd
+
+sonarqube
+
+sonarjs
+
+Background Bash ${EXPR_1}
+
+(command: ${EXPR_2})
+
+(status: ${EXPR_3})
+
+http.request.redirect_start
+
+http.request.fetch_start
+
+http.request.domain_lookup_start
+
+http.request.domain_lookup_end
+
+http.request.connect_start
+
+http.request.secure_connection_start
+
+http.request.connection_end
+
+http.request.request_start
+
+http.request.response_start
+
+http.request.response_end
