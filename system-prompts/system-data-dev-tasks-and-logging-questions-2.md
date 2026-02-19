@@ -32,8 +32,4 @@ write a test for ${EXPR_4}
 
 create a util logging.py that...
 
-${URL}
-
-${URL}
-
 fcoeoabgfenejglbffodgkkbkcdhcgfn
