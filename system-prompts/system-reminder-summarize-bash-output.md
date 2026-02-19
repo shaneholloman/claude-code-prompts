@@ -4,7 +4,7 @@
 
 ## Summary
 
-Assess whether command output merits summarization, then summarize key relevant details.
+Decide whether to summarize a command’s bash output and provide a relevant summary.
 
 ## Placeholder Hints (source-backed)
 
@@ -19,6 +19,6 @@ Recent conversation context:
 No recent conversation context
 
 Bash output to analyze:
-local
+global
 
 Should this output be summarized? If yes, provide a summary focusing on the most relevant information.
