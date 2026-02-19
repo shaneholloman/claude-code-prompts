@@ -10,7 +10,7 @@ Logs iTerm2 detection and reports it2 CLI availability status.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 [BackendRegistry] iTerm2 detected, it2 CLI available: ${EXPR_1}
