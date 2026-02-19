@@ -10,7 +10,7 @@ Wraps an expression as labeled binary content within bracketed placeholder marku
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 [Binary content: ${EXPR_1}]
