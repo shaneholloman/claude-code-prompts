@@ -11,7 +11,7 @@ Displays current session model override and the underlying base model details.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
