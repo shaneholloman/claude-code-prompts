@@ -19,7 +19,7 @@ Defines Claude CLI environment variables, patterns, time format, and terminal co
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | false | None |
+| `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
@@ -62,7 +62,7 @@ ${EXPR_8}
 
 ${EXPR_9}
 
-${EXPR_10: false}
+${EXPR_10}
 
 ${EXPR_11}
 
