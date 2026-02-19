@@ -23,8 +23,8 @@ Template with repeated expressions, numeric placeholders, a pattern field, hidde
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | true | None |
-| `EXPR_15` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | false | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
@@ -62,9 +62,9 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14: true}
+${EXPR_14}
 
-${EXPR_15}
+${EXPR_15: false}
 
 ${EXPR_16}
 
@@ -160,38 +160,6 @@ ${EXPR_28}
 
 ${EXPR_29}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 ${EXPR_30}
 
 ${EXPR_31}
@@ -205,6 +173,8 @@ ${EXPR_34}
 ${EXPR_35}
 
 ${EXPR_36}
+
+${EXPR_37}
 
 --hidden
 
@@ -242,8 +212,6 @@ ${NUM}
 
 ${NUM}
 
-${EXPR_37}
-
 ${EXPR_38}
 
 ${EXPR_39}
@@ -261,6 +229,8 @@ ${EXPR_44}
 ${EXPR_45}
 
 ${EXPR_46}
+
+${EXPR_47}
 
 ${NUM}
 
