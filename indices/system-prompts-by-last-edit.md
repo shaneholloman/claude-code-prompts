@@ -1,12 +1,12 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **120**
+- Total prompt files: **119**
 
 ## Categories
 
 - System prompts (30)
 - Tool prompts (27)
-- System data (63)
+- System data (62)
 
 ## System prompts (30)
 
@@ -14,9 +14,9 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-internal-constants-token-list.md`](../system-prompts/system-prompt-internal-constants-token-list.md) | Enumerated internal tokens and object tags, then embeds pasted text and source details. | 843 | 0.2.67 | 0.2.67 |
 | [`system-prompt-safe-bash-command-runner-2.md`](../system-prompts/system-prompt-safe-bash-command-runner-2.md) | Run shell commands with directory checks and security restrictions against banned utilities. | 3,101 | 0.2.66 | 0.2.66 |
 | [`system-prompt-cli-coding-safety-rules.md`](../system-prompts/system-prompt-cli-coding-safety-rules.md) | Interactive CLI assistant for software tasks with strict refusal of malicious code help. | 2,809 | 0.2.66 | 0.2.66 |
-| [`system-prompt-parse-constants-object-tokens.md`](../system-prompts/system-prompt-parse-constants-object-tokens.md) | Parse a pasted stream of object markers and enum-like tokens with embedded text blocks. | 892 | 0.2.65 | 0.2.65 |
 | [`system-prompt-follow-codebase-user.md`](../system-prompts/system-prompt-follow-codebase-user.md) | Strictly follow shown codebase and user instructions, overriding all default behaviors. | 47 | 0.2.64 | 0.2.64 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.62 |
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.62 |
@@ -79,28 +79,27 @@ _Sorted by last edit (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (63)
+## System data (62)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.67 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.67 |
+| [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.67 |
+| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 68 | 0.2.9 | 0.2.67 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 283 | 0.2.66 | 0.2.66 |
 | [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 166 | 0.2.66 | 0.2.66 |
 | [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 166 | 0.2.66 | 0.2.66 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.66 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.66 |
-| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.66 |
 | [`system-data-cli-color-style-tokens-5.md`](../system-prompts/system-data-cli-color-style-tokens-5.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 75 | 0.2.9 | 0.2.66 |
-| [`system-data-cli-color-style-tokens-6.md`](../system-prompts/system-data-cli-color-style-tokens-6.md) | Multiple prompts (3) | 75 | 0.2.9 | 0.2.66 |
-| [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 68 | 0.2.9 | 0.2.66 |
 | [`system-data-user-settings-flags.md`](../system-prompts/system-data-user-settings-flags.md) | Session configuration fields for editor, notifications, updates, and behavior toggles. | 66 | 0.2.66 | 0.2.66 |
 | [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.64 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.64 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 0.2.64 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 0.2.64 |
 | [`system-data-save-aliases-path-snapshot.md`](../system-prompts/system-data-save-aliases-path-snapshot.md) | Write aliases and PATH export lines into a snapshot file using sed filtering. | 94 | 0.2.62 | 0.2.62 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.57 |
 | [`system-data-ignore-build-artifacts.md`](../system-prompts/system-data-ignore-build-artifacts.md) | Lists common dependency, virtualenv, and build output directories to exclude. | 84 | 0.2.57 | 0.2.57 |
 | [`system-data-javascript-builtins-list.md`](../system-prompts/system-data-javascript-builtins-list.md) | Enumeration of common JavaScript globals, typed arrays, collections, and utility functions. | 91 | 0.2.54 | 0.2.54 |
 | [`system-data-action-verb-synonyms.md`](../system-prompts/system-data-action-verb-synonyms.md) | Collection of playful verbs describing execution or invocation actions. | 51 | 0.2.54 | 0.2.54 |
