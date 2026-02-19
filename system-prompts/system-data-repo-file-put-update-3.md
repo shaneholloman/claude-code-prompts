@@ -36,13 +36,35 @@ Template for updating repository file contents via API PUT with task metadata an
 | `EXPR_24` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+api
 
-${EXPR_2}
+--method
 
-${EXPR_3}
+PUT
 
-${EXPR_4}
+repos/${EXPR_1}${PATH}${EXPR_2}
+
+-f
+
+message="Update ${EXPR_3}"
+
+-f
+
+content=${EXPR_4}
+
+-f
+
+branch=${EXPR_5}
+
+${EXPR_6}
+
+${EXPR_7}
+
+${EXPR_8}
+
+${EXPR_9}
+
+${EXPR_10}
 
 userSettings
 
@@ -50,67 +72,19 @@ projectSettings
 
 localSettings
 
-Task ${EXPR_5}
+Task ${EXPR_11}
 
-(type: ${EXPR_6})
+(type: ${EXPR_12})
 
-(status: ${EXPR_7})
+(status: ${EXPR_13})
 
-(description: ${EXPR_8})
+(description: ${EXPR_14})
 
-Task #${EXPR_9}: ${EXPR_10}
+Task #${EXPR_15}: ${EXPR_16}
 
-Status: ${EXPR_11}
+Status: ${EXPR_17}
 
-Description: ${EXPR_12}
-
-$schema
-
-$id
-
-id
-
-$data
-
-$async
-
-title
-
-description
-
-default
-
-definitions
-
-examples
-
-readOnly
-
-writeOnly
-
-contentMediaType
-
-contentEncoding
-
-additionalItems
-
-then
-
-else
-
-number
-
-integer
-
-string
-
-array
-
-object
-
-boolean
-
-null
+Description: ${EXPR_18}
 
 $schema
 
@@ -160,7 +134,53 @@ boolean
 
 null
 
-${PATH}
+$schema
+
+$id
+
+id
+
+$data
+
+$async
+
+title
+
+description
+
+default
+
+definitions
+
+examples
+
+readOnly
+
+writeOnly
+
+contentMediaType
+
+contentEncoding
+
+additionalItems
+
+then
+
+else
+
+number
+
+integer
+
+string
+
+array
+
+object
+
+boolean
+
+null
 
 ${PATH}
 
@@ -168,23 +188,25 @@ ${PATH}
 
 ${PATH}
 
-${EXPR_13}
-
-${EXPR_14}
-
-${EXPR_15}
-
-${EXPR_16}
-
-${EXPR_17}
-
-${EXPR_18}
+${PATH}
 
 ${EXPR_19}
 
 ${EXPR_20}
 
 ${EXPR_21}
+
+${EXPR_22}
+
+${EXPR_23}
+
+${EXPR_24}
+
+${EXPR_25}
+
+${EXPR_26}
+
+${EXPR_27}
 
 $schema
 
@@ -336,18 +358,20 @@ api
 
 PUT
 
-repos/${EXPR_22}${PATH}${EXPR_23}
+repos/${EXPR_28}${PATH}${EXPR_29}
 
 -f
 
-message="Update ${EXPR_24}"
+message="Update ${EXPR_30}"
 
 -f
 
-content=${EXPR_25}
+content=${EXPR_31}
 
 -f
 
-branch=${EXPR_26}
+branch=${EXPR_32}
 
-stdio
+sentry-trace
+
+${EXPR_33}
