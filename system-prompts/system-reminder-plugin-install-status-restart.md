@@ -15,4 +15,4 @@ Reports installed plugin count, failures list, and restart instruction to load p
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-✓ Installed ${NUM} of ${EXPR_1} plugins. Failed: ${EXPR_2}${EXPR_3}. Restart Claude Code to load successfully installed plugins.
+✓ Installed ${NUM} of ${NUM}${EXPR_1} plugins. Failed: ${EXPR_2}${EXPR_3}. Restart Claude Code to load successfully installed plugins.
