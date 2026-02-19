@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 16
-- Options: 39
-- Env vars: 272
-- Config keys: 348
+- Commands: 14
+- Options: 37
+- Env vars: 275
+- Config keys: 347
 - Tools: 3
 - Skills: 0
-- Models: 41
+- Models: 44
 - Providers: 7
 
 ## Commands
@@ -18,7 +18,6 @@
 - `add`
 - `add-from-claude-desktop`
 - `add-json`
-- `config`
 - `doctor`
 - `get`
 - `install`
@@ -28,29 +27,23 @@
 - `remove`
 - `reset-project-choices`
 - `serve`
-- `set`
 - `setup-token`
 - `update`
 
 ### Specs
 
-- `add <key> <values...>`
 - `add <name> <commandOrUrl> [args...]`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
-- `config`
 - `doctor`
-- `get <key>`
 - `get <name>`
 - `install [target]`
 - `list`
 - `mcp`
 - `migrate-installer`
-- `remove <key> [values...]`
 - `remove <name>`
 - `reset-project-choices`
 - `serve`
-- `set <key> <value>`
 - `setup-token`
 - `update`
 
@@ -71,7 +64,6 @@
 - `--fallback-model`
 - `--force`
 - `--fork-session`
-- `--global`
 - `--header`
 - `--ide`
 - `--include-partial-messages`
@@ -91,7 +83,6 @@
 - `-c`
 - `-d`
 - `-e`
-- `-g`
 - `-H`
 - `-p`
 - `-r`
@@ -123,7 +114,6 @@
 - `-d, --debug`
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
-- `-g, --global`
 - `-H, --header <header...>`
 - `-p, --print`
 - `-r, --resume [sessionId]`
@@ -182,6 +172,7 @@
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
+- `CLAUDE_CODE_DISABLE_AUTOCHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
@@ -190,6 +181,7 @@
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
+- `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_GIT_BASH_PATH`
@@ -387,6 +379,7 @@
 - `VERTEX_REGION_CLAUDE_4_0_OPUS`
 - `VERTEX_REGION_CLAUDE_4_0_SONNET`
 - `VERTEX_REGION_CLAUDE_4_1_OPUS`
+- `VERTEX_REGION_CLAUDE_4_5_SONNET`
 - `VISUAL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
@@ -419,6 +412,7 @@
 - `allowLocalBinding`
 - `allowOnly`
 - `allowUnixSockets`
+- `alwaysThinkingEnabled`
 - `api`
 - `apiKeyHelper`
 - `args`
@@ -494,7 +488,6 @@
 - `durationMs`
 - `durationSeconds`
 - `edit_mode`
-- `edits`
 - `elicitation`
 - `email`
 - `enableAllProjectMcpServers`
@@ -611,7 +604,6 @@
 - `op_tos_uri`
 - `openWorldHint`
 - `originalFile`
-- `originalFileContents`
 - `originalSize`
 - `otelHeadersHelper`
 - `output_tokens`
@@ -806,9 +798,12 @@ _None detected_
 - `claude-settings`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
+- `claude-sonnet-4-5`
+- `claude-sonnet-4-5-20250929`
 - `claude-vscode`
 - `opus-limit-reached`
 - `sonnet-1m-welcome`
+- `sonnet-4.5-update`
 
 ## Providers
 
