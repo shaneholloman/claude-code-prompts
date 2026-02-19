@@ -29,53 +29,15 @@ Contains error-field patterns and title generation plus common coding tasks.
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
-| `EXPR_24` | None | None |
 
 # Raw Prompt Text
-Please write a ${NUM}-${NUM} word title for the following conversation:
+pattern: "${EXPR_1}"
 
-[Last ${EXPR_1} of ${EXPR_2} messages]
+${EXPR_2}
 
-${EXPR_3}
+pattern: "${EXPR_3}"
 
-
-Respond with the title for the conversation and nothing else.
-
-Usage: ${EXPR_4}
-
-REJECTED
-
-${EXPR_5}
-
-${EXPR_6}
-
-${EXPR_7}
-
-${EXPR_8}
-
-${EXPR_9}
-
-${EXPR_10}
-
-${EXPR_11}
-
-${EXPR_12}
-
-${EXPR_13}
-
-${EXPR_14}
-
-pattern: "${EXPR_15}"
-
-${EXPR_16}
-
-pattern: "${EXPR_17}"
-
-${EXPR_18}
+${EXPR_4}
 
 name
 
@@ -95,34 +57,43 @@ columnNumber
 
 toJSON
 
-pattern: "${EXPR_19}"
+pattern: "${EXPR_5}"
 
-${EXPR_20}
+${EXPR_6}
 
-pattern: "${EXPR_21}"
+pattern: "${EXPR_7}"
 
-${EXPR_22}
+${EXPR_8}
 
-pattern: "${EXPR_23}"
+pattern: "${EXPR_9}"
 
-${EXPR_24}
+${EXPR_10}
 
-pattern: "${EXPR_25}"
+pattern: "${EXPR_11}"
 
-${EXPR_26}
+${EXPR_12}
 
 fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_27} work?
+how does ${EXPR_13} work?
 
-refactor ${EXPR_28}
+refactor ${EXPR_14}
 
 how do I log an error?
 
-edit ${EXPR_29} to...
+edit ${EXPR_15} to...
 
-write a test for ${EXPR_30}
+write a test for ${EXPR_16}
 
 create a util logging.py that...
+
+Please write a ${NUM}-${NUM} word title for the following conversation:
+
+[Last ${EXPR_17} of ${EXPR_18} messages]
+
+${EXPR_19}
+
+
+Respond with the title for the conversation and nothing else.
