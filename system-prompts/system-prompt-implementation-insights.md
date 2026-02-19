@@ -1,4 +1,4 @@
-# System Prompt: educational-insights
+# System Prompt: implementation-insights
 
 - Source: inline
 
