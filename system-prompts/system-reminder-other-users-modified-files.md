@@ -11,7 +11,8 @@ Display the list of files modified by other users.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Files modified by other users:
-${EXPR_1}
+${EXPR_1}/${EXPR_2}
