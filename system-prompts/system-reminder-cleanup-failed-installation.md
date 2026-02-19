@@ -10,7 +10,7 @@ Indicates cleanup of a failed installation at the specified location.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Cleaning up failed installation at ${EXPR_1}
