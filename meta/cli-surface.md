@@ -70,7 +70,7 @@
 
 ### Specs
 
-- `--allowedTools <tools>`
+- `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
 - `--json`
 - `--mcp-debug`

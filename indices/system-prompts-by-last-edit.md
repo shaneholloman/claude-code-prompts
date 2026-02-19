@@ -14,7 +14,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,366 | 0.2.51 | 0.2.51 |
+| [`system-prompt-secure-cli-coding-2.md`](../system-prompts/system-prompt-secure-cli-coding-2.md) | Interactive CLI software engineering assistant with strict refusal rules and safe URL handling. | 2,294 | 0.2.52 | 0.2.52 |
 | [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,213 | 0.2.47 | 0.2.47 |
 | [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-static-project-file-snapshot.md`](../system-prompts/system-prompt-static-project-file-snapshot.md) | Static snapshot of project file structure at conversation start, ignoring .gitignore patterns. | 55 | 0.2.44 | 0.2.44 |
@@ -77,8 +77,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.51 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.51 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.52 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.52 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 259 | 0.2.44 | 0.2.51 |
 | [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 115 | 0.2.44 | 0.2.51 |
 | [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 115 | 0.2.44 | 0.2.51 |
