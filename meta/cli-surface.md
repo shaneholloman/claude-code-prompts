@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 35
 - Env vars: 248
-- Config keys: 269
+- Config keys: 271
 - Tools: 3
 - Skills: 0
 - Models: 34
@@ -113,6 +113,7 @@
 - `--verbose`
 - `-c, --continue`
 - `-d, --debug`
+- `-d, --debug [filter]`
 - `-e, --env <env...>`
 - `-g, --global`
 - `-H, --header <header...>`
@@ -377,6 +378,7 @@
 - `_meta`
 - `$schema`
 - `access_token`
+- `activeForm`
 - `additionalContext`
 - `additionalDirectories`
 - `allow`
@@ -464,6 +466,7 @@
 - `filePath`
 - `filterPattern`
 - `forceLoginMethod`
+- `forceLoginOrgUUID`
 - `format`
 - `grant_types`
 - `grant_types_supported`
