@@ -14,5 +14,5 @@ Report that a file was updated and show a numbered snippet from it.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-The file ${EXPR_1} has been updatedlocal. Here's the result of running `cat -n` on a snippet of the edited file:
+The file ${EXPR_1} has been updatednull. Here's the result of running `cat -n` on a snippet of the edited file:
 ${EXPR_2}
