@@ -10,8 +10,8 @@ PackageManagerAutoUpdater skips update when current version is at or above maxVe
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 2.1.44 | None |
+| `EXPR_1` | 2.1.45 | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-PackageManagerAutoUpdater: current version ${EXPR_1: '2.1.44'} is already at or above maxVersion ${EXPR_2}, skipping update
+PackageManagerAutoUpdater: current version ${EXPR_1: '2.1.45'} is already at or above maxVersion ${EXPR_2}, skipping update
