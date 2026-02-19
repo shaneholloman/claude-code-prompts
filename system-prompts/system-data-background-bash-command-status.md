@@ -15,23 +15,24 @@ Template for reporting background bash command and status fields.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | Task | None |
-| `EXPR_7` | Bash | None |
-| `EXPR_8` | Glob | None |
-| `EXPR_9` | Grep | None |
-| `EXPR_10` | ExitPlanMode | None |
-| `EXPR_11` | Read | None |
-| `EXPR_12` | Edit | None |
-| `EXPR_13` | MultiEdit | None |
-| `EXPR_14` | Write | None |
-| `EXPR_15` | NotebookEdit | None |
-| `EXPR_16` | WebFetch | None |
-| `EXPR_17` | WebSearch | None |
-| `EXPR_18` | BashOutput | None |
-| `EXPR_19` | KillBash | None |
-| `EXPR_20` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | Task | None |
+| `EXPR_8` | Bash | None |
+| `EXPR_9` | Glob | None |
+| `EXPR_10` | Grep | None |
+| `EXPR_11` | ExitPlanMode | None |
+| `EXPR_12` | Read | None |
+| `EXPR_13` | Edit | None |
+| `EXPR_14` | MultiEdit | None |
+| `EXPR_15` | Write | None |
+| `EXPR_16` | NotebookEdit | None |
+| `EXPR_17` | WebFetch | None |
+| `EXPR_18` | WebSearch | None |
+| `EXPR_19` | BashOutput | None |
+| `EXPR_20` | KillBash | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -44,70 +45,40 @@ ${EXPR_4}
 
 ${EXPR_5}
 
-${NUM}
+${EXPR_6}
 
-${NUM}
+${EXPR_7: 'Task'}
 
-${NUM}
+${EXPR_8: 'Bash'}
 
-${NUM}
+${EXPR_9: 'Glob'}
 
-${NUM}
+${EXPR_10: 'Grep'}
 
-${NUM}
+${EXPR_11: 'ExitPlanMode'}
 
-${NUM}
+${EXPR_12: 'Read'}
 
-${NUM}
+${EXPR_13: 'Edit'}
 
-${NUM}
+${EXPR_14: 'MultiEdit'}
 
-${NUM}
+${EXPR_15: 'Write'}
 
-${NUM}
+${EXPR_16: 'NotebookEdit'}
 
-${NUM}
+${EXPR_17: 'WebFetch'}
 
-${NUM}
+${EXPR_18: 'WebSearch'}
 
-${NUM}
+${EXPR_19: 'BashOutput'}
 
-${NUM}
+${EXPR_20: 'KillBash'}
 
-${NUM}
+Background Bash ${EXPR_21}
 
-${EXPR_6: 'Task'}
+(command: ${EXPR_22})
 
-${EXPR_7: 'Bash'}
-
-${EXPR_8: 'Glob'}
-
-${EXPR_9: 'Grep'}
-
-${EXPR_10: 'ExitPlanMode'}
-
-${EXPR_11: 'Read'}
-
-${EXPR_12: 'Edit'}
-
-${EXPR_13: 'MultiEdit'}
-
-${EXPR_14: 'Write'}
-
-${EXPR_15: 'NotebookEdit'}
-
-${EXPR_16: 'WebFetch'}
-
-${EXPR_17: 'WebSearch'}
-
-${EXPR_18: 'BashOutput'}
-
-${EXPR_19: 'KillBash'}
-
-Background Bash ${EXPR_20}
-
-(command: ${EXPR_21})
-
-(status: ${EXPR_22})
+(status: ${EXPR_23})
 
 ${NUM}
