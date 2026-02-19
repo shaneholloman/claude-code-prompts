@@ -11,7 +11,6 @@ Record an unknown user response for a specific recommendation context pair.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-[useLspPluginRecommendation] User response: unknown for ${EXPR_1}:${EXPR_2}
+[useLspPluginRecommendation] User response: unknown for ${EXPR_1}
