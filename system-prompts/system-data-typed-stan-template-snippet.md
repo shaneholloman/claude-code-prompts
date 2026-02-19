@@ -18,10 +18,11 @@ Lists basic type keywords, Stan block labels, and inserts paths and usage exampl
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
+| `EXPR_9` | 1 | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 any
@@ -54,19 +55,11 @@ transformed
 
 generated
 
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
 ${EXPR_1}
 
-Usage: ${EXPR_2}
+${EXPR_2}
 
-${EXPR_3}
+Usage: ${EXPR_3}
 
 ${EXPR_4}
 
@@ -78,10 +71,12 @@ ${EXPR_7}
 
 ${EXPR_8}
 
-${EXPR_9}
+${EXPR_9: 1}
 
 ${EXPR_10}
 
 ${EXPR_11}
 
 ${EXPR_12}
+
+${EXPR_13}
