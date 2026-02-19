@@ -18,7 +18,7 @@ CLI help and usage template including type keywords, styles, and multi-line sect
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | 0 | None |
+| `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
@@ -77,13 +77,13 @@ brightCyan
 
 brightMagenta
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
 ${EXPR_2}
 
@@ -99,7 +99,7 @@ ${EXPR_7}
 
 ${EXPR_8}
 
-${EXPR_9: 0}
+${EXPR_9}
 
 ${EXPR_10}
 
