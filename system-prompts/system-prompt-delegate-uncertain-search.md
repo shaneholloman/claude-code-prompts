@@ -26,6 +26,7 @@ When NOT to use the Agent tool:
 - If you are searching for a specific class definition like "class Foo", use the ${EXPR_3: 'Glob'} tool instead, to find the match more quickly
 - If you are searching for code within a specific file or set of ${NUM}-${NUM} files, use the ${EXPR_4: 'Read'} tool instead of the Agent tool, to find the match more quickly
 - Writing code and running bash commands (use other tools for that)
+- Other tasks that are not related to searching for a keyword or file
 
 Usage notes:
 ${NUM}. Launch multiple agents concurrently whenever possible, to maximize performance; to do that, use a single message with multiple tool uses
