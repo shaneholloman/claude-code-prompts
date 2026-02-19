@@ -24,17 +24,17 @@ Here is the full insights data:
 ${EXPR_1}
 
 Report URL: ${EXPR_2}
-HTML file: mcp__${EXPR_3}__${EXPR_4}
-Facets directory: ${EXPR_5}
+HTML file: ${EXPR_3}
+Facets directory: ${EXPR_4}
 
 Here is what the user sees:
-${EXPR_6}
+${EXPR_5}
 
 Now output the following message exactly:
 
 <message>
 Your shareable insights report is ready:
-${EXPR_7}user
+${EXPR_6}${EXPR_7}
 
 Want to dig into any section or try one of the suggestions?
 <${PATH}>
