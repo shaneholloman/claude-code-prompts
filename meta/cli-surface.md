@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 30
-- Env vars: 215
+- Env vars: 220
 - Config keys: 254
 - Tools: 1
 - Skills: 0
@@ -132,6 +132,7 @@
 - `API_TIMEOUT_MS`
 - `APPDATA`
 - `AWS_ACCESS_KEY_ID`
+- `AWS_BEARER_TOKEN_BEDROCK`
 - `AWS_DEFAULT_REGION`
 - `AWS_EXECUTION_ENV`
 - `AWS_PROFILE`
@@ -146,6 +147,8 @@
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
+- `CHOKIDAR_INTERVAL`
+- `CHOKIDAR_USEPOLLING`
 - `CLAUBBIT`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_CODE_ACTION`
@@ -161,6 +164,7 @@
 - `CLAUDE_CODE_ENABLE_UNIFIED_READ_TOOL`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
+- `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
@@ -177,6 +181,7 @@
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `COMMIT_REF`
+- `COMSPEC`
 - `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
 - `DEBUG`
@@ -611,6 +616,7 @@ _None detected_
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
+- `claude-ai-external-token`
 - `claude-cli`
 - `claude-code`
 - `claude-code-20250219`
@@ -623,7 +629,6 @@ _None detected_
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-20250514`
-- `claude-opus-welcome`
 - `claude-review`
 - `claude-sandbox-`
 - `claude-sonnet-4`
