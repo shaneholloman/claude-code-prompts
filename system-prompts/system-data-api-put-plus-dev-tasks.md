@@ -19,10 +19,6 @@ Template for GitHub API PUT file update plus assorted development task prompts.
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 api
@@ -51,8 +47,6 @@ project
 
 local
 
-${NUM}
-
 fix lint errors
 
 fix typecheck errors
@@ -68,11 +62,3 @@ edit ${EXPR_8} to...
 write a test for ${EXPR_9}
 
 create a util logging.py that...
-
-${EXPR_10}
-
-${EXPR_11}
-
-${EXPR_12}
-
-${EXPR_13}
