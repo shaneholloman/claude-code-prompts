@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.93
+# Prompt Stats 0.2.94
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -30,13 +30,12 @@
 | system | [System Prompt: Local File Read](../system-prompts/system-prompt-local-file-read.md) | 1297 | 314 | 0.2.83 | 0.2.83 |
 | system | [System Prompt: Local Function Conversation Title](../system-prompts/system-prompt-local-function-conversation-title.md) | 180 | 56 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Malicious Files Refusal Check](../system-prompts/system-prompt-malicious-files-refusal-check.md) | 98 | 30 | 0.2.89 | 0.2.89 |
-| system | [System Prompt: Multi Synthesis](../system-prompts/system-prompt-multi-synthesis.md) | 898 | 295 | 0.2.93 | 0.2.93 |
-| system | [System Prompt: Multi Synthesis 2](../system-prompts/system-prompt-multi-synthesis-2.md) | 652 | 159 | 0.2.72 | 0.2.93 |
-| system | [System Prompt: Multi Synthesis 3](../system-prompts/system-prompt-multi-synthesis-3.md) | 700 | 180 | 0.2.93 | 0.2.93 |
-| system | [System Prompt: Multi Synthesis 4](../system-prompts/system-prompt-multi-synthesis-4.md) | 652 | 159 | 0.2.72 | 0.2.93 |
-| system | [System Prompt: Multi Synthesis 5](../system-prompts/system-prompt-multi-synthesis-5.md) | 662 | 166 | 0.2.91 | 0.2.93 |
-| system | [System Prompt: Multi Synthesis 6](../system-prompts/system-prompt-multi-synthesis-6.md) | 676 | 168 | 0.2.91 | 0.2.93 |
-| system | [System Prompt: Multi Synthesis 7](../system-prompts/system-prompt-multi-synthesis-7.md) | 653 | 160 | 0.2.91 | 0.2.93 |
+| system | [System Prompt: Multi Synthesis](../system-prompts/system-prompt-multi-synthesis.md) | 891 | 290 | 0.2.94 | 0.2.94 |
+| system | [System Prompt: Multi Synthesis 2](../system-prompts/system-prompt-multi-synthesis-2.md) | 652 | 159 | 0.2.72 | 0.2.94 |
+| system | [System Prompt: Multi Synthesis 3](../system-prompts/system-prompt-multi-synthesis-3.md) | 652 | 159 | 0.2.72 | 0.2.94 |
+| system | [System Prompt: Multi Synthesis 4](../system-prompts/system-prompt-multi-synthesis-4.md) | 702 | 190 | 0.2.94 | 0.2.94 |
+| system | [System Prompt: Multi Synthesis 5](../system-prompts/system-prompt-multi-synthesis-5.md) | 674 | 169 | 0.2.94 | 0.2.94 |
+| system | [System Prompt: Multi Synthesis 6](../system-prompts/system-prompt-multi-synthesis-6.md) | 653 | 160 | 0.2.91 | 0.2.94 |
 | system | [System Prompt: Nested Template Functions](../system-prompts/system-prompt-nested-template-functions.md) | 345 | 134 | 0.2.54 | 0.2.54 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Secure Bash Command Runner 2](../system-prompts/system-prompt-secure-bash-command-runner-2.md) | 11692 | 2988 | 0.2.83 | 0.2.83 |
@@ -46,9 +45,9 @@
 | system | [System Prompt: Snapshot Zsh Functions Options](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | 471 | 158 | 0.2.73 | 0.2.73 |
 | system | [System Prompt: Summarize Coding Chat Status](../system-prompts/system-prompt-summarize-coding-chat-status.md) | 139 | 33 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Summarize Shell Command](../system-prompts/system-prompt-summarize-shell-command.md) | 304 | 78 | 0.2.59 | 0.2.59 |
-| system | [System Prompt: Synthesize Multi Solution](../system-prompts/system-prompt-synthesize-multi-solution.md) | 1407 | 510 | 0.2.93 | 0.2.93 |
+| system | [System Prompt: Synthesize Multi Solution](../system-prompts/system-prompt-synthesize-multi-solution.md) | 1400 | 505 | 0.2.94 | 0.2.94 |
 | system | [System Prompt: Title With Files Context](../system-prompts/system-prompt-title-with-files-context.md) | 165 | 46 | 0.2.91 | 0.2.91 |
-| system | [System Prompt: Unify Agents Into Answer](../system-prompts/system-prompt-unify-agents-into-answer.md) | 869 | 266 | 0.2.91 | 0.2.93 |
+| system | [System Prompt: Unify Agents Into Answer](../system-prompts/system-prompt-unify-agents-into-answer.md) | 853 | 255 | 0.2.94 | 0.2.94 |
 | system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.54 |
 | system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 147 | 42 | 0.2.91 | 0.2.93 |
 | system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 148 | 41 | 0.2.93 | 0.2.93 |
@@ -57,10 +56,10 @@
 | system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 147 | 41 | 0.2.91 | 0.2.93 |
 | system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 158 | 49 | 0.2.91 | 0.2.93 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 147 | 42 | 0.2.91 | 0.2.93 |
-| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 0.2.93 |
+| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 0.2.94 |
 | system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 146 | 41 | 0.2.93 | 0.2.93 |
 | system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 181 | 62 | 0.2.91 | 0.2.93 |
-| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 0.2.93 |
+| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 0.2.94 |
 | system | [System Prompt: Write Title For Conversation](../system-prompts/system-prompt-write-title-for-conversation.md) | 161 | 46 | 0.2.91 | 0.2.91 |
 | system-data | [System Data: Append Memory Entry](../system-prompts/system-data-append-memory-entry.md) | 93 | 37 | 0.2.54 | 0.2.54 |
 | system-data | [System Data: Cell Tag Template](../system-prompts/system-data-cell-tag-template.md) | 181 | 110 | 0.2.93 | 0.2.93 |
