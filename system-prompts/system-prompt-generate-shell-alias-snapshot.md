@@ -12,8 +12,7 @@ Generate a shell alias snapshot file by unaliasing first, then writing filtered 
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
+| `EXPR_3` | echo alias | None |
 
 # Raw Prompt Text
 SNAPSHOT_FILE=${EXPR_1}
@@ -43,8 +42,4 @@ SNAPSHOT_FILE=${EXPR_1}
       # Check if rg is available, if not create an alias to bundled ripgrep
       echo "# Check for rg availability" >> "$SNAPSHOT_FILE"
       echo "if ! command -v rg >${PATH} ${NUM}>&${NUM}; then" >> "$SNAPSHOT_FILE"
-      echo "  alias rg='${EXPR_3}'" >> "$SNAPSHOT_FILE"
-      echo "fi" >> "$SNAPSHOT_FILE"
-
-      # Add PATH to the file
-      echo "export PATH=${EXPR_4}" >> "$SNAPSHOT_FILE"
+      echo '  alias rg='"'${EXPR_3}
