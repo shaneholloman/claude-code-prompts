@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 16
+- Commands: 17
 - Options: 37
-- Env vars: 290
+- Env vars: 291
 - Config keys: 358
 - Tools: 3
 - Skills: 0
-- Models: 44
+- Models: 47
 - Providers: 7
 
 ## Commands
@@ -22,6 +22,7 @@
 - `get`
 - `install`
 - `list`
+- `marketplace`
 - `mcp`
 - `migrate-installer`
 - `plugin`
@@ -35,12 +36,14 @@
 ### Specs
 
 - `add <name> <commandOrUrl> [args...]`
+- `add <source>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
 - `doctor`
 - `get <name>`
 - `install [target]`
 - `list`
+- `marketplace`
 - `mcp`
 - `migrate-installer`
 - `plugin`
@@ -49,6 +52,7 @@
 - `serve`
 - `setup-token`
 - `update`
+- `update [name]`
 - `validate <path>`
 
 ## Options
@@ -395,6 +399,7 @@
 - `VERTEX_REGION_CLAUDE_4_0_SONNET`
 - `VERTEX_REGION_CLAUDE_4_1_OPUS`
 - `VERTEX_REGION_CLAUDE_4_5_SONNET`
+- `VERTEX_REGION_CLAUDE_HAIKU_4_5`
 - `VISUAL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
@@ -813,11 +818,13 @@ _None detected_
 - `claude-code-jetbrains-plugin`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-user`
+- `claude-haiku-4-5`
+- `claude-haiku-4-5-20251001`
+- `claude-http-`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
-- `claude-netbridge-`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
@@ -826,6 +833,7 @@ _None detected_
 - `claude-prompt`
 - `claude-review`
 - `claude-settings`
+- `claude-socks-`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
