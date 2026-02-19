@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 19
 - Env vars: 149
-- Config keys: 120
+- Config keys: 121
 - Tools: 0
 - Skills: 0
 - Models: 18
@@ -246,6 +246,7 @@
 
 - `_meta`
 - `access_token`
+- `addToPrompt`
 - `allow`
 - `api`
 - `args`
