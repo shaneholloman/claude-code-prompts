@@ -11,7 +11,7 @@ Reports a custom output style file loaded from a specified plugin.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | resolved list (4 items) | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Loaded output style from plugin ${EXPR_1} custom file: ${EXPR_2}
