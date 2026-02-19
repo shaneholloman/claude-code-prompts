@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 20
-- Env vars: 152
-- Config keys: 126
+- Env vars: 155
+- Config keys: 127
 - Tools: 0
 - Skills: 0
 - Models: 20
@@ -109,6 +109,7 @@
 - `AWS_ACCESS_KEY_ID`
 - `AWS_DEFAULT_REGION`
 - `AWS_EXECUTION_ENV`
+- `AWS_PROFILE`
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
@@ -117,6 +118,7 @@
 - `CF_PAGES_COMMIT_SHA`
 - `CLAUBBIT`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
+- `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
@@ -138,6 +140,7 @@
 - `DISABLE_TELEMETRY`
 - `DYNO`
 - `EDITOR`
+- `ENABLE_IDE_INTEGRATION`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
@@ -328,6 +331,7 @@
 - `reason`
 - `redirect_uris`
 - `refresh_token`
+- `region`
 - `registration_endpoint`
 - `required`
 - `resource`
