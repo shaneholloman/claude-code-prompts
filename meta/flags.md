@@ -1,8 +1,9 @@
-# Claude Code 2.1.6 – Flags
+# Claude Code 2.1.7 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `auto_migrate_to_native` | gate | tools | Enables automatic CLI migration to a native updater, with analytics events emitted. | Exact migration behavior not shown; only gating and event names are visible. | medium | 1 |
+| `enhanced_telemetry_beta` | experiment | telemetry | Enables enhanced telemetry via env override, else uses remote experiment default. | Only shows gating logic; telemetry behavior not shown. | medium | 1 |
 | `hide_overages_option_at_rate_limit_hit` | experiment | ui | Controls whether to show extra usage/overage option in rate-limit options menu | Affects rate-limit options list and auto-opening behavior. | high | 2 |
 | `preserve_thinking` | experiment | networking | Adds a beta option for preserving model thinking in first-party requests | Ny2 meaning not shown; inferred as request beta/header token. | medium | 2 |
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
@@ -10,11 +11,13 @@
 | `sonnet_45_1m_header` | experiment | networking | Enables adding a special 1-minute header for a specific Sonnet model variant. | Exact meaning of pushed header value is unclear from snippet. | medium | 1 |
 | `tengu_ant_attribution_header_new` | gate | prompts | controls new attribution header text in a Claude Code system prompt | Flag is read but shown return path is empty/obfuscated. | medium | 1 |
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
+| `tengu_chrome_auto_enable` | experiment | tools | Auto-enable Claude-in-Chrome native host integration via MCP stdio config. | Based on nearby native-host/MCP strings; exact behavior inferred. | medium | 1 |
+| `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 8 |
+| `tengu_compact_streaming_retry` | experiment | networking | Controls retry attempts when streaming a conversation-compaction summary request fails | Exact retry count K97 not shown. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_file_edit_optimization` | experiment | tools | Simplifies file edit tool output to a success message instead of detailed snippet | Only affects tool_result formatting in this mapping function. | high | 1 |
 | `tengu_mcp_tool_search` | experiment | tools | Selects a test mode for tool search behavior in the MCP CLI. | Exact behavior of "tst" mode not shown. | medium | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
-| `tengu_opus_default_pro_plan` | experiment | tools | Controls whether Opus is the default model for plan subscribers | Exact effect inferred from nearby model/plan selection logic. | medium | 1 |
 | `tengu_permission_explainer` | experiment | tools | Enable permission explanation text for tool invocations in CLI. | Only one occurrence; behavior inferred from toolName/toolDescription string building. | medium | 1 |
 | `tengu_pid_based_version_locking` | experiment | filesystem | Enable PID-based version locking to avoid concurrent or conflicting runs | Only PID/process check context is visible. | low | 1 |
 | `tengu_prompt_suggestion` | gate | prompts | Enable prompt suggestions setting in user preferences UI. | Gates only the settings toggle visibility. | high | 1 |

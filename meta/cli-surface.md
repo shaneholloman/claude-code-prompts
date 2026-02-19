@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 50
-- Env vars: 401
-- Config keys: 341
+- Env vars: 399
+- Config keys: 340
 - Tools: 3
 - Skills: 0
-- Models: 80
+- Models: 81
 - Providers: 7
 
 ## Commands
@@ -250,7 +250,6 @@
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
-- `CLAUDE_CODE_AGENT_ID`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
@@ -279,6 +278,7 @@
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
+- `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION`
 - `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
@@ -299,7 +299,6 @@
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
-- `CLAUDE_CODE_PARENT_SESSION_ID`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PROFILE_STARTUP`
@@ -320,7 +319,6 @@
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TASK_LIST_ID`
-- `CLAUDE_CODE_TEAM_NAME`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_USE_BEDROCK`
@@ -675,10 +673,10 @@
 - `displayWidth`
 - `durationMs`
 - `durationSeconds`
-- `e_`
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
+- `Ej`
 - `email`
 - `enableAllProjectMcpServers`
 - `enabled`
@@ -706,7 +704,6 @@
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `fullName`
-- `generatedSizeBytes`
 - `gitCommitSha`
 - `hasPrompts`
 - `hasResources`
@@ -1009,6 +1006,7 @@ _None detected_
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4.5-available`
+- `opus-pro-update`
 - `sonnet-1m-welcome`
 - `sonnet-3-7`
 - `sonnet-4`
