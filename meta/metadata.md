@@ -7,35 +7,35 @@
 
 ## Bundle
 
-- Entry bytes: 6904095 bytes
-- Entry lines: 2301
+- Entry bytes: 7229820 bytes
+- Entry lines: 2341
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 8929544 bytes
-- Pretty lines: 153716
+- Pretty bytes: 9328169 bytes
+- Pretty lines: 159494
 
 ## Inventory
 
 - File count: 51
-- Size bytes: 168417445
+- Size bytes: 168787650
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.jar`: 33 files, 12334472 bytes
-- `.js`: 2 files, 6905061 bytes
+- `.jar`: 33 files, 12378951 bytes
+- `.js`: 2 files, 7230786 bytes
 - `.json`: 1 files, 1077 bytes
 - `.md`: 2 files, 3940 bytes
 - `.node`: 5 files, 122220044 bytes
-- `.vsix`: 1 files, 69051 bytes
+- `.vsix`: 1 files, 69052 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
-- `.jar`: 12334472 bytes
+- `.jar`: 12378951 bytes
 - `.node`: 122220044 bytes
-- `.vsix`: 69051 bytes
+- `.vsix`: 69052 bytes
 - `.wasm`: 88658 bytes
 
 ### Files
@@ -46,8 +46,8 @@
 - `README.md`
 - `scripts/preinstall.js`
 - `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.1-beta-searchableOptions.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.1-beta.jar`
+- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.3-beta-searchableOptions.jar`
+- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.3-beta.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/config-1.4.3.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/jansi-2.4.1.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/kotlin-logging-jvm-7.0.0.jar`
@@ -94,18 +94,18 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:28:30 UTC
+- Snapshot generated at: 2026-02-18 04:31:10 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `90a7583a1f2dbb2defe205bd74c7f7ef342e63976d8e28987d0cdcc185da615d`
+- Config hash: `7c813f95c9603cab46d886dd58059299e1966f25e2ec452479b8db8949006f14`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 293,392
+- Total prompt tokens: 294,940
 - Token p95 / p99: 1,063 / 3,024
 
 ### By Kind
 
-- `system-data`: 265,395 tokens (90.5%)
-- `system`: 16,486 tokens (5.6%)
+- `system-data`: 267,140 tokens (90.6%)
+- `system`: 16,268 tokens (5.5%)
 - `tool`: 7,564 tokens (2.6%)
-- `system-reminder`: 3,947 tokens (1.3%)
+- `system-reminder`: 3,968 tokens (1.3%)
