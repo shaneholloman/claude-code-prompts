@@ -1,4 +1,4 @@
-# System Data Block: cli-linters-metadata-3
+# System Data Block: linter-list
 
 - Source: inline
 
