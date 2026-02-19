@@ -214,6 +214,7 @@ EOF
 
 Important:
 - NEVER update the git config
+- Return the PR URL when you're done, so the user can see it
 
 # Other common operations
 - View comments on a Github PR: gh api repos${PATH}
