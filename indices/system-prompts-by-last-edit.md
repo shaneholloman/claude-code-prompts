@@ -16,12 +16,12 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.126 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.126 |
 | [`system-prompt-safe-bash-command-execution.md`](../system-prompts/system-prompt-safe-bash-command-execution.md) | Defines steps for securely running bash commands with quoting and directory checks. | 2,478 | 1.0.125 | 1.0.125 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.125 |
 | [`system-prompt-sandboxed-command-execution-rules.md`](../system-prompts/system-prompt-sandboxed-command-execution-rules.md) | Sandboxed command execution template with strict warnings against overriding sandbox by default. | 530 | 1.0.125 | 1.0.125 |
 | [`system-prompt-constants-and-stdio-streams.md`](../system-prompts/system-prompt-constants-and-stdio-streams.md) | Lists constants and stream-json argument scaffolding with clipboard image notice. | 293 | 1.0.125 | 1.0.125 |
 | [`system-prompt-stdio-changes-stream-json.md`](../system-prompts/system-prompt-stdio-changes-stream-json.md) | System block describing stdio agent changes and stream-json arguments. | 141 | 1.0.125 | 1.0.125 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.125 |
 | [`system-prompt-uninstall-flags-local-snippet.md`](../system-prompts/system-prompt-uninstall-flags-local-snippet.md) | Repeated snippet listing uninstall flags and local context terms. | 75 | 1.0.125 | 1.0.125 |
 | [`system-prompt-stream-json-args-logic.md`](../system-prompts/system-prompt-stream-json-args-logic.md) | Implements conditional argument handling for stream-json in a gitignored project context. | 254 | 1.0.124 | 1.0.124 |
 | [`system-prompt-format-type-validation-setup.md`](../system-prompts/system-prompt-format-type-validation-setup.md) | Selects format handler, infers schema type from object validators, and defaults to string | 143 | 1.0.124 | 1.0.124 |
@@ -283,8 +283,8 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.125 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.125 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.126 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.126 |
 | [`system-reminder-local-project-uninstall-title.md`](../system-prompts/system-reminder-local-project-uninstall-title.md) | Create a NUM-NUM word conversation title from the last EXPR_1 of EXPR_2 messages. | 76 | 1.0.125 | 1.0.125 |
 | [`system-reminder-defensive-security-cli-guidelines.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines.md) | CLI assistant rules for defensive security help, safe tool use, and feedback guidance. | 3,111 | 1.0.122 | 1.0.122 |
 | [`system-reminder-pattern-line.md`](../system-prompts/system-reminder-pattern-line.md) | System reminder containing URLs, a context line, a quoted pattern, and a path. | 46 | 1.0.122 | 1.0.122 |

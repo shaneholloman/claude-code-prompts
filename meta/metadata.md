@@ -17,7 +17,7 @@
 ## Inventory
 
 - File count: 52
-- Size bytes: 78190896
+- Size bytes: 78191091
 
 ### Extension Counts
 
@@ -26,7 +26,7 @@
 - `.js`: 1 files, 9403473 bytes
 - `.json`: 1 files, 1153 bytes
 - `.md`: 2 files, 2419 bytes
-- `.mjs`: 1 files, 511212 bytes
+- `.mjs`: 1 files, 511407 bytes
 - `.node`: 5 files, 28944544 bytes
 - `.ts`: 2 files, 22338 bytes
 - `.wasm`: 1 files, 88658 bytes
@@ -95,9 +95,9 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 10:39:44 UTC
+- Snapshot generated at: 2026-02-18 10:41:50 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `79e1221b75f16d98a3af60351b3e8129b7992fd0a6501b3c4a6d5903afc28ba5`
+- Config hash: `fd3d6172755328f6e3c31ac57c7e42b6ecbb3b13fba98716283c1f7ba4539277`
 
 ## Prompt Token Distribution
 
