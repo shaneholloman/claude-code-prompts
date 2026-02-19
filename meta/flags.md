@@ -1,4 +1,4 @@
-# Claude Code 2.0.51 – Flags
+# Claude Code 2.0.52 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -9,6 +9,7 @@
 | `cc_onboarding_hide_workspace` | experiment | ui | Controls whether a workspace onboarding tip/step is hidden in CLI onboarding flow. | Exact UI location not shown; inferred from onboarding tip strings. | high | 1 |
 | `cc_onboarding_init_modal` | experiment | ui | Controls showing an initial onboarding modal on first session startup | Gated by first startup and onboarding-not-shown state. | high | 1 |
 | `claude_code_overages_upgrade_cta` | experiment | ui | Controls CLI overage upgrade call-to-action variant and interactive options menu behavior | Only seen in CLI React component logic. | high | 1 |
+| `claude_code_usage_show_extra_usage` | experiment | ui | Controls displaying an extra usage panel/column in the CLI for pro/max users. | Applies only to pro/max and when extra usage is enabled. | high | 1 |
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `preserve_thinking` | experiment | networking | Adds a beta option for preserving model thinking in first-party requests | Ny2 meaning not shown; inferred as request beta/header token. | medium | 2 |
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
