@@ -4,11 +4,11 @@
 
 - Commands: 16
 - Options: 39
-- Env vars: 269
-- Config keys: 330
+- Env vars: 272
+- Config keys: 348
 - Tools: 3
 - Skills: 0
-- Models: 39
+- Models: 41
 - Providers: 7
 
 ## Commands
@@ -169,6 +169,7 @@
 - `CHOKIDAR_INTERVAL`
 - `CHOKIDAR_USEPOLLING`
 - `CLAUBBIT`
+- `CLAUDE_AGENT_SDK_VERSION`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CODE_ACTION`
@@ -180,8 +181,10 @@
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
+- `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
+- `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
@@ -411,6 +414,7 @@
 - `activeForm`
 - `additionalContext`
 - `additionalDirectories`
+- `agents`
 - `allow`
 - `allowLocalBinding`
 - `allowOnly`
@@ -458,8 +462,10 @@
 - `codeText`
 - `command`
 - `commandName`
+- `commands`
 - `completions`
 - `compressible`
+- `config`
 - `contacts`
 - `content`
 - `contents`
@@ -524,6 +530,7 @@
 - `headers`
 - `headersHelper`
 - `hints`
+- `homepage`
 - `hookEventName`
 - `hooks`
 - `hookSpecificOutput`
@@ -542,6 +549,9 @@
 - `initialWindowSize`
 - `input`
 - `input_tokens`
+- `installedAt`
+- `installLocation`
+- `installPath`
 - `intelligencePriority`
 - `interrupt`
 - `interrupted`
@@ -554,8 +564,11 @@
 - `jsonrpc`
 - `jwks`
 - `jwks_uri`
+- `keywords`
 - `language`
+- `lastUpdated`
 - `libvips`
+- `license`
 - `line`
 - `lineEnd`
 - `lines`
@@ -565,12 +578,14 @@
 - `logging`
 - `login`
 - `logo_uri`
+- `marketplace`
 - `matcher`
 - `maximum`
 - `maxLength`
 - `mcp_response`
 - `mcpServers`
 - `message`
+- `metadata`
 - `method`
 - `mimeType`
 - `minimum`
@@ -602,12 +617,16 @@
 - `output_tokens`
 - `outputStyle`
 - `owner`
+- `package`
 - `padding`
 - `params`
+- `path`
 - `permissionDecision`
 - `permissionDecisionReason`
 - `permissions`
 - `plan`
+- `pluginRoot`
+- `plugins`
 - `policy_uri`
 - `policySettings`
 - `progress`
@@ -625,8 +644,10 @@
 - `refresh_token`
 - `region`
 - `registration_endpoint`
+- `registry`
 - `replaceAll`
 - `repo`
+- `repository`
 - `request_object_encryption_alg_values_supported`
 - `request_object_encryption_enc_values_supported`
 - `request_object_signing_alg_values_supported`
@@ -768,6 +789,7 @@ _None detected_
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-jetbrains-plugin`
+- `Claude-Code-Plugin-Manager`
 - `claude-code-user`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
@@ -785,6 +807,7 @@ _None detected_
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
 - `claude-vscode`
+- `opus-limit-reached`
 - `sonnet-1m-welcome`
 
 ## Providers
