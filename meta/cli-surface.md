@@ -5,7 +5,7 @@
 - Commands: 27
 - Options: 44
 - Env vars: 334
-- Config keys: 381
+- Config keys: 382
 - Tools: 3
 - Skills: 0
 - Models: 52
@@ -718,6 +718,7 @@
 - `numFiles`
 - `numLines`
 - `numMatches`
+- `ok`
 - `oldLines`
 - `oldStart`
 - `oldString`

@@ -1,4 +1,4 @@
-# Claude Code 2.0.36 – Flags
+# Claude Code 2.0.37 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -19,6 +19,7 @@
 | `tengu_cap_grep_results` | experiment | tools | Limit grep tool output size via configurable cap when head_limit not provided | Appears to control default head_limit for grep results. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
+| `tengu_file_edit_optimization` | experiment | tools | Simplifies file edit tool output to a success message instead of detailed snippet | Only affects tool_result formatting in this mapping function. | high | 1 |
 | `tengu_gha_plugin_code_review` | gate | tools | Controls which GitHub Actions code review workflow template is written | Gate selects between two workflow contents (OY2 vs MY2). | high | 1 |
 | `tengu_haiku_default_pro_plan` | experiment | tools | Switches default model selection to Haiku for plan users. | Exact effect depends on XY and surrounding model-selection logic. | medium | 1 |
 | `tengu_log_1p_events` | gate | telemetry | Enables emitting first-party telemetry events with IDs and session/user attributes. | Also gated by EV(), K0(), and GB0 availability. | medium | 1 |
@@ -26,4 +27,5 @@
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
 | `tengu_streaming_tool_execution` | gate | tools | Enables streaming-time tool execution handler during CLI request loop | Only observed gating creation of a tool execution object. | high | 1 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
+| `tool_use_examples` | experiment | tools | Include tool input example data and enable related first-party tool option. | Applies only when enabled; one path gated to firstParty. | high | 2 |
 | `trust_folder_dialog_copy` | experiment | safety | Selects copy variant for a trust-folder security prompt with continue/exit choices. | Actual variant text mapping not included. | high | 1 |
