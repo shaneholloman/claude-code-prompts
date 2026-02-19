@@ -18,10 +18,6 @@ Lists file-search flags and common code tasks: fix errors, explain, refactor, lo
 | `EXPR_6` | None | None |
 
 # Raw Prompt Text
-"
-
-'
-
 ${EXPR_1}
 
 --files
@@ -47,3 +43,7 @@ edit ${EXPR_5} to...
 write a test for ${EXPR_6}
 
 create a util logging.py that...
+
+"
+
+'
