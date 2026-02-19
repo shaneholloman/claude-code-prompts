@@ -46,7 +46,7 @@ Usage notes:
   - You can specify an optional timeout in milliseconds (up to ${EXPR_1}ms / ${EXPR_2} minutes). If not specified, commands will timeout after 120000ms (${EXPR_3} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
   - If the output exceeds ${EXPR_4} characters, output will be truncated before being returned to you.
-  - You can use the `run_in_background` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the Bash tool as it becomes available. Never use `run_in_background` to run 'sleep' as it will return immediately. You do not need to use '&' at the end of the command when using this parameter.
+  - You can use the `run_in_background` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the Bash tool as it becomes available. You do not need to use '&' at the end of the command when using this parameter.
   - Commands run in a sandbox by default with the following restrictions:
 "
 '
