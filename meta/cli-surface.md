@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 32
 - Env vars: 236
-- Config keys: 269
+- Config keys: 270
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -360,6 +360,7 @@
 
 - `_meta`
 - `-c`
+- `$schema`
 - `access_token`
 - `additionalContext`
 - `additionalDirectories`
