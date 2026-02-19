@@ -61,11 +61,11 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 18:14:22 UTC
+- Snapshot generated at: 2026-02-18 18:18:30 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `8cd9780771a7dc52617479b1c6005604270c2a5442abcde894531d324a1d41f5`
-- Embedded build timestamp: 2026-01-22 19:02:14 UTC
-- Relative to embedded build timestamp: 26d 23h 12m 8s (2026-01-22 19:02:14 UTC → 2026-02-18 18:14:22 UTC)
+- Config hash: `debe4ef96389d81b6b237dc987befe8bd7e7b296bc7ee66d522efa30ba662046`
+- Embedded build timestamp: 2026-01-22 21:01:06 UTC
+- Relative to embedded build timestamp: 26d 21h 17m 24s (2026-01-22 21:01:06 UTC → 2026-02-18 18:18:30 UTC)
 
 ## Prompt Token Distribution
 
