@@ -7,29 +7,28 @@
 
 ## Bundle
 
-- Entry bytes: 6850588 bytes
-- Entry lines: 2196
+- Entry bytes: 6852722 bytes
+- Entry lines: 2191
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 8882350 bytes
-- Pretty lines: 155432
+- Pretty bytes: 8885077 bytes
+- Pretty lines: 155490
 
 ## Inventory
 
-- File count: 61
-- Size bytes: 168811278
+- File count: 62
+- Size bytes: 168291421
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12288340 bytes
-- `.js`: 2 files, 6851554 bytes
-- `.json`: 6 files, 28866 bytes
+- `.js`: 2 files, 6853688 bytes
+- `.json`: 7 files, 36713 bytes
 - `.md`: 2 files, 3940 bytes
 - `.node`: 5 files, 122220044 bytes
 - `.sh`: 1 files, 3158 bytes
-- `.sql`: 4 files, 1602 bytes
-- `.vsix`: 1 files, 529974 bytes
+- `.sql`: 5 files, 1738 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
@@ -37,7 +36,6 @@
 - `.exe`: 5407744 bytes
 - `.jar`: 12288340 bytes
 - `.node`: 122220044 bytes
-- `.vsix`: 529974 bytes
 - `.wasm`: 88658 bytes
 
 ### Files
@@ -49,11 +47,13 @@
 - `migrations/0001_reflective_ulik.sql`
 - `migrations/0002_daffy_masked_marvel.sql`
 - `migrations/0003_dusty_ezekiel_stane.sql`
+- `migrations/0004_secret_iron_patriot.sql`
 - `migrations/meta/_journal.json`
 - `migrations/meta/0000_snapshot.json`
 - `migrations/meta/0001_snapshot.json`
 - `migrations/meta/0002_snapshot.json`
 - `migrations/meta/0003_snapshot.json`
+- `migrations/meta/0004_snapshot.json`
 - `package.json`
 - `README.md`
 - `scripts/preinstall.js`
@@ -90,7 +90,6 @@
 - `vendor/claude-code-jetbrains-plugin/lib/ktor-websocket-serialization-jvm-3.0.2.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/ktor-websockets-jvm-3.0.2.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/slf4j-api-2.0.16.jar`
-- `vendor/claude-code.vsix`
 - `vendor/ripgrep/arm64-darwin/rg`
 - `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
@@ -106,17 +105,17 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:02:34 UTC
+- Snapshot generated at: 2026-02-18 04:03:52 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `0f0745e88eb114e3f619d775d2410da298c60caa2379ffb4107fa497827a10d7`
+- Config hash: `cfec608d8d9863946eecc824368e713994609711cbbaecd62e8840001abec43c`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 287,799
-- Token p95 / p99: 1,791 / 3,042
+- Total prompt tokens: 287,861
+- Token p95 / p99: 1,099 / 3,042
 
 ### By Kind
 
-- `system-data`: 264,740 tokens (92.0%)
-- `system`: 15,239 tokens (5.3%)
+- `system-data`: 264,785 tokens (92.0%)
+- `system`: 15,256 tokens (5.3%)
 - `tool`: 7,820 tokens (2.7%)
