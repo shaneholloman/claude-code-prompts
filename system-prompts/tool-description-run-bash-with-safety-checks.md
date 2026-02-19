@@ -55,7 +55,7 @@ ${EXPR_5}
 
 When the user asks you to create a new git commit, follow these steps carefully:
 
-${NUM}. ${EXPR_6} run the following commands in parallel:
+${NUM}. ${EXPR_6} run the following bash commands in parallel, each using the Bash tool:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
@@ -111,7 +111,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. ${EXPR_8} run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. ${EXPR_8} run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
