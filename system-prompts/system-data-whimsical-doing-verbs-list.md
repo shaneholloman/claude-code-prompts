@@ -186,3 +186,9 @@ Wizarding
 Working
 
 Wrangling
+
+userSettings
+
+projectSettings
+
+localSettings
