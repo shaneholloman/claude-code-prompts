@@ -11,10 +11,6 @@ Enumerates error object fields, linter/formatter tool names, and numeric cast he
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 name
@@ -149,10 +145,34 @@ asInt
 
 ${EXPR_1}
 
-${EXPR_2}
+${NUM}
 
-${EXPR_3}
+${NUM}
 
-${EXPR_4}
+${NUM}
 
-${EXPR_5}
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
