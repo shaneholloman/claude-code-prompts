@@ -15,7 +15,7 @@ System-data template listing numeric sections, args/null marker, and nine expres
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | stream-json | None |
+| `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
@@ -69,7 +69,7 @@ args
 
 null
 
-${EXPR_6: 'stream-json'}
+${EXPR_6}
 
 ${EXPR_7}
 
