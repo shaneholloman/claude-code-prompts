@@ -16,13 +16,18 @@ Lists file-search flags and common code tasks: fix errors, explain, refactor, lo
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
-"
-
-'
-
 ${EXPR_1}
+
+${EXPR_2}
+
+${EXPR_3}
+
+${EXPR_4}
 
 --files
 
@@ -30,20 +35,20 @@ ${EXPR_1}
 
 --hidden
 
-${EXPR_2}
+${EXPR_5}
 
 fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_3} work?
+how does ${EXPR_6} work?
 
-refactor ${EXPR_4}
+refactor ${EXPR_7}
 
 how do I log an error?
 
-edit ${EXPR_5} to...
+edit ${EXPR_8} to...
 
-write a test for ${EXPR_6}
+write a test for ${EXPR_9}
 
 create a util logging.py that...
