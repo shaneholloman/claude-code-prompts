@@ -23,7 +23,7 @@ Background bash commands with status and related file listings.
 | `EXPR_11` | WebFetch | None |
 | `EXPR_12` | WebSearch | None |
 | `EXPR_13` | BashOutput | None |
-| `EXPR_14` | KillBash | None |
+| `EXPR_14` | KillShell | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
@@ -62,7 +62,7 @@ ${EXPR_12: 'WebSearch'}
 
 ${EXPR_13: 'BashOutput'}
 
-${EXPR_14: 'KillBash'}
+${EXPR_14: 'KillShell'}
 
 Background Bash ${EXPR_15}
 
