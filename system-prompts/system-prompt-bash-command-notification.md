@@ -1,4 +1,4 @@
-# System Prompt: bash-output-file-notification
+# System Prompt: bash-command-notification
 
 - Source: inline
 
