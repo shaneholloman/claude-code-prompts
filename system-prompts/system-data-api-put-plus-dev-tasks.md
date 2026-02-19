@@ -23,8 +23,6 @@ Template for GitHub API PUT file update plus assorted development task prompts.
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
 
 # Raw Prompt Text
 api
@@ -53,30 +51,28 @@ project
 
 local
 
-pattern: "${EXPR_6}"
-
-${EXPR_7}
+${NUM}
 
 fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_8} work?
+how does ${EXPR_6} work?
 
-refactor ${EXPR_9}
+refactor ${EXPR_7}
 
 how do I log an error?
 
-edit ${EXPR_10} to...
+edit ${EXPR_8} to...
 
-write a test for ${EXPR_11}
+write a test for ${EXPR_9}
 
 create a util logging.py that...
+
+${EXPR_10}
+
+${EXPR_11}
 
 ${EXPR_12}
 
 ${EXPR_13}
-
-${EXPR_14}
-
-${EXPR_15}
