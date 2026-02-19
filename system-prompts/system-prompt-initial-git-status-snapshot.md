@@ -20,7 +20,7 @@ Current branch: ${EXPR_1}
 Main branch (you will usually use this for PRs): ${EXPR_2}
 
 Status:
-(clean)
+<filepath>
 
 Recent commits:
 null
