@@ -58,7 +58,7 @@ ${EXPR_8}
 
 ${EXPR_9}
 
-${EXPR_10}
+Usage: ${EXPR_10}
 
 ${EXPR_11}
 
@@ -154,4 +154,10 @@ ${EXPR_32}
 
 ${EXPR_33}
 
-args
+${EXPR_34}
+
+${EXPR_35}
+
+${EXPR_36}
+
+${EXPR_37}
