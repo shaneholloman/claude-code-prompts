@@ -14,8 +14,10 @@ Run a bash command in persistent sandbox with directory checks and timeouts.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
+| `EXPR_5` | TodoWrite | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | TodoWrite | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -115,48 +117,34 @@ Use sandbox=true to improve UX, but ONLY per the rules above. WHEN IN DOUBT, USE
 When the user asks you to create a new git commit, follow these steps carefully:
 
 ${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following bash commands in parallel, each using the Bash tool:
-   - Run a git status command to see all untracked files.
-   - Run a git diff command to see both staged and unstaged changes that will be committed.
-   - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
-
-${NUM}. Analyze all staged changes (both previously staged and newly added) and draft a commit message. Wrap your analysis process in <commit_analysis> tags:
-
-<commit_analysis>
-- List the files that have been changed or added
-- Summarize the nature of the changes (eg. new feature, enhancement to an existing feature, bug fix, refactoring, test, docs, etc.)
-- Brainstorm the purpose or motivation behind these changes
-- Assess the impact of these changes on the overall project
-- Check for any sensitive information that shouldn't be committed
-- Draft a concise (${NUM}-${NUM} sentences) commit message that focuses on the "why" rather than the "what"
-- Ensure your language is clear, concise, and to the point
-- Ensure the message accurately reflects the changes and their purpose (i.e. "add" means a wholly new feature, "update" means an enhancement to an existing feature, "fix" means a bug fix, etc.)
-- Ensure the message is not generic (avoid words like "Update" or "Fix" without context)
-- Review the draft message to ensure it accurately reflects the changes and their purpose
-<${PATH}>
-
+  - Run a git status command to see all untracked files.
+  - Run a git diff command to see both staged and unstaged changes that will be committed.
+  - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
+${NUM}. Analyze all staged changes (both previously staged and newly added) and draft a commit message:
+  - Summarize the nature of the changes (eg. new feature, enhancement to an existing feature, bug fix, refactoring, test, docs, etc.). Ensure the message accurately reflects the changes and their purpose (i.e. "add" means a wholly new feature, "update" means an enhancement to an existing feature, "fix" means a bug fix, etc.).
+  - Check for any sensitive information that shouldn't be committed
+  - Draft a concise (${NUM}-${NUM} sentences) commit message that focuses on the "why" rather than the "what"
+  - Ensure it accurately reflects the changes and their purpose
 ${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
    ${EXPR_4}
    - Run git status to make sure the commit succeeded.
-
 ${NUM}. If the commit fails due to pre-commit hook changes, retry the commit ONCE to include these automated changes. If it fails again, it usually means a pre-commit hook is preventing the commit. If the commit succeeds but you notice that files were modified by the pre-commit hook, you MUST amend your commit to include them.
 
 Important notes:
-- Use the git context at the start of this conversation to determine which files are relevant to your commit. Be careful not to stage and commit files (e.g. with `git add .`) that aren't relevant to your commit.
 - NEVER update the git config
 - DO NOT run additional commands to read or explore code, beyond what is available in the git context
-- DO NOT push to the remote repository
+- DO NOT use the ${EXPR_5: 'TodoWrite'} or Task tools
+- DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - If there are no changes to commit (i.e., no untracked files and no modifications), do not create an empty commit
-- Ensure your commit message is meaningful and concise. It should explain the purpose of the changes, not just describe them.
-- Return an empty response - the user will see the git output directly
 - In order to ensure good formatting, ALWAYS pass the commit message via a HEREDOC, a la this example:
 <example>
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   ${EXPR_5}
+   ${EXPR_6}
    EOF
    )"
 <${PATH}>
@@ -170,25 +158,8 @@ ${NUM}. You have the capability to call multiple tools in a single response. Whe
    - Run a git status command to see all untracked files
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
-   - Run a git log command and `git diff main...HEAD` to understand the full commit history for the current branch (from the time it diverged from the `main` branch)
-
-${NUM}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request!!!), and draft a pull request summary. Wrap your analysis process in <pr_analysis> tags:
-
-<pr_analysis>
-- List the commits since diverging from the main branch
-- Summarize the nature of the changes (eg. new feature, enhancement to an existing feature, bug fix, refactoring, test, docs, etc.)
-- Brainstorm the purpose or motivation behind these changes
-- Assess the impact of these changes on the overall project
-- Do not use tools to explore code, beyond what is available in the git context
-- Check for any sensitive information that shouldn't be committed
-- Draft a concise (${NUM}-${NUM} bullet points) pull request summary that focuses on the "why" rather than the "what"
-- Ensure the summary accurately reflects all changes since diverging from the main branch
-- Ensure your language is clear, concise, and to the point
-- Ensure the summary accurately reflects the changes and their purpose (ie. "add" means a wholly new feature, "update" means an enhancement to an existing feature, "fix" means a bug fix, etc.)
-- Ensure the summary is not generic (avoid words like "Update" or "Fix" without context)
-- Review the draft summary to ensure it accurately reflects the changes and their purpose
-<${PATH}>
-
+   - Run a git log command and `git diff main...HEAD` (or master...HEAD) to understand the full commit history for the current branch (from the time it diverged from the `main` branch)
+${NUM}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request!!!), and draft a pull request summary
 ${NUM}. You have the capability to call multiple tools in a single response. When multiple independent pieces of information are requested, batch your tool calls together for optimal performance. ALWAYS run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
@@ -201,13 +172,14 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-${EXPR_6}
+${EXPR_7}
 EOF
 )"
 <${PATH}>
 
 Important:
 - NEVER update the git config
+- DO NOT use the ${EXPR_8: 'TodoWrite'} or Task tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
