@@ -1,8 +1,8 @@
-# Prompt Stats 1.0.39
+# Prompt Stats 1.0.40
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
-| system | [System Prompt: Add Memory To File](../system-prompts/system-prompt-add-memory-to-file.md) | 721 | 165 | 1.0.28 | 1.0.39 |
+| system | [System Prompt: Add Memory To File](../system-prompts/system-prompt-add-memory-to-file.md) | 721 | 165 | 1.0.28 | 1.0.40 |
 | system | [System Prompt: Admin Setup Secrets Apps](../system-prompts/system-prompt-admin-setup-secrets-apps.md) | 174 | 33 | 1.0.0 | 1.0.0 |
 | system | [System Prompt: Applied Edits To Settings](../system-prompts/system-prompt-applied-edits-to-settings.md) | 85 | 27 | 1.0.38 | 1.0.38 |
 | system | [System Prompt: Authenticate With Gh Cli](../system-prompts/system-prompt-authenticate-with-gh-cli.md) | 137 | 25 | 1.0.0 | 1.0.0 |
@@ -69,18 +69,18 @@
 | system | [System Prompt: Verify Repo Access Scope](../system-prompts/system-prompt-verify-repo-access-scope.md) | 252 | 61 | 1.0.25 | 1.0.25 |
 | system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 158 | 49 | 0.2.91 | 1.0.35 |
 | system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 148 | 42 | 0.2.113 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 147 | 42 | 0.2.92 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 159 | 48 | 0.2.91 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 158 | 48 | 0.2.91 | 1.0.38 |
+| system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 159 | 48 | 0.2.91 | 1.0.40 |
+| system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 155 | 47 | 1.0.18 | 1.0.40 |
+| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 147 | 42 | 0.2.91 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 146 | 41 | 0.2.93 | 1.0.38 |
-| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 155 | 47 | 1.0.18 | 1.0.39 |
+| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 148 | 41 | 0.2.93 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 168 | 46 | 0.2.104 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 148 | 41 | 0.2.93 | 1.0.39 |
+| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 184 | 61 | 1.0.23 | 1.0.23 |
-| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 147 | 42 | 0.2.91 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 1.0.39 |
+| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 158 | 48 | 0.2.91 | 1.0.40 |
+| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 147 | 42 | 0.2.92 | 1.0.40 |
 | system | [System Prompt: Write File With Constraints](../system-prompts/system-prompt-write-file-with-constraints.md) | 622 | 145 | 1.0.7 | 1.0.7 |
-| system-reminder | [System Reminder: Append Memory Bullets](../system-prompts/system-reminder-append-memory-bullets.md) | 721 | 165 | 1.0.28 | 1.0.39 |
+| system-reminder | [System Reminder: Append Memory Bullets](../system-prompts/system-reminder-append-memory-bullets.md) | 721 | 165 | 1.0.28 | 1.0.40 |
 | system-reminder | [System Reminder: Call Echo Line](../system-prompts/system-reminder-call-echo-line.md) | 61 | 20 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
 | system-reminder | [System Reminder: Call Result](../system-prompts/system-reminder-call-result.md) | 47 | 18 | 0.2.106 | 0.2.106 |
@@ -126,11 +126,11 @@
 | system-reminder | [System Reminder: Web Search](../system-prompts/system-reminder-web-search.md) | 57 | 11 | 0.2.108 | 0.2.108 |
 | system-data | [System Data: Append Memory Entry](../system-prompts/system-data-append-memory-entry.md) | 93 | 37 | 0.2.54 | 0.2.54 |
 | system-data | [System Data: Cli App Path Context](../system-prompts/system-data-cli-app-path-context.md) | 289 | 111 | 1.0.32 | 1.0.32 |
-| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 296 | 117 | 1.0.32 | 1.0.38 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 307 | 124 | 1.0.32 | 1.0.39 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 379 | 166 | 1.0.32 | 1.0.39 |
-| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 296 | 117 | 1.0.32 | 1.0.39 |
-| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 553 | 230 | 1.0.32 | 1.0.38 |
+| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 296 | 117 | 1.0.32 | 1.0.40 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 296 | 117 | 1.0.32 | 1.0.40 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 553 | 230 | 1.0.32 | 1.0.40 |
+| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 307 | 124 | 1.0.32 | 1.0.40 |
+| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 379 | 166 | 1.0.32 | 1.0.40 |
 | system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 285 | 110 | 1.0.32 | 1.0.38 |
 | system-data | [System Data: Cli Identity And Styles](../system-prompts/system-data-cli-identity-and-styles.md) | 281 | 105 | 1.0.32 | 1.0.32 |
 | system-data | [System Data: Cli Settings And Colors](../system-prompts/system-data-cli-settings-and-colors.md) | 320 | 112 | 1.0.38 | 1.0.38 |
@@ -194,8 +194,8 @@
 | system-data | [System Data: User Settings Metadata List](../system-prompts/system-data-user-settings-metadata-list.md) | 295 | 88 | 1.0.35 | 1.0.35 |
 | system-data | [System Data: Whimsical Doing Verbs List](../system-prompts/system-data-whimsical-doing-verbs-list.md) | 1019 | 376 | 1.0.29 | 1.0.29 |
 | system-data | [System Data: Wolfram Language Symbols List](../system-prompts/system-data-wolfram-language-symbols-list.md) | 104946 | 35789 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Write Conversation Title](../system-prompts/system-data-write-conversation-title.md) | 424 | 145 | 1.0.32 | 1.0.37 |
-| system-data | [System Data: Write Conversation Title 2](../system-prompts/system-data-write-conversation-title-2.md) | 448 | 159 | 1.0.32 | 1.0.37 |
+| system-data | [System Data: Write Conversation Title](../system-prompts/system-data-write-conversation-title.md) | 448 | 159 | 1.0.32 | 1.0.40 |
+| system-data | [System Data: Write Conversation Title 2](../system-prompts/system-data-write-conversation-title-2.md) | 424 | 145 | 1.0.32 | 1.0.40 |
 | tool | [Tool Description: Add Working Directory](../system-prompts/tool-description-add-working-directory.md) | 27 | 5 | 1.0.23 | 1.0.23 |
 | tool | [Tool Description: Check Health](../system-prompts/tool-description-check-health.md) | 50 | 9 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Clear Chat Keep Summary](../system-prompts/tool-description-clear-chat-keep-summary.md) | 110 | 24 | 0.2.54 | 0.2.57 |
@@ -236,5 +236,5 @@
 | tool | [Tool Description: Submit Feedback](../system-prompts/tool-description-submit-feedback.md) | 33 | 5 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Toggle Vim Editing Mode](../system-prompts/tool-description-toggle-vim-editing-mode.md) | 43 | 8 | 0.2.54 | 0.2.54 |
 | tool | [Tool Description: Upgrade To Max Rate Limits](../system-prompts/tool-description-upgrade-to-max-rate-limits.md) | 51 | 12 | 1.0.11 | 1.0.11 |
-| tool | [Tool Description: Web Search For Updates](../system-prompts/tool-description-web-search-for-updates.md) | 520 | 110 | 1.0.36 | 1.0.36 |
+| tool | [Tool Description: Web Search Current Info](../system-prompts/tool-description-web-search-current-info.md) | 668 | 159 | 1.0.40 | 1.0.40 |
 | tool | [Tool Description: Write File After Reading Existing](../system-prompts/tool-description-write-file-after-reading-existing.md) | 627 | 150 | 1.0.7 | 1.0.9 |

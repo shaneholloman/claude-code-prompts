@@ -5,7 +5,7 @@
 - Commands: 15
 - Options: 29
 - Env vars: 216
-- Config keys: 177
+- Config keys: 184
 - Tools: 0
 - Skills: 0
 - Models: 30
@@ -364,10 +364,12 @@
 - `continue`
 - `core.fsmonitor=false`
 - `costPriority`
+- `created_at`
 - `credential.helper=`
 - `data`
 - `decision`
 - `default`
+- `default_branch`
 - `defaultMode`
 - `deny`
 - `description`
@@ -422,6 +424,7 @@
 - `lineStart`
 - `listChanged`
 - `logging`
+- `login`
 - `logo_uri`
 - `maintenance.auto=false`
 - `matcher`
@@ -437,6 +440,7 @@
 - `name`
 - `noResponseRetries`
 - `openWorldHint`
+- `owner`
 - `params`
 - `permissions`
 - `policy_uri`
@@ -452,6 +456,7 @@
 - `refresh_token`
 - `region`
 - `registration_endpoint`
+- `repo`
 - `requestHandler`
 - `required`
 - `resource`
@@ -501,7 +506,9 @@
 - `tools`
 - `tos_uri`
 - `total`
+- `turns`
 - `type`
+- `updated_at`
 - `updatedInput`
 - `uri`
 - `url`
