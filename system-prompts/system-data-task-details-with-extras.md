@@ -23,23 +23,29 @@ Formats task header, type, status, description, and numbered details with append
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+Task ${EXPR_1}
 
-Task ${EXPR_2}
+(type: ${EXPR_2})
 
-(type: ${EXPR_3})
+(status: ${EXPR_3})
 
-(status: ${EXPR_4})
+(description: ${EXPR_4})
 
-(description: ${EXPR_5})
+Task #${EXPR_5}: ${EXPR_6}
 
-Task #${EXPR_6}: ${EXPR_7}
+Status: ${EXPR_7}
 
-Status: ${EXPR_8}
+Description: ${EXPR_8}
 
-Description: ${EXPR_9}
+${EXPR_9}
 
 ${EXPR_10}
 
@@ -48,3 +54,15 @@ ${EXPR_11}
 ${EXPR_12}
 
 ${EXPR_13}
+
+${EXPR_14}
+
+${EXPR_15}
+
+${EXPR_16}
+
+${EXPR_17}
+
+${EXPR_18}
+
+${EXPR_19}
