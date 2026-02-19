@@ -1,4 +1,4 @@
-# Claude Code 1.0.59 – Flags
+# Claude Code 1.0.60 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -7,6 +7,5 @@
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `tengu_metrics_exporter_enabled` | gate | telemetry | Enables internal metrics exporting via HTTP with JSON payload and user agent |  | high | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
-| `tengu_spinner_tips` | config | ui | Provides optional tip messages for a spinner/loading UI. | Only shows tips when non-empty. | medium | 1 |
-| `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
+| `tengu_spinner_tips_enabled` | gate | ui | Enable loading spinner tips text using a word list |  | high | 1 |
 | `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |

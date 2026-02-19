@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 31
-- Env vars: 234
+- Env vars: 235
 - Config keys: 263
 - Tools: 1
 - Skills: 0
@@ -156,7 +156,6 @@
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
-- `CLAUDE_CODE_BASH_PREFIX`
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
@@ -178,9 +177,11 @@
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
+- `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
@@ -453,7 +454,6 @@
 - `hookSpecificOutput`
 - `httpMethodsToRetry`
 - `id`
-- `id_token`
 - `idempotentHint`
 - `ideName`
 - `ideRunningInWindows`
@@ -584,6 +584,7 @@
 - `subagent_type`
 - `subscribe`
 - `success`
+- `summary`
 - `suppressOutput`
 - `text`
 - `timeout`
