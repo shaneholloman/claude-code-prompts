@@ -25,11 +25,15 @@ Force uninstall with user, project, and local settings scopes.
 | `EXPR_13` | WebSearch | None |
 | `EXPR_14` | BashOutput | None |
 | `EXPR_15` | KillBash | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
+| `EXPR_16` | Task | None |
+| `EXPR_17` | Bash | None |
+| `EXPR_18` | Glob | None |
+| `EXPR_19` | Grep | None |
+| `EXPR_20` | LS | None |
+| `EXPR_21` | ExitPlanMode | None |
+| `EXPR_22` | Read | None |
+| `EXPR_23` | Edit | None |
+| `EXPR_24` | MultiEdit | None |
 
 # Raw Prompt Text
 uninstall
@@ -74,12 +78,68 @@ ${EXPR_14: 'BashOutput'}
 
 ${EXPR_15: 'KillBash'}
 
-${EXPR_16}
+${EXPR_16: 'Task'}
 
-${EXPR_17}
+${EXPR_17: 'Bash'}
 
-${EXPR_18}
+${EXPR_18: 'Glob'}
 
-${EXPR_19}
+${EXPR_19: 'Grep'}
 
-${EXPR_20}
+${EXPR_20: 'LS'}
+
+${EXPR_21: 'ExitPlanMode'}
+
+${EXPR_22: 'Read'}
+
+${EXPR_23: 'Edit'}
+
+${EXPR_24: 'MultiEdit'}
+
+${EXPR_25}
+
+${EXPR_26}
+
+${EXPR_27}
+
+${EXPR_28}
+
+${EXPR_29}
+
+${EXPR_30}
+
+userSettings
+
+projectSettings
+
+localSettings
+
+${EXPR_31}
+
+${EXPR_32}
+
+${EXPR_33}
+
+${EXPR_34}
+
+${EXPR_35}
+
+${EXPR_36}
+
+${EXPR_37}
+
+${EXPR_38}
+
+${EXPR_39}
+
+${EXPR_40}
+
+${EXPR_41}
+
+${EXPR_42}
+
+${EXPR_43}
+
+${EXPR_44}
+
+${EXPR_45}
