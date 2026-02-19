@@ -26,11 +26,10 @@ Emits multiple numeric fields and argument list with annotated command invocatio
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | stream-json | None |
-| `EXPR_17` | None | None |
+| `EXPR_17` | true | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -99,10 +98,10 @@ args
 
 ${EXPR_16: 'stream-json'}
 
-${EXPR_17} (${EXPR_18})
+${EXPR_17: true}
+
+${EXPR_18}
 
 ${EXPR_19}
 
 ${EXPR_20}
-
-${EXPR_21}
