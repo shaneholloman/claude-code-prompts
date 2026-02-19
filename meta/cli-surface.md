@@ -4,8 +4,8 @@
 
 - Commands: 27
 - Options: 44
-- Env vars: 365
-- Config keys: 397
+- Env vars: 366
+- Config keys: 400
 - Tools: 3
 - Skills: 0
 - Models: 56
@@ -166,7 +166,6 @@
 ## Env Vars
 
 - `__CFB`
-- `__MINIMATCH_TESTING_PLATFORM__`
 - `ALACRITTY_LOG`
 - `ALIYUN_REGION_ID`
 - `ANTHROPIC_API_KEY`
@@ -234,6 +233,7 @@
 - `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_ALLOW_MCP_TOOLS_FOR_SUBAGENTS`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
@@ -340,6 +340,7 @@
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
+- `ENABLE_OVERFLOW_TEST_TOOL`
 - `ENABLE_TOOL_RESULT_SIZE_LIMIT`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -619,6 +620,7 @@
 - `decision`
 - `default`
 - `default_branch`
+- `defaultEnvironmentId`
 - `defaultMode`
 - `deniedDomains`
 - `deniedMcpServers`
@@ -674,6 +676,7 @@
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `format`
+- `generatedSizeBytes`
 - `gitCommitSha`
 - `grant_types`
 - `grant_types_supported`
@@ -807,6 +810,7 @@
 - `region`
 - `registration_endpoint`
 - `registry`
+- `remote`
 - `replaceAll`
 - `repo`
 - `repository`

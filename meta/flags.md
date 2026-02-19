@@ -1,4 +1,4 @@
-# Claude Code 2.0.46 – Flags
+# Claude Code 2.0.47 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -22,7 +22,6 @@
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_file_edit_optimization` | experiment | tools | Simplifies file edit tool output to a success message instead of detailed snippet | Only affects tool_result formatting in this mapping function. | high | 1 |
 | `tengu_gha_plugin_code_review` | gate | tools | Controls which GitHub Actions code review workflow template is written | Gate selects between two workflow contents (OY2 vs MY2). | high | 1 |
-| `tengu_glob_with_rg` | gate | tools | Use external search tool to list files with glob excludes and sorting | Appears to switch file-globbing implementation. | high | 1 |
 | `tengu_haiku_default_pro_plan` | experiment | tools | Switches default model selection to Haiku for plan users. | Exact effect depends on XY and surrounding model-selection logic. | medium | 1 |
 | `tengu_log_1p_events` | gate | telemetry | Enables emitting first-party telemetry events with IDs and session/user attributes. | Also gated by EV(), K0(), and GB0 availability. | medium | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |

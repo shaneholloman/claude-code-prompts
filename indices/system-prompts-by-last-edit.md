@@ -1,42 +1,47 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **393**
+- Total prompt files: **403**
 
 ## Categories
 
-- System prompts (110)
-- Tool prompts (81)
+- System prompts (113)
+- Tool prompts (83)
 - Agent prompts (4)
-- System data (79)
-- System reminders (119)
+- System data (82)
+- System reminders (121)
 
-## System prompts (110)
+## System prompts (113)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-safe-terminal-command-execution.md`](../system-prompts/system-prompt-safe-terminal-command-execution.md) | Defines safe bash command execution steps with directory checks and proper path quoting. | 2,670 | 2.0.47 | 2.0.47 |
+| [`system-prompt-mcp-install-result-output.md`](../system-prompts/system-prompt-mcp-install-result-output.md) | Serialized MCP related constants and plugin installation result text. | 347 | 2.0.47 | 2.0.47 |
+| [`system-prompt-multi-parallel-planning.md`](../system-prompts/system-prompt-multi-parallel-planning.md) | Parallelize planning by spawning contrasting subagents with perspective-specific prompts and adaptive count | 287 | 2.0.47 | 2.0.47 |
+| [`system-prompt-local-mcp-stdio-config.md`](../system-prompts/system-prompt-local-mcp-stdio-config.md) | Local project MCP stdio setup details with model selection metadata. | 163 | 2.0.47 | 2.0.47 |
+| [`system-prompt-sandbox-tmpdir-file-guidance.md`](../system-prompts/system-prompt-sandbox-tmpdir-file-guidance.md) | Sandbox command policy highlighting TMPDIR-mapped temporary directory and reporting reference counts across files. | 163 | 2.0.47 | 2.0.47 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.47 |
+| [`system-prompt-verify-stop-condition-with-context-2.md`](../system-prompts/system-prompt-verify-stop-condition-with-context-2.md) | Check stop condition via transcript and codebase inspection, report ok status and reason. | 116 | 2.0.43 | 2.0.47 |
+| [`system-prompt-verify-stop-condition-with-context.md`](../system-prompts/system-prompt-verify-stop-condition-with-context.md) | Check stop condition via transcript and codebase inspection, report ok status and reason. | 113 | 2.0.43 | 2.0.47 |
+| [`system-prompt-title-from-conversation-with-file-context-2.md`](../system-prompts/system-prompt-title-from-conversation-with-file-context-2.md) | Generate a 3–4 word conversation title from recent messages, with file-glob context | 105 | 2.0.47 | 2.0.47 |
+| [`system-prompt-write-conversation-title-from-messages.md`](../system-prompts/system-prompt-write-conversation-title-from-messages.md) | Create 5–10 word conversation title from last message subset and content block | 102 | 2.0.47 | 2.0.47 |
+| [`system-prompt-title-from-conversation-with-file-context.md`](../system-prompts/system-prompt-title-from-conversation-with-file-context.md) | Generate a 3–4 word conversation title from recent messages, with file-glob context | 81 | 2.0.47 | 2.0.47 |
+| [`system-prompt-single-planning-request.md`](../system-prompts/system-prompt-single-planning-request.md) | In planning phase, launch a … subagent to draft a detailed solution plan. | 78 | 2.0.47 | 2.0.47 |
+| [`system-prompt-simple-conversation-title.md`](../system-prompts/system-prompt-simple-conversation-title.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 60 | 1.0.77 | 2.0.47 |
+| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.47 |
 | [`system-prompt-require-mcp-cli-schema-check.md`](../system-prompts/system-prompt-require-mcp-cli-schema-check.md) | System instruction to run mcp-cli info before any mcp-cli tool call. | 1,298 | 2.0.36 | 2.0.46 |
 | [`system-prompt-require-mcp-cli-schema-check-2.md`](../system-prompts/system-prompt-require-mcp-cli-schema-check-2.md) | Enforces running mcp-cli info before any tool call to confirm parameters. | 1,269 | 2.0.36 | 2.0.46 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.46 |
-| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.46 |
-| [`system-prompt-plan-mode-edit-existing-plan.md`](../system-prompts/system-prompt-plan-mode-edit-existing-plan.md) | Plan-only mode: edit designated plan file incrementally via tool, otherwise read-only actions. | 1,046 | 2.0.45 | 2.0.45 |
 | [`system-prompt-sdk-guide.md`](../system-prompts/system-prompt-sdk-guide.md) | Guide agent uses documentation maps to answer Claude Code and Agent SDK questions | 650 | 2.0.45 | 2.0.45 |
 | [`system-prompt-sdk-docs-guide.md`](../system-prompts/system-prompt-sdk-docs-guide.md) | Uses documentation maps to answer questions about Claude Code and the Agent SDK. | 576 | 2.0.45 | 2.0.45 |
 | [`system-prompt-session-title-branch-namer.md`](../system-prompts/system-prompt-session-title-branch-namer.md) | Generates a concise coding session title and matching claude prefixed git branch name. | 369 | 2.0.45 | 2.0.45 |
 | [`system-prompt-read-only-file-searcher.md`](../system-prompts/system-prompt-read-only-file-searcher.md) | Read-only specialist for finding and analyzing files with glob and regex. | 338 | 2.0.41 | 2.0.45 |
-| [`system-prompt-mcp-install-result-output.md`](../system-prompts/system-prompt-mcp-install-result-output.md) | Serialized MCP related constants and plugin installation result text. | 334 | 2.0.45 | 2.0.45 |
-| [`system-prompt-local-mcp-stdio-stream.md`](../system-prompts/system-prompt-local-mcp-stdio-stream.md) | Local MCP stdio stream-json configuration line followed by MCP result and default model note | 150 | 2.0.45 | 2.0.45 |
 | [`system-prompt-summarize-new-messages.md`](../system-prompts/system-prompt-summarize-new-messages.md) | Summarizes new conversation messages into a short tagged summary or returns empty if unchanged. | 110 | 2.0.45 | 2.0.45 |
 | [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.0.45 | 2.0.45 |
-| [`system-prompt-simple-conversation-title.md`](../system-prompts/system-prompt-simple-conversation-title.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 97 | 2.0.41 | 2.0.45 |
 | [`system-prompt-hook-json-allow-deny.md`](../system-prompts/system-prompt-hook-json-allow-deny.md) | Specifies JSON input and output contract for a hook decision to allow or deny a command. | 61 | 2.0.45 | 2.0.45 |
-| [`system-prompt-simple-conversation-title-2.md`](../system-prompts/system-prompt-simple-conversation-title-2.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 60 | 1.0.77 | 2.0.45 |
 | [`system-prompt-json-command-io-exit-codes.md`](../system-prompts/system-prompt-json-command-io-exit-codes.md) | Multiple prompts (2) | 46 | 2.0.43 | 2.0.44 |
 | [`system-prompt-signal-plan-ready.md`](../system-prompts/system-prompt-signal-plan-ready.md) | Indicate planning is complete by reading the plan file for user approval. | 463 | 2.0.43 | 2.0.43 |
 | [`system-prompt-plan-mode-restrictions.md`](../system-prompts/system-prompt-plan-mode-restrictions.md) | Plan-only mode: edit existing plan file at … via … only | 221 | 2.0.43 | 2.0.43 |
-| [`system-prompt-verify-stop-condition-with-context.md`](../system-prompts/system-prompt-verify-stop-condition-with-context.md) | Check stop condition via transcript and codebase inspection, report ok status and reason. | 116 | 2.0.43 | 2.0.43 |
-| [`system-prompt-verify-stop-condition-with-context-2.md`](../system-prompts/system-prompt-verify-stop-condition-with-context-2.md) | Check stop condition via transcript and codebase inspection, report ok status and reason. | 113 | 2.0.43 | 2.0.43 |
 | [`system-prompt-handle-truncated-output.md`](../system-prompts/system-prompt-handle-truncated-output.md) | Handle MCP output truncation by paging/filtering retrieval or warning results may be incomplete. | 68 | 2.0.43 | 2.0.43 |
 | [`system-prompt-start-coding-after-plan-approval.md`](../system-prompts/system-prompt-start-coding-after-plan-approval.md) | Proceed with coding after plan approval; update todos and reference saved plan content | 59 | 2.0.43 | 2.0.43 |
 | [`system-prompt-read-only-architecture-planning.md`](../system-prompts/system-prompt-read-only-architecture-planning.md) | Explores a codebase read-only to design an implementation plan aligned to requirements. | 471 | 2.0.41 | 2.0.41 |
@@ -47,10 +52,8 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-run-custom-slash-commands.md`](../system-prompts/system-prompt-run-custom-slash-commands.md) | Explains running only listed custom slash commands and how their prompts expand. | 359 | 2.0.36 | 2.0.36 |
 | [`system-prompt-invoke-available-skills.md`](../system-prompts/system-prompt-invoke-available-skills.md) | Instructs invoking only available skills and describes how skill prompts load. | 264 | 2.0.36 | 2.0.36 |
 | [`system-prompt-json-command-exit-handling.md`](../system-prompts/system-prompt-json-command-exit-handling.md) | Specifies JSON command input and stdout or stderr display by exit code. | 40 | 2.0.36 | 2.0.36 |
-| [`system-prompt-safe-terminal-command-execution.md`](../system-prompts/system-prompt-safe-terminal-command-execution.md) | Defines safe bash command execution steps with directory checks and proper path quoting. | 2,635 | 2.0.34 | 2.0.34 |
 | [`system-prompt-launch-subagent-for-complex-tasks.md`](../system-prompts/system-prompt-launch-subagent-for-complex-tasks.md) | Guidelines for using Task subagents versus direct file and code search tools. | 1,025 | 2.0.34 | 2.0.34 |
 | [`system-prompt-avoid-disabling-sandbox.md`](../system-prompts/system-prompt-avoid-disabling-sandbox.md) | Enforce sandboxed command execution; only disable sandbox upon explicit request or proven need. | 453 | 2.0.34 | 2.0.34 |
-| [`system-prompt-sandbox-temp-directory-rules.md`](../system-prompts/system-prompt-sandbox-temp-directory-rules.md) | Defines sandbox command restrictions and mandates TMPDIR-backed temporary files location. | 128 | 2.0.34 | 2.0.34 |
 | [`system-prompt-absolute-paths-output-rules.md`](../system-prompts/system-prompt-absolute-paths-output-rules.md) | Use absolute paths, include filenames and code snippets, avoid emojis in final reply. | 104 | 2.0.34 | 2.0.34 |
 | [`system-prompt-check-mcp-cli-installed.md`](../system-prompts/system-prompt-check-mcp-cli-installed.md) | Append shell snippet to snapshot file, aliasing mcp-cli if unavailable. | 90 | 2.0.34 | 2.0.34 |
 | [`system-prompt-git-status-session-start.md`](../system-prompts/system-prompt-git-status-session-start.md) | Record starting git status snapshot, including current branch and recent commits. | 84 | 2.0.34 | 2.0.34 |
@@ -127,12 +130,14 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
-## Tool prompts (81)
+## Tool prompts (83)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-generate-large-test-output.md`](../system-prompts/tool-description-generate-large-test-output.md) | Tool instruction to emit large KB-sized outputs for persistence testing. | 24 | 2.0.47 | 2.0.47 |
+| [`tool-description-configure-default-remote-environment.md`](../system-prompts/tool-description-configure-default-remote-environment.md) | Set the default remote environment for teleport sessions. | 9 | 2.0.47 | 2.0.47 |
 | [`tool-description-share-pro-trial-offer.md`](../system-prompts/tool-description-share-pro-trial-offer.md) | Short message offering a limited day free Pro trial to share. | 15 | 2.0.45 | 2.0.45 |
 | [`tool-description-list-manage-background-tasks.md`](../system-prompts/tool-description-list-manage-background-tasks.md) | List and manage background tasks. | 5 | 0.2.117 | 2.0.45 |
 | [`tool-description-signal-plan-ready.md`](../system-prompts/tool-description-signal-plan-ready.md) | Signal planning completion by reading the plan file for user approval | 467 | 2.0.43 | 2.0.43 |
@@ -226,20 +231,25 @@ _Sorted by last edit (newest first)._
 | [`agent-prompt-configure-statusline.md`](../system-prompts/agent-prompt-configure-statusline.md) | Create or update a Claude Code statusLine by converting shell PS1 settings. | 1,055 | 1.0.81 | 1.0.81 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 1.0.78 |
 
-## System data (79)
+## System data (82)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.0.46 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.0.46 |
-| [`system-data-hidden-files-reference-scan.md`](../system-prompts/system-data-hidden-files-reference-scan.md) | Command and output template for searching references across files including hidden and non-ignored paths. | 1,071 | 2.0.45 | 2.0.45 |
-| [`system-data-reference-scan-output-template-5.md`](../system-prompts/system-data-reference-scan-output-template-5.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,034 | 2.0.45 | 2.0.45 |
-| [`system-data-reference-scan-output-template-4.md`](../system-prompts/system-data-reference-scan-output-template-4.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,009 | 2.0.45 | 2.0.45 |
-| [`system-data-reference-scan-output-template-2.md`](../system-prompts/system-data-reference-scan-output-template-2.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,002 | 2.0.45 | 2.0.45 |
-| [`system-data-reference-scan-output-template.md`](../system-prompts/system-data-reference-scan-output-template.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,002 | 2.0.45 | 2.0.45 |
-| [`system-data-reference-scan-output-template-3.md`](../system-prompts/system-data-reference-scan-output-template-3.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 996 | 2.0.45 | 2.0.45 |
+| [`system-data-references-across-files-userid.md`](../system-prompts/system-data-references-across-files-userid.md) | Templated output listing reference counts across files including user identifiers. | 1,822 | 2.0.47 | 2.0.47 |
+| [`system-data-reference-scan-output-template.md`](../system-prompts/system-data-reference-scan-output-template.md) | Multiple prompts (2) | 1,219 | 2.0.47 | 2.0.47 |
+| [`system-data-reference-scan-output-template-4.md`](../system-prompts/system-data-reference-scan-output-template-4.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,139 | 2.0.47 | 2.0.47 |
+| [`system-data-reference-scan-output-template-2.md`](../system-prompts/system-data-reference-scan-output-template-2.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,107 | 2.0.47 | 2.0.47 |
+| [`system-data-reference-scan-output-template-3.md`](../system-prompts/system-data-reference-scan-output-template-3.md) | Template text for reporting symbol reference counts across files with common flags and metadata fields. | 1,101 | 2.0.47 | 2.0.47 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.0.47 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.0.47 |
+| [`system-data-title-generation-with-metadata-and-files-2.md`](../system-prompts/system-data-title-generation-with-metadata-and-files-2.md) | Generate a concise title from recent conversation context, file search results, and symbol references. | 800 | 2.0.47 | 2.0.47 |
+| [`system-data-large-title-template-with-metadata.md`](../system-prompts/system-data-large-title-template-with-metadata.md) | Boilerplate metadata and placeholders for generating a conversation title. | 774 | 2.0.47 | 2.0.47 |
+| [`system-data-stream-json-output-template.md`](../system-prompts/system-data-stream-json-output-template.md) | Stream-json template mixing sixteen expression placeholders with long numeric placeholder sequences. | 675 | 2.0.47 | 2.0.47 |
+| [`system-data-conversation-title-generator-variables.md`](../system-prompts/system-data-conversation-title-generator-variables.md) | Compose a word title from the last messages using multiple inserted sections. | 172 | 2.0.41 | 2.0.47 |
+| [`system-data-title-generation-with-metadata-and-files.md`](../system-prompts/system-data-title-generation-with-metadata-and-files.md) | Generate a concise title from recent conversation context, file search results, and symbol references. | 156 | 2.0.47 | 2.0.47 |
+| [`system-data-found-references-across-files.md`](../system-prompts/system-data-found-references-across-files.md) | List reference counts across files, include userId/anonymousId/timestamp and document symbols. | 87 | 2.0.47 | 2.0.47 |
 | [`system-data-azure-access-token-script.md`](../system-prompts/system-data-azure-access-token-script.md) | Invoke PowerShell to get Az access token, optional tenant, secure-string conversion output JSON. | 327 | 2.0.45 | 2.0.45 |
 | [`system-data-http-headers-listing.md`](../system-prompts/system-data-http-headers-listing.md) | Lists common request, tracing, CORS, and response headers alongside placeholder URLs. | 238 | 2.0.45 | 2.0.45 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 2.0.45 |
@@ -249,11 +259,9 @@ _Sorted by last edit (newest first)._
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.0.43 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 2.0.42 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 2.0.42 |
-| [`system-data-conversation-title-generator-variables.md`](../system-prompts/system-data-conversation-title-generator-variables.md) | Compose a word title from the last messages using multiple inserted sections. | 109 | 2.0.41 | 2.0.41 |
+| [`system-data-numeric-placeholder-block-2.md`](../system-prompts/system-data-numeric-placeholder-block-2.md) | Contains a sequence of numeric placeholders with no additional context. | 335 | 2.0.41 | 2.0.41 |
 | [`system-data-environment-context-details.md`](../system-prompts/system-data-environment-context-details.md) | Multiple prompts (2) | 107 | 2.0.41 | 2.0.41 |
-| [`system-data-generate-conversation-title-2.md`](../system-prompts/system-data-generate-conversation-title-2.md) | Generate a …-… word title summarizing the last conversation messages. | 107 | 2.0.41 | 2.0.41 |
 | [`system-data-http-request-timing-events.md`](../system-prompts/system-data-http-request-timing-events.md) | Provide HTTP request timing event markers from redirect start through response end. | 106 | 2.0.41 | 2.0.41 |
-| [`system-data-title-from-recent-messages.md`](../system-prompts/system-data-title-from-recent-messages.md) | Generate a short conversation title using recent messages and file-glob context. | 93 | 2.0.41 | 2.0.41 |
 | [`system-data-usage-limit-notices.md`](../system-prompts/system-data-usage-limit-notices.md) | Displays rate and spending limit reached messages with reset timing. | 54 | 2.0.41 | 2.0.41 |
 | [`system-data-github-actions-review.md`](../system-prompts/system-data-github-actions-review.md) | GitHub Actions PR workflow checking out repo and running Claude code-review plugin. | 405 | 2.0.36 | 2.0.36 |
 | [`system-data-filesystem-api-operations-list.md`](../system-prompts/system-data-filesystem-api-operations-list.md) | List of filesystem functions for access, reading, writing, and metadata operations. | 101 | 2.0.24 | 2.0.24 |
@@ -312,20 +320,20 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (119)
+## System reminders (121)
 
 _Sorted by last edit (newest first). Showing **41** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-security-scope-guidelines-2.md`](../system-prompts/system-reminder-security-scope-guidelines-2.md) | Enforce authorized security assistance limits, forbid guessing URLs, and provide help/feedback instructions. | 2,631 | 2.0.45 | 2.0.46 |
-| [`system-reminder-security-scope-guidelines-3.md`](../system-prompts/system-reminder-security-scope-guidelines-3.md) | Enforce authorized security assistance limits, forbid guessing URLs, and provide help/feedback instructions. | 2,631 | 2.0.45 | 2.0.46 |
-| [`system-reminder-security-scope-guidelines-5.md`](../system-prompts/system-reminder-security-scope-guidelines-5.md) | Enforce authorized security assistance limits, forbid guessing URLs, and provide help/feedback instructions. | 2,631 | 2.0.45 | 2.0.46 |
-| [`system-reminder-security-scope-guidelines-4.md`](../system-prompts/system-reminder-security-scope-guidelines-4.md) | Enforce authorized security assistance limits, forbid guessing URLs, and provide help/feedback instructions. | 2,294 | 2.0.45 | 2.0.46 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.46 |
-| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.46 |
-| [`system-reminder-security-scope-guidelines.md`](../system-prompts/system-reminder-security-scope-guidelines.md) | Enforce authorized security assistance limits, forbid guessing URLs, and provide help/feedback instructions. | 2,628 | 2.0.45 | 2.0.45 |
-| [`system-reminder-plan-mode-write-plan-file.md`](../system-prompts/system-reminder-plan-mode-write-plan-file.md) | Enforces plan-only mode, limiting changes to a single plan file via phased workflow. | 1,019 | 2.0.45 | 2.0.45 |
+| [`system-reminder-cli-security-safety-rules.md`](../system-prompts/system-reminder-cli-security-safety-rules.md) | Multiple prompts (3) | 2,884 | 2.0.47 | 2.0.47 |
+| [`system-reminder-cli-security-safety-rules-3.md`](../system-prompts/system-reminder-cli-security-safety-rules-3.md) | Interactive CLI assistant with authorized security-testing limits and strict URL-generation restrictions. | 2,881 | 2.0.47 | 2.0.47 |
+| [`system-reminder-cli-security-safety-rules-2.md`](../system-prompts/system-reminder-cli-security-safety-rules-2.md) | Interactive CLI assistant with authorized security-testing limits and strict URL-generation restrictions. | 2,547 | 2.0.47 | 2.0.47 |
+| [`system-reminder-plan-only-edit-plan-file.md`](../system-prompts/system-reminder-plan-only-edit-plan-file.md) | Plan-only workflow: write incremental execution plan solely in designated plan file. | 735 | 2.0.47 | 2.0.47 |
+| [`system-reminder-resume-planning-from-existing-plan.md`](../system-prompts/system-reminder-resume-planning-from-existing-plan.md) | Reopen existing plan at …, compare with current request, then update or overwrite. | 197 | 2.0.47 | 2.0.47 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.47 |
+| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.47 |
+| [`system-reminder-document-symbols-and-reference-scan.md`](../system-prompts/system-reminder-document-symbols-and-reference-scan.md) | Header fields followed by report counting document symbol references across files. | 41 | 2.0.47 | 2.0.47 |
 | [`system-reminder-user-project-reference-scan.md`](../system-prompts/system-reminder-user-project-reference-scan.md) | Shows project/local context with lines and totals for references across files. | 44 | 2.0.45 | 2.0.45 |
 | [`system-reminder-plan-only-no-edits.md`](../system-prompts/system-reminder-plan-only-no-edits.md) | Plan mode: only edit designated plan file, otherwise perform read-only actions and ask clarifications. | 190 | 2.0.43 | 2.0.43 |
 | [`system-reminder-verify-stop-condition-with-transcript.md`](../system-prompts/system-reminder-verify-stop-condition-with-transcript.md) | Verify stop condition by inspecting codebase and optionally reading transcript, then report via tool. | 111 | 2.0.43 | 2.0.43 |
@@ -340,6 +348,7 @@ _Sorted by last edit (newest first). Showing **41** reminders with more than **3
 | [`system-reminder-malware-analysis-only.md`](../system-prompts/system-reminder-malware-analysis-only.md) | Analyze suspected malware but refuse to improve or extend it. | 80 | 2.0.24 | 2.0.24 |
 | [`system-reminder-hook-blocking-error.md`](../system-prompts/system-reminder-hook-blocking-error.md) | Multiple prompts (2) | 39 | 2.0.17 | 2.0.17 |
 | [`system-reminder-token-usage-remaining-line.md`](../system-prompts/system-reminder-token-usage-remaining-line.md) | Multiple prompts (2) | 37 | 2.0.17 | 2.0.17 |
+| [`system-reminder-numeric-placeholder-lines.md`](../system-prompts/system-reminder-numeric-placeholder-lines.md) | Repeats numeric placeholders as a filler block. | 111 | 2.0.12 | 2.0.12 |
 | [`system-reminder-rdt-field-type-list.md`](../system-prompts/system-reminder-rdt-field-type-list.md) | Enumerates RDT field types like string, numeric, date, and document. | 40 | 2.0.12 | 2.0.12 |
 | [`system-reminder-async-notification-output-retrieval.md`](../system-prompts/system-reminder-async-notification-output-retrieval.md) | Async system notification that agent finished, with instructions to retrieve output by agentId. | 56 | 2.0.10 | 2.0.10 |
 | [`system-reminder-use-context-only-when-relevant.md`](../system-prompts/system-reminder-use-context-only-when-relevant.md) | Multiple prompts (2) | 69 | 2.0.2 | 2.0.2 |
@@ -358,13 +367,17 @@ _Sorted by last edit (newest first). Showing **41** reminders with more than **3
 | [`system-reminder-ic-event-handler-types.md`](../system-prompts/system-reminder-ic-event-handler-types.md) | Lists ic script, function, report, and many handler type identifiers. | 307 | 0.2.106 | 0.2.106 |
 | [`system-reminder-underscore-template-function-wrapper.md`](../system-prompts/system-reminder-underscore-template-function-wrapper.md) | Compiled Underscore template function skeleton that escapes values and accumulates output. | 70 | 0.2.106 | 0.2.106 |
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
-| [`system-reminder-ldct-document-types-list.md`](../system-prompts/system-reminder-ldct-document-types-list.md) | Lists ldct route, wizard, script, report, and related type identifiers. | 52 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 78 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 80 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-flag-emoji-regex-call-error.md`](../system-prompts/system-reminder-flag-emoji-regex-call-error.md) | Error about calling flag emoji regex due to unbound types. | 29 | 2.0.47 | 2.0.47 |
+| [`system-reminder-flag-emoji-regex-construct-error.md`](../system-prompts/system-reminder-flag-emoji-regex-construct-error.md) | Error about constructing flag emoji regex due to unbound types. | 29 | 2.0.47 | 2.0.47 |
+| [`system-reminder-surrogate-pair-call-type-error.md`](../system-prompts/system-reminder-surrogate-pair-call-type-error.md) | Error about calling surrogate pair pattern due to unbound types. | 27 | 2.0.47 | 2.0.47 |
+| [`system-reminder-gitignored-project-marker-2.md`](../system-prompts/system-reminder-gitignored-project-marker-2.md) | Annotates the specified project context as gitignored using provided expression. | 19 | 2.0.47 | 2.0.47 |
+| [`system-reminder-lbp-directional-binding-powers.md`](../system-prompts/system-reminder-lbp-directional-binding-powers.md) | Token list for lbp directional precedence values. | 18 | 2.0.47 | 2.0.47 |
 | [`system-reminder-mcp-reference-scan-header.md`](../system-prompts/system-reminder-mcp-reference-scan-header.md) | Header for MCP tool namespace showing references count and files searched. | 28 | 2.0.45 | 2.0.45 |
 | [`system-reminder-context-remaining-auto-compact.md`](../system-prompts/system-reminder-context-remaining-auto-compact.md) | Display remaining context percentage and suggest command to trigger auto-compact. | 27 | 1.0.106 | 2.0.45 |
 | [`system-reminder-default-sonnet-note.md`](../system-prompts/system-reminder-default-sonnet-note.md) | Reminder string indicating the default Sonnet model with large context. | 25 | 2.0.45 | 2.0.45 |
@@ -373,12 +386,9 @@ _Sorted by last edit (newest first). Showing **41** reminders with more than **3
 | [`system-reminder-stop-hook-feedback.md`](../system-prompts/system-reminder-stop-hook-feedback.md) | Provide stop-hook feedback text to be displayed or logged. | 11 | 2.0.41 | 2.0.41 |
 | [`system-reminder-tt-scope-tokens.md`](../system-prompts/system-reminder-tt-scope-tokens.md) | List of tt scope identifiers for global, local, user, and system. | 10 | 2.0.41 | 2.0.41 |
 | [`system-reminder-oauth-error-message.md`](../system-prompts/system-reminder-oauth-error-message.md) | Report OAuth error message string with the provided error detail. | 9 | 2.0.41 | 2.0.41 |
-| [`system-reminder-hourly-limit-reset-notice.md`](../system-prompts/system-reminder-hourly-limit-reset-notice.md) | Notice that an hourly limit resets and extra usage continues. | 24 | 1.0.128 | 2.0.34 |
 | [`system-reminder-unregister-not-registered-instance.md`](../system-prompts/system-reminder-unregister-not-registered-instance.md) | Attempted to unregister an instance that was not registered, with instance identifier. | 20 | 2.0.28 | 2.0.34 |
-| [`system-reminder-opus-limit-reset-notice.md`](../system-prompts/system-reminder-opus-limit-reset-notice.md) | Notice that the Opus limit resets and extra usage continues. | 19 | 1.0.128 | 2.0.34 |
 | [`system-reminder-other-users-modified-files.md`](../system-prompts/system-reminder-other-users-modified-files.md) | Display the list of files modified by other users. | 19 | 2.0.34 | 2.0.34 |
 | [`system-reminder-non-string-to-cpp-string.md`](../system-prompts/system-reminder-non-string-to-cpp-string.md) | Cannot pass a non-string value to a C++ string type. | 18 | 2.0.28 | 2.0.34 |
-| [`system-reminder-weekly-limit-reset-notice.md`](../system-prompts/system-reminder-weekly-limit-reset-notice.md) | Notice that a weekly limit resets and extra usage continues. | 18 | 1.0.128 | 2.0.34 |
 | [`system-reminder-register-already-registered-instance.md`](../system-prompts/system-reminder-register-already-registered-instance.md) | Attempted to register an instance that was already registered, with instance identifier. | 16 | 2.0.28 | 2.0.34 |
 | [`system-reminder-usd-budget-remaining.md`](../system-prompts/system-reminder-usd-budget-remaining.md) | Formats USD budget summary showing used, total, and remaining amounts. | 26 | 2.0.30 | 2.0.30 |
 | [`system-reminder-arguments-block.md`](../system-prompts/system-reminder-arguments-block.md) | Shows a message then an ARGUMENTS line populated with provided arguments text. | 16 | 1.0.116 | 2.0.30 |
@@ -411,7 +421,7 @@ _Sorted by last edit (newest first). Showing **41** reminders with more than **3
 | [`system-reminder-months-of-year-list.md`](../system-prompts/system-reminder-months-of-year-list.md) | List of month names from January through December. | 23 | 1.0.128 | 1.0.128 |
 | [`system-reminder-vt-compare-operators.md`](../system-prompts/system-reminder-vt-compare-operators.md) | List of vt comparison and range operators. | 20 | 1.0.128 | 1.0.128 |
 | [`system-reminder-ssm-ui-components-list.md`](../system-prompts/system-reminder-ssm-ui-components-list.md) | List of SSM browse and select component names. | 19 | 1.0.128 | 1.0.128 |
-| [`system-reminder-extra-usage-active-notice.md`](../system-prompts/system-reminder-extra-usage-active-notice.md) | Indicator that extra usage is now being used. | 4 | 1.0.128 | 1.0.128 |
+| [`system-reminder-gitignored-project-marker.md`](../system-prompts/system-reminder-gitignored-project-marker.md) | Annotates the specified project context as gitignored using provided expression. | 13 | 1.0.124 | 1.0.124 |
 | [`system-reminder-binary-content-placeholder.md`](../system-prompts/system-reminder-binary-content-placeholder.md) | Wraps an expression as labeled binary content within bracketed placeholder markup. | 11 | 1.0.118 | 1.0.118 |
 | [`system-reminder-approval-needed-for-plan.md`](../system-prompts/system-reminder-approval-needed-for-plan.md) | Requests user approval for the proposed plan. | 8 | 1.0.116 | 1.0.116 |
 | [`system-reminder-waiting-for-user-input.md`](../system-prompts/system-reminder-waiting-for-user-input.md) | Signals that Claude is awaiting user input. | 6 | 1.0.116 | 1.0.116 |
