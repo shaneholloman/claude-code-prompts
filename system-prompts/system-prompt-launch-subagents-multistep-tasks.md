@@ -1,4 +1,4 @@
-# System Prompt: launch-subagent-for-multistep-tasks
+# System Prompt: launch-subagents-multistep-tasks
 
 - Source: inline
 
