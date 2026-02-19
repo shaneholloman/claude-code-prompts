@@ -4,22 +4,16 @@
 
 ## Summary
 
-Provide HTTP request timing event markers from redirect start through response end.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
+Lists HTTP request lifecycle timing event markers.
 
 # Raw Prompt Text
-${EXPR_1}
+${PATH}
 
-${EXPR_2}
+${PATH}
 
-${EXPR_3}
+${PATH}
+
+${PATH}
 
 http.request.redirect_start
 
