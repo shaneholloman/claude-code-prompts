@@ -4,11 +4,11 @@
 
 - Commands: 27
 - Options: 44
-- Env vars: 371
-- Config keys: 415
+- Env vars: 372
+- Config keys: 416
 - Tools: 3
 - Skills: 0
-- Models: 60
+- Models: 61
 - Providers: 8
 
 ## Commands
@@ -244,6 +244,7 @@
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
+- `CLAUDE_CODE_DIAGNOSTICS_FILE`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
@@ -868,6 +869,7 @@
 - `selection`
 - `server`
 - `server_tool_use`
+- `serverCommand`
 - `serverInfo`
 - `serverName`
 - `service_documentation`
@@ -1023,6 +1025,7 @@ _None detected_
 - `claude-vscode`
 - `haiku-4`
 - `opus-4`
+- `opus-4-5`
 - `opus-4.5-available`
 - `sonnet-1m-welcome`
 - `sonnet-4`
