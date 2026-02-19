@@ -7,27 +7,26 @@
 
 ## Bundle
 
-- Entry bytes: 6852722 bytes
-- Entry lines: 2191
+- Entry bytes: 6860919 bytes
+- Entry lines: 2206
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 8885077 bytes
-- Pretty lines: 155490
+- Pretty bytes: 8895167 bytes
+- Pretty lines: 155702
 
 ## Inventory
 
-- File count: 62
-- Size bytes: 168291421
+- File count: 61
+- Size bytes: 168296460
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12288340 bytes
-- `.js`: 2 files, 6853688 bytes
+- `.js`: 2 files, 6861885 bytes
 - `.json`: 7 files, 36713 bytes
 - `.md`: 2 files, 3940 bytes
 - `.node`: 5 files, 122220044 bytes
-- `.sh`: 1 files, 3158 bytes
 - `.sql`: 5 files, 1738 bytes
 - `.wasm`: 1 files, 88658 bytes
 
@@ -40,7 +39,6 @@
 
 ### Files
 
-- `claude-restart.sh`
 - `cli.js`
 - `LICENSE.md`
 - `migrations/0000_daffy_genesis.sql`
@@ -105,17 +103,17 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:03:52 UTC
+- Snapshot generated at: 2026-02-18 04:04:59 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `cfec608d8d9863946eecc824368e713994609711cbbaecd62e8840001abec43c`
+- Config hash: `71c3bd91a53754373839a086e4c76e5ddfcf55d4397c15e7cc11ca9f678cbf86`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 287,861
-- Token p95 / p99: 1,099 / 3,042
+- Total prompt tokens: 291,253
+- Token p95 / p99: 1,791 / 3,042
 
 ### By Kind
 
-- `system-data`: 264,785 tokens (92.0%)
-- `system`: 15,256 tokens (5.3%)
-- `tool`: 7,820 tokens (2.7%)
+- `system-data`: 264,781 tokens (90.9%)
+- `system`: 18,345 tokens (6.3%)
+- `tool`: 8,127 tokens (2.8%)

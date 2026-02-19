@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 24
 - Env vars: 157
-- Config keys: 129
+- Config keys: 134
 - Tools: 0
 - Skills: 0
 - Models: 22
@@ -94,7 +94,7 @@
 - `-e, --env <env...>`
 - `-g, --global`
 - `-p, --print`
-- `-r, --resume`
+- `-r, --resume [sessionId]`
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
 
@@ -264,6 +264,7 @@
 - `access_token`
 - `addToPrompt`
 - `allow`
+- `annotations`
 - `api`
 - `args`
 - `arguments`
@@ -288,6 +289,7 @@
 - `data`
 - `deny`
 - `description`
+- `destructiveHint`
 - `end`
 - `env`
 - `error`
@@ -305,6 +307,7 @@
 - `hints`
 - `httpMethodsToRetry`
 - `id`
+- `idempotentHint`
 - `initialWindowSize`
 - `input`
 - `inputSchema`
@@ -327,6 +330,7 @@
 - `mimeType`
 - `name`
 - `noResponseRetries`
+- `openWorldHint`
 - `params`
 - `permissions`
 - `policy_uri`
@@ -337,7 +341,7 @@
 - `prompts`
 - `properties`
 - `query`
-- `reason`
+- `readOnlyHint`
 - `redirect_uris`
 - `refresh_token`
 - `region`
@@ -370,6 +374,7 @@
 - `status`
 - `subscribe`
 - `text`
+- `title`
 - `token`
 - `token_endpoint`
 - `token_endpoint_auth_method`
