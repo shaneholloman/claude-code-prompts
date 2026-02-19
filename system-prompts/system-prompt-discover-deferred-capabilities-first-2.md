@@ -4,7 +4,7 @@
 
 ## Summary
 
-Requires searching or selecting deferred tools before calling them.
+Search for or select deferred tools to make them available before calling.
 
 # Raw Prompt Text
 Search for or select deferred tools to make them available for use.
@@ -13,7 +13,7 @@ Search for or select deferred tools to make them available for use.
 
 You MUST use this tool to load deferred tools BEFORE calling them directly.
 
-This is a BLOCKING REQUIREMENT - deferred tools are NOT available until you load them using this tool. Look for <available-deferred-tools> messages in the conversation for the list of tools you can discover. Both query modes (keyword search and direct selection) load the returned tools — once a tool appears in the results, it is immediately available to call.
+This is a BLOCKING REQUIREMENT - deferred tools listed below are NOT available until you load them using this tool. Both query modes (keyword search and direct selection) load the returned tools — once a tool appears in the results, it is immediately available to call.
 
 **Why this is non-negotiable:**
 - Deferred tools are not loaded until discovered via this tool
