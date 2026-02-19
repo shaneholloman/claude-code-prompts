@@ -13,6 +13,7 @@ Declare CLI identity, enumerate style tokens, and append extra trailing data.
 | `EXPR_1` | None | None |
 | `EXPR_2` | Claude Code | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -62,3 +63,5 @@ brightWhite
 brightCyan
 
 brightMagenta
+
+${EXPR_4}
