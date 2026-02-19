@@ -17,14 +17,16 @@ Remote agent task notification reporting status, summary text, and output file p
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 <task-notification>
 <task-id>\\.\pipe\claude-mcp-browser-bridge-default<${PATH}>
 <task-type>remote_agent<${PATH}>
-<output-file>${EXPR_1}<${PATH}>
-<status>${EXPR_2}<${PATH}>
-<summary>Remote task "${EXPR_3}" [${EXPR_4}] [Claude Chrome Native Host] ${EXPR_5}${EXPR_6}
+<output-file>mcp__${EXPR_1}__${EXPR_2}<${PATH}>
+<status>${EXPR_3}<${PATH}>
+<summary>Remote task "${EXPR_4}" [${EXPR_5}] [Claude Chrome Native Host] ${EXPR_6}${EXPR_7}
 <${PATH}>
 <${PATH}>
-Read the output file to retrieve the result: ${EXPR_7}
+Read the output file to retrieve the result: mcp__${EXPR_8}__${EXPR_9}
