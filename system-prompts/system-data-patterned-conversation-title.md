@@ -25,7 +25,6 @@ Generate a NUM–NUM word conversation title following pattern and recent messag
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -52,45 +51,11 @@ ${EXPR_11}
 
 ${EXPR_12}
 
-${EXPR_13}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
-[Last ${EXPR_14} of ${EXPR_15} messages]
+[Last ${EXPR_13} of ${EXPR_14} messages]
 
-${EXPR_16}
+${EXPR_15}
 
 
 Respond with the title for the conversation and nothing else.
