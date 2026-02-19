@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 52
-- Env vars: 405
-- Config keys: 342
+- Env vars: 406
+- Config keys: 347
 - Tools: 3
 - Skills: 0
 - Models: 84
@@ -247,6 +247,7 @@
 - `CHOKIDAR_USEPOLLING`
 - `CIRCLECI`
 - `CLAUBBIT`
+- `CLAUDE_AGENT_SDK_MCP_NO_PREFIX`
 - `CLAUDE_AGENT_SDK_VERSION`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
@@ -303,6 +304,7 @@
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_PERFETTO_TRACE`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PROFILE_STARTUP`
@@ -350,7 +352,6 @@
 - `DEMO_VERSION`
 - `DENO_DEPLOYMENT_ID`
 - `DETECT_GCP_RETRIES`
-- `DEV`
 - `DISABLE_AUTO_COMPACT`
 - `DISABLE_AUTO_MIGRATE_TO_NATIVE`
 - `DISABLE_AUTOUPDATER`
@@ -588,6 +589,7 @@
 
 ## Config Keys
 
+- `$M`
 - `$schema`
 - `A`
 - `activeForm`
@@ -604,6 +606,7 @@
 - `allowGitConfig`
 - `allowLocalBinding`
 - `allowManagedHooksOnly`
+- `allowManagedPermissionRulesOnly`
 - `allowPty`
 - `allowUnixSockets`
 - `allowUnsandboxedCommands`
@@ -724,6 +727,7 @@
 - `hookEventName`
 - `hooks`
 - `hookSpecificOutput`
+- `hostPattern`
 - `httpMethodsToRetry`
 - `httpProxyPort`
 - `id`
@@ -829,6 +833,7 @@
 - `projectSettings`
 - `prompt`
 - `promptSuggestionEnabled`
+- `pushToRemote`
 - `query`
 - `question`
 - `questions`
@@ -839,6 +844,8 @@
 - `region`
 - `registry`
 - `remote`
+- `remoteSessionId`
+- `remoteSessionUrl`
 - `replaceAll`
 - `repo`
 - `repository`
@@ -925,7 +932,6 @@
 - `userModified`
 - `userSettings`
 - `uuid`
-- `v_`
 - `value`
 - `version`
 - `web_fetch_requests`

@@ -1,4 +1,4 @@
-# Claude Code 2.1.9 – Flags
+# Claude Code 2.1.10 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -12,7 +12,7 @@
 | `tengu_bash_haiku_prefetch` | experiment | caching | Prefetches and reads referenced file paths after a bash command finishes. | Prefetch source of file paths depends on P42 output. | high | 1 |
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
 | `tengu_chrome_auto_enable` | experiment | tools | Auto-enable Claude-in-Chrome native host integration via MCP stdio config. | Based on nearby native-host/MCP strings; exact behavior inferred. | medium | 1 |
-| `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 8 |
+| `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 6 |
 | `tengu_compact_streaming_retry` | experiment | networking | Controls retry attempts when streaming a conversation-compaction summary request fails | Exact retry count K97 not shown. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_file_edit_optimization` | experiment | tools | Simplifies file edit tool output to a success message instead of detailed snippet | Only affects tool_result formatting in this mapping function. | high | 1 |
