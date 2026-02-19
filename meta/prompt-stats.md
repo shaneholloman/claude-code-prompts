@@ -1,4 +1,4 @@
-# Prompt Stats 2.1.23
+# Prompt Stats 2.1.25
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -26,8 +26,8 @@
 | system | [System Prompt: Chrome Automation Guidelines 2](../system-prompts/system-prompt-chrome-automation-guidelines-2.md) | 3720 | 871 | 2.1.20 | 2.1.20 |
 | system | [System Prompt: Chrome Native Host Disabled](../system-prompts/system-prompt-chrome-native-host-disabled.md) | 128 | 45 | 2.0.73 | 2.0.73 |
 | system | [System Prompt: Chrome Native Host Truncated](../system-prompts/system-prompt-chrome-native-host-truncated.md) | 128 | 57 | 2.1.14 | 2.1.14 |
-| system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 2.1.23 |
-| system | [System Prompt: Cite With Limited Quotes 2](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | 565 | 150 | 2.1.20 | 2.1.23 |
+| system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 565 | 150 | 2.1.20 | 2.1.25 |
+| system | [System Prompt: Cite With Limited Quotes 2](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | 549 | 140 | 0.2.40 | 2.1.25 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Cli Educational Engineering Insights](../system-prompts/system-prompt-cli-educational-engineering-insights.md) | 1047 | 220 | 1.0.78 | 2.0.67 |
 | system | [System Prompt: Collect Process Commandline Chain](../system-prompts/system-prompt-collect-process-commandline-chain.md) | 486 | 174 | 2.1.23 | 2.1.23 |
@@ -67,7 +67,7 @@
 | system | [System Prompt: Guide Scope Docs](../system-prompts/system-prompt-guide-scope-docs.md) | 3069 | 755 | 2.0.73 | 2.1.11 |
 | system | [System Prompt: Guide Scope Docs 2](../system-prompts/system-prompt-guide-scope-docs-2.md) | 3101 | 780 | 2.0.73 | 2.1.15 |
 | system | [System Prompt: Handle Exit Codes And Output](../system-prompts/system-prompt-handle-exit-codes-and-output.md) | 164 | 49 | 1.0.53 | 1.0.53 |
-| system | [System Prompt: Handle Interrupting User Message](../system-prompts/system-prompt-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.23 |
+| system | [System Prompt: Handle Interrupting User Message](../system-prompts/system-prompt-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.25 |
 | system | [System Prompt: Handle Truncated Output](../system-prompts/system-prompt-handle-truncated-output.md) | 316 | 68 | 2.0.43 | 2.0.43 |
 | system | [System Prompt: Hook Evaluation Json Response](../system-prompts/system-prompt-hook-evaluation-json-response.md) | 278 | 81 | 2.1.20 | 2.1.20 |
 | system | [System Prompt: Hook Json Allow Deny](../system-prompts/system-prompt-hook-json-allow-deny.md) | 239 | 61 | 2.0.45 | 2.0.45 |
@@ -87,7 +87,7 @@
 | system | [System Prompt: Json Io Errors](../system-prompts/system-prompt-json-io-errors.md) | 276 | 80 | 2.0.56 | 2.0.56 |
 | system | [System Prompt: Json Triggered Command Exit Handling](../system-prompts/system-prompt-json-triggered-command-exit-handling.md) | 177 | 42 | 2.1.10 | 2.1.10 |
 | system | [System Prompt: Keybinding Config Validation](../system-prompts/system-prompt-keybinding-config-validation.md) | 804 | 266 | 2.1.20 | 2.1.20 |
-| system | [System Prompt: Launch Subagent For Multistep Tasks](../system-prompts/system-prompt-launch-subagent-for-multistep-tasks.md) | 4842 | 1180 | 2.1.15 | 2.1.15 |
+| system | [System Prompt: Launch Subagents Multistep Tasks](../system-prompts/system-prompt-launch-subagents-multistep-tasks.md) | 4842 | 1180 | 2.1.15 | 2.1.25 |
 | system | [System Prompt: Learn By Doing Human Input](../system-prompts/system-prompt-learn-by-doing-human-input.md) | 4992 | 1137 | 1.0.78 | 1.0.86 |
 | system | [System Prompt: List Mcp Server Resources](../system-prompts/system-prompt-list-mcp-server-resources.md) | 295 | 73 | 1.0.22 | 1.0.22 |
 | system | [System Prompt: List Process Ancestor Pids](../system-prompts/system-prompt-list-process-ancestor-pids.md) | 397 | 144 | 2.1.23 | 2.1.23 |
@@ -118,8 +118,8 @@
 | system | [System Prompt: Record Shell Options Snapshot](../system-prompts/system-prompt-record-shell-options-snapshot.md) | 256 | 100 | 1.0.65 | 1.0.65 |
 | system | [System Prompt: Redirect Detected](../system-prompts/system-prompt-redirect-detected.md) | 296 | 92 | 2.0.17 | 2.0.17 |
 | system | [System Prompt: Replace All Occurrences Warning](../system-prompts/system-prompt-replace-all-occurrences-warning.md) | 237 | 56 | 2.0.22 | 2.0.22 |
-| system | [System Prompt: Require Mcp Cli Info Before Call](../system-prompts/system-prompt-require-mcp-cli-info-before-call.md) | 4358 | 1269 | 2.0.36 | 2.1.23 |
-| system | [System Prompt: Require Mcp Cli Info Before Call 2](../system-prompts/system-prompt-require-mcp-cli-info-before-call-2.md) | 4488 | 1312 | 2.1.20 | 2.1.23 |
+| system | [System Prompt: Require Mcp Cli Info Before Call](../system-prompts/system-prompt-require-mcp-cli-info-before-call.md) | 4488 | 1312 | 2.1.20 | 2.1.25 |
+| system | [System Prompt: Require Mcp Cli Info Before Call 2](../system-prompts/system-prompt-require-mcp-cli-info-before-call-2.md) | 4358 | 1269 | 2.0.36 | 2.1.25 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 888 | 231 | 2.0.70 | 2.1.20 |
 | system | [System Prompt: Run Bash Commands Safely 3](../system-prompts/system-prompt-run-bash-commands-safely-3.md) | 10391 | 2692 | 2.1.20 | 2.1.20 |
 | system | [System Prompt: Sandbox Required For Commands](../system-prompts/system-prompt-sandbox-required-for-commands.md) | 293 | 63 | 2.0.30 | 2.0.30 |
@@ -154,7 +154,7 @@
 | system | [System Prompt: Verify Changes Work](../system-prompts/system-prompt-verify-changes-work.md) | 9062 | 2553 | 2.1.20 | 2.1.20 |
 | system | [System Prompt: Verify Repo Access And Scope](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | 252 | 61 | 1.0.25 | 2.1.19 |
 | system | [System Prompt: Web Search](../system-prompts/system-prompt-web-search.md) | 57 | 11 | 0.2.108 | 2.0.22 |
-| system | [System Prompt: Web Search With Mandatory Sources](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | 1332 | 329 | 2.1.20 | 2.1.23 |
+| system | [System Prompt: Web Search With Mandatory Sources](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | 1332 | 329 | 2.1.20 | 2.1.25 |
 | system | [System Prompt: Webfetch Auth Url Warning](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | 1510 | 361 | 2.1.16 | 2.1.16 |
 | system | [System Prompt: Write Command Descriptions](../system-prompts/system-prompt-write-command-descriptions.md) | 776 | 211 | 2.1.3 | 2.1.3 |
 | system | [System Prompt: Write File With Constraints](../system-prompts/system-prompt-write-file-with-constraints.md) | 622 | 145 | 1.0.7 | 1.0.7 |
@@ -190,7 +190,7 @@
 | system-reminder | [System Reminder: Fixed Length Conversation Title](../system-prompts/system-reminder-fixed-length-conversation-title.md) | 97 | 35 | 1.0.109 | 1.0.109 |
 | system-reminder | [System Reminder: Follow Invoked Skills Guidelines](../system-prompts/system-reminder-follow-invoked-skills-guidelines.md) | 98 | 23 | 2.0.72 | 2.0.72 |
 | system-reminder | [System Reminder: Full Resource Contents Header](../system-prompts/system-reminder-full-resource-contents-header.md) | 26 | 5 | 1.0.19 | 1.0.19 |
-| system-reminder | [System Reminder: Handle Interrupting User Message](../system-prompts/system-reminder-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.23 |
+| system-reminder | [System Reminder: Handle Interrupting User Message](../system-prompts/system-reminder-handle-interrupting-user-message.md) | 170 | 43 | 2.1.20 | 2.1.25 |
 | system-reminder | [System Reminder: Hide File Truncation Note](../system-prompts/system-reminder-hide-file-truncation-note.md) | 186 | 56 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Hook Additional Context](../system-prompts/system-reminder-hook-additional-context.md) | 44 | 16 | 2.0.17 | 2.0.17 |
 | system-reminder | [System Reminder: Hook Additional Context 2](../system-prompts/system-reminder-hook-additional-context-2.md) | 74 | 30 | 2.0.17 | 2.0.17 |
@@ -268,8 +268,8 @@
 | system-data | [System Data: Bedrock Import Job Request](../system-prompts/system-data-bedrock-import-job-request.md) | 263 | 104 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Imported Response Fields](../system-prompts/system-data-bedrock-imported-response-fields.md) | 299 | 126 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Inference Profile Response](../system-prompts/system-data-bedrock-inference-profile-response.md) | 281 | 115 | 2.0.63 | 2.0.63 |
-| system-data | [System Data: Bedrock Invocation Job Summary](../system-prompts/system-data-bedrock-invocation-job-summary.md) | 407 | 172 | 2.0.63 | 2.1.23 |
-| system-data | [System Data: Bedrock Invocation Job Summary 2](../system-prompts/system-data-bedrock-invocation-job-summary-2.md) | 411 | 171 | 2.0.63 | 2.1.23 |
+| system-data | [System Data: Bedrock Invocation Job Summary](../system-prompts/system-data-bedrock-invocation-job-summary.md) | 411 | 171 | 2.0.63 | 2.1.25 |
+| system-data | [System Data: Bedrock Invocation Job Summary 2](../system-prompts/system-data-bedrock-invocation-job-summary-2.md) | 407 | 172 | 2.0.63 | 2.1.25 |
 | system-data | [System Data: Bedrock List Custom Deployments](../system-prompts/system-data-bedrock-list-custom-deployments.md) | 294 | 126 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock List Custom Models Request Fields](../system-prompts/system-data-bedrock-list-custom-models-request-fields.md) | 356 | 151 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock List Evaluation Jobs Request](../system-prompts/system-data-bedrock-list-evaluation-jobs-request.md) | 303 | 127 | 2.0.63 | 2.0.63 |
@@ -284,8 +284,8 @@
 | system-data | [System Data: Character Mapping Table](../system-prompts/system-data-character-mapping-table.md) | 317123 | 184755 | 1.0.32 | 1.0.32 |
 | system-data | [System Data: Clarification Followup Questions](../system-prompts/system-data-clarification-followup-questions.md) | 313 | 88 | 2.1.15 | 2.1.15 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Coding Task Intent List](../system-prompts/system-data-coding-task-intent-list.md) | 224 | 87 | 2.1.15 | 2.1.23 |
-| system-data | [System Data: Coding Task Intent List 2](../system-prompts/system-data-coding-task-intent-list-2.md) | 184 | 66 | 2.1.16 | 2.1.23 |
+| system-data | [System Data: Coding Task Intent List](../system-prompts/system-data-coding-task-intent-list.md) | 184 | 66 | 2.1.16 | 2.1.25 |
+| system-data | [System Data: Coding Task Intent List 2](../system-prompts/system-data-coding-task-intent-list-2.md) | 224 | 87 | 2.1.15 | 2.1.25 |
 | system-data | [System Data: Cognito Create Identity Pool Input](../system-prompts/system-data-cognito-create-identity-pool-input.md) | 370 | 156 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Cognito Identity Pool Fields](../system-prompts/system-data-cognito-identity-pool-fields.md) | 387 | 168 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Common Change Requests](../system-prompts/system-data-common-change-requests.md) | 269 | 115 | 2.1.15 | 2.1.15 |
@@ -501,6 +501,6 @@
 | tool | [Tool Description: Upload Image To Target](../system-prompts/tool-description-upload-image-to-target.md) | 332 | 75 | 2.0.71 | 2.0.71 |
 | tool | [Tool Description: Verify Setup](../system-prompts/tool-description-verify-setup.md) | 62 | 11 | 1.0.49 | 1.0.49 |
 | tool | [Tool Description: View Update Privacy Settings](../system-prompts/tool-description-view-update-privacy-settings.md) | 37 | 6 | 1.0.96 | 1.0.96 |
-| tool | [Tool Description: Web Search With Mandatory Sources](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | 1332 | 329 | 2.1.20 | 2.1.23 |
+| tool | [Tool Description: Web Search With Mandatory Sources](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | 1332 | 329 | 2.1.20 | 2.1.25 |
 | tool | [Tool Description: Write File Safely](../system-prompts/tool-description-write-file-safely.md) | 482 | 114 | 2.1.20 | 2.1.20 |
 | tool | [Tool Description: Year In Review Header](../system-prompts/tool-description-year-in-review-header.md) | 41 | 12 | 2.0.66 | 2.0.66 |
