@@ -15,10 +15,39 @@ API PUT request template to update repository content at a path.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
 
 api
 
@@ -26,19 +55,21 @@ api
 
 PUT
 
-repos/${EXPR_2}${PATH}${EXPR_3}
+repos/${EXPR_1}${PATH}${EXPR_2}
 
 -f
 
-message="Update ${EXPR_4}"
+message="Update ${EXPR_3}"
 
 -f
 
-content=${EXPR_5}
+content=${EXPR_4}
 
 -f
 
-branch=${EXPR_6}
+branch=${EXPR_5}
+
+${NUM}
 
 ${NUM}
 
