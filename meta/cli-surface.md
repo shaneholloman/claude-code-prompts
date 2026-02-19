@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 208
-- Config keys: 148
+- Env vars: 209
+- Config keys: 149
 - Tools: 0
 - Skills: 0
 - Models: 28
@@ -138,6 +138,7 @@
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
+- `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
@@ -317,6 +318,7 @@
 - `_meta`
 - `-c`
 - `access_token`
+- `additionalDirectories`
 - `allow`
 - `annotations`
 - `api`
