@@ -11,7 +11,7 @@ ${NUM}
 
 com.amazonaws.bedrock
 
-FoundationModelSummary
+FoundationModelDetails
 
 ${NUM}
 
