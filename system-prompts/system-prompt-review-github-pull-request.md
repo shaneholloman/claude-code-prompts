@@ -34,4 +34,4 @@ You are an expert code reviewer. Follow these steps:
 
       Format your review with clear sections and bullet points.
 
-      PR number: \\.\pipe\claude-mcp-browser-bridge-default
+      PR number: ${PATH}
