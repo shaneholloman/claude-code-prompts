@@ -8,6 +8,9 @@ Multiple prompts (2)
 
 # Raw Prompt Text
 low
+
 medium
+
 high
+
 max
