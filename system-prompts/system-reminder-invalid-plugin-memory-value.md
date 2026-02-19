@@ -11,8 +11,6 @@ Warns that a plugin agent file contains an invalid memory scope value.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Plugin agent file ${EXPR_1} has invalid memory value '${EXPR_2}@${EXPR_3}'. Valid options: user, project, local
+Plugin agent file ${EXPR_1} has invalid memory value '${NUM}'. Valid options: user, project, local
