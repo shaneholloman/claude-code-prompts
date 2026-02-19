@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 243
+- Env vars: 246
 - Config keys: 273
 - Tools: 3
 - Skills: 0
@@ -225,6 +225,9 @@
 - `GCE_METADATA_IP`
 - `GCLOUD_PROJECT`
 - `GCP_PROJECT`
+- `GITHUB_ACTION_INPUTS`
+- `GITHUB_ACTION_REF`
+- `GITHUB_ACTION_REPOSITORY`
 - `GITHUB_ACTIONS`
 - `GITHUB_ACTOR`
 - `GITHUB_ACTOR_ID`
