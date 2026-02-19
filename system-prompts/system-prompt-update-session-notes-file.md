@@ -23,7 +23,7 @@ The file {{notesPath}} has already been read for you. Here are its current conte
 {{currentNotes}}
 <${PATH}>
 
-Your ONLY task is to use the MultiEdit tool EXACTLY ONCE to update the notes file, then stop. Do not call any other tools.
+Your ONLY task is to use the Edit tool EXACTLY ONCE to update the notes file, then stop. Do not call any other tools.
 
 CRITICAL RULES FOR EDITING:
 - The file must maintain its exact structure with all sections, headers, and italic descriptions intact
@@ -39,6 +39,6 @@ CRITICAL RULES FOR EDITING:
 - Do not repeat information from past session summaries - only use the current user conversation starting with the first non system-reminder user message.
 - Focus on actionable, specific information that would help someone understand or recreate the work discussed in the conversation
 
-Use the MultiEdit tool with file_path: {{notesPath}}
+Use the Edit tool with file_path: {{notesPath}}
 
-REMEMBER: Use MultiEdit tool once and stop. Do not continue after the edit. Only include insights from the actual user conversation, never from these note-taking instructions.
+REMEMBER: Use Edit tool once and stop. Do not continue after the edit. Only include insights from the actual user conversation, never from these note-taking instructions.
