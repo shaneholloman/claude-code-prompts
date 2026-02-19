@@ -11,7 +11,7 @@ Failed to load commands from a plugin default directory with error details.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | resolved list (4 items) | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Failed to load commands from plugin ${EXPR_1} default directory: ${EXPR_2}
