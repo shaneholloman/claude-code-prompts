@@ -1,4 +1,4 @@
-# System Reminder: nested-underscore-template-functions
+# System Prompt: nested-template-functions
 
 - Source: inline
 
