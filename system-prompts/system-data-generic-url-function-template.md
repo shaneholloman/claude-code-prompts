@@ -25,7 +25,7 @@ JavaScript function template named EXPR_1 with URL parameter and sixteen placeho
 | `EXPR_13` | WebFetch | None |
 | `EXPR_14` | WebSearch | None |
 | `EXPR_15` | BashOutput | None |
-| `EXPR_16` | KillBash | None |
+| `EXPR_16` | KillShell | None |
 
 # Raw Prompt Text
 function ${EXPR_1}(${URL}${EXPR_2}){
@@ -42,5 +42,5 @@ function ${EXPR_1}(${URL}${EXPR_2}){
   ${EXPR_13: 'WebFetch'}
   ${EXPR_14: 'WebSearch'}
   ${EXPR_15: 'BashOutput'}
-  ${EXPR_16: 'KillBash'}
+  ${EXPR_16: 'KillShell'}
 }
