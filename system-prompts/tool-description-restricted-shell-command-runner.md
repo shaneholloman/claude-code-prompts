@@ -17,9 +17,9 @@ Execute a bash command with directory checks, timeouts, truncation limits, and b
 | `EXPR_5` | 30000 | None |
 | `EXPR_6` | GrepTool | None |
 | `EXPR_7` | GlobTool | None |
-| `EXPR_8` | dispatch_agent | None |
+| `EXPR_8` | AgentTool | None |
 | `EXPR_9` | View | None |
-| `EXPR_10` | LS | None |
+| `EXPR_10` | LSTool | None |
 | `EXPR_11` | BatchTool | None |
 | `EXPR_12` | BatchTool | None |
 | `EXPR_13` | Claude Code | None |
@@ -49,7 +49,7 @@ Usage notes:
   - You can specify an optional timeout in milliseconds (up to ${EXPR_1: 600000}ms / ${EXPR_2} minutes). If not specified, commands will timeout after ${EXPR_3: 120000}ms (${EXPR_4} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
   - If the output exceeds ${EXPR_5: 30000} characters, output will be truncated before being returned to you.
-  - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use ${EXPR_6: 'GrepTool'}, ${EXPR_7: 'GlobTool'}, or ${EXPR_8: 'dispatch_agent'} to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use ${EXPR_9: 'View'} and ${EXPR_10: 'LS'} to read files.
+  - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use ${EXPR_6: 'GrepTool'}, ${EXPR_7: 'GlobTool'}, or ${EXPR_8: 'AgentTool'} to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use ${EXPR_9: 'View'} and ${EXPR_10: 'LSTool'} to read files.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
   - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
     <good-example>
