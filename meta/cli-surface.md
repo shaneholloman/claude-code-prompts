@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 14
-- Options: 26
-- Env vars: 209
-- Config keys: 149
+- Options: 27
+- Env vars: 210
+- Config keys: 155
 - Tools: 0
 - Skills: 0
 - Models: 28
@@ -61,6 +61,7 @@
 - `--debug`
 - `--disallowedTools`
 - `--env`
+- `--fallback-model`
 - `--global`
 - `--header`
 - `--mcp-config`
@@ -87,6 +88,7 @@
 - `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
 - `--disallowedTools <tools...>`
+- `--fallback-model <model>`
 - `--mcp-config <file or string>`
 - `--mcp-debug`
 - `--model <model>`
@@ -219,6 +221,7 @@
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
 - `LOCALAPPDATA`
+- `MAX_MCP_OUTPUT_TOKENS`
 - `MAX_THINKING_TOKENS`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
@@ -344,10 +347,12 @@
 - `compressible`
 - `contacts`
 - `content`
+- `continue`
 - `core.fsmonitor=false`
 - `costPriority`
 - `credential.helper=`
 - `data`
+- `decision`
 - `defaultMode`
 - `deny`
 - `description`
@@ -402,6 +407,7 @@
 - `method`
 - `mimeType`
 - `model`
+- `modelInstruction`
 - `name`
 - `noResponseRetries`
 - `openWorldHint`
@@ -415,6 +421,7 @@
 - `prompts`
 - `properties`
 - `readOnlyHint`
+- `reason`
 - `redirect_uris`
 - `refresh_token`
 - `region`
@@ -443,7 +450,9 @@
 - `speedPriority`
 - `start`
 - `status`
+- `stopReason`
 - `subscribe`
+- `suppressOutput`
 - `text`
 - `title`
 - `token`

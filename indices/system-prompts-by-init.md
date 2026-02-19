@@ -1,27 +1,32 @@
 # System Prompts Index – by init
 
-- Total prompt files: **218**
+- Total prompt files: **221**
 
 ## Categories
 
-- System prompts (80)
+- System prompts (83)
 - Tool prompts (39)
 - System data (62)
 - System reminders (37)
 
-## System prompts (80)
+## System prompts (83)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-synthesize-multi-solution-2.md`](../system-prompts/system-prompt-synthesize-multi-solution-2.md) | Combine multiple agent findings into one cohesive answer with code examples. | 409 | 1.0.26 | 1.0.26 |
-| [`system-prompt-noisy-multi-task-synthesis.md`](../system-prompts/system-prompt-noisy-multi-task-synthesis.md) | Synthesize multiple agents’ findings into one cohesive, structured answer with resolved contradictions. | 264 | 1.0.26 | 1.0.26 |
-| [`system-prompt-synthesize-agents-with-extra-metadata.md`](../system-prompts/system-prompt-synthesize-agents-with-extra-metadata.md) | Unify agent analyses into one complete answer while ignoring injected noise and metadata lines. | 205 | 1.0.26 | 1.0.26 |
-| [`system-prompt-compile-agents-into-unified-answer.md`](../system-prompts/system-prompt-compile-agents-into-unified-answer.md) | Aggregate agent findings into a thorough, focused synthesis, despite prefixed templated fragments. | 179 | 1.0.26 | 1.0.26 |
+| [`system-prompt-permissions-and-synthesis.md`](../system-prompts/system-prompt-permissions-and-synthesis.md) | Synthesize multi-agent results into a single answer in a context containing permission and role constants. | 396 | 1.0.28 | 1.0.28 |
+| [`system-prompt-aggregate-analysis.md`](../system-prompts/system-prompt-aggregate-analysis.md) | Synthesize multi-agent analyses into a unified, well-structured solution with reconciled contradictions and examples. | 255 | 1.0.28 | 1.0.28 |
+| [`system-prompt-merge-agents-into-solution.md`](../system-prompts/system-prompt-merge-agents-into-solution.md) | Create a unified response from agent outputs, focused on the original task. | 205 | 1.0.28 | 1.0.28 |
+| [`system-prompt-unify-findings.md`](../system-prompts/system-prompt-unify-findings.md) | Combine several agent analyses into a unified, conflict-resolved answer to the task. | 179 | 1.0.28 | 1.0.28 |
+| [`system-prompt-add-memory-to-file.md`](../system-prompts/system-prompt-add-memory-to-file.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.28 |
+| [`system-prompt-synthesize-multi-answer.md`](../system-prompts/system-prompt-synthesize-multi-answer.md) | Synthesize multiple agent findings into one coherent solution for the original task. | 164 | 1.0.28 | 1.0.28 |
+| [`system-prompt-compile-insights.md`](../system-prompts/system-prompt-compile-insights.md) | Synthesize multiple agent findings into one coherent, detailed solution with reconciled conflicts | 161 | 1.0.28 | 1.0.28 |
+| [`system-prompt-consolidate-responses.md`](../system-prompts/system-prompt-consolidate-responses.md) | Synthesize multiple agent analyses into one cohesive solution, reconciling conflicts and retaining key details. | 160 | 1.0.28 | 1.0.28 |
+| [`system-prompt-github-permission-troubleshooting.md`](../system-prompts/system-prompt-github-permission-troubleshooting.md) | Provide quick fixes for common GitHub CLI permission and authorization issues. | 54 | 1.0.28 | 1.0.28 |
+| [`system-prompt-github-repo-access-help.md`](../system-prompts/system-prompt-github-repo-access-help.md) | List common GitHub CLI repository access errors and the steps to resolve them. | 52 | 1.0.28 | 1.0.28 |
 | [`system-prompt-merge-insights-and-resolve-conflicts.md`](../system-prompts/system-prompt-merge-insights-and-resolve-conflicts.md) | Combine agent outputs into a unified solution with resolved conflicts, plus appended extra sections. | 173 | 1.0.26 | 1.0.26 |
 | [`system-prompt-unify-agents-for-original-task.md`](../system-prompts/system-prompt-unify-agents-for-original-task.md) | Synthesize multiple agents’ findings into one coherent, contradiction-resolved response to the original task. | 164 | 1.0.26 | 1.0.26 |
-| [`system-prompt-default-task-multi-synthesis.md`](../system-prompts/system-prompt-default-task-multi-synthesis.md) | Synthesize all agent findings into a single well-structured solution for the original task. | 161 | 1.0.26 | 1.0.26 |
 | [`system-prompt-replace-all-match-warning.md`](../system-prompts/system-prompt-replace-all-match-warning.md) | Warn that multiple replace matches were found while replace_all is false. | 74 | 1.0.26 | 1.0.26 |
 | [`system-prompt-bash-output-and-cwd-reset.md`](../system-prompts/system-prompt-bash-output-and-cwd-reset.md) | Display bash stdout and stderr, then note the shell cwd reset location. | 45 | 1.0.26 | 1.0.26 |
 | [`system-prompt-cwd-reset-type-validation-error.md`](../system-prompts/system-prompt-cwd-reset-type-validation-error.md) | Report that the cwd reset value has an invalid type with expected types. | 34 | 1.0.26 | 1.0.26 |
@@ -29,7 +34,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-verify-repo-access-scope.md`](../system-prompts/system-prompt-verify-repo-access-scope.md) | Validate GitHub repository name, access permissions, and token scopes for private repos. | 61 | 1.0.25 | 1.0.25 |
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 53 | 1.0.25 | 1.0.25 |
 | [`system-prompt-conversation-title-after-permissions.md`](../system-prompts/system-prompt-conversation-title-after-permissions.md) | Generate a …-… word title for the conversation, ignoring allow/deny/workspace markers. | 47 | 1.0.25 | 1.0.25 |
-| [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Generate a …-… word title summarizing the provided conversation text only. | 47 | 1.0.25 | 1.0.27 |
+| [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text only. | 47 | 1.0.25 | 1.0.28 |
 | [`system-prompt-codebase-user-override.md`](../system-prompts/system-prompt-codebase-user-override.md) | Directs adherence to overriding codebase and user instructions. | 46 | 1.0.25 | 1.0.25 |
 | [`system-prompt-url-allow-deny-workspace.md`](../system-prompts/system-prompt-url-allow-deny-workspace.md) | Lists URL context and permission modes for workspace access. | 19 | 1.0.25 | 1.0.25 |
 | [`system-prompt-exit-transcript-rules.md`](../system-prompts/system-prompt-exit-transcript-rules.md) | Specifies how stdout and stderr are displayed for tool call inputs and responses by exit code. | 71 | 1.0.24 | 1.0.24 |
@@ -43,10 +48,10 @@ _Sorted by init (newest first)._
 | [`system-prompt-structured-coding-task-list.md`](../system-prompts/system-prompt-structured-coding-task-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,321 | 1.0.19 | 1.0.19 |
 | [`system-prompt-avoid-rereading-unchanged-resource.md`](../system-prompts/system-prompt-avoid-rereading-unchanged-resource.md) | Instructs to not reread a resource unless it may have changed. | 22 | 1.0.19 | 1.0.19 |
 | [`system-prompt-create-shell-snapshot-file-aliases.md`](../system-prompts/system-prompt-create-shell-snapshot-file-aliases.md) | Generates a snapshot script that unaliases, records aliases, ensures rg, and exports PATH. | 375 | 1.0.18 | 1.0.18 |
-| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 47 | 1.0.18 | 1.0.27 |
+| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 47 | 1.0.18 | 1.0.28 |
 | [`system-prompt-dev-conversation-summary-2.md`](../system-prompts/system-prompt-dev-conversation-summary-2.md) | Produce a chronological, technically detailed conversation summary with structured analysis notes. | 1,263 | 1.0.14 | 1.0.23 |
 | [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Multiple prompts (2) | 1,252 | 1.0.14 | 1.0.23 |
-| [`system-prompt-synthesize-multiple-outputs.md`](../system-prompts/system-prompt-synthesize-multiple-outputs.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 202 | 1.0.10 | 1.0.26 |
+| [`system-prompt-synthesize-multiple-outputs.md`](../system-prompts/system-prompt-synthesize-multiple-outputs.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 202 | 1.0.10 | 1.0.28 |
 | [`system-prompt-batch-edits-single-file.md`](../system-prompts/system-prompt-batch-edits-single-file.md) | Instructions for making multiple exact replacements in one file after reading context. | 628 | 1.0.8 | 1.0.8 |
 | [`system-prompt-extract-displayed-file-paths.md`](../system-prompts/system-prompt-extract-displayed-file-paths.md) | Identify and return only explicitly shown file paths when file contents are displayed. | 289 | 1.0.8 | 1.0.8 |
 | [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 258 | 1.0.8 | 1.0.8 |
@@ -55,7 +60,6 @@ _Sorted by init (newest first)._
 | [`system-prompt-read-file-absolute-path.md`](../system-prompts/system-prompt-read-file-absolute-path.md) | Read files by absolute path with line limits, numbering, and image support. | 367 | 1.0.4 | 1.0.4 |
 | [`system-prompt-install-github-cli.md`](../system-prompts/system-prompt-install-github-cli.md) | Install GitHub CLI across macOS, Windows, and Linux. | 41 | 1.0.0 | 1.0.0 |
 | [`system-prompt-admin-setup-secrets-apps.md`](../system-prompts/system-prompt-admin-setup-secrets-apps.md) | Have a repository admin install apps and configure secrets when setup fails. | 33 | 1.0.0 | 1.0.0 |
-| [`system-prompt-refresh-workflow-scope.md`](../system-prompts/system-prompt-refresh-workflow-scope.md) | Refresh authentication to include workflow scope for creating Actions workflows. | 31 | 1.0.0 | 1.0.0 |
 | [`system-prompt-use-owner-path-format.md`](../system-prompts/system-prompt-use-owner-path-format.md) | Use the owner and path or URL format for repository references. | 28 | 1.0.0 | 1.0.0 |
 | [`system-prompt-authenticate-with-gh-cli.md`](../system-prompts/system-prompt-authenticate-with-gh-cli.md) | Authenticate to GitHub using gh auth login or environment-based methods. | 25 | 1.0.0 | 1.0.0 |
 | [`system-prompt-install-app.md`](../system-prompts/system-prompt-install-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 392 | 0.2.116 | 0.2.116 |
@@ -65,25 +69,24 @@ _Sorted by init (newest first)._
 | [`system-prompt-cheerful-gerund-status-word-2.md`](../system-prompts/system-prompt-cheerful-gerund-status-word-2.md) | Generate one whimsical, positive gerund related to the user message with strict safety exclusions. | 198 | 0.2.103 | 0.2.103 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 382 | 0.2.101 | 0.2.101 |
 | [`system-prompt-synthesize-multi-response.md`](../system-prompts/system-prompt-synthesize-multi-response.md) | Multiple prompts (2) | 165 | 0.2.98 | 1.0.17 |
-| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.27 |
-| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.26 |
-| [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Multiple prompts (4) | 42 | 0.2.92 | 1.0.27 |
-| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 1.0.27 |
+| [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.28 |
+| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.28 |
+| [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Multiple prompts (4) | 42 | 0.2.92 | 1.0.28 |
+| [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 1.0.28 |
 | [`system-prompt-generate-word-count-title.md`](../system-prompts/system-prompt-generate-word-count-title.md) | Output only a …-… word title for the given conversation. | 50 | 0.2.91 | 0.2.91 |
-| [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 1.0.26 |
-| [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.27 |
-| [`system-prompt-write-conversation-title-14.md`](../system-prompts/system-prompt-write-conversation-title-14.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.27 |
-| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.27 |
-| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.27 |
+| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 1.0.28 |
+| [`system-prompt-write-conversation-title-15.md`](../system-prompts/system-prompt-write-conversation-title-15.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.28 |
+| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.28 |
+| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.28 |
+| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.28 |
 | [`system-prompt-conversation-title-only-output.md`](../system-prompts/system-prompt-conversation-title-only-output.md) | Write a NUM-NUM word conversation title using the provided transcript only. | 47 | 0.2.91 | 0.2.91 |
 | [`system-prompt-title-with-files-context.md`](../system-prompts/system-prompt-title-with-files-context.md) | Generate a …-… word title using conversation text and file context. | 46 | 0.2.91 | 0.2.91 |
-| [`system-prompt-write-conversation-title-15.md`](../system-prompts/system-prompt-write-conversation-title-15.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 1.0.27 |
+| [`system-prompt-write-conversation-title-14.md`](../system-prompts/system-prompt-write-conversation-title-14.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 1.0.28 |
 | [`system-prompt-summarize-coding-chat-status.md`](../system-prompts/system-prompt-summarize-coding-chat-status.md) | Condense a coding conversation into a character-limited status recap. | 33 | 0.2.91 | 0.2.91 |
 | [`system-prompt-malicious-files-refusal-check.md`](../system-prompts/system-prompt-malicious-files-refusal-check.md) | Checks whether listed files seem malicious and mandates refusal if suspicious. | 30 | 0.2.89 | 0.2.89 |
 | [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 | [`system-prompt-snapshot-zsh-functions-options.md`](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | Capture zsh functions and active options into a snapshot file. | 158 | 0.2.73 | 0.2.73 |
 | [`system-prompt-summarize-shell-command.md`](../system-prompts/system-prompt-summarize-shell-command.md) | Write a brief input-output description of a shell command in a few words. | 78 | 0.2.59 | 0.2.59 |
-| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 1.0.27 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Continue from prior conversation state and resume the last task without questions. | 38 | 0.2.54 | 0.2.54 |
 | [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.18 |
@@ -148,8 +151,8 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-merge-agents-for-original-task.md`](../system-prompts/system-data-merge-agents-for-original-task.md) | Merge multi-agent findings into one structured answer, resolving conflicts and preserving key code examples. | 220 | 1.0.28 | 1.0.28 |
 | [`system-data-multiline-dotall-text-markers.md`](../system-prompts/system-data-multiline-dotall-text-markers.md) | Multiline dotall template with Uli markers and up/mid/down position sections. | 241 | 1.0.27 | 1.0.27 |
-| [`system-data-merge-agents-for-original-task.md`](../system-prompts/system-data-merge-agents-for-original-task.md) | Merge multi-agent findings into one structured answer, resolving conflicts and preserving key code examples. | 225 | 1.0.26 | 1.0.26 |
 | [`system-data-launch-latest-cli-version.md`](../system-prompts/system-data-launch-latest-cli-version.md) | Launcher script selects latest executable CLI via symlink or newest version directory. | 383 | 1.0.22 | 1.0.22 |
 | [`system-data-mention-github-action.md`](../system-prompts/system-data-mention-github-action.md) | GitHub Actions runs Claude Code when @claude appears in issues, comments, or reviews. | 596 | 1.0.20 | 1.0.20 |
 | [`system-data-app-settings-keys.md`](../system-prompts/system-data-app-settings-keys.md) | Lists configuration keys for updater, theme, notifications, and editor behavior. | 80 | 1.0.4 | 1.0.4 |
@@ -217,6 +220,7 @@ _Sorted by init (newest first). Showing **15** reminders with more than **30** t
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-append-memory-bullets.md`](../system-prompts/system-reminder-append-memory-bullets.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.28 |
 | [`system-reminder-cli-safety-guidelines.md`](../system-prompts/system-reminder-cli-safety-guidelines.md) | Interactive CLI system rules for safe assistance, refusing malicious requests, and help/feedback guidance. | 3,047 | 1.0.20 | 1.0.20 |
 | [`system-reminder-multi-expression-placeholder-block.md`](../system-prompts/system-reminder-multi-expression-placeholder-block.md) | System reminder template concatenating seven ordered expression blocks separated by blank lines | 48 | 1.0.19 | 1.0.19 |
 | [`system-reminder-mcp-resource-no-displayable-content.md`](../system-prompts/system-reminder-mcp-resource-no-displayable-content.md) | MCP resource tag pointing to server and URI, with no displayable content. | 31 | 1.0.19 | 1.0.19 |
@@ -231,7 +235,6 @@ _Sorted by init (newest first). Showing **15** reminders with more than **30** t
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 | [`system-reminder-synthesize-multi-findings.md`](../system-prompts/system-reminder-synthesize-multi-findings.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 1.0.14 |
 | [`system-reminder-nested-underscore-template-functions.md`](../system-prompts/system-reminder-nested-underscore-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 1.0.4 |
-| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 1.0.27 |
 
 <details>
 <summary>Show 22 low-token reminders (≤ 30 tokens)</summary>
