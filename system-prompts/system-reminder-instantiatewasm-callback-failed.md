@@ -10,7 +10,7 @@ Error reporting Module.instantiateWasm callback failure with included error deta
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | \u2700-\u27bf | None |
 
 # Raw Prompt Text
-Module.instantiateWasm callback failed with error: [${EXPR_1}]
+Module.instantiateWasm callback failed with error: [${EXPR_1: '\\u2700-\\u27bf'}]
