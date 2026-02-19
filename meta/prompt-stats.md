@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.79
+# Prompt Stats 0.2.80
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -8,7 +8,6 @@
 | system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 0.2.76 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Clean Pasted Object Text Lines](../system-prompts/system-prompt-clean-pasted-object-text-lines.md) | 2330 | 907 | 0.2.77 | 0.2.77 |
-| system | [System Prompt: Cli Coding Safety Rules](../system-prompts/system-prompt-cli-coding-safety-rules.md) | 12431 | 2961 | 0.2.77 | 0.2.77 |
 | system | [System Prompt: Cli Guidelines](../system-prompts/system-prompt-cli-guidelines.md) | 893 | 224 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Command Message Xml Template](../system-prompts/system-prompt-command-message-xml-template.md) | 220 | 82 | 0.2.9 | 0.2.62 |
 | system | [System Prompt: Command Metadata Tags](../system-prompts/system-prompt-command-metadata-tags.md) | 127 | 52 | 0.2.30 | 0.2.62 |
@@ -26,11 +25,12 @@
 | system | [System Prompt: Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 288 | 76 | 0.2.60 | 0.2.60 |
 | system | [System Prompt: Follow Codebase User](../system-prompts/system-prompt-follow-codebase-user.md) | 204 | 47 | 0.2.64 | 0.2.64 |
 | system | [System Prompt: Initial Git Status Snapshot 2](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | 276 | 77 | 0.2.32 | 0.2.62 |
-| system | [System Prompt: Local File Read](../system-prompts/system-prompt-local-file-read.md) | 1301 | 314 | 0.2.72 | 0.2.72 |
+| system | [System Prompt: Local File Read](../system-prompts/system-prompt-local-file-read.md) | 1305 | 317 | 0.2.80 | 0.2.80 |
 | system | [System Prompt: Multi Synthesis](../system-prompts/system-prompt-multi-synthesis.md) | 652 | 159 | 0.2.72 | 0.2.72 |
 | system | [System Prompt: Nested Template Functions](../system-prompts/system-prompt-nested-template-functions.md) | 345 | 134 | 0.2.54 | 0.2.54 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Safe Bash Command Runner 2](../system-prompts/system-prompt-safe-bash-command-runner-2.md) | 11726 | 2998 | 0.2.79 | 0.2.79 |
+| system | [System Prompt: Safe Bash Command Runner 2](../system-prompts/system-prompt-safe-bash-command-runner-2.md) | 11725 | 3000 | 0.2.80 | 0.2.80 |
+| system | [System Prompt: Secure Cli Coding 3](../system-prompts/system-prompt-secure-cli-coding-3.md) | 12426 | 2962 | 0.2.80 | 0.2.80 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Snapshot Aliases And Path](../system-prompts/system-prompt-snapshot-aliases-and-path.md) | 853 | 261 | 0.2.73 | 0.2.73 |
 | system | [System Prompt: Snapshot Zsh Functions Options](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | 471 | 158 | 0.2.73 | 0.2.73 |
@@ -39,11 +39,11 @@
 | system-data | [System Data: Append Memory Entry](../system-prompts/system-data-append-memory-entry.md) | 93 | 37 | 0.2.54 | 0.2.54 |
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 219 | 68 | 0.2.9 | 0.2.78 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 379 | 166 | 0.2.66 | 0.2.79 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 379 | 166 | 0.2.66 | 0.2.79 |
-| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 230 | 75 | 0.2.9 | 0.2.79 |
-| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 230 | 75 | 0.2.9 | 0.2.79 |
-| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 230 | 75 | 0.2.9 | 0.2.79 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 379 | 166 | 0.2.66 | 0.2.80 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 230 | 75 | 0.2.9 | 0.2.80 |
+| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 230 | 75 | 0.2.9 | 0.2.80 |
+| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 230 | 75 | 0.2.9 | 0.2.80 |
+| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 379 | 166 | 0.2.66 | 0.2.80 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
@@ -55,8 +55,8 @@
 | system-data | [System Data: Dom Media Input Events List](../system-prompts/system-data-dom-media-input-events-list.md) | 515 | 153 | 0.2.33 | 0.2.33 |
 | system-data | [System Data: Hex Color Swatches Ccff](../system-prompts/system-data-hex-color-swatches-ccff.md) | 682 | 387 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Html Block Elements List](../system-prompts/system-data-html-block-elements-list.md) | 313 | 148 | 0.2.33 | 0.2.33 |
-| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2578 | 1099 | 0.2.9 | 0.2.73 |
-| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2490 | 1063 | 0.2.9 | 0.2.73 |
+| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2490 | 1063 | 0.2.9 | 0.2.80 |
+| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2578 | 1099 | 0.2.9 | 0.2.80 |
 | system-data | [System Data: Html Element Name List](../system-prompts/system-data-html-element-name-list.md) | 442 | 160 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Http Request Timing Events](../system-prompts/system-data-http-request-timing-events.md) | 309 | 92 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Ignore Build Artifacts](../system-prompts/system-data-ignore-build-artifacts.md) | 234 | 84 | 0.2.57 | 0.2.57 |
@@ -87,11 +87,11 @@
 | system-data | [System Data: Sql Keywords Current Array](../system-prompts/system-data-sql-keywords-current-array.md) | 3339 | 1000 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Stan Distributions List](../system-prompts/system-data-stan-distributions-list.md) | 672 | 244 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 631 | 283 | 0.2.66 | 0.2.66 |
+| system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 631 | 283 | 0.2.66 | 0.2.80 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 0.2.76 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.74 |
-| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.76 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 565 | 166 | 0.2.9 | 0.2.80 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 567 | 171 | 0.2.9 | 0.2.80 |
+| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 554 | 162 | 0.2.9 | 0.2.80 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Underscore Template Runtime](../system-prompts/system-data-underscore-template-runtime.md) | 272 | 129 | 0.2.54 | 0.2.64 |
 | system-data | [System Data: Underscore Template Runtime 2](../system-prompts/system-data-underscore-template-runtime-2.md) | 278 | 133 | 0.2.54 | 0.2.64 |
@@ -101,22 +101,22 @@
 | tool | [Tool Description: Check Health](../system-prompts/tool-description-check-health.md) | 50 | 9 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Clear Chat Keep Summary](../system-prompts/tool-description-clear-chat-keep-summary.md) | 110 | 24 | 0.2.54 | 0.2.57 |
 | tool | [Tool Description: Clear Conversation History](../system-prompts/tool-description-clear-conversation-history.md) | 46 | 7 | 0.2.9 | 0.2.9 |
-| tool | [Tool Description: Edit Files By Replacement](../system-prompts/tool-description-edit-files-by-replacement.md) | 3431 | 851 | 0.2.57 | 0.2.57 |
+| tool | [Tool Description: Edit Files By Replacement](../system-prompts/tool-description-edit-files-by-replacement.md) | 3431 | 851 | 0.2.57 | 0.2.80 |
 | tool | [Tool Description: Edit Memory Files](../system-prompts/tool-description-edit-memory-files.md) | 24 | 4 | 0.2.54 | 0.2.54 |
-| tool | [Tool Description: Enable Option Enter Newlines](../system-prompts/tool-description-enable-option-enter-newlines.md) | 44 | 9 | 0.2.53 | 0.2.53 |
+| tool | [Tool Description: Enable Option Enter Newlines](../system-prompts/tool-description-enable-option-enter-newlines.md) | 60 | 12 | 0.2.80 | 0.2.80 |
 | tool | [Tool Description: Fast Glob File Matching](../system-prompts/tool-description-fast-glob-file-matching.md) | 371 | 84 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Fast Regex Content Search](../system-prompts/tool-description-fast-regex-content-search.md) | 522 | 123 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Fetch Url Analyze Content](../system-prompts/tool-description-fetch-url-analyze-content.md) | 1153 | 271 | 0.2.54 | 0.2.54 |
-| tool | [Tool Description: Filesystem File Reader](../system-prompts/tool-description-filesystem-file-reader.md) | 1294 | 328 | 0.2.72 | 0.2.72 |
+| tool | [Tool Description: Filesystem File Reader](../system-prompts/tool-description-filesystem-file-reader.md) | 1294 | 328 | 0.2.72 | 0.2.80 |
 | tool | [Tool Description: List Allowed Capabilities](../system-prompts/tool-description-list-allowed-capabilities.md) | 32 | 5 | 0.2.40 | 0.2.40 |
 | tool | [Tool Description: List Files In Context](../system-prompts/tool-description-list-files-in-context.md) | 35 | 6 | 0.2.79 | 0.2.79 |
-| tool | [Tool Description: List Path With Ignore Globs](../system-prompts/tool-description-list-path-with-ignore-globs.md) | 294 | 60 | 0.2.29 | 0.2.29 |
+| tool | [Tool Description: List Path With Ignore Globs](../system-prompts/tool-description-list-path-with-ignore-globs.md) | 294 | 60 | 0.2.29 | 0.2.80 |
 | tool | [Tool Description: Mcp Connection Status](../system-prompts/tool-description-mcp-connection-status.md) | 33 | 6 | 0.2.41 | 0.2.41 |
 | tool | [Tool Description: Migrate Npm Global To Local](../system-prompts/tool-description-migrate-npm-global-to-local.md) | 58 | 9 | 0.2.51 | 0.2.51 |
-| tool | [Tool Description: Read Jupyter Notebook Cells](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | 309 | 62 | 0.2.9 | 0.2.9 |
+| tool | [Tool Description: Read Jupyter Notebook Cells](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | 309 | 62 | 0.2.9 | 0.2.80 |
 | tool | [Tool Description: Read Session Todo List](../system-prompts/tool-description-read-session-todo-list.md) | 1152 | 254 | 0.2.73 | 0.2.73 |
-| tool | [Tool Description: Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.9 |
-| tool | [Tool Description: Restricted Shell Command Runner](../system-prompts/tool-description-restricted-shell-command-runner.md) | 11749 | 3042 | 0.2.79 | 0.2.79 |
+| tool | [Tool Description: Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.80 |
+| tool | [Tool Description: Restricted Shell Command Runner](../system-prompts/tool-description-restricted-shell-command-runner.md) | 11749 | 3042 | 0.2.79 | 0.2.80 |
 | tool | [Tool Description: Show Help And Commands](../system-prompts/tool-description-show-help-and-commands.md) | 32 | 5 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Show Session Cost And Duration](../system-prompts/tool-description-show-session-cost-and-duration.md) | 55 | 10 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Sign In Anthropic Account](../system-prompts/tool-description-sign-in-anthropic-account.md) | 35 | 8 | 0.2.9 | 0.2.9 |

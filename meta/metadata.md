@@ -7,22 +7,22 @@
 
 ## Bundle
 
-- Entry bytes: 6577665 bytes
-- Entry lines: 1877
+- Entry bytes: 6584476 bytes
+- Entry lines: 1874
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 8495342 bytes
-- Pretty lines: 147793
+- Pretty bytes: 8504039 bytes
+- Pretty lines: 147999
 
 ## Inventory
 
 - File count: 13
-- Size bytes: 33470583
+- Size bytes: 33477394
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.js`: 2 files, 6578631 bytes
+- `.js`: 2 files, 6585442 bytes
 - `.json`: 1 files, 1054 bytes
 - `.md`: 2 files, 3940 bytes
 - `.sh`: 1 files, 3158 bytes
@@ -51,17 +51,17 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 03:37:19 UTC
+- Snapshot generated at: 2026-02-18 03:38:40 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `90121152209e3a1d59aead30dcb884e0d55d575a97229c3ca2f3584bc870ba59`
+- Config hash: `1e3f7c4aabbdea143806280f2ca7c4234f75abdff656bf04c4f6751ba875aec4`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 285,000
+- Total prompt tokens: 285,009
 - Token p95 / p99: 1,099 / 3,042
 
 ### By Kind
 
 - `system-data`: 265,340 tokens (93.1%)
-- `system`: 13,991 tokens (4.9%)
-- `tool`: 5,669 tokens (2.0%)
+- `system`: 13,997 tokens (4.9%)
+- `tool`: 5,672 tokens (2.0%)
