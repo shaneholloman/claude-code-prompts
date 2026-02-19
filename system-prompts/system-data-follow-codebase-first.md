@@ -23,17 +23,16 @@ Directs strict adherence to provided codebase and user instructions over default
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | Task | None |
-| `EXPR_15` | Bash | None |
-| `EXPR_16` | Glob | None |
-| `EXPR_17` | Grep | None |
-| `EXPR_18` | ExitPlanMode | None |
-| `EXPR_19` | Read | None |
-| `EXPR_20` | Edit | None |
-| `EXPR_21` | MultiEdit | None |
-| `EXPR_22` | Write | None |
-| `EXPR_23` | NotebookEdit | None |
-| `EXPR_24` | WebFetch | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
 
 # Raw Prompt Text
 Codebase and user instructions are shown below. Be sure to adhere to these instructions. IMPORTANT: These instructions OVERRIDE any default behavior and you MUST follow them exactly as written.
@@ -64,52 +63,26 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14: 'Task'}
+${NUM}
 
-${EXPR_15: 'Bash'}
+Background Bash ${EXPR_14}
 
-${EXPR_16: 'Glob'}
+(command: ${EXPR_15})
 
-${EXPR_17: 'Grep'}
-
-${EXPR_18: 'ExitPlanMode'}
-
-${EXPR_19: 'Read'}
-
-${EXPR_20: 'Edit'}
-
-${EXPR_21: 'MultiEdit'}
-
-${EXPR_22: 'Write'}
-
-${EXPR_23: 'NotebookEdit'}
-
-${EXPR_24: 'WebFetch'}
-
-${EXPR_25}
-
-${EXPR_26}
-
-${EXPR_27}
-
-Background Bash ${EXPR_28}
-
-(command: ${EXPR_29})
-
-(status: ${EXPR_30})
+(status: ${EXPR_16})
 
 ${NUM}
 
-${EXPR_31}
+${EXPR_17}
 
-${EXPR_32}
+${EXPR_18}
 
-${EXPR_33}
+${EXPR_19}
 
-${EXPR_34}
+${EXPR_20}
 
-${EXPR_35}
+${EXPR_21}
 
-${EXPR_36}
+${EXPR_22}
 
-${EXPR_37}
+${EXPR_23}
