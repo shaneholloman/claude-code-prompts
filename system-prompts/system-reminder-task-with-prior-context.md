@@ -11,11 +11,12 @@ System reminder framing a task with optional local prior conversation context su
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Task: ${EXPR_1}
 
   Prior conversation context (may or may not be relevant to the task above):
-  local
+  ${EXPR_2}
 
   Note: The above summary represents what was being worked on before this background task was initiated. It may not be relevant to the current task.
