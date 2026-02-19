@@ -1,4 +1,4 @@
-# System Prompt: install-app
+# System Prompt: install-github-app
 
 - Source: inline
 
