@@ -7,33 +7,33 @@
 
 ## Bundle
 
-- Entry bytes: 11044554 bytes
-- Entry lines: 4837
+- Entry bytes: 10322401 bytes
+- Entry lines: 4715
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 14012650 bytes
-- Pretty lines: 258255
+- Pretty bytes: 13206006 bytes
+- Pretty lines: 246424
 
 ## Inventory
 
-- File count: 18
-- Size bytes: 68453995
+- File count: 19
+- Size bytes: 70210452
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.js`: 1 files, 11044554 bytes
-- `.json`: 1 files, 1196 bytes
+- `.js`: 1 files, 10322401 bytes
+- `.json`: 1 files, 1200 bytes
 - `.md`: 2 files, 2133 bytes
 - `.node`: 5 files, 28944544 bytes
 - `.ts`: 1 files, 65511 bytes
-- `.wasm`: 2 files, 1586267 bytes
+- `.wasm`: 3 files, 4064873 bytes
 
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
 - `.node`: 28944544 bytes
-- `.wasm`: 1586267 bytes
+- `.wasm`: 4064873 bytes
 
 ### Files
 
@@ -41,6 +41,7 @@
 - `LICENSE.md`
 - `package.json`
 - `README.md`
+- `resvg.wasm`
 - `sdk-tools.d.ts`
 - `tree-sitter-bash.wasm`
 - `tree-sitter.wasm`
@@ -58,19 +59,21 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 15:10:06 UTC
+- Snapshot generated at: 2026-02-18 15:13:58 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `62577baea8f64c0989187c4613ef91458f57b0595a8d8db27be2a10d55bad15d`
+- Config hash: `8ed1fdf936f1e2571a2fe52c17bbc2c47264037c5b3134a18ba8be445c312f13`
+- Embedded build timestamp: 2025-12-09 19:43:43 UTC
+- Relative to embedded build timestamp: 70d 19h 30m 15s (2025-12-09 19:43:43 UTC → 2026-02-18 15:13:58 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 312,387
-- Token p95 / p99: 1,119 / 2,808
+- Total prompt tokens: 319,941
+- Token p95 / p99: 1,055 / 2,649
 
 ### By Kind
 
-- `system-data`: 249,954 tokens (80.0%)
-- `system`: 34,529 tokens (11.1%)
-- `system-reminder`: 15,121 tokens (4.8%)
-- `tool`: 10,242 tokens (3.3%)
+- `system-data`: 257,120 tokens (80.4%)
+- `system`: 34,667 tokens (10.8%)
+- `system-reminder`: 15,359 tokens (4.8%)
+- `tool`: 10,254 tokens (3.2%)
 - `agent`: 2,541 tokens (0.8%)

@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 26
-- Options: 47
-- Env vars: 375
-- Config keys: 435
+- Options: 48
+- Env vars: 376
+- Config keys: 451
 - Tools: 3
 - Skills: 0
-- Models: 65
+- Models: 67
 - Providers: 8
 
 ## Commands
@@ -103,6 +103,7 @@
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
+- `--no-session-persistence`
 - `--plugin-dir`
 - `--print`
 - `--replay-user-messages`
@@ -147,6 +148,7 @@
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
+- `--no-session-persistence`
 - `--plugin-dir <paths...>`
 - `--replay-user-messages`
 - `--session-id <uuid>`
@@ -197,7 +199,9 @@
 - `AWS_BEARER_TOKEN_BEDROCK`
 - `AWS_DEFAULT_REGION`
 - `AWS_EXECUTION_ENV`
+- `AWS_LAMBDA_BENCHMARK_MODE`
 - `AWS_LAMBDA_FUNCTION_NAME`
+- `AWS_LOGIN_CACHE_DIRECTORY`
 - `AWS_PROFILE`
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
@@ -264,7 +268,6 @@
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_ENABLE_ASK_USER_QUESTION_TOOL`
-- `CLAUDE_CODE_ENABLE_PROCESS_CLAUDE_RULES`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
@@ -301,6 +304,7 @@
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
+- `CLAUDE_CODE_TEAM_LEAD_ID`
 - `CLAUDE_CODE_TEAM_NAME`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_USE_BEDROCK`
@@ -433,7 +437,6 @@
 - `OTEL_EXPORTER_OTLP_TRACES_PROTOCOL`
 - `OTEL_EXPORTER_PROMETHEUS_HOST`
 - `OTEL_EXPORTER_PROMETHEUS_PORT`
-- `OTEL_LOG_MODEL_RESPONSE`
 - `OTEL_LOG_TOOL_CONTENT`
 - `OTEL_LOG_USER_PROMPTS`
 - `OTEL_LOGS_EXPORT_INTERVAL`
@@ -637,6 +640,7 @@
 - `costPriority`
 - `course_correction`
 - `created_at`
+- `createdAt`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
@@ -653,12 +657,15 @@
 - `description`
 - `destination`
 - `destructiveHint`
+- `dimensions`
 - `directories`
 - `disableAllHooks`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `disallowedTools`
 - `display_values_supported`
+- `displayHeight`
+- `displayWidth`
 - `dpop_bound_access_tokens_required`
 - `dpop_signing_alg_values_supported`
 - `durationMs`
@@ -690,6 +697,7 @@
 - `expires_in`
 - `extensions`
 - `extraKnownMarketplaces`
+- `feedback`
 - `file`
 - `fileCount`
 - `filenames`
@@ -804,7 +812,9 @@
 - `operation`
 - `options`
 - `originalFile`
+- `originalHeight`
 - `originalSize`
+- `originalWidth`
 - `otelHeadersHelper`
 - `output_tokens`
 - `outputStyle`
@@ -819,6 +829,8 @@
 - `permissionDecisionReason`
 - `permissionMode`
 - `permissions`
+- `permissionSuggestions`
+- `permissionUpdates`
 - `plan`
 - `pluginConfigs`
 - `pluginRoot`
@@ -858,6 +870,8 @@
 - `requestHandler`
 - `require_request_uri_registration`
 - `required`
+- `resolvedAt`
+- `resolvedBy`
 - `resource`
 - `resource_documentation`
 - `resource_name`
@@ -934,6 +948,7 @@
 - `taskId`
 - `tasks`
 - `teammateCount`
+- `teamName`
 - `text`
 - `timeout`
 - `timeoutMs`
@@ -952,6 +967,7 @@
 - `tool_use_id`
 - `toolName`
 - `tools`
+- `toolUseId`
 - `toolUseID`
 - `tos_uri`
 - `total`
@@ -982,6 +998,9 @@
 - `version`
 - `web_fetch_requests`
 - `web_search_requests`
+- `workerColor`
+- `workerId`
+- `workerName`
 
 ## Tools
 
@@ -1022,9 +1041,11 @@ _None detected_
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
+- `claude-code-marketplace`
 - `claude-code-mcp-cli`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
+- `claude-code-screenshots`
 - `claude-code-user`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
