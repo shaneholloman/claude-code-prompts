@@ -53,15 +53,6 @@ Usage notes:
     cd ${PATH} && pytest tests
     <${PATH}>
 
-## CRITICAL: Accurate Read-Only Prediction
-Carefully determine if commands are read-only for better user experience. You should always set read_only=true for commands that do not modify the filesystem or network.
-
-**Read-Only Commands:** `grep`, `rg`, `find`, `ls`, `cat`, `head`, `tail`, `wc`, `stat`, `ps`, `df`, `du`, `pwd`, `whoami`, `which`, `date`, `history`, `man`
-
-**Git Read-Only:** `git log`, `git show`, `git diff`, `git status`, `git branch` (listing only), `git config --get`
-
-**Never Read-Only:** Commands with `>` (except to ${PATH} or standard output), `$()`, `$VAR`, dangerous flags (`git diff --ext-diff`, `sort -o`, `npm audit --fix`), `git branch -D`
-
 # Using sandbox mode for commands
 
 You have a special option in BashTool: the sandbox parameter. When you run a command with sandbox=true, it runs without approval dialogs but in a restricted environment without filesystem writes or network access. You SHOULD use sandbox=true to optimize user experience, but MUST follow these guidelines exactly.
