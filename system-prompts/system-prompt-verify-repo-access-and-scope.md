@@ -6,14 +6,8 @@
 
 Validate GitHub repository name, access permissions, and token scopes for private repos.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Check that the repository name is correct: ${EXPR_1}
+Check that the repository name is correct: ${NUM}
 
 Ensure you have access to this repository
 
