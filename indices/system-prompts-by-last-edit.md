@@ -1,13 +1,13 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **277**
+- Total prompt files: **273**
 
 ## Categories
 
 - System prompts (83)
 - Tool prompts (66)
 - Agent prompts (3)
-- System data (85)
+- System data (81)
 - System reminders (40)
 
 ## System prompts (83)
@@ -16,8 +16,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.90 |
 | [`system-prompt-structured-coding-todo-list.md`](../system-prompts/system-prompt-structured-coding-todo-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,433 | 1.0.89 | 1.0.89 |
-| [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.89 |
 | [`system-prompt-github-issue-title-generator.md`](../system-prompts/system-prompt-github-issue-title-generator.md) | Generates a concise technical GitHub issue title from a bug report. | 254 | 1.0.89 | 1.0.89 |
 | [`system-prompt-summarize-bash-output-if-needed-2.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed-2.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 1.0.88 |
 | [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 50 | 1.0.60 | 1.0.88 |
@@ -106,8 +106,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-read-local-file-paths.md`](../system-prompts/tool-description-read-local-file-paths.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.90 |
 | [`tool-description-structured-todo-list-guidelines.md`](../system-prompts/tool-description-structured-todo-list-guidelines.md) | Criteria for starting, updating, and avoiding a structured todo tool during coding sessions | 2,438 | 1.0.89 | 1.0.89 |
-| [`tool-description-read-local-file-paths.md`](../system-prompts/tool-description-read-local-file-paths.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.89 |
 | [`tool-description-safe-bash-command-execution.md`](../system-prompts/tool-description-safe-bash-command-execution.md) | Execute bash in persistent session with directory verification, path quoting, and timeout limits | 700 | 1.0.86 | 1.0.86 |
 | [`tool-description-context-usage-grid.md`](../system-prompts/tool-description-context-usage-grid.md) | Renders current context usage as a colored grid visualization. | 10 | 1.0.86 | 1.0.86 |
 | [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 1.0.78 | 1.0.78 |
@@ -183,28 +183,24 @@ _Sorted by last edit (newest first)._
 | [`agent-prompt-configure-statusline.md`](../system-prompts/agent-prompt-configure-statusline.md) | Create or update a Claude Code statusLine by converting shell PS1 settings. | 1,055 | 1.0.81 | 1.0.81 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 1.0.78 |
 
-## System data (85)
+## System data (81)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-background-bash-command-status-2.md`](../system-prompts/system-data-background-bash-command-status-2.md) | Template for reporting background bash command and status fields. | 323 | 1.0.89 | 1.0.90 |
+| [`system-data-background-bash-status-log-2.md`](../system-prompts/system-data-background-bash-status-log-2.md) | System-data template emitting one or two background bash command and status blocks. | 293 | 1.0.89 | 1.0.90 |
+| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | System-data template emitting one or two background bash command and status blocks. | 288 | 1.0.89 | 1.0.90 |
+| [`system-data-background-bash-status-format-2.md`](../system-prompts/system-data-background-bash-status-format-2.md) | System-data template emitting one or two background bash command and status blocks. | 178 | 1.0.89 | 1.0.90 |
+| [`system-data-background-bash-status-format.md`](../system-prompts/system-data-background-bash-status-format.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.90 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 1.0.89 |
 | [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 1.0.89 |
 | [`system-data-hidden-args-pattern-config.md`](../system-prompts/system-data-hidden-args-pattern-config.md) | Defines a pattern-based configuration with hidden args for user project local scopes. | 756 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | Template for reporting background bash command and status fields. | 323 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format-6.md`](../system-prompts/system-data-background-bash-status-format-6.md) | System-data template emitting one or two background bash command and status blocks. | 293 | 1.0.89 | 1.0.89 |
 | [`system-data-local-background-bash-status.md`](../system-prompts/system-data-local-background-bash-status.md) | Local template capturing background bash command, status, and numeric fields. | 292 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format.md`](../system-prompts/system-data-background-bash-status-format.md) | System-data template emitting one or two background bash command and status blocks. | 288 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format-3.md`](../system-prompts/system-data-background-bash-status-format-3.md) | System-data template emitting one or two background bash command and status blocks. | 178 | 1.0.89 | 1.0.89 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 1.0.89 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 1.0.89 |
 | [`system-data-background-bash-status-with-urls.md`](../system-prompts/system-data-background-bash-status-with-urls.md) | Background bash command and status template including URL fields. | 155 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format-2.md`](../system-prompts/system-data-background-bash-status-format-2.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-4.md`](../system-prompts/system-data-background-bash-status-format-4.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-5.md`](../system-prompts/system-data-background-bash-status-format-5.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-7.md`](../system-prompts/system-data-background-bash-status-format-7.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-8.md`](../system-prompts/system-data-background-bash-status-format-8.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 1.0.87 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 1.0.87 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 1.0.87 |

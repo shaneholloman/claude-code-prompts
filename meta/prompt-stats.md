@@ -1,4 +1,4 @@
-# Prompt Stats 1.0.89
+# Prompt Stats 1.0.90
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -61,7 +61,7 @@
 | system | [System Prompt: Malicious Files Refusal Check](../system-prompts/system-prompt-malicious-files-refusal-check.md) | 98 | 30 | 0.2.89 | 0.2.89 |
 | system | [System Prompt: Nested Template Functions](../system-prompts/system-prompt-nested-template-functions.md) | 345 | 134 | 0.2.54 | 1.0.86 |
 | system | [System Prompt: Pull Request Review Workflow](../system-prompts/system-prompt-pull-request-review-workflow.md) | 2694 | 723 | 1.0.71 | 1.0.71 |
-| system | [System Prompt: Read Local Files By Path](../system-prompts/system-prompt-read-local-files-by-path.md) | 1703 | 396 | 1.0.58 | 1.0.89 |
+| system | [System Prompt: Read Local Files By Path](../system-prompts/system-prompt-read-local-files-by-path.md) | 1703 | 396 | 1.0.58 | 1.0.90 |
 | system | [System Prompt: Read Mcp Server Resource](../system-prompts/system-prompt-read-mcp-server-resource.md) | 250 | 73 | 1.0.22 | 1.0.22 |
 | system | [System Prompt: Record Shell Options Snapshot](../system-prompts/system-prompt-record-shell-options-snapshot.md) | 256 | 100 | 1.0.65 | 1.0.65 |
 | system | [System Prompt: Redirect Detected](../system-prompts/system-prompt-redirect-detected.md) | 300 | 97 | 1.0.52 | 1.0.74 |
@@ -129,15 +129,11 @@
 | system-reminder | [System Reminder: Use Context Only When Relevant](../system-prompts/system-reminder-use-context-only-when-relevant.md) | 271 | 71 | 1.0.59 | 1.0.59 |
 | system-reminder | [System Reminder: Web Search](../system-prompts/system-reminder-web-search.md) | 57 | 11 | 0.2.108 | 0.2.108 |
 | system-data | [System Data: Allowed Shell Commands List 2](../system-prompts/system-data-allowed-shell-commands-list-2.md) | 285 | 93 | 1.0.86 | 1.0.86 |
-| system-data | [System Data: Background Bash Command Status](../system-prompts/system-data-background-bash-command-status.md) | 566 | 323 | 1.0.89 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format](../system-prompts/system-data-background-bash-status-format.md) | 506 | 288 | 1.0.89 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 2](../system-prompts/system-data-background-bash-status-format-2.md) | 197 | 98 | 1.0.69 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 3](../system-prompts/system-data-background-bash-status-format-3.md) | 339 | 178 | 1.0.89 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 4](../system-prompts/system-data-background-bash-status-format-4.md) | 197 | 98 | 1.0.69 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 5](../system-prompts/system-data-background-bash-status-format-5.md) | 197 | 98 | 1.0.69 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 6](../system-prompts/system-data-background-bash-status-format-6.md) | 527 | 293 | 1.0.89 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 7](../system-prompts/system-data-background-bash-status-format-7.md) | 197 | 98 | 1.0.69 | 1.0.89 |
-| system-data | [System Data: Background Bash Status Format 8](../system-prompts/system-data-background-bash-status-format-8.md) | 197 | 98 | 1.0.69 | 1.0.89 |
+| system-data | [System Data: Background Bash Command Status](../system-prompts/system-data-background-bash-command-status.md) | 506 | 288 | 1.0.89 | 1.0.90 |
+| system-data | [System Data: Background Bash Command Status 2](../system-prompts/system-data-background-bash-command-status-2.md) | 566 | 323 | 1.0.89 | 1.0.90 |
+| system-data | [System Data: Background Bash Status Format](../system-prompts/system-data-background-bash-status-format.md) | 197 | 98 | 1.0.69 | 1.0.90 |
+| system-data | [System Data: Background Bash Status Format 2](../system-prompts/system-data-background-bash-status-format-2.md) | 339 | 178 | 1.0.89 | 1.0.90 |
+| system-data | [System Data: Background Bash Status Log 2](../system-prompts/system-data-background-bash-status-log-2.md) | 527 | 293 | 1.0.89 | 1.0.90 |
 | system-data | [System Data: Background Bash Status With Urls](../system-prompts/system-data-background-bash-status-with-urls.md) | 278 | 155 | 1.0.89 | 1.0.89 |
 | system-data | [System Data: Character Mapping Table](../system-prompts/system-data-character-mapping-table.md) | 317123 | 184755 | 1.0.32 | 1.0.32 |
 | system-data | [System Data: Cli User Preferences Flags](../system-prompts/system-data-cli-user-preferences-flags.md) | 326 | 98 | 1.0.81 | 1.0.81 |
@@ -254,7 +250,7 @@
 | tool | [Tool Description: Multi Edit File Operations](../system-prompts/tool-description-multi-edit-file-operations.md) | 2554 | 645 | 1.0.8 | 1.0.8 |
 | tool | [Tool Description: Option Enter Newline Binding](../system-prompts/tool-description-option-enter-newline-binding.md) | 60 | 12 | 0.2.80 | 0.2.83 |
 | tool | [Tool Description: Paused By Ctrl Z Or Suspend](../system-prompts/tool-description-paused-by-ctrl-z-or-suspend.md) | 32 | 12 | 1.0.68 | 1.0.68 |
-| tool | [Tool Description: Read Local File Paths](../system-prompts/tool-description-read-local-file-paths.md) | 1703 | 396 | 1.0.58 | 1.0.89 |
+| tool | [Tool Description: Read Local File Paths](../system-prompts/tool-description-read-local-file-paths.md) | 1703 | 396 | 1.0.58 | 1.0.90 |
 | tool | [Tool Description: Read Resource By Uri](../system-prompts/tool-description-read-resource-by-uri.md) | 232 | 54 | 1.0.22 | 1.0.22 |
 | tool | [Tool Description: Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.83 |
 | tool | [Tool Description: Request Process Information](../system-prompts/tool-description-request-process-information.md) | 31 | 4 | 1.0.68 | 1.0.68 |

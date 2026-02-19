@@ -1,13 +1,13 @@
 # System Prompts Index – by init
 
-- Total prompt files: **277**
+- Total prompt files: **273**
 
 ## Categories
 
 - System prompts (83)
 - Tool prompts (66)
 - Agent prompts (3)
-- System data (85)
+- System data (81)
 - System reminders (40)
 
 ## System prompts (83)
@@ -49,7 +49,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-summarize-bash-output-if-needed-2.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed-2.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 1.0.88 |
 | [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 50 | 1.0.60 | 1.0.88 |
 | [`system-prompt-file-editing-and-response-rules.md`](../system-prompts/system-prompt-file-editing-and-response-rules.md) | Guidelines to avoid creating files, prefer edits, and use absolute paths without emojis. | 129 | 1.0.59 | 1.0.59 |
-| [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.89 |
+| [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.90 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 1.0.56 | 1.0.56 |
 | [`system-prompt-command-exit-handling.md`](../system-prompts/system-prompt-command-exit-handling.md) | Defines JSON input expectations and exit code behaviors. | 59 | 1.0.55 | 1.0.56 |
 | [`system-prompt-exit-transcript-rules.md`](../system-prompts/system-prompt-exit-transcript-rules.md) | Specifies how stdout and stderr are displayed for tool call inputs and responses by exit code. | 70 | 1.0.53 | 1.0.53 |
@@ -134,7 +134,7 @@ _Sorted by init (newest first)._
 | [`tool-description-invalid-machine.md`](../system-prompts/tool-description-invalid-machine.md) | Reports an invalid or unsupported CPU instruction was executed. | 3 | 1.0.68 | 1.0.68 |
 | [`tool-description-kill-background-bash-shell.md`](../system-prompts/tool-description-kill-background-bash-shell.md) | Terminate a running background bash shell by shell id and return status. | 65 | 1.0.60 | 1.0.68 |
 | [`tool-description-manage-configurations.md`](../system-prompts/tool-description-manage-configurations.md) | Create and maintain agent configuration settings. | 4 | 1.0.60 | 1.0.60 |
-| [`tool-description-read-local-file-paths.md`](../system-prompts/tool-description-read-local-file-paths.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.89 |
+| [`tool-description-read-local-file-paths.md`](../system-prompts/tool-description-read-local-file-paths.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 396 | 1.0.58 | 1.0.90 |
 | [`tool-description-verify-setup.md`](../system-prompts/tool-description-verify-setup.md) | Diagnoses and verifies Claude Code installation and configuration settings. | 11 | 1.0.49 | 1.0.49 |
 | [`tool-description-export-conversation-to-file.md`](../system-prompts/tool-description-export-conversation-to-file.md) | Export the current conversation to a file or clipboard. | 9 | 1.0.44 | 1.0.44 |
 | [`tool-description-fetch-and-analyze-web-content.md`](../system-prompts/tool-description-fetch-and-analyze-web-content.md) | Describes a tool that fetches a URL, converts HTML to markdown, and analyzes it with a small model. | 272 | 1.0.42 | 1.0.42 |
@@ -183,18 +183,18 @@ _Sorted by init (newest first)._
 | [`agent-prompt-configure-statusline.md`](../system-prompts/agent-prompt-configure-statusline.md) | Create or update a Claude Code statusLine by converting shell PS1 settings. | 1,055 | 1.0.81 | 1.0.81 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 1.0.78 |
 
-## System data (85)
+## System data (81)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-data-hidden-args-pattern-config.md`](../system-prompts/system-data-hidden-args-pattern-config.md) | Defines a pattern-based configuration with hidden args for user project local scopes. | 756 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | Template for reporting background bash command and status fields. | 323 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format-6.md`](../system-prompts/system-data-background-bash-status-format-6.md) | System-data template emitting one or two background bash command and status blocks. | 293 | 1.0.89 | 1.0.89 |
+| [`system-data-background-bash-command-status-2.md`](../system-prompts/system-data-background-bash-command-status-2.md) | Template for reporting background bash command and status fields. | 323 | 1.0.89 | 1.0.90 |
+| [`system-data-background-bash-status-log-2.md`](../system-prompts/system-data-background-bash-status-log-2.md) | System-data template emitting one or two background bash command and status blocks. | 293 | 1.0.89 | 1.0.90 |
 | [`system-data-local-background-bash-status.md`](../system-prompts/system-data-local-background-bash-status.md) | Local template capturing background bash command, status, and numeric fields. | 292 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format.md`](../system-prompts/system-data-background-bash-status-format.md) | System-data template emitting one or two background bash command and status blocks. | 288 | 1.0.89 | 1.0.89 |
-| [`system-data-background-bash-status-format-3.md`](../system-prompts/system-data-background-bash-status-format-3.md) | System-data template emitting one or two background bash command and status blocks. | 178 | 1.0.89 | 1.0.89 |
+| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | System-data template emitting one or two background bash command and status blocks. | 288 | 1.0.89 | 1.0.90 |
+| [`system-data-background-bash-status-format-2.md`](../system-prompts/system-data-background-bash-status-format-2.md) | System-data template emitting one or two background bash command and status blocks. | 178 | 1.0.89 | 1.0.90 |
 | [`system-data-background-bash-status-with-urls.md`](../system-prompts/system-data-background-bash-status-with-urls.md) | Background bash command and status template including URL fields. | 155 | 1.0.89 | 1.0.89 |
 | [`system-data-generic-url-function-template.md`](../system-prompts/system-data-generic-url-function-template.md) | JavaScript function template named EXPR_1 with URL parameter and sixteen placeholder statements | 137 | 1.0.86 | 1.0.86 |
 | [`system-data-mcp-server.md`](../system-prompts/system-data-mcp-server.md) | Lists per-server MCP tool and resource usage instructions collected from configured servers. | 128 | 1.0.86 | 1.0.86 |
@@ -209,11 +209,7 @@ _Sorted by init (newest first)._
 | [`system-data-github-events-trigger.md`](../system-prompts/system-data-github-events-trigger.md) | GitHub Actions workflow triggers Claude Code job when @claude appears in events. | 648 | 1.0.71 | 1.0.71 |
 | [`system-data-ignore-caches-and-binaries.md`](../system-prompts/system-data-ignore-caches-and-binaries.md) | Ignore list for repos covering caches, media, archives, and binary data files. | 422 | 1.0.70 | 1.0.70 |
 | [`system-data-http-request-timing-events-4.md`](../system-prompts/system-data-http-request-timing-events-4.md) | Documents HTTP request timing fields and a background Bash command with status output. | 122 | 1.0.69 | 1.0.69 |
-| [`system-data-background-bash-status-format-2.md`](../system-prompts/system-data-background-bash-status-format-2.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-4.md`](../system-prompts/system-data-background-bash-status-format-4.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-5.md`](../system-prompts/system-data-background-bash-status-format-5.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-7.md`](../system-prompts/system-data-background-bash-status-format-7.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
-| [`system-data-background-bash-status-format-8.md`](../system-prompts/system-data-background-bash-status-format-8.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.89 |
+| [`system-data-background-bash-status-format.md`](../system-prompts/system-data-background-bash-status-format.md) | Multiple prompts (5) | 98 | 1.0.69 | 1.0.90 |
 | [`system-data-post-hook-latex-verbs.md`](../system-prompts/system-data-post-hook-latex-verbs.md) | Post-tool-use hook formats verb, lstinline, mintinline, and hyperref fields with expressions. | 51 | 1.0.65 | 1.0.65 |
 | [`system-data-truncated-numeric-placeholders.md`](../system-prompts/system-data-truncated-numeric-placeholders.md) | Truncated stream of numeric placeholders. | 1,119 | 1.0.59 | 1.0.59 |
 | [`system-data-extended-numeric-placeholders.md`](../system-prompts/system-data-extended-numeric-placeholders.md) | Extended list of numeric placeholder values. | 678 | 1.0.59 | 1.0.59 |
