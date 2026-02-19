@@ -13,6 +13,7 @@ Skip duplicate file because the same inode was already loaded elsewhere.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Skipping duplicate file '${EXPR_1}' from ${EXPR_2} (same inode already loaded from ${EXPR_3})
+Skipping duplicate file '${EXPR_1}' from ${EXPR_2} (same inode already loaded from ${EXPR_3}@${EXPR_4})
