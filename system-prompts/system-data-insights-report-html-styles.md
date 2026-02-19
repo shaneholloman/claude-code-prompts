@@ -441,6 +441,6 @@ ${EXPR_119}
 
     ${EXPR_121}@${EXPR_122}
   <${PATH}>
-  <script>${EXPR_123}<${PATH}>
+  <script> summary="${EXPR_123}"<${PATH}>
 <${PATH}>
 <${PATH}>
