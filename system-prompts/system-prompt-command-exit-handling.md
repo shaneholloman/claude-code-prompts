@@ -1,4 +1,4 @@
-# System Prompt: json-command-exit-codes
+# System Prompt: command-exit-handling
 
 - Source: inline
 
