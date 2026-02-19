@@ -26,7 +26,7 @@ ${EXPR_1}
 
 The user has the following custom setup in their environment:
 
-Usage: ${EXPR_2}
+${EXPR_2}
 
 ${EXPR_3}
 
