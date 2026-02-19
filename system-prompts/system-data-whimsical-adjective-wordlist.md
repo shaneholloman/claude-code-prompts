@@ -89,8 +89,6 @@ peaceful
 
 playful
 
-plucky
-
 polished
 
 precious
@@ -266,8 +264,6 @@ quizzical
 rippling
 
 rustling
-
-sassy
 
 shimmering
 
