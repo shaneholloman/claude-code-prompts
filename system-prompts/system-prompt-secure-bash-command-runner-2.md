@@ -12,6 +12,12 @@ Execute bash commands in a persistent sandbox with directory checks and timeout 
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -28,10 +34,11 @@ ${NUM}. Command Execution:
 
 Usage notes:
   - The command argument is required.
-  - You can specify an optional timeout in milliseconds (up to 600000ms / ${EXPR_1} minutes). If not specified, commands will timeout after 120000ms (${EXPR_2} minutes).
+  - You can specify an optional timeout in milliseconds (up to ${EXPR_1}ms / ${EXPR_2} minutes). If not specified, commands will timeout after 120000ms (${EXPR_3} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
   - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use Grep, Glob, or Task to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use Read and LS to read files.
+  - If you _still_ need to run `grep`, STOP. ALWAYS USE ripgrep at `rg` (or ${EXPR_4}) first, which all Claude Code users have pre-installed.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
   - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
     <good-example>
@@ -74,7 +81,7 @@ Use sandbox=false when you suspect the command might modify the system or access
   - Network programs: gh, ping, coo, ssh, scp, etc.
 
 Use sandbox=true for:
-  - Information gathering: ls, cat, head, tail, grep, find, du, df, ps
+  - Information gathering: ls, cat, head, tail, rg, find, du, df, ps
   - File inspection: file, stat, wc, diff, md5sum
   - Git reads: git status, git log, git diff, git show
   - Environment checks: echo, pwd, whoami, which, type, env, printenv
@@ -102,7 +109,7 @@ Use sandbox=true to improve UX, but ONLY per the rules above. WHEN IN DOUBT, USE
 
 When the user asks you to create a new git commit, follow these steps carefully:
 
-${NUM}. Use Batch to run the following commands in parallel:
+${NUM}. ${EXPR_5} run the following commands in parallel:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
@@ -122,7 +129,7 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 - Review the draft message to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. Use Batch to run the following commands in parallel:
+${NUM}. ${EXPR_6} run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
    🤖 Generated with [Claude Code](${URL})
@@ -158,7 +165,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. Use Batch to run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. ${EXPR_7} run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
@@ -181,7 +188,7 @@ ${NUM}. Analyze all changes that will be included in the pull request, making su
 - Review the draft summary to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. Use Batch to run the following commands in parallel:
+${NUM}. ${EXPR_8} run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
    - Create PR using gh pr create with the format below. Use a HEREDOC to pass the body to ensure correct formatting.
