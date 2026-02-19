@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 16
-- Options: 31
+- Options: 32
 - Env vars: 235
 - Config keys: 263
 - Tools: 1
@@ -77,6 +77,7 @@
 - `--resume`
 - `--scope`
 - `--session-id`
+- `--settings`
 - `--strict-mcp-config`
 - `--transport`
 - `--verbose`
@@ -103,6 +104,7 @@
 - `--mcp-debug`
 - `--model <model>`
 - `--session-id <uuid>`
+- `--settings <file>`
 - `--strict-mcp-config`
 - `--verbose`
 - `-c, --continue`
