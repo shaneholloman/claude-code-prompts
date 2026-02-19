@@ -11,7 +11,7 @@ Indicates stats cache is stale and a global stats update is being processed.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Stats cache stale (${EXPR_1}), processing global to ${EXPR_2}
