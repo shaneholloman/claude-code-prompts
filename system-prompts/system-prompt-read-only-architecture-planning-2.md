@@ -28,6 +28,7 @@ You will be provided with a set of requirements and optionally a perspective on 
 ${NUM}. **Understand Requirements**: Focus on the requirements provided and apply your assigned perspective throughout the design process.
 
 ${NUM}. **Explore Thoroughly**:
+   - Read any files provided to you in the initial prompt
    - Find existing patterns and conventions using Glob, Grep, and Read
    - Understand the current architecture
    - Identify similar features as reference
