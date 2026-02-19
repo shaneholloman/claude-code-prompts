@@ -5,7 +5,7 @@
 - Commands: 20
 - Options: 40
 - Env vars: 326
-- Config keys: 374
+- Config keys: 378
 - Tools: 3
 - Skills: 0
 - Models: 52
@@ -216,13 +216,13 @@
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
-- `CLAUDE_CODE_FORCE_HALLOWEEN`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
+- `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
@@ -492,6 +492,8 @@
 - `answers`
 - `api`
 - `apiKeyHelper`
+- `appliedLimit`
+- `appliedOffset`
 - `args`
 - `argumentHint`
 - `arguments`
@@ -537,6 +539,7 @@
 - `command`
 - `commandName`
 - `commands`
+- `companyAnnouncements`
 - `completions`
 - `compressible`
 - `config`
@@ -845,6 +848,7 @@
 - `value`
 - `values`
 - `version`
+- `web_fetch_requests`
 - `web_search_requests`
 
 ## Tools
