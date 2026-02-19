@@ -34,36 +34,18 @@ ${NUM}
 
 ${EXPR_3}
 
-underline
+${NUM}
 
-inverse
+${NUM}
 
-grey
+${NUM}
 
-yellow
+${NUM}
 
-red
+${NUM}
 
-green
+${NUM}
 
-blue
+${NUM}
 
-white
-
-cyan
-
-magenta
-
-brightYellow
-
-brightRed
-
-brightGreen
-
-brightBlue
-
-brightWhite
-
-brightCyan
-
-brightMagenta
+${NUM}
