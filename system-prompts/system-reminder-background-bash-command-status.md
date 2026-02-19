@@ -15,6 +15,9 @@ Displays background Bash job id, command, status, and associated output details.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 Background Bash ${EXPR_1}
@@ -28,6 +31,12 @@ ${NUM}
 ${EXPR_4}
 
 ${EXPR_5}
+
+${EXPR_6}
+
+${EXPR_7}
+
+${EXPR_8}
 
 ${NUM}
 
