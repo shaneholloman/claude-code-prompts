@@ -4,11 +4,11 @@
 
 - Commands: 27
 - Options: 44
-- Env vars: 372
-- Config keys: 412
+- Env vars: 371
+- Config keys: 413
 - Tools: 3
 - Skills: 0
-- Models: 59
+- Models: 60
 - Providers: 8
 
 ## Commands
@@ -345,7 +345,6 @@
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
 - `ENABLE_MCP_CLI_ENDPOINT`
-- `ENABLE_OVERFLOW_TEST_TOOL`
 - `ENABLE_TOOL_RESULT_SIZE_LIMIT`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -556,6 +555,7 @@
 - `allowedMcpServers`
 - `allowedTools`
 - `allowLocalBinding`
+- `allowManagedHooksOnly`
 - `allowUnixSockets`
 - `allowUnsandboxedCommands`
 - `allowWrite`
@@ -984,6 +984,7 @@ _None detected_
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai-external-token`
+- `claude-cdn-dark-read-`
 - `claude-cli`
 - `claude-cli-native-`
 - `claude-code`
