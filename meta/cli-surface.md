@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 52
-- Env vars: 408
-- Config keys: 353
+- Env vars: 413
+- Config keys: 385
 - Tools: 3
 - Skills: 0
-- Models: 84
+- Models: 86
 - Providers: 7
 
 ## Commands
@@ -253,11 +253,13 @@
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_AGENT_SWARMS`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
+- `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BUBBLEWRAP`
@@ -308,6 +310,8 @@
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_PERFETTO_TRACE`
+- `CLAUDE_CODE_PLAN_MODE_INTERVIEW_PHASE`
+- `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PROFILE_STARTUP`
@@ -441,6 +445,7 @@
 - `IBM_CLOUD_REGION`
 - `IS_DEMO`
 - `IS_SANDBOX`
+- `ITERM_SESSION_ID`
 - `JEST_WORKER_ID`
 - `K_CONFIGURATION`
 - `K_SERVICE`
@@ -596,6 +601,7 @@
 - `activeForm`
 - `additionalContext`
 - `additionalDirectories`
+- `additions`
 - `agent`
 - `agentId`
 - `agents`
@@ -630,6 +636,7 @@
 - `autoAllowBashIfSandboxed`
 - `autoUpdate`
 - `autoUpdatesChannel`
+- `awaitingLeaderApproval`
 - `awsAuthRefresh`
 - `awsCredentialExport`
 - `backgroundedByUser`
@@ -647,6 +654,7 @@
 - `cell_id`
 - `cell_type`
 - `cells`
+- `changes`
 - `character`
 - `charset`
 - `checksum`
@@ -664,12 +672,14 @@
 - `contents`
 - `continue`
 - `created_at`
+- `createdAt`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
 - `default_branch`
 - `defaultEnvironmentId`
 - `defaultMode`
+- `deletions`
 - `deniedDomains`
 - `deniedMcpServers`
 - `deny`
@@ -709,8 +719,10 @@
 - `explanation`
 - `extensions`
 - `extraKnownMarketplaces`
+- `feedback`
 - `file`
 - `fileCount`
+- `filename`
 - `filenames`
 - `filePath`
 - `fileSuggestion`
@@ -718,8 +730,10 @@
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
+- `from`
 - `fullName`
 - `gitCommitSha`
+- `gitDiff`
 - `hasPrompts`
 - `hasResources`
 - `hasTools`
@@ -755,6 +769,7 @@
 - `label`
 - `language`
 - `lastUpdated`
+- `launchSwarm`
 - `libvips`
 - `license`
 - `line`
@@ -773,6 +788,7 @@
 - `mcp_response`
 - `mcpServers`
 - `media_type`
+- `memory`
 - `message`
 - `metadata`
 - `method`
@@ -819,12 +835,15 @@
 - `package`
 - `padding`
 - `params`
+- `patch`
 - `path`
 - `pattern`
 - `permissionDecision`
 - `permissionDecisionReason`
 - `permissionMode`
 - `permissions`
+- `permissionSuggestions`
+- `permissionUpdates`
 - `plan`
 - `plansDirectory`
 - `pluginConfigs`
@@ -842,7 +861,6 @@
 - `question`
 - `questions`
 - `rawOutputPath`
-- `rb`
 - `reason`
 - `reasoning`
 - `ref`
@@ -855,7 +873,10 @@
 - `repo`
 - `repository`
 - `requestHandler`
+- `requestId`
 - `required`
+- `resolvedAt`
+- `resolvedBy`
 - `respectGitignore`
 - `result`
 - `resultCount`
@@ -896,6 +917,7 @@
 - `start`
 - `startLine`
 - `status`
+- `statusChange`
 - `statusLine`
 - `statusMessage`
 - `stderr`
@@ -911,15 +933,25 @@
 - `syntaxHighlightingDisabled`
 - `systemMessage`
 - `tabId`
+- `targetMode`
+- `task`
+- `taskId`
+- `tasks`
+- `team_name`
+- `teammateCount`
+- `teamName`
 - `text`
 - `timeout`
 - `timeoutMs`
+- `timestamp`
 - `title`
+- `to`
 - `tool`
 - `tool_name`
 - `tool_use_id`
 - `toolName`
 - `tools`
+- `toolUseId`
 - `toolUseID`
 - `total_deferred_tools`
 - `totalDurationMs`
@@ -931,6 +963,7 @@
 - `type`
 - `updated_at`
 - `updated_file`
+- `updatedFields`
 - `updatedInput`
 - `updatedMCPToolOutput`
 - `updatedPermissions`
@@ -944,6 +977,10 @@
 - `version`
 - `web_fetch_requests`
 - `web_search_requests`
+- `workerColor`
+- `workerId`
+- `workerName`
+- `XB`
 
 ## Tools
 
@@ -996,6 +1033,7 @@ _None detected_
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
+- `claude-hidden`
 - `claude-http-`
 - `claude-in-chrome`
 - `claude-in-chrome-default-enabled`
@@ -1025,13 +1063,14 @@ _None detected_
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
+- `claude-swarm`
+- `claude-swarm-`
 - `claude-vscode`
 - `haiku-3-5`
 - `haiku-4`
 - `haiku-4-5`
 - `opus-4`
 - `opus-4-1`
-- `opus-4-20`
 - `opus-4-5`
 - `opus-4.5-available`
 - `opus-45-upgrade-nudge`
