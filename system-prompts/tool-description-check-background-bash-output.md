@@ -8,7 +8,7 @@ Tool to read only new output from a running or completed background bash shell.
 
 # Raw Prompt Text
 - Retrieves output from a running or completed background bash shell
-- Takes a shell_id parameter identifying the shell
+- Takes a bash_id parameter identifying the shell
 - Always returns only new output since the last check
 - Returns stdout and stderr output along with shell status
 - Supports optional regex filtering to show only lines matching a pattern
