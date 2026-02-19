@@ -12,6 +12,7 @@ Writes a snapshot script file, clears aliases, injects dynamic sections, and ver
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 SNAPSHOT_FILE=${EXPR_1}
@@ -28,7 +29,7 @@ SNAPSHOT_FILE=${EXPR_1}
 
       ${EXPR_2}
 
-      local
+      ${EXPR_3}
 
       # Exit silently on success, only report errors
       if [ ! -f "$SNAPSHOT_FILE" ]; then
