@@ -11,7 +11,6 @@ Tool description for executing allowed custom slash commands from the available 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Execute a slash command within the main conversation
@@ -29,7 +28,7 @@ IMPORTANT: Only use this tool for custom slash commands that appear in the Avail
 - Commands you think might exist but aren't listed
 
 Available Commands:
-${EXPR_1}${EXPR_2}
+${EXPR_1}local
 
 Notes:
 - When a user requests multiple slash commands, execute each one sequentially and check for <command-message>{name} is running…<${PATH}> to verify each has been processed
