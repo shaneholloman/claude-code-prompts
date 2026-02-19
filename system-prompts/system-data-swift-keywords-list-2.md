@@ -145,6 +145,4 @@ while
 
 willSet
 
-Any
-
-Self
+_|${NUM}
