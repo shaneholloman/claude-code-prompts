@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 32
 - Env vars: 235
-- Config keys: 268
+- Config keys: 266
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -168,7 +168,6 @@
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
-- `CLAUDE_CODE_ENABLE_UNIFIED_READ_TOOL`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_GIT_BASH_PATH`
@@ -191,7 +190,6 @@
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `COMMIT_REF`
-- `COMSPEC`
 - `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
 - `DEBUG`
@@ -311,6 +309,8 @@
 - `SSH_TTY`
 - `STY`
 - `SYSTEMROOT`
+- `TELEPORT_HEADERS`
+- `TELEPORT_RESUME_URL`
 - `TEMP`
 - `TENCENTCLOUD_APPID`
 - `TENCENTCLOUD_REGION`
@@ -384,7 +384,6 @@
 - `cell_id`
 - `cell_type`
 - `cells`
-- `cellType`
 - `character`
 - `charset`
 - `cleanupPeriodDays`
@@ -416,6 +415,7 @@
 - `deny`
 - `description`
 - `destructiveHint`
+- `disableAllHooks`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `dpop_bound_access_tokens_required`
@@ -436,7 +436,6 @@
 - `error_uri`
 - `eventData`
 - `eventName`
-- `execution_count`
 - `exitCode`
 - `exitPlanModeInput`
 - `experimental`
@@ -517,7 +516,6 @@
 - `otelHeadersHelper`
 - `output_tokens`
 - `outputMode`
-- `outputs`
 - `owner`
 - `padding`
 - `params`
