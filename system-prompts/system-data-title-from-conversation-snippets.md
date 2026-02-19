@@ -10,54 +10,54 @@ Generate a …-… word title from conversation text plus appended snippets.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Task | None |
-| `EXPR_2` | Bash | None |
-| `EXPR_3` | Batch | None |
-| `EXPR_4` | Glob | None |
-| `EXPR_5` | Grep | None |
-| `EXPR_6` | LS | None |
-| `EXPR_7` | Read | None |
-| `EXPR_8` | Edit | None |
-| `EXPR_9` | Write | None |
-| `EXPR_10` | NotebookRead | None |
-| `EXPR_11` | NotebookEdit | None |
-| `EXPR_12` | WebFetch | None |
-| `EXPR_13` | TodoRead | None |
-| `EXPR_14` | TodoWrite | None |
-| `EXPR_15` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | Task | None |
+| `EXPR_3` | Bash | None |
+| `EXPR_4` | Batch | None |
+| `EXPR_5` | Glob | None |
+| `EXPR_6` | Grep | None |
+| `EXPR_7` | LS | None |
+| `EXPR_8` | Read | None |
+| `EXPR_9` | Edit | None |
+| `EXPR_10` | Write | None |
+| `EXPR_11` | NotebookRead | None |
+| `EXPR_12` | NotebookEdit | None |
+| `EXPR_13` | WebFetch | None |
+| `EXPR_14` | TodoRead | None |
+| `EXPR_15` | TodoWrite | None |
 
 # Raw Prompt Text
-${EXPR_1: 'Task'}
-
-${EXPR_2: 'Bash'}
-
-${EXPR_3: 'Batch'}
-
-${EXPR_4: 'Glob'}
-
-${EXPR_5: 'Grep'}
-
-${EXPR_6: 'LS'}
-
-${EXPR_7: 'Read'}
-
-${EXPR_8: 'Edit'}
-
-${EXPR_9: 'Write'}
-
-${EXPR_10: 'NotebookRead'}
-
-${EXPR_11: 'NotebookEdit'}
-
-${EXPR_12: 'WebFetch'}
-
-${EXPR_13: 'TodoRead'}
-
-${EXPR_14: 'TodoWrite'}
-
 Please write a ${NUM}-${NUM} word title the following conversation:
 
-${EXPR_15}
+${EXPR_1}
 
 
 Respond with the title for the conversation and nothing else.
+
+${EXPR_2: 'Task'}
+
+${EXPR_3: 'Bash'}
+
+${EXPR_4: 'Batch'}
+
+${EXPR_5: 'Glob'}
+
+${EXPR_6: 'Grep'}
+
+${EXPR_7: 'LS'}
+
+${EXPR_8: 'Read'}
+
+${EXPR_9: 'Edit'}
+
+${EXPR_10: 'Write'}
+
+${EXPR_11: 'NotebookRead'}
+
+${EXPR_12: 'NotebookEdit'}
+
+${EXPR_13: 'WebFetch'}
+
+${EXPR_14: 'TodoRead'}
+
+${EXPR_15: 'TodoWrite'}
