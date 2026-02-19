@@ -4,21 +4,35 @@
 
 ## Summary
 
-Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task
+Synthesize multi-agent findings into one structured, contradiction-resolved solution with full details and code.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | Write | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+${EXPR_1: 'Write'}
+
+${EXPR_2}
+
+${EXPR_3}
+
+-Uli
+
+--multiline-dotall
+
+${EXPR_4}
 
 up
 
@@ -28,11 +42,11 @@ down
 
 args
 
-Original task: ${EXPR_2}
+Original task: ${EXPR_5}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_3}
+${EXPR_6}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
@@ -43,10 +57,10 @@ ${NUM}. Is well-structured and complete
 
 Your synthesis should be thorough but focused on the original task.
 
-${NUM}
+${EXPR_7}
 
-${EXPR_4}
+${EXPR_8}
 
-${EXPR_5}
+${EXPR_9}
 
-${EXPR_6}
+${EXPR_10}
