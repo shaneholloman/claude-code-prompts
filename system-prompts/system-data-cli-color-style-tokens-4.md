@@ -4,58 +4,17 @@
 
 ## Summary
 
-Declare CLI identity, enumerate style tokens, and append extra trailing data.
+Multiple prompts (3)
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | dispatch_agent | None |
-| `EXPR_2` | Bash | None |
-| `EXPR_3` | BatchTool | None |
-| `EXPR_4` | GlobTool | None |
-| `EXPR_5` | GrepTool | None |
-| `EXPR_6` | LS | None |
-| `EXPR_7` | View | None |
-| `EXPR_8` | Edit | None |
-| `EXPR_9` | Replace | None |
-| `EXPR_10` | ReadNotebook | None |
-| `EXPR_11` | NotebookEditCell | None |
-| `EXPR_12` | WebFetchTool | None |
-| `EXPR_13` | TodoRead | None |
-| `EXPR_14` | TodoWrite | None |
-| `EXPR_15` | Claude Code | None |
+| `EXPR_1` | Claude Code | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1: 'dispatch_agent'}
-
-${EXPR_2: 'Bash'}
-
-${EXPR_3: 'BatchTool'}
-
-${EXPR_4: 'GlobTool'}
-
-${EXPR_5: 'GrepTool'}
-
-${EXPR_6: 'LS'}
-
-${EXPR_7: 'View'}
-
-${EXPR_8: 'Edit'}
-
-${EXPR_9: 'Replace'}
-
-${EXPR_10: 'ReadNotebook'}
-
-${EXPR_11: 'NotebookEditCell'}
-
-${EXPR_12: 'WebFetchTool'}
-
-${EXPR_13: 'TodoRead'}
-
-${EXPR_14: 'TodoWrite'}
-
-You are ${EXPR_15: 'Claude Code'}, Anthropic's official CLI for Claude.
+You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 underline
 
@@ -90,3 +49,5 @@ brightWhite
 brightCyan
 
 brightMagenta
+
+${EXPR_2}
