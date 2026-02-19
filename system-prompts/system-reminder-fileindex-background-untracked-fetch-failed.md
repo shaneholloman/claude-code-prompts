@@ -13,4 +13,4 @@ Logs a background fetch of untracked files failed with an error message.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[FileIndex] background untracked fetch: ${EXPR_1} files
+[FileIndex] background untracked fetch failed: ${EXPR_1}
