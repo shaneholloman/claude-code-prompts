@@ -1,6 +1,6 @@
 # Tool Description: read-jupyter-notebook-cells
 
-- Name: NotebookReadTool
+- Name: NotebookRead
 
 ## Summary
 
