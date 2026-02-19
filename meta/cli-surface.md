@@ -4,7 +4,7 @@
 
 - Commands: 10
 - Options: 15
-- Env vars: 109
+- Env vars: 110
 - Config keys: 51
 - Tools: 0
 - Skills: 0
@@ -76,6 +76,7 @@
 
 ## Env Vars
 
+- `__CFB`
 - `__MINIMATCH_TESTING_PLATFORM__`
 - `ALACRITTY_LOG`
 - `ALIYUN_REGION_ID`
@@ -89,6 +90,7 @@
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
+- `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
 - `CLAUDE_CODE_USE_BEDROCK`
@@ -97,6 +99,7 @@
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `COMMIT_REF`
+- `CURSOR_TRACE_ID`
 - `DEBUG`
 - `DEBUG_AUTH`
 - `DETECT_GCP_RETRIES`
@@ -108,7 +111,6 @@
 - `DOTENV_CONFIG_PATH`
 - `DOTENV_KEY`
 - `DYNO`
-- `EDITOR`
 - `FLY_REGION`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
@@ -162,7 +164,6 @@
 - `TERM`
 - `TERM_PROGRAM`
 - `TERMINATOR_UUID`
-- `THINK_TOOL`
 - `TILIX_ID`
 - `TMUX`
 - `USE_BUILTIN_RIPGREP`
@@ -202,6 +203,7 @@
 - `hints`
 - `httpMethodsToRetry`
 - `id`
+- `input`
 - `inputSchema`
 - `intelligencePriority`
 - `jsonrpc`
@@ -229,10 +231,9 @@
 - `speedPriority`
 - `subscribe`
 - `text`
-- `thought`
+- `tool_name`
 - `tools`
 - `total`
-- `trigger`
 - `type`
 - `uri`
 - `uriTemplate`
