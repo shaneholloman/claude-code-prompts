@@ -10,9 +10,9 @@ Notify that the shell working directory was reset to a given path.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | false | None |
+| `EXPR_1` | true | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1: false}
+${EXPR_1: true}
 Shell cwd was reset to ${EXPR_2}
