@@ -26,7 +26,7 @@ Structured log template for background Bash commands, statuses, and chained entr
 | `EXPR_14` | WebFetch | None |
 | `EXPR_15` | WebSearch | None |
 | `EXPR_16` | BashOutput | None |
-| `EXPR_17` | KillBash | None |
+| `EXPR_17` | KillShell | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
@@ -52,7 +52,7 @@ ${EXPR_13: 'NotebookEdit'}
 ${EXPR_14: 'WebFetch'}
 ${EXPR_15: 'WebSearch'}
 ${EXPR_16: 'BashOutput'}
-${EXPR_17: 'KillBash'}
+${EXPR_17: 'KillShell'}
 Background Bash ${EXPR_18}
 (command: ${EXPR_19})
 (status: ${EXPR_20})
