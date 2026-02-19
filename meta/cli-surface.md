@@ -3,10 +3,10 @@
 ## Summary
 
 - Commands: 13
-- Options: 15
-- Env vars: 125
+- Options: 17
+- Env vars: 122
 - Config keys: 61
-- Tools: 0
+- Tools: 5
 - Skills: 0
 - Models: 16
 - Providers: 7
@@ -31,7 +31,7 @@
 
 ### Specs
 
-- `add [name] [command] [args...]`
+- `add [name] [commandOrUrl] [args...]`
 - `add <key> <values...>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
@@ -61,12 +61,14 @@
 - `--mcp-debug`
 - `--print`
 - `--scope`
+- `--transport`
 - `--verbose`
 - `-d`
 - `-e`
 - `-g`
 - `-p`
 - `-s`
+- `-t`
 
 ### Specs
 
@@ -80,6 +82,7 @@
 - `-g, --global`
 - `-p, --print`
 - `-s, --scope <scope>`
+- `-t, --transport <transport>`
 
 ## Env Vars
 
@@ -87,6 +90,7 @@
 - `__MINIMATCH_TESTING_PLATFORM__`
 - `ALACRITTY_LOG`
 - `ALIYUN_REGION_ID`
+- `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
 - `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_MODEL`
@@ -119,13 +123,8 @@
 - `DISABLE_ERROR_REPORTING`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_TELEMETRY`
-- `DOTENV_CONFIG_DEBUG`
-- `DOTENV_CONFIG_DOTENV_KEY`
-- `DOTENV_CONFIG_ENCODING`
-- `DOTENV_CONFIG_OVERRIDE`
-- `DOTENV_CONFIG_PATH`
-- `DOTENV_KEY`
 - `DYNO`
+- `EDITOR`
 - `FLY_REGION`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
@@ -198,6 +197,7 @@
 - `VERTEX_REGION_CLAUDE_3_5_HAIKU`
 - `VERTEX_REGION_CLAUDE_3_5_SONNET`
 - `VERTEX_REGION_CLAUDE_3_7_SONNET`
+- `VISUAL`
 - `VTE_VERSION`
 - `WEBSITE_SITE_NAME`
 - `WS_NO_BUFFER_UTIL`
@@ -275,7 +275,11 @@
 
 ## Tools
 
-_None detected_
+- `⚒`
+- `⚔`
+- `⚗`
+- `⚙`
+- `⛏`
 
 ## Skills
 
