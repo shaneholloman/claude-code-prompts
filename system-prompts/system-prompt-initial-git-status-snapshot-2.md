@@ -12,7 +12,7 @@ Record initial git status snapshot, including current branch and main branch nam
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | path with Windows drive prefix removed | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 This is the git status at the start of the conversation. Note that this status is a snapshot in time, and will not update during the conversation.
@@ -24,4 +24,4 @@ Status:
 (clean)
 
 Recent commits:
-${PATH}${EXPR_3}${PATH}
+${EXPR_3}
