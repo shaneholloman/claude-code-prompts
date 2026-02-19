@@ -1,4 +1,4 @@
-# System Prompt: assisted-search-guidelines
+# System Prompt: delegated-search-vs-direct-lookup
 
 - Source: inline
 
