@@ -1,4 +1,4 @@
-# System Prompt: pull-request-review
+# System Prompt: pull-request-review-workflow
 
 - Source: inline
 
