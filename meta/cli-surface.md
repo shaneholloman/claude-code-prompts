@@ -4,7 +4,7 @@
 
 - Commands: 14
 - Options: 25
-- Env vars: 203
+- Env vars: 204
 - Config keys: 143
 - Tools: 0
 - Skills: 0
@@ -215,6 +215,7 @@
 - `KONSOLE_VERSION`
 - `LOCALAPPDATA`
 - `MAX_THINKING_TOKENS`
+- `MCP_SSE_AUTH_ENABLED`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
