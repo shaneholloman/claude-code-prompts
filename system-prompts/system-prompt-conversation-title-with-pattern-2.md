@@ -26,8 +26,8 @@ Compose a NUM-NUM word conversation title from recent messages, matching EXPR_4 
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
-| `EXPR_17` | true | None |
-| `EXPR_18` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | false | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
@@ -38,4 +38,4 @@ Please write a ${NUM}-${NUM} word title for the following conversation:
 [Last ${EXPR_1} of ${EXPR_2} messages]
 
 ${EXPR_3}
- Respond with the title for the conversation and nothing else. ${EXPR_4} ${EXPR_5} ${EXPR_6} ${EXPR_7} ${EXPR_8} ${EXPR_9} ${EXPR_10} pattern: "${EXPR_11}" ${EXPR_12} ${EXPR_13} ${EXPR_14} ${EXPR_15} ${EXPR_16} ${EXPR_17: true} ${EXPR_18} ${EXPR_19} ${EXPR_20} ${EXPR_21}
+ Respond with the title for the conversation and nothing else. ${EXPR_4} ${EXPR_5} ${EXPR_6} ${EXPR_7} ${EXPR_8} ${EXPR_9} ${EXPR_10} pattern: "${EXPR_11}" ${EXPR_12} ${EXPR_13} ${EXPR_14} ${EXPR_15} ${EXPR_16} ${EXPR_17} ${EXPR_18: false} ${EXPR_19} ${EXPR_20} ${EXPR_21}
