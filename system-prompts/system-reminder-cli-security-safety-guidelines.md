@@ -171,6 +171,8 @@ ${EXPR_8}
 You MUST answer concisely with fewer than ${NUM} lines of text (not including tool use or code generation), unless user asks for detail.
 
 
+local
+
 
 ${EXPR_9}
 
