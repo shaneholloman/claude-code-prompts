@@ -1,21 +1,21 @@
-# Claude Code 2.1.18 – Flags
+# Claude Code 2.1.19 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
-| `ccr_plan_mode_enabled` | experiment | tools | Enable a planning mode behavior in the CLI | Only a config getter is shown; no downstream behavior in context. | medium | 3 |
 | `enhanced_telemetry_beta` | experiment | telemetry | Enables enhanced telemetry via env override, else uses remote experiment default. | Only shows gating logic; telemetry behavior not shown. | medium | 1 |
 | `hide_overages_option_at_rate_limit_hit` | experiment | ui | Controls whether to show extra usage/overage option in rate-limit options menu | Affects rate-limit options list and auto-opening behavior. | high | 2 |
-| `preserve_thinking` | experiment | networking | Adds a beta option for preserving model thinking in first-party requests | Ny2 meaning not shown; inferred as request beta/header token. | medium | 2 |
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
 | `tengu_attribution_header` | experiment | networking | Controls whether an attribution header string is included, overridable via environment variable. | Env var can force enable/disable. | high | 1 |
 | `tengu_bash_haiku_prefetch` | experiment | caching | Prefetches and reads referenced file paths after a bash command finishes. | Prefetch source of file paths depends on P42 output. | high | 1 |
 | `tengu_brass_pebble` | experiment | prompts | toggles whether certain model choices/descriptions appear in the CLI selection flow | Only a boolean gate near model strings is shown. | medium | 1 |
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
+| `tengu_cache_plum_violet` | experiment | caching | Skips microcompact context management that caches tool results as attachments | Exact enable/disable direction unclear. | medium | 1 |
 | `tengu_chrome_auto_enable` | experiment | tools | Auto-enable Claude-in-Chrome native host integration via MCP stdio config. | Based on nearby native-host/MCP strings; exact behavior inferred. | medium | 1 |
 | `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 9 |
 | `tengu_compact_streaming_retry` | experiment | networking | Controls retry attempts when streaming a conversation-compaction summary request fails | Exact retry count K97 not shown. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_file_edit_optimization` | experiment | tools | Simplifies file edit tool output to a success message instead of detailed snippet | Only affects tool_result formatting in this mapping function. | high | 1 |
+| `tengu_file_write_optimization` | experiment | filesystem | Simplifies file update tool output by skipping returning a cat snippet | Only affects update tool_result formatting path. | high | 1 |
 | `tengu_keybinding_customization` | experiment | ui | Enable customizable keybindings in the CLI settings interface | Only a default-off gate function is shown; no behavior details. | medium | 1 |
 | `tengu_mcp_tool_search` | experiment | tools | Selects a test mode for tool search behavior in the MCP CLI. | Exact behavior of "tst" mode not shown. | medium | 1 |
 | `tengu_permission_explainer` | experiment | tools | Enable permission explanation text for tool invocations in CLI. | Only one occurrence; behavior inferred from toolName/toolDescription string building. | medium | 1 |

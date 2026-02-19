@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 52
-- Env vars: 413
-- Config keys: 385
+- Env vars: 405
+- Config keys: 390
 - Tools: 3
 - Skills: 0
 - Models: 86
@@ -200,8 +200,6 @@
 - `ANTHROPIC_SMALL_FAST_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL_AWS_REGION`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
-- `API_MAX_INPUT_TOKENS`
-- `API_TARGET_INPUT_TOKENS`
 - `API_TIMEOUT_MS`
 - `APP_URL`
 - `APPDATA`
@@ -235,7 +233,6 @@
 - `BASH_MAX_OUTPUT_LENGTH`
 - `BEDROCK_BASE_URL`
 - `BETA_TRACING_ENDPOINT`
-- `BITBUCKET_TOKEN`
 - `BROWSER`
 - `BUILDKITE`
 - `C`
@@ -281,9 +278,11 @@
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EFFORT_LEVEL`
+- `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
 - `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
+- `CLAUDE_CODE_ENABLE_TASKS`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
@@ -409,7 +408,6 @@
 - `GCE_METADATA_IP`
 - `GCLOUD_PROJECT`
 - `GCP_PROJECT`
-- `GH_TOKEN`
 - `GITHUB_ACTION_INPUTS`
 - `GITHUB_ACTION_PATH`
 - `GITHUB_ACTIONS`
@@ -421,11 +419,8 @@
 - `GITHUB_REPOSITORY_OWNER`
 - `GITHUB_REPOSITORY_OWNER_ID`
 - `GITHUB_SHA`
-- `GITHUB_TOKEN`
 - `GITLAB_CI`
-- `GITLAB_TOKEN`
 - `GITPOD_WORKSPACE_ID`
-- `GL_TOKEN`
 - `GNOME_TERMINAL_SERVICE`
 - `GOOGLE_APPLICATION_CREDENTIALS`
 - `GOOGLE_CLOUD_PROJECT`
@@ -526,7 +521,6 @@
 - `SLASH_COMMAND_TOOL_CHAR_BUDGET`
 - `SPACE_CREATOR_USER_ID`
 - `SRT_DEBUG`
-- `SSH_AUTH_SOCK`
 - `SSH_CLIENT`
 - `SSH_CONNECTION`
 - `SSH_TTY`
@@ -552,8 +546,6 @@
 - `TMUX`
 - `TMUX_PANE`
 - `UNDICI_NO_FG`
-- `USE_API_CLEAR_TOOL_RESULTS`
-- `USE_API_CLEAR_TOOL_USES`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
 - `USE_MCP_CLI_DIR`
@@ -607,6 +599,7 @@
 - `agents`
 - `allow`
 - `allowAllUnixSockets`
+- `allowed_tools`
 - `allowedDomains`
 - `allowedMcpServers`
 - `allowedTools`
@@ -709,6 +702,7 @@
 - `enabledPlugins`
 - `enableWeakerNestedSandbox`
 - `end`
+- `entries`
 - `env`
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
@@ -768,6 +762,7 @@
 - `keywords`
 - `label`
 - `language`
+- `lastModified`
 - `lastUpdated`
 - `launchSwarm`
 - `libvips`
@@ -785,6 +780,7 @@
 - `max_results`
 - `max_turns`
 - `maxTurns`
+- `MB`
 - `mcp_response`
 - `mcpServers`
 - `media_type`
@@ -904,7 +900,6 @@
 - `setting`
 - `settings`
 - `sha`
-- `shell_id`
 - `skill`
 - `skills`
 - `skippedMarketplaces`
@@ -935,6 +930,8 @@
 - `tabId`
 - `targetMode`
 - `task`
+- `task_id`
+- `task_type`
 - `taskId`
 - `tasks`
 - `team_name`
@@ -970,6 +967,7 @@
 - `uri`
 - `url`
 - `usage`
+- `userId`
 - `userModified`
 - `userSettings`
 - `uuid`
@@ -980,7 +978,6 @@
 - `workerColor`
 - `workerId`
 - `workerName`
-- `XB`
 
 ## Tools
 
