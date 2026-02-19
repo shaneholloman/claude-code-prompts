@@ -10,15 +10,18 @@ Creates tasks, spawns a team and workers, then assigns tasks to implement plan.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | @anthropic-ai/claude-code | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | @anthropic-ai/claude-code | None |
+| `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
-User has approved your plan AND requested a swarm of npm view ${EXPR_1: '@anthropic-ai/claude-code'}@${EXPR_2} version teammates to implement it.
+User has approved your plan AND requested a swarm of [${EXPR_1}] [Claude Chrome Native Host] ${EXPR_2}${EXPR_3}
+ teammates to implement it.
 
 Please follow these steps to launch the swarm:
 
@@ -33,7 +36,8 @@ ${NUM}. **Create a team** - Use TeammateTool with operation: "spawnTeam" to crea
    }
    ```
 
-${NUM}. **Spawn npm view ${EXPR_3: '@anthropic-ai/claude-code'}@${EXPR_4} version teammates** - Use TeammateTool with operation: "spawn" for each teammate:
+${NUM}. **Spawn [${EXPR_4}] [Claude Chrome Native Host] ${EXPR_5}${EXPR_6}
+ teammates** - Use TeammateTool with operation: "spawn" for each teammate:
    ```json
    {
      "operation": "spawn",
@@ -56,7 +60,7 @@ ${NUM}. **Assign tasks to teammates** - Use TeammateTool with operation: "assign
 
 ${NUM}. **Gather findings and post summary** - As the leader${PATH}, monitor your teammates' progress. When they complete their tasks and report back, gather their findings and synthesize a final summary for the user explaining what was accomplished, any issues encountered, and next steps if applicable.
 
-Your plan has been saved to: ${EXPR_5}
+Your plan has been saved to: ${EXPR_7}
 
 ## Approved Plan:
-${EXPR_6}
+${EXPR_8}
