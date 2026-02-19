@@ -102,19 +102,13 @@ ${EXPR_24}
 
 ${EXPR_25}
 
-${EXPR_26}
+${PATH}
 
-${EXPR_27}
+${PATH}
 
-${EXPR_28}
+${PATH}
 
-${EXPR_29}
-
-${EXPR_30}
-
-${EXPR_31}
-
-${EXPR_32}
+${PATH}
 
 api
 
@@ -122,16 +116,16 @@ api
 
 PUT
 
-repos/${EXPR_33}${PATH}${EXPR_34}
+repos/${EXPR_26}${PATH}${EXPR_27}
 
 -f
 
-message="Update ${EXPR_35}"
+message="Update ${EXPR_28}"
 
 -f
 
-content=${EXPR_36}
+content=${EXPR_29}
 
 -f
 
-branch=${EXPR_37}
+branch=${EXPR_30}
