@@ -1,9 +1,10 @@
-# Prompt Stats 0.2.77
+# Prompt Stats 0.2.78
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | system | [System Prompt: Bash Command Prefix Detection](../system-prompts/system-prompt-bash-command-prefix-detection.md) | 2399 | 658 | 0.2.30 | 0.2.30 |
 | system | [System Prompt: Batch Invocations Guide](../system-prompts/system-prompt-batch-invocations-guide.md) | 1103 | 308 | 0.2.42 | 0.2.42 |
+| system | [System Prompt: Cheerful Gerund Status Word](../system-prompts/system-prompt-cheerful-gerund-status-word.md) | 689 | 164 | 0.2.78 | 0.2.78 |
 | system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 0.2.76 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Clean Pasted Object Text Lines](../system-prompts/system-prompt-clean-pasted-object-text-lines.md) | 2330 | 907 | 0.2.77 | 0.2.77 |
@@ -35,14 +36,14 @@
 | system | [System Prompt: Snapshot Zsh Functions Options](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | 471 | 158 | 0.2.73 | 0.2.73 |
 | system | [System Prompt: Summarize Shell Command](../system-prompts/system-prompt-summarize-shell-command.md) | 304 | 78 | 0.2.59 | 0.2.59 |
 | system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.54 |
-| system | [System Prompt: Whimsical Safe Gerund Verb](../system-prompts/system-prompt-whimsical-safe-gerund-verb.md) | 529 | 131 | 0.2.74 | 0.2.74 |
 | system-data | [System Data: Append Memory Entry](../system-prompts/system-data-append-memory-entry.md) | 93 | 37 | 0.2.54 | 0.2.54 |
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 230 | 75 | 0.2.9 | 0.2.77 |
+| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 219 | 68 | 0.2.9 | 0.2.78 |
 | system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 230 | 75 | 0.2.9 | 0.2.77 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 219 | 68 | 0.2.9 | 0.2.76 |
-| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 379 | 166 | 0.2.66 | 0.2.77 |
-| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 379 | 166 | 0.2.66 | 0.2.77 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 379 | 166 | 0.2.66 | 0.2.78 |
+| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 230 | 75 | 0.2.9 | 0.2.78 |
+| system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 379 | 166 | 0.2.66 | 0.2.78 |
+| system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 230 | 75 | 0.2.9 | 0.2.78 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
