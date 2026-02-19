@@ -1,4 +1,4 @@
-# Claude Code 2.1.22 – Flags
+# Claude Code 2.1.23 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -17,7 +17,7 @@
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_file_write_optimization` | experiment | filesystem | Simplifies file update tool output by skipping returning a cat snippet | Only affects update tool_result formatting path. | high | 1 |
 | `tengu_keybinding_customization_release` | experiment | ui | Controls rollout of keybinding customization functionality | Only a simple boolean gate; behavior beyond name is unclear. | medium | 1 |
-| `tengu_kv7_prompt_sort` | experiment | tools | Sorts deferred tool/skill names in generated tool prompt and logging output. | Affects ordering only; no functional tool changes shown. | high | 2 |
+| `tengu_kv7_prompt_sort` | experiment | tools | Sorts deferred tool/skill names in generated tool prompt and logging output. | Affects ordering only; no functional tool changes shown. | high | 1 |
 | `tengu_marble_anvil` | experiment | prompts | Enables adding a clear-thinking context edit and related processing in the CLI pipeline. | Exact effect of wnA/W_9 unclear beyond prompt/context handling. | high | 2 |
 | `tengu_marble_kite` | experiment | tools | Controls display of file-tool guidance requiring reading before editing existing files | Appears to gate help/prompt text only. | high | 6 |
 | `tengu_mcp_tool_search` | experiment | tools | Selects a test mode for tool search behavior in the MCP CLI. | Exact behavior of "tst" mode not shown. | medium | 1 |
@@ -34,6 +34,7 @@
 | `tengu_sm_compact` | experiment | prompts | Enables compact summary messages for session memory handling in CLI transcript. | Only seen as combined gate check; exact behavior elsewhere unknown. | medium | 1 |
 | `tengu_sm_compact_config` | config | prompts | Configure compaction thresholds using token and message count limits | Only token/message limit fields are visible. | medium | 1 |
 | `tengu_streaming_tool_execution2` | gate | tools | Gates creation of a tool-execution handler in the streaming CLI request loop | Only observed gating EV0 construction; exact behavior of EV0 is unclear. | high | 1 |
+| `tengu_system_prompt_global_cache` | experiment | caching | Enables global system prompt caching marker and tool-based cache marker behavior | Gated to firstParty and can be forced via env var. | high | 3 |
 | `tengu_thinkback` | gate | tools | Enables Thinkback year-in-review command and hidden animation playback tool | Controls availability of local CLI/plugin commands. | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `tengu_tool_search_unsupported_models` | experiment | tools | Provides list of model substrings that disable tool search support checks | Used to filter model names by substring match. | high | 1 |
@@ -41,3 +42,4 @@
 | `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |
 | `tengu_vscode_onboarding` | gate | ui | Controls whether VSCode connected experience shows onboarding flow | Only seen declared and sent as a gate; no UI behavior shown. | medium | 1 |
 | `tengu_vscode_review_upsell` | gate | ui | Enable VS Code review upsell experiment gate sent to connected client. | Only shows gate transmission and event logging, not the upsell UI itself. | medium | 1 |
+| `tengu_workout` | experiment | prompts | Enable higher-effort mode unless disabled by environment variable. | Exact behavior beyond gating effort is unclear. | medium | 1 |

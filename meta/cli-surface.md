@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 53
-- Env vars: 408
-- Config keys: 399
+- Env vars: 410
+- Config keys: 400
 - Tools: 3
 - Skills: 0
-- Models: 79
+- Models: 80
 - Providers: 7
 
 ## Commands
@@ -274,6 +274,7 @@
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
+- `CLAUDE_CODE_DISABLE_EFFORT`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
@@ -296,6 +297,7 @@
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
+- `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
@@ -676,6 +678,7 @@
 - `continue`
 - `created_at`
 - `createdAt`
+- `cu`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
@@ -741,6 +744,7 @@
 - `gitDiff`
 - `hasPrompts`
 - `hasResources`
+- `hasTaskTool`
 - `hasTools`
 - `header`
 - `headers`
@@ -775,7 +779,6 @@
 - `language`
 - `lastModified`
 - `lastUpdated`
-- `launchSwarm`
 - `libvips`
 - `license`
 - `line`
@@ -922,6 +925,7 @@
 - `socksProxyPort`
 - `source`
 - `spinnerTipsEnabled`
+- `spinnerVerbs`
 - `start`
 - `startLine`
 - `status`
@@ -948,7 +952,6 @@
 - `taskId`
 - `tasks`
 - `team_name`
-- `teammateCount`
 - `teamName`
 - `text`
 - `timeout`
@@ -983,9 +986,9 @@
 - `userId`
 - `userModified`
 - `userSettings`
-- `uu`
 - `uuid`
 - `value`
+- `verbs`
 - `version`
 - `web_fetch_requests`
 - `web_search_requests`
@@ -1075,6 +1078,7 @@ _None detected_
 - `claude-swarm-`
 - `claude-vscode`
 - `haiku-4`
+- `haiku-4-5`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
