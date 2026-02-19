@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 48
-- Env vars: 378
-- Config keys: 453
+- Env vars: 385
+- Config keys: 457
 - Tools: 3
 - Skills: 0
-- Models: 68
+- Models: 69
 - Providers: 8
 
 ## Commands
@@ -227,6 +227,7 @@
 - `BASH_MAX_OUTPUT_LENGTH`
 - `BASH_MAX_TIMEOUT_MS`
 - `BEDROCK_BASE_URL`
+- `BETA_TRACING_ENDPOINT`
 - `BROWSER`
 - `BUILDKITE`
 - `C`
@@ -288,6 +289,7 @@
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PROFILE_QUERY`
@@ -302,9 +304,11 @@
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
+- `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
+- `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TEAM_LEAD_ID`
 - `CLAUDE_CODE_TEAM_NAME`
@@ -328,6 +332,7 @@
 - `DEBUG`
 - `DEBUG_AUTH`
 - `DEBUG_SDK`
+- `DEMO_VERSION`
 - `DENO_DEPLOYMENT_ID`
 - `DETECT_GCP_RETRIES`
 - `DEV`
@@ -356,11 +361,14 @@
 - `EDITOR`
 - `ENABLE_BASH_ENV_VAR_MATCHING`
 - `ENABLE_BASH_WRAPPER_MATCHING`
+- `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CODE_GUIDE_SUBAGENT`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
+- `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
+- `ENABLE_TOOL_SEARCH`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
@@ -406,6 +414,7 @@
 - `IBM_CLOUD_REGION`
 - `IS_DEMO`
 - `IS_SANDBOX`
+- `ITERM_SESSION_ID`
 - `JEST_WORKER_ID`
 - `K_CONFIGURATION`
 - `K_SERVICE`
@@ -487,8 +496,6 @@
 - `SWE_BENCH_RUN_ID`
 - `SWE_BENCH_TASK_ID`
 - `SYSTEMROOT`
-- `TELEPORT_HEADERS`
-- `TELEPORT_RESUME_URL`
 - `TEMP`
 - `TENCENTCLOUD_APPID`
 - `TENCENTCLOUD_REGION`
@@ -595,7 +602,9 @@
 - `authorization_servers`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoUpdate`
 - `autoUpdatesChannel`
+- `awaitingLeaderApproval`
 - `awsAuthRefresh`
 - `awsCredentialExport`
 - `backgroundTaskId`
@@ -874,6 +883,7 @@
 - `request_parameter_supported`
 - `request_uri_parameter_supported`
 - `requestHandler`
+- `requestId`
 - `require_request_uri_registration`
 - `required`
 - `resolvedAt`
@@ -1001,6 +1011,7 @@
 - `value`
 - `values`
 - `version`
+- `wasResolved`
 - `web_fetch_requests`
 - `web_search_requests`
 - `workerColor`
@@ -1060,7 +1071,8 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
-- `claude-mcp-browser-bridge-`
+- `claude-md-project`
+- `claude-md-user`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`

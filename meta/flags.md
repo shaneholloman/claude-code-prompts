@@ -1,4 +1,4 @@
-# Claude Code 2.0.69 – Flags
+# Claude Code 2.0.70 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -11,9 +11,11 @@
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
 | `sonnet_1m_default` | experiment | tools | Enables default selection/display of a specific model in the CLI when accessible | Appears to gate a fallback model name when none is chosen. | high | 1 |
 | `sonnet_45_1m_header` | experiment | networking | Enables adding a special 1-minute header for a specific Sonnet model variant. | Exact meaning of pushed header value is unclear from snippet. | medium | 1 |
+| `tengu_ant_attribution_header_new` | gate | prompts | controls new attribution header text in a Claude Code system prompt | Flag is read but shown return path is empty/obfuscated. | medium | 1 |
 | `tengu_bash_command_backgrounded` | gate | telemetry | logs/records when a shell command is backgrounded, including timeout and auto-background cases | Appears to be event logging rather than behavior gating. | medium | 1 |
 | `tengu_bash_command_timeout_backgrounded` | gate | telemetry | Logs timeout events when a bash command is backgrounded | Appears to emit an event/metric, not alter behavior. | high | 1 |
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
+| `tengu_clawd_openfire` | gate | ui | Enable special color/ascii rendering behavior for Apple Terminal output. | Only nearby terminal/ascii clues; exact effect unclear. | medium | 1 |
 | `tengu_compact_mc_files` | gate | filesystem | Save tool results to a file and replace content with a viewing hint. | Applies when processing user message tool_result items. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_effort_exp` | experiment | prompts | Chooses a reasoning effort level and injects a reasoning_effort prompt block. | Only seen constructing a prompt string in cli.js. | high | 1 |
