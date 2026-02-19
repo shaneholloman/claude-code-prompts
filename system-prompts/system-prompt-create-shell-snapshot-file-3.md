@@ -28,7 +28,7 @@ SNAPSHOT_FILE=${EXPR_1}
 
       ${EXPR_2}
 
-      unknown
+      null
 
       # Exit silently on success, only report errors
       if [ ! -f "$SNAPSHOT_FILE" ]; then
