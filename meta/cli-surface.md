@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 16
-- Options: 36
+- Options: 37
 - Env vars: 264
-- Config keys: 318
+- Config keys: 317
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -69,6 +69,7 @@
 - `--env`
 - `--fallback-model`
 - `--force`
+- `--fork-session`
 - `--global`
 - `--header`
 - `--ide`
@@ -103,6 +104,7 @@
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--fallback-model <model>`
 - `--force`
+- `--fork-session`
 - `--ide`
 - `--include-partial-messages`
 - `--mcp-config <configs...>`
@@ -491,7 +493,6 @@
 - `eventData`
 - `eventName`
 - `exitCode`
-- `exitPlanModeInput`
 - `experimental`
 - `expires_in`
 - `extensions`
