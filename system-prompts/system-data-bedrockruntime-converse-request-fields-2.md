@@ -11,7 +11,7 @@ ${NUM}
 
 com.amazonaws.bedrockruntime
 
-ConverseRequest
+ConverseStreamRequest
 
 ${NUM}
 
