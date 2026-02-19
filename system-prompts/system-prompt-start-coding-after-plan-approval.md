@@ -18,7 +18,7 @@ Proceed with coding after plan approval; update todos and reference saved plan c
 User has approved your plan. You can now start coding. Start with updating your todo list if applicable
 
 Your plan has been saved to: ${EXPR_1}
-You can refer back to it if needed during implementation.${EXPR_2}
+You can refer back to it if needed during implementation. (PID ${EXPR_2})
 
 ## Approved Plan:
 ${EXPR_3}
