@@ -177,6 +177,8 @@ Grep with pattern="<search term>" path="${EXPR_17}/" glob="*.jsonl"
 
 Search for error messages, file paths, function names, commands, or keywords related to the current task.
 
+**Tip**: Truncate search results to ${NUM} characters per match to keep context manageable.
+
 null
 
 null
