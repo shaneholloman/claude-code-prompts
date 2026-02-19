@@ -76,7 +76,3 @@ sleep
 which
 
 type
-
-grep
-
-rg
