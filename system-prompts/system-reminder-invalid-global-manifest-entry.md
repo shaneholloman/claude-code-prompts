@@ -11,7 +11,6 @@ Report an invalid global manifest with location details such as line and column.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Invalid manifest at global: ${EXPR_1}:${EXPR_2}
+Invalid manifest at global: ${EXPR_1}
