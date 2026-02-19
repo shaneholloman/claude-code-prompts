@@ -10,19 +10,17 @@ Five expression placeholders separated by blank lines for later template substit
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | Write | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | Write | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+${EXPR_1: 'Write'}
+
+${NUM}
 
 ${EXPR_2}
 
 ${EXPR_3: 'Write'}
 
-${EXPR_4}
-
-${EXPR_5}
+${NUM}
