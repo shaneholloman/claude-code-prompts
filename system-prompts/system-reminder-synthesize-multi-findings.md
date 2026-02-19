@@ -1,4 +1,4 @@
-# System Prompt: multi-synthesis
+# System Reminder: synthesize-multi-findings
 
 - Source: inline
 
