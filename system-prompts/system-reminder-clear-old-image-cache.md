@@ -10,7 +10,7 @@ Cleaned up an old image cache location specified by the given path.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Cleaned up old image cache: ${EXPR_1}
