@@ -48,3 +48,17 @@ brightWhite
 brightCyan
 
 brightMagenta
+
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
