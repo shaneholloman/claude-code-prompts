@@ -1,4 +1,4 @@
-# System Data Block: background-bash-status-format-6
+# System Data Block: background-bash-status-log-2
 
 - Source: inline
 
