@@ -13,6 +13,7 @@ Details setting up Shift+Enter multiline shortcut by running configuration outsi
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 Terminal setup cannot be run from ${EXPR_1}.
@@ -24,5 +25,7 @@ To set up the shortcut (optional):
 ${NUM}. Exit tmux${PATH} temporarily
 ${NUM}. Run ${PATH} directly in one of these terminals:
 ${EXPR_3}   • IDE: VSCode, Cursor, Windsurf, Zed
-   • Other: Ghostty, WezTerm, Kitty, Alacritty, Warp
+   • Other: Alacritty, Warp
 ${NUM}. Return to tmux${PATH} - settings will persist
+
+${EXPR_4}
