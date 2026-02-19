@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 17
 - Env vars: 124
-- Config keys: 64
+- Config keys: 70
 - Tools: 5
 - Skills: 0
 - Models: 16
@@ -220,6 +220,7 @@
 - `api`
 - `args`
 - `arguments`
+- `character`
 - `charset`
 - `code`
 - `command`
@@ -228,10 +229,12 @@
 - `costPriority`
 - `data`
 - `description`
+- `end`
 - `env`
 - `error`
 - `experimental`
 - `extensions`
+- `filePath`
 - `hasMore`
 - `hints`
 - `httpMethodsToRetry`
@@ -241,6 +244,7 @@
 - `intelligencePriority`
 - `jsonrpc`
 - `libvips`
+- `line`
 - `listChanged`
 - `logging`
 - `mcpServers`
@@ -264,9 +268,11 @@
 - `role`
 - `roots`
 - `sampling`
+- `selection`
 - `server`
 - `source`
 - `speedPriority`
+- `start`
 - `subscribe`
 - `text`
 - `tool_name`
