@@ -21,22 +21,24 @@ List of Swift attribute keywords and Cocoa/Interface Builder annotations includi
 | `EXPR_9` | Replace | None |
 | `EXPR_10` | ReadNotebook | None |
 | `EXPR_11` | NotebookEditCell | None |
-| `EXPR_12` | dispatch_agent | None |
-| `EXPR_13` | Bash | None |
-| `EXPR_14` | BatchTool | None |
-| `EXPR_15` | GlobTool | None |
-| `EXPR_16` | GrepTool | None |
-| `EXPR_17` | LS | None |
-| `EXPR_18` | View | None |
-| `EXPR_19` | Edit | None |
-| `EXPR_20` | Replace | None |
-| `EXPR_21` | ReadNotebook | None |
-| `EXPR_22` | NotebookEditCell | None |
+| `EXPR_12` | WebFetchTool | None |
+| `EXPR_13` | dispatch_agent | None |
+| `EXPR_14` | Bash | None |
+| `EXPR_15` | BatchTool | None |
+| `EXPR_16` | GlobTool | None |
+| `EXPR_17` | GrepTool | None |
+| `EXPR_18` | LS | None |
+| `EXPR_19` | View | None |
+| `EXPR_20` | Edit | None |
+| `EXPR_21` | Replace | None |
+| `EXPR_22` | ReadNotebook | None |
+| `EXPR_23` | NotebookEditCell | None |
+| `EXPR_24` | WebFetchTool | None |
 
 # Raw Prompt Text
 autoclosure
 
-${EXPR_1: 'dispatch_agent'}${EXPR_2: 'Bash'}${EXPR_3: 'BatchTool'}${EXPR_4: 'GlobTool'}${EXPR_5: 'GrepTool'}${EXPR_6: 'LS'}${EXPR_7: 'View'}${EXPR_8: 'Edit'}${EXPR_9: 'Replace'}${EXPR_10: 'ReadNotebook'}${EXPR_11: 'NotebookEditCell'}
+${EXPR_1: 'dispatch_agent'}${EXPR_2: 'Bash'}${EXPR_3: 'BatchTool'}${EXPR_4: 'GlobTool'}${EXPR_5: 'GrepTool'}${EXPR_6: 'LS'}${EXPR_7: 'View'}${EXPR_8: 'Edit'}${EXPR_9: 'Replace'}${EXPR_10: 'ReadNotebook'}${EXPR_11: 'NotebookEditCell'}${EXPR_12: 'WebFetchTool'}
 
 discardableResult
 
@@ -72,7 +74,7 @@ NSCopying
 
 NSManaged
 
-${EXPR_12: 'dispatch_agent'}${EXPR_13: 'Bash'}${EXPR_14: 'BatchTool'}${EXPR_15: 'GlobTool'}${EXPR_16: 'GrepTool'}${EXPR_17: 'LS'}${EXPR_18: 'View'}${EXPR_19: 'Edit'}${EXPR_20: 'Replace'}${EXPR_21: 'ReadNotebook'}${EXPR_22: 'NotebookEditCell'}
+${EXPR_13: 'dispatch_agent'}${EXPR_14: 'Bash'}${EXPR_15: 'BatchTool'}${EXPR_16: 'GlobTool'}${EXPR_17: 'GrepTool'}${EXPR_18: 'LS'}${EXPR_19: 'View'}${EXPR_20: 'Edit'}${EXPR_21: 'Replace'}${EXPR_22: 'ReadNotebook'}${EXPR_23: 'NotebookEditCell'}${EXPR_24: 'WebFetchTool'}
 
 objc
 
