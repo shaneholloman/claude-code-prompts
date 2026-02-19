@@ -1,10 +1,9 @@
-# Claude Code 2.0.3 – Flags
+# Claude Code 2.0.5 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `auto_migrate_to_native` | gate | tools | Enables automatic CLI migration to a native updater, with analytics events emitted. | Exact migration behavior not shown; only gating and event names are visible. | medium | 1 |
 | `cache_warming` | gate | caching | Controls cache warmup behavior after idle, with interval and request limits. | Only config retrieval and early-return usage shown. | medium | 1 |
-| `cc_microcompact_ext` | gate | prompts | Disable micro-compact behavior for items without assistant messages. | Only indicates gating a set; exact feature purpose unclear. | medium | 1 |
 | `cc_onboarding_github` | gate | ui | Controls whether to show GitHub integration onboarding step and related tip. | Seen only as a gate value used in onboarding checklist construction. | high | 1 |
 | `cc_onboarding_hide_claudemd` | gate | ui | Controls whether the onboarding tip about creating CLAUDE.md is hidden | Appears to gate display of an onboarding tip. | high | 1 |
 | `cc_onboarding_hide_questions_changes` | gate | ui | Controls hiding an onboarding tip about questions/changes guidance | Seen only as a variable set via mz() in onboarding UI flow. | high | 1 |
@@ -15,8 +14,6 @@
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `max_user_opusplan` | gate | auth | Controls whether Opus-plan users get an active default model override. | Exact behavior beyond enabling override is unclear. | medium | 1 |
 | `new_max_user_default_model` | gate | tools | Controls default model override selection, optionally forcing opus plan based on gating and token date. | Behavior inferred from obfuscated CLI snippet and surrounding Statsig keys. | medium | 1 |
-| `prompt_cache_1h_experiment` | gate | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
-| `sonnet_45_1m_header` | gate | networking | Enables adding a special 1-minute header for a specific Sonnet model variant. | Exact meaning of pushed header value is unclear from snippet. | medium | 1 |
 | `tengu_ant_prompts` | gate | networking | Selects an alternate fetch implementation for CLI API requests when enabled. | Currently unreachable because the controlling variable is set to false. | medium | 1 |
 | `tengu_auto_checkpointing` | gate | ui | Enables showing autocheckpointing availability in the config panel when not disabled by env | Only seen wired into config UI state. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
@@ -27,3 +24,4 @@
 | `tengu_show_all_subscription_types` | gate | ui | Enable displaying all subscription types in a setup or login flow UI | Exact UI/flow unclear from limited snippet. | medium | 1 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
 | `tengu_use_file_checkpoints` | gate | filesystem | Enables restoring conversation or code using file-based checkpoints in message selector | Only declared here; actual conditional behavior not shown. | medium | 2 |
+| `thinking_on_default` | gate | prompts | Controls whether extended thinking mode is enabled by default for a specific model | Exact behavior depends on model list and config overrides. | medium | 1 |
