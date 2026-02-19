@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 241
-- Config keys: 268
+- Env vars: 243
+- Config keys: 272
 - Tools: 3
 - Skills: 0
 - Models: 35
@@ -161,6 +161,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_DISABLE_AUTOCHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
@@ -213,6 +214,7 @@
 - `DISABLE_UPGRADE_COMMAND`
 - `DYNO`
 - `EDITOR`
+- `ENABLE_PLUGINS`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
@@ -375,6 +377,7 @@
 - `args`
 - `arguments`
 - `ask`
+- `author`
 - `authorization_details_types_supported`
 - `authorization_endpoint`
 - `authorization_servers`
@@ -432,8 +435,10 @@
 - `edit_mode`
 - `edits`
 - `elicitation`
+- `email`
 - `enableAllProjectMcpServers`
 - `enabledMcpjsonServers`
+- `enabledPlugins`
 - `end`
 - `enum`
 - `enumNames`
@@ -630,6 +635,7 @@
 - `userModified`
 - `value`
 - `values`
+- `version`
 - `web_search_requests`
 
 ## Tools
