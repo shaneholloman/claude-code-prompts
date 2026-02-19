@@ -56,7 +56,7 @@ jobs:
             actions: read
 
           # Optional: Specify model (defaults to Claude Sonnet ${NUM}, uncomment for Claude Opus ${NUM})
-          # model: "claude-opus-${NUM}-${NUM}"
+          # model: "claude-opus-${NUM}-${NUM}-${NUM}"
 
           # Optional: Customize the trigger phrase (default: @claude)
           # trigger_phrase: "${PATH}"
