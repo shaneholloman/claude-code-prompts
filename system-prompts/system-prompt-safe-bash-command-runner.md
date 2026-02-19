@@ -80,7 +80,7 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 <${PATH}>
 
 ${NUM}. Create the commit with a message ending with:
-🤖 Generated with Claude Code
+🤖 Generated with [Claude Code](${URL})
 Co-Authored-By: Claude <noreply@anthropic.com>
 
 - In order to ensure good formatting, ALWAYS pass the commit message via a HEREDOC, a la this example:
@@ -88,7 +88,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   🤖 Generated with Claude Code
+   🤖 Generated with [Claude Code](${URL})
    Co-Authored-By: Claude <noreply@anthropic.com>
    EOF
    )"
@@ -151,7 +151,7 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-🤖 Generated with Claude Code
+🤖 Generated with [Claude Code](${URL})
 EOF
 )"
 <${PATH}>
