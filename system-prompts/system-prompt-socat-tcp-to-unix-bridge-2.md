@@ -13,7 +13,7 @@ Start socat TCP listeners forwarding to a UNIX socket, with exit cleanup trap.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-socat TCP-LISTEN:${NUM},fork,reuseaddr UNIX-CONNEC${PATH} >${PATH} ${NUM}>&${NUM} &
+socat TCP-LISTEN:${NUM},fork,reuseaddr UNIX-CONNECT:${PATH} >${PATH} ${NUM}>&${NUM} &
 
 socat TCP-LISTEN:${NUM},fork,reuseaddr UNIX-CONNECT:${EXPR_1} >${PATH} ${NUM}>&${NUM} &
 
