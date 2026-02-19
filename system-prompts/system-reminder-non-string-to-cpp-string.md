@@ -10,7 +10,7 @@ Cannot pass a non-string value to a C++ string type.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | \u0300-\u036f\ufe20-\ufe2f\u20d0-\u20ff | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Cannot pass non-string to C++ string type [${EXPR_1: '\\u0300-\\u036f\\ufe20-\\ufe2f\\u20d0-\\u20ff'}]
+Cannot pass non-string to C++ string type [${EXPR_1}]
