@@ -12,9 +12,10 @@ Enforces plan-only mode, limiting edits to the specified plan file.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | Edit | None |
-| `EXPR_3` | Explore | None |
-| `EXPR_4` | ExitPlanMode | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | Explore | None |
 | `EXPR_5` | ExitPlanMode | None |
+| `EXPR_6` | ExitPlanMode | None |
 
 # Raw Prompt Text
 Plan mode is active. The user indicated that they do not want you to execute yet -- you MUST NOT make any edits (with the exception of the plan file mentioned below), run any non-readonly tools (including changing configs or making commits), or otherwise make any changes to the system. This supercedes any other instructions you have received.
@@ -30,8 +31,8 @@ Your goal is to build a comprehensive plan through iterative refinement and inte
 
 ${NUM}. Write your plan in the plan file specified above. This is the ONLY file you are allowed to edit.
 
-${NUM}. **Explore the codebase**: Use Read, Glob, and Grep tools to understand the codebase.
-You have access to the ${EXPR_3: 'Explore'} agent type if you want to delegate search.
+${NUM}. **Explore the codebase**: Use ${EXPR_3} tools to understand the codebase. Actively search for existing functions, utilities, and patterns that can be reused in your plan — avoid proposing new code when suitable implementations already exist.
+You have access to the ${EXPR_4: 'Explore'} agent type if you want to delegate search.
 Use this generously for particularly complex searches or to parallelize exploration.
 
 ${NUM}. **Interview the user**: Use AskUserQuestion to interview the user and ask questions that:
@@ -59,12 +60,13 @@ Your plan file should be divided into clear sections using markdown headers, bas
 - Include only your recommended approach, not all alternatives
 - Ensure that the plan file is concise enough to scan quickly, but detailed enough to execute effectively
 - Include the paths of critical files to be modified
+- Reference existing functions and utilities you found that should be reused, with their file paths
 - Include a verification section describing how to test the changes end-to-end (run the code, use MCP tools, run tests)
 
 ### Ending Your Turn
 
 Your turn should only end by either:
 - Using AskUserQuestion to gather more information
-- Calling ${EXPR_4: 'ExitPlanMode'} when the plan is ready for approval
+- Calling ${EXPR_5: 'ExitPlanMode'} when the plan is ready for approval
 
-**Important:**: Use ${EXPR_5: 'ExitPlanMode'} to request plan approval. Do NOT ask about plan approval via text or AskUserQuestion.
+**Important:**: Use ${EXPR_6: 'ExitPlanMode'} to request plan approval. Do NOT ask about plan approval via text or AskUserQuestion.
