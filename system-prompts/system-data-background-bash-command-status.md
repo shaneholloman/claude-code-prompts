@@ -14,71 +14,84 @@ Template for reporting background bash command and status fields.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
+| `EXPR_5` | true | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | Task | None |
-| `EXPR_8` | Bash | None |
-| `EXPR_9` | Glob | None |
-| `EXPR_10` | Grep | None |
-| `EXPR_11` | ExitPlanMode | None |
-| `EXPR_12` | Read | None |
-| `EXPR_13` | Edit | None |
-| `EXPR_14` | MultiEdit | None |
-| `EXPR_15` | Write | None |
-| `EXPR_16` | NotebookEdit | None |
-| `EXPR_17` | WebFetch | None |
-| `EXPR_18` | WebSearch | None |
-| `EXPR_19` | BashOutput | None |
-| `EXPR_20` | KillBash | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | stream-json | None |
+| `EXPR_14` | Task | None |
+| `EXPR_15` | Bash | None |
+| `EXPR_16` | Glob | None |
+| `EXPR_17` | Grep | None |
+| `EXPR_18` | ExitPlanMode | None |
+| `EXPR_19` | Read | None |
+| `EXPR_20` | Edit | None |
+| `EXPR_21` | MultiEdit | None |
+| `EXPR_22` | Write | None |
+| `EXPR_23` | NotebookEdit | None |
+| `EXPR_24` | WebFetch | None |
 
 # Raw Prompt Text
+${URL}
+
+${URL}
+
 ${EXPR_1}
 
-${EXPR_2}
+Background Bash ${EXPR_2}
 
-${EXPR_3}
+(command: ${EXPR_3})
 
-${EXPR_4}
+(status: ${EXPR_4})
 
-${EXPR_5}
+${NUM}
+
+${EXPR_5: true}
 
 ${EXPR_6}
 
-${EXPR_7: 'Task'}
+${EXPR_7}
 
-${EXPR_8: 'Bash'}
+${EXPR_8}
 
-${EXPR_9: 'Glob'}
+${EXPR_9}
 
-${EXPR_10: 'Grep'}
+${EXPR_10}
 
-${EXPR_11: 'ExitPlanMode'}
+${EXPR_11}
 
-${EXPR_12: 'Read'}
+${EXPR_12}
 
-${EXPR_13: 'Edit'}
+${EXPR_13: 'stream-json'}
 
-${EXPR_14: 'MultiEdit'}
+${EXPR_14: 'Task'}
 
-${EXPR_15: 'Write'}
+${EXPR_15: 'Bash'}
 
-${EXPR_16: 'NotebookEdit'}
+${EXPR_16: 'Glob'}
 
-${EXPR_17: 'WebFetch'}
+${EXPR_17: 'Grep'}
 
-${EXPR_18: 'WebSearch'}
+${EXPR_18: 'ExitPlanMode'}
 
-${EXPR_19: 'BashOutput'}
+${EXPR_19: 'Read'}
 
-${EXPR_20: 'KillBash'}
+${EXPR_20: 'Edit'}
 
-Background Bash ${EXPR_21}
+${EXPR_21: 'MultiEdit'}
 
-(command: ${EXPR_22})
+${EXPR_22: 'Write'}
 
-(status: ${EXPR_23})
+${EXPR_23: 'NotebookEdit'}
 
-${NUM}
+${EXPR_24: 'WebFetch'}
+
+${EXPR_25}
+
+${EXPR_26}
+
+${EXPR_27}
