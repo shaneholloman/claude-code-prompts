@@ -21,6 +21,6 @@ Reports background command status, quoting the command and directing to output f
 <task-id>\\.\pipe\claude-mcp-browser-bridge-default<${PATH}>
 <output-file>${EXPR_1}<${PATH}>
 <status>${EXPR_2}<${PATH}>
-<summary>Background command "${EXPR_3}" ${EXPR_4}.<${PATH}>
+<summary>Background command "${EXPR_3}" ${EXPR_4}<${PATH}>
 <${PATH}>
 Read the output file to retrieve the result: ${EXPR_5}
