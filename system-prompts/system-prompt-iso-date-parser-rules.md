@@ -18,9 +18,8 @@ Converts natural-language dates into ISO format strings, preferring future and r
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
+| `EXPR_9` | stream-json | None |
 | `EXPR_10` | stream-json | None |
-| `EXPR_11` | stream-json | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -51,10 +50,10 @@ ${EXPR_5}
 
 ${EXPR_6}@${EXPR_7}
 
+success
+
 ${EXPR_8}
 
-${EXPR_9}
+${EXPR_9: 'stream-json'}
 
 ${EXPR_10: 'stream-json'}
-
-${EXPR_11: 'stream-json'}
