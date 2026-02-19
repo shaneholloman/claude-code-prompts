@@ -30,4 +30,4 @@ Usage:
 - For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'NotebookRead'} instead
 - You have the capability to call multiple tools in a single response. It is always better to speculatively read multiple files as a batch that are potentially useful.
 - You will regularly be asked to read screenshots. If the user provides a path to a screenshot ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths like ${PATH}
-- If you read a file that exists but has empty contents you will recieve a system reminder warning in place of file contents.
+- If you read a file that exists but has empty contents you will receive a system reminder warning in place of file contents.
