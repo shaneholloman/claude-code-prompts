@@ -26,6 +26,10 @@ Use this tool to update a task in the task list.
   - You encountered unresolved errors
   - You couldn't find necessary files or dependencies
 
+**Delete tasks:**
+- When a task is no longer relevant or was created in error
+- Setting status to `deleted` permanently removes the task
+
 **Update task details:**
 - When requirements change or become clearer
 - When establishing dependencies between tasks
@@ -45,6 +49,8 @@ Use this tool to update a task in the task list.
 
 Status progresses: `pending` → `in_progress` → `completed`
 
+Use `deleted` to permanently remove a task.
+
 ## Staleness
 
 Make sure to read a task's latest state using `TaskGet` before updating it.
@@ -59,6 +65,11 @@ Mark task as in progress when starting work:
 Mark task as completed after finishing work:
 ```json
 {"taskId": "${NUM}", "status": "completed"}
+```
+
+Delete a task:
+```json
+{"taskId": "${NUM}", "status": "deleted"}
 ```
 
 Claim a task by setting owner:
