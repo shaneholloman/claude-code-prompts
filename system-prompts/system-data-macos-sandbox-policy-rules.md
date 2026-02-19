@@ -25,6 +25,8 @@ Sandbox profile allowing specific process permissions and Mach service lookups.
 
 (allow signal (target same-sandbox))
 
+(allow mach-priv-task-port (target same-sandbox))
+
 ; User preferences
 
 (allow user-preference-read)
