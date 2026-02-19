@@ -15,4 +15,4 @@ Run a specific MCP subcommand with arguments, prompting enter to configure
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${EXPR_1} mcp__${EXPR_2}__${EXPR_3} (⏎ to configure)
+mcp__${EXPR_1}__${EXPR_2} ${EXPR_3} (⏎ to configure)
