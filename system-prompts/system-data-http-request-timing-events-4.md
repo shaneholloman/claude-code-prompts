@@ -23,8 +23,6 @@ Background Bash ${EXPR_1}
 
 ${NUM}
 
-files
-
 http.request.redirect_start
 
 http.request.fetch_start
