@@ -20,9 +20,9 @@ Multiple prompts (3)
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
-| `EXPR_11` | resolved list (4 items) | None |
+| `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
-| `EXPR_13` | resolved list (4 items) | None |
+| `EXPR_13` | None | None |
 | `EXPR_14` | TodoWrite | None |
 | `EXPR_15` | Read | None |
 | `EXPR_16` | Glob | None |
