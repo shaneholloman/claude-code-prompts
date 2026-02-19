@@ -1,4 +1,4 @@
-# Prompt Stats 2.0.68
+# Prompt Stats 2.0.69
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -84,11 +84,11 @@
 | system | [System Prompt: List Mcp Server Resources](../system-prompts/system-prompt-list-mcp-server-resources.md) | 295 | 73 | 1.0.22 | 1.0.22 |
 | system | [System Prompt: Nested Template Functions](../system-prompts/system-prompt-nested-template-functions.md) | 345 | 134 | 0.2.54 | 1.0.86 |
 | system | [System Prompt: Npm View Version Command](../system-prompts/system-prompt-npm-view-version-command.md) | 58 | 30 | 2.0.68 | 2.0.68 |
-| system | [System Prompt: Npm View Version Command 10](../system-prompts/system-prompt-npm-view-version-command-10.md) | 47 | 23 | 2.0.68 | 2.0.68 |
-| system | [System Prompt: Npm View Version Command 2](../system-prompts/system-prompt-npm-view-version-command-2.md) | 47 | 23 | 2.0.68 | 2.0.68 |
+| system | [System Prompt: Npm View Version Command 10](../system-prompts/system-prompt-npm-view-version-command-10.md) | 47 | 23 | 2.0.68 | 2.0.69 |
+| system | [System Prompt: Npm View Version Command 2](../system-prompts/system-prompt-npm-view-version-command-2.md) | 47 | 23 | 2.0.68 | 2.0.69 |
 | system | [System Prompt: Npm View Version Command 3](../system-prompts/system-prompt-npm-view-version-command-3.md) | 80 | 44 | 2.0.68 | 2.0.68 |
 | system | [System Prompt: Npm View Version Command 4](../system-prompts/system-prompt-npm-view-version-command-4.md) | 47 | 23 | 2.0.68 | 2.0.68 |
-| system | [System Prompt: Npm View Version Command 5](../system-prompts/system-prompt-npm-view-version-command-5.md) | 47 | 23 | 2.0.68 | 2.0.68 |
+| system | [System Prompt: Npm View Version Command 5](../system-prompts/system-prompt-npm-view-version-command-5.md) | 47 | 23 | 2.0.68 | 2.0.69 |
 | system | [System Prompt: Npm View Version Command 6](../system-prompts/system-prompt-npm-view-version-command-6.md) | 69 | 37 | 2.0.68 | 2.0.68 |
 | system | [System Prompt: Npm View Version Command 7](../system-prompts/system-prompt-npm-view-version-command-7.md) | 58 | 30 | 2.0.68 | 2.0.68 |
 | system | [System Prompt: Npm View Version Command 8](../system-prompts/system-prompt-npm-view-version-command-8.md) | 58 | 30 | 2.0.68 | 2.0.68 |
@@ -126,7 +126,7 @@
 | system | [System Prompt: Structured Coding Todo List](../system-prompts/system-prompt-structured-coding-todo-list.md) | 10111 | 2433 | 1.0.89 | 1.0.89 |
 | system | [System Prompt: Subagent Context Boundaries](../system-prompts/system-prompt-subagent-context-boundaries.md) | 495 | 114 | 2.0.8 | 2.0.8 |
 | system | [System Prompt: Subagent Launch Guidelines](../system-prompts/system-prompt-subagent-launch-guidelines.md) | 4647 | 1147 | 2.0.65 | 2.0.65 |
-| system | [System Prompt: Summarize Bash Output If Needed](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | 229 | 55 | 1.0.60 | 2.0.68 |
+| system | [System Prompt: Summarize Bash Output If Needed](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | 229 | 55 | 1.0.60 | 2.0.69 |
 | system | [System Prompt: Summarize Coding Chat Status](../system-prompts/system-prompt-summarize-coding-chat-status.md) | 139 | 33 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Summarize Conversations](../system-prompts/system-prompt-summarize-conversations.md) | 69 | 13 | 0.2.108 | 2.0.22 |
 | system | [System Prompt: Summarize New Messages](../system-prompts/system-prompt-summarize-new-messages.md) | 422 | 110 | 2.0.45 | 2.0.45 |
@@ -221,7 +221,7 @@
 | system-reminder | [System Reminder: Show Variable Contents](../system-prompts/system-reminder-show-variable-contents.md) | 33 | 16 | 0.2.107 | 0.2.107 |
 | system-reminder | [System Reminder: Stop Hook Feedback](../system-prompts/system-reminder-stop-hook-feedback.md) | 29 | 11 | 2.0.41 | 2.0.41 |
 | system-reminder | [System Reminder: Stopnode Not Closed Error](../system-prompts/system-reminder-stopnode-not-closed-error.md) | 23 | 7 | 2.0.63 | 2.0.63 |
-| system-reminder | [System Reminder: Summarize Bash Output](../system-prompts/system-reminder-summarize-bash-output.md) | 229 | 55 | 1.0.60 | 2.0.68 |
+| system-reminder | [System Reminder: Summarize Bash Output](../system-prompts/system-reminder-summarize-bash-output.md) | 229 | 55 | 1.0.60 | 2.0.69 |
 | system-reminder | [System Reminder: Task Context With Paths](../system-prompts/system-reminder-task-context-with-paths.md) | 232 | 111 | 2.0.66 | 2.0.66 |
 | system-reminder | [System Reminder: Team Coordination Workflow](../system-prompts/system-reminder-team-coordination-workflow.md) | 738 | 213 | 2.0.60 | 2.0.60 |
 | system-reminder | [System Reminder: Todo List Updated Silently 2](../system-prompts/system-reminder-todo-list-updated-silently-2.md) | 181 | 43 | 1.0.69 | 1.0.69 |

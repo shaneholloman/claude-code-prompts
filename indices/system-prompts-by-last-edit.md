@@ -16,13 +16,16 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.69 |
+| [`system-prompt-npm-view-version-command-10.md`](../system-prompts/system-prompt-npm-view-version-command-10.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.69 |
+| [`system-prompt-npm-view-version-command-2.md`](../system-prompts/system-prompt-npm-view-version-command-2.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.69 |
+| [`system-prompt-npm-view-version-command-5.md`](../system-prompts/system-prompt-npm-view-version-command-5.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.69 |
 | [`system-prompt-launch-plan-implementation-swarm.md`](../system-prompts/system-prompt-launch-plan-implementation-swarm.md) | Creates tasks, spawns a team and workers, then assigns tasks to implement plan. | 483 | 2.0.68 | 2.0.68 |
 | [`system-prompt-verify-stop-condition-json.md`](../system-prompts/system-prompt-verify-stop-condition-json.md) | Verify plan completion via transcript and code inspection, then output ok using specified tool. | 121 | 2.0.56 | 2.0.68 |
 | [`system-prompt-absolute-paths-output-rules.md`](../system-prompts/system-prompt-absolute-paths-output-rules.md) | Use absolute paths, include filenames and code snippets, avoid emojis in final reply. | 110 | 2.0.68 | 2.0.68 |
 | [`system-prompt-install-review-plugin.md`](../system-prompts/system-prompt-install-review-plugin.md) | Instruct user to install code review plugin and run the new command. | 107 | 2.0.68 | 2.0.68 |
 | [`system-prompt-git-status-with-npm-view.md`](../system-prompts/system-prompt-git-status-with-npm-view.md) | Records initial git branch status, npm package version lookup, and recent commit list. | 90 | 2.0.68 | 2.0.68 |
 | [`system-prompt-unix-listen-npm-view-version.md`](../system-prompts/system-prompt-unix-listen-npm-view-version.md) | Socat bridges UNIX listener to TCP localhost running npm view package@version query. | 72 | 2.0.68 | 2.0.68 |
-| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.68 |
 | [`system-prompt-yaml-header-npm-view-version.md`](../system-prompts/system-prompt-yaml-header-npm-view-version.md) | YAML header with dynamic name/description, then runs npm view to fetch package version | 51 | 2.0.68 | 2.0.68 |
 | [`system-prompt-aws-hmac-payload-and-npm.md`](../system-prompts/system-prompt-aws-hmac-payload-and-npm.md) | Log snippet with AWS4 HMAC payload line followed by npm view version lookup. | 47 | 2.0.68 | 2.0.68 |
 | [`system-prompt-fix-path-for-native-install.md`](../system-prompts/system-prompt-fix-path-for-native-install.md) | Adds a native install directory to PATH via an export line appended to a file. | 44 | 2.0.68 | 2.0.68 |
@@ -40,10 +43,7 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-windows-cmd-npm-view-version.md`](../system-prompts/system-prompt-windows-cmd-npm-view-version.md) | Run npm view package version using Windows cmd execution flags. | 27 | 2.0.68 | 2.0.68 |
 | [`system-prompt-xmlns-with-npm-view-version.md`](../system-prompts/system-prompt-xmlns-with-npm-view-version.md) | Outputs xmlns declaration then queries npm for a package version by tag. | 25 | 2.0.68 | 2.0.68 |
 | [`system-prompt-git-push-then-npm-view.md`](../system-prompts/system-prompt-git-push-then-npm-view.md) | Push changes to origin, then query npm for a package version. | 23 | 2.0.68 | 2.0.68 |
-| [`system-prompt-npm-view-version-command-10.md`](../system-prompts/system-prompt-npm-view-version-command-10.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.68 |
-| [`system-prompt-npm-view-version-command-2.md`](../system-prompts/system-prompt-npm-view-version-command-2.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.68 |
 | [`system-prompt-npm-view-version-command-4.md`](../system-prompts/system-prompt-npm-view-version-command-4.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.68 |
-| [`system-prompt-npm-view-version-command-5.md`](../system-prompts/system-prompt-npm-view-version-command-5.md) | Query npm registry for a package version at a specified tag or version. | 23 | 2.0.68 | 2.0.68 |
 | [`system-prompt-cli-educational-engineering-insights.md`](../system-prompts/system-prompt-cli-educational-engineering-insights.md) | CLI engineering assistant adds codebase-specific insights before and after coding in formatted blocks | 220 | 1.0.78 | 2.0.67 |
 | [`system-prompt-require-mcp-cli-schema-check-2.md`](../system-prompts/system-prompt-require-mcp-cli-schema-check-2.md) | Enforces running mcp-cli info before any tool call to confirm parameters. | 1,319 | 2.0.66 | 2.0.66 |
 | [`system-prompt-remote-task-completion-notice.md`](../system-prompts/system-prompt-remote-task-completion-notice.md) | Announce remote_agent task completion and instruct retrieving output via TaskOutputTool task_id. | 103 | 2.0.66 | 2.0.66 |
@@ -426,11 +426,11 @@ _Sorted by last edit (newest first). Showing **36** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.69 |
 | [`system-reminder-cli-security-safety-rules.md`](../system-prompts/system-reminder-cli-security-safety-rules.md) | Multiple prompts (3) | 3,224 | 2.0.68 | 2.0.68 |
 | [`system-reminder-cli-security-safety-rules-2.md`](../system-prompts/system-reminder-cli-security-safety-rules-2.md) | Interactive CLI assistant with authorized security-testing limits and strict URL-generation restrictions. | 3,221 | 2.0.68 | 2.0.68 |
 | [`system-reminder-cli-security-safety-rules-3.md`](../system-prompts/system-reminder-cli-security-safety-rules-3.md) | Interactive CLI assistant with authorized security-testing limits and strict URL-generation restrictions. | 2,721 | 2.0.68 | 2.0.68 |
 | [`system-reminder-settings-html-doctype-template.md`](../system-prompts/system-reminder-settings-html-doctype-template.md) | Template snippet showing user project local settings and HTML doctype placeholders. | 225 | 2.0.68 | 2.0.68 |
-| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.68 |
 | [`system-reminder-task-context-with-paths.md`](../system-prompts/system-reminder-task-context-with-paths.md) | Prints project context, local file paths, and structured task fields with statuses. | 111 | 2.0.66 | 2.0.66 |
 | [`system-reminder-plugin-install-summary-restart.md`](../system-prompts/system-reminder-plugin-install-summary-restart.md) | Shows counts of installed plugins, failure details, and prompts restart to load plugins. | 46 | 2.0.66 | 2.0.66 |
 | [`system-reminder-placeholder-sequence-block.md`](../system-prompts/system-reminder-placeholder-sequence-block.md) | Contains repeated numbered placeholders and empty bracketed section. | 115 | 2.0.65 | 2.0.65 |
