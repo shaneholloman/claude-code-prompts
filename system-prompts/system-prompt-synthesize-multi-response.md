@@ -1,4 +1,4 @@
-# System Prompt: synthesize-multi-solution-4
+# System Prompt: synthesize-multi-response
 
 - Source: inline
 
