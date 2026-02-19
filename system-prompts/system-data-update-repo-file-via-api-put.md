@@ -30,6 +30,10 @@ HTML snippets and a GitHub-style API PUT call to update repository content.
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -154,14 +158,30 @@ ${EXPR_14}
 
 ${EXPR_15}
 
-Found ${EXPR_16} references across ${EXPR_17} files:
+${EXPR_16}
 
-${EXPR_18}
-
-${NUM}
+Found ${EXPR_17} references across ${EXPR_18} files:
 
 ${EXPR_19}
 
--c
+${NUM}
 
 ${EXPR_20}
+
+${EXPR_21}
+
+${EXPR_22}
+
+${EXPR_23}
+
+${EXPR_24}
+
+${EXPR_25}
+
+${EXPR_26}
+
+${EXPR_27}
+
+${EXPR_28}
+
+${EXPR_29}
