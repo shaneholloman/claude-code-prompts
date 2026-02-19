@@ -6,6 +6,12 @@
 
 Multiple prompts (2)
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
 This summary should be thorough in capturing technical details, code patterns, and architectural decisions that would be essential for continuing development work without losing context.
@@ -84,3 +90,7 @@ When summarizing the conversation focus on typescript code changes and also reme
 # Summary instructions
 When you are using compact - please focus on test output and code changes. Include file reads verbatim.
 <${PATH}>
+
+
+Additional Instructions:
+${EXPR_1}
