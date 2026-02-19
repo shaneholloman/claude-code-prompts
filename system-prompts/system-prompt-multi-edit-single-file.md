@@ -11,7 +11,7 @@ This is a tool for making multiple edits to a single file in one operation. It i
 
 Before using this tool:
 
-${NUM}. Use the View tool to understand the file's contents and context
+${NUM}. Use the Read tool to understand the file's contents and context
 ${NUM}. Verify the directory path is correct
 
 To make multiple file edits, provide the following:
