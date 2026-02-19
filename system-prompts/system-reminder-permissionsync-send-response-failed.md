@@ -10,7 +10,7 @@ Report failure sending a permission response via mailbox with error info.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 [PermissionSync] Failed to send permission response via mailbox: ${EXPR_1}
