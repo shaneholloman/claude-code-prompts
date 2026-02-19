@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (5)
+System-data template emitting one or two background bash command and status blocks.
 
 ## Placeholder Hints (source-backed)
 
@@ -13,22 +13,68 @@ Multiple prompts (5)
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
+| `EXPR_4` | Task | None |
+| `EXPR_5` | Bash | None |
+| `EXPR_6` | Glob | None |
+| `EXPR_7` | Grep | None |
+| `EXPR_8` | LS | None |
+| `EXPR_9` | ExitPlanMode | None |
+| `EXPR_10` | Read | None |
+| `EXPR_11` | Edit | None |
+| `EXPR_12` | MultiEdit | None |
+| `EXPR_13` | Write | None |
+| `EXPR_14` | NotebookEdit | None |
+| `EXPR_15` | WebFetch | None |
+| `EXPR_16` | WebSearch | None |
+| `EXPR_17` | BashOutput | None |
+| `EXPR_18` | KillBash | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-${EXPR_2}
-${EXPR_3}
-Background Bash ${EXPR_4}
-(command: ${EXPR_5})
-(status: ${EXPR_6})
+Background Bash ${EXPR_1}
+
+(command: ${EXPR_2})
+
+(status: ${EXPR_3})
+
 ${NUM}
 
-Background Bash ${EXPR_7};(command: ${EXPR_8});(status: ${EXPR_9});${NUM}
-${EXPR_10}
+${EXPR_4: 'Task'}
+
+${EXPR_5: 'Bash'}
+
+${EXPR_6: 'Glob'}
+
+${EXPR_7: 'Grep'}
+
+${EXPR_8: 'LS'}
+
+${EXPR_9: 'ExitPlanMode'}
+
+${EXPR_10: 'Read'}
+
+${EXPR_11: 'Edit'}
+
+${EXPR_12: 'MultiEdit'}
+
+${EXPR_13: 'Write'}
+
+${EXPR_14: 'NotebookEdit'}
+
+${EXPR_15: 'WebFetch'}
+
+${EXPR_16: 'WebSearch'}
+
+${EXPR_17: 'BashOutput'}
+
+${EXPR_18: 'KillBash'}
+
+Background Bash ${EXPR_19}
+
+(command: ${EXPR_20})
+
+(status: ${EXPR_21})
+
+${NUM}
