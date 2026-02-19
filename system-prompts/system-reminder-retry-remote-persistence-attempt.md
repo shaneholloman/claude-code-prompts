@@ -11,7 +11,7 @@ Log failed remote persistence attempt count and retry delay in milliseconds.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Remote persistence attempt ${EXPR_1}/${NUM} failed, retrying in ${EXPR_2}ms…
