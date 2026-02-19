@@ -26,3 +26,4 @@ Use this tool to create a new task in the task list.
 - Include enough detail in the description for another agent to understand and complete the task
 - After creating tasks, use TaskUpdate to set up dependencies (blocks${PATH}) if needed
 - New tasks are created with status 'open' and no owner - use TeammateTool's assignTask to assign them
+- Check TaskList first to avoid creating duplicate tasks
