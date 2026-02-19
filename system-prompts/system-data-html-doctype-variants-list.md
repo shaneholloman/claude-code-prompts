@@ -116,7 +116,3 @@ Strings enumerating HTML doctype variants including strict, levels, and internet
 -${PATH} mozilla html ${NUM}//
 
 -${PATH} mozilla html//
-
--${PATH} html ${NUM} frameset//
-
--${PATH} html ${NUM} transitional//
