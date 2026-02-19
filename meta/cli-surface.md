@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 37
-- Env vars: 280
-- Config keys: 351
+- Env vars: 290
+- Config keys: 358
 - Tools: 3
 - Skills: 0
 - Models: 44
@@ -144,15 +144,18 @@
 - `ANTHROPIC_SMALL_FAST_MODEL_AWS_REGION`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
 - `API_TIMEOUT_MS`
+- `APP_URL`
 - `APPDATA`
 - `AWS_ACCESS_KEY_ID`
 - `AWS_BEARER_TOKEN_BEDROCK`
 - `AWS_DEFAULT_REGION`
 - `AWS_EXECUTION_ENV`
+- `AWS_LAMBDA_FUNCTION_NAME`
 - `AWS_PROFILE`
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
+- `AZURE_FUNCTIONS_ENVIRONMENT`
 - `BASH_DEFAULT_TIMEOUT_MS`
 - `BASH_MAX_OUTPUT_LENGTH`
 - `BASH_MAX_TIMEOUT_MS`
@@ -246,6 +249,8 @@
 - `DYNO`
 - `EDITOR`
 - `ENABLE_BASH_WRAPPER_MATCHING`
+- `FLY_APP_NAME`
+- `FLY_MACHINE_ID`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
@@ -267,6 +272,7 @@
 - `GITHUB_REPOSITORY_OWNER`
 - `GITHUB_REPOSITORY_OWNER_ID`
 - `GITHUB_SHA`
+- `GITLAB_CI`
 - `GNOME_TERMINAL_SERVICE`
 - `GOOGLE_APPLICATION_CREDENTIALS`
 - `GOOGLE_CLOUD_PROJECT`
@@ -326,7 +332,10 @@
 - `PATHEXT`
 - `PKG_CONFIG_PATH`
 - `PWD`
+- `RAILWAY_ENVIRONMENT_NAME`
+- `RAILWAY_SERVICE_NAME`
 - `REGION_NAME`
+- `RENDER`
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
 - `SENTRY_BAGGAGE`
@@ -390,6 +399,7 @@
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
 - `WEBSITE_SITE_NAME`
+- `WEBSITE_SKU`
 - `WS_NO_BUFFER_UTIL`
 - `WS_NO_UTF_8_VALIDATE`
 - `WSL_DISTRO_NAME`
@@ -424,6 +434,7 @@
 - `allowLocalBinding`
 - `allowUnixSockets`
 - `alwaysThinkingEnabled`
+- `answers`
 - `api`
 - `apiKeyHelper`
 - `args`
@@ -484,7 +495,6 @@
 - `default`
 - `default_branch`
 - `defaultMode`
-- `defaultOn`
 - `deny`
 - `description`
 - `destination`
@@ -502,6 +512,7 @@
 - `elicitation`
 - `email`
 - `enableAllProjectMcpServers`
+- `enabled`
 - `enabledMcpjsonServers`
 - `enabledPlugins`
 - `enableWeakerNestedSandbox`
@@ -534,6 +545,7 @@
 - `grant_types`
 - `grant_types_supported`
 - `hasMore`
+- `header`
 - `headers`
 - `headersHelper`
 - `hints`
@@ -571,6 +583,7 @@
 - `jwks`
 - `jwks_uri`
 - `keywords`
+- `label`
 - `language`
 - `lastUpdated`
 - `libvips`
@@ -598,6 +611,7 @@
 - `minLength`
 - `mode`
 - `model`
+- `multiSelect`
 - `name`
 - `network`
 - `new_source`
@@ -616,6 +630,7 @@
 - `op_policy_uri`
 - `op_tos_uri`
 - `openWorldHint`
+- `options`
 - `originalFile`
 - `originalSize`
 - `otelHeadersHelper`
@@ -641,6 +656,8 @@
 - `prompts`
 - `properties`
 - `query`
+- `question`
+- `questions`
 - `rawOutputPath`
 - `readOnlyHint`
 - `reason`
