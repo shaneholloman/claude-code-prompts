@@ -4,7 +4,7 @@
 
 ## Summary
 
-Outputs three values as a simple comma-separated list.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
