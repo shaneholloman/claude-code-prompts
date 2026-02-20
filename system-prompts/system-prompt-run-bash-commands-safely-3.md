@@ -17,10 +17,15 @@ Run bash commands with optional timeouts, persistent cwd, and mandatory path quo
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | TodoWrite | None |
+| `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | TodoWrite | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | TodoWrite | None |
 
 # Raw Prompt Text
 Executes a given bash command with optional timeout. Working directory persists between commands; shell state (everything else) does not. The shell environment is initialized from the user's profile (bash or zsh).
@@ -52,11 +57,11 @@ Usage notes:
   - You can use the `run_in_background` parameter to run the command in the background. Only use this if you don't need the result immediately and are OK being notified when the command completes later. You do not need to check the output right away - you'll be notified when it finishes. You do not need to use '&' at the end of the command when using this parameter.
   - Commands run in a sandbox by default with the following restrictions:
 ${EXPR_5}
-${EXPR_6}
-  - IMPORTANT: For temporary files, use `${PATH}` as your temporary directory
-    - The TMPDIR environment variable is automatically set to `${PATH}` when running in sandbox mode
-    - Do NOT use `${PATH}` directly - use `${PATH}` or rely on TMPDIR instead
-    - Most programs that respect TMPDIR will automatically use `${PATH}`
+@anthropic-ai${PATH}
+  - IMPORTANT: For temporary files, always use the `$TMPDIR` environment variable (or `${EXPR_6}` as a fallback)
+    - TMPDIR is automatically set to the correct sandbox-writable directory in sandbox mode
+    - Do NOT use `${PATH}` directly - use `$TMPDIR` or `${EXPR_7}` instead
+    - Most programs that respect TMPDIR will automatically use the correct directory
   - Avoid using Bash with the `find`, `grep`, `cat`, `head`, `tail`, `sed`, `awk`, or `echo` commands, unless explicitly instructed or when these commands are truly necessary for the task. Instead, always prefer using the dedicated tools for these commands:
     - File search: Use Glob (NOT find or ls)
     - Content search: Use Grep (NOT grep or rg)
@@ -86,11 +91,11 @@ Git Safety Protocol:
 - NEVER run destructive git commands (push --force, reset --hard, checkout ., restore ., clean -f, branch -D) unless the user explicitly requests these actions. Taking unauthorized destructive actions is unhelpful and can result in lost work, so it's best to ONLY run these commands when given direct instructions
 - NEVER skip hooks (--no-verify, --no-gpg-sign, etc) unless the user explicitly requests it
 - NEVER run force push to main${PATH}, warn the user if they request it
-- CRITICAL: Always create NEW commits rather than amending, unless the user explicitly requests a git amend. When a pre-commit hook fails, the commit did NOT happen  — so --amend would modify the PREVIOUS commit, which may result in destroying work or losing previous changes. Instead, after hook failure, fix the issue, re-stage, and create a NEW commit
+- CRITICAL: Always create NEW commits rather than amending, unless the user explicitly requests a git amend. When a pre-commit hook fails, the commit did NOT happen — so --amend would modify the PREVIOUS commit, which may result in destroying work or losing previous changes. Instead, after hook failure, fix the issue, re-stage, and create a NEW commit
 - When staging files, prefer adding specific files by name rather than using "git add -A" or "git add .", which can accidentally include sensitive files (.env, credentials) or large binaries
 - NEVER commit changes unless the user explicitly asks you to. It is VERY IMPORTANT to only commit when explicitly asked, otherwise the user will feel that you are being too proactive
 
-${NUM}. ${PATH} run the following bash commands in parallel, each using the Bash tool:
+${NUM}. ${EXPR_8} run the following bash commands in parallel, each using the Bash tool:
   - Run a git status command to see all untracked files. IMPORTANT: Never use the -uall flag as it can cause memory issues on large repos.
   - Run a git diff command to see both staged and unstaged changes that will be committed.
   - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
@@ -99,17 +104,17 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
   - Do not commit files that likely contain secrets (.env, credentials.json, etc). Warn the user if they specifically request to commit those files
   - Draft a concise (${NUM}-${NUM} sentences) commit message that focuses on the "why" rather than the "what"
   - Ensure it accurately reflects the changes and their purpose
-${NUM}. ${PATH} run the following commands:
+${NUM}. ${EXPR_9} run the following commands:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
-   ${EXPR_7}
+   ${EXPR_10}
    - Run git status after the commit completes to verify success.
    Note: git status depends on the commit completing, so run it sequentially after the commit.
 ${NUM}. If the commit fails due to pre-commit hook: fix the issue and create a NEW commit
 
 Important notes:
 - NEVER run additional commands to read or explore code, besides git bash commands
-- NEVER use the ${EXPR_8: 'TodoWrite'} or Task tools
+- NEVER use the ${EXPR_11: 'TodoWrite'} or Task tools
 - DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - IMPORTANT: Do not use --no-edit with git rebase commands, as the --no-edit flag is not a valid option for git rebase.
@@ -119,7 +124,7 @@ Important notes:
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   ${EXPR_9}
+   ${EXPR_12}
    EOF
    )"
 <${PATH}>
@@ -129,7 +134,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. ${PATH} run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. ${EXPR_13} run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files (never use -uall flag)
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
@@ -137,7 +142,7 @@ ${NUM}. ${PATH} run the following bash commands in parallel using the Bash tool,
 ${NUM}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request!!!), and draft a pull request title and summary:
    - Keep the PR title short (under ${NUM} characters)
    - Use the description${PATH} for details, not the title
-${NUM}. ${PATH} run the following commands in parallel:
+${NUM}. ${EXPR_14} run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
    - Create PR using gh pr create with the format below. Use a HEREDOC to pass the body to ensure correct formatting.
@@ -149,13 +154,13 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Bulleted markdown checklist of TODOs for testing the pull request...]
 
-${EXPR_10}
+${EXPR_15}
 EOF
 )"
 <${PATH}>
 
 Important:
-- DO NOT use the ${EXPR_11: 'TodoWrite'} or Task tools
+- DO NOT use the ${EXPR_16: 'TodoWrite'} or Task tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
