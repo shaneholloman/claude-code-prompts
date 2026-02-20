@@ -11,6 +11,7 @@ Report streaming completion with stall count and total stall duration in seconds
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Streaming completed with ${NUM} stall(s), total stall time: ${EXPR_1}s
+Streaming completed with ${EXPR_1} stall(s), total stall time: ${EXPR_2}s
