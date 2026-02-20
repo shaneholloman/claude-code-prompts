@@ -1,4 +1,4 @@
-# System Data Block: bedrock-invocation-job-summary
+# System Data Block: bedrock-invocation-job-fields
 
 - Source: inline
 
