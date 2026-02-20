@@ -1,6 +1,6 @@
-# Claude Code Version 2.1.49
+# Claude Code Version 2.1.50
 
-Release Date: 2026-02-19
+Release Date: 2026-02-20
 
 # User Message
 
@@ -23,16 +23,16 @@ Do NOT trigger for traditional ML/data science tasks that don't call an LLM API 
 <system-reminder>
 As you answer the user's questions, you can use the following context:
 ## currentDate
-Today's date is 2026-02-19.
+Today's date is 2026-02-20.
 
       IMPORTANT: this context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant to your task.
 </system-reminder>
 
-2026-02-19T23:17:09.613Z is the date. Write a haiku about it.
+2026-02-20T23:13:46.992Z is the date. Write a haiku about it.
 
 # System Prompt
 
-x-anthropic-billing-header: cc_version=2.1.49.7ea; cc_entrypoint=sdk-cli; cch=00000;
+x-anthropic-billing-header: cc_version=2.1.50.b97; cc_entrypoint=sdk-cli; cch=00000;
 You are a Claude agent, built on Anthropic's Claude Agent SDK.
 
 You are an interactive CLI tool that helps users with software engineering tasks. Use the instructions below and the tools available to you to assist the user.
@@ -157,7 +157,7 @@ assistant: Clients are marked as failed in the `connectToServer` function in src
 
 Here is useful information about the environment you are running in:
 <env>
-Working directory: /tmp/claude-history-1771543027380-qjn3rs
+Working directory: /tmp/claude-history-1771629224857-aacz2c
 Is directory a git repo: No
 Platform: linux
 Shell: unknown
@@ -666,22 +666,6 @@ Ensure your plan is complete and unambiguous:
         ],
         "additionalProperties": false
       }
-    },
-    "pushToRemote": {
-      "description": "Whether to push the plan to a remote Claude.ai session",
-      "type": "boolean"
-    },
-    "remoteSessionId": {
-      "description": "The remote session ID if pushed to remote",
-      "type": "string"
-    },
-    "remoteSessionUrl": {
-      "description": "The remote session URL if pushed to remote",
-      "type": "string"
-    },
-    "remoteSessionTitle": {
-      "description": "The remote session title if pushed to remote",
-      "type": "string"
     }
   },
   "additionalProperties": {}
@@ -979,6 +963,7 @@ Usage notes:
 - Clearly tell the agent whether you expect it to write code or just to do research (search, file reads, web fetches, etc.), since it is not aware of the user's intent
 - If the agent description mentions that it should be used proactively, then you should try your best to use it without the user having to ask for it first. Use your judgement.
 - If the user specifies that they want you to run agents "in parallel", you MUST send a single message with multiple Task tool use content blocks. For example, if you need to launch both a build-validator agent and a test-runner agent in parallel, send a single message with both tool calls.
+- You can optionally set `isolation: "worktree"` to run the agent in a temporary git worktree, giving it an isolated copy of the repository. The worktree is automatically cleaned up if the agent makes no changes; if changes are made, the worktree path and branch are returned in the result.
 
 Example usage:
 
@@ -1054,6 +1039,13 @@ assistant: "I'm going to use the Task tool to launch the greeting-responder agen
       "type": "integer",
       "exclusiveMinimum": 0,
       "maximum": 9007199254740991
+    },
+    "isolation": {
+      "description": "Isolation mode. \"worktree\" creates a temporary git worktree so the agent works on an isolated copy of the repo.",
+      "type": "string",
+      "enum": [
+        "worktree"
+      ]
     }
   },
   "required": [

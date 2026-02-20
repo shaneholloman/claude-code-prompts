@@ -11,6 +11,9 @@ Enables automatic web search and mandates a Sources section with linked result U
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 - Allows Claude to search the web and use the results to inform responses
@@ -36,5 +39,5 @@ Usage notes:
   - Web search is only available in the US
 
 IMPORTANT - Use the correct year in search queries:
-  - The current month is ${EXPR_1}. You MUST use this year when searching for recent information, documentation, or current events.
-  - Example: If the user asks for "latest React docs", search for "React documentation" with the current year, NOT last year
+  - Today's date is ${EXPR_1}-${EXPR_2}-${EXPR_3}. You MUST use this year when searching for recent information, documentation, or current events.
+  - Example: If the user asks for "latest React docs", search for "React documentation ${PATH}", NOT "React documentation ${EXPR_4}"
