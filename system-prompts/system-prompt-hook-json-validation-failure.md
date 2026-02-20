@@ -1,4 +1,4 @@
-# System Prompt: hook-json-validation-failure
+# System Reminder: hook-json-output-validation-failed
 
 - Source: inline
 
