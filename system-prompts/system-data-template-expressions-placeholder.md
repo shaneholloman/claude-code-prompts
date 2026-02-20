@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (4)
+Bare template containing five expression placeholders for later content substitution.
 
 ## Placeholder Hints (source-backed)
 
