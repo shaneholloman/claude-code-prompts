@@ -6,10 +6,21 @@
 
 List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | Read | None |
+| `EXPR_2` | Glob | None |
+| `EXPR_3` | Grep | None |
+| `EXPR_4` | Read | None |
+| `EXPR_5` | Glob | None |
+| `EXPR_6` | Grep | None |
+
 # Raw Prompt Text
 autoclosure
 
-${URL}
+${EXPR_1: 'Read'}${EXPR_2: 'Glob'}${EXPR_3: 'Grep'}
 
 discardableResult
 
@@ -45,7 +56,7 @@ NSCopying
 
 NSManaged
 
-${URL}
+${EXPR_4: 'Read'}${EXPR_5: 'Glob'}${EXPR_6: 'Grep'}
 
 objc
 
