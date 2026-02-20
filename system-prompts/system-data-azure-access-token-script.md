@@ -12,7 +12,6 @@ Invoke PowerShell to get Az access token, optional tenant, secure-string convers
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -29,7 +28,7 @@ ${EXPR_1}
           $useSecureString = $m.Version -ge [version]'${NUM}.${NUM}'
 
           $params = @{
-            ResourceUrl = "${EXPR_3}"
+            ResourceUrl = "${PATH}"
           }
 
           if ($tenantId.Length -gt ${NUM}) {
