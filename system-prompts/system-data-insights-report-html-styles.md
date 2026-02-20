@@ -33,7 +33,6 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
-| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 <!DOCTYPE html>
@@ -157,9 +156,10 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
 <body>
   <div class="container">
     <h1>Claude Code Insights</h1>
-    <p class="subtitle">${EXPR_1} messages across ${EXPR_2} sessions (${EXPR_3} total) | ${EXPR_4} to ${EXPR_5}</p>
+    <p class="subtitle">${EXPR_1} messages across ${EXPR_2} sessions | ${EXPR_3} to ${EXPR_4}</p>
 
-    ${EXPR_6}
+    [${EXPR_5}] [Claude Chrome Native Host] ${EXPR_6}${EXPR_7}
+
 
     <nav class="nav-toc">
       <a href="#section-work">What You Work On</a>
@@ -173,14 +173,14 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
     <${PATH}>
 
     <div class="stats-row">
-      <div class="stat"><div class="stat-value">${EXPR_7}<${PATH}><div class="stat-label">Messages<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">+${EXPR_8}/-${EXPR_9}<${PATH}><div class="stat-label">Lines<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">${EXPR_10}<${PATH}><div class="stat-label">Files<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">${EXPR_11}<${PATH}><div class="stat-label">Days<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">${EXPR_12}<${PATH}><div class="stat-label">Msgs${PATH}<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_8}<${PATH}><div class="stat-label">Messages<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">+${EXPR_9}/-${EXPR_10}<${PATH}><div class="stat-label">Lines<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_11}<${PATH}><div class="stat-label">Files<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_12}<${PATH}><div class="stat-label">Days<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_13}<${PATH}><div class="stat-label">Msgs${PATH}<${PATH}><${PATH}>
     <${PATH}>
 
-    ${EXPR_13}
+    ${EXPR_14}
 
     <div class="charts-row">
       <div class="chart-card">
@@ -204,14 +204,14 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_14}
+    ${EXPR_15}
 
     <!-- Response Time Distribution -->
     <div class="chart-card" style="margin: 24px ${NUM};">
       <div class="chart-title">User Response Time Distribution<${PATH}>
       <p class="empty">No response time data</p>
       <div style="font-size: 12px; color: #64748b; margin-top: 8px;">
-        Median: ${EXPR_15}s &bull; Average: ${EXPR_16}s
+        Median: ${EXPR_16}s &bull; Average: ${EXPR_17}s
       <${PATH}>
     <${PATH}>
 
@@ -221,11 +221,11 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
 
         <div style="display: flex; gap: 24px; margin: 12px ${NUM};">
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_17}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_18}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Overlap Events<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_18}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_19}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Sessions Involved<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
@@ -255,7 +255,7 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
           <${PATH}>
           <input type="number" id="custom-offset" placeholder="UTC offset" style="display: none; width: 80px; font-size: 12px; padding: 4px; border-radius: 4px; border: 1px solid #e2e8f0;">
         <${PATH}>
-        <div id="hour-histogram">${EXPR_19}<${PATH}>
+        <div id="hour-histogram">${EXPR_20}<${PATH}>
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Tool Errors Encountered<${PATH}>
@@ -263,7 +263,7 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
       <${PATH}>
     <${PATH}>
 
-     (PID ${EXPR_20})
+    ${EXPR_21}
 
     <div class="charts-row">
       <div class="chart-card">
@@ -276,7 +276,7 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_21}
+    ${EXPR_22}
 
     <div class="charts-row">
       <div class="chart-card">
@@ -289,14 +289,14 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
       <${PATH}>
     <${PATH}>
 
-    ${NUM}
+    stdio
 
-    ${EXPR_22}
+    local
 
-    ${NUM}
+    green
 
-    ${EXPR_23}@${EXPR_24}
+    unknown
   <${PATH}>
-  <script>${EXPR_25}<${PATH}>
+  <script>${EXPR_23}<${PATH}>
 <${PATH}>
 <${PATH}>
