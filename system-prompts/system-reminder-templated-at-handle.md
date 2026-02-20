@@ -4,7 +4,7 @@
 
 ## Summary
 
-Formats a package identifier as name at version string.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
