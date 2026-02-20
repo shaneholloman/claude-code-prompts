@@ -4,13 +4,7 @@
 
 ## Summary
 
-Shows a label indicating fast mode is currently turned off.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Indicator showing fast mode is turned off.
 
 # Raw Prompt Text
-${EXPR_1} · Fast mode OFF
+· Fast mode OFF
