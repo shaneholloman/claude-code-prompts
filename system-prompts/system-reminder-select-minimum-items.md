@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Prompts the user to select at least a specified number of items.
 
 ## Placeholder Hints (source-backed)
 
