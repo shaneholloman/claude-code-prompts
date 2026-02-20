@@ -13,6 +13,6 @@ Block auto-approval when … would delete a critical system directory, requiring
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Dangerous ${EXPR_1} operation detected: 'global'
+Dangerous ${PATH} operation detected: '${EXPR_1}'
 
 This command would remove a critical system directory. This requires explicit approval and cannot be auto-allowed by permission rules.
