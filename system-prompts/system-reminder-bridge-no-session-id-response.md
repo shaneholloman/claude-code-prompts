@@ -1,0 +1,10 @@
+# System Reminder: bridge-no-session-id-response
+
+- Source: inline
+
+## Summary
+
+No session ID in response.
+
+# Raw Prompt Text
+[bridge] No session ID in response
