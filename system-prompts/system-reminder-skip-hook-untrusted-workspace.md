@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Skip running a hook because workspace trust has not been accepted.
 
 ## Placeholder Hints (source-backed)
 
