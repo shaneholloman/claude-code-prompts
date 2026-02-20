@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 23
+- Commands: 24
 - Options: 62
-- Env vars: 408
-- Config keys: 535
+- Env vars: 411
+- Config keys: 547
 - Tools: 3
 - Skills: 0
 - Models: 83
@@ -18,6 +18,7 @@
 - `add`
 - `add-from-claude-desktop`
 - `add-json`
+- `agents`
 - `auth`
 - `disable`
 - `doctor`
@@ -45,6 +46,7 @@
 - `add <source>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
+- `agents`
 - `auth`
 - `disable [plugin]`
 - `doctor`
@@ -285,6 +287,7 @@
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
+- `CLAUDE_CODE_DISABLE_1M_CONTEXT`
 - `CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
@@ -353,6 +356,7 @@
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
+- `CLAUDE_CODE_REMOTE_SEND_KEEPALIVES`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
@@ -368,6 +372,7 @@
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SNIPPET_SAVE`
 - `CLAUDE_CODE_SSE_PORT`
+- `CLAUDE_CODE_STREAMING_TEXT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
@@ -611,12 +616,14 @@
 - `additionalContext`
 - `additionalDirectories`
 - `additions`
+- `after`
 - `agent`
 - `agent_id`
 - `agent_transcript_path`
 - `agent_type`
 - `agentId`
 - `agents`
+- `all`
 - `allow`
 - `allowAllUnixSockets`
 - `allowed`
@@ -664,12 +671,15 @@
 - `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
+- `before`
+- `beg`
 - `behavior`
 - `betas`
 - `bindings`
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
+- `body`
 - `bpfPath`
 - `branch`
 - `budgetTokens`
@@ -715,7 +725,6 @@
 - `criticalSystemReminder_EXPERIMENTAL`
 - `custom_instructions`
 - `cwd`
-- `cy`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
@@ -749,6 +758,7 @@
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
+- `edits`
 - `effort`
 - `elapsed_time_seconds`
 - `email`
@@ -824,6 +834,7 @@
 - `input`
 - `input_tokens`
 - `inputTokens`
+- `insert`
 - `insertions`
 - `installedAt`
 - `installLocation`
@@ -835,6 +846,7 @@
 - `isAgent`
 - `isAuthenticating`
 - `isImage`
+- `isolation`
 - `isSynthetic`
 - `isUsingOverage`
 - `keywords`
@@ -879,6 +891,7 @@
 - `name`
 - `network`
 - `new_source`
+- `new_text`
 - `newContent`
 - `newLines`
 - `newStart`
@@ -896,6 +909,7 @@
 - `numMatches`
 - `oauth`
 - `ok`
+- `old_text`
 - `oldLines`
 - `oldStart`
 - `oldString`
@@ -932,6 +946,7 @@
 - `parent_tool_use_id`
 - `patch`
 - `path`
+- `pending_mcp_servers`
 - `permission_denials`
 - `permission_mode`
 - `permission_suggestions`
@@ -961,7 +976,6 @@
 - `projectSettings`
 - `prompt`
 - `promptSuggestionEnabled`
-- `pushToRemote`
 - `query`
 - `question`
 - `questions`
@@ -976,9 +990,8 @@
 - `region`
 - `registry`
 - `remote`
-- `remoteSessionId`
-- `remoteSessionUrl`
 - `removed`
+- `replace`
 - `replaceAll`
 - `repo`
 - `repository`
@@ -1002,6 +1015,7 @@
 - `ruleContent`
 - `rules`
 - `run_in_background`
+- `ry`
 - `safeFlags`
 - `sandbox`
 - `schema`
@@ -1016,6 +1030,8 @@
 - `serverUrl`
 - `service_tier`
 - `session_id`
+- `set`
+- `set_range`
 - `setting`
 - `settings`
 - `sha`
@@ -1135,6 +1151,7 @@
 - `workerId`
 - `workerName`
 - `worktree`
+- `worktree_path`
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
