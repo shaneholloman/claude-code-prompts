@@ -4,7 +4,7 @@
 
 ## Summary
 
-Loading configuration failed with a numeric error code.
+Error string reports configuration load failure with provided error code.
 
 ## Placeholder Hints (source-backed)
 
