@@ -4,7 +4,7 @@
 
 ## Summary
 
-Confirms plugins installed and requests restart to load them.
+Reports plugin installation count and instructs restarting Claude Code to activate them
 
 ## Placeholder Hints (source-backed)
 
