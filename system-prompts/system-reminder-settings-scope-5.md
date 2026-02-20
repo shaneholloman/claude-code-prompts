@@ -4,7 +4,13 @@
 
 ## Summary
 
-Multiple prompts (3)
+Reminder text referencing user, project, and local settings scopes.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 userSettings
@@ -12,3 +18,5 @@ userSettings
 projectSettings
 
 localSettings
+
+${EXPR_1}
