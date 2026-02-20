@@ -4,12 +4,18 @@
 
 ## Summary
 
-Write a brief present-tense description of the latest action naming a file or function.
+Multiple prompts (2)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Describe your most recent action in ${NUM}-${NUM} words using present tense (-ing). Name the file or function, not the branch. Do not use tools.
 
-Previous: "global" — say something NEW.
+Previous: "${EXPR_1}" — say something NEW.
 
 Good: "Reading runAgent.ts"
 Good: "Fixing null check in validate.ts"
