@@ -4,7 +4,7 @@
 
 ## Summary
 
-Logs registration of a callback handler for a permission request.
+Log unregistered callback encountered for a specific permission request ID.
 
 ## Placeholder Hints (source-backed)
 
@@ -13,4 +13,4 @@ Logs registration of a callback handler for a permission request.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[SwarmPermissionPoller] Registered callback for request ${EXPR_1}
+[SwarmPermissionPoller] Unregistered callback for request ${EXPR_1}
