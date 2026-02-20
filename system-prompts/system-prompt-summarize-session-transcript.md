@@ -6,12 +6,6 @@
 
 Instructions to concisely summarize a Claude Code transcript chunk with key details.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
 Summarize this portion of a Claude Code session transcript. Focus on:
 ${NUM}. What the user asked for
@@ -22,4 +16,4 @@ ${NUM}. The outcome
 Keep it concise - ${NUM}-${NUM} sentences. Preserve specific details like file names, error messages, and user feedback.
 
 TRANSCRIPT CHUNK:
-${EXPR_1}
+${PATH}
