@@ -4,7 +4,7 @@
 
 ## Summary
 
-Report OAuth error message string with the provided error detail.
+Template for reporting an OAuth error string.
 
 # Raw Prompt Text
 OAuth error: ${NUM}
