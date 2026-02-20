@@ -39,6 +39,8 @@ Bootstrapping
 
 Brewing
 
+Bunning
+
 Burrowing
 
 Calculating
@@ -152,6 +154,8 @@ Galloping
 Garnishing
 
 Generating
+
+Gesticulating
 
 Germinating
 
