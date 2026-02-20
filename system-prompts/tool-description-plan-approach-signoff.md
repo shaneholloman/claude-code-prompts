@@ -4,7 +4,7 @@
 
 ## Summary
 
-Advises entering plan mode to propose an implementation approach and get approval.
+Advise entering plan mode and getting user sign-off before non-trivial implementation work.
 
 ## Placeholder Hints (source-backed)
 
