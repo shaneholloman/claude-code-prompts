@@ -4,13 +4,7 @@
 
 ## Summary
 
-Displays provided expression followed by status text indicating Fast mode ON.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Indicates fast mode is turned on.
 
 # Raw Prompt Text
-${EXPR_1} · Fast mode ON
+· Fast mode ON
