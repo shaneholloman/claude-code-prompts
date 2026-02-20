@@ -11,6 +11,7 @@ Instructions for using a tool to maintain and update structured coding session t
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Use this tool to create a structured task list for your current coding session. This helps you track progress, organize complex tasks, and demonstrate thoroughness to the user.
@@ -21,7 +22,7 @@ It also helps the user understand the progress of the task and overall progress 
 Use this tool proactively in these scenarios:
 
 - Complex multi-step tasks - When a task requires ${NUM} or more distinct steps or actions
-- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${PATH}
+- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${EXPR_1}
 - Plan mode - When using plan mode, create a task list to track the work
 - User explicitly requests todo list - When the user directly asks you to use the todo list
 - User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
@@ -52,4 +53,4 @@ NOTE that you should not use this tool if there is only one trivial task to do. 
 - Create tasks with clear, specific subjects that describe the outcome
 - Include enough detail in the description for another agent to understand and complete the task
 - After creating tasks, use TaskUpdate to set up dependencies (blocks${PATH}) if needed
-${EXPR_1}- Check TaskList first to avoid creating duplicate tasks
+${EXPR_2}- Check TaskList first to avoid creating duplicate tasks
