@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Set the active model to the specified model name.
 
 ## Placeholder Hints (source-backed)
 
