@@ -4,7 +4,7 @@
 
 ## Summary
 
-Enforces plan-only mode, allowing only incremental edits to the specified plan file.
+Enforce plan-only mode, allowing only incremental edits to the designated plan file.
 
 ## Placeholder Hints (source-backed)
 
