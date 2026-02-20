@@ -1,4 +1,4 @@
-# System Prompt: collect-process-commandline-chain
+# System Reminder: powershell-process-command-trace
 
 - Source: inline
 
