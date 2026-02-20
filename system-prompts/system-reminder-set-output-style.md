@@ -4,7 +4,7 @@
 
 ## Summary
 
-Set the output style to the specified value.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
