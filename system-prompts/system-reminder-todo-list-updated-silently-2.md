@@ -1,4 +1,4 @@
-# System Reminder: todo-list-updated-silently-2
+# System Reminder: silent-todo-list-update
 
 - Source: inline
 
