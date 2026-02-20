@@ -1,4 +1,4 @@
-# System Reminder: powershell-process-ancestor-pids
+# System Prompt: list-process-ancestor-pids
 
 - Source: inline
 
