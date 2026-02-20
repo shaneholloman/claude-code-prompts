@@ -4,7 +4,7 @@
 
 ## Summary
 
-Check whether the initial hook response indicates asynchronous execution for a given target.
+Checks initial hook response for async behavior.
 
 # Raw Prompt Text
 Hooks: Checking initial response for async: ${NUM}
