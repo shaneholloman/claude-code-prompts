@@ -6,6 +6,14 @@
 
 Lists common request, tracing, CORS, and response headers alongside placeholder URLs.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | Read | None |
+| `EXPR_2` | Glob | None |
+| `EXPR_3` | Grep | None |
+
 # Raw Prompt Text
 x-ms-client-request-id
 
@@ -85,6 +93,8 @@ User-Agent
 
 WWW-Authenticate
 
-${URL}
+${EXPR_1: 'Read'}
 
-${URL}
+${EXPR_2: 'Glob'}
+
+${EXPR_3: 'Grep'}
