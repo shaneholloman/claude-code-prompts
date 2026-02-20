@@ -1,4 +1,4 @@
-# System Reminder: security-review-pr-diff
+# System Prompt: security-review-git-diff
 
 - Source: inline
 
