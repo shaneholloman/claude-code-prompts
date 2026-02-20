@@ -13,10 +13,9 @@ Advise fixes when a specified CLI subcommand executable path is missing.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-'mcp__${EXPR_1}__${EXPR_2}' does not exist
- - if '${EXPR_3}' is not meant to be an executable command, remove description parameter from '.command()' and use '.description()' instead
+'${EXPR_1}' does not exist
+ - if '${EXPR_2}' is not meant to be an executable command, remove description parameter from '.command()' and use '.description()' instead
  - if the default executable name is not suitable, use the executableFile option to supply a custom name or path
- - ${EXPR_4}
+ -  (PID ${EXPR_3})
