@@ -4,7 +4,7 @@
 
 ## Summary
 
-Logs cleanup action killing a pane for a specific teammate and session.
+Logs cleanup that kills a teammate pane.
 
 # Raw Prompt Text
 [PaneBackendExecutor] Cleanup: killing pane for ${NUM}
