@@ -4,7 +4,7 @@
 
 ## Summary
 
-Reading raw marketplace.json failed with a numeric code.
+Error message when reading raw marketplace.json fails with a reported code.
 
 ## Placeholder Hints (source-backed)
 
