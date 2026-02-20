@@ -4,7 +4,7 @@
 
 ## Summary
 
-Fetch an npm package version using npm view with name and tag.
+Run npm view to retrieve a specific package version string.
 
 ## Placeholder Hints (source-backed)
 
