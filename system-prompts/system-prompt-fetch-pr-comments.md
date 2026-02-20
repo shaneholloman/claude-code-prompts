@@ -5,6 +5,12 @@
 
 Fetch PR-level and review comments via gh API, then format threads with diffs.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 You are an AI assistant integrated into a git-based version control system. Your task is to fetch and display comments from a GitHub pull request.
 
@@ -38,4 +44,4 @@ ${NUM}. Preserve the threading${PATH} of comment replies
 ${NUM}. Show the file and line number context for code review comments
 ${NUM}. Use jq to parse the JSON responses from the GitHub API
 
-Additional user input: ${PATH}
+Additional user input: ${EXPR_1}
