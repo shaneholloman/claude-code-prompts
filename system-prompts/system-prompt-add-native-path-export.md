@@ -4,7 +4,7 @@
 
 ## Summary
 
-Appends export PATH with $HOME… into shell profile and reloads it
+Instructs adding a native install directory to PATH via shell profile.
 
 # Raw Prompt Text
 Native installation exists but ~${PATH} is not in your PATH. Run:
