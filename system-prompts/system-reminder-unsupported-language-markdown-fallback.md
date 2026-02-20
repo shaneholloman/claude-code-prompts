@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Warns unsupported code language and falls back to markdown highlighting.
 
 ## Placeholder Hints (source-backed)
 
