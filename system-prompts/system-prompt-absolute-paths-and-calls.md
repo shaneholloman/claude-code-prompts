@@ -4,18 +4,23 @@
 
 ## Summary
 
-Sets execution and response rules: absolute paths, include snippets, avoid emojis, tool-call formatting.
+Enforces absolute paths, snippet sharing with filenames, no emojis, and tool-call punctuation.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | Read | None |
+| `EXPR_2` | Glob | None |
+| `EXPR_3` | Grep | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-${URL}
+${EXPR_1: 'Read'}
 
-${URL}
+${EXPR_2: 'Glob'}
+
+${EXPR_3: 'Grep'}
 
 Notes:
 - Agent threads always have their cwd reset between bash calls, as a result please only use absolute file paths.
@@ -23,4 +28,4 @@ Notes:
 - For clear communication with the user the assistant MUST avoid using emojis.
 - Do not use a colon before tool calls. Text like "Let me read the file:" followed by a read tool call should just be "Let me read the file." with a period.
 
-${EXPR_1}
+${EXPR_4}
