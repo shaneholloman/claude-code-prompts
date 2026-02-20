@@ -1,4 +1,4 @@
-# System Reminder: bash-command-prefix-detection
+# System Prompt: bash-command-prefix-risk-policy
 
 - Source: inline
 
