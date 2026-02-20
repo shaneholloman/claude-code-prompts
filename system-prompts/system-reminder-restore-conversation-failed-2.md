@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Error message when conversation restoration fails, including underlying failure details.
 
 ## Placeholder Hints (source-backed)
 
