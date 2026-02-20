@@ -11,8 +11,6 @@ Indicates the model was set to Default Opus with capability details.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Model set to Default (Opus ${NUM} · Most capable for complex work ·${EXPR_1} ${EXPR_2}${EXPR_3})
+Model set to Default (Opus ${NUM} · Most capable for complex work · (↯) ${EXPR_1})
