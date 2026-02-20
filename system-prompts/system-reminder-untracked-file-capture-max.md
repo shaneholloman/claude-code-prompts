@@ -1,0 +1,10 @@
+# System Reminder: untracked-file-capture-max
+
+- Source: inline
+
+## Summary
+
+Reached maximum file count for untracked files.
+
+# Raw Prompt Text
+Untracked file capture: reached max file count (${NUM})
