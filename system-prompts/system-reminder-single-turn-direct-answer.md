@@ -6,12 +6,6 @@
 
 Answer a side question once with no tools or follow-ups.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
 <system-reminder>This is a side question from the user. You must answer this question directly in a single response.
 
@@ -24,4 +18,4 @@ CRITICAL CONSTRAINTS:
 
 Simply answer the question with the information you have.<${PATH}>
 
-${EXPR_1}
+${PATH}
