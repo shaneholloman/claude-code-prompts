@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Lists the available priority levels from low to max.
 
 # Raw Prompt Text
 low
