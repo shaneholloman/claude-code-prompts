@@ -4,7 +4,7 @@
 
 ## Summary
 
-Logs a background fetch of untracked files failed with an error message.
+Log FileIndex background untracked fetch result including file count or error details.
 
 ## Placeholder Hints (source-backed)
 
