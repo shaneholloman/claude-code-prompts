@@ -12,9 +12,8 @@ HTML feedback section with collapsible headers and injected suggestion blocks fo
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | resolved list (4 items) | None |
+| `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 <h2 id="section-feedback" class="feedback-header">Closing the Loop: Feedback for Other Teams</h2>
@@ -40,7 +39,7 @@ HTML feedback section with collapsible headers and injected suggestion blocks fo
       <${PATH}>
       <div class="collapsible-content">
         <div class="suggestions-section">
-          ${EXPR_5}
+          allowdenyask
         <${PATH}>
       <${PATH}>
     <${PATH}>
