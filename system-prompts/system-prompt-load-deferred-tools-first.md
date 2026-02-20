@@ -1,4 +1,4 @@
-# System Prompt: discover-deferred-capabilities-first
+# System Prompt: load-deferred-tools-first
 
 - Source: inline
 
