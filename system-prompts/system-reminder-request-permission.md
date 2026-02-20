@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Statement that a component requires permission to use a specified capability.
 
 ## Placeholder Hints (source-backed)
 
