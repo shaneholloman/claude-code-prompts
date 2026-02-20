@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Describe latest action in present tense, naming a file or function.
 
 ## Placeholder Hints (source-backed)
 
