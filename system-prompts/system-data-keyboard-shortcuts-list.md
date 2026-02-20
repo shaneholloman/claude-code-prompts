@@ -35,8 +35,6 @@ chat:thinkingToggle
 
 chat:submit
 
-chat:newline
-
 chat:undo
 
 chat:externalEditor
@@ -44,8 +42,6 @@ chat:externalEditor
 chat:stash
 
 chat:imagePaste
-
-chat:snippetPicker
 
 autocomplete:accept
 
