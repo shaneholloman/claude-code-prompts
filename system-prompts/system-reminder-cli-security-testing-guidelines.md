@@ -1,4 +1,4 @@
-# System Reminder: cli-security-testing-guidelines
+# System Reminder: cli-security-guidelines
 
 - Source: inline
 
