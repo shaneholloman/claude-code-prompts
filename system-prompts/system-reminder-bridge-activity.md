@@ -1,4 +1,4 @@
-# System Reminder: bridge-activity-log
+# System Reminder: bridge-activity-sessionid
 
 - Source: inline
 
