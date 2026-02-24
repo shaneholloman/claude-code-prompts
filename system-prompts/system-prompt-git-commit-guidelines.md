@@ -1,4 +1,4 @@
-# System Prompt: git-commit-guidelines
+# System Prompt: git-commit-safety-protocol
 
 - Source: inline
 
