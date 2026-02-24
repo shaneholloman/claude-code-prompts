@@ -1,4 +1,4 @@
-# System Reminder: jwt-token-decode-error
+# System Reminder: decode-jwt-expiry
 
 - Source: inline
 
