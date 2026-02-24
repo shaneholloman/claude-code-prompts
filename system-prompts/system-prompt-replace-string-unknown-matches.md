@@ -1,4 +1,4 @@
-# System Prompt: replace-string-unknown-matches
+# System Prompt: string-replacement-guidance
 
 - Source: inline
 
