@@ -1,4 +1,4 @@
-# System Reminder: no-org-uuid-session-archive
+# System Reminder: no-org-uuid-archive
 
 - Source: inline
 
