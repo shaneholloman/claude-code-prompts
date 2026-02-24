@@ -1,4 +1,4 @@
-# System Prompt: catalog
+# System Prompt: models-catalog
 
 - Source: inline
 
