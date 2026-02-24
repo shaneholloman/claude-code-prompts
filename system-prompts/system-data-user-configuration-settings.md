@@ -1,4 +1,4 @@
-# System Data Block: user-configuration-anthropic
+# System Data Block: user-stream-json-config
 
 - Source: inline
 
