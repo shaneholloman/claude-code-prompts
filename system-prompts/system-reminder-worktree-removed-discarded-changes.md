@@ -1,4 +1,4 @@
-# System Reminder: worktree-removed-discarded-changes
+# System Reminder: worktree-removed-uncommitted-discarded
 
 - Source: inline
 
