@@ -1,4 +1,4 @@
-# System Reminder: bridge-access-token-creation
+# System Reminder: no-access-token-session-creation
 
 - Source: inline
 
