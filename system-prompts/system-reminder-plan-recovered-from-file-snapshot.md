@@ -1,4 +1,4 @@
-# System Reminder: plan-recovered-from-file-snapshot
+# System Reminder: plan-recovered-from-snapshot
 
 - Source: inline
 
