@@ -1,4 +1,4 @@
-# System Reminder: no-access-token-session-title-update
+# System Reminder: no-access-token-title-update
 
 - Source: inline
 
