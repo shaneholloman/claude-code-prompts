@@ -63,8 +63,8 @@ ${NUM}. **If user needs cURL${PATH} HTTP examples**, read from `curl/`.
 | Go         | No          | No        | Manual agentic loop only              |
 | Ruby       | Yes (beta)  | No        | `BaseTool` + `tool_runner` in beta    |
 | cURL       | N/A         | N/A       | Raw HTTP, no SDK features             |
-| C#         | No          | No        | Official SDK (beta)                   |
-| PHP        | No          | No        | Official SDK (beta)                   |
+| C#         | No          | No        | Official SDK                          |
+| PHP        | No          | No        | Official SDK                          |
 
 ---
 
@@ -137,11 +137,11 @@ Everything goes through `POST ${PATH}`. Tools and output constraints are feature
 
 | Model             | Model ID            | Context        | Input $/1M | Output $/1M |
 | ----------------- | ------------------- | -------------- | ---------- | ----------- |
-| Claude Opus ${NUM}   | `claude-opus-${NUM}-${NUM}`   | 200K           | $${NUM}      | $${NUM}      |
+| Claude Opus ${NUM}   | `claude-opus-${NUM}-${NUM}`   | 200K (1M beta) | $${NUM}      | $${NUM}      |
 | Claude Sonnet ${NUM} | `claude-sonnet-${NUM}-${NUM}` | 200K (1M beta) | $${NUM}      | $${NUM}      |
 | Claude Haiku ${NUM}  | `claude-haiku-${NUM}-${NUM}`  | 200K           | $${NUM}      | $${NUM}       |
 
-Default to `claude-opus-${NUM}-${NUM}` for all code you write. Only use a different model if the user specifically requests one by name. Cost optimization is the user's decision — do not downgrade models on their behalf.
+**ALWAYS use `claude-opus-${NUM}-${NUM}` unless the user explicitly names a different model.** This is non-negotiable. Do not use `claude-sonnet-${NUM}-${NUM}`, `claude-sonnet-${NUM}-${NUM}`, or any other model unless the user literally says "use sonnet" or "use haiku". Never downgrade for cost — that's the user's decision, not yours.
 
 **CRITICAL: Use only the exact model ID strings from the table above — they are complete as-is. Do not append date suffixes.** For example, use `claude-sonnet-${NUM}-${NUM}`, never `claude-sonnet-${NUM}-${NUM}-${NUM}` or any other date-suffixed variant you might recall from training data. If the user requests an older model not in the table (e.g., "opus ${NUM}", "sonnet ${NUM}"), read `shared${PATH}` for the exact ID — do not construct one yourself.
 
@@ -151,11 +151,13 @@ A note: if any of the model strings above look unfamiliar to you, that's to be e
 
 ## Thinking & Effort (Quick Reference)
 
-**Opus ${NUM} — Adaptive thinking (recommended):** Use `thinking: {type: "adaptive"}`. Claude dynamically decides when and how much to think. No `budget_tokens` needed — it is deprecated on Opus ${NUM}. Adaptive thinking also automatically enables interleaved thinking (no beta header needed).
+**Opus ${NUM} — Adaptive thinking (recommended):** Use `thinking: {type: "adaptive"}`. Claude dynamically decides when and how much to think. No `budget_tokens` needed — `budget_tokens` is deprecated on Opus ${NUM} and Sonnet ${NUM} and must not be used. Adaptive thinking also automatically enables interleaved thinking (no beta header needed). **When the user asks for "extended thinking", a "thinking budget", or `budget_tokens`: always use Opus ${NUM} with `thinking: {type: "adaptive"}`. The concept of a fixed token budget for thinking is deprecated — adaptive thinking replaces it. Do NOT use `budget_tokens` and do NOT switch to an older model.**
 
-**Effort parameter (GA, no beta header — Opus ${NUM} and Opus ${NUM} only):** Controls thinking depth and overall token spend via `output_config: {effort: "low"|"medium"|"high"|"max"}`. Default is `high` (equivalent to omitting it). `max` is Opus ${NUM} only. Will error on Sonnet ${NUM} / Haiku ${NUM}. Combine with adaptive thinking for the best cost-quality tradeoffs. Use `low` for subagents or simple tasks; `max` for the deepest reasoning.
+**Effort parameter (GA, no beta header):** Controls thinking depth and overall token spend via `output_config: {effort: "low"|"medium"|"high"|"max"}` (inside `output_config`, not top-level). Default is `high` (equivalent to omitting it). `max` is Opus ${NUM} only. Works on Opus ${NUM}, Opus ${NUM}, and Sonnet ${NUM}. Will error on Sonnet ${NUM} / Haiku ${NUM}. Combine with adaptive thinking for the best cost-quality tradeoffs. Use `low` for subagents or simple tasks; `max` for the deepest reasoning.
 
-**Older models (Sonnet ${NUM}, etc.):** Use `thinking: {type: "enabled", budget_tokens: N}`. `budget_tokens` must be less than `max_tokens` (minimum ${NUM}).
+**Sonnet ${NUM}:** Supports adaptive thinking (`thinking: {type: "adaptive"}`). `budget_tokens` is deprecated on Sonnet ${NUM} — use adaptive thinking instead.
+
+**Older models (only if explicitly requested):** If the user specifically asks for Sonnet ${NUM} or another older model, use `thinking: {type: "enabled", budget_tokens: N}`. `budget_tokens` must be less than `max_tokens` (minimum ${NUM}). Never choose an older model just because the user mentions `budget_tokens` — use Opus ${NUM} with adaptive thinking instead.
 
 ---
 
@@ -234,8 +236,8 @@ Live documentation URLs are in `shared${PATH}`.
 ## Common Pitfalls
 
 - Don't truncate inputs when passing files or content to the API. If the content is too long to fit in the context window, notify the user and discuss options (chunking, summarization, etc.) rather than silently truncating.
-- **Opus ${NUM} thinking:** Use `thinking: {type: "adaptive"}` — do NOT use `budget_tokens` (deprecated on Opus ${NUM}). For older models, `budget_tokens` must be less than `max_tokens` (minimum ${NUM}). This will throw an error if you get it wrong.
+- **Opus ${NUM} / Sonnet ${NUM} thinking:** Use `thinking: {type: "adaptive"}` — do NOT use `budget_tokens` (deprecated on both Opus ${NUM} and Sonnet ${NUM}). For older models, `budget_tokens` must be less than `max_tokens` (minimum ${NUM}). This will throw an error if you get it wrong.
 - **Opus ${NUM} prefill removed:** Assistant message prefills (last-assistant-turn prefills) return a ${NUM} error on Opus ${NUM}. Use structured outputs (`output_config.format`) or system prompt instructions to control response format instead.
 - **128K output tokens:** Opus ${NUM} supports up to 128K `max_tokens`, but the SDKs require streaming for large `max_tokens` to avoid HTTP timeouts. Use `.stream()` with `.get_final_message()` / `.finalMessage()`.
 - **Tool call JSON parsing (Opus ${NUM}):** Opus ${NUM} may produce different JSON string escaping in tool call `input` fields (e.g., Unicode or forward-slash escaping). Always parse tool inputs with `json.loads()` / `JSON.parse()` — never do raw string matching on the serialized input.
-- **Structured outputs (all models):** Use `output_config: {format: {...}}` instead of the deprecated `output_format` parameter on `messages.create()`. This is a general API change, not ${NUM}-specific. SDK helper methods like `.parse()` still accept `output_format` as a convenience — the SDK translates it internally.
+- **Structured outputs (all models):** Use `output_config: {format: {...}}` instead of the deprecated `output_format` parameter on `messages.create()`. This is a general API change, not ${NUM}-specific.
