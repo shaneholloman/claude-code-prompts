@@ -1,4 +1,4 @@
-# System Reminder: prerequisites-passed-enabling-bridge
+# System Reminder: prerequisites-passed
 
 - Source: inline
 
