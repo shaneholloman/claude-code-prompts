@@ -90,6 +90,8 @@ for result in client.messages.batches.results(message_batch.id):
                 print(f"[{result.custom_id}] Validation error - fix request and retry")
             else:
                 print(f"[{result.custom_id}] Server error - safe to retry")
+        case "canceled":
+            print(f"[{result.custom_id}] Canceled")
         case "expired":
             print(f"[{result.custom_id}] Expired - resubmit")
 ```
