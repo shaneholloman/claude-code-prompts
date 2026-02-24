@@ -1,4 +1,4 @@
-# System Reminder: ignoring-non-user-inbound-message
+# System Reminder: ignoring-non-user-message
 
 - Source: inline
 
