@@ -1,4 +1,4 @@
-# System Reminder: install-plugins-installed
+# System Reminder: installed-plugins-headless
 
 - Source: inline
 
