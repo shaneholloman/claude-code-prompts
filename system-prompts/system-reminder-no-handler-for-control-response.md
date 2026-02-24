@@ -1,4 +1,4 @@
-# System Reminder: no-handler-for-control-response
+# System Reminder: no-handler-control-response
 
 - Source: inline
 
