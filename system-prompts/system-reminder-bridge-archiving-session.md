@@ -1,4 +1,4 @@
-# System Reminder: bridge-archiving-session
+# System Reminder: archiving-session
 
 - Source: inline
 
