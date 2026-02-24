@@ -1,4 +1,4 @@
-# System Reminder: failed-install-extra-marketplace
+# System Reminder: install-plugins-failed
 
 - Source: inline
 
