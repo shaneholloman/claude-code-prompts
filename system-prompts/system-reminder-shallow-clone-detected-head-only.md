@@ -1,4 +1,4 @@
-# System Reminder: shallow-clone-detected-head-only
+# System Reminder: shallow-clone-detected-head
 
 - Source: inline
 
