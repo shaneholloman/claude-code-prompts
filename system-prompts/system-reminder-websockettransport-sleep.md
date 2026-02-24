@@ -1,4 +1,4 @@
-# System Reminder: websockettransport-detected-sleep
+# System Reminder: websockettransport-sleep
 
 - Source: inline
 
