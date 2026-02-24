@@ -13,17 +13,16 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 ## Error Code Summary
 
-| Code | Name                  | Retryable | Common Cause                         |
-| ---- | --------------------- | --------- | ------------------------------------ |
-| ${NUM}  | Bad Request           | No        | Invalid request format or parameters |
-| ${NUM}  | Unauthorized          | No        | Invalid or missing API key           |
-| ${NUM}  | Forbidden             | No        | API key lacks permission             |
-| ${NUM}  | Not Found             | No        | Invalid endpoint or model ID         |
-| ${NUM}  | Request Too Large     | No        | Request exceeds size limits          |
-| ${NUM}  | Unprocessable Entity  | No        | Semantic validation error            |
-| ${NUM}  | Rate Limited          | Yes       | Too many requests                    |
-| ${NUM}  | Internal Server Error | Yes       | Anthropic service issue              |
-| ${NUM}  | Overloaded            | Yes       | API is temporarily overloaded        |
+| Code | Error Type              | Retryable | Common Cause                         |
+| ---- | ----------------------- | --------- | ------------------------------------ |
+| ${NUM}  | `invalid_request_error` | No        | Invalid request format or parameters |
+| ${NUM}  | `authentication_error`  | No        | Invalid or missing API key           |
+| ${NUM}  | `permission_error`      | No        | API key lacks permission             |
+| ${NUM}  | `not_found_error`       | No        | Invalid endpoint or model ID         |
+| ${NUM}  | `request_too_large`     | No        | Request exceeds size limits          |
+| ${NUM}  | `rate_limit_error`      | Yes       | Too many requests                    |
+| ${NUM}  | `api_error`             | Yes       | Anthropic service issue              |
+| ${NUM}  | `overloaded_error`      | Yes       | API is temporarily overloaded        |
 
 ## Detailed Error Information
 
@@ -105,9 +104,9 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 ---
 
-### ${NUM} Unprocessable Entity
+### ${NUM} Validation Errors
 
-**Causes:**
+Some ${NUM} errors are specifically related to parameter validation:
 
 - `max_tokens` exceeds model's limit
 - Invalid `temperature` value (must be ${NUM}-${NUM})
