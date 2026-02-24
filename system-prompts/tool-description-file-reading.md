@@ -1,4 +1,4 @@
-# Tool Description: read-local-file
+# Tool Description: read-local-files
 
 - Name: Read
 
