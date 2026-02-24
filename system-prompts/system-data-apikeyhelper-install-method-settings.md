@@ -1,4 +1,4 @@
-# System Data Block: apikeyhelper-install-method-settings
+# System Data Block: apikey-helper-settings
 
 - Source: inline
 
