@@ -1,4 +1,4 @@
-# System Reminder: select-least-suggestion-items
+# System Reminder: select-at-least-suggestion-items
 
 - Source: inline
 
