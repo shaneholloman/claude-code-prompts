@@ -1,4 +1,4 @@
-# Tool Description: at-a-glance-summary-guidelines
+# Tool Description: usage-summary-guidelines
 
 - Name: at_a_glance
 
