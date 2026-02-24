@@ -1,6 +1,6 @@
 # Tool Description: application-specific-realtime-signal
 
-- Name: SIGRTstable1
+- Name: SIGRThttps:1
 
 ## Summary
 
