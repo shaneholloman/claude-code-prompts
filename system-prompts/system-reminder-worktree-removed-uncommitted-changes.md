@@ -1,4 +1,4 @@
-# System Reminder: worktree-removed-commits-discarded
+# System Reminder: worktree-removed-uncommitted-changes
 
 - Source: inline
 
