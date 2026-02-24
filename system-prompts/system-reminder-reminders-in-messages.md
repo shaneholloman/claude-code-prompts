@@ -1,0 +1,11 @@
+# System Reminder: reminders-in-messages
+
+- Source: inline
+
+## Summary
+
+Information on system reminders in messages.
+
+# Raw Prompt Text
+- Tool results and user messages may include <system-reminder> tags. <system-reminder> tags contain useful information and reminders. They are automatically added by the system, and bear no direct relation to the specific tool results or user messages in which they appear.
+- The conversation has unlimited context through automatic summarization.
