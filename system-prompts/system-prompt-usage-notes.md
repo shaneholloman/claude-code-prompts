@@ -1,4 +1,4 @@
-# System Prompt: usage-notes
+# System Prompt: usage
 
 - Source: inline
 
