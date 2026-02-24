@@ -1,4 +1,4 @@
-# System Reminder: plan-recovery-failed-no-snapshot
+# System Reminder: plan-file-recovery-failed
 
 - Source: inline
 
