@@ -1,4 +1,4 @@
-# System Reminder: bridge-shutdown-sending-sigterm
+# System Reminder: sending-sigterm-sessionid
 
 - Source: inline
 
