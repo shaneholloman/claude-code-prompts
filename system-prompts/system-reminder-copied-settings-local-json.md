@@ -1,4 +1,4 @@
-# System Reminder: copied-settings-local-json-worktree
+# System Reminder: copied-settings-local-json
 
 - Source: inline
 
