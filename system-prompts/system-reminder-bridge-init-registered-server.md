@@ -6,11 +6,5 @@
 
 Register server with environment ID.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-[bridge:init] Registered, server environmentId= summary="${EXPR_1}"
+[bridge:init] Registered, server environmentId=${NUM}
