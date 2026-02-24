@@ -40,7 +40,7 @@ client := anthropic.NewClient(
 
 ```go
 response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus4_5_20251101,
+    Model:     anthropic.ModelClaudeOpus4_6,
     MaxTokens: ${NUM},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("What is the capital of France?")),
@@ -58,7 +58,7 @@ fmt.Println(response.Content[${NUM}].Text)
 
 ```go
 stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus4_5_20251101,
+    Model:     anthropic.ModelClaudeOpus4_6,
     MaxTokens: ${NUM},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("Write a haiku")),
