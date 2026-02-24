@@ -4,7 +4,7 @@
 - When to use: unknown
 - Model: 3000
 - Source: plugin
-- Color: 1
+- Color: https:
 
 ## Summary
 
