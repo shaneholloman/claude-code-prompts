@@ -1,4 +1,4 @@
-# System Prompt: asking-questions-work
+# System Prompt: asking-questions-clarity
 
 - Source: inline
 
