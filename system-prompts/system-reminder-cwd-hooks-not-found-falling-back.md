@@ -1,4 +1,4 @@
-# System Reminder: cwd-hooks-not-found-falling-back
+# System Reminder: cwd-hooks-not-found
 
 - Source: inline
 
