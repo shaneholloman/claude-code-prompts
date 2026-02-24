@@ -1,4 +1,4 @@
-# System Reminder: skipping-duplicate-permission
+# System Reminder: handle-orphaned-permission-response
 
 - Source: inline
 
