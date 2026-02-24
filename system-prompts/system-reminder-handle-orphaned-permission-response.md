@@ -1,4 +1,4 @@
-# System Reminder: enqueuing-orphaned-permission
+# System Reminder: enqueue-orphaned-permission
 
 - Source: inline
 
