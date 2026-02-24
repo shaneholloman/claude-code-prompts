@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-retry-refresh
+# System Reminder: bridge-api-retry-after-refresh
 
 - Source: inline
 
