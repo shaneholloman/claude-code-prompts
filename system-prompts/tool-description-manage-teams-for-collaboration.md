@@ -1,4 +1,4 @@
-# Tool Description: manage-teams-for-collaboration
+# Tool Description: create-and-manage-teams
 
 - Name: TeamCreate
 
