@@ -1,4 +1,4 @@
-# System Data Block: apikey-helper-settings
+# System Data Block: api-key-helper-settings
 
 - Source: inline
 
