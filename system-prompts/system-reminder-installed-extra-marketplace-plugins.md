@@ -1,4 +1,4 @@
-# System Reminder: installed-extra-marketplace
+# System Reminder: install-plugins-installed
 
 - Source: inline
 
