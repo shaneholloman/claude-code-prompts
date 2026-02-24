@@ -1,4 +1,4 @@
-# System Reminder: failed-auto-uninstall-delisted-plugin
+# System Reminder: failed-auto-uninstall-plugin
 
 - Source: inline
 
