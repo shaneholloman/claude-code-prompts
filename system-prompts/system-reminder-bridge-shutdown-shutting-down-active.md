@@ -1,4 +1,4 @@
-# System Reminder: bridge-shutdown-shutting-down-active
+# System Reminder: shutting-down-active-sessions
 
 - Source: inline
 
