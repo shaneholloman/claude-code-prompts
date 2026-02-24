@@ -1,4 +1,4 @@
-# System Prompt: anthropic-python-client
+# System Prompt: python-client-initialization-example
 
 - Source: inline
 
