@@ -1,4 +1,4 @@
-# System Data Block: bash-command-stdout
+# System Data Block: bash-command-stdout-ide
 
 - Source: inline
 
