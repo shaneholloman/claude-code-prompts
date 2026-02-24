@@ -1,4 +1,4 @@
-# System Reminder: compaction-detected
+# System Reminder: bridge-compaction-detected
 
 - Source: inline
 
