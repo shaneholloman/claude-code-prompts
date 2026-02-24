@@ -1,4 +1,4 @@
-# System Reminder: untracked-file-capture-total-size
+# System Reminder: untracked-file-capture-total
 
 - Source: inline
 
