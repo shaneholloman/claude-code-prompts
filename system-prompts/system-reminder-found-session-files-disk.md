@@ -1,4 +1,4 @@
-# System Reminder: found-session-files-disk
+# System Reminder: found-session-files-on-disk
 
 - Source: inline
 
