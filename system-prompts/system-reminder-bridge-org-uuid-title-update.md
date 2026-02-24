@@ -1,4 +1,4 @@
-# System Reminder: bridge-org-uuid-title-update
+# System Reminder: no-org-uuid-session-title-update
 
 - Source: inline
 
