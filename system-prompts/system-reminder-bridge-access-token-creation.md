@@ -1,4 +1,4 @@
-# System Reminder: no-access-token-session-creation
+# System Reminder: no-access-token-creation
 
 - Source: inline
 
