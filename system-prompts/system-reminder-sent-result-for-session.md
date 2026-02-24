@@ -4,7 +4,13 @@
 
 ## Summary
 
-Sent result for the specified session.
+Result sent for the specified session.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[bridge:repl] Sent result for session=stream-json
+[bridge:repl] Sent result for session= color="${EXPR_1}"
