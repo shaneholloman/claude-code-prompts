@@ -12,6 +12,7 @@ Shows connection error details including numeric code and message text.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Connection error details: code=${EXPR_1}${NUM}, message=${EXPR_2}
+Connection error details: code=${EXPR_1}${EXPR_2}, message=${EXPR_3}
