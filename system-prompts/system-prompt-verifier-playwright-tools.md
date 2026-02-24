@@ -1,4 +1,4 @@
-# System Prompt: verifier-playwright-tools
+# System Prompt: verifier-tools-project-setup
 
 
 ## Summary
