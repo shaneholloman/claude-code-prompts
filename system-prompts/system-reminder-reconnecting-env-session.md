@@ -4,14 +4,13 @@
 
 ## Summary
 
-Reconnecting environment and session.
+Attempting to reconnect environment and session.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | false | None |
+| `EXPR_1` | tasklist | None |
 
 # Raw Prompt Text
-[bridge:repl] Reconnecting env+session (attempt ${EXPR_1}_${EXPR_2: false}${PATH})
+[bridge:repl] Reconnecting env+session (attempt ${EXPR_1: 'tasklist'}/${NUM})
