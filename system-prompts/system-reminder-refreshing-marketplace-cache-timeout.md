@@ -1,4 +1,4 @@
-# System Reminder: refreshing-marketplace-cache-timeout
+# System Reminder: refreshing-marketplace-cache
 
 - Source: inline
 
