@@ -1,4 +1,4 @@
-# System Reminder: re-registered-environment
+# System Reminder: environment-re-registered
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Re-registered environment.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-[bridge:repl] Re-registered environment: ${EXPR_1}
+[bridge:repl] Re-registered environment: ${NUM}
