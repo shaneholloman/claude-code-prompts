@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-failed-decode-work
+# System Reminder: failed-to-decode-work-secret
 
 - Source: inline
 
