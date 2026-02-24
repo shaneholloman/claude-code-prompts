@@ -1,4 +1,4 @@
-# System Reminder: focused-input-dialog-cancel
+# System Reminder: focused-input-dialog-permission
 
 - Source: inline
 
