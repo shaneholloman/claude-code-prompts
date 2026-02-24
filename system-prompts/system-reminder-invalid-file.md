@@ -1,4 +1,4 @@
-# System Reminder: invalid-in-file
+# System Reminder: invalid-file
 
 - Source: inline
 
