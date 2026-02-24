@@ -1,4 +1,4 @@
-# System Reminder: hook-based-worktree
+# System Reminder: hook-based-kept
 
 - Source: inline
 
