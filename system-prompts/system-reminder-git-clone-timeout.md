@@ -1,4 +1,4 @@
-# System Reminder: git-clone-timeout
+# System Reminder: git-clone-url-ref-timeout
 
 - Source: inline
 
