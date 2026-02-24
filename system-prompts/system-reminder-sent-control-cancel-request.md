@@ -4,7 +4,7 @@
 
 ## Summary
 
-Sent control cancel request with null ID.
+Control cancel request has been sent.
 
 # Raw Prompt Text
-[bridge:repl] Sent control_cancel_request request_id=null
+[bridge:repl] Sent control_cancel_request request_id=${NUM}
