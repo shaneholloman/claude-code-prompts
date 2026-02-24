@@ -1,4 +1,4 @@
-# System Data Block: php-sdk-installation
+# System Data Block: php-sdk-anthropic-api
 
 - Source: inline
 
