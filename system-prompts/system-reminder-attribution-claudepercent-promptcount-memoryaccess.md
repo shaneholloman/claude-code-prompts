@@ -1,4 +1,4 @@
-# System Reminder: attribution-claudepercent-promptcount-memoryaccess
+# System Reminder: pr-attribution-claudepercent-promptcount
 
 - Source: inline
 
