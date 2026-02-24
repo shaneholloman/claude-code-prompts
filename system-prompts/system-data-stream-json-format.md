@@ -1,4 +1,4 @@
-# System Data Block: stream-json-format
+# System Data Block: json-stream-formatting
 
 - Source: inline
 
