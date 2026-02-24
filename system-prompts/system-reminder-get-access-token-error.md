@@ -1,4 +1,4 @@
-# System Reminder: get-access-token-error
+# System Reminder: access-token-error
 
 - Source: inline
 
