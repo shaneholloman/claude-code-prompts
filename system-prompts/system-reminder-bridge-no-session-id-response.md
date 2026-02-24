@@ -1,4 +1,4 @@
-# System Reminder: bridge-no-session-id-response
+# System Reminder: no-session-id-in-response
 
 - Source: inline
 
