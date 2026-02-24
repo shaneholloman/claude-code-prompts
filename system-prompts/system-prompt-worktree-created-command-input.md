@@ -1,4 +1,4 @@
-# System Prompt: worktree-created-command-input
+# System Prompt: worktree-creation-command
 
 - Source: inline
 
