@@ -1,4 +1,4 @@
-# System Reminder: no-worktreeremove-hook-configured-2
+# System Reminder: no-worktreeremove-hook-configured-worktree
 
 - Source: inline
 
