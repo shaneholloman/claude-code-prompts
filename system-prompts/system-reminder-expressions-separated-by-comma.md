@@ -1,4 +1,4 @@
-# System Reminder: expressions-separated-by-comma
+# System Reminder: expressions-comma-separated
 
 - Source: inline
 
