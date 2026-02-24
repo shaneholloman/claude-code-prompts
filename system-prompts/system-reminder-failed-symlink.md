@@ -1,4 +1,4 @@
-# System Reminder: failed-symlink
+# System Reminder: failed-symlink-error
 
 - Source: inline
 
