@@ -1,4 +1,4 @@
-# System Reminder: worktree-kept-branch-tmux
+# System Reminder: worktree-kept-branch-tmux-session
 
 - Source: inline
 
