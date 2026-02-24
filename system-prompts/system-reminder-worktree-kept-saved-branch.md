@@ -1,4 +1,4 @@
-# System Reminder: worktree-kept-work-saved
+# System Reminder: worktree-kept-work-saved-branch
 
 - Source: inline
 
