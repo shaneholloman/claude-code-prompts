@@ -1,4 +1,4 @@
-# System Reminder: install-plugins-failed
+# System Reminder: failed-install-plugins-headless
 
 - Source: inline
 
