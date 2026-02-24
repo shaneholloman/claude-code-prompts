@@ -1,4 +1,4 @@
-# System Reminder: ignoring-echo-type
+# System Reminder: bridge-repl-ignoring-echo-type
 
 - Source: inline
 
