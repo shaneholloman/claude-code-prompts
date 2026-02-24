@@ -1,4 +1,4 @@
-# System Reminder: bridge-work-updated-access-token
+# System Reminder: updated-access-token
 
 - Source: inline
 
