@@ -1,4 +1,4 @@
-# System Reminder: handle-orphaned-permission-response-unresolved
+# System Reminder: no-unresolved-use
 
 - Source: inline
 
