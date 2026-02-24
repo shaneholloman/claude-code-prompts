@@ -1,4 +1,4 @@
-# System Prompt: string-replacement-guidance
+# System Prompt: string-replace
 
 - Source: inline
 
