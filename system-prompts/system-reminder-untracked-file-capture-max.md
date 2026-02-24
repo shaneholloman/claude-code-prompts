@@ -1,4 +1,4 @@
-# System Reminder: untracked-file-capture-max-reached
+# System Reminder: untracked-file-capture-max
 
 - Source: inline
 
