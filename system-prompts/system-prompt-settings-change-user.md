@@ -1,4 +1,4 @@
-# System Prompt: settings-change-exit-codes
+# System Prompt: user-settings-change
 
 - Source: inline
 
