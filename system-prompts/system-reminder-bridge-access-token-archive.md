@@ -1,4 +1,4 @@
-# System Reminder: no-access-token-session-archive
+# System Reminder: no-access-token-archive
 
 - Source: inline
 
