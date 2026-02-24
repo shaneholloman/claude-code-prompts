@@ -1,4 +1,4 @@
-# System Reminder: bridge-session-archived-successfully
+# System Reminder: session-archived-successfully
 
 - Source: inline
 
