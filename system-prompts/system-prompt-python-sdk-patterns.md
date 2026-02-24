@@ -1,4 +1,4 @@
-# System Prompt: python-sdk-patterns
+# System Prompt: sdk-patterns-python-2
 
 - Source: inline
 
