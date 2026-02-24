@@ -1,4 +1,4 @@
-# System Prompt: usage
+# System Prompt: usage-guidelines
 
 - Source: inline
 
