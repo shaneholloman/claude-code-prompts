@@ -1,4 +1,4 @@
-# System Reminder: bridge-org-uuid-creation
+# System Reminder: no-org-uuid-session-creation
 
 - Source: inline
 
