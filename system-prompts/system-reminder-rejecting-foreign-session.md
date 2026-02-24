@@ -4,7 +4,13 @@
 
 ## Summary
 
-Rejecting foreign session due to mismatch.
+Rejecting a foreign session due to mismatch.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[bridge:repl] Rejecting foreign session: expected=stream-json got=null
+[bridge:repl] Rejecting foreign session: expected= color="${EXPR_1}" got=${NUM}
