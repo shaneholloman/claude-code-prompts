@@ -128,7 +128,7 @@ for await (const message of query({
   prompt: "Read the authentication module",
   options: { allowedTools: ["Read", "Glob"] },
 })) {
-  if ("subtype" in message && message.subtype === "init") {
+  if (message.type === "system" && message.subtype === "init") {
     sessionId = message.session_id;
   }
 }
