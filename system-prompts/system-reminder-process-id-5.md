@@ -1,4 +1,4 @@
-# System Reminder: process-id-7
+# System Reminder: process-id-5
 
 - Source: inline
 
@@ -12,8 +12,6 @@ Displays two lines of text followed by a parenthesized PID value.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}/${EXPR_2}/${EXPR_3}/ (PID ${EXPR_4})
+${EXPR_1}/ (PID ${EXPR_2})
