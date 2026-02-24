@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-work-received
+# System Reminder: work-received-while-transport-connected
 
 - Source: inline
 
