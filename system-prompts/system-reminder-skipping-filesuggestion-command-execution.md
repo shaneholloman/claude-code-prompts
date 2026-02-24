@@ -1,4 +1,4 @@
-# System Reminder: skipping-filesuggestion-command-execution
+# System Reminder: skipping-filesuggestion-command
 
 - Source: inline
 
