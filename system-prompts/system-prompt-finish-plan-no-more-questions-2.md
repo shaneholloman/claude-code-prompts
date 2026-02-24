@@ -1,4 +1,4 @@
-# System Prompt: finish-plan-no-more-questions-2
+# System Prompt: finish-plan-no-more-questions
 
 - Source: inline
 
