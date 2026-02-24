@@ -1,4 +1,4 @@
-# System Reminder: handle-orphaned-permission-response-received
+# System Reminder: received-orphaned-control-response
 
 - Source: inline
 
