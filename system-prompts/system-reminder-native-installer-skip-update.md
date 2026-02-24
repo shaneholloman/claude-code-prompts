@@ -10,7 +10,7 @@ Notes native installer skipped updating because current version meets or exceeds
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 2.1.52 | None |
+| `EXPR_1` | 2.1.53 | None |
 
 # Raw Prompt Text
-Native installer: current version ${EXPR_1: '2.1.52'} is already at or above maxVersion global, skipping update
+Native installer: current version ${EXPR_1: '2.1.53'} is already at or above maxVersion global, skipping update
