@@ -1,4 +1,4 @@
-# System Reminder: ingress-message-type-uuid
+# System Reminder: ingress-message-type
 
 - Source: inline
 
