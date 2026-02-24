@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-hook-init-cancelled
+# System Reminder: hook-init-cancelled
 
 - Source: inline
 
