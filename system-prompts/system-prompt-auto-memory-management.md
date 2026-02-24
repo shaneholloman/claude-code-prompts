@@ -1,4 +1,4 @@
-# System Prompt: auto-memory-saving
+# System Prompt: auto-memory-management
 
 - Source: inline
 
