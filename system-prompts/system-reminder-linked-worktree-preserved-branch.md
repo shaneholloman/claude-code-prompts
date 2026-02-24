@@ -1,4 +1,4 @@
-# System Reminder: linked-worktree-preserved
+# System Reminder: preserved-linked-worktree
 
 - Source: inline
 
