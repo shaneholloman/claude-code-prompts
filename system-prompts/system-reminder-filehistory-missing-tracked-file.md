@@ -1,4 +1,4 @@
-# System Reminder: filehistory-missing-tracked-file
+# System Reminder: missing-filehistory-tracked
 
 - Source: inline
 
