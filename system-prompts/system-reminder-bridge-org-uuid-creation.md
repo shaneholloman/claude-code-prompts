@@ -1,4 +1,4 @@
-# System Reminder: no-org-uuid-session-creation
+# System Reminder: no-org-uuid-creation
 
 - Source: inline
 
