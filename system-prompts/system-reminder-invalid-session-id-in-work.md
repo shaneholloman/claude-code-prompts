@@ -1,4 +1,4 @@
-# System Reminder: invalid-session-id-in-work
+# System Reminder: invalid-session-id
 
 - Source: inline
 
