@@ -164,9 +164,8 @@ import Anthropic from "@anthropic-ai${PATH}";
 
 const client = new Anthropic();
 
-const response = await client.beta.messages.create({
+const response = await client.messages.create({
   model: "claude-opus-${NUM}-${NUM}",
-  betas: ["code-execution-${DATE}"],
   max_tokens: ${NUM},
   messages: [
     {
@@ -175,7 +174,7 @@ const response = await client.beta.messages.create({
         "Calculate the mean and standard deviation of [${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}]",
     },
   ],
-  tools: [{ type: "code_execution_20250825", name: "code_execution" }],
+  tools: [{ type: "code_execution_20260120", name: "code_execution" }],
 });
 ```
 
@@ -196,24 +195,27 @@ const uploaded = await client.beta.files.upload({
 });
 
 // ${NUM}. Pass to code execution
-const response = await client.beta.messages.create({
-  model: "claude-opus-${NUM}-${NUM}",
-  betas: ["code-execution-${DATE}", "files-api-${DATE}"],
-  max_tokens: ${NUM},
-  messages: [
-    {
-      role: "user",
-      content: [
-        {
-          type: "text",
-          text: "Analyze this sales data. Show trends and create a visualization.",
-        },
-        { type: "container_upload", file_id: uploaded.id },
-      ],
-    },
-  ],
-  tools: [{ type: "code_execution_20250825", name: "code_execution" }],
-});
+// Code execution is GA; Files API is still beta (pass via RequestOptions)
+const response = await client.messages.create(
+  {
+    model: "claude-opus-${NUM}-${NUM}",
+    max_tokens: ${NUM},
+    messages: [
+      {
+        role: "user",
+        content: [
+          {
+            type: "text",
+            text: "Analyze this sales data. Show trends and create a visualization.",
+          },
+          { type: "container_upload", file_id: uploaded.id },
+        ],
+      },
+    ],
+    tools: [{ type: "code_execution_20260120", name: "code_execution" }],
+  },
+  { headers: { "anthropic-beta": "files-api-${DATE}" } },
+);
 ```
 
 ### Retrieve Generated Files
@@ -255,9 +257,8 @@ for (const block of response.content) {
 
 ```typescript
 // First request: set up environment
-const response1 = await client.beta.messages.create({
+const response1 = await client.messages.create({
   model: "claude-opus-${NUM}-${NUM}",
-  betas: ["code-execution-${DATE}"],
   max_tokens: ${NUM},
   messages: [
     {
@@ -265,16 +266,15 @@ const response1 = await client.beta.messages.create({
       content: "Install tabulate and create data.json with sample user data",
     },
   ],
-  tools: [{ type: "code_execution_20250825", name: "code_execution" }],
+  tools: [{ type: "code_execution_20260120", name: "code_execution" }],
 });
 
 // Reuse container
 const containerId = response1.container.id;
 
-const response2 = await client.beta.messages.create({
+const response2 = await client.messages.create({
   container: containerId,
   model: "claude-opus-${NUM}-${NUM}",
-  betas: ["code-execution-${DATE}"],
   max_tokens: ${NUM},
   messages: [
     {
@@ -282,7 +282,7 @@ const response2 = await client.beta.messages.create({
       content: "Read data.json and display as a formatted table",
     },
   ],
-  tools: [{ type: "code_execution_20250825", name: "code_execution" }],
+  tools: [{ type: "code_execution_20260120", name: "code_execution" }],
 });
 ```
 
@@ -293,7 +293,7 @@ const response2 = await client.beta.messages.create({
 ### Basic Usage
 
 ```typescript
-const response = await client.beta.messages.create({
+const response = await client.messages.create({
   model: "claude-opus-${NUM}-${NUM}",
   max_tokens: ${NUM},
   messages: [
@@ -303,7 +303,6 @@ const response = await client.beta.messages.create({
     },
   ],
   tools: [{ type: "memory_20250818", name: "memory" }],
-  betas: ["context-management-${DATE}"],
 });
 ```
 
@@ -333,7 +332,6 @@ const runner = client.beta.messages.toolRunner({
   max_tokens: ${NUM},
   tools: [memory],
   messages: [{ role: "user", content: "Remember my preferences" }],
-  betas: ["context-management-${DATE}"],
 });
 
 for await (const message of runner) {
@@ -376,7 +374,9 @@ const response = await client.messages.parse({
         "Extract: Jane Doe (jane@co.com) wants Enterprise, interested in API and SDKs, wants a demo.",
     },
   ],
-  output_format: zodOutputFormat(ContactInfoSchema),
+  output_config: {
+    format: zodOutputFormat(ContactInfoSchema),
+  },
 });
 
 console.log(response.parsed_output.name); // "Jane Doe"
