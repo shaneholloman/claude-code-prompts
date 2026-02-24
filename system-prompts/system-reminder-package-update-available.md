@@ -10,8 +10,8 @@ Announces a PackageManagerAutoUpdater update is available from one version to an
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 2.1.50 | None |
+| `EXPR_1` | 2.1.51 | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-PackageManagerAutoUpdater: Update available ${EXPR_1: '2.1.50'} -> ${EXPR_2}
+PackageManagerAutoUpdater: Update available ${EXPR_1: '2.1.51'} -> ${EXPR_2}
