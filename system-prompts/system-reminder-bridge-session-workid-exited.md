@@ -1,4 +1,4 @@
-# System Reminder: bridge-session-workid-exited
+# System Reminder: sessionid-null-workid-exited
 
 - Source: inline
 
