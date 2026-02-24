@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-healthcheck-received
+# System Reminder: healthcheck-received
 
 - Source: inline
 
