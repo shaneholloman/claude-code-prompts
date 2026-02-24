@@ -139,7 +139,7 @@ curl ${URL} \
 
 ## Extended Thinking
 
-> **Opus ${NUM}:** Use adaptive thinking. `budget_tokens` is deprecated on Opus ${NUM}.
+> **Opus ${NUM} and Sonnet ${NUM}:** Use adaptive thinking. `budget_tokens` is deprecated on both Opus ${NUM} and Sonnet ${NUM}.
 > **Older models:** Use `"type": "enabled"` with `"budget_tokens": N` (must be < `max_tokens`, min ${NUM}).
 
 ```bash
