@@ -1,4 +1,4 @@
-# System Reminder: sigint-received-shutting-down
+# System Reminder: bridge-shutdown-sigint-received
 
 - Source: inline
 
