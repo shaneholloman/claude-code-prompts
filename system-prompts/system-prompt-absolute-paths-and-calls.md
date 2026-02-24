@@ -10,17 +10,11 @@ Enforces absolute paths, snippet sharing with filenames, no emojis, and tool-cal
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Read | None |
-| `EXPR_2` | Glob | None |
-| `EXPR_3` | Grep | None |
-| `EXPR_4` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1: 'Read'}
-
-${EXPR_2: 'Glob'}
-
-${EXPR_3: 'Grep'}
+${EXPR_1}
 
 Notes:
 - Agent threads always have their cwd reset between bash calls, as a result please only use absolute file paths.
@@ -28,4 +22,4 @@ Notes:
 - For clear communication with the user the assistant MUST avoid using emojis.
 - Do not use a colon before tool calls. Text like "Let me read the file:" followed by a read tool call should just be "Let me read the file." with a period.
 
-${EXPR_4}
+${EXPR_2}
