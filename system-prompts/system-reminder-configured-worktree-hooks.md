@@ -1,4 +1,4 @@
-# System Reminder: configured-worktree-hooks
+# System Reminder: configured-worktree-hooks-main-repository
 
 - Source: inline
 
