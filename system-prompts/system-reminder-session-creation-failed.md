@@ -1,4 +1,4 @@
-# System Reminder: session-creation-failed
+# System Reminder: bridge-session-creation-failed
 
 - Source: inline
 
