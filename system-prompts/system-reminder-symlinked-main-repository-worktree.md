@@ -1,4 +1,4 @@
-# System Reminder: symlinked-repository-avoid-bloat
+# System Reminder: symlink-main-repo-worktree
 
 - Source: inline
 
