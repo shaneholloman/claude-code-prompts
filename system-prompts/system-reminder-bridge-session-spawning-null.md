@@ -1,4 +1,4 @@
-# System Reminder: bridge-session-spawning-null
+# System Reminder: spawning-sessionid-null
 
 - Source: inline
 
