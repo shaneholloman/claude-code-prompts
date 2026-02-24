@@ -1,4 +1,4 @@
-# System Reminder: bridge-shutdown-force-killing-stuck
+# System Reminder: force-killing-stuck-sessionid
 
 - Source: inline
 
