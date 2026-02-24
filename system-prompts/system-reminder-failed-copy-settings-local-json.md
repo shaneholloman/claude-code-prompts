@@ -1,4 +1,4 @@
-# System Reminder: failed-copy-settings-local-json
+# System Reminder: failed-copy-settings-json
 
 - Source: inline
 
