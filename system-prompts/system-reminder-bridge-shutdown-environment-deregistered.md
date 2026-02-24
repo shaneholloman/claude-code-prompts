@@ -1,4 +1,4 @@
-# System Reminder: bridge-shutdown-environment-deregistered
+# System Reminder: environment-deregistered-bridge-offline
 
 - Source: inline
 
