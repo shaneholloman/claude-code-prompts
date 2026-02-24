@@ -1,4 +1,4 @@
-# System Reminder: generation-failed-stream-json
+# System Reminder: qr-generation-failed-2
 
 - Source: inline
 
