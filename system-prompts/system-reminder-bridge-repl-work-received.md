@@ -1,4 +1,4 @@
-# System Reminder: work-received-while-transport-connected
+# System Reminder: work-received-while-connected
 
 - Source: inline
 
