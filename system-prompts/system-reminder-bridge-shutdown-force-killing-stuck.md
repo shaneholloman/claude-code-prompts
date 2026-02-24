@@ -1,4 +1,4 @@
-# System Reminder: force-killing-stuck-sessionid
+# System Reminder: force-killing-stuck-session
 
 - Source: inline
 
