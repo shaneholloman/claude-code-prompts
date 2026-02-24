@@ -1,4 +1,4 @@
-# System Reminder: finish-plan-no-more-questions-3
+# System Reminder: finish-plan-no-more-questions
 
 - Source: inline
 
