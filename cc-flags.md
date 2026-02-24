@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.52
+# Claude Code Flags 2.1.53
 
 ## Feature Gates
 
@@ -13,6 +13,7 @@
 ## Dynamic Configs
 
 - `tengu_1p_event_batch_config`
+- `tengu_bridge_min_version`
 - `tengu_copper_lantern_config`
 - `tengu_max_version_config`
 - `tengu_sm_compact_config`

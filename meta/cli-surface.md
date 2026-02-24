@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 24
+- Commands: 25
 - Options: 62
-- Env vars: 415
-- Config keys: 548
+- Env vars: 414
+- Config keys: 551
 - Tools: 3
 - Skills: 0
 - Models: 90
@@ -31,6 +31,7 @@
 - `marketplace`
 - `mcp`
 - `plugin`
+- `remote-control`
 - `remove`
 - `reset-project-choices`
 - `serve`
@@ -60,6 +61,7 @@
 - `marketplace`
 - `mcp`
 - `plugin`
+- `remote-control`
 - `remove <name>`
 - `reset-project-choices`
 - `serve`
@@ -276,7 +278,6 @@
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
-- `CLAUDE_CODE_BIRTHDAY_HAT`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BUBBLEWRAP`
 - `CLAUDE_CODE_CLIENT_CERT`
@@ -729,6 +730,7 @@
 - `createdAt`
 - `criticalSystemReminder_EXPERIMENTAL`
 - `custom_instructions`
+- `customTitle`
 - `cwd`
 - `dangerouslyDisableSandbox`
 - `data`
@@ -801,8 +803,10 @@
 - `filePath`
 - `files`
 - `filesChanged`
+- `fileSize`
 - `fileSuggestion`
 - `filesystem`
+- `firstPrompt`
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
@@ -811,6 +815,7 @@
 - `from`
 - `getOAuthToken`
 - `getUserId`
+- `gitBranch`
 - `gitCommitSha`
 - `gitDiff`
 - `hasTaskTool`
@@ -1034,12 +1039,12 @@
 - `serverUrl`
 - `service_tier`
 - `session_id`
+- `sessionId`
 - `set`
 - `set_range`
 - `setting`
 - `settings`
 - `sha`
-- `shouldBlock`
 - `skill`
 - `skills`
 - `skipDangerousModePermissionPrompt`
@@ -1098,7 +1103,6 @@
 - `teamName`
 - `terminalTitleFromRename`
 - `text`
-- `thinking`
 - `timeout`
 - `timestamp`
 - `tips`
