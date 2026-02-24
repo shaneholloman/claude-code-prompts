@@ -1,4 +1,4 @@
-# System Reminder: bridge-activity
+# System Reminder: bridge-activity-log
 
 - Source: inline
 
