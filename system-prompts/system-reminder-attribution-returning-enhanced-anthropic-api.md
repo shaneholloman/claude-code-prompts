@@ -1,4 +1,4 @@
-# System Reminder: attribution-returning-enhanced-anthropic-api
+# System Reminder: returning-enhanced-anthropic-api
 
 - Source: inline
 
