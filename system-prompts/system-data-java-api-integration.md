@@ -1,4 +1,4 @@
-# System Data Block: java-api-integration
+# System Data Block: java-client-initialization-example
 
 - Source: inline
 
