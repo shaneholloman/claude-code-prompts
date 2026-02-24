@@ -1,4 +1,4 @@
-# System Reminder: skipping-symlink-path-traversal-detected
+# System Reminder: skipping-symlink-path-traversal
 
 - Source: inline
 
