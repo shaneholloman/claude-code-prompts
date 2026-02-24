@@ -1,4 +1,4 @@
-# System Prompt: references-format
+# System Prompt: references-guide
 
 - Source: inline
 
