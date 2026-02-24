@@ -1,4 +1,4 @@
-# System Reminder: bridge-org-uuid-archive
+# System Reminder: no-org-uuid-session-archive
 
 - Source: inline
 
