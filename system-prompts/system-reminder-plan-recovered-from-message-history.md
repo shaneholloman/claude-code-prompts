@@ -1,4 +1,4 @@
-# System Reminder: plan-recovered-from-history
+# System Reminder: plan-recovered-from-message-history
 
 - Source: inline
 
