@@ -1,4 +1,4 @@
-# System Prompt: stop-asking-questions
+# System Prompt: plan-interview-completion
 
 - Source: inline
 
