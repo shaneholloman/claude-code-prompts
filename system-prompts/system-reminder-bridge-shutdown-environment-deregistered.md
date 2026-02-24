@@ -1,4 +1,4 @@
-# System Reminder: environment-deregistered-bridge-offline
+# System Reminder: environment-deregistered-offline
 
 - Source: inline
 
