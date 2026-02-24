@@ -4,11 +4,11 @@
 
 - Commands: 24
 - Options: 62
-- Env vars: 411
-- Config keys: 547
+- Env vars: 415
+- Config keys: 548
 - Tools: 3
 - Skills: 0
-- Models: 83
+- Models: 90
 - Providers: 8
 
 ## Commands
@@ -263,9 +263,9 @@
 - `CLAUDE_AUTO_BACKGROUND_TASKS`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
-- `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
+- `CLAUDE_CODE_ACCOUNT_UUID`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
@@ -350,6 +350,7 @@
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
+- `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
@@ -391,7 +392,9 @@
 - `CLAUDE_CODE_USE_FOUNDRY`
 - `CLAUDE_CODE_USE_NATIVE_FILE_SEARCH`
 - `CLAUDE_CODE_USE_VERTEX`
+- `CLAUDE_CODE_USER_EMAIL`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
+- `CLAUDE_CODE_WORKER_EPOCH`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_DEBUG`
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
@@ -550,6 +553,7 @@
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
 - `S`
+- `SAFEUSER`
 - `SESSION_INGRESS_URL`
 - `SESSIONNAME`
 - `SHARP_FORCE_GLOBAL_LIBVIPS`
@@ -628,6 +632,7 @@
 - `allowAllUnixSockets`
 - `allowed`
 - `allowedDomains`
+- `allowedEnvVars`
 - `allowedMcpServers`
 - `allowedTools`
 - `allowGitConfig`
@@ -804,7 +809,6 @@
 - `forceRemoveDeletedPlugins`
 - `format`
 - `from`
-- `fromYoloMode`
 - `getOAuthToken`
 - `getUserId`
 - `gitCommitSha`
@@ -853,6 +857,7 @@
 - `label`
 - `language`
 - `last_assistant_message`
+- `last_tool_name`
 - `lastModified`
 - `lastUpdated`
 - `libvips`
@@ -1015,7 +1020,6 @@
 - `ruleContent`
 - `rules`
 - `run_in_background`
-- `ry`
 - `safeFlags`
 - `sandbox`
 - `schema`
@@ -1154,6 +1158,7 @@
 - `worktree_path`
 - `worktreeBranch`
 - `worktreePath`
+- `wR`
 - `ws_url`
 
 ## Tools
@@ -1205,6 +1210,8 @@ _None detected_
 - `claude-developer-platform`
 - `claude-empty-`
 - `claude-folder`
+- `claude-haiku`
+- `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
@@ -1232,7 +1239,9 @@ _None detected_
 - `claude-review`
 - `claude-settings`
 - `claude-socks-`
+- `claude-sonnet-3-7`
 - `claude-sonnet-4`
+- `claude-sonnet-4-`
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
@@ -1240,7 +1249,9 @@ _None detected_
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
+- `haiku-3-5`
 - `haiku-4`
+- `haiku-4-5`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
@@ -1248,6 +1259,7 @@ _None detected_
 - `opus-4.6-available`
 - `opus-46-upgrade-nudge`
 - `opus-pro-update`
+- `sonnet-3-7`
 - `sonnet-4`
 - `sonnet-4-5`
 - `sonnet-4-6`
