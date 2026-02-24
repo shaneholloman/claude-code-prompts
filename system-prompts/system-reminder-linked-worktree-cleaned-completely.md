@@ -1,4 +1,4 @@
-# System Reminder: linked-worktree-cleaned
+# System Reminder: cleaned-linked-worktree
 
 - Source: inline
 
