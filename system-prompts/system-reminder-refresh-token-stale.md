@@ -1,4 +1,4 @@
-# System Reminder: refresh-token-stale
+# System Reminder: token-refresh-skipped
 
 - Source: inline
 
