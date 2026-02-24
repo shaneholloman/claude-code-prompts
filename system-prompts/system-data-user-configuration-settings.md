@@ -1,4 +1,4 @@
-# System Data Block: user-configuration-settings
+# System Data Block: user-configuration-anthropic
 
 - Source: inline
 
