@@ -1,4 +1,4 @@
-# Tool Description: use-git-worktree
+# Tool Description: git-worktree-creation
 
 - Name: EnterWorktree
 
