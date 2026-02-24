@@ -1,4 +1,4 @@
-# System Reminder: continue-working-running-command
+# System Reminder: continue-working-running
 
 - Source: inline
 
