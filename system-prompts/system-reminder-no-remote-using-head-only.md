@@ -1,4 +1,4 @@
-# System Reminder: no-remote-found
+# System Reminder: no-remote-found-head-only
 
 - Source: inline
 
