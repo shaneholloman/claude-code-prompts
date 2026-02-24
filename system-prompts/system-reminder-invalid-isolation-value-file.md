@@ -1,4 +1,4 @@
-# System Reminder: invalid-isolation-value-in-file
+# System Reminder: invalid-isolation-value
 
 - Source: inline
 
