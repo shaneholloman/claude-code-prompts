@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-hook-cleanup-starting
+# System Reminder: hook-cleanup-starting
 
 - Source: inline
 
