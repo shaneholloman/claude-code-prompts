@@ -4,13 +4,7 @@
 
 ## Summary
 
-Create initial session.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Create initial session prompt.
 
 # Raw Prompt Text
-[bridge:init] Created initial session ${EXPR_1}
+[bridge:init] Created initial session prompt
