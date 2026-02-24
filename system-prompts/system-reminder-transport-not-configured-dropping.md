@@ -12,6 +12,7 @@ Transport not configured, dropping messages.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-[bridge:repl] Transport not configured, dropping ${EXPR_1} message(s) [${EXPR_2}] for session=stream-json
+[bridge:repl] Transport not configured, dropping ${EXPR_1} message(s) [${EXPR_2}] for session= color="${EXPR_3}"
