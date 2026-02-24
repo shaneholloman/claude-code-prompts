@@ -1,4 +1,4 @@
-# System Prompt: output-efficiency-concise
+# System Prompt: concise-output-requirements
 
 - Source: inline
 
