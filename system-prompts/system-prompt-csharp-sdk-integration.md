@@ -1,4 +1,4 @@
-# System Prompt: csharp-sdk-integration
+# System Prompt: anthropic-api-csharp
 
 - Source: inline
 
