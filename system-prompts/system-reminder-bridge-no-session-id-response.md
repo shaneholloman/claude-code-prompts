@@ -1,4 +1,4 @@
-# System Reminder: no-session-id-in-response
+# System Reminder: no-session-id-response
 
 - Source: inline
 
