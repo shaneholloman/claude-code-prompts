@@ -1,4 +1,4 @@
-# System Reminder: ingress-message-control-response
+# System Reminder: ingress-control-response
 
 - Source: inline
 
