@@ -1,4 +1,4 @@
-# System Reminder: orphaned-permission-updatedinput-undefined
+# System Reminder: orphaned-permission-undefined
 
 - Source: inline
 
