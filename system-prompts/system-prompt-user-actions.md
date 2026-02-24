@@ -1,4 +1,4 @@
-# System Prompt: user-assistance-security-testing
+# System Prompt: interactive-user-assistance
 
 - Source: inline
 
