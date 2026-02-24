@@ -1,4 +1,4 @@
-# System Reminder: verify-stop-condition-completion
+# System Reminder: verify-stop-condition
 
 - Source: inline
 
