@@ -1,4 +1,4 @@
-# System Reminder: worktree-kept-reattach-tmux
+# System Reminder: worktree-kept-work-saved-tmux
 
 - Source: inline
 
