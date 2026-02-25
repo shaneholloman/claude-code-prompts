@@ -1,4 +1,4 @@
-# System Reminder: bridge-environment-creation-limit
+# System Reminder: environment-creation-limit-reached
 
 - Source: inline
 
