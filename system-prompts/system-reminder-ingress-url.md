@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-ingress-url
+# System Reminder: ingress-url
 
 - Source: inline
 
