@@ -45,8 +45,6 @@ chat:stash
 
 chat:imagePaste
 
-chat:snippetPicker
-
 autocomplete:accept
 
 autocomplete:dismiss
