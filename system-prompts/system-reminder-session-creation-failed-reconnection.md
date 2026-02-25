@@ -1,4 +1,4 @@
-# System Reminder: session-creation-failed-reconnection
+# System Reminder: session-creation-failed
 
 - Source: inline
 
