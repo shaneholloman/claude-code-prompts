@@ -1,4 +1,4 @@
-# System Reminder: commands-run-in-parallel-example-3
+# System Reminder: commands-run-in-parallel-3
 
 - Source: inline
 
