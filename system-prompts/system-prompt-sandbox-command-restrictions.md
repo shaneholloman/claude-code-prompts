@@ -1,4 +1,4 @@
-# System Prompt: sandbox-command-exceptions
+# System Prompt: sandbox-command-restrictions
 
 - Source: inline
 
