@@ -1,4 +1,4 @@
-# System Prompt: write-file-to-local-filesystem
+# System Prompt: file-existing-read
 
 - Source: inline
 
