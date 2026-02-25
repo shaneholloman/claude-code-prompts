@@ -1,4 +1,4 @@
-# System Reminder: worktreeremove-hook-failed
+# System Reminder: worktree-remove-hook-failed
 
 - Source: inline
 
