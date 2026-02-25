@@ -1,4 +1,4 @@
-# System Reminder: stall-streaming-detected-gap
+# System Reminder: streaming-stall-detected-gap
 
 - Source: inline
 
