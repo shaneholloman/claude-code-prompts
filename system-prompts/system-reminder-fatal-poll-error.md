@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-fatal-poll-error
+# System Reminder: fatal-poll-error
 
 - Source: inline
 
