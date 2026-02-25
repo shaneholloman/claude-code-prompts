@@ -1,4 +1,4 @@
-# System Reminder: server-connected-with-subscribe
+# System Reminder: mcp-server-connected
 
 - Source: inline
 
