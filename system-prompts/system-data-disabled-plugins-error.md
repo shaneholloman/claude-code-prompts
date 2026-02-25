@@ -1,4 +1,4 @@
-# System Data Block: disabled-plugins-stream-json
+# System Data Block: disabled-plugins
 
 - Source: inline
 
