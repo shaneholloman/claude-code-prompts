@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-hook-initialized
+# System Reminder: hook-initialized-session
 
 - Source: inline
 
