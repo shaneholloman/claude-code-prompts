@@ -1,4 +1,4 @@
-# System Reminder: work-poll-loop-ended-aborted
+# System Reminder: work-poll-loop-ended
 
 - Source: inline
 
