@@ -1,4 +1,4 @@
-# System Reminder: git-clone-failed-url
+# System Reminder: git-clone-failed
 
 - Source: inline
 
