@@ -15,6 +15,7 @@ Logs ContentModified LSP request failure and retries with backoff and attempt co
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
-LSP request '${EXPR_1}' to '${EXPR_2}' got ContentModified error, retrying in ${EXPR_3}ms (attempt ${EXPR_4}@${EXPR_5}${NUM}/${NUM})…
+LSP request '${EXPR_1}' to '${EXPR_2}' got ContentModified error, retrying in ${EXPR_3}${EXPR_4}ms (attempt ${EXPR_5}@${EXPR_6}${NUM}/${NUM})…
