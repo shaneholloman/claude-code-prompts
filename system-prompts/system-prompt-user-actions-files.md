@@ -1,4 +1,4 @@
-# System Prompt: user-actions-files
+# System Prompt: interactive-security
 
 - Source: inline
 
