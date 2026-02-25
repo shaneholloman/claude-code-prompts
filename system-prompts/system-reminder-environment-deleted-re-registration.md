@@ -1,4 +1,4 @@
-# System Reminder: bridge-environment-deleted-attempting
+# System Reminder: environment-deleted-re-registration
 
 - Source: inline
 
