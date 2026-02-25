@@ -1,4 +1,4 @@
-# System Data Block: api-java-integration
+# System Data Block: java-sdk-anthropic-api
 
 - Source: inline
 
