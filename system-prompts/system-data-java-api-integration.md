@@ -1,4 +1,4 @@
-# System Data Block: java-sdk-client-initialization
+# System Data Block: api-java
 
 - Source: inline
 
