@@ -1,4 +1,4 @@
-# System Prompt: run-commands-background
+# System Prompt: background-command-execution
 
 - Source: inline
 
