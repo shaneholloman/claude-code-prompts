@@ -1,4 +1,4 @@
-# System Reminder: bridge-detected-sleep
+# System Reminder: detected-sleep
 
 - Source: inline
 
