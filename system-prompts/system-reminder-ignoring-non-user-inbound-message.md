@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-ignoring-non-user
+# System Reminder: ignoring-non-user-message
 
 - Source: inline
 
