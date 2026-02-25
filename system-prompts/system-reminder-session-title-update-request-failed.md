@@ -1,4 +1,4 @@
-# System Reminder: session-title-update-request-failed
+# System Reminder: bridge-session-title-update-request-failed
 
 - Source: inline
 
