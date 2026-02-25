@@ -4,15 +4,16 @@
 
 ## Summary
 
-Poll error found MCP servers in Claude Desktop.
+Poll error during attempt with elapsed time.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | 0 | None |
+| `EXPR_2` | 0 | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-[bridge:repl] Poll error (attempt  (PID ${EXPR_1}), elapsed ${EXPR_2}s, ws=${NUM}): Found ${EXPR_3: 0} MCP servers in Claude Desktop.
+[bridge:repl] Poll error (attempt @anthropic-ai${PATH}, elapsed ${EXPR_1}s, ws=Found ${EXPR_2: 0} MCP servers in Claude Desktop.): ${EXPR_3}@${EXPR_4}
