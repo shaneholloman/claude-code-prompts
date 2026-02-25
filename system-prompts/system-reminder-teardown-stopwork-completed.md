@@ -1,4 +1,4 @@
-# System Reminder: teardown-stopwork-completed
+# System Reminder: bridge-repl-teardown-stopwork-completed
 
 - Source: inline
 
