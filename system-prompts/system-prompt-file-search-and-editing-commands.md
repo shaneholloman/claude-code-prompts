@@ -1,4 +1,4 @@
-# System Prompt: file-search-and-editing-commands
+# System Prompt: file-search-and-editing-guidelines
 
 - Source: inline
 
