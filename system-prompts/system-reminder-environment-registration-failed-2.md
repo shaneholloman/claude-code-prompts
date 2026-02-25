@@ -1,4 +1,4 @@
-# System Reminder: environment-registration-failed
+# System Reminder: bridge-repl-registration-failed
 
 - Source: inline
 
