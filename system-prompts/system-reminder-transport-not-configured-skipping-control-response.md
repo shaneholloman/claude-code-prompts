@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-transport-configured-skipping-control-3
+# System Reminder: transport-not-configured-skipping-control-response
 
 - Source: inline
 
