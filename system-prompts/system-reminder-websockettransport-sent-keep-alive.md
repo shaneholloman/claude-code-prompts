@@ -1,4 +1,4 @@
-# System Reminder: websockettransport-sent-keep-alive
+# System Reminder: websockettransport-sent-keepalive
 
 - Source: inline
 
