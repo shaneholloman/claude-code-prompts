@@ -13,6 +13,7 @@ Draft NUM-part Claude Code “At a Glance” usage insights: working, hindrances
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 You're writing an "At a Glance" summary for a Claude Code usage insights report for Claude Code users. The goal is to help them understand their usage and improve how they can use Claude better, especially as models improve.
@@ -47,10 +48,10 @@ ${EXPR_1}
  (PID ${EXPR_2})
 
 ## Friction Categories (where things go wrong)
-ANTHROPIC_API_KEY
+${EXPR_3}
 
 ## Features to Try
-${EXPR_3}
+${EXPR_4}
 
 ## Usage Patterns to Adopt
 unknown
