@@ -1,4 +1,4 @@
-# System Reminder: git-commit-changes-message
+# System Reminder: git-commit-changes-message-create
 
 - Source: inline
 
