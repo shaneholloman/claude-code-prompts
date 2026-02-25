@@ -1,4 +1,4 @@
-# System Prompt: focus-text-output-guidelines
+# System Prompt: focus-text-output
 
 - Source: inline
 
