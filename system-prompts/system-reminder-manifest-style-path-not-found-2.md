@@ -13,6 +13,7 @@ Manifest output style path missing at expected location for a specific target.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Output style path ${EXPR_1} specified in manifest but not found at ${EXPR_2} for ${EXPR_3}
+Output style path ${EXPR_1}${EXPR_2} specified in manifest but not found at ${EXPR_3} for ${EXPR_4}
