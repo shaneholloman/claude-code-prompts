@@ -1,4 +1,4 @@
-# System Data Block: bash-local-command-output
+# System Data Block: local-command-parameters
 
 - Source: inline
 
