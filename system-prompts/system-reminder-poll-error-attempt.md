@@ -1,4 +1,4 @@
-# System Reminder: poll-error-attempt
+# System Reminder: bridge-repl-poll-error-attempt
 
 - Source: inline
 
