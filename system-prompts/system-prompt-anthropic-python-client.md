@@ -1,4 +1,4 @@
-# System Prompt: api-python-client
+# System Prompt: api-python-integration
 
 - Source: inline
 
