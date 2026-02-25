@@ -1,4 +1,4 @@
-# System Prompt: change-settings-and-exit
+# System Prompt: user-settings-exit-change
 
 - Source: inline
 
