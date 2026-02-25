@@ -1,4 +1,4 @@
-# System Prompt: memory-management-guidelines
+# System Prompt: memory-user-information
 
 - Source: inline
 
