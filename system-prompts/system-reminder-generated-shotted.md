@@ -1,4 +1,4 @@
-# System Reminder: generated-anthropic
+# System Reminder: generated
 
 - Source: inline
 
