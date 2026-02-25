@@ -1,4 +1,4 @@
-# System Reminder: compaction-detected
+# System Reminder: compaction-detected-lastwrittenindex
 
 - Source: inline
 
