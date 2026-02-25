@@ -1,4 +1,4 @@
-# System Prompt: validate-keybinding-configuration-issues
+# System Prompt: commands-run-issues-keybinding
 
 - Source: inline
 
