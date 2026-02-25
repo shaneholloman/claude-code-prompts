@@ -1,4 +1,4 @@
-# System Reminder: cannot-respond-control
+# System Reminder: cannot-respond-control-request
 
 - Source: inline
 
