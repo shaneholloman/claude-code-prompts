@@ -1,4 +1,4 @@
-# System Reminder: symlink-main-repo-worktree
+# System Reminder: symlinked-from-main-repository-to-worktree
 
 - Source: inline
 
