@@ -17,16 +17,16 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Follow safety protocols for creating git commits. | 1,518 | 2.1.56 | 2.1.56 |
-| [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,262 | 2.1.56 | 2.1.56 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.56 | 2.1.56 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.56 | 2.1.56 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.56 | 2.1.56 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.56 | 2.1.56 |
-| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.56 | 2.1.56 |
-| [`system-prompt-subagent-context-boundaries.md`](../system-prompts/system-prompt-subagent-context-boundaries.md) | Clarifies sub-agent context boundaries and limits actions to assigned task and available messages. | 114 | 2.1.56 | 2.1.56 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.56 | 2.1.56 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.56 | 2.1.56 |
+| [`system-prompt-git-commit-guidelines.md`](../system-prompts/system-prompt-git-commit-guidelines.md) | Instructions for safely creating git commits. | 1,518 | 2.1.58 | 2.1.58 |
+| [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,262 | 2.1.58 | 2.1.58 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.58 | 2.1.58 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.58 | 2.1.58 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.58 | 2.1.58 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.58 | 2.1.58 |
+| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.58 | 2.1.58 |
+| [`system-prompt-subagent-context-boundaries.md`](../system-prompts/system-prompt-subagent-context-boundaries.md) | Clarifies sub-agent context boundaries and limits actions to assigned task and available messages. | 114 | 2.1.58 | 2.1.58 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.58 | 2.1.58 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.58 | 2.1.58 |
 | [`system-prompt-usage-guidelines.md`](../system-prompts/system-prompt-usage-guidelines.md) | Guidelines for using agent tools effectively. | 1,190 | 2.1.53 | 2.1.53 |
 | [`system-prompt-memory-management-guidelines.md`](../system-prompts/system-prompt-memory-management-guidelines.md) | Instructions for managing user memories. | 1,024 | 2.1.53 | 2.1.53 |
 | [`system-prompt-user-actions-files-3.md`](../system-prompts/system-prompt-user-actions-files-3.md) | Assist users with authorized security testing. | 885 | 2.1.53 | 2.1.53 |
@@ -242,8 +242,8 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.56 | 2.1.56 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.56 | 2.1.56 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.58 | 2.1.58 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.58 | 2.1.58 |
 | [`tool-description-bash-command-execution.md`](../system-prompts/tool-description-bash-command-execution.md) | Tool spec for running bash commands with directory verification and path quoting rules. | 975 | 2.1.53 | 2.1.53 |
 | [`tool-description-file-writing.md`](../system-prompts/tool-description-file-writing.md) | Writes files to the local filesystem. | 116 | 2.1.53 | 2.1.53 |
 | [`tool-description-create-git-worktree.md`](../system-prompts/tool-description-create-git-worktree.md) | Set up an isolated git worktree as requested. | 324 | 2.1.51 | 2.1.51 |
@@ -327,7 +327,7 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.56 | 2.1.56 |
+| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.58 | 2.1.58 |
 | [`agent-prompt-use-current-configuration.md`](../system-prompts/agent-prompt-use-current-configuration.md) | Incorporate the user’s custom environment configuration when answering and suggesting features. | 57 | 2.1.49 | 2.1.49 |
 | [`agent-prompt-mcp-servers-found-desktop.md`](../system-prompts/agent-prompt-mcp-servers-found-desktop.md) | Report count of MCP servers found in Claude Desktop, followed by details. | 21 | 2.1.49 | 2.1.49 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce an implementation plan under strict read-only constraints. | 644 | 2.0.56 | 2.0.56 |
@@ -350,10 +350,10 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.56 | 2.1.56 |
-| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.56 | 2.1.56 |
-| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.56 | 2.1.56 |
-| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 358 | 2.1.56 | 2.1.56 |
+| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.58 | 2.1.58 |
+| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.58 | 2.1.58 |
+| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.58 | 2.1.58 |
+| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 358 | 2.1.58 | 2.1.58 |
 | [`system-data-temporary-files-usage.md`](../system-prompts/system-data-temporary-files-usage.md) | Always use TMPDIR for temporary files. | 462 | 2.1.53 | 2.1.53 |
 | [`system-data-temporary-files-usage-2.md`](../system-prompts/system-data-temporary-files-usage-2.md) | Always use TMPDIR for temporary files. | 385 | 2.1.53 | 2.1.53 |
 | [`system-data-typescript-runner-zod.md`](../system-prompts/system-data-typescript-runner-zod.md) | Demonstrates TypeScript tool runner using betaZodTool, Zod schemas, and tool execution loop. | 3,362 | 2.1.51 | 2.1.51 |
@@ -508,7 +508,9 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.56 | 2.1.56 |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.58 | 2.1.58 |
+| [`system-reminder-poll-error-attempt.md`](../system-prompts/system-reminder-poll-error-attempt.md) | Poll error during attempt with elapsed time. | 52 | 2.1.58 | 2.1.58 |
+| [`system-reminder-bridge-repl-stale-poll.md`](../system-prompts/system-reminder-bridge-repl-stale-poll.md) | Stale poll error for unknown environment. | 33 | 2.1.58 | 2.1.58 |
 | [`system-reminder-tmpdir-sandbox-temporary-files-2.md`](../system-prompts/system-reminder-tmpdir-sandbox-temporary-files-2.md) | Use TMPDIR for temporary files. | 385 | 2.1.53 | 2.1.53 |
 | [`system-reminder-tmpdir-sandbox-temporary-files.md`](../system-prompts/system-reminder-tmpdir-sandbox-temporary-files.md) | Use TMPDIR for temporary files. | 376 | 2.1.53 | 2.1.53 |
 | [`system-reminder-commands-run-in-parallel-example-2.md`](../system-prompts/system-reminder-commands-run-in-parallel-example-2.md) | Run independent commands in parallel. | 161 | 2.1.53 | 2.1.53 |
@@ -532,7 +534,6 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 | [`system-reminder-placeholder-expressions-block.md`](../system-prompts/system-reminder-placeholder-expressions-block.md) | System reminder template composed solely of twelve ordered expression placeholders. | 83 | 2.1.51 | 2.1.51 |
 | [`system-reminder-expression-placeholders-block-2.md`](../system-prompts/system-reminder-expression-placeholders-block-2.md) | Outputs a sequence of eight interpolated template fields separated by blank lines. | 55 | 2.1.51 | 2.1.51 |
 | [`system-reminder-generated-shotted.md`](../system-prompts/system-reminder-generated-shotted.md) | Generated Claude Code information. | 54 | 2.1.51 | 2.1.51 |
-| [`system-reminder-poll-error-attempt.md`](../system-prompts/system-reminder-poll-error-attempt.md) | Poll error found MCP servers in Claude Desktop. | 52 | 2.1.51 | 2.1.51 |
 | [`system-reminder-format-stream-json-print-sdk-2.md`](../system-prompts/system-reminder-format-stream-json-print-sdk-2.md) | Configuration for JSON stream output. | 51 | 2.1.51 | 2.1.51 |
 | [`system-reminder-scheduled-token-refresh.md`](../system-prompts/system-reminder-scheduled-token-refresh.md) | Scheduled token refresh with expiry details. | 50 | 2.1.51 | 2.1.51 |
 | [`system-reminder-format-stream-json-print-sdk.md`](../system-prompts/system-reminder-format-stream-json-print-sdk.md) | Multiple prompts (3) | 44 | 2.1.51 | 2.1.51 |
@@ -544,7 +545,6 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 | [`system-reminder-bridge-api-post-force-anthropic.md`](../system-prompts/system-reminder-bridge-api-post-force-anthropic.md) | Force post request to anthropic API. | 38 | 2.1.51 | 2.1.51 |
 | [`system-reminder-immediate-token-refresh.md`](../system-prompts/system-reminder-immediate-token-refresh.md) | Refreshing token due to expiry. | 38 | 2.1.51 | 2.1.51 |
 | [`system-reminder-sessionid-request.md`](../system-prompts/system-reminder-sessionid-request.md) | Session ID and tool request not auto-approved. | 37 | 2.1.51 | 2.1.51 |
-| [`system-reminder-bridge-repl-stale-poll-error.md`](../system-prompts/system-reminder-bridge-repl-stale-poll-error.md) | Encountered stale poll error for old environment. | 36 | 2.1.51 | 2.1.51 |
 | [`system-reminder-refreshing-token.md`](../system-prompts/system-reminder-refreshing-token.md) | Refreshing token for session. | 36 | 2.1.51 | 2.1.51 |
 | [`system-reminder-scheduled-refresh-followup.md`](../system-prompts/system-reminder-scheduled-refresh-followup.md) | Scheduled follow-up refresh for session. | 35 | 2.1.51 | 2.1.51 |
 | [`system-reminder-attribution-claudepercent-promptcount-memoryaccess.md`](../system-prompts/system-reminder-attribution-claudepercent-promptcount-memoryaccess.md) | Attribution details for Claude percent and counts. | 34 | 2.1.51 | 2.1.51 |
@@ -749,6 +749,9 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-poll-failures-exceeded.md`](../system-prompts/system-reminder-poll-failures-exceeded.md) | Poll failures exceeded the allowed time. | 30 | 2.1.58 | 2.1.58 |
+| [`system-reminder-bridge-repl-environment-deleted.md`](../system-prompts/system-reminder-bridge-repl-environment-deleted.md) | Attempting re-registration after environment deletion. | 27 | 2.1.58 | 2.1.58 |
+| [`system-reminder-poll-recovered-after-errors.md`](../system-prompts/system-reminder-poll-recovered-after-errors.md) | Poll recovered after consecutive errors. | 24 | 2.1.58 | 2.1.58 |
 | [`system-reminder-surrogate-pair-call-type-error.md`](../system-prompts/system-reminder-surrogate-pair-call-type-error.md) | Error about calling surrogate pair pattern due to unbound types. | 27 | 2.1.53 | 2.1.53 |
 | [`system-reminder-bridge-init-api-urls.md`](../system-prompts/system-reminder-bridge-init-api-urls.md) | Initialize API base and session ingress URLs. | 24 | 2.1.53 | 2.1.53 |
 | [`system-reminder-ready-env-session-color.md`](../system-prompts/system-reminder-ready-env-session-color.md) | Ready with environment and session color. | 24 | 2.1.53 | 2.1.53 |
@@ -785,7 +788,6 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 | [`system-reminder-cannot-use-deleted-val.md`](../system-prompts/system-reminder-cannot-use-deleted-val.md) | Error using a deleted value after handle becomes null. | 8 | 2.1.53 | 2.1.53 |
 | [`system-reminder-priority-levels-list-2.md`](../system-prompts/system-reminder-priority-levels-list-2.md) | Lists the available priority levels from low to max. | 7 | 2.1.52 | 2.1.52 |
 | [`system-reminder-ignoring-duplicate-control-response.md`](../system-prompts/system-reminder-ignoring-duplicate-control-response.md) | Ignoring duplicate control response for resolved request. | 30 | 2.1.51 | 2.1.51 |
-| [`system-reminder-poll-failures-exceeded.md`](../system-prompts/system-reminder-poll-failures-exceeded.md) | Poll failures exceeded errors, giving up. | 30 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-post-environment-id.md`](../system-prompts/system-reminder-bridge-api-post-environment-id.md) | Post request with environment ID. | 28 | 2.1.51 | 2.1.51 |
 | [`system-reminder-loading-sessions-for-cwd.md`](../system-prompts/system-reminder-loading-sessions-for-cwd.md) | Loading sessions for current working directory. | 28 | 2.1.51 | 2.1.51 |
 | [`system-reminder-cloning-repository-timeout.md`](../system-prompts/system-reminder-cloning-repository-timeout.md) | Cloning repository with a specified timeout. | 27 | 2.1.51 | 2.1.51 |
@@ -803,7 +805,6 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 | [`system-reminder-ignoring-echo-type.md`](../system-prompts/system-reminder-ignoring-echo-type.md) | Ignoring echo of specified type. | 25 | 2.1.51 | 2.1.51 |
 | [`system-reminder-ingress-message-type-uuid.md`](../system-prompts/system-reminder-ingress-message-type-uuid.md) | Ingress message type with UUID. | 24 | 2.1.51 | 2.1.51 |
 | [`system-reminder-injecting-inbound-user-message.md`](../system-prompts/system-reminder-injecting-inbound-user-message.md) | Injecting inbound user message. | 24 | 2.1.51 | 2.1.51 |
-| [`system-reminder-poll-recovered-after-errors.md`](../system-prompts/system-reminder-poll-recovered-after-errors.md) | Poll recovered after consecutive errors. | 24 | 2.1.51 | 2.1.51 |
 | [`system-reminder-process-id-2.md`](../system-prompts/system-reminder-process-id-2.md) | Displays two lines of text followed by a parenthesized PID value. | 24 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-post-archived.md`](../system-prompts/system-reminder-bridge-api-post-archived.md) | Post request for already archived data. | 23 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-retry-refresh.md`](../system-prompts/system-reminder-bridge-api-retry-refresh.md) | Retry after refresh received data. | 23 | 2.1.51 | 2.1.51 |
@@ -815,7 +816,6 @@ _Sorted by init (newest first). Showing **235** reminders with more than **30** 
 | [`system-reminder-ignoring-non-user-inbound-message.md`](../system-prompts/system-reminder-ignoring-non-user-inbound-message.md) | Ignoring non-user inbound messages. | 23 | 2.1.51 | 2.1.51 |
 | [`system-reminder-warning-null-found.md`](../system-prompts/system-reminder-warning-null-found.md) | Warning: agent not found, using default behavior. | 23 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-token-refresh.md`](../system-prompts/system-reminder-bridge-api-token-refresh.md) | Token refresh attempt after receiving data. | 22 | 2.1.51 | 2.1.51 |
-| [`system-reminder-environment-deleted-re-registration.md`](../system-prompts/system-reminder-environment-deleted-re-registration.md) | Environment deleted, attempting to re-register. | 22 | 2.1.51 | 2.1.51 |
 | [`system-reminder-environment-registration-limit-reached.md`](../system-prompts/system-reminder-environment-registration-limit-reached.md) | Environment re-registration limit reached, giving up. | 22 | 2.1.51 | 2.1.51 |
 | [`system-reminder-stall-streaming-completed-suggestion.md`](../system-prompts/system-reminder-stall-streaming-completed-suggestion.md) | Streaming completed with suggestion stalls. | 22 | 2.1.51 | 2.1.51 |
 | [`system-reminder-streaming-stall-detected.md`](../system-prompts/system-reminder-streaming-stall-detected.md) | Detected a gap in streaming events. | 22 | 2.1.51 | 2.1.51 |
