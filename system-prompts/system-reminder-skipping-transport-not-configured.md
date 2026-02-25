@@ -1,4 +1,4 @@
-# System Reminder: skipping-sendresult-transport
+# System Reminder: sendresult-skipping-transport
 
 - Source: inline
 
