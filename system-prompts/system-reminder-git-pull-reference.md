@@ -1,4 +1,4 @@
-# System Reminder: git-pull-cwd-ref
+# System Reminder: git-pull-ref
 
 - Source: inline
 
