@@ -1,4 +1,4 @@
-# System Data Block: settings-file-locations-and-permissions
+# System Data Block: settings-files-and-permissions
 
 - Source: inline
 
