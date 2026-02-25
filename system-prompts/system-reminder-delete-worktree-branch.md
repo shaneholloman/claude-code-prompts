@@ -1,4 +1,4 @@
-# System Reminder: could-not-delete-worktree-branch
+# System Reminder: delete-worktree-branch
 
 - Source: inline
 
