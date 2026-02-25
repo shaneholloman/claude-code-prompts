@@ -1,4 +1,4 @@
-# System Prompt: build-apps-with-anthropic-sdk
+# System Prompt: anthropic-sdk-trigger
 
 - Source: inline
 
