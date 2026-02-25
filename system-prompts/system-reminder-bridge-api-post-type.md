@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-post-type
+# System Reminder: bridge-api-post-path-type
 
 - Source: inline
 
