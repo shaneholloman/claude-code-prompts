@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-ingress-message-type
+# System Reminder: ingress-message-type
 
 - Source: inline
 
