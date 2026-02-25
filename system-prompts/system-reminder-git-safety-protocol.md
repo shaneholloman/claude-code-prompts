@@ -1,4 +1,4 @@
-# System Reminder: git-safety-protocol
+# System Reminder: git-user-diff-branch-head
 
 - Source: inline
 
