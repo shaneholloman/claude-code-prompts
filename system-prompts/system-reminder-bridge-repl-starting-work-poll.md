@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-starting-work-poll
+# System Reminder: starting-work-poll-loop
 
 - Source: inline
 
