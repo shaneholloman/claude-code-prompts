@@ -1,4 +1,4 @@
-# System Data Block: ruby-sdk-anthropic
+# System Data Block: ruby-api-client
 
 - Source: inline
 
