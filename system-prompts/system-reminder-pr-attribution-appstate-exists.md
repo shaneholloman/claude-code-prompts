@@ -1,4 +1,4 @@
-# System Reminder: pr-attribution-appstate-exists
+# System Reminder: attribution-appstate-exists
 
 - Source: inline
 
