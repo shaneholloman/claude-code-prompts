@@ -1,4 +1,4 @@
-# System Reminder: prerequisites-passed
+# System Reminder: prerequisites-passed-enabling
 
 - Source: inline
 
