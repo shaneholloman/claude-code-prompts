@@ -1,4 +1,4 @@
-# System Prompt: memory-management-user-info
+# System Prompt: memory-management-in-conversations
 
 - Source: inline
 
