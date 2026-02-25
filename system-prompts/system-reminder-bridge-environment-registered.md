@@ -1,4 +1,4 @@
-# System Reminder: bridge-environment-registered
+# System Reminder: environment-registered
 
 - Source: inline
 
