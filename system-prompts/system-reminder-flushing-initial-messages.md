@@ -1,4 +1,4 @@
-# System Reminder: flushing-initial-messages
+# System Reminder: bridge-repl-flushing-initial-message
 
 - Source: inline
 
