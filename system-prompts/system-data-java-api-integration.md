@@ -1,4 +1,4 @@
-# System Data Block: api-java
+# System Data Block: api-java-integration
 
 - Source: inline
 
