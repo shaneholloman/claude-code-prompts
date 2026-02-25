@@ -1,4 +1,4 @@
-# System Reminder: bridge-work-unknown-type-skipping
+# System Reminder: unknown-work-type-skipping
 
 - Source: inline
 
