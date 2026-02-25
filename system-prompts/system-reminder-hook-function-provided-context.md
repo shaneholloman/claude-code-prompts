@@ -1,4 +1,4 @@
-# System Reminder: hook-function-provided-context
+# System Reminder: hook-function-additional-context-chars
 
 - Source: inline
 
