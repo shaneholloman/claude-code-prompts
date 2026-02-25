@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-poll-recovered-after
+# System Reminder: poll-recovered-after-errors
 
 - Source: inline
 
