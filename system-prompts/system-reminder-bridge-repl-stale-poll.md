@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-stale-poll
+# System Reminder: stale-poll-error
 
 - Source: inline
 
