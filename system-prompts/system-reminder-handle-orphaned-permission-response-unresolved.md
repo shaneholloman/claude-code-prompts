@@ -1,4 +1,4 @@
-# System Reminder: no-unresolved-use-found
+# System Reminder: no-unresolved-found
 
 - Source: inline
 
