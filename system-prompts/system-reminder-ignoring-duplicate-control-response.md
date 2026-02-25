@@ -1,4 +1,4 @@
-# System Reminder: ignore-duplicate-control-response
+# System Reminder: ignoring-duplicate-control-response
 
 - Source: inline
 
