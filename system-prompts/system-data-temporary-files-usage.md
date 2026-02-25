@@ -1,4 +1,4 @@
-# System Data Block: temporary-files-sandbox
+# System Data Block: use-tmpdir-for-temporary-files
 
 - Source: inline
 
