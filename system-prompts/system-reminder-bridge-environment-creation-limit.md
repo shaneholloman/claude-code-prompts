@@ -1,4 +1,4 @@
-# System Reminder: environment-re-creation-limit
+# System Reminder: bridge-repl-environment-creation-limit
 
 - Source: inline
 
