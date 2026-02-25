@@ -1,4 +1,4 @@
-# System Reminder: qr-generation-failed-2
+# System Reminder: generation-failed
 
 - Source: inline
 
