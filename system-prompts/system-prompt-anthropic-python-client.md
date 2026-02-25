@@ -1,4 +1,4 @@
-# System Prompt: api-python-integration
+# System Prompt: anthropic-python-api
 
 - Source: inline
 
