@@ -1,4 +1,4 @@
-# System Prompt: persistent-memory-management
+# System Prompt: memory-management-user-info
 
 - Source: inline
 
