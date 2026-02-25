@@ -1,4 +1,4 @@
-# System Reminder: token-refresh-immediate
+# System Reminder: token-expires-refreshing
 
 - Source: inline
 
