@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-get-consecutive-empty-polls
+# System Reminder: bridge-api-get-empty-polls
 
 - Source: inline
 
