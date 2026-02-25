@@ -1,4 +1,4 @@
-# System Reminder: work-received-workid-sessionid
+# System Reminder: bridge-work-received
 
 - Source: inline
 
@@ -13,6 +13,7 @@ Work received with specific workId and session details.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-[bridge:repl] Work received: workId=${EXPR_1} workSessionId=${NUM} currentSessionId= color="${EXPR_2}" match=${EXPR_3}
+[bridge:repl] Work received: workId=${EXPR_1} workSessionId=${EXPR_2} currentSessionId= color="${EXPR_3}" match=${EXPR_4}
