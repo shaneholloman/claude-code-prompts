@@ -1,4 +1,4 @@
-# System Reminder: session-archive-failed
+# System Reminder: bridge-session-archive-failed
 
 - Source: inline
 
