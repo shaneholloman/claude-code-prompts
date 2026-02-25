@@ -1,4 +1,4 @@
-# System Reminder: format-stream-json-print-3
+# System Reminder: format-stream-json-print-sdk-3
 
 - Source: inline
 
