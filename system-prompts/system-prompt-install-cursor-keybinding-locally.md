@@ -1,4 +1,4 @@
-# System Prompt: install-cursor-keybinding-locally-2
+# System Prompt: install-cursor-keybinding-locally
 
 - Source: inline
 
