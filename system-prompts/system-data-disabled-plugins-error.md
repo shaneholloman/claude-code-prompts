@@ -1,4 +1,4 @@
-# System Data Block: disabled-plugins-stream
+# System Data Block: disabled-plugins-error-report
 
 - Source: inline
 
