@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-invalid-session-work
+# System Reminder: invalid-session-id
 
 - Source: inline
 
