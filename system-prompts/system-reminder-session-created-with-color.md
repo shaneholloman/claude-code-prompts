@@ -1,4 +1,4 @@
-# System Reminder: session-created-with-color
+# System Reminder: session-created-color
 
 - Source: inline
 
