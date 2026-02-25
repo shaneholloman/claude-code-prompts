@@ -1,4 +1,4 @@
-# System Prompt: sdk-python
+# System Prompt: python-sdk-quick-start
 
 - Source: inline
 
