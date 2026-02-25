@@ -1,4 +1,4 @@
-# System Prompt: worktree-creation-command
+# System Prompt: create-worktree-and-exit
 
 - Source: inline
 
