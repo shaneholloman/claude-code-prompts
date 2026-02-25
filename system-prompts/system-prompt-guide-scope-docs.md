@@ -1,4 +1,4 @@
-# System Prompt: guide-scope-docs-2
+# System Prompt: guide-scope-docs
 
 - Source: inline
 
