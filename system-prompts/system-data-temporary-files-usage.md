@@ -1,4 +1,4 @@
-# System Data Block: use-tmpdir-for-temporary-files
+# System Data Block: temporary-files-guidelines
 
 - Source: inline
 
