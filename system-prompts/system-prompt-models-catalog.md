@@ -1,4 +1,4 @@
-# System Prompt: catalog
+# System Prompt: catalog-guidelines
 
 - Source: inline
 
