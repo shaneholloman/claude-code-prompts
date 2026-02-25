@@ -1,4 +1,4 @@
-# System Reminder: bridge-init-api-urls
+# System Reminder: bridge-init-api-base-url
 
 - Source: inline
 
