@@ -1,4 +1,4 @@
-# System Prompt: api-csharp-usage
+# System Prompt: anthropic-csharp-sdk
 
 - Source: inline
 
