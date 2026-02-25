@@ -1,4 +1,4 @@
-# System Data Block: bash-git-slack-commands
+# System Data Block: bash-git-commands-slack
 
 - Source: inline
 
