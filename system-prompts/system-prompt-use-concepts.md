@@ -1,4 +1,4 @@
-# System Prompt: use-concepts-in-api
+# System Prompt: use-concepts
 
 - Source: inline
 
