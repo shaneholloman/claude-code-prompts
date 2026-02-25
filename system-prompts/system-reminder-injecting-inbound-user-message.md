@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-injecting-inbound-user
+# System Reminder: injecting-inbound-user-message
 
 - Source: inline
 
