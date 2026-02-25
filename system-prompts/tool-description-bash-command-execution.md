@@ -1,4 +1,4 @@
-# Tool Description: bash-command-execution
+# Tool Description: bash-command-execution-sandbox
 
 - Name: Bash
 
