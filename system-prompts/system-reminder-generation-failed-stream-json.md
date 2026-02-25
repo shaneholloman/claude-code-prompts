@@ -1,4 +1,4 @@
-# System Reminder: generation-failed
+# System Reminder: generation-failed-json
 
 - Source: inline
 
