@@ -1,4 +1,4 @@
-# System Data Block: notifications
+# System Data Block: notification-events
 
 - Source: inline
 
