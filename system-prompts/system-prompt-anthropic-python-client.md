@@ -1,4 +1,4 @@
-# System Prompt: python-client-initialization
+# System Prompt: api-python-client
 
 - Source: inline
 
