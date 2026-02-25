@@ -1,4 +1,4 @@
-# System Data Block: underscore-template-runtime
+# System Data Block: template-rendering-function-scaffold
 
 - Source: inline
 
