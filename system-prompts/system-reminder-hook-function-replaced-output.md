@@ -1,4 +1,4 @@
-# System Reminder: hook-function-replaced-mcp-output
+# System Reminder: hook-function-replaced-mcp
 
 - Source: inline
 
