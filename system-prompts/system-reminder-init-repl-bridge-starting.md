@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-init-anthropic-starting
+# System Reminder: init-repl-bridge-starting
 
 - Source: inline
 
