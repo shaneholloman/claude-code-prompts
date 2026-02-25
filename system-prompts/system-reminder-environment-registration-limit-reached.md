@@ -1,4 +1,4 @@
-# System Reminder: environment-registration-limit-reached
+# System Reminder: environment-registration-limit
 
 - Source: inline
 
