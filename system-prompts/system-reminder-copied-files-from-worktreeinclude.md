@@ -1,4 +1,4 @@
-# System Reminder: copied-files-from-worktreeinclude
+# System Reminder: copied-files-worktreeinclude
 
 - Source: inline
 
