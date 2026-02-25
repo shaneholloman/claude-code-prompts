@@ -1,4 +1,4 @@
-# System Reminder: session-filtered-sidechain-true
+# System Reminder: session-filtered-issidechain
 
 - Source: inline
 
