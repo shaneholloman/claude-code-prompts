@@ -1,4 +1,4 @@
-# System Reminder: refreshing-token-sessionid
+# System Reminder: token-refreshing
 
 - Source: inline
 
