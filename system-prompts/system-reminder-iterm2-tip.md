@@ -1,4 +1,4 @@
-# System Reminder: iterm-tip
+# System Reminder: iterm2-tip
 
 - Source: inline
 
