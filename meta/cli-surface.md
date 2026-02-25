@@ -4,11 +4,11 @@
 
 - Commands: 25
 - Options: 62
-- Env vars: 414
-- Config keys: 551
+- Env vars: 419
+- Config keys: 554
 - Tools: 3
 - Skills: 0
-- Models: 90
+- Models: 92
 - Providers: 8
 
 ## Commands
@@ -219,6 +219,7 @@
 - `API_TIMEOUT_MS`
 - `APP_URL`
 - `APPDATA`
+- `AUDIO_CAPTURE_NODE_PATH`
 - `AWS_ACCESS_KEY_ID`
 - `AWS_BEARER_TOKEN_BEDROCK`
 - `AWS_DEFAULT_REGION`
@@ -339,6 +340,8 @@
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
+- `CLAUDE_CODE_OAUTH_REFRESH_TOKEN`
+- `CLAUDE_CODE_OAUTH_SCOPES`
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_ORGANIZATION_UUID`
@@ -352,6 +355,7 @@
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
 - `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS`
+- `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
@@ -372,7 +376,6 @@
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
-- `CLAUDE_CODE_SNIPPET_SAVE`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_STREAMING_TEXT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
@@ -539,6 +542,7 @@
 - `OTEL_TRACES_EXPORT_INTERVAL`
 - `OTEL_TRACES_EXPORTER`
 - `P`
+- `P4PORT`
 - `PATH`
 - `PATHEXT`
 - `PKG_CONFIG_PATH`
@@ -598,6 +602,7 @@
 - `VERCEL`
 - `VERTEX_BASE_URL`
 - `VISUAL`
+- `VOICE_STREAM_BASE_URL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
 - `WEBSITE_SITE_NAME`
@@ -793,6 +798,7 @@
 - `extraKnownMarketplaces`
 - `failed`
 - `fastMode`
+- `fastModePerSessionOptIn`
 - `feedback`
 - `file`
 - `file_id`
@@ -812,6 +818,7 @@
 - `forceLoginOrgUUID`
 - `forceRemoveDeletedPlugins`
 - `format`
+- `fR`
 - `from`
 - `getOAuthToken`
 - `getUserId`
@@ -1045,6 +1052,7 @@
 - `setting`
 - `settings`
 - `sha`
+- `shouldBlock`
 - `skill`
 - `skills`
 - `skipDangerousModePermissionPrompt`
@@ -1103,6 +1111,7 @@
 - `teamName`
 - `terminalTitleFromRename`
 - `text`
+- `thinking`
 - `timeout`
 - `timestamp`
 - `tips`
@@ -1163,7 +1172,6 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `zR`
 
 ## Tools
 
@@ -1210,6 +1218,7 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
+- `claude-desktop`
 - `claude-dev`
 - `claude-developer-platform`
 - `claude-empty-`
@@ -1237,6 +1246,7 @@ _None detected_
 - `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-plugin-directory`
+- `claude-plugin-session-`
 - `claude-plugins-official`
 - `claude-prompt`
 - `claude-pwd-ps-`
