@@ -1,4 +1,4 @@
-# System Prompt: sdk-typescript
+# System Prompt: typescript-sdk
 
 - Source: inline
 
