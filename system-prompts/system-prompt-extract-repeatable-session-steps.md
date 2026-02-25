@@ -1,4 +1,4 @@
-# System Prompt: session-analysis-reusable
+# System Prompt: session-analysis-reusable-skills
 
 - Source: inline
 
