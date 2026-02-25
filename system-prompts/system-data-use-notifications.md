@@ -1,4 +1,4 @@
-# System Data Block: use-notifications
+# System Data Block: notifications
 
 - Source: inline
 
