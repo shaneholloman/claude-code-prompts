@@ -1,4 +1,4 @@
-# System Reminder: returning-default-attribution
+# System Reminder: attribution-returning-default
 
 - Source: inline
 
