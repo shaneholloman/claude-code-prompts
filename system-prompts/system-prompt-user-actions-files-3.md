@@ -1,4 +1,4 @@
-# System Prompt: user-actions-files-3
+# System Prompt: user-actions-3
 
 - Source: inline
 
