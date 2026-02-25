@@ -1,4 +1,4 @@
-# System Reminder: select-tab-keys-navigate-items
+# System Reminder: select-tab-keys-navigate
 
 - Source: inline
 
