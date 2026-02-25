@@ -1,4 +1,4 @@
-# System Reminder: ready-env-session-color
+# System Reminder: bridge-repl-ready-env-session
 
 - Source: inline
 
