@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-teardown-complete
+# System Reminder: teardown-complete
 
 - Source: inline
 
