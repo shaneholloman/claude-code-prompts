@@ -1,4 +1,4 @@
-# System Prompt: select-useful-memories-for-query
+# System Prompt: selecting-useful-memories
 
 - Source: inline
 
