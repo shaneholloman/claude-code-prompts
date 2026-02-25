@@ -1,4 +1,4 @@
-# System Reminder: continue-working-with-cd-command
+# System Reminder: continue-working-directory
 
 - Source: inline
 
