@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-maximum-runtime-reached
+# System Reminder: maximum-runtime-reached
 
 - Source: inline
 
