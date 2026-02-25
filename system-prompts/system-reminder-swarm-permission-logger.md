@@ -1,4 +1,4 @@
-# System Reminder: swarm-permission-logger
+# System Reminder: unregistered-callback-logger
 
 - Source: inline
 
