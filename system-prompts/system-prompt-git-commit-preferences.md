@@ -1,4 +1,4 @@
-# System Prompt: git-commit-best-practices
+# System Prompt: git-commit-destructive-operations
 
 - Source: inline
 
