@@ -1,4 +1,4 @@
-# System Reminder: pr-attribution-claudepercent
+# System Reminder: attribution-claudepercent-data
 
 - Source: inline
 
