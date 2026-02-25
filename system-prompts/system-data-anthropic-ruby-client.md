@@ -1,4 +1,4 @@
-# System Data Block: ruby-api-client
+# System Data Block: ruby-client-for-api
 
 - Source: inline
 
