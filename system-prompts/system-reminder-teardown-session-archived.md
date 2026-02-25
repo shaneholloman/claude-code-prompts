@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-teardown-session-archived
+# System Reminder: teardown-session-archived
 
 - Source: inline
 
