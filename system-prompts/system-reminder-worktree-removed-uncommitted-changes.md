@@ -4,7 +4,7 @@
 
 ## Summary
 
-Worktree removed with discarded commits and changes.
+Worktree removed, commits and uncommitted changes discarded.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,6 +12,7 @@ Worktree removed with discarded commits and changes.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Worktree removed. ${EXPR_1} commits and uncommitted changes were discarded.${EXPR_2}
+Worktree removed. ${EXPR_1} commits and uncommitted changes were discarded.${EXPR_2}${EXPR_3}
