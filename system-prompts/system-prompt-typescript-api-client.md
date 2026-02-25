@@ -1,4 +1,4 @@
-# System Prompt: typescript-client-initialization-example
+# System Prompt: typescript-client-initialization
 
 - Source: inline
 
