@@ -1,4 +1,4 @@
-# System Prompt: anthropic-sdk-usage
+# System Prompt: anthropic-sdk-integration
 
 - Source: inline
 
