@@ -1,4 +1,4 @@
-# System Reminder: ssh-config-check
+# System Reminder: ssh-config-check-configured
 
 - Source: inline
 
