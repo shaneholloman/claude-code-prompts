@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-post-request-2
+# System Reminder: bridge-api-post-path-2
 
 - Source: inline
 
