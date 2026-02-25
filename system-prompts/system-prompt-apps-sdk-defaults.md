@@ -1,4 +1,4 @@
-# System Prompt: apps-sdk-defaults
+# System Prompt: building-apps-with
 
 - Source: inline
 
