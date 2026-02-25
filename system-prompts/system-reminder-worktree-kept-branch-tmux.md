@@ -1,4 +1,4 @@
-# System Reminder: worktree-kept-tmux-session-terminated
+# System Reminder: worktree-kept-tmux-session
 
 - Source: inline
 
