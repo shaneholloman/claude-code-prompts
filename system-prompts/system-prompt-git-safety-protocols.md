@@ -1,4 +1,4 @@
-# System Prompt: git-safety-protocols
+# System Prompt: git-user-safety-protocol
 
 - Source: inline
 
