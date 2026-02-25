@@ -1,4 +1,4 @@
-# System Reminder: merge-base-failed-head-only
+# System Reminder: merge-base-failed
 
 - Source: inline
 
