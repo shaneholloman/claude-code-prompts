@@ -1,4 +1,4 @@
-# System Reminder: detect-file-encoding-failed
+# System Reminder: detectfileencoding-failed
 
 - Source: inline
 
