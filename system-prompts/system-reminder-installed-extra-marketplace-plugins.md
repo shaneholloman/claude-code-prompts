@@ -1,4 +1,4 @@
-# System Reminder: installed-plugins-headless
+# System Reminder: install-plugins-installed-marketplace
 
 - Source: inline
 
