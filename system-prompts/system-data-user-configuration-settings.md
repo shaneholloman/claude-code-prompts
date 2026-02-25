@@ -1,4 +1,4 @@
-# System Data Block: user-configuration-stream
+# System Data Block: user-configuration-json-stream
 
 - Source: inline
 
