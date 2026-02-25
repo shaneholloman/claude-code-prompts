@@ -1,4 +1,4 @@
-# System Data Block: disabled-plugins-error-report
+# System Data Block: disabled-plugins-error-handling
 
 - Source: inline
 
