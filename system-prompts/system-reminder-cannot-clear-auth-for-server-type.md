@@ -1,4 +1,4 @@
-# System Reminder: cannot-clear-auth-server
+# System Reminder: cannot-clear-auth-server-type
 
 - Source: inline
 
