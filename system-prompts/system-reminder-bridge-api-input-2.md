@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-input-2
+# System Reminder: bridge-api-2
 
 - Source: inline
 
