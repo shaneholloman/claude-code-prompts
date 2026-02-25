@@ -1,4 +1,4 @@
-# System Prompt: run-commands
+# System Prompt: command-execution
 
 - Source: inline
 
