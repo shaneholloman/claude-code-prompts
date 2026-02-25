@@ -1,4 +1,4 @@
-# System Reminder: skipping-http-hook-not-supported
+# System Reminder: skipping-http-hook-supported
 
 - Source: inline
 
