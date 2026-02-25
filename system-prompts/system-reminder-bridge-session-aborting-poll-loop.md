@@ -1,4 +1,4 @@
-# System Reminder: aborting-poll-loop
+# System Reminder: session-aborting-poll-loop
 
 - Source: inline
 
