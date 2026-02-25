@@ -6,5 +6,11 @@
 
 Shows that an image is attached to the item.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
-${NUM} (Image attached)
+${EXPR_1} (Image attached)
