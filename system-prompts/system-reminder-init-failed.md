@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-init-failed
+# System Reminder: init-failed
 
 - Source: inline
 
