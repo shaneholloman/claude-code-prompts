@@ -1,4 +1,4 @@
-# System Reminder: background-agents-killed
+# System Reminder: background-agents-killed-user
 
 - Source: inline
 
