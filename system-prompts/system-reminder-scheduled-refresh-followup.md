@@ -1,4 +1,4 @@
-# System Reminder: scheduled-follow-refresh
+# System Reminder: scheduled-refresh-followup
 
 - Source: inline
 
