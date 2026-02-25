@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-post-archived
+# System Reminder: bridge-api-post-already-archived
 
 - Source: inline
 
