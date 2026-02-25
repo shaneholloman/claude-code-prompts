@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-teardown-deregister-failed
+# System Reminder: teardown-deregister-failed
 
 - Source: inline
 
