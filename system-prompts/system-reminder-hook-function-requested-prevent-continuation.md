@@ -1,4 +1,4 @@
-# System Reminder: hook-function-requested-prevent
+# System Reminder: hook-function-requested-prevent-continuation
 
 - Source: inline
 
