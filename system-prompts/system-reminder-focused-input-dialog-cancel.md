@@ -1,4 +1,4 @@
-# System Reminder: focused-input-dialog-permission
+# System Reminder: worker-sandbox-permission-cancel
 
 - Source: inline
 
