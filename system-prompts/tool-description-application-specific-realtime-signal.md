@@ -1,6 +1,6 @@
 # Tool Description: application-specific-realtime-signal
 
-- Name: SIGRThttps:1
+- Name: SIGRTinherit1
 
 ## Summary
 
