@@ -12,6 +12,7 @@ Marketplace command name and path missing at expected location for given entry.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Command path ${NUM} from marketplace entry not found at ${EXPR_1} for ${EXPR_2}
+Command path ${EXPR_1} from marketplace entry not found at ${EXPR_2} for ${EXPR_3}
