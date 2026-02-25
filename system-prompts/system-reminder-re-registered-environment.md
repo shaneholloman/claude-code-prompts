@@ -1,4 +1,4 @@
-# System Reminder: environment-re-registered
+# System Reminder: re-registered-environment
 
 - Source: inline
 
