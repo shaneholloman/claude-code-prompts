@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-reconnect-exhausted
+# System Reminder: reconnect-exhausted-falling-back
 
 - Source: inline
 
