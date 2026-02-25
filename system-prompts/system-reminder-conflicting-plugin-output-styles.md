@@ -10,7 +10,7 @@ Notes multiple plugins forced different output styles and selects one to use.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | comma-separated list of names | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
