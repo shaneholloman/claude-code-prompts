@@ -1,4 +1,4 @@
-# System Prompt: git-commit-preferences
+# System Prompt: git-commit-best-practices
 
 - Source: inline
 
