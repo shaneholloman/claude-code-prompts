@@ -1,4 +1,4 @@
-# System Reminder: token-refresh-skipped
+# System Reminder: dorefresh-sessionid
 
 - Source: inline
 
