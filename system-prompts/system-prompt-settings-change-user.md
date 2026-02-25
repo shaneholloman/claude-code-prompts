@@ -1,4 +1,4 @@
-# System Prompt: user-settings-change
+# System Prompt: settings-change-command
 
 - Source: inline
 
