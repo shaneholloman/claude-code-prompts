@@ -1,4 +1,4 @@
-# System Reminder: sessionid-null-timed-out
+# System Reminder: bridge-session-timed-out
 
 - Source: inline
 
