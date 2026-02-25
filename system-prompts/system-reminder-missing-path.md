@@ -13,6 +13,7 @@ Report a manifest-declared skill path missing at the expected location for a tar
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Skill path ${EXPR_1} specified in manifest but not found at ${EXPR_2} for ${EXPR_3}
+Skill path ${EXPR_1}${EXPR_2} specified in manifest but not found at ${EXPR_3} for ${EXPR_4}
