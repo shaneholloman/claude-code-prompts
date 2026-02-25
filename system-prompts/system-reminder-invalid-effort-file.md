@@ -1,4 +1,4 @@
-# System Reminder: invalid-effort-file
+# System Reminder: invalid-effort-value
 
 - Source: inline
 
