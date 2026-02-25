@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-teardown-archive-failed
+# System Reminder: teardown-archive-failed
 
 - Source: inline
 
