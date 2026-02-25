@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-control-response-handler
+# System Reminder: no-handler-for-control-response
 
 - Source: inline
 
