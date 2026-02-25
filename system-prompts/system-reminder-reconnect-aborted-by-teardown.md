@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-reconnect-aborted-teardown
+# System Reminder: reconnect-aborted-by-teardown
 
 - Source: inline
 
