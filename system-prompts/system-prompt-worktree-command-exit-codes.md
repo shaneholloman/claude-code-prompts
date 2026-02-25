@@ -1,4 +1,4 @@
-# System Prompt: worktree-path-exit
+# System Prompt: worktree-command-exit
 
 - Source: inline
 
