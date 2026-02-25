@@ -1,4 +1,4 @@
-# System Data Block: api-php-integration
+# System Data Block: php-sdk-anthropic-api
 
 - Source: inline
 
