@@ -1,4 +1,4 @@
-# System Reminder: environment-re-registration-limit
+# System Reminder: bridge-repl-environment-registration-limit
 
 - Source: inline
 
