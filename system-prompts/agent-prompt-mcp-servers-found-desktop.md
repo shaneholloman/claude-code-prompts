@@ -1,10 +1,10 @@
 # Agent Prompt: mcp-servers-found-desktop
 
-- Agent Type: ANTHROPIC_API_KEY
+- Agent Type: null
 - When to use: unknown
-- Model: 3000
+- Model: 1
 - Source: plugin
-- Color: https:
+- Color: 1
 
 ## Summary
 
