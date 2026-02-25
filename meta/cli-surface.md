@@ -1162,8 +1162,8 @@
 - `worktree_path`
 - `worktreeBranch`
 - `worktreePath`
-- `wR`
 - `ws_url`
+- `zR`
 
 ## Tools
 
