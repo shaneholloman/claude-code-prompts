@@ -1,4 +1,4 @@
-# System Reminder: bridge-work-skipping-completed-work
+# System Reminder: bridge-work-skipping-completed
 
 - Source: inline
 
