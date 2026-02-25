@@ -1,4 +1,4 @@
-# System Reminder: compact-streaming-failed-after
+# System Reminder: compact-streaming-failed-pid
 
 - Source: inline
 
