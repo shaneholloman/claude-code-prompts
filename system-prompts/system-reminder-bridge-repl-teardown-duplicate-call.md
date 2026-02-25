@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-teardown-duplicate-call
+# System Reminder: teardown-already-in-progress
 
 - Source: inline
 
