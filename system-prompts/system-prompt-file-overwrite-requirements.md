@@ -1,4 +1,4 @@
-# System Prompt: file-existing-read
+# System Prompt: file-writing-requirements
 
 - Source: inline
 
