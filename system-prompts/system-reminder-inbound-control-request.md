@@ -1,4 +1,4 @@
-# System Reminder: inbound-control-request
+# System Reminder: bridge-repl-inbound-control-request
 
 - Source: inline
 
