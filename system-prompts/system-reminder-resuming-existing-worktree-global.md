@@ -1,4 +1,4 @@
-# System Reminder: resuming-existing-worktree-global
+# System Reminder: resuming-existing-worktree
 
 - Source: inline
 
