@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-stopwork-failed
+# System Reminder: stopwork-failed
 
 - Source: inline
 
