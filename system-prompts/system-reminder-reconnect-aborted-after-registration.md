@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-reconnect-aborted-registration
+# System Reminder: reconnect-aborted-after-registration
 
 - Source: inline
 
