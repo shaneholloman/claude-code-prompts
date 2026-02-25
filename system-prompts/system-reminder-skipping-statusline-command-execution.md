@@ -1,4 +1,4 @@
-# System Reminder: skipping-statusline-execution
+# System Reminder: skipping-statusline-command-execution
 
 - Source: inline
 
