@@ -1,4 +1,4 @@
-# System Prompt: sdk-patterns-python-2
+# System Prompt: async-query-with-sdk
 
 - Source: inline
 
