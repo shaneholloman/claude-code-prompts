@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-transport-permanently-closed
+# System Reminder: transport-permanently-closed
 
 - Source: inline
 
