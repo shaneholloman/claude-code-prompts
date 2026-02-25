@@ -1,4 +1,4 @@
-# System Reminder: archiving-sessions
+# System Reminder: archiving-session
 
 - Source: inline
 
