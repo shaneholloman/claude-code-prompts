@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-created-session-color
+# System Reminder: re-created-session-color
 
 - Source: inline
 
