@@ -1,4 +1,4 @@
-# System Prompt: typescript-message-request
+# System Prompt: api-typescript-integration
 
 - Source: inline
 
