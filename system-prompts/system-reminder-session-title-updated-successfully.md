@@ -1,4 +1,4 @@
-# System Reminder: session-title-updated-successfully
+# System Reminder: bridge-session-title-updated-successfully
 
 - Source: inline
 
