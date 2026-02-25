@@ -1,4 +1,4 @@
-# System Reminder: environment-registration-failed
+# System Reminder: environment-re-registration-failed
 
 - Source: inline
 
