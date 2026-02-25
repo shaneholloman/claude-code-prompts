@@ -1,4 +1,4 @@
-# System Prompt: typescript-sdk
+# System Prompt: typescript-sdk-usage
 
 - Source: inline
 
