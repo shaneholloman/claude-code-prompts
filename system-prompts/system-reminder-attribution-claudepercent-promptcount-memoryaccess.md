@@ -1,4 +1,4 @@
-# System Reminder: pr-attribution-claudepercent-promptcount
+# System Reminder: pr-attribution-claudepercent
 
 - Source: inline
 
