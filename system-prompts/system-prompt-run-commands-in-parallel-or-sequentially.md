@@ -1,4 +1,4 @@
-# System Prompt: run-commands-with-calls
+# System Prompt: run-commands-sequentially
 
 - Source: inline
 
