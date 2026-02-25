@@ -1,4 +1,4 @@
-# System Reminder: streaming-completed-suggestion-stall
+# System Reminder: streaming-suggestion-stall
 
 - Source: inline
 
