@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-ingress-control-response
+# System Reminder: ingress-control-response
 
 - Source: inline
 
