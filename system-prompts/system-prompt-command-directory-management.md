@@ -1,4 +1,4 @@
-# System Prompt: directory-command-usage
+# System Prompt: command-directory-paths
 
 - Source: inline
 
