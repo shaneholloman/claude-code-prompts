@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-teardown-poll-loop
+# System Reminder: teardown-poll-loop-aborted
 
 - Source: inline
 
