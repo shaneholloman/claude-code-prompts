@@ -1,4 +1,4 @@
-# System Prompt: typescript-client-initialization
+# System Prompt: typescript-message-request
 
 - Source: inline
 
