@@ -1,4 +1,4 @@
-# System Prompt: api-typescript-integration
+# System Prompt: typescript-api-client
 
 - Source: inline
 
