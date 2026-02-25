@@ -1,4 +1,4 @@
-# System Reminder: continue-working-directory
+# System Reminder: continue-working-command
 
 - Source: inline
 
