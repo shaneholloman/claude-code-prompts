@@ -1,4 +1,4 @@
-# System Prompt: git-commit-destructive-operations
+# System Prompt: git-commit-preference
 
 - Source: inline
 
