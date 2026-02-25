@@ -1,4 +1,4 @@
-# System Reminder: tab-keys-navigate
+# System Reminder: tab-keys-to-navigate
 
 - Source: inline
 
