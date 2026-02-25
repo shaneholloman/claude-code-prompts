@@ -1,4 +1,4 @@
-# System Prompt: typescript-sdk-usage
+# System Prompt: sdk-query-example
 
 - Source: inline
 
