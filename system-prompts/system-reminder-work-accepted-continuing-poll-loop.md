@@ -1,4 +1,4 @@
-# System Reminder: work-accepted-continuing
+# System Reminder: work-accepted-continuing-poll-loop
 
 - Source: inline
 
