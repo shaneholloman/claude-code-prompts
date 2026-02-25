@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-skipping-allow-remote
+# System Reminder: skipping-allow-remote-sessions
 
 - Source: inline
 
