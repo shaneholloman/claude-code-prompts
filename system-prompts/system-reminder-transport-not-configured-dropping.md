@@ -1,4 +1,4 @@
-# System Reminder: transport-not-configured-dropping
+# System Reminder: bridge-repl-transport-configured-dropping
 
 - Source: inline
 
