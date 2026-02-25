@@ -1,4 +1,4 @@
-# System Reminder: bridge-cannot-respond-control
+# System Reminder: cannot-respond-control
 
 - Source: inline
 
