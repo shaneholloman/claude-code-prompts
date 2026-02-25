@@ -1,4 +1,4 @@
-# System Reminder: reconnect-exhausted-falling-back
+# System Reminder: reconnect-exhausted-fallback
 
 - Source: inline
 
