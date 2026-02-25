@@ -1,4 +1,4 @@
-# System Reminder: bridge-reconnected-after-poll
+# System Reminder: bridge-poll-reconnected-after
 
 - Source: inline
 
