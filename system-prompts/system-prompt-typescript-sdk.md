@@ -1,4 +1,4 @@
-# System Prompt: sdk-query-example
+# System Prompt: sdk-typescript
 
 - Source: inline
 
