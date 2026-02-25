@@ -1,4 +1,4 @@
-# System Prompt: command-directory-management
+# System Prompt: commands-directory-paths
 
 - Source: inline
 
