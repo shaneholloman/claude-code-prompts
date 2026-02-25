@@ -1,4 +1,4 @@
-# System Reminder: tmpdir-sandbox-temporary-files-2
+# System Reminder: tmpdir-sandbox-usage-2
 
 - Source: inline
 
