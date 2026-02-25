@@ -1,4 +1,4 @@
-# System Reminder: bridge-perm-sessionid-request
+# System Reminder: sessionid-request
 
 - Source: inline
 
