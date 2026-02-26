@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-post-path-environment
+# System Reminder: bridge-api-post-path-env
 
 - Source: inline
 
