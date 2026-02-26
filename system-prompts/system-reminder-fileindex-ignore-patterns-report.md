@@ -1,4 +1,4 @@
-# System Reminder: fileindex-ignore-patterns-report
+# System Reminder: fileindex-ignore-patterns-applied
 
 - Source: inline
 
