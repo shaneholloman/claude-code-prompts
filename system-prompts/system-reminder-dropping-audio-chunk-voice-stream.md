@@ -1,4 +1,4 @@
-# System Reminder: dropping-audio-chunk-voice-stream
+# System Reminder: dropping-audio-chunk
 
 - Source: inline
 
