@@ -1,4 +1,4 @@
-# System Reminder: dorefresh-sessionid-stale
+# System Reminder: token-dorefresh-stale
 
 - Source: inline
 
