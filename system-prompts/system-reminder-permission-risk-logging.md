@@ -1,4 +1,4 @@
-# System Reminder: permission-risk-logging
+# System Reminder: permission-risk-latency-logs
 
 - Source: inline
 
