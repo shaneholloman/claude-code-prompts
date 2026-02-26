@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-hook-waiting-previous-teardown
+# System Reminder: bridge-repl-hook-waiting-previous
 
 - Source: inline
 
