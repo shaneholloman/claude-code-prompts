@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-token-refreshed
+# System Reminder: bridge-api-token-retrying
 
 - Source: inline
 
