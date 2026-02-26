@@ -1,4 +1,4 @@
-# System Reminder: session-capped-to-24h
+# System Reminder: session-capped-24h-namespace
 
 - Source: inline
 
