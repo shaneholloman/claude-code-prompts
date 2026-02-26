@@ -1,4 +1,4 @@
-# System Reminder: failed-calculate-repo-text-size
+# System Reminder: failed-calculate-repo-text
 
 - Source: inline
 
