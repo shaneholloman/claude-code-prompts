@@ -1,4 +1,4 @@
-# System Data Block: bash-git-commands
+# System Data Block: bash-commands-reference
 
 - Source: inline
 
