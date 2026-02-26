@@ -1,4 +1,4 @@
-# System Reminder: accumulated-final-transcript
+# System Reminder: voice-accumulated-final-transcript
 
 - Source: inline
 
