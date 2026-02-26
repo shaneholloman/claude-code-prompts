@@ -1,4 +1,4 @@
-# System Reminder: voice-focus-gained-starting-recording
+# System Reminder: voice-focus-gained-starting
 
 - Source: inline
 
