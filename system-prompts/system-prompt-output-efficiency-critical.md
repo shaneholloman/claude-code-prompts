@@ -1,4 +1,4 @@
-# System Prompt: output-efficiency-critique
+# System Prompt: output-efficiency-critical
 
 - Source: inline
 
