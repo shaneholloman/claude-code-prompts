@@ -6,3 +6,8 @@ places.yaml
 # Places - generated environments
 .env.prod
 .env
+
+# Local screenshots / temporary captures (never commit)
+Screenshot *.png
+**/Screenshot *.png
+**/NSIRD_screencaptureui_*/
