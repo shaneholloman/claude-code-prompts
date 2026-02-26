@@ -1,4 +1,4 @@
-# System Reminder: removed-hook-worktree
+# System Reminder: removed-hook-based
 
 - Source: inline
 
