@@ -1,4 +1,4 @@
-# System Prompt: finish-plan-with-provided-answers
+# System Prompt: finish-plan-with-user-answers
 
 - Source: inline
 
