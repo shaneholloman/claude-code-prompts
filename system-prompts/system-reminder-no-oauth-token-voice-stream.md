@@ -1,4 +1,4 @@
-# System Reminder: no-oauth-token-voice-stream
+# System Reminder: no-oauth-token
 
 - Source: inline
 
