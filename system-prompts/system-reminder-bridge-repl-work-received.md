@@ -1,4 +1,4 @@
-# System Reminder: bridge-work-received-while
+# System Reminder: bridge-repl-work-received
 
 - Source: inline
 
