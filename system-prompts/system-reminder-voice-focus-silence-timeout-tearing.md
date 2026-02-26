@@ -1,4 +1,4 @@
-# System Reminder: voice-focus-silence-timeout-tearing
+# System Reminder: voice-focus-silence-timeout
 
 - Source: inline
 
