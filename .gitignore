@@ -1,5 +1,6 @@
 
 # Places
+.places/
 .places/keys
 places.yaml
 
@@ -11,3 +12,37 @@ places.yaml
 Screenshot *.png
 **/Screenshot *.png
 **/NSIRD_screencaptureui_*/
+
+# Pipeline / ops internals live in private repo (cchbot-mvp)
+cch*
+Dockerfile
+Dockerfile.*
+docker-compose*.yaml
+deploy.sh
+entrypoint.sh
+start-monitoring.sh
+sync-ccscan-on-server.sh
+prepare-ccscan-tarball.sh
+main.py
+pyproject.toml
+uv.lock
+version_tracker_utils.py
+versions_tracker.json
+rebuild-changelog-repo.py
+
+# Local/private working artifacts
+.cc-flags-cache/
+cc-flags-snapshots/
+cc-scan-data/
+out/
+state/
+prompts/
+.vendor/
+__pycache__/
+claude-code-changelog/
+claude-code-changelog-dev-*/
+claude-code-changelog-prod-*/
+IMPLEMENTATION_PLAN_*.md
+PLAN_*.md
+TODO_*.md
+tweets/
