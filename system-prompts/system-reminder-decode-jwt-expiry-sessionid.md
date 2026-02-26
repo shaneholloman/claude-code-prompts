@@ -1,4 +1,4 @@
-# System Reminder: decode-jwt-expiry-sessionid
+# System Reminder: token-decode-jwt-expiry
 
 - Source: inline
 
