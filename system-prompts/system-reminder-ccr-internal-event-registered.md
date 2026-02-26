@@ -1,4 +1,4 @@
-# System Reminder: ccr-internal-event-registered
+# System Reminder: ccr-internal-event-writer-registered
 
 - Source: inline
 
