@@ -1,4 +1,4 @@
-# System Reminder: voice-onready-flushing-buffered-audio
+# System Reminder: voice-on-ready-flushing-audio
 
 - Source: inline
 
