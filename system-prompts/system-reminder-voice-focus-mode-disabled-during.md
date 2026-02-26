@@ -1,4 +1,4 @@
-# System Reminder: voice-focus-mode-disabled-during
+# System Reminder: voice-focus-mode-disabled
 
 - Source: inline
 
