@@ -1,4 +1,4 @@
-# System Reminder: transcriptendpoint-received
+# System Reminder: voice-stream-transcript-received
 
 - Source: inline
 
