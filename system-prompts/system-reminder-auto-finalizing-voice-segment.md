@@ -1,4 +1,4 @@
-# System Reminder: auto-finalizing-voice-segment
+# System Reminder: auto-finalizing-segment
 
 - Source: inline
 
