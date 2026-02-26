@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-get-workid-type
+# System Reminder: bridge-api-get-workid
 
 - Source: inline
 
