@@ -4,7 +4,7 @@
 
 ## Summary
 
-Guidelines for safely creating git commits.
+Follow strict protocols for creating git commits.
 
 ## Placeholder Hints (source-backed)
 
