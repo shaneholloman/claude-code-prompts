@@ -1,4 +1,4 @@
-# System Reminder: teardown-torn-down
+# System Reminder: torn-down
 
 - Source: inline
 
