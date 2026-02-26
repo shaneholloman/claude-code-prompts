@@ -1,4 +1,4 @@
-# System Reminder: sending-audio-chunk-voice-stream
+# System Reminder: sending-audio-chunk
 
 - Source: inline
 
