@@ -1,4 +1,4 @@
-# System Prompt: commands-with-file-paths-and-timeouts
+# System Prompt: commands-directory-paths-handling
 
 - Source: inline
 
