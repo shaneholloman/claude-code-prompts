@@ -1,4 +1,4 @@
-# System Reminder: bridge-init-created-session
+# System Reminder: bridge-init-initial-session
 
 - Source: inline
 
