@@ -1,4 +1,4 @@
-# System Reminder: oauth-token-refresh-failure
+# System Reminder: token-oauth-refresh-failure
 
 - Source: inline
 
