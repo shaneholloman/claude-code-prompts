@@ -1,4 +1,4 @@
-# System Reminder: promoting-interim-transcript-voice-stream
+# System Reminder: promoting-interim-transcript
 
 - Source: inline
 
