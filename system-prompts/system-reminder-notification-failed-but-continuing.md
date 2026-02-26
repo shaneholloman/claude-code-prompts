@@ -1,4 +1,4 @@
-# System Reminder: notification-failed-but-continuing
+# System Reminder: notification-failed-continuing
 
 - Source: inline
 
