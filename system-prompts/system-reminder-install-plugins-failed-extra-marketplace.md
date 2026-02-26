@@ -1,4 +1,4 @@
-# System Reminder: install-plugins-failed-extra-marketplace
+# System Reminder: install-plugins-for-headless-failed
 
 - Source: inline
 
