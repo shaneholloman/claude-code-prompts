@@ -1,4 +1,4 @@
-# System Reminder: scheduled-token-refresh-expires
+# System Reminder: token-scheduled-refresh-expires
 
 - Source: inline
 
