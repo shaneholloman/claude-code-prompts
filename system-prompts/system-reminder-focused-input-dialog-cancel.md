@@ -1,4 +1,4 @@
-# System Reminder: worker-sandbox-permission-cancel
+# System Reminder: worker-sandbox-permission
 
 - Source: inline
 
