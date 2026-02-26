@@ -1,4 +1,4 @@
-# System Reminder: fast-mode-off-pasted-text
+# System Reminder: fast-mode-off
 
 - Source: inline
 
