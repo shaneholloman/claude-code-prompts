@@ -1,4 +1,4 @@
-# System Reminder: bridge-work-rejecting-foreign
+# System Reminder: bridge-work-rejecting-foreign-session
 
 - Source: inline
 
