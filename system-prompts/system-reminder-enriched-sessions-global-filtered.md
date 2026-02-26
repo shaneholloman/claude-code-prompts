@@ -1,4 +1,4 @@
-# System Reminder: filtered-enriched-sessions
+# System Reminder: enriched-sessions-global-filtered
 
 - Source: inline
 
