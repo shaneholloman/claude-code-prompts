@@ -1,4 +1,4 @@
-# System Reminder: finalize-safety-timeout-voice-stream
+# System Reminder: finalize-safety-timeout
 
 - Source: inline
 
