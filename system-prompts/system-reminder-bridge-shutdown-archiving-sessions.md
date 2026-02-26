@@ -1,4 +1,4 @@
-# System Reminder: bridge-archiving-sessions
+# System Reminder: bridge-shutdown-archiving-sessions
 
 - Source: inline
 
