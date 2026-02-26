@@ -1,4 +1,4 @@
-# System Reminder: sending-initial-keepalive
+# System Reminder: voice-stream-initial-keepalive
 
 - Source: inline
 
