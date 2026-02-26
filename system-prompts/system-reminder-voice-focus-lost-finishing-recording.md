@@ -1,4 +1,4 @@
-# System Reminder: voice-focus-lost-finishing-recording
+# System Reminder: voice-focus-lost-finishing
 
 - Source: inline
 
