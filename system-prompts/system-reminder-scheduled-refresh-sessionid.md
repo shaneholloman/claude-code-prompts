@@ -1,4 +1,4 @@
-# System Reminder: scheduled-refresh-sessionid
+# System Reminder: token-scheduled-follow-refresh
 
 - Source: inline
 
