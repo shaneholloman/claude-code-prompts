@@ -1,4 +1,4 @@
-# System Reminder: loading-sessions-cwd
+# System Reminder: loading-sessions-cwd-worktrees
 
 - Source: inline
 
