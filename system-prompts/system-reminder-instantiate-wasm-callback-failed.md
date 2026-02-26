@@ -1,4 +1,4 @@
-# System Reminder: module-instantiate-wasm-failed
+# System Reminder: module-instantiatewasm-failed
 
 - Source: inline
 
