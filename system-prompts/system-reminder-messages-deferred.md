@@ -1,4 +1,4 @@
-# System Reminder: messages-deferred-use-deferred-value
+# System Reminder: messages-deferred
 
 - Source: inline
 
