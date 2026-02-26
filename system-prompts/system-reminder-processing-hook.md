@@ -1,4 +1,4 @@
-# System Reminder: processing-hook
+# System Reminder: process-hook
 
 - Source: inline
 
