@@ -1,4 +1,4 @@
-# System Reminder: copy-image-to-clipboard
+# System Reminder: a6e8da12
 
 - Source: inline
 
@@ -10,7 +10,7 @@ Load an image from a file path and copy it to Windows clipboard.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | image file path | None |
+| `EXPR_1` | value after fromfile | None |
 
 # Raw Prompt Text
 Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Clipboard]::SetImage([System.Drawing.Image]::FromFile('${EXPR_1}
