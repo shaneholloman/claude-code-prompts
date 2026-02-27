@@ -1,4 +1,4 @@
-# System Prompt: sandbox-required-for-commands
+# System Prompt: c05bf91f
 
 - Source: inline
 
