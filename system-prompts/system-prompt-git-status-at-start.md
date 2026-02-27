@@ -1,4 +1,4 @@
-# System Prompt: git-status-at-start
+# System Prompt: a6ac493a
 
 - Source: inline
 
