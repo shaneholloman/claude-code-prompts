@@ -1,4 +1,4 @@
-# System Reminder: detect-asdf-installation
+# System Reminder: 17ff6387
 
 - Source: inline
 
