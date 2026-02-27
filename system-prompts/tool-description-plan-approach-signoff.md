@@ -1,4 +1,4 @@
-# Tool Description: plan-approach-signoff
+# Tool Description: 43bb3f35
 
 - Name: EnterPlanMode
 
