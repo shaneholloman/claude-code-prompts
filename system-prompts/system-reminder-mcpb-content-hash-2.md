@@ -1,4 +1,4 @@
-# System Reminder: mcpb-content-hash-2
+# System Reminder: 4c1d4a20
 
 - Source: inline
 
