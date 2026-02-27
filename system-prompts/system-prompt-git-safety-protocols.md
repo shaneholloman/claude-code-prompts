@@ -1,4 +1,4 @@
-# System Prompt: git-safety-protocols-user-context
+# System Prompt: 6f164aab
 
 - Source: inline
 
