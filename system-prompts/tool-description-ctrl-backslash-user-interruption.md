@@ -1,4 +1,4 @@
-# Tool Description: ctrl-backslash-user-interruption
+# Tool Description: 18056195
 
 - Name: SIGQUIT
 
