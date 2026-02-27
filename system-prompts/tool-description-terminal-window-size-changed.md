@@ -1,4 +1,4 @@
-# Tool Description: terminal-window-size-changed
+# Tool Description: 0b4b6b1d
 
 - Name: SIGWINCH
 
