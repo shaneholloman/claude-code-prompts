@@ -1,4 +1,4 @@
-# Tool Description: extract-page-raw-text
+# Tool Description: 353d8f0b
 
 - Name: get_page_text
 
