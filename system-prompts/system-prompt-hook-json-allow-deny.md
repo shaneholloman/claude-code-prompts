@@ -1,4 +1,4 @@
-# System Prompt: hook-json-allow-deny
+# System Prompt: 9a007c7e
 
 - Source: inline
 
