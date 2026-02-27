@@ -1,4 +1,4 @@
-# System Prompt: zsh-function-snapshot
+# System Prompt: 9ebc925e
 
 - Source: inline
 
