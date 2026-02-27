@@ -1,4 +1,4 @@
-# System Prompt: summarize-session-transcript
+# System Prompt: eca51bc7
 
 - Source: inline
 
