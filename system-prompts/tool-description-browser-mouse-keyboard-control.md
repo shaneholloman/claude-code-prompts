@@ -1,4 +1,4 @@
-# Tool Description: browser-mouse-keyboard-control
+# Tool Description: 2be18071
 
 - Name: computer
 
