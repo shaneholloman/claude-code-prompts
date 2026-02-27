@@ -1,4 +1,4 @@
-# System Prompt: stop-after-rejection
+# System Prompt: 4a816195
 
 - Source: inline
 
