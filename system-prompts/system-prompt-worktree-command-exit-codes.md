@@ -1,4 +1,4 @@
-# System Prompt: worktree-path-command-exit
+# System Prompt: dd6c2294
 
 - Source: inline
 
