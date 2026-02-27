@@ -1,4 +1,4 @@
-# System Prompt: git-commit-changes-safety
+# System Prompt: 968ad7e0
 
 - Source: inline
 
