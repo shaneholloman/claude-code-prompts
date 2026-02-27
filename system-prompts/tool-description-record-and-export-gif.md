@@ -1,4 +1,4 @@
-# Tool Description: record-and-export-gif
+# Tool Description: 3343ad24
 
 - Name: gif_creator
 
