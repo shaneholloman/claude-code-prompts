@@ -1,4 +1,4 @@
-# Tool Description: execute-page-javascript
+# Tool Description: 2c4dd0d0
 
 - Name: javascript_tool
 
