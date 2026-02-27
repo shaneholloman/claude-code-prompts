@@ -1,4 +1,4 @@
-# System Reminder: manually-removed-worktree-directory
+# System Reminder: ab004ff6
 
 - Source: inline
 
