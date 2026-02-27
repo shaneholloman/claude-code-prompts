@@ -1,4 +1,4 @@
-# System Prompt: catalog-guidelines
+# System Prompt: 6c971a49
 
 - Source: inline
 
