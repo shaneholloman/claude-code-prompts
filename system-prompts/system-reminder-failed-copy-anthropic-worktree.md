@@ -1,4 +1,4 @@
-# System Reminder: failed-copy-anthropic-worktree
+# System Reminder: 6e351925
 
 - Source: inline
 
