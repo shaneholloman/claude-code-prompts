@@ -1,4 +1,4 @@
-# System Reminder: mcpb-manifest-metadata
+# System Reminder: 9778aa09
 
 - Source: inline
 
