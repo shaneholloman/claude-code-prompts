@@ -1,4 +1,4 @@
-# System Prompt: git-commit-preference
+# System Prompt: 802d5505
 
 - Source: inline
 
