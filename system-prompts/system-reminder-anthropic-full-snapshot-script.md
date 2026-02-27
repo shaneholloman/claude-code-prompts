@@ -1,4 +1,4 @@
-# System Reminder: anthropic-full-snapshot-script
+# System Reminder: 73141d9c
 
 - Source: inline
 
