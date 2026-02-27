@@ -1,4 +1,4 @@
-# Agent Prompt: read-only-codebase-search
+# Agent Prompt: 949e2f20
 
 - Agent Type: Explore
 - Model: haiku
