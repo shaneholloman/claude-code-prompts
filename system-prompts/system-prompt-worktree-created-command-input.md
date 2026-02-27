@@ -1,4 +1,4 @@
-# System Prompt: worktree-creation-command
+# System Prompt: ff1823a6
 
 - Source: inline
 
