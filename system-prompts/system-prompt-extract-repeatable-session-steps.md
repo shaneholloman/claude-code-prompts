@@ -1,4 +1,4 @@
-# System Prompt: extract-repeatable-session-steps
+# System Prompt: 1e8586cf
 
 - Source: inline
 
@@ -10,17 +10,17 @@ Extract repeatable workflow from session context, then interview user to formali
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `userDescriptionBlock` | User-provided description header/context for the skillification request | None |
-| `sessionMemory` | Condensed memory summary of the prior session to analyze | None |
-| `userMessages` | Full list or transcript of the user's messages from the session | None |
-| `skill_name` | Alternative skill identifier (often snake_case) used in templates | None |
-| `one_line_description` | Single-sentence/short phrase description of what the skill does | None |
-| `list_of_tool_permission_patterns_observe` | Enumerated tool/permission patterns to watch for while analyzing the session | None |
-| `detailed_description_of_when_Claude_shou` | Detailed criteria describing when Claude should apply or invoke this skill | None |
-| `hint_showing_argument_placeholders` | Example hint text demonstrating how to present argument placeholders to users | None |
-| `list_of_argument_names` | Explicit list of argument names the resulting skill should accept | None |
-| `inline_or_fork_omit_for_inline` | Directive controlling whether to inline steps or fork/omit parts for inline usage | None |
-| `Skill_Title` | Human-friendly display title for the generated skill | None |
+| `userDescriptionBlock` | None | None |
+| `sessionMemory` | None | None |
+| `userMessages` | None | None |
+| `skill_name` | None | None |
+| `one_line_description` | None | None |
+| `list_of_tool_permission_patterns_observe` | None | None |
+| `detailed_description_of_when_Claude_shou` | None | None |
+| `hint_showing_argument_placeholders` | None | None |
+| `list_of_argument_names` | None | None |
+| `inline_or_fork_omit_for_inline` | None | None |
+| `Skill_Title` | None | None |
 
 # Raw Prompt Text
 # Skillify {{userDescriptionBlock}}
