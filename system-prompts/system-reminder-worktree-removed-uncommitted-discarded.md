@@ -1,4 +1,4 @@
-# System Reminder: worktree-removed-uncommitted-changes
+# System Reminder: bc253f9b
 
 - Source: inline
 
