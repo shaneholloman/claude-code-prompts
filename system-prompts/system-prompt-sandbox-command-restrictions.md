@@ -1,4 +1,4 @@
-# System Prompt: sandbox-command-execution
+# System Prompt: 42fa0cd8
 
 - Source: inline
 
