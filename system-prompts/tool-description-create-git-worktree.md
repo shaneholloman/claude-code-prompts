@@ -1,4 +1,4 @@
-# Tool Description: git-worktree-usage
+# Tool Description: 2cd0d0f9
 
 - Name: EnterWorktree
 
