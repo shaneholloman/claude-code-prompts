@@ -1,4 +1,4 @@
-# System Prompt: hooks-configuration-json
+# System Prompt: 6c19f685
 
 - Source: inline
 
