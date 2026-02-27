@@ -1,4 +1,4 @@
-# Tool Description: list-shortcuts-and-workflows
+# Tool Description: c6b1157c
 
 - Name: shortcuts_list
 
