@@ -1,4 +1,4 @@
-# System Prompt: handle-permission-denials
+# System Prompt: 17f3a2d4
 
 - Source: inline
 
