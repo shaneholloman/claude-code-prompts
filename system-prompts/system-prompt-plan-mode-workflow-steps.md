@@ -1,4 +1,4 @@
-# System Prompt: plan-mode-workflow-steps
+# System Prompt: 5b5da634
 
 - Source: inline
 
