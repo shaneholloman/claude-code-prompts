@@ -1,4 +1,4 @@
-# System Prompt: compaction-command-exit-codes
+# System Prompt: a5ce587c
 
 - Source: inline
 
