@@ -1,4 +1,4 @@
-# Tool Description: structured-todo-list
+# Tool Description: a670f0e3
 
 - Name: TodoWrite
 
