@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-invalid-response-format
+# System Reminder: 06fcd3e4
 
 - Source: inline
 
