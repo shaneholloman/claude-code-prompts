@@ -1,4 +1,4 @@
-# Tool Description: run-shortcut-in-sidepanel
+# Tool Description: 20bfac01
 
 - Name: shortcuts_execute
 
