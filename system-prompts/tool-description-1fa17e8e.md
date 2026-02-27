@@ -1,4 +1,4 @@
-# Tool Description: web-search-with-mandatory-sources
+# Tool Description: 1fa17e8e
 
 - Name: WebSearch
 
