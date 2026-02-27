@@ -1,4 +1,4 @@
-# Tool Description: background-process-terminal-read-blocked
+# Tool Description: c59a3f48
 
 - Name: SIGTTIN
 
