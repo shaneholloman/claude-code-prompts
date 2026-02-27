@@ -1,4 +1,4 @@
-# Tool Description: broken-pipe-or-socket
+# Tool Description: b0995e69
 
 - Name: SIGPIPE
 
