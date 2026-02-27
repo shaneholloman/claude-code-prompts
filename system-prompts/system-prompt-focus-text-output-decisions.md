@@ -1,4 +1,4 @@
-# System Prompt: focus-text-output-on-decisions
+# System Prompt: 11d5e8c5
 
 - Source: inline
 
