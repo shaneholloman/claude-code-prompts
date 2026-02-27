@@ -1,4 +1,4 @@
-# System Reminder: mcp-resource-no-displayable-content
+# System Reminder: 3648eb6d
 
 - Source: inline
 
