@@ -1,4 +1,4 @@
-# Tool Description: send-messages-to-teammates
+# Tool Description: e5c3dbe1
 
 - Name: SendMessage
 
