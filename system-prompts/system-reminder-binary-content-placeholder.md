@@ -1,4 +1,4 @@
-# System Reminder: binary-content-placeholder
+# System Reminder: 20f7322d
 
 - Source: inline
 
