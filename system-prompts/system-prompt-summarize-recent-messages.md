@@ -1,4 +1,4 @@
-# System Prompt: summarize-recent-messages
+# System Prompt: bdcf71bc
 
 - Source: inline
 
