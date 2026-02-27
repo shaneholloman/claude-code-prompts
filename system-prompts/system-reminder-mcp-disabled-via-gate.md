@@ -1,4 +1,4 @@
-# System Reminder: mcp-disabled-via-gate
+# System Reminder: 9e1c419e
 
 - Source: inline
 
