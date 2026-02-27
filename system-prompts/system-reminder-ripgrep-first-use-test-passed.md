@@ -1,4 +1,4 @@
-# System Reminder: ripgrep-first-use-test-passed
+# System Reminder: 7f585793
 
 - Source: inline
 
