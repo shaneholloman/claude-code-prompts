@@ -1,4 +1,4 @@
-# Tool Description: ripgrep-search-guidelines
+# Tool Description: 0c500494
 
 - Name: Grep
 
