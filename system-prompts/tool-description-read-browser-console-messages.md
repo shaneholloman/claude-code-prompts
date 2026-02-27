@@ -1,4 +1,4 @@
-# Tool Description: read-browser-console-messages
+# Tool Description: ef952c8b
 
 - Name: read_console_messages
 
