@@ -1,4 +1,4 @@
-# System Reminder: check-plugin-settings-path
+# System Reminder: ba0de64c
 
 - Source: inline
 
