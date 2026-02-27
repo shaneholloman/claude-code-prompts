@@ -1,4 +1,4 @@
-# System Reminder: symlinked-from-main-repository-to-worktree
+# System Reminder: 42e87efe
 
 - Source: inline
 
