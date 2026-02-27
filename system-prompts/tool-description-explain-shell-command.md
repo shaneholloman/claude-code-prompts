@@ -1,4 +1,4 @@
-# Tool Description: explain-shell-command
+# Tool Description: c7df55f5
 
 - Name: explain_command
 
