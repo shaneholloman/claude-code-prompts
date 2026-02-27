@@ -1,4 +1,4 @@
-# System Prompt: output-efficiency-critical
+# System Prompt: 069f49d5
 
 - Source: inline
 
