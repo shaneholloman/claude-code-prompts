@@ -1,4 +1,4 @@
-# Tool Description: socket-out-of-band-data
+# Tool Description: 526991be
 
 - Name: SIGURG
 
