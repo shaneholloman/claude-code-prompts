@@ -1,4 +1,4 @@
-# Tool Description: background-process-terminal-output
+# Tool Description: 916a1930
 
 - Name: SIGTTOU
 
