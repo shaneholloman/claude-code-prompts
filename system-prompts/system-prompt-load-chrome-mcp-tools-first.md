@@ -1,4 +1,4 @@
-# System Prompt: load-chrome-mcp-tools-first
+# System Prompt: 1c4c89a7
 
 - Source: inline
 
