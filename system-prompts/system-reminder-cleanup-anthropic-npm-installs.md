@@ -1,4 +1,4 @@
-# System Reminder: cleanup-anthropic-npm-installs
+# System Reminder: e78d4981
 
 - Source: inline
 
