@@ -1,4 +1,4 @@
-# System Prompt: csharp-sdk-anthropic-api
+# System Prompt: 2e27d67d
 
 - Source: inline
 
