@@ -1,4 +1,4 @@
-# System Reminder: 1be0e978
+# System Reminder: cannot-install-plugins-missing-marketplaces
 
 - Source: inline
 
@@ -10,10 +10,10 @@ Cannot install specified plugins because required marketplaces are missing or no
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 0 | None |
+| `EXPR_1` | 4 | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Cannot install ${EXPR_1: 0} plugins because their marketplaces are not installed or configured: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}
+Cannot install ${EXPR_1: 4} plugins because their marketplaces are not installed or configured: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}
