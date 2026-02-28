@@ -1,4 +1,4 @@
-# System Reminder: 2cece6b5
+# System Reminder: manifest-command-path-not-found
 
 - Source: inline
 
@@ -14,6 +14,8 @@ Warn that a manifest command path was specified but not found for a target.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
-Command ${EXPR_1} path ${EXPR_2} specified in manifest but not found at ${EXPR_3} for ${EXPR_4}
+Command ${EXPR_1} path ${EXPR_2} specified in manifest but not found at ${EXPR_3}${EXPR_4}${EXPR_5} for ${EXPR_6}
