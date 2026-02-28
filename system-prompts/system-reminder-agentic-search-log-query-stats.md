@@ -1,4 +1,4 @@
-# System Reminder: affd1192
+# System Reminder: agentic-search-log-query-stats
 
 - Source: inline
 
