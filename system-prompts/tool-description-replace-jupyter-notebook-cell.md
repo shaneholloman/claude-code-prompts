@@ -1,4 +1,4 @@
-# Tool Description: 0f86ebd4
+# Tool Description: replace-jupyter-notebook-cell
 
 - Name: NotebookEdit
 
