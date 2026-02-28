@@ -1,4 +1,4 @@
-# System Prompt: df5f6c7b
+# System Prompt: json-command-exit-handling
 
 - Source: inline
 
