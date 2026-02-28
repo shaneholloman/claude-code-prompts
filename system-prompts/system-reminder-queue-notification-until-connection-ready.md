@@ -1,4 +1,4 @@
-# System Reminder: a762eb93
+# System Reminder: queue-notification-until-connection-ready
 
 - Source: inline
 
