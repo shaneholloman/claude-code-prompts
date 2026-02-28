@@ -1,4 +1,4 @@
-# System Reminder: 03ed09f5
+# System Reminder: skip-hook-untrusted-workspace
 
 - Source: inline
 
