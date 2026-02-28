@@ -1,4 +1,4 @@
-# System Prompt: 14e05699
+# System Prompt: handle-truncated-output
 
 - Source: inline
 
