@@ -1,4 +1,4 @@
-# System Reminder: 499f994b
+# System Reminder: load-skills-from-paths
 
 - Source: inline
 
