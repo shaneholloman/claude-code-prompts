@@ -1,4 +1,4 @@
-# System Reminder: beb9a200
+# System Reminder: remote-settings-cache-delete-failed
 
 - Source: inline
 
