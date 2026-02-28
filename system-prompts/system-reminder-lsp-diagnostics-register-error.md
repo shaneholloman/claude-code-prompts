@@ -1,4 +1,4 @@
-# System Reminder: 38a685ac
+# System Reminder: lsp-diagnostics-register-error
 
 - Source: inline
 
