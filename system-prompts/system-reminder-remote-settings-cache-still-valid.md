@@ -1,4 +1,4 @@
-# System Reminder: 1d7d228d
+# System Reminder: remote-settings-cache-still-valid
 
 - Source: inline
 
