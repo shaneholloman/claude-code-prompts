@@ -1,4 +1,4 @@
-# System Reminder: bab6de99
+# System Reminder: follow-invoked-skills-guidelines
 
 - Source: inline
 
