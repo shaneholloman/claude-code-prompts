@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 25
-- Options: 62
-- Env vars: 419
-- Config keys: 554
+- Options: 63
+- Env vars: 421
+- Config keys: 587
 - Tools: 3
 - Skills: 0
-- Models: 92
+- Models: 91
 - Providers: 8
 
 ## Commands
@@ -121,6 +121,7 @@
 - `--session-id`
 - `--setting-sources`
 - `--settings`
+- `--sparse`
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
@@ -173,9 +174,11 @@
 - `--no-session-persistence`
 - `--plugin-dir <paths...>`
 - `--replay-user-messages`
+- `--scope <scope>`
 - `--session-id <uuid>`
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
+- `--sparse <paths...>`
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
@@ -355,6 +358,7 @@
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
 - `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS`
+- `CLAUDE_CODE_PLUGIN_SEED_DIR`
 - `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
@@ -446,6 +450,7 @@
 - `EDITOR`
 - `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CLAUDE_CODE_SM_COMPACT`
+- `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
 - `ENABLE_PROMPT_CACHING_1H_BEDROCK`
@@ -621,6 +626,8 @@
 - `$docs`
 - `$schema`
 - `A`
+- `account`
+- `action`
 - `activeForm`
 - `added`
 - `additionalContext`
@@ -639,6 +646,7 @@
 - `allowed`
 - `allowedDomains`
 - `allowedEnvVars`
+- `allowedHttpHookUrls`
 - `allowedMcpServers`
 - `allowedTools`
 - `allowGitConfig`
@@ -656,6 +664,7 @@
 - `answers`
 - `apiKeyHelper`
 - `apiKeySource`
+- `appendSystemPrompt`
 - `appliedLimit`
 - `appliedOffset`
 - `applyPath`
@@ -673,6 +682,7 @@
 - `autoMemoryEnabled`
 - `autoUpdate`
 - `autoUpdatesChannel`
+- `available_output_styles`
 - `availableModels`
 - `awaitingLeaderApproval`
 - `awsAuthRefresh`
@@ -687,6 +697,7 @@
 - `behavior`
 - `betas`
 - `bindings`
+- `blocked_path`
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
@@ -700,6 +711,7 @@
 - `cache_read_input_tokens`
 - `cacheCreationInputTokens`
 - `cacheReadInputTokens`
+- `callback_id`
 - `callbackPort`
 - `canReadOutputFile`
 - `canRewind`
@@ -740,6 +752,7 @@
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
+- `decision_reason`
 - `default_branch`
 - `defaultEnvironmentId`
 - `defaultMode`
@@ -763,6 +776,7 @@
 - `displayName`
 - `displayWidth`
 - `domains`
+- `dry_run`
 - `duration_api_ms`
 - `duration_ms`
 - `durationMs`
@@ -773,6 +787,7 @@
 - `edits`
 - `effort`
 - `elapsed_time_seconds`
+- `elicitation_id`
 - `email`
 - `enableAllProjectMcpServers`
 - `enabled`
@@ -797,6 +812,7 @@
 - `extensions`
 - `extraKnownMarketplaces`
 - `failed`
+- `fast_mode_state`
 - `fastMode`
 - `fastModePerSessionOptIn`
 - `feedback`
@@ -818,7 +834,6 @@
 - `forceLoginOrgUUID`
 - `forceRemoveDeletedPlugins`
 - `format`
-- `fR`
 - `from`
 - `getOAuthToken`
 - `getUserId`
@@ -834,10 +849,12 @@
 - `hook_event_name`
 - `hook_id`
 - `hook_name`
+- `hookCallbackIds`
 - `hookEventName`
 - `hooks`
 - `hookSpecificOutput`
 - `hostPattern`
+- `httpHookAllowedEnvVars`
 - `httpMethodsToRetry`
 - `httpProxyPort`
 - `id`
@@ -865,6 +882,8 @@
 - `isolation`
 - `isSynthetic`
 - `isUsingOverage`
+- `jsonSchema`
+- `key`
 - `keywords`
 - `label`
 - `language`
@@ -887,10 +906,12 @@
 - `matcherMetadata`
 - `matches`
 - `max_results`
+- `max_thinking_tokens`
 - `max_turns`
 - `maxOutputTokens`
 - `maxTurns`
 - `mcp_response`
+- `mcp_server_name`
 - `mcp_servers`
 - `mcpServers`
 - `media_type`
@@ -903,6 +924,7 @@
 - `mitmProxy`
 - `mode`
 - `model`
+- `models`
 - `modelUsage`
 - `multiSelect`
 - `name`
@@ -964,6 +986,7 @@
 - `patch`
 - `path`
 - `pending_mcp_servers`
+- `pending_permission_requests`
 - `permission_denials`
 - `permission_mode`
 - `permission_suggestions`
@@ -975,6 +998,7 @@
 - `permissionUpdates`
 - `persistedOutputPath`
 - `persistedOutputSize`
+- `pid`
 - `plan`
 - `planContent`
 - `planFilePath`
@@ -992,7 +1016,9 @@
 - `projectPath`
 - `projectSettings`
 - `prompt`
+- `prompt_response`
 - `promptSuggestionEnabled`
+- `promptSuggestions`
 - `query`
 - `question`
 - `questions`
@@ -1012,7 +1038,9 @@
 - `replaceAll`
 - `repo`
 - `repository`
+- `request`
 - `request_id`
+- `requested_schema`
 - `requestHandler`
 - `requestId`
 - `required`
@@ -1020,6 +1048,7 @@
 - `resolvedAt`
 - `resolvedBy`
 - `respectGitignore`
+- `response`
 - `restrictions`
 - `result`
 - `resultCount`
@@ -1036,13 +1065,17 @@
 - `sandbox`
 - `schema`
 - `scope`
+- `sdkMcpServers`
 - `seccomp`
+- `selected`
 - `selection`
 - `server`
+- `server_name`
 - `server_tool_use`
 - `serverCommand`
 - `serverInfo`
 - `serverName`
+- `servers`
 - `serverUrl`
 - `service_tier`
 - `session_id`
@@ -1061,6 +1094,7 @@
 - `socketPath`
 - `socksProxyPort`
 - `source`
+- `sparsePaths`
 - `spinnerTipsEnabled`
 - `spinnerTipsOverride`
 - `spinnerVerbs`
@@ -1098,6 +1132,7 @@
 - `symlinkDirectories`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
+- `systemPrompt`
 - `tabId`
 - `task`
 - `task_description`
@@ -1148,15 +1183,18 @@
 - `updatedInput`
 - `updatedMCPToolOutput`
 - `updatedPermissions`
+- `uR`
 - `uri`
 - `url`
 - `usage`
+- `user_message_id`
 - `userId`
 - `userModified`
 - `userSettings`
 - `utilization`
 - `uuid`
 - `value`
+- `variables`
 - `verbs`
 - `version`
 - `w`
@@ -1271,7 +1309,6 @@ _None detected_
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4.6-available`
-- `opus-46-upgrade-nudge`
 - `opus-pro-update`
 - `sonnet-3-7`
 - `sonnet-4`
