@@ -1,4 +1,4 @@
-# System Reminder: 2dee31c2
+# System Reminder: current-branch-after-checkout
 
 - Source: inline
 
