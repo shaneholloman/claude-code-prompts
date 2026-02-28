@@ -1,4 +1,4 @@
-# System Prompt: 5ba4ea98
+# System Prompt: bash-command-prefix-risk-policy
 
 - Source: inline
 
