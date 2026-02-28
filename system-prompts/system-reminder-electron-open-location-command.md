@@ -1,4 +1,4 @@
-# System Reminder: 7644e3e3
+# System Reminder: electron-open-location-command
 
 - Source: inline
 
