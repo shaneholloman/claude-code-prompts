@@ -1,4 +1,4 @@
-# System Reminder: 9bd95599
+# System Reminder: create-default-shell-config-snapshot
 
 - Source: inline
 
