@@ -1,4 +1,4 @@
-# System Reminder: 31ff2faa
+# System Reminder: startup-show-setup-screens-completed
 
 - Source: inline
 
