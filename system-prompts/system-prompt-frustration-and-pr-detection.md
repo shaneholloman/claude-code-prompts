@@ -1,4 +1,4 @@
-# System Prompt: fbc53bcc
+# System Prompt: frustration-and-pr-detection
 
 - Source: inline
 
