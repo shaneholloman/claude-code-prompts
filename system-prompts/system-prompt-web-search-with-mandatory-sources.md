@@ -1,4 +1,4 @@
-# System Prompt: 1fa17e8e
+# System Prompt: web-search-with-mandatory-sources
 
 - Source: inline
 
