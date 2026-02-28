@@ -1,4 +1,4 @@
-# Tool Description: 6595f2aa
+# Tool Description: device-running-out-of-power
 
 - Name: SIGPWR
 
