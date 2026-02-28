@@ -1,4 +1,4 @@
-# Tool Description: ae82d25c
+# Tool Description: read-network-requests
 
 - Name: read_network_requests
 
