@@ -1,4 +1,4 @@
-# System Reminder: 83f31fb5
+# System Reminder: reset-corrupted-config-file
 
 - Source: inline
 
