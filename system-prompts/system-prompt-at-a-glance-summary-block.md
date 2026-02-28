@@ -1,4 +1,4 @@
-# System Prompt: 7fdd401d
+# System Prompt: at-a-glance-summary-block
 
 - Source: inline
 
