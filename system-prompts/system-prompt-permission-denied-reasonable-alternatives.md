@@ -1,4 +1,4 @@
-# System Prompt: 93636416
+# System Prompt: permission-denied-reasonable-alternatives
 
 - Source: inline
 
