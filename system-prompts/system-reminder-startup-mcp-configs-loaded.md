@@ -1,4 +1,4 @@
-# System Reminder: 8174f119
+# System Reminder: startup-mcp-configs-loaded
 
 - Source: inline
 
