@@ -1,4 +1,4 @@
-# Tool Description: cad79774
+# Tool Description: ctrl-break-interruption
 
 - Name: SIGBREAK
 
