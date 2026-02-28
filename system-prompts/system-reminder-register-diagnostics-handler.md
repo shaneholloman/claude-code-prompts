@@ -1,4 +1,4 @@
-# System Reminder: af180b14
+# System Reminder: register-diagnostics-handler
 
 - Source: inline
 
