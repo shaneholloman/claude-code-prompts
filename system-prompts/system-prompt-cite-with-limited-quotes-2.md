@@ -1,4 +1,4 @@
-# System Prompt: 41f7cfc0
+# System Prompt: cite-with-limited-quotes
 
 - Source: inline
 
