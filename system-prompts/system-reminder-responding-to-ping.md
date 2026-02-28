@@ -1,4 +1,4 @@
-# System Reminder: af2ee6c7
+# System Reminder: responding-to-ping
 
 - Source: inline
 
