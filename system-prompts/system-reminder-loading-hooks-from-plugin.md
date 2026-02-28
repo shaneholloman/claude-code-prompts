@@ -1,4 +1,4 @@
-# System Reminder: c3e1e232
+# System Reminder: loading-hooks-from-plugin
 
 - Source: inline
 
