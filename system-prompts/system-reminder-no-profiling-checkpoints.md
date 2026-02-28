@@ -1,4 +1,4 @@
-# System Reminder: 37d24633
+# System Reminder: no-profiling-checkpoints
 
 - Source: inline
 
