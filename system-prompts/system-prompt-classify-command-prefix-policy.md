@@ -1,4 +1,4 @@
-# System Prompt: 85e4092e
+# System Prompt: classify-command-prefix-policy
 
 
 ## Summary
