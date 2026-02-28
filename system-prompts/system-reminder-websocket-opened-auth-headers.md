@@ -1,4 +1,4 @@
-# System Reminder: 79a7e000
+# System Reminder: websocket-opened-auth-headers
 
 - Source: inline
 
