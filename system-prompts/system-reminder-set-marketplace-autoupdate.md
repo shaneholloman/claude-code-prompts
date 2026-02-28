@@ -1,4 +1,4 @@
-# System Reminder: 62c3b63b
+# System Reminder: set-marketplace-autoupdate
 
 - Source: inline
 
