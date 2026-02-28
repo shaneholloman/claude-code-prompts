@@ -1,4 +1,4 @@
-# System Reminder: feb332bd
+# System Reminder: reload-hooks-on-enabled-plugins-change
 
 - Source: inline
 
