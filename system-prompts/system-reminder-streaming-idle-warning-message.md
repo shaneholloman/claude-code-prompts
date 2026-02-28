@@ -1,4 +1,4 @@
-# System Reminder: b52297c3
+# System Reminder: streaming-idle-warning-message
 
 - Source: inline
 
