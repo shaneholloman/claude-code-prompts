@@ -1,4 +1,4 @@
-# System Prompt: 8e3087ef
+# System Prompt: session-title-and-branch
 
 - Source: inline
 
