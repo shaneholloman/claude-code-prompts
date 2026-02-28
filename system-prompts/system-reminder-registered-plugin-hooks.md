@@ -1,4 +1,4 @@
-# System Reminder: 54052fa6
+# System Reminder: registered-plugin-hooks
 
 - Source: inline
 
