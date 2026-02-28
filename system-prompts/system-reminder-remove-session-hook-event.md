@@ -1,4 +1,4 @@
-# System Reminder: 48f5e8c1
+# System Reminder: remove-session-hook-event
 
 - Source: inline
 
