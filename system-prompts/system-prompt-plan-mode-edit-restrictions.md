@@ -1,4 +1,4 @@
-# System Prompt: df16e1ad
+# System Prompt: plan-mode-edit-restrictions
 
 - Source: inline
 
