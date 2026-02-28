@@ -1,4 +1,4 @@
-# System Reminder: 08d143c1
+# System Reminder: loading-mcp-servers-from-mcpb
 
 - Source: inline
 
