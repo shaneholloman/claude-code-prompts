@@ -1,4 +1,4 @@
-# System Reminder: 2e332e38
+# System Reminder: compare-session-and-current-repo
 
 - Source: inline
 
