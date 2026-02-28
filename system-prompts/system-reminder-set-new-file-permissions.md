@@ -1,4 +1,4 @@
-# System Reminder: ba9bdd1e
+# System Reminder: set-new-file-permissions
 
 - Source: inline
 
