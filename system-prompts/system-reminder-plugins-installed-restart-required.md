@@ -1,4 +1,4 @@
-# System Reminder: 7b8661a3
+# System Reminder: plugins-installed-restart-required
 
 - Source: inline
 
