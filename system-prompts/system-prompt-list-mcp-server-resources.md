@@ -1,4 +1,4 @@
-# System Prompt: 815cdd0b
+# System Prompt: list-mcp-server-resources
 
 - Source: inline
 
