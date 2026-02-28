@@ -1,4 +1,4 @@
-# System Reminder: 2adb58c9
+# System Reminder: removed-worktree-via-git
 
 - Source: inline
 
