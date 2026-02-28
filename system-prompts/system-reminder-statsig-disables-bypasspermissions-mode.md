@@ -1,4 +1,4 @@
-# System Reminder: 8f26d5ba
+# System Reminder: statsig-disables-bypasspermissions-mode
 
 - Source: inline
 
