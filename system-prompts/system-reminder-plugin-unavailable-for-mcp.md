@@ -1,4 +1,4 @@
-# System Reminder: 9b70127d
+# System Reminder: plugin-unavailable-for-mcp
 
 - Source: inline
 
