@@ -1,4 +1,4 @@
-# System Reminder: f143dc0e
+# System Reminder: missing-mcpb-file-plugin
 
 - Source: inline
 
