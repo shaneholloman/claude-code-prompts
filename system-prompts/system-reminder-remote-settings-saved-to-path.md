@@ -1,4 +1,4 @@
-# System Reminder: a43f48d6
+# System Reminder: remote-settings-saved-to-path
 
 - Source: inline
 
