@@ -1,4 +1,4 @@
-# System Reminder: 4dc5a5e3
+# System Reminder: missing-newline-after-block-sequence
 
 - Source: inline
 
