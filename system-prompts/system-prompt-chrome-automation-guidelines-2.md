@@ -1,4 +1,4 @@
-# System Prompt: b841e7b3-2
+# System Prompt: chrome-automation-guidelines-2
 
 - Source: inline
 
