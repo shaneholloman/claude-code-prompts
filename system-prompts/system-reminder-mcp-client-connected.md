@@ -1,4 +1,4 @@
-# System Reminder: bf2db91e
+# System Reminder: mcp-client-connected
 
 - Source: inline
 
