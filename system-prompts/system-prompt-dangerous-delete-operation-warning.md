@@ -1,4 +1,4 @@
-# System Prompt: 17cad4f7
+# System Prompt: dangerous-delete-operation-warning
 
 - Source: inline
 
