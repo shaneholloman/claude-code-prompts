@@ -1,4 +1,4 @@
-# System Reminder: 32e2e2f7
+# System Reminder: register-sandbox-permission-callback
 
 - Source: inline
 
