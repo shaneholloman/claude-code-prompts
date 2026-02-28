@@ -1,4 +1,4 @@
-# System Reminder: 7c14972c
+# System Reminder: hook-use-requires-canusetool
 
 - Source: inline
 
