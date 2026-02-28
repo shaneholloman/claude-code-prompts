@@ -1,4 +1,4 @@
-# System Reminder: 2a3ead8e
+# System Reminder: terminal-current-settings-name
 
 - Source: inline
 
