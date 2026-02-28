@@ -1,4 +1,4 @@
-# System Reminder: 0f3185ec
+# System Reminder: autoupdater-global-method
 
 - Source: inline
 
