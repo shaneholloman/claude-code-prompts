@@ -1,4 +1,4 @@
-# System Data Block: 00b5dd5a
+# System Data Block: get-provisioned-throughput-response-fields
 
 - Source: inline
 
