@@ -1,4 +1,4 @@
-# System Reminder: b3ce10ce
+# System Reminder: global-agents-directory-scan-failed
 
 - Source: inline
 
