@@ -1,4 +1,4 @@
-# System Reminder: 4077c10b
+# System Reminder: mcpb-extraction-path-missing
 
 - Source: inline
 
