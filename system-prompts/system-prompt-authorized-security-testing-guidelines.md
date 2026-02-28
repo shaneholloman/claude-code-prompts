@@ -1,4 +1,4 @@
-# System Prompt: a899b7c4
+# System Prompt: authorized-security-testing-guidelines
 
 - Source: inline
 
