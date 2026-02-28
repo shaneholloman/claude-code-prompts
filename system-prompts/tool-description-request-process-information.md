@@ -1,4 +1,4 @@
-# Tool Description: 1711887b
+# Tool Description: request-process-information
 
 - Name: SIGINFO
 
