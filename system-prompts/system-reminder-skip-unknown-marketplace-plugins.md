@@ -1,4 +1,4 @@
-# System Reminder: 87c9359e
+# System Reminder: skip-unknown-marketplace-plugins
 
 - Source: inline
 
@@ -14,6 +14,7 @@ Indicates skipping plugins from unknown marketplaces, listing marketplace identi
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
-installPluginsForHeadless: skipping ${EXPR_1} plugins from unknown marketplaces: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}
+installPluginsForHeadless: skipping ${EXPR_1} plugins from unknown marketplaces: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}, ${EXPR_5}
