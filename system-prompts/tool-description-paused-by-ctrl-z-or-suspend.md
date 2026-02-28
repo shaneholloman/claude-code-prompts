@@ -1,4 +1,4 @@
-# Tool Description: 2150b2f5
+# Tool Description: paused-by-ctrl-z-or-suspend
 
 - Name: SIGTSTP
 
