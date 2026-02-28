@@ -1,4 +1,4 @@
-# System Reminder: 8c949261
+# System Reminder: remote-settings-validation-failed
 
 - Source: inline
 
