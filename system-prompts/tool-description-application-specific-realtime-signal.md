@@ -1,4 +1,4 @@
-# Tool Description: ba619611
+# Tool Description: application-specific-realtime-signal
 
 - Name: SIGRTinherit1
 
