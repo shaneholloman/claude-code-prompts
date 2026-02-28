@@ -1,4 +1,4 @@
-# System Prompt: f4791bf1
+# System Prompt: use-owner-path-format
 
 - Source: inline
 
