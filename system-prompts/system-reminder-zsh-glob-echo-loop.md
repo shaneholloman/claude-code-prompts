@@ -1,4 +1,4 @@
-# System Reminder: 112cf9bb
+# System Reminder: zsh-glob-echo-loop
 
 - Source: inline
 
