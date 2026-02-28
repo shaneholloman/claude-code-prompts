@@ -1,4 +1,4 @@
-# System Reminder: cf8e6ec3
+# System Reminder: current-output-style
 
 - Source: inline
 
