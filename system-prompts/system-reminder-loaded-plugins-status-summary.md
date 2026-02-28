@@ -1,4 +1,4 @@
-# System Reminder: 6cedaa23
+# System Reminder: loaded-plugins-status-summary
 
 - Source: inline
 
