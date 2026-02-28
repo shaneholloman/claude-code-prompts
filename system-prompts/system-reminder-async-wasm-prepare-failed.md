@@ -1,4 +1,4 @@
-# System Reminder: f554ad6d
+# System Reminder: async-wasm-prepare-failed
 
 - Source: inline
 
@@ -13,4 +13,4 @@ Error indicating asynchronous WebAssembly preparation failed with a specific fai
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-failed to asynchronously prepare wasm: ${EXPR_1}
+failed to asynchronously prepare wasm: [${EXPR_1}]
