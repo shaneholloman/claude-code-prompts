@@ -1,4 +1,4 @@
-# System Reminder: 910da79e
+# System Reminder: hook-blocking-command-error
 
 - Source: inline
 
