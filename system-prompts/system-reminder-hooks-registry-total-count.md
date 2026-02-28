@@ -1,4 +1,4 @@
-# System Reminder: 7c979459
+# System Reminder: hooks-registry-total-count
 
 - Source: inline
 
