@@ -1,4 +1,4 @@
-# System Prompt: 17e5a2de
+# System Prompt: create-md-guide-2
 
 
 ## Summary
