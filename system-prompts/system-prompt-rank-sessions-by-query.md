@@ -1,4 +1,4 @@
-# System Prompt: 81eb2c31
+# System Prompt: rank-sessions-by-query
 
 - Source: inline
 
