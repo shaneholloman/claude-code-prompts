@@ -1,4 +1,4 @@
-# System Reminder: a9f7de0c
+# System Reminder: uninstall-restart-to-apply
 
 - Source: inline
 
