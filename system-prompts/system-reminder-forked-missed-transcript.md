@@ -1,4 +1,4 @@
-# System Reminder: d0416a27
+# System Reminder: forked-missed-transcript
 
 - Source: inline
 
@@ -12,6 +12,8 @@ Forked agent failed to record a transcript entry with provided details.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Forked agent [${EXPR_1}] failed to record transcript: ${EXPR_2}
+Forked agent [${EXPR_1}] failed to record transcript: ${EXPR_2}${EXPR_3}${EXPR_4}
