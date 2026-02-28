@@ -1,4 +1,4 @@
-# Tool Description: 7de136ad
+# Tool Description: get-task-output-status
 
 - Name: TaskOutput
 
