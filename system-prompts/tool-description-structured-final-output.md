@@ -1,4 +1,4 @@
-# Tool Description: 2de7faaf
+# Tool Description: structured-final-output
 
 - Name: StructuredOutput
 
