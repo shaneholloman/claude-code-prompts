@@ -1,4 +1,4 @@
-# System Prompt: 38091669
+# System Prompt: plan-mode-restrictions
 
 - Source: inline
 
