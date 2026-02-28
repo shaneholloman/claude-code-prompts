@@ -1,4 +1,4 @@
-# Tool Description: c9757ef1
+# Tool Description: project-areas-session-summary
 
 - Name: project_areas
 
