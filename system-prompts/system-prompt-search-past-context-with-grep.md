@@ -1,4 +1,4 @@
-# System Prompt: 16648c27
+# System Prompt: search-past-context-with-grep
 
 - Source: inline
 
