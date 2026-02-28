@@ -1,4 +1,4 @@
-# System Reminder: 0cf27638
+# System Reminder: auto-stash
 
 - Source: inline
 
