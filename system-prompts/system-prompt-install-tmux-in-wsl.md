@@ -1,4 +1,4 @@
-# System Prompt: bff8d62b
+# System Prompt: install-tmux-in-wsl
 
 - Source: inline
 
