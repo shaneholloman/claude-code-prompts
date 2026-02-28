@@ -1,4 +1,4 @@
-# System Reminder: 56870d93
+# System Reminder: check-diagnostics-registry-pending
 
 - Source: inline
 
