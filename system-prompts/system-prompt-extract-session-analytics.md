@@ -1,4 +1,4 @@
-# System Prompt: 82aecb98
+# System Prompt: extract-session-analytics
 
 - Source: inline
 
