@@ -1,4 +1,4 @@
-# System Reminder: 2b4394d4
+# System Reminder: unknown-load-failure
 
 - Source: inline
 
@@ -13,4 +13,4 @@ Failed to load a skill from a path due to unknown reason.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Failed to load skill from ${EXPR_1}: unknown
+Failed to load skill from unknown: ${EXPR_1}
