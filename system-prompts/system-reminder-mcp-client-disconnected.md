@@ -1,4 +1,4 @@
-# System Reminder: 502a2bf9
+# System Reminder: mcp-client-disconnected
 
 - Source: inline
 
