@@ -1,4 +1,4 @@
-# System Reminder: 8bd47819
+# System Reminder: current-repository-color
 
 - Source: inline
 
