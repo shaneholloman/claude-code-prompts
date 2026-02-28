@@ -1,10 +1,16 @@
-# System Data Block: c738749c
+# System Data Block: api-curl-examples
 
 - Source: inline
 
 ## Summary
 
 Provides raw HTTP cURL examples for basic and streaming Claude message requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Claude API — cURL / Raw HTTP
@@ -27,7 +33,7 @@ curl ${URL} \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: ${DATE}" \
   -d '{
-    "model": "claude-opus-${NUM}-${NUM}",
+    "model": "{{OPUS_ID}}",
     "max_tokens": ${NUM},
     "messages": [
       {"role": "user", "content": "What is the capital of France?"}
@@ -45,7 +51,7 @@ curl ${URL} \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: ${DATE}" \
   -d '{
-    "model": "claude-opus-${NUM}-${NUM}",
+    "model": "{{OPUS_ID}}",
     "max_tokens": ${NUM},
     "stream": true,
     "messages": [{"role": "user", "content": "Write a haiku"}]
@@ -84,7 +90,7 @@ curl ${URL} \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: ${DATE}" \
   -d '{
-    "model": "claude-opus-${NUM}-${NUM}",
+    "model": "{{OPUS_ID}}",
     "max_tokens": ${NUM},
     "tools": [{
       "name": "get_weather",
@@ -109,7 +115,7 @@ curl ${URL} \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: ${DATE}" \
   -d '{
-    "model": "claude-opus-${NUM}-${NUM}",
+    "model": "{{OPUS_ID}}",
     "max_tokens": ${NUM},
     "tools": [{
       "name": "get_weather",
@@ -149,7 +155,7 @@ curl ${URL} \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: ${DATE}" \
   -d '{
-    "model": "claude-opus-${NUM}-${NUM}",
+    "model": "{{OPUS_ID}}",
     "max_tokens": ${NUM},
     "thinking": {
       "type": "adaptive"
