@@ -1,4 +1,4 @@
-# System Prompt: 68b0a497
+# System Prompt: confirm-risky-actions
 
 - Source: inline
 
