@@ -1,4 +1,4 @@
-# System Prompt: 4413d240
+# System Prompt: json-command-exit-rules
 
 - Source: inline
 
