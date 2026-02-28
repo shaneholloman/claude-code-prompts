@@ -1,4 +1,4 @@
-# System Reminder: 6cb40f8c
+# System Reminder: shell-alias-cleanup
 
 - Source: inline
 
