@@ -1,4 +1,4 @@
-# System Reminder: 7d4d9184
+# System Reminder: compacting-history-tokens
 
 - Source: inline
 
@@ -12,6 +12,8 @@ Log that inProcessRunner is compacting history and include current token count.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-[inProcessRunner] ${EXPR_1} compacting history (${EXPR_2} tokens)
+[inProcessRunner] ${EXPR_1} compacting history (${EXPR_2}${EXPR_3}${EXPR_4} tokens)
