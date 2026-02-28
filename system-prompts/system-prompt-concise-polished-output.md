@@ -1,4 +1,4 @@
-# System Prompt: 63a90295
+# System Prompt: concise-polished-output
 
 - Source: inline
 
