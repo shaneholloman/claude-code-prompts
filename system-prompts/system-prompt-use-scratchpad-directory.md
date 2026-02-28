@@ -1,4 +1,4 @@
-# System Prompt: 1563974a
+# System Prompt: use-scratchpad-directory
 
 - Source: inline
 
