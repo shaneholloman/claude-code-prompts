@@ -1,4 +1,4 @@
-# System Reminder: b7e8c63d
+# System Reminder: invalid-output-style
 
 - Source: inline
 
