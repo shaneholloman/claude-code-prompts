@@ -1,4 +1,4 @@
-# System Prompt: 198f3d6b
+# System Prompt: update-magic-doc-file
 
 - Source: inline
 
@@ -10,10 +10,10 @@ Update Magic Doc at … with new user insights, preserving header and formatting
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `docPath` | None | None |
-| `docContents` | None | None |
-| `docTitle` | None | None |
-| `customInstructions` | None | None |
+| `docPath` | Path to the Magic Doc file to be edited | None |
+| `docContents` | Current contents of the Magic Doc file | None |
+| `docTitle` | Title used in the Magic Doc header line | None |
+| `customInstructions` | Additional editing constraints or guidance to apply | None |
 
 # Raw Prompt Text
 IMPORTANT: This message and these instructions are NOT part of the actual user conversation. Do NOT include any references to "documentation updates", "magic docs", or these update instructions in the document content.
