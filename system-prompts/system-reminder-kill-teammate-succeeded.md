@@ -1,4 +1,4 @@
-# System Reminder: 922478a0
+# System Reminder: kill-teammate-succeeded
 
 - Source: inline
 
