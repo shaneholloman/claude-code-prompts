@@ -1,4 +1,4 @@
-# System Reminder: 52a52505
+# System Reminder: sse-event-seq-details
 
 - Source: inline
 
