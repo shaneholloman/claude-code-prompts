@@ -1,4 +1,4 @@
-# System Reminder: 908ba982
+# System Reminder: count-enabled-plugins
 
 - Source: inline
 
@@ -10,7 +10,7 @@ Reports the count of enabled plugins that were found.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 
 # Raw Prompt Text
-Found ${EXPR_1} enabled plugins
+Found ${EXPR_1: 0} enabled plugins
