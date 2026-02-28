@@ -1,4 +1,4 @@
-# System Prompt: b2dbb648
+# System Prompt: interactive-question-guidance
 
 - Source: inline
 
