@@ -1,4 +1,4 @@
-# System Reminder: c7711e4c
+# System Reminder: detect-mise-installation
 
 - Source: inline
 
