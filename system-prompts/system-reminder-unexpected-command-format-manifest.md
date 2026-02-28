@@ -1,4 +1,4 @@
-# System Reminder: 22dc8800
+# System Reminder: unexpected-command-format-manifest
 
 - Source: inline
 
