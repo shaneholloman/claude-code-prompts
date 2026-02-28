@@ -1,4 +1,4 @@
-# Tool Description: 7b6a7aba
+# Tool Description: bus-error-message
 
 - Name: SIGBUS
 
