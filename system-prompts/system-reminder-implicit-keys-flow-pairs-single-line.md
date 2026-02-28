@@ -1,4 +1,4 @@
-# System Reminder: ac644f86
+# System Reminder: implicit-keys-flow-pairs-single-line
 
 - Source: inline
 
