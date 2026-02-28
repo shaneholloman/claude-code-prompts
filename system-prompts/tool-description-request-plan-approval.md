@@ -1,4 +1,4 @@
-# Tool Description: 6cb8daa3
+# Tool Description: request-plan-approval
 
 - Name: ExitPlanMode
 
