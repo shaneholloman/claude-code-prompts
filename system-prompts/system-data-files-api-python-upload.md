@@ -1,10 +1,16 @@
-# System Data Block: 3af82812
+# System Data Block: files-api-python-upload
 
 - Source: inline
 
 ## Summary
 
 Explains Python Files API usage for uploading and reusing files in messages.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Files API — Python
@@ -45,7 +51,7 @@ print(f"Size: {uploaded.size_bytes} bytes")
 
 ```python
 response = client.beta.messages.create(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     messages=[{
         "role": "user",
@@ -72,7 +78,7 @@ image_file = client.beta.files.upload(
 )
 
 response = client.beta.messages.create(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     messages=[{
         "role": "user",
@@ -149,7 +155,7 @@ questions = [
 
 for question in questions:
     response = client.beta.messages.create(
-        model="claude-opus-${NUM}-${NUM}",
+        model="{{OPUS_ID}}",
         max_tokens=${NUM},
         messages=[{
             "role": "user",
