@@ -1,4 +1,4 @@
-# System Reminder: 1bb9d30c
+# System Reminder: clean-stale-marketplace-dir
 
 - Source: inline
 
