@@ -1,4 +1,4 @@
-# System Reminder: 6e2b45ba
+# System Reminder: remove-one-shot-hook
 
 - Source: inline
 
