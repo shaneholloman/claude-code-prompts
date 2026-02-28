@@ -1,4 +1,4 @@
-# Tool Description: 37b04c94
+# Tool Description: lsp-intelligence-operations-2
 
 - Name: LSP
 
