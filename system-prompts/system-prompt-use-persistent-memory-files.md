@@ -1,4 +1,4 @@
-# System Prompt: 7206a0ef
+# System Prompt: use-persistent-memory-files
 
 - Source: inline
 
