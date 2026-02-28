@@ -1,4 +1,4 @@
-# System Prompt: 685b0533
+# System Prompt: bash-function-snapshot
 
 - Source: inline
 
