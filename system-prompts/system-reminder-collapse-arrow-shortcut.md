@@ -1,4 +1,4 @@
-# System Reminder: fd84a176
+# System Reminder: collapse-arrow-shortcut
 
 - Source: inline
 
