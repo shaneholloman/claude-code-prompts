@@ -1,4 +1,4 @@
-# System Reminder: 5c0850a9
+# System Reminder: set-prefer-tmux-over-iterm2
 
 - Source: inline
 
