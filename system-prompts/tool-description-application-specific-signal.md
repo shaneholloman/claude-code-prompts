@@ -1,4 +1,4 @@
-# Tool Description: 87ab4d63
+# Tool Description: application-specific-signal
 
 - Name: SIGUSR1
 
