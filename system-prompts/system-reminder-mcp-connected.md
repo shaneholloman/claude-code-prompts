@@ -1,4 +1,4 @@
-# System Reminder: cbf45a45
+# System Reminder: mcp-connected
 
 - Source: inline
 
