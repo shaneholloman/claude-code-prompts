@@ -1,4 +1,4 @@
-# System Reminder: b2850ecc
+# System Reminder: manifest-version-selected
 
 - Source: inline
 
