@@ -1,4 +1,4 @@
-# Tool Description: 0504061c
+# Tool Description: suggest-cc-feature-improvements
 
 - Name: suggestions
 
