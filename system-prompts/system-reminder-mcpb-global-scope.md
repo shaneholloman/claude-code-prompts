@@ -1,4 +1,4 @@
-# System Reminder: 52b93bd0
+# System Reminder: mcpb-global-scope
 
 - Source: inline
 
