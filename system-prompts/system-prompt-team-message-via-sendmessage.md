@@ -1,4 +1,4 @@
-# System Reminder: a3c4b52c
+# System Reminder: team-sendmessage-guidelines
 
 - Source: inline
 
