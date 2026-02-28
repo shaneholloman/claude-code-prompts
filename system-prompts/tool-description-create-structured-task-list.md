@@ -1,4 +1,4 @@
-# Tool Description: 419cea9b
+# Tool Description: create-structured-task-list
 
 - Name: TaskCreate
 
