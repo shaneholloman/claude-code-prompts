@@ -1,4 +1,4 @@
-# System Reminder: e2ab04fd
+# System Reminder: installation-type-reported
 
 - Source: inline
 
