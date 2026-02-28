@@ -1,4 +1,4 @@
-# System Reminder: eef795cf
+# System Reminder: waiting-remote-settings-init
 
 - Source: inline
 
