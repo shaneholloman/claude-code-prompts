@@ -1,4 +1,4 @@
-# Tool Description: 54485f93
+# Tool Description: interaction-style-json-narrative
 
 - Name: interaction_style
 
