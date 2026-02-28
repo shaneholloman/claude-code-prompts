@@ -1,4 +1,4 @@
-# System Reminder: f3a957e7
+# System Reminder: remote-settings-load-timeout
 
 - Source: inline
 
