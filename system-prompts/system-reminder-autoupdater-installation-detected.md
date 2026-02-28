@@ -1,4 +1,4 @@
-# System Reminder: 8796a4a4
+# System Reminder: autoupdater-installation-detected
 
 - Source: inline
 
