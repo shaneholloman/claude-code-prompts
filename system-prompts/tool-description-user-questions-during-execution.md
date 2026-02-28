@@ -1,4 +1,4 @@
-# Tool Description: 9bdd1e20
+# Tool Description: ask-user-questions-during-work
 
 - Name: AskUserQuestion
 
