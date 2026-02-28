@@ -1,4 +1,4 @@
-# System Prompt: 574b32de
+# System Prompt: install-github-cli
 
 - Source: inline
 
