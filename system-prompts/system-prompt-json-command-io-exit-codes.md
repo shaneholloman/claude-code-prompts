@@ -1,4 +1,4 @@
-# System Prompt: 19700a5a
+# System Prompt: json-command-io-exit-codes
 
 - Source: inline
 
