@@ -1,4 +1,4 @@
-# System Reminder: 38d3b212
+# System Reminder: must-use-structuredoutput
 
 - Source: inline
 
