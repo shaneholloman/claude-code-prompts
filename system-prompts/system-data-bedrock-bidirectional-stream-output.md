@@ -1,4 +1,4 @@
-# System Data Block: 55f86d1f
+# System Data Block: bedrock-bidirectional-stream-output
 
 - Source: inline
 
