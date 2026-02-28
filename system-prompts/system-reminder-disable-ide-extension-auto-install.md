@@ -1,4 +1,4 @@
-# System Reminder: 23ecdb79
+# System Reminder: disable-ide-extension-auto-install
 
 - Source: inline
 
