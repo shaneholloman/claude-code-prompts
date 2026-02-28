@@ -1,4 +1,4 @@
-# System Reminder: 5b02394e
+# System Reminder: output-style-force-ignored
 
 - Source: inline
 
