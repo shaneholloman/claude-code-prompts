@@ -1,10 +1,17 @@
-# System Prompt: 28698614
+# System Prompt: python-message-batches-api
 
 - Source: inline
 
 ## Summary
 
 Python guide for creating and retrieving asynchronous message batches.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `HAIKU_ID` | None | None |
 
 # Raw Prompt Text
 # Message Batches API — Python
@@ -35,7 +42,7 @@ message_batch = client.messages.batches.create(
         Request(
             custom_id="request-${NUM}",
             params=MessageCreateParamsNonStreaming(
-                model="claude-opus-${NUM}-${NUM}",
+                model="{{OPUS_ID}}",
                 max_tokens=${NUM},
                 messages=[{"role": "user", "content": "Summarize climate change impacts"}]
             )
@@ -43,7 +50,7 @@ message_batch = client.messages.batches.create(
         Request(
             custom_id="request-${NUM}",
             params=MessageCreateParamsNonStreaming(
-                model="claude-opus-${NUM}-${NUM}",
+                model="{{OPUS_ID}}",
                 max_tokens=${NUM},
                 messages=[{"role": "user", "content": "Explain quantum computing basics"}]
             )
@@ -124,7 +131,7 @@ message_batch = client.messages.batches.create(
         Request(
             custom_id=f"analysis-{i}",
             params=MessageCreateParamsNonStreaming(
-                model="claude-opus-${NUM}-${NUM}",
+                model="{{OPUS_ID}}",
                 max_tokens=${NUM},
                 system=shared_system,
                 messages=[{"role": "user", "content": question}]
@@ -158,7 +165,7 @@ requests = [
     Request(
         custom_id=f"classify-{i}",
         params=MessageCreateParamsNonStreaming(
-            model="claude-haiku-${NUM}-${NUM}",
+            model="{{HAIKU_ID}}",
             max_tokens=${NUM},
             messages=[{
                 "role": "user",
