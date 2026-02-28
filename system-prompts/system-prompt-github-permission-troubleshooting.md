@@ -1,4 +1,4 @@
-# System Prompt: 26c5a107
+# System Prompt: github-permission-troubleshooting
 
 - Source: inline
 
