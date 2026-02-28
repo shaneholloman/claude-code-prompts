@@ -1,4 +1,4 @@
-# System Prompt: bdcf71bc
+# System Prompt: summarize-recent-messages
 
 - Source: inline
 
@@ -20,8 +20,8 @@ ${NUM}. Analyze the recent messages chronologically. For each section thoroughly
      - full code snippets
      - function signatures
      - file edits
-  - Errors that you ran into and how you fixed them
-  - Pay special attention to specific user feedback that you received, especially if the user told you to do something differently.
+   - Errors that you ran into and how you fixed them
+   - Pay special attention to specific user feedback that you received, especially if the user told you to do something differently.
 ${NUM}. Double-check for technical accuracy and completeness, addressing each required element thoroughly.
 
 Your summary should include the following sections:
