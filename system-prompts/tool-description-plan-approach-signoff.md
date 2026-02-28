@@ -1,4 +1,4 @@
-# Tool Description: 43bb3f35
+# Tool Description: plan-approach-signoff
 
 - Name: EnterPlanMode
 
@@ -53,7 +53,7 @@ Only skip EnterPlanMode for simple tasks:
 - Single-line or few-line fixes (typos, obvious bugs, small tweaks)
 - Adding a single function with clear requirements
 - Tasks where the user has given very specific, detailed instructions
-- Pure research${PATH} tasks (use the Task tool with explore agent instead)
+- Pure research${PATH} tasks (use the Agent tool with explore agent instead)
 
 ${EXPR_1}## Examples
 
