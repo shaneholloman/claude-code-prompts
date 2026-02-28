@@ -1,4 +1,4 @@
-# System Prompt: fd36dad9
+# System Prompt: 82b84f2c
 
 - Source: inline
 
@@ -53,7 +53,7 @@ ${NUM}. If the commit fails due to pre-commit hook: fix the issue and create a N
 
 Important notes:
 - NEVER run additional commands to read or explore code, besides git bash commands
-- NEVER use the ${EXPR_4: 'TodoWrite'} or Task tools
+- NEVER use the ${EXPR_4: 'TodoWrite'} or Agent tools
 - DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - IMPORTANT: Do not use --no-edit with git rebase commands, as the --no-edit flag is not a valid option for git rebase.
@@ -99,7 +99,7 @@ EOF
 <${PATH}>
 
 Important:
-- DO NOT use the ${EXPR_9: 'TodoWrite'} or Task tools
+- DO NOT use the ${EXPR_9: 'TodoWrite'} or Agent tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
