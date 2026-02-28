@@ -1,4 +1,4 @@
-# System Prompt: 94642a35
+# System Prompt: enable-chrome-automation
 
 - Source: inline
 
