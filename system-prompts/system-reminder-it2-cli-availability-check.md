@@ -1,4 +1,4 @@
-# System Reminder: 487581b2
+# System Reminder: it2-cli-availability-check
 
 - Source: inline
 
