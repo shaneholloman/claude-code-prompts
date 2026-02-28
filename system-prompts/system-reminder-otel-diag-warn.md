@@ -1,4 +1,4 @@
-# System Reminder: 536f2366
+# System Reminder: otel-diag-warn
 
 - Source: inline
 
