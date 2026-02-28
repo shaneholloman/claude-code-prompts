@@ -1,4 +1,4 @@
-# System Reminder: c3c6e618
+# System Reminder: remote-settings-user-rejected-new
 
 - Source: inline
 
