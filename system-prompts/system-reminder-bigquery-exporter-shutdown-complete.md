@@ -1,4 +1,4 @@
-# System Reminder: f98a035b
+# System Reminder: bigquery-exporter-shutdown-complete
 
 - Source: inline
 
