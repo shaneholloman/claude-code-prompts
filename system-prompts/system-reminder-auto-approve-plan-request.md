@@ -1,4 +1,4 @@
-# System Reminder: 5ef7a118
+# System Reminder: auto-approve-plan-request
 
 - Source: inline
 
