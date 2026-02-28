@@ -1,4 +1,4 @@
-# Tool Description: e6bce336
+# Tool Description: resize-browser-window
 
 - Name: resize_window
 
