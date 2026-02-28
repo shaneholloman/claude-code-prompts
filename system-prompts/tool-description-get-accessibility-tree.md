@@ -1,4 +1,4 @@
-# Tool Description: 3000957c
+# Tool Description: get-accessibility-tree
 
 - Name: read_page
 
