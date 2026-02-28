@@ -1,4 +1,4 @@
-# System Reminder: 91108c36
+# System Reminder: prefer-tmux-skip-iterm2
 
 - Source: inline
 
