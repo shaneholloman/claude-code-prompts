@@ -1,4 +1,4 @@
-# System Reminder: 16c38472
+# System Reminder: stop-and-wait-user
 
 - Source: inline
 
