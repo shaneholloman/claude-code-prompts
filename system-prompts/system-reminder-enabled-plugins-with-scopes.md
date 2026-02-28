@@ -1,4 +1,4 @@
-# System Reminder: 6f2369c8
+# System Reminder: enabled-plugins-with-scopes
 
 - Source: inline
 
