@@ -1,4 +1,4 @@
-# System Reminder: 9144909e
+# System Reminder: clear-pending-diagnostics
 
 - Source: inline
 
