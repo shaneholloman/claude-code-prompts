@@ -1,4 +1,4 @@
-# System Reminder: 2ecdc533
+# System Reminder: hook-shell-status-log
 
 - Source: inline
 
