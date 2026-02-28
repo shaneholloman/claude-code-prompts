@@ -1,4 +1,4 @@
-# System Reminder: b3aa9cfc
+# System Reminder: stop-caffeine-allow-sleep
 
 - Source: inline
 
