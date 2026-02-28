@@ -1,4 +1,4 @@
-# System Reminder: bb23c99c
+# System Reminder: convert-installed-plugins-json
 
 - Source: inline
 
