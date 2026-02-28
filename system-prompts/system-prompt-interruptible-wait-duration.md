@@ -1,4 +1,4 @@
-# System Prompt: 49861678
+# System Prompt: interruptible-wait-duration
 
 - Source: inline
 
