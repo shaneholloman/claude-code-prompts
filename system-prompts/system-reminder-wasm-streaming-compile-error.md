@@ -1,4 +1,4 @@
-# System Reminder: cff29f15
+# System Reminder: wasm-streaming-compile-error
 
 - Source: inline
 
@@ -13,4 +13,4 @@ Error message for WebAssembly streaming compilation failure with error detail.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-wasm streaming compile failed: ${EXPR_1}
+wasm streaming compile failed: [${EXPR_1}]
