@@ -1,4 +1,4 @@
-# System Prompt: 573cdaf6
+# System Prompt: review-github-pull-request
 
 
 ## Summary
