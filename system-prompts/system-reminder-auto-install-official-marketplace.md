@@ -1,4 +1,4 @@
-# System Reminder: cdab18d6
+# System Reminder: auto-install-official-marketplace
 
 - Source: inline
 
