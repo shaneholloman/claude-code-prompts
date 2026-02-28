@@ -1,4 +1,4 @@
-# System Prompt: 7fac2e1e
+# System Prompt: plan-mode-codebase-exploration
 
 - Source: inline
 
