@@ -1,4 +1,4 @@
-# System Reminder: 4ab98501
+# System Reminder: worktree-already-removed
 
 - Source: inline
 
