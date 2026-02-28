@@ -1,4 +1,4 @@
-# System Data Block: 584084ca
+# System Data Block: github-anthropics-path-entries
 
 - Source: inline
 
