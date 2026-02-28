@@ -1,4 +1,4 @@
-# System Reminder: 74faa348
+# System Reminder: global-agents-config-starting
 
 - Source: inline
 
