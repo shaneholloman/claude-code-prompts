@@ -1,4 +1,4 @@
-# System Reminder: ae68146f
+# System Reminder: remove-legacy-directory-lock
 
 - Source: inline
 
