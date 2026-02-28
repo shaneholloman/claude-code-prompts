@@ -1,4 +1,4 @@
-# System Prompt: fb94dd15
+# System Prompt: teammate-exit-handling
 
 - Source: inline
 
