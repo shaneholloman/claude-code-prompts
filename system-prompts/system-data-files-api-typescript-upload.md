@@ -1,4 +1,4 @@
-# System Data Block: a129576a
+# System Data Block: files-api-typescript-upload
 
 - Source: inline
 
@@ -12,6 +12,7 @@ Describes TypeScript Files API upload and referencing files by file_id in messag
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `OPUS_ID` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
@@ -60,7 +61,7 @@ console.log(`Size: ${EXPR_2} bytes`);
 
 ```typescript
 const response = await client.beta.messages.create({
-  model: "claude-opus-${NUM}-${NUM}",
+  model: "{{OPUS_ID}}",
   max_tokens: ${NUM},
   messages: [
     {
