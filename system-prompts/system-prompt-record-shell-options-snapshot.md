@@ -1,4 +1,4 @@
-# System Prompt: 01fda048
+# System Prompt: record-shell-options-snapshot
 
 - Source: inline
 
