@@ -1,4 +1,4 @@
-# System Reminder: 47ece962
+# System Reminder: convert-stop-hook-subagentstop
 
 - Source: inline
 
