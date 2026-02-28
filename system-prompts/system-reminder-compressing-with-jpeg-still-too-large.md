@@ -1,4 +1,4 @@
-# System Reminder: fbde3f16
+# System Reminder: compressing-with-jpeg-still-too-large
 
 - Source: inline
 
