@@ -1,4 +1,4 @@
-# System Reminder: 9896d39d
+# System Reminder: native-host-manifest-installed
 
 - Source: inline
 
