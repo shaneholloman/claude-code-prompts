@@ -1,4 +1,4 @@
-# System Reminder: 5cd5297b
+# System Reminder: submission-rejected-keep-queued
 
 - Source: inline
 
