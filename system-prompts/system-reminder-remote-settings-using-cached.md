@@ -1,4 +1,4 @@
-# System Reminder: 73ddbedd
+# System Reminder: remote-settings-using-cached
 
 - Source: inline
 
