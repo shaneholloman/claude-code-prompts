@@ -1,4 +1,4 @@
-# System Reminder: af84d230
+# System Reminder: remote-settings-refresh-after-auth
 
 - Source: inline
 
