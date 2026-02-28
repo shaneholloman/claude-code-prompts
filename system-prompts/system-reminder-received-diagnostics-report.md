@@ -1,4 +1,4 @@
-# System Reminder: 12322bca
+# System Reminder: received-diagnostics-report
 
 - Source: inline
 
