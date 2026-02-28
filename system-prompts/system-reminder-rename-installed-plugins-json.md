@@ -1,4 +1,4 @@
-# System Reminder: 2cbf50d2
+# System Reminder: rename-installed-plugins-json
 
 - Source: inline
 
