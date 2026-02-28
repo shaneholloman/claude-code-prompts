@@ -1,4 +1,4 @@
-# System Reminder: f26e18a1
+# System Reminder: mcp-no-access-token
 
 - Source: inline
 
