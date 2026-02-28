@@ -1,4 +1,4 @@
-# System Reminder: af341b08
+# System Reminder: report-plugin-installation-status
 
 - Source: inline
 
@@ -12,7 +12,7 @@ Report counts of marketplaces and plugins by installable and uninstallable statu
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | 0 | None |
+| `EXPR_3` | 4 | None |
 
 # Raw Prompt Text
-Setting installation status: ${EXPR_1} marketplaces, ${EXPR_2} installable plugins, ${EXPR_3: 0} uninstallable plugins
+Setting installation status: ${EXPR_1} marketplaces, ${EXPR_2} installable plugins, ${EXPR_3: 4} uninstallable plugins
