@@ -1,10 +1,16 @@
-# System Data Block: c4f57a6d
+# System Data Block: python-streaming-messages
 
 - Source: inline
 
 ## Summary
 
 Python streaming patterns for text streams and mixed content handling.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Streaming — Python
@@ -13,7 +19,7 @@ Python streaming patterns for text streams and mixed content handling.
 
 ```python
 with client.messages.stream(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     messages=[{"role": "user", "content": "Write a story"}]
 ) as stream:
@@ -25,7 +31,7 @@ with client.messages.stream(
 
 ```python
 async with async_client.messages.stream(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     messages=[{"role": "user", "content": "Write a story"}]
 ) as stream:
@@ -43,7 +49,7 @@ Claude may return text, thinking blocks, or tool use. Handle each appropriately:
 
 ```python
 with client.messages.stream(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     thinking={"type": "adaptive"},
     messages=[{"role": "user", "content": "Analyze this problem"}]
@@ -70,7 +76,7 @@ The Python tool runner currently returns complete messages. Use streaming for in
 
 ```python
 with client.messages.stream(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     tools=tools,
     messages=messages
@@ -88,7 +94,7 @@ with client.messages.stream(
 
 ```python
 with client.messages.stream(
-    model="claude-opus-${NUM}-${NUM}",
+    model="{{OPUS_ID}}",
     max_tokens=${NUM},
     messages=[{"role": "user", "content": "Hello"}]
 ) as stream:
@@ -135,7 +141,7 @@ def stream_with_progress(client, **kwargs):
 ```python
 try:
     with client.messages.stream(
-        model="claude-opus-${NUM}-${NUM}",
+        model="{{OPUS_ID}}",
         max_tokens=${NUM},
         messages=[{"role": "user", "content": "Write a story"}]
     ) as stream:
