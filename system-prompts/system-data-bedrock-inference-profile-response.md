@@ -1,4 +1,4 @@
-# System Data Block: 424e34ac
+# System Data Block: bedrock-inference-profile-response
 
 - Source: inline
 
