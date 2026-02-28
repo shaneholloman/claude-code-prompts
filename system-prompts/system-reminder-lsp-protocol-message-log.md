@@ -1,4 +1,4 @@
-# System Reminder: 4c6fdfa7
+# System Reminder: lsp-protocol-message-log
 
 - Source: inline
 
