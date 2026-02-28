@@ -1,4 +1,4 @@
-# System Prompt: 95189896
+# System Prompt: exit-transcript-rules
 
 - Source: inline
 
