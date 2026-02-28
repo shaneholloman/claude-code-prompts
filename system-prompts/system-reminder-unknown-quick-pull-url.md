@@ -1,4 +1,4 @@
-# System Reminder: 39d7758d
+# System Reminder: unknown-quick-pull-url
 
 - Source: inline
 
