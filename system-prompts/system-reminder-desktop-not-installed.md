@@ -1,4 +1,4 @@
-# System Reminder: e2feeeda
+# System Reminder: desktop-not-installed
 
 - Source: inline
 
