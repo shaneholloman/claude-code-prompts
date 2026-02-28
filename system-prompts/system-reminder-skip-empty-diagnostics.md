@@ -1,4 +1,4 @@
-# System Reminder: fe5af45e
+# System Reminder: skip-empty-diagnostics
 
 - Source: inline
 
