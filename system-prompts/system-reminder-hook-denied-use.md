@@ -1,4 +1,4 @@
-# System Reminder: b00f0f2f
+# System Reminder: hook-denied-use
 
 - Source: inline
 
