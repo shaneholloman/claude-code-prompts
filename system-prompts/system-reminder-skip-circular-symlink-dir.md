@@ -1,4 +1,4 @@
-# System Reminder: 3d40fe89
+# System Reminder: skip-circular-symlink-dir
 
 - Source: inline
 
