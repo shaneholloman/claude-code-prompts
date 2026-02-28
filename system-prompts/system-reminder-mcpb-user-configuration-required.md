@@ -1,4 +1,4 @@
-# System Reminder: 909bb170
+# System Reminder: mcpb-user-configuration-required
 
 - Source: inline
 
