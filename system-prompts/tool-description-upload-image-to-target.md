@@ -1,4 +1,4 @@
-# Tool Description: 5e3d658c
+# Tool Description: upload-image-to-target
 
 - Name: upload_image
 
