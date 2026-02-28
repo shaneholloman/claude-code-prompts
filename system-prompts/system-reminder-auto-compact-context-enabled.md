@@ -1,4 +1,4 @@
-# System Reminder: 3cab2b1a
+# System Reminder: auto-compact-context-enabled
 
 - Source: inline
 
