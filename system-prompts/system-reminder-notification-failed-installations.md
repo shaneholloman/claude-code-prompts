@@ -1,4 +1,4 @@
-# System Reminder: be3c692d
+# System Reminder: notification-failed-installations
 
 - Source: inline
 
