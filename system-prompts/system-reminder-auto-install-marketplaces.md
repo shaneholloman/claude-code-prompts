@@ -1,4 +1,4 @@
-# System Reminder: aebe418a
+# System Reminder: auto-install-marketplaces
 
 - Source: inline
 
@@ -10,7 +10,7 @@ Automatically installs marketplaces from the provided list.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 4 | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Installing ${EXPR_1: 4} marketplaces automatically
+Installing ${EXPR_1} marketplaces automatically
