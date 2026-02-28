@@ -1,4 +1,4 @@
-# System Prompt: 22bf9eb9
+# System Prompt: start-coding-after-plan-approval
 
 - Source: inline
 
