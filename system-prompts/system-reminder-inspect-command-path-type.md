@@ -1,4 +1,4 @@
-# System Reminder: 7f556ee0
+# System Reminder: inspect-command-path-type
 
 - Source: inline
 
