@@ -1,4 +1,4 @@
-# Tool Description: 18b7f264
+# Tool Description: emulated-command-not-implemented
 
 - Name: SIGEMT
 
