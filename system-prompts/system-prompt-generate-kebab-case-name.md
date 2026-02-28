@@ -1,4 +1,4 @@
-# System Prompt: 5664f5ba
+# System Prompt: generate-kebab-case-name
 
 
 ## Summary
