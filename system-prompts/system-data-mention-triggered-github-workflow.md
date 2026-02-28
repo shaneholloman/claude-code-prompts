@@ -1,4 +1,4 @@
-# System Data Block: cb59f930
+# System Data Block: mention-triggered-github-workflow
 
 - Source: inline
 
