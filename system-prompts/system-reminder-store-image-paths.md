@@ -1,4 +1,4 @@
-# System Reminder: 45e77002
+# System Reminder: store-image-paths
 
 - Source: inline
 
