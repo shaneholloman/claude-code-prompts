@@ -1,4 +1,4 @@
-# System Reminder: d4a6664d
+# System Reminder: global-update-method
 
 - Source: inline
 
