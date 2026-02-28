@@ -1,4 +1,4 @@
-# System Reminder: 31668bce
+# System Reminder: plugin-install-partial-failure
 
 - Source: inline
 
