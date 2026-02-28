@@ -1,4 +1,4 @@
-# System Reminder: 43aa8c35
+# System Reminder: hook-output-not-json
 
 - Source: inline
 
