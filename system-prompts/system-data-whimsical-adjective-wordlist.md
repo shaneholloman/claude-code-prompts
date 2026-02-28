@@ -1,4 +1,4 @@
-# System Data Block: e7c3c805
+# System Data Block: whimsical-adjective-wordlist
 
 - Source: inline
 
