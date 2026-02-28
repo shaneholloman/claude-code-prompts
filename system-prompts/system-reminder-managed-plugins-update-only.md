@@ -1,4 +1,4 @@
-# System Reminder: cea66cde
+# System Reminder: managed-plugins-update-only
 
 - Source: inline
 
