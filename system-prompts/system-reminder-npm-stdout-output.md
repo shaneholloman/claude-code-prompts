@@ -1,4 +1,4 @@
-# System Reminder: 53bf522e
+# System Reminder: npm-stdout-output
 
 - Source: inline
 
