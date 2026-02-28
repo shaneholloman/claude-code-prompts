@@ -1,4 +1,4 @@
-# System Reminder: 3ffd6b6f
+# System Reminder: detect-rpm-installation
 
 - Source: inline
 
