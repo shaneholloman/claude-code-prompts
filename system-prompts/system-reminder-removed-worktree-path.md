@@ -1,4 +1,4 @@
-# System Reminder: 25ea4a22
+# System Reminder: removed-worktree-path
 
 - Source: inline
 
