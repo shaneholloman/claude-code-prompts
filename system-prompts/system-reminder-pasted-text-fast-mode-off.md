@@ -1,10 +1,10 @@
-# System Reminder: 05c1e57e
+# System Reminder: de5aed0c
 
 - Source: inline
 
 ## Summary
 
-Pasted text with fast mode turned off.
+[Pasted text # · Fast mode OFF +No image found in clipboard.
 
 ## Placeholder Hints (source-backed)
 
@@ -13,4 +13,4 @@ Pasted text with fast mode turned off.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[Pasted text # · Fast mode OFF +${EXPR_1} lines]
+[Pasted text # · Fast mode OFF +No image found in clipboard. Use ${EXPR_1} to paste images. lines]
