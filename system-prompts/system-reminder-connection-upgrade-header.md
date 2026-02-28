@@ -1,4 +1,4 @@
-# System Reminder: a97bf812
+# System Reminder: connection-upgrade-header
 
 - Source: inline
 
