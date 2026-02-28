@@ -1,4 +1,4 @@
-# System Reminder: 4d531ace
+# System Reminder: mcp-resource-no-content
 
 - Source: inline
 
