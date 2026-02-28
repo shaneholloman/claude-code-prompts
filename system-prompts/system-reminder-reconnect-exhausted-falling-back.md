@@ -11,8 +11,7 @@ Reconnect exhausted, falling back to poll loop.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | false | None |
+| `EXPR_2` | false | None |
 
 # Raw Prompt Text
-[bridge:repl] Reconnect exhausted (code=${EXPR_1}), falling back to poll loop (workId=${EXPR_2}_${EXPR_3: false})
+[bridge:repl] Reconnect exhausted (code=${NUM}), falling back to poll loop (workId=${EXPR_1}_${EXPR_2: false})
