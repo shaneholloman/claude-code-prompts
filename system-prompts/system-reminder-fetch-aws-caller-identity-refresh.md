@@ -1,4 +1,4 @@
-# System Reminder: 514b34b8
+# System Reminder: fetch-aws-caller-identity-refresh
 
 - Source: inline
 
