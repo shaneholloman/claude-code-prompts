@@ -1,4 +1,4 @@
-# System Reminder: 4bdd7502
+# System Reminder: copy-plugin-source-directory
 
 - Source: inline
 
