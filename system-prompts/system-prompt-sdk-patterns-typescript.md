@@ -1,4 +1,4 @@
-# System Prompt: 408777da
+# System Prompt: sdk-patterns-typescript
 
 - Source: inline
 
@@ -81,7 +81,7 @@ import { query } from "@anthropic-ai${PATH}";
 for await (const message of query({
   prompt: "Use the code-reviewer agent to review this codebase",
   options: {
-    allowedTools: ["Read", "Glob", "Grep", "Task"],
+    allowedTools: ["Read", "Glob", "Grep", "Agent"],
     agents: {
       "code-reviewer": {
         description: "Expert code reviewer for quality and security reviews.",
