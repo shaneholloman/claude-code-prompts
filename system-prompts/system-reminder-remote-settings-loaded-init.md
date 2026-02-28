@@ -1,4 +1,4 @@
-# System Reminder: 5566b460
+# System Reminder: remote-settings-loaded-init
 
 - Source: inline
 
