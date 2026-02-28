@@ -1,10 +1,16 @@
-# System Prompt: 1def87a4
+# System Prompt: live-docs-webfetch-urls
 
 - Source: inline
 
 ## Summary
 
 Lists WebFetch URLs and guidance for pulling latest API and SDK documentation.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_NAME` | None | None |
 
 # Raw Prompt Text
 # Live Documentation Sources
@@ -32,7 +38,7 @@ This file contains WebFetch URLs for fetching current information from platform.
 | Topic             | URL                                                                          | Extraction Prompt                                                                      |
 | ----------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Extended Thinking | `${URL} | "Extract extended thinking parameters, budget_tokens requirements, and usage examples" |
-| Adaptive Thinking | `${URL} | "Extract adaptive thinking setup, effort levels, and Opus ${NUM} usage examples"         |
+| Adaptive Thinking | `${URL} | "Extract adaptive thinking setup, effort levels, and {{OPUS_NAME}} usage examples"         |
 | Effort Parameter  | `${URL}            | "Extract effort levels, cost-quality tradeoffs, and interaction with thinking"        |
 | Tool Use          | `${URL}  | "Extract tool definition schema, tool_choice options, and handling tool results"       |
 | Streaming         | `${URL}         | "Extract streaming event types, SDK examples, and best practices"                      |
