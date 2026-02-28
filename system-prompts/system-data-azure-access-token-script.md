@@ -1,4 +1,4 @@
-# System Data Block: 1809d239
+# System Data Block: azure-access-token-script
 
 - Source: inline
 
