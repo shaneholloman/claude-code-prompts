@@ -1,4 +1,4 @@
-# System Reminder: ccdd4ee5
+# System Reminder: remote-settings-stale-cache-error
 
 - Source: inline
 
