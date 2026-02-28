@@ -1,4 +1,4 @@
-# System Reminder: bdfa9ecf
+# System Reminder: startup-setup-completed
 
 - Source: inline
 
