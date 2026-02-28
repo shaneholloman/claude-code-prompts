@@ -1,4 +1,4 @@
-# System Prompt: 134cde72
+# System Prompt: verify-repo-access-and-scope
 
 - Source: inline
 
