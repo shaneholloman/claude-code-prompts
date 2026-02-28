@@ -1,4 +1,4 @@
-# System Reminder: 2a311fad
+# System Reminder: anthropic-marketplace-installed
 
 - Source: inline
 
