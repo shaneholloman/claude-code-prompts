@@ -1,4 +1,4 @@
-# System Prompt: 3e5bb042
+# System Prompt: write-command-descriptions
 
 - Source: inline
 
