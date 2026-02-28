@@ -1,4 +1,4 @@
-# Tool Description: c1d4be8a
+# Tool Description: at-a-glance-summary-guidelines
 
 - Name: at_a_glance
 
