@@ -1,4 +1,4 @@
-# System Prompt: ad3fceb1
+# System Prompt: summarize-coding-actions
 
 
 ## Summary
