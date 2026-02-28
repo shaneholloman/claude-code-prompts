@@ -1,4 +1,4 @@
-# System Reminder: 5b374650
+# System Reminder: plugin-autoupdate-notification
 
 - Source: inline
 
