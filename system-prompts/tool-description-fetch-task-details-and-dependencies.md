@@ -1,4 +1,4 @@
-# Tool Description: 10fc29d3
+# Tool Description: fetch-task-details-and-dependencies
 
 - Name: TaskGet
 
