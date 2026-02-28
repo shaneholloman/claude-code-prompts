@@ -1,4 +1,4 @@
-# System Prompt: eb30c3d3
+# System Prompt: session-notes-section-template-2
 
 - Source: inline
 
