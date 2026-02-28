@@ -1,4 +1,4 @@
-# Tool Description: d19da740
+# Tool Description: list-available-tasks
 
 - Name: TaskList
 
