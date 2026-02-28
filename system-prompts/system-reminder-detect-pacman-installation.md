@@ -1,4 +1,4 @@
-# System Reminder: 6f0a0d30
+# System Reminder: detect-pacman-installation
 
 - Source: inline
 
