@@ -1,4 +1,4 @@
-# System Reminder: a872b478
+# System Reminder: telemetry-otlp-log-exporters
 
 - Source: inline
 
