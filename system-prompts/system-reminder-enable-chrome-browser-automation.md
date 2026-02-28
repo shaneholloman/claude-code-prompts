@@ -1,4 +1,4 @@
-# System Reminder: 7989e1f0
+# System Reminder: enable-chrome-browser-automation
 
 - Source: inline
 
