@@ -1,4 +1,4 @@
-# System Reminder: 00ec4c5e
+# System Reminder: set-teammate-mode
 
 - Source: inline
 
