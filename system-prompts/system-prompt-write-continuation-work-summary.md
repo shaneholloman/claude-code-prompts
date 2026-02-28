@@ -1,4 +1,4 @@
-# System Prompt: b8c05c21
+# System Prompt: write-continuation-work-summary
 
 - Source: inline
 
