@@ -1,4 +1,4 @@
-# System Reminder: 04edf58e
+# System Reminder: remote-settings-fetched-successfully
 
 - Source: inline
 
