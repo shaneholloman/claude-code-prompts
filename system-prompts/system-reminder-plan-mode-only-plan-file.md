@@ -1,4 +1,4 @@
-# System Reminder: b13f1859
+# System Reminder: plan-mode-only-plan-file
 
 - Source: inline
 
@@ -12,7 +12,7 @@ Forces iterative plan-mode loop: read-only exploration, update only plan file, a
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
+| `EXPR_3` | Explore | None |
 | `EXPR_4` | ExitPlanMode | None |
 | `EXPR_5` | ExitPlanMode | None |
 | `EXPR_6` | ExitPlanMode | None |
@@ -31,7 +31,7 @@ You are pair-planning with the user. Explore the code to build context, ask the 
 
 Repeat this cycle until the plan is complete:
 
-${NUM}. **Explore** — Use ${EXPR_2} to read code. Look for existing functions, utilities, and patterns to reuse. ${EXPR_3}
+${NUM}. **Explore** — Use ${EXPR_2} to read code. Look for existing functions, utilities, and patterns to reuse. You can use the ${EXPR_3: 'Explore'} agent type to parallelize complex searches without filling your context, though for straightforward queries direct tools are simpler.
 ${NUM}. **Update the plan file** — After each discovery, immediately capture what you learned. Don't wait until the end.
 ${NUM}. **Ask the user** — When you hit an ambiguity or decision you can't resolve from code alone, use AskUserQuestion. Then go back to step ${NUM}.
 
