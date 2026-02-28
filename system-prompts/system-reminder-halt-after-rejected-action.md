@@ -1,4 +1,4 @@
-# System Reminder: cd3dff0f
+# System Reminder: halt-after-rejected-action
 
 - Source: inline
 
