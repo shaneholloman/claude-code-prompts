@@ -1,4 +1,4 @@
-# System Data Block: f95f01b4
+# System Data Block: bedrock-response-stream-chunks-errors
 
 - Source: inline
 
