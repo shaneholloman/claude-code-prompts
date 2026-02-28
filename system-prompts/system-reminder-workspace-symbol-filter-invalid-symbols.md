@@ -1,4 +1,4 @@
-# System Reminder: f8d7fc01
+# System Reminder: workspace-symbol-filter-invalid-symbols
 
 - Source: inline
 
