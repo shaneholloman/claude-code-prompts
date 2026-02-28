@@ -1,4 +1,4 @@
-# System Reminder: 011a3228
+# System Reminder: handle-chrome-message-type
 
 - Source: inline
 
