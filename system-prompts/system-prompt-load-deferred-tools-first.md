@@ -1,4 +1,4 @@
-# System Prompt: 570dc2aa-2
+# System Prompt: discover-deferred-capabilities-first-2
 
 - Source: inline
 
