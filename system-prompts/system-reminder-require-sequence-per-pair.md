@@ -1,4 +1,4 @@
-# System Reminder: 8b09a96c
+# System Reminder: require-sequence-per-pair
 
 - Source: inline
 
