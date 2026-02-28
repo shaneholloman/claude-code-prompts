@@ -1,4 +1,4 @@
-# System Reminder: d68e2f48
+# System Reminder: plugin-install-restart-notice
 
 - Source: inline
 
