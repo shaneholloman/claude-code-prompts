@@ -1,4 +1,4 @@
-# System Reminder: 1fa49c2d
+# System Reminder: remove-delivered-hook
 
 - Source: inline
 
