@@ -1,4 +1,4 @@
-# System Prompt: 8f400b14
+# System Prompt: command-json-exit-handling
 
 - Source: inline
 
