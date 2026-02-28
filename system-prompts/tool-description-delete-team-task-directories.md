@@ -1,4 +1,4 @@
-# Tool Description: 9fd646fe
+# Tool Description: delete-team-task-directories
 
 - Name: TeamDelete
 
