@@ -1,4 +1,4 @@
-# System Reminder: bc3980ac
+# System Reminder: headless-plugin-install-summary
 
 - Source: inline
 
