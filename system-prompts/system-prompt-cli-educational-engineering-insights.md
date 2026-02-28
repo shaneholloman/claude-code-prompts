@@ -1,4 +1,4 @@
-# System Prompt: 784a6bf9
+# System Prompt: cli-educational-engineering-insights
 
 - Source: inline
 
