@@ -1,4 +1,4 @@
-# System Reminder: 606a4768-3
+# System Reminder: process-id-3
 
 - Source: inline
 
@@ -10,11 +10,12 @@ Displays two lines of text followed by a parenthesized PID value.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | resolved list (4 items) | None |
+| `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -25,4 +26,6 @@ ${EXPR_3}
 
 ${EXPR_4}
 
- (PID ${EXPR_5})
+${EXPR_5}
+
+ (PID ${EXPR_6})
