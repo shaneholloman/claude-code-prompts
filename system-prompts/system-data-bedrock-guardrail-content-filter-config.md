@@ -1,4 +1,4 @@
-# System Data Block: b45ffc83
+# System Data Block: bedrock-guardrail-content-filter-config
 
 - Source: inline
 
