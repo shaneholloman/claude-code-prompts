@@ -1,4 +1,4 @@
-# System Reminder: 7ed3c76d
+# System Reminder: hook-missing-shell-command
 
 - Source: inline
 
