@@ -1,4 +1,4 @@
-# System Reminder: 7f063d74
+# System Reminder: remote-settings-save-failed
 
 - Source: inline
 
