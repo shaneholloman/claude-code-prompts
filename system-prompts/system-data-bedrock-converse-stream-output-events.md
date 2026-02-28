@@ -1,4 +1,4 @@
-# System Data Block: 230d650a
+# System Data Block: bedrock-converse-stream-output-events
 
 - Source: inline
 
