@@ -1,4 +1,4 @@
-# System Data Block: 76bf4995
+# System Data Block: macos-sandbox-policy-rules
 
 - Source: inline
 
