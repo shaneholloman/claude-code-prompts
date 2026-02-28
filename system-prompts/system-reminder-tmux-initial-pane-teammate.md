@@ -1,4 +1,4 @@
-# System Reminder: eba264b0
+# System Reminder: tmux-initial-pane-teammate
 
 - Source: inline
 
