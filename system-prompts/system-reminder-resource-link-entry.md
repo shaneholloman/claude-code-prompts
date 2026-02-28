@@ -1,4 +1,4 @@
-# System Reminder: 6137bbdc
+# System Reminder: resource-link-entry
 
 - Source: inline
 
