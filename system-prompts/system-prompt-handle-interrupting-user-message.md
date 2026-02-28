@@ -1,4 +1,4 @@
-# System Prompt: b3f779c1
+# System Prompt: handle-interrupting-user-message
 
 
 ## Summary
