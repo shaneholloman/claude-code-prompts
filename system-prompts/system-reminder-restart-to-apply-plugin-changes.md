@@ -1,4 +1,4 @@
-# System Reminder: 47611699
+# System Reminder: restart-to-apply-plugin-changes
 
 - Source: inline
 
