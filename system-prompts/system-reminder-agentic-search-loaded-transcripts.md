@@ -1,4 +1,4 @@
-# System Reminder: e8dc988e
+# System Reminder: agentic-search-loaded-transcripts
 
 - Source: inline
 
