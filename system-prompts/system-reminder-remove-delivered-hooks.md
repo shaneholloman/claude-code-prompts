@@ -1,4 +1,4 @@
-# System Reminder: 4aa41ef0
+# System Reminder: remove-delivered-hooks
 
 - Source: inline
 
