@@ -1,4 +1,4 @@
-# System Reminder: a8670e41
+# System Reminder: removed-path-from-team-file
 
 - Source: inline
 
@@ -6,5 +6,11 @@
 
 print.ts logs removal of a path entry from the team file.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
-[print.ts] Removed ${NUM} from team file
+[print.ts] Removed ${EXPR_1} from team file
