@@ -1,4 +1,4 @@
-# System Reminder: e540f135
+# System Reminder: remote-settings-stale-cache-fetch-failure
 
 - Source: inline
 
