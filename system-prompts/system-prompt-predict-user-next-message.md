@@ -1,4 +1,4 @@
-# System Prompt: de7aee95
+# System Prompt: predict-user-next-message
 
 - Source: inline
 
