@@ -1,4 +1,4 @@
-# Tool Description: aab4eaea
+# Tool Description: ctrl-c-user-interruption
 
 - Name: SIGINT
 
