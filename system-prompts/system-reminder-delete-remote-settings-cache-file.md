@@ -1,4 +1,4 @@
-# System Reminder: a43fd5be
+# System Reminder: delete-remote-settings-cache-file
 
 - Source: inline
 
