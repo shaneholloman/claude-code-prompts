@@ -1,4 +1,4 @@
-# System Reminder: d1651cd6
+# System Reminder: download-mcpb-from-source
 
 - Source: inline
 
