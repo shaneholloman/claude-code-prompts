@@ -1,4 +1,4 @@
-# Tool Description: 8e454b63
+# Tool Description: find-page-elements
 
 - Name: find
 
