@@ -1,4 +1,4 @@
-# System Reminder: 930503f7
+# System Reminder: official-marketplace-auto-install-disabled
 
 - Source: inline
 
