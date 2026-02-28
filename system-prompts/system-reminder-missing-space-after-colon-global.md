@@ -1,4 +1,4 @@
-# System Reminder: f52dcbb8
+# System Reminder: missing-space-after-colon-global
 
 - Source: inline
 
