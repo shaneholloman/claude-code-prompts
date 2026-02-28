@@ -1,4 +1,4 @@
-# System Reminder: 658b6d2c
+# System Reminder: plugin-install-status-restart
 
 - Source: inline
 
