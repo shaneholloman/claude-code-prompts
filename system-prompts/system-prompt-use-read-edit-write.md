@@ -1,4 +1,4 @@
-# System Prompt: 90490393
+# System Prompt: use-read-edit-write
 
 - Source: inline
 
