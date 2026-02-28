@@ -1,4 +1,4 @@
-# System Reminder: ea1edd93
+# System Reminder: plugin-update-failed-details
 
 - Source: inline
 
