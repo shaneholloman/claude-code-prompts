@@ -1,4 +1,4 @@
-# System Reminder: f9b63f12
+# System Reminder: global-agents-config-complete
 
 - Source: inline
 
