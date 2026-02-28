@@ -1,4 +1,4 @@
-# System Reminder: e8e9dca5
+# System Reminder: auto-install-plugins
 
 - Source: inline
 
