@@ -1,4 +1,4 @@
-# System Prompt: eb2f4654
+# System Prompt: plan-submitted-for-approval
 
 - Source: inline
 
