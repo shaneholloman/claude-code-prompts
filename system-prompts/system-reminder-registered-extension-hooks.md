@@ -1,4 +1,4 @@
-# System Reminder: 283ff757
+# System Reminder: registered-extension-hooks
 
 - Source: inline
 
