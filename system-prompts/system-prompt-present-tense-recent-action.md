@@ -1,4 +1,4 @@
-# System Prompt: 74d26d3b
+# System Prompt: present-tense-recent-action
 
 - Source: inline
 
