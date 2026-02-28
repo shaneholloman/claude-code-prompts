@@ -1,4 +1,4 @@
-# System Reminder: c96d70d5
+# System Reminder: forced-plugin-output-style
 
 - Source: inline
 
