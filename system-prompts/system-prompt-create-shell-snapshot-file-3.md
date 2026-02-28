@@ -1,4 +1,4 @@
-# System Prompt: 8d7e1229
+# System Prompt: create-shell-snapshot-file-3
 
 - Source: inline
 
