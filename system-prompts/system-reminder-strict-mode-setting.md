@@ -1,4 +1,4 @@
-# System Reminder: 519e73cf
+# System Reminder: strict-mode-setting
 
 - Source: inline
 
