@@ -1,4 +1,4 @@
-# System Reminder: e8da26cf
+# System Reminder: set-auto-update-channel
 
 - Source: inline
 
