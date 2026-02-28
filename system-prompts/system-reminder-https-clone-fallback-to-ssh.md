@@ -1,4 +1,4 @@
-# System Reminder: 3f5d7241
+# System Reminder: https-clone-fallback-to-ssh
 
 - Source: inline
 
