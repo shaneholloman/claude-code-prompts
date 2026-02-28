@@ -1,4 +1,4 @@
-# System Reminder: 0f0a0333
+# System Reminder: loaded-mcp-server-from-mcpb
 
 - Source: inline
 
