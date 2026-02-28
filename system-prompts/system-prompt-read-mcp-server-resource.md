@@ -1,4 +1,4 @@
-# System Prompt: 9f4eaff4
+# System Prompt: read-mcp-server-resource
 
 - Source: inline
 
