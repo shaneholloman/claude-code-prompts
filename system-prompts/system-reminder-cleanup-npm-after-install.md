@@ -1,4 +1,4 @@
-# System Reminder: 429e00fe
+# System Reminder: cleanup-npm-after-install
 
 - Source: inline
 
