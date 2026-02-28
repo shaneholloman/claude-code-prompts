@@ -1,4 +1,4 @@
-# System Reminder: 2cf16b83
+# System Reminder: lsp-notification-handlers-registered
 
 - Source: inline
 
