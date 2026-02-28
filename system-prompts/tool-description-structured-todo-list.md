@@ -1,10 +1,10 @@
-# Tool Description: a670f0e3
+# Tool Description: structured-todo-list
 
 - Name: TodoWrite
 
 ## Summary
 
-Criteria for starting, updating, and avoiding a structured todo tool during coding sessions
+Instructions for using a structured task list tool during coding sessions.
 
 ## Placeholder Hints (source-backed)
 
@@ -90,12 +90,12 @@ ${NUM}. This approach allows for tracking progress across the entire implementat
 <${PATH}>
 
 <example>
-User: Can you help optimize my React application? It's rendering slowly and has performance issues.<${PATH}>
+User: Can you help optimize my React application? It's rendering slowly and has performance issues.
 Assistant: I'll help optimize your React application. First, let me examine your codebase to identify potential performance bottlenecks.
 *Reviews component structure, render patterns, state management, and data fetching*
 Assistant: After analyzing your codebase, I've identified several performance issues. Let me create a todo list to track our optimization efforts.
 *Creates todo list with items like: ${NUM}) Implementing memoization for expensive calculations in ProductList, ${NUM}) Adding virtualization for long lists in Dashboard, ${NUM}) Optimizing image loading in Gallery component, ${NUM}) Fixing state update loops in ShoppingCart, ${NUM}) Reviewing bundle size and implementing code splitting*
-Let's start by implementing memoization for the expensive calculations in your ProductList component.<${PATH}>
+Let's start by implementing memoization for the expensive calculations in your ProductList component.
 
 <reasoning>
 The assistant used the todo list because:
@@ -116,7 +116,7 @@ Assistant: In Python, you can print "Hello World" with this simple code:
 python
 print("Hello World")
 
-This will output the text "Hello World" to the console when executed.<${PATH}>
+This will output the text "Hello World" to the console when executed.
 
 <reasoning>
 The assistant did not use the todo list because this is a single, trivial task that can be completed in one step. There's no need to track multiple tasks or steps for such a straightforward request.
