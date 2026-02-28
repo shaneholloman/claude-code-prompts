@@ -1,4 +1,4 @@
-# System Reminder: 3766eaa7
+# System Reminder: resource-origin-timestamp
 
 - Source: inline
 
