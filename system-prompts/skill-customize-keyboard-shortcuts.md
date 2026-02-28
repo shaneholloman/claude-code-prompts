@@ -1,4 +1,4 @@
-# Skill: 40d92b1b
+# Skill: customize-keyboard-shortcuts
 
 - Source: inline
 
