@@ -1,4 +1,4 @@
-# Tool Description: 55c09de1
+# Tool Description: present-plan-for-approval
 
 - Name: update_plan
 
