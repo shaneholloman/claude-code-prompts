@@ -1,4 +1,4 @@
-# System Reminder: 116a5aba
+# System Reminder: sync-installed-plugins-settings
 
 - Source: inline
 
