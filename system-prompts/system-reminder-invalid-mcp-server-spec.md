@@ -1,4 +1,4 @@
-# System Reminder: 14cbf006
+# System Reminder: invalid-mcp-server-spec
 
 - Source: inline
 
