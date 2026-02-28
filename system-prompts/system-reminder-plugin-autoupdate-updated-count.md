@@ -1,4 +1,4 @@
-# System Reminder: e4bfb175
+# System Reminder: plugin-autoupdate-updated-count
 
 - Source: inline
 
