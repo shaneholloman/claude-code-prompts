@@ -1,4 +1,4 @@
-# Tool Description: b93aa048
+# Tool Description: navigate-browser-url
 
 - Name: navigate
 
