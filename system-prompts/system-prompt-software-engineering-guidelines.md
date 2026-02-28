@@ -1,4 +1,4 @@
-# System Prompt: d5d19bfc
+# System Prompt: software-engineering-guidelines
 
 - Source: inline
 
