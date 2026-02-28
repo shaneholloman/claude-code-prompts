@@ -1,4 +1,4 @@
-# System Reminder: 3f8f4751
+# System Reminder: status-line-disabled-by-hooks-setting
 
 - Source: inline
 
