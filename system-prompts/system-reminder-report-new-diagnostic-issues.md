@@ -1,4 +1,4 @@
-# System Reminder: 4a21df6a
+# System Reminder: report-new-diagnostic-issues
 
 - Source: inline
 
