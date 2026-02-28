@@ -1,4 +1,4 @@
-# System Reminder: 2f944c3f
+# System Reminder: check-gh-auth-status
 
 - Source: inline
 
