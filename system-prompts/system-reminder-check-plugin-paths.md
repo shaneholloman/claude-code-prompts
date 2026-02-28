@@ -1,4 +1,4 @@
-# System Reminder: 091cf7ce
+# System Reminder: check-plugin-paths
 
 - Source: inline
 
