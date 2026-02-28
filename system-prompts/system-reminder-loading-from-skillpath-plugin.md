@@ -1,4 +1,4 @@
-# System Reminder: b800b091
+# System Reminder: loading-from-skillpath-plugin
 
 - Source: inline
 
