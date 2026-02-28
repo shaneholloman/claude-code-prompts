@@ -1,4 +1,4 @@
-# System Reminder: 0d75473c
+# System Reminder: package-update-available
 
 - Source: inline
 
@@ -10,8 +10,8 @@ Announces a PackageManagerAutoUpdater update is available from one version to an
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 2.1.62 | None |
+| `EXPR_1` | 2.1.63 | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-PackageManagerAutoUpdater: Update available ${EXPR_1: '2.1.62'} -> ${EXPR_2}
+PackageManagerAutoUpdater: Update available ${EXPR_1: '2.1.63'} -> ${EXPR_2}
