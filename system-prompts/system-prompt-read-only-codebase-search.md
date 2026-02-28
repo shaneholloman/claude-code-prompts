@@ -1,4 +1,4 @@
-# System Prompt: 2cc0b54d
+# System Prompt: read-only-codebase-search
 
 - Source: inline
 
