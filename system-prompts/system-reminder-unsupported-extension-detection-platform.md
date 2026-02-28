@@ -1,4 +1,4 @@
-# System Reminder: 53dfe2b8
+# System Reminder: unsupported-extension-detection-platform
 
 - Source: inline
 
