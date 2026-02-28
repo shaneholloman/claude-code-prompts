@@ -1,4 +1,4 @@
-# System Reminder: cd78a61c
+# System Reminder: register-iterm-backend-undefined-class
 
 - Source: inline
 
