@@ -1,4 +1,4 @@
-# Tool Description: 69fa0d4d
+# Tool Description: fetch-and-analyze-web-content
 
 - Name: WebFetch
 
