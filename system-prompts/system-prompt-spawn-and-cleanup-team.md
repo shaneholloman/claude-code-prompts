@@ -1,4 +1,4 @@
-# System Prompt: 7aa83879
+# System Prompt: spawn-and-cleanup-team
 
 - Source: inline
 
