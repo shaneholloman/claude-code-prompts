@@ -6,5 +6,11 @@
 
 Environment re-creation limit reached, giving up.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | tasklist | None |
+
 # Raw Prompt Text
-[bridge:repl] Environment re-creation limit reached (${NUM}), giving up
+[bridge:repl] Environment re-creation limit reached (${EXPR_1: 'tasklist'}), giving up
