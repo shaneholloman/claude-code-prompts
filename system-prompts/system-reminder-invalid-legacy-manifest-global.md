@@ -1,4 +1,4 @@
-# System Reminder: a924b6d5
+# System Reminder: invalid-legacy-manifest-global
 
 - Source: inline
 
