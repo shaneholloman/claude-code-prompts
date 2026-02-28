@@ -1,4 +1,4 @@
-# System Reminder: 5c489947
+# System Reminder: remote-session-init-slash-commands
 
 - Source: inline
 
