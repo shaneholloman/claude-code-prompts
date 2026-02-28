@@ -1,4 +1,4 @@
-# System Prompt: f0baaf2c
+# System Prompt: implementation-insights
 
 - Source: inline
 
