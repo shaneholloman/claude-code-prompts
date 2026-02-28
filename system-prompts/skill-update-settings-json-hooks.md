@@ -1,4 +1,4 @@
-# Skill: c3c4461a
+# Skill: update-settings-json-hooks
 
 - Source: inline
 
