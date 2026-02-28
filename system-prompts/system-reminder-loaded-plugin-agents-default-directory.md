@@ -1,4 +1,4 @@
-# System Reminder: 07b3eabf
+# System Reminder: loaded-plugin-agents-default-directory
 
 - Source: inline
 
