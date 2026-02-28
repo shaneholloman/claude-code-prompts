@@ -1,4 +1,4 @@
-# System Reminder: 295884f2
+# System Reminder: hooks-got-structured-output
 
 - Source: inline
 
