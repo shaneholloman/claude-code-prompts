@@ -1,4 +1,4 @@
-# System Reminder: a809f573
+# System Reminder: git-sha-for-target
 
 - Source: inline
 
