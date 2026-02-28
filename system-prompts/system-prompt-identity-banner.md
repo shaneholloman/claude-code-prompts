@@ -1,4 +1,4 @@
-# System Prompt: d6aaddb4
+# System Prompt: identity-banner
 
 - Source: inline
 
