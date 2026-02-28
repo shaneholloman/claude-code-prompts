@@ -1,4 +1,4 @@
-# System Prompt: 0c13b406
+# System Prompt: redirect-detected
 
 - Source: inline
 
