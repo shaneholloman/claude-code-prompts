@@ -1,4 +1,4 @@
-# System Reminder: cb86283b
+# System Reminder: lsp-recommendation-plugin-installed
 
 - Source: inline
 
