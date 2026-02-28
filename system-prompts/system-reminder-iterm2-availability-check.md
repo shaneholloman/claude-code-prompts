@@ -1,4 +1,4 @@
-# System Reminder: 332323fe
+# System Reminder: iterm2-availability-check
 
 - Source: inline
 
