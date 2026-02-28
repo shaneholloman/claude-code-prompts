@@ -1,4 +1,4 @@
-# System Prompt: 29b5a32e
+# System Prompt: absolute-paths-and-calls
 
 - Source: inline
 
