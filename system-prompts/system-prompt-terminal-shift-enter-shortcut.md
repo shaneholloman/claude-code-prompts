@@ -1,4 +1,4 @@
-# System Prompt: 2223f701
+# System Prompt: terminal-shift-enter-shortcut
 
 - Source: inline
 
