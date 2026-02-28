@@ -1,4 +1,4 @@
-# System Reminder: c3872ee5
+# System Reminder: block-collections-not-allowed
 
 - Source: inline
 
