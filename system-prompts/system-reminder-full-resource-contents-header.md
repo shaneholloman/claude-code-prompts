@@ -1,4 +1,4 @@
-# System Reminder: e7d4e7f6
+# System Reminder: full-resource-contents-header
 
 - Source: inline
 
