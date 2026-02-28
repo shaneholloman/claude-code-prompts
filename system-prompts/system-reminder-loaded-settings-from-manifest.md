@@ -1,4 +1,4 @@
-# System Reminder: 2ad29d76
+# System Reminder: loaded-settings-from-manifest
 
 - Source: inline
 
