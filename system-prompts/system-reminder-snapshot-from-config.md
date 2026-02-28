@@ -1,4 +1,4 @@
-# System Reminder: 519961fc
+# System Reminder: snapshot-from-config
 
 - Source: inline
 
