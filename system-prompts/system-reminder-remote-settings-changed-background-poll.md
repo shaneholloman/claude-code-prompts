@@ -1,4 +1,4 @@
-# System Reminder: 00f4220a
+# System Reminder: remote-settings-changed-background-poll
 
 - Source: inline
 
