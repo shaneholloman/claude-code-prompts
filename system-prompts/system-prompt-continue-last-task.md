@@ -1,4 +1,4 @@
-# System Prompt: 670c922d
+# System Prompt: continue-last-task
 
 - Source: inline
 
