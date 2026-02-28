@@ -1,4 +1,4 @@
-# Tool Description: a0e3f6fe
+# Tool Description: update-task-status-details
 
 - Name: TaskUpdate
 
