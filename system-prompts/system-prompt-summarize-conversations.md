@@ -1,4 +1,4 @@
-# System Prompt: 5c0d6918
+# System Prompt: summarize-conversations
 
 
 ## Summary
