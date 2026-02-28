@@ -1,4 +1,4 @@
-# System Reminder: 63d7a78a
+# System Reminder: snapshots-directory-global
 
 - Source: inline
 
