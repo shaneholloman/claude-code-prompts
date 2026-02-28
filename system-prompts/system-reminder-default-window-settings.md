@@ -1,4 +1,4 @@
-# System Reminder: a746f84b
+# System Reminder: default-window-settings
 
 - Source: inline
 
