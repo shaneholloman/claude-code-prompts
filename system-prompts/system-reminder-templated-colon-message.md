@@ -1,4 +1,4 @@
-# System Reminder: 40e38d2f
+# System Reminder: templated-colon-message
 
 - Source: inline
 
