@@ -1,4 +1,4 @@
-# System Reminder: 672dc88d
+# System Reminder: jpeg-compressed-buffer-size
 
 - Source: inline
 
