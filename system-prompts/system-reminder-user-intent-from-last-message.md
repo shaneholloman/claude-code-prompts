@@ -1,4 +1,4 @@
-# System Reminder: aa6e8fb0
+# System Reminder: user-intent-from-last-message
 
 - Source: inline
 
