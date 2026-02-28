@@ -1,4 +1,4 @@
-# System Reminder: f11b4f29
+# System Reminder: remove-session-snapshot
 
 - Source: inline
 
