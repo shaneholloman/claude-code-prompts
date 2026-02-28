@@ -1,4 +1,4 @@
-# System Reminder: c25ce37f
+# System Reminder: sync-completed-plugins-json
 
 - Source: inline
 
