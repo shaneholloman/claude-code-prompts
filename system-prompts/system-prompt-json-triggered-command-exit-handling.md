@@ -1,4 +1,4 @@
-# System Prompt: c170306b
+# System Prompt: json-triggered-command-exit-handling
 
 - Source: inline
 
