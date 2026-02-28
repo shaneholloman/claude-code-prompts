@@ -1,4 +1,4 @@
-# System Reminder: 0e5c6860
+# System Reminder: auto-resume-interrupted-turn
 
 - Source: inline
 
