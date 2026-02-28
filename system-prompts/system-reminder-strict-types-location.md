@@ -1,4 +1,4 @@
-# System Reminder: ea90303f
+# System Reminder: strict-types-location
 
 - Source: inline
 
