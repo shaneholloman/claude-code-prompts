@@ -1,4 +1,4 @@
-# System Reminder: 74a0226e
+# System Reminder: desktop-update-required
 
 - Source: inline
 
