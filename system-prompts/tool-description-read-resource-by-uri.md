@@ -1,4 +1,4 @@
-# Tool Description: 2eddb539
+# Tool Description: read-resource-by-uri
 
 - Name: ReadMcpResourceTool
 
