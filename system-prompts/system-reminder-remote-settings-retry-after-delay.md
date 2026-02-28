@@ -1,4 +1,4 @@
-# System Reminder: fd557326
+# System Reminder: remote-settings-retry-after-delay
 
 - Source: inline
 
