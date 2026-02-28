@@ -1,4 +1,4 @@
-# System Reminder: 8a4986c1
+# System Reminder: yaml-directive-one-part
 
 - Source: inline
 
