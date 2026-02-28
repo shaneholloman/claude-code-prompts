@@ -1,4 +1,4 @@
-# System Reminder: 00b3082b
+# System Reminder: preserve-file-permissions
 
 - Source: inline
 
