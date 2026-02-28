@@ -1,4 +1,4 @@
-# System Prompt: a72140e5
+# System Prompt: github-issue-title-generator
 
 
 ## Summary
