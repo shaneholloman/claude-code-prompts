@@ -1,4 +1,4 @@
-# System Reminder: 23b555ba
+# System Reminder: atomically-update-symlink
 
 - Source: inline
 
