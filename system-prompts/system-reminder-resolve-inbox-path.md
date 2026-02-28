@@ -1,4 +1,4 @@
-# System Reminder: c64efc3d
+# System Reminder: resolve-inbox-path
 
 - Source: inline
 
