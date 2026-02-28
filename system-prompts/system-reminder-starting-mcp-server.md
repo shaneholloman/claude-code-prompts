@@ -1,4 +1,4 @@
-# System Reminder: 626266b1
+# System Reminder: starting-mcp-server
 
 - Source: inline
 
