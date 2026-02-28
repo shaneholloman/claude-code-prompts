@@ -1,4 +1,4 @@
-# System Prompt: 736d5a5a
+# System Prompt: authenticate-with-gh-cli
 
 - Source: inline
 
