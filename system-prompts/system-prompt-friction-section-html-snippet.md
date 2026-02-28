@@ -1,4 +1,4 @@
-# System Prompt: ce4a231a
+# System Prompt: friction-section-html-snippet
 
 - Source: inline
 
