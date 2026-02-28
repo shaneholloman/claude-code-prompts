@@ -1,4 +1,4 @@
-# System Reminder: c5ab438e
+# System Reminder: ripgrep-file-count-timing
 
 - Source: inline
 
