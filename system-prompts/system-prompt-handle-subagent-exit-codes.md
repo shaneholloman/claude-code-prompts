@@ -1,4 +1,4 @@
-# System Prompt: fd68dff2
+# System Prompt: handle-subagent-exit-codes
 
 - Source: inline
 
