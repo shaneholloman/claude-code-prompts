@@ -1,4 +1,4 @@
-# System Prompt: 1e5ad4f5
+# System Prompt: avoid-rereading-unchanged-resource
 
 
 ## Summary
