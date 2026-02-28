@@ -1,4 +1,4 @@
-# System Data Block: 3d16d98e
+# System Data Block: typescript-message-batches-api
 
 - Source: inline
 
@@ -10,6 +10,7 @@ TypeScript usage for Anthropic Messages Batches API creating async discounted ba
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
+| `OPUS_ID` | None | None |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
@@ -50,7 +51,7 @@ const messageBatch = await client.messages.batches.create({
     {
       custom_id: "request-${NUM}",
       params: {
-        model: "claude-opus-${NUM}-${NUM}",
+        model: "{{OPUS_ID}}",
         max_tokens: ${NUM},
         messages: [
           { role: "user", content: "Summarize climate change impacts" },
@@ -60,7 +61,7 @@ const messageBatch = await client.messages.batches.create({
     {
       custom_id: "request-${NUM}",
       params: {
-        model: "claude-opus-${NUM}-${NUM}",
+        model: "{{OPUS_ID}}",
         max_tokens: ${NUM},
         messages: [
           { role: "user", content: "Explain quantum computing basics" },
