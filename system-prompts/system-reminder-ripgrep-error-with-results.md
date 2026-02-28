@@ -1,4 +1,4 @@
-# System Reminder: 4fd158b5
+# System Reminder: ripgrep-error-with-results
 
 - Source: inline
 
