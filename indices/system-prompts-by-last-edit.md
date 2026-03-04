@@ -1,6 +1,6 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **2944**
+- Total prompt files: **2945**
 
 ## Categories
 
@@ -9,7 +9,7 @@
 - Agent prompts (6)
 - Skills (3)
 - System data (153)
-- System reminders (2483)
+- System reminders (2484)
 
 ## System prompts (221)
 
@@ -17,16 +17,16 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-committing-changes-git-only-create.md`](../system-prompts/system-prompt-committing-changes-git-only-create.md) | Committing changes with git Only create commits when requested by the user. | 1,518 | 2.1.66 | 2.1.66 |
-| [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,262 | 2.1.66 | 2.1.66 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.66 | 2.1.66 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.66 | 2.1.66 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.66 | 2.1.66 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.66 | 2.1.66 |
-| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.66 | 2.1.66 |
-| [`system-prompt-subagent-context-boundaries.md`](../system-prompts/system-prompt-subagent-context-boundaries.md) | Clarifies sub-agent context boundaries and limits actions to assigned task and available messages. | 114 | 2.1.66 | 2.1.66 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.66 | 2.1.66 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.66 | 2.1.66 |
+| [`system-prompt-committing-changes-git-only-create.md`](../system-prompts/system-prompt-committing-changes-git-only-create.md) | Committing changes with git Only create commits when requested by the user. | 1,518 | 2.1.68 | 2.1.68 |
+| [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,262 | 2.1.68 | 2.1.68 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.68 | 2.1.68 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.68 | 2.1.68 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.68 | 2.1.68 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.68 | 2.1.68 |
+| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.68 | 2.1.68 |
+| [`system-prompt-subagent-context-boundaries.md`](../system-prompts/system-prompt-subagent-context-boundaries.md) | Clarifies sub-agent context boundaries and limits actions to assigned task and available messages. | 114 | 2.1.68 | 2.1.68 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.68 | 2.1.68 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.68 | 2.1.68 |
 | [`system-prompt-building-llm-powered-applications-this.md`](../system-prompts/system-prompt-building-llm-powered-applications-this.md) | Building LLM-Powered Applications with Claude This skill helps you build LLM-powered applications with Claude. | 4,982 | 2.1.63 | 2.1.63 |
 | [`system-prompt-python-runner-beta.md`](../system-prompts/system-prompt-python-runner-beta.md) | Explains Python tool runner usage with the beta_tool decorator and automatic loop. | 4,139 | 2.1.63 | 2.1.63 |
 | [`system-prompt-type-script-conceptual-overview-definitions.md`](../system-prompts/system-prompt-type-script-conceptual-overview-definitions.md) | Tool Use — TypeScript For conceptual overview (tool definitions, tool choice, tips), see [shared…](..…). | 4,034 | 2.1.63 | 2.1.63 |
@@ -245,8 +245,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.66 | 2.1.66 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.66 | 2.1.66 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.68 | 2.1.68 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.68 | 2.1.68 |
 | [`tool-description-structured-todo-list.md`](../system-prompts/tool-description-structured-todo-list.md) | Instructions for using a structured task list tool during coding sessions. | 2,420 | 2.1.63 | 2.1.63 |
 | [`tool-description-spawn-and-manage-teams.md`](../system-prompts/tool-description-spawn-and-manage-teams.md) | Use TeammateTool to create and manage multi-agent teams when collaboration or parallel work would help. | 1,664 | 2.1.63 | 2.1.63 |
 | [`tool-description-plan-approach-signoff.md`](../system-prompts/tool-description-plan-approach-signoff.md) | Advise entering plan mode and getting user sign-off before non-trivial implementation work. | 901 | 2.1.63 | 2.1.63 |
@@ -330,7 +330,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.66 | 2.1.66 |
+| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.68 | 2.1.68 |
 | [`agent-prompt-use-current-configuration.md`](../system-prompts/agent-prompt-use-current-configuration.md) | Incorporate the user’s custom environment configuration when answering and suggesting features. | 57 | 2.1.49 | 2.1.49 |
 | [`agent-prompt-mcp-servers-found-desktop.md`](../system-prompts/agent-prompt-mcp-servers-found-desktop.md) | Report count of MCP servers found in Claude Desktop, followed by details. | 21 | 2.1.49 | 2.1.49 |
 | [`agent-prompt-read-only-codebase-search.md`](../system-prompts/agent-prompt-read-only-codebase-search.md) | Search and analyze an existing codebase in strict read-only mode using provided tools. | 503 | 2.0.56 | 2.1.41 |
@@ -353,10 +353,10 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.66 | 2.1.66 |
-| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.66 | 2.1.66 |
-| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.66 | 2.1.66 |
-| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.66 | 2.1.66 |
+| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.68 | 2.1.68 |
+| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.68 | 2.1.68 |
+| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.68 | 2.1.68 |
+| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.68 | 2.1.68 |
 | [`system-data-report-page-css-styles.md`](../system-prompts/system-data-report-page-css-styles.md) | CSS stylesheet snippet defining layout, typography, and navigation styles. | 4,570 | 2.1.63 | 2.1.63 |
 | [`system-data-streaming-type-script-quick-start.md`](../system-prompts/system-data-streaming-type-script-quick-start.md) | Streaming — TypeScript Quick Start ```typescript const stream = client.messages.stream({ model: "…", max_tokens: …, messages: [{ role: "user", content: "Writ… | 1,675 | 2.1.63 | 2.1.63 |
 | [`system-data-api-curl-examples.md`](../system-prompts/system-data-api-curl-examples.md) | Provides raw HTTP cURL examples for basic and streaming Claude message requests. | 1,539 | 2.1.63 | 2.1.63 |
@@ -507,13 +507,13 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (2483)
+## System reminders (2484)
 
 _Sorted by last edit (newest first). Showing **248** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.66 | 2.1.66 |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.68 | 2.1.68 |
 | [`system-reminder-plan-workflow-read-only.md`](../system-prompts/system-reminder-plan-workflow-read-only.md) | Enforces plan-mode phases: only plan-file edits, read-only actions, parallel exploration agents. | 1,127 | 2.1.63 | 2.1.63 |
 | [`system-reminder-plan-mode-only-plan-file.md`](../system-prompts/system-reminder-plan-mode-only-plan-file.md) | Forces iterative plan-mode loop: read-only exploration, update only plan file, ask user on ambiguities. | 765 | 2.1.63 | 2.1.63 |
 | [`system-reminder-90d9d29b-2.md`](../system-prompts/system-reminder-90d9d29b-2.md) | … && … && … && … && … && For temporary files, always use the `$TMPDIR` environment variable (or `…` as a fallback). | 278 | 2.1.63 | 2.1.63 |
@@ -763,10 +763,11 @@ _Sorted by last edit (newest first). Showing **248** reminders with more than **
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 2235 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 2236 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-user-requested-reasoning-effort-level.md`](../system-prompts/system-reminder-user-requested-reasoning-effort-level.md) | The user has requested reasoning effort level: …. | 22 | 2.1.68 | 2.1.68 |
 | [`system-reminder-hybrid-transport-post-returned-retryable.md`](../system-prompts/system-reminder-hybrid-transport-post-returned-retryable.md) | HybridTransport: POST returned … (retryable) | 19 | 2.1.66 | 2.1.66 |
 | [`system-reminder-hybrid-transport-post-returned-permanent.md`](../system-prompts/system-reminder-hybrid-transport-post-returned-permanent.md) | HybridTransport: POST returned … (permanent), dropping | 18 | 2.1.66 | 2.1.66 |
 | [`system-reminder-hybrid-transport-post-error.md`](../system-prompts/system-reminder-hybrid-transport-post-error.md) | HybridTransport: POST error: … | 15 | 2.1.66 | 2.1.66 |

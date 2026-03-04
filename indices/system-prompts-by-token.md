@@ -1,6 +1,6 @@
 # System Prompts Index – by tokens
 
-- Total prompt files: **2944**
+- Total prompt files: **2945**
 
 ## Categories
 
@@ -9,7 +9,7 @@
 - Agent prompts (6)
 - Skills (3)
 - System data (153)
-- System reminders (2483)
+- System reminders (2484)
 
 ## System prompts (221)
 
@@ -35,14 +35,14 @@ _Sorted by tokens (desc)._
 | [`system-prompt-model-catalog-only-exact-ids.md`](../system-prompts/system-prompt-model-catalog-only-exact-ids.md) | Claude Model Catalog **Only use exact model IDs listed in this file.** Never guess or construct model IDs — incorrect IDs will cause API errors. | 1,863 | 2.1.63 | 2.1.63 |
 | [`system-prompt-live-docs-webfetch-urls.md`](../system-prompts/system-prompt-live-docs-webfetch-urls.md) | Lists WebFetch URLs and guidance for pulling latest API and SDK documentation. | 1,710 | 2.1.63 | 2.1.63 |
 | [`system-prompt-python-message-batches-api.md`](../system-prompts/system-prompt-python-message-batches-api.md) | Python guide for creating and retrieving asynchronous message batches. | 1,522 | 2.1.63 | 2.1.63 |
-| [`system-prompt-committing-changes-git-only-create.md`](../system-prompts/system-prompt-committing-changes-git-only-create.md) | Committing changes with git Only create commits when requested by the user. | 1,518 | 2.1.66 | 2.1.66 |
+| [`system-prompt-committing-changes-git-only-create.md`](../system-prompts/system-prompt-committing-changes-git-only-create.md) | Committing changes with git Only create commits when requested by the user. | 1,518 | 2.1.68 | 2.1.68 |
 | [`system-prompt-d688a4f9.md`](../system-prompts/system-prompt-d688a4f9.md) | Batch: Parallel Work Orchestration You are orchestrating a large, parallelizable change across this codebase. | 1,387 | 2.1.63 | 2.1.63 |
 | [`system-prompt-hooks-configuration-json.md`](../system-prompts/system-prompt-hooks-configuration-json.md) | Defines JSON structure and event types for lifecycle hooks that run commands. | 1,335 | 2.1.30 | 2.1.30 |
 | [`system-prompt-plan-mode-edit-restrictions.md`](../system-prompts/system-prompt-plan-mode-edit-restrictions.md) | Enforce plan-only mode, allowing only incremental edits to the designated plan file. | 1,266 | 2.1.49 | 2.1.49 |
-| [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,262 | 2.1.66 | 2.1.66 |
+| [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,262 | 2.1.68 | 2.1.68 |
 | [`system-prompt-when-not-want-read-specific.md`](../system-prompts/system-prompt-when-not-want-read-specific.md) | … When NOT to use the Agent tool: - If you want to read a specific file path, use the Read or Glob tool instead of the Agent tool, to find the match more qui… | 1,200 | 2.1.63 | 2.1.63 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.66 | 2.1.66 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.66 | 2.1.66 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.68 | 2.1.68 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.68 | 2.1.68 |
 | [`system-prompt-batch-parallel-work-orchestration-orchestrating.md`](../system-prompts/system-prompt-batch-parallel-work-orchestration-orchestrating.md) | Batch: Parallel Work Orchestration You are orchestrating a large, parallelizable change across this codebase. | 1,122 | 2.1.63 | 2.1.63 |
 | [`system-prompt-memory-management-guidelines.md`](../system-prompts/system-prompt-memory-management-guidelines.md) | Instructions for managing user memories. | 1,056 | 2.1.53 | 2.1.53 |
 | [`system-prompt-sdk-patterns-typescript.md`](../system-prompts/system-prompt-sdk-patterns-typescript.md) | TypeScript examples for querying Agent SDK, handling results, and adding post-tool hooks. | 1,015 | 2.1.63 | 2.1.63 |
@@ -74,12 +74,12 @@ _Sorted by tokens (desc)._
 | [`system-prompt-rank-sessions-by-query.md`](../system-prompts/system-prompt-rank-sessions-by-query.md) | Guides selecting the most relevant sessions for a query, prioritizing tag matches. | 477 | 2.1.6 | 2.1.6 |
 | [`system-prompt-read-local-file-2.md`](../system-prompts/system-prompt-read-local-file-2.md) | Specification for a tool that reads local files by absolute path with optional offsets and image support. | 462 | 2.1.30 | 2.1.30 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 442 | 2.0.70 | 2.1.33 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.66 | 2.1.66 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.68 | 2.1.68 |
 | [`system-prompt-use-persistent-memory-files.md`](../system-prompts/system-prompt-use-persistent-memory-files.md) | Consult and maintain persistent memory directory files, recording reusable lessons and conventions. | 387 | 2.1.49 | 2.1.49 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 381 | 1.0.112 | 1.0.112 |
 | [`system-prompt-auto-memory-management.md`](../system-prompts/system-prompt-auto-memory-management.md) | Persistent memory directory for user files. | 374 | 2.1.49 | 2.1.49 |
 | [`system-prompt-webfetch-auth-url-warning.md`](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | Warns WebFetch fails on authenticated URLs and suggests using an authenticated tool. | 361 | 2.1.16 | 2.1.16 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.66 | 2.1.66 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.68 | 2.1.68 |
 | [`system-prompt-invoke-matching.md`](../system-prompts/system-prompt-invoke-matching.md) | Invoke the appropriate skill when a user request matches one. | 323 | 2.1.23 | 2.1.23 |
 | [`system-prompt-session-title-and-branch.md`](../system-prompts/system-prompt-session-title-and-branch.md) | Generates a concise session title and a claude-prefixed git branch name from a description. | 319 | 2.1.20 | 2.1.20 |
 | [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 310 | 2.1.32 | 2.1.32 |
@@ -91,7 +91,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-interactive-question-guidance.md`](../system-prompts/system-prompt-interactive-question-guidance.md) | Instructs when and how to ask users clarifying questions during execution and plan mode. | 276 | 2.1.49 | 2.1.49 |
 | [`system-prompt-after-finish-implementing-change.md`](../system-prompts/system-prompt-after-finish-implementing-change.md) | After you finish implementing the change: …. | 267 | 2.1.63 | 2.1.63 |
 | [`system-prompt-command-directory-management.md`](../system-prompts/system-prompt-command-directory-management.md) | Guidelines for managing commands and directories. | 261 | 2.1.53 | 2.1.53 |
-| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.66 | 2.1.66 |
+| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.68 | 2.1.68 |
 | [`system-prompt-github-issue-title-generator.md`](../system-prompts/system-prompt-github-issue-title-generator.md) | Generates a concise technical GitHub issue title from a bug report. | 254 | 1.0.89 | 1.0.89 |
 | [`system-prompt-create-shell-snapshot-file-3.md`](../system-prompts/system-prompt-create-shell-snapshot-file-3.md) | Writes a snapshot script file, clears aliases, injects dynamic sections, and verifies output exists | 241 | 2.1.32 | 2.1.32 |
 | [`system-prompt-primary-working-directory-this-git.md`](../system-prompts/system-prompt-primary-working-directory-this-git.md) | Primary working directory: … This is a git worktree — an isolated copy of the repository. | 225 | 2.1.63 | 2.1.63 |
@@ -141,12 +141,12 @@ _Sorted by tokens (desc)._
 | [`system-prompt-read-large-output-in-chunks.md`](../system-prompts/system-prompt-read-large-output-in-chunks.md) | Guides reading oversized saved output in chunks, searching with grep/jq, meeting coverage threshold | 120 | 2.1.32 | 2.1.32 |
 | [`system-prompt-summarize-session-transcript.md`](../system-prompts/system-prompt-summarize-session-transcript.md) | Instructions to concisely summarize a Claude Code transcript chunk with key details. | 116 | 2.1.30 | 2.1.33 |
 | [`system-prompt-output-efficiency-critical.md`](../system-prompts/system-prompt-output-efficiency-critical.md) | Emphasizes concise and direct communication. | 115 | 2.1.49 | 2.1.49 |
-| [`system-prompt-subagent-context-boundaries.md`](../system-prompts/system-prompt-subagent-context-boundaries.md) | Clarifies sub-agent context boundaries and limits actions to assigned task and available messages. | 114 | 2.1.66 | 2.1.66 |
+| [`system-prompt-subagent-context-boundaries.md`](../system-prompts/system-prompt-subagent-context-boundaries.md) | Clarifies sub-agent context boundaries and limits actions to assigned task and available messages. | 114 | 2.1.68 | 2.1.68 |
 | [`system-prompt-team-message-via-sendmessage.md`](../system-prompts/system-prompt-team-message-via-sendmessage.md) | Require using the messaging tool to communicate with teammates during team tasks. | 114 | 2.1.32 | 2.1.38 |
 | [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 | [`system-prompt-background-task-notification-2.md`](../system-prompts/system-prompt-background-task-notification-2.md) | Defines XML task notification fields: task id, output file, status, and command summary. | 109 | 2.1.49 | 2.1.49 |
 | [`system-prompt-progress-bar-row-html.md`](../system-prompts/system-prompt-progress-bar-row-html.md) | HTML progress bar row with label, width percentage, color, and displayed value. | 109 | 2.1.32 | 2.1.32 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.66 | 2.1.66 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.68 | 2.1.68 |
 | [`system-prompt-html-progress-bar-row.md`](../system-prompts/system-prompt-html-progress-bar-row.md) | HTML bar-row template showing label text, filled progress width percentage, and background color. | 107 | 2.1.49 | 2.1.49 |
 | [`system-prompt-output-efficiency-important.md`](../system-prompts/system-prompt-output-efficiency-important.md) | Stresses brevity and directness in responses. | 102 | 2.1.49 | 2.1.49 |
 | [`system-prompt-output-efficiency-concise.md`](../system-prompts/system-prompt-output-efficiency-concise.md) | Focuses on polished and concise text output. | 101 | 2.1.49 | 2.1.49 |
@@ -159,7 +159,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-launch-subagent-for-tasks.md`](../system-prompts/system-prompt-launch-subagent-for-tasks.md) | Defines Task tool subagent types and requires selecting subagent_type for autonomous tasks | 90 | 2.1.63 | 2.1.63 |
 | [`system-prompt-select-core-frequently-modified-files.md`](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | Choose five diverse frequently modified core-logic filenames from git history stats. | 90 | 0.2.9 | 0.2.9 |
 | [`system-prompt-95dbf210.md`](../system-prompts/system-prompt-95dbf210.md) | Input to command is JSON with mcp_server_name, action, content, mode, and elicitation_id. | 87 | 2.1.63 | 2.1.63 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.66 | 2.1.66 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.68 | 2.1.68 |
 | [`system-prompt-at-a-glance-summary-block.md`](../system-prompts/system-prompt-at-a-glance-summary-block.md) | At-a-glance block listing what works, hindrances, quick wins, and ambitious workflows. | 85 | 2.1.30 | 2.1.30 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 85 | 2.1.32 | 2.1.32 |
 | [`system-prompt-enable-chrome-automation.md`](../system-prompts/system-prompt-enable-chrome-automation.md) | Invoke claude-in-chrome skill first to enable mcp__claude-in-chrome__ browser automation tools. | 83 | 2.1.20 | 2.1.20 |
@@ -248,7 +248,7 @@ _Sorted by tokens (desc)._
 | [`tool-description-structured-todo-list.md`](../system-prompts/tool-description-structured-todo-list.md) | Instructions for using a structured task list tool during coding sessions. | 2,420 | 2.1.63 | 2.1.63 |
 | [`tool-description-spawn-and-manage-teams.md`](../system-prompts/tool-description-spawn-and-manage-teams.md) | Use TeammateTool to create and manage multi-agent teams when collaboration or parallel work would help. | 1,664 | 2.1.63 | 2.1.63 |
 | [`tool-description-send-messages-to-teammates.md`](../system-prompts/tool-description-send-messages-to-teammates.md) | Direct or broadcast messaging to teammates via a defined swarm protocol. | 1,199 | 2.1.32 | 2.1.32 |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.66 | 2.1.66 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.68 | 2.1.68 |
 | [`tool-description-plan-approach-signoff.md`](../system-prompts/tool-description-plan-approach-signoff.md) | Advise entering plan mode and getting user sign-off before non-trivial implementation work. | 901 | 2.1.63 | 2.1.63 |
 | [`tool-description-suggest-cc-feature-improvements.md`](../system-prompts/tool-description-suggest-cc-feature-improvements.md) | Instructions to suggest improvements using specific Claude Code features like MCP servers, custom skills, and hooks. | 812 | 2.1.30 | 2.1.30 |
 | [`tool-description-update-task-status-details.md`](../system-prompts/tool-description-update-task-status-details.md) | Tool guidance for updating task status and details without premature completion. | 598 | 2.1.20 | 2.1.20 |
@@ -287,7 +287,7 @@ _Sorted by tokens (desc)._
 | [`tool-description-educational-cli-engineering-help.md`](../system-prompts/tool-description-educational-cli-engineering-help.md) | Interactive CLI for engineering tasks with educational codebase insights under an explanatory style. | 92 | 1.0.78 | 2.0.32 |
 | [`tool-description-get-mcp-tab-context.md`](../system-prompts/tool-description-get-mcp-tab-context.md) | Return context and tab IDs for the current MCP tab group. | 83 | 2.0.71 | 2.0.71 |
 | [`tool-description-upload-image-to-target.md`](../system-prompts/tool-description-upload-image-to-target.md) | Upload a screenshot or image to a file input or drag-and-drop target. | 75 | 2.0.71 | 2.0.71 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.66 | 2.1.66 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.68 | 2.1.68 |
 | [`tool-description-execute-page-javascript.md`](../system-prompts/tool-description-execute-page-javascript.md) | Run JavaScript in the page context and return the resulting value or errors. | 68 | 2.0.71 | 2.0.71 |
 | [`tool-description-extract-page-raw-text.md`](../system-prompts/tool-description-extract-page-raw-text.md) | Extract plain-text page content prioritizing article-style text. | 59 | 2.0.71 | 2.0.71 |
 | [`tool-description-read-resource-by-uri.md`](../system-prompts/tool-description-read-resource-by-uri.md) | Tool to read an MCP resource by server name and resource URI. | 54 | 1.0.22 | 1.0.22 |
@@ -330,7 +330,7 @@ _Sorted by tokens (desc)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.66 | 2.1.66 |
+| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.68 | 2.1.68 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce an implementation plan under strict read-only constraints. | 644 | 2.0.56 | 2.0.56 |
 | [`agent-prompt-read-only-codebase-search.md`](../system-prompts/agent-prompt-read-only-codebase-search.md) | Search and analyze an existing codebase in strict read-only mode using provided tools. | 503 | 2.0.56 | 2.1.41 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 2.0.70 |
@@ -353,9 +353,9 @@ _Sorted by tokens (desc)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.66 | 2.1.66 |
+| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.68 | 2.1.68 |
 | [`system-data-wolfram-language-symbols-list.md`](../system-prompts/system-data-wolfram-language-symbols-list.md) | Alphabetical list of Wolfram Language built-in symbol names. | 35,789 | 0.2.9 | 0.2.9 |
-| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.66 | 2.1.66 |
+| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.68 | 2.1.68 |
 | [`system-data-report-page-css-styles.md`](../system-prompts/system-data-report-page-css-styles.md) | CSS stylesheet snippet defining layout, typography, and navigation styles. | 4,570 | 2.1.63 | 2.1.63 |
 | [`system-data-stan-functions-reference-list.md`](../system-prompts/system-data-stan-functions-reference-list.md) | Partial catalog of Stan math, RNG, and distribution functions. | 2,155 | 0.2.9 | 0.2.9 |
 | [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox policy denying by default, allowing process control and whitelisted Mach service lookups. | 1,797 | 2.1.59 | 2.1.59 |
@@ -371,7 +371,7 @@ _Sorted by tokens (desc)._
 | [`system-data-truncated-numeric-placeholders.md`](../system-prompts/system-data-truncated-numeric-placeholders.md) | Truncated stream of numeric placeholders. | 1,119 | 1.0.59 | 1.0.59 |
 | [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.1.47 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.1.47 |
-| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.66 | 2.1.66 |
+| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.68 | 2.1.68 |
 | [`system-data-repeated-numeric-placeholders.md`](../system-prompts/system-data-repeated-numeric-placeholders.md) | Long sequence of repeated numeric placeholder tokens. | 895 | 0.2.9 | 0.2.9 |
 | [`system-data-progress-verb-word-list.md`](../system-prompts/system-data-progress-verb-word-list.md) | List of whimsical present-participle activity words. | 869 | 2.1.32 | 2.1.32 |
 | [`system-data-typescript-message-batches-api.md`](../system-prompts/system-data-typescript-message-batches-api.md) | TypeScript usage for Anthropic Messages Batches API creating async discounted batch requests | 807 | 2.1.63 | 2.1.63 |
@@ -392,7 +392,7 @@ _Sorted by tokens (desc)._
 | [`system-data-numeric-placeholders-dump.md`](../system-prompts/system-data-numeric-placeholders-dump.md) | Multiple prompts (10) | 447 | 1.0.59 | 1.0.59 |
 | [`system-data-github-actions-review.md`](../system-prompts/system-data-github-actions-review.md) | GitHub Actions PR workflow checking out repo and running Claude code-review plugin. | 405 | 2.0.36 | 2.0.36 |
 | [`system-data-hex-color-swatches-ccff.md`](../system-prompts/system-data-hex-color-swatches-ccff.md) | Sequence of hexadecimal color codes in CC/FF step combinations. | 387 | 0.2.9 | 0.2.9 |
-| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.66 | 2.1.66 |
+| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.68 | 2.1.68 |
 | [`system-data-keyboard-shortcuts-list.md`](../system-prompts/system-data-keyboard-shortcuts-list.md) | Enumerates application and chat commands for navigation, history, confirmation, and UI toggles. | 377 | 2.1.59 | 2.1.59 |
 | [`system-data-language-doc-reference-map.md`](../system-prompts/system-data-language-doc-reference-map.md) | Maps common tasks to the correct language and shared documentation files. | 376 | 2.1.49 | 2.1.49 |
 | [`system-data-common-pronouns-and-verbs.md`](../system-prompts/system-data-common-pronouns-and-verbs.md) | List of high-frequency English function words, pronouns, and basic verbs. | 375 | 2.1.30 | 2.1.30 |
@@ -507,13 +507,13 @@ _Sorted by tokens (desc)._
 | [`system-data-stream-json-formatting.md`](../system-prompts/system-data-stream-json-formatting.md) | Instructions for JSON stream formatting. | 51 | 2.1.59 | 2.1.59 |
 | [`system-data-template-expressions-placeholder.md`](../system-prompts/system-data-template-expressions-placeholder.md) | Bare template containing five expression placeholders for later content substitution. | 34 | 2.1.49 | 2.1.49 |
 
-## System reminders (2483)
+## System reminders (2484)
 
 _Sorted by tokens (desc). Showing **248** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.66 | 2.1.66 |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.68 | 2.1.68 |
 | [`system-reminder-plan-workflow-read-only.md`](../system-prompts/system-reminder-plan-workflow-read-only.md) | Enforces plan-mode phases: only plan-file edits, read-only actions, parallel exploration agents. | 1,127 | 2.1.63 | 2.1.63 |
 | [`system-reminder-git-safety-protocol.md`](../system-prompts/system-reminder-git-safety-protocol.md) | Git safety protocol for user commands. | 902 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bash-command-prefix-detection.md`](../system-prompts/system-reminder-bash-command-prefix-detection.md) | Policy spec for extracting command prefixes and flagging injection patterns. | 852 | 2.1.20 | 2.1.41 |
@@ -763,7 +763,7 @@ _Sorted by tokens (desc). Showing **248** reminders with more than **30** tokens
 | [`system-reminder-uri-to-path-conversion-failed.md`](../system-prompts/system-reminder-uri-to-path-conversion-failed.md) | URI to file path conversion failed; original URI used as fallback. | 31 | 2.1.49 | 2.1.49 |
 
 <details>
-<summary>Show 2235 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 2236 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
@@ -1228,6 +1228,7 @@ _Sorted by tokens (desc). Showing **248** reminders with more than **30** tokens
 | [`system-reminder-terminate-called-with-reason.md`](../system-prompts/system-reminder-terminate-called-with-reason.md) | Logs InProcessBackend terminate call for a target with a provided reason. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-uninstall-restart-to-apply.md`](../system-prompts/system-reminder-uninstall-restart-to-apply.md) | Confirms an item was uninstalled and instructs restarting Claude Code to apply changes. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-update-session-title-in-progress.md`](../system-prompts/system-reminder-update-session-title-in-progress.md) | Log updating a session title with session identifier and new title string. | 22 | 2.1.49 | 2.1.49 |
+| [`system-reminder-user-requested-reasoning-effort-level.md`](../system-prompts/system-reminder-user-requested-reasoning-effort-level.md) | The user has requested reasoning effort level: …. | 22 | 2.1.68 | 2.1.68 |
 | [`system-reminder-valid-paths-found.md`](../system-prompts/system-reminder-valid-paths-found.md) | Reports valid skill paths found for a plugin and sets skillsPaths. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-wsl-ide-lockfile-detection-failed.md`](../system-prompts/system-reminder-wsl-ide-lockfile-detection-failed.md) | WSL IDE lockfile path detection failed. | 22 | 2.1.59 | 2.1.59 |
 | [`system-reminder-aborted-teammate-controller.md`](../system-prompts/system-reminder-aborted-teammate-controller.md) | Log that the controller was aborted for an in-process teammate. | 21 | 2.1.49 | 2.1.49 |

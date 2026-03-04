@@ -4,11 +4,11 @@
 
 - Commands: 25
 - Options: 63
-- Env vars: 421
+- Env vars: 422
 - Config keys: 587
 - Tools: 3
 - Skills: 0
-- Models: 91
+- Models: 93
 - Providers: 8
 
 ## Commands
@@ -303,6 +303,7 @@
 - `CLAUDE_CODE_DISABLE_FAST_MODE`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
+- `CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
@@ -703,6 +704,7 @@
 - `blocks`
 - `body`
 - `bpfPath`
+- `BR`
 - `branch`
 - `budgetTokens`
 - `bytes`
@@ -1183,7 +1185,6 @@
 - `updatedInput`
 - `updatedMCPToolOutput`
 - `updatedPermissions`
-- `uR`
 - `uri`
 - `url`
 - `usage`
@@ -1313,7 +1314,9 @@ _None detected_
 - `sonnet-3-7`
 - `sonnet-4`
 - `sonnet-4-5`
+- `sonnet-4-5-20250929`
 - `sonnet-4-6`
+- `sonnet-46-update`
 
 ## Providers
 
