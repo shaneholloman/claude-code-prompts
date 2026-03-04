@@ -1,8 +1,8 @@
-# Claude Code 2.1.63 – Flags
+# Claude Code 2.1.66 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
-| `tengu_1p_event_batch_config` | config | telemetry | Configures OpenTelemetry first-party event logging batch sizes, queue limits, and export interval. | Only seen in initializer; downstream usage not fully shown. | high | 1 |
+| `tengu_1p_event_batch_config` | config | telemetry | Configures OpenTelemetry first-party event logging batch sizes, queue limits, and export interval. | Only seen in initializer; downstream usage not fully shown. | high | 2 |
 | `tengu_bad_survey_transcript_ask_config` | config | telemetry | Configures telemetry/event logging behavior. | Inference based on event/logging strings and config usage context. | high | 1 |
 | `tengu_bridge_initial_history_cap` | gate | tools | Controls version-threshold behavior for feature compatibility checks. | Inference based on version/minVersion usage context. | high | 1 |
 | `tengu_bridge_min_version` | config | tools | Enforces a minimum Claude Code version for Remote Control bridge usage. | If current version is below minVersion, Remote Control bridge usage is blocked and update guidance is shown. | high | 1 |
