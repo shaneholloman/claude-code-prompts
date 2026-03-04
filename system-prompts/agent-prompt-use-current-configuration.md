@@ -14,7 +14,7 @@ Incorporate the user’s custom environment configuration when answering and sug
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | text describing the user’s configured environment features | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 @anthropic-ai${PATH}
