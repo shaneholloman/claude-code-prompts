@@ -1,4 +1,4 @@
-# System Reminder: server-status-display-2
+# System Reminder: server-status-display
 
 - Source: inline
 
