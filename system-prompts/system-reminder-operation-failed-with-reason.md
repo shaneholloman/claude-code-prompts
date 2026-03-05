@@ -11,6 +11,7 @@ Operation failed to complete, with an error message explaining the failure.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Failed to ${NUM}: ${EXPR_1}
+Failed to ${EXPR_1}: ${EXPR_2}
