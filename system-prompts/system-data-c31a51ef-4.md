@@ -1,4 +1,4 @@
-# System Data Block: c31a51ef-2
+# System Data Block: c31a51ef-4
 
 - Source: inline
 
@@ -46,17 +46,13 @@ ${EXPR_4}
 
 ${EXPR_5}
 
-For temporary files, always use the `$TMPDIR` environment variable (or `${EXPR_6}` as a fallback). TMPDIR is automatically set to the correct sandbox-writable directory in sandbox mode. Do NOT use `${PATH}` directly - use `$TMPDIR` or `${EXPR_7}` instead.
+${EXPR_6}
+
+${EXPR_7}
 
 ${EXPR_8}
 
 ${EXPR_9}
-
-[35m
-
-[35m
-
-[35m
 
 ${EXPR_10}
 
@@ -76,21 +72,19 @@ ${EXPR_17}
 
 ${EXPR_18}
 
-[35m
-
-[35m
-
-[35m
-
 ${EXPR_19}
 
-${EXPR_20}
-
-${EXPR_21}
+For temporary files, always use the `$TMPDIR` environment variable (or `${EXPR_20}` as a fallback). TMPDIR is automatically set to the correct sandbox-writable directory in sandbox mode. Do NOT use `${PATH}` directly - use `$TMPDIR` or `${EXPR_21}` instead.
 
 ${EXPR_22}
 
 ${EXPR_23}
+
+[35m
+
+[35m
+
+[35m
 
 ${EXPR_24}
 
@@ -107,3 +101,29 @@ ${EXPR_29}
 ${EXPR_30}
 
 ${EXPR_31}
+
+${EXPR_32}
+
+[35m
+
+[35m
+
+[35m
+
+${EXPR_33}
+
+${EXPR_34}
+
+${EXPR_35}
+
+${EXPR_36}
+
+${EXPR_37}
+
+${EXPR_38}
+
+${EXPR_39}
+
+${EXPR_40}
+
+${EXPR_41}
