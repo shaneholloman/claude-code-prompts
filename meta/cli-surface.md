@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 25
-- Options: 63
-- Env vars: 422
-- Config keys: 587
+- Commands: 27
+- Options: 71
+- Env vars: 428
+- Config keys: 609
 - Tools: 3
 - Skills: 0
 - Models: 93
@@ -30,11 +30,13 @@
 - `logout`
 - `marketplace`
 - `mcp`
+- `open`
 - `plugin`
 - `remote-control`
 - `remove`
 - `reset-project-choices`
 - `serve`
+- `server`
 - `setup-token`
 - `status`
 - `uninstall`
@@ -60,11 +62,13 @@
 - `logout`
 - `marketplace`
 - `mcp`
+- `open <cc-url>`
 - `plugin`
 - `remote-control`
 - `remove <name>`
 - `reset-project-choices`
 - `serve`
+- `server`
 - `setup-token`
 - `status`
 - `uninstall <plugin>`
@@ -84,6 +88,7 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
+- `--auth-token`
 - `--available`
 - `--betas`
 - `--callback-port`
@@ -105,15 +110,20 @@
 - `--fork-session`
 - `--from-pr`
 - `--header`
+- `--host`
 - `--ide`
+- `--idle-timeout`
 - `--include-partial-messages`
 - `--json`
+- `--max-sessions`
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
 - `--no-chrome`
 - `--no-session-persistence`
+- `--output-format`
 - `--plugin-dir`
+- `--port`
 - `--print`
 - `--replay-user-messages`
 - `--resume`
@@ -128,7 +138,9 @@
 - `--tmux`
 - `--tools`
 - `--transport`
+- `--unix`
 - `--verbose`
+- `--workspace`
 - `--worktree`
 - `-a`
 - `-c`
@@ -148,6 +160,7 @@
 - `--agents <json>`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
+- `--auth-token <token>`
 - `--available`
 - `--betas <betas...>`
 - `--callback-port <port>`
@@ -164,15 +177,20 @@
 - `--force`
 - `--fork-session`
 - `--from-pr [value]`
+- `--host <string>`
 - `--ide`
+- `--idle-timeout <ms>`
 - `--include-partial-messages`
 - `--json`
+- `--max-sessions <n>`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
 - `--no-chrome`
 - `--no-session-persistence`
+- `--output-format <format>`
 - `--plugin-dir <paths...>`
+- `--port <number>`
 - `--replay-user-messages`
 - `--scope <scope>`
 - `--session-id <uuid>`
@@ -184,7 +202,9 @@
 - `--text`
 - `--tmux`
 - `--tools <tools...>`
+- `--unix <path>`
 - `--verbose`
+- `--workspace <dir>`
 - `-a, --all`
 - `-c, --continue`
 - `-d, --debug`
@@ -192,6 +212,7 @@
 - `-e, --env <env...>`
 - `-H, --header <header...>`
 - `-p, --print`
+- `-p, --print [prompt]`
 - `-r, --resume [value]`
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
@@ -303,9 +324,11 @@
 - `CLAUDE_CODE_DISABLE_FAST_MODE`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
+- `CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS`
 - `CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
+- `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DISABLE_THINKING`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
@@ -330,6 +353,7 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
+- `CLAUDE_CODE_GB_BASE_URL`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
@@ -364,6 +388,7 @@
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
+- `CLAUDE_CODE_QUESTION_PREVIEW_FORMAT`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
@@ -371,17 +396,18 @@
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
+- `CLAUDE_CODE_SEARCH_HINTS_IN_LIST`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SIMPLE`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
-- `CLAUDE_CODE_SKIP_PRECOMPACT_LOAD`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SSE_PORT`
+- `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
 - `CLAUDE_CODE_STREAMING_TEXT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
@@ -394,7 +420,6 @@
 - `CLAUDE_CODE_TMUX_PREFIX`
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
-- `CLAUDE_CODE_TST_NAMES_IN_MESSAGES`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
@@ -405,6 +430,7 @@
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_WORKER_EPOCH`
 - `CLAUDE_CONFIG_DIR`
+- `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_DEBUG`
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
@@ -412,6 +438,7 @@
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_TMPDIR`
 - `CLAUDECODE`
+- `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CODESPACES`
@@ -440,7 +467,6 @@
 - `DISABLE_INTERLEAVED_THINKING`
 - `DISABLE_LOGIN_COMMAND`
 - `DISABLE_LOGOUT_COMMAND`
-- `DISABLE_MICROCOMPACT`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_PROMPT_CACHING_HAIKU`
 - `DISABLE_PROMPT_CACHING_OPUS`
@@ -605,6 +631,7 @@
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
 - `V`
+- `VCR_RECORD`
 - `VERCEL`
 - `VERTEX_BASE_URL`
 - `VISUAL`
@@ -675,9 +702,11 @@
 - `argumentHint`
 - `ask`
 - `async`
+- `asyncRewake`
 - `asyncTimeout`
 - `attribution`
 - `author`
+- `authServerMetadataUrl`
 - `authToken`
 - `autoAllowBashIfSandboxed`
 - `autoMemoryEnabled`
@@ -698,13 +727,13 @@
 - `behavior`
 - `betas`
 - `bindings`
+- `blobSavedTo`
 - `blocked_path`
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
 - `body`
 - `bpfPath`
-- `BR`
 - `branch`
 - `budgetTokens`
 - `bytes`
@@ -787,6 +816,7 @@
 - `eagerLoadSettings_start`
 - `edit_mode`
 - `edits`
+- `effective`
 - `effort`
 - `elapsed_time_seconds`
 - `elicitation_id`
@@ -820,7 +850,9 @@
 - `feedback`
 - `file`
 - `file_id`
+- `file_name`
 - `file_path`
+- `file_uuid`
 - `fileCount`
 - `filename`
 - `filenames`
@@ -842,6 +874,7 @@
 - `gitBranch`
 - `gitCommitSha`
 - `gitDiff`
+- `globs`
 - `hasTaskTool`
 - `header`
 - `headers`
@@ -865,6 +898,7 @@
 - `ignoreViolations`
 - `image`
 - `includeCoAuthoredBy`
+- `includeGitInstructions`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
@@ -883,6 +917,7 @@
 - `isImage`
 - `isolation`
 - `isSynthetic`
+- `isUltraplan`
 - `isUsingOverage`
 - `jsonSchema`
 - `key`
@@ -899,17 +934,16 @@
 - `lineEnd`
 - `lines`
 - `lineStart`
+- `load_reason`
 - `localSettings`
 - `login`
 - `lspServers`
 - `mandatoryDenySearchDepth`
-- `markdown`
 - `matcher`
 - `matcherMetadata`
 - `matches`
 - `max_results`
 - `max_thinking_tokens`
-- `max_turns`
 - `maxOutputTokens`
 - `maxTurns`
 - `mcp_response`
@@ -918,6 +952,7 @@
 - `mcpServers`
 - `media_type`
 - `memory`
+- `memory_type`
 - `message`
 - `metadata`
 - `method`
@@ -984,9 +1019,11 @@
 - `padding`
 - `paneId`
 - `params`
+- `parent_file_path`
 - `parent_tool_use_id`
 - `patch`
 - `path`
+- `pathPattern`
 - `pending_mcp_servers`
 - `pending_permission_requests`
 - `permission_denials`
@@ -1008,12 +1045,17 @@
 - `pluginConfigs`
 - `pluginRoot`
 - `plugins`
+- `pluginTrustMessage`
 - `policySettings`
+- `poll_interval_ms_at_capacity`
+- `poll_interval_ms_not_at_capacity`
 - `pr`
 - `pre_tokens`
 - `preceding_tool_use_ids`
 - `prefersReducedMotion`
+- `preview`
 - `previousValue`
+- `priority`
 - `processed_at`
 - `projectPath`
 - `projectSettings`
@@ -1088,6 +1130,7 @@
 - `settings`
 - `sha`
 - `shouldBlock`
+- `showThinkingSummaries`
 - `skill`
 - `skills`
 - `skipDangerousModePermissionPrompt`
@@ -1096,6 +1139,7 @@
 - `socketPath`
 - `socksProxyPort`
 - `source`
+- `sources`
 - `sparsePaths`
 - `spinnerTipsEnabled`
 - `spinnerTipsOverride`
@@ -1129,6 +1173,7 @@
 - `supportedEffortLevels`
 - `supportsAdaptiveThinking`
 - `supportsEffort`
+- `supportsFastMode`
 - `suppressOutput`
 - `surpassedThreshold`
 - `symlinkDirectories`
@@ -1176,6 +1221,7 @@
 - `totalToolUseCount`
 - `transcript_path`
 - `trigger`
+- `trigger_file_path`
 - `truncated`
 - `turns`
 - `type`
@@ -1197,6 +1243,7 @@
 - `value`
 - `variables`
 - `verbs`
+- `verificationNudgeNeeded`
 - `version`
 - `w`
 - `web_fetch_requests`
@@ -1211,6 +1258,8 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
+- `wsUrl`
+- `ZS`
 
 ## Tools
 
@@ -1244,6 +1293,7 @@ _None detected_
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai-external-token`
+- `claude-api`
 - `claude-cli`
 - `claude-cli-native-`
 - `claude-code`
@@ -1259,7 +1309,6 @@ _None detected_
 - `claude-context`
 - `claude-desktop`
 - `claude-dev`
-- `claude-developer-platform`
 - `claude-empty-`
 - `claude-folder`
 - `claude-haiku`
