@@ -249,3 +249,7 @@ ${NUM}. **Delegate to verifiers** - Use the Skill tool to trigger verifier skill
 ${NUM}. **Report inline** - Results go in the response, not to a separate file
 ${NUM}. **Match by description** - Choose the verifier whose description best matches the changed files
 ${NUM}. **Focus on WHAT to verify, not HOW.** - Describe what was changed and the expected behavior.
+
+## Verifier Skill Maintenance
+
+If a verifier fails because its own instructions are outdated (wrong dev command, changed build path, missing tool) — not because the feature under test is broken — distinguish this from a feature FAIL in your report. After confirming with the user via AskUserQuestion, Edit `.claude${PATH}<verifier-name>${PATH}` with a minimal fix, or suggest `${PATH}` to regenerate.
