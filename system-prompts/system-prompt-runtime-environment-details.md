@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Display environment details including working directory, platform, shell, OS version, and PATH.
 
 ## Placeholder Hints (source-backed)
 
@@ -17,7 +17,6 @@ Multiple prompts (2)
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 Here is useful information about the environment you are running in:
@@ -28,4 +27,4 @@ ${EXPR_2}Platform: ${EXPR_3}
 Shell: ${EXPR_4} (use Unix shell syntax, not Windows — e.g., ${PATH} not NUL, forward slashes in paths)
 OS Version: ${EXPR_5}
 <${PATH}>
-${EXPR_6}${EXPR_7}@anthropic-ai${PATH} (PID ${EXPR_8})
+${EXPR_6}global${EXPR_7}@anthropic-ai${PATH}
