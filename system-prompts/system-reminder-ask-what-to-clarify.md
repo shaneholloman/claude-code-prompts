@@ -1,4 +1,4 @@
-# System Reminder: ask-what-to-clarify
+# System Prompt: ask-what-to-clarify
 
 - Source: inline
 
