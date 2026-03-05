@@ -13,4 +13,4 @@ Attempted to register an instance that was already registered, with instance ide
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Tried to register registered instance: [^${EXPR_1}]
+Tried to register registered instance: ${EXPR_1}
