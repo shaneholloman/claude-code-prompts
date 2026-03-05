@@ -1,4 +1,4 @@
-# System Data Block: 6c109e9d
+# System Data Block: 57d1ece6
 
 - Source: inline
 
@@ -46,3 +46,5 @@ ConfigChange
 WorktreeCreate
 
 WorktreeRemove
+
+InstructionsLoaded
