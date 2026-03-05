@@ -9,7 +9,7 @@ Write a brief present-tense description of the latest action naming a file or fu
 # Raw Prompt Text
 Describe your most recent action in ${NUM}-${NUM} words using present tense (-ing). Name the file or function, not the branch. Do not use tools.
 
-Previous: "global" — say something NEW.
+Previous: "@anthropic-ai${PATH}" — say something NEW.
 
 Good: "Reading runAgent.ts"
 Good: "Fixing null check in validate.ts"
