@@ -289,14 +289,14 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
       <${PATH}>
     <${PATH}>
 
-    ${NUM}
-
     ${EXPR_22}
 
-    ${NUM}
+    ${EXPR_23}
 
-    ${EXPR_23}@${EXPR_24}
+    green
+
+    ${EXPR_24}@${EXPR_25}
   <${PATH}>
-  <script>${EXPR_25}<${PATH}>
+  <script>${EXPR_26}<${PATH}>
 <${PATH}>
 <${PATH}>
