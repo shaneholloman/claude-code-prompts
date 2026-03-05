@@ -1,4 +1,4 @@
-# System Reminder: team-sendmessage-guidelines
+# System Prompt: team-message-via-sendmessage
 
 - Source: inline
 
