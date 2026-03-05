@@ -1,4 +1,4 @@
-# System Reminder: 30bd284f
+# System Reminder: 3ba67824
 
 - Source: inline
 
@@ -14,4 +14,4 @@ Multiple prompts (2)
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-HTTP ${EXPR_1} from ${EXPR_2}
+Elicitation response for server "${EXPR_1}": ${EXPR_2}
