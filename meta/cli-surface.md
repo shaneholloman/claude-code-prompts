@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 27
-- Options: 71
-- Env vars: 428
-- Config keys: 609
+- Commands: 25
+- Options: 63
+- Env vars: 431
+- Config keys: 608
 - Tools: 3
 - Skills: 0
 - Models: 93
@@ -30,13 +30,11 @@
 - `logout`
 - `marketplace`
 - `mcp`
-- `open`
 - `plugin`
 - `remote-control`
 - `remove`
 - `reset-project-choices`
 - `serve`
-- `server`
 - `setup-token`
 - `status`
 - `uninstall`
@@ -62,13 +60,11 @@
 - `logout`
 - `marketplace`
 - `mcp`
-- `open <cc-url>`
 - `plugin`
 - `remote-control`
 - `remove <name>`
 - `reset-project-choices`
 - `serve`
-- `server`
 - `setup-token`
 - `status`
 - `uninstall <plugin>`
@@ -88,7 +84,6 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
-- `--auth-token`
 - `--available`
 - `--betas`
 - `--callback-port`
@@ -110,20 +105,15 @@
 - `--fork-session`
 - `--from-pr`
 - `--header`
-- `--host`
 - `--ide`
-- `--idle-timeout`
 - `--include-partial-messages`
 - `--json`
-- `--max-sessions`
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
 - `--no-chrome`
 - `--no-session-persistence`
-- `--output-format`
 - `--plugin-dir`
-- `--port`
 - `--print`
 - `--replay-user-messages`
 - `--resume`
@@ -138,9 +128,7 @@
 - `--tmux`
 - `--tools`
 - `--transport`
-- `--unix`
 - `--verbose`
-- `--workspace`
 - `--worktree`
 - `-a`
 - `-c`
@@ -160,7 +148,6 @@
 - `--agents <json>`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
-- `--auth-token <token>`
 - `--available`
 - `--betas <betas...>`
 - `--callback-port <port>`
@@ -177,20 +164,15 @@
 - `--force`
 - `--fork-session`
 - `--from-pr [value]`
-- `--host <string>`
 - `--ide`
-- `--idle-timeout <ms>`
 - `--include-partial-messages`
 - `--json`
-- `--max-sessions <n>`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
 - `--no-chrome`
 - `--no-session-persistence`
-- `--output-format <format>`
 - `--plugin-dir <paths...>`
-- `--port <number>`
 - `--replay-user-messages`
 - `--scope <scope>`
 - `--session-id <uuid>`
@@ -202,9 +184,7 @@
 - `--text`
 - `--tmux`
 - `--tools <tools...>`
-- `--unix <path>`
 - `--verbose`
-- `--workspace <dir>`
 - `-a, --all`
 - `-c, --continue`
 - `-d, --debug`
@@ -212,7 +192,6 @@
 - `-e, --env <env...>`
 - `-H, --header <header...>`
 - `-p, --print`
-- `-p, --print [prompt]`
 - `-r, --resume [value]`
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
@@ -290,12 +269,14 @@
 - `CLAUDE_AUTO_BACKGROUND_TASKS`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
+- `CLAUDE_BRIDGE_USE_CCR_V2`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACCOUNT_UUID`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
@@ -367,6 +348,7 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
+- `CLAUDE_CODE_MCP_INSTR_DELTA`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
 - `CLAUDE_CODE_OAUTH_REFRESH_TOKEN`
 - `CLAUDE_CODE_OAUTH_SCOPES`
@@ -751,7 +733,6 @@
 - `cells`
 - `changes`
 - `character`
-- `charset`
 - `checksum`
 - `claude_code_version`
 - `claudeMdExcludes`
@@ -765,7 +746,6 @@
 - `commit`
 - `compact_metadata`
 - `companyAnnouncements`
-- `compressible`
 - `config`
 - `content`
 - `contents`
@@ -779,6 +759,7 @@
 - `criticalSystemReminder_EXPERIMENTAL`
 - `custom_instructions`
 - `customTitle`
+- `CV`
 - `cwd`
 - `dangerouslyDisableSandbox`
 - `data`
@@ -830,6 +811,7 @@
 - `end`
 - `entries`
 - `env`
+- `environmentId`
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
 - `error`
@@ -841,7 +823,6 @@
 - `excludeDefault`
 - `exit_code`
 - `explanation`
-- `extensions`
 - `extraKnownMarketplaces`
 - `failed`
 - `fast_mode_state`
@@ -879,6 +860,7 @@
 - `header`
 - `headers`
 - `headersHelper`
+- `heartbeat_interval_ms`
 - `homepage`
 - `hook_event`
 - `hook_event_name`
@@ -1199,6 +1181,7 @@
 - `tips`
 - `title`
 - `to`
+- `tokenSaverOutput`
 - `tokenSource`
 - `tool`
 - `tool_input`
@@ -1258,8 +1241,6 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `wsUrl`
-- `ZS`
 
 ## Tools
 

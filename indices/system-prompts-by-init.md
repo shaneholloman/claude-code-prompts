@@ -1,34 +1,51 @@
 # System Prompts Index – by init
 
-- Total prompt files: **591**
+- Total prompt files: **615**
 
 ## Categories
 
-- System prompts (215)
+- System prompts (221)
 - Tool prompts (78)
 - Agent prompts (4)
 - Skills (3)
-- System data (153)
-- System reminders (138)
+- System data (157)
+- System reminders (152)
 
-## System prompts (215)
+## System prompts (221)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-security-review-git-diff.md`](../system-prompts/system-prompt-security-review-git-diff.md) | Performs a high-confidence vulnerability review of branch changes using git status, logs, and diffs. | 2,804 | 2.1.70 | 2.1.70 |
+| [`system-prompt-committing-changes-git-only-create.md`](../system-prompts/system-prompt-committing-changes-git-only-create.md) | Committing changes with git Only create commits when requested by the user. | 1,518 | 2.1.70 | 2.1.70 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.70 | 2.1.70 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.70 | 2.1.70 |
+| [`system-prompt-task-create-detailed-summary-conversation.md`](../system-prompts/system-prompt-task-create-detailed-summary-conversation.md) | Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions. | 1,083 | 2.1.70 | 2.1.70 |
+| [`system-prompt-user-group-role-begin-end.md`](../system-prompts/system-prompt-user-group-role-begin-end.md) | atUser atGroup atRole …apBegin apEnd alLeft alRight 0cirCommon cirRevoked ctSignature ctEncode ctSignatureEncode clbUnchecked clbChecked clbGrayed ceISB ceAl… | 758 | 2.1.70 | 2.1.70 |
+| [`system-prompt-pid-usage-notes-always-include.md`](../system-prompts/system-prompt-pid-usage-notes-always-include.md) | (PID …) … Usage notes: - Always include a short description (…-… words) summarizing what the agent will do - Launch multiple agents concurrently whenever pos… | 667 | 2.1.70 | 2.1.70 |
+| [`system-prompt-example-usage-user-what-left.md`](../system-prompts/system-prompt-example-usage-user-what-left.md) | Example usage: <example> user: "What's left on this branch before we can ship?" assistant: <thinking>Forking this — it's a survey question. | 600 | 2.1.70 | 2.1.70 |
+| [`system-prompt-stop-read-this-first.md`](../system-prompts/system-prompt-stop-read-this-first.md) | STOP. READ THIS FIRST. | 418 | 2.1.70 | 2.1.70 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.70 | 2.1.70 |
+| [`system-prompt-writing-how-write-depends-whether.md`](../system-prompts/system-prompt-writing-how-write-depends-whether.md) | Writing the prompt How you write the prompt depends on whether the agent inherits your context. | 355 | 2.1.70 | 2.1.70 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.70 | 2.1.70 |
+| [`system-prompt-example-usage-descriptions-test-runner.md`](../system-prompts/system-prompt-example-usage-descriptions-test-runner.md) | Example usage: <example_agent_descriptions> "test-runner": use this agent after you are done writing code to run tests "greeting-responder": use this agent t… | 318 | 2.1.70 | 2.1.70 |
+| [`system-prompt-when-fork-yourself-omit-subagent.md`](../system-prompts/system-prompt-when-fork-yourself-omit-subagent.md) | When to fork Fork yourself (omit `subagent_type`) whenever the intermediate tool output isn't worth keeping: - **Research**: you need to investigate several… | 296 | 2.1.70 | 2.1.70 |
+| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.70 | 2.1.70 |
+| [`system-prompt-validation-command-includes-keybinding-configuration.md`](../system-prompts/system-prompt-validation-command-includes-keybinding-configuration.md) | Validation with … The `…` command includes a "Keybinding Configuration Issues" section that validates `~…`. | 237 | 2.1.70 | 2.1.70 |
+| [`system-prompt-when-not-want-read-specific.md`](../system-prompts/system-prompt-when-not-want-read-specific.md) | When NOT to use the Agent tool: - If you want to read a specific file path, use the Read or Glob tool instead of the Agent tool, to find the match more quick… | 127 | 2.1.70 | 2.1.70 |
+| [`system-prompt-here-useful-information-about-environment.md`](../system-prompts/system-prompt-here-useful-information-about-environment.md) | Here is useful information about the environment you are running in: <env> Working directory: … Is directory a git repo: Yes …Platform: … Shell: … (use Unix… | 114 | 2.1.70 | 2.1.70 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.70 | 2.1.70 |
+| [`system-prompt-launch-new-handle-complex-multi.md`](../system-prompts/system-prompt-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks autonomously. | 107 | 2.1.70 | 2.1.70 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.70 | 2.1.70 |
+| [`system-prompt-api-error-response-exceeded-output.md`](../system-prompts/system-prompt-api-error-response-exceeded-output.md) | API Error: Claude's response exceeded the … … output token maximum. | 46 | 2.1.70 | 2.1.70 |
 | [`system-prompt-python-conceptual-overview-definitions-choice.md`](../system-prompts/system-prompt-python-conceptual-overview-definitions-choice.md) | Tool Use — Python For conceptual overview (tool definitions, tool choice, tips), see [shared…](..…). | 4,908 | 2.1.69 | 2.1.69 |
 | [`system-prompt-concepts-this-file-covers-conceptual.md`](../system-prompts/system-prompt-concepts-this-file-covers-conceptual.md) | Tool Use Concepts This file covers the conceptual foundations of tool use with the Claude API. | 3,594 | 2.1.69 | 2.1.69 |
 | [`system-prompt-todo-write-track-progress-through.md`](../system-prompts/system-prompt-todo-write-track-progress-through.md) | Use the TodoWrite tool to track your progress through this multi-step task. | 2,648 | 2.1.69 | 2.1.69 |
 | [`system-prompt-verify-changes-work.md`](../system-prompts/system-prompt-verify-changes-work.md) | Directs a verification specialist to plan, run verifiers, and report whether code changes actually work. | 2,553 | 2.1.69 | 2.1.69 |
 | [`system-prompt-persistent-file-based-memory-should.md`](../system-prompts/system-prompt-persistent-file-based-memory-should.md) | … You have a persistent, file-based memory system found at: `…` You should build up this memory system over time so that future conversations can have a comp… | 2,281 | 2.1.69 | 2.1.69 |
 | [`system-prompt-verification-specialist.md`](../system-prompts/system-prompt-verification-specialist.md) | You are a verification specialist. | 1,655 | 2.1.69 | 2.1.69 |
-| [`system-prompt-committing-changes-git-only-create.md`](../system-prompts/system-prompt-committing-changes-git-only-create.md) | Committing changes with git Only create commits when requested by the user. | 1,518 | 2.1.69 | 2.1.69 |
 | [`system-prompt-types-memory-there-several-discrete.md`](../system-prompts/system-prompt-types-memory-there-several-discrete.md) | Types of memory There are several discrete types of memory that you can store in your memory system: <types> <type> <name>user<…> <description>Contain inform… | 1,467 | 2.1.69 | 2.1.69 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.69 | 2.1.69 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.69 | 2.1.69 |
-| [`system-prompt-when-not-want-read-specific.md`](../system-prompts/system-prompt-when-not-want-read-specific.md) | … When NOT to use the Agent tool: - If you want to read a specific file path, use the Read or Glob tool instead of the Agent tool, to find the match more qui… | 1,134 | 2.1.69 | 2.1.69 |
-| [`system-prompt-task-create-detailed-summary-conversation.md`](../system-prompts/system-prompt-task-create-detailed-summary-conversation.md) | Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions. | 1,083 | 2.1.69 | 2.1.69 |
 | [`system-prompt-interactive-helps-users-according-output.md`](../system-prompts/system-prompt-interactive-helps-users-according-output.md) | You are an interactive agent that helps users according to your "Output Style" below, which describes how you should respond to user queries. | 940 | 2.1.69 | 2.1.69 |
 | [`system-prompt-multiple-prompts.md`](../system-prompts/system-prompt-multiple-prompts.md) | Multiple prompts (2) | 741 | 2.1.69 | 2.1.69 |
 | [`system-prompt-task-create-detailed-summary-recent.md`](../system-prompts/system-prompt-task-create-detailed-summary-recent.md) | Your task is to create a detailed summary of the RECENT portion of the conversation — the messages that follow earlier retained context. | 666 | 2.1.69 | 2.1.69 |
@@ -36,25 +53,18 @@ _Sorted by init (newest first)._
 | [`system-prompt-prefer-dedicated-tools.md`](../system-prompts/system-prompt-prefer-dedicated-tools.md) | Directive to prefer dedicated tools over bash and manage work via Task subagents. | 480 | 2.1.69 | 2.1.69 |
 | [`system-prompt-persistent-directory.md`](../system-prompts/system-prompt-persistent-directory.md) | … You have a persistent … directory at `…`. | 440 | 2.1.69 | 2.1.69 |
 | [`system-prompt-auto-memory-persistent-directory.md`](../system-prompts/system-prompt-auto-memory-persistent-directory.md) | auto memory You have a persistent auto memory directory at `…`. | 427 | 2.1.69 | 2.1.69 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.69 | 2.1.69 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.69 | 2.1.69 |
 | [`system-prompt-anthropic-official-cli.md`](../system-prompts/system-prompt-anthropic-official-cli.md) | You are an agent for Claude Code, Anthropic's official CLI for Claude. | 323 | 2.1.69 | 2.1.69 |
 | [`system-prompt-remote-control-connect-local-environment.md`](../system-prompts/system-prompt-remote-control-connect-local-environment.md) | Remote Control - Connect your local environment to claude.ai… USAGE claude remote-control [options] … OPTIONS --name <name> Name for the session (shown in cl… | 322 | 2.1.69 | 2.1.69 |
-| [`system-prompt-exact-string-edits-in-files.md`](../system-prompts/system-prompt-exact-string-edits-in-files.md) | Define rules for exact in-file string replacements after reading and with unique matches. | 256 | 2.1.69 | 2.1.69 |
 | [`system-prompt-primary-working-directory-this-git.md`](../system-prompts/system-prompt-primary-working-directory-this-git.md) | Primary working directory: … This is a git worktree — an isolated copy of the repository. | 225 | 2.1.69 | 2.1.69 |
-| [`system-prompt-keybinding-config-validation-guide.md`](../system-prompts/system-prompt-keybinding-config-validation-guide.md) | Validate keybinding config file, list common errors and warnings with fixes. | 207 | 2.1.69 | 2.1.69 |
 | [`system-prompt-d76026d2-2.md`](../system-prompts/system-prompt-d76026d2-2.md) | Before providing your final summary, wrap your analysis in <analysis> tags to organize your thoughts and ensure you've covered all necessary points. | 185 | 2.1.69 | 2.1.69 |
 | [`system-prompt-d76026d2.md`](../system-prompts/system-prompt-d76026d2.md) | Before providing your final summary, wrap your analysis in <analysis> tags to organize your thoughts and ensure you've covered all necessary points. | 181 | 2.1.69 | 2.1.69 |
 | [`system-prompt-present-tense-recent-action.md`](../system-prompts/system-prompt-present-tense-recent-action.md) | Write a brief present-tense description of the latest action naming a file or function. | 163 | 2.1.69 | 2.1.69 |
 | [`system-prompt-before-providing-final-summary-wrap.md`](../system-prompts/system-prompt-before-providing-final-summary-wrap.md) | Before providing your final summary, wrap your analysis in <analysis> tags. | 153 | 2.1.69 | 2.1.69 |
 | [`system-prompt-notes-threads-always-their-cwd.md`](../system-prompts/system-prompt-notes-threads-always-their-cwd.md) | Notes: - Agent threads always have their cwd reset between bash calls, as a result please only use absolute file paths. | 149 | 2.1.69 | 2.1.69 |
-| [`system-prompt-runtime-environment-details.md`](../system-prompts/system-prompt-runtime-environment-details.md) | Display environment details including working directory, platform, shell, OS version, and PATH. | 139 | 2.1.69 | 2.1.69 |
 | [`system-prompt-input-command-json-file-path.md`](../system-prompts/system-prompt-input-command-json-file-path.md) | Input to command is JSON with file_path, memory_type (User, Project, Local, Managed), load_reason (session_start, nested_traversal, path_glob_match, include)… | 132 | 2.1.69 | 2.1.69 |
 | [`system-prompt-task-notification-type-remote-status.md`](../system-prompts/system-prompt-task-notification-type-remote-status.md) | <task-notification> <task-id>…<…> <task-type>remote_agent<…> <status>failed<…> <summary>Ultraplan failed: …<…> <…> The remote Ultraplan session did not produ… | 121 | 2.1.69 | 2.1.69 |
 | [`system-prompt-what-not-save-memory-patterns.md`](../system-prompts/system-prompt-what-not-save-memory-patterns.md) | What NOT to save in memory - Code patterns, conventions, architecture, file paths, or project structure — these can be derived by reading the current project… | 119 | 2.1.69 | 2.1.69 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.69 | 2.1.69 |
 | [`system-prompt-server-options-only-valid-subcommand.md`](../system-prompts/system-prompt-server-options-only-valid-subcommand.md) | SERVER OPTIONS (only valid with the 'server' subcommand) --spawn-same-dir-sessions [<N>] All sessions share the current directory (this is the default; max …… | 99 | 2.1.69 | 2.1.69 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.69 | 2.1.69 |
 | [`system-prompt-message-arrived-while-were-working.md`](../system-prompts/system-prompt-message-arrived-while-were-working.md) | A message arrived from … while you were working: … IMPORTANT: This is NOT from your user — it came from an external channel. | 66 | 2.1.69 | 2.1.69 |
 | [`system-prompt-start-coding-after-plan-approval.md`](../system-prompts/system-prompt-start-coding-after-plan-approval.md) | Proceed with coding after plan approval; update todos and reference saved plan content | 65 | 2.1.69 | 2.1.69 |
 | [`system-prompt-continue-conversation-where-left-off.md`](../system-prompts/system-prompt-continue-conversation-where-left-off.md) | … Continue the conversation from where it left off without asking the user any further questions. | 64 | 2.1.69 | 2.1.69 |
@@ -80,7 +90,6 @@ _Sorted by init (newest first)._
 | [`system-prompt-simplify-review-cleanup-all-changed.md`](../system-prompts/system-prompt-simplify-review-cleanup-all-changed.md) | Simplify: Code Review and Cleanup Review all changed files for reuse, quality, and efficiency. | 775 | 2.1.63 | 2.1.63 |
 | [`system-prompt-after-finish-implementing-change.md`](../system-prompts/system-prompt-after-finish-implementing-change.md) | After you finish implementing the change: …. | 267 | 2.1.63 | 2.1.63 |
 | [`system-prompt-build-apps-api-anthropic-sdk.md`](../system-prompts/system-prompt-build-apps-api-anthropic-sdk.md) | Build apps with the Claude API or Anthropic SDK. | 98 | 2.1.63 | 2.1.63 |
-| [`system-prompt-launch-subagent-for-tasks.md`](../system-prompts/system-prompt-launch-subagent-for-tasks.md) | Defines Task tool subagent types and requires selecting subagent_type for autonomous tasks | 90 | 2.1.63 | 2.1.63 |
 | [`system-prompt-95dbf210.md`](../system-prompts/system-prompt-95dbf210.md) | Input to command is JSON with mcp_server_name, action, content, mode, and elicitation_id. | 87 | 2.1.63 | 2.1.63 |
 | [`system-prompt-input-command-json-mcp-server.md`](../system-prompts/system-prompt-input-command-json-mcp-server.md) | Input to command is JSON with mcp_server_name, message, and requested_schema. | 82 | 2.1.63 | 2.1.63 |
 | [`system-prompt-remote-launched-ccr.md`](../system-prompts/system-prompt-remote-launched-ccr.md) | Remote agent launched in CCR. | 72 | 2.1.63 | 2.1.63 |
@@ -182,7 +191,6 @@ _Sorted by init (newest first)._
 | [`system-prompt-guide-scope-docs.md`](../system-prompts/system-prompt-guide-scope-docs.md) | Defines Claude guide scope across Code, Agent SDK, and API with doc sources. | 780 | 2.0.73 | 2.1.47 |
 | [`system-prompt-guide-scope-docs-2.md`](../system-prompts/system-prompt-guide-scope-docs-2.md) | Sets guide responsibilities across Claude Code, Agent SDK, and Claude API with doc sources. | 755 | 2.0.73 | 2.1.47 |
 | [`system-prompt-predict-user-next-message.md`](../system-prompts/system-prompt-predict-user-next-message.md) | Predicts the next thing the user would naturally type next. | 299 | 2.0.73 | 2.1.14 |
-| [`system-prompt-security-review-git-diff.md`](../system-prompts/system-prompt-security-review-git-diff.md) | Performs a high-confidence vulnerability review of branch changes using git status, logs, and diffs. | 2,804 | 2.0.70 | 2.1.38 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 442 | 2.0.70 | 2.1.33 |
 | [`system-prompt-plan-submitted-for-approval.md`](../system-prompts/system-prompt-plan-submitted-for-approval.md) | Notifies plan submission for team lead approval; await inbox response before implementing. | 132 | 2.0.70 | 2.0.70 |
 | [`system-prompt-install-tmux-in-wsl.md`](../system-prompts/system-prompt-install-tmux-in-wsl.md) | Explains installing WSL and tmux and starting a tmux session for swarms. | 58 | 2.0.70 | 2.0.70 |
@@ -203,8 +211,6 @@ _Sorted by init (newest first)._
 | [`system-prompt-document-specific-update.md`](../system-prompts/system-prompt-document-specific-update.md) | Follow document author’s specific update instructions verbatim, overriding general modification rules. | 65 | 2.0.30 | 2.0.30 |
 | [`system-prompt-authorized-security-testing-guidelines.md`](../system-prompts/system-prompt-authorized-security-testing-guidelines.md) | Allow defensive and authorized security work while refusing malicious or destructive requests. | 91 | 2.0.24 | 2.0.24 |
 | [`system-prompt-cli-identity-2.md`](../system-prompts/system-prompt-cli-identity-2.md) | Defines Claude Code as Anthropic's official CLI running in the agent SDK. | 21 | 1.0.128 | 1.0.128 |
-| [`system-prompt-frustration-and-pr-detection.md`](../system-prompts/system-prompt-frustration-and-pr-detection.md) | Analyze conversation to output frustration and explicit GitHub pull request send intent flags. | 220 | 1.0.122 | 1.0.122 |
-| [`system-prompt-detect-interaction-features.md`](../system-prompts/system-prompt-detect-interaction-features.md) | Instruction to analyze user messages to detect interaction features. | 16 | 1.0.122 | 2.0.22 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 381 | 1.0.112 | 1.0.112 |
 | [`system-prompt-github-issue-title-generator.md`](../system-prompts/system-prompt-github-issue-title-generator.md) | Generates a concise technical GitHub issue title from a bug report. | 254 | 1.0.89 | 1.0.89 |
 | [`system-prompt-json-command-exit-rules.md`](../system-prompts/system-prompt-json-command-exit-rules.md) | Defines JSON input and exit code handling for a command, showing stderr only on failure. | 34 | 1.0.85 | 1.0.85 |
@@ -239,11 +245,11 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.69 | 2.1.69 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.70 | 2.1.70 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.70 | 2.1.70 |
 | [`tool-description-search-select-deferred-tools-make.md`](../system-prompts/tool-description-search-select-deferred-tools-make.md) | Search for or select deferred tools to make them available for use. | 864 | 2.1.69 | 2.1.69 |
 | [`tool-description-create-structured-task-list.md`](../system-prompts/tool-description-create-structured-task-list.md) | Instructions for using a tool to maintain and update structured coding session task lists | 547 | 2.1.69 | 2.1.69 |
 | [`tool-description-this-when-need-ask-user.md`](../system-prompts/tool-description-this-when-need-ask-user.md) | Use this tool when you need to ask the user questions during execution. | 279 | 2.1.69 | 2.1.69 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.69 | 2.1.69 |
 | [`tool-description-structured-todo-list.md`](../system-prompts/tool-description-structured-todo-list.md) | Instructions for using a structured task list tool during coding sessions. | 2,420 | 2.1.63 | 2.1.63 |
 | [`tool-description-spawn-and-manage-teams.md`](../system-prompts/tool-description-spawn-and-manage-teams.md) | Use TeammateTool to create and manage multi-agent teams when collaboration or parallel work would help. | 1,664 | 2.1.63 | 2.1.63 |
 | [`tool-description-plan-approach-signoff.md`](../system-prompts/tool-description-plan-approach-signoff.md) | Advise entering plan mode and getting user sign-off before non-trivial implementation work. | 901 | 2.1.63 | 2.1.63 |
@@ -324,8 +330,8 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.69 | 2.1.69 |
-| [`agent-prompt-use-current-configuration.md`](../system-prompts/agent-prompt-use-current-configuration.md) | Incorporate the user’s custom environment configuration when answering and suggesting features. | 57 | 2.1.69 | 2.1.69 |
+| [`agent-prompt-ps1-to-statusline.md`](../system-prompts/agent-prompt-ps1-to-statusline.md) | Converts PS1 from shell config into a Claude Code statusLine command. | 1,590 | 2.1.70 | 2.1.70 |
+| [`agent-prompt-use-current-configuration.md`](../system-prompts/agent-prompt-use-current-configuration.md) | Incorporate the user’s custom environment configuration when answering and suggesting features. | 57 | 2.1.70 | 2.1.70 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce an implementation plan under strict read-only constraints. | 644 | 2.0.56 | 2.0.56 |
 | [`agent-prompt-read-only-codebase-search.md`](../system-prompts/agent-prompt-read-only-codebase-search.md) | Search and analyze an existing codebase in strict read-only mode using provided tools. | 503 | 2.0.56 | 2.1.41 |
 
@@ -339,23 +345,27 @@ _Sorted by init (newest first)._
 | [`skill-debug-session.md`](../system-prompts/skill-debug-session.md) | Guides debugging a reported Claude Code session issue using the session log and settings. | 243 | 2.1.30 | 2.1.30 |
 | [`skill-customize-keyboard-shortcuts.md`](../system-prompts/skill-customize-keyboard-shortcuts.md) | Guides safe creation or editing of keybindings with required schema fields and keystroke syntax. | 824 | 2.1.20 | 2.1.20 |
 
-## System data (153)
+## System data (157)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.69 | 2.1.69 |
-| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.69 | 2.1.69 |
-| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.69 | 2.1.69 |
-| [`system-data-error-action-preference-stop-cert.md`](../system-prompts/system-data-error-action-preference-stop-cert.md) | $ErrorActionPreference = 'Stop' $certCollection = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2Collection $certCollection.Import(… | 457 | 2.1.69 | 2.1.69 |
-| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.69 | 2.1.69 |
+| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.70 | 2.1.70 |
+| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 6,872 | 2.1.70 | 2.1.70 |
+| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.70 | 2.1.70 |
+| [`system-data-error-action-preference-stop-cert.md`](../system-prompts/system-data-error-action-preference-stop-cert.md) | $ErrorActionPreference = 'Stop' $certCollection = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2Collection $certCollection.Import(… | 457 | 2.1.70 | 2.1.70 |
+| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.70 | 2.1.70 |
+| [`system-data-github-anthropics-path-entries.md`](../system-prompts/system-data-github-anthropics-path-entries.md) | Repeated GitHub host and organization path strings for anthropics. | 137 | 2.1.70 | 2.1.70 |
+| [`system-data-anthropic-ai-user-current-configuration.md`](../system-prompts/system-data-anthropic-ai-user-current-configuration.md) | @anthropic-ai… --- User's Current Configuration The user has the following custom setup in their environment: … --print --sdk-url --session-id --input-format… | 95 | 2.1.70 | 2.1.70 |
+| [`system-data-mcp-server-instructions-following-servers.md`](../system-prompts/system-data-mcp-server-instructions-following-servers.md) | MCP Server Instructions The following MCP servers have provided instructions for how to use their tools and resources: … --print --sdk-url --session-id --inp… | 68 | 2.1.70 | 2.1.70 |
+| [`system-data-disabled-plugins-failed-print-sdk.md`](../system-prompts/system-data-disabled-plugins-failed-print-sdk.md) | Disabled … plugins, … failed: … --print --sdk-url --session-id --input-format stream-json --output-format stream-json --replay-user-messages | 63 | 2.1.70 | 2.1.70 |
+| [`system-data-multiple-prompts.md`](../system-prompts/system-data-multiple-prompts.md) | Multiple prompts (2) | 44 | 2.1.70 | 2.1.70 |
 | [`system-data-c31a51ef-2.md`](../system-prompts/system-data-c31a51ef-2.md) | Multiple prompts (2) | 306 | 2.1.69 | 2.1.69 |
 | [`system-data-temporary-files-always-tmpdir-environment.md`](../system-prompts/system-data-temporary-files-always-tmpdir-environment.md) | … … … … … For temporary files, always use the `$TMPDIR` environment variable (or `…` as a fallback). | 286 | 2.1.69 | 2.1.69 |
 | [`system-data-c31a51ef-4.md`](../system-prompts/system-data-c31a51ef-4.md) | … … … … … For temporary files, always use the `$TMPDIR` environment variable (or `…` as a fallback). | 285 | 2.1.69 | 2.1.69 |
 | [`system-data-http-headers-listing.md`](../system-prompts/system-data-http-headers-listing.md) | Lists common request, tracing, CORS, and response headers alongside placeholder URLs. | 231 | 2.1.69 | 2.1.69 |
 | [`system-data-store-thumbs-gitignore-git-mcpbignore.md`](../system-prompts/system-data-store-thumbs-gitignore-git-mcpbignore.md) | .DS_Store Thumbs.db .gitignore .git .mcpbignore *.log .env* .npm .npmrc .yarnrc .yarn .eslintrc .editorconfig .prettierrc .prettierignore .eslintignore .nycr… | 176 | 2.1.69 | 2.1.69 |
-| [`system-data-github-anthropics-path-entries.md`](../system-prompts/system-data-github-anthropics-path-entries.md) | Repeated GitHub host and organization path strings for anthropics. | 137 | 2.1.69 | 2.1.69 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 2.1.69 | 2.1.69 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 127 | 2.1.69 | 2.1.69 |
 | [`system-data-task-notification-type-remote-output.md`](../system-prompts/system-data-task-notification-type-remote-output.md) | <task-notification> <task-id>…<…>… <task-type>remote_agent<…> <output-file>global<…> <status>…<…> <summary>Remote task "…" …<…> <…> Read the output file to r… | 116 | 2.1.69 | 2.1.69 |
@@ -499,13 +509,17 @@ _Sorted by init (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (138)
+## System reminders (152)
 
-_Sorted by init (newest first). Showing **47** reminders with more than **30** tokens._
+_Sorted by init (newest first). Showing **50** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.69 | 2.1.69 |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.70 | 2.1.70 |
+| [`system-reminder-underscore-template-function-wrapper.md`](../system-prompts/system-reminder-underscore-template-function-wrapper.md) | Compiled Underscore template function skeleton that escapes values and accumulates output. | 70 | 2.1.70 | 2.1.70 |
+| [`system-reminder-print-sdk-url-session-input.md`](../system-prompts/system-reminder-print-sdk-url-session-input.md) | … --print --sdk-url --session-id --input-format stream-json --output-format stream-json --replay-user-messages | 44 | 2.1.70 | 2.1.70 |
+| [`system-reminder-generic-numbered-template.md`](../system-prompts/system-reminder-generic-numbered-template.md) | Sequential numbered header followed by five expression slots separated by blank lines | 41 | 2.1.70 | 2.1.70 |
+| [`system-reminder-clipboard-image-not-found-2.md`](../system-prompts/system-reminder-clipboard-image-not-found-2.md) | States clipboard lacks an image and instructs using EXPR_1 to paste one | 32 | 2.1.70 | 2.1.70 |
 | [`system-reminder-global-context-safeuser-whoami-git.md`](../system-prompts/system-reminder-global-context-safeuser-whoami-git.md) | global## Context - `SAFEUSER`: … - `whoami`: … - `git status`: !`git status` - `git diff HEAD`: !`git diff HEAD` - `git branch --show-current`: !`git branch… | 739 | 2.1.69 | 2.1.69 |
 | [`system-reminder-context-current-git-status-diff.md`](../system-prompts/system-reminder-context-current-git-status-diff.md) | Context - Current git status: !`git status` - Current git diff (staged and unstaged changes): !`git diff HEAD` - Current branch: !`git branch --show-current`… | 494 | 2.1.69 | 2.1.69 |
 | [`system-reminder-ultraplan-complete-plan-been-pre.md`](../system-prompts/system-reminder-ultraplan-complete-plan-been-pre.md) | Ultraplan complete. The plan has been pre-written to the plan file (…) by the remote planning session. | 69 | 2.1.69 | 2.1.69 |
@@ -518,7 +532,6 @@ _Sorted by init (newest first). Showing **47** reminders with more than **30** t
 | [`system-reminder-verify-plan-completion.md`](../system-prompts/system-reminder-verify-plan-completion.md) | After implementing a plan, call the specified tool to verify completion. | 32 | 2.1.63 | 2.1.63 |
 | [`system-reminder-natural-language-to-iso-date.md`](../system-prompts/system-reminder-natural-language-to-iso-date.md) | Convert natural language date/time inputs into ISO format or INVALID. | 193 | 2.1.49 | 2.1.49 |
 | [`system-reminder-parse-user-date-to-iso.md`](../system-prompts/system-reminder-parse-user-date-to-iso.md) | Parse user date input into ISO format using provided current context. | 109 | 2.1.49 | 2.1.49 |
-| [`system-reminder-enable-chrome-browser-automation.md`](../system-prompts/system-reminder-enable-chrome-browser-automation.md) | Require enabling the Chrome browser skill before using browser tools. | 69 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ask-what-to-clarify.md`](../system-prompts/system-reminder-ask-what-to-clarify.md) | Ask what to clarify, then adjust and restate questions based on response. | 67 | 2.1.49 | 2.1.49 |
 | [`system-reminder-auto-compact-context-enabled.md`](../system-prompts/system-reminder-auto-compact-context-enabled.md) | Explains automatic message compaction when the context window nears capacity. | 47 | 2.1.49 | 2.1.49 |
 | [`system-reminder-finish-plan-no-more-questions-3.md`](../system-prompts/system-reminder-finish-plan-no-more-questions-3.md) | Multiple prompts (2) | 46 | 2.1.49 | 2.1.49 |
@@ -554,18 +567,32 @@ _Sorted by init (newest first). Showing **47** reminders with more than **30** t
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 91 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 102 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-bypass-permissions-pen.md`](../system-prompts/system-reminder-bypass-permissions-pen.md) | bypassPermissions pen … … … | 27 | 2.1.69 | 2.1.69 |
+| [`system-reminder-mcp-server-instructions-following-servers.md`](../system-prompts/system-reminder-mcp-server-instructions-following-servers.md) | MCP Server Instructions The following MCP servers have provided instructions for how to use their tools and resources: … | 30 | 2.1.70 | 2.1.70 |
+| [`system-reminder-pasted-text-fast-mode-off.md`](../system-prompts/system-reminder-pasted-text-fast-mode-off.md) | [Pasted text # · Fast mode OFF +No image found in clipboard. | 30 | 2.1.70 | 2.1.70 |
+| [`system-reminder-following-mcp-servers-disconnected.md`](../system-prompts/system-reminder-following-mcp-servers-disconnected.md) | The following MCP servers have disconnected. | 23 | 2.1.70 | 2.1.70 |
+| [`system-reminder-clipboard-image-not-found.md`](../system-prompts/system-reminder-clipboard-image-not-found.md) | States clipboard lacks an image and instructs using EXPR_1 to paste one | 18 | 2.1.70 | 2.1.70 |
+| [`system-reminder-unknown-function-pointer-signature.md`](../system-prompts/system-reminder-unknown-function-pointer-signature.md) | Reports an unknown function pointer signature, including signature and pointer value details. | 17 | 2.1.70 | 2.1.70 |
+| [`system-reminder-everywhere-app.md`](../system-prompts/system-reminder-everywhere-app.md) | Code everywhere with the Claude app or … | 13 | 2.1.70 | 2.1.70 |
+| [`system-reminder-unbound-types-call-error.md`](../system-prompts/system-reminder-unbound-types-call-error.md) | Multiple prompts (2) | 13 | 2.1.70 | 2.1.70 |
+| [`system-reminder-unbound-types-construct-error.md`](../system-prompts/system-reminder-unbound-types-construct-error.md) | Error message stating a symbol cannot be constructed because its types are unbound | 13 | 2.1.70 | 2.1.70 |
+| [`system-reminder-typeid-pointer-must-be-positive.md`](../system-prompts/system-reminder-typeid-pointer-must-be-positive.md) | Type requires a positive integer typeid pointer. | 12 | 2.1.70 | 2.1.70 |
+| [`system-reminder-cannot-pass-non-type.md`](../system-prompts/system-reminder-cannot-pass-non-type.md) | Cannot pass non-string to C++ string type null | 11 | 2.1.70 | 2.1.70 |
+| [`system-reminder-require-smartptrtype-and-smartptr.md`](../system-prompts/system-reminder-require-smartptrtype-and-smartptr.md) | Error indicating both smart pointer type and value are required. | 11 | 2.1.70 | 2.1.70 |
+| [`system-reminder-makeclasshandle-missing-pointer-args.md`](../system-prompts/system-reminder-makeclasshandle-missing-pointer-args.md) | Error stating makeClassHandle needs both ptr and ptrType parameters. | 9 | 2.1.70 | 2.1.70 |
+| [`system-reminder-duplicate-type-registration.md`](../system-prompts/system-reminder-duplicate-type-registration.md) | Type registered twice. | 8 | 2.1.70 | 2.1.70 |
+| [`system-reminder-replacing-missing-public-symbol.md`](../system-prompts/system-reminder-replacing-missing-public-symbol.md) | Warning about attempting to replace a nonexistent public symbol. | 8 | 2.1.70 | 2.1.70 |
+| [`system-reminder-type-converter-count-mismatch.md`](../system-prompts/system-reminder-type-converter-count-mismatch.md) | Error indicating an unexpected number of type converters. | 7 | 2.1.70 | 2.1.70 |
+| [`system-reminder-sessionstart-hooks-running.md`](../system-prompts/system-reminder-sessionstart-hooks-running.md) | Status line showing SessionStart hooks are running. | 5 | 2.1.70 | 2.1.70 |
 | [`system-reminder-stop-hook-blocking-error-command.md`](../system-prompts/system-reminder-stop-hook-blocking-error-command.md) | Stop hook blocking error from command "…": (PID …) | 23 | 2.1.69 | 2.1.69 |
 | [`system-reminder-following-deferred-tools-now-available.md`](../system-prompts/system-reminder-following-deferred-tools-now-available.md) | The following deferred tools are now available via ToolSearch: … | 20 | 2.1.69 | 2.1.69 |
 | [`system-reminder-unregister-not-registered-instance.md`](../system-prompts/system-reminder-unregister-not-registered-instance.md) | Attempted to unregister an instance that was not registered, with instance identifier. | 20 | 2.1.69 | 2.1.69 |
 | [`system-reminder-register-already-registered-instance.md`](../system-prompts/system-reminder-register-already-registered-instance.md) | Attempted to register an instance that was already registered, with instance identifier. | 16 | 2.1.69 | 2.1.69 |
 | [`system-reminder-found-mcp-servers-desktop.md`](../system-prompts/system-reminder-found-mcp-servers-desktop.md) | Report the number of MCP servers detected in Claude Desktop. | 14 | 2.1.69 | 2.1.69 |
 | [`system-reminder-built-plugins-cannot-updated-uninstalled.md`](../system-prompts/system-reminder-built-plugins-cannot-updated-uninstalled.md) | Built-in plugins cannot be updated or uninstalled. | 12 | 2.1.69 | 2.1.69 |
-| [`system-reminder-unknown-function-pointer-signature-null.md`](../system-prompts/system-reminder-unknown-function-pointer-signature-null.md) | Log unknown function pointer details when signature is null. | 12 | 2.1.69 | 2.1.69 |
 | [`system-reminder-last-ran-ago.md`](../system-prompts/system-reminder-last-ran-ago.md) | last ran …s ago | 10 | 2.1.69 | 2.1.69 |
 | [`system-reminder-user-requested-reasoning-effort-level.md`](../system-prompts/system-reminder-user-requested-reasoning-effort-level.md) | The user has requested reasoning effort level: …. | 22 | 2.1.68 | 2.1.68 |
 | [`system-reminder-server-status-display-2.md`](../system-prompts/system-reminder-server-status-display-2.md) | Multiple prompts (2) | 9 | 2.1.66 | 2.1.66 |
@@ -575,11 +602,8 @@ _Sorted by init (newest first). Showing **47** reminders with more than **30** t
 | [`system-reminder-elicitation-response-server-decline.md`](../system-prompts/system-reminder-elicitation-response-server-decline.md) | Elicitation response for server "…": decline | 15 | 2.1.63 | 2.1.63 |
 | [`system-reminder-duplicate-public-name-registration.md`](../system-prompts/system-reminder-duplicate-public-name-registration.md) | Cannot register the same public name more than once. | 13 | 2.1.63 | 2.1.63 |
 | [`system-reminder-use-of-deleted-val.md`](../system-prompts/system-reminder-use-of-deleted-val.md) | Cannot use a val after it has been deleted. | 13 | 2.1.63 | 2.1.63 |
-| [`system-reminder-type-must-positive-integer-typeid.md`](../system-prompts/system-reminder-type-must-positive-integer-typeid.md) | type "null" must have a positive integer typeid pointer | 12 | 2.1.63 | 2.1.63 |
-| [`system-reminder-cannot-register-type-twice.md`](../system-prompts/system-reminder-cannot-register-type-twice.md) | Cannot register type 'null' twice | 8 | 2.1.63 | 2.1.63 |
 | [`system-reminder-available-deferred-tools-tag.md`](../system-prompts/system-reminder-available-deferred-tools-tag.md) | Template block listing available deferred tools and a configurable path tag. | 23 | 2.1.59 | 2.1.59 |
 | [`system-reminder-expected-schema.md`](../system-prompts/system-reminder-expected-schema.md) | Schema expectations outlined. | 17 | 2.1.59 | 2.1.59 |
-| [`system-reminder-non-string-to-cpp-string.md`](../system-prompts/system-reminder-non-string-to-cpp-string.md) | Cannot pass a non-string value to a C++ string type. | 16 | 2.1.53 | 2.1.53 |
 | [`system-reminder-process-id-2.md`](../system-prompts/system-reminder-process-id-2.md) | Displays two lines of text followed by a parenthesized PID value. | 24 | 2.1.51 | 2.1.51 |
 | [`system-reminder-additional-from-user.md`](../system-prompts/system-reminder-additional-from-user.md) | Additional instructions from user. | 12 | 2.1.51 | 2.1.51 |
 | [`system-reminder-web-page-content-wrapper.md`](../system-prompts/system-reminder-web-page-content-wrapper.md) | Wraps web page content and additional fields into a structured text block. | 29 | 2.1.49 | 2.1.49 |

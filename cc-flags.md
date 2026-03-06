@@ -1,7 +1,8 @@
-# Claude Code Flags 2.1.69
+# Claude Code Flags 2.1.70
 
 ## Feature Gates
 
+- `tengu_amber_quartz`
 - `tengu_ccr_bridge`
 - `tengu_ccr_bridge_multi_session`
 - `tengu_disable_bypass_permissions_mode`
