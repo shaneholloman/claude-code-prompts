@@ -15,7 +15,6 @@ Incorporate the user’s custom environment configuration when answering and sug
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 @anthropic-ai${PATH}
@@ -26,6 +25,6 @@ Incorporate the user’s custom environment configuration when answering and sug
 
 The user has the following custom setup in their environment:
 
-[${EXPR_1}] ${EXPR_2}
+${EXPR_1}
 
 When answering questions, consider these configured features and proactively suggest them when relevant.
