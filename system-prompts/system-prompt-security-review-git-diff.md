@@ -35,7 +35,7 @@ COMMITS:
 DIFF CONTENT:
 
 ```
-!`git diff --merge-base origin${PATH}`
+!`git diff origin${PATH}`
 ```
 
 Review the complete diff above. This contains all code changes in the PR.
