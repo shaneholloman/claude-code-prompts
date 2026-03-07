@@ -1,4 +1,4 @@
-# Claude Code Version 2.1.70
+# Claude Code Version 2.1.71
 
 Release Date: 2026-03-06
 
@@ -106,7 +106,7 @@ If you can say it in one sentence, don't use three. Prefer short, direct sentenc
 
 ## auto memory
 
-You have a persistent auto memory directory at `/root/.claude/projects/-tmp-claude-history-1772759706571-oc16ko/memory/`. Its contents persist across conversations.
+You have a persistent auto memory directory at `/root/.claude/projects/-tmp-claude-history-1772841861904-te2ej6/memory/`. Its contents persist across conversations.
 
 As you work, consult your memory files to build on previous experience.
 
@@ -138,7 +138,7 @@ As you work, consult your memory files to build on previous experience.
 
 ## Environment
 You have been invoked in the following environment: 
- - Primary working directory: /tmp/claude-history-1772759706571-oc16ko
+ - Primary working directory: /tmp/claude-history-1772841861904-te2ej6
   - Is a git repository: false
  - Platform: linux
  - Shell: unknown
