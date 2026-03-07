@@ -297,6 +297,6 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
 
     ${EXPR_24}@${EXPR_25}
   <${PATH}>
-  <script>${EXPR_26}<${PATH}>
+  <script>${NUM}<${PATH}>
 <${PATH}>
 <${PATH}>
