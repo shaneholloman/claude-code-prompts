@@ -302,6 +302,29 @@ anyio.run(main)
 
 ---
 
+## Session History
+
+```python
+import anyio
+from claude_agent_sdk import list_sessions, get_session_messages
+
+async def main():
+    # List past sessions
+    sessions = await list_sessions()
+    for session in sessions:
+        print(f"Session {session.session_id} in {session.cwd}")
+
+    # Retrieve messages from the most recent session
+    if sessions:
+        messages = await get_session_messages(session_id=sessions[${NUM}].session_id)
+        for msg in messages:
+            print(msg)
+
+anyio.run(main)
+```
+
+---
+
 ## Custom System Prompt
 
 ```python
