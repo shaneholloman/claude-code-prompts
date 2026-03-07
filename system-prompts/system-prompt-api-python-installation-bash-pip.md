@@ -51,7 +51,11 @@ response = client.messages.create(
         {"role": "user", "content": "What is the capital of France?"}
     ]
 )
-print(response.content[${NUM}].text)
+# response.content is a list of content block objects (TextBlock, ThinkingBlock,
+# ToolUseBlock, ...). Check .type before accessing .text.
+for block in response.content:
+    if block.type == "text":
+        print(block.text)
 ```
 
 ---
@@ -252,7 +256,9 @@ class ConversationManager:
             **kwargs
         )
 
-        assistant_message = response.content[${NUM}].text
+        assistant_message = next(
+            (b.text for b in response.content if b.type == "text"), ""
+        )
         self.messages.append({"role": "assistant", "content": assistant_message})
 
         return assistant_message
