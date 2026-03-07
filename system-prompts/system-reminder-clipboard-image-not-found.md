@@ -13,4 +13,4 @@ States clipboard lacks an image and instructs using EXPR_1 to paste one
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-@No image found in clipboard. Use ${EXPR_1} to paste images.
+No image found in clipboard. Use ${EXPR_1} to paste images.
