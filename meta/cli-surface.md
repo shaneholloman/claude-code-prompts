@@ -4,11 +4,11 @@
 
 - Commands: 25
 - Options: 63
-- Env vars: 431
-- Config keys: 608
+- Env vars: 433
+- Config keys: 621
 - Tools: 3
 - Skills: 0
-- Models: 93
+- Models: 92
 - Providers: 8
 
 ## Commands
@@ -292,6 +292,7 @@
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
+- `CLAUDE_CODE_DEBUG_LOG_LEVEL`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
 - `CLAUDE_CODE_DISABLE_1M_CONTEXT`
@@ -402,6 +403,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX`
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
+- `CLAUDE_CODE_TWO_STAGE_CLASSIFIER`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
@@ -457,6 +459,7 @@
 - `DISABLE_UPGRADE_COMMAND`
 - `DYNO`
 - `EDITOR`
+- `EMBEDDED_SEARCH_TOOLS`
 - `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CLAUDE_CODE_SM_COMPACT`
 - `ENABLE_CLAUDEAI_MCP_SERVERS`
@@ -567,8 +570,6 @@
 - `RENDER`
 - `REPL_ID`
 - `REPL_SLUG`
-- `RIPGREP_EMBEDDED`
-- `RIPGREP_NODE_PATH`
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
 - `S`
@@ -591,6 +592,7 @@
 - `SYSTEM_OIDCREQUESTURI`
 - `SYSTEMROOT`
 - `TASK_MAX_OUTPUT_LENGTH`
+- `TEAM_MEMORY_SYNC_URL`
 - `TEMP`
 - `TERM`
 - `TERM_PROGRAM`
@@ -637,6 +639,7 @@
 - `$schema`
 - `A`
 - `account`
+- `acquiredAt`
 - `action`
 - `activeForm`
 - `added`
@@ -757,9 +760,9 @@
 - `created_at`
 - `createdAt`
 - `criticalSystemReminder_EXPERIMENTAL`
+- `cron`
 - `custom_instructions`
 - `customTitle`
-- `CV`
 - `cwd`
 - `dangerouslyDisableSandbox`
 - `data`
@@ -789,6 +792,7 @@
 - `displayWidth`
 - `domains`
 - `dry_run`
+- `durable`
 - `duration_api_ms`
 - `duration_ms`
 - `durationMs`
@@ -811,6 +815,7 @@
 - `end`
 - `entries`
 - `env`
+- `environment`
 - `environmentId`
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
@@ -874,11 +879,13 @@
 - `httpHookAllowedEnvVars`
 - `httpMethodsToRetry`
 - `httpProxyPort`
+- `humanSchedule`
 - `id`
 - `ideName`
 - `ideRunningInWindows`
 - `ignoreViolations`
 - `image`
+- `iN`
 - `includeCoAuthoredBy`
 - `includeGitInstructions`
 - `initialWindowSize`
@@ -901,6 +908,7 @@
 - `isSynthetic`
 - `isUltraplan`
 - `isUsingOverage`
+- `jobs`
 - `jsonSchema`
 - `key`
 - `keywords`
@@ -973,10 +981,14 @@
 - `oldString`
 - `oldTodos`
 - `once`
+- `oneShotFloorMs`
+- `oneShotMaxMs`
+- `oneShotMinuteMod`
 - `openWorld`
 - `operation`
 - `options`
 - `organization`
+- `organizationId`
 - `original_file`
 - `originalFile`
 - `originalHeight`
@@ -1055,6 +1067,9 @@
 - `reason`
 - `reasoning`
 - `recipient`
+- `recurring`
+- `recurringCapMs`
+- `recurringFrac`
 - `ref`
 - `region`
 - `registry`
@@ -1339,7 +1354,6 @@ _None detected_
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
-- `opus-4.6-available`
 - `opus-pro-update`
 - `sonnet-3-7`
 - `sonnet-4`
