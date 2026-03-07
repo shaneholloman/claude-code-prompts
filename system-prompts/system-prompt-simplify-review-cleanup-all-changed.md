@@ -23,7 +23,7 @@ Use the Agent tool to launch all three agents concurrently in a single message. 
 
 For each change:
 
-${NUM}. **Search for existing utilities and helpers** that could replace newly written code. Use Grep to find similar patterns elsewhere in the codebase — common locations are utility directories, shared modules, and files adjacent to the changed ones.
+${NUM}. **Search for existing utilities and helpers** that could replace newly written code. Look for similar patterns elsewhere in the codebase — common locations are utility directories, shared modules, and files adjacent to the changed ones.
 ${NUM}. **Flag any new function that duplicates existing functionality.** Suggest the existing function to use instead.
 ${NUM}. **Flag any inline logic that could use an existing utility** — hand-rolled string manipulation, manual path handling, custom environment checks, ad-hoc type guards, and similar patterns are common candidates.
 
@@ -36,6 +36,7 @@ ${NUM}. **Parameter sprawl**: adding new parameters to a function instead of gen
 ${NUM}. **Copy-paste with slight variation**: near-duplicate code blocks that should be unified with a shared abstraction
 ${NUM}. **Leaky abstractions**: exposing internal details that should be encapsulated, or breaking existing abstraction boundaries
 ${NUM}. **Stringly-typed code**: using raw strings where constants, enums (string unions), or branded types already exist in the codebase
+${NUM}. **Unnecessary JSX nesting**: wrapper Boxes${PATH} that add no layout value — check if inner component props (flexShrink, alignItems, etc.) already provide the needed behavior
 
 ### Agent ${NUM}: Efficiency Review
 
