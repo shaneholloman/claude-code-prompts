@@ -10,9 +10,7 @@ Lists common request, tracing, CORS, and response headers alongside placeholder 
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Read | None |
-| `EXPR_2` | Glob | None |
-| `EXPR_3` | Grep | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 x-ms-client-request-id
@@ -93,8 +91,4 @@ User-Agent
 
 WWW-Authenticate
 
-${EXPR_1: 'Read'}
-
-${EXPR_2: 'Glob'}
-
-${EXPR_3: 'Grep'}
+${EXPR_1}
