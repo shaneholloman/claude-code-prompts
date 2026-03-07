@@ -154,3 +154,5 @@ permission:toggleDebug
 settings:search
 
 settings:retry
+
+voice:pushToTalk
