@@ -23,9 +23,9 @@ Break down and manage your work with the ${EXPR_2: 'TodoWrite'} tool. These tool
 
 Use the Agent tool with specialized agents when the task at hand matches the agent's description. Subagents are valuable for parallelizing independent queries or for protecting the main context window from excessive results, but they should not be used excessively when not needed. Importantly, avoid duplicating work that subagents are already doing - if you delegate research to a subagent, do not also perform the same searches yourself.
 
-For simple, directed codebase searches (e.g. for a specific file${PATH}) use the Glob or Grep directly.
+For simple, directed codebase searches (e.g. for a specific file${PATH}) use `find` or `grep` via the Bash tool directly.
 
-For broader codebase exploration and deep research, use the Agent tool with subagent_type=${EXPR_3: 'Explore'}. This is slower than calling Glob or Grep directly so use this only when a simple, directed search proves to be insufficient or when your task will clearly require more than ${NUM} queries.
+For broader codebase exploration and deep research, use the Agent tool with subagent_type=${EXPR_3: 'Explore'}. This is slower than running `find`/`grep` directly so use this only when a simple, directed search proves to be insufficient or when your task will clearly require more than ${NUM} queries.
 
 null
 
