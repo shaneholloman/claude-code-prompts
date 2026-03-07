@@ -1,4 +1,4 @@
-# System Data Block: d7800ef8
+# System Data Block: a324b104
 
 - Source: inline
 
@@ -47,7 +47,12 @@ message = client.messages.create(
     { role: "user", content: "What is the capital of France?" }
   ]
 )
-puts message.content.first.text
+# content is an array of polymorphic block objects (TextBlock, ThinkingBlock,
+# ToolUseBlock, ...). .type is a Symbol — compare with :text, not "text".
+# .text raises NoMethodError on non-TextBlock entries.
+message.content.each do |block|
+  puts block.text if block.type == :text
+end
 ```
 
 ---
