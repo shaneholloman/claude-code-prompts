@@ -45,7 +45,13 @@ const response = await client.messages.create({
   max_tokens: ${NUM},
   messages: [{ role: "user", content: "What is the capital of France?" }],
 });
-console.log(response.content[${NUM}].text);
+// response.content is ContentBlock[] — a discriminated union. Narrow by .type
+// before accessing .text (TypeScript will error on content[${NUM}].text without this).
+for (const block of response.content) {
+  if (block.type === "text") {
+    console.log(block.text);
+  }
+}
 ```
 
 ---
