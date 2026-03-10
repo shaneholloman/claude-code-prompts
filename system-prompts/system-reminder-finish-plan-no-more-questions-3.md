@@ -1,4 +1,4 @@
-# System Prompt: 7de4cd81
+# System Reminder: finish-plan-no-more-questions
 
 - Source: inline
 
