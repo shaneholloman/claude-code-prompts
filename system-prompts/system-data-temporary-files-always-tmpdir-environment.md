@@ -36,6 +36,14 @@
 | `EXPR_24` | None | None |
 
 # Raw Prompt Text
+low
+
+medium
+
+high
+
+max
+
 ${EXPR_1}
 
 ${EXPR_2}
@@ -46,17 +54,13 @@ ${EXPR_4}
 
 ${EXPR_5}
 
-For temporary files, always use the `$TMPDIR` environment variable (or `${EXPR_6}` as a fallback). TMPDIR is automatically set to the correct sandbox-writable directory in sandbox mode. Do NOT use `${PATH}` directly - use `$TMPDIR` or `${EXPR_7}` instead.
+${EXPR_6}
+
+${EXPR_7}
 
 ${EXPR_8}
 
 ${EXPR_9}
-
-[35m
-
-[35m
-
-[35m
 
 ${EXPR_10}
 
@@ -76,19 +80,17 @@ ${EXPR_17}
 
 ${EXPR_18}
 
-[35m
-
-[35m
-
-[35m
-
-${EXPR_19}
-
-${EXPR_20}
+For temporary files, always use the `$TMPDIR` environment variable (or `${EXPR_19}` as a fallback). TMPDIR is automatically set to the correct sandbox-writable directory in sandbox mode. Do NOT use `${PATH}` directly - use `$TMPDIR` or `${EXPR_20}` instead.
 
 ${EXPR_21}
 
 ${EXPR_22}
+
+[35m
+
+[35m
+
+[35m
 
 ${EXPR_23}
 
@@ -100,10 +102,34 @@ ${EXPR_26}
 
 ${EXPR_27}
 
-low
+${EXPR_28}
 
-medium
+${EXPR_29}
 
-high
+${EXPR_30}
 
-max
+${EXPR_31}
+
+[35m
+
+[35m
+
+[35m
+
+${EXPR_32}
+
+${EXPR_33}
+
+${EXPR_34}
+
+${EXPR_35}
+
+${EXPR_36}
+
+${EXPR_37}
+
+${EXPR_38}
+
+${EXPR_39}
+
+${EXPR_40}
