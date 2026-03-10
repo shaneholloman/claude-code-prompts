@@ -65,6 +65,8 @@ lspRecommendationIgnoredCount
 
 copyFullResponse
 
+copyOnSelect
+
 permissionExplainerEnabled
 
 prStatusFooterEnabled
