@@ -1,10 +1,10 @@
-# System Data Block: c31a51ef-4
+# System Data Block: c31a51ef-2
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (2)
+… … … … … For temporary files, always use the `$TMPDIR` environment variable (or `…` as a fallback).
 
 ## Placeholder Hints (source-backed)
 
@@ -37,34 +37,69 @@ Multiple prompts (2)
 
 # Raw Prompt Text
 ${EXPR_1}
+
 ${EXPR_2}
+
 ${EXPR_3}
+
 ${EXPR_4}
+
 ${EXPR_5}
+
 For temporary files, always use the `$TMPDIR` environment variable (or `${EXPR_6}` as a fallback). TMPDIR is automatically set to the correct sandbox-writable directory in sandbox mode. Do NOT use `${PATH}` directly - use `$TMPDIR` or `${EXPR_7}` instead.
+
 ${EXPR_8}
+
 ${EXPR_9}
+
 [35m
+
 [35m
+
 [35m
+
 ${EXPR_10}
+
 ${EXPR_11}
+
 ${EXPR_12}
+
 ${EXPR_13}
+
 ${EXPR_14}
+
 ${EXPR_15}
+
 ${EXPR_16}
+
 ${EXPR_17}
+
 ${EXPR_18}
+
 [35m
+
 [35m
+
 [35m
+
 ${EXPR_19}
+
 ${EXPR_20}
+
 ${EXPR_21}
+
 ${EXPR_22}
+
 ${EXPR_23}
+
 ${EXPR_24}
+
 ${EXPR_25}
+
 ${EXPR_26}
+
 ${EXPR_27}
+
+${EXPR_28}
+
+${EXPR_29}
