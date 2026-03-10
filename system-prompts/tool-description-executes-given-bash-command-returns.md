@@ -11,7 +11,6 @@ Executes a given bash command and returns its output.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Executes a given bash command and returns its output.
@@ -22,4 +21,7 @@ While the Bash tool can do similar things, it’s better to use the built-in too
 ## Command sandbox
 By default, your command will be run in a sandbox. This sandbox controls which directories and network hosts commands may access or modify without an explicit override.
 The sandbox has the following restrictions:
-${EXPR_2}
+low
+medium
+high
+max
