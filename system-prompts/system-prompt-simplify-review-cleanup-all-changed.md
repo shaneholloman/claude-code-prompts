@@ -1,4 +1,4 @@
-# System Prompt: 239a81b3
+# System Prompt: ad798f78
 
 - Source: inline
 
@@ -45,6 +45,7 @@ Review the same changes for efficiency:
 ${NUM}. **Unnecessary work**: redundant computations, repeated file reads, duplicate network${PATH} calls, N+${NUM} patterns
 ${NUM}. **Missed concurrency**: independent operations run sequentially when they could run in parallel
 ${NUM}. **Hot-path bloat**: new blocking work added to startup or per-request${PATH} hot paths
+${NUM}. **Recurring no-op updates**: state${PATH} updates inside polling loops, intervals, or event handlers that fire unconditionally — add a change-detection guard so downstream consumers aren't notified when nothing changed. Also: if a wrapper function takes an updater${PATH} callback, verify it honors same-reference returns (or whatever the "no change" signal is) — otherwise callers' early-return no-ops are silently defeated
 ${NUM}. **Unnecessary existence checks**: pre-checking file${PATH} existence before operating (TOCTOU anti-pattern) — operate directly and handle the error
 ${NUM}. **Memory**: unbounded data structures, missing cleanup, event listener leaks
 ${NUM}. **Overly broad operations**: reading entire files when only a portion is needed, loading all items when filtering for one
