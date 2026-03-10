@@ -155,4 +155,6 @@ settings:search
 
 settings:retry
 
+settings:close
+
 voice:pushToTalk
