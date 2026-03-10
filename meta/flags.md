@@ -1,4 +1,4 @@
-# Claude Code 2.1.71 – Flags
+# Claude Code 2.1.72 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -16,6 +16,7 @@
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_good_survey_transcript_ask_config` | config | prompts | Configuration for asking to share transcript after a positive feedback survey. |  | high | 1 |
 | `tengu_iron_gate_closed` | config | safety | Fail-closed when auto-mode classifier is unavailable, denying actions with retry guidance. | Controls deny vs fail-open behavior on classifier unavailability. | high | 1 |
+| `tengu_kairos_brief` | config | ui | Enables a user-visible “brief” message (markdown-supported), configurable via flag or CLAUDE_CODE_BRIEF. | Context suggests a displayed message, but the exact UI surface/location isn’t shown in the snippet. | medium | 1 |
 | `tengu_kairos_cron` | config | tools | Enables session-scoped cron scheduling tools to run prompts later. | Only one return-site occurrence; exact behavior behind gate not shown. | medium | 1 |
 | `tengu_kairos_cron_config` | config | other | Cron jitter configuration for recurring task scheduling parameters. | Only shows parsing/validation; actual use of config not included. | medium | 1 |
 | `tengu_max_version_config` | config | tools | Defines a minimum allowed app version; updates below it are skipped and may show an external message. |  | medium | 1 |
@@ -25,6 +26,7 @@
 | `tengu_streaming_tool_execution2` | gate | tools | Gates creation of a tool-execution handler in the streaming CLI request loop | Only observed gating EV0 construction; exact behavior of EV0 is unclear. | high | 1 |
 | `tengu_thinkback` | gate | tools | Enables Thinkback year-in-review command and hidden animation playback tool | Controls availability of local CLI/plugin commands. | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
+| `tengu_toolref_defer_j8m` | gate | tools | Toggles whether an extra tool-reference text block is injected into message content. | Exact text/prefix (JWq) is obfuscated; behavior inferred from conditional content insertion and list transform. | medium | 2 |
 | `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |
 | `tengu_vscode_onboarding` | gate | ui | Controls whether VSCode connected experience shows onboarding flow | Only seen declared and sent as a gate; no UI behavior shown. | medium | 1 |
 | `tengu_vscode_review_upsell` | gate | ui | Enable VS Code review upsell experiment gate sent to connected client. | Only shows gate transmission and event logging, not the upsell UI itself. | medium | 1 |

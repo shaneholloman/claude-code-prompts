@@ -4,8 +4,8 @@
 
 - Commands: 25
 - Options: 63
-- Env vars: 433
-- Config keys: 621
+- Env vars: 437
+- Config keys: 634
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -285,6 +285,8 @@
 - `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
+- `CLAUDE_CODE_BRIEF`
+- `CLAUDE_CODE_BRIEF_UPLOAD`
 - `CLAUDE_CODE_BUBBLEWRAP`
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
@@ -302,6 +304,7 @@
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
+- `CLAUDE_CODE_DISABLE_CRON`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
 - `CLAUDE_CODE_DISABLE_FAST_MODE`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
@@ -313,6 +316,7 @@
 - `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DISABLE_THINKING`
+- `CLAUDE_CODE_DISABLE_VIRTUAL_SCROLL`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EAGER_FLUSH`
 - `CLAUDE_CODE_EFFORT_LEVEL`
@@ -635,6 +639,7 @@
 
 ## Config Keys
 
+- `_`
 - `$docs`
 - `$schema`
 - `A`
@@ -652,6 +657,7 @@
 - `agent_transcript_path`
 - `agent_type`
 - `agentId`
+- `agentProgressSummaries`
 - `agents`
 - `all`
 - `allow`
@@ -678,6 +684,7 @@
 - `apiKeyHelper`
 - `apiKeySource`
 - `appendSystemPrompt`
+- `applied`
 - `appliedLimit`
 - `appliedOffset`
 - `applyPath`
@@ -685,10 +692,12 @@
 - `approved`
 - `args`
 - `argumentHint`
+- `argv0`
 - `ask`
 - `async`
 - `asyncRewake`
 - `asyncTimeout`
+- `attachments`
 - `attribution`
 - `author`
 - `authServerMetadataUrl`
@@ -787,6 +796,8 @@
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `disallowedTools`
+- `discardedCommits`
+- `discardedFiles`
 - `displayHeight`
 - `displayName`
 - `displayWidth`
@@ -803,9 +814,11 @@
 - `edits`
 - `effective`
 - `effort`
+- `effortLevel`
 - `elapsed_time_seconds`
 - `elicitation_id`
 - `email`
+- `enable_slash_command`
 - `enableAllProjectMcpServers`
 - `enabled`
 - `enabledMcpjsonServers`
@@ -855,6 +868,7 @@
 - `forceRemoveDeletedPlugins`
 - `format`
 - `from`
+- `gcpAuthRefresh`
 - `getOAuthToken`
 - `getUserId`
 - `gitBranch`
@@ -885,7 +899,6 @@
 - `ideRunningInWindows`
 - `ignoreViolations`
 - `image`
-- `iN`
 - `includeCoAuthoredBy`
 - `includeGitInstructions`
 - `initialWindowSize`
@@ -990,6 +1003,7 @@
 - `organization`
 - `organizationId`
 - `original_file`
+- `originalCwd`
 - `originalFile`
 - `originalHeight`
 - `originalSize`
@@ -1060,6 +1074,7 @@
 - `query`
 - `question`
 - `questions`
+- `qv`
 - `rate_limit_info`
 - `rateLimitType`
 - `rawOutputPath`
@@ -1128,6 +1143,7 @@
 - `sha`
 - `shouldBlock`
 - `showThinkingSummaries`
+- `size`
 - `skill`
 - `skills`
 - `skipDangerousModePermissionPrompt`
@@ -1169,6 +1185,7 @@
 - `summary`
 - `supportedEffortLevels`
 - `supportsAdaptiveThinking`
+- `supportsAutoMode`
 - `supportsEffort`
 - `supportsFastMode`
 - `suppressOutput`
@@ -1195,6 +1212,7 @@
 - `timestamp`
 - `tips`
 - `title`
+- `tmuxSessionName`
 - `to`
 - `tokenSaverOutput`
 - `tokenSource`
@@ -1243,7 +1261,6 @@
 - `verbs`
 - `verificationNudgeNeeded`
 - `version`
-- `w`
 - `web_fetch_requests`
 - `web_search_requests`
 - `webSearchRequests`

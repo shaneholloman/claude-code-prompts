@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.71
+# Claude Code Flags 2.1.72
 
 ## Feature Gates
 
@@ -10,6 +10,7 @@
 - `tengu_streaming_tool_execution2`
 - `tengu_thinkback`
 - `tengu_tool_pear`
+- `tengu_toolref_defer_j8m`
 - `tengu_vscode_onboarding`
 - `tengu_vscode_review_upsell`
 
@@ -25,6 +26,7 @@
 - `tengu_feedback_survey_config`
 - `tengu_good_survey_transcript_ask_config`
 - `tengu_iron_gate_closed`
+- `tengu_kairos_brief`
 - `tengu_kairos_cron`
 - `tengu_kairos_cron_config`
 - `tengu_max_version_config`
