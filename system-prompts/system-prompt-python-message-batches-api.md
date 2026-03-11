@@ -91,7 +91,9 @@ print(f"Errored: {batch.request_counts.errored}")
 for result in client.messages.batches.results(message_batch.id):
     match result.result.type:
         case "succeeded":
-            print(f"[{result.custom_id}] {result.result.message.content[${NUM}].text[:${NUM}]}")
+            msg = result.result.message
+            text = next((b.text for b in msg.content if b.type == "text"), "")
+            print(f"[{result.custom_id}] {text[:${NUM}]}")
         case "errored":
             if result.result.error.type == "invalid_request":
                 print(f"[{result.custom_id}] Validation error - fix request and retry")
@@ -191,7 +193,8 @@ while True:
 results = {}
 for result in client.messages.batches.results(batch.id):
     if result.result.type == "succeeded":
-        results[result.custom_id] = result.result.message.content[${NUM}].text
+        msg = result.result.message
+        results[result.custom_id] = next((b.text for b in msg.content if b.type == "text"), "")
 
 for custom_id, classification in sorted(results.items()):
     print(f"{custom_id}: {classification}")
