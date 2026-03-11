@@ -283,7 +283,7 @@ response2 = conversation.send("What's my name?")  # Claude remembers "Alice"
 
 ### Compaction (long conversations)
 
-> **Beta, Opus ${NUM} only.** When conversations approach the 200K context window, compaction automatically summarizes earlier context server-side. The API returns a `compaction` block; you must pass it back on subsequent requests — append `response.content`, not just the text.
+> **Beta, Opus ${NUM} and Sonnet ${NUM}.** When conversations approach the 200K context window, compaction automatically summarizes earlier context server-side. The API returns a `compaction` block; you must pass it back on subsequent requests — append `response.content`, not just the text.
 
 ```python
 import anthropic
