@@ -1,4 +1,4 @@
-# System Prompt: 3a7fef0e
+# System Prompt: 34ae56ec
 
 - Source: inline
 
@@ -33,7 +33,7 @@ anyio.run(main)
 
 ## Custom Tools
 
-Custom tools require an MCP server. Use `ClaudeSDKClient` for full control, or pass the server to `query()` via `mcp_servers`.
+Custom tools require an MCP server. Use `ClaudeSDKClient` for full control (custom SDK MCP tools require `ClaudeSDKClient` — `query()` only supports external stdio${PATH} MCP servers).
 
 ```python
 import anyio
@@ -225,8 +225,7 @@ async def main():
         prompt="Set up the development environment",
         options=ClaudeAgentOptions(
             allowed_tools=["Bash", "Write"],
-            permission_mode="bypassPermissions",
-            allow_dangerously_skip_permissions=True
+            permission_mode="bypassPermissions"
         )
     ):
         pass
@@ -287,7 +286,7 @@ async def main():
         options=ClaudeAgentOptions(allowed_tools=["Read", "Glob"])
     ):
         if isinstance(message, SystemMessage) and message.subtype == "init":
-            session_id = message.session_id
+            session_id = message.data.get("session_id")
 
     # Resume with full context from the first query
     async for message in query(
@@ -305,22 +304,18 @@ anyio.run(main)
 ## Session History
 
 ```python
-import anyio
 from claude_agent_sdk import list_sessions, get_session_messages
 
-async def main():
-    # List past sessions
-    sessions = await list_sessions()
-    for session in sessions:
-        print(f"Session {session.session_id} in {session.cwd}")
+# List past sessions (sync function — no await)
+sessions = list_sessions()
+for session in sessions:
+    print(f"Session {session.session_id} in {session.cwd}")
 
-    # Retrieve messages from the most recent session
-    if sessions:
-        messages = await get_session_messages(session_id=sessions[${NUM}].session_id)
-        for msg in messages:
-            print(msg)
-
-anyio.run(main)
+# Retrieve messages from the most recent session (sync function — no await)
+if sessions:
+    messages = get_session_messages(session_id=sessions[${NUM}].session_id)
+    for msg in messages:
+        print(msg)
 ```
 
 ---
