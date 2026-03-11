@@ -172,7 +172,7 @@ A note: if any of the model strings above look unfamiliar to you, that's to be e
 
 ## Compaction (Quick Reference)
 
-**Beta, Opus ${NUM} only.** For long-running conversations that may exceed the 200K context window, enable server-side compaction. The API automatically summarizes earlier context when it approaches the trigger threshold (default: 150K tokens). Requires beta header `compact-${DATE}`.
+**Beta, Opus ${NUM} and Sonnet ${NUM}.** For long-running conversations that may exceed the 200K context window, enable server-side compaction. The API automatically summarizes earlier context when it approaches the trigger threshold (default: 150K tokens). Requires beta header `compact-${DATE}`.
 
 **Critical:** Append `response.content` (not just the text) back to your messages on every turn. Compaction blocks in the response must be preserved — the API uses them to replace the compacted history on the next request. Extracting only the text string and appending that will silently lose the compaction state.
 
