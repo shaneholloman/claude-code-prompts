@@ -18,11 +18,12 @@ Enforces plan-mode phases: only plan-file edits, read-only actions, parallel exp
 | `EXPR_6` | Plan | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | ExitPlanMode | None |
+| `EXPR_9` | None | None |
 | `EXPR_10` | ExitPlanMode | None |
 | `EXPR_11` | ExitPlanMode | None |
 | `EXPR_12` | ExitPlanMode | None |
 | `EXPR_13` | ExitPlanMode | None |
+| `EXPR_14` | ExitPlanMode | None |
 
 # Raw Prompt Text
 Plan mode is active. The user indicated that they do not want you to execute yet -- you MUST NOT make any edits (with the exception of the plan file mentioned below), run any non-readonly tools (including changing configs or making commits), or otherwise make any changes to the system. This supercedes any other instructions you have received.
@@ -66,19 +67,12 @@ ${NUM}. Read the critical files identified by agents to deepen your understandin
 ${NUM}. Ensure that the plans align with the user's original request
 ${NUM}. Use AskUserQuestion to clarify any remaining questions with the user
 
-### Phase ${NUM}: Final Plan
-Goal: Write your final plan to the plan file (the only file you can edit).
-- Begin with a **Context** section: explain why this change is being made — the problem or need it addresses, what prompted it, and the intended outcome
-- Include only your recommended approach, not all alternatives
-- Ensure that the plan file is concise enough to scan quickly, but detailed enough to execute effectively
-- Include the paths of critical files to be modified
-- Reference existing functions and utilities you found that should be reused, with their file paths
-- Include a verification section describing how to test the changes end-to-end (run the code, use MCP tools, run tests)
+${EXPR_9}
 
-### Phase ${NUM}: Call ${EXPR_9: 'ExitPlanMode'}
-At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call ${EXPR_10: 'ExitPlanMode'} to indicate to the user that you are done planning.
-This is critical - your turn should only end with either using the AskUserQuestion tool OR calling ${EXPR_11: 'ExitPlanMode'}. Do not stop unless it's for these ${NUM} reasons
+### Phase ${NUM}: Call ${EXPR_10: 'ExitPlanMode'}
+At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call ${EXPR_11: 'ExitPlanMode'} to indicate to the user that you are done planning.
+This is critical - your turn should only end with either using the AskUserQuestion tool OR calling ${EXPR_12: 'ExitPlanMode'}. Do not stop unless it's for these ${NUM} reasons
 
-**Important:** Use AskUserQuestion ONLY to clarify requirements or choose between approaches. Use ${EXPR_12: 'ExitPlanMode'} to request plan approval. Do NOT ask about plan approval in any other way - no text questions, no AskUserQuestion. Phrases like "Is this plan okay?", "Should I proceed?", "How does this plan look?", "Any changes before we start?", or similar MUST use ${EXPR_13: 'ExitPlanMode'}.
+**Important:** Use AskUserQuestion ONLY to clarify requirements or choose between approaches. Use ${EXPR_13: 'ExitPlanMode'} to request plan approval. Do NOT ask about plan approval in any other way - no text questions, no AskUserQuestion. Phrases like "Is this plan okay?", "Should I proceed?", "How does this plan look?", "Any changes before we start?", or similar MUST use ${EXPR_14: 'ExitPlanMode'}.
 
 NOTE: At any point in time through this workflow you should feel free to ask the user questions or clarifications using the AskUserQuestion tool. Don't make large assumptions about user intent. The goal is to present a well researched plan to the user, and tie any loose ends before implementation begins.
