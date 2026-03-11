@@ -37,9 +37,9 @@ Claude Model Catalog **Only use exact model IDs listed in this file.** Never gue
 
 ## Deprecated Models (retiring soon)
 
-| Friendly Name     | Alias (use this)    | Full ID                       | Status     |
-|-------------------|---------------------|-------------------------------|------------|
-| Claude Haiku ${NUM}    | —                   | `claude-${NUM}-haiku-${NUM}`     | Deprecated |
+| Friendly Name     | Alias (use this)    | Full ID                       | Status     | Retires      |
+|-------------------|---------------------|-------------------------------|------------|--------------|
+| Claude Haiku ${NUM}    | —                   | `claude-${NUM}-haiku-${NUM}`     | Deprecated | Apr ${NUM}, ${NUM} |
 
 ## Retired Models (no longer available)
 
