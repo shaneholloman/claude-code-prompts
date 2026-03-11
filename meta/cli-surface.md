@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 25
+- Commands: 28
 - Options: 63
-- Env vars: 437
-- Config keys: 634
+- Env vars: 438
+- Config keys: 638
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -20,6 +20,9 @@
 - `add-json`
 - `agents`
 - `auth`
+- `auto-mode`
+- `config`
+- `defaults`
 - `disable`
 - `doctor`
 - `enable`
@@ -49,6 +52,9 @@
 - `add-json <name> <json>`
 - `agents`
 - `auth`
+- `auto-mode`
+- `config`
+- `defaults`
 - `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
@@ -218,6 +224,7 @@
 - `ANTHROPIC_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL_AWS_REGION`
+- `ANTHROPIC_UNIX_SOCKET`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
 - `API_TIMEOUT_MS`
 - `APP_URL`
@@ -786,6 +793,7 @@
 - `deny`
 - `denyRead`
 - `denyWrite`
+- `dependencies`
 - `desc`
 - `description`
 - `destination`
@@ -793,6 +801,7 @@
 - `dimensions`
 - `directories`
 - `disableAllHooks`
+- `disableAutoMode`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `disallowedTools`
@@ -827,6 +836,7 @@
 - `enableWeakerNetworkIsolation`
 - `end`
 - `entries`
+- `entryChecksums`
 - `env`
 - `environment`
 - `environmentId`
@@ -964,6 +974,7 @@
 - `mitmProxy`
 - `mode`
 - `model`
+- `modelOverrides`
 - `models`
 - `modelUsage`
 - `multiSelect`
@@ -1071,10 +1082,10 @@
 - `prompt_response`
 - `promptSuggestionEnabled`
 - `promptSuggestions`
+- `Pv`
 - `query`
 - `question`
 - `questions`
-- `qv`
 - `rate_limit_info`
 - `rateLimitType`
 - `rawOutputPath`
