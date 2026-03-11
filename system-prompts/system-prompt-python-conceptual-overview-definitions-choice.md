@@ -85,7 +85,8 @@ async with stdio_client(StdioServerParameters(command="mcp-server")) as (read, w
         await mcp_client.initialize()
 
         tools_result = await mcp_client.list_tools()
-        runner = await client.beta.messages.tool_runner(
+        # tool_runner is sync — returns the runner, not a coroutine
+        runner = client.beta.messages.tool_runner(
             model="{{OPUS_ID}}",
             max_tokens=${NUM},
             messages=[{"role": "user", "content": "Use the available tools"}],
@@ -535,7 +536,9 @@ response = client.messages.create(
 )
 
 import json
-data = json.loads(response.content[${NUM}].text)
+# output_config.format guarantees the first block is text with valid JSON
+text = next(b.text for b in response.content if b.type == "text")
+data = json.loads(text)
 ```
 
 ### Strict Tool Use
