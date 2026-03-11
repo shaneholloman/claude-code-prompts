@@ -67,7 +67,9 @@ response = client.beta.messages.create(
     }],
     betas=["files-api-${DATE}"],
 )
-print(response.content[${NUM}].text)
+for block in response.content:
+    if block.type == "text":
+        print(block.text)
 ```
 
 ### Image
@@ -170,7 +172,8 @@ for question in questions:
         betas=["files-api-${DATE}"],
     )
     print(f"\nQ: {question}")
-    print(f"A: {response.content[${NUM}].text[:${NUM}]}")
+    text = next((b.text for b in response.content if b.type == "text"), "")
+    print(f"A: {text[:${NUM}]}")
 
 # ${NUM}. Clean up when done
 client.beta.files.delete(uploaded.id)
