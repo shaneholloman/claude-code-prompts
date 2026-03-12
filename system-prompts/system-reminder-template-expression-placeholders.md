@@ -17,4 +17,12 @@ Five expression placeholders separated by blank lines for later template substit
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-${EXPR_1} ${EXPR_2} ${EXPR_3} ${EXPR_4} ${EXPR_5}
+${EXPR_1}
+
+${EXPR_2}
+
+${EXPR_3}
+
+${EXPR_4}
+
+${EXPR_5}
