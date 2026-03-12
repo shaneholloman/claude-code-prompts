@@ -51,6 +51,8 @@ There are several discrete types of memory that you can store in your memory sys
 
     <how_to_use>Let these memories guide your behavior so that the user and other users in the project do not need to offer the same guidance twice.<${PATH}>
 
+    <body_structure>Lead with the rule itself, then a **Why:** line (the reason the user gave — often a past incident or strong preference) and a **How to apply:** line (when${PATH} this guidance kicks in). Knowing *why* lets you judge edge cases instead of blindly following the rule.<${PATH}>
+
     <examples>
 
     user: don't mock the database in these tests — we got burned last quarter when mocked tests passed but the prod migration failed
@@ -76,6 +78,8 @@ There are several discrete types of memory that you can store in your memory sys
     <when_to_save>When you learn who is doing what, why, or by when. These states change relatively quickly so try to keep your understanding of this up to date. Always convert relative dates in user messages to absolute dates when saving (e.g., "Thursday" → "${DATE}"), so the memory remains interpretable after time passes.<${PATH}>
 
     <how_to_use>Use these memories to more fully understand the details and nuance behind the user's request, anticipate coordination issues across users, make better informed suggestions.<${PATH}>
+
+    <body_structure>Lead with the fact or decision, then a **Why:** line (the motivation — often a constraint, deadline, or stakeholder ask) and a **How to apply:** line (how this should shape your suggestions). Project memories decay fast, so the why helps future-you judge whether the memory is still load-bearing.<${PATH}>
 
     <examples>
 
