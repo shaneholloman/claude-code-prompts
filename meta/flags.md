@@ -1,4 +1,4 @@
-# Claude Code 2.1.73 – Flags
+# Claude Code 2.1.74 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -11,6 +11,7 @@
 | `tengu_bridge_poll_interval_config` | config | networking | Configures polling interval timing for a bridge component when not at capacity | Exact bridge behavior not shown; inferred from poll interval schema. | medium | 1 |
 | `tengu_ccr_bridge` | gate | tools | Enables a CLI bridge component with async/blocking checks and minimum version validation. | Exact bridge behavior isn’t shown beyond enable checks and min-version logic. | medium | 1 |
 | `tengu_ccr_bridge_multi_session` | gate | tools | Controls whether the CLI bridge supports multiple concurrent spawned sessions. | Only a gate return is shown; exact behavior beyond session spawning is unclear. | medium | 1 |
+| `tengu_chair_sermon` | gate | ui | Enables an alternate transformation/normalization path for attachments when building the chat message list. | Exact visual/formatting outcome is unclear due to obfuscated helper functions (i3z, n3z, o3z). | medium | 3 |
 | `tengu_desktop_upsell` | config | ui | Controls desktop startup upsell dialog on supported OS/architecture | Exact upsell content/behavior beyond startup dialog not shown. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |

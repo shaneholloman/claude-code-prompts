@@ -4,8 +4,8 @@
 
 - Commands: 28
 - Options: 63
-- Env vars: 438
-- Config keys: 638
+- Env vars: 439
+- Config keys: 644
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -346,6 +346,7 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
+- `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GB_BASE_URL`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
@@ -392,6 +393,7 @@
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SEARCH_HINTS_IN_LIST`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
+- `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SIMPLE`
@@ -414,7 +416,6 @@
 - `CLAUDE_CODE_TMUX_PREFIX`
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
-- `CLAUDE_CODE_TWO_STAGE_CLASSIFIER`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
@@ -701,6 +702,7 @@
 - `argumentHint`
 - `argv0`
 - `ask`
+- `assistantAutoBackgrounded`
 - `async`
 - `asyncRewake`
 - `asyncTimeout`
@@ -710,6 +712,7 @@
 - `authServerMetadataUrl`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoMemoryDirectory`
 - `autoMemoryEnabled`
 - `autoUpdate`
 - `autoUpdatesChannel`
@@ -978,6 +981,9 @@
 - `models`
 - `modelUsage`
 - `multiSelect`
+- `multisession_poll_interval_ms_at_capacity`
+- `multisession_poll_interval_ms_not_at_capacity`
+- `multisession_poll_interval_ms_partial_capacity`
 - `name`
 - `network`
 - `new_source`
@@ -1082,7 +1088,6 @@
 - `prompt_response`
 - `promptSuggestionEnabled`
 - `promptSuggestions`
-- `Pv`
 - `query`
 - `question`
 - `questions`
@@ -1146,6 +1151,7 @@
 - `serverUrl`
 - `service_tier`
 - `session_id`
+- `session_keepalive_interval_ms`
 - `sessionId`
 - `set`
 - `set_range`
@@ -1284,6 +1290,7 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
+- `yv`
 
 ## Tools
 
