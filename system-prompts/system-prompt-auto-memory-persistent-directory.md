@@ -14,7 +14,7 @@ auto memory You have a persistent auto memory directory at `…`.
 
 # Raw Prompt Text
 # auto memory
-You have a persistent auto memory directory at `${EXPR_1}`. Its contents persist across conversations.
+You have a persistent auto memory directory at `${EXPR_1}`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence). Its contents persist across conversations.
 As you work, consult your memory files to build on previous experience.
 ## How to save memories:
 - Organize memory semantically by topic, not chronologically
