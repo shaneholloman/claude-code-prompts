@@ -15,12 +15,11 @@
 | `memory_name` | None | None |
 | `one_line_description_used_to_decide_rele` | None | None |
 | `user_feedback_project_reference` | None | None |
-| `memory_content` | None | None |
 
 # Raw Prompt Text
 # ${EXPR_1}
 
-You have a persistent, file-based memory system found at: `${EXPR_2}`
+You have a persistent, file-based memory system at `${EXPR_2}`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
 
 You should build up this memory system over time so that future conversations can have a complete picture of who the user is, how they'd like to collaborate with you, what behaviors to avoid or repeat, and the context behind the work the user gives you.
 
@@ -66,6 +65,8 @@ There are several discrete types of memory that you can store in your memory sys
 
     <how_to_use>Let these memories guide your behavior so that the user does not need to offer the same guidance twice.<${PATH}>
 
+    <body_structure>Lead with the rule itself, then a **Why:** line (the reason the user gave — often a past incident or strong preference) and a **How to apply:** line (when${PATH} this guidance kicks in). Knowing *why* lets you judge edge cases instead of blindly following the rule.<${PATH}>
+
     <examples>
 
     user: don't mock the database in these tests — we got burned last quarter when mocked tests passed but the prod migration failed
@@ -89,6 +90,8 @@ There are several discrete types of memory that you can store in your memory sys
     <when_to_save>When you learn who is doing what, why, or by when. These states change relatively quickly so try to keep your understanding of this up to date. Always convert relative dates in user messages to absolute dates when saving (e.g., "Thursday" → "${DATE}"), so the memory remains interpretable after time passes.<${PATH}>
 
     <how_to_use>Use these memories to more fully understand the details and nuance behind the user's request and make better informed suggestions.<${PATH}>
+
+    <body_structure>Lead with the fact or decision, then a **Why:** line (the motivation — often a constraint, deadline, or stakeholder ask) and a **How to apply:** line (how this should shape your suggestions). Project memories decay fast, so the why helps future-you judge whether the memory is still load-bearing.<${PATH}>
 
     <examples>
 
@@ -160,7 +163,7 @@ type: {{user, feedback, project, reference}}
 
 ---
 
-{{memory content}}
+{{memory content — for feedback${PATH} types, structure as: rule${PATH}, then **Why:** and **How to apply:** lines}}
 
 ```
 
