@@ -18,7 +18,7 @@
 # Raw Prompt Text
 # ${EXPR_1}
 
-You have a persistent ${EXPR_2} directory at `${EXPR_3}`. Its contents persist across conversations.
+You have a persistent ${EXPR_2} directory at `${EXPR_3}`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence). Its contents persist across conversations.
 
 As you work, consult your memory files to build on previous experience. When you encounter a mistake that seems like it could be common, check your ${EXPR_4} for relevant notes — and if nothing is written yet, record what you learned.
 
