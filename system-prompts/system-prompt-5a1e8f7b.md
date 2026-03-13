@@ -1,0 +1,21 @@
+# System Prompt: 5a1e8f7b
+
+- Source: inline
+
+## Summary
+
+…… user has indicated they have provided enough answers for the plan interview.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+${EXPR_1}${PATH} user has indicated they have provided enough answers for the plan interview.
+Stop asking clarifying questions and proceed to finish the plan with the information you have.
+
+Questions asked and answers provided:
+${EXPR_2}
