@@ -1,9 +1,8 @@
-# Claude Code 2.1.74 – Flags
+# Claude Code 2.1.75 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `tengu_1p_event_batch_config` | config | telemetry | Configures OpenTelemetry first-party event logging batch sizes, queue limits, and export interval. | Only seen in initializer; downstream usage not fully shown. | high | 1 |
-| `tengu_amber_quartz` | gate | ui | Triggers user settings change notification when voice is enabled | Single occurrence; exact purpose of xH() and notifyChange is unclear. | low | 1 |
 | `tengu_auto_mode_config` | config | tools | Controls CLI auto mode enablement and circuit-breaker disabling via async config check |  | high | 1 |
 | `tengu_bad_survey_transcript_ask_config` | config | prompts | Config for prompting transcript sharing after a negative feedback survey response |  | high | 1 |
 | `tengu_bridge_initial_history_cap` | config | networking | Limits number of prior chat messages initially flushed over REPL bridge transport | Applies during initial connect flush in onWorkReceived. | high | 1 |

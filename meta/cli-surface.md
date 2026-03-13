@@ -5,7 +5,7 @@
 - Commands: 28
 - Options: 63
 - Env vars: 439
-- Config keys: 644
+- Config keys: 652
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -288,6 +288,7 @@
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
+- `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
@@ -433,7 +434,6 @@
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_TMPDIR`
-- `CLAUDECODE`
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
@@ -787,6 +787,7 @@
 - `data`
 - `decision`
 - `decision_reason`
+- `default`
 - `default_branch`
 - `defaultEnvironmentId`
 - `defaultMode`
@@ -958,6 +959,7 @@
 - `matcher`
 - `matcherMetadata`
 - `matches`
+- `max`
 - `max_results`
 - `max_thinking_tokens`
 - `maxOutputTokens`
@@ -973,6 +975,7 @@
 - `metadata`
 - `method`
 - `mimeType`
+- `min`
 - `minimumVersion`
 - `mitmProxy`
 - `mode`
@@ -980,6 +983,7 @@
 - `modelOverrides`
 - `models`
 - `modelUsage`
+- `multiple`
 - `multiSelect`
 - `multisession_poll_interval_ms_at_capacity`
 - `multisession_poll_interval_ms_not_at_capacity`
@@ -1097,7 +1101,6 @@
 - `readOnly`
 - `reason`
 - `reasoning`
-- `recipient`
 - `recurring`
 - `recurringCapMs`
 - `recurringFrac`
@@ -1125,6 +1128,7 @@
 - `result`
 - `resultCount`
 - `results`
+- `resultWasTruncated`
 - `resume`
 - `returnCodeInterpretation`
 - `ripgrep`
@@ -1141,6 +1145,7 @@
 - `seccomp`
 - `selected`
 - `selection`
+- `sensitive`
 - `server`
 - `server_name`
 - `server_tool_use`
@@ -1179,6 +1184,7 @@
 - `sshIdentityFile`
 - `sshPort`
 - `start`
+- `startDirectory`
 - `startLine`
 - `status`
 - `statusChange`
@@ -1212,6 +1218,7 @@
 - `systemMessage`
 - `systemPrompt`
 - `tabId`
+- `tag`
 - `task`
 - `task_description`
 - `task_id`
@@ -1268,11 +1275,13 @@
 - `url`
 - `usage`
 - `user_message_id`
+- `userConfig`
 - `userId`
 - `userModified`
 - `userSettings`
 - `utilization`
 - `uuid`
+- `Uv`
 - `value`
 - `variables`
 - `verbs`
@@ -1290,7 +1299,6 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `yv`
 
 ## Tools
 
