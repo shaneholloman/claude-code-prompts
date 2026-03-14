@@ -14,7 +14,6 @@
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 <task-notification>
@@ -22,6 +21,6 @@
 <task-type>remote_agent<${PATH}>
 <output-file>global<${PATH}>
 <status>${EXPR_3}<${PATH}>
-<summary>Remote task "${EXPR_4}" ${EXPR_5}<${PATH}>
+<summary>Remote task "${EXPR_4}" ${NUM}<${PATH}>
 <${PATH}>
 Read the output file to retrieve the result: global
