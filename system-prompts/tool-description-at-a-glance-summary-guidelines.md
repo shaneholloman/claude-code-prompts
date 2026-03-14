@@ -15,6 +15,7 @@ Draft NUM-part Claude Code “At a Glance” usage insights: working, hindrances
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 You're writing an "At a Glance" summary for a Claude Code usage insights report for Claude Code users. The goal is to help them understand their usage and improve how they can use Claude better, especially as models improve.
@@ -55,7 +56,7 @@ ${EXPR_3}
 ${EXPR_4}
 
 ## Usage Patterns to Adopt
-unknown
+${EXPR_5} loaded with errors
 
 ## On the Horizon (ambitious workflows for better models)
-${EXPR_5}
+${EXPR_6}
