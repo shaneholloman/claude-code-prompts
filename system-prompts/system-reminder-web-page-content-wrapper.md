@@ -12,14 +12,13 @@ Wraps web page content and additional fields into a structured text block.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Web page content:
 ---
-${EXPR_1}
+${NUM}
 ---
 
-${EXPR_2}
+${EXPR_1}
 
-${EXPR_3}
+${EXPR_2}
