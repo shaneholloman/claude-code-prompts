@@ -15,6 +15,7 @@
 | `EXPR_3` | Agent | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 (PID ${EXPR_1})
@@ -34,6 +35,6 @@ Usage notes:
 - If the agent description mentions that it should be used proactively, then you should try your best to use it without the user having to ask for it first. Use your judgement.
 - If the user specifies that they want you to run agents "in parallel", you MUST send a single message with multiple ${EXPR_3: 'Agent'} tool use content blocks. For example, if you need to launch both a build-validator agent and a test-runner agent in parallel, send a single message with both tool calls.
 - You can optionally set `isolation: "worktree"` to run the agent in a temporary git worktree, giving it an isolated copy of the repository. The worktree is automatically cleaned up if the agent makes no changes; if changes are made, the worktree path and branch are returned in the result.
-- The name, team_name, and mode parameters are not available in this context — teammates cannot spawn other teammates. Omit them to spawn a subagent.${EXPR_4}${EXPR_5}
+- The name, team_name, and mode parameters are not available in this context — teammates cannot spawn other teammates. Omit them to spawn a subagent.${NUM}${EXPR_4}
 
-global
+ · ${EXPR_5}/${EXPR_6} to scroll
