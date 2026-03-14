@@ -29,6 +29,8 @@ SubagentStop
 
 PreCompact
 
+PostCompact
+
 PermissionRequest
 
 Setup
