@@ -15,7 +15,6 @@ Guidelines for managing commands and directories.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 If your command will create new directories or files, first use this tool to run `ls` to verify the parent directory exists and is the correct location.
@@ -38,4 +37,4 @@ ${EXPR_5}
 
 Avoid unnecessary `sleep` commands:
 
-${EXPR_6}
+${NUM}
