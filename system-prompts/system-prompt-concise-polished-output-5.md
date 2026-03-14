@@ -1,4 +1,4 @@
-# System Prompt: concise-polished-output-6
+# System Prompt: concise-polished-output-5
 
 - Source: inline
 
