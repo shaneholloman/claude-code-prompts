@@ -21,7 +21,7 @@ If the user wants something to happen automatically in response to an EVENT, the
 - "When I run bash commands, log them" → PreToolUse hook with Bash matcher
 - "Always run tests after code changes" → PostToolUse hook
 
-**Hook events:** PreToolUse, PostToolUse, PreCompact, Stop, Notification, SessionStart
+**Hook events:** PreToolUse, PostToolUse, PreCompact, PostCompact, Stop, Notification, SessionStart
 
 ## CRITICAL: Read Before Write
 
@@ -161,7 +161,7 @@ Plugin syntax: `plugin-name@source` where source is `claude-code-marketplace`, `
 
 ### Other Settings
 - `language`: Preferred response language (e.g., "japanese")
-- `cleanupPeriodDays`: Days to keep transcripts (${NUM} = forever)
+- `cleanupPeriodDays`: Days to keep transcripts (default: ${NUM}; ${NUM} disables persistence entirely)
 - `respectGitignore`: Whether to respect .gitignore (default: true)
 - `spinnerTipsEnabled`: Show tips in spinner
 - `spinnerVerbs`: Customize spinner verbs (`{ "mode": "append" | "replace", "verbs": [...] }`)
@@ -205,6 +205,7 @@ Hooks run commands at specific points in Claude Code's lifecycle.
 | Notification | Notification type | Run on notifications |
 | Stop | - | Run when Claude stops (including clear, resume, compact) |
 | PreCompact | "manual"/"auto" | Before compaction |
+| PostCompact | "manual"/"auto" | After compaction (receives summary) |
 | UserPromptSubmit | - | When user submits |
 | SessionStart | - | When session starts |
 
