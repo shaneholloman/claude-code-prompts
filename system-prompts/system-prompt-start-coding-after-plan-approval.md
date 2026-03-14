@@ -13,12 +13,13 @@ Proceed with coding after plan approval; update todos and reference saved plan c
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 User has approved your plan. You can now start coding. Start with updating your todo list if applicable
 
 Your plan has been saved to: ${EXPR_1}
-You can refer back to it if needed during implementation.${EXPR_2}
+You can refer back to it if needed during implementation. · ${EXPR_2}/${EXPR_3} to scroll
 
 ## Approved Plan:
-${EXPR_3}
+${EXPR_4}
