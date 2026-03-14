@@ -1,4 +1,4 @@
-# System Data Block: swift-keywords-list-2
+# System Data Block: swift-keywords-list
 
 - Source: inline
 
