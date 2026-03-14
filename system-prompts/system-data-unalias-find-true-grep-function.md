@@ -18,37 +18,29 @@ unalias find …>… || true unalias grep …>… || true function find { if [[ 
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 unalias find ${NUM}>${PATH} || true
 unalias grep ${NUM}>${PATH} || true
 function find {
   if [[ -n $ZSH_VERSION ]]; then
-    ARGV0=bfs ${EXPR_1} ${EXPR_2}
+    ARGV0=bfs ${EXPR_1} ${NUM}
   elif [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "win32" ]]; then
-    ARGV0=bfs ${EXPR_3} ${EXPR_4}
+    ARGV0=bfs ${EXPR_2} ${NUM}
   elif [[ $BASHPID != $$ ]]; then
-    exec -a bfs ${EXPR_5} ${EXPR_6}
+    exec -a bfs ${EXPR_3} ${NUM}
   else
-    (exec -a bfs ${EXPR_7} ${EXPR_8})
+    (exec -a bfs ${EXPR_4} ${NUM})
   fi
 }
 function grep {
   if [[ -n $ZSH_VERSION ]]; then
-    ARGV0=ugrep ${EXPR_9} ${EXPR_10}
+    ARGV0=ugrep ${EXPR_5} ${NUM}
   elif [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "win32" ]]; then
-    ARGV0=ugrep ${EXPR_11} ${EXPR_12}
+    ARGV0=ugrep ${EXPR_6} ${NUM}
   elif [[ $BASHPID != $$ ]]; then
-    exec -a ugrep ${EXPR_13} ${EXPR_14}
+    exec -a ugrep ${EXPR_7} ${NUM}
   else
-    (exec -a ugrep ${EXPR_15} ${EXPR_16})
+    (exec -a ugrep ${EXPR_8} ${NUM})
   fi
 }
