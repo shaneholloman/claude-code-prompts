@@ -9,7 +9,7 @@ Before providing your final summary, wrap your analysis in <analysis> tags to or
 # Raw Prompt Text
 Before providing your final summary, wrap your analysis in <analysis> tags to organize your thoughts and ensure you've covered all necessary points. In your analysis process:
 
-${NUM}. Analyze the recent messages chronologically. For each section thoroughly identify:
+${NUM}. Chronologically analyze each message and section of the conversation. For each section thoroughly identify:
    - The user's explicit requests and intents
    - Your approach to addressing the user's requests
    - Key decisions, technical concepts and code patterns
