@@ -11,17 +11,16 @@ Merge specified improvements into an existing skill file while preserving format
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 You are editing a skill definition file. Apply the following improvements to the skill.
 
 <current_skill_file>
-${EXPR_1}
+${NUM}
 <${PATH}>
 
 <improvements>
-${EXPR_2}
+${EXPR_1}
 <${PATH}>
 
 Rules:
