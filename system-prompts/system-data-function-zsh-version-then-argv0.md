@@ -19,20 +19,16 @@ function … { if [[ -n $ZSH_VERSION ]]; then ARGV0=… … … elif [[ "$OSTYPE
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 function ${EXPR_1} {
   if [[ -n $ZSH_VERSION ]]; then
-    ARGV0=${EXPR_2} ${EXPR_3} ${EXPR_4}
+    ARGV0=${EXPR_2} ${EXPR_3} ${NUM}
   elif [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "win32" ]]; then
-    ARGV0=${EXPR_5} ${EXPR_6} ${EXPR_7}
+    ARGV0=${EXPR_4} ${EXPR_5} ${NUM}
   elif [[ $BASHPID != $$ ]]; then
-    exec -a ${EXPR_8} ${EXPR_9} ${EXPR_10}
+    exec -a ${EXPR_6} ${EXPR_7} ${NUM}
   else
-    (exec -a ${EXPR_11} ${EXPR_12} ${EXPR_13})
+    (exec -a ${EXPR_8} ${EXPR_9} ${NUM})
   fi
 }
