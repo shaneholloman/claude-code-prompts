@@ -11,7 +11,6 @@ Stop hook blocking error from command "…": (PID …)
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Stop hook blocking error from command "${EXPR_1}":  (PID ${EXPR_2})
+Stop hook blocking error from command "${NUM}":  (PID ${EXPR_1})
