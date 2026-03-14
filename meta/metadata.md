@@ -7,33 +7,33 @@
 
 ## Bundle
 
-- Entry bytes: 12124158 bytes
-- Entry lines: 14815
+- Entry bytes: 12158258 bytes
+- Entry lines: 14859
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.3
-- Pretty bytes: 15452011 bytes
-- Pretty lines: 300021
+- Pretty bytes: 15489856 bytes
+- Pretty lines: 300581
 
 ## Inventory
 
-- File count: 20
-- Size bytes: 56134053
+- File count: 26
+- Size bytes: 58931881
 
 ### Extension Counts
 
 - `.exe`: 2 files, 9349632 bytes
-- `.js`: 1 files, 12124158 bytes
+- `.js`: 1 files, 12158258 bytes
 - `.json`: 1 files, 1241 bytes
 - `.lock`: 1 files, 596 bytes
 - `.md`: 2 files, 2184 bytes
-- `.node`: 6 files, 10655956 bytes
+- `.node`: 12 files, 13419684 bytes
 - `.ts`: 1 files, 119634 bytes
 - `.wasm`: 1 files, 2478606 bytes
 
 ### Asset Sizes
 
 - `.exe`: 9349632 bytes
-- `.node`: 10655956 bytes
+- `.node`: 13419684 bytes
 - `.wasm`: 2478606 bytes
 
 ### Files
@@ -45,6 +45,12 @@
 - `README.md`
 - `resvg.wasm`
 - `sdk-tools.d.ts`
+- `vendor/audio-capture/arm64-darwin/audio-capture.node`
+- `vendor/audio-capture/arm64-linux/audio-capture.node`
+- `vendor/audio-capture/arm64-win32/audio-capture.node`
+- `vendor/audio-capture/x64-darwin/audio-capture.node`
+- `vendor/audio-capture/x64-linux/audio-capture.node`
+- `vendor/audio-capture/x64-win32/audio-capture.node`
 - `vendor/ripgrep/arm64-darwin/rg`
 - `vendor/ripgrep/arm64-linux/rg`
 - `vendor/ripgrep/arm64-win32/rg.exe`
@@ -61,22 +67,22 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-03-13 17:08:27 UTC
+- Snapshot generated at: 2026-03-14 01:32:58 UTC
 - Node runtime: `v20.20.0`
-- Config hash: `6be8e2803e98b4117faa9bccf90810d981992c644206ea49d96ec3663f54d9be`
-- Embedded build timestamp: 2026-03-13 15:49:35 UTC
-- Relative to embedded build timestamp: 1h 18m 52s (2026-03-13 15:49:35 UTC → 2026-03-13 17:08:27 UTC)
+- Config hash: `d80f9ba658f36a645800c6c5455e48ce53910110e2df4a7d88abfe7d36ca6ba6`
+- Embedded build timestamp: 2026-03-14 00:12:49 UTC
+- Relative to embedded build timestamp: 1h 20m 9s (2026-03-14 00:12:49 UTC → 2026-03-14 01:32:58 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 466,882
-- Token p95 / p99: 2,038 / 4,305
+- Total prompt tokens: 474,442
+- Token p95 / p99: 2,155 / 4,305
 
 ### By Kind
 
-- `system-data`: 289,352 tokens (62.0%)
-- `system`: 130,772 tokens (28.0%)
-- `system-reminder`: 21,695 tokens (4.6%)
-- `tool`: 17,797 tokens (3.8%)
-- `skill`: 4,472 tokens (1.0%)
+- `system-data`: 289,219 tokens (61.0%)
+- `system`: 138,839 tokens (29.3%)
+- `system-reminder`: 21,348 tokens (4.5%)
+- `tool`: 17,770 tokens (3.7%)
+- `skill`: 4,472 tokens (0.9%)
 - `agent`: 2,794 tokens (0.6%)

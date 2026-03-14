@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 28
-- Options: 63
-- Env vars: 439
-- Config keys: 652
+- Options: 65
+- Env vars: 441
+- Config keys: 665
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -117,6 +117,7 @@
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
+- `--name`
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir`
@@ -141,6 +142,7 @@
 - `-d`
 - `-e`
 - `-H`
+- `-n`
 - `-p`
 - `-r`
 - `-s`
@@ -178,7 +180,7 @@
 - `--model <model>`
 - `--no-chrome`
 - `--no-session-persistence`
-- `--plugin-dir <paths...>`
+- `--plugin-dir <path>`
 - `--replay-user-messages`
 - `--scope <scope>`
 - `--session-id <uuid>`
@@ -197,6 +199,7 @@
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
 - `-H, --header <header...>`
+- `-n, --name <name>`
 - `-p, --print`
 - `-r, --resume [value]`
 - `-s, --scope <scope>`
@@ -279,6 +282,7 @@
 - `CLAUDE_BRIDGE_USE_CCR_V2`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
+- `CLAUDE_CODE_ACCOUNT_TAGGED_ID`
 - `CLAUDE_CODE_ACCOUNT_UUID`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
@@ -348,7 +352,6 @@
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
-- `CLAUDE_CODE_GB_BASE_URL`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
@@ -399,6 +402,7 @@
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SIMPLE`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
+- `CLAUDE_CODE_SKIP_FAST_MODE_NETWORK_ERRORS`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
@@ -426,6 +430,7 @@
 - `CLAUDE_CODE_USER_EMAIL`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_WORKER_EPOCH`
+- `CLAUDE_CODE_WORKSPACE_HOST_PATHS`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_DEBUG`
@@ -687,6 +692,7 @@
 - `allowUnsandboxedCommands`
 - `allowWrite`
 - `alwaysThinkingEnabled`
+- `anchor_uuid`
 - `annotations`
 - `answers`
 - `apiKeyHelper`
@@ -748,6 +754,7 @@
 - `cacheReadInputTokens`
 - `callback_id`
 - `callbackPort`
+- `cancelled`
 - `canReadOutputFile`
 - `canRewind`
 - `cell_id`
@@ -767,6 +774,7 @@
 - `commands`
 - `commit`
 - `compact_metadata`
+- `compact_summary`
 - `companyAnnouncements`
 - `config`
 - `content`
@@ -802,6 +810,7 @@
 - `description`
 - `destination`
 - `destructive`
+- `details`
 - `dimensions`
 - `directories`
 - `disableAllHooks`
@@ -847,6 +856,7 @@
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
 - `error`
+- `error_code`
 - `errors`
 - `event`
 - `eventData`
@@ -861,6 +871,7 @@
 - `fastMode`
 - `fastModePerSessionOptIn`
 - `feedback`
+- `feedbackSurveyRate`
 - `file`
 - `file_id`
 - `file_name`
@@ -890,10 +901,10 @@
 - `gitDiff`
 - `globs`
 - `hasTaskTool`
+- `head_uuid`
 - `header`
 - `headers`
 - `headersHelper`
-- `heartbeat_interval_ms`
 - `homepage`
 - `hook_event`
 - `hook_event_name`
@@ -955,11 +966,13 @@
 - `localSettings`
 - `login`
 - `lspServers`
+- `lv`
 - `mandatoryDenySearchDepth`
 - `matcher`
 - `matcherMetadata`
 - `matches`
 - `max`
+- `max_entries`
 - `max_results`
 - `max_thinking_tokens`
 - `maxOutputTokens`
@@ -972,6 +985,7 @@
 - `memory`
 - `memory_type`
 - `message`
+- `message_uuid`
 - `metadata`
 - `method`
 - `mimeType`
@@ -998,6 +1012,7 @@
 - `newString`
 - `newTodos`
 - `newValue`
+- `non_exclusive_heartbeat_interval_ms`
 - `noOutputExpected`
 - `noResponseRetries`
 - `notebook_path`
@@ -1082,6 +1097,7 @@
 - `pre_tokens`
 - `preceding_tool_use_ids`
 - `prefersReducedMotion`
+- `preserved_segment`
 - `preview`
 - `previousValue`
 - `priority`
@@ -1101,6 +1117,8 @@
 - `readOnly`
 - `reason`
 - `reasoning`
+- `received_entries`
+- `reclaim_older_than_ms`
 - `recurring`
 - `recurringCapMs`
 - `recurringFrac`
@@ -1219,6 +1237,7 @@
 - `systemPrompt`
 - `tabId`
 - `tag`
+- `tail_uuid`
 - `task`
 - `task_description`
 - `task_id`
@@ -1281,7 +1300,6 @@
 - `userSettings`
 - `utilization`
 - `uuid`
-- `Uv`
 - `value`
 - `variables`
 - `verbs`
