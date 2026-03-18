@@ -1,4 +1,4 @@
-# System Reminder: sandbox-settings-updated
+# System Prompt: sandbox-settings-updated
 
 - Source: inline
 
