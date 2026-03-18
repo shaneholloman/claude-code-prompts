@@ -1,4 +1,4 @@
-# System Reminder: incoming-calls-missing-from-field
+# System Prompt: incoming-calls-missing-from-field
 
 - Source: inline
 
