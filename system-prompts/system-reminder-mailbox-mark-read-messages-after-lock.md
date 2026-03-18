@@ -1,4 +1,4 @@
-# System Reminder: mailbox-mark-read-messages-after-lock
+# System Prompt: mailbox-mark-read-messages-after-lock
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Log count of messages read after acquiring the mailbox lock.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | 0 | None |
-
 # Raw Prompt Text
-[TeammateMailbox] markMessageAsReadByIndex: read ${EXPR_1: 0} messages after lock
+[TeammateMailbox] markMessageAsReadByIndex: read ${EXPR_1} messages after lock
