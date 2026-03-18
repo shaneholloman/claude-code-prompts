@@ -1,4 +1,4 @@
-# System Reminder: skip-plugin-hooks-managed-only
+# System Prompt: skip-plugin-hooks-managed-only
 
 - Source: inline
 
