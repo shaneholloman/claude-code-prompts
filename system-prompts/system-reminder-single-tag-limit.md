@@ -1,4 +1,4 @@
-# System Reminder: single-tag-limit
+# System Prompt: single-tag-limit
 
 - Source: inline
 
