@@ -1,4 +1,4 @@
-# System Reminder: check-internet-connection
+# System Prompt: check-internet-connection
 
 - Source: inline
 
