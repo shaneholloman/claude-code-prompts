@@ -1,6 +1,5 @@
 # System Prompt: update-definition-files
 
-
 ## Summary
 
 Edit skill definition files to incorporate user preferences and output only the updated content.
