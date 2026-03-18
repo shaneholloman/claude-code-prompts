@@ -1,4 +1,4 @@
-# Tool Description: record-and-export-gif
+# Tool Prompt: record-and-export-gif
 
 - Name: gif_creator
 
