@@ -1,4 +1,4 @@
-# System Reminder: itermbackend-pane-rebalancing-missing
+# System Prompt: itermbackend-pane-rebalancing-missing
 
 - Source: inline
 
