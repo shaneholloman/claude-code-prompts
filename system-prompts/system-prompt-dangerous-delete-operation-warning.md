@@ -6,12 +6,6 @@
 
 Block auto-approval when … would delete a critical system directory, requiring explicit consent.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
 Dangerous ${EXPR_1} operation detected: 'global'
 
