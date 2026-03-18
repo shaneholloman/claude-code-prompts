@@ -1,4 +1,4 @@
-# System Reminder: local-github-repo-unknown
+# System Prompt: local-github-repo-unknown
 
 - Source: inline
 
