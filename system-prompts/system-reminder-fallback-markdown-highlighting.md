@@ -1,4 +1,4 @@
-# System Reminder: fallback-markdown-highlighting
+# System Prompt: fallback-markdown-highlighting
 
 - Source: inline
 
