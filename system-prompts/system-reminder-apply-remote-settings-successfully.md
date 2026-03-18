@@ -1,4 +1,4 @@
-# System Reminder: apply-remote-settings-successfully
+# System Prompt: apply-remote-settings-successfully
 
 - Source: inline
 
