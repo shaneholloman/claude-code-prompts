@@ -1,4 +1,4 @@
-# System Reminder: transcript-number
+# System Prompt: transcript-number
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Transcript identifier number.
 
 # Raw Prompt Text
-- Transcript: ${NUM}
+- Transcript: ${EXPR_1}
