@@ -1,5 +1,6 @@
 # System Prompt: create-md-guide-2
 
+- Source: inline
 
 ## Summary
 
