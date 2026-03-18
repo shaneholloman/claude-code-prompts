@@ -1,4 +1,4 @@
-# System Data Block: stan-functions-reference-list
+# System Prompt: rng-lpdf-cdf-lccdf-lcdf
 
 - Source: inline
 
