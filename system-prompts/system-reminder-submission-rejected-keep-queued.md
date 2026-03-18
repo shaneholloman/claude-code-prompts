@@ -1,4 +1,4 @@
-# System Reminder: submission-rejected-keep-queued
+# System Prompt: submission-rejected-keep-queued
 
 - Source: inline
 
