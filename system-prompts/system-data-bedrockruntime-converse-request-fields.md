@@ -1,4 +1,4 @@
-# System Data Block: bedrockruntime-converse-request-fields
+# System Prompt: amazon-bedrock-converse-request
 
 - Source: inline
 
