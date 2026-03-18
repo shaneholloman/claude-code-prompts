@@ -1,4 +1,4 @@
-# System Data Block: cloud-throttling-exception-names
+# System Prompt: throttling-exceptions-overview
 
 - Source: inline
 
