@@ -1,4 +1,4 @@
-# System Reminder: type-converter-count-mismatch
+# System Prompt: type-converter-count-mismatch
 
 - Source: inline
 
