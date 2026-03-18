@@ -1,4 +1,4 @@
-# System Data Block: bedrock-get-async-invoke-response
+# System Prompt: amazon-bedrock-get-async-invoke-response
 
 - Source: inline
 
