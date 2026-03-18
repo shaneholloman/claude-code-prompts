@@ -7,4 +7,4 @@
 Failed to remove a scheduled task.
 
 # Raw Prompt Text
-[ScheduledTasks] failed to remove task ${EXPR_1}: ${EXPR_2}
+[ScheduledTasks] failed to remove task ${EXPR_1}: ${NUM}
