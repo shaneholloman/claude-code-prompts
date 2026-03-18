@@ -1,4 +1,4 @@
-# Tool Description: broken-pipe-or-socket
+# Tool Prompt: broken-pipe-or-socket
 
 - Name: SIGPIPE
 
