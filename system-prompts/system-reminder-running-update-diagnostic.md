@@ -1,4 +1,4 @@
-# System Reminder: running-update-diagnostic
+# System Prompt: running-update-diagnostic
 
 - Source: inline
 
