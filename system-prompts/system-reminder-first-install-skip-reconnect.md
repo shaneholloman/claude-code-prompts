@@ -1,4 +1,4 @@
-# System Reminder: first-install-skip-reconnect
+# System Prompt: first-install-skip-reconnect
 
 - Source: inline
 
