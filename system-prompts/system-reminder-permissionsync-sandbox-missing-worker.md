@@ -1,4 +1,4 @@
-# System Reminder: permissionsync-sandbox-missing-worker
+# System Prompt: permissionsync-sandbox-missing-worker
 
 - Source: inline
 
