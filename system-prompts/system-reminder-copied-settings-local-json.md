@@ -1,4 +1,4 @@
-# System Reminder: copied-settings-local-json
+# System Prompt: copied-settings-local-json
 
 - Source: inline
 
