@@ -1,4 +1,4 @@
-# System Reminder: implicit-keys-single-line
+# System Prompt: implicit-keys-single-line
 
 - Source: inline
 
