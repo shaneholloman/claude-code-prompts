@@ -1,4 +1,4 @@
-# System Reminder: find-running-ide-processes
+# System Prompt: find-running-ide-processes
 
 - Source: inline
 
