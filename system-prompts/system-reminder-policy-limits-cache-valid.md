@@ -1,4 +1,4 @@
-# System Reminder: policy-limits-cache-valid
+# System Prompt: policy-limits-cache-valid
 
 - Source: inline
 
