@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-save-failed
+# System Prompt: remote-settings-save-failed
 
 - Source: inline
 
