@@ -1,16 +1,10 @@
-# System Reminder: voice-stream-transcript-received
+# System Prompt: voice-stream-transcript-received
 
 - Source: inline
 
 ## Summary
 
 TranscriptEndpoint received last transcript text.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 [voice_stream] TranscriptEndpoint received, lastTranscriptText="${EXPR_1}"
