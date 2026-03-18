@@ -1,4 +1,4 @@
-# System Reminder: passes-cache-stale-refreshing
+# System Prompt: passes-cache-stale-refreshing
 
 - Source: inline
 
