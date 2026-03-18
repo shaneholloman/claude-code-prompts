@@ -1,4 +1,4 @@
-# System Reminder: anthropic-marketplace-installed
+# System Prompt: anthropic-marketplace-installed
 
 - Source: inline
 
