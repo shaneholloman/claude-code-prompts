@@ -1,4 +1,4 @@
-# System Reminder: fast-mode-native-binary-required
+# System Prompt: fast-mode-native-binary-required
 
 - Source: inline
 
