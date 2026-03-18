@@ -1,4 +1,4 @@
-# System Reminder: restart-caffeinate-prevent-sleep
+# System Prompt: restart-caffeinate-prevent-sleep
 
 - Source: inline
 
