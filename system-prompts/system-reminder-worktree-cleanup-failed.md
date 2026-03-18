@@ -1,4 +1,4 @@
-# System Reminder: worktree-cleanup-failed
+# System Prompt: worktree-cleanup-failed
 
 - Source: inline
 
