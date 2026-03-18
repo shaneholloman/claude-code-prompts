@@ -1,4 +1,4 @@
-# System Reminder: missing-mcpb-file-plugin
+# System Prompt: missing-mcpb-file-plugin
 
 - Source: inline
 
