@@ -1,4 +1,4 @@
-# System Reminder: missing-streaming-callbacks
+# System Prompt: missing-streaming-callbacks
 
 - Source: inline
 
