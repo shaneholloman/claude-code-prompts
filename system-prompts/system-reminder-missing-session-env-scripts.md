@@ -1,4 +1,4 @@
-# System Reminder: missing-session-env-scripts
+# System Prompt: missing-session-env-scripts
 
 - Source: inline
 
