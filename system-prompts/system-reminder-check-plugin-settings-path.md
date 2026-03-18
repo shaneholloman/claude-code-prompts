@@ -1,4 +1,4 @@
-# System Reminder: check-plugin-settings-path
+# System Prompt: check-plugin-settings-path
 
 - Source: inline
 
