@@ -1,4 +1,4 @@
-# System Reminder: resume-needs-session-id
+# System Prompt: resume-needs-session-id
 
 - Source: inline
 
