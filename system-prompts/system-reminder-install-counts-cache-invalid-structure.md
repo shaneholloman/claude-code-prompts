@@ -1,4 +1,4 @@
-# System Reminder: install-counts-cache-invalid-structure
+# System Prompt: install-counts-cache-invalid-structure
 
 - Source: inline
 
