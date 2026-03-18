@@ -1,4 +1,4 @@
-# System Reminder: no-stdout-output-captured
+# System Prompt: no-stdout-output-captured
 
 - Source: inline
 
