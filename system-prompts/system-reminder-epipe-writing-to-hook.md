@@ -1,4 +1,4 @@
-# System Reminder: epipe-writing-to-hook
+# System Prompt: epipe-writing-to-hook
 
 - Source: inline
 
