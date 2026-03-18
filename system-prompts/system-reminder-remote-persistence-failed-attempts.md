@@ -1,4 +1,4 @@
-# System Reminder: remote-persistence-failed-attempts
+# System Prompt: remote-persistence-failed-attempts
 
 - Source: inline
 
