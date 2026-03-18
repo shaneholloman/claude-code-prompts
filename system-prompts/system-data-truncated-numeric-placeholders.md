@@ -1,4 +1,4 @@
-# System Data Block: truncated-numeric-placeholders
+# System Prompt: number-sequence-repetition-4
 
 - Source: inline
 
