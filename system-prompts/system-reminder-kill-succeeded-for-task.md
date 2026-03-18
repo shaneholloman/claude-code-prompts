@@ -1,16 +1,10 @@
-# System Reminder: kill-succeeded-for-task
+# System Prompt: kill-succeeded-for-task
 
 - Source: inline
 
 ## Summary
 
 Log that InProcessBackend kill() succeeded for a given task.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 [InProcessBackend] kill() succeeded for ${EXPR_1}
