@@ -1,4 +1,4 @@
-# System Reminder: compressing-with-jpeg-still-too-large
+# System Prompt: compressing-with-jpeg-still-too-large
 
 - Source: inline
 
