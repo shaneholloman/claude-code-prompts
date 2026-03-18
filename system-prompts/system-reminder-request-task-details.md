@@ -1,4 +1,4 @@
-# System Reminder: request-task-details
+# System Prompt: request-task-details
 
 - Source: inline
 
