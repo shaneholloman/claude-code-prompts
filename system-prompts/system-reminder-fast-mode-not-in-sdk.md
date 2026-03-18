@@ -1,4 +1,4 @@
-# System Reminder: fast-mode-not-in-sdk
+# System Prompt: fast-mode-not-in-sdk
 
 - Source: inline
 
