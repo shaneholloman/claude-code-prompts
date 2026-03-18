@@ -1,4 +1,4 @@
-# System Reminder: delete-worktree-branch-2
+# System Prompt: delete-worktree-branch-error
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Could not delete worktree branch.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Could not delete worktree branch: ${EXPR_1}
+Could not delete worktree branch: ${NUM}
