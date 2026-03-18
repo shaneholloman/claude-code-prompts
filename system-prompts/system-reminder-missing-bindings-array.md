@@ -1,4 +1,4 @@
-# System Reminder: missing-bindings-array
+# System Prompt: missing-bindings-array
 
 - Source: inline
 
