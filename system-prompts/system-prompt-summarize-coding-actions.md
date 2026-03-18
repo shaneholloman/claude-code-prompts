@@ -1,6 +1,5 @@
 # System Prompt: summarize-coding-actions
 
-
 ## Summary
 
 brief past-tense summary of completed coding work under a word limit.
