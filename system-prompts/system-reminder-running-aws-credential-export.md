@@ -1,4 +1,4 @@
-# System Reminder: running-aws-credential-export
+# System Prompt: running-aws-credential-export
 
 - Source: inline
 
