@@ -1,4 +1,4 @@
-# System Reminder: permissionsync-sandbox-missing-team
+# System Prompt: permissionsync-sandbox-missing-team
 
 - Source: inline
 
