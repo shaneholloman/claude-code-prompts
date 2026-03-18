@@ -1,4 +1,4 @@
-# System Reminder: clean-orphaned-temp-installs-2
+# System Prompt: clean-orphaned-temp-installs
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Report number of orphaned temporary install files cleaned up.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Cleaned up orphaned temp install file: ${EXPR_1}
+Cleaned up orphaned temp install file: ${NUM}
