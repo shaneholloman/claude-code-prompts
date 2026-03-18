@@ -1,4 +1,4 @@
-# System Prompt: user-memory-types-private-team
+# System Prompt: memory-types-user-team-contexts
 
 - Source: inline
 
