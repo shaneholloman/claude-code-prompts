@@ -1,4 +1,4 @@
-# System Reminder: teardown-transport-closed
+# System Prompt: bridge-repl-teardown-transport-closed
 
 - Source: inline
 
