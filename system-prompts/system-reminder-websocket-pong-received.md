@@ -1,4 +1,4 @@
-# System Reminder: websocket-pong-received
+# System Prompt: websocket-pong-received
 
 - Source: inline
 
