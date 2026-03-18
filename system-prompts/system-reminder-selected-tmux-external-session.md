@@ -1,4 +1,4 @@
-# System Reminder: selected-tmux-external-session
+# System Prompt: selected-tmux-external-session
 
 - Source: inline
 
