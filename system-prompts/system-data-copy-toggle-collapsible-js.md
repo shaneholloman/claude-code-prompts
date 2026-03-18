@@ -1,16 +1,10 @@
-# System Data Block: copy-toggle-collapsible-js
+# System Prompt: copy-text-and-toggle-collapsible
 
 - Source: inline
 
 ## Summary
 
 JavaScript for toggling collapsibles and copying code or selected command text.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 function toggleCollapsible(header) {
