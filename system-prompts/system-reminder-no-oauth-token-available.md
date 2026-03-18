@@ -1,4 +1,4 @@
-# System Reminder: no-oauth-token-available
+# System Prompt: bridge-repl-oauth-token-issue
 
 - Source: inline
 
