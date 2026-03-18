@@ -1,4 +1,4 @@
-# System Reminder: skip-security-messages-fetch
+# System Prompt: skip-security-messages-fetch
 
 - Source: inline
 
