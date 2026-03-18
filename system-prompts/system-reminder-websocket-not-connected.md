@@ -1,4 +1,4 @@
-# System Reminder: websocket-not-connected
+# System Prompt: websocket-not-connected
 
 - Source: inline
 
