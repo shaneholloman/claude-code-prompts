@@ -1,4 +1,4 @@
-# System Reminder: aws-credential-cache-clear-failed
+# System Prompt: aws-credential-cache-clear-failed
 
 - Source: inline
 
