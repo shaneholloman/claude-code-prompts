@@ -1,4 +1,4 @@
-# System Reminder: resume-session-print-mode-failed
+# System Prompt: resume-session-print-mode-failed
 
 - Source: inline
 
