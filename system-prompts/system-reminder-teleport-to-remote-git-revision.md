@@ -7,4 +7,4 @@
 Git source and revision handling.
 
 # Raw Prompt Text
-[teleportToRemote] Git source: null/${EXPR_1}/${EXPR_2}, revision: ${EXPR_3}
+[teleportToRemote] Git source: null/${NUM}/${EXPR_1}, revision: ${EXPR_2}
