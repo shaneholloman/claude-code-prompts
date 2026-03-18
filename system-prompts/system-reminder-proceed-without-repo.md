@@ -1,4 +1,4 @@
-# System Reminder: proceed-without-repo
+# System Prompt: proceed-without-repo
 
 - Source: inline
 
