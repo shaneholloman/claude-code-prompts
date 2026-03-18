@@ -1,4 +1,4 @@
-# System Reminder: teammate-registered-in-appstate
+# System Prompt: teammate-registered-in-appstate
 
 - Source: inline
 
