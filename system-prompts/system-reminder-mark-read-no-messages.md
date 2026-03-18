@@ -1,4 +1,4 @@
-# System Reminder: mark-read-no-messages
+# System Prompt: mark-read-no-messages
 
 - Source: inline
 
