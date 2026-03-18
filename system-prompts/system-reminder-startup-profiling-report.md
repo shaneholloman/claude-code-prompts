@@ -1,4 +1,4 @@
-# System Reminder: startup-profiling-report
+# System Prompt: startup-profiling-report
 
 - Source: inline
 
