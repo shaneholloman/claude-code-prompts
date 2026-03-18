@@ -1,4 +1,4 @@
-# System Data Block: local-command-parameters
+# System Prompt: bash-command-ide-local-stdout
 
 - Source: inline
 
