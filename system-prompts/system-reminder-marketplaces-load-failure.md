@@ -1,4 +1,4 @@
-# System Reminder: marketplaces-load-failure
+# System Prompt: marketplaces-load-failure
 
 - Source: inline
 
