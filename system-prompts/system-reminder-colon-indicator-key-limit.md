@@ -1,4 +1,4 @@
-# System Reminder: colon-indicator-key-limit
+# System Prompt: colon-indicator-key-limit
 
 - Source: inline
 
