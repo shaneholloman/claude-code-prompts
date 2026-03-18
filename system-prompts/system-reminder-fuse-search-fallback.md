@@ -1,4 +1,4 @@
-# System Reminder: fuse-search-fallback
+# System Prompt: fuse-search-fallback
 
 - Source: inline
 
