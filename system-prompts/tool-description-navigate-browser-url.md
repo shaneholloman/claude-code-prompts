@@ -1,4 +1,4 @@
-# Tool Description: navigate-browser-url
+# Tool Prompt: navigate-browser-url
 
 - Name: navigate
 
