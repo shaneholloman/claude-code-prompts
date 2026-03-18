@@ -1,4 +1,4 @@
-# System Reminder: replacing-missing-public-symbol
+# System Prompt: replacing-missing-public-symbol
 
 - Source: inline
 
