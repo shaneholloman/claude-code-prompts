@@ -1,18 +1,10 @@
-# System Data Block: github-actions-review
+# System Prompt: review-pull-request
 
 - Source: inline
 
 ## Summary
 
 GitHub Actions PR workflow checking out repo and running Claude code-review plugin.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 name: Claude Code Review
