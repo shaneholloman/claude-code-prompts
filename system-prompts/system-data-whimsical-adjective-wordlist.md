@@ -1,4 +1,4 @@
-# System Data Block: whimsical-adjective-wordlist
+# System Prompt: cozy-eager-elegant-abundant-ancient
 
 - Source: inline
 
