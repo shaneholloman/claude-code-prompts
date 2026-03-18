@@ -1,4 +1,4 @@
-# System Reminder: downloading-marketplace
+# System Prompt: downloading-marketplace
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Notify that the marketplace package is downloading from a specified source.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Downloading marketplace from ${EXPR_1}
+Downloading marketplace from ${NUM}
