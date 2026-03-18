@@ -1,4 +1,4 @@
-# System Reminder: bridge-shutdown-sigterm-received
+# System Prompt: bridge-shutdown-sigterm-received
 
 - Source: inline
 
