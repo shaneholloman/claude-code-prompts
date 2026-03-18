@@ -1,4 +1,4 @@
-# System Reminder: mcp-disabled-via-gate
+# System Prompt: mcp-disabled-via-gate
 
 - Source: inline
 
