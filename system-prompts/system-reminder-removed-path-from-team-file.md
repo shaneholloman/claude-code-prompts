@@ -1,4 +1,4 @@
-# System Reminder: removed-path-from-team-file
+# System Prompt: removed-path-from-team-file
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 print.ts logs removal of a path entry from the team file.
 
 # Raw Prompt Text
-[print.ts] Removed ${NUM} from team file
+[print.ts] Removed ${EXPR_1} from team file
