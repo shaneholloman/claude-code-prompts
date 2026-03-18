@@ -1,4 +1,4 @@
-# System Reminder: oauth-profile-fetch-succeeded
+# System Prompt: oauth-profile-fetch-succeeded
 
 - Source: inline
 
