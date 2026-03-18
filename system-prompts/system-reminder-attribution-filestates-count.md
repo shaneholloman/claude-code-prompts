@@ -1,4 +1,4 @@
-# System Reminder: attribution-filestates-count
+# System Prompt: pr-attribution-filestates-count
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 File states count attribution.
 
 # Raw Prompt Text
-PR Attribution: fileStates count: ${NUM}
+PR Attribution: fileStates count: ${EXPR_1}
