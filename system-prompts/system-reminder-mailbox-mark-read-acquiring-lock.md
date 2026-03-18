@@ -1,4 +1,4 @@
-# System Reminder: mailbox-mark-read-acquiring-lock
+# System Prompt: mailbox-mark-read-acquiring-lock
 
 - Source: inline
 
