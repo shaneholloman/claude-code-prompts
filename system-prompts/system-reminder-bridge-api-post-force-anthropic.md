@@ -1,16 +1,10 @@
-# System Reminder: bridge-api-post-force-anthropic
+# System Prompt: bridge-api-post-force-anthropic
 
 - Source: inline
 
 ## Summary
 
-Force post request to anthropic API.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+API post request using force parameter.
 
 # Raw Prompt Text
-[bridge:api] POST ...${PATH}${EXPR_1}${PATH} force=@anthropic-ai${PATH}
+[bridge:api] POST ...${PATH} force=@anthropic-ai${PATH}
