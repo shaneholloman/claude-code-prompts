@@ -1,4 +1,4 @@
-# System Reminder: shutdown-requested-team-lead
+# System Prompt: shutdown-requested-team-lead
 
 - Source: inline
 
