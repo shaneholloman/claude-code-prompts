@@ -1,4 +1,4 @@
-# System Reminder: ide-selection-cancelled
+# System Prompt: ide-selection-cancelled
 
 - Source: inline
 
