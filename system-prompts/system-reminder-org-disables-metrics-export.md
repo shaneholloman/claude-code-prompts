@@ -1,4 +1,4 @@
-# System Reminder: org-disables-metrics-export
+# System Prompt: org-disables-metrics-export
 
 - Source: inline
 
