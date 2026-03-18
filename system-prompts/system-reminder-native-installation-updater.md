@@ -1,4 +1,4 @@
-# System Reminder: native-installation-updater
+# System Prompt: native-installation-updater
 
 - Source: inline
 
