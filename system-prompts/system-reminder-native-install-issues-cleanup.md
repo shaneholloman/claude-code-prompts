@@ -1,4 +1,4 @@
-# System Reminder: native-install-issues-cleanup
+# System Prompt: native-install-issues-cleanup
 
 - Source: inline
 
