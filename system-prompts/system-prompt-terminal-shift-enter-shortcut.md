@@ -6,15 +6,6 @@
 
 Instructions for configuring Shift+Enter multiline shortcut outside tmux in a terminal.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-
 # Raw Prompt Text
 Terminal setup cannot be run from ${EXPR_1}.
 
