@@ -1,4 +1,4 @@
-# System Data Block: bedrock-invocation-job-fields
+# System Prompt: amazon-bedrock-invocation-job
 
 - Source: inline
 
