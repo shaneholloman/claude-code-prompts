@@ -1,4 +1,4 @@
-# System Reminder: directory-commands-load-failed
+# System Prompt: directory-commands-load-failed
 
 - Source: inline
 
