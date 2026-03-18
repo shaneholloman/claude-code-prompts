@@ -1,4 +1,4 @@
-# Tool Description: create-new-mcp-tab
+# Tool Prompt: create-new-mcp-tab
 
 - Name: tabs_create_mcp
 
