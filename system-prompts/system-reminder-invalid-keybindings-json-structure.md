@@ -1,4 +1,4 @@
-# System Reminder: invalid-keybindings-json-structure
+# System Prompt: invalid-keybindings-json-structure
 
 - Source: inline
 
