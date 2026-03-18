@@ -1,4 +1,4 @@
-# System Reminder: transport-not-configured-skipping-control-cancel
+# System Prompt: bridge-repl-transport-skipping-3
 
 - Source: inline
 
