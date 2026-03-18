@@ -40,6 +40,6 @@ Jobs live only in this Claude session — nothing is written to disk, and the jo
 
 Jobs only fire while the REPL is idle (not mid-query). ${EXPR_1}The scheduler adds a small deterministic jitter on top of whatever you pick: recurring tasks fire up to ${NUM}% of their period late (max ${NUM} min); one-shot tasks landing on :${NUM} or :${NUM} fire up to ${NUM} s early. Picking an off-minute is still the bigger lever.
 
-Recurring tasks auto-expire after ${NUM} days — they fire one final time, then are deleted. This bounds session lifetime. Tell the user about the ${NUM}-day limit when scheduling recurring jobs.
+Recurring tasks auto-expire after ${EXPR_2} days — they fire one final time, then are deleted. This bounds session lifetime. Tell the user about the ${EXPR_3}-day limit when scheduling recurring jobs.
 
-Returns a job ID you can pass to ${EXPR_2}.
+Returns a job ID you can pass to ${EXPR_4}.
