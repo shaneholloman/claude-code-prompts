@@ -1,4 +1,4 @@
-# System Data Block: nature-and-animal-wordlist
+# System Prompt: nature-inspired-words
 
 - Source: inline
 
