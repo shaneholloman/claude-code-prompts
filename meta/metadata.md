@@ -1,4 +1,4 @@
-# Claude Code Metadata x.y.z
+# Claude Code Metadata 2.1.77
 
 ## Embedded Metadata
 
