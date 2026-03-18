@@ -1,4 +1,4 @@
-# System Data Block: get-provisioned-throughput-response-fields
+# System Prompt: get-provisioned-throughput
 
 - Source: inline
 
