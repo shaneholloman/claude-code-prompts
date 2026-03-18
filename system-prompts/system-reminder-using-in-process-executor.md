@@ -1,4 +1,4 @@
-# System Reminder: using-in-process-executor
+# System Prompt: using-in-process-executor
 
 - Source: inline
 
