@@ -1,4 +1,4 @@
-# System Reminder: global-agents-config-starting
+# System Prompt: global-agents-config-starting
 
 - Source: inline
 
