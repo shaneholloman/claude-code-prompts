@@ -7,4 +7,4 @@
 Notification of archive failure on remote bridge.
 
 # Raw Prompt Text
-[remote-bridge] Archive failed: ${EXPR_1}
+[remote-bridge] Archive failed: ${NUM}
