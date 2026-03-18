@@ -1,4 +1,4 @@
-# System Reminder: search-disabled-no-deferred-tools
+# System Prompt: search-disabled-no-deferred-tools
 
 - Source: inline
 
