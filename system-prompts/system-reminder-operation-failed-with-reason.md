@@ -1,4 +1,4 @@
-# System Reminder: operation-failed-with-reason
+# System Prompt: operation-failed-with-reason
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Operation failed to complete, with an error message explaining the failure.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Failed to ${NUM}: ${EXPR_1}
+Failed to ${EXPR_1}: ${EXPR_2}
