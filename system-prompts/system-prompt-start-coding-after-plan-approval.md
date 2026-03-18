@@ -4,20 +4,13 @@
 
 ## Summary
 
-Proceed with coding after plan approval; update todos and reference saved plan content
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+Begins implementation after plan approval, referencing the saved plan and updating todos first.
 
 # Raw Prompt Text
 User has approved your plan. You can now start coding. Start with updating your todo list if applicable
 
 Your plan has been saved to: ${EXPR_1}
-You can refer back to it if needed during implementation.global
+You can refer back to it if needed during implementation.stdio
 
 ## Approved Plan:
 ${EXPR_2}
