@@ -1,4 +1,4 @@
-# System Reminder: missing-session-token-for-logs
+# System Prompt: missing-session-token-for-logs
 
 - Source: inline
 
