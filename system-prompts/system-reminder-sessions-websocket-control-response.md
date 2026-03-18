@@ -1,4 +1,4 @@
-# System Reminder: sessions-websocket-control-response
+# System Prompt: sessions-websocket-control-response
 
 - Source: inline
 
