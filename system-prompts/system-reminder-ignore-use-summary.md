@@ -1,4 +1,4 @@
-# System Reminder: ignore-use-summary
+# System Prompt: ignore-use-summary
 
 - Source: inline
 
