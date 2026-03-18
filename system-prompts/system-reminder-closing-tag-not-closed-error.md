@@ -1,4 +1,4 @@
-# System Reminder: closing-tag-not-closed-error
+# System Prompt: closing-tag-not-closed-error
 
 - Source: inline
 
