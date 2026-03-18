@@ -1,4 +1,4 @@
-# System Reminder: missing-json-in-search-response
+# System Prompt: missing-json-in-search-response
 
 - Source: inline
 
