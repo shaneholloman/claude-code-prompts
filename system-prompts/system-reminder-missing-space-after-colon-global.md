@@ -1,4 +1,4 @@
-# System Reminder: missing-space-after-colon-global
+# System Prompt: missing-space-after-colon-global
 
 - Source: inline
 
