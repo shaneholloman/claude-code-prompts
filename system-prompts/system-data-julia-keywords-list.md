@@ -1,4 +1,4 @@
-# System Data Block: julia-keywords-list
+# System Prompt: baremodule-keywords-list
 
 - Source: inline
 
