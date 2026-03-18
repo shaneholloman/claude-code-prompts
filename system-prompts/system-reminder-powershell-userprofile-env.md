@@ -1,4 +1,4 @@
-# System Reminder: powershell-userprofile-env
+# System Prompt: powershell-userprofile-env
 
 - Source: inline
 
