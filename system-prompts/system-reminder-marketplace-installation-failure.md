@@ -1,4 +1,4 @@
-# System Reminder: marketplace-installation-failure
+# System Prompt: marketplace-installation-failure
 
 - Source: inline
 
