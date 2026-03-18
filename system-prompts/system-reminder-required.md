@@ -1,4 +1,4 @@
-# System Reminder: required
+# System Prompt: required
 
 - Source: inline
 
