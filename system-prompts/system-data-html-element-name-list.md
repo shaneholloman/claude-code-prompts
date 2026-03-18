@@ -1,4 +1,4 @@
-# System Data Block: html-element-name-list
+# System Prompt: html-elements-list
 
 - Source: inline
 
