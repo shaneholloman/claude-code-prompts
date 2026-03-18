@@ -1,4 +1,4 @@
-# System Data Block: get-policy-build-workflow-response
+# System Prompt: automated-reasoning-policy-response
 
 - Source: inline
 
