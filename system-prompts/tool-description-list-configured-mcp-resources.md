@@ -1,4 +1,4 @@
-# Tool Description: list-configured-mcp-resources
+# Tool Prompt: list-configured-mcp-resources
 
 - Name: ListMcpResourcesTool
 
