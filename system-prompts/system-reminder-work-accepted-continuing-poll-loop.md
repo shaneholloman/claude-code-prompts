@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-work-accepted
+# System Prompt: bridge-repl-work-accepted
 
 - Source: inline
 
