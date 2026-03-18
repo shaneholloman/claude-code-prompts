@@ -1,16 +1,10 @@
-# System Reminder: debug-preflight-slow-check
+# System Prompt: debug-preflight-slow-check
 
 - Source: inline
 
 ## Summary
 
-Warns pre-flight check is slow and suggests ANTHROPIC_LOG=debug for API diagnostics.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Notes pre-flight checks are slow and suggests ANTHROPIC_LOG=debug to inspect API requests.
 
 # Raw Prompt Text
-[${EXPR_1}Tool] Pre-flight check is taking longer than expected. Run with ANTHROPIC_LOG=debug to check for failed or slow API requests.
+[nullTool] Pre-flight check is taking longer than expected. Run with ANTHROPIC_LOG=debug to check for failed or slow API requests.
