@@ -1,4 +1,4 @@
-# System Reminder: mtls-creating-https-certs
+# System Prompt: mtls-creating-https-certs
 
 - Source: inline
 
