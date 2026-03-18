@@ -1,4 +1,4 @@
-# System Reminder: skipping-global-never-suggest
+# System Prompt: skipping-global-never-suggest
 
 - Source: inline
 
