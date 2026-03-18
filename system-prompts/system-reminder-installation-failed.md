@@ -1,4 +1,4 @@
-# System Reminder: installation-failed
+# System Prompt: installation-failed
 
 - Source: inline
 
@@ -6,12 +6,5 @@
 
 Installation failed for specified target with additional context appended.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
-Failed to install: ${EXPR_1}${EXPR_2}
+Failed to install: ${EXPR_1}${NUM}
