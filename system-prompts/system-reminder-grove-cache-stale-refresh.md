@@ -1,4 +1,4 @@
-# System Reminder: grove-cache-stale-refresh
+# System Prompt: grove-cache-stale-refresh
 
 - Source: inline
 
