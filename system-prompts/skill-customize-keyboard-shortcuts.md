@@ -1,20 +1,10 @@
-# Skill: customize-keyboard-shortcuts
+# System Prompt: customize-keybindings
 
 - Source: inline
 
 ## Summary
 
 Guides safe creation or editing of keybindings with required schema fields and keystroke syntax.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # Keybindings Skill
