@@ -1,4 +1,4 @@
-# System Reminder: voice-finish-recording-stopping
+# System Prompt: voice-finish-recording-transition
 
 - Source: inline
 
