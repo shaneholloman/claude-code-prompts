@@ -47,14 +47,14 @@ ${NUM} **Example agent descriptions**:
       assistant: "Here is the relevant function: "
       <function call omitted for brevity only for this example>
       <commentary>
-      Since a significant piece of code was written, use the Task tool to launch the test-runner agent to run the tests.
+      Since a significant piece of code was written, use the Agent tool to launch the test-runner agent to run the tests.
       <${PATH}>
       assistant: "Now let me use the test-runner agent to run the tests"
     <${PATH}>
     - <example>
       Context: User is creating an agent to respond to the word "hello" with a friendly jok.
       user: "Hello"
-      assistant: "I'm going to use the Task tool to launch the greeting-responder agent to respond with a friendly joke"
+      assistant: "I'm going to use the Agent tool to launch the greeting-responder agent to respond with a friendly joke"
       <commentary>
       Since the user is greeting, use the greeting-responder agent to respond with a friendly joke.
       <${PATH}>
