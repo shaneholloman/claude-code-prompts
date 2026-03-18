@@ -1,4 +1,4 @@
-# System Reminder: no-messages-to-replay
+# System Prompt: no-messages-to-replay
 
 - Source: inline
 
