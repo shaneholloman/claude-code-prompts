@@ -1,4 +1,4 @@
-# System Reminder: lsp-didchange-sent
+# System Prompt: lsp-didchange-sent
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Sent an LSP didChange notification.
 
 # Raw Prompt Text
-LSP: Sent didChange for ${NUM}
+LSP: Sent didChange for ${EXPR_1}
