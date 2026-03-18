@@ -1,4 +1,4 @@
-# System Prompt: swarm-permission-logger-2
+# System Prompt: swarm-permission-logger-4
 
 - Source: inline
 
