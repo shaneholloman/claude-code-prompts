@@ -1,4 +1,4 @@
-# System Reminder: ignore-rate-limit-event
+# System Prompt: ignore-rate-limit-event
 
 - Source: inline
 
