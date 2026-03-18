@@ -1,4 +1,4 @@
-# System Data Block: get-import-job-response-fields
+# System Prompt: get-import-job-response
 
 - Source: inline
 
