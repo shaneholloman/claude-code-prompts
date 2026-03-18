@@ -1,4 +1,4 @@
-# System Data Block: css-selectors-pseudo-classes
+# System Prompt: css-nth-child-selectors
 
 - Source: inline
 
