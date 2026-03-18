@@ -6,12 +6,6 @@
 
 Handle MCP output truncation by paging/filtering retrieval or warning results may be incomplete.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
 [OUTPUT TRUNCATED - exceeded ${EXPR_1} token limit]
 
