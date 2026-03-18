@@ -1,4 +1,4 @@
-# System Reminder: no-pane-backend-available
+# System Prompt: no-pane-backend-available
 
 - Source: inline
 
