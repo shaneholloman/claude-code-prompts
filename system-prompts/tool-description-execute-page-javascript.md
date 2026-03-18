@@ -1,4 +1,4 @@
-# Tool Description: execute-page-javascript
+# Tool Prompt: execute-page-javascript
 
 - Name: javascript_tool
 
