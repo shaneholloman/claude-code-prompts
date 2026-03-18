@@ -1,4 +1,4 @@
-# System Reminder: makeclasshandle-missing-pointer-args
+# System Prompt: makeclasshandle-missing-pointer-args
 
 - Source: inline
 
