@@ -1,16 +1,10 @@
-# System Reminder: exited-plan-mode-actions
+# System Prompt: exited-plan-mode-actions
 
 - Source: inline
 
 ## Summary
 
 Indicates plan mode has ended and provides path to the saved plan file.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 ## Exited Plan Mode
