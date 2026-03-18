@@ -1,4 +1,4 @@
-# System Data Block: bedrock-bidirectional-stream-output
+# System Prompt: invoke-stream-output-errors
 
 - Source: inline
 
