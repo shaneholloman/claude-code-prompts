@@ -1,4 +1,4 @@
-# System Reminder: no-profiling-checkpoints
+# System Prompt: no-profiling-checkpoints
 
 - Source: inline
 
