@@ -1,4 +1,4 @@
-# System Reminder: itermbackend-showpane-unsupported-iterm2
+# System Prompt: itermbackend-showpane-unsupported-iterm2
 
 - Source: inline
 
