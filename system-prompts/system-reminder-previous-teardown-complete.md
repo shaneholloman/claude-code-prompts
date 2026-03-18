@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-hook-previous-teardown
+# System Prompt: bridge-repl-hook-teardown
 
 - Source: inline
 
