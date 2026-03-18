@@ -1,4 +1,4 @@
-# System Reminder: verbatim-tag-must-end
+# System Prompt: verbatim-tag-must-end
 
 - Source: inline
 
