@@ -1,4 +1,4 @@
-# System Reminder: tmux-session-terminated
+# System Prompt: tmux-session-terminated
 
 - Source: inline
 
