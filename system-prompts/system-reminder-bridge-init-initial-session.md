@@ -1,10 +1,10 @@
-# System Reminder: bridge-init-initial-session
+# System Prompt: bridge-init-initial-session
 
 - Source: inline
 
 ## Summary
 
-Create initial session prompt.
+Created the initial session for the bridge.
 
 # Raw Prompt Text
-[bridge:init] Created initial session prompt
+[bridge:init] Created initial session Type something.
