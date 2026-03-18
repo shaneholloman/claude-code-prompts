@@ -1,4 +1,4 @@
-# System Reminder: voice-focus-silence-timeout
+# System Prompt: focus-silence-timeout
 
 - Source: inline
 
