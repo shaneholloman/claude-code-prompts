@@ -1,4 +1,4 @@
-# System Reminder: multiple-overloads-same-arity
+# System Prompt: multiple-overloads-same-arity
 
 - Source: inline
 
