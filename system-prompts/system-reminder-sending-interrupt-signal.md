@@ -1,4 +1,4 @@
-# System Reminder: sending-interrupt-signal
+# System Prompt: sending-interrupt-signal
 
 - Source: inline
 
