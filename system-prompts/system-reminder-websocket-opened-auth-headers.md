@@ -1,4 +1,4 @@
-# System Reminder: websocket-opened-auth-headers
+# System Prompt: websocket-opened-auth-headers
 
 - Source: inline
 
