@@ -1,4 +1,4 @@
-# System Reminder: install-counts-cache-invalid-timestamp
+# System Prompt: install-counts-cache-invalid-timestamp
 
 - Source: inline
 
