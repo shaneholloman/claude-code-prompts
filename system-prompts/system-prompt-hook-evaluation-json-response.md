@@ -1,6 +1,5 @@
 # System Prompt: hook-evaluation-json-response
 
-
 ## Summary
 
 Hook evaluator requiring a JSON ok result with an optional failure reason.
