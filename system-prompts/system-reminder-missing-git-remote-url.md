@@ -1,4 +1,4 @@
-# System Reminder: missing-git-remote-url
+# System Prompt: missing-git-remote-url
 
 - Source: inline
 
