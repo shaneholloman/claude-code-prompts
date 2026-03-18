@@ -1,4 +1,4 @@
-# System Data Block: bedrockruntime-guardrail-usage-units
+# System Prompt: guardrail-usage-amazon-bedrock
 
 - Source: inline
 
