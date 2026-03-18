@@ -1,4 +1,4 @@
-# System Reminder: responding-to-ping
+# System Prompt: responding-to-ping
 
 - Source: inline
 
