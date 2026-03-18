@@ -1,4 +1,4 @@
-# System Reminder: mcp-fetch-failed
+# System Prompt: mcp-fetch-failed
 
 - Source: inline
 
