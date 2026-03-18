@@ -1,4 +1,4 @@
-# System Reminder: use-fuse-fallback
+# System Prompt: use-fuse-fallback
 
 - Source: inline
 
