@@ -1,4 +1,4 @@
-# System Reminder: mtls-client-key-passphrase
+# System Prompt: mtls-client-key-passphrase
 
 - Source: inline
 
