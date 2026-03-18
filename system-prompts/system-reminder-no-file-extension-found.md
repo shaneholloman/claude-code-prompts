@@ -1,4 +1,4 @@
-# System Reminder: no-file-extension-found
+# System Prompt: no-file-extension-found
 
 - Source: inline
 
