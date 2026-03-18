@@ -1,4 +1,4 @@
-# System Reminder: policy-limits-changed-background-poll
+# System Prompt: policy-limits-changed-background-poll
 
 - Source: inline
 
