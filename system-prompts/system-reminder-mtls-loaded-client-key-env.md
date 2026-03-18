@@ -1,4 +1,4 @@
-# System Reminder: mtls-loaded-client-key-env
+# System Prompt: mtls-loaded-client-key-env
 
 - Source: inline
 
