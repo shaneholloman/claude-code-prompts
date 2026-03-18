@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-refresh-after-auth
+# System Prompt: remote-settings-refresh-after-auth
 
 - Source: inline
 
