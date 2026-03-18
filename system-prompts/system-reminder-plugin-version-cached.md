@@ -1,17 +1,10 @@
-# System Reminder: plugin-version-cached
+# System Prompt: plugin-version-cached-global
 
 - Source: inline
 
 ## Summary
 
 Plugin version is already cached globally.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Plugin ${EXPR_1} version ${EXPR_2} already cached at global
