@@ -1,4 +1,4 @@
-# System Reminder: missing-mcp-servers-scope
+# System Prompt: missing-mcp-servers-scope
 
 - Source: inline
 
