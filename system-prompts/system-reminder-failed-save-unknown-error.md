@@ -1,4 +1,4 @@
-# System Reminder: failed-save-unknown-error
+# System Prompt: failed-save-unknown-error
 
 - Source: inline
 
