@@ -1,17 +1,10 @@
-# System Data Block: macos-sandbox-policy-rules
+# System Prompt: sysctl-allow-global-settings
 
 - Source: inline
 
 ## Summary
 
 Sandbox policy denying by default, allowing process control and whitelisted Mach service lookups.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 (version ${NUM})
