@@ -1,23 +1,10 @@
-# System Reminder: expression-placeholders-block-2
+# System Prompt: expression-placeholders-block-2
 
 - Source: inline
 
 ## Summary
 
 Outputs a sequence of eight interpolated template fields separated by blank lines.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | resolved list (4 items) | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
