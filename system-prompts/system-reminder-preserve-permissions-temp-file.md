@@ -1,4 +1,4 @@
-# System Reminder: preserve-permissions-temp-file
+# System Prompt: preserve-permissions-temp-file
 
 - Source: inline
 
