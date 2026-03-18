@@ -1,4 +1,4 @@
-# System Reminder: telemetry-flush-success
+# System Prompt: telemetry-flush-success
 
 - Source: inline
 
