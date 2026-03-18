@@ -1,4 +1,4 @@
-# System Reminder: map-keys-must-be-unique
+# System Prompt: map-keys-must-be-unique
 
 - Source: inline
 
