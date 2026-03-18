@@ -1,4 +1,4 @@
-# System Reminder: skip-marketplace-autoinstall
+# System Prompt: skip-marketplace-autoinstall
 
 - Source: inline
 
