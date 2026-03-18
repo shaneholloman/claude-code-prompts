@@ -1,4 +1,4 @@
-# System Data Block: list-provisioned-throughputs-request-filters
+# System Prompt: list-throughputs-request
 
 - Source: inline
 
