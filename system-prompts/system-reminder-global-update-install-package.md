@@ -1,4 +1,4 @@
-# System Reminder: global-update-install-package
+# System Prompt: global-update-install-package
 
 - Source: inline
 
