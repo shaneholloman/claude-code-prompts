@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-cache-still-valid
+# System Prompt: remote-settings-cache-still-valid
 
 - Source: inline
 
