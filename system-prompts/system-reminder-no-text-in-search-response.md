@@ -1,4 +1,4 @@
-# System Reminder: no-text-in-search-response
+# System Prompt: no-text-in-search-response
 
 - Source: inline
 
