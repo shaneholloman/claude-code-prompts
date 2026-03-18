@@ -1,4 +1,4 @@
-# System Reminder: missing-comma-between-items
+# System Prompt: missing-comma-between-items
 
 - Source: inline
 
