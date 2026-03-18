@@ -1,6 +1,5 @@
 # System Prompt: summarize-conversations
 
-
 ## Summary
 
 Directs the assistant to summarize conversations.
