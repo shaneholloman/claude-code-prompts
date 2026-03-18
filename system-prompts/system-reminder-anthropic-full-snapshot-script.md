@@ -1,4 +1,4 @@
-# System Reminder: anthropic-full-snapshot-script
+# System Prompt: anthropic-full-snapshot-script
 
 - Source: inline
 
