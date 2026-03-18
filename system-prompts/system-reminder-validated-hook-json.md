@@ -1,4 +1,4 @@
-# System Reminder: validated-hook-json
+# System Prompt: validated-hook-json
 
 - Source: inline
 
