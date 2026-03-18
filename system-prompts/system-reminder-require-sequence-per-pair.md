@@ -1,4 +1,4 @@
-# System Reminder: require-sequence-per-pair
+# System Prompt: require-sequence-per-pair
 
 - Source: inline
 
