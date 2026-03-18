@@ -1,4 +1,4 @@
-# System Reminder: correct-this-destruct
+# System Prompt: correct-this-destruct
 
 - Source: inline
 
