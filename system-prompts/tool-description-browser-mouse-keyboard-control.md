@@ -1,4 +1,4 @@
-# Tool Description: browser-mouse-keyboard-control
+# Tool Prompt: browser-mouse-keyboard-control
 
 - Name: computer
 
