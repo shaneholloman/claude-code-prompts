@@ -1,4 +1,4 @@
-# System Reminder: raw-to-smart-pointer-illegal
+# System Prompt: raw-to-smart-pointer-illegal
 
 - Source: inline
 
