@@ -1,4 +1,4 @@
-# System Reminder: cleanup-killing-teammate-pane
+# System Prompt: cleanup-killing-teammate-pane
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Logs cleanup that kills a teammate pane.
 
 # Raw Prompt Text
-[PaneBackendExecutor] Cleanup: killing pane for ${NUM}
+[PaneBackendExecutor] Cleanup: killing pane for ${EXPR_1}
