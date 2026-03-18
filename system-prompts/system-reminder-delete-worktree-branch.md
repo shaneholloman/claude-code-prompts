@@ -1,4 +1,4 @@
-# System Reminder: delete-worktree-branch
+# System Prompt: delete-worktree-branch-global
 
 - Source: inline
 
