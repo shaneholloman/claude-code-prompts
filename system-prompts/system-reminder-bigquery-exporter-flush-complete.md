@@ -1,4 +1,4 @@
-# System Reminder: bigquery-exporter-flush-complete
+# System Prompt: bigquery-exporter-flush-complete
 
 - Source: inline
 
