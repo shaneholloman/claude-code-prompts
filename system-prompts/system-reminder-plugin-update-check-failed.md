@@ -1,4 +1,4 @@
-# System Reminder: plugin-update-check-failed
+# System Prompt: plugin-update-check-failed
 
 - Source: inline
 
