@@ -1,4 +1,4 @@
-# System Reminder: write-mailbox-created-inbox
+# System Prompt: write-mailbox-created-inbox
 
 - Source: inline
 
