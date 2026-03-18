@@ -1,4 +1,4 @@
-# System Reminder: execution-timeout
+# System Prompt: execution-timeout
 
 - Source: inline
 
