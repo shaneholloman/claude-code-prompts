@@ -1,4 +1,4 @@
-# System Reminder: direct-connect-cleanup-disconnect
+# System Prompt: direct-connect-cleanup-disconnect
 
 - Source: inline
 
