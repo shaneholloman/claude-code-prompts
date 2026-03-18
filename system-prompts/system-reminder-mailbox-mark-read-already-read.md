@@ -1,4 +1,4 @@
-# System Reminder: mailbox-mark-read-already-read
+# System Prompt: mailbox-mark-read-already-read
 
 - Source: inline
 
