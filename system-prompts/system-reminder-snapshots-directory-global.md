@@ -1,4 +1,4 @@
-# System Reminder: snapshots-directory-global
+# System Prompt: snapshots-directory-global
 
 - Source: inline
 
