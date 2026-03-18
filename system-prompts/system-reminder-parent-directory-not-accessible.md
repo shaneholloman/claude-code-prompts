@@ -1,4 +1,4 @@
-# System Reminder: parent-directory-not-accessible
+# System Prompt: parent-directory-not-accessible
 
 - Source: inline
 
