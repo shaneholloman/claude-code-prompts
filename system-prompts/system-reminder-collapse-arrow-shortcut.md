@@ -1,4 +1,4 @@
-# System Reminder: collapse-arrow-shortcut
+# System Prompt: collapse-arrow-shortcut
 
 - Source: inline
 
