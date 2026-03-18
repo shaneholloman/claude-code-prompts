@@ -1,4 +1,4 @@
-# System Reminder: generation-failure-message
+# System Prompt: generation-failure-message
 
 - Source: inline
 
