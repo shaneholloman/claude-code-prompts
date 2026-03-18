@@ -1,4 +1,4 @@
-# System Reminder: removed-empty-socket-directory
+# System Prompt: removed-empty-socket-directory
 
 - Source: inline
 
