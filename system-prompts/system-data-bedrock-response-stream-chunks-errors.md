@@ -1,4 +1,4 @@
-# System Data Block: bedrock-response-stream-chunks-errors
+# System Prompt: aws-bedrock-runtime-exceptions
 
 - Source: inline
 
