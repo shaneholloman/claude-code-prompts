@@ -1,4 +1,4 @@
-# System Reminder: socket-server-error
+# System Prompt: socket-server-error
 
 - Source: inline
 
