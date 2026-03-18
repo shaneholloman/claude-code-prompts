@@ -1,6 +1,5 @@
 # System Prompt: github-issue-title-generator
 
-
 ## Summary
 
 Generates a concise technical GitHub issue title from a bug report.
