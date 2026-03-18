@@ -1,4 +1,4 @@
-# System Reminder: fresh-cached-eligibility-passes
+# System Prompt: fresh-cached-eligibility-passes
 
 - Source: inline
 
