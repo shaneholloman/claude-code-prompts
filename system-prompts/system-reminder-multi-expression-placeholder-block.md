@@ -1,22 +1,10 @@
-# System Reminder: multi-expression-placeholder-block
+# System Prompt: multi-expression-placeholder-block
 
 - Source: inline
 
 ## Summary
 
 System reminder template concatenating seven ordered expression blocks separated by blank lines
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
