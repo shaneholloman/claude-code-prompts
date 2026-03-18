@@ -1,4 +1,4 @@
-# System Reminder: fail-write-accept-transcript
+# System Prompt: fail-write-accept-transcript
 
 - Source: inline
 
