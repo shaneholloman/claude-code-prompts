@@ -1,4 +1,4 @@
-# System Data Block: automated-reasoning-policy-annotation-actions
+# System Prompt: automated-reasoning-policy-annotation
 
 - Source: inline
 
