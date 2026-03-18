@@ -1,4 +1,4 @@
-# System Reminder: sync-installed-plugins-settings
+# System Prompt: sync-installed-plugins-settings
 
 - Source: inline
 
