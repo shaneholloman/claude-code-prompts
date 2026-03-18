@@ -1,4 +1,4 @@
-# System Reminder: bridge-api-delete-path
+# System Prompt: bridge-api-delete
 
 - Source: inline
 
