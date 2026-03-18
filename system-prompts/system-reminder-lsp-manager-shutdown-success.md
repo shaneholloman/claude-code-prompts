@@ -1,4 +1,4 @@
-# System Reminder: lsp-manager-shutdown-success
+# System Prompt: lsp-manager-shutdown-success
 
 - Source: inline
 
