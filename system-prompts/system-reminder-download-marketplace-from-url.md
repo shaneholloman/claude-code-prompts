@@ -1,4 +1,4 @@
-# System Reminder: download-marketplace-from-url
+# System Prompt: download-marketplace-from-url
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Notify that the marketplace is downloading from the provided URL.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Downloading marketplace from URL: ${EXPR_1}
+Downloading marketplace from URL: ${NUM}
