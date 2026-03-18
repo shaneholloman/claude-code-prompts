@@ -1,4 +1,4 @@
-# System Reminder: project-directory-read-failure
+# System Prompt: project-directory-read-failure
 
 - Source: inline
 
@@ -6,12 +6,5 @@
 
 Failed to read a project directory at a given path, with error details.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
-Failed to read project directory ${EXPR_1}: ${EXPR_2}
+Failed to read project directory ${NUM}: ${EXPR_1}
