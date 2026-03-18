@@ -1,16 +1,10 @@
-# Tool Description: file-writing
+# Tool Prompt: write-file-to-local-filesystem
 
 - Name: Write
 
 ## Summary
 
 Writes files to the local filesystem.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Writes a file to the local filesystem.
