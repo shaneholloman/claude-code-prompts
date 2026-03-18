@@ -1,4 +1,4 @@
-# System Reminder: ccrclient-epoch-mismatch-shutdown
+# System Prompt: ccrclient-epoch-mismatch-shutdown
 
 - Source: inline
 
