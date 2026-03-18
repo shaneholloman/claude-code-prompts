@@ -1,4 +1,4 @@
-# System Reminder: empty-api-key-in-file-descriptor
+# System Prompt: empty-api-key-in-file-descriptor
 
 - Source: inline
 
