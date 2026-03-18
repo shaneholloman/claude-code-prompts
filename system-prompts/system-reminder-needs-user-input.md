@@ -1,4 +1,4 @@
-# System Reminder: needs-user-input
+# System Prompt: needs-user-input
 
 - Source: inline
 
