@@ -1,4 +1,4 @@
-# System Reminder: ingress-control-response
+# System Prompt: bridge-repl-ingress-message
 
 - Source: inline
 
