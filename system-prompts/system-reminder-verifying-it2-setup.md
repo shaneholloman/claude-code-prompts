@@ -1,4 +1,4 @@
-# System Reminder: verifying-it2-setup
+# System Prompt: verifying-it2-setup
 
 - Source: inline
 
