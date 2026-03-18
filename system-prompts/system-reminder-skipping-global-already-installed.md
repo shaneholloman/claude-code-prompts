@@ -1,4 +1,4 @@
-# System Reminder: skipping-global-already-installed
+# System Prompt: skipping-global-already-installed
 
 - Source: inline
 
