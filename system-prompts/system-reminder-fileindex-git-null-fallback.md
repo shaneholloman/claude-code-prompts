@@ -1,4 +1,4 @@
-# System Reminder: fileindex-git-null-fallback
+# System Prompt: fileindex-git-null-fallback
 
 - Source: inline
 
