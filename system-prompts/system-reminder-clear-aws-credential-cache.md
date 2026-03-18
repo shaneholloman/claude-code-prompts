@@ -1,4 +1,4 @@
-# System Reminder: clear-aws-credential-cache
+# System Prompt: clear-aws-credential-cache
 
 - Source: inline
 
