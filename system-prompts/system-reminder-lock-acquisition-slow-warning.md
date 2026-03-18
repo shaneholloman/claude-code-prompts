@@ -1,4 +1,4 @@
-# System Reminder: lock-acquisition-slow-warning
+# System Prompt: lock-acquisition-slow-warning
 
 - Source: inline
 
