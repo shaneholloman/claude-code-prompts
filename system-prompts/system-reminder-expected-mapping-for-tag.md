@@ -1,4 +1,4 @@
-# System Reminder: expected-mapping-for-tag
+# System Prompt: expected-mapping-for-tag
 
 - Source: inline
 
