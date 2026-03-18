@@ -1,17 +1,10 @@
-# System Reminder: powershell-process-command-trace
+# System Prompt: powershell-process-command-trace
 
 - Source: inline
 
 ## Summary
 
 Iterate up parent processes to collect command lines and join into one string.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 $currentPid = ${EXPR_1}
