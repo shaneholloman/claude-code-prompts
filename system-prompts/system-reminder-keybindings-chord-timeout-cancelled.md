@@ -1,4 +1,4 @@
-# System Reminder: keybindings-chord-timeout-cancelled
+# System Prompt: keybindings-chord-timeout-cancelled
 
 - Source: inline
 
