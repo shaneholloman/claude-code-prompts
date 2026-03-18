@@ -1,4 +1,4 @@
-# System Reminder: ingress-transport-connected
+# System Prompt: bridge-repl-ingress-transport
 
 - Source: inline
 
