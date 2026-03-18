@@ -1,4 +1,4 @@
-# System Reminder: startup-window-settings
+# System Prompt: startup-window-settings
 
 - Source: inline
 
