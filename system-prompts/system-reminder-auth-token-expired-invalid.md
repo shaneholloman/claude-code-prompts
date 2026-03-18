@@ -1,4 +1,4 @@
-# System Reminder: auth-token-expired-invalid
+# System Prompt: auth-token-expired-invalid
 
 - Source: inline
 
