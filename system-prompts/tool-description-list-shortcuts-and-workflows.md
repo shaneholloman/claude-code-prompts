@@ -1,4 +1,4 @@
-# Tool Description: list-shortcuts-and-workflows
+# Tool Prompt: list-shortcuts-and-workflows
 
 - Name: shortcuts_list
 
