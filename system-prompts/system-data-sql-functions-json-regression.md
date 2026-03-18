@@ -1,4 +1,4 @@
-# System Data Block: sql-functions-json-regression
+# System Prompt: json-array-functions
 
 - Source: inline
 
