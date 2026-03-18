@@ -1,4 +1,4 @@
-# System Reminder: clone-complete-validate-marketplace
+# System Prompt: clone-complete-validate-marketplace
 
 - Source: inline
 
