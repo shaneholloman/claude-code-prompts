@@ -1,4 +1,4 @@
-# System Reminder: enable-chrome-browser-automation
+# System Prompt: enable-chrome-browser-automation
 
 - Source: inline
 
