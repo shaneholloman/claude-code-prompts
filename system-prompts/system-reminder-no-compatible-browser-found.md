@@ -1,4 +1,4 @@
-# System Reminder: no-compatible-browser-found
+# System Prompt: no-compatible-browser-found
 
 - Source: inline
 
