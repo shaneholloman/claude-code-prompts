@@ -23,6 +23,8 @@ SessionEnd
 
 Stop
 
+StopFailure
+
 SubagentStart
 
 SubagentStop
