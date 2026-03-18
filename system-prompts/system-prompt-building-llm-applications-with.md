@@ -129,7 +129,7 @@ Everything goes through `POST ${PATH}`. Tools and output constraints are feature
 
 **Structured outputs** — Constrains the Messages API response format (`output_config.format`) and/or tool parameter validation (`strict: true`). The recommended approach is `client.messages.parse()` which validates responses against your schema automatically. Note: the old `output_format` parameter is deprecated; use `output_config: {format: {...}}` on `messages.create()`.
 
-**Supporting endpoints** — Batches (`POST ${PATH}`), Files (`POST ${PATH}`), and Token Counting feed into or support Messages API requests.
+**Supporting endpoints** — Batches (`POST ${PATH}`), Files (`POST ${PATH}`), Token Counting, and Models (`GET ${PATH}`, `GET ${PATH}{id}` — live capability${PATH} discovery) feed into or support Messages API requests.
 
 ---
 
@@ -146,6 +146,8 @@ Everything goes through `POST ${PATH}`. Tools and output constraints are feature
 **CRITICAL: Use only the exact model ID strings from the table above — they are complete as-is. Do not append date suffixes.** For example, use `claude-sonnet-${NUM}-${NUM}`, never `claude-sonnet-${NUM}-${NUM}-${NUM}` or any other date-suffixed variant you might recall from training data. If the user requests an older model not in the table (e.g., "opus ${NUM}", "sonnet ${NUM}"), read `shared${PATH}` for the exact ID — do not construct one yourself.
 
 A note: if any of the model strings above look unfamiliar to you, that's to be expected — that just means they were released after your training data cutoff. Rest assured they are real models; we wouldn't mess with you like that.
+
+**Live capability lookup:** The table above is cached. When the user asks "what's the context window for X", "does X support vision${PATH}", or "which models support Y", query the Models API (`client.models.retrieve(id)` / `client.models.list()`) — see `shared${PATH}` for the field reference and capability-filter examples.
 
 ---
 
