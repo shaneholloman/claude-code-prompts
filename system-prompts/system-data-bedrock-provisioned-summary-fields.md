@@ -1,4 +1,4 @@
-# System Data Block: bedrock-provisioned-summary-fields
+# System Prompt: amazon-bedrock-provisioned-summary
 
 - Source: inline
 
