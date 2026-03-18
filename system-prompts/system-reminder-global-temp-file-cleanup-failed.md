@@ -1,4 +1,4 @@
-# System Reminder: global-temp-file-cleanup-failed
+# System Prompt: global-temp-file-cleanup-failed
 
 - Source: inline
 
