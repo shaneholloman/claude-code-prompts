@@ -1,4 +1,4 @@
-# System Reminder: no-remote-found-head-only
+# System Prompt: no-remote-found-head-only-mode
 
 - Source: inline
 
