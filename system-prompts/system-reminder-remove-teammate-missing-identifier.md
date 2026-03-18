@@ -1,4 +1,4 @@
-# System Reminder: remove-teammate-missing-identifier
+# System Prompt: remove-teammate-missing-identifier
 
 - Source: inline
 
