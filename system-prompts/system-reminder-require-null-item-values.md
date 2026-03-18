@@ -1,4 +1,4 @@
-# System Reminder: require-null-item-values
+# System Prompt: require-null-item-values
 
 - Source: inline
 
