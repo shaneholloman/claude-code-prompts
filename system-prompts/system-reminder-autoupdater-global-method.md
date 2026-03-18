@@ -1,4 +1,4 @@
-# System Reminder: autoupdater-global-method
+# System Prompt: autoupdater-global-method
 
 - Source: inline
 
