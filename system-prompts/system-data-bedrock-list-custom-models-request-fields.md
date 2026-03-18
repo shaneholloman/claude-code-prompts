@@ -1,4 +1,4 @@
-# System Data Block: bedrock-list-custom-models-request-fields
+# System Prompt: list-custom-models-request
 
 - Source: inline
 
