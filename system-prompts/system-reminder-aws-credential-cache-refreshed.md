@@ -1,4 +1,4 @@
-# System Reminder: aws-credential-cache-refreshed
+# System Prompt: aws-credential-cache-refreshed
 
 - Source: inline
 
