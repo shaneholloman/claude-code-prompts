@@ -1,17 +1,10 @@
-# System Reminder: resume-planning-from-existing-file
+# System Prompt: resume-planning-from-existing-file
 
 - Source: inline
 
 ## Summary
 
 Review prior plan at EXPR_1, reconcile with new request, then update or overwrite before EXPR_2.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | ExitPlanMode | None |
 
 # Raw Prompt Text
 ## Re-entering Plan Mode
@@ -24,6 +17,6 @@ ${NUM}. Evaluate the user's current request against that plan
 ${NUM}. Decide how to proceed:
    - **Different task**: If the user's request is for a different task—even if it's similar or related—start fresh by overwriting the existing plan
    - **Same task, continuing**: If this is explicitly a continuation or refinement of the exact same task, modify the existing plan while cleaning up outdated or irrelevant sections
-${NUM}. Continue on with the plan process and most importantly you should always edit the plan file one way or the other before calling ${EXPR_2: 'ExitPlanMode'}
+${NUM}. Continue on with the plan process and most importantly you should always edit the plan file one way or the other before calling ${EXPR_2}
 
 Treat this as a fresh planning session. Do not assume the existing plan is relevant without evaluating it first.
