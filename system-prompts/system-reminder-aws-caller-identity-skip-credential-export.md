@@ -1,4 +1,4 @@
-# System Reminder: aws-caller-identity-skip-credential-export
+# System Prompt: aws-caller-identity-skip-credential-export
 
 - Source: inline
 
