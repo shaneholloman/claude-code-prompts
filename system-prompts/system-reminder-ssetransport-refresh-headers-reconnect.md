@@ -1,4 +1,4 @@
-# System Reminder: ssetransport-refresh-headers-reconnect
+# System Prompt: ssetransport-refresh-headers-reconnect
 
 - Source: inline
 
