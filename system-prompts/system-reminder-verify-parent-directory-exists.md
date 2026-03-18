@@ -1,4 +1,4 @@
-# System Reminder: verify-parent-directory-exists
+# System Prompt: verify-parent-directory-exists
 
 - Source: inline
 
