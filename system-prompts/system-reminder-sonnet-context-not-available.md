@@ -1,4 +1,4 @@
-# System Reminder: sonnet-context-not-available
+# System Prompt: sonnet-context-not-available
 
 - Source: inline
 
