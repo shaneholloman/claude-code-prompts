@@ -1,4 +1,4 @@
-# System Reminder: starting-plugin-installations
+# System Prompt: starting-plugin-installations
 
 - Source: inline
 
