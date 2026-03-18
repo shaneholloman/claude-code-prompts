@@ -1,4 +1,4 @@
-# System Reminder: permission-denied-2
+# System Prompt: permission-denied-2
 
 - Source: inline
 
