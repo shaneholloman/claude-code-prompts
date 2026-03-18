@@ -1,4 +1,4 @@
-# System Reminder: mtls-loaded-client-cert-env
+# System Prompt: mtls-loaded-client-cert-env
 
 - Source: inline
 
