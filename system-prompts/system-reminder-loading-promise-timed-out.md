@@ -1,4 +1,4 @@
-# System Reminder: loading-promise-timed-out
+# System Prompt: loading-promise-timed-out
 
 - Source: inline
 
