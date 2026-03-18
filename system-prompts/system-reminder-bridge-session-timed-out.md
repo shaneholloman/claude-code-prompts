@@ -1,16 +1,10 @@
-# System Reminder: bridge-session-null-timed-out
+# System Prompt: bridge-session-timed-out
 
 - Source: inline
 
 ## Summary
 
-Session timed out after specified duration.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Session has timed out after specified duration.
 
 # Raw Prompt Text
-[bridge:session] sessionId=null timed out after ${EXPR_1}s
+[bridge:session] sessionId=${EXPR_1} timed out after ${EXPR_2}s
