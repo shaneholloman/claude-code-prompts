@@ -1,4 +1,4 @@
-# System Reminder: invalid-global-escape-sequence
+# System Prompt: invalid-global-escape-sequence
 
 - Source: inline
 
