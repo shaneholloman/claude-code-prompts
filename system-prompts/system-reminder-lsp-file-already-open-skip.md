@@ -1,4 +1,4 @@
-# System Reminder: lsp-file-already-open-skip
+# System Prompt: lsp-file-already-open-skip
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Skipped didOpen because the file was already open.
 
 # Raw Prompt Text
-LSP: File already open, skipping didOpen for ${NUM}
+LSP: File already open, skipping didOpen for ${EXPR_1}
