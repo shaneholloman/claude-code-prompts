@@ -1,4 +1,4 @@
-# System Reminder: stop-caffeine-allow-sleep
+# System Prompt: stop-caffeine-allow-sleep
 
 - Source: inline
 
