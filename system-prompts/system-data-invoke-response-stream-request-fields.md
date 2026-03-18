@@ -1,4 +1,4 @@
-# System Data Block: invoke-response-stream-request-fields
+# System Prompt: invoke-response-stream
 
 - Source: inline
 
