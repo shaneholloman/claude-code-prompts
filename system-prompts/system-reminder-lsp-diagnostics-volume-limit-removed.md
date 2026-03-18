@@ -1,4 +1,4 @@
-# System Reminder: lsp-diagnostics-volume-limit-removed
+# System Prompt: lsp-diagnostics-volume-limit-removed
 
 - Source: inline
 
