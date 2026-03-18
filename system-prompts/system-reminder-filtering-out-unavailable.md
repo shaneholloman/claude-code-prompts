@@ -1,16 +1,10 @@
-# System Reminder: filtering-out-unavailable
+# System Prompt: filtering-out-unavailable
 
 - Source: inline
 
 ## Summary
 
-Filtering out unavailable tool reference.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Filtering out unavailable tool references.
 
 # Raw Prompt Text
-Filtering out tool_reference for unavailable tool: ${EXPR_1}
+Filtering out tool_reference for unavailable tool: stdio
