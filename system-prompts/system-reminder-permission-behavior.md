@@ -1,4 +1,4 @@
-# System Reminder: permission-behavior
+# System Prompt: permission-behavior
 
 - Source: inline
 
