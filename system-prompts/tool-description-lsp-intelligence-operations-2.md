@@ -1,4 +1,4 @@
-# Tool Description: lsp-intelligence-operations-2
+# Tool Prompt: lsp-intelligence-operations-2
 
 - Name: LSP
 
