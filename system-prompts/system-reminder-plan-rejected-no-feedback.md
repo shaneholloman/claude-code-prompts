@@ -1,4 +1,4 @@
-# System Reminder: plan-rejected-no-feedback
+# System Prompt: plan-rejected-no-feedback
 
 - Source: inline
 
