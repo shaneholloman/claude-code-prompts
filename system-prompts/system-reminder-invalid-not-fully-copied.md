@@ -1,4 +1,4 @@
-# System Reminder: invalid-not-fully-copied
+# System Prompt: invalid-not-fully-copied
 
 - Source: inline
 
