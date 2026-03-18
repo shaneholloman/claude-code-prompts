@@ -1,4 +1,4 @@
-# System Reminder: correct-this-construct
+# System Prompt: correct-this-construct
 
 - Source: inline
 
