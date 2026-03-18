@@ -1,4 +1,4 @@
-# System Reminder: feedback-collection-not-available-custom-retention
+# System Prompt: feedback-collection-not-available-custom-retention
 
 - Source: inline
 
