@@ -1,4 +1,4 @@
-# System Reminder: attribution-returning-default
+# System Prompt: pr-attribution-returning-default
 
 - Source: inline
 
