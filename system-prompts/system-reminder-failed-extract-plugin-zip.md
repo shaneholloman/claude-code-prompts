@@ -1,4 +1,4 @@
-# System Reminder: failed-extract-plugin-zip
+# System Prompt: failed-extract-plugin-zip-global
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Failed to extract a plugin ZIP.
 
 # Raw Prompt Text
-Failed to extract plugin ZIP global, deleting corrupt file: ${NUM}
+Failed to extract plugin ZIP global, deleting corrupt file: ${EXPR_1}
