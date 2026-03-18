@@ -1,4 +1,4 @@
-# System Reminder: torn-down
+# System Prompt: bridge-repl-torn-down
 
 - Source: inline
 
