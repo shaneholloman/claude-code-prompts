@@ -1,4 +1,4 @@
-# System Reminder: check-file-permissions-path
+# System Prompt: check-file-permissions-path
 
 - Source: inline
 
