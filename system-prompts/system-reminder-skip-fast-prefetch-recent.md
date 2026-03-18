@@ -1,4 +1,4 @@
-# System Reminder: skip-fast-prefetch-recent
+# System Prompt: skip-fast-prefetch-recent
 
 - Source: inline
 
