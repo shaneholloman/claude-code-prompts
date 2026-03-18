@@ -1,4 +1,4 @@
-# Tool Description: get-accessibility-tree
+# Tool Prompt: get-accessibility-tree
 
 - Name: read_page
 
