@@ -1,4 +1,4 @@
-# System Reminder: selected-iterm2-native-backend
+# System Prompt: selected-iterm2-native-backend
 
 - Source: inline
 
