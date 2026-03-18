@@ -1,4 +1,4 @@
-# System Reminder: binary-tags-not-supported
+# System Prompt: binary-tags-not-supported
 
 - Source: inline
 
