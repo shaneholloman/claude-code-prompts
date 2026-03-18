@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-cannot-respond-control
+# System Prompt: bridge-repl-transport-not-configured
 
 - Source: inline
 
