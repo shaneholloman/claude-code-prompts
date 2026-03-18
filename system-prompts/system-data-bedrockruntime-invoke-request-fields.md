@@ -1,4 +1,4 @@
-# System Data Block: bedrockruntime-invoke-request-fields
+# System Prompt: invoke-request-amazon-bedrock
 
 - Source: inline
 
