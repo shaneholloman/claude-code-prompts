@@ -1,4 +1,4 @@
-# System Reminder: teammate-spawn-cleanup-called
+# System Prompt: teammate-spawn-cleanup-called
 
 - Source: inline
 
