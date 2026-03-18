@@ -1,4 +1,4 @@
-# System Reminder: stop-missing-bash-command
+# System Prompt: stop-missing-bash-command
 
 - Source: inline
 
