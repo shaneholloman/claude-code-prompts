@@ -1,4 +1,4 @@
-# System Reminder: npm-get-prefix
+# System Prompt: npm-get-prefix
 
 - Source: inline
 
