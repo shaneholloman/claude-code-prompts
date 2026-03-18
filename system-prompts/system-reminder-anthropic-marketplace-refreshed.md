@@ -1,4 +1,4 @@
-# System Reminder: anthropic-marketplace-refreshed
+# System Prompt: anthropic-marketplace-refreshed
 
 - Source: inline
 
