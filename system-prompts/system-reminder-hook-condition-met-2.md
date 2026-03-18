@@ -1,4 +1,4 @@
-# System Reminder: hook-condition-met-2
+# System Prompt: hook-condition-met-2
 
 - Source: inline
 
