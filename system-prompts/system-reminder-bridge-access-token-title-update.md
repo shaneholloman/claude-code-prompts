@@ -1,4 +1,4 @@
-# System Reminder: no-access-token-title-update
+# System Prompt: bridge-access-token-session-title
 
 - Source: inline
 
