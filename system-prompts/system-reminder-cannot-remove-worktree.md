@@ -1,4 +1,4 @@
-# System Reminder: cannot-remove-worktree
+# System Prompt: cannot-remove-worktree
 
 - Source: inline
 
