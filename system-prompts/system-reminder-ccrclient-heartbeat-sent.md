@@ -1,4 +1,4 @@
-# System Reminder: ccrclient-heartbeat-sent
+# System Prompt: ccrclient-heartbeat-sent
 
 - Source: inline
 
