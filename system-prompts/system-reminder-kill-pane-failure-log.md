@@ -1,16 +1,10 @@
-# System Reminder: kill-pane-failure-log
+# System Prompt: kill-pane-failure-log
 
 - Source: inline
 
 ## Summary
 
 Logs failure to kill a pane for a target, with error details.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 [InboxPoller] Failed to kill pane for ${EXPR_1}: ${NUM}
