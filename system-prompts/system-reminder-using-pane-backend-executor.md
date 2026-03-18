@@ -1,4 +1,4 @@
-# System Reminder: using-pane-backend-executor
+# System Prompt: using-pane-backend-executor
 
 - Source: inline
 
