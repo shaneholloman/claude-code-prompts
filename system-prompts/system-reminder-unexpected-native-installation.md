@@ -1,4 +1,4 @@
-# System Reminder: unexpected-native-installation
+# System Prompt: unexpected-native-installation
 
 - Source: inline
 
