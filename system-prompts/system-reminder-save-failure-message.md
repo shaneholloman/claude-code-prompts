@@ -1,4 +1,4 @@
-# System Reminder: save-failure-message
+# System Prompt: save-failure-message
 
 - Source: inline
 
