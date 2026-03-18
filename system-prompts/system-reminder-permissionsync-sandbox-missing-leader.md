@@ -1,4 +1,4 @@
-# System Reminder: permissionsync-sandbox-missing-leader
+# System Prompt: permissionsync-sandbox-missing-leader
 
 - Source: inline
 
