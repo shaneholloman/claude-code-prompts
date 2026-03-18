@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-load-timeout
+# System Prompt: remote-settings-load-timeout
 
 - Source: inline
 
