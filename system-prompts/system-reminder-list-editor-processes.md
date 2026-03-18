@@ -1,4 +1,4 @@
-# System Reminder: list-editor-processes
+# System Prompt: list-editor-processes
 
 - Source: inline
 
