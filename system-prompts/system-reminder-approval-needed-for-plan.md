@@ -1,4 +1,4 @@
-# System Reminder: approval-needed-for-plan
+# System Prompt: approval-needed-for-plan
 
 - Source: inline
 
