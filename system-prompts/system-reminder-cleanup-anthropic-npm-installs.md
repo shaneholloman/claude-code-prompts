@@ -1,4 +1,4 @@
-# System Reminder: cleanup-anthropic-npm-installs
+# System Prompt: cleanup-anthropic-npm-installs
 
 - Source: inline
 
