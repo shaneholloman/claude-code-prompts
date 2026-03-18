@@ -1,4 +1,4 @@
-# System Reminder: no-restrictions-found
+# System Prompt: no-restrictions-found
 
 - Source: inline
 
