@@ -1,4 +1,4 @@
-# System Reminder: enterprise-managed-settings
+# System Prompt: enterprise-managed-settings
 
 - Source: inline
 
