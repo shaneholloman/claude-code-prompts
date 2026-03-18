@@ -1,4 +1,4 @@
-# System Reminder: refreshed-after-auth-change
+# System Prompt: refreshed-after-auth-change
 
 - Source: inline
 
