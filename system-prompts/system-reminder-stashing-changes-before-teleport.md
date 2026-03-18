@@ -1,4 +1,4 @@
-# System Reminder: stashing-changes-before-teleport
+# System Prompt: stashing-changes-before-teleport
 
 - Source: inline
 
