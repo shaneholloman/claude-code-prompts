@@ -1,4 +1,4 @@
-# System Reminder: found-uv-installer
+# System Prompt: found-uv-installer
 
 - Source: inline
 
