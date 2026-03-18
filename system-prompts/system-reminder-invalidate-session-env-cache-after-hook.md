@@ -1,16 +1,10 @@
-# System Reminder: invalidate-session-env-cache-after-hook
+# System Prompt: invalidate-session-env-cache-after-hook
 
 - Source: inline
 
 ## Summary
 
-Invalidate session environment cache after the SessionStart hook completes.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Invalidates the session env cache after a SessionStart hook completes.
 
 # Raw Prompt Text
-Invalidating session env cache after SessionStart hook ${EXPR_1} completed
+Invalidating session env cache after SessionStart hook completed
