@@ -1,4 +1,4 @@
-# Tool Description: replace-jupyter-notebook-cell
+# Tool Prompt: replace-jupyter-notebook-cell
 
 - Name: NotebookEdit
 
