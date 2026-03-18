@@ -1,4 +1,4 @@
-# System Data Block: bedrock-guardrail-content-filter-config-2
+# System Prompt: amazon-bedrock-guardrail-filter
 
 - Source: inline
 
