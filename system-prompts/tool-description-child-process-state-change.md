@@ -1,4 +1,4 @@
-# Tool Description: child-process-state-change
+# Tool Prompt: child-process-state-change
 
 - Name: SIGCHLD
 
