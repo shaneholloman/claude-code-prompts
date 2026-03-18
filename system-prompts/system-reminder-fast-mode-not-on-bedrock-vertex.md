@@ -1,4 +1,4 @@
-# System Reminder: fast-mode-not-on-bedrock-vertex
+# System Prompt: fast-mode-not-on-bedrock-vertex
 
 - Source: inline
 
