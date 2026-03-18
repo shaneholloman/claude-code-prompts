@@ -1,4 +1,4 @@
-# System Reminder: streaming-stall-detected-between-events
+# System Prompt: streaming-stall-detected
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Detected a gap in streaming events.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Streaming stall detected: ${EXPR_1}s gap between events (stall #suggestion)
+Streaming stall detected: ${EXPR_1}s gap between events (stall #null)
