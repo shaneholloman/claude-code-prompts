@@ -1,4 +1,4 @@
-# System Reminder: mapping-items-same-column
+# System Prompt: mapping-items-same-column
 
 - Source: inline
 
