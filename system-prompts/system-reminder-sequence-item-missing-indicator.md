@@ -1,4 +1,4 @@
-# System Reminder: sequence-item-missing-indicator
+# System Prompt: sequence-item-missing-indicator
 
 - Source: inline
 
