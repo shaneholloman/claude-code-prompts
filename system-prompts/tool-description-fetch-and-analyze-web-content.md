@@ -1,6 +1,6 @@
-# Tool Description: fetch-and-analyze-web-content
+# System Prompt: fetch-url-content-analyze
 
-- Name: WebFetch
+- Source: inline
 
 ## Summary
 
