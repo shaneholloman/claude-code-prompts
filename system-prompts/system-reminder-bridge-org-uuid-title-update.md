@@ -1,4 +1,4 @@
-# System Reminder: no-org-uuid-title-update
+# System Prompt: no-org-uuid-session-title
 
 - Source: inline
 
