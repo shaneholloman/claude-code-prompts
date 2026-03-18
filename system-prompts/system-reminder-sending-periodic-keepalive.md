@@ -1,4 +1,4 @@
-# System Reminder: voice-stream-periodic-keepalive
+# System Prompt: voice-stream-periodic-keepalive
 
 - Source: inline
 
