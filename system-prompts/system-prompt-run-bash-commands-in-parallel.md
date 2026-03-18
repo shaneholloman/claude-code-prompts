@@ -1,4 +1,4 @@
-# System Prompt: run-bash-commands-in-parallel
+# System Prompt: bash-commands-parallel-sequential
 
 - Source: inline
 
