@@ -1,4 +1,4 @@
-# System Reminder: hook-timeout-turns
+# System Prompt: hook-timeout-turns
 
 - Source: inline
 
