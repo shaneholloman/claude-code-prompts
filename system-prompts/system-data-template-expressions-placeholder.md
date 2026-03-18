@@ -1,20 +1,10 @@
-# System Data Block: template-expressions-placeholder
+# System Prompt: multi-expression-template
 
 - Source: inline
 
 ## Summary
 
 Bare template containing five expression placeholders for later content substitution.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
