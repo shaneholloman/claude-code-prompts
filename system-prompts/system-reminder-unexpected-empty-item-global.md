@@ -1,4 +1,4 @@
-# System Reminder: unexpected-empty-item-global
+# System Prompt: unexpected-empty-item-global
 
 - Source: inline
 
