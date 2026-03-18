@@ -1,4 +1,4 @@
-# System Reminder: migration-completed-notes
+# System Prompt: migration-completed-notes
 
 - Source: inline
 
