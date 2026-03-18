@@ -75,6 +75,7 @@ There are several discrete types of memory that you can store in your memory sys
 - Debugging solutions or fix recipes — the fix is in the code; the commit message has the context.
 - Anything already documented in CLAUDE.md files.
 - Ephemeral task details: in-progress work, temporary state, current conversation context.
+These exclusions apply even when the user explicitly asks you to save. If they ask you to save a PR list or activity summary, ask what was *surprising* or *non-obvious* about it — that is the part worth keeping.
 - You MUST avoid saving sensitive data within shared team memories. For example, never save API keys or user credentials.
 ## How to save memories
 Saving a memory is a two-step process:
