@@ -1,10 +1,10 @@
-# System Reminder: updated-access-token-session
+# System Prompt: bridge-work-updated-access-token
 
 - Source: inline
 
 ## Summary
 
-Access token updated for existing session.
+Updated access token for existing session and work ID.
 
 # Raw Prompt Text
-[bridge:work] Updated access token for existing sessionId=null
+[bridge:work] Updated access token for existing sessionId=${EXPR_1} workId=${EXPR_2}
