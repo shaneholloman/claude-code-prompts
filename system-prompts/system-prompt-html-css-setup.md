@@ -412,6 +412,6 @@ ${EXPR_119}
 
     ${EXPR_122}
   <${PATH}>
-  <script>${EXPR_123}<${PATH}>
+  <script>null<${PATH}>
 <${PATH}>
 <${PATH}>
