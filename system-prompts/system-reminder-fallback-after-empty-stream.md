@@ -1,4 +1,4 @@
-# System Reminder: fallback-after-empty-stream
+# System Prompt: fallback-after-empty-stream
 
 - Source: inline
 
