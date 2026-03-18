@@ -1,19 +1,10 @@
-# System Reminder: parse-user-date-to-iso
+# System Prompt: parse-user-date-to-iso
 
 - Source: inline
 
 ## Summary
 
 Parse user date input into ISO format using provided current context.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 Current context:
