@@ -1,4 +1,4 @@
-# System Reminder: ptr-must-not-be-undefined
+# System Prompt: ptr-must-not-be-undefined
 
 - Source: inline
 
