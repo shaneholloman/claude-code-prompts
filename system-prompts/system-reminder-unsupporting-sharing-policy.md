@@ -1,4 +1,4 @@
-# System Reminder: unsupporting-sharing-policy
+# System Prompt: unsupporting-sharing-policy
 
 - Source: inline
 
