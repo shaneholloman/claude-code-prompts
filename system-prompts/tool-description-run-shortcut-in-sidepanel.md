@@ -1,4 +1,4 @@
-# Tool Description: run-shortcut-in-sidepanel
+# Tool Prompt: run-shortcut-in-sidepanel
 
 - Name: shortcuts_execute
 
