@@ -1,4 +1,4 @@
-# Tool Description: application-specific-realtime-signal
+# Tool Prompt: application-specific-realtime-signal
 
 - Name: SIGRTinherit1
 
