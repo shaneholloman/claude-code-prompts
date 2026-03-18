@@ -1,4 +1,4 @@
-# System Reminder: global-agents-config-complete
+# System Prompt: global-agents-config-complete
 
 - Source: inline
 
