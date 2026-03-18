@@ -1,4 +1,4 @@
-# System Reminder: failed-check-plugin-marketplace
+# System Prompt: failed-check-plugin-marketplace
 
 - Source: inline
 
@@ -6,12 +6,5 @@
 
 Marketplace lookup failed while checking a specific plugin entry.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
-Failed to check plugin ${EXPR_1} in marketplace: ${EXPR_2}
+Failed to check plugin ${NUM} in marketplace: ${EXPR_1}
