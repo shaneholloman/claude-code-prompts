@@ -1,4 +1,4 @@
-# System Reminder: invalid-keybindings-json-2
+# System Prompt: invalid-keybindings-json-2
 
 - Source: inline
 
