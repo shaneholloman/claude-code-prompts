@@ -1,4 +1,4 @@
-# System Data Block: bedrock-get-evaluation-job-response
+# System Prompt: get-evaluation-job-response
 
 - Source: inline
 
