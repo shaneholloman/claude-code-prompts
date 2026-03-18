@@ -1,16 +1,10 @@
-# System Reminder: teardown-complete
+# System Prompt: bridge-repl-teardown-complete
 
 - Source: inline
 
 ## Summary
 
-Teardown complete for the environment.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Teardown of the REPL environment is complete.
 
 # Raw Prompt Text
-[bridge:repl] Teardown complete: env=${NUM} duration=${EXPR_1}ms
+[bridge:repl] Teardown complete: env=prompt duration=${EXPR_1}ms
