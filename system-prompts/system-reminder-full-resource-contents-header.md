@@ -1,4 +1,4 @@
-# System Reminder: full-resource-contents-header
+# System Prompt: full-resource-contents-header
 
 - Source: inline
 
