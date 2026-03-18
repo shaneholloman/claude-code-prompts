@@ -1,4 +1,4 @@
-# System Reminder: global-plugin-not-found
+# System Prompt: global-plugin-not-found
 
 - Source: inline
 
