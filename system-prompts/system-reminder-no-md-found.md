@@ -1,4 +1,4 @@
-# System Reminder: no-md-found
+# System Prompt: no-md-found
 
 - Source: inline
 
