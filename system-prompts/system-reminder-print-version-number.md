@@ -1,4 +1,4 @@
-# System Reminder: print-version-number
+# System Prompt: print-version-number
 
 - Source: inline
 
