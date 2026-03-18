@@ -1,4 +1,4 @@
-# System Reminder: utf-units-bit-width
+# System Prompt: utf-units-bit-width
 
 - Source: inline
 
