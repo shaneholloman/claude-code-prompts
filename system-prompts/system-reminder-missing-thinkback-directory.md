@@ -1,4 +1,4 @@
-# System Reminder: missing-thinkback-directory
+# System Prompt: missing-thinkback-directory
 
 - Source: inline
 
