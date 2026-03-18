@@ -1,4 +1,4 @@
-# System Reminder: failed-acquire-lock
+# System Prompt: failed-acquire-lock
 
 - Source: inline
 
@@ -6,12 +6,5 @@
 
 Report failure to acquire a lock for a resource with an error message.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
-Failed to acquire lock for ${EXPR_1}: ${EXPR_2}
+Failed to acquire lock for ${EXPR_1}: ${NUM}
