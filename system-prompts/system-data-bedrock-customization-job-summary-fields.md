@@ -1,4 +1,4 @@
-# System Data Block: bedrock-customization-job-summary-fields
+# System Prompt: amazon-bedrock-job-summary
 
 - Source: inline
 
