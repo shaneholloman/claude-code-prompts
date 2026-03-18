@@ -1,17 +1,10 @@
-# System Reminder: not-based-warning
+# System Prompt: not-based-warning
 
 - Source: inline
 
 ## Summary
 
-Warn that the specified skill for an agent is not prompt-based.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+Warns that the referenced skill is not prompt-based.
 
 # Raw Prompt Text
-[Agent: ${EXPR_1}] Warning: Skill '${EXPR_2}' is not a prompt-based skill
+[Agent: ${EXPR_1}] Warning: Skill '${PATH} ${EXPR_2}' is not a prompt-based skill
