@@ -1,4 +1,4 @@
-# System Reminder: prefer-tmux-skip-iterm2
+# System Prompt: prefer-tmux-skip-iterm2
 
 - Source: inline
 
