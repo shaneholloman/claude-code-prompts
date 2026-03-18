@@ -1,4 +1,4 @@
-# System Reminder: select-minimum-items
+# System Prompt: select-minimum-items
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Prompts the user to select at least a specified number of items.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Select at least ${EXPR_1} items
+Select at least ${NUM} items
