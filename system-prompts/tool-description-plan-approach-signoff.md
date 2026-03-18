@@ -1,16 +1,10 @@
-# Tool Description: plan-approach-signoff
+# Tool Prompt: plan-approach-signoff
 
 - Name: EnterPlanMode
 
 ## Summary
 
-Advise entering plan mode and getting user sign-off before non-trivial implementation work.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Tool guidance to propose an implementation plan and get user approval before coding.
 
 # Raw Prompt Text
 Use this tool proactively when you're about to start a non-trivial implementation task. Getting user sign-off on your approach before writing code prevents wasted effort and ensures alignment. This tool transitions you into plan mode where you can explore the codebase and design an implementation approach for user approval.
@@ -53,7 +47,7 @@ Only skip EnterPlanMode for simple tasks:
 - Single-line or few-line fixes (typos, obvious bugs, small tweaks)
 - Adding a single function with clear requirements
 - Tasks where the user has given very specific, detailed instructions
-- Pure research${PATH} tasks (use the Task tool with explore agent instead)
+- Pure research${PATH} tasks (use the Agent tool with explore agent instead)
 
 ${EXPR_1}## Examples
 
