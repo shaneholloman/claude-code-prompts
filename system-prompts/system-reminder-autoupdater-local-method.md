@@ -1,4 +1,4 @@
-# System Reminder: autoupdater-local-method
+# System Prompt: autoupdater-local-method
 
 - Source: inline
 
