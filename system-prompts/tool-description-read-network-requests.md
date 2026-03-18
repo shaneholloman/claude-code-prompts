@@ -1,4 +1,4 @@
-# Tool Description: read-network-requests
+# Tool Prompt: read-network-requests
 
 - Name: read_network_requests
 
