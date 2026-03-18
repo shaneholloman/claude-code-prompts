@@ -1,4 +1,4 @@
-# System Reminder: field-is-required
+# System Prompt: field-is-required
 
 - Source: inline
 
