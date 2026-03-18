@@ -1,4 +1,4 @@
-# System Reminder: bigquery-metrics-exported
+# System Prompt: bigquery-metrics-exported
 
 - Source: inline
 
