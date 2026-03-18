@@ -1,4 +1,4 @@
-# System Reminder: missing-separator-between-items
+# System Prompt: missing-separator-between-items
 
 - Source: inline
 
