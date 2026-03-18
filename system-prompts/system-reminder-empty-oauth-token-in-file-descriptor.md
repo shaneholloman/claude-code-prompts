@@ -1,4 +1,4 @@
-# System Reminder: empty-oauth-token-in-file-descriptor
+# System Prompt: empty-oauth-token-in-file-descriptor
 
 - Source: inline
 
