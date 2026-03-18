@@ -1,16 +1,10 @@
-# System Reminder: failed-configure-hooks-path
+# System Prompt: failed-configure-hooks-path
 
 - Source: inline
 
 ## Summary
 
-Failed to configure the hooks path.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Error in configuring hooks path.
 
 # Raw Prompt Text
-Failed to configure hooks path:  (PID ${EXPR_1})
+Failed to configure hooks path: ${EXPR_1} loaded with errors
