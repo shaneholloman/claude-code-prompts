@@ -1,4 +1,4 @@
-# System Data Block: cognito-identity-pool-fields
+# System Prompt: cognito-identity-pool-configuration
 
 - Source: inline
 
