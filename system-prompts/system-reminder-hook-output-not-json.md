@@ -1,4 +1,4 @@
-# System Reminder: hook-output-not-json
+# System Prompt: hook-output-not-json
 
 - Source: inline
 
