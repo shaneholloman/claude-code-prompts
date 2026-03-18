@@ -1,4 +1,4 @@
-# System Reminder: process-stdout-lines
+# System Prompt: process-stdout-lines
 
 - Source: inline
 
@@ -6,12 +6,5 @@
 
 Indicate processing of a specified count of stdout lines for a target run.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | 0 | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
-Hooks: Processing ${EXPR_1: 0} lines of stdout for ${EXPR_2}
+Hooks: Processing ${EXPR_1} lines of stdout for ${EXPR_2}
