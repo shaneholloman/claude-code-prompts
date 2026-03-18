@@ -1,4 +1,4 @@
-# System Reminder: marketplace-autoinstall-state-save-failed
+# System Prompt: marketplace-autoinstall-state-save-failed
 
 - Source: inline
 
