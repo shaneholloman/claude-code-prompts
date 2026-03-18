@@ -1,4 +1,4 @@
-# System Reminder: git-toplevel-lookup-failed
+# System Prompt: git-toplevel-lookup-failed
 
 - Source: inline
 
