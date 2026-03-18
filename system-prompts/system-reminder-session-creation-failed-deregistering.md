@@ -1,4 +1,4 @@
-# System Reminder: session-creation-failed
+# System Prompt: bridge-repl-session-failed
 
 - Source: inline
 
