@@ -1,4 +1,4 @@
-# System Prompt: file-writing-requirements
+# System Prompt: write-file-to-local-filesystem
 
 - Source: inline
 
