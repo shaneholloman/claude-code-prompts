@@ -1,4 +1,4 @@
-# System Reminder: npm-stderr-empty
+# System Prompt: npm-stderr-empty
 
 - Source: inline
 
