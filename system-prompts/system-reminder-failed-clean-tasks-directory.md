@@ -1,4 +1,4 @@
-# System Reminder: failed-clean-tasks-directory
+# System Prompt: failed-clean-tasks-directory
 
 - Source: inline
 
@@ -6,12 +6,5 @@
 
 Reports TeammateTool failed to clean up a tasks directory and includes error details.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
-[TeammateTool] Failed to clean up tasks directory ${EXPR_1}: ${EXPR_2}
+[TeammateTool] Failed to clean up tasks directory ${NUM}: ${EXPR_1}
