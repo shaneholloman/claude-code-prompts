@@ -1,6 +1,5 @@
 # System Prompt: detect-new-topic-title-3
 
-
 ## Summary
 
 Determine if a message starts a new topic and produce a short title in JSON.
