@@ -1,4 +1,4 @@
-# System Reminder: single-anchor-limit
+# System Prompt: single-anchor-limit
 
 - Source: inline
 
