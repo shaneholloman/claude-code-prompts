@@ -1,4 +1,4 @@
-# System Reminder: global-directory-read-failure
+# System Prompt: global-directory-read-failure
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Failed to read specified directory in global context.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Failed to read directory ${EXPR_1}: global
+Failed to read directory ${NUM}: global
