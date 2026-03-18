@@ -1,4 +1,4 @@
-# System Reminder: re-registered-environment
+# System Prompt: bridge-repl-registered-environment
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Re-registered environment.
 
 # Raw Prompt Text
-[bridge:repl] Re-registered environment: ${NUM}
+[bridge:repl] Re-registered environment: ${EXPR_1}
