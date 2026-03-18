@@ -1,4 +1,4 @@
-# System Reminder: lsp-manager-skip-initialization
+# System Prompt: lsp-manager-skip-initialization
 
 - Source: inline
 
