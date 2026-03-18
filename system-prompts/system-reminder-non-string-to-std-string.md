@@ -1,4 +1,4 @@
-# System Reminder: non-string-to-std-string
+# System Prompt: non-string-to-std-string
 
 - Source: inline
 
