@@ -1,4 +1,4 @@
-# System Data Block: cognito-create-identity-pool-input
+# System Prompt: create-identity-pool-input
 
 - Source: inline
 
