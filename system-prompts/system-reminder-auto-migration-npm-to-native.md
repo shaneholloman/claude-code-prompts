@@ -1,4 +1,4 @@
-# System Reminder: auto-migration-npm-to-native
+# System Prompt: auto-migration-npm-to-native
 
 - Source: inline
 
