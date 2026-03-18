@@ -1,17 +1,10 @@
-# System Reminder: teleport-remote-git-revision
+# System Prompt: teleport-remote-git-revision
 
 - Source: inline
 
 ## Summary
 
-Log remote teleport git source path and revision identifier.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+Logging remote git source path and revision during teleport.
 
 # Raw Prompt Text
-[teleportToRemote] Git source: ${EXPR_1}/${NUM}, revision: ${EXPR_2}
+[teleportToRemote] Git source: ${EXPR_1}/${EXPR_2}/${EXPR_3}, revision: ${EXPR_4}
