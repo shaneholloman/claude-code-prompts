@@ -1,4 +1,4 @@
-# System Reminder: created-lsp-manager-instance
+# System Prompt: created-lsp-manager-instance
 
 - Source: inline
 
