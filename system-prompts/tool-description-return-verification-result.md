@@ -1,5 +1,4 @@
-# Tool Description: return-verification-result
-
+# Tool Prompt: return-verification-result
 
 ## Summary
 
