@@ -1,4 +1,4 @@
-# System Prompt: guidelines-for-features
+# System Prompt: avoid-unasked-changes
 
 - Source: inline
 
