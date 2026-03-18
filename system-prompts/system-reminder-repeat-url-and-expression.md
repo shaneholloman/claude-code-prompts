@@ -4,11 +4,7 @@
 
 ## Summary
 
-Outputs two URL lines followed by an injected expression value.
+Multiple prompts (9)
 
 # Raw Prompt Text
-${NUM}
-
-${EXPR_1}
-
-${EXPR_2}
+${EXPR_1} ${EXPR_2} ${EXPR_3}
