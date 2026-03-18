@@ -1,4 +1,4 @@
-# System Reminder: waiting-remote-settings-init
+# System Prompt: waiting-remote-settings-init
 
 - Source: inline
 
