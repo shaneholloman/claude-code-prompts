@@ -1,4 +1,4 @@
-# System Reminder: alias-ending-colon-ambiguous
+# System Prompt: alias-ending-colon-ambiguous
 
 - Source: inline
 
