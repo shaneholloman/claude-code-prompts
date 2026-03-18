@@ -1,4 +1,4 @@
-# System Reminder: comments-require-whitespace-separator
+# System Prompt: comments-require-whitespace-separator
 
 - Source: inline
 
