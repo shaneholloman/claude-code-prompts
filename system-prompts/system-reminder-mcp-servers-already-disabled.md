@@ -1,4 +1,4 @@
-# System Reminder: mcp-servers-already-disabled
+# System Prompt: mcp-servers-already-disabled
 
 - Source: inline
 
