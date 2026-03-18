@@ -1,4 +1,4 @@
-# System Reminder: voice-failed-connect-oauth
+# System Prompt: voice-failed-connect-stream-oauth
 
 - Source: inline
 
