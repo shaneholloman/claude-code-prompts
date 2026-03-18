@@ -1,4 +1,4 @@
-# Tool Description: structured-final-output
+# Tool Prompt: structured-final-output
 
 - Name: StructuredOutput
 
