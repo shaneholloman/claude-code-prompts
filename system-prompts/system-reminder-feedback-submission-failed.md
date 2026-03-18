@@ -1,4 +1,4 @@
-# System Reminder: feedback-submission-failed
+# System Prompt: feedback-submission-failed
 
 - Source: inline
 
