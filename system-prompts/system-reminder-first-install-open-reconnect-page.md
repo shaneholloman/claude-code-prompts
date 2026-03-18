@@ -1,4 +1,4 @@
-# System Reminder: first-install-open-reconnect-page
+# System Prompt: first-install-open-reconnect-page
 
 - Source: inline
 
