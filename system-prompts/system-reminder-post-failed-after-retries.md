@@ -1,4 +1,4 @@
-# System Reminder: post-failed-after-retries
+# System Prompt: post-failed-after-retries
 
 - Source: inline
 
