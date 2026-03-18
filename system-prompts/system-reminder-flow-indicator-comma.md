@@ -1,4 +1,4 @@
-# System Reminder: flow-indicator-comma
+# System Prompt: flow-indicator-comma
 
 - Source: inline
 
