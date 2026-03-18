@@ -1,6 +1,5 @@
 # System Prompt: web-search
 
-
 ## Summary
 
 Sets the assistant to perform web search tool use.
