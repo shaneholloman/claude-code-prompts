@@ -1,4 +1,4 @@
-# System Reminder: install-version-info-retrieval-failed
+# System Prompt: install-version-info-retrieval-failed
 
 - Source: inline
 
