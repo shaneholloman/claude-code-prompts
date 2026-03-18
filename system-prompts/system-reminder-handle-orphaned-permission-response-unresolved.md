@@ -1,4 +1,4 @@
-# System Reminder: no-unresolved-use
+# System Prompt: handle-orphaned-permission-response-2
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 No unresolved tool use found for tool.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-handleOrphanedPermissionResponse: no unresolved tool_use found for toolUseID=${EXPR_1} (already resolved in transcript)
+handleOrphanedPermissionResponse: no unresolved tool_use found for toolUseID=${NUM} (already resolved in transcript)
