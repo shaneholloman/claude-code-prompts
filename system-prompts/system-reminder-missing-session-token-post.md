@@ -1,4 +1,4 @@
-# System Reminder: missing-session-token-post
+# System Prompt: missing-session-token-post
 
 - Source: inline
 
