@@ -1,4 +1,4 @@
-# System Reminder: percent-directive-indicator
+# System Prompt: percent-directive-indicator
 
 - Source: inline
 
