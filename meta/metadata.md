@@ -7,34 +7,34 @@
 
 ## Bundle
 
-- Entry bytes: 11879042 bytes
-- Entry lines: 12440
+- Entry bytes: 12220583 bytes
+- Entry lines: 15133
 - Pretty printer: esbuild
-- Pretty printer version: 0.27.3
-- Pretty bytes: 15194195 bytes
-- Pretty lines: 294545
+- Pretty printer version: 0.27.2
+- Pretty bytes: 15564554 bytes
+- Pretty lines: 301337
 
 ## Inventory
 
-- File count: 22
-- Size bytes: 79754969
+- File count: 26
+- Size bytes: 58993854
 
 ### Extension Counts
 
 - `.exe`: 2 files, 9349632 bytes
-- `.js`: 1 files, 11879042 bytes
+- `.js`: 1 files, 12220583 bytes
 - `.json`: 1 files, 1241 bytes
 - `.lock`: 1 files, 596 bytes
 - `.md`: 2 files, 2184 bytes
-- `.node`: 6 files, 32968352 bytes
-- `.ts`: 1 files, 87003 bytes
-- `.wasm`: 3 files, 4064873 bytes
+- `.node`: 12 files, 13419684 bytes
+- `.ts`: 1 files, 119282 bytes
+- `.wasm`: 1 files, 2478606 bytes
 
 ### Asset Sizes
 
 - `.exe`: 9349632 bytes
-- `.node`: 32968352 bytes
-- `.wasm`: 4064873 bytes
+- `.node`: 13419684 bytes
+- `.wasm`: 2478606 bytes
 
 ### Files
 
@@ -45,40 +45,42 @@
 - `README.md`
 - `resvg.wasm`
 - `sdk-tools.d.ts`
-- `tree-sitter-bash.wasm`
-- `tree-sitter.wasm`
+- `vendor/audio-capture/arm64-darwin/audio-capture.node`
+- `vendor/audio-capture/arm64-linux/audio-capture.node`
+- `vendor/audio-capture/arm64-win32/audio-capture.node`
+- `vendor/audio-capture/x64-darwin/audio-capture.node`
+- `vendor/audio-capture/x64-linux/audio-capture.node`
+- `vendor/audio-capture/x64-win32/audio-capture.node`
 - `vendor/ripgrep/arm64-darwin/rg`
-- `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
-- `vendor/ripgrep/arm64-linux/ripgrep.node`
 - `vendor/ripgrep/arm64-win32/rg.exe`
-- `vendor/ripgrep/arm64-win32/ripgrep.node`
 - `vendor/ripgrep/COPYING`
 - `vendor/ripgrep/x64-darwin/rg`
-- `vendor/ripgrep/x64-darwin/ripgrep.node`
 - `vendor/ripgrep/x64-linux/rg`
-- `vendor/ripgrep/x64-linux/ripgrep.node`
 - `vendor/ripgrep/x64-win32/rg.exe`
-- `vendor/ripgrep/x64-win32/ripgrep.node`
+- `vendor/tree-sitter-bash/arm64-darwin/tree-sitter-bash.node`
+- `vendor/tree-sitter-bash/arm64-linux/tree-sitter-bash.node`
+- `vendor/tree-sitter-bash/arm64-win32/tree-sitter-bash.node`
+- `vendor/tree-sitter-bash/x64-darwin/tree-sitter-bash.node`
+- `vendor/tree-sitter-bash/x64-linux/tree-sitter-bash.node`
+- `vendor/tree-sitter-bash/x64-win32/tree-sitter-bash.node`
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-26 21:53:32 UTC
-- Node runtime: `v20.20.0`
-- Config hash: `ae4744cdf50f1fcf018fa3b89c2b75b889997566843ef58c18de4df9048d1337`
-- Embedded build timestamp: 2026-02-26 21:39:35 UTC
-- Relative to embedded build timestamp: 13m 57s (2026-02-26 21:39:35 UTC → 2026-02-26 21:53:32 UTC)
+- Snapshot generated at: 2026-03-18 11:17:59 UTC
+- Node runtime: `v20.20.1`
+- Config hash: `54c36609abfc32877435ad1b16a2dddc0a9ea2a200c0111543adff78c2a96887`
+- Embedded build timestamp: 2026-03-16 22:15:15 UTC
+- Relative to embedded build timestamp: 1d 13h 2m 44s (2026-03-16 22:15:15 UTC → 2026-03-18 11:17:59 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 457,823
-- Token p95 / p99: 297 / 1,538
+- Total prompt tokens: 518,555
+- Token p95 / p99: 276 / 1,889
 
 ### By Kind
 
-- `system-data`: 281,033 tokens (61.4%)
-- `system`: 89,534 tokens (19.6%)
-- `system-reminder`: 62,277 tokens (13.6%)
-- `tool`: 17,405 tokens (3.8%)
-- `skill`: 4,472 tokens (1.0%)
-- `agent`: 3,102 tokens (0.7%)
+- `system`: 429,603 tokens (82.8%)
+- `system-reminder`: 68,410 tokens (13.2%)
+- `tool`: 17,748 tokens (3.4%)
+- `agent`: 2,794 tokens (0.5%)

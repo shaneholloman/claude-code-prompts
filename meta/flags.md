@@ -1,18 +1,32 @@
-# Claude Code 2.1.61 – Flags
+# Claude Code 2.1.77 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
-| `tengu_1p_event_batch_config` | config | telemetry | Configures OpenTelemetry first-party event logging batch sizes, queue limits, and export interval. | Only seen in initializer; downstream usage not fully shown. | high | 1 |
-| `tengu_bridge_min_version` | config | tools | Enforces a minimum Claude Code version for Remote Control bridge usage. | If current version is below minVersion, Remote Control bridge usage is blocked and update guidance is shown. | high | 1 |
-| `tengu_copper_lantern_config` | config | ui | Config date threshold for enabling a pro/max feature only for older subscriptions | Exact feature purpose unclear; appears to gate eligibility by plan and signup date. | medium | 1 |
+| `tengu_1p_event_batch_config` | config | telemetry | Configures OpenTelemetry first-party event logging batch sizes, queue limits, and export interval. | Only seen in initializer; downstream usage not fully shown. | high | 2 |
+| `tengu_auto_mode_config` | config | ui | Gates “Auto mode” availability per model with circuit-breaker, settings, and org allowlist checks. | Config can also disable “fast mode” and mark auto mode temporarily unavailable. | high | 1 |
+| `tengu_bad_survey_transcript_ask_config` | config | prompts | Config for whether/when a feedback survey asks to include the chat transcript after a bad rating. | Seen only in a feedbackSurvey hook alongside a matching "good" transcript-ask config. | medium | 1 |
+| `tengu_bridge_initial_history_cap` | config | tools | Sets a cap on how much prior conversation history is considered/loaded when starting the bridge REPL. | Flag is read (with defaults) but its downstream usage isn’t shown in the snippet. | medium | 1 |
+| `tengu_bridge_min_version` | config | tools | Enforces a minimum Claude Code version before enabling Remote Control (bridge). | Default minVersion is set to "0.0.0" when config is absent. | high | 1 |
+| `tengu_bridge_poll_interval_config` | config | networking | Sets Tengu bridge session polling/keepalive intervals (0 disables polling). | Value is validated: must be 0 (disabled) or ≥100ms; defaults appear to be used on parse failure. | medium | 1 |
+| `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 1 |
+| `tengu_ccr_bridge_multi_session` | gate | tools | Toggles multi-session spawning behavior for a Tengu CCR bridge process. | Only spawn/session-related code is visible; the exact behavioral differences when enabled are not shown. | medium | 1 |
+| `tengu_chair_sermon` | gate | tools | Changes how attachments and message content are transformed/merged in the tool/chat message pipeline. | The concrete effects depend on hidden transforms (Gqz/Vqz/tZq) not shown in this snippet. | medium | 4 |
+| `tengu_desktop_upsell` | config | prompts | Enables a desktop upsell startup dialog on macOS and Windows (x64). | Guarded by platform checks and disabled on WSL; exact dialog content not shown in snippet. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
-| `tengu_max_version_config` | config | tools | Controls CLI minimum version enforcement and update messaging behavior | Only one occurrence; exact effect of external value unclear. | medium | 1 |
+| `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
+| `tengu_good_survey_transcript_ask_config` | config | ui | Configures whether a "share transcript" ask appears in the positive (good) feedback survey flow. | Exact UI/wording isn’t visible; inference is based on flag name and its pairing with feedback survey configs. | medium | 1 |
+| `tengu_iron_gate_closed` | config | safety | Fails closed by denying auto-mode when the auto-mode classifier is unavailable, with retry guidance. | When disabled, it falls back to normal permission handling (fail open) if the classifier is unavailable. | high | 1 |
+| `tengu_kairos_brief` | config | prompts | Enables a markdown-formatted “brief” message/tool for the user when entitled or via CLAUDE_CODE_BRIEF. | Exact user surface (banner vs tool output) isn’t explicit, but it gates a user-facing message. | medium | 1 |
+| `tengu_kairos_cron` | config | tools | Enables session-only cron tools to schedule prompts to run later (once or recurring). | Also gated by CLAUDE_CODE_DISABLE_CRON environment variable. | high | 1 |
+| `tengu_kairos_cron_config` | config | tools | Provides jitter settings (fraction/cap ms) for recurring cron-style scheduling. | Falls back to a default config when parsing/validation fails. | medium | 1 |
+| `tengu_max_version_config` | config | prompts | Loads minimumVersion rules to skip updates and provide an external update message. | Config fetch failures fall back to an empty object, so behavior may be missing when retrieval fails. | medium | 1 |
 | `tengu_scratch` | gate | filesystem | enable temporary scratchpad directory for session memory summaries | Behavior inferred from nearby path construction and conditional check. | medium | 1 |
 | `tengu_sm_compact_config` | config | prompts | Configure compaction thresholds using token and message count limits | Only token/message limit fields are visible. | medium | 1 |
 | `tengu_sm_config` | config | caching | Configure thresholds for initializing and updating session memory based on tokens and tool calls | Only shows config read and threshold fields, not how updates are applied. | medium | 1 |
 | `tengu_streaming_tool_execution2` | gate | tools | Gates creation of a tool-execution handler in the streaming CLI request loop | Only observed gating EV0 construction; exact behavior of EV0 is unclear. | high | 1 |
 | `tengu_thinkback` | gate | tools | Enables Thinkback year-in-review command and hidden animation playback tool | Controls availability of local CLI/plugin commands. | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
+| `tengu_toolref_defer_j8m` | gate | tools | Switches tool-message processing between applying fqz() and appending a cZq text marker to content. | cZq/fqz are obfuscated; inference is based on conditional array/text insertion and a preprocessing branch. | medium | 2 |
 | `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |
 | `tengu_vscode_onboarding` | gate | ui | Controls whether VSCode connected experience shows onboarding flow | Only seen declared and sent as a gate; no UI behavior shown. | medium | 1 |
 | `tengu_vscode_review_upsell` | gate | ui | Enable VS Code review upsell experiment gate sent to connected client. | Only shows gate transmission and event logging, not the upsell UI itself. | medium | 1 |

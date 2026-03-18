@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 25
-- Options: 62
-- Env vars: 419
-- Config keys: 554
+- Commands: 28
+- Options: 65
+- Env vars: 444
+- Config keys: 684
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -20,6 +20,9 @@
 - `add-json`
 - `agents`
 - `auth`
+- `auto-mode`
+- `config`
+- `defaults`
 - `disable`
 - `doctor`
 - `enable`
@@ -49,6 +52,9 @@
 - `add-json <name> <json>`
 - `agents`
 - `auth`
+- `auto-mode`
+- `config`
+- `defaults`
 - `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
@@ -111,6 +117,7 @@
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
+- `--name`
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir`
@@ -121,6 +128,7 @@
 - `--session-id`
 - `--setting-sources`
 - `--settings`
+- `--sparse`
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
@@ -134,6 +142,7 @@
 - `-d`
 - `-e`
 - `-H`
+- `-n`
 - `-p`
 - `-r`
 - `-s`
@@ -171,11 +180,13 @@
 - `--model <model>`
 - `--no-chrome`
 - `--no-session-persistence`
-- `--plugin-dir <paths...>`
+- `--plugin-dir <path>`
 - `--replay-user-messages`
+- `--scope <scope>`
 - `--session-id <uuid>`
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
+- `--sparse <paths...>`
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
@@ -188,6 +199,7 @@
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
 - `-H, --header <header...>`
+- `-n, --name <name>`
 - `-p, --print`
 - `-r, --resume [value]`
 - `-s, --scope <scope>`
@@ -215,6 +227,7 @@
 - `ANTHROPIC_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL_AWS_REGION`
+- `ANTHROPIC_UNIX_SOCKET`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
 - `API_TIMEOUT_MS`
 - `APP_URL`
@@ -266,20 +279,26 @@
 - `CLAUDE_AUTO_BACKGROUND_TASKS`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
+- `CLAUDE_BRIDGE_USE_CCR_V2`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
+- `CLAUDE_CODE_ACCOUNT_TAGGED_ID`
 - `CLAUDE_CODE_ACCOUNT_UUID`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
+- `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
+- `CLAUDE_CODE_BRIEF`
+- `CLAUDE_CODE_BRIEF_UPLOAD`
 - `CLAUDE_CODE_BUBBLEWRAP`
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
@@ -287,6 +306,7 @@
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
+- `CLAUDE_CODE_DEBUG_LOG_LEVEL`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
 - `CLAUDE_CODE_DISABLE_1M_CONTEXT`
@@ -296,14 +316,19 @@
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
+- `CLAUDE_CODE_DISABLE_CRON`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
 - `CLAUDE_CODE_DISABLE_FAST_MODE`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
+- `CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS`
+- `CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
+- `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DISABLE_THINKING`
+- `CLAUDE_CODE_DISABLE_VIRTUAL_SCROLL`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EAGER_FLUSH`
 - `CLAUDE_CODE_EFFORT_LEVEL`
@@ -326,6 +351,7 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
+- `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
@@ -339,6 +365,8 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
+- `CLAUDE_CODE_MCP_INSTR_DELTA`
+- `CLAUDE_CODE_NEW_INIT`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
 - `CLAUDE_CODE_OAUTH_REFRESH_TOKEN`
 - `CLAUDE_CODE_OAUTH_SCOPES`
@@ -355,10 +383,12 @@
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
 - `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS`
+- `CLAUDE_CODE_PLUGIN_SEED_DIR`
 - `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
+- `CLAUDE_CODE_QUESTION_PREVIEW_FORMAT`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
@@ -366,17 +396,20 @@
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
+- `CLAUDE_CODE_SEARCH_HINTS_IN_LIST`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
+- `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SIMPLE`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
+- `CLAUDE_CODE_SKIP_FAST_MODE_NETWORK_ERRORS`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
-- `CLAUDE_CODE_SKIP_PRECOMPACT_LOAD`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SSE_PORT`
+- `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
 - `CLAUDE_CODE_STREAMING_TEXT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
@@ -389,7 +422,6 @@
 - `CLAUDE_CODE_TMUX_PREFIX`
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
-- `CLAUDE_CODE_TST_NAMES_IN_MESSAGES`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
@@ -399,14 +431,17 @@
 - `CLAUDE_CODE_USER_EMAIL`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_WORKER_EPOCH`
+- `CLAUDE_CODE_WORKSPACE_HOST_PATHS`
 - `CLAUDE_CONFIG_DIR`
+- `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
+- `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_DEBUG`
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_TMPDIR`
-- `CLAUDECODE`
+- `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CODESPACES`
@@ -435,7 +470,6 @@
 - `DISABLE_INTERLEAVED_THINKING`
 - `DISABLE_LOGIN_COMMAND`
 - `DISABLE_LOGOUT_COMMAND`
-- `DISABLE_MICROCOMPACT`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_PROMPT_CACHING_HAIKU`
 - `DISABLE_PROMPT_CACHING_OPUS`
@@ -444,8 +478,10 @@
 - `DISABLE_UPGRADE_COMMAND`
 - `DYNO`
 - `EDITOR`
+- `EMBEDDED_SEARCH_TOOLS`
 - `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CLAUDE_CODE_SM_COMPACT`
+- `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
 - `ENABLE_PROMPT_CACHING_1H_BEDROCK`
@@ -499,6 +535,7 @@
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
 - `KUBERNETES_SERVICE_HOST`
+- `LC_TERMINAL`
 - `LOCAL_BRIDGE`
 - `LOCALAPPDATA`
 - `MAX_MCP_OUTPUT_TOKENS`
@@ -553,8 +590,6 @@
 - `RENDER`
 - `REPL_ID`
 - `REPL_SLUG`
-- `RIPGREP_EMBEDDED`
-- `RIPGREP_NODE_PATH`
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
 - `S`
@@ -577,6 +612,7 @@
 - `SYSTEM_OIDCREQUESTURI`
 - `SYSTEMROOT`
 - `TASK_MAX_OUTPUT_LENGTH`
+- `TEAM_MEMORY_SYNC_URL`
 - `TEMP`
 - `TERM`
 - `TERM_PROGRAM`
@@ -599,6 +635,7 @@
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
 - `V`
+- `VCR_RECORD`
 - `VERCEL`
 - `VERTEX_BASE_URL`
 - `VISUAL`
@@ -618,9 +655,13 @@
 
 ## Config Keys
 
+- `_`
 - `$docs`
 - `$schema`
 - `A`
+- `account`
+- `acquiredAt`
+- `action`
 - `activeForm`
 - `added`
 - `additionalContext`
@@ -632,6 +673,7 @@
 - `agent_transcript_path`
 - `agent_type`
 - `agentId`
+- `agentProgressSummaries`
 - `agents`
 - `all`
 - `allow`
@@ -639,6 +681,7 @@
 - `allowed`
 - `allowedDomains`
 - `allowedEnvVars`
+- `allowedHttpHookUrls`
 - `allowedMcpServers`
 - `allowedTools`
 - `allowGitConfig`
@@ -647,15 +690,21 @@
 - `allowManagedHooksOnly`
 - `allowManagedMcpServersOnly`
 - `allowManagedPermissionRulesOnly`
+- `allowManagedReadPathsOnly`
 - `allowPty`
+- `allowRead`
 - `allowUnixSockets`
 - `allowUnsandboxedCommands`
 - `allowWrite`
 - `alwaysThinkingEnabled`
+- `anchor_uuid`
 - `annotations`
 - `answers`
 - `apiKeyHelper`
 - `apiKeySource`
+- `apiProvider`
+- `appendSystemPrompt`
+- `applied`
 - `appliedLimit`
 - `appliedOffset`
 - `applyPath`
@@ -663,16 +712,24 @@
 - `approved`
 - `args`
 - `argumentHint`
+- `argv0`
 - `ask`
+- `assistantAutoBackgrounded`
 - `async`
+- `asyncRewake`
 - `asyncTimeout`
+- `attachments`
+- `attempt`
 - `attribution`
 - `author`
+- `authServerMetadataUrl`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoMemoryDirectory`
 - `autoMemoryEnabled`
 - `autoUpdate`
 - `autoUpdatesChannel`
+- `available_output_styles`
 - `availableModels`
 - `awaitingLeaderApproval`
 - `awsAuthRefresh`
@@ -687,6 +744,8 @@
 - `behavior`
 - `betas`
 - `bindings`
+- `blobSavedTo`
+- `blocked_path`
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
@@ -700,7 +759,9 @@
 - `cache_read_input_tokens`
 - `cacheCreationInputTokens`
 - `cacheReadInputTokens`
+- `callback_id`
 - `callbackPort`
+- `cancelled`
 - `canReadOutputFile`
 - `canRewind`
 - `cell_id`
@@ -708,7 +769,6 @@
 - `cells`
 - `changes`
 - `character`
-- `charset`
 - `checksum`
 - `claude_code_version`
 - `claudeMdExcludes`
@@ -721,8 +781,8 @@
 - `commands`
 - `commit`
 - `compact_metadata`
+- `compact_summary`
 - `companyAnnouncements`
-- `compressible`
 - `config`
 - `content`
 - `contents`
@@ -734,12 +794,15 @@
 - `created_at`
 - `createdAt`
 - `criticalSystemReminder_EXPERIMENTAL`
+- `cron`
 - `custom_instructions`
 - `customTitle`
 - `cwd`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
+- `decision_reason`
+- `default`
 - `default_branch`
 - `defaultEnvironmentId`
 - `defaultMode`
@@ -749,20 +812,28 @@
 - `deny`
 - `denyRead`
 - `denyWrite`
+- `dependencies`
 - `desc`
 - `description`
 - `destination`
 - `destructive`
+- `details`
 - `dimensions`
 - `directories`
 - `disableAllHooks`
+- `disableAutoMode`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `disallowedTools`
+- `discardedCommits`
+- `discardedFiles`
+- `display_name`
 - `displayHeight`
 - `displayName`
 - `displayWidth`
 - `domains`
+- `dry_run`
+- `durable`
 - `duration_api_ms`
 - `duration_ms`
 - `durationMs`
@@ -771,9 +842,13 @@
 - `eagerLoadSettings_start`
 - `edit_mode`
 - `edits`
+- `effective`
 - `effort`
+- `effortLevel`
 - `elapsed_time_seconds`
+- `elicitation_id`
 - `email`
+- `enable_slash_command`
 - `enableAllProjectMcpServers`
 - `enabled`
 - `enabledMcpjsonServers`
@@ -782,10 +857,15 @@
 - `enableWeakerNetworkIsolation`
 - `end`
 - `entries`
+- `entryChecksums`
 - `env`
+- `environment`
+- `environmentId`
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
 - `error`
+- `error_code`
+- `error_status`
 - `errors`
 - `event`
 - `eventData`
@@ -794,15 +874,18 @@
 - `excludeDefault`
 - `exit_code`
 - `explanation`
-- `extensions`
 - `extraKnownMarketplaces`
 - `failed`
+- `fast_mode_state`
 - `fastMode`
 - `fastModePerSessionOptIn`
 - `feedback`
+- `feedbackSurveyRate`
 - `file`
 - `file_id`
+- `file_name`
 - `file_path`
+- `file_uuid`
 - `fileCount`
 - `filename`
 - `filenames`
@@ -818,34 +901,47 @@
 - `forceLoginOrgUUID`
 - `forceRemoveDeletedPlugins`
 - `format`
-- `fR`
 - `from`
+- `gcpAuthRefresh`
 - `getOAuthToken`
 - `getUserId`
 - `gitBranch`
 - `gitCommitSha`
 - `gitDiff`
+- `globs`
 - `hasTaskTool`
+- `head_uuid`
 - `header`
 - `headers`
 - `headersHelper`
+- `heartbeat_interval_ms`
+- `heartbeat_jitter_fraction`
 - `homepage`
 - `hook_event`
 - `hook_event_name`
 - `hook_id`
 - `hook_name`
+- `hookCallbackIds`
 - `hookEventName`
 - `hooks`
 - `hookSpecificOutput`
 - `hostPattern`
+- `http_timeout_ms`
+- `httpHookAllowedEnvVars`
 - `httpMethodsToRetry`
 - `httpProxyPort`
+- `humanSchedule`
 - `id`
 - `ideName`
 - `ideRunningInWindows`
 - `ignoreViolations`
 - `image`
 - `includeCoAuthoredBy`
+- `includeGitInstructions`
+- `init_retry_base_delay_ms`
+- `init_retry_jitter_fraction`
+- `init_retry_max_attempts`
+- `init_retry_max_delay_ms`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
@@ -864,7 +960,11 @@
 - `isImage`
 - `isolation`
 - `isSynthetic`
+- `isUltraplan`
 - `isUsingOverage`
+- `jobs`
+- `jsonSchema`
+- `key`
 - `keywords`
 - `label`
 - `language`
@@ -878,33 +978,49 @@
 - `lineEnd`
 - `lines`
 - `lineStart`
+- `load_reason`
 - `localSettings`
 - `login`
 - `lspServers`
+- `lv`
 - `mandatoryDenySearchDepth`
-- `markdown`
 - `matcher`
 - `matcherMetadata`
 - `matches`
+- `max`
+- `max_entries`
+- `max_input_tokens`
 - `max_results`
-- `max_turns`
+- `max_retries`
+- `max_thinking_tokens`
+- `max_tokens`
 - `maxOutputTokens`
 - `maxTurns`
 - `mcp_response`
+- `mcp_server_name`
 - `mcp_servers`
 - `mcpServers`
 - `media_type`
 - `memory`
+- `memory_type`
 - `message`
+- `message_uuid`
 - `metadata`
 - `method`
 - `mimeType`
+- `min`
 - `minimumVersion`
 - `mitmProxy`
 - `mode`
 - `model`
+- `modelOverrides`
+- `models`
 - `modelUsage`
+- `multiple`
 - `multiSelect`
+- `multisession_poll_interval_ms_at_capacity`
+- `multisession_poll_interval_ms_not_at_capacity`
+- `multisession_poll_interval_ms_partial_capacity`
 - `name`
 - `network`
 - `new_source`
@@ -915,6 +1031,7 @@
 - `newString`
 - `newTodos`
 - `newValue`
+- `non_exclusive_heartbeat_interval_ms`
 - `noOutputExpected`
 - `noResponseRetries`
 - `notebook_path`
@@ -932,11 +1049,16 @@
 - `oldString`
 - `oldTodos`
 - `once`
+- `oneShotFloorMs`
+- `oneShotMaxMs`
+- `oneShotMinuteMod`
 - `openWorld`
 - `operation`
 - `options`
 - `organization`
+- `organizationId`
 - `original_file`
+- `originalCwd`
 - `originalFile`
 - `originalHeight`
 - `originalSize`
@@ -960,10 +1082,13 @@
 - `padding`
 - `paneId`
 - `params`
+- `parent_file_path`
 - `parent_tool_use_id`
 - `patch`
 - `path`
+- `pathPattern`
 - `pending_mcp_servers`
+- `pending_permission_requests`
 - `permission_denials`
 - `permission_mode`
 - `permission_suggestions`
@@ -975,6 +1100,7 @@
 - `permissionUpdates`
 - `persistedOutputPath`
 - `persistedOutputSize`
+- `pid`
 - `plan`
 - `planContent`
 - `planFilePath`
@@ -982,17 +1108,25 @@
 - `pluginConfigs`
 - `pluginRoot`
 - `plugins`
+- `pluginTrustMessage`
 - `policySettings`
+- `poll_interval_ms_at_capacity`
+- `poll_interval_ms_not_at_capacity`
 - `pr`
 - `pre_tokens`
 - `preceding_tool_use_ids`
 - `prefersReducedMotion`
+- `preserved_segment`
+- `preview`
 - `previousValue`
+- `priority`
 - `processed_at`
 - `projectPath`
 - `projectSettings`
 - `prompt`
+- `prompt_response`
 - `promptSuggestionEnabled`
+- `promptSuggestions`
 - `query`
 - `question`
 - `questions`
@@ -1002,7 +1136,11 @@
 - `readOnly`
 - `reason`
 - `reasoning`
-- `recipient`
+- `received_entries`
+- `reclaim_older_than_ms`
+- `recurring`
+- `recurringCapMs`
+- `recurringFrac`
 - `ref`
 - `region`
 - `registry`
@@ -1012,7 +1150,9 @@
 - `replaceAll`
 - `repo`
 - `repository`
+- `request`
 - `request_id`
+- `requested_schema`
 - `requestHandler`
 - `requestId`
 - `required`
@@ -1020,11 +1160,13 @@
 - `resolvedAt`
 - `resolvedBy`
 - `respectGitignore`
+- `response`
 - `restrictions`
 - `result`
 - `resultCount`
 - `results`
-- `resume`
+- `resultWasTruncated`
+- `retry_delay_ms`
 - `returnCodeInterpretation`
 - `ripgrep`
 - `risk`
@@ -1036,16 +1178,23 @@
 - `sandbox`
 - `schema`
 - `scope`
+- `sdkMcpServers`
 - `seccomp`
+- `selected`
 - `selection`
+- `sensitive`
+- `sentAt`
 - `server`
+- `server_name`
 - `server_tool_use`
 - `serverCommand`
 - `serverInfo`
 - `serverName`
+- `servers`
 - `serverUrl`
 - `service_tier`
 - `session_id`
+- `session_keepalive_interval_v2_ms`
 - `sessionId`
 - `set`
 - `set_range`
@@ -1053,6 +1202,8 @@
 - `settings`
 - `sha`
 - `shouldBlock`
+- `showThinkingSummaries`
+- `size`
 - `skill`
 - `skills`
 - `skipDangerousModePermissionPrompt`
@@ -1061,6 +1212,8 @@
 - `socketPath`
 - `socksProxyPort`
 - `source`
+- `sources`
+- `sparsePaths`
 - `spinnerTipsEnabled`
 - `spinnerTipsOverride`
 - `spinnerVerbs`
@@ -1069,6 +1222,7 @@
 - `sshIdentityFile`
 - `sshPort`
 - `start`
+- `startDirectory`
 - `startLine`
 - `status`
 - `statusChange`
@@ -1092,13 +1246,18 @@
 - `summary`
 - `supportedEffortLevels`
 - `supportsAdaptiveThinking`
+- `supportsAutoMode`
 - `supportsEffort`
+- `supportsFastMode`
 - `suppressOutput`
 - `surpassedThreshold`
 - `symlinkDirectories`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
+- `systemPrompt`
 - `tabId`
+- `tag`
+- `tail_uuid`
 - `task`
 - `task_description`
 - `task_id`
@@ -1116,7 +1275,10 @@
 - `timestamp`
 - `tips`
 - `title`
+- `tmuxSessionName`
 - `to`
+- `token_refresh_buffer_ms`
+- `tokenSaverOutput`
 - `tokenSource`
 - `tool`
 - `tool_input`
@@ -1139,6 +1301,7 @@
 - `totalToolUseCount`
 - `transcript_path`
 - `trigger`
+- `trigger_file_path`
 - `truncated`
 - `turns`
 - `type`
@@ -1151,15 +1314,19 @@
 - `uri`
 - `url`
 - `usage`
+- `user_message_id`
+- `userConfig`
 - `userId`
 - `userModified`
 - `userSettings`
 - `utilization`
 - `uuid`
+- `uuid_dedup_buffer_size`
 - `value`
+- `variables`
 - `verbs`
+- `verificationNudgeNeeded`
 - `version`
-- `w`
 - `web_fetch_requests`
 - `web_search_requests`
 - `webSearchRequests`
@@ -1205,6 +1372,7 @@ _None detected_
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai-external-token`
+- `claude-api`
 - `claude-cli`
 - `claude-cli-native-`
 - `claude-code`
@@ -1220,7 +1388,6 @@ _None detected_
 - `claude-context`
 - `claude-desktop`
 - `claude-dev`
-- `claude-developer-platform`
 - `claude-empty-`
 - `claude-folder`
 - `claude-haiku`
@@ -1270,13 +1437,13 @@ _None detected_
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
-- `opus-4.6-available`
-- `opus-46-upgrade-nudge`
 - `opus-pro-update`
 - `sonnet-3-7`
 - `sonnet-4`
 - `sonnet-4-5`
+- `sonnet-4-5-20250929`
 - `sonnet-4-6`
+- `sonnet-46-update`
 
 ## Providers
 
