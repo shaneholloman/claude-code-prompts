@@ -1,4 +1,4 @@
-# System Reminder: lsp-didsave-sent
+# System Prompt: lsp-didsave-sent
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Sent an LSP didSave notification.
 
 # Raw Prompt Text
-LSP: Sent didSave for ${NUM}
+LSP: Sent didSave for ${EXPR_1}
