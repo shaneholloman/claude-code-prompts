@@ -1,4 +1,4 @@
-# System Reminder: reload-hooks-on-enabled-plugins-change
+# System Prompt: reload-hooks-on-enabled-plugins-change
 
 - Source: inline
 
