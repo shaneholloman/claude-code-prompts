@@ -1,4 +1,4 @@
-# System Reminder: unexpected-comma-in-global
+# System Prompt: unexpected-comma-in-global
 
 - Source: inline
 
