@@ -1,4 +1,4 @@
-# Tool Description: project-areas-session-summary
+# Tool Prompt: project-areas-session-summary
 
 - Name: project_areas
 
