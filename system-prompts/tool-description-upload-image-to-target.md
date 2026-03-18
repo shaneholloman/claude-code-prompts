@@ -1,4 +1,4 @@
-# Tool Description: upload-image-to-target
+# Tool Prompt: upload-image-to-target
 
 - Name: upload_image
 
