@@ -1,4 +1,4 @@
-# System Reminder: clean-stale-dir-reclone
+# System Prompt: clean-stale-dir-reclone
 
 - Source: inline
 
