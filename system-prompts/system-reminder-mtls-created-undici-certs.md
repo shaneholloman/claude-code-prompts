@@ -1,4 +1,4 @@
-# System Reminder: mtls-created-undici-certs
+# System Prompt: mtls-created-undici-certs
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Notes creation of an undici agent using custom mTLS certificates.
 
 # Raw Prompt Text
-mTLS: Created undici agent with custom certificates
+TLS: Created undici agent with custom certificates
