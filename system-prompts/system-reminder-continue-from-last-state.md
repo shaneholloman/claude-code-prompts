@@ -1,4 +1,4 @@
-# System Reminder: continue-from-last-state
+# System Prompt: continue-from-last-state
 
 - Source: inline
 
