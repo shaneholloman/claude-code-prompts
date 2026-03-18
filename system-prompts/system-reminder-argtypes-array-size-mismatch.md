@@ -1,4 +1,4 @@
-# System Reminder: argtypes-array-size-mismatch
+# System Prompt: argtypes-array-size-mismatch
 
 - Source: inline
 
