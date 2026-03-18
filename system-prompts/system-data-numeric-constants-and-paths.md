@@ -1,4 +1,4 @@
-# System Data Block: numeric-constants-and-paths
+# System Prompt: args-and-infinity-handling
 
 - Source: inline
 
