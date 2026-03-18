@@ -1,4 +1,4 @@
-# System Reminder: unexpected-error-getskills-empty
+# System Prompt: unexpected-error-getskills-empty
 
 - Source: inline
 
