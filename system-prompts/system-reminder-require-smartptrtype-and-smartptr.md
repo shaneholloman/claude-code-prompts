@@ -1,4 +1,4 @@
-# System Reminder: require-smartptrtype-and-smartptr
+# System Prompt: require-smartptrtype-and-smartptr
 
 - Source: inline
 
