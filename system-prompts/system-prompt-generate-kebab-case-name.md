@@ -1,6 +1,5 @@
 # System Prompt: generate-kebab-case-name
 
-
 ## Summary
 
 Instructs generating a short lowercase kebab-case conversation name in JSON.
