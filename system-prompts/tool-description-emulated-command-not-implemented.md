@@ -1,4 +1,4 @@
-# Tool Description: emulated-command-not-implemented
+# Tool Prompt: emulated-command-not-implemented
 
 - Name: SIGEMT
 
