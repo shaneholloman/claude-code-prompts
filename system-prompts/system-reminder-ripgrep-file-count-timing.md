@@ -1,4 +1,4 @@
-# System Reminder: ripgrep-file-count-timing
+# System Prompt: ripgrep-file-count-timing
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Log ripgrep scan file count and elapsed time in milliseconds.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | 0 | None |
-
 # Raw Prompt Text
-[FileIndex] ripgrep: ${EXPR_1: 0} files in globalms
+[FileIndex] ripgrep: ${EXPR_1} files in globalms
