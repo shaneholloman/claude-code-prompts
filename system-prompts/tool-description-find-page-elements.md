@@ -1,4 +1,4 @@
-# Tool Description: find-page-elements
+# Tool Prompt: find-page-elements
 
 - Name: find
 
