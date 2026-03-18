@@ -1,16 +1,10 @@
-# Tool Description: structured-todo-list
+# Tool Prompt: structured-todo-list
 
 - Name: TodoWrite
 
 ## Summary
 
-Criteria for starting, updating, and avoiding a structured todo tool during coding sessions
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | Edit | None |
+Guidance for when and how to use a structured task list tool.
 
 # Raw Prompt Text
 Use this tool to create and manage a structured task list for your current coding session. This helps you track progress, organize complex tasks, and demonstrate thoroughness to the user.
@@ -90,12 +84,12 @@ ${NUM}. This approach allows for tracking progress across the entire implementat
 <${PATH}>
 
 <example>
-User: Can you help optimize my React application? It's rendering slowly and has performance issues.<${PATH}>
+User: Can you help optimize my React application? It's rendering slowly and has performance issues.
 Assistant: I'll help optimize your React application. First, let me examine your codebase to identify potential performance bottlenecks.
 *Reviews component structure, render patterns, state management, and data fetching*
 Assistant: After analyzing your codebase, I've identified several performance issues. Let me create a todo list to track our optimization efforts.
 *Creates todo list with items like: ${NUM}) Implementing memoization for expensive calculations in ProductList, ${NUM}) Adding virtualization for long lists in Dashboard, ${NUM}) Optimizing image loading in Gallery component, ${NUM}) Fixing state update loops in ShoppingCart, ${NUM}) Reviewing bundle size and implementing code splitting*
-Let's start by implementing memoization for the expensive calculations in your ProductList component.<${PATH}>
+Let's start by implementing memoization for the expensive calculations in your ProductList component.
 
 <reasoning>
 The assistant used the todo list because:
@@ -116,7 +110,7 @@ Assistant: In Python, you can print "Hello World" with this simple code:
 python
 print("Hello World")
 
-This will output the text "Hello World" to the console when executed.<${PATH}>
+This will output the text "Hello World" to the console when executed.
 
 <reasoning>
 The assistant did not use the todo list because this is a single, trivial task that can be completed in one step. There's no need to track multiple tasks or steps for such a straightforward request.
@@ -135,7 +129,7 @@ The assistant did not use the todo list because this is an informational request
 <example>
 User: Can you add a comment to the calculateTotal function to explain what it does?
 Assistant: Sure, let me add a comment to the calculateTotal function to explain what it does.
-* Uses the ${EXPR_1: 'Edit'} tool to add a comment to the calculateTotal function *
+* Uses the ${EXPR_1} tool to add a comment to the calculateTotal function *
 
 <reasoning>
 The assistant did not use the todo list because this is a single, straightforward task confined to one location in the code. Adding a comment doesn't require tracking multiple steps or systematic organization.
