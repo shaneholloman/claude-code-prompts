@@ -1,4 +1,4 @@
-# System Reminder: remote-session-cleanup-disconnecting
+# System Prompt: remote-session-cleanup-disconnecting
 
 - Source: inline
 
