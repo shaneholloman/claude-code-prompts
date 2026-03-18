@@ -1,4 +1,4 @@
-# System Reminder: gitignore-aware-file-picker
+# System Prompt: gitignore-aware-file-picker
 
 - Source: inline
 
