@@ -1,4 +1,4 @@
-# System Reminder: fast-mode-extra-billing-enable
+# System Prompt: fast-mode-extra-billing-enable
 
 - Source: inline
 
