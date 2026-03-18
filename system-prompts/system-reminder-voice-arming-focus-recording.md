@@ -1,4 +1,4 @@
-# System Reminder: voice-arming-focus-recording
+# System Prompt: voice-rearming-focus-recording
 
 - Source: inline
 
