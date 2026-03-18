@@ -1,4 +1,4 @@
-# System Reminder: worktree-removed-no-changes
+# System Prompt: worktree-removed-no-changes
 
 - Source: inline
 
