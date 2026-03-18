@@ -1,4 +1,4 @@
-# System Reminder: get-diagnostic-attachments-called
+# System Prompt: get-diagnostic-attachments-called
 
 - Source: inline
 
