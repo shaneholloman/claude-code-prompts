@@ -1,16 +1,10 @@
-# System Reminder: bridge-init-api-base-url
+# System Prompt: bridge-init-api-urls
 
 - Source: inline
 
 ## Summary
 
-Initialize API base and session ingress URLs.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Initialize API and session ingress URLs.
 
 # Raw Prompt Text
-[bridge:init] apiBaseUrl=${NUM} sessionIngressUrl=${EXPR_1}
+[bridge:init] apiBaseUrl=${EXPR_1}_${EXPR_2} sessionIngressUrl=${NUM}
