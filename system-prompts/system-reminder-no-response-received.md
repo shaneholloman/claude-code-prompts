@@ -1,4 +1,4 @@
-# System Reminder: no-response-received
+# System Prompt: no-response-received
 
 - Source: inline
 
