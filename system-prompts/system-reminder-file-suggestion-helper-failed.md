@@ -1,4 +1,4 @@
-# System Reminder: file-suggestion-helper-failed
+# System Prompt: file-suggestion-helper-failed
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Indicate the file suggestion helper failed and include the error details.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-File suggestion helper failed: ${EXPR_1}
+File suggestion helper failed: ${NUM}
