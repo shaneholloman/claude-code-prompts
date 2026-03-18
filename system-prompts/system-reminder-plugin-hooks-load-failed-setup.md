@@ -1,4 +1,4 @@
-# System Reminder: plugin-hooks-load-failed-setup
+# System Prompt: plugin-hooks-load-failed-setup
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Warns plugin hooks failed to load, so Setup hooks will not run, with error details.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-Warning: Failed to load plugin hooks. Setup hooks from plugins will not execute. Error: ${EXPR_1}
+Warning: Failed to load plugin hooks. Setup hooks from plugins will not execute. Error: ${NUM}
