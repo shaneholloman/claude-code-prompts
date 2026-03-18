@@ -1,4 +1,4 @@
-# System Reminder: clipboard-image-not-found-2
+# System Prompt: clipboard-image-not-found-2
 
 - Source: inline
 
