@@ -1,4 +1,4 @@
-# System Reminder: upgraded-to-native-install
+# System Prompt: upgraded-to-native-install
 
 - Source: inline
 
