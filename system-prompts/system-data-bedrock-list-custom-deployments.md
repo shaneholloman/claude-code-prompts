@@ -1,4 +1,4 @@
-# System Data Block: bedrock-list-custom-deployments
+# System Prompt: list-custom-deployments
 
 - Source: inline
 
