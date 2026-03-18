@@ -1,4 +1,4 @@
-# System Reminder: voice-focus-mode-flushing
+# System Prompt: voice-focus-mode-flushing-final
 
 - Source: inline
 
@@ -7,4 +7,4 @@
 Flushing final transcript immediately.
 
 # Raw Prompt Text
-[voice] Focus mode: flushing final transcript immediately: "${NUM}"
+[voice] Focus mode: flushing final transcript immediately: "${EXPR_1}"
