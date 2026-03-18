@@ -1,4 +1,4 @@
-# System Reminder: sent-idle-notification-leader-2
+# System Prompt: sent-idle-notification-leader-2
 
 - Source: inline
 
