@@ -1,4 +1,4 @@
-# System Data Block: bedrock-get-custom-deployment
+# System Prompt: get-custom-deployment-response
 
 - Source: inline
 
