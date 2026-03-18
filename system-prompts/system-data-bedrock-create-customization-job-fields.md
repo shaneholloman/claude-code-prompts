@@ -1,4 +1,4 @@
-# System Data Block: bedrock-create-customization-job-fields
+# System Prompt: create-customization-job
 
 - Source: inline
 
