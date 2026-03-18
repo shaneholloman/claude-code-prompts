@@ -1,4 +1,4 @@
-# Tool Description: update-task-status-guidance
+# Tool Prompt: update-task-status-guidance
 
 - Name: TaskUpdate
 
