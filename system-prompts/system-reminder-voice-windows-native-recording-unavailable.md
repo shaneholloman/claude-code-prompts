@@ -1,4 +1,4 @@
-# System Reminder: voice-windows-native-recording-unavailable
+# System Prompt: windows-native-voice-recording-unavailable
 
 - Source: inline
 
