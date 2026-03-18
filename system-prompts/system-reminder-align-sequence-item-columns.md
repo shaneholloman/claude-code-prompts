@@ -1,4 +1,4 @@
-# System Reminder: align-sequence-item-columns
+# System Prompt: align-sequence-item-columns
 
 - Source: inline
 
