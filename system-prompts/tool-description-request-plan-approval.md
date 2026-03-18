@@ -1,4 +1,4 @@
-# Tool Description: request-plan-approval
+# Tool Prompt: request-plan-approval
 
 - Name: ExitPlanMode
 
