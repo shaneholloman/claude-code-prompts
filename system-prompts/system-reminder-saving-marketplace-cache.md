@@ -1,4 +1,4 @@
-# System Reminder: saving-marketplace-cache
+# System Prompt: saving-marketplace-cache
 
 - Source: inline
 
