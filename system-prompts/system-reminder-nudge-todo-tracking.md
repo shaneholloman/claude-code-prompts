@@ -1,4 +1,4 @@
-# System Reminder: nudge-todo-tracking
+# System Prompt: nudge-todo-tracking
 
 - Source: inline
 
