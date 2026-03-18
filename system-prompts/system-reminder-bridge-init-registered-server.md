@@ -1,10 +1,10 @@
-# System Reminder: bridge-init-registered-server
+# System Prompt: bridge-init-registered-server
 
 - Source: inline
 
 ## Summary
 
-Register server with environment ID.
+Server environment ID is null.
 
 # Raw Prompt Text
-[bridge:init] Registered, server environmentId=${NUM}
+[bridge:init] Registered, server environmentId=null
