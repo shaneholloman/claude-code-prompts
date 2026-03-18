@@ -7,4 +7,4 @@
 Skipping seed marketplace not found.
 
 # Raw Prompt Text
-Seed marketplace '${NUM}' not found under ${EXPR_1}${PATH}, skipping
+Seed marketplace '${EXPR_1}' not found under ${EXPR_2}${PATH}, skipping
