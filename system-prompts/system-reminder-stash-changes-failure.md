@@ -1,4 +1,4 @@
-# System Reminder: stash-changes-failure
+# System Prompt: stash-changes-failure
 
 - Source: inline
 
