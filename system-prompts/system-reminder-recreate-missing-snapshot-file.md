@@ -1,4 +1,4 @@
-# System Reminder: recreate-missing-snapshot-file
+# System Prompt: recreate-missing-snapshot-file
 
 - Source: inline
 
