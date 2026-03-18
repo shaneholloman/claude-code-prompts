@@ -1,4 +1,4 @@
-# Tool Description: install-native-build
+# Tool Prompt: install-native-build
 
 - Name: install
 
