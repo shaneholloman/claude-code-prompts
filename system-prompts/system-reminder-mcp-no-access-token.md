@@ -1,4 +1,4 @@
-# System Reminder: mcp-no-access-token
+# System Prompt: mcp-no-access-token
 
 - Source: inline
 
