@@ -1,4 +1,4 @@
-# System Reminder: stats-cache-invalid-returning-empty
+# System Prompt: stats-cache-invalid-returning-empty
 
 - Source: inline
 
