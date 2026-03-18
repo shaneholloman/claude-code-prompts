@@ -1,4 +1,4 @@
-# System Reminder: initlayout-complete
+# System Prompt: initlayout-complete
 
 - Source: inline
 
