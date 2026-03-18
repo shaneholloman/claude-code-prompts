@@ -1,4 +1,4 @@
-# Tool Description: interaction-style-json-narrative
+# Tool Prompt: interaction-style-json-narrative
 
 - Name: interaction_style
 
