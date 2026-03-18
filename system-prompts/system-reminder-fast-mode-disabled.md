@@ -1,4 +1,4 @@
-# System Reminder: fast-mode-disabled
+# System Prompt: fast-mode-disabled
 
 - Source: inline
 
