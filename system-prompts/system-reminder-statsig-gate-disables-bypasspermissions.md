@@ -1,4 +1,4 @@
-# System Reminder: statsig-gate-disables-bypasspermissions
+# System Prompt: statsig-gate-disables-bypasspermissions
 
 - Source: inline
 
