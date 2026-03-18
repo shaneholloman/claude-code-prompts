@@ -1,4 +1,4 @@
-# System Data Block: bedrock-foundation-details-2
+# System Prompt: foundation-details
 
 - Source: inline
 
