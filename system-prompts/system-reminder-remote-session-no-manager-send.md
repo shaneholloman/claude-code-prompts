@@ -1,4 +1,4 @@
-# System Reminder: remote-session-no-manager-send
+# System Prompt: remote-session-no-manager-send
 
 - Source: inline
 
