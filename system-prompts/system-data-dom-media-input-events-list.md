@@ -1,4 +1,4 @@
-# System Data Block: dom-media-input-events-list
+# System Prompt: media-event-handlers
 
 - Source: inline
 
