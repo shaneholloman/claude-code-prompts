@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-fetched-successfully
+# System Prompt: remote-settings-fetched-successfully
 
 - Source: inline
 
