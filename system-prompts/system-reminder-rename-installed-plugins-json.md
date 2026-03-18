@@ -1,4 +1,4 @@
-# System Reminder: rename-installed-plugins-json
+# System Prompt: rename-installed-plugins-json
 
 - Source: inline
 
