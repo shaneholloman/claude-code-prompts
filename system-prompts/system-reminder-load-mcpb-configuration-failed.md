@@ -1,4 +1,4 @@
-# System Reminder: load-mcpb-configuration-failed
+# System Prompt: load-mcpb-configuration-failed
 
 - Source: inline
 
