@@ -1,4 +1,4 @@
-# System Reminder: spawning-shell-without-login
+# System Prompt: spawning-shell-without-login
 
 - Source: inline
 
