@@ -1,4 +1,4 @@
-# Tool Description: switch-chrome-automation-browser
+# Tool Prompt: switch-chrome-automation-browser
 
 - Name: switch_browser
 
