@@ -6,12 +6,6 @@
 
 Prepend dynamic text, then remind to watch next message for corrections or preferences.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
 ${EXPR_1}
 
