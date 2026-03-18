@@ -1,4 +1,4 @@
-# System Data Block: bedrock-marketplace-endpoint-fields
+# System Prompt: amazon-bedrock-endpoint-info
 
 - Source: inline
 
