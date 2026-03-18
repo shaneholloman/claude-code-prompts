@@ -1,4 +1,4 @@
-# System Reminder: skip-path-mapping-update
+# System Prompt: skip-path-mapping-update
 
 - Source: inline
 
