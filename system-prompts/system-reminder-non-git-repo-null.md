@@ -1,4 +1,4 @@
-# System Reminder: non-git-repo-null
+# System Prompt: non-git-repo-null
 
 - Source: inline
 
