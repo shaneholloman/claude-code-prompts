@@ -1,4 +1,4 @@
-# System Reminder: skipping-bridge-not-enabled
+# System Prompt: bridge-repl-skipping-enabled
 
 - Source: inline
 
