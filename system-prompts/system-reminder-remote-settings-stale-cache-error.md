@@ -1,4 +1,4 @@
-# System Reminder: remote-settings-stale-cache-error
+# System Prompt: remote-settings-stale-cache-error
 
 - Source: inline
 
