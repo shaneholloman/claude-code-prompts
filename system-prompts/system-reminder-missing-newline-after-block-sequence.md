@@ -1,4 +1,4 @@
-# System Reminder: missing-newline-after-block-sequence
+# System Prompt: missing-newline-after-block-sequence
 
 - Source: inline
 
