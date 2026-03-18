@@ -1,4 +1,4 @@
-# System Reminder: anchor-not-empty-string
+# System Prompt: anchor-not-empty-string
 
 - Source: inline
 
