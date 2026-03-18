@@ -1,4 +1,4 @@
-# System Reminder: lsp-server-manager-initialized
+# System Prompt: lsp-server-manager-initialized
 
 - Source: inline
 
