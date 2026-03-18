@@ -1,16 +1,10 @@
-# Tool Description: exact-file-string-replace
+# Tool Prompt: exact-file-string-replace
 
 - Name: Edit
 
 ## Summary
 
 Describes exact in-file replacement tool rules, requiring prior read and unique old_string.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Performs exact string replacements in files.
