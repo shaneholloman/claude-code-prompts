@@ -1,4 +1,4 @@
-# System Reminder: permission-explainer-no-parsed-output
+# System Prompt: permission-explainer-no-parsed-output
 
 - Source: inline
 
