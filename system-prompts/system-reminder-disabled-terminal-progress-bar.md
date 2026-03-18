@@ -1,4 +1,4 @@
-# System Reminder: disabled-terminal-progress-bar
+# System Prompt: disabled-terminal-progress-bar
 
 - Source: inline
 
