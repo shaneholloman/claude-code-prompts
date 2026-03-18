@@ -1,4 +1,4 @@
-# System Reminder: policy-limits-deleted-cached-file
+# System Prompt: policy-limits-deleted-cached-file
 
 - Source: inline
 
