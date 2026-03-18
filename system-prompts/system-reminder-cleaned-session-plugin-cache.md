@@ -1,4 +1,4 @@
-# System Reminder: cleaned-session-plugin-cache
+# System Prompt: cleaned-session-plugin-cache
 
 - Source: inline
 
