@@ -1,16 +1,10 @@
-# System Data Block: mention-triggered-github-workflow
+# System Prompt: github-event-listener
 
 - Source: inline
 
 ## Summary
 
 Runs Claude Code action on issues or comments mentioning @claude, using Anthropic API key.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 name: Claude Code
