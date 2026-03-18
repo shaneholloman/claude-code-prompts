@@ -1,4 +1,4 @@
-# System Reminder: disabling-bypass-permissions-mode
+# System Prompt: disabling-bypass-permissions-mode
 
 - Source: inline
 
