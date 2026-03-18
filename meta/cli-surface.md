@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 28
-- Options: 66
+- Options: 68
 - Env vars: 447
-- Config keys: 686
+- Config keys: 695
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -94,8 +94,10 @@
 - `--betas`
 - `--callback-port`
 - `--chrome`
+- `--claudeai`
 - `--client-id`
 - `--client-secret`
+- `--console`
 - `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
@@ -161,8 +163,10 @@
 - `--betas <betas...>`
 - `--callback-port <port>`
 - `--chrome`
+- `--claudeai`
 - `--client-id <clientId>`
 - `--client-secret`
+- `--console`
 - `--dangerously-skip-permissions`
 - `--debug-file <path>`
 - `--disable-slash-commands`
@@ -417,6 +421,7 @@
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
+- `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
@@ -547,7 +552,6 @@
 - `MAX_STRUCTURED_OUTPUT_RETRIES`
 - `MAX_THINKING_TOKENS`
 - `MCP_CLIENT_SECRET`
-- `MCP_CONNECTION_NONBLOCKING`
 - `MCP_OAUTH_CALLBACK_PORT`
 - `MCP_REMOTE_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
@@ -682,8 +686,11 @@
 - `agents`
 - `all`
 - `allow`
+- `allow_default_hosts`
 - `allowAllUnixSockets`
+- `allowCrossMarketplaceDependenciesOn`
 - `allowed`
+- `allowed_hosts`
 - `allowedDomains`
 - `allowedEnvVars`
 - `allowedHttpHookUrls`
@@ -865,6 +872,7 @@
 - `entryChecksums`
 - `env`
 - `environment`
+- `environment_type`
 - `environmentId`
 - `ephemeral_1h_input_tokens`
 - `ephemeral_5m_input_tokens`
@@ -948,6 +956,7 @@
 - `init_retry_jitter_fraction`
 - `init_retry_max_attempts`
 - `init_retry_max_delay_ms`
+- `init_script`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
@@ -972,9 +981,9 @@
 - `jsonSchema`
 - `key`
 - `keywords`
-- `KN`
 - `label`
 - `language`
+- `languages`
 - `last_assistant_message`
 - `last_tool_name`
 - `lastModified`
@@ -990,6 +999,7 @@
 - `login`
 - `lspServers`
 - `mandatoryDenySearchDepth`
+- `marketplace`
 - `matcher`
 - `matcherMetadata`
 - `matches`
@@ -1029,6 +1039,7 @@
 - `multisession_poll_interval_ms_partial_capacity`
 - `name`
 - `network`
+- `network_config`
 - `new_source`
 - `new_text`
 - `newContent`
@@ -1147,6 +1158,7 @@
 - `recurring`
 - `recurringCapMs`
 - `recurringFrac`
+- `recurringMaxAgeMs`
 - `ref`
 - `region`
 - `registry`
@@ -1171,7 +1183,6 @@
 - `result`
 - `resultCount`
 - `results`
-- `resultWasTruncated`
 - `retry_delay_ms`
 - `returnCodeInterpretation`
 - `ripgrep`
@@ -1275,6 +1286,7 @@
 - `team_name`
 - `teammate_name`
 - `teamName`
+- `teardown_archive_timeout_ms`
 - `terminalTitleFromRename`
 - `text`
 - `thinking`
@@ -1346,6 +1358,7 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
+- `XN`
 
 ## Tools
 
