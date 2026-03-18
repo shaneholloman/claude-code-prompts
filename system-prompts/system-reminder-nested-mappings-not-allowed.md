@@ -1,4 +1,4 @@
-# System Reminder: nested-mappings-not-allowed
+# System Prompt: nested-mappings-not-allowed
 
 - Source: inline
 
