@@ -1,4 +1,4 @@
-# System Reminder: missing-closing-quote
+# System Prompt: missing-closing-quote
 
 - Source: inline
 
