@@ -1,4 +1,4 @@
-# System Reminder: output-style-force-ignored
+# System Prompt: output-style-force-ignored
 
 - Source: inline
 
