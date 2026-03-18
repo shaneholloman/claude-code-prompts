@@ -1,4 +1,4 @@
-# System Reminder: map-comment-trailing-content
+# System Prompt: map-comment-trailing-content
 
 - Source: inline
 
