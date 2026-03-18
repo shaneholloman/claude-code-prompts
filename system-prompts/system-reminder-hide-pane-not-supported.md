@@ -1,4 +1,4 @@
-# System Reminder: hide-pane-not-supported
+# System Prompt: hide-pane-not-supported
 
 - Source: inline
 
