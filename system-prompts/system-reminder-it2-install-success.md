@@ -1,4 +1,4 @@
-# System Reminder: it2-install-success
+# System Prompt: it2-install-success
 
 - Source: inline
 
