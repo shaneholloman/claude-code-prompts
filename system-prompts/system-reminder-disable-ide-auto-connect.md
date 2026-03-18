@@ -1,4 +1,4 @@
-# System Reminder: disable-ide-auto-connect
+# System Prompt: disable-ide-auto-connect
 
 - Source: inline
 
