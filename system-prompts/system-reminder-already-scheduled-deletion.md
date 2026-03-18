@@ -1,4 +1,4 @@
-# System Reminder: already-scheduled-deletion
+# System Prompt: already-scheduled-deletion
 
 - Source: inline
 
