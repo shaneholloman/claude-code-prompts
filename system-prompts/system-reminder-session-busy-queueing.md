@@ -1,4 +1,4 @@
-# System Reminder: session-busy-queueing
+# System Prompt: session-busy-queueing
 
 - Source: inline
 
