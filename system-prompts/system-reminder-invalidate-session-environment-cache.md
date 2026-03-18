@@ -1,4 +1,4 @@
-# System Reminder: invalidate-session-environment-cache
+# System Prompt: invalidate-session-environment-cache
 
 - Source: inline
 
