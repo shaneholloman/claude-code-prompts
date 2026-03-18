@@ -1,4 +1,4 @@
-# System Reminder: node-extra-ca-certs-detected
+# System Prompt: node-extra-ca-certs-detected
 
 - Source: inline
 
