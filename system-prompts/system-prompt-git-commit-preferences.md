@@ -1,4 +1,4 @@
-# System Prompt: git-commit-preference
+# System Prompt: prefer-new-commit-over-amend
 
 - Source: inline
 
