@@ -1,4 +1,4 @@
-# System Reminder: check-task-output
+# System Prompt: check-task-output
 
 - Source: inline
 
