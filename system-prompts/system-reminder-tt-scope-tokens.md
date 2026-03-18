@@ -1,4 +1,4 @@
-# System Reminder: tt-scope-tokens
+# System Prompt: tt-scope-tokens
 
 - Source: inline
 
