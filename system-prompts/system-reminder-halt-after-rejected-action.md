@@ -1,4 +1,4 @@
-# System Reminder: halt-after-rejected-action
+# System Prompt: halt-after-rejected-action
 
 - Source: inline
 
