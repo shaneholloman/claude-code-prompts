@@ -1,4 +1,4 @@
-# System Reminder: repl-unmounting
+# System Prompt: repl-unmounting
 
 - Source: inline
 
