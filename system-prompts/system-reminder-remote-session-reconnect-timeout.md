@@ -1,4 +1,4 @@
-# System Reminder: remote-session-reconnect-timeout
+# System Prompt: remote-session-reconnect-timeout
 
 - Source: inline
 
