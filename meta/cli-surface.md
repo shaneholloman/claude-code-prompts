@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 28
-- Options: 65
-- Env vars: 444
-- Config keys: 684
+- Options: 66
+- Env vars: 447
+- Config keys: 686
 - Tools: 3
 - Skills: 0
 - Models: 92
@@ -114,6 +114,7 @@
 - `--ide`
 - `--include-partial-messages`
 - `--json`
+- `--keep-data`
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
@@ -175,6 +176,7 @@
 - `--ide`
 - `--include-partial-messages`
 - `--json`
+- `--keep-data`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
@@ -217,6 +219,9 @@
 - `ANTHROPIC_BEDROCK_BASE_URL`
 - `ANTHROPIC_BETAS`
 - `ANTHROPIC_CUSTOM_HEADERS`
+- `ANTHROPIC_CUSTOM_MODEL_OPTION`
+- `ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION`
+- `ANTHROPIC_CUSTOM_MODEL_OPTION_NAME`
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL`
 - `ANTHROPIC_DEFAULT_OPUS_MODEL`
 - `ANTHROPIC_DEFAULT_SONNET_MODEL`
@@ -348,6 +353,7 @@
 - `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
 - `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS`
 - `CLAUDE_CODE_EXTRA_BODY`
+- `CLAUDE_CODE_EXTRA_METADATA`
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
@@ -410,7 +416,6 @@
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
-- `CLAUDE_CODE_STREAMING_TEXT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
@@ -865,6 +870,7 @@
 - `ephemeral_5m_input_tokens`
 - `error`
 - `error_code`
+- `error_details`
 - `error_status`
 - `errors`
 - `event`
@@ -966,6 +972,7 @@
 - `jsonSchema`
 - `key`
 - `keywords`
+- `KN`
 - `label`
 - `language`
 - `last_assistant_message`
@@ -982,7 +989,6 @@
 - `localSettings`
 - `login`
 - `lspServers`
-- `lv`
 - `mandatoryDenySearchDepth`
 - `matcher`
 - `matcherMetadata`
@@ -1211,6 +1217,7 @@
 - `slash_commands`
 - `socketPath`
 - `socksProxyPort`
+- `soft_deny`
 - `source`
 - `sources`
 - `sparsePaths`
