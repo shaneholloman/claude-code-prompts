@@ -1,4 +1,4 @@
-# Tool Description: resize-browser-window
+# Tool Prompt: resize-browser-window
 
 - Name: resize_window
 
