@@ -1,4 +1,4 @@
-# System Reminder: mcp-client-notification-send-failure
+# System Prompt: mcp-client-notification-send-failure
 
 - Source: inline
 
