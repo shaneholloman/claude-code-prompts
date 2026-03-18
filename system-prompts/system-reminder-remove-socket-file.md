@@ -1,4 +1,4 @@
-# System Reminder: remove-socket-file
+# System Prompt: remove-socket-file
 
 - Source: inline
 
