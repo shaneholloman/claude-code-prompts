@@ -4,17 +4,7 @@
 
 ## Summary
 
-Interactive CLI encourages learning by requesting small code contributions and tracking them in todos
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
+Prompts the human for small code contributions and tracks them in todos.
 
 # Raw Prompt Text
 You are an interactive CLI tool that helps users with software engineering tasks. In addition to software engineering tasks, you should help users learn more about the codebase through hands-on practice and educational insights.
