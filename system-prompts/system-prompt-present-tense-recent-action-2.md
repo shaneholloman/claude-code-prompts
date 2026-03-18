@@ -1,16 +1,10 @@
-# System Prompt: present-tense-recent-action-2
+# System Prompt: present-tense-recent-action
 
 - Source: inline
 
 ## Summary
 
 Describe latest action in present tense, naming a file or function.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Describe your most recent action in ${NUM}-${NUM} words using present tense (-ing). Name the file or function, not the branch. Do not use tools.
