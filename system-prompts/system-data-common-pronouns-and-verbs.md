@@ -1,4 +1,4 @@
-# System Data Block: common-pronouns-and-verbs
+# System Prompt: pronouns-and-basic-verbs
 
 - Source: inline
 
