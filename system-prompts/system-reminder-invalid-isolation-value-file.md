@@ -1,18 +1,10 @@
-# System Reminder: invalid-isolation-value-file
+# System Prompt: invalid-isolation-value-file
 
 - Source: inline
 
 ## Summary
 
-Agent file has invalid isolation value provided.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
+Invalid isolation value for the agent file.
 
 # Raw Prompt Text
-Agent file ${EXPR_1} has invalid isolation value '${EXPR_2}'. Valid options: ${EXPR_3}
+Agent file ${EXPR_1} has invalid isolation value 'mcp__${EXPR_2}__'. Valid options: ${EXPR_3}, ${EXPR_4}
