@@ -1,4 +1,4 @@
-# System Reminder: message-not-found
+# System Prompt: message-not-found
 
 - Source: inline
 
