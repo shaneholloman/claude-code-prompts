@@ -1,4 +1,4 @@
-# System Reminder: type-alphanumeric-hyphens
+# System Prompt: type-alphanumeric-hyphens
 
 - Source: inline
 
