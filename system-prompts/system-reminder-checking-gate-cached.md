@@ -1,4 +1,4 @@
-# System Reminder: checking-gate-cached
+# System Prompt: checking-gate-cached
 
 - Source: inline
 
