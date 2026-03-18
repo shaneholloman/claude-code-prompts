@@ -1,4 +1,4 @@
-# System Reminder: security-messages-saved
+# System Prompt: security-messages-saved
 
 - Source: inline
 
