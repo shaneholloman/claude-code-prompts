@@ -1,4 +1,4 @@
-# System Reminder: session-token-invalid
+# System Prompt: session-token-invalid
 
 - Source: inline
 
