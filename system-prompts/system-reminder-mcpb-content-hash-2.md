@@ -1,16 +1,10 @@
-# System Reminder: mcpb-content-hash-2
+# System Prompt: mcpb-content-hash-2
 
 - Source: inline
 
 ## Summary
 
 MCPB content hash generated.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 MCPB content hash: ${EXPR_1}
