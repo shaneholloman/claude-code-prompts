@@ -6,13 +6,6 @@
 
 Notifies plan submission for team lead approval; await inbox response before implementing.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-
 # Raw Prompt Text
 Your plan has been submitted to the team lead for approval.
 
@@ -26,4 +19,4 @@ ${NUM}. If rejected, refine your plan based on the feedback
 
 **Important:** Do NOT proceed until you receive approval. Check your inbox for response.
 
-Request ID: ${EXPR_2}
+Request ID: ${NUM}
