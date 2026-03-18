@@ -1,4 +1,4 @@
-# System Reminder: input-closed-inject-shutdown
+# System Prompt: input-closed-inject-shutdown
 
 - Source: inline
 
