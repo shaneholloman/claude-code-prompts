@@ -1,4 +1,4 @@
-# System Reminder: disable-custom-api-key
+# System Prompt: disable-custom-api-key
 
 - Source: inline
 
