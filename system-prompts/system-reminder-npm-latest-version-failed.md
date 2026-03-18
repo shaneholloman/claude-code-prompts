@@ -1,4 +1,4 @@
-# System Reminder: npm-latest-version-failed
+# System Prompt: npm-latest-version-failed
 
 - Source: inline
 
