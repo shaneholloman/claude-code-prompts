@@ -1,4 +1,4 @@
-# System Reminder: manual-removal-enotempty
+# System Prompt: manual-removal-enotempty
 
 - Source: inline
 
