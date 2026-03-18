@@ -1,4 +1,4 @@
-# System Data Block: html-doctype-variants-list-2
+# System Prompt: html-level-strict-internet-explorer
 
 - Source: inline
 
