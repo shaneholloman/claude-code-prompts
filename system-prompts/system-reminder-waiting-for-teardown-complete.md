@@ -1,4 +1,4 @@
-# System Reminder: bridge-repl-hook-waiting-previous
+# System Prompt: bridge-repl-hook-waiting
 
 - Source: inline
 
