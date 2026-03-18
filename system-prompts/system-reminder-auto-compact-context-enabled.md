@@ -1,4 +1,4 @@
-# System Reminder: auto-compact-context-enabled
+# System Prompt: auto-compact-context-enabled
 
 - Source: inline
 
