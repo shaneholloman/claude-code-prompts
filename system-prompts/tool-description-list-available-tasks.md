@@ -1,18 +1,10 @@
-# Tool Description: list-available-tasks
+# Tool Prompt: list-available-tasks
 
 - Name: TaskList
 
 ## Summary
 
 List all tasks and summarize status, owner, and blockers to choose next work.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Use this tool to list all tasks in the task list.
