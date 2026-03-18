@@ -55,7 +55,7 @@ import com.anthropic.models.messages.Model;
 
 MessageCreateParams params = MessageCreateParams.builder()
     .model(Model.CLAUDE_OPUS_4_6)
-    .maxTokens(1024L)
+    .maxTokens(16000L)
     .addUserMessage("What is the capital of France?")
     .build();
 
@@ -75,7 +75,7 @@ import com.anthropic.models.messages.RawMessageStreamEvent;
 
 MessageCreateParams params = MessageCreateParams.builder()
     .model(Model.CLAUDE_OPUS_4_6)
-    .maxTokens(1024L)
+    .maxTokens(64000L)
     .addUserMessage("Write a haiku")
     .build();
 
@@ -146,7 +146,7 @@ static class GetWeather implements Supplier<String> {
 BetaToolRunner toolRunner = client.beta().messages().toolRunner(
     MessageCreateParams.builder()
         .model("{{OPUS_ID}}")
-        .maxTokens(1024L)
+        .maxTokens(16000L)
         .putAdditionalHeader("anthropic-beta", "structured-outputs-${DATE}")
         .addTool(GetWeather.class)
         .addUserMessage("What's the weather in San Francisco?")
@@ -213,7 +213,7 @@ Tool tool = Tool.builder()
 
 MessageCreateParams params = MessageCreateParams.builder()
     .model(Model.CLAUDE_SONNET_4_6)
-    .maxTokens(1024L)
+    .maxTokens(16000L)
     .addTool(tool)
     .addUserMessage("Weather in Paris?")
     .build();
@@ -309,7 +309,7 @@ record BookList(List<Book> books) {}
 
 StructuredMessageCreateParams<BookList> params = MessageCreateParams.builder()
     .model(Model.CLAUDE_SONNET_4_6)
-    .maxTokens(2048L)
+    .maxTokens(16000L)
     .outputConfig(BookList.class)  // returns a typed builder
     .addUserMessage("List ${NUM} classic novels")
     .build();
@@ -380,7 +380,7 @@ import com.anthropic.models.beta.messages.BetaRequestMcpServerUrlDefinition;
 
 MessageCreateParams params = MessageCreateParams.builder()
     .model(Model.CLAUDE_OPUS_4_6)
-    .maxTokens(1024L)
+    .maxTokens(16000L)
     .addBeta("mcp-client-${DATE}")
     .addTool(BetaToolBash20250124.builder().build())
     .addTool(BetaCodeExecutionTool20260120.builder().build())
