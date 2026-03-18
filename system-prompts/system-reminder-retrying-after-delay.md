@@ -1,17 +1,10 @@
-# System Reminder: retrying-after-delay
+# System Prompt: retrying-after-delay
 
 - Source: inline
 
 ## Summary
 
-Indicates an operation will retry after a specified delay in milliseconds.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+States an operation will be retried after a delay.
 
 # Raw Prompt Text
-Retrying ${EXPR_1} in ${EXPR_2}ms...
+Retrying ${EXPR_1} in 0ms...
