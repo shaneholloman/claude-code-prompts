@@ -1,4 +1,4 @@
-# System Reminder: natural-language-to-iso-date
+# System Prompt: natural-language-to-iso-date
 
 - Source: inline
 
