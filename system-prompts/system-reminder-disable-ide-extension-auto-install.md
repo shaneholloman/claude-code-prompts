@@ -1,4 +1,4 @@
-# System Reminder: disable-ide-extension-auto-install
+# System Prompt: disable-ide-extension-auto-install
 
 - Source: inline
 
