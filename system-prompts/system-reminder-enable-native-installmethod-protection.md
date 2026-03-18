@@ -1,4 +1,4 @@
-# System Reminder: enable-native-installmethod-protection
+# System Prompt: enable-native-installmethod-protection
 
 - Source: inline
 
