@@ -1,17 +1,10 @@
-# System Reminder: bridge-work-starting-poll-loop
+# System Prompt: bridge-work-starting-poll-loop
 
 - Source: inline
 
 ## Summary
 
-Starting the polling loop for sessions.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+Initiate the polling loop for the bridge work.
 
 # Raw Prompt Text
-[bridge:work] Starting poll loop maxSessions=${EXPR_1} environmentId=${EXPR_2}
+[bridge:work] Starting poll loop spawnMode=${EXPR_1} maxSessions=${EXPR_2} environmentId=${EXPR_3}
