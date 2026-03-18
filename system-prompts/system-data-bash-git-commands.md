@@ -1,4 +1,4 @@
-# System Data Block: bash-commands-reference
+# System Prompt: bash-git-slack-commands
 
 - Source: inline
 
