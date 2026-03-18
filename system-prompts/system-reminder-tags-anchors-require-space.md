@@ -1,4 +1,4 @@
-# System Reminder: tags-anchors-require-space
+# System Prompt: tags-anchors-require-space
 
 - Source: inline
 
