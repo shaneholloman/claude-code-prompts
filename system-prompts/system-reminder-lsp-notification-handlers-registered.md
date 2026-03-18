@@ -1,4 +1,4 @@
-# System Reminder: lsp-notification-handlers-registered
+# System Prompt: lsp-notification-handlers-registered
 
 - Source: inline
 
@@ -6,11 +6,5 @@
 
 Confirm notification handlers registered successfully for all configured servers.
 
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-
 # Raw Prompt Text
-LSP notification handlers registered successfully for all ${EXPR_1} server(s)
+LSP notification handlers registered successfully for all ${NUM} server(s)
