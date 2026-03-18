@@ -1,4 +1,4 @@
-# Tool Description: stop-background-task
+# Tool Prompt: stop-background-task
 
 - Name: TaskStop
 
