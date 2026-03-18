@@ -1,17 +1,10 @@
-# System Reminder: copied-files-worktreeinclude
+# System Prompt: copied-files-from-worktreeinclude
 
 - Source: inline
 
 ## Summary
 
-Copied files from .worktreeinclude.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+Files copied from worktreeinclude.
 
 # Raw Prompt Text
-Copied ${EXPR_1} files from .worktreeinclude: ${EXPR_2}
+Copied ${EXPR_1} files from .worktreeinclude: ${EXPR_2}, ${EXPR_3}
