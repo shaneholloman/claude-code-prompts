@@ -1,4 +1,4 @@
-# System Reminder: unknown-error-during-spawn
+# System Prompt: unknown-error-during-spawn
 
 - Source: inline
 
