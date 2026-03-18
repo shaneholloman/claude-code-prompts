@@ -1,4 +1,4 @@
-# Tool Description: device-running-out-of-power
+# Tool Prompt: device-running-out-of-power
 
 - Name: SIGPWR
 
