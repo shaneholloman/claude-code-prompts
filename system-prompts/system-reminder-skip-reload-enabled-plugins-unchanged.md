@@ -1,4 +1,4 @@
-# System Reminder: skip-reload-enabled-plugins-unchanged
+# System Prompt: skip-reload-enabled-plugins-unchanged
 
 - Source: inline
 
