@@ -1,4 +1,4 @@
-# System Reminder: arraybuffer-instantiation-fallback
+# System Prompt: arraybuffer-instantiation-fallback
 
 - Source: inline
 
