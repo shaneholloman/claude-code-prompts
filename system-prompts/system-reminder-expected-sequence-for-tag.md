@@ -1,4 +1,4 @@
-# System Reminder: expected-sequence-for-tag
+# System Prompt: expected-sequence-for-tag
 
 - Source: inline
 
