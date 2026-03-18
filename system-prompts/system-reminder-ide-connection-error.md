@@ -1,4 +1,4 @@
-# System Reminder: ide-connection-error
+# System Prompt: ide-connection-error
 
 - Source: inline
 
