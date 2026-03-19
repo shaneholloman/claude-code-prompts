@@ -1,4 +1,4 @@
-# System Prompt: sql-analysis-functions
+# System Prompt: sql-analysis-functions-2
 
 - Source: inline
 
