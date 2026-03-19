@@ -1,0 +1,12 @@
+# System Prompt: wfe-text-radio-group-usage
+
+- Source: inline
+
+## Summary
+
+Usage of various expressions in workflow elements.
+
+# Raw Prompt Text
+atUser atGroup atRole ${EXPR_1}apBegin apEnd alLeft alRight ${EXPR_2}cirCommon cirRevoked ctSignature ctEncode ctSignatureEncode clbUnchecked clbChecked clbGrayed ceISB ceAlways ceNever ${PATH} ${EXPR_3}cfInternal cfDisplay ciUnspecified ciWrite ciRead ${EXPR_4}${EXPR_5}${EXPR_6}
+
+${EXPR_7}cltInternal cltPrimary cltGUI defaultdssEdit dssInsert dssBrowse dssInActive dftDate dftShortDate dftDateTime dftTimeStamp dotDays dotHours dotMinutes dotSeconds dtkndLocal dtkndUTC arNone arView arEdit arFull ddaView ddaEdit Server status: ${EXPR_8}ecotFile ecotProcess eaGet eaCopy eaCreate eaCreateStandardRoute edltAll edltNothing edltQuery essmText essmCard esvtLast esvtLastActive esvtSpecified edsfExecutive edsfArchive edstSQLServer edstFile edvstNone edvstEDocumentVersionCopy edvstFile edvstTemplate edvstScannedFile vsDefault vsDesign vsActive vsObsolete etNone etCertificate etPassword etCertificatePassword ecException ecWarning ecInformation estAll estApprovingOnly evtLast evtLastActive evtQuery ${EXPR_9}${EXPR_10}${EXPR_11}${EXPR_12}shadowed${EXPR_13}${EXPR_14}${EXPR_15}${EXPR_16}${EXPR_17}${EXPR_18}(${EXPR_19})${EXPR_20}lbpAbove lbpBelow lbpLeft lbpRight ${EXPR_21}${EXPR_22}${NUM}${EXPR_23}${EXPR_24}${EXPR_25}${EXPR_26}${EXPR_27}rdtString rdtNumeric rdtInteger rdtDate rdtReference rdtAccount rdtText rdtPick rdtUnknown rdtLargeInteger rdtDocument reOnChange reOnChangeValues ${EXPR_28}${EXPR_29}smSelect smLike smCard 0sctString sctStream sstAnsiSort sstNaturalSort ${EXPR_30}${EXPR_31}tarAbortByUser tarAbortByWorkflowException ${EXPR_32}null${EXPR_33}${EXPR_34}vmView vmSelect vmNavigation vsmSingle vsmMultiple vsmMultipleCheck vsmNoSelection ${EXPR_35}wfepUndefined wfepText3 wfepText6 wfepText9 wfepSpinEdit wfepDropDown wfepRadioGroup wfepFlag wfepText12 wfepText15 wfepText18 wfepText21 wfepText24 wfepText27 wfepText30 wfepRadioGroupColumn1 wfepRadioGroupColumn2 wfepRadioGroupColumn3 ${EXPR_36}wptString wptInteger wptNumeric wptBoolean wptDateTime wptPick wptText wptUser wptUserList wptEDocumentInfo wptEDocumentInfoList wptReferenceRecordInfo wptReferenceRecordInfoList wptFolderInfo wptTaskInfo wptContents wptFileName wptDate maintenance⚠ ${EXPR_37} will be retired on ${EXPR_38}. Consider switching to a newer model.${EXPR_39}${NUM}${EXPR_40}wiLow wiNormal wiHigh ${EXPR_41}nullnull
