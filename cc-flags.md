@@ -1,9 +1,10 @@
-# Claude Code Flags 2.1.79
+# Claude Code Flags 2.1.80
 
 ## Feature Gates
 
 - `tengu_ccr_bridge`
 - `tengu_ccr_bridge_multi_session`
+- `tengu_ccr_bundle_seed_enabled`
 - `tengu_chair_sermon`
 - `tengu_disable_bypass_permissions_mode`
 - `tengu_scratch`

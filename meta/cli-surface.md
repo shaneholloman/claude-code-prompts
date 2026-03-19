@@ -4,11 +4,11 @@
 
 - Commands: 28
 - Options: 68
-- Env vars: 447
-- Config keys: 695
+- Env vars: 449
+- Config keys: 688
 - Tools: 3
 - Skills: 0
-- Models: 92
+- Models: 93
 - Providers: 8
 
 ## Commands
@@ -275,6 +275,8 @@
 - `BROWSER`
 - `BUILDKITE`
 - `C`
+- `CCR_ENABLE_BUNDLE`
+- `CCR_FORCE_BUNDLE`
 - `CF_PAGES`
 - `CHOKIDAR_INTERVAL`
 - `CHOKIDAR_USEPOLLING`
@@ -664,7 +666,6 @@
 
 ## Config Keys
 
-- `_`
 - `$docs`
 - `$schema`
 - `A`
@@ -676,7 +677,6 @@
 - `additionalContext`
 - `additionalDirectories`
 - `additions`
-- `after`
 - `agent`
 - `agent_id`
 - `agent_transcript_path`
@@ -684,7 +684,6 @@
 - `agentId`
 - `agentProgressSummaries`
 - `agents`
-- `all`
 - `allow`
 - `allow_default_hosts`
 - `allowAllUnixSockets`
@@ -751,8 +750,6 @@
 - `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
-- `before`
-- `beg`
 - `behavior`
 - `betas`
 - `bindings`
@@ -761,7 +758,6 @@
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
-- `body`
 - `bpfPath`
 - `branch`
 - `budgetTokens`
@@ -796,6 +792,7 @@
 - `compact_summary`
 - `companyAnnouncements`
 - `config`
+- `connect_timeout_ms`
 - `content`
 - `contents`
 - `context`
@@ -853,7 +850,6 @@
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
-- `edits`
 - `effective`
 - `effort`
 - `effortLevel`
@@ -910,6 +906,7 @@
 - `fileSuggestion`
 - `filesystem`
 - `firstPrompt`
+- `fk`
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
@@ -961,7 +958,6 @@
 - `input`
 - `input_tokens`
 - `inputTokens`
-- `insert`
 - `insertions`
 - `installedAt`
 - `installLocation`
@@ -1021,10 +1017,12 @@
 - `memory_type`
 - `message`
 - `message_uuid`
+- `meta`
 - `metadata`
 - `method`
 - `mimeType`
 - `min`
+- `min_version`
 - `minimumVersion`
 - `mitmProxy`
 - `mode`
@@ -1041,7 +1039,6 @@
 - `network`
 - `network_config`
 - `new_source`
-- `new_text`
 - `newContent`
 - `newLines`
 - `newStart`
@@ -1060,7 +1057,6 @@
 - `numMatches`
 - `oauth`
 - `ok`
-- `old_text`
 - `oldLines`
 - `oldStart`
 - `oldString`
@@ -1122,6 +1118,7 @@
 - `planContent`
 - `planFilePath`
 - `plansDirectory`
+- `plugin`
 - `pluginConfigs`
 - `pluginRoot`
 - `plugins`
@@ -1164,7 +1161,6 @@
 - `registry`
 - `remote`
 - `removed`
-- `replace`
 - `replaceAll`
 - `repo`
 - `repository`
@@ -1213,8 +1209,6 @@
 - `session_id`
 - `session_keepalive_interval_v2_ms`
 - `sessionId`
-- `set`
-- `set_range`
 - `setting`
 - `settings`
 - `sha`
@@ -1251,6 +1245,7 @@
 - `stop_hook_active`
 - `stop_reason`
 - `stopReason`
+- `strict`
 - `strictKnownMarketplaces`
 - `structured_output`
 - `structuredContent`
@@ -1358,7 +1353,7 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `XN`
+- `z`
 
 ## Tools
 
@@ -1397,6 +1392,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code-default`
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
