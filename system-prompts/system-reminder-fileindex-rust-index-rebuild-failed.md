@@ -7,4 +7,4 @@
 Log failure to rebuild Rust index in FileIndex with error details.
 
 # Raw Prompt Text
-[FileIndex] failed to rebuild Rust index: ${EXPR_1}
+[FileIndex] failed to rebuild Rust index: ${NUM}
