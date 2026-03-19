@@ -7,4 +7,4 @@
 Lists the available environments.
 
 # Raw Prompt Text
-Available environments: ${EXPR_1}, ${EXPR_2}, ${EXPR_3}
+Available environments: ${EXPR_1}, ${EXPR_2}
