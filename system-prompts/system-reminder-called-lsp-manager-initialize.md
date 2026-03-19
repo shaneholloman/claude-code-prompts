@@ -1,4 +1,4 @@
-# System Prompt: called-lsp-manager-initialize
+# System Prompt: lsp-manager-reinitialization
 
 - Source: inline
 
