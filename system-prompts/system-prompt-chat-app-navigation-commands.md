@@ -93,6 +93,8 @@ historySearch:cancel
 
 historySearch:execute
 
+historySearch:navUp
+
 task:background
 
 theme:toggleSyntaxHighlighting
@@ -106,6 +108,8 @@ attachments:previous
 attachments:remove
 
 attachments:exit
+
+attachments:toMessages
 
 footer:next
 
