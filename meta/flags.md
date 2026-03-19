@@ -10,7 +10,7 @@
 | `tengu_bridge_poll_interval_config` | config | networking | Sets Tengu bridge session polling/keepalive intervals (0 disables polling). | Value is validated: must be 0 (disabled) or ≥100ms; defaults appear to be used on parse failure. | medium | 1 |
 | `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 1 |
 | `tengu_ccr_bridge_multi_session` | gate | tools | Toggles multi-session spawning behavior for a Tengu CCR bridge process. | Only spawn/session-related code is visible; the exact behavioral differences when enabled are not shown. | medium | 1 |
-| `tengu_ccr_bundle_seed_enabled` | gate |  |  |  |  | 1 |
+| `tengu_ccr_bundle_seed_enabled` | gate | tools | Controls whether CCR bundle seeding is enabled. | Inference based on the flag name and CCR bundle naming pattern. | medium | 1 |
 | `tengu_chair_sermon` | gate | tools | Changes how attachments and message content are transformed/merged in the tool/chat message pipeline. | The concrete effects depend on hidden transforms (Gqz/Vqz/tZq) not shown in this snippet. | medium | 4 |
 | `tengu_desktop_upsell` | config | prompts | Enables a desktop upsell startup dialog on macOS and Windows (x64). | Guarded by platform checks and disabled on WSL; exact dialog content not shown in snippet. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
