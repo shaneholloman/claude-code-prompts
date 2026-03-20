@@ -156,22 +156,86 @@ Basic HTML and CSS structure with styling details.
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">What You Wanted<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_14}
+${EXPR_15}
+${EXPR_16}
+${EXPR_17}
+${EXPR_18}
+${EXPR_19}
+${EXPR_20}
+${EXPR_21}
+## Reserved Shortcuts
+
+${EXPR_22}
+## Available Contexts
+
+${EXPR_23}
+## Available Actions
+
+${EXPR_24}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Top Tools Used<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_25}
+${EXPR_26}
+${EXPR_27}
+${EXPR_28}
+${EXPR_29}
+${EXPR_30}
+${EXPR_31}
+${EXPR_32}
+## Reserved Shortcuts
+
+${EXPR_33}
+## Available Contexts
+
+${EXPR_34}
+## Available Actions
+
+${EXPR_35}
       <${PATH}>
     <${PATH}>
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">Languages<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_36}
+${EXPR_37}
+${EXPR_38}
+${EXPR_39}
+${EXPR_40}
+${EXPR_41}
+${EXPR_42}
+${EXPR_43}
+## Reserved Shortcuts
+
+${EXPR_44}
+## Available Contexts
+
+${EXPR_45}
+## Available Actions
+
+${EXPR_46}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Session Types<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_47}
+${EXPR_48}
+${EXPR_49}
+${EXPR_50}
+${EXPR_51}
+${EXPR_52}
+${EXPR_53}
+${EXPR_54}
+## Reserved Shortcuts
+
+${EXPR_55}
+## Available Contexts
+
+${EXPR_56}
+## Available Actions
+
+${EXPR_57}
       <${PATH}>
     <${PATH}>
 
@@ -182,7 +246,7 @@ Basic HTML and CSS structure with styling details.
       <div class="chart-title">User Response Time Distribution<${PATH}>
       <p class="empty">No response time data</p>
       <div style="font-size: 12px; color: #64748b; margin-top: 8px;">
-        Median: ${EXPR_14}s &bull; Average: ${EXPR_15}s
+        Median: ${EXPR_58}s &bull; Average: ${EXPR_59}s
       <${PATH}>
     <${PATH}>
 
@@ -192,11 +256,11 @@ Basic HTML and CSS structure with styling details.
 
         <div style="display: flex; gap: 24px; margin: 12px ${NUM};">
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_16}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_60}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Overlap Events<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_17}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_61}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Sessions Involved<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
@@ -226,48 +290,128 @@ Basic HTML and CSS structure with styling details.
           <${PATH}>
           <input type="number" id="custom-offset" placeholder="UTC offset" style="display: none; width: 80px; font-size: 12px; padding: 4px; border-radius: 4px; border: 1px solid #e2e8f0;">
         <${PATH}>
-        <div id="hour-histogram">${EXPR_18}<${PATH}>
+        <div id="hour-histogram">${EXPR_62}<${PATH}>
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Tool Errors Encountered<${PATH}>
-        <p class="empty">No tool errors</p>
+        ${EXPR_63}
+${EXPR_64}
+${EXPR_65}
+${EXPR_66}
+${EXPR_67}
+${EXPR_68}
+${EXPR_69}
+${EXPR_70}
+## Reserved Shortcuts
+
+${EXPR_71}
+## Available Contexts
+
+${EXPR_72}
+## Available Actions
+
+${EXPR_73}
       <${PATH}>
     <${PATH}>
 
-     (PID ${EXPR_19})
+     (PID ${EXPR_74})
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">What Helped Most (Claude's Capabilities)<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_75}
+${EXPR_76}
+${EXPR_77}
+${EXPR_78}
+${EXPR_79}
+${EXPR_80}
+${EXPR_81}
+${EXPR_82}
+## Reserved Shortcuts
+
+${EXPR_83}
+## Available Contexts
+
+${EXPR_84}
+## Available Actions
+
+${EXPR_85}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Outcomes<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_86}
+${EXPR_87}
+${EXPR_88}
+${EXPR_89}
+${EXPR_90}
+${EXPR_91}
+${EXPR_92}
+${EXPR_93}
+## Reserved Shortcuts
+
+${EXPR_94}
+## Available Contexts
+
+${EXPR_95}
+## Available Actions
+
+${EXPR_96}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_20}
+    ${EXPR_97}
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">Primary Friction Types<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_98}
+${EXPR_99}
+${EXPR_100}
+${EXPR_101}
+${EXPR_102}
+${EXPR_103}
+${EXPR_104}
+${EXPR_105}
+## Reserved Shortcuts
+
+${EXPR_106}
+## Available Contexts
+
+${EXPR_107}
+## Available Actions
+
+${EXPR_108}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Inferred Satisfaction (model-estimated)<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_109}
+${EXPR_110}
+${EXPR_111}
+${EXPR_112}
+${EXPR_113}
+${EXPR_114}
+${EXPR_115}
+${EXPR_116}
+## Reserved Shortcuts
+
+${EXPR_117}
+## Available Contexts
+
+${EXPR_118}
+## Available Actions
+
+${EXPR_119}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_21}
+    ${EXPR_120}
 
-    mcp__${EXPR_22}__
+    mcp__${EXPR_121}__
 
     green
 
-    ${EXPR_23}
+    ${EXPR_122}
   <${PATH}>
-  <script>null<${PATH}>
+  <script>${EXPR_123}<${PATH}>
 <${PATH}>
 <${PATH}>
