@@ -7,4 +7,4 @@
 Session URL for remote bridge access.
 
 # Raw Prompt Text
-[remote-bridge] v2 session URL: ${EXPR_1}@${EXPR_2}
+[remote-bridge] v2 session URL: ${EXPR_1}
