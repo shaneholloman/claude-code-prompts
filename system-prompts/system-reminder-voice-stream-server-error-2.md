@@ -7,4 +7,4 @@
 Indicates an error in the voice stream server.
 
 # Raw Prompt Text
-[voice_stream] Server error: ${EXPR_1}
+[voice_stream] Server error: ${EXPR_1}${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}
