@@ -17,7 +17,7 @@ ${EXPR_1}
 
 Call the `EnterPlanMode` tool now to enter plan mode, then:
 
-${NUM}. **Understand the scope.** Launch one or more Explore agents (in the foreground — you need their results) to deeply research what this instruction touches. Find all the files, patterns, and call sites that need to change. Understand the existing conventions so the migration is consistent.
+${NUM}. **Understand the scope.** Launch one or more subagents (in the foreground — you need their results) to deeply research what this instruction touches. Find all the files, patterns, and call sites that need to change. Understand the existing conventions so the migration is consistent.
 
 ${NUM}. **Decompose into independent units.** Break the work into ${NUM}–${NUM} self-contained units. Each unit must:
    - Be independently implementable in an isolated git worktree (no shared state with sibling units)
