@@ -7,4 +7,4 @@
 Command to change directory and set environment variables.
 
 # Raw Prompt Text
-cd ${EXPR_1} && env ${NUM} ${EXPR_2} ${EXPR_3}null
+cd ${EXPR_1} && env null ${EXPR_2} ${EXPR_3}${EXPR_4}
