@@ -7,4 +7,4 @@
 User remote session permission request was cancelled.
 
 # Raw Prompt Text
-[useRemoteSession] Permission request cancelled: ${EXPR_1}
+[useRemoteSession] Permission request cancelled: ${EXPR_1}${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}
