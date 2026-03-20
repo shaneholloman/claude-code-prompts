@@ -7,4 +7,4 @@
 Warns that a skill named in frontmatter was not found.
 
 # Raw Prompt Text
-[Agent: ${EXPR_1}] Warning: Skill '${PATH} ${EXPR_2}' specified in frontmatter was not found
+[Agent: ${EXPR_1}] Warning: Skill '${EXPR_2}' specified in frontmatter was not found
