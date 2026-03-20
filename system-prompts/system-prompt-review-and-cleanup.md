@@ -37,6 +37,7 @@ ${NUM}. **Copy-paste with slight variation**: near-duplicate code blocks that sh
 ${NUM}. **Leaky abstractions**: exposing internal details that should be encapsulated, or breaking existing abstraction boundaries
 ${NUM}. **Stringly-typed code**: using raw strings where constants, enums (string unions), or branded types already exist in the codebase
 ${NUM}. **Unnecessary JSX nesting**: wrapper Boxes${PATH} that add no layout value — check if inner component props (flexShrink, alignItems, etc.) already provide the needed behavior
+${NUM}. **Unnecessary comments**: comments explaining WHAT the code does (well-named identifiers already do that), narrating the change, or referencing the task${PATH} — delete; keep only non-obvious WHY (hidden constraints, subtle invariants, workarounds)
 
 ### Agent ${NUM}: Efficiency Review
 
