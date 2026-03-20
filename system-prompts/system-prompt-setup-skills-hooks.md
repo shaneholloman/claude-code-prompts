@@ -23,7 +23,7 @@ Use AskUserQuestion to find out what the user wants:
 
 ## Phase ${NUM}: Explore the codebase
 
-Use the Explore subagent to survey the codebase, and ask it to read key files to understand the project: manifest files (package.json, Cargo.toml, pyproject.toml, go.mod, pom.xml, etc.), README, Makefile${PATH} configs, CI config, existing CLAUDE.md, .claude${PATH}, AGENTS.md, .cursor${PATH} or .cursorrules, .github${PATH}, .windsurfrules, .clinerules, .mcp.json.
+Launch a subagent to survey the codebase, and ask it to read key files to understand the project: manifest files (package.json, Cargo.toml, pyproject.toml, go.mod, pom.xml, etc.), README, Makefile${PATH} configs, CI config, existing CLAUDE.md, .claude${PATH}, AGENTS.md, .cursor${PATH} or .cursorrules, .github${PATH}, .windsurfrules, .clinerules, .mcp.json.
 
 Detect:
 - Build, test, and lint commands (especially non-standard ones)
