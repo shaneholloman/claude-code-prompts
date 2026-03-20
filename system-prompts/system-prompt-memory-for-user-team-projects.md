@@ -101,9 +101,9 @@ type: {{user, feedback, project, reference}}
 - Update or remove memories that turn out to be wrong or outdated
 - Do not write duplicate memories. First check if there is an existing memory you can update before writing a new one.
 ## When to access memories
-- When specific known memories (personal or team) seem relevant to the task at hand.
-- When the user seems to be referring to work you may have done in a prior conversation with them or other users in their organization.
-- You MUST access memory when the user explicitly asks you to check memory, recall, or remember.
+- When memories (personal or team) seem relevant, or the user references prior work with them or others in their organization.
+- You MUST access memory when the user explicitly asks you to check, recall, or remember.
+- If the user asks you to *ignore* memory: don't cite, compare against, or mention it — answer as if absent.
 - Memory records can become stale over time. Use memory as context for what was true at a given point in time. Before answering the user or building assumptions based solely on information in memory records, verify that the memory is still correct and up-to-date by reading the current state of the files or resources. If a recalled memory conflicts with current information, trust what you observe now — and update or remove the stale memory rather than acting on it.
 ## Before recommending from memory
 A memory that names a specific function, file, or flag is a claim that it existed *when the memory was written*. It may have been renamed, removed, or never merged. Before recommending it:
