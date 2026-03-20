@@ -1,11 +1,10 @@
-# Prompt Stats 2.1.80
+# Prompt Stats 2.1.81
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | system | [No Other Browsers Available](../system-prompts/system-prompt-no-other-browsers-available.md) | 109 | 20 | 2.1.49 | 2.1.49 |
 | system | [Browser Timeout Extension](../system-prompts/system-prompt-browser-timeout-extension.md) | 118 | 22 | 2.1.49 | 2.1.49 |
 | system | [Forked Worker Process Rules](../system-prompts/system-prompt-forked-worker-process-rules.md) | 1490 | 412 | 2.1.77 | 2.1.77 |
-| system | [Detect New Topic Title 3](../system-prompts/system-prompt-detect-new-topic-title-3.md) | 273 | 76 | 2.1.20 | 2.1.20 |
 | system | [Classify Command Prefix Policy](../system-prompts/system-prompt-classify-command-prefix-policy.md) | 158 | 41 | 2.1.49 | 2.1.49 |
 | system | [Summarize Conversations](../system-prompts/system-prompt-summarize-conversations.md) | 69 | 13 | 0.2.108 | 2.0.22 |
 | system | [Write Short Summary Label](../system-prompts/system-prompt-write-short-summary-label.md) | 451 | 108 | 2.1.79 | 2.1.79 |
@@ -19,10 +18,11 @@
 | system | [Web Search](../system-prompts/system-prompt-web-search.md) | 57 | 11 | 0.2.108 | 2.0.22 |
 | system | [Hook Evaluation Json Response](../system-prompts/system-prompt-hook-evaluation-json-response.md) | 278 | 81 | 2.1.20 | 2.1.20 |
 | system | [Github Issue Title Generator](../system-prompts/system-prompt-github-issue-title-generator.md) | 1077 | 254 | 1.0.89 | 1.0.89 |
-| system | [Setup Skills Hooks](../system-prompts/system-prompt-setup-skills-hooks.md) | 18293 | 4884 | 2.1.77 | 2.1.77 |
+| system | [Setup Skills Hooks](../system-prompts/system-prompt-setup-skills-hooks.md) | 18286 | 4884 | 2.1.81 | 2.1.81 |
 | system | [Verifier Skills Creation](../system-prompts/system-prompt-verifier-skills-creation.md) | 10037 | 2761 | 2.1.77 | 2.1.77 |
 | system | [Fetch Pr Comments](../system-prompts/system-prompt-fetch-pr-comments.md) | 1467 | 442 | 2.0.70 | 2.1.33 |
 | system | [Generate Kebab Case Name](../system-prompts/system-prompt-generate-kebab-case-name.md) | 279 | 81 | 2.1.49 | 2.1.49 |
+| system | [Remote Review Session Launched](../system-prompts/system-prompt-remote-review-session-launched.md) | 177 | 33 | 2.1.81 | 2.1.81 |
 | system | [Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 855 | 213 | 2.1.32 | 2.1.32 |
 | system | [Chrome Automation Guidelines](../system-prompts/system-prompt-chrome-automation-guidelines.md) | 3429 | 798 | 2.1.7 | 2.1.7 |
 | system | [User Insights Report Stdout](../system-prompts/system-prompt-user-insights-report-stdout.md) | 445 | 138 | 2.1.77 | 2.1.77 |
@@ -41,16 +41,17 @@
 | system | [Cli Identity 2](../system-prompts/system-prompt-cli-identity-2.md) | 94 | 21 | 1.0.128 | 1.0.128 |
 | system | [Fix Login Button Title](../system-prompts/system-prompt-fix-login-button-title.md) | 716 | 182 | 2.1.77 | 2.1.77 |
 | system | [Update Definition Files](../system-prompts/system-prompt-update-definition-files.md) | 102 | 17 | 2.1.49 | 2.1.49 |
+| system | [Available Reserved Shortcuts Contexts Actions](../system-prompts/system-prompt-available-reserved-shortcuts-contexts-actions.md) | 189 | 90 | 2.1.81 | 2.1.81 |
 | system | [Debug User Issue](../system-prompts/system-prompt-debug-user-issue.md) | 851 | 249 | 2.1.77 | 2.1.77 |
 | system | [Batch Change](../system-prompts/system-prompt-batch-change.md) | 248 | 65 | 2.1.77 | 2.1.77 |
 | system | [Git Repo Required Error](../system-prompts/system-prompt-git-repo-required-error.md) | 217 | 53 | 2.1.77 | 2.1.77 |
-| system | [Parallel Work Orchestration Plan](../system-prompts/system-prompt-parallel-work-orchestration-plan.md) | 4150 | 1122 | 2.1.77 | 2.1.77 |
+| system | [Parallel Work Orchestration Plan](../system-prompts/system-prompt-parallel-work-orchestration-plan.md) | 4145 | 1122 | 2.1.81 | 2.1.81 |
 | system | [Interval Check Deploy Defaults](../system-prompts/system-prompt-interval-check-deploy-defaults.md) | 444 | 185 | 2.1.77 | 2.1.77 |
 | system | [Schedule Recurring With Cron](../system-prompts/system-prompt-schedule-recurring-with-cron.md) | 3143 | 1013 | 2.1.77 | 2.1.77 |
 | system | [Authenticate Account First](../system-prompts/system-prompt-authenticate-account-first.md) | 129 | 35 | 2.1.80 | 2.1.80 |
 | system | [Trouble Connecting Remote](../system-prompts/system-prompt-trouble-connecting-remote.md) | 139 | 33 | 2.1.80 | 2.1.80 |
 | system | [No Remote Environments Found](../system-prompts/system-prompt-no-remote-environments-found.md) | 129 | 35 | 2.1.80 | 2.1.80 |
-| system | [Schedule Remote Agents](../system-prompts/system-prompt-schedule-remote-agents.md) | 7726 | 2429 | 2.1.80 | 2.1.80 |
+| system | [Schedule Remote Agents 3](../system-prompts/system-prompt-schedule-remote-agents-3.md) | 7024 | 2146 | 2.1.81 | 2.1.81 |
 | system-reminder | [Failed To Load Message](../system-prompts/system-reminder-failed-to-load-message.md) | 24 | 9 | 2.1.21 | 2.1.21 |
 | system-reminder | [No Profiling Checkpoints](../system-prompts/system-reminder-no-profiling-checkpoints.md) | 33 | 6 | 2.1.49 | 2.1.49 |
 | system-reminder | [Startup Profiling Report](../system-prompts/system-reminder-startup-profiling-report.md) | 25 | 6 | 2.1.49 | 2.1.49 |
@@ -112,6 +113,7 @@
 | system-reminder | [Clientdata Fetch Null](../system-prompts/system-reminder-clientdata-fetch-null.md) | 28 | 9 | 2.1.77 | 2.1.77 |
 | system-reminder | [Clientdata Cache Unchanged](../system-prompts/system-reminder-clientdata-cache-unchanged.md) | 44 | 10 | 2.1.77 | 2.1.77 |
 | system-reminder | [Clientdata Cache Updated](../system-prompts/system-reminder-clientdata-cache-updated.md) | 46 | 11 | 2.1.77 | 2.1.77 |
+| system-reminder | [Available Reserved Shortcuts Contexts](../system-prompts/system-reminder-available-reserved-shortcuts-contexts.md) | 201 | 97 | 2.1.81 | 2.1.81 |
 | system-reminder | [Http Path Request Line](../system-prompts/system-reminder-http-path-request-line.md) | 33 | 19 | 2.1.49 | 2.1.49 |
 | system-reminder | [Connection Upgrade Header](../system-prompts/system-reminder-connection-upgrade-header.md) | 38 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Failed Load Unknown](../system-prompts/system-reminder-failed-load-unknown.md) | 33 | 11 | 2.1.77 | 2.1.77 |
@@ -162,7 +164,6 @@
 | system-reminder | [Skip Fast Prefetch Recent](../system-prompts/system-reminder-skip-fast-prefetch-recent.md) | 45 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Fetch Org Fast Mode Failed](../system-prompts/system-reminder-fetch-org-fast-mode-failed.md) | 87 | 23 | 2.1.77 | 2.1.77 |
 | system-reminder | [Org Fast Mode Disabled](../system-prompts/system-reminder-org-fast-mode-disabled.md) | 35 | 13 | 2.1.49 | 2.1.49 |
-| system-reminder | [Expressions Paths](../system-prompts/system-reminder-expressions-paths.md) | 49 | 32 | 2.1.77 | 2.1.77 |
 | system-reminder | [Creating Api Client Headers Status](../system-prompts/system-reminder-creating-api-client-headers-status.md) | 111 | 35 | 2.1.49 | 2.1.49 |
 | system-reminder | [Oauth Token Check Starting](../system-prompts/system-reminder-oauth-token-check-starting.md) | 37 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [Oauth Token Check Complete](../system-prompts/system-reminder-oauth-token-check-complete.md) | 37 | 9 | 2.1.49 | 2.1.49 |
@@ -280,6 +281,7 @@
 | system-reminder | [Alias Ending Colon Ambiguous](../system-prompts/system-reminder-alias-ending-colon-ambiguous.md) | 30 | 8 | 2.1.49 | 2.1.49 |
 | system-reminder | [Yaml Frontmatter Parse Failure](../system-prompts/system-reminder-yaml-frontmatter-parse-failure.md) | 49 | 15 | 2.1.77 | 2.1.77 |
 | system-reminder | [Invalid Omitting](../system-prompts/system-reminder-invalid-omitting.md) | 44 | 12 | 2.1.51 | 2.1.51 |
+| system-reminder | [Frontmatter Shell Not Recognized](../system-prompts/system-reminder-frontmatter-shell-not-recognized.md) | 116 | 41 | 2.1.81 | 2.1.81 |
 | system-reminder | [Websocket Auth File Descriptor](../system-prompts/system-reminder-websocket-auth-file-descriptor.md) | 86 | 23 | 2.1.77 | 2.1.77 |
 | system-reminder | [Invalid Websocket Auth File Descriptor](../system-prompts/system-reminder-invalid-websocket-auth-file-descriptor.md) | 97 | 31 | 2.1.49 | 2.1.49 |
 | system-reminder | [Token Read From Fd Failed](../system-prompts/system-reminder-token-read-from-fd-failed.md) | 62 | 19 | 2.1.49 | 2.1.49 |
@@ -326,8 +328,8 @@
 | system-reminder | [Makeclasshandle Missing Pointer Args](../system-prompts/system-reminder-makeclasshandle-missing-pointer-args.md) | 40 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [Require Smartptrtype And Smartptr](../system-prompts/system-reminder-require-smartptrtype-and-smartptr.md) | 48 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Type Converter Count Mismatch](../system-prompts/system-reminder-type-converter-count-mismatch.md) | 31 | 7 | 2.1.49 | 2.1.49 |
-| system-reminder | [Duplicate Type Registration 2](../system-prompts/system-reminder-duplicate-type-registration-2.md) | 38 | 12 | 2.1.80 | 2.1.80 |
-| system-reminder | [Positive Integer Typeid Requirement](../system-prompts/system-reminder-positive-integer-typeid-requirement.md) | 60 | 15 | 2.1.80 | 2.1.80 |
+| system-reminder | [Cannot Register Type Twice](../system-prompts/system-reminder-cannot-register-type-twice.md) | 158 | 56 | 2.1.81 | 2.1.81 |
+| system-reminder | [Wsb Type Integer Pointer](../system-prompts/system-reminder-wsb-type-integer-pointer.md) | 180 | 60 | 2.1.81 | 2.1.81 |
 | system-reminder | [Cannot Register Public Name](../system-prompts/system-reminder-cannot-register-public-name.md) | 47 | 9 | 2.1.79 | 2.1.79 |
 | system-reminder | [Multiple Overloads Same Arity](../system-prompts/system-reminder-multiple-overloads-same-arity.md) | 95 | 19 | 2.1.49 | 2.1.49 |
 | system-reminder | [Unsupporting Sharing Policy](../system-prompts/system-reminder-unsupporting-sharing-policy.md) | 27 | 6 | 2.1.49 | 2.1.49 |
@@ -335,6 +337,7 @@
 | system-reminder | [Replacing Missing Public Symbol](../system-prompts/system-reminder-replacing-missing-public-symbol.md) | 35 | 8 | 2.1.49 | 2.1.49 |
 | system-reminder | [Unknown Function Pointer Maintenance](../system-prompts/system-reminder-unknown-function-pointer-maintenance.md) | 131 | 36 | 2.1.79 | 2.1.79 |
 | system-reminder | [Argtypes Array Size Mismatch](../system-prompts/system-reminder-argtypes-array-size-mismatch.md) | 78 | 21 | 2.1.49 | 2.1.49 |
+| system-reminder | [Wsb Parameters Overview](../system-prompts/system-reminder-wsb-parameters-overview.md) | 138 | 50 | 2.1.81 | 2.1.81 |
 | system-reminder | [Already Scheduled Deletion](../system-prompts/system-reminder-already-scheduled-deletion.md) | 37 | 5 | 2.1.49 | 2.1.49 |
 | system-reminder | [Correct This Construct](../system-prompts/system-reminder-correct-this-construct.md) | 34 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [User Group Role Registrations](../system-prompts/system-reminder-user-group-role-registrations.md) | 1518 | 660 | 2.1.79 | 2.1.79 |
@@ -357,7 +360,7 @@
 | system-reminder | [Invalid Yoga Dimensions Error](../system-prompts/system-reminder-invalid-yoga-dimensions-error.md) | 141 | 41 | 2.1.77 | 2.1.77 |
 | system-reminder | [Alt Screen Yoga Height Unknown](../system-prompts/system-reminder-alt-screen-yoga-height-unknown.md) | 122 | 29 | 2.1.77 | 2.1.77 |
 | system-reminder | [Full Reset Shrink Below](../system-prompts/system-reminder-full-reset-shrink-below.md) | 90 | 31 | 2.1.49 | 2.1.49 |
-| system-reminder | [Full Reset Scrollback Changes 3](../system-prompts/system-reminder-full-reset-scrollback-changes-3.md) | 116 | 42 | 2.1.78 | 2.1.78 |
+| system-reminder | [Full Reset Scrollback Changes 4](../system-prompts/system-reminder-full-reset-scrollback-changes-4.md) | 152 | 66 | 2.1.81 | 2.1.81 |
 | system-reminder | [Slow Render Metrics](../system-prompts/system-reminder-slow-render-metrics.md) | 92 | 50 | 2.1.77 | 2.1.77 |
 | system-reminder | [Xtversion Terminal Query Ignored](../system-prompts/system-reminder-xtversion-terminal-query-ignored.md) | 44 | 12 | 2.1.77 | 2.1.77 |
 | system-reminder | [Xtversion Terminal Identified](../system-prompts/system-reminder-xtversion-terminal-identified.md) | 45 | 14 | 2.1.77 | 2.1.77 |
@@ -489,20 +492,14 @@
 | system-reminder | [Spawning Shell Without Login](../system-prompts/system-reminder-spawning-shell-without-login.md) | 46 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Invalid Shell Path Fallback](../system-prompts/system-reminder-invalid-shell-path-fallback.md) | 90 | 30 | 2.1.49 | 2.1.49 |
 | system-reminder | [Shell Override Applied](../system-prompts/system-reminder-shell-override-applied.md) | 31 | 10 | 2.1.49 | 2.1.49 |
-| system-reminder | [Shell Cwd Load Failed Recovery](../system-prompts/system-reminder-shell-cwd-load-failed-recovery.md) | 80 | 26 | 2.1.77 | 2.1.77 |
-| system-reminder | [Failed To Create Loaded Errors](../system-prompts/system-reminder-failed-to-create-loaded-errors.md) | 66 | 20 | 2.1.77 | 2.1.77 |
+| system-reminder | [Shell Cwd Load Failed Recovery 2](../system-prompts/system-reminder-shell-cwd-load-failed-recovery-2.md) | 75 | 23 | 2.1.81 | 2.1.81 |
+| system-reminder | [Failed Create Loaded Errors](../system-prompts/system-reminder-failed-create-loaded-errors.md) | 61 | 15 | 2.1.81 | 2.1.81 |
 | system-reminder | [Shell Exec Error Report](../system-prompts/system-reminder-shell-exec-error-report.md) | 27 | 10 | 2.1.49 | 2.1.49 |
 | system-reminder | [Templated Colon Message](../system-prompts/system-reminder-templated-colon-message.md) | 30 | 19 | 2.1.49 | 2.1.49 |
 | system-reminder | [Persisted Result](../system-prompts/system-reminder-persisted-result.md) | 48 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Message Budget Results 2](../system-prompts/system-reminder-message-budget-results-2.md) | 153 | 57 | 2.1.79 | 2.1.79 |
 | system-reminder | [Ensure Memory Dir Failed](../system-prompts/system-reminder-ensure-memory-dir-failed.md) | 53 | 21 | 2.1.77 | 2.1.77 |
 | system-reminder | [Skip Non Text Include](../system-prompts/system-reminder-skip-non-text-include.md) | 45 | 17 | 2.1.49 | 2.1.49 |
-| system-reminder | [Two Expression Placeholder](../system-prompts/system-reminder-two-expression-placeholder.md) | 20 | 13 | 2.1.79 | 2.1.79 |
-| system-reminder | [Task Read Failed Error](../system-prompts/system-reminder-task-read-failed-error.md) | 48 | 19 | 2.1.49 | 2.1.49 |
-| system-reminder | [Task Schema Validation Failed](../system-prompts/system-reminder-task-schema-validation-failed.md) | 58 | 20 | 2.1.49 | 2.1.49 |
-| system-reminder | [Task Claim Failed Error](../system-prompts/system-reminder-task-claim-failed-error.md) | 49 | 19 | 2.1.49 | 2.1.49 |
-| system-reminder | [Task Claim Failed Busy Check](../system-prompts/system-reminder-task-claim-failed-busy-check.md) | 65 | 23 | 2.1.49 | 2.1.49 |
-| system-reminder | [Unassign Tasks From Worker](../system-prompts/system-reminder-unassign-tasks-from-worker.md) | 51 | 24 | 2.1.49 | 2.1.49 |
 | system-reminder | [Skipping Malformed Scheduled Task](../system-prompts/system-reminder-skipping-malformed-scheduled-task.md) | 51 | 19 | 2.1.77 | 2.1.77 |
 | system-reminder | [Scheduled Tasks Skipping Invalid Cron](../system-prompts/system-reminder-scheduled-tasks-skipping-invalid-cron.md) | 70 | 27 | 2.1.77 | 2.1.77 |
 | system-reminder | [No Use Blocks Found](../system-prompts/system-reminder-no-use-blocks-found.md) | 78 | 20 | 2.1.77 | 2.1.77 |
@@ -561,8 +558,8 @@
 | system-reminder | [Debug Preflight Slow Check](../system-prompts/system-reminder-debug-preflight-slow-check.md) | 130 | 37 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bash Permission Legacy](../system-prompts/system-reminder-bash-permission-legacy.md) | 77 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bash Permissions Subcommands Exceeds Cap](../system-prompts/system-reminder-bash-permissions-subcommands-exceeds-cap.md) | 78 | 26 | 2.1.77 | 2.1.77 |
-| system-reminder | [Local Bash Task Kill Requested](../system-prompts/system-reminder-local-bash-task-kill-requested.md) | 38 | 12 | 2.1.49 | 2.1.49 |
-| system-reminder | [Kill Bash Tasks For](../system-prompts/system-reminder-kill-bash-tasks-for.md) | 85 | 30 | 2.1.77 | 2.1.77 |
+| system-reminder | [Local Shell Task Kill Requested](../system-prompts/system-reminder-local-shell-task-kill-requested.md) | 39 | 12 | 2.1.81 | 2.1.81 |
+| system-reminder | [Kill Orphaned Shell Tasks](../system-prompts/system-reminder-kill-orphaned-shell-tasks.md) | 87 | 30 | 2.1.81 | 2.1.81 |
 | system-reminder | [User Scope Memory Guidance](../system-prompts/system-reminder-user-scope-memory-guidance.md) | 94 | 19 | 2.1.77 | 2.1.77 |
 | system-reminder | [Project Scope Memory Guidance](../system-prompts/system-reminder-project-scope-memory-guidance.md) | 120 | 24 | 2.1.77 | 2.1.77 |
 | system-reminder | [Local Scope Memory Guidance](../system-prompts/system-reminder-local-scope-memory-guidance.md) | 119 | 24 | 2.1.77 | 2.1.77 |
@@ -570,8 +567,8 @@
 | system-reminder | [User Analysis Requests Thoroughly](../system-prompts/system-reminder-user-analysis-requests-thoroughly.md) | 838 | 181 | 2.1.77 | 2.1.77 |
 | system-reminder | [Toolsearchtool Cache Invalidated](../system-prompts/system-reminder-toolsearchtool-cache-invalidated.md) | 58 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Search Failed None Found](../system-prompts/system-reminder-search-failed-none-found.md) | 53 | 18 | 2.1.77 | 2.1.77 |
-| system-reminder | [Search Selected](../system-prompts/system-reminder-search-selected.md) | 56 | 25 | 2.1.77 | 2.1.77 |
-| system-reminder | [Search Partial Select](../system-prompts/system-reminder-search-partial-select.md) | 91 | 37 | 2.1.77 | 2.1.77 |
+| system-reminder | [Search Selected Environments](../system-prompts/system-reminder-search-selected-environments.md) | 59 | 17 | 2.1.81 | 2.1.81 |
+| system-reminder | [Search Partial Select 2](../system-prompts/system-reminder-search-partial-select-2.md) | 94 | 29 | 2.1.81 | 2.1.81 |
 | system-reminder | [Toolsearchtool Keyword Search Matches](../system-prompts/system-reminder-toolsearchtool-keyword-search-matches.md) | 71 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Plan File Missing Recovery](../system-prompts/system-reminder-plan-file-missing-during-resume.md) | 64 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Plan Recovered Message History](../system-prompts/system-reminder-plan-recovered-from-message-history.md) | 52 | 13 | 2.1.49 | 2.1.49 |
@@ -593,6 +590,7 @@
 | system-reminder | [User Context Expr](../system-prompts/system-reminder-user-context-expr.md) | 23 | 9 | 2.1.77 | 2.1.77 |
 | system-reminder | [Compact Cache Sharing Fallback 2](../system-prompts/system-reminder-compact-cache-sharing-fallback-2.md) | 77 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Compact Streaming Failed After Pid](../system-prompts/system-reminder-compact-streaming-failed.md) | 87 | 28 | 2.1.59 | 2.1.59 |
+| system-reminder | [Time Based Gap Cleared](../system-prompts/system-reminder-time-based-gap-cleared.md) | 133 | 55 | 2.1.81 | 2.1.81 |
 | system-reminder | [Autocompact Tokens Threshold](../system-prompts/system-reminder-autocompact-tokens-threshold.md) | 95 | 37 | 2.1.77 | 2.1.77 |
 | system-reminder | [Autocompact Circuit Breaker Tripped](../system-prompts/system-reminder-autocompact-circuit-breaker-tripped.md) | 113 | 25 | 2.1.77 | 2.1.77 |
 | system-reminder | [User Intent From Last Message](../system-prompts/system-reminder-user-intent-from-last-message.md) | 56 | 16 | 2.1.19 | 2.1.19 |
@@ -656,14 +654,20 @@
 | system-reminder | [Enterprise Mcp Config Errors](../system-prompts/system-reminder-enterprise-mcp-config-errors.md) | 53 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Plugin Mcp Loading Error](../system-prompts/system-reminder-plugin-mcp-loading-error.md) | 47 | 18 | 2.1.49 | 2.1.49 |
 | system-reminder | [Plugin Mcp Server Error](../system-prompts/system-reminder-plugin-mcp-server-error.md) | 46 | 18 | 2.1.49 | 2.1.49 |
-| system-reminder | [Plugin Not Available For Mcp](../system-prompts/system-reminder-plugin-not-available-for-mcp.md) | 78 | 26 | 2.1.77 | 2.1.77 |
+| system-reminder | [Plugin Unavailable For Mcp](../system-prompts/system-reminder-plugin-unavailable-for-mcp.md) | 63 | 23 | 2.1.81 | 2.1.81 |
 | system-reminder | [Mcp Config Read Error](../system-prompts/system-reminder-mcp-config-read-error.md) | 61 | 22 | 2.1.77 | 2.1.77 |
 | system-reminder | [Mcp Config Invalid Json](../system-prompts/system-reminder-mcp-config-invalid-json.md) | 95 | 37 | 2.1.77 | 2.1.77 |
+| system-reminder | [Template Expression Placeholders](../system-prompts/system-reminder-template-expression-placeholders.md) | 53 | 34 | 2.1.81 | 2.1.81 |
 | system-reminder | [Oauth Error Message](../system-prompts/system-reminder-oauth-error-message.md) | 22 | 9 | 2.1.79 | 2.1.79 |
 | system-reminder | [Netstat Findstr Errors](../system-prompts/system-reminder-netstat-findstr-errors.md) | 52 | 17 | 2.1.79 | 2.1.79 |
 | system-reminder | [Resource Origin Timestamp](../system-prompts/system-reminder-resource-origin-timestamp.md) | 38 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Resource Link Entry](../system-prompts/system-reminder-resource-link-entry.md) | 36 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Mcp Server Connected Subscribe](../system-prompts/system-reminder-server-connected-with-subscribe.md) | 59 | 20 | 2.1.49 | 2.1.49 |
+| system-reminder | [Task Read Failed Error](../system-prompts/system-reminder-task-read-failed-error.md) | 48 | 19 | 2.1.49 | 2.1.49 |
+| system-reminder | [Task Schema Validation Failed](../system-prompts/system-reminder-task-schema-validation-failed.md) | 58 | 20 | 2.1.49 | 2.1.49 |
+| system-reminder | [Task Claim Failed Error](../system-prompts/system-reminder-task-claim-failed-error.md) | 49 | 19 | 2.1.49 | 2.1.49 |
+| system-reminder | [Task Claim Failed Busy Check](../system-prompts/system-reminder-task-claim-failed-busy-check.md) | 65 | 23 | 2.1.49 | 2.1.49 |
+| system-reminder | [Unassign Tasks From Worker](../system-prompts/system-reminder-unassign-tasks-from-worker.md) | 51 | 24 | 2.1.49 | 2.1.49 |
 | system-reminder | [Resolve Inbox Path](../system-prompts/system-reminder-resolve-inbox-path.md) | 83 | 34 | 2.1.49 | 2.1.49 |
 | system-reminder | [Teammate Mailbox Inbox Directory](../system-prompts/system-reminder-teammate-mailbox-inbox-directory.md) | 52 | 19 | 2.1.77 | 2.1.77 |
 | system-reminder | [Read Mailbox Path](../system-prompts/system-reminder-read-mailbox-path.md) | 45 | 18 | 2.1.49 | 2.1.49 |
@@ -734,9 +738,9 @@
 | system-reminder | [Inprocessrunner Message With Index](../system-prompts/system-reminder-inprocessrunner-message-with-index.md) | 81 | 29 | 2.1.49 | 2.1.49 |
 | system-reminder | [Exiting Poll Loop Abort](../system-prompts/system-reminder-exiting-poll-loop-abort.md) | 77 | 27 | 2.1.49 | 2.1.49 |
 | system-reminder | [Start Runner Loop](../system-prompts/system-reminder-start-runner-loop.md) | 51 | 15 | 2.1.49 | 2.1.49 |
-| system-reminder | [Failed Message](../system-prompts/system-reminder-failed-message.md) | 51 | 20 | 2.1.78 | 2.1.78 |
+| system-reminder | [Failed Message](../system-prompts/system-reminder-failed-message.md) | 87 | 20 | 2.1.81 | 2.1.81 |
 | system-reminder | [Team Communication Guidelines](../system-prompts/system-reminder-team-communication-guidelines.md) | 516 | 118 | 2.1.77 | 2.1.77 |
-| system-reminder | [Custom Empty](../system-prompts/system-reminder-custom-empty.md) | 32 | 6 | 2.1.49 | 2.1.49 |
+| system-reminder | [Custom Header](../system-prompts/system-reminder-custom-header.md) | 37 | 11 | 2.1.81 | 2.1.81 |
 | system-reminder | [Team Lead Message Template](../system-prompts/system-reminder-team-lead-message-template.md) | 82 | 39 | 2.1.49 | 2.1.49 |
 | system-reminder | [Inprocessrunner Processing](../system-prompts/system-reminder-inprocessrunner-processing.md) | 59 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Teammate Message Template](../system-prompts/system-reminder-teammate-message-template.md) | 82 | 40 | 2.1.49 | 2.1.49 |
@@ -890,7 +894,8 @@
 | system-reminder | [Grove Fetch Store Config Failed](../system-prompts/system-reminder-grove-fetch-store-config-failed.md) | 50 | 15 | 2.1.49 | 2.1.49 |
 | system-reminder | [Fetch Grove Notice Config Failed](../system-prompts/system-reminder-fetch-grove-notice-config-failed.md) | 46 | 13 | 2.1.49 | 2.1.49 |
 | system-reminder | [Generic Multiline Notice](../system-prompts/system-reminder-generic-multiline-notice.md) | 97 | 62 | 2.1.79 | 2.1.79 |
-| system-reminder | [Summary](../system-prompts/system-reminder-summary.md) | 64 | 36 | 2.1.79 | 2.1.79 |
+| system-reminder | [Available Environments List](../system-prompts/system-reminder-available-environments-list.md) | 45 | 21 | 2.1.81 | 2.1.81 |
+| system-reminder | [Available Environments Summary](../system-prompts/system-reminder-available-environments-summary.md) | 67 | 26 | 2.1.81 | 2.1.81 |
 | system-reminder | [Keybinding Setup Initialized](../system-prompts/system-reminder-keybinding-setup-initialized.md) | 85 | 30 | 2.1.49 | 2.1.49 |
 | system-reminder | [Keybindings Chord Timeout Cancelled](../system-prompts/system-reminder-keybindings-chord-timeout-cancelled.md) | 40 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Reloaded Bindings Warnings](../system-prompts/system-reminder-reloaded-bindings-warnings.md) | 62 | 27 | 2.1.49 | 2.1.49 |
@@ -1033,24 +1038,25 @@
 | system-reminder | [Registered Extension Hooks](../system-prompts/system-reminder-registered-extension-hooks.md) | 49 | 18 | 2.1.49 | 2.1.49 |
 | system-reminder | [Execute Forked Slash Command](../system-prompts/system-reminder-execute-forked-slash-command.md) | 62 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Forked Slash Command Completed](../system-prompts/system-reminder-forked-slash-command-completed.md) | 62 | 21 | 2.1.49 | 2.1.49 |
+| system-reminder | [Mcp Server Skipping Customization](../system-prompts/system-reminder-mcp-server-skipping-customization.md) | 121 | 41 | 2.1.81 | 2.1.81 |
 | system-reminder | [Invalid Mcp Server Spec](../system-prompts/system-reminder-invalid-mcp-server-spec.md) | 68 | 20 | 2.1.49 | 2.1.49 |
-| system-reminder | [Mcp Server Not Found 2](../system-prompts/system-reminder-mcp-server-not-found-2.md) | 50 | 22 | 2.1.49 | 2.1.49 |
-| system-reminder | [Failed Connection Mcp Server](../system-prompts/system-reminder-failed-connection-mcp-server.md) | 69 | 27 | 2.1.77 | 2.1.77 |
-| system-reminder | [Connected To Mcp Server](../system-prompts/system-reminder-connected-to-mcp-server.md) | 71 | 27 | 2.1.77 | 2.1.77 |
-| system-reminder | [Mcp Cleanup Error](../system-prompts/system-reminder-mcp-cleanup-error.md) | 67 | 25 | 2.1.49 | 2.1.49 |
-| system-reminder | [Missing Frontmatter Warning](../system-prompts/system-reminder-missing-frontmatter-warning.md) | 94 | 30 | 2.1.77 | 2.1.77 |
-| system-reminder | [Not Based Warning](../system-prompts/system-reminder-not-based-warning.md) | 83 | 29 | 2.1.77 | 2.1.77 |
-| system-reminder | [Preloaded Loaded](../system-prompts/system-reminder-preloaded-loaded.md) | 56 | 22 | 2.1.77 | 2.1.77 |
-| system-reminder | [Sidechain Transcript Record Failed](../system-prompts/system-reminder-sidechain-transcript-record-failed.md) | 48 | 14 | 2.1.49 | 2.1.49 |
-| system-reminder | [Failed Write Metadata](../system-prompts/system-reminder-failed-write-metadata.md) | 41 | 12 | 2.1.77 | 2.1.77 |
-| system-reminder | [Max Turns Reached](../system-prompts/system-reminder-max-turns-reached.md) | 107 | 43 | 2.1.49 | 2.1.49 |
+| system-reminder | [Mcp Server Not Found Global](../system-prompts/system-reminder-mcp-server-not-found-global.md) | 47 | 17 | 2.1.81 | 2.1.81 |
+| system-reminder | [Failed Connection Mcp Server 2](../system-prompts/system-reminder-failed-connection-mcp-server-2.md) | 86 | 35 | 2.1.81 | 2.1.81 |
+| system-reminder | [Connected To Mcp Server 2](../system-prompts/system-reminder-connected-to-mcp-server-2.md) | 88 | 35 | 2.1.81 | 2.1.81 |
+| system-reminder | [Error Cleaning Mcp Server](../system-prompts/system-reminder-error-cleaning-mcp-server.md) | 66 | 25 | 2.1.81 | 2.1.81 |
+| system-reminder | [Missing Frontmatter Warning](../system-prompts/system-reminder-missing-frontmatter-warning.md) | 84 | 30 | 2.1.81 | 2.1.81 |
+| system-reminder | [Not Based Warning](../system-prompts/system-reminder-not-based-warning.md) | 73 | 29 | 2.1.81 | 2.1.81 |
+| system-reminder | [Preloaded Loaded](../system-prompts/system-reminder-preloaded-loaded.md) | 46 | 22 | 2.1.81 | 2.1.81 |
 | system-reminder | [Sidechain Transcript Record Failed 2](../system-prompts/system-reminder-sidechain-transcript-record-failed-2.md) | 43 | 9 | 2.1.79 | 2.1.79 |
+| system-reminder | [Failed To Write Metadata](../system-prompts/system-reminder-failed-to-write-metadata.md) | 36 | 7 | 2.1.81 | 2.1.81 |
+| system-reminder | [Max Turns Reached](../system-prompts/system-reminder-max-turns-reached.md) | 107 | 43 | 2.1.49 | 2.1.49 |
+| system-reminder | [Sidechain Transcript Record Failed](../system-prompts/system-reminder-sidechain-transcript-record-failed.md) | 48 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Complete User Task](../system-prompts/system-reminder-complete-user-task.md) | 382 | 84 | 2.1.77 | 2.1.77 |
 | system-reminder | [No Python Package Manager 2](../system-prompts/system-reminder-no-python-package-manager-2.md) | 51 | 15 | 2.1.49 | 2.1.49 |
 | system-reminder | [Teammate File Read Failed](../system-prompts/system-reminder-teammate-file-read-failed.md) | 65 | 25 | 2.1.49 | 2.1.49 |
 | system-reminder | [Loaded With Errors](../system-prompts/system-reminder-loaded-with-errors.md) | 38 | 16 | 2.1.77 | 2.1.77 |
-| system-reminder | [Cd Env Null Command](../system-prompts/system-reminder-cd-env-null-command.md) | 53 | 28 | 2.1.78 | 2.1.78 |
-| system-reminder | [Cd Env Null Green](../system-prompts/system-reminder-cd-env-null-green.md) | 49 | 23 | 2.1.78 | 2.1.78 |
+| system-reminder | [Cd Env Null Command](../system-prompts/system-reminder-cd-env-null-command.md) | 53 | 28 | 2.1.81 | 2.1.81 |
+| system-reminder | [Cd Env Green Command](../system-prompts/system-reminder-cd-env-green-command.md) | 90 | 52 | 2.1.81 | 2.1.81 |
 | system-reminder | [Spawn In Process Type](../system-prompts/system-reminder-spawn-in-process-type.md) | 60 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Handle Spawn In Process Execution](../system-prompts/system-reminder-handle-spawn-in-process-execution.md) | 79 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Log Spawn Result Context](../system-prompts/system-reminder-log-spawn-result-context.md) | 95 | 35 | 2.1.49 | 2.1.49 |
@@ -1106,6 +1112,7 @@
 | system-reminder | [Stash Changes Failure](../system-prompts/system-reminder-stash-changes-failure.md) | 23 | 5 | 2.1.49 | 2.1.49 |
 | system-reminder | [Stashed Working Changes](../system-prompts/system-reminder-stashed-working-changes.md) | 28 | 4 | 2.1.49 | 2.1.49 |
 | system-reminder | [Stashing Changes Before Teleport](../system-prompts/system-reminder-stashing-changes-before-teleport.md) | 35 | 8 | 2.1.49 | 2.1.49 |
+| system-reminder | [Remote Environment Check Failed](../system-prompts/system-reminder-remote-environment-check-failed.md) | 43 | 15 | 2.1.81 | 2.1.81 |
 | system-reminder | [Github App Not Installed Error](../system-prompts/system-reminder-github-app-not-installed-error.md) | 93 | 34 | 2.1.80 | 2.1.80 |
 | system-reminder | [Github App Install Check Error](../system-prompts/system-reminder-github-app-install-check-error.md) | 40 | 15 | 2.1.80 | 2.1.80 |
 | system-reminder | [Missing Access Token Assume Not Installed](../system-prompts/system-reminder-missing-access-token-assume-not-installed.md) | 74 | 17 | 2.1.80 | 2.1.80 |
@@ -1162,29 +1169,22 @@
 | system-reminder | [Filter Entries To Messages](../system-prompts/system-reminder-filter-entries-to-messages.md) | 74 | 29 | 2.1.49 | 2.1.49 |
 | system-reminder | [Found Branch By Pid](../system-prompts/system-reminder-found-branch-by-pid.md) | 41 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Total Sessions Api Time](../system-prompts/system-reminder-total-sessions-api-time.md) | 58 | 20 | 2.1.49 | 2.1.49 |
-| system-reminder | [Git Source Summary And Revision](../system-prompts/system-reminder-git-source-summary-and-revision.md) | 92 | 38 | 2.1.80 | 2.1.80 |
-| system-reminder | [Setup Github On Url](../system-prompts/system-reminder-setup-github-on-url.md) | 32 | 10 | 2.1.80 | 2.1.80 |
+| system-reminder | [Teleport To Remote Env Vars](../system-prompts/system-reminder-teleport-to-remote-env-vars.md) | 89 | 38 | 2.1.81 | 2.1.81 |
 | system-reminder | [Repo Too Large Teleport](../system-prompts/system-reminder-repo-too-large-teleport.md) | 30 | 9 | 2.1.80 | 2.1.80 |
+| system-reminder | [Teleport Remote Git Revision](../system-prompts/system-reminder-teleport-remote-git-revision.md) | 81 | 36 | 2.1.81 | 2.1.81 |
+| system-reminder | [Setup Github On Url](../system-prompts/system-reminder-setup-github-on-url.md) | 32 | 10 | 2.1.80 | 2.1.80 |
 | system-reminder | [Teleport To Remote Bundling Errors](../system-prompts/system-reminder-teleport-to-remote-bundling-errors.md) | 66 | 23 | 2.1.80 | 2.1.80 |
 | system-reminder | [No Repo Empty Sandbox](../system-prompts/system-reminder-no-repo-empty-sandbox.md) | 78 | 17 | 2.1.49 | 2.1.49 |
-| system-reminder | [Available Environments List](../system-prompts/system-reminder-available-environments-list.md) | 44 | 21 | 2.1.80 | 2.1.80 |
+| system-reminder | [Anthropic Cloud Env List](../system-prompts/system-reminder-anthropic-cloud-env-list.md) | 75 | 23 | 2.1.81 | 2.1.81 |
 | system-reminder | [Configured Default Environment Not Found](../system-prompts/system-reminder-configured-default-environment-not-found.md) | 73 | 16 | 2.1.80 | 2.1.80 |
-| system-reminder | [Selected Green Environment](../system-prompts/system-reminder-selected-green-environment.md) | 50 | 17 | 2.1.80 | 2.1.80 |
+| system-reminder | [Selected Environment Details](../system-prompts/system-reminder-selected-environment-details.md) | 54 | 22 | 2.1.81 | 2.1.81 |
 | system-reminder | [Create Session Payload](../system-prompts/system-reminder-create-session-payload.md) | 40 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Created Remote Session](../system-prompts/system-reminder-created-remote-session.md) | 46 | 11 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Already Connecting](../system-prompts/system-reminder-websocket-already-connecting.md) | 38 | 8 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Connecting Url](../system-prompts/system-reminder-websocket-connecting-url.md) | 43 | 15 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Opened Auth Headers](../system-prompts/system-reminder-websocket-opened-auth-headers.md) | 64 | 12 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Closed Reason](../system-prompts/system-reminder-websocket-closed-reason.md) | 59 | 23 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Pong Received](../system-prompts/system-reminder-websocket-pong-received.md) | 33 | 10 | 2.1.49 | 2.1.49 |
-| system-reminder | [Ignore Unknown Message Type](../system-prompts/system-reminder-ignore-unknown-message-type.md) | 50 | 13 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Permanent Close](../system-prompts/system-reminder-websocket-permanent-close.md) | 68 | 19 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Not Reconnecting](../system-prompts/system-reminder-websocket-not-reconnecting.md) | 36 | 9 | 2.1.49 | 2.1.49 |
-| system-reminder | [Schedule Websocket Reconnect Attempt](../system-prompts/system-reminder-schedule-websocket-reconnect-attempt.md) | 70 | 24 | 2.1.49 | 2.1.49 |
-| system-reminder | [Sessions Websocket Control Response](../system-prompts/system-reminder-sessions-websocket-control-response.md) | 44 | 10 | 2.1.49 | 2.1.49 |
-| system-reminder | [Send Websocket Control Request](../system-prompts/system-reminder-send-websocket-control-request.md) | 54 | 17 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Closing Connection](../system-prompts/system-reminder-websocket-closing-connection.md) | 38 | 9 | 2.1.49 | 2.1.49 |
-| system-reminder | [Websocket Force Reconnecting](../system-prompts/system-reminder-websocket-force-reconnecting.md) | 38 | 9 | 2.1.49 | 2.1.49 |
+| system-reminder | [Delete Remote Session Notification](../system-prompts/system-reminder-delete-remote-session-notification.md) | 39 | 13 | 2.1.81 | 2.1.81 |
+| system-reminder | [Archive Remote Session Failed](../system-prompts/system-reminder-archive-remote-session-failed.md) | 60 | 26 | 2.1.81 | 2.1.81 |
+| system-reminder | [Archive Remote Session](../system-prompts/system-reminder-archive-remote-session.md) | 41 | 14 | 2.1.81 | 2.1.81 |
+| system-reminder | [Remote Session Exceeded Time](../system-prompts/system-reminder-remote-session-exceeded-time.md) | 41 | 10 | 2.1.81 | 2.1.81 |
+| system-reminder | [Orchestrator Exited Early](../system-prompts/system-reminder-orchestrator-exited-early.md) | 53 | 11 | 2.1.81 | 2.1.81 |
 | system-reminder | [Remote Task Marked Killed Local](../system-prompts/system-reminder-remote-task-marked-killed-local.md) | 55 | 18 | 2.1.49 | 2.1.49 |
 | system-reminder | [Fetch Failed](../system-prompts/system-reminder-fetch-failed.md) | 58 | 19 | 2.1.49 | 2.1.49 |
 | system-reminder | [Hook Based Worktree 3](../system-prompts/system-reminder-hook-based-worktree-3.md) | 44 | 16 | 2.1.79 | 2.1.79 |
@@ -1194,7 +1194,7 @@
 | system-reminder | [Recovering From Sync Error](../system-prompts/system-reminder-recovering-from-sync-error.md) | 56 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Showing Display Name](../system-prompts/system-reminder-showing-display-name.md) | 62 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Executing Forked Task](../system-prompts/system-reminder-executing-forked-task.md) | 63 | 23 | 2.1.49 | 2.1.49 |
-| system-reminder | [Skilltool Forked Completed](../system-prompts/system-reminder-skilltool-forked-completed.md) | 53 | 18 | 2.1.80 | 2.1.80 |
+| system-reminder | [Forked Task Completed](../system-prompts/system-reminder-forked-task-completed.md) | 57 | 23 | 2.1.81 | 2.1.81 |
 | system-reminder | [Returning Global Messages](../system-prompts/system-reminder-returning-global-messages.md) | 58 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Failed Repo Text Size Calculation](../system-prompts/system-reminder-failed-calculate-repo-text-size.md) | 60 | 19 | 2.1.59 | 2.1.59 |
 | system-reminder | [Lsp Server Unknown](../system-prompts/system-reminder-lsp-server-unknown.md) | 30 | 12 | 2.1.77 | 2.1.77 |
@@ -1215,7 +1215,7 @@
 | system-reminder | [Starting Lsp Server Instance](../system-prompts/system-reminder-starting-lsp-server-instance.md) | 39 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Lsp Server Instance Started](../system-prompts/system-reminder-lsp-server-instance-started.md) | 38 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Lsp Server Instance Stopped](../system-prompts/system-reminder-lsp-server-instance-stopped.md) | 38 | 12 | 2.1.49 | 2.1.49 |
-| system-reminder | [Lsp Request Content Modified Error 2](../system-prompts/system-reminder-lsp-request-content-modified-error-2.md) | 124 | 53 | 2.1.78 | 2.1.78 |
+| system-reminder | [Lsp Request Content Modified Error 2](../system-prompts/system-reminder-lsp-request-content-modified-error-2.md) | 160 | 53 | 2.1.81 | 2.1.81 |
 | system-reminder | [Blocked Path Traversal Plugin](../system-prompts/system-reminder-blocked-path-traversal-plugin.md) | 71 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Missing Plugin Lsp Env Vars](../system-prompts/system-reminder-missing-plugin-lsp-env-vars.md) | 61 | 15 | 2.1.49 | 2.1.49 |
 | system-reminder | [Lsp Servers Load Failure](../system-prompts/system-reminder-lsp-servers-load-failure.md) | 36 | 12 | 2.1.49 | 2.1.49 |
@@ -1270,12 +1270,13 @@
 | system-reminder | [Invalid Effort Options](../system-prompts/system-reminder-invalid-effort-options.md) | 99 | 32 | 2.1.80 | 2.1.80 |
 | system-reminder | [Multiple Files Found](../system-prompts/system-reminder-multiple-files-found.md) | 56 | 18 | 2.1.49 | 2.1.49 |
 | system-reminder | [Skipped Gitignored Skills Dir](../system-prompts/system-reminder-skipped-gitignored-skills-dir.md) | 46 | 13 | 2.1.77 | 2.1.77 |
-| system-reminder | [Dynamic Discovery Skipped](../system-prompts/system-reminder-dynamic-discovery-skipped.md) | 73 | 13 | 2.1.77 | 2.1.77 |
+| system-reminder | [Dynamic Discovery Skipped 2](../system-prompts/system-reminder-dynamic-discovery-skipped-2.md) | 88 | 17 | 2.1.81 | 2.1.81 |
 | system-reminder | [Dynamically Discovered Skills](../system-prompts/system-reminder-dynamically-discovered-skills.md) | 75 | 22 | 2.1.49 | 2.1.49 |
 | system-reminder | [Conditional Activated](../system-prompts/system-reminder-conditional-activated.md) | 71 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Loading Skills From Sources](../system-prompts/system-reminder-loading-skills-from-sources.md) | 75 | 27 | 2.1.49 | 2.1.49 |
-| system-reminder | [Skip Duplicate Definition File](../system-prompts/system-reminder-skip-duplicate-definition-file.md) | 93 | 39 | 2.1.77 | 2.1.77 |
-| system-reminder | [Deduplicated Null Skills Same File](../system-prompts/system-reminder-deduplicated-null-skills-same-file.md) | 36 | 10 | 2.1.77 | 2.1.77 |
+| system-reminder | [Bare Skipping Dir Discovery](../system-prompts/system-reminder-bare-skipping-dir-discovery.md) | 78 | 19 | 2.1.81 | 2.1.81 |
+| system-reminder | [Skip Duplicate Definition File](../system-prompts/system-reminder-skip-duplicate-definition-file.md) | 129 | 39 | 2.1.81 | 2.1.81 |
+| system-reminder | [Deduplicated Mcp Skills Same File](../system-prompts/system-reminder-deduplicated-mcp-skills-same-file.md) | 48 | 19 | 2.1.81 | 2.1.81 |
 | system-reminder | [Conditional Skills Stored](../system-prompts/system-reminder-conditional-skills-stored.md) | 88 | 20 | 2.1.49 | 2.1.49 |
 | system-reminder | [Loaded Unique Skills Breakdown](../system-prompts/system-reminder-loaded-unique-skills-breakdown.md) | 187 | 70 | 2.1.49 | 2.1.49 |
 | system-reminder | [Lsp File Change Notify Failed](../system-prompts/system-reminder-lsp-file-change-notify-failed.md) | 68 | 23 | 2.1.49 | 2.1.49 |
@@ -1286,7 +1287,8 @@
 | system-reminder | [Web Page Content Wrapper](../system-prompts/system-reminder-web-page-content-wrapper.md) | 57 | 29 | 2.1.49 | 2.1.49 |
 | system-reminder | [Autodream Lock Held Live Pid](../system-prompts/system-reminder-autodream-lock-held-live-pid.md) | 66 | 29 | 2.1.78 | 2.1.78 |
 | system-reminder | [Autodream Rollback Failed](../system-prompts/system-reminder-autodream-rollback-failed.md) | 73 | 23 | 2.1.78 | 2.1.78 |
-| system-reminder | [Auto Gate Exit Plan Fallback 2](../system-prompts/system-reminder-auto-gate-exit-plan-fallback-2.md) | 152 | 50 | 2.1.80 | 2.1.80 |
+| system-reminder | [Auto Gate Exit Plan Mode](../system-prompts/system-reminder-auto-gate-exit-plan-mode.md) | 146 | 52 | 2.1.81 | 2.1.81 |
+| system-reminder | [Plan Approval Anthropic Pid](../system-prompts/system-reminder-plan-approval-anthropic-pid.md) | 63 | 31 | 2.1.81 | 2.1.81 |
 | system-reminder | [Format Uri Undefined Input](../system-prompts/system-reminder-format-uri-undefined-input.md) | 77 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Decode Lsp Uri Failed](../system-prompts/system-reminder-decode-lsp-uri-failed.md) | 81 | 33 | 2.1.49 | 2.1.49 |
 | system-reminder | [Goto Definition Filter Invalid Locations](../system-prompts/system-reminder-goto-definition-filter-invalid-locations.md) | 110 | 28 | 2.1.49 | 2.1.49 |
@@ -1320,7 +1322,7 @@
 | system-reminder | [Hook Approved Use](../system-prompts/system-reminder-hook-approved-use.md) | 66 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Hook Approved Deny Rule](../system-prompts/system-reminder-hook-approved-deny-rule.md) | 72 | 23 | 2.1.77 | 2.1.77 |
 | system-reminder | [Hook Approved Bypass Permission](../system-prompts/system-reminder-hook-approved-bypass-permission.md) | 65 | 15 | 2.1.77 | 2.1.77 |
-| system-reminder | [Slow Permission Decision](../system-prompts/system-reminder-slow-permission-decision.md) | 80 | 30 | 2.1.79 | 2.1.79 |
+| system-reminder | [Slow Permission Decision Nullms](../system-prompts/system-reminder-slow-permission-decision-nullms.md) | 119 | 53 | 2.1.81 | 2.1.81 |
 | system-reminder | [Load Schema Before Call](../system-prompts/system-reminder-load-schema-before-call.md) | 346 | 83 | 2.1.77 | 2.1.77 |
 | system-reminder | [Execution Stopped Pretooluse Hook](../system-prompts/system-reminder-execution-stopped-pretooluse-hook.md) | 54 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Permission Denied](../system-prompts/system-reminder-permission-denied.md) | 32 | 9 | 2.1.49 | 2.1.49 |
@@ -1353,7 +1355,7 @@
 | system-reminder | [Server Status Display](../system-prompts/system-reminder-server-status-display.md) | 24 | 9 | 2.1.15 | 2.1.15 |
 | system-reminder | [Output Token Limit Hit](../system-prompts/system-reminder-output-token-limit-hit.md) | 183 | 40 | 2.1.77 | 2.1.77 |
 | system-reminder | [Connection Error Message](../system-prompts/system-reminder-connection-error-message.md) | 68 | 24 | 2.1.49 | 2.1.49 |
-| system-reminder | [Forked Failed Record](../system-prompts/system-reminder-forked-failed-record.md) | 66 | 19 | 2.1.78 | 2.1.78 |
+| system-reminder | [Forked Transcript Record Failed](../system-prompts/system-reminder-forked-transcript-record-failed.md) | 71 | 24 | 2.1.81 | 2.1.81 |
 | system-reminder | [Forked Received Message Type](../system-prompts/system-reminder-forked-received-message-type.md) | 57 | 22 | 2.1.49 | 2.1.49 |
 | system-reminder | [Forked Missed Transcript](../system-prompts/system-reminder-forked-missed-transcript.md) | 63 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Forked Finished Usage Stats](../system-prompts/system-reminder-forked-finished-usage-stats.md) | 160 | 67 | 2.1.49 | 2.1.49 |
@@ -1372,7 +1374,8 @@
 | system-reminder | [Fail Write Accept Transcript](../system-prompts/system-reminder-fail-write-accept-transcript.md) | 62 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Speculation Accept Still Running](../system-prompts/system-reminder-speculation-accept-still-running.md) | 71 | 22 | 2.1.49 | 2.1.49 |
 | system-reminder | [Speculation Aborting](../system-prompts/system-reminder-speculation-aborting.md) | 32 | 14 | 2.1.49 | 2.1.49 |
-| system-reminder | [Null Value Indicator](../system-prompts/system-reminder-null-value-indicator.md) | 26 | 15 | 2.1.80 | 2.1.80 |
+| system-reminder | [Multi Expression Placeholder Block](../system-prompts/system-reminder-multi-expression-placeholder-block.md) | 75 | 48 | 2.1.81 | 2.1.81 |
+| system-reminder | [Null Value Indicator](../system-prompts/system-reminder-null-value-indicator.md) | 59 | 36 | 2.1.81 | 2.1.81 |
 | system-reminder | [Promote Pipelined Suggestion](../system-prompts/system-reminder-promote-pipelined-suggestion.md) | 60 | 18 | 2.1.49 | 2.1.49 |
 | system-reminder | [Speculation Messages Injected](../system-prompts/system-reminder-speculation-messages-injected.md) | 52 | 19 | 2.1.49 | 2.1.49 |
 | system-reminder | [Team Memory Sync Fetch Error](../system-prompts/system-reminder-team-memory-sync-fetch-error.md) | 50 | 20 | 2.1.77 | 2.1.77 |
@@ -1408,13 +1411,13 @@
 | system-reminder | [Team Memory Watcher Github Sync](../system-prompts/system-reminder-team-memory-watcher-github-sync.md) | 56 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Team Memory Watcher Initial Pull Failed](../system-prompts/system-reminder-team-memory-watcher-initial-pull-failed.md) | 51 | 17 | 2.1.77 | 2.1.77 |
 | system-reminder | [Team Memory Watcher Initial Pull](../system-prompts/system-reminder-team-memory-watcher-initial-pull.md) | 53 | 17 | 2.1.77 | 2.1.77 |
-| system-reminder | [Pr Attribution Filestates Count](../system-prompts/system-reminder-attribution-filestates-count.md) | 43 | 14 | 2.1.51 | 2.1.51 |
+| system-reminder | [Pr Attribution Filestates Count Null](../system-prompts/system-reminder-pr-attribution-filestates-count-null.md) | 38 | 9 | 2.1.81 | 2.1.81 |
 | system-reminder | [Appstate Attribution Exists](../system-prompts/system-reminder-pr-attribution-appstate-exists.md) | 54 | 15 | 2.1.51 | 2.1.51 |
-| system-reminder | [Attribution Claudepercent Promptcount](../system-prompts/system-reminder-attribution-claudepercent-promptcount-memoryaccess.md) | 94 | 34 | 2.1.51 | 2.1.51 |
+| system-reminder | [Attribution Claudepercent Stdio](../system-prompts/system-reminder-attribution-claudepercent-stdio.md) | 90 | 30 | 2.1.81 | 2.1.81 |
 | system-reminder | [Pr Attribution Returning Default](../system-prompts/system-reminder-attribution-returning-default-data.md) | 43 | 9 | 2.1.51 | 2.1.51 |
-| system-reminder | [Pr Attribution Returning Enhanced](../system-prompts/system-reminder-attribution-returning-enhanced.md) | 45 | 12 | 2.1.59 | 2.1.59 |
-| system-reminder | [Generated Shotted](../system-prompts/system-reminder-generated-shotted.md) | 114 | 54 | 2.1.51 | 2.1.51 |
-| system-reminder | [Bash Command Permission Check Failed](../system-prompts/system-reminder-bash-command-permission-check-failed.md) | 87 | 25 | 2.1.79 | 2.1.79 |
+| system-reminder | [Attribution Returning Summary](../system-prompts/system-reminder-attribution-returning-summary.md) | 44 | 12 | 2.1.81 | 2.1.81 |
+| system-reminder | [Generated Stdio Shotted](../system-prompts/system-reminder-generated-stdio-shotted.md) | 97 | 44 | 2.1.81 | 2.1.81 |
+| system-reminder | [Shell Command Permission Check Failed](../system-prompts/system-reminder-shell-command-permission-check-failed.md) | 103 | 33 | 2.1.81 | 2.1.81 |
 | system-reminder | [Scan Global Directory Failed](../system-prompts/system-reminder-scan-global-directory-failed.md) | 42 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Create Global Command Failed](../system-prompts/system-reminder-create-global-command-failed.md) | 47 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Invalid Plugin Command Effort](../system-prompts/system-reminder-invalid-plugin-command-effort.md) | 118 | 39 | 2.1.80 | 2.1.80 |
@@ -1554,11 +1557,11 @@
 | system-reminder | [Path Pid Not Found](../system-prompts/system-reminder-path-pid-not-found.md) | 78 | 39 | 2.1.77 | 2.1.77 |
 | system-reminder | [Unexpected Command Format Manifest](../system-prompts/system-reminder-unexpected-command-format-manifest.md) | 51 | 13 | 2.1.49 | 2.1.49 |
 | system-reminder | [Manifest Command Path Not Found](../system-prompts/system-reminder-manifest-command-path-not-found-2.md) | 85 | 28 | 2.1.49 | 2.1.49 |
-| system-reminder | [Duplicate Hooks File Detected 2](../system-prompts/system-reminder-duplicate-hooks-file-detected-2.md) | 194 | 50 | 2.1.78 | 2.1.78 |
+| system-reminder | [Duplicate Hooks File Detected 2](../system-prompts/system-reminder-duplicate-hooks-file-detected-2.md) | 199 | 50 | 2.1.81 | 2.1.81 |
 | system-reminder | [Failed Load Hooks](../system-prompts/system-reminder-failed-load-hooks.md) | 45 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Loaded Hooks Standard Location](../system-prompts/system-reminder-loaded-hooks-standard-location.md) | 67 | 20 | 2.1.77 | 2.1.77 |
-| system-reminder | [Missing Hooks File In Manifest](../system-prompts/system-reminder-missing-hooks-file-in-manifest.md) | 83 | 29 | 2.1.78 | 2.1.78 |
-| system-reminder | [Skipping Duplicate Hooks File](../system-prompts/system-reminder-skipping-duplicate-hooks-file.md) | 101 | 31 | 2.1.78 | 2.1.78 |
+| system-reminder | [Missing Hooks File In Manifest](../system-prompts/system-reminder-missing-hooks-file-in-manifest.md) | 119 | 29 | 2.1.81 | 2.1.81 |
+| system-reminder | [Skip Duplicate Hooks File 2](../system-prompts/system-reminder-skip-duplicate-hooks-file-2.md) | 106 | 35 | 2.1.81 | 2.1.81 |
 | system-reminder | [Failed Load Hooks From Path](../system-prompts/system-reminder-failed-load-hooks-from-path.md) | 60 | 24 | 2.1.49 | 2.1.49 |
 | system-reminder | [Merge Hooks Failure](../system-prompts/system-reminder-merge-hooks-failure.md) | 61 | 24 | 2.1.77 | 2.1.77 |
 | system-reminder | [Loaded Merged Plugin Hooks](../system-prompts/system-reminder-loaded-merged-plugin-hooks.md) | 69 | 21 | 2.1.49 | 2.1.49 |
@@ -1567,8 +1570,7 @@
 | system-reminder | [Loaded Settings From Manifest](../system-prompts/system-reminder-loaded-settings-from-manifest.md) | 50 | 13 | 2.1.49 | 2.1.49 |
 | system-reminder | [Loading Plugin From Source](../system-prompts/system-reminder-loading-plugin-from-source.md) | 47 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Failed Cache Plugin Errors](../system-prompts/system-reminder-failed-cache-plugin-errors.md) | 62 | 19 | 2.1.77 | 2.1.77 |
-| system-reminder | [Seed Cache External Plugin 2](../system-prompts/system-reminder-seed-cache-external-plugin-2.md) | 66 | 23 | 2.1.80 | 2.1.80 |
-| system-reminder | [Using Cached Plugin Null](../system-prompts/system-reminder-using-cached-plugin-null.md) | 82 | 22 | 2.1.80 | 2.1.80 |
+| system-reminder | [Seed Cache External Plugin](../system-prompts/system-reminder-seed-cache-external-plugin.md) | 54 | 14 | 2.1.81 | 2.1.81 |
 | system-reminder | [Versioned Cached Plugin Errors](../system-prompts/system-reminder-versioned-cached-plugin-errors.md) | 73 | 21 | 2.1.77 | 2.1.77 |
 | system-reminder | [Versioned Cached Plugin Zip](../system-prompts/system-reminder-versioned-cached-plugin-zip.md) | 58 | 19 | 2.1.59 | 2.1.59 |
 | system-reminder | [Plugin Path Not Found Errors](../system-prompts/system-reminder-plugin-path-not-found-errors.md) | 51 | 14 | 2.1.77 | 2.1.77 |
@@ -1596,7 +1598,7 @@
 | system-reminder | [Plugins Enabled Disabled Count](../system-prompts/system-reminder-plugins-enabled-disabled-count.md) | 63 | 25 | 2.1.49 | 2.1.49 |
 | system-reminder | [Failed Scan Agents Directory](../system-prompts/system-reminder-failed-scan-agents-directory.md) | 65 | 22 | 2.1.77 | 2.1.77 |
 | system-reminder | [Failed Load Stdio 2](../system-prompts/system-reminder-failed-load-stdio-2.md) | 42 | 12 | 2.1.77 | 2.1.77 |
-| system-reminder | [Invalid Plugin Memory Value](../system-prompts/system-reminder-invalid-plugin-memory-value.md) | 101 | 29 | 2.1.78 | 2.1.78 |
+| system-reminder | [Invalid Plugin Memory Value](../system-prompts/system-reminder-invalid-plugin-memory-value.md) | 137 | 29 | 2.1.81 | 2.1.81 |
 | system-reminder | [Plugin File Invalid Effort](../system-prompts/system-reminder-plugin-file-invalid-effort.md) | 111 | 33 | 2.1.78 | 2.1.78 |
 | system-reminder | [Plugin File Sets](../system-prompts/system-reminder-plugin-file-sets.md) | 127 | 38 | 2.1.78 | 2.1.78 |
 | system-reminder | [Invalid Plugin File](../system-prompts/system-reminder-invalid-plugin-file.md) | 91 | 27 | 2.1.78 | 2.1.78 |
@@ -1684,15 +1686,16 @@
 | system-reminder | [Http Hook Empty Body](../system-prompts/system-reminder-http-hook-empty-body.md) | 60 | 11 | 2.1.77 | 2.1.77 |
 | system-reminder | [Http Hook Must Return Json](../system-prompts/system-reminder-http-hook-must-return-json.md) | 69 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Http Hook Valid Json](../system-prompts/system-reminder-http-hook-valid-json.md) | 63 | 17 | 2.1.77 | 2.1.77 |
-| system-reminder | [Cwd Hooks Green Not Found](../system-prompts/system-reminder-cwd-hooks-green-not-found.md) | 56 | 15 | 2.1.77 | 2.1.77 |
+| system-reminder | [Bash Load Failure](../system-prompts/system-reminder-bash-load-failure.md) | 29 | 10 | 2.1.81 | 2.1.81 |
+| system-reminder | [Cwd Hooks Not Found](../system-prompts/system-reminder-cwd-hooks-not-found.md) | 60 | 20 | 2.1.81 | 2.1.81 |
 | system-reminder | [Config Async Background Process](../system-prompts/system-reminder-config-async-background-process.md) | 63 | 18 | 2.1.77 | 2.1.77 |
-| system-reminder | [Detected Hook Request](../system-prompts/system-reminder-detected-hook-request.md) | 51 | 16 | 2.1.77 | 2.1.77 |
-| system-reminder | [Hooks Request Handling Failed](../system-prompts/system-reminder-hooks-request-handling-failed.md) | 48 | 15 | 2.1.77 | 2.1.77 |
+| system-reminder | [Hooks Detected Request](../system-prompts/system-reminder-hooks-detected-request.md) | 46 | 11 | 2.1.81 | 2.1.81 |
+| system-reminder | [Hooks Request Failed](../system-prompts/system-reminder-hooks-request-failed.md) | 43 | 10 | 2.1.81 | 2.1.81 |
 | system-reminder | [Hooks Checking First Line Async](../system-prompts/system-reminder-hooks-checking-first-line-async.md) | 47 | 16 | 2.1.79 | 2.1.79 |
 | system-reminder | [Hooks Failed Parse Initial Json](../system-prompts/system-reminder-hooks-failed-parse-initial-json.md) | 58 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Non Async Initial Response](../system-prompts/system-reminder-non-async-initial-response.md) | 66 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Force Sync Wait Async Hook](../system-prompts/system-reminder-force-sync-wait-async-hook.md) | 81 | 19 | 2.1.49 | 2.1.49 |
-| system-reminder | [Detected Async Hook Backgrounding](../system-prompts/system-reminder-detected-async-hook-backgrounding.md) | 59 | 17 | 2.1.79 | 2.1.79 |
+| system-reminder | [Background Async Hook Process](../system-prompts/system-reminder-background-async-hook-process.md) | 54 | 12 | 2.1.81 | 2.1.81 |
 | system-reminder | [Hooks Parsed Initial Response](../system-prompts/system-reminder-hooks-parsed-initial-response.md) | 41 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Hooks Stdin Error Flow](../system-prompts/system-reminder-hooks-stdin-error-flow.md) | 72 | 20 | 2.1.79 | 2.1.79 |
 | system-reminder | [Epipe Writing To Hook](../system-prompts/system-reminder-epipe-writing-to-hook.md) | 74 | 16 | 2.1.49 | 2.1.49 |
@@ -1705,16 +1708,17 @@
 | system-reminder | [Http Request Response](../system-prompts/system-reminder-http-request-response.md) | 29 | 14 | 2.1.77 | 2.1.77 |
 | system-reminder | [Hook Pid Function Prevent Continuation](../system-prompts/system-reminder-hook-pid-function-prevent-continuation.md) | 62 | 19 | 2.1.77 | 2.1.77 |
 | system-reminder | [Hook Function Additional Context](../system-prompts/system-reminder-hook-function-additional-context.md) | 77 | 27 | 2.1.77 | 2.1.77 |
+| system-reminder | [Hook Pid Function Initial Message](../system-prompts/system-reminder-hook-pid-function-initial-message.md) | 78 | 27 | 2.1.81 | 2.1.81 |
 | system-reminder | [Hook Pid Function Replaced Mcp](../system-prompts/system-reminder-hook-pid-function-replaced-mcp.md) | 57 | 19 | 2.1.77 | 2.1.77 |
 | system-reminder | [Hook Pid Function Returned Decision](../system-prompts/system-reminder-hook-pid-function-returned-decision.md) | 91 | 35 | 2.1.77 | 2.1.77 |
 | system-reminder | [Hook Pid Function Modified](../system-prompts/system-reminder-hook-pid-function-modified.md) | 70 | 27 | 2.1.77 | 2.1.77 |
 | system-reminder | [Skipping Hooks Due To Disableallhooks](../system-prompts/system-reminder-skipping-hooks-due-disableallhooks.md) | 69 | 23 | 2.1.49 | 2.1.49 |
-| system-reminder | [Callback Failed To Run Null](../system-prompts/system-reminder-callback-failed-to-run-null.md) | 40 | 14 | 2.1.78 | 2.1.78 |
+| system-reminder | [Callback Failed Run](../system-prompts/system-reminder-callback-failed-run.md) | 45 | 19 | 2.1.81 | 2.1.81 |
 | system-reminder | [Callback Async Empty Output](../system-prompts/system-reminder-callback-async-empty-output.md) | 68 | 16 | 2.1.49 | 2.1.49 |
 | system-reminder | [Callback Success Message](../system-prompts/system-reminder-callback-success-message.md) | 43 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Failed Run Green](../system-prompts/system-reminder-failed-run-green.md) | 42 | 19 | 2.1.77 | 2.1.77 |
 | system-reminder | [Operation Cancelled Status](../system-prompts/system-reminder-operation-cancelled-status.md) | 31 | 15 | 2.1.49 | 2.1.49 |
-| system-reminder | [Failed Null Error](../system-prompts/system-reminder-failed-null-error.md) | 34 | 17 | 2.1.78 | 2.1.78 |
+| system-reminder | [Failed Expr Notification](../system-prompts/system-reminder-failed-expr-notification.md) | 39 | 22 | 2.1.81 | 2.1.81 |
 | system-reminder | [Parsed Json Output Http Hook](../system-prompts/system-reminder-parsed-json-output-http-hook.md) | 44 | 14 | 2.1.77 | 2.1.77 |
 | system-reminder | [Completion With Status](../system-prompts/system-reminder-completion-with-status.md) | 53 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Parsed Json From Hook](../system-prompts/system-reminder-parsed-json-from-hook.md) | 39 | 13 | 2.1.49 | 2.1.49 |
@@ -1782,7 +1786,7 @@
 | system-reminder | [Opening Deep Link](../system-prompts/system-reminder-opening-deep-link.md) | 28 | 10 | 2.1.49 | 2.1.49 |
 | system-reminder | [Desktop Not Installed](../system-prompts/system-reminder-desktop-not-installed.md) | 32 | 6 | 2.1.49 | 2.1.49 |
 | system-reminder | [Desktop Update Required](../system-prompts/system-reminder-desktop-update-required.md) | 74 | 27 | 2.1.49 | 2.1.49 |
-| system-reminder | [Git Safety Protocols](../system-prompts/system-reminder-git-safety-protocols.md) | 2468 | 737 | 2.1.80 | 2.1.80 |
+| system-reminder | [Git Safety Protocols](../system-prompts/system-reminder-git-safety-protocols.md) | 2468 | 737 | 2.1.81 | 2.1.81 |
 | system-reminder | [Additional From User](../system-prompts/system-reminder-additional-from-user.md) | 47 | 12 | 2.1.51 | 2.1.51 |
 | system-reminder | [Opus Capable Complex Tasks](../system-prompts/system-reminder-opus-capable-complex-tasks.md) | 112 | 39 | 2.1.78 | 2.1.78 |
 | system-reminder | [Disable Custom Api Key](../system-prompts/system-reminder-disable-custom-api-key.md) | 23 | 5 | 2.1.49 | 2.1.49 |
@@ -1834,6 +1838,7 @@
 | system-reminder | [Checking Installed Plugins Update](../system-prompts/system-reminder-checking-installed-plugins-update.md) | 45 | 8 | 2.1.49 | 2.1.49 |
 | system-reminder | [Marketplaces Load Failure](../system-prompts/system-reminder-marketplaces-load-failure.md) | 27 | 6 | 2.1.49 | 2.1.49 |
 | system-reminder | [Plugins Bumped Notification](../system-prompts/system-reminder-plugins-bumped-notification.md) | 26 | 11 | 2.1.77 | 2.1.77 |
+| system-reminder | [Two Expression Placeholder](../system-prompts/system-reminder-two-expression-placeholder.md) | 19 | 12 | 2.1.81 | 2.1.81 |
 | system-reminder | [Failed Update Setting](../system-prompts/system-reminder-failed-update-setting.md) | 24 | 4 | 2.1.77 | 2.1.77 |
 | system-reminder | [Failed Load Install Counts Cache](../system-prompts/system-reminder-failed-load-install-counts-cache.md) | 46 | 13 | 2.1.49 | 2.1.49 |
 | system-reminder | [Install Counts Cache Invalid Structure](../system-prompts/system-reminder-install-counts-cache-invalid-structure.md) | 42 | 6 | 2.1.49 | 2.1.49 |
@@ -1885,6 +1890,7 @@
 | system-reminder | [Removed Marketplace Notification](../system-prompts/system-reminder-removed-marketplace-notification.md) | 41 | 15 | 2.1.77 | 2.1.77 |
 | system-reminder | [Mcp Servers Already Disabled](../system-prompts/system-reminder-mcp-servers-already-disabled.md) | 36 | 7 | 2.1.49 | 2.1.49 |
 | system-reminder | [Disabled Mcp Servers](../system-prompts/system-reminder-disabled-mcp-servers.md) | 32 | 14 | 2.1.49 | 2.1.49 |
+| system-reminder | [Generate Session Name Failed](../system-prompts/system-reminder-generate-session-name-failed.md) | 37 | 11 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Access Token Session](../system-prompts/system-reminder-bridge-access-token-creation.md) | 45 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [No Org Uuid Session Creation](../system-prompts/system-reminder-bridge-org-uuid-creation.md) | 41 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [Bridge Session Creation Failed](../system-prompts/system-reminder-bridge-session-creation-request-failed.md) | 51 | 14 | 2.1.49 | 2.1.49 |
@@ -1904,7 +1910,7 @@
 | system-reminder | [No Org Uuid Session Title](../system-prompts/system-reminder-bridge-org-uuid-title-update.md) | 45 | 10 | 2.1.49 | 2.1.49 |
 | system-reminder | [Bridge Updating Session Title](../system-prompts/system-reminder-updating-session-title.md) | 54 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Bridge Session Title Update Failed](../system-prompts/system-reminder-session-title-update-request-failed.md) | 55 | 15 | 2.1.49 | 2.1.49 |
-| system-reminder | [Bridge Session Title Update Failed 2](../system-prompts/system-reminder-bridge-session-title-update-failed-2.md) | 88 | 24 | 2.1.77 | 2.1.77 |
+| system-reminder | [Bridge Session Title Update Failed 3](../system-prompts/system-reminder-bridge-session-title-update-failed-3.md) | 69 | 21 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Session Title Updated](../system-prompts/system-reminder-session-title-updated-successfully.md) | 43 | 7 | 2.1.49 | 2.1.49 |
 | system-reminder | [Passes Reuse Inflight Fetch](../system-prompts/system-reminder-passes-reuse-inflight-fetch.md) | 43 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Fetch Cache Passes Eligibility Failed](../system-prompts/system-reminder-fetch-cache-passes-eligibility-failed.md) | 44 | 8 | 2.1.49 | 2.1.49 |
@@ -1912,7 +1918,6 @@
 | system-reminder | [Passes No Cache Fetching](../system-prompts/system-reminder-passes-no-cache-fetching.md) | 87 | 19 | 2.1.49 | 2.1.49 |
 | system-reminder | [Passes Cache Stale Refreshing](../system-prompts/system-reminder-passes-cache-stale-refreshing.md) | 71 | 15 | 2.1.49 | 2.1.49 |
 | system-reminder | [Fresh Cached Eligibility Passes](../system-prompts/system-reminder-fresh-cached-eligibility-passes.md) | 43 | 9 | 2.1.49 | 2.1.49 |
-| system-reminder | [Smselect Smlike Smcard Tokens](../system-prompts/system-reminder-smselect-smlike-smcard-tokens.md) | 22 | 7 | 2.1.79 | 2.1.79 |
 | system-reminder | [Agentic Search Log Query Stats](../system-prompts/system-reminder-agentic-search-log-query-stats.md) | 106 | 44 | 2.1.49 | 2.1.49 |
 | system-reminder | [Agentic Search Loaded Transcripts](../system-prompts/system-reminder-agentic-search-loaded-transcripts.md) | 64 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Agentic Search Preview](../system-prompts/system-reminder-agentic-search-preview.md) | 59 | 23 | 2.1.49 | 2.1.49 |
@@ -1940,13 +1945,13 @@
 | system-reminder | [Thinkback Directory](../system-prompts/system-reminder-thinkback-directory.md) | 36 | 13 | 2.1.49 | 2.1.49 |
 | system-reminder | [Check Item Not Found](../system-prompts/system-reminder-check-item-not-found.md) | 33 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Unknown Error Occurred](../system-prompts/system-reminder-unknown-error-occurred.md) | 22 | 3 | 2.1.49 | 2.1.49 |
-| system-reminder | [Architect Guidelines](../system-prompts/system-reminder-architect-guidelines.md) | 6648 | 1495 | 2.1.80 | 2.1.80 |
+| system-reminder | [Architect Guidelines](../system-prompts/system-reminder-architect-guidelines.md) | 6648 | 1495 | 2.1.81 | 2.1.81 |
 | system-reminder | [Request Task Details](../system-prompts/system-reminder-request-task-details.md) | 40 | 7 | 2.1.49 | 2.1.49 |
 | system-reminder | [Generation Failure Message](../system-prompts/system-reminder-generation-failure-message.md) | 24 | 4 | 2.1.49 | 2.1.49 |
 | system-reminder | [Type Alphanumeric Hyphens](../system-prompts/system-reminder-type-alphanumeric-hyphens.md) | 105 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Required](../system-prompts/system-reminder-required.md) | 25 | 4 | 2.1.49 | 2.1.49 |
 | system-reminder | [Missing Error](../system-prompts/system-reminder-missing-error.md) | 23 | 3 | 2.1.49 | 2.1.49 |
-| system-reminder | [Placeholder Expressions Block](../system-prompts/system-reminder-placeholder-expressions-block.md) | 133 | 83 | 2.1.51 | 2.1.51 |
+| system-reminder | [Template Expressions Block](../system-prompts/system-reminder-template-expressions-block.md) | 145 | 90 | 2.1.81 | 2.1.81 |
 | system-reminder | [Save Failure Message](../system-prompts/system-reminder-save-failure-message.md) | 20 | 4 | 2.1.49 | 2.1.49 |
 | system-reminder | [Created Opened Editor](../system-prompts/system-reminder-created-opened-editor.md) | 101 | 27 | 2.1.49 | 2.1.49 |
 | system-reminder | [Deleted Notice](../system-prompts/system-reminder-deleted-notice.md) | 24 | 10 | 2.1.80 | 2.1.80 |
@@ -1986,11 +1991,10 @@
 | system-reminder | [Failed Clean Worktree](../system-prompts/system-reminder-failed-clean-worktree.md) | 38 | 14 | 2.1.59 | 2.1.59 |
 | system-reminder | [Worktree Cleanup Failed](../system-prompts/system-reminder-worktree-cleanup-failed.md) | 39 | 10 | 2.1.59 | 2.1.59 |
 | system-reminder | [Worktree Removed No Changes](../system-prompts/system-reminder-worktree-removed-no-changes.md) | 29 | 9 | 2.1.49 | 2.1.49 |
-| system-reminder | [Failed Clean Worktree Null](../system-prompts/system-reminder-failed-clean-worktree-null.md) | 33 | 9 | 2.1.78 | 2.1.78 |
 | system-reminder | [Tmux Session Terminated](../system-prompts/system-reminder-tmux-session-terminated.md) | 24 | 6 | 2.1.49 | 2.1.49 |
-| system-reminder | [Worktree Removed Uncommitted Changes 2](../system-prompts/system-reminder-worktree-removed-uncommitted-changes-2.md) | 62 | 20 | 2.1.78 | 2.1.78 |
-| system-reminder | [Worktree Removed Discarded Commits 2](../system-prompts/system-reminder-worktree-removed-discarded-commits-2.md) | 73 | 30 | 2.1.78 | 2.1.78 |
-| system-reminder | [Worktree Removed Uncommitted Changes 3](../system-prompts/system-reminder-worktree-removed-uncommitted-changes-3.md) | 84 | 27 | 2.1.78 | 2.1.78 |
+| system-reminder | [Worktree Removed Uncommitted Changes 2](../system-prompts/system-reminder-worktree-removed-uncommitted-changes-2.md) | 98 | 20 | 2.1.81 | 2.1.81 |
+| system-reminder | [Worktree Removed Discarded Commits 2](../system-prompts/system-reminder-worktree-removed-discarded-commits-2.md) | 109 | 30 | 2.1.81 | 2.1.81 |
+| system-reminder | [Worktree Removed Uncommitted Changes 3](../system-prompts/system-reminder-worktree-removed-uncommitted-changes-3.md) | 120 | 27 | 2.1.81 | 2.1.81 |
 | system-reminder | [Worktree Branch Tmux Session](../system-prompts/system-reminder-worktree-kept-branch-tmux.md) | 72 | 27 | 2.1.49 | 2.1.49 |
 | system-reminder | [Worktree Saved On Branch](../system-prompts/system-reminder-worktree-kept-saved-branch.md) | 66 | 25 | 2.1.49 | 2.1.49 |
 | system-reminder | [Tmux Worktree Saved](../system-prompts/system-reminder-tmux-reattach-worktree-saved.md) | 123 | 47 | 2.1.49 | 2.1.49 |
@@ -2023,20 +2027,21 @@
 | system-reminder | [Voice Stream Connecting](../system-prompts/system-reminder-voice-stream-connecting.md) | 38 | 14 | 2.1.80 | 2.1.80 |
 | system-reminder | [Voice Stream Dropping Audio Chunk](../system-prompts/system-reminder-dropping-audio-chunk-voice-stream.md) | 70 | 21 | 2.1.59 | 2.1.59 |
 | system-reminder | [Sending Audio Chunk](../system-prompts/system-reminder-sending-audio-chunk-voice-stream.md) | 51 | 17 | 2.1.59 | 2.1.59 |
-| system-reminder | [Promoting Unreported Interim](../system-prompts/system-reminder-promoting-unreported-interim.md) | 68 | 18 | 2.1.78 | 2.1.78 |
-| system-reminder | [Finalize Voice Stream 2](../system-prompts/system-reminder-finalize-voice-stream-2.md) | 46 | 16 | 2.1.78 | 2.1.78 |
+| system-reminder | [Promoting Unreported Interim](../system-prompts/system-reminder-promoting-unreported-interim.md) | 104 | 18 | 2.1.81 | 2.1.81 |
+| system-reminder | [Finalize Voice Stream 2](../system-prompts/system-reminder-finalize-voice-stream-2.md) | 82 | 16 | 2.1.81 | 2.1.81 |
 | system-reminder | [Voice Stream Close Finalize](../system-prompts/system-reminder-sending-closestream-finalize.md) | 45 | 14 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Stream Websocket Connected](../system-prompts/system-reminder-websocket-connected.md) | 34 | 8 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Stream Initial Keepalive](../system-prompts/system-reminder-sending-initial-keepalive.md) | 40 | 13 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Stream Periodic Keepalive](../system-prompts/system-reminder-sending-periodic-keepalive.md) | 41 | 13 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Stream Message Received](../system-prompts/system-reminder-message-received-voice-stream.md) | 60 | 22 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Stream Transcript Text](../system-prompts/system-reminder-transcripttext.md) | 42 | 16 | 2.1.59 | 2.1.59 |
-| system-reminder | [Auto Finalizing Voice Stream 2](../system-prompts/system-reminder-auto-finalizing-voice-stream-2.md) | 81 | 19 | 2.1.80 | 2.1.80 |
-| system-reminder | [Voice Stream Transcript Received 2](../system-prompts/system-reminder-voice-stream-transcript-received-2.md) | 72 | 20 | 2.1.80 | 2.1.80 |
-| system-reminder | [Voice Stream Transcripterror](../system-prompts/system-reminder-voice-stream-transcripterror.md) | 41 | 16 | 2.1.78 | 2.1.78 |
-| system-reminder | [Voice Stream Server Error 2](../system-prompts/system-reminder-voice-stream-server-error-2.md) | 38 | 14 | 2.1.78 | 2.1.78 |
-| system-reminder | [Voice Stream Websocket Closed 2](../system-prompts/system-reminder-voice-stream-websocket-closed-2.md) | 62 | 20 | 2.1.80 | 2.1.80 |
+| system-reminder | [Auto Finalizing Voice Stream](../system-prompts/system-reminder-auto-finalizing-voice-stream.md) | 83 | 22 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Stream Transcript Received](../system-prompts/system-reminder-voice-stream-transcript-received.md) | 74 | 23 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Stream Transcripterror](../system-prompts/system-reminder-voice-stream-transcripterror.md) | 77 | 16 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Stream Server Error 2](../system-prompts/system-reminder-voice-stream-server-error-2.md) | 74 | 14 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Stream Websocket Closed](../system-prompts/system-reminder-voice-stream-websocket-closed.md) | 66 | 23 | 2.1.81 | 2.1.81 |
 | system-reminder | [Promoting Unreported Interim Transcript](../system-prompts/system-reminder-promoting-interim-transcript-voice-stream.md) | 72 | 15 | 2.1.59 | 2.1.59 |
+| system-reminder | [Voice Stream Upgrade Rejected](../system-prompts/system-reminder-voice-stream-upgrade-rejected.md) | 89 | 36 | 2.1.81 | 2.1.81 |
 | system-reminder | [Voice Stream Websocket Error](../system-prompts/system-reminder-websocket-error.md) | 41 | 15 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Audio Capture Napi Loaded](../system-prompts/system-reminder-voice-audio-capture-napi-loaded.md) | 48 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Arecord Probe Failed](../system-prompts/system-reminder-arecord-probe-failed.md) | 39 | 15 | 2.1.78 | 2.1.78 |
@@ -2044,6 +2049,7 @@
 | system-reminder | [Windows Native Voice Recording Unavailable](../system-prompts/system-reminder-voice-windows-native-recording-unavailable.md) | 57 | 12 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Finish Recording Transition](../system-prompts/system-reminder-voice-finish-recording-stopping.md) | 72 | 15 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Recording Stopped](../system-prompts/system-reminder-voice-recording-stopped.md) | 25 | 5 | 2.1.59 | 2.1.59 |
+| system-reminder | [Silent Drop Detected Replaying](../system-prompts/system-reminder-silent-drop-detected-replaying.md) | 95 | 27 | 2.1.81 | 2.1.81 |
 | system-reminder | [Final Voice Transcript Assembled](../system-prompts/system-reminder-voice-final-transcript-assembled.md) | 65 | 21 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Injecting Transcript](../system-prompts/system-reminder-voice-injecting-transcript-chars.md) | 46 | 16 | 2.1.59 | 2.1.59 |
 | system-reminder | [Focus Silence Timeout](../system-prompts/system-reminder-voice-focus-silence-timeout-tearing.md) | 52 | 11 | 2.1.59 | 2.1.59 |
@@ -2055,11 +2061,11 @@
 | system-reminder | [Start Recording Buffering Audio](../system-prompts/system-reminder-voice-startrecording-buffering-audio.md) | 64 | 14 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Failed Connect Stream Oauth](../system-prompts/system-reminder-voice-failed-connect-stream.md) | 59 | 15 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Accumulated Final Transcript](../system-prompts/system-reminder-accumulated-final-transcript.md) | 49 | 14 | 2.1.59 | 2.1.59 |
-| system-reminder | [Voice Focus Mode Flushing Final](../system-prompts/system-reminder-voice-focus-mode-flushing-final.md) | 70 | 19 | 2.1.59 | 2.1.59 |
-| system-reminder | [Voice Ontranscript Isfinal Text](../system-prompts/system-reminder-voice-ontranscript-isfinal-text.md) | 56 | 24 | 2.1.59 | 2.1.59 |
-| system-reminder | [Voice Ignoring Onerror Stale Session](../system-prompts/system-reminder-voice-ignoring-onerror-stale-session.md) | 54 | 18 | 2.1.77 | 2.1.77 |
-| system-reminder | [Early Voice Stream Error](../system-prompts/system-reminder-early-voice-stream-error.md) | 75 | 23 | 2.1.77 | 2.1.77 |
-| system-reminder | [Voice Ignoring Stale Onerror](../system-prompts/system-reminder-voice-ignoring-stale-onerror.md) | 54 | 18 | 2.1.77 | 2.1.77 |
+| system-reminder | [Voice Focus Mode Flushing Final 2](../system-prompts/system-reminder-voice-focus-mode-flushing-final-2.md) | 65 | 16 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Ontranscript Isfinal Null](../system-prompts/system-reminder-voice-ontranscript-isfinal-null.md) | 51 | 21 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Ignoring Onerror Stale Session 2](../system-prompts/system-reminder-voice-ignoring-onerror-stale-session-2.md) | 49 | 13 | 2.1.81 | 2.1.81 |
+| system-reminder | [Voice Ignoring Stale Onerror 2](../system-prompts/system-reminder-voice-ignoring-stale-onerror-2.md) | 60 | 15 | 2.1.81 | 2.1.81 |
+| system-reminder | [Early Voice Stream Error 2](../system-prompts/system-reminder-early-voice-stream-error-2.md) | 70 | 18 | 2.1.81 | 2.1.81 |
 | system-reminder | [Voice Onready Flushing Buffered Chunks](../system-prompts/system-reminder-voice-onready-flushing-buffered-chunks.md) | 101 | 42 | 2.1.77 | 2.1.77 |
 | system-reminder | [Voice Rearming Focus Recording](../system-prompts/system-reminder-voice-arming-focus-recording.md) | 55 | 12 | 2.1.59 | 2.1.59 |
 | system-reminder | [Voice Handle Key Event Idle](../system-prompts/system-reminder-voice-handle-key-event-idle.md) | 68 | 13 | 2.1.59 | 2.1.59 |
@@ -2112,21 +2118,17 @@
 | system-reminder | [Classifier Denial Limit Exceeded](../system-prompts/system-reminder-classifier-denial-limit-exceeded.md) | 70 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Anthropic Actions Blocked Session](../system-prompts/system-reminder-anthropic-actions-blocked-session.md) | 105 | 24 | 2.1.77 | 2.1.77 |
 | system-reminder | [Permission Suggestions](../system-prompts/system-reminder-permission-suggestions.md) | 47 | 15 | 2.1.49 | 2.1.49 |
-| system-reminder | [Dangerous Action Classifier Fallback](../system-prompts/system-reminder-dangerous-action-classifier-fallback.md) | 96 | 20 | 2.1.77 | 2.1.77 |
-| system-reminder | [Dangerous Action Classifier Retry](../system-prompts/system-reminder-dangerous-action-classifier-retry.md) | 84 | 25 | 2.1.77 | 2.1.77 |
 | system-reminder | [Skipping Auto Mode Classifier](../system-prompts/system-reminder-skipping-auto-mode-classifier.md) | 81 | 21 | 2.1.77 | 2.1.77 |
 | system-reminder | [Skipping Auto Mode Classifier 2](../system-prompts/system-reminder-skipping-auto-mode-classifier-2.md) | 74 | 20 | 2.1.77 | 2.1.77 |
+| system-reminder | [Auto Mode Classifier Fallback 2](../system-prompts/system-reminder-auto-mode-classifier-fallback-2.md) | 84 | 13 | 2.1.81 | 2.1.81 |
 | system-reminder | [Auto Mode Classifier Unavailable](../system-prompts/system-reminder-auto-mode-classifier-unavailable.md) | 75 | 15 | 2.1.77 | 2.1.77 |
 | system-reminder | [Auto Mode Classifier Fallback](../system-prompts/system-reminder-auto-mode-classifier-fallback.md) | 88 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Auto Mode Classifier Blocked](../system-prompts/system-reminder-auto-mode-classifier-blocked.md) | 46 | 12 | 2.1.77 | 2.1.77 |
-| system-reminder | [Dac Org Allowlist Check Oauth](../system-prompts/system-reminder-dac-org-allowlist-check-oauth.md) | 53 | 15 | 2.1.77 | 2.1.77 |
-| system-reminder | [Dac Org Allowlist Check](../system-prompts/system-reminder-dac-org-allowlist-check.md) | 68 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Ignoring Dangerous Permission](../system-prompts/system-reminder-ignoring-dangerous-permission.md) | 76 | 23 | 2.1.77 | 2.1.77 |
 | system-reminder | [Auto Mode Circuit Breaker Active](../system-prompts/system-reminder-auto-mode-circuit-breaker-active.md) | 67 | 14 | 2.1.77 | 2.1.77 |
 | system-reminder | [Settings Defaultmode Issue](../system-prompts/system-reminder-settings-defaultmode-issue.md) | 118 | 34 | 2.1.77 | 2.1.77 |
 | system-reminder | [Settings Disable Bypasspermissions Mode](../system-prompts/system-reminder-settings-disable-bypasspermissions-mode.md) | 46 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [Statsig Gate Disables Bypasspermissions](../system-prompts/system-reminder-statsig-gate-disables-bypasspermissions.md) | 50 | 12 | 2.1.49 | 2.1.49 |
-| system-reminder | [Auto Mode Disabled Org Dac](../system-prompts/system-reminder-auto-mode-disabled-org-dac.md) | 58 | 15 | 2.1.77 | 2.1.77 |
 | system-reminder | [Auto Mode Disabled Support](../system-prompts/system-reminder-auto-mode-disabled-support.md) | 62 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Auto Mode Disabled Tengu Config](../system-prompts/system-reminder-auto-mode-disabled-tengu-config.md) | 83 | 23 | 2.1.77 | 2.1.77 |
 | system-reminder | [Auto Mode Disabled Settings](../system-prompts/system-reminder-auto-mode-disabled-settings.md) | 47 | 10 | 2.1.77 | 2.1.77 |
@@ -2144,9 +2146,8 @@
 | system-reminder | [Forced Plugin Output Style](../system-prompts/system-reminder-forced-plugin-output-style.md) | 43 | 12 | 2.1.49 | 2.1.49 |
 | system-reminder | [Ignore Local Command Messages 2](../system-prompts/system-reminder-ignore-local-command-messages-2.md) | 233 | 52 | 2.0.77 | 2.0.77 |
 | system-reminder | [Filtering Out Unavailable](../system-prompts/system-reminder-filtering-out-unavailable.md) | 56 | 17 | 2.1.77 | 2.1.77 |
-| system-reminder | [Ultraplan Complete Pre Written](../system-prompts/system-reminder-ultraplan-complete-pre-written.md) | 277 | 69 | 2.1.77 | 2.1.77 |
 | system-reminder | [Plan Workflow Read Only Mode](../system-prompts/system-reminder-plan-workflow-read-only-mode.md) | 4105 | 978 | 2.1.77 | 2.1.77 |
-| system-reminder | [Plan Mode Restrictions](../system-prompts/system-reminder-plan-mode-restrictions.md) | 3283 | 765 | 2.1.77 | 2.1.77 |
+| system-reminder | [Plan Mode Restrictions](../system-prompts/system-reminder-plan-mode-restrictions.md) | 3132 | 765 | 2.1.81 | 2.1.81 |
 | system-reminder | [Plan Mode End With Actions](../system-prompts/system-reminder-plan-mode-end-with-actions.md) | 266 | 69 | 2.1.16 | 2.1.16 |
 | system-reminder | [Plan Only No Edits](../system-prompts/system-reminder-plan-only-no-edits.md) | 834 | 190 | 2.0.43 | 2.0.43 |
 | system-reminder | [Auto Mode Active User Guidelines](../system-prompts/system-reminder-auto-mode-active-user-guidelines.md) | 1231 | 289 | 2.1.78 | 2.1.78 |
@@ -2217,10 +2218,10 @@
 | system-reminder | [User Aborted Streaming](../system-prompts/system-reminder-user-aborted-streaming.md) | 36 | 13 | 2.1.49 | 2.1.49 |
 | system-reminder | [Streaming Error Fallback Disabled](../system-prompts/system-reminder-streaming-error-fallback-disabled.md) | 60 | 16 | 2.1.49 | 2.1.49 |
 | system-reminder | [Streaming Fallback Error](../system-prompts/system-reminder-streaming-fallback-error.md) | 62 | 17 | 2.1.49 | 2.1.49 |
-| system-reminder | [Streaming Stall Detected 2](../system-prompts/system-reminder-streaming-stall-detected-2.md) | 74 | 22 | 2.1.79 | 2.1.79 |
+| system-reminder | [Detect Streaming Stall Gap](../system-prompts/system-reminder-detect-streaming-stall-gap.md) | 74 | 26 | 2.1.81 | 2.1.81 |
 | system-reminder | [Stream First Chunk Received](../system-prompts/system-reminder-stream-first-chunk-received.md) | 37 | 6 | 2.1.49 | 2.1.49 |
 | system-reminder | [Fallback After Empty Stream](../system-prompts/system-reminder-fallback-after-empty-stream.md) | 103 | 19 | 2.1.49 | 2.1.49 |
-| system-reminder | [Streaming Completed Stall Time](../system-prompts/system-reminder-streaming-completed-stall-time.md) | 73 | 22 | 2.1.79 | 2.1.79 |
+| system-reminder | [Streaming Stalls Summary](../system-prompts/system-reminder-streaming-stalls-summary.md) | 73 | 27 | 2.1.81 | 2.1.81 |
 | system-reminder | [Added Cache Edits Block](../system-prompts/system-reminder-added-cache-edits-block.md) | 83 | 33 | 2.1.59 | 2.1.59 |
 | system-reminder | [Starting Mcp Server](../system-prompts/system-reminder-starting-mcp-server.md) | 38 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [Mcp Server Started](../system-prompts/system-reminder-mcp-server-started.md) | 37 | 9 | 2.1.49 | 2.1.49 |
@@ -2287,7 +2288,7 @@
 | system-reminder | [Bridge Work Updated Access Token](../system-prompts/system-reminder-bridge-work-updated-access-token.md) | 84 | 26 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Work Capacity Error](../system-prompts/system-reminder-bridge-work-capacity-error.md) | 94 | 34 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Session Ccr Registerworker Attempt 2](../system-prompts/system-reminder-bridge-session-ccr-registerworker-attempt-2.md) | 85 | 31 | 2.1.79 | 2.1.79 |
-| system-reminder | [Bridge Session Ccr Registered Worker](../system-prompts/system-reminder-bridge-session-ccr-registered-worker.md) | 96 | 34 | 2.1.79 | 2.1.79 |
+| system-reminder | [Bridge Session Ccr Registered Worker](../system-prompts/system-reminder-bridge-session-ccr-registered-worker.md) | 108 | 34 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Session Worktree Created](../system-prompts/system-reminder-bridge-session-worktree-created.md) | 70 | 25 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Session Spawning](../system-prompts/system-reminder-bridge-session-spawning.md) | 62 | 25 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Derived Title Default Null](../system-prompts/system-reminder-bridge-derived-title-default-null.md) | 46 | 11 | 2.1.79 | 2.1.79 |
@@ -2419,10 +2420,10 @@
 | system-reminder | [Ccrclient Get Failed Attempt](../system-prompts/system-reminder-ccrclient-get-failed-attempt.md) | 72 | 33 | 2.1.77 | 2.1.77 |
 | system-reminder | [Ccrclient Get Returned Attempt](../system-prompts/system-reminder-ccrclient-get-returned-attempt.md) | 73 | 32 | 2.1.77 | 2.1.77 |
 | system-reminder | [Ccrclient Get Retries Exhausted](../system-prompts/system-reminder-ccrclient-get-retries-exhausted.md) | 32 | 9 | 2.1.77 | 2.1.77 |
-| system-reminder | [Bridge Repl Ccr Worker Sessionid](../system-prompts/system-reminder-bridge-repl-ccr-worker-sessionid.md) | 85 | 33 | 2.1.77 | 2.1.77 |
+| system-reminder | [Bridge Repl Ccr Worker Sessionid 2](../system-prompts/system-reminder-bridge-repl-ccr-worker-sessionid-2.md) | 82 | 29 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Repl Ccr Epoch Superseded](../system-prompts/system-reminder-bridge-repl-ccr-epoch-superseded.md) | 83 | 28 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Ccr Error](../system-prompts/system-reminder-bridge-repl-ccr-error.md) | 68 | 26 | 2.1.77 | 2.1.77 |
-| system-reminder | [Bridge Repl Transport Ready](../system-prompts/system-reminder-bridge-repl-transport-ready.md) | 74 | 26 | 2.1.77 | 2.1.77 |
+| system-reminder | [Bridge Repl Transport Ready 2](../system-prompts/system-reminder-bridge-repl-transport-ready-2.md) | 71 | 23 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Repl Ccr Initialize Failed](../system-prompts/system-reminder-bridge-repl-ccr-initialize-failed.md) | 49 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Init Stream Json](../system-prompts/system-reminder-bridge-repl-init-stream-json.md) | 108 | 37 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Environment Registration Failed](../system-prompts/system-reminder-environment-registration-failed-2.md) | 56 | 16 | 2.1.51 | 2.1.51 |
@@ -2474,9 +2475,9 @@
 | system-reminder | [Bridge Repl Teardown Starting 2](../system-prompts/system-reminder-bridge-repl-teardown-starting-2.md) | 103 | 37 | 2.1.79 | 2.1.79 |
 | system-reminder | [Bridge Repl Teardown Poll Loop](../system-prompts/system-reminder-teardown-poll-loop-aborted.md) | 41 | 14 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Teardown Perpetual 2](../system-prompts/system-reminder-bridge-repl-teardown-perpetual-2.md) | 110 | 36 | 2.1.79 | 2.1.79 |
-| system-reminder | [Bridge Repl Teardown Transport Closed](../system-prompts/system-reminder-teardown-transport-closed.md) | 40 | 12 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Teardown Failed](../system-prompts/system-reminder-bridge-repl-teardown-stopwork-failed.md) | 49 | 19 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Teardown Stopwork](../system-prompts/system-reminder-teardown-stopwork-completed.md) | 42 | 13 | 2.1.51 | 2.1.51 |
+| system-reminder | [Bridge Repl Teardown Transport Closed](../system-prompts/system-reminder-teardown-transport-closed.md) | 40 | 12 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Teardown Failed 2](../system-prompts/system-reminder-bridge-repl-teardown-deregister-failed.md) | 51 | 20 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Teardown Complete](../system-prompts/system-reminder-bridge-repl-teardown-complete.md) | 64 | 22 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Ready Env 2](../system-prompts/system-reminder-bridge-repl-ready-env-2.md) | 49 | 18 | 2.1.79 | 2.1.79 |
@@ -2510,13 +2511,13 @@
 | system-reminder | [Bridge Repl Acknowledging Workid](../system-prompts/system-reminder-bridge-repl-acknowledging-workid.md) | 44 | 17 | 2.1.77 | 2.1.77 |
 | system-reminder | [Acknowledge Failed Workid](../system-prompts/system-reminder-acknowledge-failed-workid.md) | 60 | 23 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Healthcheck Received](../system-prompts/system-reminder-healthcheck-received.md) | 34 | 10 | 2.1.51 | 2.1.51 |
-| system-reminder | [Invalid Session Id Bridge Repl](../system-prompts/system-reminder-invalid-session-id-bridge-repl.md) | 46 | 14 | 2.1.78 | 2.1.78 |
+| system-reminder | [Bridge Repl Invalid Session](../system-prompts/system-reminder-bridge-repl-invalid-session.md) | 51 | 19 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Repl Work Accepted](../system-prompts/system-reminder-work-accepted-continuing-poll-loop.md) | 49 | 12 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Work Poll Loop](../system-prompts/system-reminder-work-poll-loop-ended.md) | 68 | 26 | 2.1.51 | 2.1.51 |
 | system-reminder | [Remote Bridge Oauth Token](../system-prompts/system-reminder-remote-bridge-oauth-token.md) | 30 | 8 | 2.1.77 | 2.1.77 |
-| system-reminder | [Remote Bridge Created Session](../system-prompts/system-reminder-remote-bridge-created-session.md) | 39 | 8 | 2.1.77 | 2.1.77 |
+| system-reminder | [Remote Bridge Created Session 2](../system-prompts/system-reminder-remote-bridge-created-session-2.md) | 51 | 20 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Credentials Expiration](../system-prompts/system-reminder-bridge-credentials-expiration.md) | 66 | 22 | 2.1.77 | 2.1.77 |
-| system-reminder | [Remote Bridge Session Url](../system-prompts/system-reminder-remote-bridge-session-url.md) | 51 | 24 | 2.1.77 | 2.1.77 |
+| system-reminder | [Remote Bridge Session Url](../system-prompts/system-reminder-remote-bridge-session-url.md) | 41 | 24 | 2.1.81 | 2.1.81 |
 | system-reminder | [Remote Bridge Transport Setup Failed](../system-prompts/system-reminder-remote-bridge-transport-setup-failed.md) | 52 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Transport Epoch](../system-prompts/system-reminder-remote-bridge-transport-epoch.md) | 54 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Recovery In Flight](../system-prompts/system-reminder-remote-bridge-recovery-in-flight.md) | 70 | 15 | 2.1.77 | 2.1.77 |
@@ -2528,7 +2529,7 @@
 | system-reminder | [Remote Bridge Recovery Failed](../system-prompts/system-reminder-remote-bridge-recovery-failed.md) | 52 | 20 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Transport Rebuilt 2](../system-prompts/system-reminder-remote-bridge-transport-rebuilt-2.md) | 49 | 14 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Drained Queued Messages](../system-prompts/system-reminder-remote-bridge-drained-queued-messages.md) | 63 | 22 | 2.1.77 | 2.1.77 |
-| system-reminder | [Remote Bridge Capped Initial Flush](../system-prompts/system-reminder-remote-bridge-capped-initial-flush.md) | 76 | 32 | 2.1.77 | 2.1.77 |
+| system-reminder | [Remote Bridge Capped Initial Flush 2](../system-prompts/system-reminder-remote-bridge-capped-initial-flush-2.md) | 73 | 29 | 2.1.81 | 2.1.81 |
 | system-reminder | [Remote Bridge Flushing History Events](../system-prompts/system-reminder-remote-bridge-flushing-history-events.md) | 49 | 17 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Teardown Retry](../system-prompts/system-reminder-remote-bridge-teardown-retry.md) | 57 | 23 | 2.1.79 | 2.1.79 |
 | system-reminder | [Remote Bridge Torn Down 2](../system-prompts/system-reminder-remote-bridge-torn-down-2.md) | 45 | 16 | 2.1.79 | 2.1.79 |
@@ -2550,18 +2551,19 @@
 | system-reminder | [Remote Bridge Failed Pid](../system-prompts/system-reminder-remote-bridge-failed-pid.md) | 60 | 29 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Response Malformed](../system-prompts/system-reminder-remote-bridge-response-malformed.md) | 113 | 40 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Bridge Worker Epoch Invalid](../system-prompts/system-reminder-remote-bridge-worker-epoch-invalid.md) | 57 | 22 | 2.1.77 | 2.1.77 |
-| system-reminder | [Remote Bridge Archive Failed](../system-prompts/system-reminder-remote-bridge-archive-failed.md) | 41 | 14 | 2.1.77 | 2.1.77 |
-| system-reminder | [Remote Bridge Archive Status](../system-prompts/system-reminder-remote-bridge-archive-status.md) | 40 | 13 | 2.1.77 | 2.1.77 |
+| system-reminder | [Remote Bridge Archive Failed Global](../system-prompts/system-reminder-remote-bridge-archive-failed-global.md) | 38 | 9 | 2.1.81 | 2.1.81 |
+| system-reminder | [Remote Bridge Archive Status](../system-prompts/system-reminder-remote-bridge-archive-status.md) | 50 | 13 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Repl Skipping Enabled](../system-prompts/system-reminder-bridge-repl-skipping-not-enabled.md) | 42 | 13 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Skipping Oauth Tokens](../system-prompts/system-reminder-bridge-repl-skipping-no-oauth-tokens.md) | 39 | 13 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Allow Remote Control](../system-prompts/system-reminder-bridge-repl-allow-remote-control.md) | 63 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Skipping Cross Process](../system-prompts/system-reminder-bridge-repl-skipping-cross-process.md) | 79 | 27 | 2.1.80 | 2.1.80 |
 | system-reminder | [Bridge Repl Oauth Token Expired](../system-prompts/system-reminder-bridge-repl-oauth-token-expired.md) | 82 | 22 | 2.1.77 | 2.1.77 |
+| system-reminder | [Bridge Repl Derived Title](../system-prompts/system-reminder-bridge-repl-derived-title.md) | 71 | 29 | 2.1.81 | 2.1.81 |
+| system-reminder | [Bridge Repl Skipping Org Uuid](../system-prompts/system-reminder-bridge-repl-skipping-no-org-uuid.md) | 35 | 13 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Skipping](../system-prompts/system-reminder-bridge-repl-skipping.md) | 33 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Env Less Path](../system-prompts/system-reminder-bridge-repl-env-less-path.md) | 63 | 24 | 2.1.77 | 2.1.77 |
 | system-reminder | [Update Required](../system-prompts/system-reminder-update-version.md) | 142 | 40 | 2.1.53 | 2.1.53 |
-| system-reminder | [Bridge Repl Skipping Org Uuid](../system-prompts/system-reminder-bridge-repl-skipping-no-org-uuid.md) | 35 | 13 | 2.1.51 | 2.1.51 |
-| system-reminder | [Bridge Repl Derived Title First Message](../system-prompts/system-reminder-bridge-repl-derived-title-first-message.md) | 57 | 18 | 2.1.77 | 2.1.77 |
+| system-reminder | [Archive Bridge Session Error](../system-prompts/system-reminder-archive-bridge-session-error.md) | 51 | 20 | 2.1.81 | 2.1.81 |
 | system-reminder | [Fetch Global Error Handling](../system-prompts/system-reminder-fetch-global-error-handling.md) | 29 | 10 | 2.1.77 | 2.1.77 |
 | system-reminder | [Fetch Failed Status](../system-prompts/system-reminder-fetch-failed-status.md) | 40 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Write Failed Global](../system-prompts/system-reminder-write-failed-global.md) | 30 | 10 | 2.1.77 | 2.1.77 |
@@ -2571,14 +2573,15 @@
 | system-reminder | [Disabled After Repeated Failures](../system-prompts/system-reminder-disabled-after-repeated-failures.md) | 51 | 8 | 2.1.77 | 2.1.77 |
 | system-reminder | [Bridge Repl Init Failed 3](../system-prompts/system-reminder-bridge-repl-init-failed-3.md) | 64 | 20 | 2.1.79 | 2.1.79 |
 | system-reminder | [Bridge Repl Failed Send](../system-prompts/system-reminder-bridge-repl-failed-send.md) | 55 | 22 | 2.1.79 | 2.1.79 |
-| system-reminder | [Bridge Repl Control Response Handler](../system-prompts/system-reminder-no-handler-for-control-response.md) | 66 | 21 | 2.1.51 | 2.1.51 |
+| system-reminder | [Bridge Repl Control Response Error](../system-prompts/system-reminder-bridge-repl-control-response-error.md) | 61 | 17 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Repl Hook Waiting](../system-prompts/system-reminder-waiting-for-teardown-complete.md) | 76 | 19 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Hook Teardown](../system-prompts/system-reminder-previous-teardown-complete.md) | 71 | 19 | 2.1.51 | 2.1.51 |
-| system-reminder | [Bridge Repl Handle Inbound Failure](../system-prompts/system-reminder-bridge-repl-handle-inbound-failure.md) | 52 | 19 | 2.1.77 | 2.1.77 |
-| system-reminder | [Bridge Repl Injecting Inbound User 2](../system-prompts/system-reminder-bridge-repl-injecting-inbound-user-2.md) | 65 | 23 | 2.1.79 | 2.1.79 |
+| system-reminder | [Bridge Repl Handle Inbound Message Failed](../system-prompts/system-reminder-bridge-repl-handle-inbound-message-failed.md) | 47 | 14 | 2.1.81 | 2.1.81 |
+| system-reminder | [Bridge Repl Injecting Inbound User](../system-prompts/system-reminder-bridge-repl-injecting-inbound-user.md) | 70 | 27 | 2.1.81 | 2.1.81 |
 | system-reminder | [Content Blocks](../system-prompts/system-reminder-content-blocks.md) | 26 | 10 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Hook Init Cancelled](../system-prompts/system-reminder-hook-init-cancelled.md) | 76 | 23 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Init Failed 2](../system-prompts/system-reminder-bridge-repl-init-failed-2.md) | 107 | 27 | 2.1.77 | 2.1.77 |
+| system-reminder | [Expression Placeholders Block 2](../system-prompts/system-reminder-expression-placeholders-block-2.md) | 86 | 55 | 2.1.81 | 2.1.81 |
 | system-reminder | [Bridge Repl Hook Initialized](../system-prompts/system-reminder-hook-initialized-session.md) | 49 | 16 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Hook Cleanup](../system-prompts/system-reminder-hook-cleanup-starting.md) | 81 | 27 | 2.1.51 | 2.1.51 |
 | system-reminder | [Bridge Repl Compaction Detected](../system-prompts/system-reminder-compaction-detected.md) | 99 | 34 | 2.1.51 | 2.1.51 |
@@ -2637,6 +2640,19 @@
 | system-reminder | [Onsubmit Early Return Suggestions](../system-prompts/system-reminder-onsubmit-early-return-suggestions.md) | 62 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Fast Mode Off Pasted Text](../system-prompts/system-reminder-fast-mode-off-pasted-text.md) | 98 | 30 | 2.1.77 | 2.1.77 |
 | system-reminder | [Default Opus Settings](../system-prompts/system-reminder-default-opus-settings.md) | 101 | 35 | 2.1.78 | 2.1.78 |
+| system-reminder | [Websocket Already Connecting](../system-prompts/system-reminder-websocket-already-connecting.md) | 38 | 8 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Connecting Url](../system-prompts/system-reminder-websocket-connecting-url.md) | 43 | 15 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Opened Auth Headers](../system-prompts/system-reminder-websocket-opened-auth-headers.md) | 64 | 12 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Closed Reason](../system-prompts/system-reminder-websocket-closed-reason.md) | 59 | 23 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Pong Received](../system-prompts/system-reminder-websocket-pong-received.md) | 33 | 10 | 2.1.49 | 2.1.49 |
+| system-reminder | [Ignore Unknown Message Type](../system-prompts/system-reminder-ignore-unknown-message-type.md) | 50 | 13 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Permanent Close](../system-prompts/system-reminder-websocket-permanent-close.md) | 68 | 19 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Not Reconnecting](../system-prompts/system-reminder-websocket-not-reconnecting.md) | 36 | 9 | 2.1.49 | 2.1.49 |
+| system-reminder | [Schedule Websocket Reconnect Attempt](../system-prompts/system-reminder-schedule-websocket-reconnect-attempt.md) | 70 | 24 | 2.1.49 | 2.1.49 |
+| system-reminder | [Sessions Websocket Control Response](../system-prompts/system-reminder-sessions-websocket-control-response.md) | 44 | 10 | 2.1.49 | 2.1.49 |
+| system-reminder | [Send Websocket Control Request](../system-prompts/system-reminder-send-websocket-control-request.md) | 54 | 17 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Closing Connection](../system-prompts/system-reminder-websocket-closing-connection.md) | 38 | 9 | 2.1.49 | 2.1.49 |
+| system-reminder | [Websocket Force Reconnecting](../system-prompts/system-reminder-websocket-force-reconnecting.md) | 38 | 9 | 2.1.49 | 2.1.49 |
 | system-reminder | [Connecting To Remote Session](../system-prompts/system-reminder-connecting-to-remote-session.md) | 54 | 16 | 2.1.49 | 2.1.49 |
 | system-reminder | [Remotesessionmanager Permission Request Cancelled](../system-prompts/system-reminder-remotesessionmanager-permission-request-cancelled.md) | 62 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Received Control Response](../system-prompts/system-reminder-received-control-response.md) | 48 | 10 | 2.1.49 | 2.1.49 |
@@ -2658,7 +2674,8 @@
 | system-reminder | [Remote Session Init Slash Commands](../system-prompts/system-reminder-remote-session-init-slash-commands.md) | 62 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Missing Streaming Callbacks](../system-prompts/system-reminder-missing-streaming-callbacks.md) | 77 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Remote Session Permission Request](../system-prompts/system-reminder-remote-session-permission-request.md) | 57 | 17 | 2.1.49 | 2.1.49 |
-| system-reminder | [Permission Request Cancelled 2](../system-prompts/system-reminder-permission-request-cancelled-2.md) | 58 | 16 | 2.1.78 | 2.1.78 |
+| system-reminder | [New Session Die With Parent](../system-prompts/system-reminder-new-session-die-with-parent.md) | 143 | 81 | 2.1.81 | 2.1.81 |
+| system-reminder | [Permission Request Cancelled 2](../system-prompts/system-reminder-permission-request-cancelled-2.md) | 94 | 16 | 2.1.81 | 2.1.81 |
 | system-reminder | [Remote Session Error](../system-prompts/system-reminder-remote-session-error.md) | 35 | 14 | 2.1.49 | 2.1.49 |
 | system-reminder | [Remote Session Cleanup Disconnecting](../system-prompts/system-reminder-remote-session-cleanup-disconnecting.md) | 42 | 11 | 2.1.49 | 2.1.49 |
 | system-reminder | [Remote Session No Manager Send](../system-prompts/system-reminder-remote-session-no-manager-send.md) | 43 | 11 | 2.1.49 | 2.1.49 |
@@ -2671,7 +2688,7 @@
 | system-reminder | [Wiring Ssh Session Manager](../system-prompts/system-reminder-wiring-ssh-session-manager.md) | 42 | 11 | 2.1.77 | 2.1.77 |
 | system-reminder | [Usesshsession Permission Request](../system-prompts/system-reminder-usesshsession-permission-request.md) | 45 | 15 | 2.1.77 | 2.1.77 |
 | system-reminder | [Ssh Session Reconnect](../system-prompts/system-reminder-ssh-session-reconnect.md) | 62 | 24 | 2.1.77 | 2.1.77 |
-| system-reminder | [Mcp Expressions](../system-prompts/system-reminder-mcp-expressions.md) | 38 | 24 | 2.1.80 | 2.1.80 |
+| system-reminder | [Mcp Expressions](../system-prompts/system-reminder-mcp-expressions.md) | 71 | 45 | 2.1.81 | 2.1.81 |
 | system-reminder | [Ssh Process Exited Giving Up](../system-prompts/system-reminder-ssh-process-exited-giving-up.md) | 46 | 14 | 2.1.77 | 2.1.77 |
 | system-reminder | [Ssh Session Failed Before Connecting](../system-prompts/system-reminder-ssh-session-failed-before-connecting.md) | 37 | 6 | 2.1.77 | 2.1.77 |
 | system-reminder | [Remote Stderr Exit](../system-prompts/system-reminder-remote-stderr-exit.md) | 41 | 18 | 2.1.77 | 2.1.77 |
@@ -2690,6 +2707,7 @@
 | system-reminder | [Member Not Found In Team](../system-prompts/system-reminder-member-not-found-in-team.md) | 83 | 27 | 2.1.49 | 2.1.49 |
 | system-reminder | [Initialized Context From Session](../system-prompts/system-reminder-initialized-context-from-session.md) | 85 | 26 | 2.1.49 | 2.1.49 |
 | system-reminder | [Abort Log Line](../system-prompts/system-reminder-abort-log-line.md) | 92 | 45 | 2.1.49 | 2.1.49 |
+| system-reminder | [Channel Permission Request Failed](../system-prompts/system-reminder-channel-permission-request-failed.md) | 58 | 18 | 2.1.81 | 2.1.81 |
 | system-reminder | [Permission Check Threw For](../system-prompts/system-reminder-permission-check-threw-for.md) | 62 | 23 | 2.1.49 | 2.1.49 |
 | system-reminder | [Isn Available Remote Control](../system-prompts/system-reminder-isn-available-remote-control.md) | 47 | 13 | 2.1.78 | 2.1.78 |
 | system-reminder | [Aborting Current Turn](../system-prompts/system-reminder-aborting-current-turn.md) | 55 | 18 | 2.1.49 | 2.1.49 |
@@ -2757,6 +2775,7 @@
 | system-reminder | [Concurrent Sessions Register Failed](../system-prompts/system-reminder-concurrent-sessions-register-failed.md) | 47 | 15 | 2.1.77 | 2.1.77 |
 | system-reminder | [Concurrent Sessions Readdir Failed](../system-prompts/system-reminder-concurrent-sessions-readdir-failed.md) | 46 | 16 | 2.1.77 | 2.1.77 |
 | system-reminder | [Failed Check Permission Mode](../system-prompts/system-reminder-failed-check-permission-mode.md) | 71 | 20 | 2.1.49 | 2.1.49 |
+| system-reminder | [Fan Out Subagents](../system-prompts/system-reminder-fan-out-subagents.md) | 19 | 7 | 2.1.81 | 2.1.81 |
 | system-reminder | [Sdk Permission Deny Interrupt](../system-prompts/system-reminder-sdk-permission-deny-interrupt.md) | 70 | 21 | 2.1.49 | 2.1.49 |
 | system-reminder | [Malformed Updated Permissions Ignored](../system-prompts/system-reminder-malformed-updated-permissions-ignored.md) | 61 | 18 | 2.1.77 | 2.1.77 |
 | system-reminder | [Ignoring Duplicate Control Response](../system-prompts/system-reminder-ignoring-duplicate-control-response.md) | 97 | 30 | 2.1.51 | 2.1.51 |
@@ -2815,12 +2834,11 @@
 | system-reminder | [Scheduled Tasks Remove Orphaned Cron](../system-prompts/system-reminder-scheduled-tasks-remove-orphaned-cron.md) | 74 | 27 | 2.1.77 | 2.1.77 |
 | system-reminder | [Repl Mount Disabled Failed](../system-prompts/system-reminder-repl-mount-disabled-failed.md) | 60 | 22 | 2.1.77 | 2.1.77 |
 | system-reminder | [Repl Unmounting](../system-prompts/system-reminder-repl-unmounting.md) | 30 | 13 | 2.1.49 | 2.1.49 |
-| system-reminder | [Deferred Messages Lag](../system-prompts/system-reminder-deferred-messages-lag.md) | 71 | 31 | 2.1.77 | 2.1.77 |
+| system-reminder | [Lbp Directional Binding Powers](../system-prompts/system-reminder-lbp-directional-binding-powers.md) | 34 | 18 | 2.1.80 | 2.1.80 |
+| system-reminder | [Deferred Messages Lag](../system-prompts/system-reminder-deferred-messages-lag.md) | 72 | 31 | 2.1.81 | 2.1.81 |
 | system-reminder | [Cancel Worker Sandbox Permission](../system-prompts/system-reminder-cancel-worker-sandbox-permission.md) | 76 | 24 | 2.1.77 | 2.1.77 |
 | system-reminder | [Sandbox Disabled Status](../system-prompts/system-reminder-sandbox-disabled-status.md) | 27 | 9 | 2.1.78 | 2.1.78 |
 | system-reminder | [Sessionstart Hooks Running](../system-prompts/system-reminder-sessionstart-hooks-running.md) | 27 | 5 | 2.1.80 | 2.1.80 |
-| system-reminder | [Lbp Directional Binding Powers](../system-prompts/system-reminder-lbp-directional-binding-powers.md) | 34 | 18 | 2.1.80 | 2.1.80 |
-| system-reminder | [Rdt Field Type List](../system-prompts/system-reminder-rdt-field-type-list.md) | 118 | 40 | 2.1.80 | 2.1.80 |
 | system-reminder | [Auto Run Failed](../system-prompts/system-reminder-auto-run-failed.md) | 36 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Survey Feedback Request Failed](../system-prompts/system-reminder-survey-feedback-request-failed.md) | 41 | 11 | 2.1.77 | 2.1.77 |
 | system-reminder | [No Md Found](../system-prompts/system-reminder-no-md-found.md) | 33 | 13 | 2.1.49 | 2.1.49 |
@@ -2839,8 +2857,8 @@
 | system-reminder | [Filtered Sessions Repo Stream Json](../system-prompts/system-reminder-filtered-sessions-repo-stream-json.md) | 69 | 22 | 2.1.77 | 2.1.77 |
 | system-reminder | [Unknown Repository Correction](../system-prompts/system-reminder-unknown-repository-correction.md) | 71 | 12 | 2.1.77 | 2.1.77 |
 | system-reminder | [Scheduled Remote Agents](../system-prompts/system-reminder-scheduled-remote-agents.md) | 66 | 18 | 2.1.80 | 2.1.80 |
-| system-reminder | [Failed Fetch Environments](../system-prompts/system-reminder-failed-fetch-environments.md) | 65 | 17 | 2.1.80 | 2.1.80 |
-| system-reminder | [Failed Schedule Create Environment](../system-prompts/system-reminder-failed-schedule-create-environment.md) | 65 | 17 | 2.1.80 | 2.1.80 |
+| system-reminder | [Failed Fetch Environments Schedule](../system-prompts/system-reminder-failed-fetch-environments-schedule.md) | 50 | 14 | 2.1.81 | 2.1.81 |
+| system-reminder | [Failed To Create Environment](../system-prompts/system-reminder-failed-to-create-environment.md) | 50 | 14 | 2.1.81 | 2.1.81 |
 | system-reminder | [Git Repo Url Specify](../system-prompts/system-reminder-git-repo-url-specify.md) | 88 | 21 | 2.1.80 | 2.1.80 |
 | system-reminder | [Mcp Connectors Needed](../system-prompts/system-reminder-mcp-connectors-needed.md) | 51 | 17 | 2.1.80 | 2.1.80 |
 | system-reminder | [No Connected Mcp Connectors](../system-prompts/system-reminder-no-connected-mcp-connectors.md) | 84 | 22 | 2.1.80 | 2.1.80 |
@@ -2894,6 +2912,7 @@
 | system-reminder | [Shell Alias Cleanup](../system-prompts/system-reminder-shell-alias-cleanup.md) | 30 | 10 | 2.1.49 | 2.1.49 |
 | system-reminder | [Saved Autoupdates Channel Setting](../system-prompts/system-reminder-saved-autoupdates-channel-setting.md) | 60 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Shell Path Already Configured](../system-prompts/system-reminder-shell-path-already-configured.md) | 38 | 6 | 2.1.49 | 2.1.49 |
+| system-reminder | [Custom Rules Replacing Defaults](../system-prompts/system-reminder-custom-rules-replacing-defaults.md) | 302 | 97 | 2.1.81 | 2.1.81 |
 | system-reminder | [Starting Update Check](../system-prompts/system-reminder-starting-update-check.md) | 29 | 5 | 2.1.49 | 2.1.49 |
 | system-reminder | [Running Update Diagnostic](../system-prompts/system-reminder-running-update-diagnostic.md) | 26 | 4 | 2.1.49 | 2.1.49 |
 | system-reminder | [Installation Type Reported](../system-prompts/system-reminder-installation-type-reported.md) | 36 | 11 | 2.1.49 | 2.1.49 |
@@ -2913,6 +2932,7 @@
 | system-reminder | [Local Update Install Package](../system-prompts/system-reminder-local-update-install-package.md) | 63 | 16 | 2.1.49 | 2.1.49 |
 | system-reminder | [Update Installation Status Stdio](../system-prompts/system-reminder-update-installation-status-stdio.md) | 34 | 6 | 2.1.77 | 2.1.77 |
 | system-reminder | [Preaction Plugin Dir Inline](../system-prompts/system-reminder-preaction-plugin-dir-inline.md) | 38 | 9 | 2.1.77 | 2.1.77 |
+| system-reminder | [Custom Empty](../system-prompts/system-reminder-custom-empty.md) | 32 | 6 | 2.1.49 | 2.1.49 |
 | system-reminder | [Mcp Config Validation Errors](../system-prompts/system-reminder-mcp-config-validation-errors.md) | 60 | 22 | 2.1.77 | 2.1.77 |
 | system-reminder | [Chrome Auto Enable Error 3](../system-prompts/system-reminder-chrome-auto-enable-error-3.md) | 49 | 17 | 2.1.49 | 2.1.49 |
 | system-reminder | [Last Ran Time Ago](../system-prompts/system-reminder-last-ran-time-ago.md) | 23 | 10 | 2.1.77 | 2.1.77 |
@@ -2934,7 +2954,6 @@
 | system-reminder | [Startup Mcp Configs Resolved](../system-prompts/system-reminder-startup-mcp-configs-resolved.md) | 66 | 24 | 2.1.79 | 2.1.79 |
 | system-reminder | [Enable Chrome Browser Automation](../system-prompts/system-reminder-enable-chrome-browser-automation.md) | 300 | 69 | 2.1.49 | 2.1.49 |
 | system-reminder | [Mcp Connect Error](../system-prompts/system-reminder-mcp-connect-error.md) | 40 | 19 | 2.1.79 | 2.1.79 |
-| system-reminder | [Fast Mode Native Binary Required](../system-prompts/system-reminder-fast-mode-native-binary-required.md) | 62 | 16 | 2.1.49 | 2.1.49 |
 | system-reminder | [Starting Teleport Flow](../system-prompts/system-reminder-starting-teleport-flow.md) | 54 | 14 | 2.1.49 | 2.1.49 |
 | system | [Sonnet Haiku Vertex Region](../system-prompts/system-data-vertex-region-vars.md) | 585 | 295 | 2.1.49 | 2.1.49 |
 | system | [Numerical Sequence Repetition](../system-prompts/system-data-repeated-numeric-placeholders.md) | 1554 | 895 | 0.2.9 | 0.2.9 |
@@ -2996,11 +3015,11 @@
 | system | [Create Identity Pool Input](../system-prompts/system-data-cognito-create-identity-pool-input.md) | 370 | 156 | 2.0.63 | 2.0.63 |
 | system | [Cognito Identity Pool Configuration](../system-prompts/system-data-cognito-identity-pool-fields.md) | 387 | 168 | 2.0.63 | 2.0.63 |
 | system | [Client Access Control Headers](../system-prompts/system-prompt-client-access-control-headers.md) | 746 | 252 | 2.1.79 | 2.1.79 |
-| system | [Azure Workload Identity Error](../system-prompts/system-prompt-azure-workload-identity-error.md) | 377 | 108 | 2.1.80 | 2.1.80 |
+| system | [Azure Workload Identity Error](../system-prompts/system-prompt-azure-workload-identity-error.md) | 377 | 108 | 2.1.81 | 2.1.81 |
 | system | [Az Access Token Tenantid Params](../system-prompts/system-data-azure-access-token-script.md) | 1045 | 327 | 2.0.45 | 2.1.33 |
 | system | [Azure Client Certificates And Passwords](../system-prompts/system-data-azure-auth-env-vars.md) | 224 | 78 | 2.0.45 | 2.0.45 |
-| system | [Azure Pipelines Federated Identity Error](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | 318 | 87 | 2.1.80 | 2.1.80 |
-| system | [Rad Iii Vii Viii Xii](../system-prompts/system-prompt-rad-iii-vii-viii-xii.md) | 316690 | 184755 | 2.1.80 | 2.1.80 |
+| system | [Azure Pipelines Federated Identity Error](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | 318 | 87 | 2.1.81 | 2.1.81 |
+| system | [Rad Iii Vii Viii Xii](../system-prompts/system-prompt-rad-iii-vii-viii-xii.md) | 316690 | 184755 | 2.1.81 | 2.1.81 |
 | system | [Apikey Helper Install Methods](../system-prompts/system-prompt-apikey-helper-install-methods.md) | 780 | 238 | 2.1.77 | 2.1.77 |
 | system | [Token Verification Error](../system-prompts/system-prompt-token-verification-error.md) | 377 | 86 | 2.1.77 | 2.1.77 |
 | system | [Oauth Token Organization Mismatch](../system-prompts/system-prompt-oauth-token-organization-mismatch.md) | 307 | 69 | 2.1.77 | 2.1.77 |
@@ -3023,7 +3042,7 @@
 | system | [Number Sequence Repetition 3](../system-prompts/system-data-repeated-number-placeholders.md) | 373 | 223 | 1.0.59 | 1.0.59 |
 | system | [Numerical Sequence 3](../system-prompts/system-data-extended-numeric-placeholders.md) | 1153 | 678 | 1.0.59 | 1.0.59 |
 | system | [Number Sequence Repetition 4](../system-prompts/system-data-truncated-numeric-placeholders.md) | 1970 | 1119 | 1.0.59 | 1.0.59 |
-| system | [New Cert Collection Chain Policy](../system-prompts/system-prompt-new-cert-collection-chain-policy.md) | 1473 | 457 | 2.1.80 | 2.1.80 |
+| system | [New Cert Collection Chain Policy](../system-prompts/system-prompt-new-cert-collection-chain-policy.md) | 1473 | 457 | 2.1.81 | 2.1.81 |
 | system | [Sysctl Allow Global Settings](../system-prompts/system-data-macos-sandbox-policy-rules.md) | 4591 | 1797 | 2.1.59 | 2.1.59 |
 | system | [Function Argument Handling](../system-prompts/system-prompt-function-argument-handling.md) | 371 | 190 | 2.1.77 | 2.1.77 |
 | system | [Bfs Grep Find Function](../system-prompts/system-prompt-bfs-grep-find-function.md) | 778 | 385 | 2.1.77 | 2.1.77 |
@@ -3035,19 +3054,18 @@
 | system | [Create Shell Snapshot File 3](../system-prompts/system-prompt-create-shell-snapshot-file-3.md) | 836 | 241 | 2.1.32 | 2.1.32 |
 | system | [Memory Types User Team Contexts](../system-prompts/system-prompt-user-memory-types-private-team.md) | 8192 | 1946 | 2.1.78 | 2.1.78 |
 | system | [What Not To Save In Memory](../system-prompts/system-prompt-what-not-to-save-in-memory.md) | 721 | 169 | 2.1.79 | 2.1.79 |
+| system | [When To Access Memories](../system-prompts/system-prompt-when-to-access-memories.md) | 777 | 166 | 2.1.81 | 2.1.81 |
 | system | [Memory Check File Existence](../system-prompts/system-prompt-memory-check-file-existence.md) | 717 | 170 | 2.1.79 | 2.1.79 |
-| system | [Memory Name Feedback](../system-prompts/system-prompt-memory-name-feedback.md) | 323 | 86 | 2.1.80 | 2.1.80 |
-| system | [Memory User Team Information Save](../system-prompts/system-prompt-memory-user-team-information-save.md) | 7218 | 1530 | 2.1.77 | 2.1.77 |
-| system | [Memory For User Team Projects](../system-prompts/system-prompt-memory-for-user-team-projects.md) | 14107 | 3015 | 2.1.80 | 2.1.80 |
-| system | [Memory Private Shared](../system-prompts/system-prompt-memory-private-shared.md) | 2526 | 564 | 2.1.80 | 2.1.80 |
+| system | [Memory Name Feedback](../system-prompts/system-prompt-memory-name-feedback.md) | 323 | 86 | 2.1.81 | 2.1.81 |
+| system | [Memory User Team Information Save](../system-prompts/system-prompt-memory-user-team-information-save.md) | 7327 | 1530 | 2.1.81 | 2.1.81 |
+| system | [Memory For User Team Projects](../system-prompts/system-prompt-memory-for-user-team-projects.md) | 14115 | 3015 | 2.1.81 | 2.1.81 |
+| system | [Memory Private Team](../system-prompts/system-prompt-memory-private-team.md) | 2534 | 571 | 2.1.81 | 2.1.81 |
 | system | [Memory Management User Files](../system-prompts/system-prompt-memory-management-user-files.md) | 2104 | 464 | 2.1.77 | 2.1.77 |
-| system | [Memory User Project](../system-prompts/system-prompt-memory-user-project.md) | 12512 | 2872 | 2.1.80 | 2.1.80 |
-| system | [File Based Memory](../system-prompts/system-prompt-file-based-memory.md) | 1945 | 437 | 2.1.80 | 2.1.80 |
+| system | [Memory User Project](../system-prompts/system-prompt-memory-user-project.md) | 12075 | 2872 | 2.1.81 | 2.1.81 |
+| system | [Memory Management In Conversation](../system-prompts/system-prompt-memory-management-in-conversation.md) | 1507 | 358 | 2.1.81 | 2.1.81 |
 | system | [Auto Memory Management](../system-prompts/system-prompt-auto-memory-management.md) | 2071 | 451 | 2.1.77 | 2.1.77 |
 | system | [Searching Past Context](../system-prompts/system-prompt-searching-past-context.md) | 325 | 90 | 2.1.77 | 2.1.77 |
-| system | [Follow Codebase User](../system-prompts/system-prompt-follow-codebase-user.md) | 233 | 66 | 2.1.79 | 2.1.79 |
 | system | [Git Status At Start](../system-prompts/system-prompt-git-status-at-start.md) | 273 | 72 | 2.1.49 | 2.1.49 |
-| system | [Structured Coding Todo List](../system-prompts/system-prompt-structured-coding-todo-list.md) | 10075 | 2433 | 2.1.77 | 2.1.77 |
 | system | [Interactive Question Guidance](../system-prompts/system-prompt-interactive-question-guidance.md) | 1105 | 276 | 2.1.49 | 2.1.49 |
 | system-reminder | [Deferred Tools Appear](../system-prompts/system-reminder-deferred-tools-appear.md) | 60 | 15 | 2.1.77 | 2.1.77 |
 | system | [Schedule Recurring Reminders](../system-prompts/system-prompt-schedule-recurring-reminders.md) | 2670 | 861 | 2.1.77 | 2.1.77 |
@@ -3065,7 +3083,7 @@
 | system | [Device Color Preferences](../system-prompts/system-data-media-query-features-list.md) | 437 | 124 | 0.2.9 | 0.2.9 |
 | system | [Nth Child Type Link](../system-prompts/system-data-css-pseudo-class-keywords.md) | 587 | 186 | 0.2.9 | 0.2.9 |
 | system | [Comparable Datetime Duration Function](../system-prompts/system-data-dart-core-types-list.md) | 218 | 61 | 0.2.9 | 0.2.9 |
-| system | [Wfe Text Radio Group Usage](../system-prompts/system-prompt-wfe-text-radio-group-usage.md) | 2322 | 925 | 2.1.80 | 2.1.80 |
+| system | [Wfe Text Radio Group Variables](../system-prompts/system-prompt-wfe-text-radio-group-variables.md) | 2444 | 976 | 2.1.81 | 2.1.81 |
 | system | [Baremodule Keywords List](../system-prompts/system-data-julia-keywords-list.md) | 220 | 69 | 0.2.9 | 0.2.9 |
 | system | [Args And Infinity Handling](../system-prompts/system-data-numeric-constants-and-paths.md) | 362 | 159 | 0.2.9 | 0.2.9 |
 | system | [Abstract Array Types And Exceptions](../system-prompts/system-data-julia-base-types-list.md) | 2096 | 723 | 0.2.9 | 0.2.9 |
@@ -3073,7 +3091,7 @@
 | system | [Dbox Hypergeometric Prime Options](../system-prompts/system-data-wolfram-language-symbols-list.md) | 104946 | 35789 | 0.2.9 | 0.2.9 |
 | system | [Perl Abs Accept Alarm Atan Bind](../system-prompts/system-data-perl-builtin-functions-list.md) | 1824 | 682 | 0.2.9 | 0.2.9 |
 | system | [Data Types Overview](../system-prompts/system-data-sql-data-types-list.md) | 213 | 64 | 0.2.9 | 0.2.9 |
-| system | [Json Array Value Regr Current](../system-prompts/system-prompt-json-array-value-regr-current.md) | 3339 | 1000 | 2.1.80 | 2.1.80 |
+| system | [Json Array Value Regr Current](../system-prompts/system-prompt-json-array-value-regr-current.md) | 3339 | 1000 | 2.1.81 | 2.1.81 |
 | system | [Json Array Functions](../system-prompts/system-data-sql-functions-json-regression.md) | 808 | 297 | 0.2.9 | 0.2.9 |
 | system | [Current User Transform Group](../system-prompts/system-data-sql-current-context-functions.md) | 254 | 69 | 0.2.9 | 0.2.9 |
 | system | [Create Table With Null Handling](../system-prompts/system-data-sql-ddl-null-ordering.md) | 215 | 53 | 0.2.9 | 0.2.9 |
@@ -3086,28 +3104,27 @@
 | system | [Number Sequence Repetition 5](../system-prompts/system-data-numeric-placeholders-repeated.md) | 397 | 237 | 0.2.9 | 0.2.9 |
 | system | [Html Level Strict Internet Explorer](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2490 | 1063 | 0.2.9 | 2.1.47 |
 | system | [Authorized Security Rules](../system-prompts/system-prompt-authorized-security-rules.md) | 896 | 179 | 2.1.32 | 2.1.32 |
-| system-reminder | [Permission Behavior](../system-prompts/system-reminder-permission-behavior.md) | 1702 | 347 | 2.1.31 | 2.1.31 |
+| system-reminder | [User Output Permission Handling](../system-prompts/system-reminder-user-output-permission-handling.md) | 1959 | 408 | 2.1.81 | 2.1.81 |
 | system | [Avoid Unasked Changes](../system-prompts/system-reminder-guidelines-for-features.md) | 873 | 183 | 2.1.30 | 2.1.30 |
 | system | [Help Feedback](../system-prompts/system-prompt-help-feedback.md) | 84 | 25 | 2.1.30 | 2.1.30 |
 | system | [Software Engineering Guidelines](../system-prompts/system-prompt-software-engineering-guidelines.md) | 2352 | 500 | 2.1.32 | 2.1.32 |
 | system | [Executing Actions With Care](../system-prompts/system-prompt-executing-actions-with-care.md) | 2818 | 591 | 2.1.79 | 2.1.79 |
 | system | [File Operations Using Tools](../system-prompts/system-prompt-file-operations-using-tools.md) | 464 | 98 | 2.1.77 | 2.1.77 |
-| system | [Dedicated Tools For Task Management](../system-prompts/system-prompt-dedicated-tools-for-task-management.md) | 1766 | 376 | 2.1.77 | 2.1.77 |
+| system | [Use Dedicated Tools For Work](../system-prompts/system-prompt-use-dedicated-tools-for-work.md) | 2044 | 441 | 2.1.81 | 2.1.81 |
 | system | [Simple Directed Codebase Searches](../system-prompts/system-prompt-simple-directed-codebase-searches.md) | 388 | 104 | 2.1.77 | 2.1.77 |
 | system | [Output Efficiency Guidelines](../system-prompts/system-prompt-output-efficiency-guidelines.md) | 730 | 170 | 2.1.79 | 2.1.79 |
-| system | [User Assistance Security Testing](../system-prompts/system-prompt-user-assistance-security-testing.md) | 4544 | 933 | 2.1.78 | 2.1.78 |
+| system | [User Assistance Security Testing](../system-prompts/system-prompt-user-assistance-security-testing.md) | 4547 | 933 | 2.1.81 | 2.1.81 |
 | system | [Useful Shell Environment Info](../system-prompts/system-prompt-useful-shell-environment-info.md) | 309 | 109 | 2.1.77 | 2.1.77 |
 | system | [Git Repository Working Directory](../system-prompts/system-prompt-git-repository-working-directory.md) | 687 | 225 | 2.1.77 | 2.1.77 |
 | system | [Absolute File Paths Only](../system-prompts/system-prompt-absolute-file-paths-only.md) | 630 | 149 | 2.1.77 | 2.1.77 |
 | system | [Use Scratchpad Directory](../system-prompts/system-prompt-use-scratchpad-directory.md) | 676 | 160 | 2.1.32 | 2.1.32 |
 | system | [Files Task Execution](../system-prompts/system-prompt-files-task-execution.md) | 1523 | 321 | 2.1.77 | 2.1.77 |
 | system | [Guide Scope Docs](../system-prompts/system-prompt-guide-scope-docs.md) | 3059 | 755 | 2.1.77 | 2.1.77 |
-| system | [User Current Configuration](../system-prompts/system-prompt-user-current-configuration.md) | 268 | 76 | 2.1.77 | 2.1.77 |
 | system | [Verification Specialist Failure Patterns](../system-prompts/system-prompt-verification-specialist-failure-patterns.md) | 9677 | 2538 | 2.1.77 | 2.1.77 |
 | system | [Bash Command Prefix Risk Policy](../system-prompts/system-reminder-bash-command-prefix-detection.md) | 2910 | 852 | 2.1.20 | 2.1.41 |
 | system | [Dangerous Delete Operation Warning](../system-prompts/system-prompt-dangerous-delete-operation-warning.md) | 184 | 39 | 2.1.32 | 2.1.32 |
 | system | [Analysis And Summary Structure](../system-prompts/system-prompt-analysis-and-summary-structure.md) | 643 | 153 | 2.1.77 | 2.1.77 |
-| system | [Detailed Summary Of Conversation](../system-prompts/system-prompt-detailed-summary-of-conversation.md) | 4417 | 1083 | 2.1.80 | 2.1.80 |
+| system | [Detailed Summary Of Conversation](../system-prompts/system-prompt-detailed-summary-of-conversation.md) | 4417 | 1083 | 2.1.81 | 2.1.81 |
 | system | [Recent Messages Summary](../system-prompts/system-prompt-recent-messages-summary.md) | 2525 | 666 | 2.1.77 | 2.1.77 |
 | system | [Cozy Eager Elegant Abundant Ancient](../system-prompts/system-data-whimsical-adjective-wordlist.md) | 1968 | 628 | 2.0.58 | 2.0.58 |
 | system | [Nature Inspired Words](../system-prompts/system-data-nature-and-animal-wordlist.md) | 3260 | 1163 | 2.0.58 | 2.0.58 |
@@ -3115,7 +3132,7 @@
 | system | [Continue Conversation Where Left Off](../system-prompts/system-prompt-continue-conversation-where-left-off.md) | 290 | 64 | 2.1.77 | 2.1.77 |
 | system | [Update Session Notes File 3](../system-prompts/system-prompt-update-session-notes-file-3.md) | 3453 | 762 | 2.0.58 | 2.0.58 |
 | system | [Session Notes Section Template 2](../system-prompts/system-prompt-session-notes-section-template-2.md) | 1186 | 294 | 2.0.58 | 2.0.58 |
-| system | [When To Fork Output Context Research](../system-prompts/system-prompt-when-to-fork-output-context-research.md) | 1426 | 322 | 2.1.77 | 2.1.77 |
+| system | [When To Fork Output Context Research](../system-prompts/system-prompt-when-to-fork-output-context-research.md) | 1419 | 322 | 2.1.81 | 2.1.81 |
 | system | [Writing Prompts For Agents](../system-prompts/system-prompt-writing-prompts-for-agents.md) | 1554 | 355 | 2.1.77 | 2.1.77 |
 | system | [Branch Ship Readiness Audit](../system-prompts/system-prompt-branch-ship-readiness-audit.md) | 2250 | 600 | 2.1.77 | 2.1.77 |
 | system | [Greeting Responder Example](../system-prompts/system-prompt-greeting-responder-example.md) | 1019 | 318 | 2.1.77 | 2.1.77 |
@@ -3123,8 +3140,8 @@
 | system | [When Not To Use](../system-prompts/system-prompt-when-not-to-use.md) | 545 | 136 | 2.1.77 | 2.1.77 |
 | system | [Background Usage](../system-prompts/system-prompt-background-usage.md) | 2614 | 616 | 2.1.77 | 2.1.77 |
 | system | [Handle Truncated Output](../system-prompts/system-prompt-handle-truncated-output.md) | 316 | 68 | 2.0.43 | 2.0.43 |
-| system | [Monitoring Autonomous Coding Agents](../system-prompts/system-prompt-monitoring-autonomous-coding-agents.md) | 12313 | 2758 | 2.1.77 | 2.1.77 |
-| system | [Trusted Repo External Services](../system-prompts/system-prompt-trusted-repo-external-services.md) | 12706 | 2938 | 2.1.77 | 2.1.77 |
+| system | [Monitoring Autonomous Coding Agents](../system-prompts/system-prompt-monitoring-autonomous-coding-agents.md) | 12663 | 2758 | 2.1.81 | 2.1.81 |
+| system | [Trusted Repo External Services](../system-prompts/system-prompt-trusted-repo-external-services.md) | 12881 | 2938 | 2.1.81 | 2.1.81 |
 | system | [Error Context Comparison Timestamp](../system-prompts/system-prompt-error-context-comparison-timestamp.md) | 389 | 167 | 2.1.77 | 2.1.77 |
 | system | [Block Action Output Reason Allowed](../system-prompts/system-prompt-block-action-output-reason-allowed.md) | 375 | 110 | 2.1.77 | 2.1.77 |
 | system | [Present Tense Recent Action](../system-prompts/system-prompt-present-tense-recent-action-2.md) | 558 | 166 | 2.1.50 | 2.1.50 |
@@ -3137,10 +3154,15 @@
 | system | [Create View Instrument Selector](../system-prompts/system-prompt-create-view-instrument-selector.md) | 319 | 110 | 0.2.76 | 0.2.76 |
 | system | [Add Native Path Export](../system-prompts/system-prompt-add-native-path-export.md) | 143 | 54 | 2.1.49 | 2.1.49 |
 | system | [Session Title And Branch](../system-prompts/system-prompt-session-title-and-branch.md) | 1297 | 319 | 2.1.20 | 2.1.20 |
+| system | [Structured Coding Todo List](../system-prompts/system-prompt-structured-coding-todo-list.md) | 10075 | 2433 | 2.1.77 | 2.1.77 |
+| system | [Remote Task Output File](../system-prompts/system-prompt-remote-task-output-file.md) | 273 | 116 | 2.1.81 | 2.1.81 |
+| system | [Remote Review Completed Notification](../system-prompts/system-prompt-remote-review-completed-notification.md) | 231 | 88 | 2.1.81 | 2.1.81 |
+| system | [Remote Review Failed Notification](../system-prompts/system-prompt-remote-review-failed-notification.md) | 279 | 109 | 2.1.81 | 2.1.81 |
 | system | [Async Launched Successfully](../system-prompts/system-prompt-async-launched-successfully.md) | 248 | 66 | 2.1.77 | 2.1.77 |
 | system | [Avoid Duplicate Work](../system-prompts/system-prompt-avoid-duplicate-work.md) | 311 | 74 | 2.1.49 | 2.1.49 |
 | system | [Invoke Matching](../system-prompts/system-prompt-invoke-matching.md) | 1285 | 323 | 2.1.23 | 2.1.23 |
-| system | [Exact String Edits In Files](../system-prompts/system-prompt-exact-string-edits-in-files.md) | 1110 | 256 | 2.1.80 | 2.1.80 |
+| system | [Exact String Edits In Files](../system-prompts/system-prompt-exact-string-edits-in-files.md) | 1110 | 256 | 2.1.81 | 2.1.81 |
+| system | [Sensitive Content Team Memory](../system-prompts/system-prompt-sensitive-content-team-memory.md) | 365 | 111 | 2.1.81 | 2.1.81 |
 | system | [Fix Settings Json Validation](../system-prompts/system-prompt-fix-settings-json-validation.md) | 161 | 45 | 1.0.82 | 1.0.82 |
 | system | [Replace All Occurrences Warning](../system-prompts/system-prompt-replace-all-occurrences-warning.md) | 236 | 56 | 2.1.77 | 2.1.77 |
 | system | [Error Types And Invalid Modifications](../system-prompts/system-data-dom-exception-names-list.md) | 427 | 184 | 0.2.33 | 0.2.33 |
@@ -3150,7 +3172,7 @@
 | system | [Webfetch Auth Url Warning](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | 1485 | 361 | 2.1.77 | 2.1.77 |
 | system | [Redirect Detected](../system-prompts/system-prompt-redirect-detected.md) | 307 | 97 | 2.1.77 | 2.1.77 |
 | system | [Plan Submitted For Approval](../system-prompts/system-prompt-plan-submitted-for-approval.md) | 470 | 132 | 2.0.70 | 2.0.70 |
-| system | [Start Coding After Plan Approval](../system-prompts/system-prompt-start-coding-after-plan-approval.md) | 235 | 68 | 2.1.77 | 2.1.77 |
+| system | [Start Coding After Plan Approval](../system-prompts/system-prompt-start-coding-after-plan-approval.md) | 236 | 68 | 2.1.81 | 2.1.81 |
 | system | [Use User Answers To Continue](../system-prompts/system-prompt-use-user-answers-to-continue.md) | 98 | 25 | 2.1.49 | 2.1.49 |
 | system | [Plan Mode Workflow Steps](../system-prompts/system-prompt-plan-mode-workflow-steps.md) | 416 | 123 | 2.1.49 | 2.1.49 |
 | system | [Plan Mode Codebase Exploration](../system-prompts/system-prompt-plan-mode-codebase-exploration.md) | 531 | 144 | 2.0.51 | 2.1.33 |
@@ -3168,7 +3190,7 @@
 | system | [Docker Commands Overview](../system-prompts/system-prompt-docker-commands-overview.md) | 335 | 117 | 2.1.77 | 2.1.77 |
 | system | [Task Notification Errors Output](../system-prompts/system-prompt-task-notification-errors-output.md) | 239 | 112 | 2.1.77 | 2.1.77 |
 | system | [Task Notification Output File 2](../system-prompts/system-prompt-task-notification-output-file-2.md) | 253 | 114 | 2.1.80 | 2.1.80 |
-| system | [Git Commit Safety Protocol](../system-prompts/system-prompt-git-commit-safety-protocol.md) | 5944 | 1518 | 2.1.80 | 2.1.80 |
+| system | [Git Commit Safety Protocol](../system-prompts/system-prompt-git-commit-safety-protocol.md) | 5944 | 1518 | 2.1.81 | 2.1.81 |
 | system | [Sandbox Required For Commands](../system-prompts/system-prompt-sandbox-required-for-commands.md) | 274 | 63 | 2.1.53 | 2.1.53 |
 | system | [Sandbox Command Restrictions](../system-prompts/system-prompt-sandbox-command-restrictions.md) | 1328 | 300 | 2.1.53 | 2.1.53 |
 | system | [Bash Commands Parallel Sequential](../system-prompts/system-prompt-run-bash-commands-in-parallel.md) | 523 | 121 | 2.1.59 | 2.1.59 |
@@ -3184,11 +3206,11 @@
 | system | [Update Magic Doc File](../system-prompts/system-prompt-update-magic-doc-file.md) | 3178 | 711 | 2.0.30 | 2.0.30 |
 | system | [Document Specific Update](../system-prompts/system-prompt-document-specific-update.md) | 337 | 65 | 2.0.30 | 2.0.30 |
 | system | [Git Commit Changes Message Create](../system-prompts/system-prompt-git-commit-changes-message-create.md) | 1908 | 501 | 2.1.77 | 2.1.77 |
-| system | [Git Safety Protocols](../system-prompts/system-prompt-git-safety-protocols.md) | 2472 | 739 | 2.1.80 | 2.1.80 |
+| system | [Git Safety Protocols](../system-prompts/system-prompt-git-safety-protocols.md) | 2472 | 739 | 2.1.81 | 2.1.81 |
 | system | [Bash Git Slack Commands](../system-prompts/system-data-bash-git-commands.md) | 292 | 116 | 2.1.51 | 2.1.51 |
 | system | [Create Md Guide 2](../system-prompts/system-prompt-create-md-guide-2.md) | 1599 | 381 | 1.0.112 | 1.0.112 |
 | system | [Github Event Listener](../system-prompts/system-data-mention-triggered-github-workflow.md) | 1748 | 494 | 2.0.8 | 2.0.8 |
-| system | [Install Github App](../system-prompts/system-prompt-install-github-app.md) | 1682 | 393 | 2.1.80 | 2.1.80 |
+| system | [Install Github App](../system-prompts/system-prompt-install-github-app.md) | 1682 | 393 | 2.1.81 | 2.1.81 |
 | system | [Review Pull Request](../system-prompts/system-data-github-actions-review.md) | 1215 | 405 | 2.0.36 | 2.0.36 |
 | system | [Github Permission Troubleshooting](../system-prompts/system-prompt-github-permission-troubleshooting.md) | 203 | 54 | 1.0.28 | 1.0.28 |
 | system | [Github Repo Access Help](../system-prompts/system-prompt-github-repo-access-help.md) | 194 | 52 | 1.0.28 | 1.0.28 |
@@ -3197,9 +3219,10 @@
 | system | [Use Owner Path Format](../system-prompts/system-prompt-use-owner-path-format.md) | 69 | 28 | 1.0.0 | 1.0.0 |
 | system | [Admin Setup Secrets Apps](../system-prompts/system-prompt-admin-setup-secrets-apps.md) | 174 | 33 | 1.0.0 | 1.0.0 |
 | system | [Verify Repo Access And Scope](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | 252 | 61 | 1.0.25 | 2.1.19 |
-| system | [Disabled Plugins Failed](../system-prompts/system-prompt-disabled-plugins-failed.md) | 83 | 44 | 2.1.77 | 2.1.77 |
 | system | [Number Sequence Repetition 6](../system-prompts/system-data-long-numeric-placeholder-list.md) | 481 | 286 | 2.0.72 | 2.0.72 |
+| system | [Plan Mode Context Reminders](../system-prompts/system-prompt-plan-mode-context-reminders.md) | 595 | 177 | 2.1.81 | 2.1.81 |
 | system | [Rank Sessions By Query](../system-prompts/system-prompt-rank-sessions-by-query.md) | 1947 | 477 | 2.1.6 | 2.1.6 |
+| system | [Remote Review Process](../system-prompts/system-prompt-remote-review-process.md) | 944 | 247 | 2.1.81 | 2.1.81 |
 | system | [Exit Handling](../system-prompts/system-prompt-exit-handling.md) | 231 | 62 | 1.0.53 | 1.0.53 |
 | system | [Exit Transcript Rules](../system-prompts/system-prompt-exit-transcript-rules.md) | 266 | 69 | 2.0.41 | 2.0.41 |
 | system | [Json Io Errors](../system-prompts/system-prompt-json-io-errors.md) | 276 | 80 | 2.0.56 | 2.0.56 |
@@ -3222,9 +3245,10 @@
 | system | [File Path Command Input](../system-prompts/system-prompt-file-path-command-input.md) | 538 | 134 | 2.1.77 | 2.1.77 |
 | system | [Worktree Creation Command](../system-prompts/system-prompt-worktree-created-command-input.md) | 232 | 55 | 2.1.49 | 2.1.49 |
 | system | [Worktree Path Command Exit](../system-prompts/system-prompt-worktree-command-exit-codes.md) | 168 | 44 | 2.1.49 | 2.1.49 |
-| system | [Architect Configs From Needs](../system-prompts/system-prompt-architect-configs-from-needs.md) | 5062 | 1139 | 2.1.80 | 2.1.80 |
+| system | [Architect Configs From Needs](../system-prompts/system-prompt-architect-configs-from-needs.md) | 5062 | 1139 | 2.1.81 | 2.1.81 |
 | system | [Next Status Poll Register](../system-prompts/system-prompt-next-status-poll-register.md) | 648 | 179 | 2.1.77 | 2.1.77 |
 | system | [Summarize Session Transcript](../system-prompts/system-prompt-summarize-session-transcript.md) | 374 | 116 | 2.1.30 | 2.1.33 |
+| system | [Session Details Date Project Duration](../system-prompts/system-prompt-session-details-date-project-duration.md) | 365 | 161 | 2.1.81 | 2.1.81 |
 | system | [Extract Session Analytics](../system-prompts/system-prompt-extract-session-analytics.md) | 2019 | 581 | 2.1.30 | 2.1.30 |
 | system | [Html Progress Bar Row](../system-prompts/system-prompt-html-progress-bar-row.md) | 258 | 107 | 2.1.77 | 2.1.77 |
 | system | [Progress Bar Row Html](../system-prompts/system-prompt-progress-bar-row-html.md) | 263 | 109 | 2.1.32 | 2.1.32 |
@@ -3232,18 +3256,19 @@
 | system | [Usage Section Html Snippet](../system-prompts/system-prompt-usage-section-html-snippet.md) | 195 | 78 | 2.1.30 | 2.1.30 |
 | system | [Impressive Wins Section Html](../system-prompts/system-prompt-impressive-wins-section-html.md) | 154 | 64 | 2.1.30 | 2.1.30 |
 | system | [Friction Section Html Snippet](../system-prompts/system-prompt-friction-section-html-snippet.md) | 165 | 63 | 2.1.30 | 2.1.30 |
-| system | [Md Features Section Html](../system-prompts/system-prompt-md-features-section-html.md) | 950 | 345 | 2.1.80 | 2.1.80 |
+| system | [Md Features Section Html](../system-prompts/system-prompt-md-features-section-html.md) | 950 | 345 | 2.1.81 | 2.1.81 |
 | system | [On The Horizon Section](../system-prompts/system-prompt-on-the-horizon-section.md) | 153 | 63 | 2.1.30 | 2.1.30 |
-| system | [Collapsible Feedback Section](../system-prompts/system-prompt-collapsible-feedback-section.md) | 1054 | 364 | 2.1.80 | 2.1.80 |
+| system | [Collapsible Feedback Section 2](../system-prompts/system-prompt-collapsible-feedback-section-2.md) | 1272 | 468 | 2.1.81 | 2.1.81 |
 | system | [Font Border Color Margin Size](../system-prompts/system-prompt-font-border-color-margin-size.md) | 11221 | 4570 | 2.1.77 | 2.1.77 |
 | system | [Copy Text And Toggle Collapsible](../system-prompts/system-data-copy-toggle-collapsible-js.md) | 4333 | 1359 | 2.1.30 | 2.1.30 |
-| system | [Html Css Setup](../system-prompts/system-prompt-html-css-setup.md) | 17584 | 7569 | 2.1.80 | 2.1.80 |
+| system | [Html Css Setup](../system-prompts/system-prompt-html-css-setup.md) | 19123 | 7569 | 2.1.81 | 2.1.81 |
 | system | [At A Glance Summary Block](../system-prompts/system-prompt-at-a-glance-summary-block.md) | 259 | 85 | 2.1.30 | 2.1.30 |
+| system-reminder | [Brief Mode Enabled](../system-prompts/system-reminder-brief-mode-enabled.md) | 168 | 45 | 2.1.81 | 2.1.81 |
 | system | [Handle Permission Denials](../system-prompts/system-prompt-handle-permission-denials.md) | 732 | 160 | 2.1.49 | 2.1.49 |
 | system | [Permission Denied Reasonable Alternatives](../system-prompts/system-prompt-permission-denied-reasonable-alternatives.md) | 683 | 150 | 2.1.20 | 2.1.33 |
 | system | [Implementation Insights](../system-prompts/system-prompt-implementation-insights.md) | 562 | 134 | 1.0.63 | 2.0.77 |
 | system | [Cli Educational Engineering Insights](../system-prompts/system-prompt-cli-educational-engineering-insights.md) | 1047 | 220 | 1.0.78 | 2.0.67 |
-| system | [Learn By Doing Human Input](../system-prompts/system-prompt-learn-by-doing-human-input.md) | 4992 | 1137 | 2.1.80 | 2.1.80 |
+| system | [Learn By Doing Human Input](../system-prompts/system-prompt-learn-by-doing-human-input.md) | 4992 | 1137 | 2.1.81 | 2.1.81 |
 | system | [Watch Next Message Preferences](../system-prompts/system-prompt-watch-next-message-preferences-2.md) | 220 | 49 | 2.1.49 | 2.1.49 |
 | system | [Command Name Message Args](../system-prompts/system-prompt-command-name-message-args.md) | 127 | 49 | 2.1.77 | 2.1.77 |
 | system | [Plan Mode Edit Restrictions](../system-prompts/system-prompt-plan-mode-edit-restrictions.md) | 5428 | 1266 | 2.1.49 | 2.1.49 |
@@ -3257,24 +3282,25 @@
 | system | [Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 299 | 85 | 2.1.32 | 2.1.32 |
 | system | [Ask What To Clarify](../system-prompts/system-prompt-ask-what-to-clarify.md) | 313 | 74 | 2.1.78 | 2.1.78 |
 | system | [Finish Plan No More Questions](../system-prompts/system-prompt-finish-plan-no-more-questions.md) | 234 | 53 | 2.1.78 | 2.1.78 |
+| system | [Manual Action Required After Migration](../system-prompts/system-prompt-manual-action-required-after-migration.md) | 243 | 105 | 2.1.81 | 2.1.81 |
 | system | [Apply File Improvements](../system-prompts/system-prompt-apply-file-improvements.md) | 473 | 124 | 2.1.49 | 2.1.49 |
 | system | [Loaded Errors User Note Next](../system-prompts/system-prompt-loaded-errors-user-note-next.md) | 239 | 52 | 2.1.77 | 2.1.77 |
 | system | [Missed One Shot Tasks](../system-prompts/system-prompt-missed-one-shot-tasks.md) | 274 | 62 | 2.1.77 | 2.1.77 |
 | system | [Hooks Configuration Json 2](../system-prompts/system-prompt-hooks-configuration-json-2.md) | 8259 | 2515 | 2.1.77 | 2.1.77 |
 | system | [Settings File Locations And Permissions](../system-prompts/system-prompt-settings-file-locations-and-permissions.md) | 2393 | 797 | 2.1.77 | 2.1.77 |
 | system | [Update Config](../system-prompts/system-prompt-update-config.md) | 14938 | 4610 | 2.1.77 | 2.1.77 |
-| system | [Chat App Navigation Commands](../system-prompts/system-prompt-chat-app-navigation-commands.md) | 1489 | 405 | 2.1.80 | 2.1.80 |
+| system | [Chat App Navigation Commands](../system-prompts/system-prompt-chat-app-navigation-commands.md) | 1465 | 405 | 2.1.81 | 2.1.81 |
 | system | [Customize Keybindings](../system-prompts/skill-customize-keyboard-shortcuts.md) | 2748 | 824 | 2.1.20 | 2.1.20 |
-| system | [Keybinding Config Validation Guide](../system-prompts/system-prompt-keybinding-config-validation-guide.md) | 649 | 225 | 2.1.79 | 2.1.79 |
+| system | [Keybinding Config Validation Guide](../system-prompts/system-prompt-keybinding-config-validation-guide.md) | 616 | 225 | 2.1.81 | 2.1.81 |
 | system | [Verify Changes Work](../system-prompts/system-prompt-verify-changes-work.md) | 9473 | 2553 | 2.1.77 | 2.1.77 |
 | system | [Debug Logging Enabled](../system-prompts/system-prompt-debug-logging-enabled.md) | 355 | 88 | 2.1.77 | 2.1.77 |
 | system | [Pronouns And Basic Verbs](../system-prompts/system-data-common-pronouns-and-verbs.md) | 1089 | 375 | 2.1.30 | 2.1.30 |
 | system | [Session Analysis Reusable Skills](../system-prompts/system-prompt-extract-repeatable-session-steps.md) | 7470 | 1889 | 2.1.32 | 2.1.32 |
-| system | [Review And Cleanup](../system-prompts/system-prompt-review-and-cleanup.md) | 3793 | 931 | 2.1.77 | 2.1.77 |
-| system | [Parallel Work Orchestration Plan 2](../system-prompts/system-prompt-parallel-work-orchestration-plan-2.md) | 5039 | 1387 | 2.1.77 | 2.1.77 |
+| system | [Review And Cleanup](../system-prompts/system-prompt-review-and-cleanup.md) | 4057 | 931 | 2.1.81 | 2.1.81 |
+| system | [Parallel Work Orchestration Plan 2](../system-prompts/system-prompt-parallel-work-orchestration-plan-2.md) | 5034 | 1387 | 2.1.81 | 2.1.81 |
 | system | [Simplify And Test Changes](../system-prompts/system-prompt-simplify-and-test-changes.md) | 889 | 267 | 2.1.77 | 2.1.77 |
 | system | [Diagnose Frozen Sessions](../system-prompts/system-prompt-diagnose-frozen-sessions.md) | 3467 | 1023 | 2.1.77 | 2.1.77 |
-| system | [Schedule Remote Agents 2](../system-prompts/system-prompt-schedule-remote-agents-2.md) | 8788 | 2686 | 2.1.80 | 2.1.80 |
+| system | [Schedule Remote Agents 4](../system-prompts/system-prompt-schedule-remote-agents-4.md) | 8068 | 2395 | 2.1.81 | 2.1.81 |
 | system | [Building Llm Applications With](../system-prompts/system-prompt-building-llm-applications-with.md) | 18831 | 4990 | 2.1.79 | 2.1.79 |
 | system | [New Messages Role Content Text](../system-prompts/system-prompt-new-messages-role-content-text.md) | 14182 | 4305 | 2.1.77 | 2.1.77 |
 | system | [Api Raw Http Examples](../system-prompts/system-prompt-api-raw-http-examples.md) | 5482 | 1875 | 2.1.77 | 2.1.77 |
@@ -3303,9 +3329,11 @@
 | system | [Api Anthropic Sdk Trigger](../system-prompts/system-prompt-api-anthropic-sdk-trigger.md) | 297 | 98 | 2.1.77 | 2.1.77 |
 | system | [Reference Documentation For Language](../system-prompts/system-data-language-doc-reference-map.md) | 1075 | 376 | 2.1.49 | 2.1.49 |
 | system-reminder | [Shutdown Team Before Response](../system-prompts/system-reminder-shutdown-team-before-response.md) | 591 | 151 | 2.1.16 | 2.1.16 |
+| system | [Classifier Custom Rules](../system-prompts/system-prompt-classifier-custom-rules.md) | 261 | 67 | 2.1.81 | 2.1.81 |
+| system | [Auto Mode Classifier Rules Review](../system-prompts/system-prompt-auto-mode-classifier-rules-review.md) | 1133 | 270 | 2.1.81 | 2.1.81 |
 | system | [Enable Chrome Automation](../system-prompts/system-prompt-enable-chrome-automation.md) | 322 | 83 | 2.1.20 | 2.1.20 |
 | agent | [Read Only Codebase Search](../system-prompts/agent-prompt-read-only-codebase-search.md) | 1990 | 503 | 2.1.77 | 2.1.77 |
-| agent | [Status Line Setup](../system-prompts/agent-prompt-status-line-setup.md) | 7182 | 2140 | 2.1.80 | 2.1.80 |
+| agent | [Status Line Setup](../system-prompts/agent-prompt-status-line-setup.md) | 7182 | 2140 | 2.1.81 | 2.1.81 |
 | agent | [Read Only Architecture Planning 2](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | 2467 | 644 | 2.1.77 | 2.1.77 |
 | agent | [Use Current Configuration](../system-prompts/agent-prompt-use-current-configuration.md) | 239 | 57 | 2.1.49 | 2.1.49 |
 | tool | [Execute Page Javascript](../system-prompts/tool-description-execute-page-javascript.md) | 309 | 68 | 2.0.71 | 2.0.71 |
@@ -3345,13 +3373,13 @@
 | tool | [Terminal Window Size Changed](../system-prompts/tool-description-terminal-window-size-changed.md) | 28 | 4 | 1.0.68 | 1.0.68 |
 | tool | [Request Process Information](../system-prompts/tool-description-request-process-information.md) | 31 | 4 | 1.0.68 | 1.0.68 |
 | tool | [Device Running Out Of Power](../system-prompts/tool-description-device-running-out-of-power.md) | 27 | 5 | 1.0.68 | 1.0.68 |
-| tool | [Structured Todo List](../system-prompts/tool-description-structured-todo-list.md) | 10081 | 2438 | 2.1.77 | 2.1.77 |
 | tool | [Structured Final Output](../system-prompts/tool-description-structured-final-output.md) | 178 | 34 | 2.0.43 | 2.0.43 |
 | tool | [Send Message To User](../system-prompts/tool-description-send-message-to-user.md) | 528 | 126 | 2.1.77 | 2.1.77 |
 | tool | [Fetch Deferred Tools Schema](../system-prompts/tool-description-fetch-deferred-tools-schema.md) | 962 | 235 | 2.1.77 | 2.1.77 |
 | tool | [Security Classification Report](../system-prompts/tool-description-security-classification-report.md) | 62 | 9 | 2.1.77 | 2.1.77 |
-| tool | [List Configured Mcp Resources](../system-prompts/tool-description-list-configured-mcp-resources.md) | 349 | 74 | 2.1.80 | 2.1.80 |
+| tool | [List Configured Mcp Resources](../system-prompts/tool-description-list-configured-mcp-resources.md) | 349 | 74 | 2.1.81 | 2.1.81 |
 | tool | [Read Resource By Uri](../system-prompts/tool-description-read-resource-by-uri.md) | 232 | 54 | 1.0.22 | 1.0.22 |
+| tool | [Structured Todo List](../system-prompts/tool-description-structured-todo-list.md) | 10081 | 2438 | 2.1.77 | 2.1.77 |
 | tool | [Exact File String Replace](../system-prompts/tool-description-exact-file-string-replace.md) | 966 | 228 | 2.1.20 | 2.1.22 |
 | tool | [Write File To Local Filesystem](../system-prompts/tool-description-file-writing.md) | 478 | 116 | 2.1.53 | 2.1.53 |
 | tool | [Ripgrep Search Guidelines](../system-prompts/tool-description-ripgrep-search-guidelines.md) | 865 | 250 | 2.1.77 | 2.1.77 |
@@ -3373,6 +3401,7 @@
 | tool | [List Available Tasks](../system-prompts/tool-description-list-available-tasks.md) | 969 | 240 | 2.1.32 | 2.1.32 |
 | tool | [Schedule Recurring Reminders](../system-prompts/tool-description-schedule-recurring-reminders.md) | 2670 | 863 | 2.1.77 | 2.1.77 |
 | tool | [Cancel Cron Job Scheduled](../system-prompts/tool-description-cancel-cron-job-scheduled.md) | 99 | 26 | 2.1.77 | 2.1.77 |
+| tool | [Api Trigger Actions](../system-prompts/tool-description-api-trigger-actions.md) | 396 | 127 | 2.1.81 | 2.1.81 |
 | tool | [Create And Manage Teams](../system-prompts/tool-description-create-and-manage-teams.md) | 6869 | 1665 | 2.1.77 | 2.1.77 |
 | tool | [Delete Team Task Directories](../system-prompts/tool-description-delete-team-task-directories.md) | 607 | 141 | 2.1.49 | 2.1.49 |
 | tool | [Send Message To Teammate](../system-prompts/tool-description-send-message-to-teammate.md) | 4313 | 1158 | 2.1.77 | 2.1.77 |
@@ -3388,6 +3417,6 @@
 | tool | [Future Opportunities Autonomous Workflows](../system-prompts/tool-description-future-opportunities-autonomous-workflows.md) | 586 | 169 | 2.1.30 | 2.1.30 |
 | tool | [Memorable Moment Json](../system-prompts/tool-description-memorable-moment-json.md) | 374 | 93 | 2.1.30 | 2.1.30 |
 | tool | [Educational Cli Engineering Help](../system-prompts/tool-description-educational-cli-engineering-help.md) | 493 | 92 | 1.0.78 | 2.0.32 |
-| tool | [Collaborative Learning Cli](../system-prompts/tool-description-collaborative-learning-cli.md) | 4436 | 1009 | 2.1.80 | 2.1.80 |
+| tool | [Collaborative Learning Cli](../system-prompts/tool-description-collaborative-learning-cli.md) | 4436 | 1009 | 2.1.81 | 2.1.81 |
 | tool | [Explain Shell Command](../system-prompts/tool-description-explain-shell-command.md) | 41 | 8 | 2.1.6 | 2.1.6 |
 | tool | [Install Native Build](../system-prompts/tool-description-install-native-build.md) | 32 | 5 | 1.0.31 | 1.0.31 |

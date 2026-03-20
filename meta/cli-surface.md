@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 28
-- Options: 68
-- Env vars: 449
-- Config keys: 688
+- Commands: 29
+- Options: 69
+- Env vars: 455
+- Config keys: 694
 - Tools: 3
 - Skills: 0
 - Models: 93
@@ -22,6 +22,7 @@
 - `auth`
 - `auto-mode`
 - `config`
+- `critique`
 - `defaults`
 - `disable`
 - `doctor`
@@ -54,6 +55,7 @@
 - `auth`
 - `auto-mode`
 - `config`
+- `critique`
 - `defaults`
 - `disable [plugin]`
 - `doctor`
@@ -91,6 +93,7 @@
 - `--allowed-tools`
 - `--allowedTools`
 - `--available`
+- `--bare`
 - `--betas`
 - `--callback-port`
 - `--chrome`
@@ -160,6 +163,7 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--available`
+- `--bare`
 - `--betas <betas...>`
 - `--callback-port <port>`
 - `--chrome`
@@ -439,6 +443,7 @@
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
 - `CLAUDE_CODE_USE_FOUNDRY`
 - `CLAUDE_CODE_USE_NATIVE_FILE_SEARCH`
+- `CLAUDE_CODE_USE_POWERSHELL_TOOL`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CODE_USER_EMAIL`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
@@ -547,7 +552,10 @@
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
 - `KUBERNETES_SERVICE_HOST`
+- `LANG`
+- `LC_ALL`
 - `LC_TERMINAL`
+- `LC_TIME`
 - `LOCAL_BRIDGE`
 - `LOCALAPPDATA`
 - `MAX_MCP_OUTPUT_TOKENS`
@@ -555,6 +563,7 @@
 - `MAX_THINKING_TOKENS`
 - `MCP_CLIENT_SECRET`
 - `MCP_OAUTH_CALLBACK_PORT`
+- `MCP_OAUTH_CLIENT_METADATA_URL`
 - `MCP_REMOTE_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_TIMEOUT`
@@ -601,6 +610,7 @@
 - `RENDER`
 - `REPL_ID`
 - `REPL_SLUG`
+- `REVIEW_REMOTE`
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
 - `S`
@@ -736,6 +746,7 @@
 - `authServerMetadataUrl`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoDreamEnabled`
 - `autoMemoryDirectory`
 - `autoMemoryEnabled`
 - `autoUpdate`
@@ -815,6 +826,7 @@
 - `default_branch`
 - `defaultEnvironmentId`
 - `defaultMode`
+- `defaultShell`
 - `deletions`
 - `deniedDomains`
 - `deniedMcpServers`
@@ -853,6 +865,7 @@
 - `effective`
 - `effort`
 - `effortLevel`
+- `Ek`
 - `elapsed_time_seconds`
 - `elicitation_id`
 - `email`
@@ -906,7 +919,6 @@
 - `fileSuggestion`
 - `filesystem`
 - `firstPrompt`
-- `fk`
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
@@ -954,6 +966,7 @@
 - `init_retry_max_attempts`
 - `init_retry_max_delay_ms`
 - `init_script`
+- `initialUserMessage`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
@@ -971,9 +984,9 @@
 - `isImage`
 - `isolation`
 - `isSynthetic`
-- `isUltraplan`
 - `isUsingOverage`
 - `jobs`
+- `json`
 - `jsonSchema`
 - `key`
 - `keywords`
@@ -1212,7 +1225,9 @@
 - `setting`
 - `settings`
 - `sha`
+- `shell`
 - `shouldBlock`
+- `showClearContextOnPlanAccept`
 - `showThinkingSummaries`
 - `size`
 - `skill`
@@ -1247,6 +1262,7 @@
 - `stopReason`
 - `strict`
 - `strictKnownMarketplaces`
+- `strictPluginOnlyCustomization`
 - `structured_output`
 - `structuredContent`
 - `structuredPatch`

@@ -1,16 +1,16 @@
-# Claude Code 2.1.80 – Flags
+# Claude Code 2.1.81 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `tengu_1p_event_batch_config` | config | telemetry | Configures batching (delay, batch size, queue size) for exporting first‑party event logs. | Falls back to OTEL_LOGS_EXPORT_INTERVAL and defaults when fields are missing; triggers flush/reinit on config change. | high | 2 |
-| `tengu_auto_mode_config` | config | ui | Gates “auto mode” availability, with circuit-breaker disable plus model and org allowlist checks. | Also respects user settings (disableAutoMode) and can disable fast mode. | high | 6 |
+| `tengu_auto_mode_config` | config | ui | Gates “auto mode” availability, with circuit-breaker disable plus model and org allowlist checks. | Also respects user settings (disableAutoMode) and can disable fast mode. | high | 8 |
 | `tengu_bad_survey_transcript_ask_config` | config | prompts | Config for whether a “bad” feedback survey asks to include the conversation transcript. | Bundle is obfuscated; exact UI text/conditions aren’t visible, only survey+transcript request wiring. | medium | 1 |
 | `tengu_bridge_initial_history_cap` | config | tools | Caps how much prior message history is considered when starting a bridge REPL session. | Only the config read (default 200, max 300000) is visible; exact unit/behavior of the cap isn’t shown. | medium | 1 |
 | `tengu_bridge_min_version` | config | tools | Blocks Remote Control when Claude Code is below a configured minimum version. |  | high | 1 |
 | `tengu_bridge_poll_interval_config` | config | networking | Sets Tengu bridge poll interval (0 disables) plus session reclaim and keepalive timings. | Config is schema-validated; invalid values fall back to defaults. | medium | 1 |
 | `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 2 |
 | `tengu_ccr_bridge_multi_session` | gate | tools | Toggles multi-session spawning behavior for a Tengu CCR bridge process. | Only spawn/session-related code is visible; the exact behavioral differences when enabled are not shown. | medium | 1 |
-| `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables CCR git-bundle seeding fallback for remote/teleport sessions. | When enabled (or CCR_ENABLE_BUNDLE is set), a source bundle can be uploaded and passed as seed_bundle_file_id. | high | 1 |
+| `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables CCR git-bundle seeding fallback for remote/teleport sessions. | When enabled (or CCR_ENABLE_BUNDLE is set), a source bundle can be uploaded and passed as seed_bundle_file_id. | high | 2 |
 | `tengu_chair_sermon` | gate | tools | Applies extra processing to attachment messages before they’re merged/added to the chat history. | Obfuscated helpers (K$_, nVq, O$_) hide exact transformation details. | medium | 4 |
 | `tengu_desktop_upsell` | config | prompts | Enables a startup dialog upsell for a desktop app on macOS or Windows x64. | Gate appears limited to darwin/win32 x64 and checks an enable_startup_dialog setting. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Blocks use of "bypassPermissions" mode (even if requested) due to gate/org policy. | Also checks a session/org setting (permissions.disableBypassPermissionsMode) alongside the gate. | high | 4 |
