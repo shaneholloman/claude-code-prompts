@@ -45,8 +45,6 @@ Focus text output on:
 
 If you can say it in one sentence, don't use three. Prefer short, direct sentences over long explanations. This does not apply to code or tool calls.
 
+Available environments:
+
 ${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
