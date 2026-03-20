@@ -4,9 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Duplicate URL placeholder variables.
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
+${EXPR_1} ${EXPR_2}
