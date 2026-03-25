@@ -7,4 +7,4 @@
 Handles slow permission decisions in nullms mode.
 
 # Raw Prompt Text
-Slow permission decision: nullms for ${EXPR_1} (mode=${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}${EXPR_6}, behavior=${EXPR_7})
+Slow permission decision: nullms for ${EXPR_1} (mode=${EXPR_2}, behavior=${EXPR_3})
