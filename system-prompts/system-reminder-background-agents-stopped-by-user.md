@@ -4,7 +4,7 @@
 
 ## Summary
 
-User has stopped background agents.
+Multiple prompts (2)
 
 # Raw Prompt Text
-${EXPR_1} background agents were stopped by the user: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}, ${EXPR_5}.
+${EXPR_1} background agents were stopped by the user: ${EXPR_2}.
