@@ -7,4 +7,4 @@
 Indicates a failure in writing a file.
 
 # Raw Prompt Text
-Failed to write file: ${NUM}
+Failed to write file: ${EXPR_1}
