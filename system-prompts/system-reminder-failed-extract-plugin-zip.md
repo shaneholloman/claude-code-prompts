@@ -1,10 +1,10 @@
-# System Prompt: failed-extract-plugin-zip-global
+# System Prompt: failed-extract-plugin-zip
 
 - Source: inline
 
 ## Summary
 
-Failed to extract a plugin ZIP.
+Error extracting plugin ZIP file.
 
 # Raw Prompt Text
-Failed to extract plugin ZIP global, deleting corrupt file: ${EXPR_1}
+Failed to extract plugin ZIP ${EXPR_1}: @anthropic-ai${PATH}
