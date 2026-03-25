@@ -7,4 +7,4 @@
 Instructions to set up GitHub.
 
 # Raw Prompt Text
-Please setup GitHub on ${URL}
+. Please setup GitHub on ${URL}
