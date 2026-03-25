@@ -1,4 +1,4 @@
-# Tool Prompt: web-search-with-mandatory-sources
+# Tool Prompt: web-search-with-sources-2
 
 - Name: WebSearch
 
