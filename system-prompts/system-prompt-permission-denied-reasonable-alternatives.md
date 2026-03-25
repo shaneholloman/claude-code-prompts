@@ -1,4 +1,4 @@
-# System Prompt: permission-denied-reasonable-alternatives
+# System Prompt: permission-denied-alternatives
 
 - Source: inline
 
