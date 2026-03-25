@@ -1,12 +1,14 @@
-# Claude Code Flags 2.1.81
+# Claude Code Flags 2.1.83
 
 ## Feature Gates
 
+- `skip_rendering`
 - `tengu_ccr_bridge`
 - `tengu_ccr_bridge_multi_session`
 - `tengu_ccr_bundle_seed_enabled`
 - `tengu_chair_sermon`
 - `tengu_disable_bypass_permissions_mode`
+- `tengu_harbor`
 - `tengu_scratch`
 - `tengu_streaming_tool_execution2`
 - `tengu_thinkback`
@@ -30,6 +32,7 @@
 - `tengu_kairos_brief`
 - `tengu_kairos_cron`
 - `tengu_kairos_cron_config`
+- `tengu_kairos_cron_durable`
 - `tengu_max_version_config`
 - `tengu_sm_compact_config`
 - `tengu_sm_config`

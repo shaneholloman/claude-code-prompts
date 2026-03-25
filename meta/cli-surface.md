@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 29
-- Options: 69
-- Env vars: 455
-- Config keys: 694
+- Commands: 33
+- Options: 70
+- Env vars: 464
+- Config keys: 707
 - Tools: 3
 - Skills: 0
-- Models: 93
+- Models: 94
 - Providers: 8
 
 ## Commands
@@ -21,6 +21,7 @@
 - `agents`
 - `auth`
 - `auto-mode`
+- `clear`
 - `config`
 - `critique`
 - `defaults`
@@ -39,11 +40,14 @@
 - `remove`
 - `reset-project-choices`
 - `serve`
+- `setup`
 - `setup-token`
+- `show`
 - `status`
 - `uninstall`
 - `update`
 - `validate`
+- `xaa`
 
 ### Specs
 
@@ -54,6 +58,7 @@
 - `agents`
 - `auth`
 - `auto-mode`
+- `clear`
 - `config`
 - `critique`
 - `defaults`
@@ -73,13 +78,16 @@
 - `remove <name>`
 - `reset-project-choices`
 - `serve`
+- `setup`
 - `setup-token`
+- `show`
 - `status`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
 - `update <plugin>`
 - `validate <path>`
+- `xaa`
 
 ## Options
 
@@ -116,6 +124,7 @@
 - `--fork-session`
 - `--from-pr`
 - `--header`
+- `--id-token`
 - `--ide`
 - `--include-partial-messages`
 - `--json`
@@ -181,6 +190,7 @@
 - `--force`
 - `--fork-session`
 - `--from-pr [value]`
+- `--id-token <jwt>`
 - `--ide`
 - `--include-partial-messages`
 - `--json`
@@ -220,7 +230,6 @@
 
 - `__CFB`
 - `ALACRITTY_LOG`
-- `ANALYTICS_LOG_TOOL_DETAILS`
 - `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
 - `ANTHROPIC_BASE_URL`
@@ -323,9 +332,11 @@
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DEBUG_LOG_LEVEL`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
+- `CLAUDE_CODE_DEBUG_REPAINTS`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
 - `CLAUDE_CODE_DISABLE_1M_CONTEXT`
 - `CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING`
+- `CLAUDE_CODE_DISABLE_ADVISOR_TOOL`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
@@ -339,6 +350,7 @@
 - `CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS`
 - `CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
+- `CLAUDE_CODE_DISABLE_NONSTREAMING_FALLBACK`
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
 - `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
@@ -347,6 +359,7 @@
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EAGER_FLUSH`
 - `CLAUDE_CODE_EFFORT_LEVEL`
+- `CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS`
 - `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
 - `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
@@ -355,6 +368,7 @@
 - `CLAUDE_CODE_ENABLE_TASKS`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
+- `CLAUDE_CODE_ENABLE_XAA`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_ENVIRONMENT_KIND`
@@ -403,6 +417,7 @@
 - `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
+- `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_QUESTION_PREVIEW_FORMAT`
 - `CLAUDE_CODE_REMOTE`
@@ -438,6 +453,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX`
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
+- `CLAUDE_CODE_TMUX_TRUECOLOR`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
@@ -457,6 +473,7 @@
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_REPL_MODE`
+- `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_TMPDIR`
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
@@ -472,7 +489,6 @@
 - `DENO_DEPLOYMENT_ID`
 - `DETECT_GCP_RETRIES`
 - `DISABLE_AUTO_COMPACT`
-- `DISABLE_AUTO_MIGRATE_TO_NATIVE`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
 - `DISABLE_CLAUDE_CODE_SM_COMPACT`
@@ -568,6 +584,7 @@
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
+- `MCP_XAA_IDP_CLIENT_SECRET`
 - `METADATA_SERVER_DETECTION`
 - `MODIFIERS_NODE_PATH`
 - `MSYSTEM`
@@ -638,6 +655,7 @@
 - `TERM`
 - `TERM_PROGRAM`
 - `TERM_PROGRAM_VERSION`
+- `TERMINAL`
 - `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
 - `TEST_ENABLE_SESSION_PERSISTENCE`
@@ -647,6 +665,7 @@
 - `TMUX`
 - `TMUX_PANE`
 - `UNDICI_NO_FG`
+- `URL_HANDLER_NODE_PATH`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
 - `USE_LOCAL_OAUTH`
@@ -684,9 +703,11 @@
 - `action`
 - `activeForm`
 - `added`
+- `additional_model_options`
 - `additionalContext`
 - `additionalDirectories`
 - `additions`
+- `advisorModel`
 - `agent`
 - `agent_id`
 - `agent_transcript_path`
@@ -787,11 +808,13 @@
 - `cell_type`
 - `cells`
 - `changes`
+- `channels`
 - `character`
 - `checksum`
 - `claude_code_version`
 - `claudeMdExcludes`
 - `cleanupPeriodDays`
+- `client_data`
 - `clientId`
 - `code`
 - `codeText`
@@ -822,6 +845,7 @@
 - `data`
 - `decision`
 - `decision_reason`
+- `decisionClassification`
 - `default`
 - `default_branch`
 - `defaultEnvironmentId`
@@ -865,7 +889,6 @@
 - `effective`
 - `effort`
 - `effortLevel`
-- `Ek`
 - `elapsed_time_seconds`
 - `elicitation_id`
 - `email`
@@ -899,6 +922,7 @@
 - `explanation`
 - `extraKnownMarketplaces`
 - `failed`
+- `failIfUnavailable`
 - `fast_mode_state`
 - `fastMode`
 - `fastModePerSessionOptIn`
@@ -966,6 +990,7 @@
 - `init_retry_max_attempts`
 - `init_retry_max_delay_ms`
 - `init_script`
+- `initialPrompt`
 - `initialUserMessage`
 - `initialWindowSize`
 - `input`
@@ -983,6 +1008,7 @@
 - `isAuthenticating`
 - `isImage`
 - `isolation`
+- `issuer`
 - `isSynthetic`
 - `isUsingOverage`
 - `jobs`
@@ -1043,6 +1069,7 @@
 - `modelOverrides`
 - `models`
 - `modelUsage`
+- `mtime`
 - `multiple`
 - `multiSelect`
 - `multisession_poll_interval_ms_at_capacity`
@@ -1051,6 +1078,7 @@
 - `name`
 - `network`
 - `network_config`
+- `new_cwd`
 - `new_source`
 - `newContent`
 - `newLines`
@@ -1070,10 +1098,12 @@
 - `numMatches`
 - `oauth`
 - `ok`
+- `old_cwd`
 - `oldLines`
 - `oldStart`
 - `oldString`
 - `oldTodos`
+- `ON`
 - `once`
 - `oneShotFloorMs`
 - `oneShotMaxMs`
@@ -1251,6 +1281,7 @@
 - `start`
 - `startDirectory`
 - `startLine`
+- `state`
 - `status`
 - `statusChange`
 - `statusLine`
@@ -1308,7 +1339,6 @@
 - `tmuxSessionName`
 - `to`
 - `token_refresh_buffer_ms`
-- `tokenSaverOutput`
 - `tokenSource`
 - `tool`
 - `tool_input`
@@ -1357,6 +1387,7 @@
 - `verbs`
 - `verificationNudgeNeeded`
 - `version`
+- `watchPaths`
 - `web_fetch_requests`
 - `web_search_requests`
 - `webSearchRequests`
@@ -1364,12 +1395,13 @@
 - `workerColor`
 - `workerId`
 - `workerName`
+- `workflow_name`
 - `worktree`
 - `worktree_path`
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `z`
+- `Y`
 
 ## Tools
 
@@ -1416,6 +1448,7 @@ _None detected_
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-screenshots`
+- `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-context`
 - `claude-desktop`

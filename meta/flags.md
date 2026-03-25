@@ -1,7 +1,8 @@
-# Claude Code 2.1.81 – Flags
+# Claude Code 2.1.83 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
+| `skip_rendering` | gate | tools | Controls skip rendering behavior. | Heuristic inference from non-LLM flag context. | low | 1 |
 | `tengu_1p_event_batch_config` | config | telemetry | Configures batching (delay, batch size, queue size) for exporting first‑party event logs. | Falls back to OTEL_LOGS_EXPORT_INTERVAL and defaults when fields are missing; triggers flush/reinit on config change. | high | 2 |
 | `tengu_auto_mode_config` | config | ui | Gates “auto mode” availability, with circuit-breaker disable plus model and org allowlist checks. | Also respects user settings (disableAutoMode) and can disable fast mode. | high | 8 |
 | `tengu_bad_survey_transcript_ask_config` | config | prompts | Config for whether a “bad” feedback survey asks to include the conversation transcript. | Bundle is obfuscated; exact UI text/conditions aren’t visible, only survey+transcript request wiring. | medium | 1 |
@@ -16,10 +17,12 @@
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Blocks use of "bypassPermissions" mode (even if requested) due to gate/org policy. | Also checks a session/org setting (permissions.disableBypassPermissionsMode) alongside the gate. | high | 4 |
 | `tengu_feedback_survey_config` | config | prompts | Settings for displaying a feedback survey and recording appeared/responded outcomes (good/bad). | Context shows error handling and fallback IDs like "unknown" when config/session data is missing. | medium | 1 |
 | `tengu_good_survey_transcript_ask_config` | config | ui | Config for asking to include/share transcript when a “good” feedback survey is shown. | Only seen alongside feedback survey configs/events; exact prompt text/logic isn’t visible here. | medium | 1 |
+| `tengu_harbor` | gate | safety | Controls whether bypass-permissions mode can be used. | Can disable bypass mode via gate/config and show warnings when bypass is requested. | high | 2 |
 | `tengu_iron_gate_closed` | config | safety | Chooses fail-closed denial when auto-mode classifier is unavailable instead of falling back to normal permission handling. | Flag toggles deny-with-retry guidance (fail closed) vs fail-open fallback when classifier is unavailable. | high | 1 |
 | `tengu_kairos_brief` | config | prompts | Enables a “brief” user message/tool (markdown) when entitled or CLAUDE_CODE_BRIEF is set. | Gated by an entitlement check plus another condition (By()\|\|kZ()). | medium | 3 |
 | `tengu_kairos_cron` | config | tools | Enables session-only cron tools to schedule prompts to run later or on a recurring schedule. | Disabled when CLAUDE_CODE_DISABLE_CRON is set. | high | 1 |
 | `tengu_kairos_cron_config` | config | tools | Configures cron scheduling jitter/recurrence limits for a background job runner. | Only schema and accessor names are visible; the specific jobs affected aren’t shown. | medium | 1 |
+| `tengu_kairos_cron_durable` | config | config | Controls kairos cron durable behavior. | Heuristic inference from non-LLM flag context. | medium | 1 |
 | `tengu_max_version_config` | config | tools | Minimum-version config used to block applying an update when the target version is too old. | Config also exposes optional `external` and `external_message` fields, likely for update messaging. | medium | 1 |
 | `tengu_scratch` | gate | filesystem | Enables writing a session-memory scratchpad with a summary.md file under a per-user Claude folder. |  | high | 1 |
 | `tengu_sm_compact_config` | config | caching | Configures thresholds for compacting content using min/max token limits and minimum text-block messages. | Snippet only shows loading/merging these limits into a shared config object, not the compaction routine. | medium | 1 |
