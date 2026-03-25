@@ -290,128 +290,128 @@ ${EXPR_57}
           <${PATH}>
           <input type="number" id="custom-offset" placeholder="UTC offset" style="display: none; width: 80px; font-size: 12px; padding: 4px; border-radius: 4px; border: 1px solid #e2e8f0;">
         <${PATH}>
-        <div id="hour-histogram">${EXPR_62}<${PATH}>
+        <div id="hour-histogram">--deep-link-origin<${PATH}>
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Tool Errors Encountered<${PATH}>
-        ${EXPR_63}
+        ${EXPR_62}
+${EXPR_63}
 ${EXPR_64}
 ${EXPR_65}
 ${EXPR_66}
 ${EXPR_67}
 ${EXPR_68}
 ${EXPR_69}
-${EXPR_70}
 ## Reserved Shortcuts
 
-${EXPR_71}
+${EXPR_70}
 ## Available Contexts
 
-${EXPR_72}
+${EXPR_71}
 ## Available Actions
 
-${EXPR_73}
+${EXPR_72}
       <${PATH}>
     <${PATH}>
 
-     (PID ${EXPR_74})
+     (PID ${EXPR_73})
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">What Helped Most (Claude's Capabilities)<${PATH}>
-        ${EXPR_75}
+        ${EXPR_74}
+${EXPR_75}
 ${EXPR_76}
 ${EXPR_77}
 ${EXPR_78}
 ${EXPR_79}
 ${EXPR_80}
 ${EXPR_81}
-${EXPR_82}
 ## Reserved Shortcuts
 
-${EXPR_83}
+${EXPR_82}
 ## Available Contexts
 
-${EXPR_84}
+${EXPR_83}
 ## Available Actions
 
-${EXPR_85}
+${EXPR_84}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Outcomes<${PATH}>
-        ${EXPR_86}
+        ${EXPR_85}
+${EXPR_86}
 ${EXPR_87}
 ${EXPR_88}
 ${EXPR_89}
 ${EXPR_90}
 ${EXPR_91}
 ${EXPR_92}
-${EXPR_93}
 ## Reserved Shortcuts
 
-${EXPR_94}
+${EXPR_93}
 ## Available Contexts
 
-${EXPR_95}
+${EXPR_94}
 ## Available Actions
 
-${EXPR_96}
+${EXPR_95}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_97}
+    ${EXPR_96}
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">Primary Friction Types<${PATH}>
-        ${EXPR_98}
+        ${EXPR_97}
+${EXPR_98}
 ${EXPR_99}
 ${EXPR_100}
 ${EXPR_101}
 ${EXPR_102}
 ${EXPR_103}
 ${EXPR_104}
-${EXPR_105}
 ## Reserved Shortcuts
 
-${EXPR_106}
+${EXPR_105}
 ## Available Contexts
 
-${EXPR_107}
+${EXPR_106}
 ## Available Actions
 
-${EXPR_108}
+${EXPR_107}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Inferred Satisfaction (model-estimated)<${PATH}>
-        ${EXPR_109}
+        ${EXPR_108}
+${EXPR_109}
 ${EXPR_110}
 ${EXPR_111}
 ${EXPR_112}
 ${EXPR_113}
 ${EXPR_114}
 ${EXPR_115}
-${EXPR_116}
 ## Reserved Shortcuts
 
-${EXPR_117}
+${EXPR_116}
 ## Available Contexts
 
-${EXPR_118}
+${EXPR_117}
 ## Available Actions
 
-${EXPR_119}
+${EXPR_118}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_120}
+    ${EXPR_119}
 
-    mcp__${EXPR_121}__
+    mcp__${EXPR_120}__
 
     green
 
-    ${EXPR_122}
+    ${EXPR_121}
   <${PATH}>
-  <script>${EXPR_123}<${PATH}>
+  <script>${EXPR_122}<${PATH}>
 <${PATH}>
 <${PATH}>
