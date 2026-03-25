@@ -7,4 +7,4 @@
 Logs how much message updates were deferred.
 
 # Raw Prompt Text
-[useDeferredValue] Messages deferred by ${EXPR_1}… (${EXPR_2}→${EXPR_3})
+[useDeferredValue] Messages deferred by ${EXPR_1}${EXPR_2}${EXPR_3} (${EXPR_4}→${EXPR_5})
