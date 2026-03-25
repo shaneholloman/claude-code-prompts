@@ -7,4 +7,6 @@
 Indicates an invalid attribute name.
 
 # Raw Prompt Text
-Attribute '${EXPR_1}' is an invalid name.
+Attribute '${EXPR_1}
+
+${EXPR_2}' is an invalid name.
