@@ -263,7 +263,7 @@ Combine with `Thinking = ThinkingConfigAdaptive` for cost-quality control.
 
 ## Prompt Caching
 
-System message as a list of `TextBlockParam` with `CacheControlEphemeral`. Use `.systemOfTextBlockParams(...)` — the plain `.system(String)` overload can't carry cache control.
+System message as a list of `TextBlockParam` with `CacheControlEphemeral`. Use `.systemOfTextBlockParams(...)` — the plain `.system(String)` overload can't carry cache control. For placement patterns and the silent-invalidator audit checklist, see `shared${PATH}`.
 
 ```java
 import com.anthropic.models.messages.TextBlockParam;
@@ -279,6 +279,8 @@ import com.anthropic.models.messages.CacheControlEphemeral;
 ```
 
 There's also a top-level `.cacheControl(CacheControlEphemeral)` on `MessageCreateParams.Builder` and on `Tool.builder()`.
+
+Verify hits via `response.usage().cacheCreationInputTokens()` / `response.usage().cacheReadInputTokens()`.
 
 ---
 
