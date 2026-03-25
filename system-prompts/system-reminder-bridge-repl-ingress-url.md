@@ -7,4 +7,4 @@
 Ingress URL for the bridge REPL.
 
 # Raw Prompt Text
-[bridge:repl] Ingress URL: ${EXPR_1}
+[bridge:repl] Ingress URL: ${EXPR_1}${PATH}${EXPR_2}
