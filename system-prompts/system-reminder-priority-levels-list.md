@@ -14,7 +14,3 @@ medium
 high
 
 max
-
-${EXPR_1}
-
-${EXPR_2}
