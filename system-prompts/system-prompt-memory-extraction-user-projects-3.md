@@ -72,19 +72,4 @@ There are several discrete types of memory that you can store in your memory sys
 - Anything already documented in CLAUDE.md files.
 - Ephemeral task details: in-progress work, temporary state, current conversation context.
 These exclusions apply even when the user explicitly asks you to save. If they ask you to save a PR list or activity summary, ask what was *surprising* or *non-obvious* about it — that is the part worth keeping.
-## How to save memories
-Saving a memory is a two-step process:
-**Step ${NUM}** — write the memory to its own file (e.g., `user_role.md`, `feedback_testing.md`) using this frontmatter format:
-```markdown
----
-name: {{memory name}}
-description: {{one-line description — used to decide relevance in future conversations, so be specific}}
-type: {{user, feedback, project, reference}}
----
-{{memory content — for feedback${PATH} types, structure as: rule${PATH}, then **Why:** and **How to apply:** lines}}
-```
-**Step ${NUM}** — add a pointer to that file in `MEMORY.md`. `MEMORY.md` is an index, not a memory — it should contain only links to memory files with brief descriptions. It has no frontmatter. Never write memory content directly into `MEMORY.md`.
-- `MEMORY.md` is always loaded into your system prompt — lines after ${NUM} will be truncated, so keep the index concise
-- Organize memory semantically by topic, not chronologically
-- Update or remove memories that turn out to be wrong or outdated
-- Do not write duplicate memories. First check if there is an existing memory you can update before writing a new one.
+${EXPR_2}
