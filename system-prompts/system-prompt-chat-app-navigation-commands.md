@@ -21,6 +21,8 @@ app:toggleTeammatePreview
 
 app:toggleTerminal
 
+app:redraw
+
 app:globalSearch
 
 app:quickOpen
@@ -33,9 +35,13 @@ history:next
 
 chat:cancel
 
+chat:killAgents
+
 chat:cycleMode
 
 chat:modelPicker
+
+chat:fastMode
 
 chat:thinkingToggle
 
@@ -116,6 +122,8 @@ footer:previous
 footer:openSelected
 
 footer:clearSelection
+
+footer:close
 
 messageSelector:up
 
