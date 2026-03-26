@@ -115,6 +115,10 @@ attachments:remove
 
 attachments:exit
 
+footer:up
+
+footer:down
+
 footer:next
 
 footer:previous
