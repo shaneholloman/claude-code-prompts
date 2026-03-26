@@ -7,4 +7,4 @@
 No handler found for control response request.
 
 # Raw Prompt Text
-[bridge:repl] No handler for control_response request_id=${EXPR_1}
+[bridge:repl] No handler for control_response request_id=${NUM}
