@@ -4,7 +4,7 @@
 
 ## Summary
 
-FileIndex cache refresh completion log with duration and extra metadata.
+FileIndex cache refresh completion timing and metadata.
 
 # Raw Prompt Text
-[FileIndex] cache refresh completed in ${EXPR_1}ms (${NUM})
+[FileIndex] cache refresh completed in ${EXPR_1}ms
