@@ -4,7 +4,7 @@
 
 ## Summary
 
-Heartbeat poll due after specified cycles.
+Multiple prompts (2)
 
 # Raw Prompt Text
-[bridge:repl] Heartbeat poll_due after ${EXPR_1} cycles — falling through to pollForWork
+[bridge:poll] Heartbeat poll_due after ${EXPR_1} cycles — falling through to pollForWork
