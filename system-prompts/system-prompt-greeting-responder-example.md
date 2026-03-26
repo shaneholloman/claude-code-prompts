@@ -29,7 +29,7 @@ function isPrime(n) {
 <commentary>
 Since a significant piece of code was written and the task was completed, now use the test-runner agent to run the tests
 <${PATH}>
-assistant: Uses the ${EXPR_1} tool to launch the test-runner agent
+assistant: Uses the Agent tool to launch the test-runner agent
 <${PATH}>
 
 <example>
@@ -37,5 +37,5 @@ user: "Hello"
 <commentary>
 Since the user is greeting, use the greeting-responder agent to respond with a friendly joke
 <${PATH}>
-assistant: "I'm going to use the ${EXPR_2} tool to launch the greeting-responder agent"
+assistant: "I'm going to use the Agent tool to launch the greeting-responder agent"
 <${PATH}>
