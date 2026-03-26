@@ -4,11 +4,11 @@
 
 - Commands: 33
 - Options: 70
-- Env vars: 464
-- Config keys: 707
+- Env vars: 476
+- Config keys: 717
 - Tools: 3
 - Skills: 0
-- Models: 94
+- Models: 95
 - Providers: 8
 
 ## Commands
@@ -240,8 +240,14 @@
 - `ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION`
 - `ANTHROPIC_CUSTOM_MODEL_OPTION_NAME`
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL`
+- `ANTHROPIC_DEFAULT_HAIKU_MODEL_DESCRIPTION`
+- `ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME`
 - `ANTHROPIC_DEFAULT_OPUS_MODEL`
+- `ANTHROPIC_DEFAULT_OPUS_MODEL_DESCRIPTION`
+- `ANTHROPIC_DEFAULT_OPUS_MODEL_NAME`
 - `ANTHROPIC_DEFAULT_SONNET_MODEL`
+- `ANTHROPIC_DEFAULT_SONNET_MODEL_DESCRIPTION`
+- `ANTHROPIC_DEFAULT_SONNET_MODEL_NAME`
 - `ANTHROPIC_FOUNDRY_API_KEY`
 - `ANTHROPIC_FOUNDRY_BASE_URL`
 - `ANTHROPIC_FOUNDRY_RESOURCE`
@@ -311,6 +317,7 @@
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_AGENT_LIST_IN_MESSAGES`
 - `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
@@ -390,6 +397,8 @@
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
+- `CLAUDE_CODE_IDLE_THRESHOLD_MINUTES`
+- `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
 - `CLAUDE_CODE_IS_COWORK`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
@@ -474,12 +483,16 @@
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
+- `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CODESPACES`
+- `COLORFGBG`
 - `COLORTERM`
+- `COMPUTER_USE_INPUT_NODE_PATH`
+- `COMPUTER_USE_SWIFT_NODE_PATH`
 - `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
 - `DEBUG`
@@ -627,7 +640,6 @@
 - `RENDER`
 - `REPL_ID`
 - `REPL_SLUG`
-- `REVIEW_REMOTE`
 - `RUNNER_ENVIRONMENT`
 - `RUNNER_OS`
 - `S`
@@ -704,6 +716,7 @@
 - `activeForm`
 - `added`
 - `additional_model_options`
+- `additionalCommandIsDangerousCallback`
 - `additionalContext`
 - `additionalDirectories`
 - `additions`
@@ -715,12 +728,14 @@
 - `agentId`
 - `agentProgressSummaries`
 - `agents`
+- `agentType`
 - `allow`
 - `allow_default_hosts`
 - `allowAllUnixSockets`
 - `allowCrossMarketplaceDependenciesOn`
 - `allowed`
 - `allowed_hosts`
+- `allowedChannelPlugins`
 - `allowedDomains`
 - `allowedEnvVars`
 - `allowedHttpHookUrls`
@@ -790,6 +805,7 @@
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
+- `bN`
 - `bpfPath`
 - `branch`
 - `budgetTokens`
@@ -804,11 +820,13 @@
 - `cancelled`
 - `canReadOutputFile`
 - `canRewind`
+- `capabilities`
 - `cell_id`
 - `cell_type`
 - `cells`
 - `changes`
 - `channels`
+- `channelsEnabled`
 - `character`
 - `checksum`
 - `claude_code_version`
@@ -919,6 +937,7 @@
 - `excludedCommands`
 - `excludeDefault`
 - `exit_code`
+- `experimental`
 - `explanation`
 - `extraKnownMarketplaces`
 - `failed`
@@ -956,6 +975,7 @@
 - `gitCommitSha`
 - `gitDiff`
 - `globs`
+- `gw6`
 - `hasTaskTool`
 - `head_uuid`
 - `header`
@@ -1103,7 +1123,6 @@
 - `oldStart`
 - `oldString`
 - `oldTodos`
-- `ON`
 - `once`
 - `oneShotFloorMs`
 - `oneShotMaxMs`
@@ -1161,6 +1180,7 @@
 - `planContent`
 - `planFilePath`
 - `plansDirectory`
+- `planWasEdited`
 - `plugin`
 - `pluginConfigs`
 - `pluginRoot`
@@ -1256,6 +1276,7 @@
 - `settings`
 - `sha`
 - `shell`
+- `should_show_app_upgrade_message`
 - `shouldBlock`
 - `showClearContextOnPlanAccept`
 - `showThinkingSummaries`
@@ -1365,6 +1386,7 @@
 - `truncated`
 - `turns`
 - `type`
+- `ultraplan`
 - `updated_at`
 - `updated_file`
 - `updatedFields`
@@ -1434,6 +1456,7 @@ _None detected_
 - `claude-3-sonnet`
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
+- `claude-ai`
 - `claude-ai-external-token`
 - `claude-api`
 - `claude-cli`
