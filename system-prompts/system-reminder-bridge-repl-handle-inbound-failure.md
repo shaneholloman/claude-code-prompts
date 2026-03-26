@@ -7,4 +7,4 @@
 Error handling inbound message in bridge repl.
 
 # Raw Prompt Text
-[bridge:repl] handleInboundMessage failed: ${EXPR_1}
+[bridge:repl] handleInboundMessage failed: ${NUM}
