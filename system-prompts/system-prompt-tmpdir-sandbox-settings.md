@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Guidelines for using TMPDIR in sandbox mode.
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -69,6 +69,8 @@ ${EXPR_25}
 
 ${EXPR_26}
 
+${EXPR_27}
+
 Jan
 
 Feb
@@ -93,4 +95,4 @@ Nov
 
 Dec
 
-${EXPR_27}
+${EXPR_28}
