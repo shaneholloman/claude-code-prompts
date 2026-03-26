@@ -7,4 +7,4 @@
 Failed to rename an asciicast recording.
 
 # Raw Prompt Text
-[asciicast] Failed to rename recording from ${EXPR_1} to ${EXPR_2}
+[asciicast] Failed to rename recording from ${EXPR_1} to ${NUM}
