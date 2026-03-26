@@ -9,4 +9,4 @@ Additional instructions from user.
 # Raw Prompt Text
 ## Additional instructions from user
 
-${EXPR_1}
+${NUM}
