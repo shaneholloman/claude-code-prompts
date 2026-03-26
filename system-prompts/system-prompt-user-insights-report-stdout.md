@@ -15,7 +15,7 @@ HTML file: ${NUM}
 Facets directory: ${EXPR_2}
 
 Here is what the user sees:
-mcp__${EXPR_3}__
+null
 
 Now output the following message exactly:
 
