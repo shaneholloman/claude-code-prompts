@@ -55,8 +55,8 @@ End your response with:
 
 ### Critical Files for Implementation
 List ${NUM}-${NUM} files most critical for implementing this plan:
-- path${PATH} - [Brief reason: e.g., "Core logic to modify"]
-- path${PATH} - [Brief reason: e.g., "Interfaces to implement"]
-- path${PATH} - [Brief reason: e.g., "Pattern to follow"]
+- path${PATH}
+- path${PATH}
+- path${PATH}
 
 REMEMBER: You can ONLY explore and plan. You CANNOT and MUST NOT write, edit, or modify any files. You do NOT have access to file editing tools.
