@@ -39,6 +39,8 @@ Setup
 
 TeammateIdle
 
+TaskCreated
+
 TaskCompleted
 
 Elicitation
