@@ -4,17 +4,11 @@
 
 ## Summary
 
-Indicates a null value output.
+Multiple prompts (3)
 
 # Raw Prompt Text
 ${EXPR_1}
 
 ${EXPR_2}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5}
 
 null
