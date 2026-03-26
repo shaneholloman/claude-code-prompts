@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.84
+# Claude Code Flags 2.1.85
 
 ## Feature Gates
 
@@ -21,10 +21,13 @@
 ## Dynamic Configs
 
 - `tengu_auto_mode_config`
+- `tengu_bad_survey_transcript_ask_config`
 - `tengu_bridge_initial_history_cap`
 - `tengu_bridge_min_version`
 - `tengu_bridge_poll_interval_config`
 - `tengu_desktop_upsell`
+- `tengu_feedback_survey_config`
+- `tengu_good_survey_transcript_ask_config`
 - `tengu_iron_gate_closed`
 - `tengu_kairos_brief`
 - `tengu_kairos_cron`

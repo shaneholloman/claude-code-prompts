@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 70
-- Env vars: 476
-- Config keys: 717
+- Env vars: 483
+- Config keys: 726
 - Tools: 3
 - Skills: 0
 - Models: 95
@@ -289,13 +289,16 @@
 - `AZURE_TOKEN_CREDENTIALS`
 - `AZURE_USERNAME`
 - `BASH_MAX_OUTPUT_LENGTH`
+- `BAT_THEME`
 - `BEDROCK_BASE_URL`
 - `BETA_TRACING_ENDPOINT`
 - `BROWSER`
+- `BUGHUNTER_DEV_BUNDLE_B64`
 - `BUILDKITE`
 - `C`
 - `CCR_ENABLE_BUNDLE`
 - `CCR_FORCE_BUNDLE`
+- `CCR_UPSTREAM_PROXY_ENABLED`
 - `CF_PAGES`
 - `CHOKIDAR_INTERVAL`
 - `CHOKIDAR_USEPOLLING`
@@ -334,6 +337,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_COMMIT_LOG`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
@@ -428,6 +432,7 @@
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
+- `CLAUDE_CODE_PWSH_PARSE_TIMEOUT_MS`
 - `CLAUDE_CODE_QUESTION_PREVIEW_FORMAT`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
@@ -481,6 +486,8 @@
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
+- `CLAUDE_LOCAL_OAUTH_API_BASE`
+- `CLAUDE_LOCAL_OAUTH_APPS_BASE`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
@@ -707,9 +714,9 @@
 
 ## Config Keys
 
+- `$`
 - `$docs`
 - `$schema`
-- `A`
 - `account`
 - `acquiredAt`
 - `action`
@@ -805,7 +812,6 @@
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
-- `bN`
 - `bpfPath`
 - `branch`
 - `budgetTokens`
@@ -852,6 +858,7 @@
 - `continue`
 - `costUSD`
 - `count`
+- `create`
 - `created_at`
 - `createdAt`
 - `criticalSystemReminder_EXPERIMENTAL`
@@ -928,6 +935,7 @@
 - `ephemeral_5m_input_tokens`
 - `error`
 - `error_code`
+- `error_count`
 - `error_details`
 - `error_status`
 - `errors`
@@ -975,7 +983,6 @@
 - `gitCommitSha`
 - `gitDiff`
 - `globs`
-- `gw6`
 - `hasTaskTool`
 - `head_uuid`
 - `header`
@@ -1001,6 +1008,7 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
+- `if`
 - `ignoreViolations`
 - `image`
 - `includeCoAuthoredBy`
@@ -1024,6 +1032,7 @@
 - `interrupted`
 - `is_error`
 - `is_interrupt`
+- `is_noteworthy`
 - `isAgent`
 - `isAuthenticating`
 - `isImage`
@@ -1096,6 +1105,7 @@
 - `multisession_poll_interval_ms_not_at_capacity`
 - `multisession_poll_interval_ms_partial_capacity`
 - `name`
+- `needs_action`
 - `network`
 - `network_config`
 - `new_cwd`
@@ -1204,6 +1214,7 @@
 - `prompt_response`
 - `promptSuggestionEnabled`
 - `promptSuggestions`
+- `q`
 - `query`
 - `question`
 - `questions`
@@ -1214,6 +1225,7 @@
 - `reason`
 - `reasoning`
 - `received_entries`
+- `recent_action`
 - `reclaim_older_than_ms`
 - `recurring`
 - `recurringCapMs`
@@ -1304,6 +1316,8 @@
 - `startLine`
 - `state`
 - `status`
+- `status_category`
+- `status_detail`
 - `statusChange`
 - `statusLine`
 - `statusMessage`
@@ -1324,6 +1338,7 @@
 - `subtype`
 - `success`
 - `suggestion`
+- `summarizes_uuid`
 - `summary`
 - `supportedEffortLevels`
 - `supportsAdaptiveThinking`
@@ -1423,7 +1438,8 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `Y`
+- `Yk`
+- `yY6`
 
 ## Tools
 
