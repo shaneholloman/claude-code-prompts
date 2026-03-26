@@ -7,4 +7,4 @@
 Flush final transcript in focus mode.
 
 # Raw Prompt Text
-[voice] Focus mode: flushing final transcript immediately: "${EXPR_1}"
+[voice] Focus mode: flushing final transcript immediately: "${NUM}"
