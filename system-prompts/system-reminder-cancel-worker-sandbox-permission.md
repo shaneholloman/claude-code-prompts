@@ -7,4 +7,4 @@
 Logs cancellation details for a focused input dialog in the worker sandbox permission flow.
 
 # Raw Prompt Text
-[onCancel] focusedInputDialog=worker-sandbox-permission streamMode=${EXPR_1}
+[onCancel] focusedInputDialog=worker-sandbox-permission streamMode=${NUM}
