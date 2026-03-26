@@ -1,4 +1,4 @@
-# System Prompt: saving-memories-step-by-step
+# System Prompt: saving-memories-guide-2
 
 - Source: inline
 
