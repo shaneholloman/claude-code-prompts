@@ -262,12 +262,12 @@ Basic HTML and CSS structure with styling details.
 
     ${EXPR_20}
 
-    mcp__${EXPR_21}__
+    null
 
     green
 
-    ${EXPR_22}
+    ${EXPR_21}
   <${PATH}>
-  <script>${EXPR_23}<${PATH}>
+  <script>${EXPR_22}<${PATH}>
 <${PATH}>
 <${PATH}>
