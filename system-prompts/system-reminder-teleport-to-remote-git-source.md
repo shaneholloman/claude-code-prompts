@@ -7,4 +7,4 @@
 Git source configuration for streaming JSON.
 
 # Raw Prompt Text
-[teleportToRemote] Git source: stream-json/${EXPR_1}${PATH}, revision: ${EXPR_2}
+[teleportToRemote] Git source: stream-json${PATH}, revision: ${EXPR_1}
