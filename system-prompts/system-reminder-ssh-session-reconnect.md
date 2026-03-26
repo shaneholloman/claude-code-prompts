@@ -7,4 +7,4 @@
 SSH session dropped and reconnecting.
 
 # Raw Prompt Text
-[useSSHSession] ssh dropped, reconnecting (${EXPR_1}${PATH})
+[useSSHSession] ssh dropped, reconnecting (${EXPR_1}${PATH}${EXPR_2})
