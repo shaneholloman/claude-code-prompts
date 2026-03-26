@@ -4,7 +4,7 @@
 
 ## Summary
 
-Instructions to activate installed plugins.
+Multiple prompts (2)
 
 # Raw Prompt Text
-✓ Installed ${EXPR_1} plugins. Run ${PATH} to activate.
+✓ Installed ${EXPR_1} plugin. Run ${PATH} to activate.
