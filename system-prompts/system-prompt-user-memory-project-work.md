@@ -141,33 +141,11 @@ There are several discrete types of memory that you can store in your memory sys
 
 These exclusions apply even when the user explicitly asks you to save. If they ask you to save a PR list or activity summary, ask what was *surprising* or *non-obvious* about it — that is the part worth keeping.
 
+-e
+
 ${EXPR_3}
 
 ${EXPR_4}
-
-${EXPR_5}
-
-${EXPR_6}
-
-${EXPR_7}
-
-${EXPR_8}
-
-${EXPR_9}
-
-${EXPR_10}
-
-## Reserved Shortcuts
-
-${EXPR_11}
-
-## Available Contexts
-
-${EXPR_12}
-
-## Available Actions
-
-${EXPR_13}
 
 ## When to access memories
 
@@ -177,7 +155,7 @@ ${EXPR_13}
 
 - If the user says to *ignore* or *not use* memory: proceed as if MEMORY.md were empty. Do not apply remembered facts, cite, compare against, or mention memory content.
 
-${EXPR_14}
+${EXPR_5}
 
 ## Before recommending from memory
 
