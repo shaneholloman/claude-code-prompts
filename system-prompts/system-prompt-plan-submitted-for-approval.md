@@ -19,4 +19,4 @@ ${NUM}. If rejected, refine your plan based on the feedback
 
 **Important:** Do NOT proceed until you receive approval. Check your inbox for response.
 
-Request ID: ${NUM}
+Request ID: ${EXPR_2}
