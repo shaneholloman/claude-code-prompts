@@ -7,4 +7,4 @@
 Renames an asciicast recording.
 
 # Raw Prompt Text
-[asciicast] Renamed recording: ${EXPR_1} → ${EXPR_2}
+[asciicast] Renamed recording: ${EXPR_1} → ${NUM}
