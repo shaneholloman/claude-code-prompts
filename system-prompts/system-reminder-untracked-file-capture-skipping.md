@@ -7,4 +7,4 @@
 Skipping untracked file due to size limit.
 
 # Raw Prompt Text
-Untracked file capture: skipping ${NUM} (exceeds ${NUM} bytes)
+Untracked file capture: skipping ${EXPR_1} (exceeds ${NUM} bytes)
