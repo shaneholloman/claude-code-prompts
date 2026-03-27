@@ -7,4 +7,4 @@
 Indicates the sandbox is disabled.
 
 # Raw Prompt Text
-sandbox disabled: ${PATH}
+sandbox disabled: ${EXPR_1}
