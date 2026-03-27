@@ -7,4 +7,4 @@
 Report auto-run failure for a path with associated error message.
 
 # Raw Prompt Text
-Auto-run ${PATH} failed: ${EXPR_1}
+Auto-run ${EXPR_1} failed: ${EXPR_2}
