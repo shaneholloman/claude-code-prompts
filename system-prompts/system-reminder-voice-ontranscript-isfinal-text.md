@@ -7,4 +7,4 @@
 Handles final voice transcript text.
 
 # Raw Prompt Text
-[voice] onTranscript: isFinal=${EXPR_1} text="${NUM}"
+[voice] onTranscript: isFinal=${EXPR_1} text="${EXPR_2}"
