@@ -7,4 +7,4 @@
 Loading sessions for the current working directory.
 
 # Raw Prompt Text
-${PATH}: loading sessions for cwd=${EXPR_1}, worktrees=[${EXPR_2}, ${EXPR_3}, ${EXPR_4}, ${EXPR_5}]
+${PATH}: loading sessions for cwd=${EXPR_1}, worktrees=[${EXPR_2}]
