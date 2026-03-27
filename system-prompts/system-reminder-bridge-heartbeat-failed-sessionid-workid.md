@@ -7,4 +7,4 @@
 Heartbeat failure for specified session and work IDs.
 
 # Raw Prompt Text
-[bridge:heartbeat] Failed for sessionId=${NUM} workId=${EXPR_1}: ${EXPR_2}
+[bridge:heartbeat] Failed for sessionId=${EXPR_1} workId=${EXPR_2}: ${EXPR_3}
