@@ -27,8 +27,6 @@ type: {{user, feedback, project, reference}}
 
 ```
 
-- Keep the name, description, and type fields in memory files up-to-date with the content
-
 - Organize memory semantically by topic, not chronologically
 
 - Update or remove memories that turn out to be wrong or outdated
