@@ -7,4 +7,4 @@
 Report count of deferred tools included during dynamic loading.
 
 # Raw Prompt Text
-Dynamic tool loading: ${EXPR_1}${PATH} deferred tools included
+Dynamic tool loading: ${EXPR_1}/${EXPR_2} deferred tools included
