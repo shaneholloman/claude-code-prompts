@@ -17,4 +17,3 @@ By default, your command will be run in a sandbox. This sandbox controls which d
 The sandbox has the following restrictions:
 ${EXPR_2}
 ${EXPR_3}
-${EXPR_4}
