@@ -7,4 +7,4 @@
 Retrying early voice stream error.
 
 # Raw Prompt Text
-[voice] early voice_stream error (pre-transcript), retrying once: ${NUM}
+[voice] early voice_stream error (pre-transcript), retrying once: ${EXPR_1}
