@@ -7,4 +7,4 @@
 Handling voice errors from stale sessions.
 
 # Raw Prompt Text
-[voice] ignoring onError from stale session: ${NUM}
+[voice] ignoring onError from stale session: ${EXPR_1}
