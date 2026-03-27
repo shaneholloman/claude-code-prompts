@@ -264,7 +264,7 @@ Basic HTML and CSS structure with styling details.
 
     null
 
-    green
+    server
 
     ${EXPR_21}
   <${PATH}>
