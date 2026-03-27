@@ -4,7 +4,7 @@
 
 ## Summary
 
-Forked agent finished run, reporting message counts, types, and usage totals.
+Forked agent completion log with message counts, types, and usage totals.
 
 # Raw Prompt Text
-Forked agent [${EXPR_1}] finished: ${EXPR_2} messages, types=[${EXPR_3}], totalUsage: input=${EXPR_4} output=${EXPR_5} cacheRead=${EXPR_6} cacheCreate=${EXPR_7}
+Forked agent [${EXPR_1}] finished: ${EXPR_2} messages, types=[${EXPR_3}, ${EXPR_4}, ${EXPR_5}, ${EXPR_6}], totalUsage: input=${EXPR_7} output=${EXPR_8} cacheRead=${EXPR_9} cacheCreate=${EXPR_10}
