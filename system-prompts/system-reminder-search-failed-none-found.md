@@ -7,4 +7,4 @@
 Indicates no tools were found during the search.
 
 # Raw Prompt Text
-ToolSearchTool: select failed — none found: ${EXPR_1}
+ToolSearchTool: select failed — none found: ${EXPR_1}, ${EXPR_2}, ${EXPR_3}, ${EXPR_4}
