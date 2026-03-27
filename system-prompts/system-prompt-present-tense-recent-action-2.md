@@ -1,4 +1,4 @@
-# System Prompt: present-tense-recent-action
+# System Prompt: recent-action-present-tense
 
 - Source: inline
 
