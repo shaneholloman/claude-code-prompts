@@ -4,7 +4,8 @@
 
 ## Summary
 
-Report the result returned from invoking a specified tool.
+Formats and relays the output from a tool invocation.
 
 # Raw Prompt Text
-Result of calling the ${EXPR_1} tool: ${EXPR_2}
+Result of calling the ${EXPR_1} tool:
+${EXPR_2}
