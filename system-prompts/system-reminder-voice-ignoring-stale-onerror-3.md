@@ -7,4 +7,4 @@
 Handling stale onError from a previous attempt.
 
 # Raw Prompt Text
-[voice] ignoring stale onError from superseded attempt: ${NUM}
+[voice] ignoring stale onError from superseded attempt: ${EXPR_1}
