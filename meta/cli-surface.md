@@ -4,11 +4,11 @@
 
 - Commands: 33
 - Options: 70
-- Env vars: 483
-- Config keys: 726
+- Env vars: 485
+- Config keys: 771
 - Tools: 3
 - Skills: 0
-- Models: 95
+- Models: 97
 - Providers: 8
 
 ## Commands
@@ -488,10 +488,12 @@
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_LOCAL_OAUTH_API_BASE`
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
+- `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
+- `CLAUDE_TRUSTED_DEVICE_TOKEN`
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
@@ -714,9 +716,10 @@
 
 ## Config Keys
 
-- `$`
 - `$docs`
 - `$schema`
+- `A`
+- `access_token`
 - `account`
 - `acquiredAt`
 - `action`
@@ -767,6 +770,7 @@
 - `apiKeyHelper`
 - `apiKeySource`
 - `apiProvider`
+- `apiUsage`
 - `appendSystemPrompt`
 - `applied`
 - `appliedLimit`
@@ -777,18 +781,23 @@
 - `args`
 - `argumentHint`
 - `argv0`
+- `artifact_urls`
 - `ask`
 - `assistantAutoBackgrounded`
+- `assistantMessageTokens`
 - `async`
 - `asyncRewake`
 - `asyncTimeout`
 - `attachments`
+- `attachmentsByType`
+- `attachmentTokens`
 - `attempt`
 - `attribution`
 - `author`
 - `authServerMetadataUrl`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoCompactThreshold`
 - `autoDreamEnabled`
 - `autoMemoryDirectory`
 - `autoMemoryEnabled`
@@ -823,10 +832,13 @@
 - `cacheReadInputTokens`
 - `callback_id`
 - `callbackPort`
+- `callTokens`
 - `cancelled`
 - `canReadOutputFile`
 - `canRewind`
 - `capabilities`
+- `categories`
+- `categoryName`
 - `cell_id`
 - `cell_type`
 - `cells`
@@ -842,6 +854,7 @@
 - `clientId`
 - `code`
 - `codeText`
+- `color`
 - `command`
 - `commandName`
 - `commands`
@@ -876,6 +889,7 @@
 - `defaultEnvironmentId`
 - `defaultMode`
 - `defaultShell`
+- `deferredBuiltinTools`
 - `deletions`
 - `deniedDomains`
 - `deniedMcpServers`
@@ -946,6 +960,7 @@
 - `excludeDefault`
 - `exit_code`
 - `experimental`
+- `expires_in`
 - `explanation`
 - `extraKnownMarketplaces`
 - `failed`
@@ -976,6 +991,7 @@
 - `forceRemoveDeletedPlugins`
 - `format`
 - `from`
+- `fz6`
 - `gcpAuthRefresh`
 - `getOAuthToken`
 - `getUserId`
@@ -983,6 +999,7 @@
 - `gitCommitSha`
 - `gitDiff`
 - `globs`
+- `gridRows`
 - `hasTaskTool`
 - `head_uuid`
 - `header`
@@ -1012,6 +1029,8 @@
 - `ignoreViolations`
 - `image`
 - `includeCoAuthoredBy`
+- `includedCommands`
+- `includedSkills`
 - `includeGitInstructions`
 - `init_retry_base_delay_ms`
 - `init_retry_jitter_fraction`
@@ -1035,8 +1054,13 @@
 - `is_noteworthy`
 - `isAgent`
 - `isAuthenticating`
+- `isAutoCompactEnabled`
+- `isDeferred`
+- `isFilled`
 - `isImage`
+- `isLoaded`
 - `isolation`
+- `issued_token_type`
 - `issuer`
 - `isSynthetic`
 - `isUsingOverage`
@@ -1075,16 +1099,20 @@
 - `max_thinking_tokens`
 - `max_tokens`
 - `maxOutputTokens`
+- `maxTokens`
 - `maxTurns`
 - `mcp_response`
 - `mcp_server_name`
 - `mcp_servers`
 - `mcpServers`
+- `mcpTools`
 - `media_type`
 - `memory`
 - `memory_type`
+- `memoryFiles`
 - `message`
 - `message_uuid`
+- `messageBreakdown`
 - `meta`
 - `metadata`
 - `method`
@@ -1174,6 +1202,7 @@
 - `pathPattern`
 - `pending_mcp_servers`
 - `pending_permission_requests`
+- `percentage`
 - `permission_denials`
 - `permission_mode`
 - `permission_suggestions`
@@ -1215,11 +1244,13 @@
 - `promptSuggestionEnabled`
 - `promptSuggestions`
 - `q`
+- `qk`
 - `query`
 - `question`
 - `questions`
 - `rate_limit_info`
 - `rateLimitType`
+- `rawMaxTokens`
 - `rawOutputPath`
 - `readOnly`
 - `reason`
@@ -1232,6 +1263,7 @@
 - `recurringFrac`
 - `recurringMaxAgeMs`
 - `ref`
+- `refresh_token`
 - `region`
 - `registry`
 - `remote`
@@ -1254,6 +1286,7 @@
 - `result`
 - `resultCount`
 - `results`
+- `resultTokens`
 - `retry_delay_ms`
 - `returnCodeInterpretation`
 - `ripgrep`
@@ -1294,10 +1327,12 @@
 - `showThinkingSummaries`
 - `size`
 - `skill`
+- `skillFrontmatter`
 - `skills`
 - `skipDangerousModePermissionPrompt`
 - `skipWebFetchPreflight`
 - `slash_commands`
+- `slashCommands`
 - `socketPath`
 - `socksProxyPort`
 - `soft_deny`
@@ -1307,6 +1342,7 @@
 - `spinnerTipsEnabled`
 - `spinnerTipsOverride`
 - `spinnerVerbs`
+- `squareFullness`
 - `sshConfigs`
 - `sshHost`
 - `sshIdentityFile`
@@ -1348,9 +1384,12 @@
 - `suppressOutput`
 - `surpassedThreshold`
 - `symlinkDirectories`
+- `syncedFrom`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
 - `systemPrompt`
+- `systemPromptSections`
+- `systemTools`
 - `tabId`
 - `tag`
 - `tail_uuid`
@@ -1375,6 +1414,8 @@
 - `tmuxSessionName`
 - `to`
 - `token_refresh_buffer_ms`
+- `token_type`
+- `tokens`
 - `tokenSource`
 - `tool`
 - `tool_input`
@@ -1384,15 +1425,20 @@
 - `tool_use_id`
 - `tool_use_result`
 - `tool_uses`
+- `toolCallsByType`
+- `toolCallTokens`
 - `toolName`
+- `toolResultTokens`
 - `tools`
 - `toolUseId`
 - `toolUseID`
 - `total_cost_usd`
 - `total_deferred_tools`
 - `total_tokens`
+- `totalCommands`
 - `totalDurationMs`
 - `totalLines`
+- `totalSkills`
 - `totalTokens`
 - `totalToolUseCount`
 - `transcript_path`
@@ -1404,6 +1450,7 @@
 - `ultraplan`
 - `updated_at`
 - `updated_file`
+- `updatedAt`
 - `updatedFields`
 - `updatedInput`
 - `updatedMCPToolOutput`
@@ -1414,6 +1461,7 @@
 - `user_message_id`
 - `userConfig`
 - `userId`
+- `userMessageTokens`
 - `userModified`
 - `userSettings`
 - `utilization`
@@ -1438,8 +1486,7 @@
 - `worktreeBranch`
 - `worktreePath`
 - `ws_url`
-- `Yk`
-- `yY6`
+- `xaa`
 
 ## Tools
 
@@ -1518,7 +1565,9 @@ _None detected_
 - `claude-opus-4-6`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
+- `claude-plugin-telemetry-v1`
 - `claude-plugins-official`
+- `claude-proactive`
 - `claude-prompt`
 - `claude-pwd-ps-`
 - `claude-review`
