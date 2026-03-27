@@ -7,4 +7,4 @@
 Failed to stat session file at the provided path.
 
 # Raw Prompt Text
-Failed to stat session file: ${EXPR_1}
+Failed to stat session file: ${NUM}
