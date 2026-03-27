@@ -4,7 +4,7 @@
 
 ## Summary
 
-Cleans up a specified shell alias entry during configuration maintenance.
+Cleans up a shell alias entry.
 
 # Raw Prompt Text
-Shell alias cleanup: ${EXPR_1}
+Shell alias cleanup: ${EXPR_1}; ${EXPR_2}; ${EXPR_3}; ${EXPR_4}
