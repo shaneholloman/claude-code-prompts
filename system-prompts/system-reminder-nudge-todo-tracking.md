@@ -1,4 +1,4 @@
-# System Prompt: nudge-todo-tracking
+# System Prompt: todo-list-cleanup
 
 - Source: inline
 
