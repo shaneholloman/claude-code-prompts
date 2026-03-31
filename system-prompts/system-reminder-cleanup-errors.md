@@ -7,4 +7,4 @@
 Reports errors encountered during cleanup.
 
 # Raw Prompt Text
-Cleanup errors: ${EXPR_1}, ${EXPR_2}
+Cleanup errors: ${EXPR_1}, ${EXPR_2}, ${EXPR_3}, ${EXPR_4}
