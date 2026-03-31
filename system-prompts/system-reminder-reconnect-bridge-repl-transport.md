@@ -7,4 +7,4 @@
 Attempting to reconnect after budget exhaustion.
 
 # Raw Prompt Text
-[bridge:repl] Transport reconnect budget exhausted (code=mcp__${EXPR_1}__), attempting env reconnect
+[bridge:repl] Transport reconnect budget exhausted (code=${EXPR_1}), attempting env reconnect
