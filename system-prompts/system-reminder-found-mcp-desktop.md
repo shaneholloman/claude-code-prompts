@@ -4,7 +4,7 @@
 
 ## Summary
 
-Notification of MCP found in Claude Desktop.
+Multiple prompts (2)
 
 # Raw Prompt Text
-Found ${EXPR_1} MCP ${EXPR_2} in Claude Desktop.${NUM}
+Found ${EXPR_1} MCP ${EXPR_2} in Claude Desktop.${EXPR_3}${EXPR_4}
