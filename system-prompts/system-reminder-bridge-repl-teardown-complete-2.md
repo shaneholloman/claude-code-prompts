@@ -7,4 +7,4 @@
 Teardown of the REPL environment is complete.
 
 # Raw Prompt Text
-[bridge:repl] Teardown complete: env=${NUM} duration=${EXPR_1}ms
+[bridge:repl] Teardown complete: env=${EXPR_1} duration=${EXPR_2}ms
