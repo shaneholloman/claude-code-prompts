@@ -1,7 +1,7 @@
 # Agent Prompt: found-mcp-desktop-stream
 
 - Agent Type: default
-- When to use: null
+- When to use: stdio
 - Model: mcp__null__
 - Source: plugin
 - Color: null
