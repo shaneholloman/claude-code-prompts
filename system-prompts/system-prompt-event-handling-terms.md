@@ -1,0 +1,62 @@
+# System Prompt: event-handling-terms
+
+- Source: inline
+
+## Summary
+
+List of key event handling terms.
+
+# Raw Prompt Text
+PreToolUse
+
+PostToolUse
+
+PostToolUseFailure
+
+Notification
+
+UserPromptSubmit
+
+SessionStart
+
+SessionEnd
+
+Stop
+
+StopFailure
+
+SubagentStart
+
+SubagentStop
+
+PreCompact
+
+PostCompact
+
+PermissionRequest
+
+PermissionDenied
+
+Setup
+
+TeammateIdle
+
+TaskCreated
+
+TaskCompleted
+
+Elicitation
+
+ElicitationResult
+
+ConfigChange
+
+WorktreeCreate
+
+WorktreeRemove
+
+InstructionsLoaded
+
+CwdChanged
+
+FileChanged
