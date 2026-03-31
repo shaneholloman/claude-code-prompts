@@ -7,4 +7,4 @@
 Files copied from worktreeinclude.
 
 # Raw Prompt Text
-Copied ${EXPR_1} files from .worktreeinclude: ${EXPR_2}, ${EXPR_3}
+Copied ${EXPR_1} files from .worktreeinclude: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}, ${EXPR_5}
