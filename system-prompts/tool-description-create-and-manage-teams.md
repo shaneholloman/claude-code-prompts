@@ -38,7 +38,7 @@ Create a new team to coordinate multiple agents working on a project. Teams have
 ```
 
 This creates:
-- A team file at `~${PATH}{team-name}.json`
+- A team file at `~${PATH}{team-name}${PATH}`
 - A corresponding task list directory at `~${PATH}{team-name}/`
 
 ## Team Workflow
