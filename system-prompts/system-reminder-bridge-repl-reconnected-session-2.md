@@ -7,4 +7,4 @@
 Reconnected session in specified environment.
 
 # Raw Prompt Text
-[bridge:repl] Reconnected session ${EXPR_1} in place on env ${NUM}
+[bridge:repl] Reconnected session ${EXPR_1} in place on env ${EXPR_2}
