@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 33
-- Options: 70
-- Env vars: 485
-- Config keys: 771
+- Options: 71
+- Env vars: 490
+- Config keys: 772
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -126,6 +126,7 @@
 - `--header`
 - `--id-token`
 - `--ide`
+- `--include-hook-events`
 - `--include-partial-messages`
 - `--json`
 - `--keep-data`
@@ -192,6 +193,7 @@
 - `--from-pr [value]`
 - `--id-token <jwt>`
 - `--ide`
+- `--include-hook-events`
 - `--include-partial-messages`
 - `--json`
 - `--keep-data`
@@ -360,9 +362,12 @@
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS`
 - `CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP`
+- `CLAUDE_CODE_DISABLE_MOUSE`
+- `CLAUDE_CODE_DISABLE_MOUSE_CLICKS`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_NONSTREAMING_FALLBACK`
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
+- `CLAUDE_CODE_DISABLE_POLICY_SKILLS`
 - `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DISABLE_THINKING`
@@ -391,7 +396,6 @@
 - `CLAUDE_CODE_EXTRA_METADATA`
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
-- `CLAUDE_CODE_FORCE_GLOBAL_CACHE`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
@@ -410,6 +414,7 @@
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
 - `CLAUDE_CODE_MCP_INSTR_DELTA`
 - `CLAUDE_CODE_NEW_INIT`
+- `CLAUDE_CODE_NO_FLICKER`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
 - `CLAUDE_CODE_OAUTH_REFRESH_TOKEN`
 - `CLAUDE_CODE_OAUTH_SCOPES`
@@ -439,9 +444,10 @@
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SEND_KEEPALIVES`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
+- `CLAUDE_CODE_REPL`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
-- `CLAUDE_CODE_SEARCH_HINTS_IN_LIST`
+- `CLAUDE_CODE_SCROLL_SPEED`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
 - `CLAUDE_CODE_SHELL`
@@ -664,6 +670,7 @@
 - `SSH_CLIENT`
 - `SSH_CONNECTION`
 - `SSH_TTY`
+- `SSL_CERT_FILE`
 - `STY`
 - `SWE_BENCH_INSTANCE_ID`
 - `SWE_BENCH_RUN_ID`
@@ -716,9 +723,9 @@
 
 ## Config Keys
 
+- `$`
 - `$docs`
 - `$schema`
-- `A`
 - `access_token`
 - `account`
 - `acquiredAt`
@@ -991,7 +998,6 @@
 - `forceRemoveDeletedPlugins`
 - `format`
 - `from`
-- `fz6`
 - `gcpAuthRefresh`
 - `getOAuthToken`
 - `getUserId`
@@ -1191,6 +1197,7 @@
 - `overageResetsAt`
 - `overageStatus`
 - `owner`
+- `p$6`
 - `package`
 - `padding`
 - `paneId`
@@ -1244,7 +1251,6 @@
 - `promptSuggestionEnabled`
 - `promptSuggestions`
 - `q`
-- `qk`
 - `query`
 - `question`
 - `questions`
@@ -1287,6 +1293,7 @@
 - `resultCount`
 - `results`
 - `resultTokens`
+- `retry`
 - `retry_delay_ms`
 - `returnCodeInterpretation`
 - `ripgrep`
@@ -1487,6 +1494,7 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
+- `yN`
 
 ## Tools
 
