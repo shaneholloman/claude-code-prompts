@@ -7,4 +7,4 @@
 Environment registration for bridge repl.
 
 # Raw Prompt Text
-[bridge:repl] Environment registered: ${NUM}
+[bridge:repl] Environment registered: ${EXPR_1}
