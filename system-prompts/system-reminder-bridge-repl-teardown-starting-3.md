@@ -7,4 +7,4 @@
 Teardown process for the REPL environment is starting.
 
 # Raw Prompt Text
-[bridge:repl] Teardown starting: env=${NUM} session=${EXPR_1} workId=${EXPR_2} transportState=${EXPR_3}
+[bridge:repl] Teardown starting: env=${EXPR_1} session=${EXPR_2} workId=${EXPR_3} transportState=${EXPR_4}
