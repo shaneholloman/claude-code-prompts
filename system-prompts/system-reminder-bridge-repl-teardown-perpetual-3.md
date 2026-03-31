@@ -7,4 +7,4 @@
 Leaving session alive on server.
 
 # Raw Prompt Text
-[bridge:repl] Teardown (perpetual): leaving env=${NUM} session=${EXPR_1} alive on server, duration=${EXPR_2}ms
+[bridge:repl] Teardown (perpetual): leaving env=${EXPR_1} session=${EXPR_2} alive on server, duration=${EXPR_3}ms
