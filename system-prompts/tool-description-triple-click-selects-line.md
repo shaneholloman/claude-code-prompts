@@ -1,4 +1,4 @@
-# Tool Prompt: triple-click-selects-line-2
+# Tool Prompt: triple-click-selects-line-3
 
 - Name: triple_click
 
