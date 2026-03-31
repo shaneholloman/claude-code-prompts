@@ -1,4 +1,4 @@
-# System Prompt: saving-memories-structured-steps-4
+# System Prompt: saving-memories-structured-steps-6
 
 - Source: inline
 
