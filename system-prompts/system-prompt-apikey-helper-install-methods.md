@@ -51,6 +51,8 @@ fileCheckpointingEnabled
 
 terminalProgressBarEnabled
 
+showStatusInTerminalTab
+
 taskCompleteNotifEnabled
 
 inputNeededNotifEnabled
