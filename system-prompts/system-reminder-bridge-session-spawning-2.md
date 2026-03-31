@@ -7,4 +7,4 @@
 Spawning a session with a specific session ID.
 
 # Raw Prompt Text
-[bridge:session] Spawning sessionId=${EXPR_1} sdkUrl=null
+[bridge:session] Spawning sessionId=${NUM} sdkUrl=null
