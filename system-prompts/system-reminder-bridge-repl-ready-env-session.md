@@ -7,4 +7,4 @@
 Indicates readiness of the REPL environment and session.
 
 # Raw Prompt Text
-[bridge:repl] Ready: env=${NUM} session=${EXPR_1}
+[bridge:repl] Ready: env=${EXPR_1} session=${EXPR_2}
