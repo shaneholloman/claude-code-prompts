@@ -1,4 +1,4 @@
-# Claude Code 2.1.88 – Flags
+# Claude Code 2.1.89 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -10,9 +10,7 @@
 | `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 3 |
 | `tengu_ccr_bridge_multi_session` | gate | tools | Toggles multi-session spawning behavior for a Tengu CCR bridge process. | Only spawn/session-related code is visible; the exact behavioral differences when enabled are not shown. | medium | 1 |
 | `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables seeding a CCR bundle for remote sessions when repo/env gate is set | Also influenced by CCR_FORCE_BUNDLE and CCR_ENABLE_BUNDLE env vars and various git/GitHub checks. | high | 2 |
-| `tengu_chair_sermon` | gate | tools | Applies extra processing to attachment messages before they’re merged/added to the chat history. | Obfuscated helpers (K$_, nVq, O$_) hide exact transformation details. | medium | 4 |
 | `tengu_desktop_upsell` | config | prompts | Enables a startup dialog upsell for a desktop app on macOS or Windows x64. | Gate appears limited to darwin/win32 x64 and checks an enable_startup_dialog setting. | medium | 1 |
-| `tengu_disable_bypass_permissions_mode` | gate | safety | Blocks use of "bypassPermissions" mode (even if requested) due to gate/org policy. | Also checks a session/org setting (permissions.disableBypassPermissionsMode) alongside the gate. | high | 4 |
 | `tengu_feedback_survey_config` | config | prompts | Settings for displaying a feedback survey and recording appeared/responded outcomes (good/bad). | Context shows error handling and fallback IDs like "unknown" when config/session data is missing. | medium | 1 |
 | `tengu_good_survey_transcript_ask_config` | config | ui | Config for asking to include/share transcript when a “good” feedback survey is shown. | Only seen alongside feedback survey configs/events; exact prompt text/logic isn’t visible here. | medium | 1 |
 | `tengu_harbor` | gate | auth | Gate controlling onboarding/opt-in flows and channel access including Claude AI OAuth token checks | Also influences UI dialogs (Onboarding, Trust, AutoMode opt-in) and a channel allowlist; not all behavior is fully visible. | medium | 2 |
@@ -25,12 +23,5 @@
 | `tengu_max_version_config` | config | tools | Minimum-version config used to block applying an update when the target version is too old. | Config also exposes optional `external` and `external_message` fields, likely for update messaging. | medium | 1 |
 | `tengu_powershell_command_interrupt_backgrounded` | gate | tools | Enables killing a backgrounded PowerShell command when an interrupt signal is received. | Observed in runPowerShellCommand flow; exact on/off behavior inferred from a kill() call behind the gate check. | medium | 1 |
 | `tengu_powershell_command_timeout_backgrounded` | gate | telemetry | Emits an event when a PowerShell command hits a timeout and is handled as backgrounded. | Bundle is obfuscated; only the timeout hook + event emission is directly visible. | medium | 1 |
-| `tengu_scratch` | gate | filesystem | Enables writing a session-memory scratchpad with a summary.md file under a per-user Claude folder. |  | high | 1 |
 | `tengu_sm_compact_config` | config | caching | Configures thresholds for compacting content using min/max token limits and minimum text-block messages. | Snippet only shows loading/merging these limits into a shared config object, not the compaction routine. | medium | 1 |
 | `tengu_sm_config` | config | tools | Loads a config object likely related to Tengu “session memory” behavior. | Context only shows config retrieval; no direct fields or effects are visible here. | low | 1 |
-| `tengu_streaming_tool_execution2` | gate | tools | Enables streaming tool execution during a session. | Observed only as a session gate named "streamingToolExecution"; exact runtime behavior not shown. | medium | 1 |
-| `tengu_thinkback` | gate | tools | Enables local 'think-back' 2025 year-in-review and the hidden thinkback animation player. |  | high | 2 |
-| `tengu_tool_pear` | gate | tools | Enables additional tool-definition handling for strict tools, including extra processing for supported models. | Exact effect is obfuscated; observable uses include adding a feature to the tool context list and gating a crypto hash path. | medium | 2 |
-| `tengu_toolref_defer_j8m` | gate | tools | Alters how tool-use messages are preprocessed, including injecting/deferring a tool-reference text block. | Exact text marker (gVq) and transform (Y$_) are obfuscated, so behavior is inferred from message-content edits. | medium | 2 |
-| `tengu_vscode_onboarding` | gate | ui | Enables an onboarding experience/flow in the Claude VSCode integration. | Only seen being sent as an experiment gate; specific onboarding screens/steps aren’t shown. | medium | 1 |
-| `tengu_vscode_review_upsell` | gate | prompts | Enables a review upsell prompt/flow in the Claude VS Code integration. | Inferred mainly from the flag name; the surrounding code shows VS Code integration wiring and experiment gates. | medium | 1 |

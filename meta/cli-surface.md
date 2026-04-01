@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 71
-- Env vars: 490
-- Config keys: 772
+- Env vars: 494
+- Config keys: 778
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -322,6 +322,7 @@
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_AGENT_COST_STEER`
 - `CLAUDE_CODE_AGENT_LIST_IN_MESSAGES`
 - `CLAUDE_CODE_ALWAYS_ENABLE_EFFORT`
 - `CLAUDE_CODE_API_BASE_URL`
@@ -353,8 +354,8 @@
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
+- `CLAUDE_CODE_DISABLE_CLAUDE_API_SKILL`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
-- `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
 - `CLAUDE_CODE_DISABLE_CRON`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
 - `CLAUDE_CODE_DISABLE_FAST_MODE`
@@ -363,7 +364,6 @@
 - `CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS`
 - `CLAUDE_CODE_DISABLE_LEGACY_MODEL_REMAP`
 - `CLAUDE_CODE_DISABLE_MOUSE`
-- `CLAUDE_CODE_DISABLE_MOUSE_CLICKS`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_NONSTREAMING_FALLBACK`
 - `CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL`
@@ -446,6 +446,8 @@
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
 - `CLAUDE_CODE_REPL`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
+- `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
+- `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SCROLL_SPEED`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
@@ -606,12 +608,14 @@
 - `MAX_STRUCTURED_OUTPUT_RETRIES`
 - `MAX_THINKING_TOKENS`
 - `MCP_CLIENT_SECRET`
+- `MCP_CONNECTION_NONBLOCKING`
 - `MCP_OAUTH_CALLBACK_PORT`
 - `MCP_OAUTH_CLIENT_METADATA_URL`
 - `MCP_REMOTE_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
+- `MCP_TRUNCATION_PROMPT_OVERRIDE`
 - `MCP_XAA_IDP_CLIENT_SECRET`
 - `METADATA_SERVER_DETECTION`
 - `MODIFIERS_NODE_PATH`
@@ -771,6 +775,7 @@
 - `allowUnsandboxedCommands`
 - `allowWrite`
 - `alwaysThinkingEnabled`
+- `aN`
 - `anchor_uuid`
 - `annotations`
 - `answers`
@@ -805,6 +810,7 @@
 - `authToken`
 - `autoAllowBashIfSandboxed`
 - `autoCompactThreshold`
+- `autoCompactWindow`
 - `autoDreamEnabled`
 - `autoMemoryDirectory`
 - `autoMemoryEnabled`
@@ -896,6 +902,7 @@
 - `defaultEnvironmentId`
 - `defaultMode`
 - `defaultShell`
+- `deferred_tool_use`
 - `deferredBuiltinTools`
 - `deletions`
 - `deniedDomains`
@@ -1056,6 +1063,7 @@
 - `interrupt`
 - `interrupted`
 - `is_error`
+- `is_image`
 - `is_interrupt`
 - `is_noteworthy`
 - `isAgent`
@@ -1190,6 +1198,7 @@
 - `output_tokens`
 - `outputDir`
 - `outputFile`
+- `outputs`
 - `outputStyle`
 - `outputStyles`
 - `outputTokens`
@@ -1197,7 +1206,6 @@
 - `overageResetsAt`
 - `overageStatus`
 - `owner`
-- `p$6`
 - `package`
 - `padding`
 - `paneId`
@@ -1354,10 +1362,12 @@
 - `sshHost`
 - `sshIdentityFile`
 - `sshPort`
+- `staleReadFileStateHint`
 - `start`
 - `startDirectory`
 - `startLine`
 - `state`
+- `states`
 - `status`
 - `status_category`
 - `status_detail`
@@ -1483,6 +1493,7 @@
 - `web_fetch_requests`
 - `web_search_requests`
 - `webSearchRequests`
+- `wN`
 - `work_dir`
 - `workerColor`
 - `workerId`
@@ -1494,7 +1505,6 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
-- `yN`
 
 ## Tools
 

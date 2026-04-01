@@ -1,22 +1,13 @@
-# Claude Code Flags 2.1.88
+# Claude Code Flags 2.1.89
 
 ## Feature Gates
 
 - `tengu_ccr_bridge`
 - `tengu_ccr_bridge_multi_session`
 - `tengu_ccr_bundle_seed_enabled`
-- `tengu_chair_sermon`
-- `tengu_disable_bypass_permissions_mode`
 - `tengu_harbor`
 - `tengu_powershell_command_interrupt_backgrounded`
 - `tengu_powershell_command_timeout_backgrounded`
-- `tengu_scratch`
-- `tengu_streaming_tool_execution2`
-- `tengu_thinkback`
-- `tengu_tool_pear`
-- `tengu_toolref_defer_j8m`
-- `tengu_vscode_onboarding`
-- `tengu_vscode_review_upsell`
 
 ## Dynamic Configs
 
