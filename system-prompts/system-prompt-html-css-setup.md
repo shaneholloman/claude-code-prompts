@@ -262,12 +262,12 @@ Basic HTML and CSS structure with styling details.
 
     ${EXPR_20}
 
-    null
+    ${EXPR_21}
 
     server
 
-    ${EXPR_21}
+    ${EXPR_22}
   <${PATH}>
-  <script>${EXPR_22}<${PATH}>
+  <script>${NUM}<${PATH}>
 <${PATH}>
 <${PATH}>
