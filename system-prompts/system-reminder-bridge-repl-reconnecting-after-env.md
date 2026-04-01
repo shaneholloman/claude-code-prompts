@@ -7,4 +7,4 @@
 Reconnecting after environment loss.
 
 # Raw Prompt Text
-[bridge:repl] Reconnecting after env lost (attempt ${EXPR_1}${PATH})
+[bridge:repl] Reconnecting after env lost (attempt @"${EXPR_1}"${EXPR_2}/${EXPR_3})
