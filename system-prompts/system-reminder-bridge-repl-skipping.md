@@ -7,4 +7,4 @@
 Indicates skipping a bridge repl expression.
 
 # Raw Prompt Text
-[bridge:repl] Skipping: ${EXPR_1}
+[bridge:repl] Skipping: ${EXPR_1}${EXPR_2}
