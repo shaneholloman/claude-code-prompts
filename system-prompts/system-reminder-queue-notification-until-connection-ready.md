@@ -1,4 +1,4 @@
-# System Prompt: queue-notification-until-connection-ready
+# System Prompt: notification-handler-queue
 
 - Source: inline
 
