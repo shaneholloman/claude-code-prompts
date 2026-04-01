@@ -7,4 +7,4 @@
 Utilize the Claude app for coding anytime.
 
 # Raw Prompt Text
-Code everywhere with the Claude app or ${NUM}
+Code everywhere with the Claude app or ${EXPR_1}
