@@ -7,4 +7,4 @@
 Shutdown request prioritized over unread messages.
 
 # Raw Prompt Text
-[inProcessRunner] ${EXPR_1} received shutdown request from ${EXPR_2} (prioritized over null unread messages)
+[inProcessRunner] ${EXPR_1} received shutdown request from ${EXPR_2} (prioritized over ${EXPR_3} unread messages)
