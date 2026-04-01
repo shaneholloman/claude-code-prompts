@@ -7,4 +7,4 @@
 Invalid session ID in work.
 
 # Raw Prompt Text
-[bridge:repl] Invalid session_id in work: ${EXPR_1}
+[bridge:repl] Invalid session_id in work: ${NUM}
