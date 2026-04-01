@@ -7,4 +7,4 @@
 Sent result for the specified session.
 
 # Raw Prompt Text
-[bridge:repl] Sent result for session=${EXPR_1}
+[bridge:repl] Sent result for session=${NUM}
