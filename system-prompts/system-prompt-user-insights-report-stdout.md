@@ -15,7 +15,7 @@ HTML file: ${NUM}
 Facets directory: ${EXPR_2}
 
 Here is what the user sees:
-null
+${EXPR_3}
 
 Now output the following message exactly:
 
