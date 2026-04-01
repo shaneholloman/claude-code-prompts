@@ -104,6 +104,10 @@ foreach ($tok in $tokens) {
 }
 
 $statements = [System.Collections.ArrayList]::new()
+$script:hasBg = $false
+foreach ($p in $ast.FindAll({param($n) $n -is [System.Management.Automation.Language.PipelineBaseAst]}, $true)) {
+    if ($p.PSObject.Properties['Background'] -and $p.Background) { $script:hasBg = $true; break }
+}
 
 function Process-BlockStatements {
     param($Block)
@@ -258,6 +262,7 @@ $output = @{
     typeLiterals = @($typeLiterals)
     hasUsingStatements = [bool]$hasUsingStatements
     hasScriptRequirements = [bool]$hasScriptRequirements
+    hasBackgroundJob = [bool]$script:hasBg
 }
 
 $output | ConvertTo-Json -Depth ${NUM} -Compress
