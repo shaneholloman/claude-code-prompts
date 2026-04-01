@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 71
-- Env vars: 494
-- Config keys: 778
+- Env vars: 499
+- Config keys: 781
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -234,6 +234,9 @@
 - `ALACRITTY_LOG`
 - `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
+- `ANTHROPIC_AWS_API_KEY`
+- `ANTHROPIC_AWS_BASE_URL`
+- `ANTHROPIC_AWS_WORKSPACE_ID`
 - `ANTHROPIC_BASE_URL`
 - `ANTHROPIC_BEDROCK_BASE_URL`
 - `ANTHROPIC_BETAS`
@@ -431,6 +434,7 @@
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
 - `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS`
+- `CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE`
 - `CLAUDE_CODE_PLUGIN_SEED_DIR`
 - `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
@@ -455,6 +459,7 @@
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SIMPLE`
+- `CLAUDE_CODE_SKIP_ANTHROPIC_AWS_AUTH`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FAST_MODE_NETWORK_ERRORS`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
@@ -476,6 +481,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
 - `CLAUDE_CODE_TMUX_TRUECOLOR`
+- `CLAUDE_CODE_USE_ANTHROPIC_AWS`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
@@ -693,7 +699,6 @@
 - `TEST_ENABLE_SESSION_PERSISTENCE`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
-- `TMPDIR`
 - `TMUX`
 - `TMUX_PANE`
 - `UNDICI_NO_FG`
@@ -730,6 +735,7 @@
 - `$`
 - `$docs`
 - `$schema`
+- `$y`
 - `access_token`
 - `account`
 - `acquiredAt`
@@ -775,7 +781,6 @@
 - `allowUnsandboxedCommands`
 - `allowWrite`
 - `alwaysThinkingEnabled`
-- `aN`
 - `anchor_uuid`
 - `annotations`
 - `answers`
@@ -1030,10 +1035,12 @@
 - `hooks`
 - `hookSpecificOutput`
 - `hostPattern`
+- `http`
 - `http_timeout_ms`
 - `httpHookAllowedEnvVars`
 - `httpMethodsToRetry`
 - `httpProxyPort`
+- `https`
 - `humanSchedule`
 - `id`
 - `ideName`
@@ -1160,6 +1167,7 @@
 - `newValue`
 - `non_exclusive_heartbeat_interval_ms`
 - `noOutputExpected`
+- `noProxy`
 - `noResponseRetries`
 - `notebook_path`
 - `notes`
@@ -1212,6 +1220,7 @@
 - `params`
 - `parent_file_path`
 - `parent_tool_use_id`
+- `parentProxy`
 - `patch`
 - `path`
 - `pathPattern`
@@ -1438,7 +1447,6 @@
 - `tool_input`
 - `tool_name`
 - `tool_response`
-- `tool_summary`
 - `tool_use_id`
 - `tool_use_result`
 - `tool_uses`
@@ -1493,7 +1501,6 @@
 - `web_fetch_requests`
 - `web_search_requests`
 - `webSearchRequests`
-- `wN`
 - `work_dir`
 - `workerColor`
 - `workerId`
@@ -1505,6 +1512,7 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
+- `ZN`
 
 ## Tools
 
