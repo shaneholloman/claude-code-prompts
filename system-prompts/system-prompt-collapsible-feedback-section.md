@@ -30,7 +30,7 @@ Feedback suggestions for product and model teams.
       <${PATH}>
       <div class="collapsible-content">
         <div class="suggestions-section">
-          -e${EXPR_6}${EXPR_7}${EXPR_8}${EXPR_9}${EXPR_10}${EXPR_11}${EXPR_12}
+          ${EXPR_6}${EXPR_7}${EXPR_8}${EXPR_9}
         <${PATH}>
       <${PATH}>
     <${PATH}>
