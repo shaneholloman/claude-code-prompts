@@ -1,4 +1,4 @@
-# System Prompt: review-and-cleanup
+# System Prompt: review-efficiency-check
 
 - Source: inline
 
