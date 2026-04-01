@@ -11,8 +11,8 @@ REDIRECT DETECTED: The URL redirects to a different host.
 
 Original URL: ${EXPR_1}
 Redirect URL: ${EXPR_2}
-Status: ${EXPR_3} null
+Status: ${EXPR_3} ${EXPR_4}
 
 To complete your request, I need to fetch content from the redirected URL. Please use WebFetch again with these parameters:
-- url: "${EXPR_4}"
-- prompt: "${EXPR_5}"
+- url: "${EXPR_5}"
+- prompt: "${EXPR_6}"
