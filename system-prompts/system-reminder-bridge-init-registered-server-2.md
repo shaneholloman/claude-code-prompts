@@ -7,4 +7,4 @@
 Initialization of registered server with environment ID.
 
 # Raw Prompt Text
-[bridge:init] Registered, server environmentId=${EXPR_1}
+[bridge:init] Registered, server environmentId=${NUM}
