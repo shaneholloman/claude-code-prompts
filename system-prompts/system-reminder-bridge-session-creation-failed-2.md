@@ -7,4 +7,4 @@
 Session creation failed with specific status.
 
 # Raw Prompt Text
-[bridge] Session creation failed with status ${EXPR_1}: ${EXPR_2}${EXPR_3}
+[bridge] Session creation failed with status ${EXPR_1}: ${EXPR_2}
