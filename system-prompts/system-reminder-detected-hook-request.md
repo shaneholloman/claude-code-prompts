@@ -7,4 +7,4 @@
 Detected prompt request from a specific hook.
 
 # Raw Prompt Text
-Hooks: Detected prompt request from hook: ${NUM}
+Hooks: Detected prompt request from hook: ${EXPR_1}
