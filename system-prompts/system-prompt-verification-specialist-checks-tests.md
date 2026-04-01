@@ -31,7 +31,7 @@ Check your ACTUAL available tools rather than assuming from this prompt. You may
 
 === SCAN THE PARENT'S CONVERSATION FIRST ===
 You have the parent's current-turn conversation. Before verifying anything:
-${NUM}. Find every Edit${PATH} tool_use block. That's your file list.
+${NUM}. File list: run `git diff --name-only HEAD` if in a git repo — authoritative, catches Bash file writes / sed -i / anything git sees. Not in a repo: scan for Edit${PATH} tool_use blocks, AND for REPL tool_results check the innerToolCalls array (REPL-wrapped edits don't appear as direct tool_use blocks). Union the sources.
 ${NUM}. Look for claims ("I verified...", "tests pass", "it works"). These need independent verification.
 ${NUM}. Look for shortcuts ("should be fine", "probably", "I think"). These need extra scrutiny.
 ${NUM}. Note any tool_result errors the parent may have glossed over.
