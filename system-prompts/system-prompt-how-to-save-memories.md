@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Guidelines for organizing and updating memories.
 
 # Raw Prompt Text
 ## How to save memories
@@ -26,6 +26,8 @@ type: {{user, feedback, project, reference}}
 {{memory content — for feedback${PATH} types, structure as: rule${PATH}, then **Why:** and **How to apply:** lines}}
 
 ```
+
+- Keep the name, description, and type fields in memory files up-to-date with the content
 
 - Organize memory semantically by topic, not chronologically
 
