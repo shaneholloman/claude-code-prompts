@@ -7,4 +7,4 @@
 Force-killing stuck session during shutdown.
 
 # Raw Prompt Text
-[bridge:shutdown] Force-killing stuck sessionId=${EXPR_1}
+[bridge:shutdown] Force-killing stuck sessionId=${NUM}
