@@ -2,9 +2,9 @@
 
 - Agent Type: default
 - When to use: stdio
-- Model: mcp__null__
+- Model: mcp__stdio__
 - Source: plugin
-- Color: null
+- Color: stdio
 
 ## Summary
 
