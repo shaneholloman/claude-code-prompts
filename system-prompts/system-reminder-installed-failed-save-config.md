@@ -7,4 +7,4 @@
 Error saving configuration after installation.
 
 # Raw Prompt Text
-Installed but failed to save config: ${EXPR_1}
+Installed but failed to save config: ${NUM}
