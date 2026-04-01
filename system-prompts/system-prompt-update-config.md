@@ -161,7 +161,7 @@ Plugin syntax: `plugin-name@source` where source is `claude-code-marketplace`, `
 
 ### Other Settings
 - `language`: Preferred response language (e.g., "japanese")
-- `cleanupPeriodDays`: Days to keep transcripts (default: ${NUM}; ${NUM} disables persistence entirely)
+- `cleanupPeriodDays`: Days to keep transcripts before automatic cleanup (default: ${NUM}; minimum ${NUM})
 - `respectGitignore`: Whether to respect .gitignore (default: true)
 - `spinnerTipsEnabled`: Show tips in spinner
 - `spinnerVerbs`: Customize spinner verbs (`{ "mode": "append" | "replace", "verbs": [...] }`)
