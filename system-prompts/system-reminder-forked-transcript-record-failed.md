@@ -7,4 +7,4 @@
 Forked agent failed to record initial transcript with error detail.
 
 # Raw Prompt Text
-Forked agent [${EXPR_1}] failed to record initial transcript: ${NUM}
+Forked agent [${EXPR_1}] failed to record initial transcript: ${EXPR_2}
