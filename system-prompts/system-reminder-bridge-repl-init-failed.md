@@ -7,4 +7,4 @@
 Initialization failed with consecutive errors.
 
 # Raw Prompt Text
-[bridge:repl] Init failed: ${EXPR_1}${EXPR_2}; consecutive failures: ${EXPR_3}
+[bridge:repl] Init failed: ${EXPR_1}; consecutive failures: ${EXPR_2}
