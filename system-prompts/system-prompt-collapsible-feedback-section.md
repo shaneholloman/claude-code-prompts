@@ -17,7 +17,7 @@ Feedback suggestions for product and model teams.
       <${PATH}>
       <div class="collapsible-content">
         <div class="suggestions-section">
-          ${EXPR_1}${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}
+          ${EXPR_1}
         <${PATH}>
       <${PATH}>
     <${PATH}>
@@ -30,7 +30,7 @@ Feedback suggestions for product and model teams.
       <${PATH}>
       <div class="collapsible-content">
         <div class="suggestions-section">
-          ${EXPR_6}${EXPR_7}${EXPR_8}${EXPR_9}
+          ${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}
         <${PATH}>
       <${PATH}>
     <${PATH}>
