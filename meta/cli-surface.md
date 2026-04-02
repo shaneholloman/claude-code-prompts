@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 71
-- Env vars: 499
-- Config keys: 781
+- Env vars: 498
+- Config keys: 783
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -415,7 +415,6 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
-- `CLAUDE_CODE_MCP_INSTR_DELTA`
 - `CLAUDE_CODE_NEW_INIT`
 - `CLAUDE_CODE_NO_FLICKER`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
@@ -735,7 +734,6 @@
 - `$`
 - `$docs`
 - `$schema`
-- `$y`
 - `access_token`
 - `account`
 - `acquiredAt`
@@ -927,6 +925,7 @@
 - `disableAutoMode`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
+- `disableSkillShellExecution`
 - `disallowedTools`
 - `discardedCommits`
 - `discardedFiles`
@@ -934,6 +933,7 @@
 - `displayHeight`
 - `displayName`
 - `displayWidth`
+- `DN`
 - `domains`
 - `dry_run`
 - `durable`
@@ -987,6 +987,7 @@
 - `fast_mode_state`
 - `fastMode`
 - `fastModePerSessionOptIn`
+- `fb`
 - `feedback`
 - `feedbackSurveyRate`
 - `file`
@@ -1430,6 +1431,7 @@
 - `teammate_name`
 - `teamName`
 - `teardown_archive_timeout_ms`
+- `terminal_reason`
 - `terminalTitleFromRename`
 - `text`
 - `thinking`
@@ -1512,7 +1514,6 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
-- `ZN`
 
 ## Tools
 
