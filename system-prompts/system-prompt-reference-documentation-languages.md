@@ -34,6 +34,9 @@ The relevant documentation for your detected language is included below in `<doc
 **File uploads across multiple requests:**
 → Refer to `{lang}${PATH}` + `{lang}${PATH}`
 
+**Agent design (tool surface, context management, caching strategy):**
+→ Refer to `shared${PATH}`
+
 **Agent with built-in tools (file${PATH}) (Python & TypeScript only):**
 → Refer to `{lang}${PATH}` + `{lang}${PATH}`
 
