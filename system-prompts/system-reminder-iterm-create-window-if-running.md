@@ -14,6 +14,6 @@ tell application "iTerm"
     activate
   end if
   tell current session of current window
-    write text "${EXPR_1}"
+    write text ${EXPR_1}
   end tell
 end tell
