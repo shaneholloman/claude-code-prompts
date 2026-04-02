@@ -11,5 +11,3 @@ Exploration limited to read-only bash commands.
 
 Sessions since last consolidation (${EXPR_1}):
 ${EXPR_2}
-${EXPR_3}
-${EXPR_4}
