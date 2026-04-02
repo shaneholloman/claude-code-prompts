@@ -1,4 +1,4 @@
-# System Prompt: plan-mode-restrictions
+# System Prompt: plan-mode-edit-restrictions
 
 - Source: inline
 
