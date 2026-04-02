@@ -155,7 +155,7 @@ A note: if any of the model strings above look unfamiliar to you, that's to be e
 
 **Opus ${NUM} — Adaptive thinking (recommended):** Use `thinking: {type: "adaptive"}`. Claude dynamically decides when and how much to think. No `budget_tokens` needed — `budget_tokens` is deprecated on Opus ${NUM} and Sonnet ${NUM} and must not be used. Adaptive thinking also automatically enables interleaved thinking (no beta header needed). **When the user asks for "extended thinking", a "thinking budget", or `budget_tokens`: always use Opus ${NUM} with `thinking: {type: "adaptive"}`. The concept of a fixed token budget for thinking is deprecated — adaptive thinking replaces it. Do NOT use `budget_tokens` and do NOT switch to an older model.**
 
-**Effort parameter (GA, no beta header):** Controls thinking depth and overall token spend via `output_config: {effort: "low"|"medium"|"high"|"max"}` (inside `output_config`, not top-level). Default is `high` (equivalent to omitting it). `max` is Opus ${NUM} only. Works on Opus ${NUM}, Opus ${NUM}, and Sonnet ${NUM}. Will error on Sonnet ${NUM} / Haiku ${NUM}. Combine with adaptive thinking for the best cost-quality tradeoffs. Use `low` for subagents or simple tasks; `max` for the deepest reasoning.
+**Effort parameter (GA, no beta header):** Controls thinking depth and overall token spend via `output_config: {effort: "low"|"medium"|"high"|"max"}` (inside `output_config`, not top-level). Default is `high` (equivalent to omitting it). `max` is Opus ${NUM} only. Works on Opus ${NUM}, Opus ${NUM}, and Sonnet ${NUM}. Will error on Sonnet ${NUM} / Haiku ${NUM}. Combine with adaptive thinking for the best cost-quality tradeoffs. Lower effort means fewer and more-consolidated tool calls, less preamble, and terser confirmations — `medium` is often a favorable balance; use `max` when correctness matters more than cost; use `low` for subagents or simple tasks.
 
 **Sonnet ${NUM}:** Supports adaptive thinking (`thinking: {type: "adaptive"}`). `budget_tokens` is deprecated on Sonnet ${NUM} — use adaptive thinking instead.
 
@@ -183,6 +183,8 @@ See `{lang}${PATH}` (Compaction section) for code examples. Full docs via WebFet
 
 For placement patterns, architectural guidance, and the silent-invalidator audit checklist: read `shared${PATH}`. Language-specific syntax: `{lang}${PATH}` (Prompt Caching section).
 
+<!-- __S3__ -->
+
 ---
 
 ## Reading Guide
@@ -206,6 +208,9 @@ After detecting the language, read the relevant files based on what the user nee
 **Function calling / tool use / agents:**
 → Read `{lang}${PATH}` + `shared${PATH}` + `{lang}${PATH}`
 
+**Agent design (tool surface, context management, caching strategy):**
+→ Read `shared${PATH}`
+
 **Batch processing (non-latency-sensitive):**
 → Read `{lang}${PATH}` + `{lang}${PATH}`
 
@@ -221,6 +226,7 @@ Read the **language-specific Claude API folder** (`{language}${PATH}`):
 
 ${NUM}. **`{language}${PATH}`** — **Read this first.** Installation, quick start, common patterns, error handling.
 ${NUM}. **`shared${PATH}`** — Read when the user needs function calling, code execution, memory, or structured outputs. Covers conceptual foundations.
+${NUM}. **`shared${PATH}`** — Read when designing an agent: bash vs. dedicated tools, programmatic tool calling, tool search${PATH}, context editing vs. compaction vs. memory, caching principles.
 ${NUM}. **`{language}${PATH}`** — Read for language-specific tool use code examples (tool runner, manual loop, code execution, memory, structured outputs).
 ${NUM}. **`{language}${PATH}`** — Read when building chat UIs or interfaces that display responses incrementally.
 ${NUM}. **`{language}${PATH}`** — Read when processing many requests offline (not latency-sensitive). Runs asynchronously at ${NUM}% cost.
