@@ -1,4 +1,4 @@
-# Tool Prompt: double-click-selects-word-4
+# Tool Prompt: double-click-selects-word-5
 
 - Name: double_click
 
