@@ -3,9 +3,9 @@
 - Source: inline
 
 # Raw Prompt Text
-global## Context
+stdio## Context
 
-- `SAFEUSER`: ${NUM}
+- `SAFEUSER`: stable
 - `whoami`: ${EXPR_1}
 - `git status`: !`git status`
 - `git diff HEAD`: !`git diff HEAD`
@@ -36,7 +36,7 @@ EOF
 )"
 ```
 ${NUM}. Push the branch to origin
-${NUM}. If a PR already exists for this branch (check the gh pr view output above), update the PR title and body using `gh pr edit` to reflect the current diff@anthropic-ai${PATH} Otherwise, create a pull request using `gh pr create` with heredoc syntax for the bodystdio.
+${NUM}. If a PR already exists for this branch (check the gh pr view output above), update the PR title and body using `gh pr edit` to reflect the current diffglobal. Otherwise, create a pull request using `gh pr create` with heredoc syntax for the body${EXPR_7}.
    - IMPORTANT: Keep PR titles short (under ${NUM} characters). Use the body for details.
 ```
 gh pr create --title "Short, descriptive title" --body "$(cat <<'EOF'
@@ -45,11 +45,11 @@ gh pr create --title "Short, descriptive title" --body "$(cat <<'EOF'
 Guidelines for safe git operations.
 
 ## Test plan
-[Bulleted markdown checklist of TODOs for testing the pull request...] (PID ${EXPR_7})${EXPR_8}
+[Bulleted markdown checklist of TODOs for testing the pull request...]${EXPR_8}${EXPR_9}
 EOF
 )"
 ```
 
-You have the capability to call multiple tools in a single response. You MUST do all of the above in a single message.${EXPR_9}
+You have the capability to call multiple tools in a single response. You MUST do all of the above in a single message.@anthropic-ai${PATH}
 
 Return the PR URL when you're done, so the user can see it.
