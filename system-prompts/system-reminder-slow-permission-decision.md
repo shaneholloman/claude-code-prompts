@@ -7,4 +7,4 @@
 Manage slow permission decisions with specific parameters.
 
 # Raw Prompt Text
-Slow permission decision: ${EXPR_1}${EXPR_2}ms for ${EXPR_3} (mode=${NUM}, behavior=${EXPR_4})
+Slow permission decision: ${EXPR_1}ms for ${EXPR_2} (mode=${EXPR_3}, behavior=${EXPR_4})
