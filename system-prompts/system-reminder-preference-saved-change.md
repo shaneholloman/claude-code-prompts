@@ -7,5 +7,5 @@
 Preference saved for future changes.
 
 # Raw Prompt Text
-${EXPR_1}${EXPR_2}
+${EXPR_1}
 Preference saved. Use ${PATH} to change copyFullResponse
