@@ -12,7 +12,7 @@ You are helping the user schedule, update, list, or run **remote** Claude Code a
 ## First Step
 
 ${EXPR_1}
-@anthropic-ai${PATH}
+global
 
 ## What You Can Do
 
