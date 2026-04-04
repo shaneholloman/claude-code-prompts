@@ -4,10 +4,10 @@
 
 ## Summary
 
-Validate GitHub repository name, access permissions, and token scopes for private repos.
+Verify repository name, access, and required GitHub token scopes.
 
 # Raw Prompt Text
-Check that the repository name is correct: ${EXPR_1}
+Check that the repository name is correct:
 
 Ensure you have access to this repository
 
