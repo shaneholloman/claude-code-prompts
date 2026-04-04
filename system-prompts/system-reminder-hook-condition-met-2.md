@@ -7,4 +7,4 @@
 Reports that the prompt hook condition evaluated true.
 
 # Raw Prompt Text
-Hooks: Prompt hook condition was met
+Hooks: Prompt hook condition was met: ${EXPR_1}
