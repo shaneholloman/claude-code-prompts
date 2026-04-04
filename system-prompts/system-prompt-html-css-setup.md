@@ -151,7 +151,7 @@ Basic HTML and CSS structure with styling details.
       <div class="stat"><div class="stat-value">${EXPR_12}<${PATH}><div class="stat-label">Msgs${PATH}<${PATH}><${PATH}>
     <${PATH}>
 
-    ${EXPR_13}
+    npm view ${EXPR_13}@${EXPR_14} version
 
     <div class="charts-row">
       <div class="chart-card">
@@ -175,14 +175,14 @@ Basic HTML and CSS structure with styling details.
       <${PATH}>
     <${PATH}>
 
-    stdio
+    ${EXPR_15}
 
     <!-- Response Time Distribution -->
     <div class="chart-card" style="margin: 24px ${NUM};">
       <div class="chart-title">User Response Time Distribution<${PATH}>
       <p class="empty">No response time data</p>
       <div style="font-size: 12px; color: #64748b; margin-top: 8px;">
-        Median: ${EXPR_14}s &bull; Average: ${EXPR_15}s
+        Median: ${EXPR_16}s &bull; Average: ${EXPR_17}s
       <${PATH}>
     <${PATH}>
 
@@ -192,11 +192,11 @@ Basic HTML and CSS structure with styling details.
 
         <div style="display: flex; gap: 24px; margin: 12px ${NUM};">
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_16}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_18}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Overlap Events<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_17}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_19}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Sessions Involved<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
@@ -234,7 +234,7 @@ Basic HTML and CSS structure with styling details.
       <${PATH}>
     <${PATH}>
 
-     (PID ${EXPR_18})
+    ${EXPR_20}
 
     <div class="charts-row">
       <div class="chart-card">
@@ -247,7 +247,7 @@ Basic HTML and CSS structure with styling details.
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_19}
+     (PID ${EXPR_21})
 
     <div class="charts-row">
       <div class="chart-card">
@@ -260,14 +260,14 @@ Basic HTML and CSS structure with styling details.
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_20}
+    ${EXPR_22}
 
-    ${EXPR_21}
+    ${EXPR_23}
 
     server
 
-    ${EXPR_22}
+    ${EXPR_24}
   <${PATH}>
-  <script>${NUM}<${PATH}>
+  <script>${EXPR_25}${EXPR_26}${EXPR_27}${EXPR_28}${EXPR_29}<${PATH}>
 <${PATH}>
 <${PATH}>
