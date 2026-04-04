@@ -7,4 +7,6 @@
 Error message for invalid tag name.
 
 # Raw Prompt Text
-Tag '${EXPR_1}' is an invalid name.
+Tag '${EXPR_1}
+
+${EXPR_2}' is an invalid name.
