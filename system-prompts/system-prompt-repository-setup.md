@@ -7,7 +7,7 @@
 Instructions for setting up a Claude Code repository.
 
 # Raw Prompt Text
-Primary working directory: global
+Primary working directory: stdio
 
 This is a git worktree — an isolated copy of the repository. Run all commands from this directory. Do NOT `cd` to the original repository root.
 
@@ -25,9 +25,9 @@ OS Version: ${EXPR_5}
 
 ${EXPR_6}
 
-${EXPR_7}
+npm view ${EXPR_7}@${EXPR_8} version
 
-The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_8}', Sonnet ${NUM}: '${EXPR_9}', Haiku ${NUM}: '${EXPR_10}'. When building AI applications, default to the latest and most capable Claude models.
+The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_9}', Sonnet ${NUM}: '${EXPR_10}', Haiku ${NUM}: '${EXPR_11}'. When building AI applications, default to the latest and most capable Claude models.
 
 Claude Code is available as a CLI in the terminal, desktop app (Mac${PATH}), web app (claude.ai${PATH}), and IDE extensions (VS Code, JetBrains).
 
