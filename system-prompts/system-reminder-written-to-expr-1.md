@@ -7,4 +7,4 @@
 Indicates a written action to a specified expression.
 
 # Raw Prompt Text
-Written to ${EXPR_1}${EXPR_2}
+Written to ${EXPR_1}
