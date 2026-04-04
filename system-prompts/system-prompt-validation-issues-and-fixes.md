@@ -1,4 +1,4 @@
-# System Prompt: validation-issues-and-fixes
+# System Prompt: validation-issues-guidelines
 
 - Source: inline
 
