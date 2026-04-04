@@ -18,7 +18,7 @@ Your FIRST action must be a single AskUserQuestion tool call (no preamble). Use 
 ${EXPR_1}
 
 Set `header: "Action"` and offer the four actions (create${PATH}) as options. After the user picks, follow the matching workflow below.
-@anthropic-ai${PATH}
+global
 
 ## What You Can Do
 
@@ -163,6 +163,6 @@ ${NUM}. Execute and confirm
 
 ## User Request
 
-The user said: "stdio"
+The user said: "${EXPR_11}"
 
 Start by understanding their intent and working through the appropriate workflow above.
