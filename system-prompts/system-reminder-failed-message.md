@@ -7,4 +7,4 @@
 Log an in-process agent failure and its error message.
 
 # Raw Prompt Text
-[inProcessRunner] Agent ${EXPR_1} failed: ${NUM}
+[inProcessRunner] Agent ${EXPR_1} failed: ${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}${EXPR_6}
