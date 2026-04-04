@@ -7,4 +7,6 @@
 Improper closing tag detected.
 
 # Raw Prompt Text
-Closing tag '${EXPR_1}' doesn't have proper closing.
+Closing tag '${EXPR_1}
+
+${EXPR_2}' doesn't have proper closing.
