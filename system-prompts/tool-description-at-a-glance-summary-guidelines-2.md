@@ -33,19 +33,19 @@ SESSION DATA:
 ${EXPR_1}
 
 ## Project Areas (what user works on)
-@anthropic-ai${PATH}
+global
 
 ## Big Wins (impressive accomplishments)
- (PID ${EXPR_2})
+${EXPR_2}
 
 ## Friction Categories (where things go wrong)
-${EXPR_3}
+@anthropic-ai${PATH}
 
 ## Features to Try
-${EXPR_4}
+ (PID ${EXPR_3})
 
 ## Usage Patterns to Adopt
-${EXPR_5} loaded with errors
+${EXPR_4} loaded with errors
 
 ## On the Horizon (ambitious workflows for better models)
-${EXPR_6}
+${EXPR_5}
