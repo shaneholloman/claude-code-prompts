@@ -7,4 +7,4 @@
 Failed to create due to errors in the directory.
 
 # Raw Prompt Text
-Failed to create ${EXPR_1} loaded with errors directory: ${EXPR_2}${EXPR_3}
+Failed to create ${EXPR_1} loaded with errors directory: ${EXPR_2}
