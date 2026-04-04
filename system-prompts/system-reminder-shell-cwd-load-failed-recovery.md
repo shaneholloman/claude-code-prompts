@@ -7,4 +7,4 @@
 Recovering to a new current working directory.
 
 # Raw Prompt Text
-Shell CWD "${EXPR_1} failed to load" no longer exists, recovering to "${EXPR_2}${EXPR_3}"
+Shell CWD "${EXPR_1} failed to load" no longer exists, recovering to "${EXPR_2}"
