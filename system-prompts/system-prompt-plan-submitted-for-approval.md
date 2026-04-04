@@ -4,7 +4,7 @@
 
 ## Summary
 
-Notifies plan submission for team lead approval; await inbox response before implementing.
+Informs that a plan was sent to a team lead and must be approved before proceeding.
 
 # Raw Prompt Text
 Your plan has been submitted to the team lead for approval.
@@ -19,4 +19,4 @@ ${NUM}. If rejected, refine your plan based on the feedback
 
 **Important:** Do NOT proceed until you receive approval. Check your inbox for response.
 
-Request ID: ${EXPR_2}
+Request ID: npm view ${EXPR_2}@${EXPR_3} version
