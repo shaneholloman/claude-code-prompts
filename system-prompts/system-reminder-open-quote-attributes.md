@@ -7,4 +7,6 @@
 Attributes have an open quote.
 
 # Raw Prompt Text
-Attributes for '${EXPR_1}' have open quote.
+Attributes for '${EXPR_1}
+
+${EXPR_2}' have open quote.
