@@ -1,82 +1,142 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **3577**
+- Total prompt files: **3618**
 
 ## Categories
 
-- System prompts (319)
-- Tool prompts (116)
+- System prompts (347)
+- Tool prompts (117)
 - Agent prompts (5)
 - Skills (1)
-- System data (107)
-- System reminders (3029)
+- System data (105)
+- System reminders (3043)
 
-## System prompts (319)
+## System prompts (347)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-rad-iii-vii-viii-xii.md`](../system-prompts/system-prompt-rad-iii-vii-viii-xii.md) | Numerical placeholders with letters. | 184,755 | 2.1.91 | 2.1.91 |
-| [`system-prompt-html-css-setup.md`](../system-prompts/system-prompt-html-css-setup.md) | Basic HTML and CSS structure with styling details. | 7,569 | 2.1.91 | 2.1.91 |
+| [`system-prompt-rad-iii-vii-viii-xii.md`](../system-prompts/system-prompt-rad-iii-vii-viii-xii.md) | Numerical placeholders with letters. | 184,755 | 2.1.92 | 2.1.92 |
+| [`system-prompt-html-css-setup.md`](../system-prompts/system-prompt-html-css-setup.md) | Basic HTML and CSS structure with styling details. | 7,569 | 2.1.92 | 2.1.92 |
+| [`system-prompt-schedule-remote-agents-4.md`](../system-prompts/system-prompt-schedule-remote-agents-4.md) | Help users manage remote Claude Code agents. | 2,395 | 2.1.92 | 2.1.92 |
+| [`system-prompt-schedule-remote-agents-3.md`](../system-prompts/system-prompt-schedule-remote-agents-3.md) | Manage scheduling for remote Claude Code agents. | 2,146 | 2.1.92 | 2.1.92 |
+| [`system-prompt-sysctl-allow-global-settings.md`](../system-prompts/system-prompt-sysctl-allow-global-settings.md) | Configuration for global system settings and permissions. | 1,805 | 2.1.92 | 2.1.92 |
+| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Guidelines for safely creating git commits. | 1,518 | 2.1.92 | 2.1.92 |
+| [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 1,363 | 2.1.92 | 2.1.92 |
+| [`system-prompt-copy-text-and-toggle-collapsible.md`](../system-prompts/system-prompt-copy-text-and-toggle-collapsible.md) | Functions for toggling visibility and copying text. | 1,359 | 2.1.92 | 2.1.92 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.92 | 2.1.92 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Prompts the human for small code contributions and tracks them in todos. | 1,137 | 2.1.92 | 2.1.92 |
+| [`system-prompt-wfe-user-group-role-parameters.md`](../system-prompts/system-prompt-wfe-user-group-role-parameters.md) | Parameters for user, group, and role configurations. | 1,083 | 2.1.92 | 2.1.92 |
+| [`system-prompt-json-array-value-regr-current.md`](../system-prompts/system-prompt-json-array-value-regr-current.md) | Functions and keywords related to JSON and arrays. | 1,000 | 2.1.92 | 2.1.92 |
+| [`system-prompt-git-safety-protocols.md`](../system-prompts/system-prompt-git-safety-protocols.md) | Multiple prompts (2) | 739 | 2.1.92 | 2.1.92 |
+| [`system-prompt-usage-insights.md`](../system-prompts/system-prompt-usage-insights.md) | Summary of user interactions and improvement suggestions. | 598 | 2.1.92 | 2.1.92 |
+| [`system-prompt-effective-usage.md`](../system-prompts/system-prompt-effective-usage.md) | Strategies for using agents effectively. | 575 | 2.1.92 | 2.1.92 |
+| [`system-prompt-bfs-grep-find-command.md`](../system-prompts/system-prompt-bfs-grep-find-command.md) | Functions for find and grep commands with custom behavior. | 525 | 2.1.92 | 2.1.92 |
+| [`system-prompt-chat-app-navigation-commands-2.md`](../system-prompts/system-prompt-chat-app-navigation-commands-2.md) | Commands for navigating and confirming actions in chat. | 498 | 2.1.92 | 2.1.92 |
+| [`system-prompt-rank-sessions-by-query.md`](../system-prompts/system-prompt-rank-sessions-by-query.md) | Guides selecting the most relevant sessions for a query, prioritizing tag matches. | 477 | 2.1.92 | 2.1.92 |
+| [`system-prompt-new-cert-collection-chain-policy.md`](../system-prompts/system-prompt-new-cert-collection-chain-policy.md) | Creates a new certificate collection and chain policy. | 457 | 2.1.92 | 2.1.92 |
+| [`system-prompt-snapshot-file-guidelines.md`](../system-prompts/system-prompt-snapshot-file-guidelines.md) | Guidelines for handling code changes and features. | 429 | 2.1.92 | 2.1.92 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.92 | 2.1.92 |
+| [`system-prompt-collapsible-feedback-section.md`](../system-prompts/system-prompt-collapsible-feedback-section.md) | Feedback suggestions for product and model teams. | 382 | 2.1.92 | 2.1.92 |
+| [`system-prompt-saving-memories-guide-7.md`](../system-prompts/system-prompt-saving-memories-guide-7.md) | Steps for effectively saving memories. | 375 | 2.1.92 | 2.1.92 |
+| [`system-prompt-remote-control-sessions.md`](../system-prompts/system-prompt-remote-control-sessions.md) | Control local sessions remotely with Claude. | 353 | 2.1.92 | 2.1.92 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for feature and patterns sections with copy actions and placeholders. | 345 | 2.1.92 | 2.1.92 |
+| [`system-prompt-repository-setup.md`](../system-prompts/system-prompt-repository-setup.md) | Instructions for setting up a Claude Code repository. | 318 | 2.1.92 | 2.1.92 |
+| [`system-prompt-bin-command-ostype-argv-elif.md`](../system-prompts/system-prompt-bin-command-ostype-argv-elif.md) | Function to execute commands based on conditions. | 265 | 2.1.92 | 2.1.92 |
+| [`system-prompt-directory-commands-with-spaces.md`](../system-prompts/system-prompt-directory-commands-with-spaces.md) | Guidelines for handling directories and file paths. | 188 | 2.1.92 | 2.1.92 |
+| [`system-prompt-planning-context-reminders.md`](../system-prompts/system-prompt-planning-context-reminders.md) | Reminders and modes for planning context. | 176 | 2.1.92 | 2.1.92 |
+| [`system-prompt-shift-enter-shortcut-setup.md`](../system-prompts/system-prompt-shift-enter-shortcut-setup.md) | Guide to configure Shift+Enter for multiline prompts. | 163 | 2.1.92 | 2.1.92 |
+| [`system-prompt-write-file-to-local-filesystem-3.md`](../system-prompts/system-prompt-write-file-to-local-filesystem-3.md) | Creates or rewrites a file on the local filesystem. | 153 | 2.1.92 | 2.1.92 |
+| [`system-prompt-evaluate-stop-condition-hook.md`](../system-prompts/system-prompt-evaluate-stop-condition-hook.md) | Assess if the user condition is met based on transcript. | 138 | 2.1.92 | 2.1.92 |
+| [`system-prompt-plan-submitted-for-approval.md`](../system-prompts/system-prompt-plan-submitted-for-approval.md) | Informs that a plan was sent to a team lead and must be approved before proceeding. | 132 | 2.1.92 | 2.1.92 |
+| [`system-prompt-usage-report-insights-message.md`](../system-prompts/system-prompt-usage-report-insights-message.md) | User generated a usage report with insights. | 129 | 2.1.92 | 2.1.92 |
+| [`system-prompt-interactive-task-block-notification.md`](../system-prompts/system-prompt-interactive-task-block-notification.md) | Notification for blocked interactive tasks. | 123 | 2.1.92 | 2.1.92 |
+| [`system-prompt-useful-shell-environment-info-2.md`](../system-prompts/system-prompt-useful-shell-environment-info-2.md) | Information about the current shell environment. | 112 | 2.1.92 | 2.1.92 |
+| [`system-prompt-remote-task-notification-npm-view.md`](../system-prompts/system-prompt-remote-task-notification-npm-view.md) | Fetches the version of a remote npm package. | 111 | 2.1.92 | 2.1.92 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.92 | 2.1.92 |
+| [`system-prompt-div-class-bar-row.md`](../system-prompts/system-prompt-div-class-bar-row.md) | HTML structure for a bar with labels and values. | 107 | 2.1.92 | 2.1.92 |
+| [`system-prompt-div-class-bar-row-2.md`](../system-prompts/system-prompt-div-class-bar-row-2.md) | HTML structure for a bar with labels and values. | 104 | 2.1.92 | 2.1.92 |
+| [`system-prompt-simple-directed-codebase-searches.md`](../system-prompts/system-prompt-simple-directed-codebase-searches.md) | Use direct searches for specific files in codebases. | 104 | 2.1.92 | 2.1.92 |
+| [`system-prompt-task-notification-errors-output-2.md`](../system-prompts/system-prompt-task-notification-errors-output-2.md) | Notification of task loading errors. | 103 | 2.1.92 | 2.1.92 |
+| [`system-prompt-launch-handle-complex-tasks-2.md`](../system-prompts/system-prompt-launch-handle-complex-tasks-2.md) | Create an agent for autonomous multi-step task management. | 101 | 2.1.92 | 2.1.92 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.92 | 2.1.92 |
+| [`system-prompt-memory-name-feedback.md`](../system-prompts/system-prompt-memory-name-feedback.md) | Template for memory management with user feedback. | 86 | 2.1.92 | 2.1.92 |
+| [`system-prompt-evaluating-hook-condition.md`](../system-prompts/system-prompt-evaluating-hook-condition.md) | Determine if a condition is met in Claude Code. | 81 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-stable-version.md`](../system-prompts/system-prompt-npm-view-stable-version.md) | Check the stable version of a package using npm. | 81 | 2.1.92 | 2.1.92 |
+| [`system-prompt-waiting-for-agents-errors.md`](../system-prompts/system-prompt-waiting-for-agents-errors.md) | Monitoring agents for loading errors. | 80 | 2.1.92 | 2.1.92 |
+| [`system-prompt-loaded-errors-waiting-agents.md`](../system-prompts/system-prompt-loaded-errors-waiting-agents.md) | Handling loaded errors while waiting for agents. | 78 | 2.1.92 | 2.1.92 |
+| [`system-prompt-executable-command-issues.md`](../system-prompts/system-prompt-executable-command-issues.md) | Guidance on handling executable command errors. | 76 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stdio-anthropic-pid-errors.md`](../system-prompts/system-prompt-stdio-anthropic-pid-errors.md) | Handles stdio and errors in an anthropic context. | 76 | 2.1.92 | 2.1.92 |
+| [`system-prompt-continue-npm-view-version-conversation.md`](../system-prompts/system-prompt-continue-npm-view-version-conversation.md) | Resume the conversation without interruptions. | 74 | 2.1.92 | 2.1.92 |
+| [`system-prompt-custom-classifier-rules-critique.md`](../system-prompts/system-prompt-custom-classifier-rules-critique.md) | Critique of custom classifier rules provided. | 72 | 2.1.92 | 2.1.92 |
+| [`system-prompt-git-status-start-conversation.md`](../system-prompts/system-prompt-git-status-start-conversation.md) | Initial git status snapshot for the conversation. | 67 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-pid-stdio.md`](../system-prompts/system-prompt-npm-view-version-pid-stdio.md) | Fetches npm package version information. | 66 | 2.1.92 | 2.1.92 |
+| [`system-prompt-approved-plan-start-coding.md`](../system-prompts/system-prompt-approved-plan-start-coding.md) | User can now begin coding the approved plan. | 64 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-global-version-errors.md`](../system-prompts/system-prompt-npm-view-global-version-errors.md) | Check npm package version and handle errors. | 64 | 2.1.92 | 2.1.92 |
+| [`system-prompt-oauth-token-organization-error.md`](../system-prompts/system-prompt-oauth-token-organization-error.md) | Token organization does not match required settings. | 62 | 2.1.92 | 2.1.92 |
+| [`system-prompt-verify-repo-access-and-scope.md`](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | Verify repository name, access, and required GitHub token scopes. | 61 | 2.1.92 | 2.1.92 |
+| [`system-prompt-global-chat-autocomplete-help.md`](../system-prompts/system-prompt-global-chat-autocomplete-help.md) | Overview of global chat features and settings. | 59 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-global.md`](../system-prompts/system-prompt-npm-view-version-global.md) | Fetch the version of a global npm package. | 55 | 2.1.92 | 2.1.92 |
+| [`system-prompt-iterm-create-window-if-running.md`](../system-prompts/system-prompt-iterm-create-window-if-running.md) | Creates a new window in iTerm if it's running. | 53 | 2.1.92 | 2.1.92 |
+| [`system-prompt-implement-good-feedback-survey.md`](../system-prompts/system-prompt-implement-good-feedback-survey.md) | Plan for gathering good feedback. | 52 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-command-2.md`](../system-prompts/system-prompt-npm-view-version-command-2.md) | Explains the npm command for viewing package versions. | 52 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-package-version.md`](../system-prompts/system-prompt-npm-view-package-version.md) | Fetches the version of specified npm packages. | 50 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-stable.md`](../system-prompts/system-prompt-npm-view-version-stable.md) | Multiple prompts (2) | 46 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stdio-memory-warning.md`](../system-prompts/system-prompt-stdio-memory-warning.md) | Warning about partial loading of MEMORY.md. | 46 | 2.1.92 | 2.1.92 |
+| [`system-prompt-waiting-for-agents-npm-view.md`](../system-prompts/system-prompt-waiting-for-agents-npm-view.md) | Check the version of a specific npm package. | 45 | 2.1.92 | 2.1.92 |
+| [`system-prompt-deep-link-origin-npm-view.md`](../system-prompts/system-prompt-deep-link-origin-npm-view.md) | Fetches the version of a package from a deep link. | 40 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stable-npm-view-version-stdio-3.md`](../system-prompts/system-prompt-stable-npm-view-version-stdio-3.md) | Fetch stable version of a package using npm. | 40 | 2.1.92 | 2.1.92 |
+| [`system-prompt-dangerous-delete-operation-warning.md`](../system-prompts/system-prompt-dangerous-delete-operation-warning.md) | Warn that a command would remove a critical system directory and requires explicit approval. | 39 | 2.1.92 | 2.1.92 |
+| [`system-prompt-completed-task-notification.md`](../system-prompts/system-prompt-completed-task-notification.md) | Notification for completed task status. | 36 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stable-npm-view-version-stdio-2.md`](../system-prompts/system-prompt-stable-npm-view-version-stdio-2.md) | Fetch stable version info from npm. | 36 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-pid.md`](../system-prompts/system-prompt-npm-view-version-pid.md) | Fetches the version of a specific npm package. | 34 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stable-npm-view-version-stdio.md`](../system-prompts/system-prompt-stable-npm-view-version-stdio.md) | Multiple prompts (3) | 34 | 2.1.92 | 2.1.92 |
+| [`system-prompt-global-organization-authentication-token.md`](../system-prompts/system-prompt-global-organization-authentication-token.md) | Authentication token is tied to global organization. | 31 | 2.1.92 | 2.1.92 |
+| [`system-prompt-global-npm-view-version.md`](../system-prompts/system-prompt-global-npm-view-version.md) | Fetch the version of a global npm package. | 29 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-stdio-stable.md`](../system-prompts/system-prompt-npm-view-version-stdio-stable.md) | Fetches the stable version of a package. | 27 | 2.1.92 | 2.1.92 |
+| [`system-prompt-retrieved-possible-relevance-2.md`](../system-prompts/system-prompt-retrieved-possible-relevance-2.md) | Use only if it applies to the user's request. | 27 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-load-failed.md`](../system-prompts/system-prompt-npm-view-version-load-failed.md) | Error loading npm view version. | 26 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stable-npm-view-version-lines.md`](../system-prompts/system-prompt-stable-npm-view-version-lines.md) | View stable version lines in npm. | 25 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stable-npm-view-version.md`](../system-prompts/system-prompt-stable-npm-view-version.md) | Multiple prompts (7) | 25 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stdio-npm-view-version.md`](../system-prompts/system-prompt-stdio-npm-view-version.md) | Multiple prompts (2) | 25 | 2.1.92 | 2.1.92 |
+| [`system-prompt-stable-npm-view-version-2.md`](../system-prompts/system-prompt-stable-npm-view-version-2.md) | Check the stable version of a package. | 24 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-stream-json.md`](../system-prompts/system-prompt-npm-view-version-stream-json.md) | Fetches the version of a package in JSON format. | 20 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-global-version.md`](../system-prompts/system-prompt-npm-view-global-version.md) | Multiple prompts (2) | 18 | 2.1.92 | 2.1.92 |
+| [`system-prompt-npm-view-version-stdio.md`](../system-prompts/system-prompt-npm-view-version-stdio.md) | Multiple prompts (3) | 18 | 2.1.92 | 2.1.92 |
 | [`system-prompt-building-llm-applications-with-2.md`](../system-prompts/system-prompt-building-llm-applications-with-2.md) | Guide for creating applications using Claude's SDK. | 5,619 | 2.1.91 | 2.1.91 |
 | [`system-prompt-use-concepts-api-2.md`](../system-prompts/system-prompt-use-concepts-api-2.md) | Overview of tool use concepts in Claude API. | 4,069 | 2.1.91 | 2.1.91 |
 | [`system-prompt-trusted-repositories-data-handling.md`](../system-prompts/system-prompt-trusted-repositories-data-handling.md) | Defines trusted repositories and sensitive data management. | 3,382 | 2.1.91 | 2.1.91 |
 | [`system-prompt-verify-change-behavior-4.md`](../system-prompts/system-prompt-verify-change-behavior-4.md) | Confirm code changes by observing app behavior. | 2,205 | 2.1.91 | 2.1.91 |
 | [`system-prompt-webfetch-urls-for-current-data.md`](../system-prompts/system-prompt-webfetch-urls-for-current-data.md) | Fetch the latest information from specified URLs. | 1,936 | 2.1.91 | 2.1.91 |
-| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Guidelines for safely creating git commits. | 1,518 | 2.1.91 | 2.1.91 |
-| [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 1,363 | 2.1.91 | 2.1.91 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.91 | 2.1.91 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Prompts the human for small code contributions and tracks them in todos. | 1,137 | 2.1.91 | 2.1.91 |
-| [`system-prompt-user-group-role-expressions-2.md`](../system-prompts/system-prompt-user-group-role-expressions-2.md) | Defines user and group role expressions. | 1,016 | 2.1.91 | 2.1.91 |
-| [`system-prompt-json-array-value-regr-current.md`](../system-prompts/system-prompt-json-array-value-regr-current.md) | Functions and keywords related to JSON and arrays. | 1,000 | 2.1.91 | 2.1.91 |
 | [`system-prompt-user-assistance-security-testing.md`](../system-prompts/system-prompt-user-assistance-security-testing.md) | Guidance for authorized security testing and user actions. | 933 | 2.1.91 | 2.1.91 |
-| [`system-prompt-git-safety-protocols.md`](../system-prompts/system-prompt-git-safety-protocols.md) | Multiple prompts (2) | 739 | 2.1.91 | 2.1.91 |
-| [`system-prompt-new-cert-collection-chain-policy.md`](../system-prompts/system-prompt-new-cert-collection-chain-policy.md) | Creates a new certificate collection and chain policy. | 457 | 2.1.91 | 2.1.91 |
 | [`system-prompt-reference-documentation-languages.md`](../system-prompts/system-prompt-reference-documentation-languages.md) | Documentation for language-specific tasks and sections. | 432 | 2.1.91 | 2.1.91 |
 | [`system-prompt-file-reading.md`](../system-prompts/system-prompt-file-reading.md) | Multiple prompts (2) | 426 | 2.1.91 | 2.1.91 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.91 | 2.1.91 |
-| [`system-prompt-collapsible-feedback-section.md`](../system-prompts/system-prompt-collapsible-feedback-section.md) | Feedback suggestions for product and model teams. | 382 | 2.1.91 | 2.1.91 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for feature and patterns sections with copy actions and placeholders. | 345 | 2.1.91 | 2.1.91 |
 | [`system-prompt-select-useful-memories-for-query.md`](../system-prompts/system-prompt-select-useful-memories-for-query.md) | Identify relevant memories for user queries. | 262 | 2.1.91 | 2.1.91 |
 | [`system-prompt-bash-cwd-file-paths.md`](../system-prompts/system-prompt-bash-cwd-file-paths.md) | Guidelines for using file paths in Bash tool. | 160 | 2.1.91 | 2.1.91 |
-| [`system-prompt-write-file-to-local-filesystem-2.md`](../system-prompts/system-prompt-write-file-to-local-filesystem-2.md) | Writes a file to the local filesystem with checks. | 145 | 2.1.91 | 2.1.91 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.91 | 2.1.91 |
 | [`system-prompt-bash-restricted-read-only-commands.md`](../system-prompts/system-prompt-bash-restricted-read-only-commands.md) | Exploration limited to read-only bash commands. | 104 | 2.1.91 | 2.1.91 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.91 | 2.1.91 |
-| [`system-prompt-memory-name-feedback.md`](../system-prompts/system-prompt-memory-name-feedback.md) | Template for memory management with user feedback. | 86 | 2.1.91 | 2.1.91 |
 | [`system-prompt-ask-what-to-clarify.md`](../system-prompts/system-prompt-ask-what-to-clarify.md) | Ask what the user wants clarified and restate questions with new context. | 67 | 2.1.91 | 2.1.91 |
 | [`system-prompt-finish-plan-no-more-questions.md`](../system-prompts/system-prompt-finish-plan-no-more-questions.md) | Directs stopping clarifications and completing the plan using provided answers. | 46 | 2.1.91 | 2.1.91 |
 | [`system-prompt-redirections-management-automation.md`](../system-prompts/system-prompt-redirections-management-automation.md) | Handles command parsing and error management. | 3,497 | 2.1.90 | 2.1.90 |
 | [`system-prompt-monitor-autonomous-coding.md`](../system-prompts/system-prompt-monitor-autonomous-coding.md) | Evaluate actions of coding agents for security risks. | 3,195 | 2.1.90 | 2.1.90 |
 | [`system-prompt-verification-specialist-checks-tests.md`](../system-prompts/system-prompt-verification-specialist-checks-tests.md) | Role focused on breaking verification processes. | 3,035 | 2.1.90 | 2.1.90 |
-| [`system-prompt-saving-memories-guide-6.md`](../system-prompts/system-prompt-saving-memories-guide-6.md) | Steps for effectively saving memories. | 353 | 2.1.90 | 2.1.90 |
 | [`system-prompt-memory-extraction-bash-update.md`](../system-prompts/system-prompt-memory-extraction-bash-update.md) | Extract and update memory using recent messages. | 349 | 2.1.90 | 2.1.90 |
 | [`system-prompt-api-keys-and-headers.md`](../system-prompts/system-prompt-api-keys-and-headers.md) | List of various API keys and headers. | 235 | 2.1.90 | 2.1.90 |
 | [`system-prompt-how-to-save-memories.md`](../system-prompts/system-prompt-how-to-save-memories.md) | Guidelines for organizing and updating memories. | 198 | 2.1.90 | 2.1.90 |
 | [`system-prompt-aws-proxy-settings.md`](../system-prompts/system-prompt-aws-proxy-settings.md) | Configuration settings for Claude Code with AWS and proxy. | 194 | 2.1.90 | 2.1.90 |
-| [`system-prompt-task-notification-errors-output-2.md`](../system-prompts/system-prompt-task-notification-errors-output-2.md) | Notification of task loading errors. | 103 | 2.1.90 | 2.1.90 |
-| [`system-prompt-implement-good-feedback-survey.md`](../system-prompts/system-prompt-implement-good-feedback-survey.md) | Plan for gathering good feedback. | 52 | 2.1.90 | 2.1.90 |
-| [`system-prompt-retrieved-possible-relevance.md`](../system-prompts/system-prompt-retrieved-possible-relevance.md) | Use only if it applies to the user's request. | 32 | 2.1.90 | 2.1.90 |
 | [`system-prompt-update-config.md`](../system-prompts/system-prompt-update-config.md) | Modify settings.json for automated hooks. | 4,610 | 2.1.89 | 2.1.89 |
 | [`system-prompt-caching-design-optimization-2.md`](../system-prompts/system-prompt-caching-design-optimization-2.md) | Guidelines for effective prompt caching design. | 2,826 | 2.1.89 | 2.1.89 |
 | [`system-prompt-mcp-selection-for-apps.md`](../system-prompts/system-prompt-mcp-selection-for-apps.md) | Guidelines for selecting the appropriate MCP tool. | 1,221 | 2.1.89 | 2.1.89 |
 | [`system-prompt-settings-file-locations-and-permissions-2.md`](../system-prompts/system-prompt-settings-file-locations-and-permissions-2.md) | Overview of settings file locations and permissions. | 796 | 2.1.89 | 2.1.89 |
-| [`system-prompt-usage-strategies.md`](../system-prompts/system-prompt-usage-strategies.md) | Strategies for effective agent usage. | 560 | 2.1.89 | 2.1.89 |
 | [`system-prompt-thunder-biscuit-void-accordion-moss.md`](../system-prompts/system-prompt-thunder-biscuit-void-accordion-moss.md) | A collection of evocative words and imagery. | 435 | 2.1.89 | 2.1.89 |
-| [`system-prompt-snapshot-file-guidelines.md`](../system-prompts/system-prompt-snapshot-file-guidelines.md) | Guidelines for handling code changes and features. | 429 | 2.1.89 | 2.1.89 |
 | [`system-prompt-coding-companions-creation.md`](../system-prompts/system-prompt-coding-companions-creation.md) | Invent unique coding companions with distinct names and quirks. | 201 | 2.1.89 | 2.1.89 |
-| [`system-prompt-user-insights-report-stdout.md`](../system-prompts/system-prompt-user-insights-report-stdout.md) | Generated usage report with insights data. | 138 | 2.1.89 | 2.1.89 |
 | [`system-prompt-when-not-to-use-2.md`](../system-prompts/system-prompt-when-not-to-use-2.md) | Guidelines for using the Read tool over the Agent tool. | 132 | 2.1.89 | 2.1.89 |
 | [`system-prompt-read-specific-file-content-2.md`](../system-prompts/system-prompt-read-specific-file-content-2.md) | Read file content in chunks and summarize portions. | 130 | 2.1.89 | 2.1.89 |
 | [`system-prompt-redirect-detected.md`](../system-prompts/system-prompt-redirect-detected.md) | Instruction to refetch a redirected URL using updated WebFetch parameters. | 97 | 2.1.89 | 2.1.89 |
-| [`system-prompt-launch-for-complex-tasks.md`](../system-prompts/system-prompt-launch-for-complex-tasks.md) | Create an agent to manage complex tasks autonomously. | 94 | 2.1.89 | 2.1.89 |
 | [`system-prompt-token-verification-error.md`](../system-prompts/system-prompt-token-verification-error.md) | Error verifying organization due to token scope issues. | 86 | 2.1.89 | 2.1.89 |
-| [`system-prompt-oauth-token-organization-error.md`](../system-prompts/system-prompt-oauth-token-organization-error.md) | Token organization does not match required settings. | 62 | 2.1.89 | 2.1.89 |
 | [`system-prompt-replace-string-found-waiting.md`](../system-prompts/system-prompt-replace-string-found-waiting.md) | Instructions for replacing string occurrences. | 60 | 2.1.89 | 2.1.89 |
 | [`system-prompt-err-on-side-of-blocking.md`](../system-prompts/system-prompt-err-on-side-of-blocking.md) | Prioritize blocking over user intent. | 48 | 2.1.89 | 2.1.89 |
 | [`system-prompt-force-login-org-uuid-empty.md`](../system-prompts/system-prompt-force-login-org-uuid-empty.md) | Misconfiguration of organization settings detected. | 37 | 2.1.89 | 2.1.89 |
-| [`system-prompt-global-organization-authentication-token.md`](../system-prompts/system-prompt-global-organization-authentication-token.md) | Authentication token is tied to global organization. | 31 | 2.1.89 | 2.1.89 |
 | [`system-prompt-waiting-for-agents-merge-base.md`](../system-prompts/system-prompt-waiting-for-agents-merge-base.md) | Issue with finding merge-base in git repository. | 30 | 2.1.89 | 2.1.89 |
 | [`system-prompt-no-changes-against-fork.md`](../system-prompts/system-prompt-no-changes-against-fork.md) | No changes detected at the fork point. | 20 | 2.1.89 | 2.1.89 |
 | [`system-prompt-powershell-command-execution-2.md`](../system-prompts/system-prompt-powershell-command-execution-2.md) | Executes PowerShell commands with specific constraints. | 1,636 | 2.1.88 | 2.1.88 |
@@ -92,11 +152,9 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-event-handling-terms.md`](../system-prompts/system-prompt-event-handling-terms.md) | List of key event handling terms. | 122 | 2.1.88 | 2.1.88 |
 | [`system-prompt-powershell-unknown-edition.md`](../system-prompts/system-prompt-powershell-unknown-edition.md) | Assume Windows PowerShell for compatibility. | 107 | 2.1.88 | 2.1.88 |
 | [`system-prompt-json-command-input-retry-exit.md`](../system-prompts/system-prompt-json-command-input-retry-exit.md) | Handles JSON command inputs and exit codes. | 85 | 2.1.88 | 2.1.88 |
-| [`system-prompt-git-status-at-start.md`](../system-prompts/system-prompt-git-status-at-start.md) | Records a snapshot of initial branch, status, and recent commits. | 72 | 2.1.88 | 2.1.88 |
 | [`system-prompt-github-permission-troubleshooting.md`](../system-prompts/system-prompt-github-permission-troubleshooting.md) | Provide quick fixes for common GitHub CLI permission and authorization issues. | 54 | 2.1.88 | 2.1.88 |
 | [`system-prompt-github-repo-access-help.md`](../system-prompts/system-prompt-github-repo-access-help.md) | List common GitHub CLI repository access errors and the steps to resolve them. | 52 | 2.1.88 | 2.1.88 |
 | [`system-prompt-ask-user-open-url-authorize-server.md`](../system-prompts/system-prompt-ask-user-open-url-authorize-server.md) | Request user to open a URL for server authorization. | 46 | 2.1.88 | 2.1.88 |
-| [`system-prompt-task-notification-status-summary.md`](../system-prompts/system-prompt-task-notification-status-summary.md) | Notification for completed background tasks. | 40 | 2.1.88 | 2.1.88 |
 | [`system-prompt-recent-messages-summary-analysis.md`](../system-prompts/system-prompt-recent-messages-summary-analysis.md) | Create a summary of recent conversation messages. | 942 | 2.1.86 | 2.1.86 |
 | [`system-prompt-software-engineering-tasks.md`](../system-prompts/system-prompt-software-engineering-tasks.md) | Assist users with various coding tasks and modifications. | 668 | 2.1.86 | 2.1.86 |
 | [`system-prompt-dont-add-unrequested-features.md`](../system-prompts/system-prompt-dont-add-unrequested-features.md) | Guidelines for minimal code changes. | 501 | 2.1.86 | 2.1.86 |
@@ -105,28 +163,22 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-validation-issues-and-fixes.md`](../system-prompts/system-prompt-validation-issues-and-fixes.md) | Guidelines for handling validation issues in code. | 374 | 2.1.86 | 2.1.86 |
 | [`system-prompt-complete-task-with-multiple-files.md`](../system-prompts/system-prompt-complete-task-with-multiple-files.md) | Ensure tasks are fully completed with essential reports. | 271 | 2.1.86 | 2.1.86 |
 | [`system-prompt-don-t-add-unrequested-features.md`](../system-prompts/system-prompt-don-t-add-unrequested-features.md) | Multiple prompts (11) | 195 | 2.1.86 | 2.1.86 |
-| [`system-prompt-directory-commands-with-spaces.md`](../system-prompts/system-prompt-directory-commands-with-spaces.md) | Guidelines for handling directories and file paths. | 188 | 2.1.86 | 2.1.86 |
 | [`system-prompt-remote-review-failed-notification-2.md`](../system-prompts/system-prompt-remote-review-failed-notification-2.md) | Notification for a failed remote review task. | 118 | 2.1.86 | 2.1.86 |
 | [`system-prompt-ultrareview-launch-notification.md`](../system-prompts/system-prompt-ultrareview-launch-notification.md) | Acknowledge the launch of Ultrareview with errors. | 84 | 2.1.86 | 2.1.86 |
 | [`system-prompt-branch-ship-readiness-audit.md`](../system-prompts/system-prompt-branch-ship-readiness-audit.md) | Audit remaining tasks before branch shipping. | 600 | 2.1.85 | 2.1.85 |
-| [`system-prompt-github-anthropics-path.md`](../system-prompts/system-prompt-github-anthropics-path.md) | Access paths for Anthropics on GitHub. | 482 | 2.1.85 | 2.1.85 |
-| [`system-prompt-remote-task-notification.md`](../system-prompts/system-prompt-remote-task-notification.md) | Notification for a remote task execution. | 105 | 2.1.85 | 2.1.85 |
 | [`system-prompt-memory-user-project-team.md`](../system-prompts/system-prompt-memory-user-project-team.md) | Persistent memory for user and team collaboration. | 3,064 | 2.1.84 | 2.1.84 |
 | [`system-prompt-user-memory-project-work.md`](../system-prompts/system-prompt-user-memory-project-work.md) | Build a memory system for user collaboration. | 2,619 | 2.1.84 | 2.1.84 |
 | [`system-prompt-structured-coding-todo-list.md`](../system-prompts/system-prompt-structured-coding-todo-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,433 | 2.1.84 | 2.1.84 |
 | [`system-prompt-guide-scope-docs.md`](../system-prompts/system-prompt-guide-scope-docs.md) | Multiple prompts (2) | 755 | 2.1.84 | 2.1.84 |
 | [`system-prompt-advisor-call-approach.md`](../system-prompts/system-prompt-advisor-call-approach.md) | Use the advisor tool before starting substantive work. | 436 | 2.1.84 | 2.1.84 |
-| [`system-prompt-chat-app-navigation-commands.md`](../system-prompts/system-prompt-chat-app-navigation-commands.md) | Commands for navigating chat and app features. | 405 | 2.1.84 | 2.1.84 |
 | [`system-prompt-greeting-responder-example.md`](../system-prompts/system-prompt-greeting-responder-example.md) | Example of using a greeting responder agent. | 318 | 2.1.84 | 2.1.84 |
 | [`system-prompt-trading-platforms-comparison.md`](../system-prompts/system-prompt-trading-platforms-comparison.md) | Overview of various trading platforms and services. | 216 | 2.1.84 | 2.1.84 |
 | [`system-prompt-avoid-sleep-commands-in-background.md`](../system-prompts/system-prompt-avoid-sleep-commands-in-background.md) | Guidelines for managing sleep commands in background tasks. | 182 | 2.1.84 | 2.1.84 |
 | [`system-prompt-emojis-user-requests-only.md`](../system-prompts/system-prompt-emojis-user-requests-only.md) | Use emojis only when requested by the user. | 175 | 2.1.84 | 2.1.84 |
 | [`system-prompt-run-start-register-python-invoke.md`](../system-prompts/system-prompt-run-start-register-python-invoke.md) | Commands for running and registering processes in Python. | 149 | 2.1.84 | 2.1.84 |
 | [`system-prompt-studio-visual-terminal.md`](../system-prompts/system-prompt-studio-visual-terminal.md) | A list of various terminal and code editor options. | 140 | 2.1.84 | 2.1.84 |
-| [`system-prompt-interactive-task-notification.md`](../system-prompts/system-prompt-interactive-task-notification.md) | Notification for handling blocked interactive tasks. | 122 | 2.1.84 | 2.1.84 |
 | [`system-prompt-music-and-media-services.md`](../system-prompts/system-prompt-music-and-media-services.md) | List of various music and media platforms. | 107 | 2.1.84 | 2.1.84 |
 | [`system-prompt-task-exit-handling.md`](../system-prompts/system-prompt-task-exit-handling.md) | Multiple prompts (2) | 74 | 2.1.84 | 2.1.84 |
-| [`system-prompt-approved-plan-start-coding.md`](../system-prompts/system-prompt-approved-plan-start-coding.md) | User can now begin coding the approved plan. | 64 | 2.1.84 | 2.1.84 |
 | [`system-prompt-server-instance-not-wired.md`](../system-prompts/system-prompt-server-instance-not-wired.md) | Computer server instance lacks session connection. | 27 | 2.1.84 | 2.1.84 |
 | [`system-prompt-java-sdk-anthropic-api-setup.md`](../system-prompts/system-prompt-java-sdk-anthropic-api-setup.md) | Instructions for setting up the Java SDK for Claude API. | 4,470 | 2.1.83 | 2.1.83 |
 | [`system-prompt-new-messages-role-content-text.md`](../system-prompts/system-prompt-new-messages-role-content-text.md) | Overview of using the Claude API for message handling. | 4,305 | 2.1.83 | 2.1.83 |
@@ -145,22 +197,16 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-plist-xml.md`](../system-prompts/system-prompt-plist-xml.md) | XML structure for Claude Code URL handler. | 408 | 2.1.83 | 2.1.83 |
 | [`system-prompt-send-message-to.md`](../system-prompts/system-prompt-send-message-to.md) | Send a message to another agent. | 372 | 2.1.83 | 2.1.83 |
 | [`system-prompt-saving-memories-in-steps.md`](../system-prompts/system-prompt-saving-memories-in-steps.md) | A guide for saving memories in a structured format. | 347 | 2.1.83 | 2.1.83 |
-| [`system-prompt-repository-setup.md`](../system-prompts/system-prompt-repository-setup.md) | Instructions for setting up a Claude Code repository. | 318 | 2.1.83 | 2.1.83 |
 | [`system-prompt-saving-memories-structure.md`](../system-prompts/system-prompt-saving-memories-structure.md) | Guide for organizing and updating memory files. | 201 | 2.1.83 | 2.1.83 |
 | [`system-prompt-when-to-access-memories-2.md`](../system-prompts/system-prompt-when-to-access-memories-2.md) | Guidelines for accessing user memories. | 180 | 2.1.83 | 2.1.83 |
-| [`system-prompt-planning-context-reminders.md`](../system-prompts/system-prompt-planning-context-reminders.md) | Reminders and modes for planning context. | 176 | 2.1.83 | 2.1.83 |
 | [`system-prompt-env-command-file-watch-exit.md`](../system-prompts/system-prompt-env-command-file-watch-exit.md) | Handles file events and environment exports. | 121 | 2.1.83 | 2.1.83 |
 | [`system-prompt-command-cwd-env-exit-input.md`](../system-prompts/system-prompt-command-cwd-env-exit-input.md) | Handles command execution with environment settings. | 93 | 2.1.83 | 2.1.83 |
-| [`system-prompt-global-memory-warning-stdio.md`](../system-prompts/system-prompt-global-memory-warning-stdio.md) | Warning about memory loading limitations. | 41 | 2.1.83 | 2.1.83 |
 | [`system-prompt-setup-skills-hooks.md`](../system-prompts/system-prompt-setup-skills-hooks.md) | Guide for setting up CLAUDE.md and related skills. | 4,884 | 2.1.81 | 2.1.81 |
-| [`system-prompt-schedule-remote-agents-4.md`](../system-prompts/system-prompt-schedule-remote-agents-4.md) | Help users manage remote Claude Code agents. | 2,395 | 2.1.81 | 2.1.81 |
-| [`system-prompt-schedule-remote-agents-3.md`](../system-prompts/system-prompt-schedule-remote-agents-3.md) | Manage scheduling for remote Claude Code agents. | 2,146 | 2.1.81 | 2.1.81 |
 | [`system-prompt-parallel-work-orchestration-plan-2.md`](../system-prompts/system-prompt-parallel-work-orchestration-plan-2.md) | Orchestrate a large change across the codebase. | 1,387 | 2.1.81 | 2.1.81 |
 | [`system-prompt-parallel-work-orchestration-plan.md`](../system-prompts/system-prompt-parallel-work-orchestration-plan.md) | Orchestrate a large change across the codebase. | 1,122 | 2.1.81 | 2.1.81 |
 | [`system-prompt-review-and-cleanup.md`](../system-prompts/system-prompt-review-and-cleanup.md) | Review code changes for quality and efficiency. | 931 | 2.1.81 | 2.1.81 |
 | [`system-prompt-auto-mode-classifier-rules-review.md`](../system-prompts/system-prompt-auto-mode-classifier-rules-review.md) | Evaluate clarity and completeness of classifier rules. | 270 | 2.1.81 | 2.1.81 |
 | [`system-prompt-remote-review-completed-notification.md`](../system-prompts/system-prompt-remote-review-completed-notification.md) | Notification for completed remote review task. | 88 | 2.1.81 | 2.1.81 |
-| [`system-prompt-classifier-custom-rules.md`](../system-prompts/system-prompt-classifier-custom-rules.md) | Critique of custom classifier rules. | 67 | 2.1.81 | 2.1.81 |
 | [`system-prompt-user-configuration.md`](../system-prompts/system-prompt-user-configuration.md) | User's configuration instructions for Claude. | 60 | 2.1.80 | 2.1.80 |
 | [`system-prompt-authenticate-account-first.md`](../system-prompts/system-prompt-authenticate-account-first.md) | User must authenticate with a claude.ai account. | 35 | 2.1.80 | 2.1.80 |
 | [`system-prompt-no-remote-environments-found.md`](../system-prompts/system-prompt-no-remote-environments-found.md) | No remote environments available for creation. | 35 | 2.1.80 | 2.1.80 |
@@ -188,13 +234,10 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-plan-mode-active-user-guidance.md`](../system-prompts/system-prompt-plan-mode-active-user-guidance.md) | User is in planning mode and no changes are allowed. | 792 | 2.1.77 | 2.1.77 |
 | [`system-prompt-files-api-typescript-overview.md`](../system-prompts/system-prompt-files-api-typescript-overview.md) | Overview of the Files API for file uploads. | 747 | 2.1.77 | 2.1.77 |
 | [`system-prompt-git-commit-changes-message-create.md`](../system-prompts/system-prompt-git-commit-changes-message-create.md) | Guidelines for creating git commits safely. | 501 | 2.1.77 | 2.1.77 |
-| [`system-prompt-bfs-grep-find-function.md`](../system-prompts/system-prompt-bfs-grep-find-function.md) | Functions for find and grep with OS type handling. | 385 | 2.1.77 | 2.1.77 |
 | [`system-prompt-webfetch-auth-url-warning.md`](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | Warns WebFetch fails on authenticated URLs and suggests using an authenticated tool. | 361 | 2.1.77 | 2.1.77 |
-| [`system-prompt-remote-control-sessions.md`](../system-prompts/system-prompt-remote-control-sessions.md) | Control local sessions remotely with Claude. | 353 | 2.1.77 | 2.1.77 |
 | [`system-prompt-simplify-and-test-changes.md`](../system-prompts/system-prompt-simplify-and-test-changes.md) | Steps to simplify and test code changes. | 267 | 2.1.77 | 2.1.77 |
 | [`system-prompt-send-user-message-protocol.md`](../system-prompts/system-prompt-send-user-message-protocol.md) | Guidelines for communicating with the user effectively. | 262 | 2.1.77 | 2.1.77 |
 | [`system-prompt-debug-user-issue.md`](../system-prompts/system-prompt-debug-user-issue.md) | Assist in resolving user issues during Claude Code sessions. | 249 | 2.1.77 | 2.1.77 |
-| [`system-prompt-function-argument-handling.md`](../system-prompts/system-prompt-function-argument-handling.md) | Handles arguments based on OS type. | 190 | 2.1.77 | 2.1.77 |
 | [`system-prompt-interval-check-deploy-defaults.md`](../system-prompts/system-prompt-interval-check-deploy-defaults.md) | Multiple prompts (2) | 185 | 2.1.77 | 2.1.77 |
 | [`system-prompt-fix-login-button-title.md`](../system-prompts/system-prompt-fix-login-button-title.md) | Generate a clear title for coding sessions. | 182 | 2.1.77 | 2.1.77 |
 | [`system-prompt-next-status-poll-register.md`](../system-prompts/system-prompt-next-status-poll-register.md) | Commands for managing polling and registration status. | 179 | 2.1.77 | 2.1.77 |
@@ -207,9 +250,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-final-plan-file-write.md`](../system-prompts/system-prompt-final-plan-file-write.md) | Create a concise final plan for file modifications. | 125 | 2.1.77 | 2.1.77 |
 | [`system-prompt-docker-commands-overview.md`](../system-prompts/system-prompt-docker-commands-overview.md) | A collection of useful Docker and system commands. | 117 | 2.1.77 | 2.1.77 |
 | [`system-prompt-block-action-output-reason-allowed.md`](../system-prompts/system-prompt-block-action-output-reason-allowed.md) | Defines output format for blocking or allowing actions. | 110 | 2.1.77 | 2.1.77 |
-| [`system-prompt-useful-shell-environment-info.md`](../system-prompts/system-prompt-useful-shell-environment-info.md) | Information about the current shell environment. | 109 | 2.1.77 | 2.1.77 |
-| [`system-prompt-html-progress-bar-row.md`](../system-prompts/system-prompt-html-progress-bar-row.md) | HTML snippet template for rendering a labeled progress bar row with fill width and color. | 107 | 2.1.77 | 2.1.77 |
-| [`system-prompt-simple-directed-codebase-searches.md`](../system-prompts/system-prompt-simple-directed-codebase-searches.md) | Use direct searches for specific files in codebases. | 104 | 2.1.77 | 2.1.77 |
 | [`system-prompt-final-plan-file-paths.md`](../system-prompts/system-prompt-final-plan-file-paths.md) | Outline the final plan and file modifications. | 103 | 2.1.77 | 2.1.77 |
 | [`system-prompt-api-anthropic-sdk-trigger.md`](../system-prompts/system-prompt-api-anthropic-sdk-trigger.md) | Trigger conditions for using Claude API and SDK. | 98 | 2.1.77 | 2.1.77 |
 | [`system-prompt-file-operations-using-tools.md`](../system-prompts/system-prompt-file-operations-using-tools.md) | Use dedicated tools for file operations. | 98 | 2.1.77 | 2.1.77 |
@@ -223,7 +263,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-async-launched-successfully.md`](../system-prompts/system-prompt-async-launched-successfully.md) | Agent launched and running in the background. | 66 | 2.1.77 | 2.1.77 |
 | [`system-prompt-message-arrived-while-working.md`](../system-prompts/system-prompt-message-arrived-while-working.md) | A message from an external channel is received. | 66 | 2.1.77 | 2.1.77 |
 | [`system-prompt-batch-change.md`](../system-prompts/system-prompt-batch-change.md) | Instruction for making batch changes. | 65 | 2.1.77 | 2.1.77 |
-| [`system-prompt-continue-conversation-where-left-off.md`](../system-prompts/system-prompt-continue-conversation-where-left-off.md) | Resume the conversation seamlessly without interruptions. | 64 | 2.1.77 | 2.1.77 |
 | [`system-prompt-missed-one-shot-tasks.md`](../system-prompts/system-prompt-missed-one-shot-tasks.md) | Identify and confirm missed tasks for execution. | 62 | 2.1.77 | 2.1.77 |
 | [`system-prompt-git-repo-required-error.md`](../system-prompts/system-prompt-git-repo-required-error.md) | Error indicating a missing git repository. | 53 | 2.1.77 | 2.1.77 |
 | [`system-prompt-loaded-errors-user-note-next.md`](../system-prompts/system-prompt-loaded-errors-user-note-next.md) | User may provide corrections or preferences. | 52 | 2.1.77 | 2.1.77 |
@@ -242,11 +281,8 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-interactive-question-guidance.md`](../system-prompts/system-prompt-interactive-question-guidance.md) | Instructs when and how to ask users clarifying questions during execution and plan mode. | 276 | 2.1.49 | 2.1.49 |
 | [`system-prompt-bash-function-snapshot.md`](../system-prompts/system-prompt-bash-function-snapshot.md) | Captures shell function definitions into a snapshot file using declare and base64 encoding. | 224 | 2.1.49 | 2.1.49 |
 | [`system-prompt-handle-permission-denials.md`](../system-prompts/system-prompt-handle-permission-denials.md) | Handle denied tool permission by using safe alternatives or requesting access if required. | 160 | 2.1.49 | 2.1.49 |
-| [`system-prompt-terminal-shift-enter-shortcut.md`](../system-prompts/system-prompt-terminal-shift-enter-shortcut.md) | Instructions for configuring Shift+Enter multiline shortcut outside tmux in a terminal. | 153 | 2.1.49 | 2.1.49 |
 | [`system-prompt-teammate-task-claiming-order.md`](../system-prompts/system-prompt-teammate-task-claiming-order.md) | Guidelines for finding, prioritizing, and claiming available work items. | 147 | 2.1.49 | 2.1.49 |
-| [`system-prompt-interruptible-wait-duration.md`](../system-prompts/system-prompt-interruptible-wait-duration.md) | Sleep for a specified duration with user-interruptible wakeups and periodic tick check-ins. | 143 | 2.1.49 | 2.1.49 |
 | [`system-prompt-zsh-function-snapshot.md`](../system-prompts/system-prompt-zsh-function-snapshot.md) | Writes Zsh function definitions into a snapshot file using typeset and filtering rules. | 140 | 2.1.49 | 2.1.49 |
-| [`system-prompt-apply-file-improvements.md`](../system-prompts/system-prompt-apply-file-improvements.md) | Merge specified improvements into an existing skill file while preserving formatting and frontmatter. | 124 | 2.1.49 | 2.1.49 |
 | [`system-prompt-plan-mode-workflow-steps.md`](../system-prompts/system-prompt-plan-mode-workflow-steps.md) | Explains the steps and expectations for exploring, planning, and exiting plan mode. | 123 | 2.1.49 | 2.1.49 |
 | [`system-prompt-stop-after-rejection.md`](../system-prompts/system-prompt-stop-after-rejection.md) | Stops work when the user rejects a tool action and waits for guidance. | 99 | 2.1.49 | 2.1.49 |
 | [`system-prompt-generate-kebab-case-name.md`](../system-prompts/system-prompt-generate-kebab-case-name.md) | Instructs generating a short lowercase kebab-case conversation name in JSON. | 81 | 2.1.49 | 2.1.49 |
@@ -262,7 +298,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-use-user-answers-to-continue.md`](../system-prompts/system-prompt-use-user-answers-to-continue.md) | States the user answered questions and future work should use their answers. | 25 | 2.1.49 | 2.1.49 |
 | [`system-prompt-browser-timeout-extension.md`](../system-prompts/system-prompt-browser-timeout-extension.md) | Instructs to open Chrome with the Claude extension after a browser timeout. | 22 | 2.1.49 | 2.1.49 |
 | [`system-prompt-no-other-browsers-available.md`](../system-prompts/system-prompt-no-other-browsers-available.md) | Says there are no other browsers to switch to and suggests opening Chrome elsewhere. | 20 | 2.1.49 | 2.1.49 |
-| [`system-prompt-update-definition-files.md`](../system-prompts/system-prompt-update-definition-files.md) | Edit skill definition files to incorporate user preferences and output only the updated content. | 17 | 2.1.49 | 2.1.49 |
 | [`system-prompt-cite-with-limited-quotes-2.md`](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.1.47 |
 | [`system-prompt-collect-process-commandline-chain.md`](../system-prompts/system-prompt-collect-process-commandline-chain.md) | Iterate up parent processes to collect command lines and join into one string. | 174 | 2.1.23 | 2.1.38 |
 | [`system-prompt-list-process-ancestor-pids.md`](../system-prompts/system-prompt-list-process-ancestor-pids.md) | Walk up parent process IDs to build and output a comma-separated ancestor list. | 144 | 2.1.23 | 2.1.38 |
@@ -275,9 +310,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-authorized-security-rules.md`](../system-prompts/system-prompt-authorized-security-rules.md) | Security assistance policy emphasizing authorization limits and no URL guessing. | 179 | 2.1.32 | 2.1.32 |
 | [`system-prompt-use-scratchpad-directory.md`](../system-prompts/system-prompt-use-scratchpad-directory.md) | Require all temporary files be written to the session scratchpad directory. | 160 | 2.1.32 | 2.1.32 |
 | [`system-prompt-install-cursor-keybinding-locally-2.md`](../system-prompts/system-prompt-install-cursor-keybinding-locally-2.md) | Install Cursor Shift+Enter keybinding locally via Keyboard Shortcuts JSON array edit | 137 | 2.1.32 | 2.1.32 |
-| [`system-prompt-progress-bar-row-html.md`](../system-prompts/system-prompt-progress-bar-row-html.md) | HTML progress bar row with label, width percentage, color, and displayed value. | 109 | 2.1.32 | 2.1.32 |
-| [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 85 | 2.1.32 | 2.1.32 |
-| [`system-prompt-dangerous-delete-operation-warning.md`](../system-prompts/system-prompt-dangerous-delete-operation-warning.md) | Block auto-approval when … would delete a critical system directory, requiring explicit consent. | 39 | 2.1.32 | 2.1.32 |
 | [`system-prompt-spawn-and-cleanup-team.md`](../system-prompts/system-prompt-spawn-and-cleanup-team.md) | Define operations to create a team and remove team and task directories. | 19 | 2.1.32 | 2.1.32 |
 | [`system-prompt-extract-session-analytics.md`](../system-prompts/system-prompt-extract-session-analytics.md) | Guidelines to extract and count user goals, satisfaction signals, and friction types from session. | 581 | 2.1.30 | 2.1.30 |
 | [`system-prompt-at-a-glance-html-section.md`](../system-prompts/system-prompt-at-a-glance-html-section.md) | At-a-glance HTML dashboard with four linked sections summarizing wins, friction, quick wins, horizons. | 298 | 2.1.30 | 2.1.30 |
@@ -290,17 +322,13 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-handle-subagent-exit-codes.md`](../system-prompts/system-prompt-handle-subagent-exit-codes.md) | Routes stdout and stderr visibility based on subagent exit codes from a JSON command input. | 71 | 2.1.26 | 2.1.26 |
 | [`system-prompt-invoke-matching.md`](../system-prompts/system-prompt-invoke-matching.md) | Invoke the appropriate skill when a user request matches one. | 323 | 2.1.23 | 2.1.23 |
 | [`system-prompt-session-title-and-branch.md`](../system-prompts/system-prompt-session-title-and-branch.md) | Generates a concise session title and a claude-prefixed git branch name from a description. | 319 | 2.1.20 | 2.1.20 |
-| [`system-prompt-hook-evaluation-json-response.md`](../system-prompts/system-prompt-hook-evaluation-json-response.md) | Hook evaluator requiring a JSON ok result with an optional failure reason. | 81 | 2.1.20 | 2.1.20 |
-| [`system-prompt-verify-repo-access-and-scope.md`](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | Validate GitHub repository name, access permissions, and token scopes for private repos. | 61 | 1.0.25 | 2.1.19 |
 | [`system-prompt-spawn-confirmation.md`](../system-prompts/system-prompt-spawn-confirmation.md) | Confirms an agent was spawned and shows its id, name, and team. | 50 | 2.1.16 | 2.1.16 |
 | [`system-prompt-predict-user-next-message.md`](../system-prompts/system-prompt-predict-user-next-message.md) | Predicts the next thing the user would naturally type next. | 299 | 2.0.73 | 2.1.14 |
 | [`system-prompt-load-chrome-mcp-tools-first.md`](../system-prompts/system-prompt-load-chrome-mcp-tools-first.md) | Require ToolSearch loading of Claude-in-Chrome MCP tools before calling them. | 168 | 2.1.14 | 2.1.14 |
 | [`system-prompt-json-triggered-command-exit-handling.md`](../system-prompts/system-prompt-json-triggered-command-exit-handling.md) | Defines JSON trigger input and how to handle stdout and stderr by exit code. | 42 | 2.1.10 | 2.1.10 |
 | [`system-prompt-chrome-automation-guidelines.md`](../system-prompts/system-prompt-chrome-automation-guidelines.md) | Guidelines for using Claude-in-Chrome tools including GIF recording and console log filtering. | 798 | 2.1.7 | 2.1.7 |
-| [`system-prompt-rank-sessions-by-query.md`](../system-prompts/system-prompt-rank-sessions-by-query.md) | Guides selecting the most relevant sessions for a query, prioritizing tag matches. | 477 | 2.1.6 | 2.1.6 |
 | [`system-prompt-write-command-descriptions.md`](../system-prompts/system-prompt-write-command-descriptions.md) | Rules for generating clear active-voice descriptions of shell commands. | 211 | 2.1.3 | 2.1.3 |
 | [`system-prompt-implementation-insights.md`](../system-prompts/system-prompt-implementation-insights.md) | Enforces brief pre/post code educational insights using a named insight banner format. | 134 | 1.0.63 | 2.0.77 |
-| [`system-prompt-plan-submitted-for-approval.md`](../system-prompts/system-prompt-plan-submitted-for-approval.md) | Notifies plan submission for team lead approval; await inbox response before implementing. | 132 | 2.0.70 | 2.0.70 |
 | [`system-prompt-install-tmux-in-wsl.md`](../system-prompts/system-prompt-install-tmux-in-wsl.md) | Explains installing WSL and tmux and starting a tmux session for swarms. | 58 | 2.0.70 | 2.0.70 |
 | [`system-prompt-identity-banner.md`](../system-prompts/system-prompt-identity-banner.md) | Declares the CLI identity as Claude Code running on the Claude Agent SDK. | 53 | 2.0.70 | 2.0.70 |
 | [`system-prompt-cli-educational-engineering-insights.md`](../system-prompts/system-prompt-cli-educational-engineering-insights.md) | CLI engineering assistant adds codebase-specific insights before and after coding in formatted blocks | 220 | 1.0.78 | 2.0.67 |
@@ -337,17 +365,19 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-authenticate-with-gh-cli.md`](../system-prompts/system-prompt-authenticate-with-gh-cli.md) | Authenticate to GitHub using gh auth login or environment-based methods. | 25 | 1.0.0 | 1.0.0 |
 | [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 
-## Tool prompts (116)
+## Tool prompts (117)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that balances implementation with learning by requesting meaningful user code contributions. | 1,009 | 2.1.91 | 2.1.91 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that balances implementation with learning by requesting meaningful user code contributions. | 1,009 | 2.1.92 | 2.1.92 |
+| [`tool-description-at-a-glance-summary-guidelines-2.md`](../system-prompts/tool-description-at-a-glance-summary-guidelines-2.md) | Guidelines for creating effective usage summaries. | 593 | 2.1.92 | 2.1.92 |
+| [`tool-description-write-file-to-local-filesystem-3.md`](../system-prompts/tool-description-write-file-to-local-filesystem-3.md) | Overwrites an existing file in the local filesystem. | 122 | 2.1.92 | 2.1.92 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.92 | 2.1.92 |
+| [`tool-description-global-error-allowlist-empty.md`](../system-prompts/tool-description-global-error-allowlist-empty.md) | Returns an error for an empty allowlist. | 23 | 2.1.92 | 2.1.92 |
 | [`tool-description-read-file-from-local-filesystem.md`](../system-prompts/tool-description-read-file-from-local-filesystem.md) | Reads files from the local filesystem. | 319 | 2.1.91 | 2.1.91 |
 | [`tool-description-string-replacement-in-files.md`](../system-prompts/tool-description-string-replacement-in-files.md) | Performs exact string replacements in existing files. | 183 | 2.1.91 | 2.1.91 |
-| [`tool-description-write-file-to-local-filesystem-2.md`](../system-prompts/tool-description-write-file-to-local-filesystem-2.md) | Overwrites a file in the local filesystem. | 114 | 2.1.91 | 2.1.91 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.91 | 2.1.91 |
 | [`tool-description-create-and-manage-teams.md`](../system-prompts/tool-description-create-and-manage-teams.md) | Utilize TeammateTool for effective team collaboration. | 1,665 | 2.1.88 | 2.1.88 |
 | [`tool-description-execute-powershell-commands-git.md`](../system-prompts/tool-description-execute-powershell-commands-git.md) | Executes PowerShell commands with directory verification. | 1,338 | 2.1.88 | 2.1.88 |
 | [`tool-description-change-settings.md`](../system-prompts/tool-description-change-settings.md) | View or modify configuration settings. | 252 | 2.1.88 | 2.1.88 |
@@ -378,7 +408,6 @@ _Sorted by last edit (newest first)._
 | [`tool-description-scroll-at-given-coordinates.md`](../system-prompts/tool-description-scroll-at-given-coordinates.md) | Scrolls in the frontmost application at specified coordinates. | 35 | 2.1.84 | 2.1.84 |
 | [`tool-description-bring-application-to-front.md`](../system-prompts/tool-description-bring-application-to-front.md) | Launch an application if needed. | 31 | 2.1.84 | 2.1.84 |
 | [`tool-description-get-current-mouse-cursor-position.md`](../system-prompts/tool-description-get-current-mouse-cursor-position.md) | Retrieve mouse cursor coordinates from the latest screenshot. | 29 | 2.1.84 | 2.1.84 |
-| [`tool-description-global-error-allowlist-empty.md`](../system-prompts/tool-description-global-error-allowlist-empty.md) | Returns an error for an empty allowlist. | 23 | 2.1.84 | 2.1.84 |
 | [`tool-description-list-current-allowlist-applications.md`](../system-prompts/tool-description-list-current-allowlist-applications.md) | Retrieve applications in the session allowlist. | 23 | 2.1.84 | 2.1.84 |
 | [`tool-description-read-clipboard-contents-as-text.md`](../system-prompts/tool-description-read-clipboard-contents-as-text.md) | Reads the current clipboard contents. | 18 | 2.1.84 | 2.1.84 |
 | [`tool-description-write-text-to-clipboard.md`](../system-prompts/tool-description-write-text-to-clipboard.md) | Writes text to the clipboard with permission. | 16 | 2.1.84 | 2.1.84 |
@@ -390,7 +419,6 @@ _Sorted by last edit (newest first)._
 | [`tool-description-list-all-cron-jobs.md`](../system-prompts/tool-description-list-all-cron-jobs.md) | Retrieve all scheduled cron jobs. | 27 | 2.1.83 | 2.1.83 |
 | [`tool-description-api-trigger-actions.md`](../system-prompts/tool-description-api-trigger-actions.md) | Interact with the claude.ai remote-trigger API. | 127 | 2.1.81 | 2.1.81 |
 | [`tool-description-plan-approach-signoff.md`](../system-prompts/tool-description-plan-approach-signoff.md) | Tool guidance to propose an implementation plan and get user approval before coding. | 901 | 2.1.77 | 2.1.77 |
-| [`tool-description-at-a-glance-summary-guidelines-2.md`](../system-prompts/tool-description-at-a-glance-summary-guidelines-2.md) | Guidelines for creating effective usage summaries. | 593 | 2.1.77 | 2.1.77 |
 | [`tool-description-exit-worktree-session.md`](../system-prompts/tool-description-exit-worktree-session.md) | Exit a worktree session and return to the original directory. | 500 | 2.1.77 | 2.1.77 |
 | [`tool-description-git-worktree-usage.md`](../system-prompts/tool-description-git-worktree-usage.md) | Creates an isolated git worktree for user sessions. | 324 | 2.1.77 | 2.1.77 |
 | [`tool-description-user-question.md`](../system-prompts/tool-description-user-question.md) | Tool for gathering user input and preferences. | 279 | 2.1.77 | 2.1.77 |
@@ -401,6 +429,7 @@ _Sorted by last edit (newest first)._
 | [`tool-description-security-classification-report.md`](../system-prompts/tool-description-security-classification-report.md) | Report on the security classification results. | 9 | 2.1.77 | 2.1.77 |
 | [`tool-description-delete-team-task-directories.md`](../system-prompts/tool-description-delete-team-task-directories.md) | Removes team and task directories and clears session context after teammates shut down. | 141 | 2.1.49 | 2.1.49 |
 | [`tool-description-switch-chrome-automation-browser.md`](../system-prompts/tool-description-switch-chrome-automation-browser.md) | Request and switch the Chrome instance used for browser automation via user connection. | 50 | 2.1.49 | 2.1.49 |
+| [`tool-description-npm-view-package-version.md`](../system-prompts/tool-description-npm-view-package-version.md) | Run npm view to retrieve a specific package version string. | 16 | 2.1.49 | 2.1.49 |
 | [`tool-description-application-specific-realtime-signal.md`](../system-prompts/tool-description-application-specific-realtime-signal.md) | Denotes receipt of an application-defined realtime signal. | 8 | 1.0.68 | 2.1.38 |
 | [`tool-description-web-search-with-sources-2.md`](../system-prompts/tool-description-web-search-with-sources-2.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 310 | 2.1.32 | 2.1.32 |
 | [`tool-description-list-available-tasks.md`](../system-prompts/tool-description-list-available-tasks.md) | List all tasks and summarize status, owner, and blockers to choose next work. | 240 | 2.1.32 | 2.1.32 |
@@ -466,11 +495,11 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-status-line-setup.md`](../system-prompts/agent-prompt-status-line-setup.md) | Creates or updates the statusLine command in settings. | 2,140 | 2.1.91 | 2.1.91 |
-| [`agent-prompt-found-mcp-desktop-stream.md`](../system-prompts/agent-prompt-found-mcp-desktop-stream.md) | Identifying MCP in Claude Desktop. | 23 | 2.1.86 | 2.1.86 |
+| [`agent-prompt-status-line-setup.md`](../system-prompts/agent-prompt-status-line-setup.md) | Creates or updates the statusLine command in settings. | 2,140 | 2.1.92 | 2.1.92 |
+| [`agent-prompt-user-global-current-configuration.md`](../system-prompts/agent-prompt-user-global-current-configuration.md) | User's custom setup details for proactive suggestions. | 47 | 2.1.92 | 2.1.92 |
+| [`agent-prompt-npm-view-version.md`](../system-prompts/agent-prompt-npm-view-version.md) | Fetch the version of a specific npm package. | 30 | 2.1.92 | 2.1.92 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce implementation plans in read-only mode. | 644 | 2.1.84 | 2.1.84 |
 | [`agent-prompt-read-only-codebase-search.md`](../system-prompts/agent-prompt-read-only-codebase-search.md) | Search and analyze an existing codebase without making any changes. | 503 | 2.1.84 | 2.1.84 |
-| [`agent-prompt-use-current-configuration.md`](../system-prompts/agent-prompt-use-current-configuration.md) | Incorporate the user’s custom environment configuration when answering and suggesting features. | 57 | 2.1.49 | 2.1.49 |
 
 ## Skills (1)
 
@@ -480,13 +509,12 @@ _Sorted by last edit (newest first)._
 | --- | --- | ---: | --- | --- |
 | [`skill-customize-keyboard-shortcuts.md`](../system-prompts/skill-customize-keyboard-shortcuts.md) | Guides safe creation or editing of keybindings with required schema fields and keystroke syntax. | 824 | 2.1.20 | 2.1.20 |
 
-## System data (107)
+## System data (105)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox policy denying by default, allowing process control and whitelisted Mach service lookups. | 1,797 | 2.1.59 | 2.1.59 |
 | [`system-data-urls-and-placeholder-metrics.md`](../system-prompts/system-data-urls-and-placeholder-metrics.md) | Template containing URL placeholders and many numeric fields. | 139 | 2.1.51 | 2.1.51 |
 | [`system-data-bash-git-commands.md`](../system-prompts/system-data-bash-git-commands.md) | List of common bash git commands. | 116 | 2.1.51 | 2.1.51 |
 | [`system-data-vertex-region-vars.md`](../system-prompts/system-data-vertex-region-vars.md) | Maps Claude model names to Vertex region environment variables. | 295 | 2.1.49 | 2.1.49 |
@@ -499,7 +527,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-bedrock-guardrail-content-filter-config-2.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config-2.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 120 | 2.0.63 | 2.1.45 |
 | [`system-data-azure-access-token-script.md`](../system-prompts/system-data-azure-access-token-script.md) | Invoke PowerShell to get Az access token, optional tenant, secure-string conversion output JSON. | 327 | 2.0.45 | 2.1.33 |
 | [`system-data-progress-verb-word-list.md`](../system-prompts/system-data-progress-verb-word-list.md) | List of whimsical present-participle activity words. | 869 | 2.1.32 | 2.1.32 |
-| [`system-data-copy-toggle-collapsible-js.md`](../system-prompts/system-data-copy-toggle-collapsible-js.md) | JavaScript for toggling collapsibles and copying code or selected command text. | 1,359 | 2.1.30 | 2.1.30 |
 | [`system-data-common-pronouns-and-verbs.md`](../system-prompts/system-data-common-pronouns-and-verbs.md) | List of high-frequency English function words, pronouns, and basic verbs. | 375 | 2.1.30 | 2.1.30 |
 | [`system-data-long-numeric-placeholder-list.md`](../system-prompts/system-data-long-numeric-placeholder-list.md) | Provides a long list of numeric placeholders with no added context. | 286 | 2.0.72 | 2.0.72 |
 | [`system-data-mouse-actions-command-list.md`](../system-prompts/system-data-mouse-actions-command-list.md) | List of supported UI actions including clicks, typing, scrolling, keys, and screenshots. | 244 | 2.0.71 | 2.0.71 |
@@ -594,25 +621,95 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (3029)
+## System reminders (3043)
 
-_Sorted by last edit (newest first). Showing **328** reminders with more than **30** tokens._
+_Sorted by last edit (newest first). Showing **309** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Instructions for deriving precise agent specs from user requirements and project context. | 1,495 | 2.1.92 | 2.1.92 |
+| [`system-reminder-git-safety-protocols.md`](../system-prompts/system-reminder-git-safety-protocols.md) | Guidelines for safe git operations. | 737 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remote-planning-session-guide.md`](../system-prompts/system-reminder-remote-planning-session-guide.md) | Guide for conducting a remote planning session. | 616 | 2.1.92 | 2.1.92 |
+| [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.92 | 2.1.92 |
+| [`system-reminder-verify-stop-condition-completion.md`](../system-prompts/system-reminder-verify-stop-condition-completion.md) | Check if the planned work is completed. | 124 | 2.1.92 | 2.1.92 |
+| [`system-reminder-wfep-ui-elements-overview.md`](../system-prompts/system-reminder-wfep-ui-elements-overview.md) | Overview of various WFEP UI elements. | 113 | 2.1.92 | 2.1.92 |
+| [`system-reminder-parse-user-input-iso-format.md`](../system-prompts/system-reminder-parse-user-input-iso-format.md) | Parse user input into ISO format. | 99 | 2.1.92 | 2.1.92 |
+| [`system-reminder-wpt-data-types-overview.md`](../system-prompts/system-reminder-wpt-data-types-overview.md) | Overview of various wpt data types. | 81 | 2.1.92 | 2.1.92 |
+| [`system-reminder-highlight-ord-pos-row-col-2.md`](../system-prompts/system-reminder-highlight-ord-pos-row-col-2.md) | Highlight position with specified order and coordinates. | 78 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-mode-gate-access-verification-2.md`](../system-prompts/system-reminder-auto-mode-gate-access-verification-2.md) | Check auto mode gate access settings. | 77 | 2.1.92 | 2.1.92 |
+| [`system-reminder-duplicate-hooks-file-detected-2.md`](../system-prompts/system-reminder-duplicate-hooks-file-detected-2.md) | Hooks file resolves to an already-loaded file. | 69 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-warning.md`](../system-prompts/system-reminder-team-memory-sync-warning.md) | Local entries exceed server capacity limit. | 63 | 2.1.92 | 2.1.92 |
+| [`system-reminder-good-feedback-survey-bridge-repl-3.md`](../system-prompts/system-reminder-good-feedback-survey-bridge-repl-3.md) | Handle good feedback survey state change. | 61 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-errors-quick-pull-title.md`](../system-prompts/system-reminder-loaded-errors-quick-pull-title.md) | Check for loaded errors with quick pull options. | 58 | 2.1.92 | 2.1.92 |
+| [`system-reminder-simulate-proxy-usage-api-client.md`](../system-prompts/system-reminder-simulate-proxy-usage-api-client.md) | Stripping beta headers from API requests. | 57 | 2.1.92 | 2.1.92 |
+| [`system-reminder-resume-permission-mismatch.md`](../system-prompts/system-reminder-resume-permission-mismatch.md) | Mismatch in permission mode during tool resume. | 55 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skipping-duplicate-hooks-file-3.md`](../system-prompts/system-reminder-skipping-duplicate-hooks-file-3.md) | Handles skipping of duplicate hooks for a plugin. | 54 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-mode-cycle-handling.md`](../system-prompts/system-reminder-auto-mode-cycle-handling.md) | Manage auto mode settings and availability. | 53 | 2.1.92 | 2.1.92 |
+| [`system-reminder-refresh-active-plugins-commands-2.md`](../system-prompts/system-reminder-refresh-active-plugins-commands-2.md) | Manage active plugins and commands. | 53 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cd-env-command-off.md`](../system-prompts/system-reminder-cd-env-command-off.md) | Command to change directory and turn off env. | 52 | 2.1.92 | 2.1.92 |
+| [`system-reminder-slow-render-metrics.md`](../system-prompts/system-reminder-slow-render-metrics.md) | Logs slow render timing along with screen, damage, and change metrics. | 50 | 2.1.92 | 2.1.92 |
+| [`system-reminder-installed-plugins-failed-stable.md`](../system-prompts/system-reminder-installed-plugins-failed-stable.md) | Multiple prompts (2) | 49 | 2.1.92 | 2.1.92 |
+| [`system-reminder-set-search-query-params.md`](../system-prompts/system-reminder-set-search-query-params.md) | Sets search query parameters for message handling. | 49 | 2.1.92 | 2.1.92 |
+| [`system-reminder-autocompact-rapid-refill-breaker.md`](../system-prompts/system-reminder-autocompact-rapid-refill-breaker.md) | Triggered after consecutive refills in limited turns. | 47 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-mode-kickout-application-2.md`](../system-prompts/system-reminder-auto-mode-kickout-application-2.md) | Applying kickout from auto mode if needed. | 46 | 2.1.92 | 2.1.92 |
+| [`system-reminder-generated-stable-shotted.md`](../system-prompts/system-reminder-generated-stable-shotted.md) | Generated content with Claude Code. | 46 | 2.1.92 | 2.1.92 |
+| [`system-reminder-aborting-status-check.md`](../system-prompts/system-reminder-aborting-status-check.md) | Checks the status of aborting a tool. | 45 | 2.1.92 | 2.1.92 |
+| [`system-reminder-defer-hook-permission-decision-2.md`](../system-prompts/system-reminder-defer-hook-permission-decision-2.md) | Handling deferred permission decisions in batch calls. | 45 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-yoga-dimensions-error-2.md`](../system-prompts/system-reminder-invalid-yoga-dimensions-error-2.md) | Error in yoga dimensions with specified width and height. | 45 | 2.1.92 | 2.1.92 |
+| [`system-reminder-session-re-fetching-entries.md`](../system-prompts/system-reminder-session-re-fetching-entries.md) | Re-fetching entries in the current session. | 45 | 2.1.92 | 2.1.92 |
+| [`system-reminder-time-based-gap-cleared-2.md`](../system-prompts/system-reminder-time-based-gap-cleared-2.md) | Clears tool results based on time gaps. | 45 | 2.1.92 | 2.1.92 |
+| [`system-reminder-message-budget-results-3.md`](../system-prompts/system-reminder-message-budget-results-3.md) | Manage per-message budget for tool results. | 43 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-file-skipped-2.md`](../system-prompts/system-reminder-team-memory-sync-file-skipped-2.md) | Files skipped due to detected secrets. | 43 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-mode-gate-exit-plan.md`](../system-prompts/system-reminder-auto-mode-gate-exit-plan.md) | Fallback to default on plan exit due to gate being off. | 42 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-notification-handler-partial-failure.md`](../system-prompts/system-reminder-lsp-notification-handler-partial-failure.md) | Notes notification handler registration succeeded with some servers failing. | 41 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ccr-discarding-stale-4.md`](../system-prompts/system-reminder-bridge-repl-ccr-discarding-stale-4.md) | Handle stale handshakes in CCR v2. | 40 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleanup-skipped-corrupted-path.md`](../system-prompts/system-reminder-cleanup-skipped-corrupted-path.md) | Cleanup skipped due to corrupted path. | 40 | 2.1.92 | 2.1.92 |
+| [`system-reminder-deliver-diagnostics-across-files-servers.md`](../system-prompts/system-reminder-deliver-diagnostics-across-files-servers.md) | Log delivering diagnostics for files across multiple servers. | 40 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-load-plugin-hooks-2.md`](../system-prompts/system-reminder-failed-to-load-plugin-hooks-2.md) | Warning about failed plugin hooks loading. | 40 | 2.1.92 | 2.1.92 |
+| [`system-reminder-output-redirection-blocked-security.md`](../system-prompts/system-reminder-output-redirection-blocked-security.md) | Output redirection to global is blocked for security. | 40 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-conflict-probing.md`](../system-prompts/system-reminder-team-memory-sync-conflict-probing.md) | Handling team memory sync conflicts with probing. | 40 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-worktree-kept-dirty.md`](../system-prompts/system-reminder-bridge-worktree-kept-dirty.md) | Indicates the state of a git worktree. | 39 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skip-duplicate-definition-file.md`](../system-prompts/system-reminder-skip-duplicate-definition-file.md) | Duplicate definition skipped because file already loaded. | 39 | 2.1.92 | 2.1.92 |
+| [`system-reminder-ssetransport-duplicate-frame-seq.md`](../system-prompts/system-reminder-ssetransport-duplicate-frame-seq.md) | Handling duplicate frame sequence in SSETransport. | 39 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-init-apply-permission.md`](../system-prompts/system-reminder-teammate-init-apply-permission.md) | Applying team permission for teammate initialization. | 39 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teleport-request-failed-retrying.md`](../system-prompts/system-reminder-teleport-request-failed-retrying.md) | Indicates a failed teleport request and retrying. | 39 | 2.1.92 | 2.1.92 |
+| [`system-reminder-enriched-sessions-stdio-filtered.md`](../system-prompts/system-reminder-enriched-sessions-stdio-filtered.md) | Enriched sessions with stdio filtered out. | 38 | 2.1.92 | 2.1.92 |
+| [`system-reminder-extracted-subdir-loaded-errors-2.md`](../system-prompts/system-reminder-extracted-subdir-loaded-errors-2.md) | Extracted subdir loaded with errors. | 37 | 2.1.92 | 2.1.92 |
+| [`system-reminder-no-plugin-commands-found.md`](../system-prompts/system-reminder-no-plugin-commands-found.md) | No command markdown files were found in the plugin custom directory. | 37 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-post-lease-extended.md`](../system-prompts/system-reminder-bridge-api-post-lease-extended.md) | API post request for extended lease. | 36 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cache-edits-block-deletions.md`](../system-prompts/system-reminder-cache-edits-block-deletions.md) | Added cache edits block noting deletion count for a message PID. | 36 | 2.1.92 | 2.1.92 |
+| [`system-reminder-global-anthropic-pid-errors.md`](../system-prompts/system-reminder-global-anthropic-pid-errors.md) | Global anthropic PID loaded with errors. | 36 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-diagnostics-volume-limiting-removed.md`](../system-prompts/system-reminder-lsp-diagnostics-volume-limiting-removed.md) | Volume limiting has been removed from LSP diagnostics. | 36 | 2.1.92 | 2.1.92 |
+| [`system-reminder-powershell-parser-timed-out-2.md`](../system-prompts/system-reminder-powershell-parser-timed-out-2.md) | Indicates a PowerShell parser timeout error. | 36 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-message-stable.md`](../system-prompts/system-reminder-teammate-message-stable.md) | Send a stable message to a teammate. | 36 | 2.1.92 | 2.1.92 |
+| [`system-reminder-anthropic-billing-header-setup-3.md`](../system-prompts/system-reminder-anthropic-billing-header-setup-3.md) | Configuration for Anthropic billing header. | 35 | 2.1.92 | 2.1.92 |
+| [`system-reminder-api-error-attempt-message.md`](../system-prompts/system-reminder-api-error-attempt-message.md) | API error message includes attempt counters and details. | 35 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stable-path-not-found-anthropic.md`](../system-prompts/system-reminder-stable-path-not-found-anthropic.md) | Indicates a missing stable path at Anthropic. | 35 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-entries-uploaded.md`](../system-prompts/system-reminder-team-memory-sync-entries-uploaded.md) | Sync uploaded entries for team memory. | 35 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-message-team-lead.md`](../system-prompts/system-reminder-teammate-message-team-lead.md) | Multiple prompts (2) | 35 | 2.1.92 | 2.1.92 |
+| [`system-reminder-alt-screen-yoga-height-unknown-2.md`](../system-prompts/system-reminder-alt-screen-yoga-height-unknown-2.md) | Rendering issue with alternate screen in yoga. | 34 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleanup-session-teams-kill-pane-2.md`](../system-prompts/system-reminder-cleanup-session-teams-kill-pane-2.md) | Function to clean up session teams by killing a pane. | 34 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-background-value-file-2.md`](../system-prompts/system-reminder-invalid-background-value-file-2.md) | Agent file has an invalid background value. | 34 | 2.1.92 | 2.1.92 |
+| [`system-reminder-ripgrep-error-with-results.md`](../system-prompts/system-reminder-ripgrep-error-with-results.md) | Reports a ripgrep error with signal, code, stderr, and result count. | 34 | 2.1.92 | 2.1.92 |
+| [`system-reminder-slow-permission-decision.md`](../system-prompts/system-reminder-slow-permission-decision.md) | Manage slow permission decisions with specific parameters. | 34 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-session-spawning-sdkurl.md`](../system-prompts/system-reminder-bridge-session-spawning-sdkurl.md) | Spawning a session with specified session ID and SDK URL. | 33 | 2.1.92 | 2.1.92 |
+| [`system-reminder-decstbm-enabled-tmux-unset.md`](../system-prompts/system-reminder-decstbm-enabled-tmux-unset.md) | Configuration for DECSTBM in TMUX. | 33 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-clean-marketplace-settings-2.md`](../system-prompts/system-reminder-failed-clean-marketplace-settings-2.md) | Failed to clean marketplace settings. | 33 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inprocessbackend-status-check.md`](../system-prompts/system-reminder-inprocessbackend-status-check.md) | Check if InProcessBackend is active and stable. | 33 | 2.1.92 | 2.1.92 |
+| [`system-reminder-extract-memories-starting-errors-2.md`](../system-prompts/system-reminder-extract-memories-starting-errors-2.md) | Starting memory extraction with new error messages. | 32 | 2.1.92 | 2.1.92 |
+| [`system-reminder-filehistory-copied-backup-anthropic.md`](../system-prompts/system-reminder-filehistory-copied-backup-anthropic.md) | Backup copied from session to specified path. | 32 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-effort-options.md`](../system-prompts/system-reminder-invalid-effort-options.md) | Invalid effort specified for the skill. | 32 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-add-dir-overridden-stdio.md`](../system-prompts/system-reminder-plugin-add-dir-overridden-stdio.md) | Plugin addition overridden by stdio. | 32 | 2.1.92 | 2.1.92 |
+| [`system-reminder-save-mcp-server-user-config-2.md`](../system-prompts/system-reminder-save-mcp-server-user-config-2.md) | Scrub stale non-sensitive keys from secure storage. | 32 | 2.1.92 | 2.1.92 |
+| [`system-reminder-server-package-manager-max-version.md`](../system-prompts/system-reminder-server-package-manager-max-version.md) | Capping updates to the server's max version. | 32 | 2.1.92 | 2.1.92 |
+| [`system-reminder-available-environments-npm-view-version.md`](../system-prompts/system-reminder-available-environments-npm-view-version.md) | Check available environments and npm package version. | 31 | 2.1.92 | 2.1.92 |
+| [`system-reminder-handle-orphaned-permission-response-4.md`](../system-prompts/system-reminder-handle-orphaned-permission-response-4.md) | Received orphaned control response for tool use. | 31 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-permission-decision.md`](../system-prompts/system-reminder-hook-function-permission-decision.md) | Function returns permission decision with reason. | 31 | 2.1.92 | 2.1.92 |
+| [`system-reminder-slow-posttooluse-hooks.md`](../system-prompts/system-reminder-slow-posttooluse-hooks.md) | Monitoring slow PostToolUse hooks performance. | 31 | 2.1.92 | 2.1.92 |
 | [`system-reminder-design-patterns-overview.md`](../system-prompts/system-reminder-design-patterns-overview.md) | Guidelines for building agents on the Claude API. | 1,988 | 2.1.91 | 2.1.91 |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Instructions for deriving precise agent specs from user requirements and project context. | 1,495 | 2.1.91 | 2.1.91 |
-| [`system-reminder-git-safety-protocols.md`](../system-prompts/system-reminder-git-safety-protocols.md) | Guidelines for safe git operations. | 737 | 2.1.91 | 2.1.91 |
-| [`system-reminder-remote-planning-session-overview.md`](../system-prompts/system-reminder-remote-planning-session-overview.md) | Guide for effective planning in terminal mode. | 659 | 2.1.91 | 2.1.91 |
-| [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.91 | 2.1.91 |
-| [`system-reminder-highlight-position-ord-row-col.md`](../system-prompts/system-reminder-highlight-position-ord-row-col.md) | Highlight position with specified order and coordinates. | 85 | 2.1.91 | 2.1.91 |
-| [`system-reminder-team-memory-sync-warning.md`](../system-prompts/system-reminder-team-memory-sync-warning.md) | Local entries exceed server capacity limit. | 63 | 2.1.91 | 2.1.91 |
 | [`system-reminder-generic-multiline-notice.md`](../system-prompts/system-reminder-generic-multiline-notice.md) | Displays a multi-line templated message from placeholders. | 62 | 2.1.91 | 2.1.91 |
-| [`system-reminder-good-feedback-survey-bridge-repl-2.md`](../system-prompts/system-reminder-good-feedback-survey-bridge-repl-2.md) | Handle state change for good feedback survey. | 55 | 2.1.91 | 2.1.91 |
 | [`system-reminder-iterm-create-window-if-running.md`](../system-prompts/system-reminder-iterm-create-window-if-running.md) | Creates a new window in iTerm if it's running. | 53 | 2.1.91 | 2.1.91 |
 | [`system-reminder-multi-expression-placeholder-block.md`](../system-prompts/system-reminder-multi-expression-placeholder-block.md) | Template block consisting of multiple expression placeholders. | 48 | 2.1.91 | 2.1.91 |
-| [`system-reminder-bridge-repl-ccr-session-url.md`](../system-prompts/system-reminder-bridge-repl-ccr-session-url.md) | Defines session URL and session parameters. | 45 | 2.1.91 | 2.1.91 |
-| [`system-reminder-bridge-repl-notify-failed.md`](../system-prompts/system-reminder-bridge-repl-notify-failed.md) | Notify about bridge failure with details. | 44 | 2.1.91 | 2.1.91 |
 | [`system-reminder-bridge-repl-work-received-4.md`](../system-prompts/system-reminder-bridge-repl-work-received-4.md) | Notification of received work with IDs. | 42 | 2.1.91 | 2.1.91 |
 | [`system-reminder-mcp-run-apply.md`](../system-prompts/system-reminder-mcp-run-apply.md) | Run the specified path to apply MCP. | 36 | 2.1.91 | 2.1.91 |
 | [`system-reminder-bridge-repl-dropping-mcp-pending.md`](../system-prompts/system-reminder-bridge-repl-dropping-mcp-pending.md) | Dropping pending messages on transport close. | 34 | 2.1.91 | 2.1.91 |
@@ -621,49 +718,29 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-memory-extraction-bash-update.md`](../system-prompts/system-reminder-memory-extraction-bash-update.md) | Update persistent memory using recent error messages. | 355 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-repl-poll-error-attempt.md`](../system-prompts/system-reminder-bridge-repl-poll-error-attempt.md) | Error encountered during polling attempt. | 39 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-repl-init-stream-json.md`](../system-prompts/system-reminder-bridge-repl-init-stream-json.md) | Initialize bridge core for streaming JSON. | 37 | 2.1.90 | 2.1.90 |
-| [`system-reminder-failed-merge-hooks-mcp.md`](../system-prompts/system-reminder-failed-merge-hooks-mcp.md) | Failed to merge hooks in Claude Desktop. | 37 | 2.1.90 | 2.1.90 |
-| [`system-reminder-api-request-client-anthropic-source.md`](../system-prompts/system-reminder-api-request-client-anthropic-source.md) | API request format for client interactions. | 36 | 2.1.90 | 2.1.90 |
-| [`system-reminder-ssetransport-duplicate-frame.md`](../system-prompts/system-reminder-ssetransport-duplicate-frame.md) | Handling duplicate frame in SSETransport. | 35 | 2.1.90 | 2.1.90 |
-| [`system-reminder-slow-permission-decision.md`](../system-prompts/system-reminder-slow-permission-decision.md) | Manage slow permission decisions with specific parameters. | 34 | 2.1.90 | 2.1.90 |
 | [`system-reminder-capped-initial-flush-bridge-repl.md`](../system-prompts/system-reminder-capped-initial-flush-bridge-repl.md) | Handles capped initial flush in bridge repl. | 33 | 2.1.90 | 2.1.90 |
 | [`system-reminder-git-pull-failed-keeping-existing.md`](../system-prompts/system-reminder-git-pull-failed-keeping-existing.md) | Handling failed git pull while retaining the existing clone. | 33 | 2.1.90 | 2.1.90 |
 | [`system-reminder-plugin-file-invalid-effort.md`](../system-prompts/system-reminder-plugin-file-invalid-effort.md) | Invalid effort specified for the plugin agent file. | 33 | 2.1.90 | 2.1.90 |
-| [`system-reminder-anthropic-billing-header-setup-2.md`](../system-prompts/system-reminder-anthropic-billing-header-setup-2.md) | Configuration for billing header in Anthropics. | 32 | 2.1.90 | 2.1.90 |
-| [`system-reminder-bridge-repl-ccr-discarding-stale.md`](../system-prompts/system-reminder-bridge-repl-ccr-discarding-stale.md) | Handle stale handshakes in CCR v2. | 32 | 2.1.90 | 2.1.90 |
 | [`system-reminder-persistence-sync-skipping-exceeds-threshold.md`](../system-prompts/system-reminder-persistence-sync-skipping-exceeds-threshold.md) | Skipping due to bytes exceeding the threshold. | 31 | 2.1.90 | 2.1.90 |
 | [`system-reminder-memory-consolidation-reflection.md`](../system-prompts/system-reminder-memory-consolidation-reflection.md) | Reflect and organize recent memories. | 730 | 2.1.89 | 2.1.89 |
-| [`system-reminder-verify-stop-condition-completion.md`](../system-prompts/system-reminder-verify-stop-condition-completion.md) | Check if the planned work is completed. | 119 | 2.1.89 | 2.1.89 |
 | [`system-reminder-auto-mode-context-comparison-4.md`](../system-prompts/system-reminder-auto-mode-context-comparison-4.md) | Comparison of auto mode context and main loop tokens. | 79 | 2.1.89 | 2.1.89 |
 | [`system-reminder-generate-companion-rarity-species-stats.md`](../system-prompts/system-reminder-generate-companion-rarity-species-stats.md) | Create a unique companion with specific traits. | 60 | 2.1.89 | 2.1.89 |
-| [`system-reminder-deferred-resume-permission-mismatch.md`](../system-prompts/system-reminder-deferred-resume-permission-mismatch.md) | Mismatch in permission mode during tool resume. | 58 | 2.1.89 | 2.1.89 |
 | [`system-reminder-bridge-init-reuse-environment-6.md`](../system-prompts/system-reminder-bridge-init-reuse-environment-6.md) | Initializes a bridge with specified parameters. | 57 | 2.1.89 | 2.1.89 |
 | [`system-reminder-lsp-request-failed-content-modified.md`](../system-prompts/system-reminder-lsp-request-failed-content-modified.md) | LSP request failed with ContentModified error. | 50 | 2.1.89 | 2.1.89 |
-| [`system-reminder-set-search-query-params.md`](../system-prompts/system-reminder-set-search-query-params.md) | Sets search query parameters for message handling. | 49 | 2.1.89 | 2.1.89 |
-| [`system-reminder-autocompact-rapid-refill-breaker.md`](../system-prompts/system-reminder-autocompact-rapid-refill-breaker.md) | Triggered after consecutive refills in limited turns. | 47 | 2.1.89 | 2.1.89 |
-| [`system-reminder-found-mcp-desktop-2.md`](../system-prompts/system-reminder-found-mcp-desktop-2.md) | Found MCP in Claude Desktop environment. | 46 | 2.1.89 | 2.1.89 |
-| [`system-reminder-defer-hook-permission-decision.md`](../system-prompts/system-reminder-defer-hook-permission-decision.md) | Handle deferred permission decisions with caution. | 44 | 2.1.89 | 2.1.89 |
 | [`system-reminder-warmsearchindex-msgs-work-wall-chunks.md`](../system-prompts/system-reminder-warmsearchindex-msgs-work-wall-chunks.md) | Configuration settings for warm search index. | 44 | 2.1.89 | 2.1.89 |
-| [`system-reminder-stdio-load-failed-unknown.md`](../system-prompts/system-reminder-stdio-load-failed-unknown.md) | Error loading stdio with unknown parameters. | 43 | 2.1.89 | 2.1.89 |
-| [`system-reminder-anthropic-unknown-loaded-errors.md`](../system-prompts/system-reminder-anthropic-unknown-loaded-errors.md) | Loaded with errors related to unknowns. | 39 | 2.1.89 | 2.1.89 |
 | [`system-reminder-pre-flight-check-delay.md`](../system-prompts/system-reminder-pre-flight-check-delay.md) | Pre-flight check is taking longer than expected. | 38 | 2.1.89 | 2.1.89 |
 | [`system-reminder-autoupdater-maxversion-load-failed.md`](../system-prompts/system-reminder-autoupdater-maxversion-load-failed.md) | Failed to load maxVersion for autoupdater. | 37 | 2.1.89 | 2.1.89 |
 | [`system-reminder-loaded-errors-waiting-for-agents.md`](../system-prompts/system-reminder-loaded-errors-waiting-for-agents.md) | Loaded with errors and waiting for agents. | 36 | 2.1.89 | 2.1.89 |
 | [`system-reminder-invalid-isolation-value-file-3.md`](../system-prompts/system-reminder-invalid-isolation-value-file-3.md) | Invalid isolation value for the agent file. | 35 | 2.1.89 | 2.1.89 |
 | [`system-reminder-shutdown-request-prioritized.md`](../system-prompts/system-reminder-shutdown-request-prioritized.md) | Shutdown request prioritized over unread messages. | 35 | 2.1.89 | 2.1.89 |
 | [`system-reminder-template-expression-placeholders.md`](../system-prompts/system-reminder-template-expression-placeholders.md) | Template with expression placeholders for later substitution. | 34 | 2.1.89 | 2.1.89 |
-| [`system-reminder-autocompact-tokens-threshold-2.md`](../system-prompts/system-reminder-autocompact-tokens-threshold-2.md) | Configuration for token management settings. | 33 | 2.1.89 | 2.1.89 |
 | [`system-reminder-mcp-configs-resolved-server-status.md`](../system-prompts/system-reminder-mcp-configs-resolved-server-status.md) | MCP configs successfully resolved in server. | 32 | 2.1.89 | 2.1.89 |
-| [`system-reminder-bridge-session-ccr-registerworker-attempt-2.md`](../system-prompts/system-reminder-bridge-session-ccr-registerworker-attempt-2.md) | Failed attempt to register worker in session. | 31 | 2.1.89 | 2.1.89 |
 | [`system-reminder-streaming-json-output.md`](../system-prompts/system-reminder-streaming-json-output.md) | Emit output as a streaming JSON sequence. | 31 | 2.1.89 | 2.1.89 |
 | [`system-reminder-sql-analysis-functions-2.md`](../system-prompts/system-reminder-sql-analysis-functions-2.md) | Functions for SQL analysis and string operations. | 2,611 | 2.1.88 | 2.1.88 |
 | [`system-reminder-implementation-plan-multi-exploration-3.md`](../system-prompts/system-reminder-implementation-plan-multi-exploration-3.md) | Create a detailed implementation plan using multiple agents. | 461 | 2.1.88 | 2.1.88 |
 | [`system-reminder-user-permission-calls.md`](../system-prompts/system-reminder-user-permission-calls.md) | Communicate user permissions for tool execution. | 323 | 2.1.88 | 2.1.88 |
-| [`system-reminder-auto-mode-cycle-handling-2.md`](../system-prompts/system-reminder-auto-mode-cycle-handling-2.md) | Manage auto mode settings and availability. | 68 | 2.1.88 | 2.1.88 |
 | [`system-reminder-forked-finished-usage-stats.md`](../system-prompts/system-reminder-forked-finished-usage-stats.md) | Forked agent completion log with message counts, types, and usage totals. | 67 | 2.1.88 | 2.1.88 |
-| [`system-reminder-slow-pretooluse-hooks-found.md`](../system-prompts/system-reminder-slow-pretooluse-hooks-found.md) | Identifies MCP hooks in Claude Desktop. | 44 | 2.1.88 | 2.1.88 |
-| [`system-reminder-rdt-field-type-list.md`](../system-prompts/system-reminder-rdt-field-type-list.md) | Enumerates RDT field types like string, numeric, date, and document. | 40 | 2.1.88 | 2.1.88 |
 | [`system-reminder-bridge-perm-sessionid-request.md`](../system-prompts/system-reminder-bridge-perm-sessionid-request.md) | Manage session ID and tool requests. | 37 | 2.1.88 | 2.1.88 |
-| [`system-reminder-hook-condition-evaluation-error.md`](../system-prompts/system-reminder-hook-condition-evaluation-error.md) | Error in evaluating hook condition for MCP. | 37 | 2.1.88 | 2.1.88 |
 | [`system-reminder-tmux-iterm-fullscreen-integration.md`](../system-prompts/system-reminder-tmux-iterm-fullscreen-integration.md) | Handle fullscreen issues with tmux in iTerm2. | 37 | 2.1.88 | 2.1.88 |
 | [`system-reminder-teleport-remote-git-revision.md`](../system-prompts/system-reminder-teleport-remote-git-revision.md) | Logging remote git source path and revision during teleport. | 36 | 2.1.88 | 2.1.88 |
 | [`system-reminder-invalid-memory-value-file.md`](../system-prompts/system-reminder-invalid-memory-value-file.md) | Agent file has an invalid memory value. | 32 | 2.1.88 | 2.1.88 |
@@ -673,30 +750,15 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-feature-guidelines-for-changes.md`](../system-prompts/system-reminder-feature-guidelines-for-changes.md) | Multiple prompts (7) | 193 | 2.1.86 | 2.1.86 |
 | [`system-reminder-complete-task-fully.md`](../system-prompts/system-reminder-complete-task-fully.md) | Ensure tasks are fully completed with concise reporting. | 92 | 2.1.86 | 2.1.86 |
 | [`system-reminder-api-usage-auto-mode.md`](../system-prompts/system-reminder-api-usage-auto-mode.md) | Details on API usage in auto mode. | 78 | 2.1.86 | 2.1.86 |
-| [`system-reminder-duplicate-hooks-file-detected-3.md`](../system-prompts/system-reminder-duplicate-hooks-file-detected-3.md) | Alert for duplicate hooks file in Claude Desktop. | 63 | 2.1.86 | 2.1.86 |
-| [`system-reminder-auto-gate-exit-fallback.md`](../system-prompts/system-reminder-auto-gate-exit-fallback.md) | Fallback to default plan exit due to gate being off. | 57 | 2.1.86 | 2.1.86 |
 | [`system-reminder-extract-memories-cache-status-2.md`](../system-prompts/system-reminder-extract-memories-cache-status-2.md) | Status update on memory extraction and cache. | 49 | 2.1.86 | 2.1.86 |
-| [`system-reminder-skipping-duplicate-hooks-file-2.md`](../system-prompts/system-reminder-skipping-duplicate-hooks-file-2.md) | Notification about a duplicate hooks file. | 48 | 2.1.86 | 2.1.86 |
-| [`system-reminder-hooks-file-found-mcp.md`](../system-prompts/system-reminder-hooks-file-found-mcp.md) | Notification about missing hooks file in Claude. | 42 | 2.1.86 | 2.1.86 |
-| [`system-reminder-invalid-file-maxturns.md`](../system-prompts/system-reminder-invalid-file-maxturns.md) | Invalid maxTurns value found in agent file. | 42 | 2.1.86 | 2.1.86 |
 | [`system-reminder-generic-numbered-template.md`](../system-prompts/system-reminder-generic-numbered-template.md) | Multiple prompts (4) | 41 | 2.1.86 | 2.1.86 |
 | [`system-reminder-betas-stripped-from-schemas.md`](../system-prompts/system-reminder-betas-stripped-from-schemas.md) | Stripped betas from tool schemas. | 39 | 2.1.86 | 2.1.86 |
-| [`system-reminder-failed-load-hooks-mcp-2.md`](../system-prompts/system-reminder-failed-load-hooks-mcp-2.md) | Error loading hooks from MCP in Claude Desktop. | 37 | 2.1.86 | 2.1.86 |
-| [`system-reminder-voice-stream-websocket-closed-3.md`](../system-prompts/system-reminder-voice-stream-websocket-closed-3.md) | WebSocket closed with a specific code and reason. | 37 | 2.1.86 | 2.1.86 |
-| [`system-reminder-mcp-plugin-error-type.md`](../system-prompts/system-reminder-mcp-plugin-error-type.md) | Error message for unavailable MCP plugin. | 36 | 2.1.86 | 2.1.86 |
-| [`system-reminder-loaded-merged-hooks-manifest-plugin.md`](../system-prompts/system-reminder-loaded-merged-hooks-manifest-plugin.md) | Loaded hooks from manifest for the specified plugin. | 34 | 2.1.86 | 2.1.86 |
 | [`system-reminder-scheduled-tasks-recurring-aged-out.md`](../system-prompts/system-reminder-scheduled-tasks-recurring-aged-out.md) | Deleting aged out recurring task after final fire. | 33 | 2.1.86 | 2.1.86 |
-| [`system-reminder-output-redirection-blocked-security-2.md`](../system-prompts/system-reminder-output-redirection-blocked-security-2.md) | Output redirection to specified path is blocked. | 44 | 2.1.85 | 2.1.85 |
-| [`system-reminder-powershell-parser-timed-out.md`](../system-prompts/system-reminder-powershell-parser-timed-out.md) | PowerShell parser timeout message. | 32 | 2.1.85 | 2.1.85 |
 | [`system-reminder-deferred-messages-lag.md`](../system-prompts/system-reminder-deferred-messages-lag.md) | Logs how much message updates were deferred. | 31 | 2.1.85 | 2.1.85 |
-| [`system-reminder-user-group-role-expressions.md`](../system-prompts/system-reminder-user-group-role-expressions.md) | Handles user, group, and role expressions. | 653 | 2.1.84 | 2.1.84 |
 | [`system-reminder-auto-mode-active-user-guidelines-2.md`](../system-prompts/system-reminder-auto-mode-active-user-guidelines-2.md) | Guidelines for executing in auto mode. | 278 | 2.1.84 | 2.1.84 |
 | [`system-reminder-wdt-data-types-overview.md`](../system-prompts/system-reminder-wdt-data-types-overview.md) | Overview of various wdt data types. | 177 | 2.1.84 | 2.1.84 |
-| [`system-reminder-auto-mode-gate-access-verification.md`](../system-prompts/system-reminder-auto-mode-gate-access-verification.md) | Check the auto mode gate access settings. | 87 | 2.1.84 | 2.1.84 |
-| [`system-reminder-iterm-create-window-if-running.md`](../system-prompts/system-reminder-iterm-create-window-if-running.md) | Creates a new window in iTerm if it's running. | 53 | 2.1.84 | 2.1.84 |
 | [`system-reminder-auto-mode-settings.md`](../system-prompts/system-reminder-auto-mode-settings.md) | Configuration options for auto mode. | 52 | 2.1.84 | 2.1.84 |
 | [`system-reminder-auto-mode-cycling-disabled.md`](../system-prompts/system-reminder-auto-mode-cycling-disabled.md) | Auto mode cycling is disabled due to circuit breaker. | 48 | 2.1.84 | 2.1.84 |
-| [`system-reminder-auto-mode-kickout-application.md`](../system-prompts/system-reminder-auto-mode-kickout-application.md) | Applying kickout from auto mode if needed. | 42 | 2.1.84 | 2.1.84 |
 | [`system-reminder-bridge-session-exited-status.md`](../system-prompts/system-reminder-bridge-session-exited-status.md) | Indicates session exit status and duration. | 38 | 2.1.84 | 2.1.84 |
 | [`system-reminder-plugin-file-settings.md`](../system-prompts/system-reminder-plugin-file-settings.md) | Control stream-json settings for plugin agents. | 36 | 2.1.84 | 2.1.84 |
 | [`system-reminder-auto-mode-gate-access.md`](../system-prompts/system-reminder-auto-mode-gate-access.md) | Verify auto mode gate access availability. | 31 | 2.1.84 | 2.1.84 |
@@ -705,40 +767,28 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-placeholder-expressions-block.md`](../system-prompts/system-reminder-placeholder-expressions-block.md) | Placeholder-only reminder block with multiple expression slots. | 83 | 2.1.83 | 2.1.83 |
 | [`system-reminder-scan-element-subtree.md`](../system-prompts/system-reminder-scan-element-subtree.md) | Instructions for scanning element subtrees. | 59 | 2.1.83 | 2.1.83 |
 | [`system-reminder-repaint-full-reset-row.md`](../system-prompts/system-reminder-repaint-full-reset-row.md) | Full reset of the repaint row. | 54 | 2.1.83 | 2.1.83 |
-| [`system-reminder-save-mcp-server-user-config-scrubbed.md`](../system-prompts/system-reminder-save-mcp-server-user-config-scrubbed.md) | Scrubs stale non-sensitive keys from secure storage. | 42 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-teardown-starting-3.md`](../system-prompts/system-reminder-bridge-repl-teardown-starting-3.md) | Teardown process for the REPL environment is starting. | 41 | 2.1.83 | 2.1.83 |
 | [`system-reminder-save-mcp-server-user-config.md`](../system-prompts/system-reminder-save-mcp-server-user-config.md) | Scrubs sensitive keys from settings.json. | 41 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-teardown-perpetual-3.md`](../system-prompts/system-reminder-bridge-repl-teardown-perpetual-3.md) | Leaving session alive on server. | 40 | 2.1.83 | 2.1.83 |
 | [`system-reminder-malformed-response-worker-session.md`](../system-prompts/system-reminder-malformed-response-worker-session.md) | Indicates a malformed response in the code session. | 40 | 2.1.83 | 2.1.83 |
-| [`system-reminder-skip-duplicate-definition-file.md`](../system-prompts/system-reminder-skip-duplicate-definition-file.md) | Duplicate definition skipped because file already loaded. | 39 | 2.1.83 | 2.1.83 |
 | [`system-reminder-avoid-duplicate-notifications.md`](../system-prompts/system-reminder-avoid-duplicate-notifications.md) | Do not create duplicates and check for notifications. | 37 | 2.1.83 | 2.1.83 |
 | [`system-reminder-mcp-lazy-dedup-suppressing-plugins.md`](../system-prompts/system-reminder-mcp-lazy-dedup-suppressing-plugins.md) | Suppress duplicate plugin servers for MCP. | 36 | 2.1.83 | 2.1.83 |
 | [`system-reminder-stale-poll-error-bridge-repl-2.md`](../system-prompts/system-reminder-stale-poll-error-bridge-repl-2.md) | Handles stale poll errors in the environment. | 36 | 2.1.83 | 2.1.83 |
 | [`system-reminder-user-config-sensitivity-status.md`](../system-prompts/system-reminder-user-config-sensitivity-status.md) | Indicates saved user config sensitivity. | 36 | 2.1.83 | 2.1.83 |
 | [`system-reminder-autoupdater-current-version-errors.md`](../system-prompts/system-reminder-autoupdater-current-version-errors.md) | Current version loaded with errors exceeds max version. | 35 | 2.1.83 | 2.1.83 |
 | [`system-reminder-no-duplicate-notification-check.md`](../system-prompts/system-reminder-no-duplicate-notification-check.md) | Avoid spawning duplicates and check progress. | 35 | 2.1.83 | 2.1.83 |
-| [`system-reminder-failed-to-load-plugin-hooks.md`](../system-prompts/system-reminder-failed-to-load-plugin-hooks.md) | Warning about failed plugin hook loading. | 32 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-teardown-in-progress.md`](../system-prompts/system-reminder-bridge-repl-teardown-in-progress.md) | Teardown process is already underway. | 31 | 2.1.83 | 2.1.83 |
 | [`system-reminder-path-errors-marketplace.md`](../system-prompts/system-reminder-path-errors-marketplace.md) | Errors found in loaded skill path from marketplace. | 31 | 2.1.83 | 2.1.83 |
 | [`system-reminder-plan-mode-restrictions.md`](../system-prompts/system-reminder-plan-mode-restrictions.md) | Enforces plan-only workflow with edits restricted. | 765 | 2.1.81 | 2.1.81 |
 | [`system-reminder-custom-rules-replacing-defaults.md`](../system-prompts/system-reminder-custom-rules-replacing-defaults.md) | Manage custom rules to override defaults. | 97 | 2.1.81 | 2.1.81 |
-| [`system-reminder-time-based-gap-cleared.md`](../system-prompts/system-reminder-time-based-gap-cleared.md) | Clears tool results based on time gaps. | 55 | 2.1.81 | 2.1.81 |
 | [`system-reminder-brief-mode-enabled.md`](../system-prompts/system-reminder-brief-mode-enabled.md) | Brief mode is now active for user interactions. | 45 | 2.1.81 | 2.1.81 |
-| [`system-reminder-generated-stdio-shotted.md`](../system-prompts/system-reminder-generated-stdio-shotted.md) | Generated output from Claude Code with stdio. | 44 | 2.1.81 | 2.1.81 |
 | [`system-reminder-frontmatter-shell-not-recognized.md`](../system-prompts/system-reminder-frontmatter-shell-not-recognized.md) | Invalid shell value falling back to bash. | 41 | 2.1.81 | 2.1.81 |
 | [`system-reminder-mcp-server-skipping-customization.md`](../system-prompts/system-reminder-mcp-server-skipping-customization.md) | Skipping MCP servers due to strict plugin-only settings. | 41 | 2.1.81 | 2.1.81 |
 | [`system-reminder-teleport-to-remote-env-vars.md`](../system-prompts/system-reminder-teleport-to-remote-env-vars.md) | Explicitly set environment variables for teleportation. | 38 | 2.1.81 | 2.1.81 |
 | [`system-reminder-voice-stream-upgrade-rejected.md`](../system-prompts/system-reminder-voice-stream-upgrade-rejected.md) | Upgrade status for voice stream was rejected. | 36 | 2.1.81 | 2.1.81 |
-| [`system-reminder-connected-to-mcp-server-2.md`](../system-prompts/system-reminder-connected-to-mcp-server-2.md) | Agent connected to MCP server with tools. | 35 | 2.1.81 | 2.1.81 |
-| [`system-reminder-failed-connection-mcp-server-2.md`](../system-prompts/system-reminder-failed-connection-mcp-server-2.md) | Agent unable to connect to MCP server. | 35 | 2.1.81 | 2.1.81 |
-| [`system-reminder-shell-command-permission-check-failed.md`](../system-prompts/system-reminder-shell-command-permission-check-failed.md) | Failed permission check for shell command. | 33 | 2.1.81 | 2.1.81 |
 | [`system-reminder-invalid-plugin-command-effort.md`](../system-prompts/system-reminder-invalid-plugin-command-effort.md) | Invalid effort specified for plugin command. | 39 | 2.1.80 | 2.1.80 |
 | [`system-reminder-github-app-not-installed-error.md`](../system-prompts/system-reminder-github-app-not-installed-error.md) | Notes an error suggesting the GitHub app is not installed for an org/repo. | 34 | 2.1.80 | 2.1.80 |
 | [`system-reminder-install-plugins-headless-skipped.md`](../system-prompts/system-reminder-install-plugins-headless-skipped.md) | Skipped unsupported marketplace plugins for headless. | 33 | 2.1.80 | 2.1.80 |
-| [`system-reminder-team-memory-sync-errors.md`](../system-prompts/system-reminder-team-memory-sync-errors.md) | Errors encountered during team memory sync. | 33 | 2.1.80 | 2.1.80 |
-| [`system-reminder-message-budget-results-2.md`](../system-prompts/system-reminder-message-budget-results-2.md) | Manage per-message budget for tool results. | 57 | 2.1.79 | 2.1.79 |
-| [`system-reminder-skipping-cleanup-old-installlocation-2.md`](../system-prompts/system-reminder-skipping-cleanup-old-installlocation-2.md) | Skipping cleanup due to corrupted path. | 44 | 2.1.79 | 2.1.79 |
-| [`system-reminder-api-error-attempt-anthropic.md`](../system-prompts/system-reminder-api-error-attempt-anthropic.md) | Error encountered during API attempt. | 40 | 2.1.79 | 2.1.79 |
 | [`system-reminder-bridge-repl-transport-issue-3.md`](../system-prompts/system-reminder-bridge-repl-transport-issue-3.md) | Transport not configured, dropping messages. | 37 | 2.1.79 | 2.1.79 |
 | [`system-reminder-specify-line-offset-and-limit.md`](../system-prompts/system-reminder-specify-line-offset-and-limit.md) | Optionally set line offset and limit for file reading. | 33 | 2.1.79 | 2.1.79 |
 | [`system-reminder-opus-capable-complex-tasks.md`](../system-prompts/system-reminder-opus-capable-complex-tasks.md) | Most capable option for complex tasks. | 39 | 2.1.78 | 2.1.78 |
@@ -754,69 +804,47 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-memory-snapshot-heapdump.md`](../system-prompts/system-reminder-memory-snapshot-heapdump.md) | Displays memory state details in a heap dump. | 67 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssl-certificate-error-corporate-proxy.md`](../system-prompts/system-reminder-ssl-certificate-error-corporate-proxy.md) | Instructions for resolving SSL certificate errors. | 67 | 2.1.77 | 2.1.77 |
 | [`system-reminder-message-arrived-while-working.md`](../system-prompts/system-reminder-message-arrived-while-working.md) | A message from an external channel is received. | 66 | 2.1.77 | 2.1.77 |
-| [`system-reminder-refresh-active-plugins-commands.md`](../system-prompts/system-reminder-refresh-active-plugins-commands.md) | Refresh active plugins with specified commands and agents. | 63 | 2.1.77 | 2.1.77 |
 | [`system-reminder-anthropic-toolsearch-auto-optimistic.md`](../system-prompts/system-reminder-anthropic-toolsearch-auto-optimistic.md) | Reminder about tool search settings for Anthropic. | 62 | 2.1.77 | 2.1.77 |
-| [`system-reminder-check-loaded-errors-quick-pull.md`](../system-prompts/system-reminder-check-loaded-errors-quick-pull.md) | Check if PID has loaded errors for quick pull. | 61 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-token-refresh-errors-2.md`](../system-prompts/system-reminder-scheduled-token-refresh-errors-2.md) | Token refresh for session loaded with errors. | 55 | 2.1.77 | 2.1.77 |
-| [`system-reminder-installed-plugins-failed-activation.md`](../system-prompts/system-reminder-installed-plugins-failed-activation.md) | Failed to activate some installed plugins. | 54 | 2.1.77 | 2.1.77 |
-| [`system-reminder-slow-render-metrics.md`](../system-prompts/system-reminder-slow-render-metrics.md) | Logs slow render timing along with screen, damage, and change metrics. | 50 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-token-refresh-errors.md`](../system-prompts/system-reminder-scheduled-token-refresh-errors.md) | Scheduled token refresh encountered errors. | 48 | 2.1.77 | 2.1.77 |
-| [`system-reminder-team-memory-sync-file-skipped.md`](../system-prompts/system-reminder-team-memory-sync-file-skipped.md) | Files skipped due to detected secrets. | 47 | 2.1.77 | 2.1.77 |
 | [`system-reminder-run-zod-shape-validation.md`](../system-prompts/system-reminder-run-zod-shape-validation.md) | Runs a Zod shape validator against an input value. | 46 | 2.1.77 | 2.1.77 |
 | [`system-reminder-do-refresh-session-errors.md`](../system-prompts/system-reminder-do-refresh-session-errors.md) | Handle token refresh with session errors. | 45 | 2.1.77 | 2.1.77 |
 | [`system-reminder-oauth-token-refresh-error.md`](../system-prompts/system-reminder-oauth-token-refresh-error.md) | No OAuth token available for refresh. | 45 | 2.1.77 | 2.1.77 |
 | [`system-reminder-get-skills-returning.md`](../system-prompts/system-reminder-get-skills-returning.md) | Retrieve various skill types from the system. | 44 | 2.1.77 | 2.1.77 |
 | [`system-reminder-backend-registry-process-check.md`](../system-prompts/system-reminder-backend-registry-process-check.md) | Check backend registry process status. | 43 | 2.1.77 | 2.1.77 |
-| [`system-reminder-teleport-request-retrying.md`](../system-prompts/system-reminder-teleport-request-retrying.md) | Logs a failed teleport request attempt and retry delay with error details. | 43 | 2.1.77 | 2.1.77 |
 | [`system-reminder-decode-jwt-expiry-errors.md`](../system-prompts/system-reminder-decode-jwt-expiry-errors.md) | Error decoding JWT expiry for session ID. | 42 | 2.1.77 | 2.1.77 |
 | [`system-reminder-voice-onready-flushing-buffered-chunks.md`](../system-prompts/system-reminder-voice-onready-flushing-buffered-chunks.md) | Flushing buffered voice chunks on ready. | 42 | 2.1.77 | 2.1.77 |
 | [`system-reminder-exited-auto-mode-user-interaction.md`](../system-prompts/system-reminder-exited-auto-mode-user-interaction.md) | User can now engage directly with clarifying questions. | 41 | 2.1.77 | 2.1.77 |
-| [`system-reminder-invalid-yoga-dimensions-error.md`](../system-prompts/system-reminder-invalid-yoga-dimensions-error.md) | Error in yoga dimensions with specified width and height. | 41 | 2.1.77 | 2.1.77 |
 | [`system-reminder-save-config-lock-auth-missing.md`](../system-prompts/system-reminder-save-config-lock-auth-missing.md) | Refusing to write due to missing auth in config. | 41 | 2.1.77 | 2.1.77 |
 | [`system-reminder-output-token-limit-hit.md`](../system-prompts/system-reminder-output-token-limit-hit.md) | Resume directly without apology or recap. | 40 | 2.1.77 | 2.1.77 |
-| [`system-reminder-extracted-subdir-loaded-errors.md`](../system-prompts/system-reminder-extracted-subdir-loaded-errors.md) | Subdirectory loaded with errors. | 39 | 2.1.77 | 2.1.77 |
-| [`system-reminder-path-pid-not-found.md`](../system-prompts/system-reminder-path-pid-not-found.md) | Indicates a path with a specific PID was not found. | 39 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-post-force-anthropic.md`](../system-prompts/system-reminder-bridge-api-post-force-anthropic.md) | API post request using force parameter. | 38 | 2.1.77 | 2.1.77 |
 | [`system-reminder-deferred-tools-no-longer-available.md`](../system-prompts/system-reminder-deferred-tools-no-longer-available.md) | List of tools that are no longer accessible. | 38 | 2.1.77 | 2.1.77 |
 | [`system-reminder-invalid-permissionmode-setting.md`](../system-prompts/system-reminder-invalid-permissionmode-setting.md) | Report invalid permissionMode value and list valid options. | 37 | 2.1.77 | 2.1.77 |
 | [`system-reminder-mcp-config-invalid-json.md`](../system-prompts/system-reminder-mcp-config-invalid-json.md) | Invalid JSON detected in MCP config. | 37 | 2.1.77 | 2.1.77 |
 | [`system-reminder-refreshing-token-session-errors.md`](../system-prompts/system-reminder-refreshing-token-session-errors.md) | Refreshing token for a session with errors. | 37 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-failed-attempt-retrying.md`](../system-prompts/system-reminder-remote-bridge-failed-attempt-retrying.md) | Indicates a failed remote bridge attempt with retries. | 37 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-post-lease-extended.md`](../system-prompts/system-reminder-bridge-api-post-lease-extended.md) | API post request for extended lease. | 36 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-initial-flush-dropped.md`](../system-prompts/system-reminder-bridge-repl-initial-flush-dropped.md) | Initial flush dropped batches without marking UUIDs. | 36 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-follow-up-refresh.md`](../system-prompts/system-reminder-scheduled-follow-up-refresh.md) | Scheduled refresh for session with errors. | 36 | 2.1.77 | 2.1.77 |
 | [`system-reminder-extract-memories-written-paths.md`](../system-prompts/system-reminder-extract-memories-written-paths.md) | Extract memories and define paths. | 35 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hook-pid-function-returned-decision.md`](../system-prompts/system-reminder-hook-pid-function-returned-decision.md) | Details about a function's permission decision. | 35 | 2.1.77 | 2.1.77 |
-| [`system-reminder-lsp-diagnostics-delivering-stdio-files.md`](../system-prompts/system-reminder-lsp-diagnostics-delivering-stdio-files.md) | Delivering LSP diagnostics with stdio files. | 35 | 2.1.77 | 2.1.77 |
 | [`system-reminder-session-token-refresh-errors.md`](../system-prompts/system-reminder-session-token-refresh-errors.md) | Token for session loaded with errors, refreshing now. | 35 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-server-response.md`](../system-prompts/system-reminder-team-memory-sync-server-response.md) | Missing entry checksums for server response. | 35 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-work-capacity-error.md`](../system-prompts/system-reminder-bridge-work-capacity-error.md) | Cannot spawn new session at capacity. | 34 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-to-read-stdout-from-file.md`](../system-prompts/system-reminder-failed-to-read-stdout-from-file.md) | Indicates failure in reading stdout from a file. | 34 | 2.1.77 | 2.1.77 |
-| [`system-reminder-invalid-background-value-file.md`](../system-prompts/system-reminder-invalid-background-value-file.md) | Agent file has an invalid background value. | 34 | 2.1.77 | 2.1.77 |
 | [`system-reminder-output-tokens-session-turn.md`](../system-prompts/system-reminder-output-tokens-session-turn.md) | Multiple prompts (2) | 34 | 2.1.77 | 2.1.77 |
-| [`system-reminder-registering-async-hook-with-timeout.md`](../system-prompts/system-reminder-registering-async-hook-with-timeout.md) | Register async hook with a specified timeout. | 34 | 2.1.77 | 2.1.77 |
-| [`system-reminder-settings-defaultmode-issue.md`](../system-prompts/system-reminder-settings-defaultmode-issue.md) | Default mode setting not supported in Claude. | 34 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ccrclient-get-failed-attempt.md`](../system-prompts/system-reminder-ccrclient-get-failed-attempt.md) | Indicates a failed GET attempt in CCRClient. | 33 | 2.1.77 | 2.1.77 |
 | [`system-reminder-get-access-token-error.md`](../system-prompts/system-reminder-get-access-token-error.md) | Error loading access token for session ID. | 33 | 2.1.77 | 2.1.77 |
-| [`system-reminder-team-memory-sync-conflict-2.md`](../system-prompts/system-reminder-team-memory-sync-conflict-2.md) | Handling team memory sync conflicts. | 33 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-skipping-file.md`](../system-prompts/system-reminder-team-memory-sync-skipping-file.md) | Skipping oversized file during memory sync. | 33 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ccrclient-get-returned-attempt.md`](../system-prompts/system-reminder-ccrclient-get-returned-attempt.md) | Logs the result of a GET request attempt. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-enable-optimistic-toolsearch-mode-2.md`](../system-prompts/system-reminder-enable-optimistic-toolsearch-mode-2.md) | Enables optimistic mode for tool search. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-enable-optimistic-toolsearch-mode.md`](../system-prompts/system-reminder-enable-optimistic-toolsearch-mode.md) | Enables optimistic mode for tool search. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-to-read-node-extra-ca.md`](../system-prompts/system-reminder-failed-to-read-node-extra-ca.md) | Error reading NODE_EXTRA_CA_CERTS file. | 32 | 2.1.77 | 2.1.77 |
-| [`system-reminder-git-subdir-sha-path-version.md`](../system-prompts/system-reminder-git-subdir-sha-path-version.md) | Using git subdir SHA with path version. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-lsp-didopen-sent-languageid.md`](../system-prompts/system-reminder-lsp-didopen-sent-languageid.md) | Sent an LSP didOpen notification with languageId. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-resume-stdin-listener-raw-mode.md`](../system-prompts/system-reminder-resume-stdin-listener-raw-mode.md) | Re-attaching stdin listeners in raw mode. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-save-current-project-config-fallback.md`](../system-prompts/system-reminder-save-current-project-config-fallback.md) | Refusing to write due to missing auth in config. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-save-global-config-fallback.md`](../system-prompts/system-reminder-save-global-config-fallback.md) | Refusing to write due to missing auth in config. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-server.md`](../system-prompts/system-reminder-team-memory-sync-server.md) | Sync team memory with learned server entries. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-verify-plan-completion.md`](../system-prompts/system-reminder-verify-plan-completion.md) | After implementing a plan, call the specified tool to verify completion. | 32 | 2.1.77 | 2.1.77 |
-| [`system-reminder-warning-no-commands-found.md`](../system-prompts/system-reminder-warning-no-commands-found.md) | Alert about missing commands in the custom plugin directory. | 32 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-capacity-sleep-overran.md`](../system-prompts/system-reminder-bridge-repl-capacity-sleep-overran.md) | Process suspension detected due to sleep overrun. | 31 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-fatal-poll-error.md`](../system-prompts/system-reminder-bridge-repl-fatal-poll-error.md) | Fatal error in bridge repl polling. | 31 | 2.1.77 | 2.1.77 |
-| [`system-reminder-session-fetched-entries-adopting.md`](../system-prompts/system-reminder-session-fetched-entries-adopting.md) | Session re-fetched entries, adopting last UUID. | 39 | 2.1.59 | 2.1.59 |
-| [`system-reminder-apply-team-permission-rule.md`](../system-prompts/system-reminder-apply-team-permission-rule.md) | Apply a team permission allowing an action within a specified scope and rule. | 34 | 2.1.59 | 2.1.59 |
-| [`system-reminder-added-cache-edits-block.md`](../system-prompts/system-reminder-added-cache-edits-block.md) | Added cache edits block with deletions. | 33 | 2.1.59 | 2.1.59 |
 | [`system-reminder-update-version.md`](../system-prompts/system-reminder-update-version.md) | Reminder to update Claude Code version. | 40 | 2.1.53 | 2.1.53 |
 | [`system-reminder-bridge-api-get-workid-type.md`](../system-prompts/system-reminder-bridge-api-get-workid-type.md) | GET request with workId and type parameters. | 43 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-get-consecutive-empty.md`](../system-prompts/system-reminder-bridge-api-get-consecutive-empty.md) | GET request with consecutive empty polls. | 34 | 2.1.51 | 2.1.51 |
@@ -827,7 +855,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-natural-language-to-iso-date.md`](../system-prompts/system-reminder-natural-language-to-iso-date.md) | Convert natural language date/time inputs into ISO format or INVALID. | 193 | 2.1.49 | 2.1.49 |
 | [`system-reminder-process-command-chain.md`](../system-prompts/system-reminder-process-command-chain.md) | Iterates parent process IDs from a starting PID and prints command lines. | 166 | 2.1.49 | 2.1.49 |
 | [`system-reminder-walk-parent-process-ids.md`](../system-prompts/system-reminder-walk-parent-process-ids.md) | Shell loop walking parent PIDs upward, printing each PPID until a stop condition. | 113 | 2.1.49 | 2.1.49 |
-| [`system-reminder-parse-user-date-to-iso.md`](../system-prompts/system-reminder-parse-user-date-to-iso.md) | Parse user date input into ISO format using provided current context. | 109 | 2.1.49 | 2.1.49 |
 | [`system-reminder-find-running-ide-processes.md`](../system-prompts/system-reminder-find-running-ide-processes.md) | Checks running processes for common IDE executables via tasklist and findstr. | 96 | 2.1.49 | 2.1.49 |
 | [`system-reminder-find-ide-helper-processes.md`](../system-prompts/system-reminder-find-ide-helper-processes.md) | Shell command to locate IDE and helper processes via ps and grep. | 88 | 2.1.49 | 2.1.49 |
 | [`system-reminder-loaded-unique-skills-breakdown.md`](../system-prompts/system-reminder-loaded-unique-skills-breakdown.md) | Reports loaded unique skill counts by condition type and source category. | 70 | 2.1.49 | 2.1.49 |
@@ -839,60 +866,41 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-search-disabled-unsupported.md`](../system-prompts/system-reminder-search-disabled-unsupported.md) | States tool search is disabled because the model lacks tool_reference support. | 54 | 2.1.49 | 2.1.49 |
 | [`system-reminder-loaded-plugins-status-summary.md`](../system-prompts/system-reminder-loaded-plugins-status-summary.md) | Report loaded plugin status, listing enabled, disabled, commands, agents, and errors. | 48 | 2.1.49 | 2.1.49 |
 | [`system-reminder-zsh-glob-echo-loop.md`](../system-prompts/system-reminder-zsh-glob-echo-loop.md) | Zsh loop echoes matched entries, appending slash for directories, space otherwise. | 48 | 2.1.49 | 2.1.49 |
-| [`system-reminder-auto-compact-context-enabled.md`](../system-prompts/system-reminder-auto-compact-context-enabled.md) | Explains automatic message compaction when the context window nears capacity. | 47 | 2.1.49 | 2.1.49 |
-| [`system-reminder-permission-denied-2.md`](../system-prompts/system-reminder-permission-denied-2.md) | Indicates a requested tool action was rejected and no changes were applied. | 47 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-message-read-by-index.md`](../system-prompts/system-reminder-mark-message-read-by-index.md) | Logs mark-message-read-by-index call with agent, team, index, and path. | 46 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permissionsync-sandbox-response-sent.md`](../system-prompts/system-reminder-permissionsync-sandbox-response-sent.md) | PermissionSync mailbox sent sandbox permission response including host and allow flag to worker. | 46 | 2.1.49 | 2.1.49 |
 | [`system-reminder-sse-event-seq-details.md`](../system-prompts/system-reminder-sse-event-seq-details.md) | Logs SSE event sequence, ids, types, and payload type with extra metadata. | 46 | 2.1.49 | 2.1.49 |
-| [`system-reminder-abort-log-line.md`](../system-prompts/system-reminder-abort-log-line.md) | Log aborting status with tool name, pid, and feedback/subagent flags. | 45 | 2.1.49 | 2.1.49 |
 | [`system-reminder-agentic-search-log-query-stats.md`](../system-prompts/system-reminder-agentic-search-log-query-stats.md) | Summarizes log totals, query string, match count, and message inclusion. | 44 | 2.1.49 | 2.1.49 |
 | [`system-reminder-copy-image-to-clipboard.md`](../system-prompts/system-reminder-copy-image-to-clipboard.md) | Load an image from a file path and copy it to Windows clipboard. | 44 | 2.1.49 | 2.1.49 |
 | [`system-reminder-high-write-ratio-warning.md`](../system-prompts/system-reminder-high-write-ratio-warning.md) | Warns when write operations dominate blits, showing counts, percentage, and screen size. | 43 | 2.1.49 | 2.1.49 |
 | [`system-reminder-max-turns-reached.md`](../system-prompts/system-reminder-max-turns-reached.md) | Report that an agent hit the maximum allowed turns limit. | 43 | 2.1.49 | 2.1.49 |
-| [`system-reminder-lsp-notification-handler-partial-failure.md`](../system-prompts/system-reminder-lsp-notification-handler-partial-failure.md) | Report partial success registering notification handlers and list failed servers. | 41 | 2.1.49 | 2.1.49 |
 | [`system-reminder-explain-command-in-context.md`](../system-prompts/system-reminder-explain-command-in-context.md) | Requests explanation of a tool command, its input, and surrounding context. | 40 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-check-attachment-stdout.md`](../system-prompts/system-reminder-hook-check-attachment-stdout.md) | Log hook check details including identifiers, attachment sent status, and stdout length. | 40 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-diagnostics-register-error.md`](../system-prompts/system-reminder-lsp-diagnostics-register-error.md) | Error registering LSP diagnostics from a source URI, including counts and error. | 40 | 2.1.49 | 2.1.49 |
 | [`system-reminder-shutdown-approval-details.md`](../system-prompts/system-reminder-shutdown-approval-details.md) | Logs shutdown approval handling with team name, agent ID, and agent name. | 40 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-duplicate-inode-file.md`](../system-prompts/system-reminder-skip-duplicate-inode-file.md) | Skip duplicate file because the same inode was already loaded elsewhere. | 40 | 2.1.49 | 2.1.49 |
-| [`system-reminder-teammate-message-template.md`](../system-prompts/system-reminder-teammate-message-template.md) | Send a teammate message tag with teammate id, optional attributes, and body. | 40 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removing-permission-rules-update.md`](../system-prompts/system-reminder-removing-permission-rules-update.md) | Apply permission update removing specified rules from a source with details. | 39 | 2.1.49 | 2.1.49 |
-| [`system-reminder-team-lead-message-template.md`](../system-prompts/system-reminder-team-lead-message-template.md) | Multiple prompts (2) | 39 | 2.1.49 | 2.1.49 |
-| [`system-reminder-active-check-running-aborted.md`](../system-prompts/system-reminder-active-check-running-aborted.md) | Report task active status with overall state plus running and aborted flags. | 38 | 2.1.49 | 2.1.49 |
 | [`system-reminder-adding-permission-rules-update.md`](../system-prompts/system-reminder-adding-permission-rules-update.md) | Apply permission update by adding rule count and type to destination. | 38 | 2.1.49 | 2.1.49 |
-| [`system-reminder-enriched-sessions-global-filtered.md`](../system-prompts/system-reminder-enriched-sessions-global-filtered.md) | Enriched sessions with global filtering applied. | 38 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mailbox-bulk-mark-read-called.md`](../system-prompts/system-reminder-mailbox-bulk-mark-read-called.md) | Log markMessagesAsRead invocation with agent name, team name, and path. | 38 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mcpb-user-configuration-required.md`](../system-prompts/system-reminder-mcpb-user-configuration-required.md) | MCPB plugin notice that user configuration is required, with menu navigation path. | 38 | 2.1.49 | 2.1.49 |
-| [`system-reminder-teammate-spawning-taskid-pid.md`](../system-prompts/system-reminder-teammate-spawning-taskid-pid.md) | Log spawning in-process Anthropic teammate and include spawned process PID. | 38 | 2.1.49 | 2.1.49 |
 | [`system-reminder-telemetry-enabled-env-check.md`](../system-prompts/system-reminder-telemetry-enabled-env-check.md) | Logs whether telemetry is enabled and the value of the enablement environment flag. | 38 | 2.1.49 | 2.1.49 |
 | [`system-reminder-telemetry-otlp-log-exporters.md`](../system-prompts/system-reminder-telemetry-otlp-log-exporters.md) | Telemetry log exporter line showing types, protocol, and endpoint values. | 38 | 2.1.49 | 2.1.49 |
-| [`system-reminder-adopt-server-lastuuid-retry.md`](../system-prompts/system-reminder-adopt-server-lastuuid-retry.md) | Adopts server lastUuid from a header and retries processing the specified entry. | 37 | 2.1.49 | 2.1.49 |
 | [`system-reminder-replace-destination-rules.md`](../system-prompts/system-reminder-replace-destination-rules.md) | Replace all rules of a given type for a destination with new rules. | 37 | 2.1.49 | 2.1.49 |
-| [`system-reminder-lsp-diagnostics-volume-limit-removed.md`](../system-prompts/system-reminder-lsp-diagnostics-volume-limit-removed.md) | Reports removed global diagnostic volume limiting. | 36 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permissionsync-sandbox-request-sent.md`](../system-prompts/system-reminder-permissionsync-sandbox-request-sent.md) | PermissionSync mailbox sent sandbox permission request for host to leader recipient. | 36 | 2.1.49 | 2.1.49 |
 | [`system-reminder-registering-diagnostic-files-by-id.md`](../system-prompts/system-reminder-registering-diagnostic-files-by-id.md) | Log registering diagnostic files from a source with a specific identifier. | 36 | 2.1.49 | 2.1.49 |
 | [`system-reminder-too-many-arguments-error.md`](../system-prompts/system-reminder-too-many-arguments-error.md) | Error indicating too many arguments were provided compared to the expected count. | 36 | 2.1.49 | 2.1.49 |
 | [`system-reminder-creating-api-client-headers-status.md`](../system-prompts/system-reminder-creating-api-client-headers-status.md) | Log API client creation and whether custom headers and authorization header are present. | 35 | 2.1.49 | 2.1.49 |
-| [`system-reminder-handle-orphaned-permission-response-received.md`](../system-prompts/system-reminder-handle-orphaned-permission-response-received.md) | Received orphaned control response for tool use. | 35 | 2.1.49 | 2.1.49 |
 | [`system-reminder-invalid-api-key-ttl-var.md`](../system-prompts/system-reminder-invalid-api-key-ttl-var.md) | Warns API key helper TTL environment variable is invalid, showing the received value. | 35 | 2.1.49 | 2.1.49 |
 | [`system-reminder-log-spawn-result-context.md`](../system-prompts/system-reminder-log-spawn-result-context.md) | Logs spawn result including task ID and presence of context and abort flags. | 35 | 2.1.49 | 2.1.49 |
-| [`system-reminder-output-style-force-ignored.md`](../system-prompts/system-reminder-output-style-force-ignored.md) | Force-for-plugin option ignored for non-plugin output style. | 35 | 2.1.49 | 2.1.49 |
 | [`system-reminder-powershell-get-process-commandline.md`](../system-prompts/system-reminder-powershell-get-process-commandline.md) | Run PowerShell CIM query to print a process command line by PID. | 35 | 2.1.49 | 2.1.49 |
 | [`system-reminder-validate-session-uuid.md`](../system-prompts/system-reminder-validate-session-uuid.md) | Reject a non-UUID session ID and echo the invalid provided value. | 35 | 2.1.49 | 2.1.49 |
-| [`system-reminder-handle-orphaned-permission-response-unresolved.md`](../system-prompts/system-reminder-handle-orphaned-permission-response-unresolved.md) | No unresolved tool use found for tool. | 34 | 2.1.49 | 2.1.49 |
-| [`system-reminder-handle-orphaned-permission-response.md`](../system-prompts/system-reminder-handle-orphaned-permission-response.md) | Enqueuing orphaned permission for tool use. | 34 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-read-wrote-updates.md`](../system-prompts/system-reminder-mark-read-wrote-updates.md) | Log count of messages written as read to a specific mailbox file. | 34 | 2.1.49 | 2.1.49 |
 | [`system-reminder-resolve-inbox-path.md`](../system-prompts/system-reminder-resolve-inbox-path.md) | Logs resolved inbox full path for specified agent and team. | 34 | 2.1.49 | 2.1.49 |
 | [`system-reminder-decode-lsp-uri-failed.md`](../system-prompts/system-reminder-decode-lsp-uri-failed.md) | Log failure decoding an LSP URI and fall back to raw path. | 33 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mailbox-mark-read-index-out-of.md`](../system-prompts/system-reminder-mailbox-mark-read-index-out-of.md) | Log out-of-bounds index when marking a mailbox message as read. | 33 | 2.1.49 | 2.1.49 |
-| [`system-reminder-registering-teammate-stop-hook.md`](../system-prompts/system-reminder-registering-teammate-stop-hook.md) | Register Stop hook for teammate to notify Anthropic leader on shutdown. | 33 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ssetransport-reconnect-backoff-attempt.md`](../system-prompts/system-reminder-ssetransport-reconnect-backoff-attempt.md) | Log reconnect delay in milliseconds with attempt number and elapsed seconds. | 33 | 2.1.49 | 2.1.49 |
 | [`system-reminder-websocket-reconnect-schedule.md`](../system-prompts/system-reminder-websocket-reconnect-schedule.md) | Log next WebSocket reconnect delay with attempt number and elapsed seconds. | 33 | 2.1.49 | 2.1.49 |
 | [`system-reminder-write-message-to-mailbox.md`](../system-prompts/system-reminder-write-message-to-mailbox.md) | Logs writeToMailbox details: recipient, sender, and destination mailbox path. | 33 | 2.1.49 | 2.1.49 |
 | [`system-reminder-create-teammate-pane-with-color.md`](../system-prompts/system-reminder-create-teammate-pane-with-color.md) | Logs createTeammatePaneInSwarmView invocation for a target with a specified color. | 32 | 2.1.49 | 2.1.49 |
-| [`system-reminder-plugin-add-dir-overridden.md`](../system-prompts/system-reminder-plugin-add-dir-overridden.md) | Reports a plugin from --add-dir was overridden by a global plugin. | 32 | 2.1.49 | 2.1.49 |
-| [`system-reminder-session-override-info.md`](../system-prompts/system-reminder-session-override-info.md) | Displays current session model override and the underlying base model details. | 32 | 2.1.49 | 2.1.49 |
-| [`system-reminder-add-generic-password-keychain.md`](../system-prompts/system-reminder-add-generic-password-keychain.md) | Add or update a generic password in keychain for an account and service. | 31 | 2.1.49 | 2.1.49 |
 | [`system-reminder-creating-pane-status.md`](../system-prompts/system-reminder-creating-pane-status.md) | Logs iTerm backend pane creation with first-teammate flag and existing pane count. | 31 | 2.1.49 | 2.1.49 |
 | [`system-reminder-date-changed-dont-mention.md`](../system-prompts/system-reminder-date-changed-dont-mention.md) | Update the current date value while instructing not to mention it to user. | 31 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fileindex-git-fallback-ripgrep.md`](../system-prompts/system-reminder-fileindex-git-fallback-ripgrep.md) | Note git ls-files failure details and fallback to ripgrep scanning. | 31 | 2.1.49 | 2.1.49 |
@@ -930,16 +938,437 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 2701 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 2734 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-bridge-session-ccr-registered-worker-6.md`](../system-prompts/system-reminder-bridge-session-ccr-registered-worker-6.md) | Details about a registered worker session. | 30 | 2.1.91 | 2.1.91 |
-| [`system-reminder-streaming-stalls-summary.md`](../system-prompts/system-reminder-streaming-stalls-summary.md) | stream completed with stall count and total stall time | 27 | 2.1.91 | 2.1.91 |
+| [`system-reminder-attribution-claudepercent-memoryaccesscount.md`](../system-prompts/system-reminder-attribution-claudepercent-memoryaccesscount.md) | Track attribution metrics for Claude. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-session-ccr-registered-worker-3.md`](../system-prompts/system-reminder-bridge-session-ccr-registered-worker-3.md) | Details for a registered worker session. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-error-cleaning-mcp-server-2.md`](../system-prompts/system-reminder-error-cleaning-mcp-server-2.md) | Error encountered while cleaning MCP server. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-handle-orphaned-permission-response-5.md`](../system-prompts/system-reminder-handle-orphaned-permission-response-5.md) | No unresolved tool use found for the given ID. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-handle-orphaned-permission-response-6.md`](../system-prompts/system-reminder-handle-orphaned-permission-response-6.md) | Enqueues orphaned permission for a specific tool use. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-matched-unique-hooks-query.md`](../system-prompts/system-reminder-matched-unique-hooks-query.md) | Matched unique hooks for a specific query. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-pid-files-soft-deleted-loaded-errors.md`](../system-prompts/system-reminder-pid-files-soft-deleted-loaded-errors.md) | Soft-deleted files loaded with errors. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-unavailable-for-mcp.md`](../system-prompts/system-reminder-plugin-unavailable-for-mcp.md) | Indicates a plugin is unavailable for MCP with an error type. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skipping-missing-binary.md`](../system-prompts/system-reminder-skipping-missing-binary.md) | Skips an LSP recommendation because the required binary was not found. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-sync-completed-anthropic-updates.md`](../system-prompts/system-reminder-sync-completed-anthropic-updates.md) | Sync completed with updates to installed plugins. | 30 | 2.1.92 | 2.1.92 |
+| [`system-reminder-autocompact-tokens-stable-threshold.md`](../system-prompts/system-reminder-autocompact-tokens-stable-threshold.md) | Configuration for token management and thresholds. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ccr-sessionurl-null.md`](../system-prompts/system-reminder-bridge-repl-ccr-sessionurl-null.md) | Handles CCR session with null session URL. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ccr-worker-session.md`](../system-prompts/system-reminder-bridge-repl-ccr-worker-session.md) | Worker session ID for CCR v2 in bridge REPL. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-check-clipboard-settings.md`](../system-prompts/system-reminder-check-clipboard-settings.md) | Ensure terminal clipboard settings are correct. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-default-mode-issue.md`](../system-prompts/system-reminder-default-mode-issue.md) | Default mode setting not supported in Claude. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-error-timing-log.md`](../system-prompts/system-reminder-error-timing-log.md) | Tool error log including elapsed milliseconds and message. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-auto-uninstall-delisted-plugin-2.md`](../system-prompts/system-reminder-failed-auto-uninstall-delisted-plugin-2.md) | Failed to remove delisted plugin automatically. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inspect-command-path-type.md`](../system-prompts/system-reminder-inspect-command-path-type.md) | Reports whether a command path is a directory or file. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-plugin-memory-value.md`](../system-prompts/system-reminder-invalid-plugin-memory-value.md) | Reports an invalid memory setting in a plugin agent file. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-package-update-available.md`](../system-prompts/system-reminder-package-update-available.md) | Indicates an available package manager auto-update version change. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-permission-explainer-risk-anthropic.md`](../system-prompts/system-reminder-permission-explainer-risk-anthropic.md) | Explains permission risks for a specific context. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remote-bridge-capped-initial-flush-3.md`](../system-prompts/system-reminder-remote-bridge-capped-initial-flush-3.md) | Capped initial flush for remote bridge configuration. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-session-failed-anthropic.md`](../system-prompts/system-reminder-session-failed-anthropic.md) | Indicates a failed code session with Anthropic. | 29 | 2.1.92 | 2.1.92 |
+| [`system-reminder-add-generic-password-stable.md`](../system-prompts/system-reminder-add-generic-password-stable.md) | Command to add a stable generic password. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-api-error-client-request-id.md`](../system-prompts/system-reminder-api-error-client-request-id.md) | Provide the client request ID for server log lookup. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-post-force-global.md`](../system-prompts/system-reminder-bridge-api-post-force-global.md) | API bridge for global force POST requests. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cd-env-server-command.md`](../system-prompts/system-reminder-cd-env-server-command.md) | Change directory and run server with environment variables. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-failed-notify-server-3.md`](../system-prompts/system-reminder-lsp-failed-notify-server-3.md) | Failed to notify server of file change. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-failed-notify-server-4.md`](../system-prompts/system-reminder-lsp-failed-notify-server-4.md) | Error notifying server about file save. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-updated-pid-scope-settings.md`](../system-prompts/system-reminder-updated-pid-scope-settings.md) | Updated PID scope using settings.json. | 28 | 2.1.92 | 2.1.92 |
+| [`system-reminder-connected-global-mcp-server.md`](../system-prompts/system-reminder-connected-global-mcp-server.md) | Agent connected to global MCP server with tools. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-current-session-override.md`](../system-prompts/system-reminder-current-session-override.md) | Indicates the current model and session override status. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-connection-mcp-server-3.md`](../system-prompts/system-reminder-failed-connection-mcp-server-3.md) | Agent failed to connect to the MCP server. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-fileindex-ignore-patterns-anthropic.md`](../system-prompts/system-reminder-fileindex-ignore-patterns-anthropic.md) | Applied ignore patterns for Anthropics in FileIndex. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-global-output-style-ignored.md`](../system-prompts/system-reminder-global-output-style-ignored.md) | Force option for plugin output style is ignored. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inprocessrunner-exiting-poll-loop.md`](../system-prompts/system-reminder-inprocessrunner-exiting-poll-loop.md) | InProcessRunner exits the polling loop. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-package-manager-auto-updater-version-check.md`](../system-prompts/system-reminder-package-manager-auto-updater-version-check.md) | Skips update if current version meets requirements. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-permission-explainer-api-response.md`](../system-prompts/system-reminder-permission-explainer-api-response.md) | Explains API permission and response details. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-queued-notification-handler-2.md`](../system-prompts/system-reminder-queued-notification-handler-2.md) | Handles queued notifications with a specific PID. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-queued-request-handler-connection-not-ready.md`](../system-prompts/system-reminder-queued-request-handler-connection-not-ready.md) | Handles queued requests when the connection is not ready. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-session-adopting-server-global.md`](../system-prompts/system-reminder-session-adopting-server-global.md) | Adopting server last UUID from header. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-skipping.md`](../system-prompts/system-reminder-team-memory-sync-skipping.md) | Notification of skipped memory sync for a team. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teleport-fetched-events-stdio.md`](../system-prompts/system-reminder-teleport-fetched-events-stdio.md) | Fetched events over stdio for teleport. | 27 | 2.1.92 | 2.1.92 |
+| [`system-reminder-api-request-client-global-source.md`](../system-prompts/system-reminder-api-request-client-global-source.md) | API request format for global client source. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-notify-failed-2.md`](../system-prompts/system-reminder-bridge-repl-notify-failed-2.md) | Notify when the bridge fails with details. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-updating-session-title-2.md`](../system-prompts/system-reminder-bridge-updating-session-title-2.md) | Updating the session title in the bridge. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-work-updated-access-token.md`](../system-prompts/system-reminder-bridge-work-updated-access-token.md) | Updated access token for existing session and work ID. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-fileindex-generate-file-suggestions-2.md`](../system-prompts/system-reminder-fileindex-generate-file-suggestions-2.md) | Generate file suggestions based on partial index results. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-handle-orphaned-permission-duplicate-2.md`](../system-prompts/system-reminder-handle-orphaned-permission-duplicate-2.md) | Skipping duplicate orphaned permission response. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-plugin-agents-custom-path.md`](../system-prompts/system-reminder-loaded-plugin-agents-custom-path.md) | Reports agents loaded from a plugin custom path. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-plugin-commands-custom-path.md`](../system-prompts/system-reminder-loaded-plugin-commands-custom-path.md) | Reports commands loaded from a plugin custom path. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-skills-custom-path.md`](../system-prompts/system-reminder-loaded-skills-custom-path.md) | Reports skills loaded from a plugin custom path. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-local-main-session-task-exists.md`](../system-prompts/system-reminder-local-main-session-task-exists.md) | Task exists after registration. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-missing-fallback.md`](../system-prompts/system-reminder-missing-fallback.md) | Specified agent not found so default behavior will be used. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-cache-copy-failed.md`](../system-prompts/system-reminder-plugin-cache-copy-failed.md) | Copying a plugin to the versioned cache failed and the marketplace path was used. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-shell-cwd-load-failed-recovery.md`](../system-prompts/system-reminder-shell-cwd-load-failed-recovery.md) | Recovering to a new current working directory. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-slow-pretooluse-hooks.md`](../system-prompts/system-reminder-slow-pretooluse-hooks.md) | Defines slow hooks for pre-tool use. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-wsr-complete-navigation-options.md`](../system-prompts/system-reminder-wsr-complete-navigation-options.md) | Navigation options for WSR commands. | 26 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-init-registered-server-4.md`](../system-prompts/system-reminder-bridge-init-registered-server-4.md) | Initialization of the server with environment ID. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ignoring-inbound-2.md`](../system-prompts/system-reminder-bridge-repl-ignoring-inbound-2.md) | Ignoring re-delivered inbound messages. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-session-archive-failed-2.md`](../system-prompts/system-reminder-bridge-session-archive-failed-2.md) | Session archive failed with a specific status. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-session-fetch-failed-3.md`](../system-prompts/system-reminder-bridge-session-fetch-failed-3.md) | Indicates a failed session fetch status. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-session-worktree-created.md`](../system-prompts/system-reminder-bridge-session-worktree-created.md) | Worktree created for the specified session ID. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-marketplace-anthropic-settings.md`](../system-prompts/system-reminder-cleaned-marketplace-anthropic-settings.md) | Marketplace cleaned from Anthropic settings. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-copy-anthropic-worktree.md`](../system-prompts/system-reminder-failed-copy-anthropic-worktree.md) | Error occurred while copying to worktree. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-file-uploaded-info.md`](../system-prompts/system-reminder-file-uploaded-info.md) | Details about uploaded file and its size. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-found-lsp-binary.md`](../system-prompts/system-reminder-found-lsp-binary.md) | Logs detection of an LSP binary for a given language or plugin. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-git-tracked-files-fileindex.md`](../system-prompts/system-reminder-git-tracked-files-fileindex.md) | Displays tracked files in a specified time. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inprocessrunner-poll-error-anthropic.md`](../system-prompts/system-reminder-inprocessrunner-poll-error-anthropic.md) | Error encountered during polling with inProcessRunner. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-mcp-server-config.md`](../system-prompts/system-reminder-invalid-mcp-server-config.md) | Report invalid MCP server configuration for a named server. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-itermbackend-split-failed.md`](../system-prompts/system-reminder-itermbackend-split-failed.md) | Split operation failed on a dead session. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-command-custom-file.md`](../system-prompts/system-reminder-loaded-command-custom-file.md) | Reports command loaded from a plugin custom file with metadata override. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-persistence-sync-uploaded-entries-2.md`](../system-prompts/system-reminder-persistence-sync-uploaded-entries-2.md) | Tracks uploaded main and subagent entries. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-registered-stable-frontmatter-hook.md`](../system-prompts/system-reminder-registered-stable-frontmatter-hook.md) | Registered stable frontmatter hooks for a session. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-registering-async-hook-with-timeout-2.md`](../system-prompts/system-reminder-registering-async-hook-with-timeout-2.md) | Register async hook with a specified timeout. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-suppressing-plugin-mcp-duplicates-2.md`](../system-prompts/system-reminder-suppressing-plugin-mcp-duplicates-2.md) | Suppressing duplicates in MCP server. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teleport-failed-fetch-session.md`](../system-prompts/system-reminder-teleport-failed-fetch-session.md) | Error fetching session metadata during teleport. | 25 | 2.1.92 | 2.1.92 |
+| [`system-reminder-anthropic-global-expressions.md`](../system-prompts/system-reminder-anthropic-global-expressions.md) | Expressions related to global anthropic concepts. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-connection-error-message.md`](../system-prompts/system-reminder-connection-error-message.md) | Connection error details with code and message. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-count-definition-tokens-stable.md`](../system-prompts/system-reminder-count-definition-tokens-stable.md) | Stable count of tool definition tokens returned. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-add-plugin-load-error.md`](../system-prompts/system-reminder-failed-to-add-plugin-load-error.md) | Error loading plugin with specified PID. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-spawn-global-pid.md`](../system-prompts/system-reminder-failed-to-spawn-global-pid.md) | Error in spawning global process with given PID. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-file-maxturns-2.md`](../system-prompts/system-reminder-invalid-file-maxturns-2.md) | Invalid maxTurns value for agent file. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-inline-content-command.md`](../system-prompts/system-reminder-loaded-inline-content-command.md) | Reports an inline content command loaded from a plugin with its PID. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remote-persistence-attempt-failed.md`](../system-prompts/system-reminder-remote-persistence-attempt-failed.md) | Indicates a failed remote persistence attempt. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-shell-command-permission-check-failed-2.md`](../system-prompts/system-reminder-shell-command-permission-check-failed-2.md) | Failed permission check for shell command. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stable-web-page-content.md`](../system-prompts/system-reminder-stable-web-page-content.md) | Ensures web page content remains stable. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teleport-to-remote-bundling-2.md`](../system-prompts/system-reminder-teleport-to-remote-bundling-2.md) | Bundling for remote teleportation with a specific reason. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-tmuxbackend-external-swarm-session.md`](../system-prompts/system-reminder-tmuxbackend-external-swarm-session.md) | Created an external swarm session in tmux. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-using-seed-cache.md`](../system-prompts/system-reminder-using-seed-cache.md) | Utilizing seed cache for specified expressions. | 24 | 2.1.92 | 2.1.92 |
+| [`system-reminder-advisor-server-side-enabled-2.md`](../system-prompts/system-reminder-advisor-server-side-enabled-2.md) | Server-side advisor tool is now enabled. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-retry-after-refresh.md`](../system-prompts/system-reminder-bridge-api-retry-after-refresh.md) | Retry logic for API after refresh. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-transport-ready-3.md`](../system-prompts/system-reminder-bridge-repl-transport-ready-3.md) | Transport is ready for writes. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-classifier-denial-limit-exceeded-2.md`](../system-prompts/system-reminder-classifier-denial-limit-exceeded-2.md) | Fallback to prompting due to classifier limit. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-output-styles-2.md`](../system-prompts/system-reminder-failed-load-output-styles-2.md) | Issue with loading output styles from a plugin. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-skills-directory.md`](../system-prompts/system-reminder-failed-load-skills-directory.md) | Error loading skills from the specified directory. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-parse-hook-json.md`](../system-prompts/system-reminder-failed-parse-hook-json.md) | Reports failure to parse hook JSON including source and PID. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-save-marketplace-install-2.md`](../system-prompts/system-reminder-failed-save-marketplace-install-2.md) | Error in saving marketplace auto-install state. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-fallback-markdown-highlighting.md`](../system-prompts/system-reminder-fallback-markdown-highlighting.md) | Falls back to Markdown when code highlighting language is unsupported. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-forked-missed-transcript.md`](../system-prompts/system-reminder-forked-missed-transcript.md) | Forked agent failed to record a transcript entry. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-forked-task-completed.md`](../system-prompts/system-reminder-forked-task-completed.md) | Forked task completion time reported. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-additional-context-2.md`](../system-prompts/system-reminder-hook-function-additional-context-2.md) | Defines a hook function with extra context. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-initial-user-message.md`](../system-prompts/system-reminder-hook-function-initial-user-message.md) | Defines a hook function with user message length. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-modified-input.md`](../system-prompts/system-reminder-hook-function-modified-input.md) | Multiple prompts (2) | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-native-installer-current-version.md`](../system-prompts/system-reminder-native-installer-current-version.md) | Current version is already at or above maxVersion. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-orphaned-permission-fallback-2.md`](../system-prompts/system-reminder-orphaned-permission-fallback-2.md) | Fallback handling for orphaned permissions. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-preference-saved-change.md`](../system-prompts/system-reminder-preference-saved-change.md) | Preference saved for future changes. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-spawning-global-taskid.md`](../system-prompts/system-reminder-spawning-global-taskid.md) | Spawning a global process with a specific task ID. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stdout-output-anthropic.md`](../system-prompts/system-reminder-stdout-output-anthropic.md) | Output from stdout with specified character count. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-worktree-remove-hook-issue-3.md`](../system-prompts/system-reminder-worktree-remove-hook-issue-3.md) | Agent worktree not removed as expected. | 23 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-refresh-handler.md`](../system-prompts/system-reminder-bridge-api-refresh-handler.md) | No refresh handler for received API data. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-token-refresh.md`](../system-prompts/system-reminder-bridge-api-token-refresh.md) | Token refresh attempt after receiving data. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-characters-truncated-stable.md`](../system-prompts/system-reminder-characters-truncated-stable.md) | Stable output with truncated characters. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-anthropic.md`](../system-prompts/system-reminder-failed-load-anthropic.md) | Error loading skill from the specified path. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-scan-directory.md`](../system-prompts/system-reminder-failed-scan-directory.md) | Error encountered during directory scan. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-git-subdir-sha-path-version-2.md`](../system-prompts/system-reminder-git-subdir-sha-path-version-2.md) | Using git subdir SHA with specified path version. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-gitdir-unresolvable-worktree-error.md`](../system-prompts/system-reminder-gitdir-unresolvable-worktree-error.md) | Error indicating unresolvable gitdir for worktree. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-output-styles-from-plugin.md`](../system-prompts/system-reminder-loaded-output-styles-from-plugin.md) | Loaded output styles from a custom plugin path. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-manifest-install-failed.md`](../system-prompts/system-reminder-manifest-install-failed.md) | Native host manifest installation failed with path and error. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcp-config-read-error-2.md`](../system-prompts/system-reminder-mcp-config-read-error-2.md) | Error reading MCP config in specified scope. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-permissionsync-sandbox-request-failed.md`](../system-prompts/system-reminder-permissionsync-sandbox-request-failed.md) | Sandbox permission request send failed via mailbox. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-resizing-anthropic-ai.md`](../system-prompts/system-reminder-resizing-anthropic-ai.md) | Resizing to specified dimensions. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-streaming-completed-no-stalls.md`](../system-prompts/system-reminder-streaming-completed-no-stalls.md) | Streaming finished without any stalls. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-streaming-stall-detected.md`](../system-prompts/system-reminder-streaming-stall-detected.md) | Detected a gap in streaming events. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-suppressing-plugin-mcp-server-duplicates-2.md`](../system-prompts/system-reminder-suppressing-plugin-mcp-server-duplicates-2.md) | Suppress duplicates in MCP server configuration. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-mailbox-mark-failed.md`](../system-prompts/system-reminder-teammate-mailbox-mark-failed.md) | Mark messages as read failed for stable. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-tmux-buffer-copied-chars.md`](../system-prompts/system-reminder-tmux-buffer-copied-chars.md) | Instructions for pasting copied chars in tmux. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-worktree-failed-write-baseline.md`](../system-prompts/system-reminder-worktree-failed-write-baseline.md) | Error writing baseline to worktree. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-worktree-remove-hook-failure.md`](../system-prompts/system-reminder-worktree-remove-hook-failure.md) | WorktreeRemove hook failed to remove worktree. | 22 | 2.1.92 | 2.1.92 |
+| [`system-reminder-activated-conditional.md`](../system-prompts/system-reminder-activated-conditional.md) | Indicates a conditional skill has been activated. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-available-environments-list.md`](../system-prompts/system-reminder-available-environments-list.md) | Multiple prompts (2) | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-post-session.md`](../system-prompts/system-reminder-bridge-api-post-session.md) | Post session data to the API bridge. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ignore-echo-2.md`](../system-prompts/system-reminder-bridge-repl-ignore-echo-2.md) | Ignoring echo in the bridge repl. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-session-ccr-registerworker-failed-3.md`](../system-prompts/system-reminder-bridge-session-ccr-registerworker-failed-3.md) | Failed attempt to register worker in CCR session. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-downloaded-files-in-stablems.md`](../system-prompts/system-reminder-downloaded-files-in-stablems.md) | Files downloaded in stablems. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-agents-plugin-3.md`](../system-prompts/system-reminder-failed-load-agents-plugin-3.md) | Error loading agents from custom plugin path. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-commands-plugin-4.md`](../system-prompts/system-reminder-failed-load-commands-plugin-4.md) | Error loading commands from custom plugin path. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-skills-plugin-3.md`](../system-prompts/system-reminder-failed-load-skills-plugin-3.md) | Error loading skills from custom plugin path. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-parse-legacy-manifest-2.md`](../system-prompts/system-reminder-failed-parse-legacy-manifest-2.md) | Error loading legacy manifest due to parsing issues. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-github-token-synced-status.md`](../system-prompts/system-reminder-github-token-synced-status.md) | Stable status for GitHub token sync. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-installed-failed-save-config-2.md`](../system-prompts/system-reminder-installed-failed-save-config-2.md) | Issue with saving configuration after installation. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-looking-up-plugin-in-marketplace-2.md`](../system-prompts/system-reminder-looking-up-plugin-in-marketplace-2.md) | Searching for a plugin in the marketplace. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-native-installer-maxversion-stdio.md`](../system-prompts/system-reminder-native-installer-maxversion-stdio.md) | Capping update for stdio in native installer. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-powershell-parser-exit-3.md`](../system-prompts/system-reminder-powershell-parser-exit-3.md) | PowerShell parser exit code information. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skip-hook-untrusted-workspace-2.md`](../system-prompts/system-reminder-skip-hook-untrusted-workspace-2.md) | Skips hook execution because workspace trust is not accepted. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stderr-output-chars-pid.md`](../system-prompts/system-reminder-stderr-output-chars-pid.md) | Displays stderr output with character count and PID. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-successfully-cached-plugin-anthropic.md`](../system-prompts/system-reminder-successfully-cached-plugin-anthropic.md) | Plugin successfully cached to Anthropic. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-suppressing-connector-duplicates-2.md`](../system-prompts/system-reminder-suppressing-connector-duplicates-2.md) | Suppress duplicates in the stable connector. | 21 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-derived-title.md`](../system-prompts/system-reminder-bridge-derived-title.md) | Generate a derived title using a bridge format. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ingress-message-2.md`](../system-prompts/system-reminder-bridge-repl-ingress-message-2.md) | Defines ingress message type for bridge REPL. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-message.md`](../system-prompts/system-reminder-failed-message.md) | Log an in-process agent failure and its error message. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-read-file-descriptor-stdio.md`](../system-prompts/system-reminder-failed-read-file-descriptor-stdio.md) | Error reading from stdio file descriptor. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-create-loaded-errors.md`](../system-prompts/system-reminder-failed-to-create-loaded-errors.md) | Failed to create due to errors in the directory. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-condition-off-evaluation.md`](../system-prompts/system-reminder-hook-condition-off-evaluation.md) | Handle case when condition cannot be evaluated. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-watchpaths.md`](../system-prompts/system-reminder-hook-function-watchpaths.md) | Defines a hook function with specified watch paths. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-https-clone-failed-retrying-ssh-2.md`](../system-prompts/system-reminder-https-clone-failed-retrying-ssh-2.md) | Handling HTTPS clone failure with SSH retry. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inprocessrunner-aborted-while-waiting.md`](../system-prompts/system-reminder-inprocessrunner-aborted-while-waiting.md) | InProcessRunner aborted during polling. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inprocessrunner-pending-user-message.md`](../system-prompts/system-reminder-inprocessrunner-pending-user-message.md) | Found a pending user message in the process runner. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-custom-file.md`](../system-prompts/system-reminder-loaded-custom-file.md) | Reports agent loaded from a plugin custom file. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-errors-anthropic-ai.md`](../system-prompts/system-reminder-loaded-errors-anthropic-ai.md) | Loaded with errors related to Anthropic AI. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-read-failed-anthropic.md`](../system-prompts/system-reminder-read-failed-anthropic.md) | Error indicating read failure for a specified path. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-session-create-failed.md`](../system-prompts/system-reminder-session-create-failed.md) | Indicates a failure in creating a session. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stop-hook-blocking-error-2.md`](../system-prompts/system-reminder-stop-hook-blocking-error-2.md) | Prevent hook blocking errors from commands. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-global-files.md`](../system-prompts/system-reminder-team-memory-sync-global-files.md) | Sync global files with team memory. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-cleanup-failure.md`](../system-prompts/system-reminder-teammate-cleanup-failure.md) | Failed to clean tasks directory in TeammateTool. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teamsdialog-sent-mode-change.md`](../system-prompts/system-reminder-teamsdialog-sent-mode-change.md) | Mode change sent to all teammates. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-uncached-start-fresh.md`](../system-prompts/system-reminder-uncached-start-fresh.md) | Initiate a fresh uncached process. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-upload-threw-anthropic.md`](../system-prompts/system-reminder-upload-threw-anthropic.md) | Upload action for anthropic AI. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-voice-stream-transcript-received-2.md`](../system-prompts/system-reminder-voice-stream-transcript-received-2.md) | Transcript endpoint received unknown text. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-voice-stream-websocket-closed-4.md`](../system-prompts/system-reminder-voice-stream-websocket-closed-4.md) | Indicates a closed WebSocket for voice streaming. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-wraparound-step-null-ptr.md`](../system-prompts/system-reminder-wraparound-step-null-ptr.md) | Handle wraparound step with null pointer. | 20 | 2.1.92 | 2.1.92 |
+| [`system-reminder-added-pid-scope.md`](../system-prompts/system-reminder-added-pid-scope.md) | Indicates an addition with specific PID and scope. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-invalid-session.md`](../system-prompts/system-reminder-bridge-repl-invalid-session.md) | Invalid session ID in work. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-callback-failed-run.md`](../system-prompts/system-reminder-callback-failed-run.md) | Callback failed to run error message. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cloned-repository-stable.md`](../system-prompts/system-reminder-cloned-repository-stable.md) | Cloned a stable repository. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-closing-tag-attributes-invalid.md`](../system-prompts/system-reminder-closing-tag-attributes-invalid.md) | Invalid attributes on closing tag. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-entry-stdio-pid.md`](../system-prompts/system-reminder-entry-stdio-pid.md) | Reference for entry stdio with PID. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-hooks-off-2.md`](../system-prompts/system-reminder-failed-load-hooks-off-2.md) | Error loading hooks from off. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-merge-hooks-off.md`](../system-prompts/system-reminder-failed-merge-hooks-off.md) | Error merging hooks when turned off. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-plugin-hooks-warning.md`](../system-prompts/system-reminder-failed-plugin-hooks-warning.md) | Warning about failed loading of plugin hooks. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-zip-file-2.md`](../system-prompts/system-reminder-failed-to-read-zip-file-2.md) | Error reading the specified zip file. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-fileindex-ripgrep-stdioms.md`](../system-prompts/system-reminder-fileindex-ripgrep-stdioms.md) | Search files in stdioms using ripgrep. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hooks-error-anthropic.md`](../system-prompts/system-reminder-hooks-error-anthropic.md) | Error related to prompt hooks in Anthropic. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hooks-file-not-found-manifest.md`](../system-prompts/system-reminder-hooks-file-not-found-manifest.md) | Hooks file is missing as per manifest. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loading-from-skillpath-plugin.md`](../system-prompts/system-reminder-loading-from-skillpath-plugin.md) | Indicates a plugin is loading resources from a specified skillPath. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-not-found-in-marketplace.md`](../system-prompts/system-reminder-plugin-not-found-in-marketplace.md) | Skipping plugin not found in any marketplace. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-seccomp-failed-to-open.md`](../system-prompts/system-reminder-seccomp-failed-to-open.md) | Error opening seccomp path. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-seed-cache-external-plugin-3.md`](../system-prompts/system-reminder-seed-cache-external-plugin-3.md) | Utilizing seed cache for an external plugin. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-tmuxbackend-created-teammate-pane.md`](../system-prompts/system-reminder-tmuxbackend-created-teammate-pane.md) | Created a teammate pane in tmux backend. | 19 | 2.1.92 | 2.1.92 |
+| [`system-reminder-asciicast-failed-rename-recording-2.md`](../system-prompts/system-reminder-asciicast-failed-rename-recording-2.md) | Failed to rename the asciicast recording. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-token-refreshed.md`](../system-prompts/system-reminder-bridge-api-token-refreshed.md) | Token has been refreshed and request is being retried. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-expression-variables.md`](../system-prompts/system-reminder-expression-variables.md) | Utilizes expression variables for dynamic content. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-external-plugin-cache-skipping-2.md`](../system-prompts/system-reminder-external-plugin-cache-skipping-2.md) | Indicates a plugin is not cached. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-fetch-org-fast-mode.md`](../system-prompts/system-reminder-failed-fetch-org-fast-mode.md) | Defaulting to disabled due to network error. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-parse-yaml-frontmatter.md`](../system-prompts/system-reminder-failed-parse-yaml-frontmatter.md) | Error in parsing YAML frontmatter. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-projects-dir-3.md`](../system-prompts/system-reminder-failed-to-read-projects-dir-3.md) | Fallback to current project due to read failure. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-gitbundle-delete-non-fatal.md`](../system-prompts/system-reminder-gitbundle-delete-non-fatal.md) | Issue with deleting git bundle non-fatal error. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-inprocessrunner-poll-stdio-checking-mailbox.md`](../system-prompts/system-reminder-inprocessrunner-poll-stdio-checking-mailbox.md) | Polling stdio for mailbox checks. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-iterm2-backendregistry-cli.md`](../system-prompts/system-reminder-iterm2-backendregistry-cli.md) | iTerm2 CLI is available for use. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-itermbackend-created-teammate-pane.md`](../system-prompts/system-reminder-itermbackend-created-teammate-pane.md) | Created teammate pane for stdio. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-itermbackend-first-split-leader-session-2.md`](../system-prompts/system-reminder-itermbackend-first-split-leader-session-2.md) | First split from the leader session in iTermBackend. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-recommendation-skipping-stdio-2.md`](../system-prompts/system-reminder-lsp-recommendation-skipping-stdio-2.md) | Skipping stdio in the never suggest list. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcpb-content-hash-anthropic.md`](../system-prompts/system-reminder-mcpb-content-hash-anthropic.md) | MCPB content hash for Anthropics. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcpb-extraction-path-inaccessible-2.md`](../system-prompts/system-reminder-mcpb-extraction-path-inaccessible-2.md) | MCPB extraction path is currently inaccessible. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-installation-status-failed.md`](../system-prompts/system-reminder-plugin-installation-status-failed.md) | Stable plugin installation has failed. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-version-cached-stdio.md`](../system-prompts/system-reminder-plugin-version-cached-stdio.md) | Indicates a plugin version is already cached. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skip-handler-registration.md`](../system-prompts/system-reminder-skip-handler-registration.md) | Logs that handler registration was skipped for a target and reason. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-inaccessible.md`](../system-prompts/system-reminder-team-memory-sync-inaccessible.md) | Suppressing soft-delete due to inaccessible team directory. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-init-register-stop-hook.md`](../system-prompts/system-reminder-teammate-init-register-stop-hook.md) | Register Stop hook for teammate notifications. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-versioned-cached-plugin.md`](../system-prompts/system-reminder-versioned-cached-plugin.md) | Reminder to use a versioned cached plugin from a specified source. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-vsm-options-overview.md`](../system-prompts/system-reminder-vsm-options-overview.md) | Overview of VSM options and selections. | 18 | 2.1.92 | 2.1.92 |
+| [`system-reminder-asciicast-renamed-recording-stable.md`](../system-prompts/system-reminder-asciicast-renamed-recording-stable.md) | Renamed an asciicast recording to stable. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-fetch-failed-null.md`](../system-prompts/system-reminder-bridge-fetch-failed-null.md) | Failed to fetch title for null. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-title-update-failed-2.md`](../system-prompts/system-reminder-bridge-title-update-failed-2.md) | Failed to update title for default. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cloning-repository-timeout.md`](../system-prompts/system-reminder-cloning-repository-timeout.md) | Cloning a repository with a specified timeout. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-closing-tag-error.md`](../system-prompts/system-reminder-closing-tag-error.md) | Improper closing tag detected. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-extract-plugin-zip-3.md`](../system-prompts/system-reminder-failed-extract-plugin-zip-3.md) | Failed to extract plugin ZIP and deleting corrupt file. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-mcp-servers-3.md`](../system-prompts/system-reminder-failed-load-mcp-servers-3.md) | Error loading MCP servers from specification. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-output-styles.md`](../system-prompts/system-reminder-failed-load-output-styles.md) | Error loading output styles from the specified plugin. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-follow-symlink.md`](../system-prompts/system-reminder-failed-to-follow-symlink.md) | Error encountered while following a symlink. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-filtering-out-unavailable-tools.md`](../system-prompts/system-reminder-filtering-out-unavailable-tools.md) | Filtering out references for unavailable tools. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-heapdump-diagnostics-written-2.md`](../system-prompts/system-reminder-heapdump-diagnostics-written-2.md) | Diagnostics written to specified location. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-load-failed.md`](../system-prompts/system-reminder-load-failed.md) | error loading an agent from a specified path. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcp-server-not-found-3.md`](../system-prompts/system-reminder-mcp-server-not-found-3.md) | MCP server is missing in stdio. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remove-old-cached-version-3.md`](../system-prompts/system-reminder-remove-old-cached-version-3.md) | Removing outdated cached files. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skilltool-returning-new-messages.md`](../system-prompts/system-reminder-skilltool-returning-new-messages.md) | SkillTool returns new messages for stdio. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-server-batches.md`](../system-prompts/system-reminder-team-memory-sync-server-batches.md) | Sync team memory with pushed server batches. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teamsdialog-failed-kill-pane.md`](../system-prompts/system-reminder-teamsdialog-failed-kill-pane.md) | Error in killing the TeamsDialog pane. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teleport-session-not-found-2.md`](../system-prompts/system-reminder-teleport-session-not-found-2.md) | Indicates a missing teleport session. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-ultraplan-phase-waiting-agents.md`](../system-prompts/system-reminder-ultraplan-phase-waiting-agents.md) | Transitioning to waiting for agents in ultraplan. | 17 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-search-disabled-global.md`](../system-prompts/system-reminder-auto-search-disabled-global.md) | Notification about global auto tool search status. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-search-global.md`](../system-prompts/system-reminder-auto-search-global.md) | Global auto tool search is enabled. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cloning-via-ssh-pid.md`](../system-prompts/system-reminder-cloning-via-ssh-pid.md) | Cloning process using SSH with a specific PID. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-closing-tag-not-opened.md`](../system-prompts/system-reminder-closing-tag-not-opened.md) | Indicates a closing tag is missing an opening. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-created-worktree-global-branch.md`](../system-prompts/system-reminder-created-worktree-global-branch.md) | Worktree created on global branch. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-dropped-hint-unsupported-type-2.md`](../system-prompts/system-reminder-dropped-hint-unsupported-type-2.md) | Dropped hint due to unsupported type. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-execution-stopped-by-hook.md`](../system-prompts/system-reminder-execution-stopped-by-hook.md) | Execution stopped by a pre-run hook with a given reason. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-agents-plugin-default.md`](../system-prompts/system-reminder-failed-load-agents-plugin-default.md) | Error loading agents from the default plugin directory. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-commands-plugin-3.md`](../system-prompts/system-reminder-failed-load-commands-plugin-3.md) | Error loading commands from the default plugin directory. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-inline-content-2.md`](../system-prompts/system-reminder-failed-load-inline-content-2.md) | Error loading inline content command from plugin. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-skills-plugin-2.md`](../system-prompts/system-reminder-failed-load-skills-plugin-2.md) | Error loading skills from the default plugin directory. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-parse-manifest-stdio.md`](../system-prompts/system-reminder-failed-parse-manifest-stdio.md) | Error loading manifest from stdio. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-markdown-file.md`](../system-prompts/system-reminder-failed-to-read-markdown-file.md) | Error reading stable markdown file. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-merged-hooks-manifest-plugin-2.md`](../system-prompts/system-reminder-loaded-merged-hooks-manifest-plugin-2.md) | Hooks from manifest for plugin are off. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-loaded-output-style-plugin.md`](../system-prompts/system-reminder-loaded-output-style-plugin.md) | Loaded output style from a custom plugin file. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-recommendation-skipping-stdio-3.md`](../system-prompts/system-reminder-lsp-recommendation-skipping-stdio-3.md) | Skipping stdio as it is already installed. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-npm-view-package-version.md`](../system-prompts/system-reminder-npm-view-package-version.md) | Multiple prompts (2) | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-permission-request-cancelled-2.md`](../system-prompts/system-reminder-permission-request-cancelled-2.md) | User remote session permission request was cancelled. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-permission-request-failed-3.md`](../system-prompts/system-reminder-permission-request-failed-3.md) | Failed request for tool permission. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-permissionsync-failed-send-response.md`](../system-prompts/system-reminder-permissionsync-failed-send-response.md) | Failed to send permission response via mailbox. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-cache-failed.md`](../system-prompts/system-reminder-plugin-cache-failed.md) | Caching plugin failed with reported error. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-pr-attribution-returning-summary.md`](../system-prompts/system-reminder-pr-attribution-returning-summary.md) | Handles PR attribution with a returning summary. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-process-id.md`](../system-prompts/system-reminder-process-id.md) | Multiple prompts (2) | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-save-marketplace-autoinstall-failure-state.md`](../system-prompts/system-reminder-save-marketplace-autoinstall-failure-state.md) | Indicates an error saving marketplace auto-install failure state. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-session-repository-stable-current.md`](../system-prompts/system-reminder-session-repository-stable-current.md) | Indicates the active session for the current repository. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stats-cache-stale-processing-stdio.md`](../system-prompts/system-reminder-stats-cache-stale-processing-stdio.md) | Processing stdio to stabilize stale stats cache. | 16 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-server-title-null.md`](../system-prompts/system-reminder-bridge-server-title-null.md) | Server title configuration for null bridge. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-chrome-extension-check-failed-3.md`](../system-prompts/system-reminder-chrome-extension-check-failed-3.md) | Failed to verify extension installation in Chrome. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-download-stalled-retrying-2.md`](../system-prompts/system-reminder-download-stalled-retrying-2.md) | Indicates a download is stalled and retrying. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-access-error.md`](../system-prompts/system-reminder-failed-access-error.md) | Indicates an error in accessing a resource. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-lsp-servers-2.md`](../system-prompts/system-reminder-failed-load-lsp-servers-2.md) | Error loading LSP servers for the specified plugin. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-prevent-continuation.md`](../system-prompts/system-reminder-hook-function-prevent-continuation.md) | Request to prevent continuation of a function hook. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-function-replaced-mcp.md`](../system-prompts/system-reminder-hook-function-replaced-mcp.md) | Function hook replaces MCP tool output. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-keybindings-json-global.md`](../system-prompts/system-reminder-invalid-keybindings-json-global.md) | Issue with global keybindings configuration. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-legacy-manifest-waiting.md`](../system-prompts/system-reminder-invalid-legacy-manifest-waiting.md) | Invalid legacy manifest waiting for agents. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-missing-env-vars-plugin-mcp.md`](../system-prompts/system-reminder-missing-env-vars-plugin-mcp.md) | Indicates missing environment variables in MCP config. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-notification-pid-failed-continuing.md`](../system-prompts/system-reminder-notification-pid-failed-continuing.md) | Notification indicates a failure but continues. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-open-quote-attributes.md`](../system-prompts/system-reminder-open-quote-attributes.md) | Attributes have an open quote. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-resuming-existing-worktree-2.md`](../system-prompts/system-reminder-resuming-existing-worktree-2.md) | Resuming the current worktree session. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-settings-scope-2.md`](../system-prompts/system-reminder-settings-scope-2.md) | Reminder text referencing user, project, and local settings scopes. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-spawn-in-process-teammate-global.md`](../system-prompts/system-reminder-spawn-in-process-teammate-global.md) | Registered global in AppState. | 15 | 2.1.92 | 2.1.92 |
+| [`system-reminder-agentic-search-using.md`](../system-prompts/system-reminder-agentic-search-using.md) | Agentic search leveraging a specific model. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-auto-refresh-failed-fallback-2.md`](../system-prompts/system-reminder-auto-refresh-failed-fallback-2.md) | Auto-refresh has failed and is reverting. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-token-refresh-failed.md`](../system-prompts/system-reminder-bridge-api-token-refresh-failed.md) | Token refresh for the API bridge has failed. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-init-created-session.md`](../system-prompts/system-reminder-bridge-init-created-session.md) | Initial session has been created. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-check-plugin-failed-marketplace.md`](../system-prompts/system-reminder-check-plugin-failed-marketplace.md) | Failed to verify plugin stability in marketplace. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-clean-orphaned-temp-installs.md`](../system-prompts/system-reminder-clean-orphaned-temp-installs.md) | Remove orphaned temporary install files. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleanup-global-spawninprocessteammate.md`](../system-prompts/system-reminder-cleanup-global-spawninprocessteammate.md) | Cleanup initiated for global spawn in process teammate. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-copied-chars-to-clipboard-2.md`](../system-prompts/system-reminder-copied-chars-to-clipboard-2.md) | Indicates characters copied to clipboard. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-editor-spawn-failed-pid.md`](../system-prompts/system-reminder-editor-spawn-failed-pid.md) | Indicates an editor spawn failure with a specific PID. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-enabling-anthropic-plugin.md`](../system-prompts/system-reminder-enabling-anthropic-plugin.md) | Instructions for enabling the Anthropics plugin. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-extracted-plugin-zip-session-dir-3.md`](../system-prompts/system-reminder-extracted-plugin-zip-session-dir-3.md) | Plugin ZIP extracted to session directory. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-mcp-servers-4.md`](../system-prompts/system-reminder-failed-load-mcp-servers-4.md) | Issue with loading MCP servers. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-stdio.md`](../system-prompts/system-reminder-failed-to-read-stdio.md) | Indicates a failure in reading standard input. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-untracked-file-3.md`](../system-prompts/system-reminder-failed-to-read-untracked-file-3.md) | Error reading an untracked file from stdio. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-global-actions-blocked-session.md`](../system-prompts/system-reminder-global-actions-blocked-session.md) | Review the transcript before continuing. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-tag-name.md`](../system-prompts/system-reminder-invalid-tag-name.md) | Error message for invalid tag name. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-itermbackend-subsequent-split-2.md`](../system-prompts/system-reminder-itermbackend-subsequent-split-2.md) | Split session from teammate in iTerm. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcp-connect-error-null.md`](../system-prompts/system-reminder-mcp-connect-error-null.md) | MCP connection error with null response. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcpb-source-file-inaccessible-2.md`](../system-prompts/system-reminder-mcpb-source-file-inaccessible-2.md) | MCPB source file is currently inaccessible. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remote-bridge-archive-status-2.md`](../system-prompts/system-reminder-remote-bridge-archive-status-2.md) | Archive the stable status of the remote bridge. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-retrying-in-stablems.md`](../system-prompts/system-reminder-retrying-in-stablems.md) | Indicates a retry action in stable milliseconds. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-session-initial-transcript-failed.md`](../system-prompts/system-reminder-session-initial-transcript-failed.md) | Initial session transcript writing failed. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-shell-snapshot-file-missing.md`](../system-prompts/system-reminder-shell-snapshot-file-missing.md) | Snapshot file missing after creation message. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stable-expressions.md`](../system-prompts/system-reminder-stable-expressions.md) | Multiple prompts (2) | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-value-parsed-global-or-either.md`](../system-prompts/system-reminder-value-parsed-global-or-either.md) | Value can be parsed as global or an expression. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-versioned-cached-plugin-zip-3.md`](../system-prompts/system-reminder-versioned-cached-plugin-zip-3.md) | Using a versioned cached plugin ZIP from global. | 14 | 2.1.92 | 2.1.92 |
+| [`system-reminder-added-tracked-paths-repo-stable.md`](../system-prompts/system-reminder-added-tracked-paths-repo-stable.md) | Tracks added paths for the stable repository. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-agentic-search-error.md`](../system-prompts/system-reminder-agentic-search-error.md) | Identifies an error in agentic search. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-anthropic-plugin-enabled.md`](../system-prompts/system-reminder-anthropic-plugin-enabled.md) | Anthropic plugin is now enabled. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-anthropic-plugin-installed.md`](../system-prompts/system-reminder-anthropic-plugin-installed.md) | Anthropic plugin has been successfully installed. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-api-post.md`](../system-prompts/system-reminder-bridge-api-post.md) | Multiple prompts (8) | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-copied-settings-local-json-2.md`](../system-prompts/system-reminder-copied-settings-local-json-2.md) | Copied settings to the worktree. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-everywhere-app.md`](../system-prompts/system-reminder-everywhere-app.md) | Utilize the Claude app for coding anytime. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-atomic-file-write.md`](../system-prompts/system-reminder-failed-atomic-file-write.md) | atomic file write failed with an error. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-save-marketplace-json-2.md`](../system-prompts/system-reminder-failed-save-marketplace-json-2.md) | Error saving marketplace JSON data. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-project-directory.md`](../system-prompts/system-reminder-failed-to-read-project-directory.md) | Error reading stable project directory. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-gitignored-skills-directory.md`](../system-prompts/system-reminder-gitignored-skills-directory.md) | Skipped skills directory due to gitignore. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-installing-anthropic-plugin-2.md`](../system-prompts/system-reminder-installing-anthropic-plugin-2.md) | Instructions for installing the Anthropics plugin. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-lsp-notification-handlers-registered-2.md`](../system-prompts/system-reminder-lsp-notification-handlers-registered-2.md) | LSP notification handlers are registered successfully. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcp-config-errors-stdio.md`](../system-prompts/system-reminder-mcp-config-errors-stdio.md) | MCP configuration errors related to stdio. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcpb-stdio.md`](../system-prompts/system-reminder-mcpb-stdio.md) | MCPB with standard input/output. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-promoting-unreported-interim-2.md`](../system-prompts/system-reminder-promoting-unreported-interim-2.md) | Promoting interim voice stream updates. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-registered-stable-hooks.md`](../system-prompts/system-reminder-registered-stable-hooks.md) | Registered stable hooks from a specific skill. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skipping-hook-condition-off.md`](../system-prompts/system-reminder-skipping-hook-condition-off.md) | Skipping hook due to condition not matching. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-successfully-cached-plugin-zip.md`](../system-prompts/system-reminder-successfully-cached-plugin-zip.md) | Cached plugin as ZIP successfully. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-cleaned-tasks-directory.md`](../system-prompts/system-reminder-teammate-cleaned-tasks-directory.md) | Tasks directory has been cleaned and is stable. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teammate-init-idle-notification.md`](../system-prompts/system-reminder-teammate-init-idle-notification.md) | Idle notification sent to the leader. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-teleport-found-branch.md`](../system-prompts/system-reminder-teleport-found-branch.md) | Indicates a found branch during teleportation. | 13 | 2.1.92 | 2.1.92 |
+| [`system-reminder-bridge-repl-ingress-url-null.md`](../system-prompts/system-reminder-bridge-repl-ingress-url-null.md) | Ingress URL is set to null. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-chrome-failed-install-native-3.md`](../system-prompts/system-reminder-chrome-failed-install-native-3.md) | Failed to install native host in Chrome. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-compact-streaming-failed-global.md`](../system-prompts/system-reminder-compact-streaming-failed-global.md) | Indicates a failure in compact streaming. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-error-pid-notification.md`](../system-prompts/system-reminder-error-pid-notification.md) | Notification for error with specific PID. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-acquire-lock-stable.md`](../system-prompts/system-reminder-failed-acquire-lock-stable.md) | Failed to acquire a stable lock. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-create-command-stdio.md`](../system-prompts/system-reminder-failed-create-command-stdio.md) | Error in creating command from stdio. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-extract-plugin-zip-global-3.md`](../system-prompts/system-reminder-failed-extract-plugin-zip-global-3.md) | Error in extracting the plugin ZIP file globally. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-load-hooks-off.md`](../system-prompts/system-reminder-failed-load-hooks-off.md) | Indicates hooks failed to load. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-parse-global.md`](../system-prompts/system-reminder-failed-parse-global.md) | Error in parsing agent from global context. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-heapdump-global-written.md`](../system-prompts/system-reminder-heapdump-global-written.md) | Heap dump has been written globally. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-path-already-tracked-repo-stable.md`](../system-prompts/system-reminder-path-already-tracked-repo-stable.md) | Indicates a path is already tracked in the stable repo. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-refreshing-marketplace-cache-2.md`](../system-prompts/system-reminder-refreshing-marketplace-cache-2.md) | Refreshing the marketplace cache with specified timeout. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remove-session-snapshot.md`](../system-prompts/system-reminder-remove-session-snapshot.md) | Delete a session snapshot file. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-skipping-visited-directory-circular.md`](../system-prompts/system-reminder-skipping-visited-directory-circular.md) | Skipping a directory due to a circular symlink. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-snapshot-file-missing-fallback.md`](../system-prompts/system-reminder-snapshot-file-missing-fallback.md) | Fallback to login shell due to missing snapshot file. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-source-already-materialized-global.md`](../system-prompts/system-reminder-source-already-materialized-global.md) | Skipping clone for already materialized global source. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-successfully-read-file-descriptor-stdio.md`](../system-prompts/system-reminder-successfully-read-file-descriptor-stdio.md) | Indicates successful reading from stdio. | 12 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-install-stable.md`](../system-prompts/system-reminder-failed-install-stable.md) | Installation of stable version failed. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-finalize-voice-stream-3.md`](../system-prompts/system-reminder-finalize-voice-stream-3.md) | Finalize the voice stream resolution. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-git-sha-stdio.md`](../system-prompts/system-reminder-git-sha-stdio.md) | Using git SHA with standard input/output. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-installation-status-reported.md`](../system-prompts/system-reminder-installation-status-reported.md) | Installation status value reported. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-npm-view-stable-version.md`](../system-prompts/system-reminder-npm-view-stable-version.md) | Check the stable version of a package. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-parent-directory-accessibility-issue.md`](../system-prompts/system-reminder-parent-directory-accessibility-issue.md) | Parent directory is not accessible. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-path-not-found.md`](../system-prompts/system-reminder-plugin-path-not-found.md) | Plugin path could not be found. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-renaming-stable-to-expr-1.md`](../system-prompts/system-reminder-renaming-stable-to-expr-1.md) | Renaming stable to a new value. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-team-memory-sync-fetch-error-3.md`](../system-prompts/system-reminder-team-memory-sync-fetch-error-3.md) | Error fetching team memory sync data. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-upstreamproxy-global-error.md`](../system-prompts/system-reminder-upstreamproxy-global-error.md) | Error related to upstream proxy connection. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-voice-cancel-recording.md`](../system-prompts/system-reminder-voice-cancel-recording.md) | Cancel recording without submitting. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-voice-stream-transcripterror-off.md`](../system-prompts/system-reminder-voice-stream-transcripterror-off.md) | Indicates voice stream transcription is disabled. | 11 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-orphaned-temp-file.md`](../system-prompts/system-reminder-cleaned-orphaned-temp-file.md) | Cleaned up an orphaned temporary install file. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-stdio-old-windows-executables.md`](../system-prompts/system-reminder-cleaned-stdio-old-windows-executables.md) | Cleaned up old Windows executables on startup. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-creating-snapshot-path.md`](../system-prompts/system-reminder-creating-snapshot-path.md) | snapshot being created at a specified path | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-current-stable.md`](../system-prompts/system-reminder-current-stable.md) | Indicates the current stable model. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-delete-worktree-branch.md`](../system-prompts/system-reminder-delete-worktree-branch.md) | Error deleting agent worktree branch. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-null.md`](../system-prompts/system-reminder-failed-to-null.md) | Indicates a failure to nullify a value. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-fetch-threw-stdio.md`](../system-prompts/system-reminder-fetch-threw-stdio.md) | Fetch operation encountered a stdio error. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hooks-error-parsing-json-2.md`](../system-prompts/system-reminder-hooks-error-parsing-json-2.md) | Error in parsing server response as JSON. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-manifest-stdio-waiting.md`](../system-prompts/system-reminder-invalid-manifest-stdio-waiting.md) | Error indicating invalid manifest at stdio. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-manually-removed-stable.md`](../system-prompts/system-reminder-manually-removed-stable.md) | Indicates a stable manual removal. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcp-client-notification-send-failure.md`](../system-prompts/system-reminder-mcp-client-notification-send-failure.md) | Notification could not be sent to the global MCP client. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-plugin-path-not-exist.md`](../system-prompts/system-reminder-plugin-path-not-exist.md) | Indicates a missing plugin path. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-soft-deleted-item.md`](../system-prompts/system-reminder-soft-deleted-item.md) | Indicates an item has been soft deleted. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-write-failed-stdio.md`](../system-prompts/system-reminder-write-failed-stdio.md) | Error indicating write operation failure. | 10 | 2.1.92 | 2.1.92 |
+| [`system-reminder-check-parent-directory-existence.md`](../system-prompts/system-reminder-check-parent-directory-existence.md) | Verifying if the parent directory is still present. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-global-npm-installation.md`](../system-prompts/system-reminder-cleaned-global-npm-installation.md) | Cleaned up global npm installations. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-corrupted-config-backup-global.md`](../system-prompts/system-reminder-corrupted-config-backup-global.md) | Corrupted configuration has been backed up globally. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-delete-worktree-branch-stable.md`](../system-prompts/system-reminder-delete-worktree-branch-stable.md) | Error deleting the stable worktree branch. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-remove-linked-worktree-2.md`](../system-prompts/system-reminder-failed-remove-linked-worktree-2.md) | Issue with removing linked worktree stable. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-remove-worktree-2.md`](../system-prompts/system-reminder-failed-remove-worktree-2.md) | Error in removing stable worktree. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hook-condition-met-2.md`](../system-prompts/system-reminder-hook-condition-met-2.md) | Reports that the prompt hook condition evaluated true. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcp-client-send-failure.md`](../system-prompts/system-reminder-mcp-client-send-failure.md) | Message could not be sent to the global MCP client. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-mcpb-source-file-missing-2.md`](../system-prompts/system-reminder-mcpb-source-file-missing-2.md) | Stable MCPB source file is missing. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-persistence-sync-write-failed-2.md`](../system-prompts/system-reminder-persistence-sync-write-failed-2.md) | Global write operation failed. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-remote-bridge-archive-failed-2.md`](../system-prompts/system-reminder-remote-bridge-archive-failed-2.md) | Archive operation failed in remote bridge. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-removed-installed-plugin-marketplace.md`](../system-prompts/system-reminder-removed-installed-plugin-marketplace.md) | Plugin for marketplace removal has been removed. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stdio-plugin-not-found.md`](../system-prompts/system-reminder-stdio-plugin-not-found.md) | Plugin 'stdio' is missing from all marketplaces. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-voice-stream-connecting-stable.md`](../system-prompts/system-reminder-voice-stream-connecting-stable.md) | Connecting to a stable voice stream. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-voice-stream-server-error-3.md`](../system-prompts/system-reminder-voice-stream-server-error-3.md) | Indicates server error for voice stream. | 9 | 2.1.92 | 2.1.92 |
+| [`system-reminder-attribution-header-value.md`](../system-prompts/system-reminder-attribution-header-value.md) | Logs an attribution header value. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-brew-upgrade-command.md`](../system-prompts/system-reminder-brew-upgrade-command.md) | Command to upgrade a package using brew. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-old-image-cache.md`](../system-prompts/system-reminder-cleaned-old-image-cache.md) | Old image cache has been cleaned. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-old-staging-directory-2.md`](../system-prompts/system-reminder-cleaned-old-staging-directory-2.md) | Cleaned up the old staging directory. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-stable-stale-version-locks.md`](../system-prompts/system-reminder-cleaned-stable-stale-version-locks.md) | Cleaned up version locks for stability. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-clean-staging-directories.md`](../system-prompts/system-reminder-failed-clean-staging-directories.md) | Cleanup of staging directories was unsuccessful. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-readdir-versions-directory-2.md`](../system-prompts/system-reminder-failed-readdir-versions-directory-2.md) | Error accessing the stable versions directory. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-filehistory-missing-tracked-file-2.md`](../system-prompts/system-reminder-filehistory-missing-tracked-file-2.md) | Alert for a missing tracked file in FileHistory. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-global-temp-file-cleanup-failed.md`](../system-prompts/system-reminder-global-temp-file-cleanup-failed.md) | Cleanup of the global temp file failed. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-http-hook-error-global.md`](../system-prompts/system-reminder-http-hook-error-global.md) | Global error handling for HTTP hooks. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-installing-marketplace.md`](../system-prompts/system-reminder-installing-marketplace.md) | Instructions for installing a marketplace. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-non-atomic-write-also-failed.md`](../system-prompts/system-reminder-non-atomic-write-also-failed.md) | A non-atomic write attempt also failed. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-thinkback-directory-off.md`](../system-prompts/system-reminder-thinkback-directory-off.md) | Disables the Thinkback skill directory. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-written-to-expr-1.md`](../system-prompts/system-reminder-written-to-expr-1.md) | Indicates a written action to a specified expression. | 8 | 2.1.92 | 2.1.92 |
+| [`system-reminder-additional-user-stable.md`](../system-prompts/system-reminder-additional-user-stable.md) | User has provided additional stable instructions. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-buddy-api-failed-stdio.md`](../system-prompts/system-reminder-buddy-api-failed-stdio.md) | Buddy API encountered a stdio failure. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-checking-off-not-found.md`](../system-prompts/system-reminder-checking-off-not-found.md) | Status check indicates off not found. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaned-old-paste-stable.md`](../system-prompts/system-reminder-cleaned-old-paste-stable.md) | Cleaned up old paste for stability. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-cleaning-temp-file-stable.md`](../system-prompts/system-reminder-cleaning-temp-file-stable.md) | Cleaning up a stable temporary file. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-downloading-marketplace-from-url.md`](../system-prompts/system-reminder-downloading-marketplace-from-url.md) | Downloading marketplace from a stable URL. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-create-shell-snapshot.md`](../system-prompts/system-reminder-failed-create-shell-snapshot.md) | Error in creating a stable shell snapshot. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-remove-local-installation.md`](../system-prompts/system-reminder-failed-remove-local-installation.md) | Issue with removing local stable installation. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-read-directory.md`](../system-prompts/system-reminder-failed-to-read-directory.md) | Error reading the stable directory. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-stat-directory.md`](../system-prompts/system-reminder-failed-to-stat-directory.md) | Error encountered while accessing stable directory. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-failed-to-stat-session-file.md`](../system-prompts/system-reminder-failed-to-stat-session-file.md) | Error in accessing stable session file. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-hooks-response-server.md`](../system-prompts/system-reminder-hooks-response-server.md) | Manage server responses with model hooks. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-starting-speculation-stable.md`](../system-prompts/system-reminder-starting-speculation-stable.md) | Initiating stable speculation process. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-upgrade-connection-stable.md`](../system-prompts/system-reminder-upgrade-connection-stable.md) | Ensure the connection is stable after the upgrade. | 7 | 2.1.92 | 2.1.92 |
+| [`system-reminder-binary-content-stable.md`](../system-prompts/system-reminder-binary-content-stable.md) | Indicates stable binary content. | 6 | 2.1.92 | 2.1.92 |
+| [`system-reminder-file-suggestion-helper-failed-2.md`](../system-prompts/system-reminder-file-suggestion-helper-failed-2.md) | Stable file suggestion helper encountered an issue. | 6 | 2.1.92 | 2.1.92 |
+| [`system-reminder-full-snapshot-script-global.md`](../system-prompts/system-reminder-full-snapshot-script-global.md) | Script for capturing a full global snapshot. | 6 | 2.1.92 | 2.1.92 |
+| [`system-reminder-json-array-schema-stable.md`](../system-prompts/system-reminder-json-array-schema-stable.md) | Define a stable schema for a JSON array. | 6 | 2.1.92 | 2.1.92 |
+| [`system-reminder-snapshots-directory-stdio.md`](../system-prompts/system-reminder-snapshots-directory-stdio.md) | Manage snapshots in the stdio directory. | 6 | 2.1.92 | 2.1.92 |
+| [`system-reminder-writing-to-temp-file.md`](../system-prompts/system-reminder-writing-to-temp-file.md) | Writing process to a temporary file. | 6 | 2.1.92 | 2.1.92 |
+| [`system-reminder-access-key-id-required.md`](../system-prompts/system-reminder-access-key-id-required.md) | Access key ID is necessary. | 5 | 2.1.92 | 2.1.92 |
+| [`system-reminder-downloading-marketplace-from-stable.md`](../system-prompts/system-reminder-downloading-marketplace-from-stable.md) | Downloading marketplace from stable. | 5 | 2.1.92 | 2.1.92 |
+| [`system-reminder-error-loading-plugins-stable.md`](../system-prompts/system-reminder-error-loading-plugins-stable.md) | Error encountered while loading stable plugins. | 5 | 2.1.92 | 2.1.92 |
+| [`system-reminder-marketplace-global-refreshed.md`](../system-prompts/system-reminder-marketplace-global-refreshed.md) | Global marketplace has been refreshed. | 5 | 2.1.92 | 2.1.92 |
+| [`system-reminder-refreshing-global-marketplace.md`](../system-prompts/system-reminder-refreshing-global-marketplace.md) | A focus on revitalizing the global marketplace. | 5 | 2.1.92 | 2.1.92 |
+| [`system-reminder-secret-access-key-required.md`](../system-prompts/system-reminder-secret-access-key-required.md) | Secret access key is needed. | 5 | 2.1.92 | 2.1.92 |
+| [`system-reminder-api-key-required.md`](../system-prompts/system-reminder-api-key-required.md) | API key is necessary for access. | 4 | 2.1.92 | 2.1.92 |
+| [`system-reminder-global-marketplace-installed.md`](../system-prompts/system-reminder-global-marketplace-installed.md) | Global marketplace is now installed. | 4 | 2.1.92 | 2.1.92 |
+| [`system-reminder-invalid-escape-sequence-stdio.md`](../system-prompts/system-reminder-invalid-escape-sequence-stdio.md) | Error related to invalid escape sequences in stdio. | 4 | 2.1.92 | 2.1.92 |
+| [`system-reminder-null-true-false-nil.md`](../system-prompts/system-reminder-null-true-false-nil.md) | Exploring the concepts of null and boolean values. | 4 | 2.1.92 | 2.1.92 |
+| [`system-reminder-profile-name-required.md`](../system-prompts/system-reminder-profile-name-required.md) | Profile name must be provided. | 4 | 2.1.92 | 2.1.92 |
+| [`system-reminder-reading-marketplace-from-stable.md`](../system-prompts/system-reminder-reading-marketplace-from-stable.md) | Accessing the reading marketplace. | 4 | 2.1.92 | 2.1.92 |
+| [`system-reminder-region-is-required.md`](../system-prompts/system-reminder-region-is-required.md) | Indicates that a region must be specified. | 3 | 2.1.92 | 2.1.92 |
+| [`system-reminder-stop-hook-cleared.md`](../system-prompts/system-reminder-stop-hook-cleared.md) | Indicates that the stop hook has been cleared. | 3 | 2.1.92 | 2.1.92 |
 | [`system-reminder-bridge-repl-rejecting-foreign-session-3.md`](../system-prompts/system-reminder-bridge-repl-rejecting-foreign-session-3.md) | Rejecting a foreign session in the bridge REPL. | 26 | 2.1.91 | 2.1.91 |
-| [`system-reminder-detect-streaming-stall-gap.md`](../system-prompts/system-reminder-detect-streaming-stall-gap.md) | streaming stall detected from a gap between events | 26 | 2.1.91 | 2.1.91 |
 | [`system-reminder-reconcile-marketplace-expressions.md`](../system-prompts/system-reminder-reconcile-marketplace-expressions.md) | Reconcile specified marketplace expressions. | 26 | 2.1.91 | 2.1.91 |
-| [`system-reminder-slow-posttooluse-hooks-nullms.md`](../system-prompts/system-reminder-slow-posttooluse-hooks-nullms.md) | Handles slow hooks for post-tool use. | 26 | 2.1.91 | 2.1.91 |
 | [`system-reminder-bridge-sdk-state-change-2.md`](../system-prompts/system-reminder-bridge-sdk-state-change-2.md) | Handles state changes in the bridge SDK. | 25 | 2.1.91 | 2.1.91 |
 | [`system-reminder-reconnect-bridge-repl-transport.md`](../system-prompts/system-reminder-reconnect-bridge-repl-transport.md) | Attempting to reconnect after budget exhaustion. | 25 | 2.1.91 | 2.1.91 |
 | [`system-reminder-advisor-skipping-invalid.md`](../system-prompts/system-reminder-advisor-skipping-invalid.md) | Skipping an invalid advisor model. | 24 | 2.1.91 | 2.1.91 |
@@ -949,54 +1378,33 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-activate-terminal-script.md`](../system-prompts/system-reminder-activate-terminal-script.md) | Activates Terminal and runs a script. | 21 | 2.1.91 | 2.1.91 |
 | [`system-reminder-bridge-repl-creating-hybridtransport.md`](../system-prompts/system-reminder-bridge-repl-creating-hybridtransport.md) | Creating a hybrid transport session. | 20 | 2.1.91 | 2.1.91 |
 | [`system-reminder-chrome-extension-check-failed-2.md`](../system-prompts/system-reminder-chrome-extension-check-failed-2.md) | Failed to verify extension installation in Chrome. | 20 | 2.1.91 | 2.1.91 |
-| [`system-reminder-chrome-extension-check-failed.md`](../system-prompts/system-reminder-chrome-extension-check-failed.md) | Failed to verify extension installation in Chrome. | 20 | 2.1.91 | 2.1.91 |
-| [`system-reminder-closing-tag-attributes-invalid.md`](../system-prompts/system-reminder-closing-tag-attributes-invalid.md) | Invalid attributes on closing tag. | 19 | 2.1.91 | 2.1.91 |
 | [`system-reminder-invalid-server-status-attribute.md`](../system-prompts/system-reminder-invalid-server-status-attribute.md) | Invalid name for server status attribute. | 19 | 2.1.91 | 2.1.91 |
 | [`system-reminder-lsp-failed-notify-server-2.md`](../system-prompts/system-reminder-lsp-failed-notify-server-2.md) | Failed to notify server of file save. | 19 | 2.1.91 | 2.1.91 |
 | [`system-reminder-lsp-failed-notify-server.md`](../system-prompts/system-reminder-lsp-failed-notify-server.md) | Failed to notify server of file change. | 19 | 2.1.91 | 2.1.91 |
 | [`system-reminder-bridge-repl-transport-closed.md`](../system-prompts/system-reminder-bridge-repl-transport-closed.md) | Transport on the bridge is permanently closed. | 17 | 2.1.91 | 2.1.91 |
-| [`system-reminder-closing-tag-error.md`](../system-prompts/system-reminder-closing-tag-error.md) | Improper closing tag detected. | 17 | 2.1.91 | 2.1.91 |
 | [`system-reminder-repeated-server-status-attribute.md`](../system-prompts/system-reminder-repeated-server-status-attribute.md) | Indicates a repeated server status attribute. | 17 | 2.1.91 | 2.1.91 |
-| [`system-reminder-closing-tag-not-opened.md`](../system-prompts/system-reminder-closing-tag-not-opened.md) | Indicates a closing tag is missing an opening. | 16 | 2.1.91 | 2.1.91 |
 | [`system-reminder-permission-denied-hook-retry.md`](../system-prompts/system-reminder-permission-denied-hook-retry.md) | Indicates a retry for the tool call. | 16 | 2.1.91 | 2.1.91 |
 | [`system-reminder-hooks-request-handling-failed.md`](../system-prompts/system-reminder-hooks-request-handling-failed.md) | Indicates a failure in handling prompt requests. | 15 | 2.1.91 | 2.1.91 |
-| [`system-reminder-open-quote-attributes.md`](../system-prompts/system-reminder-open-quote-attributes.md) | Attributes have an open quote. | 15 | 2.1.91 | 2.1.91 |
 | [`system-reminder-extract-memories-saved.md`](../system-prompts/system-reminder-extract-memories-saved.md) | Memories have been successfully saved. | 14 | 2.1.91 | 2.1.91 |
-| [`system-reminder-invalid-tag-name.md`](../system-prompts/system-reminder-invalid-tag-name.md) | Error message for invalid tag name. | 14 | 2.1.91 | 2.1.91 |
 | [`system-reminder-select-relevant-memories.md`](../system-prompts/system-reminder-select-relevant-memories.md) | Choose memories that are pertinent. | 12 | 2.1.91 | 2.1.91 |
 | [`system-reminder-ultraplan-meta-delete-failed.md`](../system-prompts/system-reminder-ultraplan-meta-delete-failed.md) | Notification of a failed delete operation. | 12 | 2.1.91 | 2.1.91 |
-| [`system-reminder-ultraplan-phase-stdio-waiting.md`](../system-prompts/system-reminder-ultraplan-phase-stdio-waiting.md) | Indicates waiting for agents in ultraplan phase. | 12 | 2.1.91 | 2.1.91 |
-| [`system-reminder-bridge-init-created-initial-session-2.md`](../system-prompts/system-reminder-bridge-init-created-initial-session-2.md) | Initial session has been created. | 11 | 2.1.91 | 2.1.91 |
 | [`system-reminder-image-attached-note.md`](../system-prompts/system-reminder-image-attached-note.md) | Shows that an image is attached to the item. | 10 | 2.1.91 | 2.1.91 |
 | [`system-reminder-element-not-closed-error.md`](../system-prompts/system-reminder-element-not-closed-error.md) | Error indicating a specific element is not closed. | 9 | 2.1.91 | 2.1.91 |
 | [`system-reminder-qr-generation-failed-3.md`](../system-prompts/system-reminder-qr-generation-failed-3.md) | Error in QR code generation process. | 9 | 2.1.91 | 2.1.91 |
 | [`system-reminder-remote-credentials-fetch-failed.md`](../system-prompts/system-reminder-remote-credentials-fetch-failed.md) | Fetch of remote credentials was unsuccessful. | 8 | 2.1.91 | 2.1.91 |
-| [`system-reminder-bridge-repl-ingress-url.md`](../system-prompts/system-reminder-bridge-repl-ingress-url.md) | Ingress URL for the bridge REPL. | 29 | 2.1.90 | 2.1.90 |
 | [`system-reminder-derived-title-from-message.md`](../system-prompts/system-reminder-derived-title-from-message.md) | Generate a title using derived expressions. | 29 | 2.1.90 | 2.1.90 |
 | [`system-reminder-auto-mode-reverting-null.md`](../system-prompts/system-reminder-auto-mode-reverting-null.md) | Reverting auto mode settings to null. | 28 | 2.1.90 | 2.1.90 |
-| [`system-reminder-failed-to-read-projects-dir-2.md`](../system-prompts/system-reminder-failed-to-read-projects-dir-2.md) | Fallback to current project due to read failure. | 28 | 2.1.90 | 2.1.90 |
 | [`system-reminder-fast-mode-unavailable-bedrock.md`](../system-prompts/system-reminder-fast-mode-unavailable-bedrock.md) | Fast mode is not available on Bedrock. | 27 | 2.1.90 | 2.1.90 |
 | [`system-reminder-posttooluse-hook-modified.md`](../system-prompts/system-reminder-posttooluse-hook-modified.md) | Modified PostToolUse hook after syncing readFileState. | 27 | 2.1.90 | 2.1.90 |
-| [`system-reminder-shell-cwd-load-failed-recovery.md`](../system-prompts/system-reminder-shell-cwd-load-failed-recovery.md) | Recovering to a new current working directory. | 26 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-repl-init-failed.md`](../system-prompts/system-reminder-bridge-repl-init-failed.md) | Initialization failed with consecutive errors. | 25 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-repl-work-received.md`](../system-prompts/system-reminder-bridge-repl-work-received.md) | Handling work received during transport connection. | 25 | 2.1.90 | 2.1.90 |
-| [`system-reminder-mcp-connect-error.md`](../system-prompts/system-reminder-mcp-connect-error.md) | Error message related to MCP connection. | 25 | 2.1.90 | 2.1.90 |
 | [`system-reminder-plugin-null-already-installed.md`](../system-prompts/system-reminder-plugin-null-already-installed.md) | Indicates that the plugin is already installed globally. | 24 | 2.1.90 | 2.1.90 |
 | [`system-reminder-seek-positions-expressions.md`](../system-prompts/system-reminder-seek-positions-expressions.md) | Function to seek positions based on expressions. | 24 | 2.1.90 | 2.1.90 |
 | [`system-reminder-session-filtered-entrypoint.md`](../system-prompts/system-reminder-session-filtered-entrypoint.md) | Filtered session entrypoint details. | 24 | 2.1.90 | 2.1.90 |
-| [`system-reminder-forked-missed-transcript.md`](../system-prompts/system-reminder-forked-missed-transcript.md) | Forked agent failed to record a transcript entry. | 23 | 2.1.90 | 2.1.90 |
-| [`system-reminder-preference-saved-change.md`](../system-prompts/system-reminder-preference-saved-change.md) | Preference saved for future changes. | 23 | 2.1.90 | 2.1.90 |
-| [`system-reminder-bridge-work-updated-access-token-2.md`](../system-prompts/system-reminder-bridge-work-updated-access-token-2.md) | Updated access token for existing session. | 22 | 2.1.90 | 2.1.90 |
 | [`system-reminder-session-filtered-notification.md`](../system-prompts/system-reminder-session-filtered-notification.md) | Notification about a filtered session. | 22 | 2.1.90 | 2.1.90 |
-| [`system-reminder-bridge-session-spawning-null.md`](../system-prompts/system-reminder-bridge-session-spawning-null.md) | Spawning a session with null sessionId. | 21 | 2.1.90 | 2.1.90 |
-| [`system-reminder-bridge-session-worktree-created-2.md`](../system-prompts/system-reminder-bridge-session-worktree-created-2.md) | Worktree created for session. | 21 | 2.1.90 | 2.1.90 |
 | [`system-reminder-memory-toggled-off-re-enable.md`](../system-prompts/system-reminder-memory-toggled-off-re-enable.md) | Memory is currently disabled and needs re-enabling. | 21 | 2.1.90 | 2.1.90 |
 | [`system-reminder-auto-mode-consent-policy.md`](../system-prompts/system-reminder-auto-mode-consent-policy.md) | Auto mode implies consent with policy. | 20 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-session-creation-failed-2.md`](../system-prompts/system-reminder-bridge-session-creation-failed-2.md) | Session creation failed with specific status. | 20 | 2.1.90 | 2.1.90 |
-| [`system-reminder-failed-to-create-loaded-errors.md`](../system-prompts/system-reminder-failed-to-create-loaded-errors.md) | Failed to create due to errors in the directory. | 20 | 2.1.90 | 2.1.90 |
-| [`system-reminder-persistence-sync-uploaded-entries.md`](../system-prompts/system-reminder-persistence-sync-uploaded-entries.md) | Uploaded main and stdio subagent entries. | 20 | 2.1.90 | 2.1.90 |
-| [`system-reminder-expression-and-number.md`](../system-prompts/system-reminder-expression-and-number.md) | Combines expressions with a number. | 19 | 2.1.90 | 2.1.90 |
-| [`system-reminder-persistence-sync-write-failed.md`](../system-prompts/system-reminder-persistence-sync-write-failed.md) | Error in persistence sync write operation. | 19 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-repl-persistence-sync-failed.md`](../system-prompts/system-reminder-bridge-repl-persistence-sync-failed.md) | Error in persistence sync for bridge repl. | 17 | 2.1.90 | 2.1.90 |
 | [`system-reminder-bridge-repl-session-persistence.md`](../system-prompts/system-reminder-bridge-repl-session-persistence.md) | Session persistence is enabled for transcript entries. | 17 | 2.1.90 | 2.1.90 |
 | [`system-reminder-persistence-sync-server-events.md`](../system-prompts/system-reminder-persistence-sync-server-events.md) | Server events since last compaction. | 17 | 2.1.90 | 2.1.90 |
@@ -1005,21 +1413,16 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-extract-memories-skipping-user-prose.md`](../system-prompts/system-reminder-extract-memories-skipping-user-prose.md) | No user prose has been extracted recently. | 14 | 2.1.90 | 2.1.90 |
 | [`system-reminder-background-async-hook-process.md`](../system-prompts/system-reminder-background-async-hook-process.md) | Backgrounds an async hook process with missing process id. | 12 | 2.1.90 | 2.1.90 |
 | [`system-reminder-hooks-detected-request.md`](../system-prompts/system-reminder-hooks-detected-request.md) | Detected a prompt request from a hook. | 11 | 2.1.90 | 2.1.90 |
-| [`system-reminder-deleted-notice.md`](../system-prompts/system-reminder-deleted-notice.md) | Multi-line message ending with a deleted assistant name. | 10 | 2.1.90 | 2.1.90 |
 | [`system-reminder-ccr-internal-event-writer-cleared.md`](../system-prompts/system-reminder-ccr-internal-event-writer-cleared.md) | CCR v2 internal event writer is cleared. | 9 | 2.1.90 | 2.1.90 |
-| [`system-reminder-written-to-expr-1.md`](../system-prompts/system-reminder-written-to-expr-1.md) | Indicates a written action to a specified expression. | 8 | 2.1.90 | 2.1.90 |
 | [`system-reminder-cdata-not-closed-error.md`](../system-prompts/system-reminder-cdata-not-closed-error.md) | Error indicating CDATA section is not closed. | 7 | 2.1.90 | 2.1.90 |
 | [`system-reminder-closing-tag-not-closed-error.md`](../system-prompts/system-reminder-closing-tag-not-closed-error.md) | Error indicating a closing tag is not closed. | 7 | 2.1.90 | 2.1.90 |
 | [`system-reminder-stopnode-not-closed-error.md`](../system-prompts/system-reminder-stopnode-not-closed-error.md) | Error indicating StopNode is not closed. | 7 | 2.1.90 | 2.1.90 |
 | [`system-reminder-comment-not-closed-error.md`](../system-prompts/system-reminder-comment-not-closed-error.md) | Error indicating an unterminated comment. | 5 | 2.1.90 | 2.1.90 |
-| [`system-reminder-attribution-header-stdio.md`](../system-prompts/system-reminder-attribution-header-stdio.md) | Manage attribution in stdio headers. | 3 | 2.1.90 | 2.1.90 |
-| [`system-reminder-bridge-title-update-failed-7.md`](../system-prompts/system-reminder-bridge-title-update-failed-7.md) | Failed to update title for the bridge. | 30 | 2.1.89 | 2.1.89 |
 | [`system-reminder-checking-path-errors-3.md`](../system-prompts/system-reminder-checking-path-errors-3.md) | Skill path loaded with errors. | 30 | 2.1.89 | 2.1.89 |
 | [`system-reminder-remote-settings-override-file.md`](../system-prompts/system-reminder-remote-settings-override-file.md) | Using override file for remote settings. | 30 | 2.1.89 | 2.1.89 |
 | [`system-reminder-deduplicate-linked-files.md`](../system-prompts/system-reminder-deduplicate-linked-files.md) | Notes files deduplicated due to shared inode via links. | 29 | 2.1.89 | 2.1.89 |
 | [`system-reminder-deferred-resume-unavailable.md`](../system-prompts/system-reminder-deferred-resume-unavailable.md) | Tool is no longer available due to disconnection. | 29 | 2.1.89 | 2.1.89 |
 | [`system-reminder-user-response-loaded-errors-3.md`](../system-prompts/system-reminder-user-response-loaded-errors-3.md) | User response indicates errors in loading. | 29 | 2.1.89 | 2.1.89 |
-| [`system-reminder-bridge-derived-title.md`](../system-prompts/system-reminder-bridge-derived-title.md) | Generate a derived title using a bridge format. | 28 | 2.1.89 | 2.1.89 |
 | [`system-reminder-defer-mode-hook-returned.md`](../system-prompts/system-reminder-defer-mode-hook-returned.md) | Defer permission decision in interactive mode. | 28 | 2.1.89 | 2.1.89 |
 | [`system-reminder-deferred-resume-emitting.md`](../system-prompts/system-reminder-deferred-resume-emitting.md) | Re-emitting expressions through PreToolUse. | 28 | 2.1.89 | 2.1.89 |
 | [`system-reminder-retirement-warning.md`](../system-prompts/system-reminder-retirement-warning.md) | Warns that a model will be retired and suggests switching. | 28 | 2.1.89 | 2.1.89 |
@@ -1027,18 +1430,14 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-mcp-not-ready-background-connection.md`](../system-prompts/system-reminder-mcp-not-ready-background-connection.md) | MCP not ready after specified time, continuing process. | 27 | 2.1.89 | 2.1.89 |
 | [`system-reminder-auto-resuming-deferred.md`](../system-prompts/system-reminder-auto-resuming-deferred.md) | Prints auto-resuming deferred tool information. | 26 | 2.1.89 | 2.1.89 |
 | [`system-reminder-bridge-repl-reconnecting-after-env.md`](../system-prompts/system-reminder-bridge-repl-reconnecting-after-env.md) | Reconnecting after environment loss. | 26 | 2.1.89 | 2.1.89 |
-| [`system-reminder-found-mcp-desktop.md`](../system-prompts/system-reminder-found-mcp-desktop.md) | Notification of MCP found in Claude Desktop. | 25 | 2.1.89 | 2.1.89 |
-| [`system-reminder-compact-streaming-failed-attempts-2.md`](../system-prompts/system-reminder-compact-streaming-failed-attempts-2.md) | Compact streaming failed after multiple attempts. | 24 | 2.1.89 | 2.1.89 |
 | [`system-reminder-mcp-fully-async-connection.md`](../system-prompts/system-reminder-mcp-fully-async-connection.md) | MCP is running fully in async mode. | 24 | 2.1.89 | 2.1.89 |
 | [`system-reminder-session-filtered-sessionkind.md`](../system-prompts/system-reminder-session-filtered-sessionkind.md) | Filtered session information based on session kind. | 24 | 2.1.89 | 2.1.89 |
 | [`system-reminder-ssh-session-reconnect.md`](../system-prompts/system-reminder-ssh-session-reconnect.md) | SSH session dropped and reconnecting. | 24 | 2.1.89 | 2.1.89 |
 | [`system-reminder-escape-interpolated-expression.md`](../system-prompts/system-reminder-escape-interpolated-expression.md) | Multiple prompts (3) | 23 | 2.1.89 | 2.1.89 |
-| [`system-reminder-forked-task-completed.md`](../system-prompts/system-reminder-forked-task-completed.md) | Forked task completion time reported. | 23 | 2.1.89 | 2.1.89 |
 | [`system-reminder-failed-expr-notification.md`](../system-prompts/system-reminder-failed-expr-notification.md) | Notification for failed expression evaluation. | 22 | 2.1.89 | 2.1.89 |
 | [`system-reminder-loaded-mcpb-extracted.md`](../system-prompts/system-reminder-loaded-mcpb-extracted.md) | Confirms an MCPB was loaded and extracted to a target location. | 22 | 2.1.89 | 2.1.89 |
 | [`system-reminder-bridge-repl-control-response-error-2.md`](../system-prompts/system-reminder-bridge-repl-control-response-error-2.md) | Error indicating no handler for control response. | 21 | 2.1.89 | 2.1.89 |
 | [`system-reminder-bridge-repl-environment-limit-3.md`](../system-prompts/system-reminder-bridge-repl-environment-limit-3.md) | Reached the environment reconnect limit. | 21 | 2.1.89 | 2.1.89 |
-| [`system-reminder-failed-parse-anthropic-3.md`](../system-prompts/system-reminder-failed-parse-anthropic-3.md) | Error in parsing agent from Anthropic. | 21 | 2.1.89 | 2.1.89 |
 | [`system-reminder-good-feedback-survey-bridge-repl.md`](../system-prompts/system-reminder-good-feedback-survey-bridge-repl.md) | Mirror state for good feedback survey. | 21 | 2.1.89 | 2.1.89 |
 | [`system-reminder-swarm-permission-logger-8.md`](../system-prompts/system-reminder-swarm-permission-logger-8.md) | Logs unregistered callbacks for permission requests. | 21 | 2.1.89 | 2.1.89 |
 | [`system-reminder-failed-load-errors-3.md`](../system-prompts/system-reminder-failed-load-errors-3.md) | Skill loading encountered errors. | 20 | 2.1.89 | 2.1.89 |
@@ -1051,11 +1450,9 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-hooks-processing-errors.md`](../system-prompts/system-reminder-hooks-processing-errors.md) | Processing agent hook loaded with errors. | 18 | 2.1.89 | 2.1.89 |
 | [`system-reminder-team-memory-sync-unexpected-read-error.md`](../system-prompts/system-reminder-team-memory-sync-unexpected-read-error.md) | Unexpected read error in team memory sync. | 18 | 2.1.89 | 2.1.89 |
 | [`system-reminder-invalid-mcp-configuration-3.md`](../system-prompts/system-reminder-invalid-mcp-configuration-3.md) | Reserved MCP name error for computer-use. | 17 | 2.1.89 | 2.1.89 |
-| [`system-reminder-looking-up-plugin-marketplace-2.md`](../system-prompts/system-reminder-looking-up-plugin-marketplace-2.md) | Searching for a plugin in the marketplace. | 17 | 2.1.89 | 2.1.89 |
 | [`system-reminder-deduplicated-skills-same-file.md`](../system-prompts/system-reminder-deduplicated-skills-same-file.md) | Manage deduplicated skills in the same file. | 15 | 2.1.89 | 2.1.89 |
 | [`system-reminder-managed-plugin-contact-admin.md`](../system-prompts/system-reminder-managed-plugin-contact-admin.md) | Contact your admin to disable the managed plugin. | 15 | 2.1.89 | 2.1.89 |
 | [`system-reminder-marketplace-json-read-failure.md`](../system-prompts/system-reminder-marketplace-json-read-failure.md) | Reading raw marketplace.json failed with a numeric code. | 14 | 2.1.89 | 2.1.89 |
-| [`system-reminder-operation-failed-with-reason.md`](../system-prompts/system-reminder-operation-failed-with-reason.md) | Generic operation failed with an error detail. | 14 | 2.1.89 | 2.1.89 |
 | [`system-reminder-filestates-count-waiting-agents.md`](../system-prompts/system-reminder-filestates-count-waiting-agents.md) | Track file states waiting for agents. | 13 | 2.1.89 | 2.1.89 |
 | [`system-reminder-hook-error.md`](../system-prompts/system-reminder-hook-error.md) | Agent hook execution error message. | 13 | 2.1.89 | 2.1.89 |
 | [`system-reminder-netstat-findstr-waiting-agents.md`](../system-prompts/system-reminder-netstat-findstr-waiting-agents.md) | Command to check for waiting agents. | 13 | 2.1.89 | 2.1.89 |
@@ -1069,61 +1466,44 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-custom-header.md`](../system-prompts/system-reminder-custom-header.md) | template header for custom instructions injection. | 11 | 2.1.89 | 2.1.89 |
 | [`system-reminder-failed-save-configuration.md`](../system-prompts/system-reminder-failed-save-configuration.md) | Multiple prompts (3) | 11 | 2.1.89 | 2.1.89 |
 | [`system-reminder-failed-to-write-settings.md`](../system-prompts/system-reminder-failed-to-write-settings.md) | Error encountered while writing settings. | 11 | 2.1.89 | 2.1.89 |
-| [`system-reminder-invalid-legacy-manifest-stdio-2.md`](../system-prompts/system-reminder-invalid-legacy-manifest-stdio-2.md) | Issue with legacy manifest at stdio. | 11 | 2.1.89 | 2.1.89 |
-| [`system-reminder-json-array-schema.md`](../system-prompts/system-reminder-json-array-schema.md) | Generate a JSON array based on a schema. | 11 | 2.1.89 | 2.1.89 |
 | [`system-reminder-load-configuration-failed.md`](../system-prompts/system-reminder-load-configuration-failed.md) | Loading configuration failed with a numeric error code. | 11 | 2.1.89 | 2.1.89 |
 | [`system-reminder-presence-pulse-expression.md`](../system-prompts/system-reminder-presence-pulse-expression.md) | Expression related to presence and pulse. | 11 | 2.1.89 | 2.1.89 |
 | [`system-reminder-presence-pulse-got.md`](../system-prompts/system-reminder-presence-pulse-got.md) | Indicates presence with pulse status. | 11 | 2.1.89 | 2.1.89 |
 | [`system-reminder-error-stashing-changes-waiting.md`](../system-prompts/system-reminder-error-stashing-changes-waiting.md) | Issue with stashing changes due to waiting agents. | 10 | 2.1.89 | 2.1.89 |
-| [`system-reminder-invalid-manifest-global-waiting.md`](../system-prompts/system-reminder-invalid-manifest-global-waiting.md) | Error related to global manifest and waiting agents. | 10 | 2.1.89 | 2.1.89 |
 | [`system-reminder-fresh-project-nothing-to-see.md`](../system-prompts/system-reminder-fresh-project-nothing-to-see.md) | Indicates a new project is underway. | 9 | 2.1.89 | 2.1.89 |
 | [`system-reminder-load-mcpb-configuration-failed.md`](../system-prompts/system-reminder-load-mcpb-configuration-failed.md) | Loading MCPB for configuration failed. | 9 | 2.1.89 | 2.1.89 |
 | [`system-reminder-missing-mcpb-file-plugin.md`](../system-prompts/system-reminder-missing-mcpb-file-plugin.md) | Plugin is missing the required MCPB file. | 9 | 2.1.89 | 2.1.89 |
 | [`system-reminder-oauth-error-good-feedback-survey.md`](../system-prompts/system-reminder-oauth-error-good-feedback-survey.md) | OAuth error related to feedback survey. | 8 | 2.1.89 | 2.1.89 |
-| [`system-reminder-buddy-api-failed-global.md`](../system-prompts/system-reminder-buddy-api-failed-global.md) | Notification of global API failure. | 7 | 2.1.89 | 2.1.89 |
 | [`system-reminder-just-petted.md`](../system-prompts/system-reminder-just-petted.md) | A moment of affection received. | 7 | 2.1.89 | 2.1.89 |
 | [`system-reminder-plugin-update-check-failed.md`](../system-prompts/system-reminder-plugin-update-check-failed.md) | Checking plugin update availability failed. | 6 | 2.1.89 | 2.1.89 |
-| [`system-reminder-bridge-fetch-failure.md`](../system-prompts/system-reminder-bridge-fetch-failure.md) | Indicates a failure to fetch the title. | 30 | 2.1.88 | 2.1.88 |
-| [`system-reminder-skipping-hook-due-condition.md`](../system-prompts/system-reminder-skipping-hook-due-condition.md) | Skipping hook due to condition not matching. | 30 | 2.1.88 | 2.1.88 |
 | [`system-reminder-copied-files-from-worktreeinclude.md`](../system-prompts/system-reminder-copied-files-from-worktreeinclude.md) | Files copied from worktreeinclude. | 29 | 2.1.88 | 2.1.88 |
 | [`system-reminder-restore-remote-tasks-dropping.md`](../system-prompts/system-reminder-restore-remote-tasks-dropping.md) | Dropping remote agent tasks. | 29 | 2.1.88 | 2.1.88 |
-| [`system-reminder-warning-not-found.md`](../system-prompts/system-reminder-warning-not-found.md) | Agent not found, using default behavior. | 29 | 2.1.88 | 2.1.88 |
-| [`system-reminder-bridge-server-title-2.md`](../system-prompts/system-reminder-bridge-server-title-2.md) | Generate server title for a bridge. | 28 | 2.1.88 | 2.1.88 |
-| [`system-reminder-extract-memories-starting-errors.md`](../system-prompts/system-reminder-extract-memories-starting-errors.md) | Starting memory extraction with new errors. | 28 | 2.1.88 | 2.1.88 |
 | [`system-reminder-restore-remote-tasks-skipping.md`](../system-prompts/system-reminder-restore-remote-tasks-skipping.md) | Indicates tasks are being skipped but are recoverable. | 27 | 2.1.88 | 2.1.88 |
 | [`system-reminder-search-partial-select-3.md`](../system-prompts/system-reminder-search-partial-select-3.md) | Select from low, medium, high, or max options. | 27 | 2.1.88 | 2.1.88 |
 | [`system-reminder-bridge-heartbeat-requeued-session.md`](../system-prompts/system-reminder-bridge-heartbeat-requeued-session.md) | Re-queues a session ID via the bridge. | 26 | 2.1.88 | 2.1.88 |
 | [`system-reminder-inboxpoller-killed-pane-stream-json.md`](../system-prompts/system-reminder-inboxpoller-killed-pane-stream-json.md) | Notification of pane termination in stream-json. | 26 | 2.1.88 | 2.1.88 |
 | [`system-reminder-bridge-activity-sessionid.md`](../system-prompts/system-reminder-bridge-activity-sessionid.md) | Handles session ID for bridge activity. | 25 | 2.1.88 | 2.1.88 |
-| [`system-reminder-check-clipboard-settings-osc.md`](../system-prompts/system-reminder-check-clipboard-settings-osc.md) | Check terminal clipboard settings for OSC paste issues. | 25 | 2.1.88 | 2.1.88 |
 | [`system-reminder-stats-cache-version-not-migratable.md`](../system-prompts/system-reminder-stats-cache-version-not-migratable.md) | Indicates cache version is not migratable. | 25 | 2.1.88 | 2.1.88 |
 | [`system-reminder-bridge-heartbeat-reconnect-failed.md`](../system-prompts/system-reminder-bridge-heartbeat-reconnect-failed.md) | Failed to reconnect session due to heartbeat issue. | 24 | 2.1.88 | 2.1.88 |
 | [`system-reminder-cancel-worker-sandbox-permission.md`](../system-prompts/system-reminder-cancel-worker-sandbox-permission.md) | Logs cancellation details for a focused input dialog in the worker sandbox permission flow. | 24 | 2.1.88 | 2.1.88 |
 | [`system-reminder-inboxpoller-removed-teamcontext.md`](../system-prompts/system-reminder-inboxpoller-removed-teamcontext.md) | Notification of removal from team context. | 24 | 2.1.88 | 2.1.88 |
 | [`system-reminder-kill-pane-failure-log.md`](../system-prompts/system-reminder-kill-pane-failure-log.md) | Logs failure to kill a pane with error details. | 24 | 2.1.88 | 2.1.88 |
 | [`system-reminder-bridge-token-reconnect-failed.md`](../system-prompts/system-reminder-bridge-token-reconnect-failed.md) | Indicates a failed session reconnection attempt. | 23 | 2.1.88 | 2.1.88 |
-| [`system-reminder-good-feedback-error.md`](../system-prompts/system-reminder-good-feedback-error.md) | Error related to good feedback survey. | 23 | 2.1.88 | 2.1.88 |
-| [`system-reminder-wraparound-step-all-msgs.md`](../system-prompts/system-reminder-wraparound-step-all-msgs.md) | Wraparound step for all messages. | 23 | 2.1.88 | 2.1.88 |
 | [`system-reminder-enable-extra-usage.md`](../system-prompts/system-reminder-enable-extra-usage.md) | Instructions for enabling extra usage in Claude. | 22 | 2.1.88 | 2.1.88 |
 | [`system-reminder-list-remote-metadata-skipping.md`](../system-prompts/system-reminder-list-remote-metadata-skipping.md) | Indicates skipping of remote agent metadata. | 22 | 2.1.88 | 2.1.88 |
 | [`system-reminder-reconcile-declared-path-not-exist.md`](../system-prompts/system-reminder-reconcile-declared-path-not-exist.md) | Materialized entry is kept due to path issue. | 22 | 2.1.88 | 2.1.88 |
 | [`system-reminder-removed-from-settings.md`](../system-prompts/system-reminder-removed-from-settings.md) | Indicates an item was removed from settings. | 22 | 2.1.88 | 2.1.88 |
-| [`system-reminder-available-environments-list.md`](../system-prompts/system-reminder-available-environments-list.md) | Multiple prompts (2) | 21 | 2.1.88 | 2.1.88 |
 | [`system-reminder-gitbundle-head-retrying-squashed.md`](../system-prompts/system-reminder-gitbundle-head-retrying-squashed.md) | Handling a large git bundle during retries. | 21 | 2.1.88 | 2.1.88 |
-| [`system-reminder-teleport-failed-fetch-session-metadata.md`](../system-prompts/system-reminder-teleport-failed-fetch-session-metadata.md) | Error fetching session metadata during teleport. | 21 | 2.1.88 | 2.1.88 |
 | [`system-reminder-cwd-hooks-not-found.md`](../system-prompts/system-reminder-cwd-hooks-not-found.md) | Fallback to original cwd when hooks are missing. | 20 | 2.1.88 | 2.1.88 |
 | [`system-reminder-lsp-error-loaded-with-errors.md`](../system-prompts/system-reminder-lsp-error-loaded-with-errors.md) | Indicates LSP has loaded with errors. | 20 | 2.1.88 | 2.1.88 |
 | [`system-reminder-skipping-tombstone-removal.md`](../system-prompts/system-reminder-skipping-tombstone-removal.md) | Session file exceeds size limit for tombstone removal. | 20 | 2.1.88 | 2.1.88 |
 | [`system-reminder-stream-json-bridge-init.md`](../system-prompts/system-reminder-stream-json-bridge-init.md) | Initialize stream-json with specified API base URL. | 20 | 2.1.88 | 2.1.88 |
 | [`system-reminder-wfat-navigation-commands.md`](../system-prompts/system-reminder-wfat-navigation-commands.md) | Commands for navigating workflow actions. | 20 | 2.1.88 | 2.1.88 |
-| [`system-reminder-teleport-to-remote-bundling.md`](../system-prompts/system-reminder-teleport-to-remote-bundling.md) | Bundling for teleportation to a remote location. | 19 | 2.1.88 | 2.1.88 |
 | [`system-reminder-voice-stream-unexpected-response.md`](../system-prompts/system-reminder-voice-stream-unexpected-response.md) | Ignoring unexpected response from voice stream. | 19 | 2.1.88 | 2.1.88 |
 | [`system-reminder-automem-denied-error.md`](../system-prompts/system-reminder-automem-denied-error.md) | Indicates an autoMem denial error. | 18 | 2.1.88 | 2.1.88 |
 | [`system-reminder-failed-to-create-git-bundle.md`](../system-prompts/system-reminder-failed-to-create-git-bundle.md) | Error encountered while creating git bundle. | 18 | 2.1.88 | 2.1.88 |
 | [`system-reminder-search-failed-none-found.md`](../system-prompts/system-reminder-search-failed-none-found.md) | Indicates no tools were found during the search. | 18 | 2.1.88 | 2.1.88 |
 | [`system-reminder-seek-mount-after-scrolltoindex.md`](../system-prompts/system-reminder-seek-mount-after-scrolltoindex.md) | No mount after scrollToIndex action. | 18 | 2.1.88 | 2.1.88 |
-| [`system-reminder-tmux-buffer-paste.md`](../system-prompts/system-reminder-tmux-buffer-paste.md) | Instructions for pasting from tmux buffer. | 18 | 2.1.88 | 2.1.88 |
-| [`system-reminder-bridge-init-registered-server-2.md`](../system-prompts/system-reminder-bridge-init-registered-server-2.md) | Initialization of registered server with environment ID. | 17 | 2.1.88 | 2.1.88 |
 | [`system-reminder-lsp-server-message-log.md`](../system-prompts/system-reminder-lsp-server-message-log.md) | Logs an LSP server message with dynamic fields. | 17 | 2.1.88 | 2.1.88 |
 | [`system-reminder-mcp-oauth-failure.md`](../system-prompts/system-reminder-mcp-oauth-failure.md) | Indicates a failure in MCP OAuth authentication. | 17 | 2.1.88 | 2.1.88 |
 | [`system-reminder-selected-environment-server.md`](../system-prompts/system-reminder-selected-environment-server.md) | Indicates the chosen server environment. | 17 | 2.1.88 | 2.1.88 |
@@ -1143,33 +1523,24 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-added-rule-entry.md`](../system-prompts/system-reminder-added-rule-entry.md) | Logs that a rule was added with given parameters. | 14 | 2.1.88 | 2.1.88 |
 | [`system-reminder-config-lock-compromised-errors.md`](../system-prompts/system-reminder-config-lock-compromised-errors.md) | Config lock has been compromised with errors. | 14 | 2.1.88 | 2.1.88 |
 | [`system-reminder-failed-backup-config-errors.md`](../system-prompts/system-reminder-failed-backup-config-errors.md) | Backup of the config failed due to errors. | 14 | 2.1.88 | 2.1.88 |
-| [`system-reminder-failed-skills-global-read.md`](../system-prompts/system-reminder-failed-skills-global-read.md) | Indicates a failure in reading global skills. | 14 | 2.1.88 | 2.1.88 |
 | [`system-reminder-repo-too-large-teleport.md`](../system-prompts/system-reminder-repo-too-large-teleport.md) | Repo exceeds teleportation size limit. | 14 | 2.1.88 | 2.1.88 |
 | [`system-reminder-applied-queued-notification-handler.md`](../system-prompts/system-reminder-applied-queued-notification-handler.md) | Handles queued notifications for unknown expressions. | 13 | 2.1.88 | 2.1.88 |
 | [`system-reminder-applied-queued-request-handler.md`](../system-prompts/system-reminder-applied-queued-request-handler.md) | Handles queued requests for unknown expressions. | 13 | 2.1.88 | 2.1.88 |
 | [`system-reminder-extract-memories-error.md`](../system-prompts/system-reminder-extract-memories-error.md) | Error encountered during memory extraction. | 13 | 2.1.88 | 2.1.88 |
 | [`system-reminder-lsp-protocol-unknown.md`](../system-prompts/system-reminder-lsp-protocol-unknown.md) | Indicates an unknown LSP protocol issue. | 13 | 2.1.88 | 2.1.88 |
 | [`system-reminder-remote-control-disabled-organization.md`](../system-prompts/system-reminder-remote-control-disabled-organization.md) | Remote control feature is disabled by policy. | 12 | 2.1.88 | 2.1.88 |
-| [`system-reminder-execution-stopped-pretooluse-hook-2.md`](../system-prompts/system-reminder-execution-stopped-pretooluse-hook-2.md) | Execution halted due to an unknown pretooluse hook. | 11 | 2.1.88 | 2.1.88 |
 | [`system-reminder-removed-directory-from-workspace.md`](../system-prompts/system-reminder-removed-directory-from-workspace.md) | Directory was removed from the workspace. | 11 | 2.1.88 | 2.1.88 |
 | [`system-reminder-strict-types-location.md`](../system-prompts/system-reminder-strict-types-location.md) | Indicates a strictTypes reference at a given path. | 11 | 2.1.88 | 2.1.88 |
 | [`system-reminder-unknown-default-environment-fallback.md`](../system-prompts/system-reminder-unknown-default-environment-fallback.md) | Default environment was unknown and fell back to the first available. | 11 | 2.1.88 | 2.1.88 |
-| [`system-reminder-copied-chars-to-clipboard.md`](../system-prompts/system-reminder-copied-chars-to-clipboard.md) | Indicates number of chars copied to clipboard. | 10 | 2.1.88 | 2.1.88 |
 | [`system-reminder-shell-alias-cleanup.md`](../system-prompts/system-reminder-shell-alias-cleanup.md) | Cleans up a shell alias entry. | 10 | 2.1.88 | 2.1.88 |
 | [`system-reminder-ultraplan-failed-archive-orphaned-session.md`](../system-prompts/system-reminder-ultraplan-failed-archive-orphaned-session.md) | Failed to archive an orphaned session. | 9 | 2.1.88 | 2.1.88 |
 | [`system-reminder-waall-waperformers-wamanual.md`](../system-prompts/system-reminder-waall-waperformers-wamanual.md) | Reference for waAll and waPerformers. | 9 | 2.1.88 | 2.1.88 |
-| [`system-reminder-rdwindow-rdfile-rdprinter-names.md`](../system-prompts/system-reminder-rdwindow-rdfile-rdprinter-names.md) | Lists rdWindow, rdFile, and rdPrinter identifiers. | 8 | 2.1.88 | 2.1.88 |
-| [`system-reminder-failed-load-hooks-mcp.md`](../system-prompts/system-reminder-failed-load-hooks-mcp.md) | Error loading hooks related to MCP. | 30 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-env-var.md`](../system-prompts/system-reminder-trusted-device-env-var.md) | Skipping enrollment due to trusted device token. | 30 | 2.1.86 | 2.1.86 |
-| [`system-reminder-cd-env-server-command.md`](../system-prompts/system-reminder-cd-env-server-command.md) | Change directory and run server with environment variables. | 28 | 2.1.86 | 2.1.86 |
 | [`system-reminder-loading-sessions-for-cwd.md`](../system-prompts/system-reminder-loading-sessions-for-cwd.md) | Loading sessions for the current working directory. | 28 | 2.1.86 | 2.1.86 |
 | [`system-reminder-bridge-repl-injecting-inbound-user.md`](../system-prompts/system-reminder-bridge-repl-injecting-inbound-user.md) | Injects inbound user messages into the bridge. | 27 | 2.1.86 | 2.1.86 |
 | [`system-reminder-deep-link-origin-3.md`](../system-prompts/system-reminder-deep-link-origin-3.md) | Manage deep link origins effectively. | 27 | 2.1.86 | 2.1.86 |
 | [`system-reminder-template-variable-blocks.md`](../system-prompts/system-reminder-template-variable-blocks.md) | Placeholder-only template with expressions and numbers. | 27 | 2.1.86 | 2.1.86 |
-| [`system-reminder-thinkback-directory-mcp.md`](../system-prompts/system-reminder-thinkback-directory-mcp.md) | Found MCP in Claude Desktop. | 26 | 2.1.86 | 2.1.86 |
 | [`system-reminder-watch-directory-changes.md`](../system-prompts/system-reminder-watch-directory-changes.md) | Notifies that skill directories are being watched for changes. | 26 | 2.1.86 | 2.1.86 |
-| [`system-reminder-checking-mcp-desktop.md`](../system-prompts/system-reminder-checking-mcp-desktop.md) | Checking for MCP in Claude Desktop. | 24 | 2.1.86 | 2.1.86 |
-| [`system-reminder-session-failed.md`](../system-prompts/system-reminder-session-failed.md) | Indicates a failure in the code session. | 24 | 2.1.86 | 2.1.86 |
 | [`system-reminder-available-deferred-tools-tag.md`](../system-prompts/system-reminder-available-deferred-tools-tag.md) | Template tag showing available deferred tools and path placeholder. | 23 | 2.1.86 | 2.1.86 |
 | [`system-reminder-swarmpermissionpoller-dropping-malformed-entry.md`](../system-prompts/system-reminder-swarmpermissionpoller-dropping-malformed-entry.md) | Dropping a malformed permission update entry. | 23 | 2.1.86 | 2.1.86 |
 | [`system-reminder-failed-to-remove-scheduled-task.md`](../system-prompts/system-reminder-failed-to-remove-scheduled-task.md) | Issue with removing a scheduled task. | 22 | 2.1.86 | 2.1.86 |
@@ -1177,12 +1548,9 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-skipping-raw-transcript-read-2.md`](../system-prompts/system-reminder-skipping-raw-transcript-read-2.md) | File too large to process due to errors. | 22 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-gate-tengu-sessions.md`](../system-prompts/system-reminder-trusted-device-gate-tengu-sessions.md) | Enrollment skipped due to elevated auth enforcement off. | 22 | 2.1.86 | 2.1.86 |
 | [`system-reminder-stream-json-stdout-guard-diverted.md`](../system-prompts/system-reminder-stream-json-stdout-guard-diverted.md) | Handles non-JSON stdout line diversion. | 21 | 2.1.86 | 2.1.86 |
-| [`system-reminder-upstreamproxy-ws-error-anthropic.md`](../system-prompts/system-reminder-upstreamproxy-ws-error-anthropic.md) | Error related to upstream proxy connection. | 21 | 2.1.86 | 2.1.86 |
 | [`system-reminder-defer-dynamic-loading.md`](../system-prompts/system-reminder-defer-dynamic-loading.md) | Report count of deferred tools included during dynamic loading. | 20 | 2.1.86 | 2.1.86 |
-| [`system-reminder-failed-send-notification-mcp-client.md`](../system-prompts/system-reminder-failed-send-notification-mcp-client.md) | Notification sending to MCP client failed. | 20 | 2.1.86 | 2.1.86 |
 | [`system-reminder-repeat-url-and-expression.md`](../system-prompts/system-reminder-repeat-url-and-expression.md) | Multiple prompts (8) | 20 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-enrollment-failed-2.md`](../system-prompts/system-reminder-trusted-device-enrollment-failed-2.md) | Enrollment of trusted device was unsuccessful. | 20 | 2.1.86 | 2.1.86 |
-| [`system-reminder-failed-send-mcp-client-anthropic.md`](../system-prompts/system-reminder-failed-send-mcp-client-anthropic.md) | Issue with sending to MCP client. | 19 | 2.1.86 | 2.1.86 |
 | [`system-reminder-failed-server-run.md`](../system-prompts/system-reminder-failed-server-run.md) | Multiple prompts (2) | 19 | 2.1.86 | 2.1.86 |
 | [`system-reminder-skipping-raw-transcript-read.md`](../system-prompts/system-reminder-skipping-raw-transcript-read.md) | File size exceeds the limit for reading. | 19 | 2.1.86 | 2.1.86 |
 | [`system-reminder-call-result.md`](../system-prompts/system-reminder-call-result.md) | Formats and relays the output from a tool invocation. | 18 | 2.1.86 | 2.1.86 |
@@ -1201,9 +1569,7 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-failed-fetch-slack-channels.md`](../system-prompts/system-reminder-failed-fetch-slack-channels.md) | Error fetching Slack channels. | 13 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-enrollment-missing-token.md`](../system-prompts/system-reminder-trusted-device-enrollment-missing-token.md) | Enrollment response lacks device token. | 13 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-storage-error.md`](../system-prompts/system-reminder-trusted-device-storage-error.md) | Error reading storage on trusted device. | 13 | 2.1.86 | 2.1.86 |
-| [`system-reminder-chrome-failed-install-native.md`](../system-prompts/system-reminder-chrome-failed-install-native.md) | Failed to install native host in Claude for Chrome. | 12 | 2.1.86 | 2.1.86 |
 | [`system-reminder-extra-usage-on-us.md`](../system-prompts/system-reminder-extra-usage-on-us.md) | Extra usage provided at no cost. | 12 | 2.1.86 | 2.1.86 |
-| [`system-reminder-snapshot-file-missing-falling-back.md`](../system-prompts/system-reminder-snapshot-file-missing-falling-back.md) | Fallback to login shell due to missing snapshot file. | 12 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-essential-traffic.md`](../system-prompts/system-reminder-trusted-device-essential-traffic.md) | Only essential traffic for trusted devices. | 12 | 2.1.86 | 2.1.86 |
 | [`system-reminder-trusted-device-oauth-skip.md`](../system-prompts/system-reminder-trusted-device-oauth-skip.md) | Skipping enrollment due to missing OAuth token. | 12 | 2.1.86 | 2.1.86 |
 | [`system-reminder-two-expression-placeholder.md`](../system-prompts/system-reminder-two-expression-placeholder.md) | Multiple prompts (2) | 12 | 2.1.86 | 2.1.86 |
@@ -1217,9 +1583,7 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-upstream-proxy-relay-listening.md`](../system-prompts/system-reminder-upstream-proxy-relay-listening.md) | Indicates upstream proxy relay is active. | 29 | 2.1.85 | 2.1.85 |
 | [`system-reminder-upstreamproxy-prctl-set-dumpable.md`](../system-prompts/system-reminder-upstreamproxy-prctl-set-dumpable.md) | Nonzero return from prctl for dumpable setting. | 29 | 2.1.85 | 2.1.85 |
 | [`system-reminder-upstream-proxy-enabled.md`](../system-prompts/system-reminder-upstream-proxy-enabled.md) | Indicates upstream proxy is enabled. | 28 | 2.1.85 | 2.1.85 |
-| [`system-reminder-fileindex-generate-file-suggestions.md`](../system-prompts/system-reminder-fileindex-generate-file-suggestions.md) | Generate file suggestions based on partial index results. | 25 | 2.1.85 | 2.1.85 |
 | [`system-reminder-fileindex-rebuilt-tracked-untracked.md`](../system-prompts/system-reminder-fileindex-rebuilt-tracked-untracked.md) | Rebuilt file index with tracked and untracked files. | 25 | 2.1.85 | 2.1.85 |
-| [`system-reminder-powershell-parser-exit-2.md`](../system-prompts/system-reminder-powershell-parser-exit-2.md) | PowerShell parser exit code message. | 25 | 2.1.85 | 2.1.85 |
 | [`system-reminder-powershell-command-too-long-2.md`](../system-prompts/system-reminder-powershell-command-too-long-2.md) | Error message for PowerShell command length. | 24 | 2.1.85 | 2.1.85 |
 | [`system-reminder-stale-connection-econnreset.md`](../system-prompts/system-reminder-stale-connection-econnreset.md) | Disabling keep-alive due to stale connection. | 24 | 2.1.85 | 2.1.85 |
 | [`system-reminder-installed-plugins-activate.md`](../system-prompts/system-reminder-installed-plugins-activate.md) | Multiple prompts (2) | 23 | 2.1.85 | 2.1.85 |
@@ -1235,36 +1599,25 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-upstreamproxy-token-read-failed.md`](../system-prompts/system-reminder-upstreamproxy-token-read-failed.md) | Indicates a failure in reading the token. | 17 | 2.1.85 | 2.1.85 |
 | [`system-reminder-bridge-repl-mirror-initialized.md`](../system-prompts/system-reminder-bridge-repl-mirror-initialized.md) | Mirror session initialized in the bridge REPL. | 16 | 2.1.85 | 2.1.85 |
 | [`system-reminder-fetch-ultra-review-quota-failed.md`](../system-prompts/system-reminder-fetch-ultra-review-quota-failed.md) | Error in fetching ultra review quota. | 16 | 2.1.85 | 2.1.85 |
-| [`system-reminder-session-create-failed-stdio.md`](../system-prompts/system-reminder-session-create-failed-stdio.md) | Error in creating session due to stdio issue. | 15 | 2.1.85 | 2.1.85 |
 | [`system-reminder-no-session-token-file.md`](../system-prompts/system-reminder-no-session-token-file.md) | Indicates proxy is disabled due to missing token file. | 14 | 2.1.85 | 2.1.85 |
 | [`system-reminder-resume-background-failed.md`](../system-prompts/system-reminder-resume-background-failed.md) | Indicates a failure in the resume agent background process. | 13 | 2.1.85 | 2.1.85 |
 | [`system-reminder-fileindex-skipped-rebuild-2.md`](../system-prompts/system-reminder-fileindex-skipped-rebuild-2.md) | Index rebuild skipped due to unchanged tracked paths. | 12 | 2.1.85 | 2.1.85 |
 | [`system-reminder-fileindex-skipped-rebuild.md`](../system-prompts/system-reminder-fileindex-skipped-rebuild.md) | Skipped index rebuild due to unchanged merged paths. | 12 | 2.1.85 | 2.1.85 |
 | [`system-reminder-upstreamproxy-token-file-unlink-failed.md`](../system-prompts/system-reminder-upstreamproxy-token-file-unlink-failed.md) | Error unlinking token file in upstream proxy. | 12 | 2.1.85 | 2.1.85 |
-| [`system-reminder-permission-request-failed.md`](../system-prompts/system-reminder-permission-request-failed.md) | Reports that a tool permission request failed with an error. | 11 | 2.1.85 | 2.1.85 |
 | [`system-reminder-earlier-conversation-truncated.md`](../system-prompts/system-reminder-earlier-conversation-truncated.md) | Reminder about truncated earlier conversation. | 10 | 2.1.85 | 2.1.85 |
 | [`system-reminder-review-bills-extra-usage.md`](../system-prompts/system-reminder-review-bills-extra-usage.md) | Review bills for extra usage. | 7 | 2.1.85 | 2.1.85 |
-| [`system-reminder-end-of-input-marker.md`](../system-prompts/system-reminder-end-of-input-marker.md) | Signals the end of provided input. | 3 | 2.1.85 | 2.1.85 |
 | [`system-reminder-bridge-heartbeat-failed-sessionid-workid.md`](../system-prompts/system-reminder-bridge-heartbeat-failed-sessionid-workid.md) | Heartbeat failure for specified session and work IDs. | 30 | 2.1.84 | 2.1.84 |
-| [`system-reminder-failed-copy-plugin-versioned-cache-2.md`](../system-prompts/system-reminder-failed-copy-plugin-versioned-cache-2.md) | Error copying plugin to versioned cache. | 30 | 2.1.84 | 2.1.84 |
 | [`system-reminder-computer-terminal-surrogate-host.md`](../system-prompts/system-reminder-computer-terminal-surrogate-host.md) | Instructions for terminal use with surrogate host settings. | 29 | 2.1.84 | 2.1.84 |
 | [`system-reminder-expressions-4.md`](../system-prompts/system-reminder-expressions-4.md) | Reminder for system expressions usage. | 28 | 2.1.84 | 2.1.84 |
-| [`system-reminder-invalid-effort-stdio.md`](../system-prompts/system-reminder-invalid-effort-stdio.md) | Invalid effort specified for the skill. | 28 | 2.1.84 | 2.1.84 |
-| [`system-reminder-desktop-update-required.md`](../system-prompts/system-reminder-desktop-update-required.md) | Warns that Claude Desktop is outdated and must be updated to a minimum version. | 27 | 2.1.84 | 2.1.84 |
-| [`system-reminder-failed-extract-plugin-zip-2.md`](../system-prompts/system-reminder-failed-extract-plugin-zip-2.md) | Failed to extract a plugin ZIP file. | 27 | 2.1.84 | 2.1.84 |
 | [`system-reminder-loaded-md-files.md`](../system-prompts/system-reminder-loaded-md-files.md) | Reports CLAUDE.md files loaded and lists their paths. | 27 | 2.1.84 | 2.1.84 |
 | [`system-reminder-lsp-recommendation-found-match.md`](../system-prompts/system-reminder-lsp-recommendation-found-match.md) | LSP recommendation found a matching plugin for a target. | 27 | 2.1.84 | 2.1.84 |
 | [`system-reminder-heartbeat-poll-due-after-cycles.md`](../system-prompts/system-reminder-heartbeat-poll-due-after-cycles.md) | Multiple prompts (2) | 26 | 2.1.84 | 2.1.84 |
 | [`system-reminder-launch-multiple-agents-concurrently.md`](../system-prompts/system-reminder-launch-multiple-agents-concurrently.md) | Maximize performance by launching agents together. | 26 | 2.1.84 | 2.1.84 |
 | [`system-reminder-recovering-stale-computer-lock.md`](../system-prompts/system-reminder-recovering-stale-computer-lock.md) | Multiple prompts (2) | 25 | 2.1.84 | 2.1.84 |
-| [`system-reminder-api-error-client-request.md`](../system-prompts/system-reminder-api-error-client-request.md) | Provide request ID for server log lookup. | 24 | 2.1.84 | 2.1.84 |
 | [`system-reminder-ccrclient-session-token-expired.md`](../system-prompts/system-reminder-ccrclient-session-token-expired.md) | Session token has expired without refresh. | 24 | 2.1.84 | 2.1.84 |
-| [`system-reminder-versioned-cached-plugin-zip-2.md`](../system-prompts/system-reminder-versioned-cached-plugin-zip-2.md) | Utilizing a versioned cached plugin ZIP. | 24 | 2.1.84 | 2.1.84 |
 | [`system-reminder-deep-link-origin-2.md`](../system-prompts/system-reminder-deep-link-origin-2.md) | Multiple prompts (2) | 23 | 2.1.84 | 2.1.84 |
 | [`system-reminder-inboxpoller-plan-approved-2.md`](../system-prompts/system-reminder-inboxpoller-plan-approved-2.md) | Plan approved by the team lead. | 23 | 2.1.84 | 2.1.84 |
-| [`system-reminder-seed-cache-external-plugin-4.md`](../system-prompts/system-reminder-seed-cache-external-plugin-4.md) | Utilizing seed cache for an external plugin. | 23 | 2.1.84 | 2.1.84 |
 | [`system-reminder-computer-mcp-app-enumeration-exceeded.md`](../system-prompts/system-reminder-computer-mcp-app-enumeration-exceeded.md) | App enumeration time limit exceeded. | 22 | 2.1.84 | 2.1.84 |
-| [`system-reminder-suppressing-connector-duplicates.md`](../system-prompts/system-reminder-suppressing-connector-duplicates.md) | Suppress duplicates in the Claude connector manually. | 22 | 2.1.84 | 2.1.84 |
 | [`system-reminder-unregister-esc-hotkey-failed.md`](../system-prompts/system-reminder-unregister-esc-hotkey-failed.md) | Error in unregistering escape hotkey. | 22 | 2.1.84 | 2.1.84 |
 | [`system-reminder-valid-file-descriptor-check.md`](../system-prompts/system-reminder-valid-file-descriptor-check.md) | Ensures the file descriptor number is valid. | 22 | 2.1.84 | 2.1.84 |
 | [`system-reminder-computer-mcp-error-kind.md`](../system-prompts/system-reminder-computer-mcp-error-kind.md) | Error handling for MCP in computer use. | 21 | 2.1.84 | 2.1.84 |
@@ -1274,7 +1627,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-scheduled-tasks-failure.md`](../system-prompts/system-reminder-scheduled-tasks-failure.md) | Error persisting last fired timestamp. | 21 | 2.1.84 | 2.1.84 |
 | [`system-reminder-session-bridge-aborting-poll-loop.md`](../system-prompts/system-reminder-session-bridge-aborting-poll-loop.md) | Aborting the poll loop to tear down the session environment. | 21 | 2.1.84 | 2.1.84 |
 | [`system-reminder-session-bridge-returning-idle.md`](../system-prompts/system-reminder-session-bridge-returning-idle.md) | Returning to idle in multi-session mode. | 21 | 2.1.84 | 2.1.84 |
-| [`system-reminder-failed-to-read-file-descriptor.md`](../system-prompts/system-reminder-failed-to-read-file-descriptor.md) | Error reading from global file descriptor. | 20 | 2.1.84 | 2.1.84 |
 | [`system-reminder-invalid-mcp-configuration-2.md`](../system-prompts/system-reminder-invalid-mcp-configuration-2.md) | Reserved MCP name error for Claude in Chrome. | 19 | 2.1.84 | 2.1.84 |
 | [`system-reminder-computer-mcp-auto-unhide-failed.md`](../system-prompts/system-reminder-computer-mcp-auto-unhide-failed.md) | Notification of auto-unhide failure. | 18 | 2.1.84 | 2.1.84 |
 | [`system-reminder-config-async-background-process.md`](../system-prompts/system-reminder-config-async-background-process.md) | Backgrounds a process for a config-defined async hook. | 18 | 2.1.84 | 2.1.84 |
@@ -1282,7 +1634,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-skipping-auto-mode-classifier-3.md`](../system-prompts/system-reminder-skipping-auto-mode-classifier-3.md) | Skipping auto mode requires user permission. | 18 | 2.1.84 | 2.1.84 |
 | [`system-reminder-structuredio-update-environment-variables.md`](../system-prompts/system-reminder-structuredio-update-environment-variables.md) | Apply updates to environment variables in structuredIO. | 18 | 2.1.84 | 2.1.84 |
 | [`system-reminder-computer-prepare-for-action-activated.md`](../system-prompts/system-reminder-computer-prepare-for-action-activated.md) | Computer action preparation is now activated. | 17 | 2.1.84 | 2.1.84 |
-| [`system-reminder-failed-scan-directory-stdio.md`](../system-prompts/system-reminder-failed-scan-directory-stdio.md) | Error scanning specified directory using stdio. | 17 | 2.1.84 | 2.1.84 |
 | [`system-reminder-available-types.md`](../system-prompts/system-reminder-available-types.md) | Lists available agent types in messages. | 16 | 2.1.84 | 2.1.84 |
 | [`system-reminder-btand-btdetailand-btor-btnotor-btonly.md`](../system-prompts/system-reminder-btand-btdetailand-btor-btnotor-btonly.md) | Keywords for logical operations in coding. | 16 | 2.1.84 | 2.1.84 |
 | [`system-reminder-pbpaste-failed-before-paste.md`](../system-prompts/system-reminder-pbpaste-failed-before-paste.md) | Handling paste failure without restore. | 16 | 2.1.84 | 2.1.84 |
@@ -1291,18 +1642,13 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-authenticate-flow-ended.md`](../system-prompts/system-reminder-authenticate-flow-ended.md) | Server status indicates flow completion. | 15 | 2.1.84 | 2.1.84 |
 | [`system-reminder-computer-mcp-setup-failed.md`](../system-prompts/system-reminder-computer-mcp-setup-failed.md) | Indicates a failure in MCP setup. | 15 | 2.1.84 | 2.1.84 |
 | [`system-reminder-powershell-invalid-json-output.md`](../system-prompts/system-reminder-powershell-invalid-json-output.md) | Handling invalid JSON output in PowerShell. | 15 | 2.1.84 | 2.1.84 |
-| [`system-reminder-team-memory-sync-fetch-error-2.md`](../system-prompts/system-reminder-team-memory-sync-fetch-error-2.md) | Error fetching data for team memory sync. | 15 | 2.1.84 | 2.1.84 |
 | [`system-reminder-failed-clear-worktree-metadata.md`](../system-prompts/system-reminder-failed-clear-worktree-metadata.md) | Error clearing worktree metadata. | 14 | 2.1.84 | 2.1.84 |
-| [`system-reminder-failed-to-read-untracked-file-2.md`](../system-prompts/system-reminder-failed-to-read-untracked-file-2.md) | Error reading an untracked global file. | 14 | 2.1.84 | 2.1.84 |
 | [`system-reminder-search-selected-levels.md`](../system-prompts/system-reminder-search-selected-levels.md) | Selected levels for tool search. | 14 | 2.1.84 | 2.1.84 |
 | [`system-reminder-stored-deep-link-preference.md`](../system-prompts/system-reminder-stored-deep-link-preference.md) | Manage deep link preferences in the terminal. | 13 | 2.1.84 | 2.1.84 |
 | [`system-reminder-user-escape-aborting-turn.md`](../system-prompts/system-reminder-user-escape-aborting-turn.md) | User can escape or abort their turn. | 13 | 2.1.84 | 2.1.84 |
-| [`system-reminder-versioned-cached-plugin-stdio.md`](../system-prompts/system-reminder-versioned-cached-plugin-stdio.md) | Using a versioned cached plugin from stdio. | 13 | 2.1.84 | 2.1.84 |
 | [`system-reminder-check-deploy-5m.md`](../system-prompts/system-reminder-check-deploy-5m.md) | Check the deploy every 5 minutes. | 12 | 2.1.84 | 2.1.84 |
 | [`system-reminder-keychain-readasync-failed.md`](../system-prompts/system-reminder-keychain-readasync-failed.md) | ReadAsync failure with stale cache in keychain. | 12 | 2.1.84 | 2.1.84 |
-| [`system-reminder-successfully-read-file-descriptor.md`](../system-prompts/system-reminder-successfully-read-file-descriptor.md) | Indicates successful reading from a global file descriptor. | 12 | 2.1.84 | 2.1.84 |
 | [`system-reminder-esc-register-failed.md`](../system-prompts/system-reminder-esc-register-failed.md) | Escape registration returned false. | 11 | 2.1.84 | 2.1.84 |
-| [`system-reminder-failed-cache-plugin-stdio.md`](../system-prompts/system-reminder-failed-cache-plugin-stdio.md) | Error in caching the plugin due to stdio. | 11 | 2.1.84 | 2.1.84 |
 | [`system-reminder-keychain-read-failed-stale-cache.md`](../system-prompts/system-reminder-keychain-read-failed-stale-cache.md) | Keychain read operation failed with stale cache. | 11 | 2.1.84 | 2.1.84 |
 | [`system-reminder-new-types-available.md`](../system-prompts/system-reminder-new-types-available.md) | New agent types are now available. | 11 | 2.1.84 | 2.1.84 |
 | [`system-reminder-sessions-load-failure.md`](../system-prompts/system-reminder-sessions-load-failure.md) | Error occurred while loading code sessions. | 11 | 2.1.84 | 2.1.84 |
@@ -1311,37 +1657,26 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-mcp-server-started-2.md`](../system-prompts/system-reminder-mcp-server-started-2.md) | MCP server has been initiated. | 10 | 2.1.84 | 2.1.84 |
 | [`system-reminder-powershell-parser-empty-stdout.md`](../system-prompts/system-reminder-powershell-parser-empty-stdout.md) | Handling empty stdout in PowerShell. | 10 | 2.1.84 | 2.1.84 |
 | [`system-reminder-starting-mcp-server-2.md`](../system-prompts/system-reminder-starting-mcp-server-2.md) | Initiate the MCP server on the computer. | 10 | 2.1.84 | 2.1.84 |
-| [`system-reminder-extracted-plugin-zip-session-dir-2.md`](../system-prompts/system-reminder-extracted-plugin-zip-session-dir-2.md) | Plugin ZIP extracted to session directory. | 9 | 2.1.84 | 2.1.84 |
 | [`system-reminder-drainrunloop-pump-started.md`](../system-prompts/system-reminder-drainrunloop-pump-started.md) | Indicates that the drain run loop pump has started. | 8 | 2.1.84 | 2.1.84 |
 | [`system-reminder-drainrunloop-pump-stopped.md`](../system-prompts/system-reminder-drainrunloop-pump-stopped.md) | Indicates that the drain run loop pump has stopped. | 8 | 2.1.84 | 2.1.84 |
 | [`system-reminder-git-config-get-user-email.md`](../system-prompts/system-reminder-git-config-get-user-email.md) | Retrieve the user email from git configuration. | 7 | 2.1.84 | 2.1.84 |
-| [`system-reminder-desktop-not-installed.md`](../system-prompts/system-reminder-desktop-not-installed.md) | Reports that Claude Desktop is not installed. | 6 | 2.1.84 | 2.1.84 |
-| [`system-reminder-plugin-path-not-found-stdio.md`](../system-prompts/system-reminder-plugin-path-not-found-stdio.md) | Indicates a missing plugin path for stdio. | 6 | 2.1.84 | 2.1.84 |
 | [`system-reminder-released-computer-use-lock.md`](../system-prompts/system-reminder-released-computer-use-lock.md) | A lock for computer usage has been released. | 5 | 2.1.84 | 2.1.84 |
-| [`system-reminder-get-response-failed.md`](../system-prompts/system-reminder-get-response-failed.md) | Retrieval of a response failed. | 4 | 2.1.84 | 2.1.84 |
-| [`system-reminder-no-response-received.md`](../system-prompts/system-reminder-no-response-received.md) | Indicates that no response was received. | 3 | 2.1.84 | 2.1.84 |
 | [`system-reminder-bridge-repl-rejected-outbound-only.md`](../system-prompts/system-reminder-bridge-repl-rejected-outbound-only.md) | Rejected outbound-only request in bridge repl. | 29 | 2.1.83 | 2.1.83 |
 | [`system-reminder-invalid-plugin-file-2.md`](../system-prompts/system-reminder-invalid-plugin-file-2.md) | Invalid maxTurns value for plugin agent file. | 29 | 2.1.83 | 2.1.83 |
-| [`system-reminder-invalid-plugin-memory-value.md`](../system-prompts/system-reminder-invalid-plugin-memory-value.md) | Reports an invalid memory setting in a plugin agent file. | 29 | 2.1.83 | 2.1.83 |
-| [`system-reminder-sync-completed-plugins-updated.md`](../system-prompts/system-reminder-sync-completed-plugins-updated.md) | Sync completed with added and updated plugins. | 29 | 2.1.83 | 2.1.83 |
 | [`system-reminder-use-hint-surfacing.md`](../system-prompts/system-reminder-use-hint-surfacing.md) | Surfacing expressions from one source to another. | 28 | 2.1.83 | 2.1.83 |
-| [`system-reminder-advisor-server-side-enabled.md`](../system-prompts/system-reminder-advisor-server-side-enabled.md) | Server-side advisor tool is now enabled. | 27 | 2.1.83 | 2.1.83 |
 | [`system-reminder-loading-skills-managed-user-project.md`](../system-prompts/system-reminder-loading-skills-managed-user-project.md) | Loading skills from managed, user, and project sources. | 27 | 2.1.83 | 2.1.83 |
 | [`system-reminder-sessions-websocket-retry-budget-exhausted.md`](../system-prompts/system-reminder-sessions-websocket-retry-budget-exhausted.md) | Indicates retry budget for WebSocket is exhausted. | 27 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-reconnected-session-2.md`](../system-prompts/system-reminder-bridge-repl-reconnected-session-2.md) | Reconnected session in specified environment. | 26 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-teardown-complete-2.md`](../system-prompts/system-reminder-bridge-repl-teardown-complete-2.md) | Teardown of the REPL environment is complete. | 26 | 2.1.83 | 2.1.83 |
-| [`system-reminder-dropped-hint-unsupported-type.md`](../system-prompts/system-reminder-dropped-hint-unsupported-type.md) | Dropped hint with an unsupported type. | 26 | 2.1.83 | 2.1.83 |
 | [`system-reminder-useremotesession-received.md`](../system-prompts/system-reminder-useremotesession-received.md) | Indicates a remote session has been received. | 26 | 2.1.83 | 2.1.83 |
 | [`system-reminder-filtered-sessions-repo-total.md`](../system-prompts/system-reminder-filtered-sessions-repo-total.md) | Filtered sessions for a specific repo. | 25 | 2.1.83 | 2.1.83 |
 | [`system-reminder-sessions-websocket-reconnect-scheduling.md`](../system-prompts/system-reminder-sessions-websocket-reconnect-scheduling.md) | Schedules a reconnect for SessionsWebSocket. | 25 | 2.1.83 | 2.1.83 |
 | [`system-reminder-watching-changes-setting-files.md`](../system-prompts/system-reminder-watching-changes-setting-files.md) | Monitoring changes in specified setting files and directory. | 25 | 2.1.83 | 2.1.83 |
 | [`system-reminder-advisor-skipping-base.md`](../system-prompts/system-reminder-advisor-skipping-base.md) | Base model does not support advisor. | 24 | 2.1.83 | 2.1.83 |
 | [`system-reminder-fetch-official-marketplace-error.md`](../system-prompts/system-reminder-fetch-official-marketplace-error.md) | Error fetching marketplace due to path restrictions. | 24 | 2.1.83 | 2.1.83 |
-| [`system-reminder-hook-pid-function-watchpaths.md`](../system-prompts/system-reminder-hook-pid-function-watchpaths.md) | Defines a hook with a specified PID and function. | 24 | 2.1.83 | 2.1.83 |
 | [`system-reminder-installed-configured-run-apply.md`](../system-prompts/system-reminder-installed-configured-run-apply.md) | Instructions to run and apply the configuration. | 24 | 2.1.83 | 2.1.83 |
 | [`system-reminder-loaded-user-config-settings-2.md`](../system-prompts/system-reminder-loaded-user-config-settings-2.md) | User configuration loaded with settings and secure storage. | 24 | 2.1.83 | 2.1.83 |
 | [`system-reminder-no-session-id-in-response.md`](../system-prompts/system-reminder-no-session-id-in-response.md) | Indicates missing session ID in the response. | 24 | 2.1.83 | 2.1.83 |
-| [`system-reminder-updated-scope-settings-json.md`](../system-prompts/system-reminder-updated-scope-settings-json.md) | Updated scope based on settings.json. | 24 | 2.1.83 | 2.1.83 |
 | [`system-reminder-voice-ontranscript-isfinal-text.md`](../system-prompts/system-reminder-voice-ontranscript-isfinal-text.md) | Handles final voice transcript text. | 24 | 2.1.83 | 2.1.83 |
 | [`system-reminder-early-voice-stream-error.md`](../system-prompts/system-reminder-early-voice-stream-error.md) | Retrying early voice stream error. | 23 | 2.1.83 | 2.1.83 |
 | [`system-reminder-filehistory-rewind-restored.md`](../system-prompts/system-reminder-filehistory-rewind-restored.md) | Restores a file from history. | 23 | 2.1.83 | 2.1.83 |
@@ -1349,63 +1684,46 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-autoupdater-installation-detected.md`](../system-prompts/system-reminder-autoupdater-installation-detected.md) | Notes the detected installation type for updates. | 22 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-ready-env-session.md`](../system-prompts/system-reminder-bridge-repl-ready-env-session.md) | Indicates readiness of the REPL environment and session. | 22 | 2.1.83 | 2.1.83 |
 | [`system-reminder-delete-plugin-options-failed-2.md`](../system-prompts/system-reminder-delete-plugin-options-failed-2.md) | Failed to clear plugin secrets from keychain. | 22 | 2.1.83 | 2.1.83 |
-| [`system-reminder-failed-extract-plugin-zip.md`](../system-prompts/system-reminder-failed-extract-plugin-zip.md) | Error extracting plugin ZIP file. | 22 | 2.1.83 | 2.1.83 |
 | [`system-reminder-installed-run-apply.md`](../system-prompts/system-reminder-installed-run-apply.md) | Instructions to run and apply the installation. | 22 | 2.1.83 | 2.1.83 |
 | [`system-reminder-session-worker-epoch-invalid.md`](../system-prompts/system-reminder-session-worker-epoch-invalid.md) | Indicates an invalid worker epoch in the code session. | 22 | 2.1.83 | 2.1.83 |
 | [`system-reminder-git-repo-initial-commit.md`](../system-prompts/system-reminder-git-repo-initial-commit.md) | Instructions to initialize a git repository. | 21 | 2.1.83 | 2.1.83 |
 | [`system-reminder-deep-link-origin.md`](../system-prompts/system-reminder-deep-link-origin.md) | Reminder about deep link origin. | 20 | 2.1.83 | 2.1.83 |
 | [`system-reminder-dropped-hint-unsupported.md`](../system-prompts/system-reminder-dropped-hint-unsupported.md) | Dropped hint due to unsupported version. | 20 | 2.1.83 | 2.1.83 |
-| [`system-reminder-failed-message.md`](../system-prompts/system-reminder-failed-message.md) | Log an in-process agent failure and its error message. | 20 | 2.1.83 | 2.1.83 |
 | [`system-reminder-session-request-failed.md`](../system-prompts/system-reminder-session-request-failed.md) | Indicates a failed request in the code session. | 20 | 2.1.83 | 2.1.83 |
 | [`system-reminder-voice-ignoring-stale-onerror-3.md`](../system-prompts/system-reminder-voice-ignoring-stale-onerror-3.md) | Handling stale onError from a previous attempt. | 20 | 2.1.83 | 2.1.83 |
 | [`system-reminder-background-still-running.md`](../system-prompts/system-reminder-background-still-running.md) | Indicates a background agent is still active. | 19 | 2.1.83 | 2.1.83 |
-| [`system-reminder-failed-to-add-plugin-load.md`](../system-prompts/system-reminder-failed-to-add-plugin-load.md) | Error adding plugin due to load failure. | 19 | 2.1.83 | 2.1.83 |
 | [`system-reminder-failed-to-remove-missed-tasks.md`](../system-prompts/system-reminder-failed-to-remove-missed-tasks.md) | Failed to remove missed scheduled tasks. | 19 | 2.1.83 | 2.1.83 |
 | [`system-reminder-hint-recommendation-not-found.md`](../system-prompts/system-reminder-hint-recommendation-not-found.md) | Item not found in marketplace cache. | 19 | 2.1.83 | 2.1.83 |
-| [`system-reminder-save-marketplace-git-unavailable-state.md`](../system-prompts/system-reminder-save-marketplace-git-unavailable-state.md) | Indicates an error saving marketplace auto-install git unavailable state. | 19 | 2.1.83 | 2.1.83 |
 | [`system-reminder-voice-focus-mode-flushing-final.md`](../system-prompts/system-reminder-voice-focus-mode-flushing-final.md) | Flush final transcript in focus mode. | 19 | 2.1.83 | 2.1.83 |
-| [`system-reminder-failed-clean-temp-file.md`](../system-prompts/system-reminder-failed-clean-temp-file.md) | Issue with cleaning temporary file. | 18 | 2.1.83 | 2.1.83 |
 | [`system-reminder-kmditemcfbundleidentifier-equality-check.md`](../system-prompts/system-reminder-kmditemcfbundleidentifier-equality-check.md) | Check equality of kMDItemCFBundleIdentifier. | 18 | 2.1.83 | 2.1.83 |
 | [`system-reminder-launching-in-terminal.md`](../system-prompts/system-reminder-launching-in-terminal.md) | Instructions for launching in terminal. | 18 | 2.1.83 | 2.1.83 |
 | [`system-reminder-mcp-registry-loaded-official-urls.md`](../system-prompts/system-reminder-mcp-registry-loaded-official-urls.md) | Loaded official MCP URLs in the registry. | 18 | 2.1.83 | 2.1.83 |
-| [`system-reminder-non-atomic-write-failure.md`](../system-prompts/system-reminder-non-atomic-write-failure.md) | Indicates a failure in non-atomic write operation. | 18 | 2.1.83 | 2.1.83 |
-| [`system-reminder-promoting-unreported-interim.md`](../system-prompts/system-reminder-promoting-unreported-interim.md) | Promoting unreported interim before resolution. | 18 | 2.1.83 | 2.1.83 |
 | [`system-reminder-update-pid-file-failure.md`](../system-prompts/system-reminder-update-pid-file-failure.md) | Failed to update PID file for concurrent sessions. | 18 | 2.1.83 | 2.1.83 |
 | [`system-reminder-voice-ignoring-onerror-stale-session.md`](../system-prompts/system-reminder-voice-ignoring-onerror-stale-session.md) | Handling voice errors from stale sessions. | 18 | 2.1.83 | 2.1.83 |
 | [`system-reminder-advisor.md`](../system-prompts/system-reminder-advisor.md) | Reference for advisor model usage. | 17 | 2.1.83 | 2.1.83 |
 | [`system-reminder-failed-auto-register-deep-link.md`](../system-prompts/system-reminder-failed-auto-register-deep-link.md) | Issue with deep link protocol handler registration. | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-filehistory-rewind-deleted-file.md`](../system-prompts/system-reminder-filehistory-rewind-deleted-file.md) | Rewind deleted a file. | 16 | 2.1.83 | 2.1.83 |
-| [`system-reminder-finalize-voice-stream-2.md`](../system-prompts/system-reminder-finalize-voice-stream-2.md) | Finalize the voice stream resolution. | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-local-clone-not-found.md`](../system-prompts/system-reminder-local-clone-not-found.md) | Fallback to home due to missing local clone. | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-official-marketplace-gcs-failed-2.md`](../system-prompts/system-reminder-official-marketplace-gcs-failed-2.md) | GCS installation skipped due to failure. | 16 | 2.1.83 | 2.1.83 |
-| [`system-reminder-permission-request-cancelled-2.md`](../system-prompts/system-reminder-permission-request-cancelled-2.md) | User remote session permission request was cancelled. | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-registered-cli-protocol-handler.md`](../system-prompts/system-reminder-registered-cli-protocol-handler.md) | Multiple prompts (2) | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-resolved-repo-expr-1-to-expr.md`](../system-prompts/system-reminder-resolved-repo-expr-1-to-expr.md) | Indicates a resolved repository transition. | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-session-create-request-failed.md`](../system-prompts/system-reminder-session-create-request-failed.md) | Indicates a failure in creating a session. | 16 | 2.1.83 | 2.1.83 |
 | [`system-reminder-skipping-official-marketplace-refresh.md`](../system-prompts/system-reminder-skipping-official-marketplace-refresh.md) | GCS failed, git fallback is disabled. | 16 | 2.1.83 | 2.1.83 |
-| [`system-reminder-voice-stream-transcripterror.md`](../system-prompts/system-reminder-voice-stream-transcripterror.md) | Error encountered in voice stream transcription. | 16 | 2.1.83 | 2.1.83 |
-| [`system-reminder-added-scope-expressions.md`](../system-prompts/system-reminder-added-scope-expressions.md) | Adding expressions with defined scope. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-advisor-advisor.md`](../system-prompts/system-reminder-advisor-advisor.md) | Reference to the advisor tool. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bridge-repl-environment-registered-2.md`](../system-prompts/system-reminder-bridge-repl-environment-registered-2.md) | Environment registration for bridge repl. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-failed-launch-falling-back.md`](../system-prompts/system-reminder-failed-launch-falling-back.md) | Fallback to Terminal after launch failure. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-failed-to-spawn-error.md`](../system-prompts/system-reminder-failed-to-spawn-error.md) | Indicates a failure in spawning a process. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-file-changed-notification.md`](../system-prompts/system-reminder-file-changed-notification.md) | Notification for file change events. | 15 | 2.1.83 | 2.1.83 |
-| [`system-reminder-plugin-not-found-skipping.md`](../system-prompts/system-reminder-plugin-not-found-skipping.md) | Indicates a plugin is missing from the marketplace. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-read-output-file-retrieve-result.md`](../system-prompts/system-reminder-read-output-file-retrieve-result.md) | Read the output file for the result. | 15 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bootstrap-skipped-oauth-api.md`](../system-prompts/system-reminder-bootstrap-skipped-oauth-api.md) | Indicates missing OAuth or API key for bootstrap. | 14 | 2.1.83 | 2.1.83 |
-| [`system-reminder-external-plugin-cache-skipping.md`](../system-prompts/system-reminder-external-plugin-cache-skipping.md) | Indicates an external plugin is not cached. | 14 | 2.1.83 | 2.1.83 |
 | [`system-reminder-failed-to-clear-cwd-env-files.md`](../system-prompts/system-reminder-failed-to-clear-cwd-env-files.md) | Error clearing current working directory environment files. | 14 | 2.1.83 | 2.1.83 |
 | [`system-reminder-installed-failed-save-config.md`](../system-prompts/system-reminder-installed-failed-save-config.md) | Error saving configuration after installation. | 14 | 2.1.83 | 2.1.83 |
-| [`system-reminder-num-and-expr.md`](../system-prompts/system-reminder-num-and-expr.md) | Handles numerical and expression operations. | 14 | 2.1.83 | 2.1.83 |
 | [`system-reminder-start-cwd-command.md`](../system-prompts/system-reminder-start-cwd-command.md) | Command to start with a specified current working directory. | 14 | 2.1.83 | 2.1.83 |
-| [`system-reminder-voice-stream-server-error-2.md`](../system-prompts/system-reminder-voice-stream-server-error-2.md) | Indicates an error in the voice stream server. | 14 | 2.1.83 | 2.1.83 |
 | [`system-reminder-working-directory-usage.md`](../system-prompts/system-reminder-working-directory-usage.md) | Specifies the working directory for execution. | 14 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bootstrap-response-failed-validation.md`](../system-prompts/system-reminder-bootstrap-response-failed-validation.md) | Indicates a failed validation response. | 13 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bootstrap-skipped-nonessential-traffic.md`](../system-prompts/system-reminder-bootstrap-skipped-nonessential-traffic.md) | Nonessential traffic has been disabled in Bootstrap. | 13 | 2.1.83 | 2.1.83 |
 | [`system-reminder-cwdchanged-hook-failure.md`](../system-prompts/system-reminder-cwdchanged-hook-failure.md) | Indicates a failure in the CwdChanged hook. | 13 | 2.1.83 | 2.1.83 |
 | [`system-reminder-failed-fetch-mcp-registry.md`](../system-prompts/system-reminder-failed-fetch-mcp-registry.md) | Error in retrieving MCP registry data. | 13 | 2.1.83 | 2.1.83 |
-| [`system-reminder-gitbundle-delete-stdio-non-fatal.md`](../system-prompts/system-reminder-gitbundle-delete-stdio-non-fatal.md) | Error related to deleting stdio in git bundle. | 13 | 2.1.83 | 2.1.83 |
-| [`system-reminder-missing-tracked-file.md`](../system-prompts/system-reminder-missing-tracked-file.md) | Reports a tracked file missing from file history. | 13 | 2.1.83 | 2.1.83 |
 | [`system-reminder-official-marketplace-gcs-fetch-failed.md`](../system-prompts/system-reminder-official-marketplace-gcs-fetch-failed.md) | Notification of GCS fetch failure in the marketplace. | 13 | 2.1.83 | 2.1.83 |
 | [`system-reminder-plugin-hooks-reloading-settings-change.md`](../system-prompts/system-reminder-plugin-hooks-reloading-settings-change.md) | Reloading due to plugin-affecting settings change. | 13 | 2.1.83 | 2.1.83 |
 | [`system-reminder-workdir-configuration.md`](../system-prompts/system-reminder-workdir-configuration.md) | Specifies the working directory for execution. | 13 | 2.1.83 | 2.1.83 |
@@ -1431,56 +1749,40 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-bootstrap-cache-unchanged-skipping-write.md`](../system-prompts/system-reminder-bootstrap-cache-unchanged-skipping-write.md) | Indicates no changes in bootstrap cache. | 9 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bootstrap-fetch-failed-unknown.md`](../system-prompts/system-reminder-bootstrap-fetch-failed-unknown.md) | Fetch operation failed due to an unknown error. | 8 | 2.1.83 | 2.1.83 |
 | [`system-reminder-change-directory-command.md`](../system-prompts/system-reminder-change-directory-command.md) | Command to change the current directory. | 8 | 2.1.83 | 2.1.83 |
-| [`system-reminder-failed-write-file-atomically.md`](../system-prompts/system-reminder-failed-write-file-atomically.md) | Error encountered while writing file atomically. | 8 | 2.1.83 | 2.1.83 |
 | [`system-reminder-priority-levels-list.md`](../system-prompts/system-reminder-priority-levels-list.md) | Multiple prompts (2) | 7 | 2.1.83 | 2.1.83 |
 | [`system-reminder-bootstrap-fetch-ok.md`](../system-prompts/system-reminder-bootstrap-fetch-ok.md) | Indicates successful fetch in Bootstrap. | 6 | 2.1.83 | 2.1.83 |
 | [`system-reminder-sse-reconnection-exhausted.md`](../system-prompts/system-reminder-sse-reconnection-exhausted.md) | Indicates SSE reconnection attempts have failed. | 6 | 2.1.83 | 2.1.83 |
 | [`system-reminder-no-terminal-emulator-detected.md`](../system-prompts/system-reminder-no-terminal-emulator-detected.md) | Indicates absence of terminal emulator. | 5 | 2.1.83 | 2.1.83 |
 | [`system-reminder-max-consecutive-terminal-errors.md`](../system-prompts/system-reminder-max-consecutive-terminal-errors.md) | Limit the number of consecutive terminal errors. | 4 | 2.1.83 | 2.1.83 |
 | [`system-reminder-session-ingress-token.md`](../system-prompts/system-reminder-session-ingress-token.md) | Manage session ingress tokens. | 4 | 2.1.83 | 2.1.83 |
-| [`system-reminder-attribution-claudepercent-stdio.md`](../system-prompts/system-reminder-attribution-claudepercent-stdio.md) | Track attribution metrics for Claude. | 30 | 2.1.81 | 2.1.81 |
 | [`system-reminder-kill-orphaned-shell-tasks.md`](../system-prompts/system-reminder-kill-orphaned-shell-tasks.md) | Command to terminate orphaned shell tasks. | 30 | 2.1.81 | 2.1.81 |
 | [`system-reminder-missing-frontmatter-warning.md`](../system-prompts/system-reminder-missing-frontmatter-warning.md) | Warns that a skill named in frontmatter was not found. | 30 | 2.1.81 | 2.1.81 |
-| [`system-reminder-bridge-repl-ccr-worker-sessionid-2.md`](../system-prompts/system-reminder-bridge-repl-ccr-worker-sessionid-2.md) | Worker session ID registration in CCR v2. | 29 | 2.1.81 | 2.1.81 |
 | [`system-reminder-not-based-warning.md`](../system-prompts/system-reminder-not-based-warning.md) | Warns that the referenced skill is not prompt-based. | 29 | 2.1.81 | 2.1.81 |
-| [`system-reminder-remote-bridge-capped-initial-flush-2.md`](../system-prompts/system-reminder-remote-bridge-capped-initial-flush-2.md) | Capped initial flush for remote bridge configuration. | 29 | 2.1.81 | 2.1.81 |
-| [`system-reminder-hook-pid-function-initial-message.md`](../system-prompts/system-reminder-hook-pid-function-initial-message.md) | Defines a hook with PID and initial user message. | 27 | 2.1.81 | 2.1.81 |
 | [`system-reminder-silent-drop-detected-replaying.md`](../system-prompts/system-reminder-silent-drop-detected-replaying.md) | Silent-drop detected with no data timeout. | 27 | 2.1.81 | 2.1.81 |
 | [`system-reminder-archive-remote-session-failed.md`](../system-prompts/system-reminder-archive-remote-session-failed.md) | Indicates a failure in archiving remote session. | 26 | 2.1.81 | 2.1.81 |
-| [`system-reminder-error-cleaning-mcp-server.md`](../system-prompts/system-reminder-error-cleaning-mcp-server.md) | Error encountered while cleaning MCP server. | 25 | 2.1.81 | 2.1.81 |
 | [`system-reminder-forked-transcript-record-failed.md`](../system-prompts/system-reminder-forked-transcript-record-failed.md) | Forked agent failed to record initial transcript with error detail. | 24 | 2.1.81 | 2.1.81 |
 | [`system-reminder-remote-bridge-session-url.md`](../system-prompts/system-reminder-remote-bridge-session-url.md) | Session URL for remote bridge access. | 24 | 2.1.81 | 2.1.81 |
 | [`system-reminder-anthropic-cloud-env-list.md`](../system-prompts/system-reminder-anthropic-cloud-env-list.md) | Fetch environments for anthropic cloud. | 23 | 2.1.81 | 2.1.81 |
-| [`system-reminder-bridge-repl-transport-ready-2.md`](../system-prompts/system-reminder-bridge-repl-transport-ready-2.md) | Transport is ready for writes in the bridge REPL. | 23 | 2.1.81 | 2.1.81 |
-| [`system-reminder-voice-stream-transcript-received.md`](../system-prompts/system-reminder-voice-stream-transcript-received.md) | Transcript received from voice stream. | 23 | 2.1.81 | 2.1.81 |
-| [`system-reminder-auto-finalizing-voice-stream.md`](../system-prompts/system-reminder-auto-finalizing-voice-stream.md) | Auto-finalizing the previous voice stream segment. | 22 | 2.1.81 | 2.1.81 |
 | [`system-reminder-preloaded-loaded.md`](../system-prompts/system-reminder-preloaded-loaded.md) | Indicates a skill was preloaded for a given agent. | 22 | 2.1.81 | 2.1.81 |
 | [`system-reminder-bridge-session-title-update-failed-3.md`](../system-prompts/system-reminder-bridge-session-title-update-failed-3.md) | Session title update encountered a failure. | 21 | 2.1.81 | 2.1.81 |
 | [`system-reminder-archive-bridge-session-error.md`](../system-prompts/system-reminder-archive-bridge-session-error.md) | Error occurred during archiving bridge session. | 20 | 2.1.81 | 2.1.81 |
 | [`system-reminder-bare-skipping-dir-discovery.md`](../system-prompts/system-reminder-bare-skipping-dir-discovery.md) | Skipping skill directory discovery due to restrictions. | 19 | 2.1.81 | 2.1.81 |
-| [`system-reminder-bridge-repl-invalid-session.md`](../system-prompts/system-reminder-bridge-repl-invalid-session.md) | Invalid session ID in work. | 19 | 2.1.81 | 2.1.81 |
-| [`system-reminder-callback-failed-run.md`](../system-prompts/system-reminder-callback-failed-run.md) | Callback failed to run error message. | 19 | 2.1.81 | 2.1.81 |
 | [`system-reminder-channel-permission-request-failed.md`](../system-prompts/system-reminder-channel-permission-request-failed.md) | Indicates a failure in channel permission request. | 18 | 2.1.81 | 2.1.81 |
 | [`system-reminder-dynamic-discovery-skipped-2.md`](../system-prompts/system-reminder-dynamic-discovery-skipped-2.md) | Dynamic skill discovery was not executed. | 17 | 2.1.81 | 2.1.81 |
-| [`system-reminder-mcp-server-not-found-global.md`](../system-prompts/system-reminder-mcp-server-not-found-global.md) | MCP server is not found globally. | 17 | 2.1.81 | 2.1.81 |
 | [`system-reminder-remote-environment-check-failed.md`](../system-prompts/system-reminder-remote-environment-check-failed.md) | Logs failure when checking for a remote environment. | 15 | 2.1.81 | 2.1.81 |
 | [`system-reminder-archive-remote-session.md`](../system-prompts/system-reminder-archive-remote-session.md) | Archives the specified remote session. | 14 | 2.1.81 | 2.1.81 |
 | [`system-reminder-failed-fetch-environments-schedule.md`](../system-prompts/system-reminder-failed-fetch-environments-schedule.md) | Error fetching environments in the schedule. | 14 | 2.1.81 | 2.1.81 |
 | [`system-reminder-failed-to-create-environment.md`](../system-prompts/system-reminder-failed-to-create-environment.md) | Error in scheduling environment creation. | 14 | 2.1.81 | 2.1.81 |
 | [`system-reminder-auto-mode-classifier-fallback-2.md`](../system-prompts/system-reminder-auto-mode-classifier-fallback-2.md) | Fallback to normal handling due to long transcript. | 13 | 2.1.81 | 2.1.81 |
-| [`system-reminder-remote-bridge-archive-status.md`](../system-prompts/system-reminder-remote-bridge-archive-status.md) | Archive status for remote bridge. | 13 | 2.1.81 | 2.1.81 |
-| [`system-reminder-attribution-returning-summary.md`](../system-prompts/system-reminder-attribution-returning-summary.md) | Summary for returning attribution. | 12 | 2.1.81 | 2.1.81 |
 | [`system-reminder-local-shell-task-kill-requested.md`](../system-prompts/system-reminder-local-shell-task-kill-requested.md) | Request to kill a local shell task. | 12 | 2.1.81 | 2.1.81 |
 | [`system-reminder-generate-session-name-failed.md`](../system-prompts/system-reminder-generate-session-name-failed.md) | Indicates a failure in generating a session name. | 11 | 2.1.81 | 2.1.81 |
 | [`system-reminder-orchestrator-exited-early.md`](../system-prompts/system-reminder-orchestrator-exited-early.md) | No review output due to early exit. | 11 | 2.1.81 | 2.1.81 |
 | [`system-reminder-remote-session-exceeded-time.md`](../system-prompts/system-reminder-remote-session-exceeded-time.md) | Notification for exceeded remote session duration. | 10 | 2.1.81 | 2.1.81 |
-| [`system-reminder-remote-bridge-archive-failed-global.md`](../system-prompts/system-reminder-remote-bridge-archive-failed-global.md) | Archive process for global remote bridge failed. | 9 | 2.1.81 | 2.1.81 |
 | [`system-reminder-fan-out-subagents.md`](../system-prompts/system-reminder-fan-out-subagents.md) | Distribute tasks to subagents. | 7 | 2.1.81 | 2.1.81 |
 | [`system-reminder-gitbundle-all-retrying-head.md`](../system-prompts/system-reminder-gitbundle-all-retrying-head.md) | Retrying HEAD-only for large git bundle. | 30 | 2.1.80 | 2.1.80 |
 | [`system-reminder-git-stash-create-failed.md`](../system-prompts/system-reminder-git-stash-create-failed.md) | Error creating git stash bundle. | 29 | 2.1.80 | 2.1.80 |
 | [`system-reminder-bridge-repl-skipping-cross-process.md`](../system-prompts/system-reminder-bridge-repl-skipping-cross-process.md) | Skipping cross-process backoff due to dead token. | 27 | 2.1.80 | 2.1.80 |
 | [`system-reminder-remote-bridge-control-cancel.md`](../system-prompts/system-reminder-remote-bridge-control-cancel.md) | Dropping control cancel request during recovery. | 27 | 2.1.80 | 2.1.80 |
-| [`system-reminder-github-token-sync-status.md`](../system-prompts/system-reminder-github-token-sync-status.md) | Displays synced GitHub token status and data. | 26 | 2.1.80 | 2.1.80 |
 | [`system-reminder-gitbundle-uploaded-file.md`](../system-prompts/system-reminder-gitbundle-uploaded-file.md) | Uploaded git bundle file with specified bytes. | 23 | 2.1.80 | 2.1.80 |
 | [`system-reminder-github-app-status-null.md`](../system-prompts/system-reminder-github-app-status-null.md) | Indicates the GitHub app is not installed and status is null. | 23 | 2.1.80 | 2.1.80 |
 | [`system-reminder-no-connected-mcp-connectors.md`](../system-prompts/system-reminder-no-connected-mcp-connectors.md) | User needs to connect MCP connectors. | 22 | 2.1.80 | 2.1.80 |
@@ -1489,7 +1791,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-remote-bridge-control-cancel-request.md`](../system-prompts/system-reminder-remote-bridge-control-cancel-request.md) | Sends a control cancel request for a remote bridge. | 21 | 2.1.80 | 2.1.80 |
 | [`system-reminder-skipping-refresh-settings-marketplace.md`](../system-prompts/system-reminder-skipping-refresh-settings-marketplace.md) | Skipping refresh for a settings-sourced marketplace. | 21 | 2.1.80 | 2.1.80 |
 | [`system-reminder-check-github-token-synced.md`](../system-prompts/system-reminder-check-github-token-synced.md) | Token synchronization status check. | 20 | 2.1.80 | 2.1.80 |
-| [`system-reminder-uploaded-file-stdio-bytes.md`](../system-prompts/system-reminder-uploaded-file-stdio-bytes.md) | Indicates uploaded file and its byte size. | 20 | 2.1.80 | 2.1.80 |
 | [`system-reminder-check-github-app-installation.md`](../system-prompts/system-reminder-check-github-app-installation.md) | Checks GitHub app installation status for a given owner and repo. | 18 | 2.1.80 | 2.1.80 |
 | [`system-reminder-github-app-not-installed.md`](../system-prompts/system-reminder-github-app-not-installed.md) | Indicates the GitHub app is not installed for the repository. | 18 | 2.1.80 | 2.1.80 |
 | [`system-reminder-remote-bridge-transport-closed.md`](../system-prompts/system-reminder-remote-bridge-transport-closed.md) | Indicates a closed transport status for remote bridge. | 18 | 2.1.80 | 2.1.80 |
@@ -1503,14 +1804,12 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-uploading-file-process.md`](../system-prompts/system-reminder-uploading-file-process.md) | Handles the file upload process. | 17 | 2.1.80 | 2.1.80 |
 | [`system-reminder-check-github-token-sync-error.md`](../system-prompts/system-reminder-check-github-token-sync-error.md) | Error related to GitHub token synchronization. | 16 | 2.1.80 | 2.1.80 |
 | [`system-reminder-github-app-install-check-error.md`](../system-prompts/system-reminder-github-app-install-check-error.md) | Logs an error encountered while checking GitHub app installation. | 15 | 2.1.80 | 2.1.80 |
-| [`system-reminder-voice-stream-connecting.md`](../system-prompts/system-reminder-voice-stream-connecting.md) | Connecting to the voice stream. | 14 | 2.1.80 | 2.1.80 |
 | [`system-reminder-check-github-token-sync.md`](../system-prompts/system-reminder-check-github-token-sync.md) | No organization UUID found. | 13 | 2.1.80 | 2.1.80 |
 | [`system-reminder-check-github-token-synced-2.md`](../system-prompts/system-reminder-check-github-token-synced-2.md) | No access token found. | 13 | 2.1.80 | 2.1.80 |
 | [`system-reminder-checking-github-token-synced.md`](../system-prompts/system-reminder-checking-github-token-synced.md) | Check GitHub token synchronization status. | 12 | 2.1.80 | 2.1.80 |
 | [`system-reminder-editor-spawn-failed.md`](../system-prompts/system-reminder-editor-spawn-failed.md) | Multiple prompts (2) | 10 | 2.1.80 | 2.1.80 |
 | [`system-reminder-upload-file.md`](../system-prompts/system-reminder-upload-file.md) | Upload the specified file. | 8 | 2.1.80 | 2.1.80 |
 | [`system-reminder-bridge-repl-transport-issue-4.md`](../system-prompts/system-reminder-bridge-repl-transport-issue-4.md) | Transport not configured for SDK messages. | 30 | 2.1.79 | 2.1.79 |
-| [`system-reminder-marketplace-settings-cleanup-failed.md`](../system-prompts/system-reminder-marketplace-settings-cleanup-failed.md) | Marketplace entry cleanup from settings failed with an error. | 28 | 2.1.79 | 2.1.79 |
 | [`system-reminder-failed-to-read-seed-file.md`](../system-prompts/system-reminder-failed-to-read-seed-file.md) | Error reading known marketplaces seed file. | 24 | 2.1.79 | 2.1.79 |
 | [`system-reminder-files-larger-return-error.md`](../system-prompts/system-reminder-files-larger-return-error.md) | Handle larger files with offset and limit. | 23 | 2.1.79 | 2.1.79 |
 | [`system-reminder-remote-bridge-teardown-retry.md`](../system-prompts/system-reminder-remote-bridge-teardown-retry.md) | Teardown retry for remote bridge operation. | 23 | 2.1.79 | 2.1.79 |
@@ -1518,7 +1817,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-bridge-repl-failed-send.md`](../system-prompts/system-reminder-bridge-repl-failed-send.md) | Failed to send system data. | 22 | 2.1.79 | 2.1.79 |
 | [`system-reminder-bridge-repl-sendresult-skipping-2.md`](../system-prompts/system-reminder-bridge-repl-sendresult-skipping-2.md) | Skipping transport due to configuration issue. | 22 | 2.1.79 | 2.1.79 |
 | [`system-reminder-hooks-stdin-error-flow.md`](../system-prompts/system-reminder-hooks-stdin-error-flow.md) | Error handling for stdin during prompt execution. | 20 | 2.1.79 | 2.1.79 |
-| [`system-reminder-remove-marketplace-setting.md`](../system-prompts/system-reminder-remove-marketplace-setting.md) | Remove a marketplace entry from settings. | 20 | 2.1.79 | 2.1.79 |
 | [`system-reminder-perpetual-session-reused.md`](../system-prompts/system-reminder-perpetual-session-reused.md) | Indicates a reused perpetual session in the bridge REPL. | 19 | 2.1.79 | 2.1.79 |
 | [`system-reminder-synced-marketplace-seed-dir-2.md`](../system-prompts/system-reminder-synced-marketplace-seed-dir-2.md) | Synced marketplaces from seed directories. | 19 | 2.1.79 | 2.1.79 |
 | [`system-reminder-bridge-repl-recreated-session.md`](../system-prompts/system-reminder-bridge-repl-recreated-session.md) | Indicates a session has been re-created. | 17 | 2.1.79 | 2.1.79 |
@@ -1564,17 +1862,11 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-fast-mode-off-pasted-text.md`](../system-prompts/system-reminder-fast-mode-off-pasted-text.md) | Indicates fast mode is disabled for pasted text. | 30 | 2.1.77 | 2.1.77 |
 | [`system-reminder-mcp-server.md`](../system-prompts/system-reminder-mcp-server.md) | Instructions for using MCP servers. | 30 | 2.1.77 | 2.1.77 |
 | [`system-reminder-speculation-denied-path-outside-cwd.md`](../system-prompts/system-reminder-speculation-denied-path-outside-cwd.md) | Indicates a denied speculation due to path issues. | 30 | 2.1.77 | 2.1.77 |
-| [`system-reminder-suppressing-plugin-mcp-duplicates.md`](../system-prompts/system-reminder-suppressing-plugin-mcp-duplicates.md) | Suppressing duplicates in MCP server. | 30 | 2.1.77 | 2.1.77 |
-| [`system-reminder-suppressing-plugin-mcp-server-duplicates.md`](../system-prompts/system-reminder-suppressing-plugin-mcp-server-duplicates.md) | Suppress duplicates in MCP server configuration. | 30 | 2.1.77 | 2.1.77 |
 | [`system-reminder-suspend-stdin-removing-listeners.md`](../system-prompts/system-reminder-suspend-stdin-removing-listeners.md) | Removing readable listeners from stdin. | 30 | 2.1.77 | 2.1.77 |
 | [`system-reminder-timeout-detected-load-failed.md`](../system-prompts/system-reminder-timeout-detected-load-failed.md) | Timeout detected for loading process. | 30 | 2.1.77 | 2.1.77 |
-| [`system-reminder-alt-screen-yoga-height-unknown.md`](../system-prompts/system-reminder-alt-screen-yoga-height-unknown.md) | Rendering issue with alternate screen in yoga. | 29 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-fanout-worktree.md`](../system-prompts/system-reminder-bridge-pointer-fanout-worktree.md) | Fanout found pointer in worktree. | 29 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-work-suppressed-stopwork.md`](../system-prompts/system-reminder-bridge-work-suppressed-stopwork.md) | Indicates suppressed stopWork for a bridge task. | 29 | 2.1.77 | 2.1.77 |
-| [`system-reminder-cleanup-session-teams-kill-pane.md`](../system-prompts/system-reminder-cleanup-session-teams-kill-pane.md) | Function to clean up session teams and kill pane. | 29 | 2.1.77 | 2.1.77 |
-| [`system-reminder-error-signal-stderr-stdio.md`](../system-prompts/system-reminder-error-signal-stderr-stdio.md) | Handling error signals and codes in output. | 29 | 2.1.77 | 2.1.77 |
 | [`system-reminder-fileindex-ignore-patterns-untracked.md`](../system-prompts/system-reminder-fileindex-ignore-patterns-untracked.md) | Applied ignore patterns to untracked files. | 29 | 2.1.77 | 2.1.77 |
-| [`system-reminder-itermbackend-split-failed-targeting-dead.md`](../system-prompts/system-reminder-itermbackend-split-failed-targeting-dead.md) | Handling split failure for a dead session. | 29 | 2.1.77 | 2.1.77 |
 | [`system-reminder-lsp-diagnostics-reset-all-state.md`](../system-prompts/system-reminder-lsp-diagnostics-reset-all-state.md) | Reset all LSP diagnostics state. | 29 | 2.1.77 | 2.1.77 |
 | [`system-reminder-node-extra-ca-certs-config.md`](../system-prompts/system-reminder-node-extra-ca-certs-config.md) | CA certs found in node configuration. | 29 | 2.1.77 | 2.1.77 |
 | [`system-reminder-swarm-select-pane.md`](../system-prompts/system-reminder-swarm-select-pane.md) | Select a pane in the Claude swarm. | 29 | 2.1.77 | 2.1.77 |
@@ -1584,55 +1876,35 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-failed-to-clear-plugin-settings.md`](../system-prompts/system-reminder-failed-to-clear-plugin-settings.md) | Error clearing plugin configuration settings. | 28 | 2.1.77 | 2.1.77 |
 | [`system-reminder-invalid-effort-file.md`](../system-prompts/system-reminder-invalid-effort-file.md) | Invalid effort specified for agent file. | 28 | 2.1.77 | 2.1.77 |
 | [`system-reminder-loaded-bundled-root-certs-2.md`](../system-prompts/system-reminder-loaded-bundled-root-certs-2.md) | Loaded bundled root certificates as base. | 28 | 2.1.77 | 2.1.77 |
-| [`system-reminder-mcpb-source-file-inaccessible.md`](../system-prompts/system-reminder-mcpb-source-file-inaccessible.md) | Indicates an inaccessible MCPB source file. | 28 | 2.1.77 | 2.1.77 |
-| [`system-reminder-package-manager-auto-updater-capping.md`](../system-prompts/system-reminder-package-manager-auto-updater-capping.md) | Capping update due to unknown max version. | 28 | 2.1.77 | 2.1.77 |
-| [`system-reminder-retry-remote-persistence-attempt.md`](../system-prompts/system-reminder-retry-remote-persistence-attempt.md) | Logs a failed remote persistence attempt and schedules a retry after a delay. | 28 | 2.1.77 | 2.1.77 |
 | [`system-reminder-seed-marketplace-not-found.md`](../system-prompts/system-reminder-seed-marketplace-not-found.md) | Skipping seed marketplace not found. | 28 | 2.1.77 | 2.1.77 |
 | [`system-reminder-appended-extra-ca-certs.md`](../system-prompts/system-reminder-appended-extra-ca-certs.md) | Extra certificates from NODE_EXTRA_CA_CERTS. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-worktrees-fanout.md`](../system-prompts/system-reminder-bridge-pointer-worktrees-fanout.md) | Skipping worktrees due to fanout cap exceeded. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-init-failed-2.md`](../system-prompts/system-reminder-bridge-repl-init-failed-2.md) | Initialization returned null due to failures. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-poll-failures.md`](../system-prompts/system-reminder-bridge-repl-poll-failures.md) | Exceeded poll failures in bridge repl. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-extract-bundled.md`](../system-prompts/system-reminder-failed-extract-bundled.md) | Error in extracting a bundled skill. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-agents-plugin-2.md`](../system-prompts/system-reminder-failed-load-agents-plugin-2.md) | Issue with loading agents from custom plugin path. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-commands-plugin-2.md`](../system-prompts/system-reminder-failed-load-commands-plugin-2.md) | Issue loading commands from custom plugin path. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-skills-plugin.md`](../system-prompts/system-reminder-failed-load-skills-plugin.md) | Error loading skills from custom plugin path. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hook-function-additional-context.md`](../system-prompts/system-reminder-hook-function-additional-context.md) | Defines a hook with a function and context length. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hook-pid-function-modified.md`](../system-prompts/system-reminder-hook-pid-function-modified.md) | Multiple prompts (2) | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-package-manager-auto-updater-skip-update.md`](../system-prompts/system-reminder-package-manager-auto-updater-skip-update.md) | Current version is already at or above maximum version. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-check.md`](../system-prompts/system-reminder-scheduled-tasks-check.md) | Check if scheduler is enabled and has tasks. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-remove-orphaned-cron.md`](../system-prompts/system-reminder-scheduled-tasks-remove-orphaned-cron.md) | Removing orphaned cron tasks for a gone teammate. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-scheduler-start.md`](../system-prompts/system-reminder-scheduled-tasks-scheduler-start.md) | Starts the scheduler with specified directory and tasks. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-skipping-invalid-cron.md`](../system-prompts/system-reminder-scheduled-tasks-skipping-invalid-cron.md) | Skipping task due to invalid cron expression. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduler-lock-held-by-session.md`](../system-prompts/system-reminder-scheduler-lock-held-by-session.md) | Indicates a scheduler lock is held by a session. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-stdio-pid-anthropic-ai.md`](../system-prompts/system-reminder-stdio-pid-anthropic-ai.md) | Reference for stdio and PID usage. | 27 | 2.1.77 | 2.1.77 |
-| [`system-reminder-teleport-fetched-global-events.md`](../system-prompts/system-reminder-teleport-fetched-global-events.md) | Fetched events over global pages. | 27 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-ccr-createv-repltransport.md`](../system-prompts/system-reminder-bridge-repl-ccr-createv-repltransport.md) | Error in creating V2 repl transport. | 26 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-ccr-error.md`](../system-prompts/system-reminder-bridge-repl-ccr-error.md) | Error encountered during epoch-mismatch cleanup. | 26 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cleanup-session-teams-orphan-dirs.md`](../system-prompts/system-reminder-cleanup-session-teams-orphan-dirs.md) | Removing orphan team directories. | 26 | 2.1.77 | 2.1.77 |
-| [`system-reminder-cloning-repository-timeout-globals.md`](../system-prompts/system-reminder-cloning-repository-timeout-globals.md) | Cloning a repository with timeout settings. | 26 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-inline-content.md`](../system-prompts/system-reminder-failed-load-inline-content.md) | Error loading inline content command from plugin. | 26 | 2.1.77 | 2.1.77 |
 | [`system-reminder-teammate-removed-hidden-panes.md`](../system-prompts/system-reminder-teammate-removed-hidden-panes.md) | TeammateTool has removed items from hidden panes. | 26 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-active.md`](../system-prompts/system-reminder-auto-mode-active.md) | Execute autonomously with minimal interruptions. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-autocompact-circuit-breaker-tripped.md`](../system-prompts/system-reminder-autocompact-circuit-breaker-tripped.md) | Circuit breaker tripped after consecutive failures. | 25 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-repl-ignoring-inbound.md`](../system-prompts/system-reminder-bridge-repl-ignoring-inbound.md) | Ignoring re-delivered inbound messages. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-work-starting-poll-loop.md`](../system-prompts/system-reminder-bridge-work-starting-poll-loop.md) | Initiate the polling loop for the bridge work. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ccrclient-read-internal-events.md`](../system-prompts/system-reminder-ccrclient-read-internal-events.md) | Read internal events from subagents. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cleanup-stale-worktrees.md`](../system-prompts/system-reminder-cleanup-stale-worktrees.md) | Removes stale worktrees from the agent. | 25 | 2.1.77 | 2.1.77 |
-| [`system-reminder-downloaded-files-duration.md`](../system-prompts/system-reminder-downloaded-files-duration.md) | Reports number of files downloaded and total time taken. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-git-official-marketplace-auto-install.md`](../system-prompts/system-reminder-git-official-marketplace-auto-install.md) | Issue with git as a non-functional macOS xcrun shim. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hooks-env-var-skipping.md`](../system-prompts/system-reminder-hooks-env-var-skipping.md) | Skipping interpolation for disallowed environment variable. | 25 | 2.1.77 | 2.1.77 |
-| [`system-reminder-lsp-recommendation-skipping-stdio.md`](../system-prompts/system-reminder-lsp-recommendation-skipping-stdio.md) | Skipping stdio due to binary not found. | 25 | 2.1.77 | 2.1.77 |
-| [`system-reminder-package-manager-update-failed.md`](../system-prompts/system-reminder-package-manager-update-failed.md) | Update failed to load for package manager. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-control-request.md`](../system-prompts/system-reminder-remote-bridge-control-request.md) | Dropping control request during recovery. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-shallow-fetch-failed-git.md`](../system-prompts/system-reminder-shallow-fetch-failed-git.md) | Fallback to unshallow fetch due to failure. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-speculation-write-expressions.md`](../system-prompts/system-reminder-speculation-write-expressions.md) | Write expressions based on speculation. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-stdin-resume-called-no-listeners.md`](../system-prompts/system-reminder-stdin-resume-called-no-listeners.md) | Resume stdin called without stored listeners. | 25 | 2.1.77 | 2.1.77 |
 | [`system-reminder-teammate-hidden-panes.md`](../system-prompts/system-reminder-teammate-hidden-panes.md) | New item added to team's hidden panes. | 25 | 2.1.77 | 2.1.77 |
-| [`system-reminder-anthropic-actions-blocked-session.md`](../system-prompts/system-reminder-anthropic-actions-blocked-session.md) | Review the transcript before continuing. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-env-less-path.md`](../system-prompts/system-reminder-bridge-repl-env-less-path.md) | Using env-less bridge path for REPL. | 24 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-session-timed-out.md`](../system-prompts/system-reminder-bridge-session-timed-out.md) | Session has timed out after specified duration. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ca-certs-usesystemca-extracertspath.md`](../system-prompts/system-reminder-ca-certs-usesystemca-extracertspath.md) | Configuration for CA certificates and paths. | 24 | 2.1.77 | 2.1.77 |
-| [`system-reminder-checking-commandpath-stdio.md`](../system-prompts/system-reminder-checking-commandpath-stdio.md) | Check if commandPath stdio is a directory or file. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-handle-spawn-backend-fallback.md`](../system-prompts/system-reminder-handle-spawn-backend-fallback.md) | Fallback to in-process due to no backend available. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-post-via-sandbox.md`](../system-prompts/system-reminder-http-hook-post-via-sandbox.md) | HTTP hook POST configuration via sandbox proxy. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-install-plugins-failed-marketplace.md`](../system-prompts/system-reminder-install-plugins-failed-marketplace.md) | Failed to install plugins from the marketplace. | 24 | 2.1.77 | 2.1.77 |
@@ -1640,33 +1912,26 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-local-scope-memory-guidance.md`](../system-prompts/system-reminder-local-scope-memory-guidance.md) | Guidance to keep memories specific to this machine and project. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-project-scope-memory-guidance.md`](../system-prompts/system-reminder-project-scope-memory-guidance.md) | Guidance to keep memories tailored to the shared project. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-sandbox-blocked-network-request.md`](../system-prompts/system-reminder-sandbox-blocked-network-request.md) | Blocked network request in sandbox environment. | 24 | 2.1.77 | 2.1.77 |
-| [`system-reminder-team-memory-sync-uploaded-entries.md`](../system-prompts/system-reminder-team-memory-sync-uploaded-entries.md) | Uploaded entries for team memory sync. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-teammate-mailbox-failed-inbox-creation.md`](../system-prompts/system-reminder-teammate-mailbox-failed-inbox-creation.md) | Failed to create inbox file for teammate mailbox. | 24 | 2.1.77 | 2.1.77 |
 | [`system-reminder-acknowledge-failed-workid.md`](../system-prompts/system-reminder-acknowledge-failed-workid.md) | Acknowledge a failed work ID in the bridge repl. | 23 | 2.1.77 | 2.1.77 |
-| [`system-reminder-asciicast-failed-rename-recording.md`](../system-prompts/system-reminder-asciicast-failed-rename-recording.md) | Failed to rename an asciicast recording. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-disabled-tengu-config.md`](../system-prompts/system-reminder-auto-mode-disabled-tengu-config.md) | Auto mode is currently disabled in Tengu configuration. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-hook-consecutive-failures.md`](../system-prompts/system-reminder-bridge-repl-hook-consecutive-failures.md) | Handles consecutive init failures without retrying. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-poll-loop-recovered-2.md`](../system-prompts/system-reminder-bridge-repl-poll-loop-recovered-2.md) | Poll loop recovered during bridge environment registration. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ca-api-unavailable.md`](../system-prompts/system-reminder-ca-api-unavailable.md) | Deferring to runtime due to unavailable system CA API. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-core-ssh-command-batch-mode.md`](../system-prompts/system-reminder-core-ssh-command-batch-mode.md) | SSH command configuration for batch mode. | 23 | 2.1.77 | 2.1.77 |
-| [`system-reminder-fetch-org-fast-mode-failed.md`](../system-prompts/system-reminder-fetch-org-fast-mode-failed.md) | Failed to retrieve organization fast mode status. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hook-approved-deny-rule.md`](../system-prompts/system-reminder-hook-approved-deny-rule.md) | Approved tool use is overridden by deny rule. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-blocked-match-error.md`](../system-prompts/system-reminder-http-hook-blocked-match-error.md) | Indicates a blocked HTTP hook due to a pattern mismatch. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ignoring-dangerous-permission.md`](../system-prompts/system-reminder-ignoring-dangerous-permission.md) | Ignoring dangerous permissions that bypass classifiers. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-loaded-ca-certs.md`](../system-prompts/system-reminder-loaded-ca-certs.md) | Loaded system CA certificates. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-mcp-servers-disconnected.md`](../system-prompts/system-reminder-mcp-servers-disconnected.md) | List of disconnected MCP servers. | 23 | 2.1.77 | 2.1.77 |
-| [`system-reminder-mcpb-extraction-path-inaccessible.md`](../system-prompts/system-reminder-mcpb-extraction-path-inaccessible.md) | MCPB extraction path is currently inaccessible. | 23 | 2.1.77 | 2.1.77 |
-| [`system-reminder-nova-gate-enabled-voice-stream.md`](../system-prompts/system-reminder-nova-gate-enabled-voice-stream.md) | Voice stream for Nova gate is enabled. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-resolved-bytes-output.md`](../system-prompts/system-reminder-resolved-bytes-output.md) | Output format for resolved expressions with byte count. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-missed-one-shot.md`](../system-prompts/system-reminder-scheduled-tasks-missed-one-shot.md) | Missed one-shot scheduled tasks surfaced. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skip-bytes-exceeds-limit.md`](../system-prompts/system-reminder-skip-bytes-exceeds-limit.md) | Indicates bytes exceed the specified limit. | 23 | 2.1.77 | 2.1.77 |
-| [`system-reminder-stop-hook-blocking-error.md`](../system-prompts/system-reminder-stop-hook-blocking-error.md) | Handle command blocking errors effectively. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-teamsdialog-skipping-pane-kill.md`](../system-prompts/system-reminder-teamsdialog-skipping-pane-kill.md) | Skipping pane kill due to missing backend type. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-upload-failed-status-body.md`](../system-prompts/system-reminder-upload-failed-status-body.md) | Indicates an upload failure with status and body details. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-uploaded-file-size.md`](../system-prompts/system-reminder-uploaded-file-size.md) | Indicates uploaded file size in bytes. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-websocket-transport-tick-gap-detected.md`](../system-prompts/system-reminder-websocket-transport-tick-gap-detected.md) | Detected a tick gap in WebSocket transport. | 23 | 2.1.77 | 2.1.77 |
 | [`system-reminder-acknowledge-failed-work.md`](../system-prompts/system-reminder-acknowledge-failed-work.md) | Acknowledge a failed work ID. | 22 | 2.1.77 | 2.1.77 |
-| [`system-reminder-asciicast-renamed-recording.md`](../system-prompts/system-reminder-asciicast-renamed-recording.md) | Renames an asciicast recording. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-credentials-expiration.md`](../system-prompts/system-reminder-bridge-credentials-expiration.md) | Fetched bridge credentials with expiration time. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-stale-clearing.md`](../system-prompts/system-reminder-bridge-pointer-stale-clearing.md) | Clearing stale bridge pointer data. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-drained-pending-message.md`](../system-prompts/system-reminder-bridge-repl-drained-pending-message.md) | Drained pending messages after flush. | 22 | 2.1.77 | 2.1.77 |
@@ -1674,103 +1939,69 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-bridge-repl-queued-message.md`](../system-prompts/system-reminder-bridge-repl-queued-message.md) | Queued messages during initial flush. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-work-suppressed-error.md`](../system-prompts/system-reminder-bridge-work-suppressed-error.md) | Notification of suppressed errors in bridge work. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ca-certs-config-fallback.md`](../system-prompts/system-reminder-ca-certs-config-fallback.md) | Global and settings environment keys are not set. | 22 | 2.1.77 | 2.1.77 |
-| [`system-reminder-heapdump-written-anthropic.md`](../system-prompts/system-reminder-heapdump-written-anthropic.md) | Heap dump saved to specified path. | 22 | 2.1.77 | 2.1.77 |
-| [`system-reminder-mcp-config-read-error.md`](../system-prompts/system-reminder-mcp-config-read-error.md) | Error reading MCP config in global scope. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-mcp-config-validation-errors.md`](../system-prompts/system-reminder-mcp-config-validation-errors.md) | Validation of MCP config failed with errors. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-drained-queued-messages.md`](../system-prompts/system-reminder-remote-bridge-drained-queued-messages.md) | Indicates drained queued messages after a flush. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-repl-mount-disabled-failed.md`](../system-prompts/system-reminder-repl-mount-disabled-failed.md) | REPL mount failed to load. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssetransport-unexpected-event-type.md`](../system-prompts/system-reminder-ssetransport-unexpected-event-type.md) | Unexpected SSE event type on worker stream. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-summary-result-output.md`](../system-prompts/system-reminder-summary-result-output.md) | Outputs the computed summary result. | 22 | 2.1.77 | 2.1.77 |
-| [`system-reminder-team-memory-sync-skipping-detected.md`](../system-prompts/system-reminder-team-memory-sync-skipping-detected.md) | Notification of memory sync skipping due to detection. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-user-requested-reasoning-effort.md`](../system-prompts/system-reminder-user-requested-reasoning-effort.md) | Apply the user's requested reasoning effort level. | 22 | 2.1.77 | 2.1.77 |
 | [`system-reminder-backendregistry-inprocess-enabled-fallback.md`](../system-prompts/system-reminder-backendregistry-inprocess-enabled-fallback.md) | Backend registry process is enabled with fallback. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-cannot-drain-pending.md`](../system-prompts/system-reminder-bridge-repl-cannot-drain-pending.md) | Error related to draining pending messages. | 21 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-repl-ignore-echo.md`](../system-prompts/system-reminder-bridge-repl-ignore-echo.md) | Ignoring echo in the bridge repl. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-stopwork-after-init.md`](../system-prompts/system-reminder-bridge-repl-stopwork-after-init.md) | Handle stopWork after initialization failure. | 21 | 2.1.77 | 2.1.77 |
-| [`system-reminder-created-worktree-stdio-branch.md`](../system-prompts/system-reminder-created-worktree-stdio-branch.md) | Worktree created on specified branch. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ensure-memory-dir-failed.md`](../system-prompts/system-reminder-ensure-memory-dir-failed.md) | Memory directory existence check failed. | 21 | 2.1.77 | 2.1.77 |
-| [`system-reminder-heapdump-diagnostics-written.md`](../system-prompts/system-reminder-heapdump-diagnostics-written.md) | Diagnostics written for the specified PID. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-response-status.md`](../system-prompts/system-reminder-http-hook-response-status.md) | Check HTTP hook response status and body length. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hydrated-subagent-entries.md`](../system-prompts/system-reminder-hydrated-subagent-entries.md) | Manage hydrated subagent entries across agents. | 21 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-agents-from-plugin-path.md`](../system-prompts/system-reminder-loaded-agents-from-plugin-path.md) | Loaded agents from a custom plugin path. | 21 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-commands-from-plugin.md`](../system-prompts/system-reminder-loaded-commands-from-plugin.md) | Loaded commands from a custom plugin path. | 21 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-skills-from-plugin.md`](../system-prompts/system-reminder-loaded-skills-from-plugin.md) | Skills loaded from a custom plugin path. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-recovering-stale-scheduler-lock.md`](../system-prompts/system-reminder-recovering-stale-scheduler-lock.md) | Recover stale scheduler lock from a specific PID. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-resumed-worktree-fallback.md`](../system-prompts/system-reminder-resumed-worktree-fallback.md) | Fallback to parent cwd due to missing worktree. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skipping-auto-mode-classifier.md`](../system-prompts/system-reminder-skipping-auto-mode-classifier.md) | Skipping classifier in acceptEdits mode. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-upload-failed.md`](../system-prompts/system-reminder-team-memory-sync-upload-failed.md) | Notification of upload failure for team memory sync. | 21 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-ccr-initialize-failed.md`](../system-prompts/system-reminder-bridge-repl-ccr-initialize-failed.md) | Error initializing CCR v2 in bridge REPL. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-repl-ingress-message-type.md`](../system-prompts/system-reminder-bridge-repl-ingress-message-type.md) | Ingress message type for bridge repl. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-poll-recovered.md`](../system-prompts/system-reminder-bridge-repl-poll-recovered.md) | Poll recovered after consecutive errors. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-session-fetch-failed-2.md`](../system-prompts/system-reminder-bridge-session-fetch-failed-2.md) | Indicates a failed session fetch status. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-shutdown-cleaning-worktree.md`](../system-prompts/system-reminder-bridge-shutdown-cleaning-worktree.md) | Cleaning up worktrees during bridge shutdown. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-deferred-tools-available-now.md`](../system-prompts/system-reminder-deferred-tools-available-now.md) | List of now available deferred tools. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-elicitation-response-server.md`](../system-prompts/system-reminder-elicitation-response-server.md) | Multiple prompts (2) | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-copy-worktree.md`](../system-prompts/system-reminder-failed-copy-worktree.md) | Error in copying to worktree. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-lsp-servers.md`](../system-prompts/system-reminder-failed-load-lsp-servers.md) | Error loading LSP servers for the specified plugin. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-fileindex-background-fetch-failed.md`](../system-prompts/system-reminder-fileindex-background-fetch-failed.md) | Background fetch failed with untracked errors. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-handle-spawn-in-process-execution.md`](../system-prompts/system-reminder-handle-spawn-in-process-execution.md) | Agent execution started with errors. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hooks-check-for-async-responses.md`](../system-prompts/system-reminder-hooks-check-for-async-responses.md) | Handles rejected async hook responses. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hooks-json-parse-failed.md`](../system-prompts/system-reminder-hooks-json-parse-failed.md) | logs failure parsing JSON from an expression. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-must-return-json.md`](../system-prompts/system-reminder-http-hook-must-return-json.md) | HTTP hook requires a JSON response. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-post-via-proxy.md`](../system-prompts/system-reminder-http-hook-post-via-proxy.md) | HTTP hook POST configuration using a proxy. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hydrated-foreground-entries-ccr-internal.md`](../system-prompts/system-reminder-hydrated-foreground-entries-ccr-internal.md) | Hydrated foreground entries from CCR internal events. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-invalid-mcp-server-config-stdio.md`](../system-prompts/system-reminder-invalid-mcp-server-config-stdio.md) | Error in MCP server configuration for stdio. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-command-from-plugin.md`](../system-prompts/system-reminder-loaded-command-from-plugin.md) | Loaded command from a custom plugin file. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-loaded-hooks-standard-location.md`](../system-prompts/system-reminder-loaded-hooks-standard-location.md) | Reports hooks loaded from a plugin standard location. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-lsp-manager-old-instance-shutdown.md`](../system-prompts/system-reminder-lsp-manager-old-instance-shutdown.md) | Old LSP manager instance shutdown during reinitialization. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-lsp-recommendation-binary-found.md`](../system-prompts/system-reminder-lsp-recommendation-binary-found.md) | Binary found for stdio in lsp recommendation. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-mcp-server-confirmed-elicitation-complete.md`](../system-prompts/system-reminder-mcp-server-confirmed-elicitation-complete.md) | Multiple prompts (2) | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-no-use-blocks-found.md`](../system-prompts/system-reminder-no-use-blocks-found.md) | No tool use blocks detected in the assistant message. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-output-tokens-turn-session.md`](../system-prompts/system-reminder-output-tokens-turn-session.md) | Tracks output tokens per turn in a session. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-queued-message.md`](../system-prompts/system-reminder-remote-bridge-queued-message.md) | Queued messages during remote bridge flush. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-recovery-failed.md`](../system-prompts/system-reminder-remote-bridge-recovery-failed.md) | Notification of recovery failure for remote bridge. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skipping-auto-mode-classifier-2.md`](../system-prompts/system-reminder-skipping-auto-mode-classifier-2.md) | Skipping classifier due to safe allowlist. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-source-already-materialized-skipping.md`](../system-prompts/system-reminder-source-already-materialized-skipping.md) | Indicates source is already present and cloning is skipped. | 20 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-conflict.md`](../system-prompts/system-reminder-team-memory-sync-conflict.md) | Conflict in team memory synchronization. | 20 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-stdio-retry-after.md`](../system-prompts/system-reminder-bridge-api-stdio-retry-after.md) | Retry after refresh with specified number. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-poll-loop-recovered.md`](../system-prompts/system-reminder-bridge-repl-poll-loop-recovered.md) | Poll loop recovered during stopWork await. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-stopwork-heartbeat.md`](../system-prompts/system-reminder-bridge-repl-stopwork-heartbeat.md) | Stop work after heartbeat failure. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-clear-plugin-cache-invalidation.md`](../system-prompts/system-reminder-clear-plugin-cache-invalidation.md) | Invalidates the loadAllPlugins cache. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-corrupted-config-backup-anthropic.md`](../system-prompts/system-reminder-corrupted-config-backup-anthropic.md) | Backup of corrupted config stored at specified path. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-stating-orphaned-marker.md`](../system-prompts/system-reminder-failed-stating-orphaned-marker.md) | Error indicating a failed stat on an orphaned marker. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-to-read-zip-file.md`](../system-prompts/system-reminder-failed-to-read-zip-file.md) | Error reading zip file from stdio. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hook-pid-function-prevent-continuation.md`](../system-prompts/system-reminder-hook-pid-function-prevent-continuation.md) | Request to prevent continuation for a specific hook. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hook-pid-function-replaced-mcp.md`](../system-prompts/system-reminder-hook-pid-function-replaced-mcp.md) | Function replaces MCP tool output for the given PID. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hybrid-transport-post-retryable.md`](../system-prompts/system-reminder-hybrid-transport-post-retryable.md) | Indicates a retryable POST response. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-itermbackend-subsequent-split.md`](../system-prompts/system-reminder-itermbackend-subsequent-split.md) | Notify about a split from a teammate session. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-inline-content-command-2.md`](../system-prompts/system-reminder-loaded-inline-content-command-2.md) | Loaded content command from a specified plugin. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-marketplace-refresh-failed-2.md`](../system-prompts/system-reminder-marketplace-refresh-failed-2.md) | Marketplace refresh failed with HTTPS. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-control-request-2.md`](../system-prompts/system-reminder-remote-bridge-control-request-2.md) | Sent control request for remote bridge. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-acquired-lock.md`](../system-prompts/system-reminder-scheduled-tasks-acquired-lock.md) | Indicates scheduler lock acquisition with PID. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-seed-cache-stdio.md`](../system-prompts/system-reminder-seed-cache-stdio.md) | Using seed cache with stdio. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skipping-malformed-scheduled-task.md`](../system-prompts/system-reminder-skipping-malformed-scheduled-task.md) | Skipping a malformed scheduled task. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssetransport-failed-parse-client-event.md`](../system-prompts/system-reminder-ssetransport-failed-parse-client-event.md) | Error in parsing client event data. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssh-clone-failed-retrying-https.md`](../system-prompts/system-reminder-ssh-clone-failed-retrying-https.md) | SSH clone failed, attempting HTTPS instead. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssh-not-configured-cloning-https.md`](../system-prompts/system-reminder-ssh-not-configured-cloning-https.md) | SSH configuration is required for cloning. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-statusline-completed-status.md`](../system-prompts/system-reminder-statusline-completed-status.md) | Indicates completion status of a task. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-team-memory-sync-anthropic.md`](../system-prompts/system-reminder-team-memory-sync-anthropic.md) | Sync team memory with Anthropics files. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-fetched-successfully.md`](../system-prompts/system-reminder-team-memory-sync-fetched-successfully.md) | Memory sync for the team was successful. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-retry.md`](../system-prompts/system-reminder-team-memory-sync-retry.md) | Retry syncing team memory. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-teammate-mailbox-inbox-directory.md`](../system-prompts/system-reminder-teammate-mailbox-inbox-directory.md) | Ensured inbox directory for teammate mailbox. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-toautoclassifierinput-failed.md`](../system-prompts/system-reminder-toautoclassifierinput-failed.md) | Indicates a failure in the auto classifier input. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-user-scope-memory-guidance.md`](../system-prompts/system-reminder-user-scope-memory-guidance.md) | Guidance to keep memories general across projects. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-using-pre-resolved-git-sha.md`](../system-prompts/system-reminder-using-pre-resolved-git-sha.md) | Utilizing a pre-resolved git SHA. | 19 | 2.1.77 | 2.1.77 |
-| [`system-reminder-value-parsed-stdio-anthropic.md`](../system-prompts/system-reminder-value-parsed-stdio-anthropic.md) | Value can be parsed as stdio or anthropic path. | 19 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-refreshing-plugins-after-installation.md`](../system-prompts/system-reminder-auto-refreshing-plugins-after-installation.md) | Auto-refresh plugins after new installations. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-stdio-refresh-handler.md`](../system-prompts/system-reminder-bridge-api-stdio-refresh-handler.md) | Received stdio data without a refresh handler. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-stdio-token-refresh.md`](../system-prompts/system-reminder-bridge-api-stdio-token-refresh.md) | Attempting token refresh for received stdio data. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-allow-remote-control.md`](../system-prompts/system-reminder-bridge-repl-allow-remote-control.md) | Skipping remote control policy not allowed. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-keep-alive-write-failed.md`](../system-prompts/system-reminder-bridge-repl-keep-alive-write-failed.md) | Error in keeping the bridge repl alive. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-reconnect-failed-2.md`](../system-prompts/system-reminder-bridge-repl-reconnect-failed-2.md) | Failed to reconnect environment with session. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-classifier-denial-limit-exceeded.md`](../system-prompts/system-reminder-classifier-denial-limit-exceeded.md) | Fallback to prompting due to classifier limits. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-clipboard-image-not-found.md`](../system-prompts/system-reminder-clipboard-image-not-found.md) | Multiple prompts (2) | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-dropping-echoed-user-message.md`](../system-prompts/system-reminder-dropping-echoed-user-message.md) | Handles dropping echoed messages in remote sessions. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-enterprise-mcp-config-errors.md`](../system-prompts/system-reminder-enterprise-mcp-config-errors.md) | Identifying errors in enterprise MCP configuration. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-hooks-error-parsing-json.md`](../system-prompts/system-reminder-hooks-error-parsing-json.md) | Error encountered while parsing JSON response. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-http-hook-error-anthropic.md`](../system-prompts/system-reminder-http-hook-error-anthropic.md) | Error related to HTTP hooks for Anthropic. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hybridtransport-post-returned.md`](../system-prompts/system-reminder-hybridtransport-post-returned.md) | Handling permanent return of hybrid transport post. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-itermbackend-teammate-pane-global.md`](../system-prompts/system-reminder-itermbackend-teammate-pane-global.md) | Created a global teammate pane in ITermBackend. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-loaded-bundled-root-certs.md`](../system-prompts/system-reminder-loaded-bundled-root-certs.md) | Loaded bundled root certificates successfully. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-malformed-updated-permissions-ignored.md`](../system-prompts/system-reminder-malformed-updated-permissions-ignored.md) | Ignored malformed updated permissions from SDK host. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-onsubmit-early-return-suggestions.md`](../system-prompts/system-reminder-onsubmit-early-return-suggestions.md) | Handle early return for showing suggestions. | 18 | 2.1.77 | 2.1.77 |
@@ -1782,40 +2013,29 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-remote-bridge-transport-epoch.md`](../system-prompts/system-reminder-remote-bridge-transport-epoch.md) | Transport created for remote bridge in specified epoch. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-transport-setup-failed.md`](../system-prompts/system-reminder-remote-bridge-transport-setup-failed.md) | Transport setup for remote bridge has failed. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-stderr-exit.md`](../system-prompts/system-reminder-remote-stderr-exit.md) | Handles remote stderr and exit expressions. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-retrying-after-delay.md`](../system-prompts/system-reminder-retrying-after-delay.md) | States an operation will be retried after a delay. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skipping-seed-managed-marketplace.md`](../system-prompts/system-reminder-skipping-seed-managed-marketplace.md) | Skipping bulk refresh for the specified marketplace. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skipping-startup-prefetches.md`](../system-prompts/system-reminder-skipping-startup-prefetches.md) | Indicates prefetches were skipped during startup. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-giving-up.md`](../system-prompts/system-reminder-team-memory-sync-giving-up.md) | Giving up after a set number of conflict retries. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-skipping-entry.md`](../system-prompts/system-reminder-team-memory-sync-skipping-entry.md) | Skipping oversized remote entry in team memory sync. | 18 | 2.1.77 | 2.1.77 |
 | [`system-reminder-voice-audio-capture-napi-loaded.md`](../system-prompts/system-reminder-voice-audio-capture-napi-loaded.md) | Indicates audio capture module loaded time. | 18 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-post-session-stdio.md`](../system-prompts/system-reminder-bridge-api-post-session-stdio.md) | Post session ID to the bridge API. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-acknowledging-workid.md`](../system-prompts/system-reminder-bridge-repl-acknowledging-workid.md) | Acknowledging a specific work ID. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-heartbeat-failed.md`](../system-prompts/system-reminder-bridge-repl-heartbeat-failed.md) | Indicates a failed heartbeat in the bridge repl. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cancelled-pending-deletion-file.md`](../system-prompts/system-reminder-cancelled-pending-deletion-file.md) | Cancelled deletion of a re-added file. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-chrome-failed-install.md`](../system-prompts/system-reminder-chrome-failed-install.md) | Failed to install manifest in Claude for Chrome. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-end-session-received-reason.md`](../system-prompts/system-reminder-end-session-received-reason.md) | Indicates the reason for ending a session. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-follow-symlink-stdio.md`](../system-prompts/system-reminder-failed-follow-symlink-stdio.md) | Error encountered while following symlink for stdio. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-mcp-servers-2.md`](../system-prompts/system-reminder-failed-load-mcp-servers-2.md) | Error loading MCP servers from specification. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-parse-legacy-manifest.md`](../system-prompts/system-reminder-failed-parse-legacy-manifest.md) | Error loading legacy manifest from stdio. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-filtering-out-unavailable.md`](../system-prompts/system-reminder-filtering-out-unavailable.md) | Filtering out unavailable tool references. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-git-submodule-update-failed.md`](../system-prompts/system-reminder-git-submodule-update-failed.md) | Non-fatal failure during git submodule update. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-handoff-classifier-flagged-sub.md`](../system-prompts/system-reminder-handoff-classifier-flagged-sub.md) | Output from flagged sub-agent for handoff classifier. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-valid-json.md`](../system-prompts/system-reminder-http-hook-valid-json.md) | Ensure HTTP hook returns valid JSON. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-invalidate-session-env-cache-after-hook.md`](../system-prompts/system-reminder-invalidate-session-env-cache-after-hook.md) | Invalidates the session env cache after a SessionStart hook completes. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-marketplace-exists-different-source.md`](../system-prompts/system-reminder-marketplace-exists-different-source.md) | Marketplace exists with a different source. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-mcp-config-errors.md`](../system-prompts/system-reminder-mcp-config-errors.md) | Identifying MCP configuration errors. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-permissionsync-failed-sandbox-request.md`](../system-prompts/system-reminder-permissionsync-failed-sandbox-request.md) | Failed to send sandbox permission request. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-plugin-blocked-managed-settings.md`](../system-prompts/system-reminder-plugin-blocked-managed-settings.md) | Plugin is blocked by managed settings. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-plugin-configuration-skipped.md`](../system-prompts/system-reminder-plugin-configuration-skipped.md) | Plugin enabled but configuration was skipped. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-refreshing-marketplace-cache.md`](../system-prompts/system-reminder-refreshing-marketplace-cache.md) | Refreshing the marketplace cache with global timeout settings. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-flushing-history-events.md`](../system-prompts/system-reminder-remote-bridge-flushing-history-events.md) | Flushing history events for remote bridge. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-sending-message.md`](../system-prompts/system-reminder-remote-bridge-sending-message.md) | Sending messages through a remote bridge. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-keep-alive-write-failed.md`](../system-prompts/system-reminder-remote-keep-alive-write-failed.md) | Error in remote keep alive write operation. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-firing-recurring.md`](../system-prompts/system-reminder-scheduled-tasks-firing-recurring.md) | Handles recurring scheduled tasks firing. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-watcher-initial-pull-failed.md`](../system-prompts/system-reminder-team-memory-watcher-initial-pull-failed.md) | Initial pull for team memory watcher encountered an error. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-watcher-initial-pull.md`](../system-prompts/system-reminder-team-memory-watcher-initial-pull.md) | Initial pull retrieved a set of files. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-teamsdialog-failed-kill-pane-global.md`](../system-prompts/system-reminder-teamsdialog-failed-kill-pane-global.md) | Error in killing global pane in TeamsDialog. | 17 | 2.1.77 | 2.1.77 |
-| [`system-reminder-teleport-session-not-found.md`](../system-prompts/system-reminder-teleport-session-not-found.md) | Indicates a missing teleport session. | 17 | 2.1.77 | 2.1.77 |
 | [`system-reminder-acknowledge-work-bridge.md`](../system-prompts/system-reminder-acknowledge-work-bridge.md) | Acknowledging a specific work ID. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-fallback.md`](../system-prompts/system-reminder-auto-mode-classifier-fallback.md) | Fallback to normal permission handling. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-disabled-support.md`](../system-prompts/system-reminder-auto-mode-disabled-support.md) | Model does not support auto mode. | 16 | 2.1.77 | 2.1.77 |
@@ -1828,14 +2048,9 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-dumped-auto-mode-classifier-error.md`](../system-prompts/system-reminder-dumped-auto-mode-classifier-error.md) | Auto mode classifier error prompts were dumped. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-error-hydrating-session-ccr.md`](../system-prompts/system-reminder-error-hydrating-session-ccr.md) | Error during session hydration from CCR v2. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-configure-hooks-path.md`](../system-prompts/system-reminder-failed-configure-hooks-path.md) | Error in configuring hooks path. | 16 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-agents-plugin.md`](../system-prompts/system-reminder-failed-load-agents-plugin.md) | Error loading agents from the default plugin directory. | 16 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-commands-plugin.md`](../system-prompts/system-reminder-failed-load-commands-plugin.md) | Error loading commands from the default plugin directory. | 16 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-skills-plugin-default.md`](../system-prompts/system-reminder-failed-load-skills-plugin-default.md) | Error loading skills from the default plugin directory. | 16 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-parse-manifest-global.md`](../system-prompts/system-reminder-failed-parse-manifest-global.md) | Error loading global manifest due to parsing issues. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-fetch-failed-status.md`](../system-prompts/system-reminder-fetch-failed-status.md) | Indicates a fetch operation failure with status. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hook-approved-use.md`](../system-prompts/system-reminder-hook-approved-use.md) | Approved tool use requires a prompt. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-install-plugins-for-headless.md`](../system-prompts/system-reminder-install-plugins-for-headless.md) | Install plugins from the marketplace. | 16 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-with-errors.md`](../system-prompts/system-reminder-loaded-with-errors.md) | Indicates that there are errors in the loaded data. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-plugin-dir-overrides-installed-version.md`](../system-prompts/system-reminder-plugin-dir-overrides-installed-version.md) | Plugin overrides the installed version from the directory. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-dropping-result.md`](../system-prompts/system-reminder-remote-bridge-dropping-result.md) | Dropping result during recovery. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remotesessionmanager-permission-request-cancelled.md`](../system-prompts/system-reminder-remotesessionmanager-permission-request-cancelled.md) | Indicates a cancelled permission request. | 16 | 2.1.77 | 2.1.77 |
@@ -1843,7 +2058,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-shell-snapshot-created-successfully.md`](../system-prompts/system-reminder-shell-snapshot-created-successfully.md) | Shell snapshot created and loaded with errors. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-sparse-checkout-reconcile-reclone.md`](../system-prompts/system-reminder-sparse-checkout-reconcile-reclone.md) | Re-cloning is needed for sparse checkout reconciliation. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssetransport-frame-data-event-field.md`](../system-prompts/system-reminder-ssetransport-frame-data-event-field.md) | Frame data is present but missing event field. | 16 | 2.1.77 | 2.1.77 |
-| [`system-reminder-successfully-cached-plugin.md`](../system-prompts/system-reminder-successfully-cached-plugin.md) | Indicates a plugin was cached successfully. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-remote-data.md`](../system-prompts/system-reminder-team-memory-sync-remote-data.md) | Sync issue with remote team memory data. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-watcher-github-sync.md`](../system-prompts/system-reminder-team-memory-watcher-github-sync.md) | Skipping sync due to no GitHub remote. | 16 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-watcher-push-error.md`](../system-prompts/system-reminder-team-memory-watcher-push-error.md) | Error in team memory watcher push operation. | 16 | 2.1.77 | 2.1.77 |
@@ -1860,28 +2074,19 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-deferred-tools-appear.md`](../system-prompts/system-reminder-deferred-tools-appear.md) | Deferred tools show up by name. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-elicitation-response-server-decline.md`](../system-prompts/system-reminder-elicitation-response-server-decline.md) | Declining the elicitation response for a server. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-error-getting-api-key.md`](../system-prompts/system-reminder-error-getting-api-key.md) | Issue retrieving API key from apiKeyHelper. | 15 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-access-stdio-pid.md`](../system-prompts/system-reminder-failed-access-stdio-pid.md) | Error accessing standard input/output for a process. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-clean-installation-errors.md`](../system-prompts/system-reminder-failed-clean-installation-errors.md) | Installation cleanup failed due to loaded errors. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hook-approved-bypass-permission.md`](../system-prompts/system-reminder-hook-approved-bypass-permission.md) | Enable tool use without permission prompts. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hybrid-transport-post-error.md`](../system-prompts/system-reminder-hybrid-transport-post-error.md) | Error encountered in hybrid transport POST request. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-hybridtransport-post-success-count.md`](../system-prompts/system-reminder-hybridtransport-post-success-count.md) | Tracks success count for HybridTransport POST. | 15 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loaded-from-plugin.md`](../system-prompts/system-reminder-loaded-from-plugin.md) | Agent loaded from a custom plugin file. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-metrics-opt-out-api-response-2.md`](../system-prompts/system-reminder-metrics-opt-out-api-response-2.md) | Enables metrics opt-out in API response. | 15 | 2.1.77 | 2.1.77 |
-| [`system-reminder-read-failed-error.md`](../system-prompts/system-reminder-read-failed-error.md) | Indicates a read failure with specific expressions. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-recovery-in-flight.md`](../system-prompts/system-reminder-remote-bridge-recovery-in-flight.md) | Recovery process is already underway. | 15 | 2.1.77 | 2.1.77 |
-| [`system-reminder-response-load-failure.md`](../system-prompts/system-reminder-response-load-failure.md) | Indicates a failed model response load. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-not-modified.md`](../system-prompts/system-reminder-team-memory-sync-not-modified.md) | Indicates team memory sync status. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-watcher-pushed-files.md`](../system-prompts/system-reminder-team-memory-watcher-pushed-files.md) | Tracks files pushed by the team memory watcher. | 15 | 2.1.77 | 2.1.77 |
-| [`system-reminder-upload-threw-expr.md`](../system-prompts/system-reminder-upload-threw-expr.md) | Handles upload errors for specific expressions. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-usesshsession-permission-request.md`](../system-prompts/system-reminder-usesshsession-permission-request.md) | Requesting permission for SSH session usage. | 15 | 2.1.77 | 2.1.77 |
-| [`system-reminder-yaml-frontmatter-parse-failure.md`](../system-prompts/system-reminder-yaml-frontmatter-parse-failure.md) | YAML frontmatter parsing failed in global context. | 15 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-circuit-breaker-active.md`](../system-prompts/system-reminder-auto-mode-circuit-breaker-active.md) | Auto mode circuit breaker is active. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-xml-error.md`](../system-prompts/system-reminder-auto-mode-classifier-xml-error.md) | Error related to auto mode classifier in XML. | 14 | 2.1.77 | 2.1.77 |
-| [`system-reminder-auto-refresh-failed-fallback.md`](../system-prompts/system-reminder-auto-refresh-failed-fallback.md) | Auto-refresh has failed and is reverting to needsRefresh. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-backendregistry-marking-fallback-active.md`](../system-prompts/system-reminder-backendregistry-marking-fallback-active.md) | Marking in-process fallback as active. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-background-plugin-installations-marketplaces.md`](../system-prompts/system-reminder-background-plugin-installations-marketplaces.md) | Install background plugins for reconciled marketplaces. | 14 | 2.1.77 | 2.1.77 |
-| [`system-reminder-base-directory-stdio.md`](../system-prompts/system-reminder-base-directory-stdio.md) | Defines the base directory for the skill. | 14 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-stdio-token-refreshed.md`](../system-prompts/system-reminder-bridge-api-stdio-token-refreshed.md) | Token refreshed and retrying request. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-clear-failed.md`](../system-prompts/system-reminder-bridge-pointer-clear-failed.md) | Indicates a failure in the bridge pointer operation. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-write-failed.md`](../system-prompts/system-reminder-bridge-pointer-write-failed.md) | Error indicating write operation failure. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-reconnect-aborted.md`](../system-prompts/system-reminder-bridge-repl-reconnect-aborted.md) | Reconnect process was aborted due to teardown. | 14 | 2.1.77 | 2.1.77 |
@@ -1893,7 +2098,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-handle-readable-stdin-listener-recovery.md`](../system-prompts/system-reminder-handle-readable-stdin-listener-recovery.md) | Re-attaching stdin readable listener after error. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-handoff-classifier-unavailable.md`](../system-prompts/system-reminder-handoff-classifier-unavailable.md) | Sub-agent output allowed with a warning. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-request-response.md`](../system-prompts/system-reminder-http-request-response.md) | Multiple prompts (2) | 14 | 2.1.77 | 2.1.77 |
-| [`system-reminder-loading-skillpath-stdio-plugin.md`](../system-prompts/system-reminder-loading-skillpath-stdio-plugin.md) | Loading process for a specified plugin. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-parsed-json-output-http-hook.md`](../system-prompts/system-reminder-parsed-json-output-http-hook.md) | Parsed JSON output from an HTTP hook. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-transport-rebuilt-2.md`](../system-prompts/system-reminder-remote-bridge-transport-rebuilt-2.md) | Transport rebuilt for remote bridge. | 14 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssh-process-exited-giving-up.md`](../system-prompts/system-reminder-ssh-process-exited-giving-up.md) | SSH session process has exited. | 14 | 2.1.77 | 2.1.77 |
@@ -1903,35 +2107,26 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-asciicast-recording.md`](../system-prompts/system-reminder-asciicast-recording.md) | Recording an asciicast to a specified location. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auth-success-reconnected-message.md`](../system-prompts/system-reminder-auth-success-reconnected-message.md) | Message confirming authentication succeeded and reconnection completed. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-refresh-failed-installations.md`](../system-prompts/system-reminder-auto-refresh-failed-installations.md) | Background plugin installations failed to auto-refresh. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-post.md`](../system-prompts/system-reminder-bridge-api-post.md) | Multiple prompts (8) | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-fetching-session.md`](../system-prompts/system-reminder-bridge-fetching-session.md) | Fetching a session from the bridge. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cached-capabilities.md`](../system-prompts/system-reminder-cached-capabilities.md) | Cached model capabilities for efficient access. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-expression-division.md`](../system-prompts/system-reminder-expression-division.md) | Calculating the division of two expressions. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-stdio.md`](../system-prompts/system-reminder-failed-load-stdio.md) | Error loading skill from standard input. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-read-session-file.md`](../system-prompts/system-reminder-failed-read-session-file.md) | Error reading unknown session file. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-readdir-versions-directory.md`](../system-prompts/system-reminder-failed-readdir-versions-directory.md) | Error reading versions directory. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-post.md`](../system-prompts/system-reminder-http-hook-post.md) | HTTP hook for POST requests. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-install-plugins-headless-no-marketplaces.md`](../system-prompts/system-reminder-install-plugins-headless-no-marketplaces.md) | No marketplaces declared for headless plugins. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-installing-marketplace-background.md`](../system-prompts/system-reminder-installing-marketplace-background.md) | Install marketplaces in the background. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-itermbackend-first-split-leader-session.md`](../system-prompts/system-reminder-itermbackend-first-split-leader-session.md) | First split from the leader session in iTermBackend. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-mcp-config-errors-global.md`](../system-prompts/system-reminder-mcp-config-errors-global.md) | MCP configuration errors for global settings. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-plugin-not-installed-project.md`](../system-prompts/system-reminder-plugin-not-installed-project.md) | Indicates a missing plugin in the project. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-protecting-locked-version-cleanup.md`](../system-prompts/system-reminder-protecting-locked-version-cleanup.md) | Ensuring locked version remains intact during cleanup. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-session-transcript-write-failed.md`](../system-prompts/system-reminder-session-transcript-write-failed.md) | Error in writing session transcript. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-skipped-gitignored-skills-dir.md`](../system-prompts/system-reminder-skipped-gitignored-skills-dir.md) | Skipped global skills directory due to gitignore. | 13 | 2.1.77 | 2.1.77 |
-| [`system-reminder-skipping-handler-registration-stdio.md`](../system-prompts/system-reminder-skipping-handler-registration-stdio.md) | Skipping handler registration for stdio. | 13 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-blocked.md`](../system-prompts/system-reminder-auto-mode-classifier-blocked.md) | Action blocked by auto mode classifier. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-cleared.md`](../system-prompts/system-reminder-bridge-pointer-cleared.md) | Cleared bridge pointer expression. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-pointer-wrote.md`](../system-prompts/system-reminder-bridge-pointer-wrote.md) | Code snippet for bridge pointer usage. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ccr-internal-event-reader.md`](../system-prompts/system-reminder-ccr-internal-event-reader.md) | CCR v2 internal event reader registered. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-extract-memories-running-extraction.md`](../system-prompts/system-reminder-extract-memories-running-extraction.md) | Running extraction for stashed context. | 12 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-load-stdio-2.md`](../system-prompts/system-reminder-failed-load-stdio-2.md) | Error loading agent from stdio. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-force-remove-lock-file.md`](../system-prompts/system-reminder-force-remove-lock-file.md) | Forcefully removed a lock file. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-headless-plugin-install-marketplaces.md`](../system-prompts/system-reminder-headless-plugin-install-marketplaces.md) | Install headless plugins for reconciled marketplaces. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-headless-plugin-install-seed-marketplaces.md`](../system-prompts/system-reminder-headless-plugin-install-seed-marketplaces.md) | Install headless plugins for registered marketplaces. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-no-internal-event-reader-registered.md`](../system-prompts/system-reminder-no-internal-event-reader-registered.md) | Missing internal event reader for CCR v2. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-transport-rebuilt.md`](../system-prompts/system-reminder-remote-bridge-transport-rebuilt.md) | Proactive refresh of remote bridge transport. | 12 | 2.1.77 | 2.1.77 |
-| [`system-reminder-removing-old-cached-version.md`](../system-prompts/system-reminder-removing-old-cached-version.md) | Remove outdated cached files. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-resolving-attachment-issues.md`](../system-prompts/system-reminder-resolving-attachment-issues.md) | Instructions for resolving attachment issues. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-run-apply-plugin-changes.md`](../system-prompts/system-reminder-run-apply-plugin-changes.md) | Run the specified path to apply changes. | 12 | 2.1.77 | 2.1.77 |
 | [`system-reminder-starting-background-startup-prefetches.md`](../system-prompts/system-reminder-starting-background-startup-prefetches.md) | Initiating background prefetching processes. | 12 | 2.1.77 | 2.1.77 |
@@ -1939,11 +2134,9 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-auto-mode-classifier-error.md`](../system-prompts/system-reminder-auto-mode-classifier-error.md) | Error in auto mode classifier. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-capabilities-cache-unchanged.md`](../system-prompts/system-reminder-capabilities-cache-unchanged.md) | Cache remains unchanged, skipping write operation. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-load-unknown.md`](../system-prompts/system-reminder-failed-load-unknown.md) | Error indicating a failed load with unknown cause. | 11 | 2.1.77 | 2.1.77 |
-| [`system-reminder-failed-save-marketplace-install.md`](../system-prompts/system-reminder-failed-save-marketplace-install.md) | Error saving auto-install failure state. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-write-file.md`](../system-prompts/system-reminder-failed-write-file.md) | Indicates a failure in writing a file. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-gcp-credentials-valid-skipping-auth.md`](../system-prompts/system-reminder-gcp-credentials-valid-skipping-auth.md) | GCP credentials are valid, skipping authentication refresh. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-generate-session-title-failed.md`](../system-prompts/system-reminder-generate-session-title-failed.md) | Indicates a failure in generating a session title. | 11 | 2.1.77 | 2.1.77 |
-| [`system-reminder-git-sha-global.md`](../system-prompts/system-reminder-git-sha-global.md) | Using git SHA in a global context. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-http-hook-empty-body.md`](../system-prompts/system-reminder-http-hook-empty-body.md) | Handling empty body as JSON object. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-image-file-empty-notification.md`](../system-prompts/system-reminder-image-file-empty-notification.md) | Notification for empty image file. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-image-source-citation.md`](../system-prompts/system-reminder-image-source-citation.md) | Template line indicating an image source URL or reference. | 11 | 2.1.77 | 2.1.77 |
@@ -1956,21 +2149,16 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-xml-declaration-start-only.md`](../system-prompts/system-reminder-xml-declaration-start-only.md) | XML declaration must be at the document's start. | 11 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-aborted.md`](../system-prompts/system-reminder-auto-mode-classifier-aborted.md) | User aborted the auto mode classifier. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-disabled-settings.md`](../system-prompts/system-reminder-auto-mode-disabled-settings.md) | Auto mode has been disabled in settings. | 10 | 2.1.77 | 2.1.77 |
-| [`system-reminder-bridge-api-stdio-token-refresh-failed.md`](../system-prompts/system-reminder-bridge-api-stdio-token-refresh-failed.md) | Token refresh operation encountered a failure. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-repl-keep-alive-sent.md`](../system-prompts/system-reminder-bridge-repl-keep-alive-sent.md) | Indicates keep alive message sent for bridge repl. | 10 | 2.1.77 | 2.1.77 |
-| [`system-reminder-cleaned-global-old-windows-executables.md`](../system-prompts/system-reminder-cleaned-global-old-windows-executables.md) | Cleaned up old Windows executables on startup. | 10 | 2.1.77 | 2.1.77 |
-| [`system-reminder-fetch-global-error-handling.md`](../system-prompts/system-reminder-fetch-global-error-handling.md) | Handling global errors in fetch operations. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-last-ran-time-ago.md`](../system-prompts/system-reminder-last-ran-time-ago.md) | Indicates when the last run occurred. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-missing-field.md`](../system-prompts/system-reminder-missing-field.md) | Required description field is missing in frontmatter. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-no-memories-saved.md`](../system-prompts/system-reminder-no-memories-saved.md) | No memories were saved in this run. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-refresh-active-plugins-clear-caches.md`](../system-prompts/system-reminder-refresh-active-plugins-clear-caches.md) | Clearing all plugin caches. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-control-response.md`](../system-prompts/system-reminder-remote-bridge-control-response.md) | Control response sent from remote bridge. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-transport-connected.md`](../system-prompts/system-reminder-remote-bridge-transport-connected.md) | Manage remote bridge transport connections. | 10 | 2.1.77 | 2.1.77 |
-| [`system-reminder-resuming-existing-worktree-stdio.md`](../system-prompts/system-reminder-resuming-existing-worktree-stdio.md) | Resuming the current worktree at stdio. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-scheduled-tasks-released-lock.md`](../system-prompts/system-reminder-scheduled-tasks-released-lock.md) | Indicates the scheduler lock has been released. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-settings-privacy-security-microphone.md`](../system-prompts/system-reminder-settings-privacy-security-microphone.md) | Access microphone settings for privacy and security. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-starting-voice-recording-session.md`](../system-prompts/system-reminder-starting-voice-recording-session.md) | Initiating the voice recording process. | 10 | 2.1.77 | 2.1.77 |
-| [`system-reminder-write-failed-global.md`](../system-prompts/system-reminder-write-failed-global.md) | Error indicating a global write failure. | 10 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-no-block.md`](../system-prompts/system-reminder-auto-mode-classifier-no-block.md) | Auto mode classifier is active without restrictions. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bridge-access-token-session-fetch.md`](../system-prompts/system-reminder-bridge-access-token-session-fetch.md) | Missing access token for session fetch. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-capabilities-fetch-failed.md`](../system-prompts/system-reminder-capabilities-fetch-failed.md) | Error fetching model capabilities due to unknown issue. | 9 | 2.1.77 | 2.1.77 |
@@ -1981,19 +2169,15 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-no-org-uuid-session-fetch.md`](../system-prompts/system-reminder-no-org-uuid-session-fetch.md) | Missing org UUID for session fetch. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-preaction-plugin-dir-inline.md`](../system-prompts/system-reminder-preaction-plugin-dir-inline.md) | Sets the plugin directory for inline plugins. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-keep-alive-sent.md`](../system-prompts/system-reminder-remote-keep-alive-sent.md) | Notification of keep-alive signal sent. | 9 | 2.1.77 | 2.1.77 |
-| [`system-reminder-session-initial-transcript-write-failed.md`](../system-prompts/system-reminder-session-initial-transcript-write-failed.md) | Error in writing initial session transcript. | 9 | 2.1.77 | 2.1.77 |
-| [`system-reminder-shell-snapshot-file-not-found.md`](../system-prompts/system-reminder-shell-snapshot-file-not-found.md) | Error indicating missing shell snapshot file. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-skipping-session-invalid-timestamp.md`](../system-prompts/system-reminder-skipping-session-invalid-timestamp.md) | Skipping session due to an invalid timestamp. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-team-memory-sync-invalid-response.md`](../system-prompts/system-reminder-team-memory-sync-invalid-response.md) | Invalid response format for team memory sync. | 9 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-aborted-2.md`](../system-prompts/system-reminder-auto-mode-classifier-aborted-2.md) | User aborted the auto mode classifier. | 8 | 2.1.77 | 2.1.77 |
 | [`system-reminder-char-not-expected.md`](../system-prompts/system-reminder-char-not-expected.md) | Error indicating unexpected character. | 8 | 2.1.77 | 2.1.77 |
-| [`system-reminder-cleaned-old-staging-directory.md`](../system-prompts/system-reminder-cleaned-old-staging-directory.md) | Cleaned up the old staging directory. | 8 | 2.1.77 | 2.1.77 |
 | [`system-reminder-disabled-after-repeated-failures.md`](../system-prompts/system-reminder-disabled-after-repeated-failures.md) | Disabled due to multiple failures requiring a restart. | 8 | 2.1.77 | 2.1.77 |
 | [`system-reminder-load-buffer-command.md`](../system-prompts/system-reminder-load-buffer-command.md) | Command for managing load and buffer settings. | 8 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-oauth-token.md`](../system-prompts/system-reminder-remote-bridge-oauth-token.md) | No OAuth token for remote bridge. | 8 | 2.1.77 | 2.1.77 |
 | [`system-reminder-remote-bridge-sent-result.md`](../system-prompts/system-reminder-remote-bridge-sent-result.md) | Result sent via remote bridge. | 8 | 2.1.77 | 2.1.77 |
 | [`system-reminder-auto-mode-classifier-invalid-response.md`](../system-prompts/system-reminder-auto-mode-classifier-invalid-response.md) | Invalid response schema detected in auto mode. | 7 | 2.1.77 | 2.1.77 |
-| [`system-reminder-cleaned-session-snapshot-stdio.md`](../system-prompts/system-reminder-cleaned-session-snapshot-stdio.md) | Cleaned session snapshot for stdio. | 7 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cleared-mtls-configuration-cache.md`](../system-prompts/system-reminder-cleared-mtls-configuration-cache.md) | mTLS configuration cache has been cleared. | 7 | 2.1.77 | 2.1.77 |
 | [`system-reminder-failed-to-read-internal-events.md`](../system-prompts/system-reminder-failed-to-read-internal-events.md) | Error reading internal events for resume. | 7 | 2.1.77 | 2.1.77 |
 | [`system-reminder-settings-privacy-microphone.md`](../system-prompts/system-reminder-settings-privacy-microphone.md) | Access microphone settings for privacy. | 7 | 2.1.77 | 2.1.77 |
@@ -2004,12 +2188,10 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-multiple-root-nodes-found.md`](../system-prompts/system-reminder-multiple-root-nodes-found.md) | Identifies several potential root nodes. | 6 | 2.1.77 | 2.1.77 |
 | [`system-reminder-must-provide-valid-value.md`](../system-prompts/system-reminder-must-provide-valid-value.md) | Requirement to submit a valid value. | 6 | 2.1.77 | 2.1.77 |
 | [`system-reminder-ssh-session-failed-before-connecting.md`](../system-prompts/system-reminder-ssh-session-failed-before-connecting.md) | SSH session failed to connect. | 6 | 2.1.77 | 2.1.77 |
-| [`system-reminder-update-installation-status-stdio.md`](../system-prompts/system-reminder-update-installation-status-stdio.md) | Installation status update for stdio. | 6 | 2.1.77 | 2.1.77 |
 | [`system-reminder-audio-settings.md`](../system-prompts/system-reminder-audio-settings.md) | Reminder about audio settings in the system. | 5 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cleared-ca-certificates-cache.md`](../system-prompts/system-reminder-cleared-ca-certificates-cache.md) | Cleared the cache for CA certificates. | 5 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cleared-proxy-cache.md`](../system-prompts/system-reminder-cleared-proxy-cache.md) | Cleared the cache for the proxy agent. | 5 | 2.1.77 | 2.1.77 |
 | [`system-reminder-collecting-transcript-for-sharing.md`](../system-prompts/system-reminder-collecting-transcript-for-sharing.md) | Gathering transcripts for distribution. | 5 | 2.1.77 | 2.1.77 |
-| [`system-reminder-creating-snapshot-stdio.md`](../system-prompts/system-reminder-creating-snapshot-stdio.md) | Creating a snapshot at stdio. | 5 | 2.1.77 | 2.1.77 |
 | [`system-reminder-current-repository-not-detected.md`](../system-prompts/system-reminder-current-repository-not-detected.md) | Indicates that the current repository is not found. | 5 | 2.1.77 | 2.1.77 |
 | [`system-reminder-extra-text-at-the-end.md`](../system-prompts/system-reminder-extra-text-at-the-end.md) | Additional information provided at the conclusion. | 5 | 2.1.77 | 2.1.77 |
 | [`system-reminder-must-provide-value.md`](../system-prompts/system-reminder-must-provide-value.md) | Emphasizes the necessity of providing a value. | 5 | 2.1.77 | 2.1.77 |
@@ -2018,31 +2200,18 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-start-tag-expected.md`](../system-prompts/system-reminder-start-tag-expected.md) | Indicates a start tag is required. | 4 | 2.1.77 | 2.1.77 |
 | [`system-reminder-transcript-shared-successfully.md`](../system-prompts/system-reminder-transcript-shared-successfully.md) | Indicates successful sharing of a transcript. | 4 | 2.1.77 | 2.1.77 |
 | [`system-reminder-cli.md`](../system-prompts/system-reminder-cli.md) | Official CLI for Claude Code. | 28 | 2.1.59 | 2.1.59 |
-| [`system-reminder-permission-risk-logging.md`](../system-prompts/system-reminder-permission-risk-logging.md) | Logs permission risk with timing details. | 27 | 2.1.59 | 2.1.59 |
-| [`system-reminder-failed-auto-uninstall-plugin.md`](../system-prompts/system-reminder-failed-auto-uninstall-plugin.md) | Failed to auto-uninstall delisted plugin. | 26 | 2.1.59 | 2.1.59 |
 | [`system-reminder-created-zip-files-bytes.md`](../system-prompts/system-reminder-created-zip-files-bytes.md) | Created ZIP from files and bytes. | 24 | 2.1.59 | 2.1.59 |
-| [`system-reminder-permission-explainer-api-timing.md`](../system-prompts/system-reminder-permission-explainer-api-timing.md) | Records permission explainer API latency and returned stop reason value. | 24 | 2.1.59 | 2.1.59 |
-| [`system-reminder-queue-notification-until-connection-ready.md`](../system-prompts/system-reminder-queue-notification-until-connection-ready.md) | Queue notification handler until connection is ready for EXPR_1.EXPR_2 calls. | 23 | 2.1.59 | 2.1.59 |
-| [`system-reminder-queue-request-until-connection-ready.md`](../system-prompts/system-reminder-queue-request-until-connection-ready.md) | Queue request handler until connection is ready for EXPR_1.EXPR_2 calls. | 23 | 2.1.59 | 2.1.59 |
 | [`system-reminder-using-base-url-override.md`](../system-prompts/system-reminder-using-base-url-override.md) | Using VOICE_STREAM_BASE_URL override. | 23 | 2.1.59 | 2.1.59 |
-| [`system-reminder-fileindex-ignore-patterns-report.md`](../system-prompts/system-reminder-fileindex-ignore-patterns-report.md) | Report on applied ignore patterns and file counts. | 22 | 2.1.59 | 2.1.59 |
 | [`system-reminder-message-received-voice-stream.md`](../system-prompts/system-reminder-message-received-voice-stream.md) | Message received with character count. | 22 | 2.1.59 | 2.1.59 |
 | [`system-reminder-wsl-ide-lockfile-detection-failed.md`](../system-prompts/system-reminder-wsl-ide-lockfile-detection-failed.md) | WSL IDE lockfile path detection failed. | 22 | 2.1.59 | 2.1.59 |
 | [`system-reminder-dropping-audio-chunk-voice-stream.md`](../system-prompts/system-reminder-dropping-audio-chunk-voice-stream.md) | Dropping audio chunk after closing stream. | 21 | 2.1.59 | 2.1.59 |
-| [`system-reminder-resizing-to-pid.md`](../system-prompts/system-reminder-resizing-to-pid.md) | Resizing to specified PID dimensions. | 21 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-final-transcript-assembled.md`](../system-prompts/system-reminder-voice-final-transcript-assembled.md) | Final transcript assembled with specified character count. | 21 | 2.1.59 | 2.1.59 |
-| [`system-reminder-failed-read-markdown-file.md`](../system-prompts/system-reminder-failed-read-markdown-file.md) | Failed to read a markdown file. | 20 | 2.1.59 | 2.1.59 |
-| [`system-reminder-inprocessrunner-poll-error-2.md`](../system-prompts/system-reminder-inprocessrunner-poll-error-2.md) | Poll error in process runner. | 20 | 2.1.59 | 2.1.59 |
 | [`system-reminder-ccrclient-failed.md`](../system-prompts/system-reminder-ccrclient-failed.md) | CCRClient failed with an error. | 18 | 2.1.59 | 2.1.59 |
-| [`system-reminder-failed-save-marketplace-json.md`](../system-prompts/system-reminder-failed-save-marketplace-json.md) | Failed to save marketplace JSON. | 18 | 2.1.59 | 2.1.59 |
 | [`system-reminder-invalid-known-marketplaces-json.md`](../system-prompts/system-reminder-invalid-known-marketplaces-json.md) | Invalid known_marketplaces.json in zip cache. | 18 | 2.1.59 | 2.1.59 |
-| [`system-reminder-plugin-version-cached.md`](../system-prompts/system-reminder-plugin-version-cached.md) | Plugin version is already cached globally. | 18 | 2.1.59 | 2.1.59 |
-| [`system-reminder-stdout-output-chars.md`](../system-prompts/system-reminder-stdout-output-chars.md) | Output from stdout with specified character count. | 18 | 2.1.59 | 2.1.59 |
 | [`system-reminder-ccrclient-returned-values.md`](../system-prompts/system-reminder-ccrclient-returned-values.md) | CCRClient returned specific values. | 17 | 2.1.59 | 2.1.59 |
 | [`system-reminder-expected-schema.md`](../system-prompts/system-reminder-expected-schema.md) | Schema expectations outlined. | 17 | 2.1.59 | 2.1.59 |
 | [`system-reminder-extracted-zip-entries.md`](../system-prompts/system-reminder-extracted-zip-entries.md) | Extracted ZIP with entries. | 17 | 2.1.59 | 2.1.59 |
 | [`system-reminder-sending-audio-chunk-voice-stream.md`](../system-prompts/system-reminder-sending-audio-chunk-voice-stream.md) | Sending audio chunk of specified bytes. | 17 | 2.1.59 | 2.1.59 |
-| [`system-reminder-https-clone-failed-retrying-ssh.md`](../system-prompts/system-reminder-https-clone-failed-retrying-ssh.md) | HTTPS clone failed, retrying with SSH. | 16 | 2.1.59 | 2.1.59 |
 | [`system-reminder-transcripttext.md`](../system-prompts/system-reminder-transcripttext.md) | TranscriptText received. | 16 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-auto-repeat-seen-arming.md`](../system-prompts/system-reminder-voice-auto-repeat-seen-arming.md) | No auto-repeat seen, arming release timer. | 16 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-injecting-transcript-chars.md`](../system-prompts/system-reminder-voice-injecting-transcript-chars.md) | Injecting transcript with specified character count. | 16 | 2.1.59 | 2.1.59 |
@@ -2058,35 +2227,26 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-install-plugins-headless-starting.md`](../system-prompts/system-reminder-install-plugins-headless-starting.md) | Starting in zip cache mode. | 14 | 2.1.59 | 2.1.59 |
 | [`system-reminder-sending-closestream-finalize.md`](../system-prompts/system-reminder-sending-closestream-finalize.md) | Sending CloseStream to finalize. | 14 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-startrecording-buffering-audio.md`](../system-prompts/system-reminder-voice-startrecording-buffering-audio.md) | Buffering audio while connecting. | 14 | 2.1.59 | 2.1.59 |
-| [`system-reminder-mcpb-content-hash-2.md`](../system-prompts/system-reminder-mcpb-content-hash-2.md) | MCPB content hash generated. | 13 | 2.1.59 | 2.1.59 |
 | [`system-reminder-sending-initial-keepalive.md`](../system-prompts/system-reminder-sending-initial-keepalive.md) | Sending initial KeepAlive. | 13 | 2.1.59 | 2.1.59 |
 | [`system-reminder-sending-periodic-keepalive.md`](../system-prompts/system-reminder-sending-periodic-keepalive.md) | Sending periodic KeepAlive. | 13 | 2.1.59 | 2.1.59 |
 | [`system-reminder-skipping-symlink-cycle-detected.md`](../system-prompts/system-reminder-skipping-symlink-cycle-detected.md) | Skipping symlink cycle at specified location. | 13 | 2.1.59 | 2.1.59 |
-| [`system-reminder-successfully-cached-plugin-as-zip.md`](../system-prompts/system-reminder-successfully-cached-plugin-as-zip.md) | Successfully cached plugin as ZIP at global. | 13 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-handle-key-event-idle.md`](../system-prompts/system-reminder-voice-handle-key-event-idle.md) | Idle state, starting the recording session immediately. | 13 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-recording-not-available.md`](../system-prompts/system-reminder-voice-recording-not-available.md) | Notification of unavailable voice recording. | 13 | 2.1.59 | 2.1.59 |
 | [`system-reminder-ccr-internal-event-registered.md`](../system-prompts/system-reminder-ccr-internal-event-registered.md) | Internal event writer registered for persistence. | 12 | 2.1.59 | 2.1.59 |
-| [`system-reminder-cloning-via-ssh-2.md`](../system-prompts/system-reminder-cloning-via-ssh-2.md) | Cloning process initiated via SSH. | 12 | 2.1.59 | 2.1.59 |
 | [`system-reminder-fast-mode-prefetch-progress.md`](../system-prompts/system-reminder-fast-mode-prefetch-progress.md) | Fast mode prefetch in progress. | 12 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-arming-focus-recording.md`](../system-prompts/system-reminder-voice-arming-focus-recording.md) | Re-arming focus recording after silence. | 12 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-windows-native-recording-unavailable.md`](../system-prompts/system-reminder-voice-windows-native-recording-unavailable.md) | Windows native recording is not available. | 12 | 2.1.59 | 2.1.59 |
 | [`system-reminder-created-session-plugin-cache.md`](../system-prompts/system-reminder-created-session-plugin-cache.md) | Created session plugin cache. | 11 | 2.1.59 | 2.1.59 |
-| [`system-reminder-notification-failed-but-continuing.md`](../system-prompts/system-reminder-notification-failed-but-continuing.md) | Notification failed but continuing. | 11 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-focus-silence-timeout-tearing.md`](../system-prompts/system-reminder-voice-focus-silence-timeout-tearing.md) | Focus silence timeout, tearing down the session. | 11 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-focus-mode-disabled-during.md`](../system-prompts/system-reminder-voice-focus-mode-disabled-during.md) | Focus mode disabled while finishing recording. | 10 | 2.1.59 | 2.1.59 |
-| [`system-reminder-enabling-plugin.md`](../system-prompts/system-reminder-enabling-plugin.md) | Enabling plugin. | 9 | 2.1.59 | 2.1.59 |
 | [`system-reminder-found-installed-plugins.md`](../system-prompts/system-reminder-found-installed-plugins.md) | Found installed plugins. | 9 | 2.1.59 | 2.1.59 |
 | [`system-reminder-no-oauth-token-voice-stream.md`](../system-prompts/system-reminder-no-oauth-token-voice-stream.md) | No OAuth token is available for voice stream. | 9 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-focus-gained-starting-recording.md`](../system-prompts/system-reminder-voice-focus-gained-starting-recording.md) | Focus gained, starting the recording session. | 9 | 2.1.59 | 2.1.59 |
 | [`system-reminder-cleaned-session-plugin-cache.md`](../system-prompts/system-reminder-cleaned-session-plugin-cache.md) | Session plugin cache cleaned. | 8 | 2.1.59 | 2.1.59 |
-| [`system-reminder-installing-plugin.md`](../system-prompts/system-reminder-installing-plugin.md) | Installing a specified plugin. | 8 | 2.1.59 | 2.1.59 |
-| [`system-reminder-plugin-enabled.md`](../system-prompts/system-reminder-plugin-enabled.md) | Plugin enabled. | 8 | 2.1.59 | 2.1.59 |
-| [`system-reminder-plugin-installed.md`](../system-prompts/system-reminder-plugin-installed.md) | Plugin installation confirmed. | 8 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-focus-lost-finishing-recording.md`](../system-prompts/system-reminder-voice-focus-lost-finishing-recording.md) | Focus lost, finishing the recording. | 8 | 2.1.59 | 2.1.59 |
 | [`system-reminder-websocket-connected.md`](../system-prompts/system-reminder-websocket-connected.md) | WebSocket successfully connected. | 8 | 2.1.59 | 2.1.59 |
 | [`system-reminder-failed-write-transcript.md`](../system-prompts/system-reminder-failed-write-transcript.md) | Failed to write a transcript. | 7 | 2.1.59 | 2.1.59 |
 | [`system-reminder-voice-recording-stopped.md`](../system-prompts/system-reminder-voice-recording-stopped.md) | Indication that recording has stopped. | 5 | 2.1.59 | 2.1.59 |
-| [`system-reminder-session-archive-failed.md`](../system-prompts/system-reminder-session-archive-failed.md) | Session archive failed with status. | 20 | 2.1.53 | 2.1.53 |
 | [`system-reminder-detect-file-encoding-failed.md`](../system-prompts/system-reminder-detect-file-encoding-failed.md) | File encoding detection failure. | 15 | 2.1.53 | 2.1.53 |
 | [`system-reminder-ignoring-duplicate-control-response.md`](../system-prompts/system-reminder-ignoring-duplicate-control-response.md) | Ignoring duplicate control response for resolved request. | 30 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-post-environment-id.md`](../system-prompts/system-reminder-bridge-api-post-environment-id.md) | Post request with environment ID. | 28 | 2.1.51 | 2.1.51 |
@@ -2148,7 +2308,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-bridge-shutdown-sigterm-received.md`](../system-prompts/system-reminder-bridge-shutdown-sigterm-received.md) | Shutdown initiated due to SIGTERM. | 13 | 2.1.51 | 2.1.51 |
 | [`system-reminder-mdm-settings-load-completed.md`](../system-prompts/system-reminder-mdm-settings-load-completed.md) | MDM settings load completed in specified time. | 13 | 2.1.51 | 2.1.51 |
 | [`system-reminder-teardown-stopwork-completed.md`](../system-prompts/system-reminder-teardown-stopwork-completed.md) | Stop work has been completed. | 13 | 2.1.51 | 2.1.51 |
-| [`system-reminder-additional-from-user.md`](../system-prompts/system-reminder-additional-from-user.md) | Additional instructions from user. | 12 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-delete-request.md`](../system-prompts/system-reminder-bridge-api-delete-request.md) | Delete request initiated. | 12 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-api-input-2.md`](../system-prompts/system-reminder-bridge-api-input-2.md) | Input to bridge API. | 12 | 2.1.51 | 2.1.51 |
 | [`system-reminder-bridge-shutdown-environment-deregistered.md`](../system-prompts/system-reminder-bridge-shutdown-environment-deregistered.md) | Environment deregistered and bridge offline. | 12 | 2.1.51 | 2.1.51 |
@@ -2174,18 +2333,13 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-keybinding-setup-initialized.md`](../system-prompts/system-reminder-keybinding-setup-initialized.md) | Logs keybinding setup initialization with total bindings and warning counts. | 30 | 2.1.49 | 2.1.49 |
 | [`system-reminder-multiple-sessions-found.md`](../system-prompts/system-reminder-multiple-sessions-found.md) | Reports matching sessions found and instructs selecting one using a path. | 30 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-lsp-server-available.md`](../system-prompts/system-reminder-no-lsp-server-available.md) | Warns no LSP server supports the specified file type and operation. | 30 | 2.1.49 | 2.1.49 |
-| [`system-reminder-registered-frontmatter-hooks-session.md`](../system-prompts/system-reminder-registered-frontmatter-hooks-session.md) | Confirm frontmatter hooks registered, showing count, source, and session identifier. | 30 | 2.1.49 | 2.1.49 |
-| [`system-reminder-skip-duplicate-orphaned-permission.md`](../system-prompts/system-reminder-skip-duplicate-orphaned-permission.md) | Skipping duplicate orphaned permission handling. | 30 | 2.1.49 | 2.1.49 |
 | [`system-reminder-sonnet-context-not-available.md`](../system-prompts/system-reminder-sonnet-context-not-available.md) | Reports Sonnet 1M context is unavailable for the account with a learn-more link. | 30 | 2.1.49 | 2.1.49 |
 | [`system-reminder-stop-and-wait-user.md`](../system-prompts/system-reminder-stop-and-wait-user.md) | Instructs to stop the current action and wait for user direction. | 30 | 2.1.49 | 2.1.49 |
 | [`system-reminder-symbol-extraction-failed.md`](../system-prompts/system-reminder-symbol-extraction-failed.md) | Reports symbol extraction failed at the specified file location and message. | 30 | 2.1.49 | 2.1.49 |
-| [`system-reminder-task-exists-after-registration.md`](../system-prompts/system-reminder-task-exists-after-registration.md) | Log that a registered task exists in state with its PID. | 30 | 2.1.49 | 2.1.49 |
 | [`system-reminder-adding-permission-directories-update.md`](../system-prompts/system-reminder-adding-permission-directories-update.md) | Apply permission update by adding directories to a specified destination. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-corrupt-plugin-manifest-parse-error.md`](../system-prompts/system-reminder-corrupt-plugin-manifest-parse-error.md) | Reports plugin manifest is corrupt at a path, including parse error details. | 29 | 2.1.49 | 2.1.49 |
-| [`system-reminder-definition-token-count.md`](../system-prompts/system-reminder-definition-token-count.md) | Report token count returned for a set of tool definitions. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-get-current-pane-id.md`](../system-prompts/system-reminder-failed-get-current-pane-id.md) | Indicate failure to fetch current tmux pane ID with exit details. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fallback-abort-inprocess-task.md`](../system-prompts/system-reminder-fallback-abort-inprocess-task.md) | Log fallback finding an in-process task via AppState and aborting it. | 29 | 2.1.49 | 2.1.49 |
-| [`system-reminder-fileindex-git-tracked-files-count.md`](../system-prompts/system-reminder-fileindex-git-tracked-files-count.md) | Log tracked file count and git ls-files timing with process identifier. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-filter-entries-to-messages.md`](../system-prompts/system-reminder-filter-entries-to-messages.md) | Log reduction from filtered entries to messages and elapsed milliseconds. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-find-references-filter-invalid-locations.md`](../system-prompts/system-reminder-find-references-filter-invalid-locations.md) | Find-references formatter filtered out a counted number of invalid locations. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-inprocessrunner-message-with-index.md`](../system-prompts/system-reminder-inprocessrunner-message-with-index.md) | In-process runner logs a new message from a sender with message index. | 29 | 2.1.49 | 2.1.49 |
@@ -2195,9 +2349,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-opus-not-available-account.md`](../system-prompts/system-reminder-opus-not-available-account.md) | States Opus with 1M context is unavailable for the account with a learn-more link. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-registered-files-for-async-delivery.md`](../system-prompts/system-reminder-registered-files-for-async-delivery.md) | Registered diagnostic files from a source for asynchronous LSP delivery. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-report-tmux-iterm-environment.md`](../system-prompts/system-reminder-report-tmux-iterm-environment.md) | Report whether the runtime environment is inside tmux and whether it is in iTerm2. | 29 | 2.1.49 | 2.1.49 |
-| [`system-reminder-teammate-spawn-failed.md`](../system-prompts/system-reminder-teammate-spawn-failed.md) | Report failure to spawn in-process Anthropic teammate, including error details. | 29 | 2.1.49 | 2.1.49 |
-| [`system-reminder-unique-hooks-matched.md`](../system-prompts/system-reminder-unique-hooks-matched.md) | Report unique hook matches for a query, including pre-deduplication total. | 29 | 2.1.49 | 2.1.49 |
-| [`system-reminder-web-page-content-wrapper.md`](../system-prompts/system-reminder-web-page-content-wrapper.md) | Wraps web page content and additional fields into a structured text block. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-workspace-symbol-filter-invalid-symbols.md`](../system-prompts/system-reminder-workspace-symbol-filter-invalid-symbols.md) | Filters out invalid workspace symbols during result formatting, expected earlier validation. | 29 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-get-current-window-target.md`](../system-prompts/system-reminder-failed-get-current-window-target.md) | Reports failure to get current tmux window target with exit code and error. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-goto-definition-filter-invalid-locations.md`](../system-prompts/system-reminder-goto-definition-filter-invalid-locations.md) | Filters out invalid go-to-definition locations during result formatting, expected earlier validation. | 28 | 2.1.49 | 2.1.49 |
@@ -2208,7 +2359,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-member-not-found-set-active.md`](../system-prompts/system-reminder-member-not-found-set-active.md) | Reports set-active failed because the specified member was not found in the team. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-member-not-found-set-mode.md`](../system-prompts/system-reminder-member-not-found-set-mode.md) | Reports set-mode failed because the specified member was not found in the team. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-missing-bindings-array.md`](../system-prompts/system-reminder-missing-bindings-array.md) | Indicates keybindings.json is invalid because it lacks a bindings array. | 28 | 2.1.49 | 2.1.49 |
-| [`system-reminder-orphaned-permission-undefined.md`](../system-prompts/system-reminder-orphaned-permission-undefined.md) | Orphaned permission with undefined input. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-passive-diagnostics-handler-invoked.md`](../system-prompts/system-reminder-passive-diagnostics-handler-invoked.md) | Log passive diagnostics handler invoked for a subject with a parameter type. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permissionsync-response-sent-to-worker.md`](../system-prompts/system-reminder-permissionsync-response-sent-to-worker.md) | PermissionSync mailbox sent permission response for request to worker recipient. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-read-unread-counts.md`](../system-prompts/system-reminder-read-unread-counts.md) | Shows unread message count compared to total messages in TeammateMailbox. | 28 | 2.1.49 | 2.1.49 |
@@ -2217,21 +2367,15 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-skip-cleanup-invalid-settings.md`](../system-prompts/system-reminder-skip-cleanup-invalid-settings.md) | Cleanup skipped because settings validation errors persist. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skipping-summary-not-enough-messages.md`](../system-prompts/system-reminder-skipping-summary-not-enough-messages.md) | Skip generating a summary for an item due to insufficient messages. | 28 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cannot-remove-teammate.md`](../system-prompts/system-reminder-cannot-remove-teammate.md) | States removal of a teammate failed because the team file could not be read. | 27 | 2.1.49 | 2.1.49 |
-| [`system-reminder-copy-session-backup.md`](../system-prompts/system-reminder-copy-session-backup.md) | Copy a file history backup from one session to a destination. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-created-opened-editor.md`](../system-prompts/system-reminder-created-opened-editor.md) | Confirm agent was created and opened in editor, restart to load edits. | 27 | 2.1.49 | 2.1.49 |
-| [`system-reminder-exiting-poll-loop-abort.md`](../system-prompts/system-reminder-exiting-poll-loop-abort.md) | In-process runner exits polling loop, reporting abort state and poll count. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-attempt-counter.md`](../system-prompts/system-reminder-failed-attempt-counter.md) | Formats an attempt progress message showing attempt number and a failure reason. | 27 | 2.1.49 | 2.1.49 |
-| [`system-reminder-handle-truncated-message.md`](../system-prompts/system-reminder-handle-truncated-message.md) | Show a truncated content segment while preserving the surrounding context and truncation count. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-invalid-enable-search-format.md`](../system-prompts/system-reminder-invalid-enable-search-format.md) | Reject malformed ENABLE_TOOL_SEARCH setting that is not in auto:N format. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-invalid-extra-body-json.md`](../system-prompts/system-reminder-invalid-extra-body-json.md) | Error indicating extra body env var is not a JSON object value. | 27 | 2.1.49 | 2.1.49 |
-| [`system-reminder-loaded-output-styles-custom-path.md`](../system-prompts/system-reminder-loaded-output-styles-custom-path.md) | Report output styles loaded from a plugin custom path location. | 27 | 2.1.49 | 2.1.49 |
-| [`system-reminder-mailbox-bulk-mark-read-failed.md`](../system-prompts/system-reminder-mailbox-bulk-mark-read-failed.md) | Log markMessagesAsRead failure for a target with the associated error message. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-marketplace-command-path-missing-2.md`](../system-prompts/system-reminder-marketplace-command-path-missing-2.md) | Marketplace command name and path missing at expected location for given entry. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-member-not-found-in-team.md`](../system-prompts/system-reminder-member-not-found-in-team.md) | Reconnection warning that a specified member is missing from a team and may be removed. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-native-host-registry-failed.md`](../system-prompts/system-reminder-native-host-registry-failed.md) | Reports failure registering a native host for a browser in Windows registry with error. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permissionsync-request-sent-to-leader.md`](../system-prompts/system-reminder-permissionsync-request-sent-to-leader.md) | PermissionSync mailbox sent permission request identifier to leader recipient. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-already-installed-manage.md`](../system-prompts/system-reminder-plugin-already-installed-manage.md) | Multiple prompts (2) | 27 | 2.1.49 | 2.1.49 |
-| [`system-reminder-plugin-output-styles-custom-path-failure.md`](../system-prompts/system-reminder-plugin-output-styles-custom-path-failure.md) | Failure loading output styles from a plugin custom path, including error details. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-post-error-retry-attempt-2.md`](../system-prompts/system-reminder-post-error-retry-attempt-2.md) | Logs an SSETransport POST error message with current retry attempt count. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-reconnect-time-budget-exhausted.md`](../system-prompts/system-reminder-reconnect-time-budget-exhausted.md) | Log WebSocket reconnection time budget exhaustion after duration for a target. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-reloaded-bindings-warnings.md`](../system-prompts/system-reminder-reloaded-bindings-warnings.md) | Logs keybindings reload completion with total bindings and warning counts. | 27 | 2.1.49 | 2.1.49 |
@@ -2240,8 +2384,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-set-clipboard-from-png.md`](../system-prompts/system-reminder-set-clipboard-from-png.md) | Load a PNG file from a path and set it to clipboard. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-spawned-teammate-in-pane.md`](../system-prompts/system-reminder-spawned-teammate-in-pane.md) | Log teammate spawned in a specific pane with teammate and pane identifiers. | 27 | 2.1.49 | 2.1.49 |
 | [`system-reminder-apply-team-permission-update.md`](../system-prompts/system-reminder-apply-team-permission-update.md) | Applies a team permission update, allowing an entity within a specified scope. | 26 | 2.1.49 | 2.1.49 |
-| [`system-reminder-auto-search-disabled.md`](../system-prompts/system-reminder-auto-search-disabled.md) | Notifies that auto tool search is disabled and shows the source location. | 26 | 2.1.49 | 2.1.49 |
-| [`system-reminder-auto-search-enabled-2.md`](../system-prompts/system-reminder-auto-search-enabled-2.md) | Indicate auto tool search is enabled with a specific source reference. | 26 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleanup-delivered-messages.md`](../system-prompts/system-reminder-cleanup-delivered-messages.md) | Cleans up a given count of processed messages delivered mid-turn. | 26 | 2.1.49 | 2.1.49 |
 | [`system-reminder-computed-initial-team-context.md`](../system-prompts/system-reminder-computed-initial-team-context.md) | Reconnection notice computing initial team context for a teammate in a team. | 26 | 2.1.49 | 2.1.49 |
 | [`system-reminder-confirm-queue-unavailable-drop-request.md`](../system-prompts/system-reminder-confirm-queue-unavailable-drop-request.md) | Drops a permission request when ToolUseConfirmQueue is unavailable for a source. | 26 | 2.1.49 | 2.1.49 |
@@ -2273,11 +2415,9 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-eager-telemetry-init-failed.md`](../system-prompts/system-reminder-eager-telemetry-init-failed.md) | Reports eager telemetry initialization failure for beta tracing with an error message. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ignore-nonlead-mode-requests.md`](../system-prompts/system-reminder-ignore-nonlead-mode-requests.md) | Logs ignoring a mode change request because sender is not a team lead. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ignore-nonlead-plan-approvals.md`](../system-prompts/system-reminder-ignore-nonlead-plan-approvals.md) | Logs ignoring a plan approval response because sender is not a team lead. | 25 | 2.1.49 | 2.1.49 |
-| [`system-reminder-invalid-keybindings-json-2.md`](../system-prompts/system-reminder-invalid-keybindings-json-2.md) | Report an invalid keybindings.json path. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-kill-failed-teammate-missing.md`](../system-prompts/system-reminder-kill-failed-teammate-missing.md) | Log that kill() failed because the teammate was not found in spawned map. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-loaded-mcp-server-from-mcpb.md`](../system-prompts/system-reminder-loaded-mcp-server-from-mcpb.md) | Reports an MCP server loaded from an MCPB archive and extraction directory. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mailbox-mark-read-file-missing.md`](../system-prompts/system-reminder-mailbox-mark-read-file-missing.md) | Logs missing mailbox file path during mark-message-read-by-index operation. | 25 | 2.1.49 | 2.1.49 |
-| [`system-reminder-no-worktreeremove-hook-configured.md`](../system-prompts/system-reminder-no-worktreeremove-hook-configured.md) | No WorktreeRemove hook configured for the agent. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugins-enabled-disabled-count.md`](../system-prompts/system-reminder-plugins-enabled-disabled-count.md) | Reports total plugins found, including enabled and disabled plugin counts. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-registering-task.md`](../system-prompts/system-reminder-registering-task.md) | Log registering a task with its description details. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-settings-retry-after-delay.md`](../system-prompts/system-reminder-remote-settings-retry-after-delay.md) | Logs retry attempt count and delay for fetching remote settings. | 25 | 2.1.49 | 2.1.49 |
@@ -2285,18 +2425,12 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-retry-after-delay.md`](../system-prompts/system-reminder-retry-after-delay.md) | Indicate retry attempt for policy limits operation after a specified delay interval. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ripgrep-first-use-test-passed.md`](../system-prompts/system-reminder-ripgrep-first-use-test-passed.md) | Confirms ripgrep first-use test passed, showing mode and binary path. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-saved-file-bytes.md`](../system-prompts/system-reminder-saved-file-bytes.md) | Indicates a file was saved to a path and reports its size in bytes. | 25 | 2.1.49 | 2.1.49 |
-| [`system-reminder-send-mode-change-to-all-teammates.md`](../system-prompts/system-reminder-send-mode-change-to-all-teammates.md) | Confirm a mode change was sent to all teammates with the given details. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-sendmessage-to-teammate.md`](../system-prompts/system-reminder-sendmessage-to-teammate.md) | Log sending a message to a specific teammate, including message preview text. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-already-delivered-hook.md`](../system-prompts/system-reminder-skip-already-delivered-hook.md) | Logs skipping a hook because it was already delivered or produced no stdout. | 25 | 2.1.49 | 2.1.49 |
-| [`system-reminder-teammate-registered-in-appstate.md`](../system-prompts/system-reminder-teammate-registered-in-appstate.md) | Indicates an in-process Anthropic teammate was registered in AppState. | 25 | 2.1.49 | 2.1.49 |
 | [`system-reminder-warning-task-not-found.md`](../system-prompts/system-reminder-warning-task-not-found.md) | Warns that a referenced task path could not be found for a target. | 25 | 2.1.49 | 2.1.49 |
-| [`system-reminder-cloned-repository-to-path.md`](../system-prompts/system-reminder-cloned-repository-to-path.md) | Report a repository cloned from a source URL and suffix to a destination path. | 24 | 2.1.49 | 2.1.49 |
-| [`system-reminder-connection-error-message.md`](../system-prompts/system-reminder-connection-error-message.md) | Shows connection error details including numeric code and message text. | 24 | 2.1.49 | 2.1.49 |
-| [`system-reminder-created-external-swarm-session.md`](../system-prompts/system-reminder-created-external-swarm-session.md) | Report creation of an external swarm tmux session with specified pane. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-created-teammate-pane-2.md`](../system-prompts/system-reminder-created-teammate-pane-2.md) | Report creation of a teammate tmux pane for a given target. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-disk-version-updated.md`](../system-prompts/system-reminder-disk-version-updated.md) | States a file was updated on disk to a given version and path. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-eagain-retry-single-threaded.md`](../system-prompts/system-reminder-eagain-retry-single-threaded.md) | Retries ripgrep in single-threaded mode after an EAGAIN error. | 24 | 2.1.49 | 2.1.49 |
-| [`system-reminder-failed-clean-tasks-directory.md`](../system-prompts/system-reminder-failed-clean-tasks-directory.md) | Reports TeammateTool failed to clean up a tasks directory and includes error details. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-clean-team-directory.md`](../system-prompts/system-reminder-failed-clean-team-directory.md) | Reports TeammateTool failed to clean up a team directory and includes error details. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-hide-pane.md`](../system-prompts/system-reminder-failed-hide-pane.md) | Reports failure to hide a specified tmux pane with an error message. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-load-marketplace.md`](../system-prompts/system-reminder-failed-load-marketplace.md) | Log failure to load an LSP marketplace with identifier and error details. | 24 | 2.1.49 | 2.1.49 |
@@ -2311,17 +2445,14 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-loaded-user-bindings.md`](../system-prompts/system-reminder-loaded-user-bindings.md) | Logs count of user keybindings loaded from a given file path. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mailbox-mark-read-messages-after-lock.md`](../system-prompts/system-reminder-mailbox-mark-read-messages-after-lock.md) | Log count of messages read after acquiring the mailbox lock. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-read-missing-file.md`](../system-prompts/system-reminder-mark-read-missing-file.md) | Log missing mailbox file path when markMessagesAsRead cannot find the file. | 24 | 2.1.49 | 2.1.49 |
-| [`system-reminder-no-worktreeremove-hook-configured-2.md`](../system-prompts/system-reminder-no-worktreeremove-hook-configured-2.md) | No worktree remove hook is set. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-node-extra-ca-certs-detected.md`](../system-prompts/system-reminder-node-extra-ca-certs-detected.md) | NODE_EXTRA_CA_CERTS was detected and will be appended to built-in CAs. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-outside-tmux-iterm-tmux-available.md`](../system-prompts/system-reminder-outside-tmux-iterm-tmux-available.md) | Logs non-tmux, non-iTerm2 context and reports tmux availability status. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-panebackendexecutor-terminate-called.md`](../system-prompts/system-reminder-panebackendexecutor-terminate-called.md) | Log terminate called for a target with an accompanying message string. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-perfetto-tracing-init-env.md`](../system-prompts/system-reminder-perfetto-tracing-init-env.md) | Log Perfetto tracing initialization call with current environment value. | 24 | 2.1.49 | 2.1.49 |
-| [`system-reminder-plugin-hooks-load-failed-setup.md`](../system-prompts/system-reminder-plugin-hooks-load-failed-setup.md) | Warns plugin hooks failed to load, so Setup hooks will not run, with error details. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-processing-sandbox-permission.md`](../system-prompts/system-reminder-processing-sandbox-permission.md) | Logs InboxPoller processing a sandbox permission response for a target with allow status. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-rebalanced-teammate-panes-tiled.md`](../system-prompts/system-reminder-rebalanced-teammate-panes-tiled.md) | Logs rebalancing specified teammate tmux panes using a tiled layout. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-set-member-active-status.md`](../system-prompts/system-reminder-set-member-active-status.md) | Marked a specific team member as active in TeammateTool for a given team. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-showed-pane-in-target.md`](../system-prompts/system-reminder-showed-pane-in-target.md) | Logs that a specific pane was shown within a given tmux target. | 24 | 2.1.49 | 2.1.49 |
-| [`system-reminder-teammate-spawn-cleanup-called.md`](../system-prompts/system-reminder-teammate-spawn-cleanup-called.md) | Notes cleanup being called for an in-process Anthropic teammate spawn. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-telemetry-flush-timeout.md`](../system-prompts/system-reminder-telemetry-flush-timeout.md) | Report telemetry flush timed out after a duration and warn metrics may be lost. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-telemetry-init-failed-remote.md`](../system-prompts/system-reminder-telemetry-init-failed-remote.md) | Reports telemetry initialization failure in the remote settings path with details. | 24 | 2.1.49 | 2.1.49 |
 | [`system-reminder-unassign-tasks-from-worker.md`](../system-prompts/system-reminder-unassign-tasks-from-worker.md) | Log number of tasks unassigned from a specific worker. | 24 | 2.1.49 | 2.1.49 |
@@ -2333,23 +2464,17 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-agentic-search-preview.md`](../system-prompts/system-reminder-agentic-search-preview.md) | Shows the first characters of the agentic search prompt text. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-compacting-history-tokens.md`](../system-prompts/system-reminder-compacting-history-tokens.md) | Log that inProcessRunner is compacting history and include current token count. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-completion-with-status.md`](../system-prompts/system-reminder-completion-with-status.md) | States the tagged operation completed and reports the resulting status value. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-copied-settings-local-json.md`](../system-prompts/system-reminder-copied-settings-local-json.md) | Copied settings.local.json to worktree. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-executing-forked-task.md`](../system-prompts/system-reminder-executing-forked-task.md) | Log execution of a forked skill task using a specified agent worker. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-found-plan-approval-requests.md`](../system-prompts/system-reminder-found-plan-approval-requests.md) | Log number of plan approval requests found and auto-approved by InboxPoller. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-get-all-lsp-servers-returned.md`](../system-prompts/system-reminder-get-all-lsp-servers-returned.md) | Log the number of LSP servers returned by getAllLspServers. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-https-clone-fallback-to-ssh.md`](../system-prompts/system-reminder-https-clone-fallback-to-ssh.md) | Logs HTTPS clone failure for a repo and fallback to SSH, including error details. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-invalid-team-permission-update.md`](../system-prompts/system-reminder-invalid-team-permission-update.md) | Flags team permission updates missing rules or behavior. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-it2-cli-availability-check.md`](../system-prompts/system-reminder-it2-cli-availability-check.md) | Logs iTerm2 detection and reports it2 CLI availability status. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-linked-worktree-preserved-branch.md`](../system-prompts/system-reminder-linked-worktree-preserved-branch.md) | Linked worktree preserved on specified branch. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-load-skills-from-paths.md`](../system-prompts/system-reminder-load-skills-from-paths.md) | Logs attempt to load plugin skills using configured skillsPaths list. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-loaded-lsp-servers-plugin.md`](../system-prompts/system-reminder-loaded-lsp-servers-plugin.md) | Reports number of LSP servers loaded from a plugin and names it. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-lsp-file-change-notify-failed.md`](../system-prompts/system-reminder-lsp-file-change-notify-failed.md) | Reports failure to notify the LSP server about a file change, with details. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-lsp-file-save-notify-failed.md`](../system-prompts/system-reminder-lsp-file-save-notify-failed.md) | Reports failure to notify the LSP server about a file save, with details. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-plugin-loading-errors.md`](../system-prompts/system-reminder-lsp-plugin-loading-errors.md) | Reports a count of errors loading LSP servers from a specified plugin. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-read-count-after-lock.md`](../system-prompts/system-reminder-mark-read-count-after-lock.md) | Log how many messages were marked read after acquiring the mailbox lock. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-native-installer-skip-update.md`](../system-prompts/system-reminder-native-installer-skip-update.md) | Notes native installer skipped updating because current version meets or exceeds maximum. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permission-check-threw-for.md`](../system-prompts/system-reminder-permission-check-threw-for.md) | Reports an exception thrown during a tool permission check with details. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-plugin-installation-failure-summary.md`](../system-prompts/system-reminder-plugin-installation-failure-summary.md) | Summarizes plugin installation status counts for failed marketplaces and failed plugins. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-overrides-setting.md`](../system-prompts/system-reminder-plugin-overrides-setting.md) | One plugin overrides a setting that was previously set by another plugin. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-version-already-cached.md`](../system-prompts/system-reminder-plugin-version-already-cached.md) | Notes the plugin version is already cached at the given path. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-profiler-checkpoint-timing.md`](../system-prompts/system-reminder-profiler-checkpoint-timing.md) | Records profiler checkpoint name with elapsed time in milliseconds since start. | 23 | 2.1.49 | 2.1.49 |
@@ -2362,7 +2487,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-selected-tmux-iterm-fallback.md`](../system-prompts/system-reminder-selected-tmux-iterm-fallback.md) | Logs selection of tmux as an iTerm2 fallback with it2 recommended. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-sending-skills-via-attachment.md`](../system-prompts/system-reminder-sending-skills-via-attachment.md) | Log sending a number of skills via attachment with initial total sent count. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-sendmessage-to-target.md`](../system-prompts/system-reminder-sendmessage-to-target.md) | Log that InProcessBackend is sending a message payload to a target. | 23 | 2.1.49 | 2.1.49 |
-| [`system-reminder-sent-idle-notification-leader-2.md`](../system-prompts/system-reminder-sent-idle-notification-leader-2.md) | Sends an idle notification to the Anthropic leader. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-session-filtered-teamname.md`](../system-prompts/system-reminder-session-filtered-teamname.md) | Session filtered from path by teamName. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-set-team-member-modes.md`](../system-prompts/system-reminder-set-team-member-modes.md) | Set specified member modes for a team in TeammateTool, recording modes and team. | 23 | 2.1.49 | 2.1.49 |
 | [`system-reminder-showing-display-name.md`](../system-prompts/system-reminder-showing-display-name.md) | Display a skill prompt label and its user-facing name for logging. | 23 | 2.1.49 | 2.1.49 |
@@ -2399,14 +2523,12 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-missing-mcp-servers-scope.md`](../system-prompts/system-reminder-missing-mcp-servers-scope.md) | Warns that the user:mcp_servers scope is missing from the token. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-teammate-context-set.md`](../system-prompts/system-reminder-no-teammate-context-set.md) | Reconnection message indicating no teammate context was set because not a teammate. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permissionsync-sandbox-response-failed.md`](../system-prompts/system-reminder-permissionsync-sandbox-response-failed.md) | PermissionSync mailbox failed sending sandbox permission response with error details. | 22 | 2.1.49 | 2.1.49 |
-| [`system-reminder-plugin-output-styles-default-dir-failure.md`](../system-prompts/system-reminder-plugin-output-styles-default-dir-failure.md) | Failure loading output styles from a plugin default directory, including error details. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-prefer-tmux-skip-iterm2.md`](../system-prompts/system-reminder-prefer-tmux-skip-iterm2.md) | Skips iTerm2 detection because tmux is preferred. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-process-kill-failed.md`](../system-prompts/system-reminder-process-kill-failed.md) | Report failed process termination attempt, noting process may already be dead, with details. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-processing-permission-response.md`](../system-prompts/system-reminder-processing-permission-response.md) | Logs InboxPoller processing a permission response for a target with response details. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-read-mailbox-count.md`](../system-prompts/system-reminder-read-mailbox-count.md) | Reports how many messages were read via TeammateMailbox readMailbox. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-rebalanced-teammate-panes-leader.md`](../system-prompts/system-reminder-rebalanced-teammate-panes-leader.md) | Reports teammate panes were rebalanced to match the leader layout for a count. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remove-duplicate-diagnostics.md`](../system-prompts/system-reminder-remove-duplicate-diagnostics.md) | Removed a number of duplicate LSP diagnostics during deduplication processing. | 22 | 2.1.49 | 2.1.49 |
-| [`system-reminder-repo-path-with-pid.md`](../system-prompts/system-reminder-repo-path-with-pid.md) | Showing a repository path with its associated process ID. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-resumed-session-default-behavior.md`](../system-prompts/system-reminder-resumed-session-default-behavior.md) | Warn resumed session referenced unavailable agent and revert to default behavior. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-send-mode-change-to-teammate.md`](../system-prompts/system-reminder-send-mode-change-to-teammate.md) | Confirm a mode change was sent to a specific teammate with details. | 22 | 2.1.49 | 2.1.49 |
 | [`system-reminder-set-prefer-tmux-over-iterm2.md`](../system-prompts/system-reminder-set-prefer-tmux-over-iterm2.md) | Logs setting the preferTmuxOverIterm2 preference to a given value. | 22 | 2.1.49 | 2.1.49 |
@@ -2430,7 +2552,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-cleanup-killing-teammate-pane.md`](../system-prompts/system-reminder-cleanup-killing-teammate-pane.md) | Logs cleanup that kills a teammate pane. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleared-delivered-diagnostics-registry.md`](../system-prompts/system-reminder-cleared-delivered-diagnostics-registry.md) | Logs clearing a number of delivered diagnostics from the registry. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-compact-cache-sharing-fallback-2.md`](../system-prompts/system-reminder-compact-cache-sharing-fallback-2.md) | Note fallback when compact cache sharing response contains no text, logging response. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-conditional-activated.md`](../system-prompts/system-reminder-conditional-activated.md) | Logs activation of a named conditional skill after a matched path trigger. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-diagnostics-handler-register-failed.md`](../system-prompts/system-reminder-diagnostics-handler-register-failed.md) | Failure registering diagnostics handler for a target with error details. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-enable-meta-key-option.md`](../system-prompts/system-reminder-enable-meta-key-option.md) | Add a Window Settings entry enabling option key usage as meta key. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-event-dropped-no-logger.md`](../system-prompts/system-reminder-event-dropped-no-logger.md) | Indicates a telemetry event was dropped because no event logger was initialized. | 21 | 2.1.49 | 2.1.49 |
@@ -2448,16 +2569,12 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-inprocessrunner-processing.md`](../system-prompts/system-reminder-inprocessrunner-processing.md) | In-process runner logs that it is processing a prompt with preview text. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-inprocessrunner-received-new-message.md`](../system-prompts/system-reminder-inprocessrunner-received-new-message.md) | In-process runner logs receipt of a new message from a given sender. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-list-untracked-files.md`](../system-prompts/system-reminder-list-untracked-files.md) | List untracked files with core.quotepath disabled and standard excludes applied. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-loaded-output-style-from-plugin.md`](../system-prompts/system-reminder-loaded-output-style-from-plugin.md) | Reports a custom output style file loaded from a specified plugin. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-marketplace-refresh-failed-details.md`](../system-prompts/system-reminder-marketplace-refresh-failed-details.md) | Reports failure to refresh a specific marketplace during autoupdate with an error reason. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-missing-local-subcommand-directory.md`](../system-prompts/system-reminder-missing-local-subcommand-directory.md) | Local subcommand search directory missing with advice to set executableDir. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-native-installer-cap-update.md`](../system-prompts/system-reminder-native-installer-cap-update.md) | Native installer caps update version to configured global maxVersion limit. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-callback-for-mailbox-response.md`](../system-prompts/system-reminder-no-callback-for-mailbox-response.md) | Warn when no callback is registered for a mailbox response identifier. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-notify-teammate-task-status.md`](../system-prompts/system-reminder-notify-teammate-task-status.md) | Send a teammate message reporting a task identifier and current status. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-orphaned-at-remove-failed.md`](../system-prompts/system-reminder-orphaned-at-remove-failed.md) | Failure removing .orphaned_at marker for a target with error details. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-outgoing-calls-missing-to-field.md`](../system-prompts/system-reminder-outgoing-calls-missing-to-field.md) | Outgoing call hierarchy formatting encountered an undefined to field. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permissionsync-send-request-failed.md`](../system-prompts/system-reminder-permissionsync-send-request-failed.md) | Report failure sending a permission request via mailbox with error info. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-permissionsync-send-response-failed.md`](../system-prompts/system-reminder-permissionsync-send-response-failed.md) | Report failure sending a permission response via mailbox with error info. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-persisted-result.md`](../system-prompts/system-reminder-persisted-result.md) | Confirms a tool result was persisted to a destination with a size in GB. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-persisting-permission-update.md`](../system-prompts/system-reminder-persisting-permission-update.md) | Log message indicating a permission update is being persisted to a named source. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-pid-lock-acquired.md`](../system-prompts/system-reminder-pid-lock-acquired.md) | Report acquiring a PID lock for a target process with its PID. | 21 | 2.1.49 | 2.1.49 |
@@ -2466,19 +2583,15 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-session-filtered-issidechain-true.md`](../system-prompts/system-reminder-session-filtered-issidechain-true.md) | Session filtered from path with isSidechain=true. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-session-idle-delivering-pending.md`](../system-prompts/system-reminder-session-idle-delivering-pending.md) | Notes InboxPoller session idle state while delivering a count of pending messages. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-set-branch-upstream-origin.md`](../system-prompts/system-reminder-set-branch-upstream-origin.md) | Set local branch upstream to the corresponding origin remote branch. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-stale-stats-cache-global-processing.md`](../system-prompts/system-reminder-stale-stats-cache-global-processing.md) | Indicates stats cache is stale and a global stats update is being processed. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-streaming-idle-timeout-abort.md`](../system-prompts/system-reminder-streaming-idle-timeout-abort.md) | Log streaming abort after no chunks received for specified idle timeout seconds. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-tmux-available-it2-unavailable.md`](../system-prompts/system-reminder-tmux-available-it2-unavailable.md) | Note that iTerm2 is unavailable and report whether tmux is available. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-unsupported-control-request-subtype.md`](../system-prompts/system-reminder-unsupported-control-request-subtype.md) | Log unsupported RemoteSessionManager control request subtype with subtype value. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-updating-session-title.md`](../system-prompts/system-reminder-updating-session-title.md) | Updating session title from one value to another. | 21 | 2.1.49 | 2.1.49 |
 | [`system-reminder-worktreeremove-hook-failed.md`](../system-prompts/system-reminder-worktreeremove-hook-failed.md) | WorktreeRemove hook encountered a failure. | 21 | 2.1.49 | 2.1.49 |
-| [`system-reminder-aborted-while-waiting-poll.md`](../system-prompts/system-reminder-aborted-while-waiting-poll.md) | InProcessRunner reports operation aborted while waiting during a global poll. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-add-snapshot-tracking-files.md`](../system-prompts/system-reminder-add-snapshot-tracking-files.md) | Add a file history snapshot and report the number of tracked files. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-async-hook-responses-count.md`](../system-prompts/system-reminder-async-hook-responses-count.md) | Log count of async hook responses discovered by getAsyncHookResponseAttachments. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-auto-resume-interrupted-turn.md`](../system-prompts/system-reminder-auto-resume-interrupted-turn.md) | Log auto-resuming an interrupted turn with its reported kind value. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ccrclient-epoch-mismatch-shutdown.md`](../system-prompts/system-reminder-ccrclient-epoch-mismatch-shutdown.md) | Reports CCRClient epoch mismatch and shutdown. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cli-override-cleared.md`](../system-prompts/system-reminder-cli-override-cleared.md) | Indicates teammate mode CLI override was cleared and shows the new mode. | 20 | 2.1.49 | 2.1.49 |
-| [`system-reminder-compare-session-and-current-repo.md`](../system-prompts/system-reminder-compare-session-and-current-repo.md) | Shows session repository identifier compared with current repository identifier. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-completion-cache-regenerated-path.md`](../system-prompts/system-reminder-completion-cache-regenerated-path.md) | Indicates a completion cache was regenerated, naming target and output path. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-conditional-skills-stored.md`](../system-prompts/system-reminder-conditional-skills-stored.md) | Logs storing conditional skills that activate when matching files are touched. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-copy-plugin-to-versioned-cache.md`](../system-prompts/system-reminder-copy-plugin-to-versioned-cache.md) | Copy a plugin into the versioned cache, falling back to full copy. | 20 | 2.1.49 | 2.1.49 |
@@ -2486,7 +2599,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-created-pane-backend-executor.md`](../system-prompts/system-reminder-created-pane-backend-executor.md) | Log creation of a PaneBackendExecutor wrapper around the provided executor identifier. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-current-work-aborted-escape.md`](../system-prompts/system-reminder-current-work-aborted-escape.md) | InProcessRunner aborted current work because Escape key was pressed. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-delisted-plugins-check-failed.md`](../system-prompts/system-reminder-delisted-plugins-check-failed.md) | Checking for delisted plugins in a target location failed with an error. | 20 | 2.1.49 | 2.1.49 |
-| [`system-reminder-download-stalled-retrying.md`](../system-prompts/system-reminder-download-stalled-retrying.md) | Report a stalled download attempt number and that a retry is happening. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-downloading-session-files.md`](../system-prompts/system-reminder-downloading-session-files.md) | Indicates how many files are downloading for a specific session ID. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-enable-option-meta-key.md`](../system-prompts/system-reminder-enable-option-meta-key.md) | Enable Option-as-Meta key behavior for a specified window settings profile. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-check-permission-mode.md`](../system-prompts/system-reminder-failed-check-permission-mode.md) | Checking relevance of the default permission mode config tip failed with an error. | 20 | 2.1.49 | 2.1.49 |
@@ -2496,7 +2608,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-fileindex-getprojectfiles-called.md`](../system-prompts/system-reminder-fileindex-getprojectfiles-called.md) | Note getProjectFiles invocation with respectGitignore flag value for FileIndex. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-find-keychain-password-current-user.md`](../system-prompts/system-reminder-find-keychain-password-current-user.md) | Retrieve a macOS keychain generic password for the current user and service. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-first-install-skip-reconnect.md`](../system-prompts/system-reminder-first-install-skip-reconnect.md) | First-time install detected but extension missing so reconnect skipped. | 20 | 2.1.49 | 2.1.49 |
-| [`system-reminder-found-pending-user-message.md`](../system-prompts/system-reminder-found-pending-user-message.md) | In-process runner detects a pending user message during a polling iteration. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-haiku-fallback-failed.md`](../system-prompts/system-reminder-haiku-fallback-failed.md) | Reports haiku fallback token counting failure with included error details. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-invalid-removal.md`](../system-prompts/system-reminder-hook-invalid-removal.md) | Remove a hook from the registry when its status matches a given value. | 20 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hooks-processing-snapshot-path.md`](../system-prompts/system-reminder-hooks-processing-snapshot-path.md) | Logs processing a prompt hook referencing an Anthropic path. | 20 | 2.1.49 | 2.1.49 |
@@ -2558,11 +2669,9 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-base-directory-path.md`](../system-prompts/system-reminder-base-directory-path.md) | Multiple prompts (2) | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-check-file-permissions-path.md`](../system-prompts/system-reminder-check-file-permissions-path.md) | Permissions issue requiring file permissions check on the given path. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-clean-stale-marketplace-dir.md`](../system-prompts/system-reminder-clean-stale-marketplace-dir.md) | Removes a stale marketplace directory at the given path to enable re-cloning. | 19 | 2.1.49 | 2.1.49 |
-| [`system-reminder-cleanup-anthropic-npm-installs.md`](../system-prompts/system-reminder-cleanup-anthropic-npm-installs.md) | Report cleaned up @anthropic-ai npm installations. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-clear-pending-diagnostics.md`](../system-prompts/system-reminder-clear-pending-diagnostics.md) | Logs clearing a number of pending diagnostics in the queue. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-copy-npm-package-from-cache.md`](../system-prompts/system-reminder-copy-npm-package-from-cache.md) | Copied an npm package from cache into a destination directory path. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-create-default-shell-config-snapshot.md`](../system-prompts/system-reminder-create-default-shell-config-snapshot.md) | Notes missing shell config file and creates a snapshot with defaults only. | 19 | 2.1.49 | 2.1.49 |
-| [`system-reminder-created-teammate-pane-global.md`](../system-prompts/system-reminder-created-teammate-pane-global.md) | Report creation of a teammate tmux pane targeting the global window. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-delete-orphaned-version-failed.md`](../system-prompts/system-reminder-delete-orphaned-version-failed.md) | Log failure deleting an orphaned version with details of the error. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-mode-set-requests.md`](../system-prompts/system-reminder-detect-mode-set-requests.md) | Reports how many mode set requests InboxPoller found in the inbox. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-directconnect-unsupported-subtype.md`](../system-prompts/system-reminder-directconnect-unsupported-subtype.md) | Log an unsupported DirectConnect control request subtype identifier for diagnostics. | 19 | 2.1.49 | 2.1.49 |
@@ -2571,8 +2680,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-enabled-plugins-with-scopes.md`](../system-prompts/system-reminder-enabled-plugins-with-scopes.md) | Reports enabled plugins found and lists their associated scopes. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-event-sent-to-session.md`](../system-prompts/system-reminder-event-sent-to-session.md) | Log successful delivery of an event to a specific remote session. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-extra-body-parse-error.md`](../system-prompts/system-reminder-extra-body-parse-error.md) | Error parsing the CLAUDE_CODE_EXTRA_BODY environment value, including the parse error details. | 19 | 2.1.49 | 2.1.49 |
-| [`system-reminder-failed-check-plugin-marketplace.md`](../system-prompts/system-reminder-failed-check-plugin-marketplace.md) | Marketplace lookup failed while checking a specific plugin entry. | 19 | 2.1.49 | 2.1.49 |
-| [`system-reminder-failed-load-mcp-servers.md`](../system-prompts/system-reminder-failed-load-mcp-servers.md) | MCP server list failed to load from a source, with an error detail. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-load-mcpb.md`](../system-prompts/system-reminder-failed-load-mcpb.md) | Specific MCPB entry failed to load, including an error detail message. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fallback-after-empty-stream.md`](../system-prompts/system-reminder-fallback-after-empty-stream.md) | stream ended without content, triggering non-streaming fallback | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fast-mode-overage-rejection.md`](../system-prompts/system-reminder-fast-mode-overage-rejection.md) | Request was rejected due to fast mode overage, including reason details. | 19 | 2.1.49 | 2.1.49 |
@@ -2599,7 +2706,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-loaded-skills-default-dir.md`](../system-prompts/system-reminder-loaded-skills-default-dir.md) | Report skills loaded from a plugin default directory. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-server-returned-undefined.md`](../system-prompts/system-reminder-lsp-server-returned-undefined.md) | Indicates an LSP server returned undefined for a request on a given target. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mailbox-mark-read-already-read.md`](../system-prompts/system-reminder-mailbox-mark-read-already-read.md) | Log line when the target message is already read or missing. | 19 | 2.1.49 | 2.1.49 |
-| [`system-reminder-missing-plugin-mcp-env-vars.md`](../system-prompts/system-reminder-missing-plugin-mcp-env-vars.md) | Warns that required environment variables are missing in plugin MCP configuration. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-missing.md`](../system-prompts/system-reminder-missing.md) | Indicate an agent file is missing the required frontmatter description field. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mode-request-parse-failure.md`](../system-prompts/system-reminder-mode-request-parse-failure.md) | Logs InboxPoller failure to parse a mode set request payload. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-nonfatal-lock-current-version-failed.md`](../system-prompts/system-reminder-nonfatal-lock-current-version-failed.md) | Non-fatal warning that locking the current version failed during execution. | 19 | 2.1.49 | 2.1.49 |
@@ -2634,10 +2740,7 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-websocket-permanent-close.md`](../system-prompts/system-reminder-websocket-permanent-close.md) | Logs SessionsWebSocket permanent close code and states reconnection will not occur. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-worktree-already-removed.md`](../system-prompts/system-reminder-worktree-already-removed.md) | Indicate a worktree path was already removed and cannot be removed again. | 19 | 2.1.49 | 2.1.49 |
 | [`system-reminder-aborting-current-turn.md`](../system-prompts/system-reminder-aborting-current-turn.md) | Indicate interrupt aborting the current turn and include the streamMode value. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-add-repo-tracked-paths.md`](../system-prompts/system-reminder-add-repo-tracked-paths.md) | Record that a path was added to the tracked paths for a repository. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-added-to-never-suggest.md`](../system-prompts/system-reminder-added-to-never-suggest.md) | Log adding an item to the LSP recommendation never-suggest list. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-agentic-search-pid.md`](../system-prompts/system-reminder-agentic-search-pid.md) | Indicates the PID for the model used in agentic search. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-cleaned-tasks-directory.md`](../system-prompts/system-reminder-cleaned-tasks-directory.md) | Reports that TeammateTool cleaned up the specified tasks directory path. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleaned-team-directory.md`](../system-prompts/system-reminder-cleaned-team-directory.md) | Reports that TeammateTool cleaned up the specified team directory path. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-clear-delivered-diagnostics.md`](../system-prompts/system-reminder-clear-delivered-diagnostics.md) | Clearing previously delivered LSP diagnostics for a specific target or source. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-compact-missing-summary-text.md`](../system-prompts/system-reminder-compact-missing-summary-text.md) | Log compact failure when response lacks summary text, including the response payload. | 18 | 2.1.49 | 2.1.49 |
@@ -2656,7 +2759,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-found-shutdown-approvals.md`](../system-prompts/system-reminder-found-shutdown-approvals.md) | Reports number of shutdown approvals found by InboxPoller. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-found-shutdown-requests.md`](../system-prompts/system-reminder-found-shutdown-requests.md) | Reports number of shutdown requests found by InboxPoller. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-get-diagnostic-attachments-called.md`](../system-prompts/system-reminder-get-diagnostic-attachments-called.md) | Log getLSPDiagnosticAttachments invocation. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-hook-error-pid.md`](../system-prompts/system-reminder-hook-error-pid.md) | Logs a prompt hook error and includes the associated process ID. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-interrupt-message.md`](../system-prompts/system-reminder-hook-interrupt-message.md) | Multiple prompts (2) | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-missing-shell-command.md`](../system-prompts/system-reminder-hook-missing-shell-command.md) | Remove a hook from the registry when it has no shell command. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-use-requires-canusetool.md`](../system-prompts/system-reminder-hook-use-requires-canusetool.md) | States hook approved tool use, but canUseTool permission enforcement is still required. | 18 | 2.1.49 | 2.1.49 |
@@ -2675,7 +2777,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-leader-skip-idle-hook.md`](../system-prompts/system-reminder-leader-skip-idle-hook.md) | Agent is the team leader so the idle notification hook is skipped. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-load-session-plugin-failed.md`](../system-prompts/system-reminder-load-session-plugin-failed.md) | Failed to load session plugin from specified path with error details. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-file-already-open-skip.md`](../system-prompts/system-reminder-lsp-file-already-open-skip.md) | Skipped didOpen because the file was already open. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-lsp-notification-handlers-registered.md`](../system-prompts/system-reminder-lsp-notification-handlers-registered.md) | Confirm notification handlers registered successfully for all configured servers. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-server-stdin-error.md`](../system-prompts/system-reminder-lsp-server-stdin-error.md) | Logs an LSP server stdin error message for diagnostics. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mcp-fetched-server-count.md`](../system-prompts/system-reminder-mcp-fetched-server-count.md) | Logs how many MCP servers were fetched by the claudeai-mcp integration. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mcp-fetching-from-source.md`](../system-prompts/system-reminder-mcp-fetching-from-source.md) | Logs that MCP server fetching has started from a specified source. | 18 | 2.1.49 | 2.1.49 |
@@ -2687,27 +2788,22 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-plugin-components-read-failure.md`](../system-prompts/system-reminder-plugin-components-read-failure.md) | Failed to read plugin components from a source with error details. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-mcp-loading-error.md`](../system-prompts/system-reminder-plugin-mcp-loading-error.md) | Log MCP plugin loading error with plugin identifier and error details. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-mcp-server-error.md`](../system-prompts/system-reminder-plugin-mcp-server-error.md) | Log MCP plugin server error with plugin identifier and error details. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-poll-checking-mailbox.md`](../system-prompts/system-reminder-poll-checking-mailbox.md) | In-process runner performs a poll cycle by checking the mailbox. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-promote-pipelined-suggestion.md`](../system-prompts/system-reminder-promote-pipelined-suggestion.md) | Indicates promotion of a pipelined suggestion, showing its preview text. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-read-directories-failed.md`](../system-prompts/system-reminder-read-directories-failed.md) | Failed to read skill directories from a specified source, with error details. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-read-mailbox-path.md`](../system-prompts/system-reminder-read-mailbox-path.md) | Logs mailbox path used for a TeammateMailbox readMailbox operation. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-reading-through-symlink.md`](../system-prompts/system-reminder-reading-through-symlink.md) | Read via symlink from EXPR_1 pointing to target path EXPR_2. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-recover-stale-session-entry.md`](../system-prompts/system-reminder-recover-stale-session-entry.md) | Indicate session entry already exists on server and recover from stale state. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-registered-extension-hooks.md`](../system-prompts/system-reminder-registered-extension-hooks.md) | Confirm hooks registered, including count and originating skill name. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remove-teammate-missing-identifier.md`](../system-prompts/system-reminder-remove-teammate-missing-identifier.md) | Teammate removal was called without an identifier. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removed-installation-at-scope.md`](../system-prompts/system-reminder-removed-installation-at-scope.md) | Removed the installation for a target component within a given scope. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-report-plugin-command-paths.md`](../system-prompts/system-reminder-report-plugin-command-paths.md) | Shows the configured commandsPaths values for a specific plugin. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-retry-remote-checkout-without-b.md`](../system-prompts/system-reminder-retry-remote-checkout-without-b.md) | Report remote checkout with -b failed, retrying checkout without -b. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-ripgrep-file-count-timing.md`](../system-prompts/system-reminder-ripgrep-file-count-timing.md) | Log ripgrep scan file count and elapsed time in milliseconds. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-schema-nonconforming-response.md`](../system-prompts/system-reminder-schema-nonconforming-response.md) | Report that model response failed to conform to expected schema requirements. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-session-log-persist-failure.md`](../system-prompts/system-reminder-session-log-persist-failure.md) | Persisting the session log failed, including error details and context. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-set-marketplace-autoupdate.md`](../system-prompts/system-reminder-set-marketplace-autoupdate.md) | Configure autoUpdate setting for a given marketplace to a specified value. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-settings-issues-found.md`](../system-prompts/system-reminder-settings-issues-found.md) | Reports the number of settings issues found and points to a details path. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-shutdown-already-requested.md`](../system-prompts/system-reminder-shutdown-already-requested.md) | InProcessBackend terminate skipped because shutdown was already requested for target. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-skills-directory-load-failure.md`](../system-prompts/system-reminder-skills-directory-load-failure.md) | Failed to load skills from a directory, with reported error details. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-duplicate-idle-notification.md`](../system-prompts/system-reminder-skip-duplicate-idle-notification.md) | In-process runner skips sending a duplicate idle notification for a target. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-npm-managed-removal.md`](../system-prompts/system-reminder-skip-npm-managed-removal.md) | Skips removal of an item because it appears to be managed by npm. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-skipping-global-never-suggest.md`](../system-prompts/system-reminder-skipping-global-never-suggest.md) | Skips suggesting a global LSP because it is in the never-suggest list. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-spawn-without-context.md`](../system-prompts/system-reminder-spawn-without-context.md) | Log that InProcessBackend spawn() was called without context for a task. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-stopping-summarization.md`](../system-prompts/system-reminder-stopping-summarization.md) | Stop summarization processing for the specified item or conversation. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-team-lead-unread-messages-found.md`](../system-prompts/system-reminder-team-lead-unread-messages-found.md) | print.ts reports team lead detected a given number of unread messages. | 18 | 2.1.49 | 2.1.49 |
@@ -2719,7 +2815,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-websockettransport-keep-alive-failed.md`](../system-prompts/system-reminder-websockettransport-keep-alive-failed.md) | Periodic keep_alive failed in WebSocketTransport. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-windows-userprofile-detection-issue.md`](../system-prompts/system-reminder-windows-userprofile-detection-issue.md) | PowerShell USERPROFILE lookup failed and IDE detection may be incomplete. | 18 | 2.1.49 | 2.1.49 |
 | [`system-reminder-write-through-symlink.md`](../system-prompts/system-reminder-write-through-symlink.md) | Log writing through a symlink from source path to resolved target path. | 18 | 2.1.49 | 2.1.49 |
-| [`system-reminder-agentic-search-process-error.md`](../system-prompts/system-reminder-agentic-search-process-error.md) | Log an agentic search error message including the process PID. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-alias-remove-failed.md`](../system-prompts/system-reminder-alias-remove-failed.md) | Failure message for removing an alias from a target with error details. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-auto-run-failed.md`](../system-prompts/system-reminder-auto-run-failed.md) | Report auto-run failure for a path with associated error message. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-autoupdate-marketplace-refresh-failed.md`](../system-prompts/system-reminder-autoupdate-marketplace-refresh-failed.md) | Reports the count of failed marketplace refresh attempts during plugin autoupdate. | 17 | 2.1.49 | 2.1.49 |
@@ -2734,14 +2829,12 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-counttokens-api-failure.md`](../system-prompts/system-reminder-counttokens-api-failure.md) | Reports token counting API call failure with included error details. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-creating-shell-snapshot.md`](../system-prompts/system-reminder-creating-shell-snapshot.md) | Notify that a shell snapshot is being created for a named target. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-downloaded-file-bytes.md`](../system-prompts/system-reminder-downloaded-file-bytes.md) | Reports a downloaded file name and its size in bytes. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-failed-acquire-lock.md`](../system-prompts/system-reminder-failed-acquire-lock.md) | Report failure to acquire a lock for a resource with an error message. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fetch-origin-host-port.md`](../system-prompts/system-reminder-fetch-origin-host-port.md) | Shows fetch origin host and port used for the request. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fileindex-background-untracked-fetch-failed.md`](../system-prompts/system-reminder-fileindex-background-untracked-fetch-failed.md) | Log FileIndex background untracked fetch result including file count or error details. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fileindex-git-null-fallback.md`](../system-prompts/system-reminder-fileindex-git-null-fallback.md) | git ls-files returned null and fell back to ripgrep. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-finished-waiting-next.md`](../system-prompts/system-reminder-finished-waiting-next.md) | In-process runner finishes processing a prompt and waits for the next one. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-first-ink-render-timing.md`](../system-prompts/system-reminder-first-ink-render-timing.md) | Metric log reporting milliseconds until first ink render since process start. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-first-install-open-reconnect-page.md`](../system-prompts/system-reminder-first-install-open-reconnect-page.md) | First-time install detected and reconnect page opened in browser. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-found-branch-by-pid.md`](../system-prompts/system-reminder-found-branch-by-pid.md) | Log the found branch name associated with a given process ID. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-found-session-files-disk.md`](../system-prompts/system-reminder-found-session-files-disk.md) | Found session files located on disk. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-grove-no-cache-background-config.md`](../system-prompts/system-reminder-grove-no-cache-background-config.md) | Indicates no cache and config is being fetched in the background. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-condition-not-met-2.md`](../system-prompts/system-reminder-hook-condition-not-met-2.md) | Indicates a prompt hook condition was not met, including the evaluated expression. | 17 | 2.1.49 | 2.1.49 |
@@ -2765,7 +2858,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-mtls-loaded-client-key-env.md`](../system-prompts/system-reminder-mtls-loaded-client-key-env.md) | Confirms the client key was loaded from an environment variable. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-repo-empty-sandbox.md`](../system-prompts/system-reminder-no-repo-empty-sandbox.md) | Warns that no repository was detected so the session sandbox will be empty. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-panebackendexecutor-terminate-invalid-agentid.md`](../system-prompts/system-reminder-panebackendexecutor-terminate-invalid-agentid.md) | Reports terminate failure due to an invalid agentId format. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-path-already-tracked-repo.md`](../system-prompts/system-reminder-path-already-tracked-repo.md) | Warns that the given path is already tracked for the repository. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permission-request.md`](../system-prompts/system-reminder-permission-request.md) | Log entry for RemoteSessionManager permission request for a specific tool. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-persisting-directories.md`](../system-prompts/system-reminder-persisting-directories.md) | Log message indicating directories are being persisted to a target location. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-pipelined-suggestion-failed.md`](../system-prompts/system-reminder-pipelined-suggestion-failed.md) | Reports a pipelined suggestion failure with an included error detail message. | 17 | 2.1.49 | 2.1.49 |
@@ -2773,7 +2865,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-plugin-autoupdate-updated-count.md`](../system-prompts/system-reminder-plugin-autoupdate-updated-count.md) | Reports how many plugins were updated during an autoupdate run. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-post-failed-after-retries.md`](../system-prompts/system-reminder-post-failed-after-retries.md) | Reports POST failure after all retry attempts and continues. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-process-plugin-paths.md`](../system-prompts/system-reminder-process-plugin-paths.md) | Processing a number of skill paths for a specified plugin. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-project-directory-read-failure.md`](../system-prompts/system-reminder-project-directory-read-failure.md) | Failed to read a project directory at a given path, with error details. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-registered-plugin-hooks.md`](../system-prompts/system-reminder-registered-plugin-hooks.md) | Confirm hooks registered, including count and number of contributing plugins. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-session-init-slash-commands.md`](../system-prompts/system-reminder-remote-session-init-slash-commands.md) | Log number of slash commands received during remote session initialization. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-session-initializing-session.md`](../system-prompts/system-reminder-remote-session-initializing-session.md) | Log remote session initialization start for a given session identifier. | 17 | 2.1.49 | 2.1.49 |
@@ -2783,7 +2874,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-replay-buffered-messages.md`](../system-prompts/system-reminder-replay-buffered-messages.md) | Log replaying a count of buffered messages after WebSocket reconnect. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-resource-link-entry.md`](../system-prompts/system-reminder-resource-link-entry.md) | Stores a resource link with accompanying descriptive text or label. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-resource-origin-timestamp.md`](../system-prompts/system-reminder-resource-origin-timestamp.md) | Records a captured resource with its source origin and timestamp metadata. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-returning-global-messages.md`](../system-prompts/system-reminder-returning-global-messages.md) | Return count of new messages produced for the global skill operation. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-saved-autoupdates-channel-setting.md`](../system-prompts/system-reminder-saved-autoupdates-channel-setting.md) | Confirm saving the selected auto-updates channel into user settings. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-saved-installed-plugins.md`](../system-prompts/system-reminder-saved-installed-plugins.md) | Notes installed plugin count or list was saved to a given destination path. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-send-websocket-control-request.md`](../system-prompts/system-reminder-send-websocket-control-request.md) | Logs sending a SessionsWebSocket control request payload. | 17 | 2.1.49 | 2.1.49 |
@@ -2791,7 +2881,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-sending-session-message.md`](../system-prompts/system-reminder-sending-session-message.md) | Log entry for RemoteSessionManager sending a message to a given session. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-sendmessage-completed.md`](../system-prompts/system-reminder-sendmessage-completed.md) | Log that InProcessBackend sendMessage() completed for a given target. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-show-pipelined-suggestion.md`](../system-prompts/system-reminder-show-pipelined-suggestion.md) | Shows a preview snippet of a generated pipelined suggestion text. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-skip-circular-symlink-dir.md`](../system-prompts/system-reminder-skip-circular-symlink-dir.md) | Skip directory traversal because a circular symlink path was already visited. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-install-when-found.md`](../system-prompts/system-reminder-skip-install-when-found.md) | Indicates an item was found at a path and installation is skipped. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-non-text-include.md`](../system-prompts/system-reminder-skip-non-text-include.md) | Logs skipping a non-text file encountered during @include processing. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-watcher-customization-disabled.md`](../system-prompts/system-reminder-skip-watcher-customization-disabled.md) | Skips the keybindings file watcher when user customization is disabled. | 17 | 2.1.49 | 2.1.49 |
@@ -2800,7 +2889,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-starting-async-lsp-initialization.md`](../system-prompts/system-reminder-starting-async-lsp-initialization.md) | Log starting asynchronous LSP manager initialization with a generation number. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-stats-cache-saved-lastcomputeddate.md`](../system-prompts/system-reminder-stats-cache-saved-lastcomputeddate.md) | Confirms stats cache was saved successfully with the recorded lastComputedDate. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-statsig-disables-bypasspermissions-mode.md`](../system-prompts/system-reminder-statsig-disables-bypasspermissions-mode.md) | Statsig gate disables bypassPermissions mode during an async check. | 17 | 2.1.49 | 2.1.49 |
-| [`system-reminder-stderr-output-character-count.md`](../system-prompts/system-reminder-stderr-output-character-count.md) | Reports stderr output length in characters and includes the stderr content. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-streaming-endpoint-fallback.md`](../system-prompts/system-reminder-streaming-endpoint-fallback.md) | endpoint returned an error code and fell back to non-streaming | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-streaming-fallback-error.md`](../system-prompts/system-reminder-streaming-fallback-error.md) | Report a streaming failure and note fallback to non-streaming operation. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-subsequent-split-from-active-session.md`](../system-prompts/system-reminder-subsequent-split-from-active-session.md) | Records a subsequent split originating from the active session without a teammate id. | 17 | 2.1.49 | 2.1.49 |
@@ -2810,7 +2898,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-watching-for-keybinding-changes.md`](../system-prompts/system-reminder-watching-for-keybinding-changes.md) | Log that the keybindings file path is being watched for changes. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-websocket-cannot-connect-state.md`](../system-prompts/system-reminder-websocket-cannot-connect-state.md) | Reporting WebSocket cannot connect because it is in the given state. | 17 | 2.1.49 | 2.1.49 |
 | [`system-reminder-anchors-tags-after-indicator.md`](../system-prompts/system-reminder-anchors-tags-after-indicator.md) | States that anchors and tags must follow the specified indicator token. | 16 | 2.1.49 | 2.1.49 |
-| [`system-reminder-anthropic-full-snapshot-script.md`](../system-prompts/system-reminder-anthropic-full-snapshot-script.md) | References a full snapshot script path for Anthropic. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-aws-credential-cache-clear-failed.md`](../system-prompts/system-reminder-aws-credential-cache-clear-failed.md) | Clearing the AWS credential cache failed, possibly due to missing credentials. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-binary-not-found.md`](../system-prompts/system-reminder-binary-not-found.md) | Logs that a required binary executable was not found. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-binary-tags-not-supported.md`](../system-prompts/system-reminder-binary-tags-not-supported.md) | Environment lacks binary tag reading support without Buffer or atob. | 16 | 2.1.49 | 2.1.49 |
@@ -2844,7 +2931,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-inprocessrunner-task-list-check-error.md`](../system-prompts/system-reminder-inprocessrunner-task-list-check-error.md) | In-process runner reports an error while checking the task list. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-input-error.md`](../system-prompts/system-reminder-input-error.md) | Report tool input parsing or formatting error with provided details. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-install-it2-with-manager.md`](../system-prompts/system-reminder-install-it2-with-manager.md) | Logs installing it2 using the specified package manager. | 16 | 2.1.49 | 2.1.49 |
-| [`system-reminder-installation-failed.md`](../system-prompts/system-reminder-installation-failed.md) | Installation failed for specified target with additional context appended. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-invalid-diagnostic-params.md`](../system-prompts/system-reminder-invalid-diagnostic-params.md) | Reports invalid diagnostic parameters received from a source with details. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-invalid-sandbox-permission-request.md`](../system-prompts/system-reminder-invalid-sandbox-permission-request.md) | Flags sandbox permission requests missing hostPattern.host. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-keybindings-detected-change.md`](../system-prompts/system-reminder-keybindings-detected-change.md) | Logs a detected change to a specific keybindings configuration entry. | 16 | 2.1.49 | 2.1.49 |
@@ -2871,7 +2957,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-plugin-not-found.md`](../system-prompts/system-reminder-plugin-not-found.md) | Reports that a plugin could not be found, including plugin name and error details. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-policy-limits-cache-valid.md`](../system-prompts/system-reminder-policy-limits-cache-valid.md) | Indicates the policy limits cache remains valid. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-policy-limits-deleted-cached-file.md`](../system-prompts/system-reminder-policy-limits-deleted-cached-file.md) | Reports deletion of a cached policy limits file after a response. | 16 | 2.1.49 | 2.1.49 |
-| [`system-reminder-process-id-5.md`](../system-prompts/system-reminder-process-id-5.md) | Displays two lines of text followed by a parenthesized PID value. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-process-shutdown-approved-message.md`](../system-prompts/system-reminder-process-shutdown-approved-message.md) | print.ts logs processing of shutdown_approved event with source path and details. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-provided-version-selected.md`](../system-prompts/system-reminder-provided-version-selected.md) | Reports using an explicitly provided version value for the given target. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-session-send-error.md`](../system-prompts/system-reminder-remote-session-send-error.md) | Logs an error encountered while sending an event to a remote session. | 16 | 2.1.49 | 2.1.49 |
@@ -2881,7 +2966,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-removed-hook-based-worktree-2.md`](../system-prompts/system-reminder-removed-hook-based-worktree-2.md) | Removed hook-based worktree. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removed-path-from-team-file.md`](../system-prompts/system-reminder-removed-path-from-team-file.md) | print.ts logs removal of a path entry from the team file. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-rename-installed-plugins-json.md`](../system-prompts/system-reminder-rename-installed-plugins-json.md) | Installed plugins JSON file renamed to the current filename. | 16 | 2.1.49 | 2.1.49 |
-| [`system-reminder-rename-item-to-target.md`](../system-prompts/system-reminder-rename-item-to-target.md) | Renaming an item from one identifier or value to another. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-request-network-access.md`](../system-prompts/system-reminder-request-network-access.md) | Statement that a component requires network access to a specified resource. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-reset-corrupted-config-file.md`](../system-prompts/system-reminder-reset-corrupted-config-file.md) | Config file corrupted and being reset to defaults with diagnostic detail. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-resuming-existing-worktree.md`](../system-prompts/system-reminder-resuming-existing-worktree.md) | Resuming existing agent worktree. | 16 | 2.1.49 | 2.1.49 |
@@ -2889,7 +2973,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-session-logs-fetched-time.md`](../system-prompts/system-reminder-session-logs-fetched-time.md) | Log how long it took to fetch session logs in milliseconds. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-hook-untrusted-workspace.md`](../system-prompts/system-reminder-skip-hook-untrusted-workspace.md) | Skip running a hook because workspace trust has not been accepted. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-locked-deletion.md`](../system-prompts/system-reminder-skip-locked-deletion.md) | Skip deleting a target because it is locked by another process. | 16 | 2.1.49 | 2.1.49 |
-| [`system-reminder-skipping-global-already-installed.md`](../system-prompts/system-reminder-skipping-global-already-installed.md) | Skips suggesting a global LSP because it is already installed. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-spawn-called-for-task.md`](../system-prompts/system-reminder-spawn-called-for-task.md) | Log that InProcessBackend spawn() was called for a given task. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-started-execution.md`](../system-prompts/system-reminder-started-execution.md) | Logs InProcessBackend starting agent execution for a specific run identifier. | 16 | 2.1.49 | 2.1.49 |
 | [`system-reminder-startup-commands-agents-loaded.md`](../system-prompts/system-reminder-startup-commands-agents-loaded.md) | Logs startup time taken to load commands and agents in milliseconds. | 16 | 2.1.49 | 2.1.49 |
@@ -2907,11 +2990,8 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-aborted-while-waiting.md`](../system-prompts/system-reminder-aborted-while-waiting.md) | InProcessRunner reports operation aborted while waiting for a pending step. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-acknowledge-duplicate-message.md`](../system-prompts/system-reminder-acknowledge-duplicate-message.md) | Send acknowledgment noting a duplicate user message with its content or identifier. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-acquired-pid-lock.md`](../system-prompts/system-reminder-acquired-pid-lock.md) | Indicate acquiring a PID lock on the currently running version identifier. | 15 | 2.1.49 | 2.1.49 |
-| [`system-reminder-anthropic-marketplace-refreshed.md`](../system-prompts/system-reminder-anthropic-marketplace-refreshed.md) | Marketplace Anthropic package refreshed. | 15 | 2.1.49 | 2.1.49 |
-| [`system-reminder-clean-orphaned-temp-installs-2.md`](../system-prompts/system-reminder-clean-orphaned-temp-installs-2.md) | Report number of orphaned temporary install files cleaned up. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-continue-working-running-command.md`](../system-prompts/system-reminder-continue-working-running-command.md) | Continue working by running a specific command. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-created-hook-based-worktree-2.md`](../system-prompts/system-reminder-created-hook-based-worktree-2.md) | Created hook-based worktree. | 15 | 2.1.49 | 2.1.49 |
-| [`system-reminder-current-info.md`](../system-prompts/system-reminder-current-info.md) | Displays the currently active model name with optional extra details appended. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-homebrew-cask-install.md`](../system-prompts/system-reminder-detect-homebrew-cask-install.md) | Report detected installation of a Homebrew cask application or package. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detected-browser.md`](../system-prompts/system-reminder-detected-browser.md) | Reports the detected browser name or identifier for the current environment. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-disable-window-bell-2.md`](../system-prompts/system-reminder-disable-window-bell-2.md) | Disable the bell setting for a specified window settings profile. | 15 | 2.1.49 | 2.1.49 |
@@ -2936,7 +3016,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-loaded-settings-from-settings-json.md`](../system-prompts/system-reminder-loaded-settings-from-settings-json.md) | Logs that plugin settings were loaded from settings.json for a plugin. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-log-post-url.md`](../system-prompts/system-reminder-log-post-url.md) | Output HybridTransport POST request URL being used. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-didsave-sent.md`](../system-prompts/system-reminder-lsp-didsave-sent.md) | Sent an LSP didSave notification. | 15 | 2.1.49 | 2.1.49 |
-| [`system-reminder-manually-removed-item.md`](../system-prompts/system-reminder-manually-removed-item.md) | Item was manually removed, showing the item name and related details. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-read-lock-acquired.md`](../system-prompts/system-reminder-mark-read-lock-acquired.md) | Notes lock acquisition during mark-messages-as-read operation. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-read-lock-released.md`](../system-prompts/system-reminder-mark-read-lock-released.md) | Notes lock release after mark-messages-as-read operation. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mcp-server-status.md`](../system-prompts/system-reminder-mcp-server-status.md) | Emit an MCP server status line with server name and status text. | 15 | 2.1.49 | 2.1.49 |
@@ -2958,7 +3037,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-process-enabled-plugins-skills.md`](../system-prompts/system-reminder-process-enabled-plugins-skills.md) | Report processing count of enabled plugins while building plugin skill list. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-query-with-messages.md`](../system-prompts/system-reminder-query-with-messages.md) | States the model is being queried with a given number of messages. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-read-mailbox-missing-file.md`](../system-prompts/system-reminder-read-mailbox-missing-file.md) | Logs that the mailbox file does not exist when reading. | 15 | 2.1.49 | 2.1.49 |
-| [`system-reminder-refreshing-anthropic-marketplace.md`](../system-prompts/system-reminder-refreshing-anthropic-marketplace.md) | Refreshes the @anthropic-ai marketplace path. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remove-delivered-hooks.md`](../system-prompts/system-reminder-remove-delivered-hooks.md) | Reports how many delivered hooks were removed from the registry. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-request-permission.md`](../system-prompts/system-reminder-request-permission.md) | Statement that a component requires permission to use a specified capability. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-session-title-update-request-failed.md`](../system-prompts/system-reminder-session-title-update-request-failed.md) | Session title update request failed. | 15 | 2.1.49 | 2.1.49 |
@@ -2979,19 +3057,16 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-websocket-ping-failed.md`](../system-prompts/system-reminder-websocket-ping-failed.md) | Log WebSocketTransport ping failure and attach the related error message. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-websocket-send-failed.md`](../system-prompts/system-reminder-websocket-send-failed.md) | Report WebSocketTransport send failure and include the associated error information. | 15 | 2.1.49 | 2.1.49 |
 | [`system-reminder-agentic-search-relevant-sessions.md`](../system-prompts/system-reminder-agentic-search-relevant-sessions.md) | Reports the number of relevant sessions found by agentic search. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-anthropic-marketplace-installed.md`](../system-prompts/system-reminder-anthropic-marketplace-installed.md) | Marketplace Anthropic package installed. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-autoupdate-skipped-updater-disabled.md`](../system-prompts/system-reminder-autoupdate-skipped-updater-disabled.md) | Indicates autoupdate was skipped because the auto-updater is disabled. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-bridge-session-creation-request-failed.md`](../system-prompts/system-reminder-bridge-session-creation-request-failed.md) | Session creation request failed. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-called-lsp-manager-initialize.md`](../system-prompts/system-reminder-called-lsp-manager-initialize.md) | Logs invocation of initializeLspServerManager. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-check-native-installer-update.md`](../system-prompts/system-reminder-check-native-installer-update.md) | Logs a check for a native installer update targeting a specific version. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-clipboard-image-not-found-2.md`](../system-prompts/system-reminder-clipboard-image-not-found-2.md) | States no image is in the clipboard and suggests pasting with Ctrl+V. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-completion-cache-regeneration-failed.md`](../system-prompts/system-reminder-completion-cache-regeneration-failed.md) | Reports failure to regenerate the specified completion cache during update. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-delete-worktree-branch-2.md`](../system-prompts/system-reminder-delete-worktree-branch-2.md) | Could not delete worktree branch. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-direct-connect-connecting.md`](../system-prompts/system-reminder-direct-connect-connecting.md) | Log attempting to connect to a target using direct connect. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-exit-after-idle-time.md`](../system-prompts/system-reminder-exit-after-idle-time.md) | Exiting after a specified duration of idle time in milliseconds. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-auto-install-marketplace.md`](../system-prompts/system-reminder-failed-auto-install-marketplace.md) | Auto-installation of the official marketplace failed with the provided error detail. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-load-installed-plugins-disk.md`](../system-prompts/system-reminder-failed-load-installed-plugins-disk.md) | Installed plugins failed to load from disk, including an error detail. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-failed-remove-linked-worktree.md`](../system-prompts/system-reminder-failed-remove-linked-worktree.md) | Failed to remove a linked worktree. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fast-mode-not-in-sdk.md`](../system-prompts/system-reminder-fast-mode-not-in-sdk.md) | Indicates fast mode is not available in the Agent SDK. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-feedback-collection-not-available-custom-retention.md`](../system-prompts/system-reminder-feedback-collection-not-available-custom-retention.md) | Explains feedback collection is unavailable for orgs with custom retention policies. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fileindex-cache-refresh-failed.md`](../system-prompts/system-reminder-fileindex-cache-refresh-failed.md) | Log FileIndex cache refresh failure with provided error message or details. | 14 | 2.1.49 | 2.1.49 |
@@ -3018,8 +3093,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-lsp-server-manager-shutdown-failure.md`](../system-prompts/system-reminder-lsp-server-manager-shutdown-failure.md) | Reports failure shutting down LSP server manager, including error details. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-marketplace-config-corrupted.md`](../system-prompts/system-reminder-marketplace-config-corrupted.md) | Reports a corrupted marketplace configuration file, including its path or location. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mcpb-extraction-path-missing.md`](../system-prompts/system-reminder-mcpb-extraction-path-missing.md) | Warns that the MCPB extraction output path is missing for a given target. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-mcpb-source-file-missing.md`](../system-prompts/system-reminder-mcpb-source-file-missing.md) | Warns that a required MCPB source file is missing at the specified path. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-missing-plugin-path-skipping.md`](../system-prompts/system-reminder-missing-plugin-path-skipping.md) | Warn that a plugin path is missing and will be skipped. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-missing-streaming-callbacks.md`](../system-prompts/system-reminder-missing-streaming-callbacks.md) | Warns that a stream event arrived without streaming callbacks configured. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-non-streaming-fallback-failed.md`](../system-prompts/system-reminder-non-streaming-fallback-failed.md) | Report that the non-streaming fallback attempt also failed with error details. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-npm-view-dist-tags-failed.md`](../system-prompts/system-reminder-npm-view-dist-tags-failed.md) | Report failure of npm view dist-tags command with its exit code. | 14 | 2.1.49 | 2.1.49 |
@@ -3033,9 +3106,7 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-recovering-from-sync-error.md`](../system-prompts/system-reminder-recovering-from-sync-error.md) | Indicate sync agent recovering from error and count of queued messages. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-session-error.md`](../system-prompts/system-reminder-remote-session-error.md) | Log remote session error message content from useRemoteSession. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remove-stale-socket-pid.md`](../system-prompts/system-reminder-remove-stale-socket-pid.md) | Stale socket removed for specified process ID. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-remove-worktree-failed.md`](../system-prompts/system-reminder-remove-worktree-failed.md) | Agent worktree removal failed with provided error details. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removed-linked-worktree.md`](../system-prompts/system-reminder-removed-linked-worktree.md) | Removed linked worktree. | 14 | 2.1.49 | 2.1.49 |
-| [`system-reminder-removed-plugin-for-marketplace-removal.md`](../system-prompts/system-reminder-removed-plugin-for-marketplace-removal.md) | Removed an installed plugin because it was removed from the marketplace. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removed-worktree-path.md`](../system-prompts/system-reminder-removed-worktree-path.md) | Log that an agent worktree was removed at a specific path. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-selected-tmux-external-session.md`](../system-prompts/system-reminder-selected-tmux-external-session.md) | Logs selection of the tmux backend in external session mode. | 14 | 2.1.49 | 2.1.49 |
 | [`system-reminder-server-cache-invalidation-failed.md`](../system-prompts/system-reminder-server-cache-invalidation-failed.md) | Server cache invalidation failed with provided error details. | 14 | 2.1.49 | 2.1.49 |
@@ -3072,8 +3143,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-clean-stale-dir-reclone.md`](../system-prompts/system-reminder-clean-stale-dir-reclone.md) | Cleans a stale directory and re-clones it. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleaned-orphaned-staging-directories.md`](../system-prompts/system-reminder-cleaned-orphaned-staging-directories.md) | Report number of orphaned staging directories cleaned up during maintenance. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleaned-stale-lock.md`](../system-prompts/system-reminder-cleaned-stale-lock.md) | Reports cleanup of a stale lock at the specified path. | 13 | 2.1.49 | 2.1.49 |
-| [`system-reminder-clear-old-image-cache.md`](../system-prompts/system-reminder-clear-old-image-cache.md) | Cleaned up an old image cache location specified by the given path. | 13 | 2.1.49 | 2.1.49 |
-| [`system-reminder-clear-stale-version-locks.md`](../system-prompts/system-reminder-clear-stale-version-locks.md) | Report number of stale version lock files cleaned up. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleared-session-hooks.md`](../system-prompts/system-reminder-cleared-session-hooks.md) | Confirm all session hooks were cleared for the specified session identifier. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-complete-speculation-tools.md`](../system-prompts/system-reminder-complete-speculation-tools.md) | Marks speculation complete and reports the number of tools used. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-created-lsp-manager-instance.md`](../system-prompts/system-reminder-created-lsp-manager-instance.md) | Logs creation of an LSP manager instance with pending state. | 13 | 2.1.49 | 2.1.49 |
@@ -3100,7 +3169,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-make-message-snapshot.md`](../system-prompts/system-reminder-make-message-snapshot.md) | Create a file history snapshot for a specific message identifier. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mark-setup-complete.md`](../system-prompts/system-reminder-mark-setup-complete.md) | marked it2 setup as complete | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-mcp-disabled-env-var.md`](../system-prompts/system-reminder-mcp-disabled-env-var.md) | Indicates ClaudeAI MCP was disabled via environment variable. | 13 | 2.1.49 | 2.1.49 |
-| [`system-reminder-mcpb-global-scope.md`](../system-prompts/system-reminder-mcpb-global-scope.md) | MCPB scope label showing a value and indicating global scope. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-merge-base-failed-head-only.md`](../system-prompts/system-reminder-merge-base-failed-head-only.md) | Merge-base failed, using HEAD-only mode. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-missing-entry-skills-field.md`](../system-prompts/system-reminder-missing-entry-skills-field.md) | Indicates the plugin manifest is missing the entry.skills definition. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-conversation-for-session-id.md`](../system-prompts/system-reminder-no-conversation-for-session-id.md) | Reports no conversation exists for the provided session identifier. | 13 | 2.1.49 | 2.1.49 |
@@ -3132,7 +3200,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-setup-launcher-completed.md`](../system-prompts/system-reminder-setup-launcher-completed.md) | Indicate setup launcher completed and include the count of reported messages. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-duplicate-user-message.md`](../system-prompts/system-reminder-skip-duplicate-user-message.md) | Logs that a duplicate user message was skipped during processing. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-snapshot-from-config.md`](../system-prompts/system-reminder-snapshot-from-config.md) | Records a mode snapshot captured from configuration. | 13 | 2.1.49 | 2.1.49 |
-| [`system-reminder-staging-directories-cleanup-failed.md`](../system-prompts/system-reminder-staging-directories-cleanup-failed.md) | Staging directory cleanup failed with provided error details. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-streaming-timeout-sdk-abort.md`](../system-prompts/system-reminder-streaming-timeout-sdk-abort.md) | Streaming timed out and was aborted by the SDK, including the timeout detail. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-taskcompleted-hook-feedback.md`](../system-prompts/system-reminder-taskcompleted-hook-feedback.md) | Inject TaskCompleted hook feedback text using provided template expression content. | 13 | 2.1.49 | 2.1.49 |
 | [`system-reminder-telemetry-flush-failed.md`](../system-prompts/system-reminder-telemetry-flush-failed.md) | Report telemetry flush failure and include the associated error message. | 13 | 2.1.49 | 2.1.49 |
@@ -3155,19 +3222,14 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-bridge-session-archived-successfully.md`](../system-prompts/system-reminder-bridge-session-archived-successfully.md) | Session archived successfully. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-caffeinate-spawn-error.md`](../system-prompts/system-reminder-caffeinate-spawn-error.md) | Reports an error occurred while spawning the caffeinate process. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cleanup-failed-installation.md`](../system-prompts/system-reminder-cleanup-failed-installation.md) | Indicates cleanup of a failed installation at the specified location. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-cleanup-temp-file.md`](../system-prompts/system-reminder-cleanup-temp-file.md) | Indicates cleanup of a temporary file at the specified path. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-config-install-method.md`](../system-prompts/system-reminder-config-install-method.md) | Logs the configured install method used during the update process. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-configchange-hook-blocked-change.md`](../system-prompts/system-reminder-configchange-hook-blocked-change.md) | ConfigChange hook blocked a change request. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-configchange-hook-blocked-deletion.md`](../system-prompts/system-reminder-configchange-hook-blocked-deletion.md) | ConfigChange hook blocked a deletion request. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-connection-upgrade-header.md`](../system-prompts/system-reminder-connection-upgrade-header.md) | Sets HTTP Connection upgrade header and Upgrade protocol token value | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-create-global-command-failed.md`](../system-prompts/system-reminder-create-global-command-failed.md) | Global command creation from expression failed due to an error. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-create-shell-snapshot-failed.md`](../system-prompts/system-reminder-create-shell-snapshot-failed.md) | Shell snapshot creation failed with the provided error details. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-apk-installation.md`](../system-prompts/system-reminder-detect-apk-installation.md) | Reports a detected APK package installation with details. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-asdf-installation.md`](../system-prompts/system-reminder-detect-asdf-installation.md) | Reports a detected asdf installation at the specified filesystem path. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-deb-installation.md`](../system-prompts/system-reminder-detect-deb-installation.md) | Reports a detected DEB package installation with details. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-pacman-installation.md`](../system-prompts/system-reminder-detect-pacman-installation.md) | Report detected installation of a pacman package by name. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-detect-winget-installation.md`](../system-prompts/system-reminder-detect-winget-installation.md) | Report detected winget package installation identifier or details. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-download-marketplace-from-url.md`](../system-prompts/system-reminder-download-marketplace-from-url.md) | Notify that the marketplace is downloading from the provided URL. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-enable-remote-persistence-url.md`](../system-prompts/system-reminder-enable-remote-persistence-url.md) | Reports remote persistence enabled using the provided URL value. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-error-keeping-worktree.md`](../system-prompts/system-reminder-error-keeping-worktree.md) | Error keeping worktree. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fail-write-accept-transcript.md`](../system-prompts/system-reminder-fail-write-accept-transcript.md) | Reports failure writing speculation acceptance to transcript. | 12 | 2.1.49 | 2.1.49 |
@@ -3187,12 +3249,10 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-hook-shell-status-log.md`](../system-prompts/system-reminder-hook-shell-status-log.md) | Log the current shell execution status for a hook. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hydrated-entries-from-remote.md`](../system-prompts/system-reminder-hydrated-entries-from-remote.md) | Hydrated remote entries for a specified resource or dataset identifier. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-install-counts-cache-stale.md`](../system-prompts/system-reminder-install-counts-cache-stale.md) | Install counts cache is stale and older than 24 hours. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-install-marketplace-by-pid.md`](../system-prompts/system-reminder-install-marketplace-by-pid.md) | Installs a marketplace specified by its PID. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-jpeg-compressed-buffer-size.md`](../system-prompts/system-reminder-jpeg-compressed-buffer-size.md) | Log the size of a JPEG-compressed buffer value. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-keybindings-chord-timeout-cancelled.md`](../system-prompts/system-reminder-keybindings-chord-timeout-cancelled.md) | Cancels an in-progress keybinding chord after a timeout. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-liveness-timeout-reconnecting.md`](../system-prompts/system-reminder-liveness-timeout-reconnecting.md) | Reconnects after an SSE liveness timeout. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-loading-promise-timed-out.md`](../system-prompts/system-reminder-loading-promise-timed-out.md) | Policy limits load timed out and resolved anyway. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-local-installation-remove-failed.md`](../system-prompts/system-reminder-local-installation-remove-failed.md) | Failure message for removing a local installation with error details. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-local-update-setting.md`](../system-prompts/system-reminder-local-update-setting.md) | States the current useLocalUpdate setting value for the update process. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-manager-servers-initialized.md`](../system-prompts/system-reminder-lsp-manager-servers-initialized.md) | Indicate the LSP manager initialized with a given number of servers. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-lsp-server-instance-started.md`](../system-prompts/system-reminder-lsp-server-instance-started.md) | Reports that an LSP server instance has started running. | 12 | 2.1.49 | 2.1.49 |
@@ -3218,7 +3278,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-remote-session-reconnect-timeout.md`](../system-prompts/system-reminder-remote-session-reconnect-timeout.md) | Indicates a response timeout and attempts to reconnect. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-settings-load-timeout.md`](../system-prompts/system-reminder-remote-settings-load-timeout.md) | remote settings loading promise timed out but resolved anyway | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-settings-saved-to-path.md`](../system-prompts/system-reminder-remote-settings-saved-to-path.md) | Confirms remote settings were saved to the specified file path. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-remove-old-paste.md`](../system-prompts/system-reminder-remove-old-paste.md) | Cleaned up an old paste item identified by the given key or path. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removed-global-npm-installation.md`](../system-prompts/system-reminder-removed-global-npm-installation.md) | Removed the global npm installation of the specified package. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-removed-symlink.md`](../system-prompts/system-reminder-removed-symlink.md) | Confirms the claude symlink was removed at the specified path. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-repo-path-mapping-error.md`](../system-prompts/system-reminder-repo-path-mapping-error.md) | Report an error while updating repository path mapping configuration. | 12 | 2.1.49 | 2.1.49 |
@@ -3234,9 +3293,7 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-spawning-shell-without-login.md`](../system-prompts/system-reminder-spawning-shell-without-login.md) | Warns that a shell is spawned without the login flag. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ssetransport-refresh-headers-reconnect.md`](../system-prompts/system-reminder-ssetransport-refresh-headers-reconnect.md) | Logs refreshed headers used for reconnect. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-starting-lsp-server-instance.md`](../system-prompts/system-reminder-starting-lsp-server-instance.md) | Reports that a new LSP server instance is starting up. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-starting-speculation-run.md`](../system-prompts/system-reminder-starting-speculation-run.md) | Logs the start of a speculation run with a given identifier. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-startup-running-show-setup-screens.md`](../system-prompts/system-reminder-startup-running-show-setup-screens.md) | Log that showSetupScreens() is running at startup. | 12 | 2.1.49 | 2.1.49 |
-| [`system-reminder-stat-session-file-failure.md`](../system-prompts/system-reminder-stat-session-file-failure.md) | Failed to stat session file at the provided path. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-stats-cache-load-failure.md`](../system-prompts/system-reminder-stats-cache-load-failure.md) | Failed to load stats cache with provided error details. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-statsig-gate-disables-bypasspermissions.md`](../system-prompts/system-reminder-statsig-gate-disables-bypasspermissions.md) | Statsig gate disables bypassPermissions mode. | 12 | 2.1.49 | 2.1.49 |
 | [`system-reminder-status-line-disabled-by-hooks-setting.md`](../system-prompts/system-reminder-status-line-disabled-by-hooks-setting.md) | Notes status line configured but hooks are globally disabled. | 12 | 2.1.49 | 2.1.49 |
@@ -3249,13 +3306,11 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-api-request-failure.md`](../system-prompts/system-reminder-api-request-failure.md) | Report failure during an API request, including error details. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-bigquery-api-response.md`](../system-prompts/system-reminder-bigquery-api-response.md) | Log BigQuery API response payload content for inspection or debugging. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-bigquery-export-trust-missing.md`](../system-prompts/system-reminder-bigquery-export-trust-missing.md) | BigQuery metrics export skipped due to unestablished trust. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-binary-content-placeholder.md`](../system-prompts/system-reminder-binary-content-placeholder.md) | Wraps an expression as labeled binary content within bracketed placeholder markup. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cache-npm-package-install.md`](../system-prompts/system-reminder-cache-npm-package-install.md) | Installs an npm package into the cache. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-callback-success-message.md`](../system-prompts/system-reminder-callback-success-message.md) | Confirms the callback for the referenced item completed successfully. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-cannot-remove-worktree.md`](../system-prompts/system-reminder-cannot-remove-worktree.md) | Cannot remove agent worktree without git root. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-comments-require-whitespace-separator.md`](../system-prompts/system-reminder-comments-require-whitespace-separator.md) | Comments must be separated from other tokens by whitespace. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-config-file-exists.md`](../system-prompts/system-reminder-config-file-exists.md) | Indicates whether the configuration file exists. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-content-with-process-id.md`](../system-prompts/system-reminder-content-with-process-id.md) | Outputs content label including the process ID value. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-create-session-payload.md`](../system-prompts/system-reminder-create-session-payload.md) | Logs creation of a session using the provided payload data. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-created-remote-session.md`](../system-prompts/system-reminder-created-remote-session.md) | Confirms a remote session was created successfully with the given session identifier. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-created-symlink-directory.md`](../system-prompts/system-reminder-created-symlink-directory.md) | Indicate a directory was created to support a symlink target. | 11 | 2.1.49 | 2.1.49 |
@@ -3273,9 +3328,7 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-fast-mode-unavailable-during-evaluation.md`](../system-prompts/system-reminder-fast-mode-unavailable-during-evaluation.md) | States fast mode is unavailable during evaluation and credits are required. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fast-mode-unavailable-reason.md`](../system-prompts/system-reminder-fast-mode-unavailable-reason.md) | Multiple prompts (2) | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fetch-aws-caller-identity-refresh.md`](../system-prompts/system-reminder-fetch-aws-caller-identity-refresh.md) | Fetch AWS caller identity for auth refresh. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-file-suggestion-helper-failed.md`](../system-prompts/system-reminder-file-suggestion-helper-failed.md) | Indicate the file suggestion helper failed and include the error details. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-flagged-plugin-notice.md`](../system-prompts/system-reminder-flagged-plugin-notice.md) | Indicates a plugin has been flagged for review or restriction. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-global-directory-read-failure.md`](../system-prompts/system-reminder-global-directory-read-failure.md) | Failed to read specified directory in global context. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-global-mtls-config-complete.md`](../system-prompts/system-reminder-global-mtls-config-complete.md) | Global mTLS configuration completed. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-global-mtls-config-starting.md`](../system-prompts/system-reminder-global-mtls-config-starting.md) | Global mTLS configuration started. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-hook-denied-use.md`](../system-prompts/system-reminder-hook-denied-use.md) | Records that a hook denied permission to use a specified tool. | 11 | 2.1.49 | 2.1.49 |
@@ -3303,7 +3356,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-notification-failed-installations.md`](../system-prompts/system-reminder-notification-failed-installations.md) | Report failure while adding a notification for a number of failed installations. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-npm-view-failed.md`](../system-prompts/system-reminder-npm-view-failed.md) | Report failure of npm view command with its exit code. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-package-url-reported.md`](../system-prompts/system-reminder-package-url-reported.md) | Logs the package URL used for the update installation. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-parent-directory-not-accessible.md`](../system-prompts/system-reminder-parent-directory-not-accessible.md) | Parent directory missing or not accessible for global. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permission-explainer-error.md`](../system-prompts/system-reminder-permission-explainer-error.md) | Logs an error encountered while running the permission explainer. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-agents-loaded-total.md`](../system-prompts/system-reminder-plugin-agents-loaded-total.md) | Report the total number of plugin agents loaded during startup. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-cache-cleanup-failed.md`](../system-prompts/system-reminder-plugin-cache-cleanup-failed.md) | Reports a plugin cache cleanup failure along with the related error details. | 11 | 2.1.49 | 2.1.49 |
@@ -3331,7 +3383,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-skip-marketplace-autoinstall.md`](../system-prompts/system-reminder-skip-marketplace-autoinstall.md) | Skips official marketplace auto-install because git is unavailable. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-skip-path-mapping-update.md`](../system-prompts/system-reminder-skip-path-mapping-update.md) | Skipped path mapping update because it is not a GitHub repository. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-ssh-config-check-failed.md`](../system-prompts/system-reminder-ssh-config-check-failed.md) | SSH configuration check failed and reports the associated error details. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-stat-global-directory-failure.md`](../system-prompts/system-reminder-stat-global-directory-failure.md) | Failed to stat global directory at the provided path. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-stop-missing-bash-command.md`](../system-prompts/system-reminder-stop-missing-bash-command.md) | Stops speculation at bash due to missing command. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-store-image-failure.md`](../system-prompts/system-reminder-store-image-failure.md) | Failed to store an image due to the provided error details. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-store-paste-failure.md`](../system-prompts/system-reminder-store-paste-failure.md) | Failed to store a paste due to the provided error details. | 11 | 2.1.49 | 2.1.49 |
@@ -3339,7 +3390,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-tag-has-no-suffix.md`](../system-prompts/system-reminder-tag-has-no-suffix.md) | Warn that the specified tag string does not include a suffix. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-trust-not-accepted-skip-installs.md`](../system-prompts/system-reminder-trust-not-accepted-skip-installs.md) | Skips plugin installation because directory trust is not accepted. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-update-warning-detected.md`](../system-prompts/system-reminder-update-warning-detected.md) | Indicates an update warning was detected with associated details. | 11 | 2.1.49 | 2.1.49 |
-| [`system-reminder-write-to-temp-file.md`](../system-prompts/system-reminder-write-to-temp-file.md) | Log message indicating output is being written to a temporary file path. | 11 | 2.1.49 | 2.1.49 |
 | [`system-reminder-add-marketplace-source.md`](../system-prompts/system-reminder-add-marketplace-source.md) | Log that a new marketplace source was added with the given identifier. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-autoupdater-dev-build-blocked.md`](../system-prompts/system-reminder-autoupdater-dev-build-blocked.md) | States auto-update is unavailable for a development build. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-aws-credentials-from-export.md`](../system-prompts/system-reminder-aws-credentials-from-export.md) | AWS credentials retrieved from awsCredentialExport. | 10 | 2.1.49 | 2.1.49 |
@@ -3353,10 +3403,8 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-connection-failed-to-host.md`](../system-prompts/system-reminder-connection-failed-to-host.md) | Failure message indicating an inability to connect to a specified target. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-creating-socket-listener.md`](../system-prompts/system-reminder-creating-socket-listener.md) | Announces creation of a socket listener at the specified address. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-custom-request-headers.md`](../system-prompts/system-reminder-custom-request-headers.md) | Reminder to include specified custom headers when making API calls. | 10 | 2.1.49 | 2.1.49 |
-| [`system-reminder-delete-worktree-branch.md`](../system-prompts/system-reminder-delete-worktree-branch.md) | Could not delete agent worktree branch. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-direct-connect-cleanup-disconnect.md`](../system-prompts/system-reminder-direct-connect-cleanup-disconnect.md) | Logs direct connect cleanup and disconnecting. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-disconnected-from-host.md`](../system-prompts/system-reminder-disconnected-from-host.md) | Indicate disconnection from the specified endpoint or service. | 10 | 2.1.49 | 2.1.49 |
-| [`system-reminder-downloading-marketplace.md`](../system-prompts/system-reminder-downloading-marketplace.md) | Notify that the marketplace package is downloading from a specified source. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-error-signal-value.md`](../system-prompts/system-reminder-error-signal-value.md) | Display the error signal value associated with the current failure. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-error-stack-trace.md`](../system-prompts/system-reminder-error-stack-trace.md) | Display an error stack trace string for debugging and reporting purposes. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-error-value.md`](../system-prompts/system-reminder-error-value.md) | Process error code returned by the last run. | 10 | 2.1.49 | 2.1.49 |
@@ -3387,7 +3435,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-npm-latest-version-failed.md`](../system-prompts/system-reminder-npm-latest-version-failed.md) | Npm registry latest version fetch failed. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-opening-deep-link.md`](../system-prompts/system-reminder-opening-deep-link.md) | Opens the specified deep link target for navigation or resource access. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-loading-errors.md`](../system-prompts/system-reminder-plugin-loading-errors.md) | Reports plugin loading errors and includes the associated error details. | 10 | 2.1.49 | 2.1.49 |
-| [`system-reminder-plugins-load-failure.md`](../system-prompts/system-reminder-plugins-load-failure.md) | Report failure to load plugins with provided error details. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-process-killed-flag.md`](../system-prompts/system-reminder-process-killed-flag.md) | Indicates whether the process was killed. | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-progress-callback-error.md`](../system-prompts/system-reminder-progress-callback-error.md) | Multiple prompts (2) | 10 | 2.1.49 | 2.1.49 |
 | [`system-reminder-received-control-response.md`](../system-prompts/system-reminder-received-control-response.md) | Remote session manager log indicating a control response was received. | 10 | 2.1.49 | 2.1.49 |
@@ -3426,8 +3473,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-fail-create-overlay-directory.md`](../system-prompts/system-reminder-fail-create-overlay-directory.md) | Reports failure creating the overlay directory. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-failed-save-unknown-error.md`](../system-prompts/system-reminder-failed-save-unknown-error.md) | Save failed with an unknown error under policy limits. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-fresh-cached-eligibility-passes.md`](../system-prompts/system-reminder-fresh-cached-eligibility-passes.md) | Indicates passes using fresh cached eligibility data. | 9 | 2.1.49 | 2.1.49 |
-| [`system-reminder-global-plugin-not-found.md`](../system-prompts/system-reminder-global-plugin-not-found.md) | Reports that the global plugin cannot be found in any marketplace. | 9 | 2.1.49 | 2.1.49 |
-| [`system-reminder-hook-condition-met-2.md`](../system-prompts/system-reminder-hook-condition-met-2.md) | Reports that the prompt hook condition evaluated true. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-install-counts-cache-invalid-timestamp.md`](../system-prompts/system-reminder-install-counts-cache-invalid-timestamp.md) | Install counts cache has an invalid fetchedAt timestamp. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-install-version-info-retrieval-failed.md`](../system-prompts/system-reminder-install-version-info-retrieval-failed.md) | Failed to retrieve version information during install. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-manually-removed-item-2.md`](../system-prompts/system-reminder-manually-removed-item-2.md) | Indicates a specified item was successfully removed manually. | 9 | 2.1.49 | 2.1.49 |
@@ -3444,7 +3489,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-permission-denied.md`](../system-prompts/system-reminder-permission-denied.md) | Indicate tool execution failed because permission was denied. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-permission-explainer-no-parsed-output.md`](../system-prompts/system-reminder-permission-explainer-no-parsed-output.md) | Indicates the permission explainer response had no parsed output. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-plugin-skills-load-failed.md`](../system-prompts/system-reminder-plugin-skills-load-failed.md) | Notes plugin skills failed to load and continues without them. | 9 | 2.1.49 | 2.1.49 |
-| [`system-reminder-reading-marketplace-source.md`](../system-prompts/system-reminder-reading-marketplace-source.md) | Read marketplace data from the specified source path EXPR_1. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-refreshed-after-auth-change.md`](../system-prompts/system-reminder-refreshed-after-auth-change.md) | Policy limits refreshed after an auth change. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-settings-refresh-after-auth.md`](../system-prompts/system-reminder-remote-settings-refresh-after-auth.md) | remote settings refreshed after authentication change | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-remote-settings-save-failed.md`](../system-prompts/system-reminder-remote-settings-save-failed.md) | remote settings save failed with unknown error | 9 | 2.1.49 | 2.1.49 |
@@ -3460,7 +3504,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-strict-mode-setting.md`](../system-prompts/system-reminder-strict-mode-setting.md) | Logs the current strict mode setting value. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-unexpected-token.md`](../system-prompts/system-reminder-unexpected-token.md) | Reports that an unexpected token was encountered during parsing. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-using-stale-cache-after-error.md`](../system-prompts/system-reminder-using-stale-cache-after-error.md) | Using stale policy cache after an error. | 9 | 2.1.49 | 2.1.49 |
-| [`system-reminder-verify-parent-directory-exists.md`](../system-prompts/system-reminder-verify-parent-directory-exists.md) | Checks whether the parent directory still exists. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-websocket-closing-connection.md`](../system-prompts/system-reminder-websocket-closing-connection.md) | WebSocket connection is closing. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-websocket-force-reconnecting.md`](../system-prompts/system-reminder-websocket-force-reconnecting.md) | WebSocket forced to reconnect. | 9 | 2.1.49 | 2.1.49 |
 | [`system-reminder-websocket-not-reconnecting.md`](../system-prompts/system-reminder-websocket-not-reconnecting.md) | WebSocket will not reconnect. | 9 | 2.1.49 | 2.1.49 |
@@ -3546,7 +3589,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-npm-stderr-empty.md`](../system-prompts/system-reminder-npm-stderr-empty.md) | npm stderr output was empty. | 6 | 2.1.49 | 2.1.49 |
 | [`system-reminder-preserve-permissions-temp-file.md`](../system-prompts/system-reminder-preserve-permissions-temp-file.md) | Original file permissions are applied to the temp file. | 6 | 2.1.49 | 2.1.49 |
 | [`system-reminder-shell-path-already-configured.md`](../system-prompts/system-reminder-shell-path-already-configured.md) | Shell PATH already configured. | 6 | 2.1.49 | 2.1.49 |
-| [`system-reminder-snapshots-directory-global.md`](../system-prompts/system-reminder-snapshots-directory-global.md) | Records that the snapshots directory is set to global. | 6 | 2.1.49 | 2.1.49 |
 | [`system-reminder-socket-permissions-set-failure.md`](../system-prompts/system-reminder-socket-permissions-set-failure.md) | Socket permissions could not be set. | 6 | 2.1.49 | 2.1.49 |
 | [`system-reminder-startup-profiling-report.md`](../system-prompts/system-reminder-startup-profiling-report.md) | Shows the startup profiling report header. | 6 | 2.1.49 | 2.1.49 |
 | [`system-reminder-stream-first-chunk-received.md`](../system-prompts/system-reminder-stream-first-chunk-received.md) | stream started and first chunk received | 6 | 2.1.49 | 2.1.49 |
@@ -3583,7 +3625,6 @@ _Sorted by last edit (newest first). Showing **328** reminders with more than **
 | [`system-reminder-cached-install-counts.md`](../system-prompts/system-reminder-cached-install-counts.md) | Indicates cached install counts are being used. | 4 | 2.1.49 | 2.1.49 |
 | [`system-reminder-error-log-sink-initialized.md`](../system-prompts/system-reminder-error-log-sink-initialized.md) | Indicates the error log sink was initialized. | 4 | 2.1.49 | 2.1.49 |
 | [`system-reminder-flow-indicator-comma.md`](../system-prompts/system-reminder-flow-indicator-comma.md) | Flags a flow indicator character as a comma. | 4 | 2.1.49 | 2.1.49 |
-| [`system-reminder-invalid-global-escape-sequence.md`](../system-prompts/system-reminder-invalid-global-escape-sequence.md) | Indicate an invalid global escape sequence. | 4 | 2.1.49 | 2.1.49 |
 | [`system-reminder-login-success.md`](../system-prompts/system-reminder-login-success.md) | Indicates a successful Claude Code login event. | 4 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-stderr-output-captured.md`](../system-prompts/system-reminder-no-stderr-output-captured.md) | No stderr output was captured. | 4 | 2.1.49 | 2.1.49 |
 | [`system-reminder-no-stdout-output-captured.md`](../system-prompts/system-reminder-no-stdout-output-captured.md) | No stdout output was captured. | 4 | 2.1.49 | 2.1.49 |

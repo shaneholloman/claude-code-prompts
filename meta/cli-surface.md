@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 33
-- Options: 71
-- Env vars: 498
-- Config keys: 783
+- Options: 72
+- Env vars: 500
+- Config keys: 798
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -138,6 +138,7 @@
 - `--no-session-persistence`
 - `--plugin-dir`
 - `--print`
+- `--remote-control-session-name-prefix`
 - `--replay-user-messages`
 - `--resume`
 - `--scope`
@@ -203,6 +204,7 @@
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir <path>`
+- `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
 - `--scope <scope>`
 - `--session-id <uuid>`
@@ -458,9 +460,11 @@
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SIMPLE`
+- `CLAUDE_CODE_SIMULATE_PROXY_USAGE`
 - `CLAUDE_CODE_SKIP_ANTHROPIC_AWS_AUTH`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FAST_MODE_NETWORK_ERRORS`
+- `CLAUDE_CODE_SKIP_FAST_MODE_ORG_CHECK`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
@@ -502,6 +506,7 @@
 - `CLAUDE_LOCAL_OAUTH_API_BASE`
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
 - `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
+- `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
 - `CLAUDE_REPL_MODE`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
@@ -526,7 +531,6 @@
 - `DISABLE_AUTO_COMPACT`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
-- `DISABLE_CLAUDE_CODE_SM_COMPACT`
 - `DISABLE_COMPACT`
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_DOCTOR_COMMAND`
@@ -544,6 +548,7 @@
 - `DISABLE_PROMPT_CACHING_SONNET`
 - `DISABLE_TELEMETRY`
 - `DISABLE_UPGRADE_COMMAND`
+- `DO_NOT_TRACK`
 - `DYNO`
 - `EDITOR`
 - `EMBEDDED_SEARCH_TOOLS`
@@ -688,7 +693,6 @@
 - `SYSTEMROOT`
 - `TASK_MAX_OUTPUT_LENGTH`
 - `TEAM_MEMORY_SYNC_URL`
-- `TEMP`
 - `TERM`
 - `TERM_PROGRAM`
 - `TERM_PROGRAM_VERSION`
@@ -731,7 +735,6 @@
 
 ## Config Keys
 
-- `$`
 - `$docs`
 - `$schema`
 - `access_token`
@@ -768,6 +771,7 @@
 - `allowedTools`
 - `allowGitConfig`
 - `allowLocalBinding`
+- `allowMachLookup`
 - `allowManagedDomainsOnly`
 - `allowManagedHooksOnly`
 - `allowManagedMcpServersOnly`
@@ -815,8 +819,10 @@
 - `autoCompactThreshold`
 - `autoCompactWindow`
 - `autoDreamEnabled`
+- `autoEnable`
 - `autoMemoryDirectory`
 - `autoMemoryEnabled`
+- `autoSubmit`
 - `autoUpdate`
 - `autoUpdatesChannel`
 - `available_output_styles`
@@ -837,7 +843,7 @@
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
-- `bpfPath`
+- `bN`
 - `branch`
 - `budgetTokens`
 - `bytes`
@@ -918,6 +924,7 @@
 - `description`
 - `destination`
 - `destructive`
+- `detail`
 - `details`
 - `dimensions`
 - `directories`
@@ -933,7 +940,6 @@
 - `displayHeight`
 - `displayName`
 - `displayWidth`
-- `DN`
 - `domains`
 - `dry_run`
 - `durable`
@@ -987,7 +993,6 @@
 - `fast_mode_state`
 - `fastMode`
 - `fastModePerSessionOptIn`
-- `fb`
 - `feedback`
 - `feedbackSurveyRate`
 - `file`
@@ -1005,12 +1010,15 @@
 - `fileSuggestion`
 - `filesystem`
 - `firstPrompt`
+- `firstTerminalAt`
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
+- `forceRemoteSettingsRefresh`
 - `forceRemoveDeletedPlugins`
 - `format`
 - `from`
+- `gb`
 - `gcpAuthRefresh`
 - `getOAuthToken`
 - `getUserId`
@@ -1024,6 +1032,7 @@
 - `header`
 - `headers`
 - `headersHelper`
+- `headlineField`
 - `heartbeat_interval_ms`
 - `heartbeat_jitter_fraction`
 - `homepage`
@@ -1068,6 +1077,7 @@
 - `installedAt`
 - `installLocation`
 - `installPath`
+- `intent`
 - `interrupt`
 - `interrupted`
 - `is_error`
@@ -1155,7 +1165,9 @@
 - `multisession_poll_interval_ms_not_at_capacity`
 - `multisession_poll_interval_ms_partial_capacity`
 - `name`
+- `needs`
 - `needs_action`
+- `needs_you`
 - `network`
 - `network_config`
 - `new_cwd`
@@ -1177,6 +1189,7 @@
 - `numFiles`
 - `numLines`
 - `numMatches`
+- `O`
 - `oauth`
 - `ok`
 - `old_cwd`
@@ -1199,6 +1212,7 @@
 - `originalHeight`
 - `originalSize`
 - `originalWidth`
+- `originCwd`
 - `otelHeadersHelper`
 - `outcome`
 - `output`
@@ -1261,6 +1275,7 @@
 - `preview`
 - `previousValue`
 - `priority`
+- `proactive`
 - `processed_at`
 - `projectPath`
 - `projectSettings`
@@ -1431,6 +1446,8 @@
 - `teammate_name`
 - `teamName`
 - `teardown_archive_timeout_ms`
+- `template`
+- `tempo`
 - `terminal_reason`
 - `terminalTitleFromRename`
 - `text`
@@ -1499,6 +1516,7 @@
 - `verbs`
 - `verificationNudgeNeeded`
 - `version`
+- `voice`
 - `watchPaths`
 - `web_fetch_requests`
 - `web_search_requests`
@@ -1511,6 +1529,7 @@
 - `worktree`
 - `worktree_path`
 - `worktreeBranch`
+- `worktreeHookBased`
 - `worktreePath`
 - `ws_url`
 - `xaa`
