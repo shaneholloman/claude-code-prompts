@@ -71,6 +71,4 @@ verify_plan_reminder
 
 current_session_memory
 
-compaction_reminder
-
 date_change
