@@ -13,6 +13,10 @@ USAGE
   claude remote-control [options]
 OPTIONS
   --name <name>                    Name for the session (shown in claude.ai${PATH})
+  --remote-control-session-name-prefix <prefix>
+                                   Prefix for auto-generated session names
+                                   (default: hostname; env:
+                                   CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX)
   --permission-mode <mode>         Permission mode for spawned sessions
                                    (${EXPR_1})
   --debug-file <path>              Write debug logs to file
