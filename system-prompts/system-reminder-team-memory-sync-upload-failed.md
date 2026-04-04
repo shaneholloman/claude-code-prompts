@@ -7,4 +7,4 @@
 Notification of upload failure for team memory sync.
 
 # Raw Prompt Text
-team-memory-sync: upload failed: ${EXPR_1} ${NUM}
+team-memory-sync: upload failed: ${EXPR_1} ${EXPR_2}
