@@ -19,9 +19,9 @@ SNAPSHOT_FILE=Don't add features, refactor code, or make "improvements" beyond w
       echo "# Unset all aliases to avoid conflicts with functions" >> "$SNAPSHOT_FILE"
       echo "unalias -a ${NUM}>${PATH} || true" >> "$SNAPSHOT_FILE"
 
-      ${NUM}
+      stable
 
-      ${EXPR_1}
+      npm view ${EXPR_1}@${EXPR_2} version
 
       # Exit silently on success, only report errors
       if [ ! -f "$SNAPSHOT_FILE" ]; then
