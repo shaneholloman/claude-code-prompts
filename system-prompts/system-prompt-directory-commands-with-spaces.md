@@ -25,4 +25,4 @@ ${EXPR_5}
 
 Avoid unnecessary `sleep` commands:
 
-${NUM}
+stable
