@@ -7,4 +7,4 @@
 Notification for bumped plugin status.
 
 # Raw Prompt Text
-(${EXPR_1} plugin bumped)
+(${NUM} plugin bumped)
