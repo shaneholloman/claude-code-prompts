@@ -7,4 +7,4 @@
 Rejecting a foreign session in the bridge REPL.
 
 # Raw Prompt Text
-[bridge:repl] Rejecting foreign session: expected=${NUM} got=${EXPR_1}
+[bridge:repl] Rejecting foreign session: expected=${EXPR_1} got=${EXPR_2}
