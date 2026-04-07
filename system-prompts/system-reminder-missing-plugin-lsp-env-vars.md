@@ -1,4 +1,4 @@
-# System Prompt: missing-plugin-lsp-env-vars
+# System Prompt: missing-env-vars-plugin-lsp
 
 - Source: inline
 
