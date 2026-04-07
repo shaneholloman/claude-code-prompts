@@ -16,10 +16,10 @@ description: Verify that a code change actually does what it's supposed to by ru
 drive it to where the changed code executes, and capture what you
 see. That capture is your evidence. Nothing else is.
 
-**Don't run tests. Don't typecheck.** CI ran both before you got here
-— green checks on the PR mean they passed. Running them again proves
-you can run CI. Not as a warm-up, not "just to be sure," not as a
-regression sweep after. The time goes to running the app instead.
+**Don't run tests. Don't typecheck.** CI ran both before you got
+here. Running them again proves you can run CI. Not as a warm-up,
+not "just to be sure," not as a regression sweep after. The time
+goes to running the app instead.
 
 **Don't import-and-call.** `import { foo } from '.${PATH}'` then
 `console.log(foo(x))` is a unit test you wrote. The function did what
@@ -165,7 +165,10 @@ omit for build${PATH}>
 a first-time user would trip on. "Took three tries to find the right
 flag." "Error message on typo was unhelpful." "Default seems odd for
 the common case." "Works, but slower than I expected." Lower the bar:
-if it made you pause, it goes here. Claim${PATH} mismatch, pre-existing
+if it made you pause, it goes here. But the pause has to be yours,
+from running the app — not from reading the PR page. A red CI check,
+a review comment, someone else's bot: visible to anyone already, and
+you relaying it isn't an observation. Claim${PATH} mismatch, pre-existing
 breakage, and env notes also belong.
 
 Lead with ⚠️ for lines worth interrupting the reviewer for — those get
