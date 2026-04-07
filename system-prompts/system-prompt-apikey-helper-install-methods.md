@@ -82,3 +82,5 @@ prStatusFooterEnabled
 remoteControlAtStartup
 
 remoteDialogSeen
+
+loopAutoEnabled
