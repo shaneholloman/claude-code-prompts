@@ -59,6 +59,8 @@ chat:imagePaste
 
 chat:messageActions
 
+chat:clearInput
+
 autocomplete:accept
 
 autocomplete:dismiss
