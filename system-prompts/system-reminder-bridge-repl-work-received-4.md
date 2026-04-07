@@ -7,4 +7,4 @@
 Notification of received work with IDs.
 
 # Raw Prompt Text
-[bridge:repl] Work received: workId=${EXPR_1} workSessionId=${EXPR_2} currentSessionId=${NUM} match=${EXPR_3}
+[bridge:repl] Work received: workId=${EXPR_1} workSessionId=${EXPR_2} currentSessionId=${EXPR_3} match=${EXPR_4}
