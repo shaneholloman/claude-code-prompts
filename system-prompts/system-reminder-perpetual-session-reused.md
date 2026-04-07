@@ -7,4 +7,4 @@
 Indicates a reused perpetual session in the bridge REPL.
 
 # Raw Prompt Text
-[bridge:repl] Perpetual session reused: ${NUM}
+[bridge:repl] Perpetual session reused: ${EXPR_1}
