@@ -10,5 +10,5 @@ Command for shadow finding with embedded BFS.
 # Shadow find${PATH} with embedded bfs${PATH} (ant-native only)
       echo "# Shadow find${PATH} with embedded bfs${PATH}" >> "$SNAPSHOT_FILE"
       cat >> "$SNAPSHOT_FILE" << 'FIND_GREP_FUNC_END'
-${EXPR_1}
+stable
 FIND_GREP_FUNC_END
