@@ -7,4 +7,4 @@
 Skipping transport due to configuration issue.
 
 # Raw Prompt Text
-[bridge:repl] sendResult: skipping, transport not configured session=${NUM}
+[bridge:repl] sendResult: skipping, transport not configured session=${EXPR_1}
