@@ -7,4 +7,4 @@
 Reached the environment reconnect limit.
 
 # Raw Prompt Text
-[bridge:repl] Environment reconnect limit reached (${EXPR_1}), giving up
+[bridge:repl] Environment reconnect limit reached (/), giving up
