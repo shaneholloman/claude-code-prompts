@@ -7,4 +7,4 @@
 Initial flush operation encountered a failure.
 
 # Raw Prompt Text
-[bridge:repl] Initial flush failed: ${EXPR_1}
+[bridge:repl] Initial flush failed: ${EXPR_1}(${EXPR_2})
