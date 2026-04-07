@@ -19,6 +19,14 @@ For the Claude model version, please use {{OPUS_NAME}}, which you can access via
 
 ---
 
+## Subcommands
+
+If the User Request at the bottom of this prompt is a bare subcommand string (no prose), search every **Subcommands** table in this document — including any in sections appended below — and follow the matching Action column directly. This lets users invoke specific flows via `${PATH} <subcommand>`. If no table in the document matches, treat the request as normal prose.
+
+<!-- Subcommand tables are defined per-section below; this header block contains only the dispatch rule so that feature-gated sections can add their own tables without leaking strings into ungated builds. -->
+
+---
+
 ## Language Detection
 
 Before reading code examples, determine which language the user is working in:
