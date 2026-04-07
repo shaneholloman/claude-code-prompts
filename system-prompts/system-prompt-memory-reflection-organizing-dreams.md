@@ -36,6 +36,8 @@ ${NUM}. **Transcript search** — if you need specific context (e.g., "what was 
 
 Don't exhaustively read transcripts. Look only for things you already suspect matter.
 
+${EXPR_4}
+
 ## Phase ${NUM} — Consolidate
 
 For each thing worth remembering, write or update a memory file at the top level of the memory directory. Use the memory file format and type conventions from your system prompt's auto-memory section — it's the source of truth for what to save, how to structure it, and what NOT to save.
@@ -60,4 +62,4 @@ Return a brief summary of what you consolidated, updated, or pruned. If nothing 
 
 ## Additional context
 
-${EXPR_4}
+${EXPR_5}
