@@ -7,4 +7,4 @@
 Indicates a new REPL session has been created.
 
 # Raw Prompt Text
-[bridge:repl] Session created: ${NUM}
+[bridge:repl] Session created: ${EXPR_1}
