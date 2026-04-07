@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 500
-- Config keys: 798
+- Env vars: 506
+- Config keys: 801
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -241,6 +241,7 @@
 - `ANTHROPIC_AWS_WORKSPACE_ID`
 - `ANTHROPIC_BASE_URL`
 - `ANTHROPIC_BEDROCK_BASE_URL`
+- `ANTHROPIC_BEDROCK_MANTLE_BASE_URL`
 - `ANTHROPIC_BETAS`
 - `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_CUSTOM_MODEL_OPTION`
@@ -417,6 +418,7 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
+- `CLAUDE_CODE_MCP_ALLOWLIST_ENV`
 - `CLAUDE_CODE_NEW_INIT`
 - `CLAUDE_CODE_NO_FLICKER`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
@@ -453,6 +455,7 @@
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
+- `CLAUDE_CODE_SANDBOXED`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SCROLL_SPEED`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
@@ -466,6 +469,7 @@
 - `CLAUDE_CODE_SKIP_FAST_MODE_NETWORK_ERRORS`
 - `CLAUDE_CODE_SKIP_FAST_MODE_ORG_CHECK`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
+- `CLAUDE_CODE_SKIP_MANTLE_AUTH`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
@@ -478,6 +482,7 @@
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TASK_LIST_ID`
+- `CLAUDE_CODE_TEAM_ONBOARDING`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_TMUX_PREFIX`
@@ -489,6 +494,7 @@
 - `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
 - `CLAUDE_CODE_USE_FOUNDRY`
+- `CLAUDE_CODE_USE_MANTLE`
 - `CLAUDE_CODE_USE_NATIVE_FILE_SEARCH`
 - `CLAUDE_CODE_USE_POWERSHELL_TOOL`
 - `CLAUDE_CODE_USE_VERTEX`
@@ -843,7 +849,6 @@
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
-- `bN`
 - `branch`
 - `budgetTokens`
 - `bytes`
@@ -936,6 +941,7 @@
 - `disallowedTools`
 - `discardedCommits`
 - `discardedFiles`
+- `display`
 - `display_name`
 - `displayHeight`
 - `displayName`
@@ -947,6 +953,7 @@
 - `duration_ms`
 - `durationMs`
 - `durationSeconds`
+- `Dx`
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
@@ -1018,7 +1025,6 @@
 - `forceRemoveDeletedPlugins`
 - `format`
 - `from`
-- `gb`
 - `gcpAuthRefresh`
 - `getOAuthToken`
 - `getUserId`
@@ -1229,6 +1235,7 @@
 - `overageResetsAt`
 - `overageStatus`
 - `owner`
+- `Oy`
 - `package`
 - `padding`
 - `paneId`
@@ -1356,7 +1363,9 @@
 - `service_tier`
 - `session_id`
 - `session_keepalive_interval_v2_ms`
+- `session_title`
 - `sessionId`
+- `sessionTitle`
 - `setting`
 - `settings`
 - `sha`
