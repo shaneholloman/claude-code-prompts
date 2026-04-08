@@ -1,7 +1,7 @@
 # Tool Prompt: npm-view-package-version
 
 - Name: global
-- Description: null
+- Description: stdio
 - Source: plugin
 
 ## Summary
