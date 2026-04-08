@@ -262,12 +262,12 @@ Basic HTML and CSS structure with styling details.
 
     ${EXPR_22}
 
-    ${EXPR_23}
+    GitHub not connected for ${EXPR_23}/${EXPR_24} — run ${PATH} to sync your GitHub credentials, or install the Claude GitHub App at ${URL}
 
     server
 
-    ${EXPR_24}
+    ${EXPR_25}
   <${PATH}>
-  <script>${EXPR_25}${EXPR_26}${EXPR_27}${EXPR_28}${EXPR_29}<${PATH}>
+  <script>${EXPR_26}${EXPR_27}${EXPR_28}${EXPR_29}${EXPR_30}<${PATH}>
 <${PATH}>
 <${PATH}>
