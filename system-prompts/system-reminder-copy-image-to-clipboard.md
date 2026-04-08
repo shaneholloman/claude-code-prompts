@@ -4,7 +4,7 @@
 
 ## Summary
 
-Load an image from a file path and copy it to Windows clipboard.
+Loads an image file and sets it to the Windows clipboard.
 
 # Raw Prompt Text
-Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Clipboard]::SetImage([System.Drawing.Image]::FromFile('${EXPR_1}
+Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Clipboard]::SetImage([System.Drawing.Image]::FromFile('${EXPR_1}'))
