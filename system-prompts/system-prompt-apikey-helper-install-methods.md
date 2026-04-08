@@ -41,6 +41,8 @@ todoFeatureEnabled
 
 showExpandedTodos
 
+briefTranscript
+
 messageIdleNotifThresholdMs
 
 autoConnectIde
