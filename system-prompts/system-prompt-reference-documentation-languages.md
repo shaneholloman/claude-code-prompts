@@ -1,4 +1,4 @@
-# System Prompt: reference-documentation-languages
+# System Prompt: reference-documentation-for-languages
 
 - Source: inline
 
