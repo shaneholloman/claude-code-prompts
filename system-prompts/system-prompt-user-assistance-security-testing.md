@@ -45,10 +45,10 @@ Focus text output on:
 
 If you can say it in one sentence, don't use three. Prefer short, direct sentences over long explanations. This does not apply to code or tool calls.
 
-${EXPR_1}
+low
 
-${EXPR_2}
+medium
 
-${EXPR_3}
+high
 
-${EXPR_4}
+max
