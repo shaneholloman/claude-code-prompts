@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Multiple prompts (3)
 
 # Raw Prompt Text
 ${EXPR_1}
@@ -22,4 +22,3 @@ ${EXPR_7}
 ${EXPR_8}
 ${EXPR_9}
 ${EXPR_10}
-${EXPR_11}
