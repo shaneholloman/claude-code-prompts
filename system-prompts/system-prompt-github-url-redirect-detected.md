@@ -1,0 +1,18 @@
+# System Prompt: github-url-redirect-detected
+
+- Source: inline
+
+## Summary
+
+Notification of a URL redirect issue.
+
+# Raw Prompt Text
+REDIRECT DETECTED: The URL redirects to a different host.
+
+Original URL: ${EXPR_1}
+Redirect URL: ${EXPR_2}
+Status: ${EXPR_3} GitHub not connected for ${EXPR_4}/${EXPR_5} — run ${PATH} to sync your GitHub credentials, or install the Claude GitHub App at ${URL}
+
+To complete your request, I need to fetch content from the redirected URL. Please use WebFetch again with these parameters:
+- url: "${EXPR_6}"
+- prompt: "${EXPR_7}"
