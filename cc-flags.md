@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.96
+# Claude Code Flags 2.1.97
 
 ## Feature Gates
 
@@ -32,6 +32,7 @@
 - `tengu_kairos_cron`
 - `tengu_kairos_cron_config`
 - `tengu_kairos_cron_durable`
+- `tengu_kairos_dream`
 - `tengu_malort_pedway`
 - `tengu_max_version_config`
 - `tengu_sm_compact_config`

@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 506
-- Config keys: 801
+- Env vars: 504
+- Config keys: 819
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -264,6 +264,7 @@
 - `ANTHROPIC_SMALL_FAST_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL_AWS_REGION`
 - `ANTHROPIC_UNIX_SOCKET`
+- `ANTHROPIC_VERTEX_BASE_URL`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
 - `API_TIMEOUT_MS`
 - `APP_URL`
@@ -298,7 +299,6 @@
 - `AZURE_USERNAME`
 - `BASH_MAX_OUTPUT_LENGTH`
 - `BAT_THEME`
-- `BEDROCK_BASE_URL`
 - `BETA_TRACING_ENDPOINT`
 - `BROWSER`
 - `BUGHUNTER_DEV_BUNDLE_B64`
@@ -451,12 +451,10 @@
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SEND_KEEPALIVES`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
-- `CLAUDE_CODE_REPL`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_SANDBOXED`
-- `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SCROLL_SPEED`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
@@ -513,7 +511,6 @@
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
 - `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
 - `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
-- `CLAUDE_REPL_MODE`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
@@ -587,6 +584,7 @@
 - `GITHUB_REPOSITORY_ID`
 - `GITHUB_REPOSITORY_OWNER`
 - `GITHUB_REPOSITORY_OWNER_ID`
+- `GITHUB_TOKEN`
 - `GITLAB_CI`
 - `GITPOD_WORKSPACE_ID`
 - `GNOME_TERMINAL_SERVICE`
@@ -723,7 +721,6 @@
 - `V`
 - `VCR_RECORD`
 - `VERCEL`
-- `VERTEX_BASE_URL`
 - `VISUAL`
 - `VOICE_STREAM_BASE_URL`
 - `VSCODE_GIT_ASKPASS_MAIN`
@@ -738,17 +735,21 @@
 - `XDG_RUNTIME_DIR`
 - `XTERM_VERSION`
 - `ZED_TERM`
+- `ZELLIJ`
 
 ## Config Keys
 
+- `_x`
 - `$docs`
 - `$schema`
+- `A`
 - `access_token`
 - `account`
 - `acquiredAt`
 - `action`
 - `activeForm`
 - `added`
+- `additional_model_costs`
 - `additional_model_options`
 - `additionalCommandIsDangerousCallback`
 - `additionalContext`
@@ -841,6 +842,7 @@
 - `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
+- `bashCount`
 - `behavior`
 - `betas`
 - `bindings`
@@ -874,6 +876,7 @@
 - `channelsEnabled`
 - `character`
 - `checksum`
+- `children`
 - `claude_code_version`
 - `claudeMdExcludes`
 - `cleanupPeriodDays`
@@ -918,6 +921,7 @@
 - `defaultShell`
 - `deferred_tool_use`
 - `deferredBuiltinTools`
+- `deletedEntries`
 - `deletions`
 - `deniedDomains`
 - `deniedMcpServers`
@@ -953,10 +957,10 @@
 - `duration_ms`
 - `durationMs`
 - `durationSeconds`
-- `Dx`
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
+- `editFileCount`
 - `effective`
 - `effort`
 - `effortLevel`
@@ -990,6 +994,7 @@
 - `eventName`
 - `excludedCommands`
 - `excludeDefault`
+- `excludeDynamicSections`
 - `exit_code`
 - `experimental`
 - `expires_in`
@@ -1038,7 +1043,6 @@
 - `header`
 - `headers`
 - `headersHelper`
-- `headlineField`
 - `heartbeat_interval_ms`
 - `heartbeat_jitter_fraction`
 - `homepage`
@@ -1051,6 +1055,7 @@
 - `hooks`
 - `hookSpecificOutput`
 - `hostPattern`
+- `href`
 - `http`
 - `http_timeout_ms`
 - `httpHookAllowedEnvVars`
@@ -1119,7 +1124,10 @@
 - `line`
 - `lineEnd`
 - `lines`
+- `linesAdded`
+- `linesRemoved`
 - `lineStart`
+- `linkScanOffset`
 - `load_reason`
 - `localSettings`
 - `login`
@@ -1195,7 +1203,6 @@
 - `numFiles`
 - `numLines`
 - `numMatches`
-- `O`
 - `oauth`
 - `ok`
 - `old_cwd`
@@ -1220,6 +1227,7 @@
 - `originalWidth`
 - `originCwd`
 - `otelHeadersHelper`
+- `otherToolCount`
 - `outcome`
 - `output`
 - `output_file`
@@ -1235,7 +1243,6 @@
 - `overageResetsAt`
 - `overageStatus`
 - `owner`
-- `Oy`
 - `package`
 - `padding`
 - `paneId`
@@ -1287,6 +1294,8 @@
 - `projectPath`
 - `projectSettings`
 - `prompt`
+- `prompt_cache_read_tokens`
+- `prompt_cache_write_tokens`
 - `prompt_response`
 - `promptSuggestionEnabled`
 - `promptSuggestions`
@@ -1298,6 +1307,7 @@
 - `rateLimitType`
 - `rawMaxTokens`
 - `rawOutputPath`
+- `readCount`
 - `readOnly`
 - `reason`
 - `reasoning`
@@ -1308,8 +1318,10 @@
 - `recurringCapMs`
 - `recurringFrac`
 - `recurringMaxAgeMs`
+- `redirectedContextTokens`
 - `ref`
 - `refresh_token`
+- `refreshInterval`
 - `region`
 - `registry`
 - `remote`
@@ -1347,6 +1359,7 @@
 - `schema`
 - `scope`
 - `sdkMcpServers`
+- `searchCount`
 - `seccomp`
 - `selected`
 - `selection`
@@ -1483,6 +1496,7 @@
 - `toolName`
 - `toolResultTokens`
 - `tools`
+- `toolStats`
 - `toolUseId`
 - `toolUseID`
 - `total_cost_usd`
@@ -1525,6 +1539,7 @@
 - `verbs`
 - `verificationNudgeNeeded`
 - `version`
+- `viewMode`
 - `voice`
 - `watchPaths`
 - `web_fetch_requests`
@@ -1542,6 +1557,7 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
+- `zy`
 
 ## Tools
 

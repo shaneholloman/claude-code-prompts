@@ -1,4 +1,4 @@
-# Claude Code 2.1.96 – Flags
+# Claude Code 2.1.97 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -20,6 +20,7 @@
 | `tengu_kairos_cron` | config | tools | Enables session-only cron tools to schedule prompts to run later or on a recurring schedule. | Disabled when CLAUDE_CODE_DISABLE_CRON is set. | high | 1 |
 | `tengu_kairos_cron_config` | config | tools | Configures cron scheduling jitter/recurrence limits for a background job runner. | Only schema and accessor names are visible; the specific jobs affected aren’t shown. | medium | 1 |
 | `tengu_kairos_cron_durable` | config | filesystem | Controls whether scheduled prompts are persisted to .claude/scheduled_tasks.json (durable vs session-only). | Set durable: true to write to disk; otherwise schedules are session-only. | high | 1 |
+| `tengu_kairos_dream` | config | tools | Enables a scheduled “Dream” skill used to verify code changes by running the app. | Gated by additional runtime checks (SG() and I3()) besides the flag value. | medium | 1 |
 | `tengu_malort_pedway` | config | ui | Enables a “Chicago” UI feature (with coordinateMode) only for max/pro tiers. | Flag name is opaque; behavior inferred from exported getters and hotkey usage nearby. | medium | 1 |
 | `tengu_max_version_config` | config | tools | Minimum-version config used to block applying an update when the target version is too old. | Config also exposes optional `external` and `external_message` fields, likely for update messaging. | medium | 1 |
 | `tengu_powershell_command_interrupt_backgrounded` | gate | tools | Enables killing a backgrounded PowerShell command when an interrupt signal is received. | Observed in runPowerShellCommand flow; exact on/off behavior inferred from a kill() call behind the gate check. | medium | 1 |
