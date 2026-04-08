@@ -57,7 +57,8 @@ ${NUM}. The statusLine command will receive the following JSON input via stdin:
      "workspace": {
        "current_dir": "string",  // Current working directory path
        "project_dir": "string",  // Project root directory path
-       "added_dirs": ["string"]  // Directories added via ${PATH}
+       "added_dirs": ["string"], // Directories added via ${PATH}
+       "git_worktree": "string"  // Optional: git worktree name when cwd is in a linked worktree
      },
      "version": "string",        // Claude Code app version (e.g., "${NUM}.${NUM}")
      "output_style": {
