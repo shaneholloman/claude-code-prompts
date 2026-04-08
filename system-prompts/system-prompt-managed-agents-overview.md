@@ -1,0 +1,70 @@
+# System Prompt: managed-agents-overview
+
+- Source: inline
+
+## Summary
+
+Overview of managed agents and session management.
+
+# Raw Prompt Text
+# Managed Agents — Overview
+
+Managed Agents provisions a container per session as the agent's workspace. The agent loop runs on Anthropic's orchestration layer; the container is where the agent's *tools* execute — bash commands, file operations, code. You create a persisted **Agent** config (model, system prompt, tools, MCP servers, skills), then start **Sessions** that reference it. The session streams events back to you; you send user messages and tool results in.
+
+## ⚠️ THE MANDATORY FLOW: Agent (once) → Session (every run)
+
+**Why agents are separate objects: versioning.** An agent is a persisted, versioned config — every update creates a new immutable version, and sessions pin to a version at creation time. This lets you iterate on the agent (tweak the prompt, add a tool) without breaking sessions already running, roll back if a change regresses, and A/B test versions side-by-side. None of that works if you `agents.create()` fresh on every run.
+
+Every session references a pre-created `${PATH}` object. Create the agent once, store the ID, and reuse it across runs.
+
+| Step | Call | Frequency |
+|---|---|---|
+| ${NUM} | `POST ${PATH}` — `model`, `system`, `tools`, `mcp_servers`, `skills` live here | **ONCE.** Store `agent.id` **and** `agent.version`. |
+| ${NUM} | `POST ${PATH}` — `agent: "agent_abc123"` or `{type: "agent", id, version}` | **Every run.** String shorthand uses latest version. |
+
+If you're about to write `sessions.create()` with `model`, `system`, or `tools` on the session body — **stop**. Those fields live on `agents.create()`. The session takes a *pointer* only.
+
+**When generating code, separate setup from runtime.** `agents.create()` belongs in a setup script (or a guarded `if agent_id is None:` block), not at the top of the hot path. If the user's code calls `agents.create()` on every invocation, they're accumulating orphaned agents and paying the create latency for nothing. The correct shape is: create once → persist the ID (config file, env var, secrets manager) → every run loads the ID and calls `sessions.create()`.
+
+**To change the agent's behavior, use `POST ${PATH}{id}` — don't create a new one.** Each update bumps the version; running sessions keep their pinned version, new sessions get the latest (or pin explicitly via `{type: "agent", id, version}`). See `shared${PATH}` → Agents → Versioning.
+
+## Beta Headers
+
+Managed Agents is in beta. The SDK sets required beta headers automatically:
+
+| Beta Header                    | What it enables                                      |
+| ------------------------------ | ---------------------------------------------------- |
+| `managed-agents-${DATE}`    | Agents, Environments, Sessions, Events, Session Resources, Vaults, Credentials |
+| `skills-${DATE}`            | Skills API (for managing custom skill definitions)   |
+| `files-api-${DATE}`         | Files API for file uploads                           |
+
+**Note: do not intermix beta headers** — If you need to upload a skill or file via the Skills API or Files API you will need to use the appropriate beta header as listed above. However, you do NOT need to inlude either the Skills or Files beta header when using any of the Managed Agents endpints listed in row ${NUM} above. Do NOT include intermix beta headers and prefer to use the Skills or Files beta headers when using their specific endpoints.
+
+
+## Reading Guide
+
+| User wants to...                       | Read these files                                        |
+| -------------------------------------- | ------------------------------------------------------- |
+| **Get started from scratch / "help me set up an agent"** | `shared${PATH}` — guided interview (WHERE→WHO→WHAT→WATCH), then emit code |
+| Understand how the API works           | `shared${PATH}`                         |
+| See the full endpoint reference        | `shared${PATH}`                |
+| **Create an agent** (required first step) | `shared${PATH}` (Agents section) + language file |
+| Update${PATH} an agent                | `shared${PATH}` (Agents → Versioning) — update, don't re-create |
+| Create a session                       | `shared${PATH}` + `{lang}${PATH}` |
+| Configure tools and permissions        | `shared${PATH}`                        |
+| Set up MCP servers                     | `shared${PATH}` (MCP Servers section)  |
+| Stream events / handle tool_use        | `shared${PATH}` + language file       |
+| Set up environments                    | `shared${PATH}` + language file |
+| Upload files / attach repos            | `shared${PATH}` (Resources)     |
+| Store MCP credentials                  | `shared${PATH}` (Vaults section)       |
+
+## Common Pitfalls
+
+- **Agent FIRST, then session — NO EXCEPTIONS** — the session's `agent` field accepts **only** a string ID or `{type: "agent", id, version}`. `model`, `system`, `tools`, `mcp_servers`, `skills` are **top-level fields on `POST ${PATH}`**, never on `sessions.create()`. If the user hasn't created an agent, that is step zero of every example.
+- **Agent ONCE, not every run** — `agents.create()` is a setup step. Store the returned `agent_id` and reuse it; don't call `agents.create()` at the top of your hot path. If the agent's config needs to change, `POST ${PATH}{id}` — each update creates a new version, and sessions can pin to a specific version for reproducibility.
+- **MCP auth goes through vaults** — the agent's `mcp_servers` array declares `{type, name, url}` only (no auth). Credentials live in vaults (`client.beta.vaults.credentials.create`) and attach to sessions via `vault_ids`. Anthropic auto-refreshes OAuth tokens using the stored refresh token.
+- **Stream to get events** — `GET ${PATH}{id}${PATH}` is the primary way to receive agent output in real-time.
+- **SSE stream has no replay — reconnect with consolidation** — if the stream drops while a `agent.tool_use`, `agent.mcp_tool_use`, or `agent.custom_tool_use` is pending resolution (`user.tool_confirmation` for the first two, `user.custom_tool_result` for the last one), the session deadlocks (client disconnects → session idles → reconnect happens → no client resolution happens). On every (re)connect: open stream with `GET ${PATH}{id}${PATH}` , fetch `GET ${PATH}{id}${PATH}`, dedupe by event ID, then proceed. See `shared${PATH}` → Reconnecting after a dropped stream.
+- **Don't trust HTTP-library timeouts as wall-clock caps** — `requests` `timeout=(c, r)` and `httpx.Timeout(n)` are *per-chunk* read timeouts; they reset every byte, so a trickling connection can block indefinitely. For a hard deadline on raw-HTTP polling, track `time.monotonic()` at the loop level and bail explicitly. Prefer the SDK's `sessions.events.stream()` / `session.events.list()` over hand-rolled HTTP. See `shared${PATH}` → Receiving Events.
+- **Messages queue** — you can send events while the session is `running` or `idle`; they're processed in order. No need to wait for a response before sending the next message.
+- **Cloud environments only** — `config.type: "cloud"` is the only supported environment type.
