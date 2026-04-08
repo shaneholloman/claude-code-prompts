@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Indicates skipping a bridge repl expression.
 
 # Raw Prompt Text
-[bridge:repl] Skipping: ${EXPR_1}_${EXPR_2}
+[bridge:repl] Skipping: ${EXPR_1}
