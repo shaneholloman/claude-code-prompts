@@ -1,4 +1,4 @@
-# System Prompt: memory-extraction-update-messages
+# System Prompt: memory-update-errors-messages
 
 - Source: inline
 
