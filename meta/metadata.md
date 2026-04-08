@@ -7,22 +7,22 @@
 
 ## Bundle
 
-- Entry bytes: 13308322 bytes
+- Entry bytes: 13308470 bytes
 - Entry lines: 17092
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 16779435 bytes
-- Pretty lines: 325388
+- Pretty bytes: 16779628 bytes
+- Pretty lines: 325394
 
 ## Inventory
 
 - File count: 20
-- Size bytes: 48924688
+- Size bytes: 48924836
 
 ### Extension Counts
 
 - `.exe`: 2 files, 10019328 bytes
-- `.js`: 1 files, 13308322 bytes
+- `.js`: 1 files, 13308470 bytes
 - `.json`: 1 files, 1370 bytes
 - `.md`: 2 files, 2184 bytes
 - `.node`: 6 files, 2808548 bytes
@@ -58,20 +58,20 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-04-07 21:38:24 UTC
+- Snapshot generated at: 2026-04-08 04:53:31 UTC
 - Node runtime: `v20.20.1`
-- Config hash: `cf0deeb8d98105e0cbcd8ba993c9847302c3b9ef2ed3227f6a3a57d2b044531a`
-- Embedded build timestamp: 2026-04-07 20:19:20 UTC
-- Relative to embedded build timestamp: 1h 19m 4s (2026-04-07 20:19:20 UTC → 2026-04-07 21:38:24 UTC)
+- Config hash: `c0d08ce36d883ceabfec3b91af3c3b13cb84f1dce6c26197a8a0f3aa8b7f6cf7`
+- Embedded build timestamp: 2026-04-08 03:13:25 UTC
+- Relative to embedded build timestamp: 1h 40m 6s (2026-04-08 03:13:25 UTC → 2026-04-08 04:53:31 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 562,578
-- Token p95 / p99: 291 / 2,182
+- Total prompt tokens: 561,916
+- Token p95 / p99: 286 / 2,182
 
 ### By Kind
 
-- `system`: 463,311 tokens (82.4%)
+- `system`: 462,649 tokens (82.3%)
 - `system-reminder`: 75,434 tokens (13.4%)
 - `tool`: 20,469 tokens (3.6%)
 - `agent`: 3,364 tokens (0.6%)
