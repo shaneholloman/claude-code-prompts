@@ -7,4 +7,4 @@
 Wraparound step for all messages.
 
 # Raw Prompt Text
-step: wraparound at ptr=@"${EXPR_1}"${EXPR_2}, all ${EXPR_3} msgs phantoms
+step: wraparound at ptr=${EXPR_1}, all ${EXPR_2} msgs phantoms
