@@ -29,6 +29,10 @@ VERTEX_REGION_CLAUDE_4_6_OPUS
 
 claude-opus-${NUM}-${NUM}
 
+VERTEX_REGION_CLAUDE_4_5_OPUS
+
+claude-opus-${NUM}-${NUM}
+
 VERTEX_REGION_CLAUDE_4_1_OPUS
 
 claude-opus-${NUM}
