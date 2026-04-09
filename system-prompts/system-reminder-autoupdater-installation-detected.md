@@ -7,4 +7,4 @@
 Notes the detected installation type for updates.
 
 # Raw Prompt Text
-AutoUpdater: Detected installation type: ${EXPR_1}@${EXPR_2}
+AutoUpdater: Detected installation type: ${EXPR_1}
