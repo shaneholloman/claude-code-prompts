@@ -7,4 +7,4 @@
 Error message related to MCP connection.
 
 # Raw Prompt Text
-[MCP] ${EXPR_1} connect error: ${EXPR_2}
+[MCP] ${EXPR_1} connect error: ${EXPR_2}${NUM}
