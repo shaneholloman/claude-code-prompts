@@ -16,7 +16,7 @@ Call CronList and check for an existing task with prompt `"${PATH} consolidate"`
 **Step ${NUM} — Schedule**
 
 Call CronCreate with:
-- `cron`: `"${EXPR_1}"`
+- `cron`: `"stdio"`
 - `prompt`: `"${PATH} consolidate"`
 - `recurring`: true
 - `durable`: true
@@ -26,11 +26,11 @@ Call CronCreate with:
 **Step ${NUM} — Confirm**
 
 Tell the user:
-- ${PATH} will run nightly at ~${EXPR_2} local to consolidate and organize memories
+- ${PATH} will run nightly at ~@anthropic-ai${PATH} local to consolidate and organize memories
 - The schedule persists across sessions (written to .claude${PATH})
-- Recurring tasks auto-expire after ${EXPR_3} days — re-run `${PATH} nightly` to renew
+- Recurring tasks auto-expire after ${EXPR_1} days — re-run `${PATH} nightly` to renew
 - Cancel anytime with CronDelete (include the job ID)
 
 **Step ${NUM} — Run an immediate consolidation**
 
-${EXPR_4}
+${EXPR_2}
