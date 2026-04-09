@@ -1,4 +1,4 @@
-# Tool Prompt: global-error-allowlist-empty
+# Tool Prompt: error-allowlist-empty
 
 - Name: screenshot
 
