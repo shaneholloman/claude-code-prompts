@@ -1,4 +1,4 @@
-# System Prompt: apikey-helper-install-methods
+# System Prompt: apikey-helper-installation-options
 
 - Source: inline
 
