@@ -7,4 +7,4 @@
 Multiple prompts (2)
 
 # Raw Prompt Text
-Failed to record sidechain transcript: ${EXPR_1}
+Failed to record sidechain transcript: ${NUM}
