@@ -1,4 +1,4 @@
-# System Prompt: verify-stop-condition-completion
+# System Prompt: verify-stop-condition-completion-2
 
 - Source: inline
 
