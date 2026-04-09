@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 504
-- Config keys: 819
+- Env vars: 514
+- Config keys: 821
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -415,6 +415,7 @@
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
 - `CLAUDE_CODE_IS_COWORK`
+- `CLAUDE_CODE_MAX_CONTEXT_TOKENS`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
@@ -431,6 +432,7 @@
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_PERFETTO_TRACE`
+- `CLAUDE_CODE_PERFORCE_MODE`
 - `CLAUDE_CODE_PLAN_MODE_INTERVIEW_PHASE`
 - `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
@@ -455,6 +457,7 @@
 - `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_SANDBOXED`
+- `CLAUDE_CODE_SCRIPT_CAPS`
 - `CLAUDE_CODE_SCROLL_SPEED`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
@@ -518,6 +521,7 @@
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
+- `CLOUDSDK_CONFIG`
 - `CODESPACES`
 - `COLORFGBG`
 - `COLORTERM`
@@ -579,11 +583,17 @@
 - `GITHUB_ACTIONS`
 - `GITHUB_ACTOR`
 - `GITHUB_ACTOR_ID`
+- `GITHUB_ENV`
 - `GITHUB_EVENT_NAME`
+- `GITHUB_EVENT_PATH`
+- `GITHUB_OUTPUT`
+- `GITHUB_PATH`
 - `GITHUB_REPOSITORY`
 - `GITHUB_REPOSITORY_ID`
 - `GITHUB_REPOSITORY_OWNER`
 - `GITHUB_REPOSITORY_OWNER_ID`
+- `GITHUB_STATE`
+- `GITHUB_STEP_SUMMARY`
 - `GITHUB_TOKEN`
 - `GITLAB_CI`
 - `GITPOD_WORKSPACE_ID`
@@ -739,7 +749,6 @@
 
 ## Config Keys
 
-- `_x`
 - `$docs`
 - `$schema`
 - `A`
@@ -845,6 +854,7 @@
 - `bashCount`
 - `behavior`
 - `betas`
+- `bI`
 - `bindings`
 - `blobSavedTo`
 - `blocked_path`
@@ -911,6 +921,7 @@
 - `cwd`
 - `dangerouslyDisableSandbox`
 - `data`
+- `DE`
 - `decision`
 - `decision_reason`
 - `decisionClassification`
@@ -1267,6 +1278,7 @@
 - `permissionUpdates`
 - `persistedOutputPath`
 - `persistedOutputSize`
+- `persistent`
 - `pid`
 - `plan`
 - `planContent`
@@ -1475,6 +1487,7 @@
 - `text`
 - `thinking`
 - `timeout`
+- `timeoutMs`
 - `timestamp`
 - `tips`
 - `title`
@@ -1557,7 +1570,6 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
-- `zy`
 
 ## Tools
 
@@ -1597,7 +1609,6 @@ _None detected_
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
-- `claude-code-default`
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
@@ -1647,6 +1658,7 @@ _None detected_
 - `claude-sonnet-3-7`
 - `claude-sonnet-4`
 - `claude-sonnet-4-`
+- `claude-sonnet-4-0`
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
