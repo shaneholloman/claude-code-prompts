@@ -7,4 +7,4 @@
 Reference for advisor model usage.
 
 # Raw Prompt Text
-[AdvisorTool] Advisor model: ${EXPR_1}
+[AdvisorTool] Advisor model: ${EXPR_1}${EXPR_2}${EXPR_3}
