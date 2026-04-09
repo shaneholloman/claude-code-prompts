@@ -1,4 +1,4 @@
-# System Prompt: memory-user-project-save
+# System Prompt: persistent-memory-user-collaboration-2
 
 - Source: inline
 
