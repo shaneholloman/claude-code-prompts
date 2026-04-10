@@ -1,59 +1,58 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **3590**
+- Total prompt files: **3591**
 
 ## Categories
 
-- System prompts (376)
+- System prompts (375)
 - Tool prompts (119)
 - Agent prompts (5)
 - Skills (1)
 - System data (104)
-- System reminders (2985)
+- System reminders (2987)
 
-## System prompts (376)
+## System prompts (375)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-rad-iii-vii-viii-xii.md`](../system-prompts/system-prompt-rad-iii-vii-viii-xii.md) | Numerical placeholders with letters. | 184,755 | 2.1.98 | 2.1.98 |
-| [`system-prompt-html-css-setup.md`](../system-prompts/system-prompt-html-css-setup.md) | Basic HTML and CSS structure with styling details. | 7,569 | 2.1.98 | 2.1.98 |
-| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Guidelines for safely creating git commits. | 1,518 | 2.1.98 | 2.1.98 |
+| [`system-prompt-rad-iii-vii-viii-xii.md`](../system-prompts/system-prompt-rad-iii-vii-viii-xii.md) | Numerical placeholders with letters. | 184,755 | 2.1.100 | 2.1.100 |
+| [`system-prompt-html-css-setup.md`](../system-prompts/system-prompt-html-css-setup.md) | Basic HTML and CSS structure with styling details. | 7,569 | 2.1.100 | 2.1.100 |
+| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Guidelines for safely creating git commits. | 1,518 | 2.1.100 | 2.1.100 |
+| [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 1,363 | 2.1.100 | 2.1.100 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.100 | 2.1.100 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Prompts the human for small code contributions and tracks them in todos. | 1,137 | 2.1.100 | 2.1.100 |
+| [`system-prompt-json-array-value-regr-current.md`](../system-prompts/system-prompt-json-array-value-regr-current.md) | Functions and keywords related to JSON and arrays. | 1,000 | 2.1.100 | 2.1.100 |
+| [`system-prompt-security-scope-and-url-policy.md`](../system-prompts/system-prompt-security-scope-and-url-policy.md) | Follow security assistance boundaries and avoid inventing URLs without strong confidence. | 798 | 2.1.100 | 2.1.100 |
+| [`system-prompt-git-safety-protocols.md`](../system-prompts/system-prompt-git-safety-protocols.md) | Multiple prompts (2) | 739 | 2.1.100 | 2.1.100 |
+| [`system-prompt-new-cert-collection-chain-policy.md`](../system-prompts/system-prompt-new-cert-collection-chain-policy.md) | Creates a new certificate collection and chain policy. | 457 | 2.1.100 | 2.1.100 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.100 | 2.1.100 |
+| [`system-prompt-collapsible-feedback-section.md`](../system-prompts/system-prompt-collapsible-feedback-section.md) | Feedback suggestions for product and model teams. | 382 | 2.1.100 | 2.1.100 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for feature and patterns sections with copy actions and placeholders. | 345 | 2.1.100 | 2.1.100 |
+| [`system-prompt-communication-style-user-updates-2.md`](../system-prompts/system-prompt-communication-style-user-updates-2.md) | Provide clear and concise updates for users. | 282 | 2.1.100 | 2.1.100 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.100 | 2.1.100 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.100 | 2.1.100 |
+| [`system-prompt-memory-name-feedback.md`](../system-prompts/system-prompt-memory-name-feedback.md) | Template for memory management with user feedback. | 86 | 2.1.100 | 2.1.100 |
+| [`system-prompt-verify-repo-access-and-scope.md`](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | Verify repository name, access, and required GitHub token scopes. | 61 | 2.1.100 | 2.1.100 |
 | [`system-prompt-nightly-memory-consolidation-job-2.md`](../system-prompts/system-prompt-nightly-memory-consolidation-job-2.md) | Set up a recurring nightly memory consolidation task. | 1,436 | 2.1.98 | 2.1.98 |
-| [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 1,363 | 2.1.98 | 2.1.98 |
-| [`system-prompt-user-actions-guidelines.md`](../system-prompts/system-prompt-user-actions-guidelines.md) | Guidelines for assisting users with security-related tasks. | 1,331 | 2.1.98 | 2.1.98 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.98 | 2.1.98 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Prompts the human for small code contributions and tracks them in todos. | 1,137 | 2.1.98 | 2.1.98 |
 | [`system-prompt-wfepradiogroupcolumn-variables.md`](../system-prompts/system-prompt-wfepradiogroupcolumn-variables.md) | Variables related to user roles and actions. | 1,095 | 2.1.98 | 2.1.98 |
 | [`system-prompt-memory-consolidation-team-files.md`](../system-prompts/system-prompt-memory-consolidation-team-files.md) | Multiple prompts (2) | 1,045 | 2.1.98 | 2.1.98 |
-| [`system-prompt-json-array-value-regr-current.md`](../system-prompts/system-prompt-json-array-value-regr-current.md) | Functions and keywords related to JSON and arrays. | 1,000 | 2.1.98 | 2.1.98 |
-| [`system-prompt-git-safety-protocols.md`](../system-prompts/system-prompt-git-safety-protocols.md) | Multiple prompts (2) | 739 | 2.1.98 | 2.1.98 |
 | [`system-prompt-memory-reflection-organizing-dreams-2.md`](../system-prompts/system-prompt-memory-reflection-organizing-dreams-2.md) | Reflect on and organize memories effectively. | 733 | 2.1.98 | 2.1.98 |
-| [`system-prompt-new-cert-collection-chain-policy.md`](../system-prompts/system-prompt-new-cert-collection-chain-policy.md) | Creates a new certificate collection and chain policy. | 457 | 2.1.98 | 2.1.98 |
 | [`system-prompt-memory-pruning-process-2.md`](../system-prompts/system-prompt-memory-pruning-process-2.md) | Multiple prompts (2) | 446 | 2.1.98 | 2.1.98 |
 | [`system-prompt-advisor-call-approach.md`](../system-prompts/system-prompt-advisor-call-approach.md) | Use the advisor tool before starting substantive work. | 436 | 2.1.98 | 2.1.98 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.98 | 2.1.98 |
 | [`system-prompt-schedule-nightly-consolidation-job.md`](../system-prompts/system-prompt-schedule-nightly-consolidation-job.md) | Set up a recurring nightly memory consolidation task. | 392 | 2.1.98 | 2.1.98 |
-| [`system-prompt-collapsible-feedback-section.md`](../system-prompts/system-prompt-collapsible-feedback-section.md) | Feedback suggestions for product and model teams. | 382 | 2.1.98 | 2.1.98 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for feature and patterns sections with copy actions and placeholders. | 345 | 2.1.98 | 2.1.98 |
 | [`system-prompt-software-engineering-tasks-2.md`](../system-prompts/system-prompt-software-engineering-tasks-2.md) | Assist users with various software engineering tasks. | 345 | 2.1.98 | 2.1.98 |
-| [`system-prompt-communication-style-user-updates.md`](../system-prompts/system-prompt-communication-style-user-updates.md) | Provide clear, concise updates to users. | 298 | 2.1.98 | 2.1.98 |
 | [`system-prompt-sonnet-haiku-vertex-region.md`](../system-prompts/system-prompt-sonnet-haiku-vertex-region.md) | Generates haikus and sonnets for Claude. | 295 | 2.1.98 | 2.1.98 |
 | [`system-prompt-don-t-add-unrequested-features.md`](../system-prompts/system-prompt-don-t-add-unrequested-features.md) | Guidelines for minimal code changes and bug fixes. | 195 | 2.1.98 | 2.1.98 |
-| [`system-prompt-output-efficiency-guidelines.md`](../system-prompts/system-prompt-output-efficiency-guidelines.md) | Keep text output brief and direct. | 170 | 2.1.98 | 2.1.98 |
 | [`system-prompt-efficient-calls-in-parallel.md`](../system-prompts/system-prompt-efficient-calls-in-parallel.md) | Use dedicated tools and maximize parallel calls. | 163 | 2.1.98 | 2.1.98 |
 | [`system-prompt-writing-comments-guidelines.md`](../system-prompts/system-prompt-writing-comments-guidelines.md) | Guidelines for writing comments in code. | 135 | 2.1.98 | 2.1.98 |
 | [`system-prompt-guidelines-for-features.md`](../system-prompts/system-prompt-guidelines-for-features.md) | Focus on essential code without unnecessary abstractions. | 124 | 2.1.98 | 2.1.98 |
 | [`system-prompt-bash-commands-parallel-sequential.md`](../system-prompts/system-prompt-bash-commands-parallel-sequential.md) | Multiple prompts (2) | 121 | 2.1.98 | 2.1.98 |
 | [`system-prompt-how-long-take-approach.md`](../system-prompts/system-prompt-how-long-take-approach.md) | Focus on tasks, not time estimates. | 117 | 2.1.98 | 2.1.98 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.98 | 2.1.98 |
 | [`system-prompt-simple-directed-codebase-searches.md`](../system-prompts/system-prompt-simple-directed-codebase-searches.md) | Use direct searches for specific files in codebases. | 104 | 2.1.98 | 2.1.98 |
 | [`system-prompt-run-commands-in-background.md`](../system-prompts/system-prompt-run-commands-in-background.md) | Execute commands without unnecessary delays. | 94 | 2.1.98 | 2.1.98 |
 | [`system-prompt-env-local-lock-package-json.md`](../system-prompts/system-prompt-env-local-lock-package-json.md) | List of configuration and lock files for environments. | 93 | 2.1.98 | 2.1.98 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.98 | 2.1.98 |
-| [`system-prompt-memory-name-feedback.md`](../system-prompts/system-prompt-memory-name-feedback.md) | Template for memory management with user feedback. | 86 | 2.1.98 | 2.1.98 |
-| [`system-prompt-verify-repo-access-and-scope.md`](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | Verify repository name, access, and required GitHub token scopes. | 61 | 2.1.98 | 2.1.98 |
 | [`system-prompt-api-error-response.md`](../system-prompts/system-prompt-api-error-response.md) | Error due to exceeded output token limit. | 46 | 2.1.98 | 2.1.98 |
 | [`system-prompt-building-llm-applications-with-3.md`](../system-prompts/system-prompt-building-llm-applications-with-3.md) | Guidance for creating applications using Claude. | 7,774 | 2.1.97 | 2.1.97 |
 | [`system-prompt-managed-agents-endpoint-reference.md`](../system-prompts/system-prompt-managed-agents-endpoint-reference.md) | Overview of managed agents API endpoints. | 4,642 | 2.1.97 | 2.1.97 |
@@ -400,9 +399,9 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that balances implementation with learning by requesting meaningful user code contributions. | 1,009 | 2.1.98 | 2.1.98 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that balances implementation with learning by requesting meaningful user code contributions. | 1,009 | 2.1.100 | 2.1.100 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.100 | 2.1.100 |
 | [`tool-description-monitor-script-events-stream.md`](../system-prompts/tool-description-monitor-script-events-stream.md) | Streams events from a long-running script's stdout. | 664 | 2.1.98 | 2.1.98 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.98 | 2.1.98 |
 | [`tool-description-read-file-local-filesystem.md`](../system-prompts/tool-description-read-file-local-filesystem.md) | Reads any file from the local filesystem. | 328 | 2.1.97 | 2.1.97 |
 | [`tool-description-write-file-to-local-filesystem-3.md`](../system-prompts/tool-description-write-file-to-local-filesystem-3.md) | Overwrites an existing file in the local filesystem. | 122 | 2.1.97 | 2.1.97 |
 | [`tool-description-at-a-glance-summary-guidelines-2.md`](../system-prompts/tool-description-at-a-glance-summary-guidelines-2.md) | Guidelines for creating effective usage summaries. | 593 | 2.1.92 | 2.1.92 |
@@ -526,7 +525,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-status-line-setup.md`](../system-prompts/agent-prompt-status-line-setup.md) | Creates or updates the statusLine command in settings. | 2,140 | 2.1.98 | 2.1.98 |
+| [`agent-prompt-status-line-setup.md`](../system-prompts/agent-prompt-status-line-setup.md) | Creates or updates the statusLine command in settings. | 2,140 | 2.1.100 | 2.1.100 |
 | [`agent-prompt-user-global-current-configuration.md`](../system-prompts/agent-prompt-user-global-current-configuration.md) | User's custom setup details for proactive suggestions. | 47 | 2.1.92 | 2.1.92 |
 | [`agent-prompt-npm-view-version.md`](../system-prompts/agent-prompt-npm-view-version.md) | Fetch the version of a specific npm package. | 30 | 2.1.92 | 2.1.92 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce implementation plans in read-only mode. | 644 | 2.1.84 | 2.1.84 |
@@ -651,25 +650,27 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (2985)
+## System reminders (2987)
 
-_Sorted by last edit (newest first). Showing **307** reminders with more than **30** tokens._
+_Sorted by last edit (newest first). Showing **309** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Instructions for deriving precise agent specs from user requirements and project context. | 1,495 | 2.1.98 | 2.1.98 |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Instructions for deriving precise agent specs from user requirements and project context. | 1,495 | 2.1.100 | 2.1.100 |
+| [`system-reminder-git-safety-protocols.md`](../system-prompts/system-reminder-git-safety-protocols.md) | Guidelines for safe git operations. | 737 | 2.1.100 | 2.1.100 |
+| [`system-reminder-remote-planning-session-guide.md`](../system-prompts/system-reminder-remote-planning-session-guide.md) | Guide for conducting a remote planning session. | 616 | 2.1.100 | 2.1.100 |
+| [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.100 | 2.1.100 |
+| [`system-reminder-user-call-permission-2.md`](../system-prompts/system-reminder-user-call-permission-2.md) | User must approve tool calls based on permission settings. | 345 | 2.1.100 | 2.1.100 |
+| [`system-reminder-user-call-permission.md`](../system-prompts/system-reminder-user-call-permission.md) | Multiple prompts (49) | 342 | 2.1.100 | 2.1.100 |
+| [`system-reminder-user-permission-call.md`](../system-prompts/system-reminder-user-permission-call.md) | Multiple prompts (17) | 334 | 2.1.100 | 2.1.100 |
 | [`system-reminder-user-permission-calls-3.md`](../system-prompts/system-reminder-user-permission-calls-3.md) | User must approve tool calls based on permission settings. | 751 | 2.1.98 | 2.1.98 |
-| [`system-reminder-git-safety-protocols.md`](../system-prompts/system-reminder-git-safety-protocols.md) | Guidelines for safe git operations. | 737 | 2.1.98 | 2.1.98 |
 | [`system-reminder-memory-consolidation-reflection.md`](../system-prompts/system-reminder-memory-consolidation-reflection.md) | Reflect and organize recent memories. | 730 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-group-role-expressions.md`](../system-prompts/system-reminder-user-group-role-expressions.md) | Handles user, group, and role expressions. | 653 | 2.1.98 | 2.1.98 |
-| [`system-reminder-remote-planning-session-guide.md`](../system-prompts/system-reminder-remote-planning-session-guide.md) | Guide for conducting a remote planning session. | 616 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-settings-value.md`](../system-prompts/system-reminder-user-settings-value.md) | Manage configuration settings for the user. | 569 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-file-snapshot-call.md`](../system-prompts/system-reminder-user-file-snapshot-call.md) | Communicates user permissions for tool execution. | 559 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-access-control-headers.md`](../system-prompts/system-reminder-user-access-control-headers.md) | Manage user access and control headers. | 548 | 2.1.98 | 2.1.98 |
 | [`system-reminder-keybinding-configuration-issues.md`](../system-prompts/system-reminder-keybinding-configuration-issues.md) | Guidance on validating keybinding configurations. | 502 | 2.1.98 | 2.1.98 |
-| [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-permission-calls-2.md`](../system-prompts/system-reminder-user-permission-calls-2.md) | Guide on user permissions for tool execution. | 343 | 2.1.98 | 2.1.98 |
-| [`system-reminder-user-call-permission.md`](../system-prompts/system-reminder-user-call-permission.md) | User must approve tool calls based on permission settings. | 342 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-permission-calls.md`](../system-prompts/system-reminder-user-permission-calls.md) | Multiple prompts (123) | 323 | 2.1.98 | 2.1.98 |
 | [`system-reminder-new-session-command.md`](../system-prompts/system-reminder-new-session-command.md) | Multiple prompts (2) | 91 | 2.1.98 | 2.1.98 |
 | [`system-reminder-null-value-indicator.md`](../system-prompts/system-reminder-null-value-indicator.md) | Indicates a null value output. | 85 | 2.1.98 | 2.1.98 |

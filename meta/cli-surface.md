@@ -854,7 +854,6 @@
 - `bashCount`
 - `behavior`
 - `betas`
-- `bI`
 - `bindings`
 - `blobSavedTo`
 - `blocked_path`
@@ -921,7 +920,6 @@
 - `cwd`
 - `dangerouslyDisableSandbox`
 - `data`
-- `DE`
 - `decision`
 - `decision_reason`
 - `decisionClassification`
@@ -1549,6 +1547,7 @@
 - `uuid_dedup_buffer_size`
 - `value`
 - `variables`
+- `VE`
 - `verbs`
 - `verificationNudgeNeeded`
 - `version`
@@ -1570,6 +1569,7 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
+- `xI`
 
 ## Tools
 
