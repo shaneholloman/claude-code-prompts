@@ -7,4 +7,4 @@
 Notification of removal from team context.
 
 # Raw Prompt Text
-[InboxPoller] Removed ${EXPR_1} (${EXPR_2}) from teamContext
+[InboxPoller] Removed   (${EXPR_1}) from teamContext
