@@ -7,4 +7,4 @@
 Indicates a failure to fetch the title.
 
 # Raw Prompt Text
-[bridge:title] failed to fetch title for ${EXPR_1}: /
+[bridge:title] failed to fetch title for ${NUM}: /
