@@ -7,4 +7,4 @@
 Cleans up a shell alias entry.
 
 # Raw Prompt Text
-Shell alias cleanup: ${EXPR_1}; ${EXPR_2}
+Shell alias cleanup: ${EXPR_1}
