@@ -7,4 +7,4 @@
 Applying mode change from team lead.
 
 # Raw Prompt Text
-[InboxPoller] Applying mode change from team-lead: ${EXPR_1}
+[InboxPoller] Applying mode change from team-lead:
