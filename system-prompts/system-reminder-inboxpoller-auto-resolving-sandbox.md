@@ -7,4 +7,4 @@
 Automatically resolves sandbox requests.
 
 # Raw Prompt Text
-[InboxPoller] Auto-resolving sandbox request ${EXPR_1} (mode=${EXPR_2}, allow=${EXPR_3})
+[InboxPoller] Auto-resolving sandbox request ${EXPR_1} (mode=${EXPR_2}, allow= )
