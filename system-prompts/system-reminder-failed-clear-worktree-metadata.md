@@ -7,4 +7,4 @@
 Error clearing worktree metadata.
 
 # Raw Prompt Text
-Failed to clear worktree metadata: ${NUM}
+Failed to clear worktree metadata: ${EXPR_1}
