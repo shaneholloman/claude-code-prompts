@@ -4,7 +4,7 @@
 
 ## Summary
 
-MCP not ready after specified time, continuing process.
+Multiple prompts (2)
 
 # Raw Prompt Text
-[MCP] ${EXPR_1} not ready after ${EXPR_2}ms — proceeding; background connection continues
+[MCP] ${EXPR_1} not ready after 5000ms — proceeding; background connection continues
