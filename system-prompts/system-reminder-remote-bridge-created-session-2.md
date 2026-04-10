@@ -7,4 +7,4 @@
 Indicates a new remote bridge session was created.
 
 # Raw Prompt Text
-[remote-bridge] Created session ${EXPR_1}
+[remote-bridge] Created session ${NUM}
