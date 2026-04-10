@@ -7,4 +7,4 @@
 Generic operation failed with an error detail.
 
 # Raw Prompt Text
-Failed to /: ${EXPR_1}
+Failed to ${EXPR_1}: ${EXPR_2}
