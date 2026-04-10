@@ -7,4 +7,4 @@
 Generate server title for a bridge.
 
 # Raw Prompt Text
-[bridge:title] server title for ${EXPR_1}: /
+[bridge:title] server title for ${NUM}: /
