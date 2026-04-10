@@ -7,4 +7,4 @@
 Reports hooks loaded from a plugin standard location.
 
 # Raw Prompt Text
-Loaded hooks from standard location for plugin ${EXPR_1}: ${EXPR_2}
+Loaded hooks from standard location for plugin ${EXPR_1}: ${EXPR_2}@${EXPR_3}
