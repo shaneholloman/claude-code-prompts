@@ -2,7 +2,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Parse input to schedule prompts at specified intervals.
 
 # Raw Prompt Text
 # ${PATH} — schedule a recurring prompt
@@ -24,7 +24,7 @@ Examples:
 - `check the deploy` → interval `10m`, prompt `check the deploy` (rule ${NUM})
 - `check every PR` → interval `10m`, prompt `check every PR` (rule ${NUM} — "every" not followed by time)
 - `5m` → empty prompt → show usage
-
+${EXPR_1}
 ## Interval → cron
 
 Supported suffixes: `s` (seconds, rounded up to nearest minute, min ${NUM}), `m` (minutes), `h` (hours), `d` (days). Convert:
@@ -45,9 +45,9 @@ ${NUM}. Call CronCreate with:
    - `cron`: the expression from the table above
    - `prompt`: the parsed prompt from above, verbatim (slash commands are passed through unchanged)
    - `recurring`: `true`
-${NUM}. Briefly confirm: what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_1} days, and that they can cancel sooner with CronDelete (include the job ID).
+${NUM}. Briefly confirm: what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_2} days, and that they can cancel sooner with CronDelete (include the job ID).${EXPR_3}
 ${NUM}. **Then immediately execute the parsed prompt now** — don't wait for the first cron fire. If it's a slash command, invoke it via the Skill tool; otherwise act on it directly.
 
 ## Input
 
-${EXPR_2}
+${EXPR_4}
