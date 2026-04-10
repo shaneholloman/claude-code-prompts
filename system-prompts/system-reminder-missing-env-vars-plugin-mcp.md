@@ -1,4 +1,4 @@
-# System Prompt: missing-env-vars-plugin-mcp-2
+# System Prompt: missing-env-vars-plugin-mcp-3
 
 - Source: inline
 
