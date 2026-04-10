@@ -1,4 +1,4 @@
-# System Prompt: autocompact-rapid-refill-breaker
+# System Prompt: rapid-refill-breaker-alert
 
 - Source: inline
 
