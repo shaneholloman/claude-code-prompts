@@ -1,4 +1,4 @@
-# System Prompt: repository-setup
+# System Prompt: repo-setup
 
 - Source: inline
 
