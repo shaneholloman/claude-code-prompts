@@ -7,4 +7,4 @@
 Details on API usage in auto mode.
 
 # Raw Prompt Text
-[auto-mode] API usage: actualInputTokens=${EXPR_1} (uncached=${EXPR_2} cacheRead=${EXPR_3} cacheCreate=${EXPR_4}) estimateWas=${EXPR_5} failed to load deltaVsMainLoop=${EXPR_6} durationMs=${EXPR_7}
+[auto-mode] API usage: actualInputTokens=  (uncached=${EXPR_1} cacheRead=${EXPR_2} cacheCreate=${EXPR_3}) estimateWas=${EXPR_4} failed to load deltaVsMainLoop=${EXPR_5} durationMs=${EXPR_6}
