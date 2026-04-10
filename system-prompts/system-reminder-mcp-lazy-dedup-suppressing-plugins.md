@@ -7,4 +7,4 @@
 Suppress duplicate plugin servers for MCP.
 
 # Raw Prompt Text
-[MCP] Lazy dedup: suppressing ${EXPR_1} plugin server(s) that duplicate claude.ai connectors: ${EXPR_2}
+[MCP] Lazy dedup: suppressing ${EXPR_1} plugin server(s) that duplicate claude.ai connectors: ${EXPR_2}, ${EXPR_3}
