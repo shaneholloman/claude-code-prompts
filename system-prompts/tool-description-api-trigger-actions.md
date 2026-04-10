@@ -14,6 +14,6 @@ Actions:
 - get: GET ${PATH}{trigger_id}
 - create: POST ${PATH} (requires body)
 - update: POST ${PATH}{trigger_id} (requires body, partial update)
-- run: POST ${PATH}{trigger_id}${PATH}
+- run: POST ${PATH}{trigger_id}${PATH} (optional body)
 
 The response is the raw JSON from the API.
