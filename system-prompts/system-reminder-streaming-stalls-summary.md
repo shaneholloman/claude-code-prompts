@@ -7,4 +7,4 @@
 stream completed with stall count and total stall time
 
 # Raw Prompt Text
-Streaming completed with ${NUM} stall(s), total stall time: ${EXPR_1}s
+Streaming completed with ${EXPR_1} stall(s), total stall time: ${EXPR_2}s
