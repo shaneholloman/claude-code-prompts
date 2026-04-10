@@ -1,4 +1,4 @@
-# Claude Code 2.1.100 – Flags
+# Claude Code 2.1.101 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -8,7 +8,7 @@
 | `tengu_bridge_poll_interval_config` | config | networking | Sets Tengu bridge poll interval (0 disables) plus session reclaim and keepalive timings. | Config is schema-validated; invalid values fall back to defaults. | medium | 1 |
 | `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 3 |
 | `tengu_ccr_bridge_multi_session` | gate | tools | Toggles multi-session spawning behavior for a Tengu CCR bridge process. | Only spawn/session-related code is visible; the exact behavioral differences when enabled are not shown. | medium | 1 |
-| `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables seeding a CCR bundle for remote sessions when repo/env gate is set | Also influenced by CCR_FORCE_BUNDLE and CCR_ENABLE_BUNDLE env vars and various git/GitHub checks. | high | 2 |
+| `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables seeding a CCR bundle for remote sessions when repo/env gate is set | Also influenced by CCR_FORCE_BUNDLE and CCR_ENABLE_BUNDLE env vars and various git/GitHub checks. | high | 3 |
 | `tengu_chair_sermon` | gate | tools | Applies extra processing to attachment messages before they’re merged/added to the chat history. | Obfuscated helpers (K$_, nVq, O$_) hide exact transformation details. | medium | 4 |
 | `tengu_desktop_upsell` | config | prompts | Enables a startup dialog upsell for a desktop app on macOS or Windows x64. | Gate appears limited to darwin/win32 x64 and checks an enable_startup_dialog setting. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Blocks use of "bypassPermissions" mode (even if requested) due to gate/org policy. | Also checks a session/org setting (permissions.disableBypassPermissionsMode) alongside the gate. | high | 4 |

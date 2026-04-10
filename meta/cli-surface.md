@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 514
-- Config keys: 821
+- Env vars: 516
+- Config keys: 835
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -343,6 +343,7 @@
 - `CLAUDE_CODE_BRIEF`
 - `CLAUDE_CODE_BRIEF_UPLOAD`
 - `CLAUDE_CODE_BUBBLEWRAP`
+- `CLAUDE_CODE_CERT_STORE`
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
@@ -459,6 +460,7 @@
 - `CLAUDE_CODE_SANDBOXED`
 - `CLAUDE_CODE_SCRIPT_CAPS`
 - `CLAUDE_CODE_SCROLL_SPEED`
+- `CLAUDE_CODE_SDK_HAS_OAUTH_REFRESH`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
 - `CLAUDE_CODE_SHELL`
@@ -753,6 +755,7 @@
 - `$schema`
 - `A`
 - `access_token`
+- `accessToken`
 - `account`
 - `acquiredAt`
 - `action`
@@ -867,8 +870,10 @@
 - `cache_creation_input_tokens`
 - `cache_read_input_tokens`
 - `cacheCreationInputTokens`
+- `cacheLeadMs`
 - `cacheReadInputTokens`
 - `callback_id`
+- `callback_url`
 - `callbackPort`
 - `callTokens`
 - `cancelled`
@@ -886,6 +891,8 @@
 - `character`
 - `checksum`
 - `children`
+- `cI`
+- `clampedDelaySeconds`
 - `claude_code_version`
 - `claudeMdExcludes`
 - `cleanupPeriodDays`
@@ -944,6 +951,7 @@
 - `destructive`
 - `detail`
 - `details`
+- `dialog_kind`
 - `dimensions`
 - `directories`
 - `disableAllHooks`
@@ -984,6 +992,7 @@
 - `enableWeakerNestedSandbox`
 - `enableWeakerNetworkIsolation`
 - `end`
+- `end_time`
 - `entries`
 - `entryChecksums`
 - `env`
@@ -1075,6 +1084,7 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
+- `IE`
 - `if`
 - `ignoreViolations`
 - `image`
@@ -1100,6 +1110,7 @@
 - `intent`
 - `interrupt`
 - `interrupted`
+- `is_backgrounded`
 - `is_error`
 - `is_image`
 - `is_interrupt`
@@ -1137,6 +1148,7 @@
 - `linesRemoved`
 - `lineStart`
 - `linkScanOffset`
+- `linkScanPath`
 - `load_reason`
 - `localSettings`
 - `login`
@@ -1262,6 +1274,7 @@
 - `patch`
 - `path`
 - `pathPattern`
+- `payload`
 - `pending_mcp_servers`
 - `pending_permission_requests`
 - `percentage`
@@ -1358,6 +1371,7 @@
 - `retry`
 - `retry_delay_ms`
 - `returnCodeInterpretation`
+- `rewakeMessage`
 - `ripgrep`
 - `risk`
 - `riskLevel`
@@ -1366,6 +1380,7 @@
 - `run_in_background`
 - `safeFlags`
 - `sandbox`
+- `scheduledFor`
 - `schema`
 - `scope`
 - `sdkMcpServers`
@@ -1512,6 +1527,7 @@
 - `toolUseID`
 - `total_cost_usd`
 - `total_deferred_tools`
+- `total_paused_ms`
 - `total_tokens`
 - `totalCommands`
 - `totalDurationMs`
@@ -1526,6 +1542,7 @@
 - `turns`
 - `type`
 - `ultraplan`
+- `unattributedTokens`
 - `updated_at`
 - `updated_file`
 - `updatedAt`
@@ -1547,12 +1564,12 @@
 - `uuid_dedup_buffer_size`
 - `value`
 - `variables`
-- `VE`
 - `verbs`
 - `verificationNudgeNeeded`
 - `version`
 - `viewMode`
 - `voice`
+- `wasClamped`
 - `watchPaths`
 - `web_fetch_requests`
 - `web_search_requests`
@@ -1569,7 +1586,6 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
-- `xI`
 
 ## Tools
 
