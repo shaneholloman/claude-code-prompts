@@ -7,4 +7,4 @@
 Multiple prompts (2)
 
 # Raw Prompt Text
-✓ Installed ${NUM} of ${NUM}${EXPR_1} plugins. Failed: ${EXPR_2}stable. Run ${PATH} to activate successfully installed plugins.
+✓ Installed ${EXPR_1} of ${EXPR_2}${EXPR_3} plugins. Failed: ${EXPR_4}stable. Run ${PATH} to activate successfully installed plugins.
