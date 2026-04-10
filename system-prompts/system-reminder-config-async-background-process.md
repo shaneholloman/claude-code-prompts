@@ -7,4 +7,4 @@
 Backgrounds a process for a config-defined async hook.
 
 # Raw Prompt Text
-Hooks: Config-based async hook, backgrounding process ${EXPR_1}
+Hooks: Config-based async hook, backgrounding process ${NUM}
