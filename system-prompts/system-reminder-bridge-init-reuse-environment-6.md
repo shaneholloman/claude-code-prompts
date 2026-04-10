@@ -7,4 +7,4 @@
 Initializes a bridge with specified parameters.
 
 # Raw Prompt Text
-[bridge:init] bridgeId=${NUM} reuseEnvironmentId=${EXPR_1} dir=${EXPR_2} branch=${EXPR_3} gitRepoUrl=${EXPR_4} machine=${EXPR_5}
+[bridge:init] bridgeId=${EXPR_1} reuseEnvironmentId=${EXPR_2} dir=${EXPR_3} branch=${EXPR_4} gitRepoUrl=${NUM} machine=${EXPR_5}
