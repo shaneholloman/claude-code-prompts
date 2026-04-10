@@ -27,6 +27,8 @@ app:globalSearch
 
 app:quickOpen
 
+app:openFrame
+
 history:search
 
 history:previous
