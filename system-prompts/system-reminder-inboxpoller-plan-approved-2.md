@@ -7,4 +7,4 @@
 Plan approved by the team lead.
 
 # Raw Prompt Text
-[InboxPoller] Plan approved by team lead, exited plan mode to ${EXPR_1}
+[InboxPoller] Plan approved by team lead, exited plan mode to
