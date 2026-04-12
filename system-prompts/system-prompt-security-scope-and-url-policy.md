@@ -1,4 +1,4 @@
-# System Prompt: security-scope-and-url-policy
+# System Prompt: security-assistance-guidelines
 
 - Source: inline
 
