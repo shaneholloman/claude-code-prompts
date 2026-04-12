@@ -1,4 +1,4 @@
-# System Prompt: user-permission-calls
+# System Prompt: user-call-permission-attempt
 
 ## Summary
 
