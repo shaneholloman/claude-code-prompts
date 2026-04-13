@@ -4,11 +4,9 @@
 
 ## Summary
 
-Fetches the version of a specific npm package.
+Multiple prompts (2)
 
 # Raw Prompt Text
-${EXPR_1}
+npm view ${EXPR_1}@${EXPR_2} version
 
-npm view ${EXPR_2}@${EXPR_3} version
-
- (PID ${EXPR_4})
+ (PID ${EXPR_3})
