@@ -4,9 +4,11 @@
 
 ## Summary
 
-Multiple prompts (2)
+Details available environments and JSON stream formats.
 
 # Raw Prompt Text
+Available environments:
+
 ${EXPR_1}
 
 ${EXPR_2}
@@ -15,25 +17,15 @@ ${EXPR_3}
 
 ${EXPR_4}
 
-Available environments:
-
 ${EXPR_5}
 
 ${EXPR_6}
-
-${EXPR_7}
-
-${EXPR_8}
-
-${EXPR_9}
-
-${EXPR_10}
 
 opus
 
 sonnet
 
-${EXPR_11}
+${EXPR_7}
 
 --print
 
@@ -51,14 +43,4 @@ stream-json
 
 --replay-user-messages
 
-${EXPR_12}
-
-${EXPR_13}
-
-${EXPR_14}
-
-${EXPR_15}
-
-${EXPR_16}
-
-${EXPR_17}
+${EXPR_8}
