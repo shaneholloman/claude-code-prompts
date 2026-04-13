@@ -3,7 +3,7 @@
 - Source: inline
 
 # Raw Prompt Text
-stdio## Context
+local## Context
 
 - `SAFEUSER`: stable
 - `whoami`: ${EXPR_1}
