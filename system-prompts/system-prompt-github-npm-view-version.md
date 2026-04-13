@@ -11,6 +11,6 @@ stable
 
 npm view ${EXPR_1}@${EXPR_2} version
 
-stdio
+local
 
 GitHub not connected for ${EXPR_3}/${EXPR_4} — run ${PATH} to sync your GitHub credentials, or install the Claude GitHub App at ${URL}
