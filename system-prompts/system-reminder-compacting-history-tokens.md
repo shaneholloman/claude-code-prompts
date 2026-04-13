@@ -7,4 +7,4 @@
 Log compacting history with the current token count.
 
 # Raw Prompt Text
-[inProcessRunner] ${EXPR_1} compacting history (  tokens)
+[inProcessRunner] ${EXPR_1} compacting history (${EXPR_2} tokens)
