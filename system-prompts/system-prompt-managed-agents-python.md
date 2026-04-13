@@ -280,7 +280,10 @@ List files the agent wrote to `${PATH}` during a session, then download them.
 
 ```python
 # List files associated with a session
-files = client.beta.files.list(session_id=session.id)
+files = client.beta.files.list(
+    scope_id=session.id,
+    betas=["managed-agents-${DATE}"],
+)
 for f in files.data:
     print(f.filename, f.size_bytes)
     # Download each file and save to disk
@@ -288,7 +291,7 @@ for f in files.data:
     file_content.write_to_file(f.filename)
 ```
 
-> 💡 There's a brief indexing lag (~${NUM}–3s) between `session.status_idle` and output files appearing in `files.list` (with `scope=session_id` as a query param). Retry once or twice if the list is empty.
+> 💡 There's a brief indexing lag (~${NUM}–3s) between `session.status_idle` and output files appearing in `files.list`. Retry once or twice if the list is empty.
 
 ---
 
@@ -296,17 +299,17 @@ for f in files.data:
 
 ```python
 # Get session details
-session = client.beta.sessions.retrieve(session_id="sess_abc123")
+session = client.beta.sessions.retrieve(session_id="sesn_011CZxAbc123Def456")
 print(session.status, session.usage)
 
 # List sessions
 sessions = client.beta.sessions.list()
 
 # Delete a session
-client.beta.sessions.delete(session_id="sess_abc123")
+client.beta.sessions.delete(session_id="sesn_011CZxAbc123Def456")
 
 # Archive a session
-client.beta.sessions.archive(session_id="sess_abc123")
+client.beta.sessions.archive(session_id="sesn_011CZxAbc123Def456")
 ```
 
 ---
