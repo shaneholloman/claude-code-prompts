@@ -7,4 +7,4 @@
 Investigate CI failures and review comments on the PR.
 
 # Raw Prompt Text
-You're monitoring PR #server in off/${EXPR_1}. When CI failures or review comments arrive as notifications, investigate and push fixes directly to the PR branch. Start by checking the current PR status.
+You're monitoring PR #server in off/${EXPR_1}@${EXPR_2}. When CI failures or review comments arrive as notifications, investigate and push fixes directly to the PR branch. Start by checking the current PR status.
