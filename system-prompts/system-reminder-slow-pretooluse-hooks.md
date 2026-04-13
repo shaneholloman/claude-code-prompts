@@ -7,4 +7,4 @@
 Defines slow hooks for pre-tool use.
 
 # Raw Prompt Text
-Slow PreToolUse hooks: ${EXPR_1}ms for ${EXPR_2} (${EXPR_3} hooks)
+Slow PreToolUse hooks: ${EXPR_1}@${EXPR_2}ms for ${EXPR_3} (${EXPR_4} hooks)
