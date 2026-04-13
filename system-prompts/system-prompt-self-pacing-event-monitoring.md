@@ -16,5 +16,5 @@ ${NUM}. **At the end of this turn, call ScheduleWakeup** with:
    - `reason`: one short sentence on why you picked that delay.
    - `prompt`: the full original ${PATH} input verbatim, prefixed with `${PATH} ` so the next firing re-enters this skill and continues the loop. For example, if the user typed `${PATH} check the deploy`, pass `${PATH} check the deploy` as the prompt.
 ${NUM}. **If you were woken by a `<task-notification>`** rather than this prompt: handle the event in the context of the loop task, then call ScheduleWakeup again with the same `prompt` and the same ${NUM}–1800s `delaySeconds` from step ${NUM} — the Monitor remains the wake signal; this only resets the safety net.
-${NUM}. **To stop the loop**, omit the ScheduleWakeup call and TaskStop any Monitor you armed (use TaskList to find the task ID if it is no longer in context).
+${NUM}. **To stop the loop**, omit the ScheduleWakeup call and TaskStop any Monitor you armed (use TaskList to find the task ID if it is no longer in context).${EXPR_1}
 ${NUM}. Briefly confirm: that you're self-pacing, whether a Monitor is the primary wake signal, that you ran the task now, and what fallback delay you picked.
