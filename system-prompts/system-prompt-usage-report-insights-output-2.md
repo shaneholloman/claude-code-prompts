@@ -1,4 +1,4 @@
-# System Prompt: usage-report-insights-output-2
+# System Prompt: usage-report-insights-shareable
 
 - Source: inline
 
