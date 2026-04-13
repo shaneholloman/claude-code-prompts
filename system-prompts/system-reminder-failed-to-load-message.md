@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (4)
+Error text indicating something failed to load.
 
 # Raw Prompt Text
-${EXPR_1} failed to load: ${EXPR_2}
+${EXPR_1}:${EXPR_2} failed to load
