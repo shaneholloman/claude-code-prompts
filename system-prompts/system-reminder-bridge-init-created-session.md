@@ -7,4 +7,4 @@
 Initial session has been created.
 
 # Raw Prompt Text
-[bridge:init] Created initial session /
+[bridge:init] Created initial session ${EXPR_1}
