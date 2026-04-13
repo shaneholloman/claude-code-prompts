@@ -14,6 +14,6 @@ Input:
 npm view ${EXPR_3}@${EXPR_4} version
 
 Recent conversation context:
-stdio
+local
 
 Explain this command in context.
