@@ -45,7 +45,7 @@ ${EXPR_2}
  (PID ${EXPR_3})
 
 ## Usage Patterns to Adopt
-${EXPR_4} loaded with errors
+${EXPR_4}
 
 ## On the Horizon (ambitious workflows for better models)
 ${EXPR_5}
