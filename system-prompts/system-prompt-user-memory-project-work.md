@@ -141,11 +141,11 @@ There are several discrete types of memory that you can store in your memory sys
 
 These exclusions apply even when the user explicitly asks you to save. If they ask you to save a PR list or activity summary, ask what was *surprising* or *non-obvious* about it — that is the part worth keeping.
 
--e
+${EXPR_3}:
 
-${EXPR_3}
+  Scope: Enterprise config (managed by your organization)
 
-${EXPR_4}
+  Status: ${EXPR_4}
 
 ## When to access memories
 
