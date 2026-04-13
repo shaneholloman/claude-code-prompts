@@ -270,11 +270,15 @@ List files the agent wrote to `${PATH}` during a session, then download them.
 ```bash
 # List files associated with a session
 curl "${URL} \
-  "${EXPR_16}"
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: ${DATE}" \
+  -H "anthropic-beta: files-api-${DATE},managed-agents-${DATE}"
 
 # Download a specific file
 curl "${URL} \
-  "${EXPR_17}" \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: ${DATE}" \
+  -H "anthropic-beta: files-api-${DATE},managed-agents-${DATE}" \
   -o downloaded_file.txt
 ```
 
@@ -284,7 +288,7 @@ curl "${URL} \
 
 ```bash
 curl ${URL} \
-  "${EXPR_18}"
+  "${EXPR_16}"
 ```
 
 ---
@@ -294,7 +298,7 @@ curl ${URL} \
 ```bash
 # ${NUM}. Agent declares MCP server (no auth here — auth goes in a vault)
 curl -X POST ${URL} \
-  "${EXPR_19}" \
+  "${EXPR_17}" \
   -d '{
     "name": "MCP Agent",
     "model": "{{OPUS_ID}}",
@@ -309,7 +313,7 @@ curl -X POST ${URL} \
 
 # ${NUM}. Session attaches vault containing credentials for that MCP server URL
 curl -X POST ${URL} \
-  "${EXPR_20}" \
+  "${EXPR_18}" \
   -d '{
     "agent": "agent_abc123",
     "environment_id": "env_abc123",
@@ -325,7 +329,7 @@ See `shared${PATH}` §Vaults for creating vaults and adding credentials.
 
 ```bash
 curl -X POST ${URL} \
-  "${EXPR_21}" \
+  "${EXPR_19}" \
   -d '{
     "name": "Restricted Agent",
     "model": "{{OPUS_ID}}",
