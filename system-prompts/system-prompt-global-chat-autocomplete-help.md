@@ -46,3 +46,5 @@ Plugin
 Scroll
 
 MessageActions
+
+Doctor
