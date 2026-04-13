@@ -7,4 +7,5 @@
 Error indicating a failed load with unknown cause.
 
 # Raw Prompt Text
-${EXPR_1} failed to load: unknown
+${EXPR_1}
+${EXPR_2} failed to load${EXPR_3}unknown${EXPR_4}
