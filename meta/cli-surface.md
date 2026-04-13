@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 516
-- Config keys: 835
+- Env vars: 520
+- Config keys: 852
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -338,6 +338,7 @@
 - `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASE_REF`
+- `CLAUDE_CODE_BASE_REFS`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BRIEF`
@@ -384,6 +385,7 @@
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS`
 - `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
+- `CLAUDE_CODE_ENABLE_AWAY_SUMMARY`
 - `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
@@ -454,6 +456,8 @@
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SEND_KEEPALIVES`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
+- `CLAUDE_CODE_REPO_CHECKOUTS`
+- `CLAUDE_CODE_RESUME_FROM_SESSION`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
@@ -492,6 +496,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
 - `CLAUDE_CODE_TMUX_TRUECOLOR`
+- `CLAUDE_CODE_ULTRAREVIEW_PREFLIGHT_FIXTURE`
 - `CLAUDE_CODE_USE_ANTHROPIC_AWS`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_CCR_V2`
@@ -509,6 +514,7 @@
 - `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
 - `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_DEBUG`
+- `CLAUDE_ENABLE_BYTE_WATCHDOG`
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
@@ -562,7 +568,6 @@
 - `EDITOR`
 - `EMBEDDED_SEARCH_TOOLS`
 - `ENABLE_BETA_TRACING_DETAILED`
-- `ENABLE_CLAUDE_CODE_SM_COMPACT`
 - `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
@@ -573,6 +578,7 @@
 - `FLY_MACHINE_ID`
 - `FORCE_AUTOUPDATE_PLUGINS`
 - `FORCE_CODE_TERMINAL`
+- `FORCE_COLOR`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
 - `GAE_MODULE_NAME`
@@ -588,15 +594,12 @@
 - `GITHUB_ENV`
 - `GITHUB_EVENT_NAME`
 - `GITHUB_EVENT_PATH`
-- `GITHUB_OUTPUT`
-- `GITHUB_PATH`
 - `GITHUB_REPOSITORY`
 - `GITHUB_REPOSITORY_ID`
 - `GITHUB_REPOSITORY_OWNER`
 - `GITHUB_REPOSITORY_OWNER_ID`
-- `GITHUB_STATE`
-- `GITHUB_STEP_SUMMARY`
 - `GITHUB_TOKEN`
+- `GITHUB_WORKSPACE`
 - `GITLAB_CI`
 - `GITPOD_WORKSPACE_ID`
 - `GNOME_TERMINAL_SERVICE`
@@ -648,6 +651,7 @@
 - `MSYSTEM`
 - `N`
 - `NETLIFY`
+- `NO_COLOR`
 - `NO_PROXY`
 - `NODE_DEBUG`
 - `NODE_EXTRA_CA_CERTS`
@@ -759,6 +763,7 @@
 - `account`
 - `acquiredAt`
 - `action`
+- `action_url`
 - `activeForm`
 - `added`
 - `additional_model_costs`
@@ -834,11 +839,11 @@
 - `author`
 - `authServerMetadataUrl`
 - `authToken`
+- `auto`
 - `autoAllowBashIfSandboxed`
 - `autoCompactThreshold`
 - `autoCompactWindow`
 - `autoDreamEnabled`
-- `autoEnable`
 - `autoMemoryDirectory`
 - `autoMemoryEnabled`
 - `autoSubmit`
@@ -847,6 +852,7 @@
 - `available_output_styles`
 - `availableModels`
 - `awaitingLeaderApproval`
+- `awaySummaryEnabled`
 - `awsAuthRefresh`
 - `awsCredentialExport`
 - `backendType`
@@ -857,12 +863,15 @@
 - `bashCount`
 - `behavior`
 - `betas`
+- `billing_note`
 - `bindings`
 - `blobSavedTo`
+- `blocked`
 - `blocked_path`
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
+- `body`
 - `branch`
 - `budgetTokens`
 - `bytes`
@@ -891,7 +900,6 @@
 - `character`
 - `checksum`
 - `children`
-- `cI`
 - `clampedDelaySeconds`
 - `claude_code_version`
 - `claudeMdExcludes`
@@ -905,10 +913,13 @@
 - `commandName`
 - `commands`
 - `commit`
+- `compact_error`
 - `compact_metadata`
+- `compact_result`
 - `compact_summary`
 - `companyAnnouncements`
 - `config`
+- `confirm`
 - `connect_timeout_ms`
 - `content`
 - `contents`
@@ -1084,7 +1095,6 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
-- `IE`
 - `if`
 - `ignoreViolations`
 - `image`
@@ -1130,6 +1140,7 @@
 - `jobs`
 - `json`
 - `jsonSchema`
+- `jx`
 - `key`
 - `keywords`
 - `label`
@@ -1139,6 +1150,7 @@
 - `last_tool_name`
 - `lastModified`
 - `lastUpdated`
+- `lE`
 - `libvips`
 - `license`
 - `line`
@@ -1174,7 +1186,9 @@
 - `mcpServers`
 - `mcpTools`
 - `media_type`
+- `memories`
 - `memory`
+- `memory_paths`
 - `memory_type`
 - `memoryFiles`
 - `message`
@@ -1193,6 +1207,7 @@
 - `modelOverrides`
 - `models`
 - `modelUsage`
+- `monitors`
 - `mtime`
 - `multiple`
 - `multiSelect`
@@ -1256,7 +1271,6 @@
 - `output_tokens`
 - `outputDir`
 - `outputFile`
-- `outputs`
 - `outputStyle`
 - `outputStyles`
 - `outputTokens`
@@ -1304,6 +1318,7 @@
 - `policySettings`
 - `poll_interval_ms_at_capacity`
 - `poll_interval_ms_not_at_capacity`
+- `post_tokens`
 - `pr`
 - `pre_tokens`
 - `preceding_tool_use_ids`
@@ -1312,7 +1327,6 @@
 - `preview`
 - `previousValue`
 - `priority`
-- `proactive`
 - `processed_at`
 - `projectPath`
 - `projectSettings`
@@ -1415,7 +1429,11 @@
 - `size`
 - `skill`
 - `skillFrontmatter`
+- `skillListingBudgetFraction`
+- `skillListingMaxDescChars`
+- `skillOverrides`
 - `skills`
+- `skip_transcript`
 - `skipDangerousModePermissionPrompt`
 - `skipWebFetchPreflight`
 - `slash_commands`
@@ -1423,6 +1441,7 @@
 - `socketPath`
 - `socksProxyPort`
 - `soft_deny`
+- `sortOrder`
 - `source`
 - `sources`
 - `sparsePaths`
@@ -1439,7 +1458,6 @@
 - `startDirectory`
 - `startLine`
 - `state`
-- `states`
 - `status`
 - `status_category`
 - `status_detail`
@@ -1458,6 +1476,7 @@
 - `structuredContent`
 - `structuredPatch`
 - `subagent_type`
+- `subagentStatusLine`
 - `subject`
 - `subscriptionType`
 - `subtype`
@@ -1489,6 +1508,7 @@
 - `task_type`
 - `taskId`
 - `tasks`
+- `team`
 - `team_name`
 - `teammate_name`
 - `teamName`
@@ -1500,6 +1520,7 @@
 - `text`
 - `thinking`
 - `timeout`
+- `timeout_ms`
 - `timeoutMs`
 - `timestamp`
 - `tips`

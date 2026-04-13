@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.104
+# Claude Code Flags 2.1.105
 
 ## Feature Gates
 
@@ -12,7 +12,6 @@
 - `tengu_powershell_command_timeout_backgrounded`
 - `tengu_scratch`
 - `tengu_streaming_tool_execution2`
-- `tengu_thinkback`
 - `tengu_tool_pear`
 - `tengu_toolref_defer_j8m`
 - `tengu_vscode_onboarding`
@@ -35,7 +34,6 @@
 - `tengu_kairos_dream`
 - `tengu_malort_pedway`
 - `tengu_max_version_config`
-- `tengu_sm_compact_config`
 - `tengu_sm_config`
 
 ## Experiments

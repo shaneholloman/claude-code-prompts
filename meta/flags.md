@@ -1,4 +1,4 @@
-# Claude Code 2.1.104 – Flags
+# Claude Code 2.1.105 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -26,10 +26,8 @@
 | `tengu_powershell_command_interrupt_backgrounded` | gate | tools | Enables killing a backgrounded PowerShell command when an interrupt signal is received. | Observed in runPowerShellCommand flow; exact on/off behavior inferred from a kill() call behind the gate check. | medium | 1 |
 | `tengu_powershell_command_timeout_backgrounded` | gate | telemetry | Emits an event when a PowerShell command hits a timeout and is handled as backgrounded. | Bundle is obfuscated; only the timeout hook + event emission is directly visible. | medium | 1 |
 | `tengu_scratch` | gate | filesystem | Enables writing a session-memory scratchpad with a summary.md file under a per-user Claude folder. |  | high | 1 |
-| `tengu_sm_compact_config` | config | caching | Configures thresholds for compacting content using min/max token limits and minimum text-block messages. | Snippet only shows loading/merging these limits into a shared config object, not the compaction routine. | medium | 1 |
 | `tengu_sm_config` | config | tools | Loads a config object likely related to Tengu “session memory” behavior. | Context only shows config retrieval; no direct fields or effects are visible here. | low | 1 |
 | `tengu_streaming_tool_execution2` | gate | tools | Enables streaming tool execution during a session. | Observed only as a session gate named "streamingToolExecution"; exact runtime behavior not shown. | medium | 1 |
-| `tengu_thinkback` | gate | tools | Enables local 'think-back' 2025 year-in-review and the hidden thinkback animation player. |  | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables additional tool-definition handling for strict tools, including extra processing for supported models. | Exact effect is obfuscated; observable uses include adding a feature to the tool context list and gating a crypto hash path. | medium | 2 |
 | `tengu_toolref_defer_j8m` | gate | tools | Alters how tool-use messages are preprocessed, including injecting/deferring a tool-reference text block. | Exact text marker (gVq) and transform (Y$_) are obfuscated, so behavior is inferred from message-content edits. | medium | 2 |
 | `tengu_vscode_onboarding` | gate | ui | Enables an onboarding experience/flow in the Claude VSCode integration. | Only seen being sent as an experiment gate; specific onboarding screens/steps aren’t shown. | medium | 1 |
