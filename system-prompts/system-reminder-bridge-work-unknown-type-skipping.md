@@ -7,4 +7,4 @@
 Skipping work due to unknown type.
 
 # Raw Prompt Text
-[bridge:work] Unknown work type: ${NUM}, skipping
+[bridge:work] Unknown work type: ${EXPR_1}, skipping
