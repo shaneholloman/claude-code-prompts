@@ -37,7 +37,7 @@ All resources are under the `beta` namespace. Python and TypeScript share identi
 | Credentials | `vaults.credentials.create` / `retrieve` / `update` / `list` / `delete` / `archive` | `Vaults.Credentials.New` / `Get` / `Update` / `List` / `Delete` / `Archive` |
 
 **Naming quirks to watch for:**
-- Agents have **no delete** — only `archive`. Other resources have both.
+- Agents have **no delete** — only `archive`. Archive is **permanent**: the agent becomes read-only, new sessions cannot reference it, and there is no unarchive. Confirm with the user before archiving a production agent. Environments, Sessions, Vaults, and Credentials have both `delete` and `archive`; Session Resources, Files, and Skills are `delete`-only.
 - Session resources use `add` (not `create`).
 - Go's event stream is `StreamEvents` (not `Stream`).
 
@@ -57,7 +57,7 @@ All resources are under the `beta` namespace. Python and TypeScript share identi
 | `POST` | `${PATH}` | CreateAgent | Create a saved agent configuration |
 | `GET` | `${PATH}{agent_id}` | GetAgent | Get agent details |
 | `POST` | `${PATH}{agent_id}` | UpdateAgent | Update agent configuration |
-| `POST` | `${PATH}{agent_id}${PATH}` | ArchiveAgent | Archive an agent (no hard delete for agents) |
+| `POST` | `${PATH}{agent_id}${PATH}` | ArchiveAgent | Archive an agent. Makes it **read-only**; existing sessions continue, new sessions cannot reference it. No unarchive — this is the terminal state. |
 | `GET` | `${PATH}{agent_id}${PATH}` | ListAgentVersions | List agent versions |
 
 ## Sessions
@@ -98,7 +98,7 @@ All resources are under the `beta` namespace. Python and TypeScript share identi
 | `GET`    | `${PATH}{environment_id}`                    | GetEnvironment       | Get environment details             |
 | `POST`   | `${PATH}{environment_id}`                    | UpdateEnvironment    | Update environment                  |
 | `DELETE` | `${PATH}{environment_id}`                    | DeleteEnvironment    | Delete environment. Returns ${NUM}. |
-| `POST`   | `${PATH}{environment_id}${PATH}`            | ArchiveEnvironment   | Archive environment (read-only; existing sessions continue) |
+| `POST`   | `${PATH}{environment_id}${PATH}`            | ArchiveEnvironment   | Archive environment. Makes it **read-only**; existing sessions continue, new sessions cannot reference it. No unarchive — this is the terminal state. |
 
 ## Vaults
 
