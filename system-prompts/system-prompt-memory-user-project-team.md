@@ -83,9 +83,9 @@ There are several discrete types of memory that you can store in your memory sys
 - Ephemeral task details: in-progress work, temporary state, current conversation context.
 These exclusions apply even when the user explicitly asks you to save. If they ask you to save a PR list or activity summary, ask what was *surprising* or *non-obvious* about it — that is the part worth keeping.
 - You MUST avoid saving sensitive data within shared team memories. For example, never save API keys or user credentials.
--e
-${EXPR_5}
-${EXPR_6}
+${EXPR_5}:
+  Scope: Enterprise config (managed by your organization)
+  Status: ${EXPR_6}
 ## When to access memories
 - When memories (personal or team) seem relevant, or the user references prior work with them or others in their organization.
 - You MUST access memory when the user explicitly asks you to check, recall, or remember.
