@@ -7,4 +7,4 @@
 Generate a derived title using a bridge format.
 
 # Raw Prompt Text
-[bridge:title] derived title for ${NUM}: ${EXPR_1}
+[bridge:title] derived title for ${EXPR_1}: ${EXPR_2}
