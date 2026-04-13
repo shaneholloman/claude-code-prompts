@@ -1,6 +1,6 @@
-# System Prompt: schedule-resume-work-dynamic-mode
+# Tool Prompt: schedule-resume-work-dynamic-mode
 
-- Source: inline
+- Name: ScheduleWakeup
 
 ## Summary
 
