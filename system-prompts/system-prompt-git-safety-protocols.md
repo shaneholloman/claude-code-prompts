@@ -3,7 +3,7 @@
 - Source: inline
 
 # Raw Prompt Text
-stdio## Context
+local## Context
 
 - `SAFEUSER`: stable
 - `whoami`: npm view ${EXPR_1}@${EXPR_2} version
