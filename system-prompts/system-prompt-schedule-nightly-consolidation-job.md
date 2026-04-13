@@ -16,7 +16,7 @@ Call CronList and check for an existing task with prompt `"${PATH} consolidate"`
 **Step ${NUM} — Schedule**
 
 Call CronCreate with:
-- `cron`: `"stdio"`
+- `cron`: `"local"`
 - `prompt`: `"${PATH} consolidate"`
 - `recurring`: true
 - `durable`: true
