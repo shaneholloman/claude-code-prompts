@@ -7,4 +7,4 @@
 Indicates a failure in the CwdChanged hook.
 
 # Raw Prompt Text
-CwdChanged hook failed: ${EXPR_1}
+CwdChanged hook failed: ${EXPR_1}@${EXPR_2}
