@@ -7,7 +7,7 @@
 Authentication token is tied to global organization.
 
 # Raw Prompt Text
-Your authentication token belongs to organization stdio,
+Your authentication token belongs to organization local,
 but this machine requires ${EXPR_1}.
 
 Please log in with a permitted organization: claude auth login
