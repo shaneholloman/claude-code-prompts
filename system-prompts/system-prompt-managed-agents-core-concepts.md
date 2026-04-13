@@ -205,6 +205,8 @@ Each `POST ${PATH}{id}` (update) creates a new immutable version (numeric timest
 | Update           | `POST`   | `${PATH}{id}`                     |
 | Archive          | `POST`   | `${PATH}{id}${PATH}`             |
 
+> ⚠️ **Archive is permanent.** Archiving makes the agent read-only: existing sessions continue to run, but **new sessions cannot reference it**, and there is no unarchive. Since agents have no `delete`, this is the terminal lifecycle state. Never archive a production agent as routine cleanup — confirm with the user first.
+
 ### Using an Agent in a Session
 
 Reference the agent by string ID (latest version) or by object with an explicit version:
