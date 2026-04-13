@@ -1,0 +1,10 @@
+# System Prompt: capped-initial-flush-remote-bridge
+
+- Source: inline
+
+## Summary
+
+Capped initial flush for remote bridge setup.
+
+# Raw Prompt Text
+[remote-bridge] Capped initial flush: ${EXPR_1} -> ${EXPR_2} (cap=local)
