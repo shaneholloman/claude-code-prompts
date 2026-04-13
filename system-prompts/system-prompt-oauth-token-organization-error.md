@@ -11,6 +11,6 @@ The CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR environment variable provides a toke
 different organization than required by this machine's managed settings.
 
 Required: ${EXPR_1}
-Token organization: stdio
+Token organization: local
 
 Remove the environment variable or obtain a token for a permitted organization.
