@@ -12,7 +12,7 @@ ${NUM}. **If the next tick is gated on an event** (CI finishing, a PR comment, a
 ${NUM}. **At the end of this turn, call ScheduleWakeup** with:
    - `delaySeconds`: with a Monitor armed this is the fallback heartbeat (lean ${NUM}–1800s). Without one, pick based on what you observed this turn — quiet branch? wait longer. Lots in flight? wait shorter. Read the tool's own description for cache-aware delay guidance.
    - `reason`: one short sentence on why you picked that delay.
-   - `prompt`: the literal string `${EXPR_2}` — the dynamic-mode sentinel expands at fire time to the full instructions (first fire / first fire post-compact / loop.md edited) or a dynamic-pacing-specific short reminder (subsequent fires). Do not pass the full instructions; that is handled automatically.
-${NUM}. **If woken by a `<task-notification>`** rather than this prompt: handle the event, then call ScheduleWakeup again with `${EXPR_3}` and the same ${NUM}–1800s `delaySeconds` — the Monitor remains the wake signal; this only resets the safety net.
-${NUM}. **To stop the loop**, omit the ScheduleWakeup call and TaskStop any Monitor you armed (use TaskList to find the task ID if it is no longer in context).
+   - `prompt`: the literal string `${EXPR_2} failed to load` — the dynamic-mode sentinel expands at fire time to the full instructions (first fire / first fire post-compact / loop.md edited) or a dynamic-pacing-specific short reminder (subsequent fires). Do not pass the full instructions; that is handled automatically.
+${NUM}. **If woken by a `<task-notification>`** rather than this prompt: handle the event, then call ScheduleWakeup again with `${EXPR_3} failed to load` and the same ${NUM}–1800s `delaySeconds` — the Monitor remains the wake signal; this only resets the safety net.
+${NUM}. **To stop the loop**, omit the ScheduleWakeup call and TaskStop any Monitor you armed (use TaskList to find the task ID if it is no longer in context).${EXPR_4}
 ${NUM}. Briefly confirm: server, whether a Monitor is the primary wake signal, and what fallback delay you picked.
