@@ -4,7 +4,7 @@
 
 ## Summary
 
-Post request specifying type.
+API bridge for POST requests with specified type.
 
 # Raw Prompt Text
-[bridge:api] POST ${PATH} type=${EXPR_1}
+[bridge:api] POST ${PATH}${EXPR_1}${PATH} type=${EXPR_2}
