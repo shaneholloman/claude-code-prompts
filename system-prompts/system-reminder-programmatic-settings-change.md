@@ -4,7 +4,7 @@
 
 ## Summary
 
-Notifying that settings were changed programmatically for a specified component.
+Emits a notification that settings were changed programmatically.
 
 # Raw Prompt Text
-Programmatic settings change notification for ${EXPR_1}
+Programmatic settings change notification for ${EXPR_1}@${EXPR_2}
