@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 520
-- Config keys: 852
+- Env vars: 524
+- Config keys: 856
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -456,6 +456,7 @@
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SEND_KEEPALIVES`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
+- `CLAUDE_CODE_REPL`
 - `CLAUDE_CODE_REPO_CHECKOUTS`
 - `CLAUDE_CODE_RESUME_FROM_SESSION`
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
@@ -522,6 +523,7 @@
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
 - `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
 - `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
+- `CLAUDE_REPL_VARIANT`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
@@ -571,6 +573,7 @@
 - `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
+- `ENABLE_PROMPT_CACHING_1H`
 - `ENABLE_PROMPT_CACHING_1H_BEDROCK`
 - `ENABLE_TOOL_SEARCH`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
@@ -579,6 +582,7 @@
 - `FORCE_AUTOUPDATE_PLUGINS`
 - `FORCE_CODE_TERMINAL`
 - `FORCE_COLOR`
+- `FORCE_PROMPT_CACHING_5M`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
 - `GAE_MODULE_NAME`
@@ -824,7 +828,6 @@
 - `args`
 - `argumentHint`
 - `argv0`
-- `artifact_urls`
 - `ask`
 - `assistantAutoBackgrounded`
 - `assistantMessageTokens`
@@ -1095,6 +1098,7 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
+- `IE`
 - `if`
 - `ignoreViolations`
 - `image`
@@ -1110,6 +1114,7 @@
 - `initialPrompt`
 - `initialUserMessage`
 - `initialWindowSize`
+- `innerToolCalls`
 - `input`
 - `input_tokens`
 - `inputTokens`
@@ -1124,7 +1129,6 @@
 - `is_error`
 - `is_image`
 - `is_interrupt`
-- `is_noteworthy`
 - `isAgent`
 - `isAuthenticating`
 - `isAutoCompactEnabled`
@@ -1140,7 +1144,6 @@
 - `jobs`
 - `json`
 - `jsonSchema`
-- `jx`
 - `key`
 - `keywords`
 - `label`
@@ -1150,7 +1153,6 @@
 - `last_tool_name`
 - `lastModified`
 - `lastUpdated`
-- `lE`
 - `libvips`
 - `license`
 - `line`
@@ -1360,6 +1362,7 @@
 - `refresh_token`
 - `refreshInterval`
 - `region`
+- `registeredTools`
 - `registry`
 - `remote`
 - `removed`
@@ -1375,6 +1378,7 @@
 - `resetsAt`
 - `resolvedAt`
 - `resolvedBy`
+- `resolvedVersion`
 - `respectGitignore`
 - `response`
 - `restrictions`
@@ -1386,6 +1390,7 @@
 - `retry_delay_ms`
 - `returnCodeInterpretation`
 - `rewakeMessage`
+- `rewakeSummary`
 - `ripgrep`
 - `risk`
 - `riskLevel`
@@ -1397,6 +1402,7 @@
 - `scheduledFor`
 - `schema`
 - `scope`
+- `scopes`
 - `sdkMcpServers`
 - `searchCount`
 - `seccomp`
@@ -1560,6 +1566,7 @@
 - `trigger`
 - `trigger_file_path`
 - `truncated`
+- `ttft_ms`
 - `turns`
 - `type`
 - `ultraplan`
@@ -1607,6 +1614,7 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
+- `zx`
 
 ## Tools
 
