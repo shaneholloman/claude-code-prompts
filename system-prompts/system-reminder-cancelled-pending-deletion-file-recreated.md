@@ -7,4 +7,4 @@
 Cancelled deletion and recreated the file.
 
 # Raw Prompt Text
-Cancelled pending deletion of ${EXPR_1} — file was recreated
+Cancelled pending deletion of ${EXPR_1}@${EXPR_2} — file was recreated
