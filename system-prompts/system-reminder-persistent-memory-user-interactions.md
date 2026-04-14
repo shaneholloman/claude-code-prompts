@@ -1,4 +1,4 @@
-# System Prompt: persistent-memory-user-interactions
+# System Prompt: persistent-memory-user-collaboration-7
 
 - Source: inline
 
