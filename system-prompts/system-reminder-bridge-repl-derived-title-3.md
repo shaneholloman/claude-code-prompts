@@ -7,4 +7,4 @@
 Generate a title from a message stream.
 
 # Raw Prompt Text
-[bridge:repl] derived title from message stream-json: ${EXPR_1}
+[bridge:repl] derived title from message ${EXPR_1}_${EXPR_2}: stream-json
