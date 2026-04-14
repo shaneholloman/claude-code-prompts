@@ -1,4 +1,4 @@
-# System Prompt: usage-report-insights-output-3
+# System Prompt: usage-report-insights-shareable
 
 ## Summary
 
