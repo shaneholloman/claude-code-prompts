@@ -71,7 +71,6 @@ curl ${URL} \
 | Claude Haiku ${NUM}  | `claude-haiku-${NUM}-${NUM}`  | `claude-haiku-${NUM}-${NUM}-${NUM}`   | 200K           | 64K        | Active |
 
 ### Model Descriptions
-
 - **Claude Opus ${NUM}** — Our most intelligent model for building agents and coding. Supports adaptive thinking (recommended), 128K max output tokens (requires streaming for large outputs). 1M context window available in beta via `context-1m-${DATE}` header.
 - **Claude Sonnet ${NUM}** — Our best combination of speed and intelligence. Supports adaptive thinking (recommended). 1M context window available in beta via `context-1m-${DATE}` header. 64K max output tokens.
 - **Claude Haiku ${NUM}** — Fastest and most cost-effective model for simple tasks.
