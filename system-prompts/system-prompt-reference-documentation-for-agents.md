@@ -21,7 +21,7 @@ The relevant documentation for your detected language is included below in `<doc
 
 **Long-running conversations (may exceed context window):**
 → Refer to `{lang}${PATH}` — see Compaction section
-
+<!-- __G2__ -->
 **Prompt caching / optimize caching / "why is my cache hit rate low":**
 → Refer to `shared${PATH}` + `{lang}${PATH}` (Prompt Caching section)
 
