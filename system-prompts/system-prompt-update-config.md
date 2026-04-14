@@ -62,7 +62,7 @@ When adding to permission arrays or hook arrays, **merge with existing**, don't 
 
 **WRONG** (replaces existing permissions):
 ```json
-{ "permissions": { "allow": ["Bash(npm:*)"] } }
+{ "permissions": { "allow": ["Bash(npm *)"] } }
 ```
 
 **RIGHT** (preserves existing + adds new):
@@ -70,9 +70,9 @@ When adding to permission arrays or hook arrays, **merge with existing**, don't 
 {
   "permissions": {
     "allow": [
-      "Bash(git:*)",      // existing
+      "Bash(git *)",      // existing
       "Edit(.claude)",    // existing
-      "Bash(npm:*)"       // new
+      "Bash(npm *)"       // new
     ]
   }
 }
@@ -96,8 +96,8 @@ Settings load in order: user → project → local (later overrides earlier).
 ```json
 {
   "permissions": {
-    "allow": ["Bash(npm:*)", "Edit(.claude)", "Read"],
-    "deny": ["Bash(rm -rf:*)"],
+    "allow": ["Bash(npm *)", "Edit(.claude)", "Read"],
+    "deny": ["Bash(rm -rf *)"],
     "ask": ["Write(${PATH}*)"],
     "defaultMode": "default" | "plan" | "acceptEdits" | "dontAsk",
     "additionalDirectories": ["${PATH}"]
@@ -107,7 +107,7 @@ Settings load in order: user → project → local (later overrides earlier).
 
 **Permission Rule Syntax:**
 - Exact match: `"Bash(npm run test)"`
-- Prefix wildcard: `"Bash(git:*)"` - matches `git status`, `git commit`, etc.
+- Prefix wildcard: `"Bash(git *)"` - matches `git`, `git status`, `git commit`, etc.
 - Tool only: `"Read"` - allows all Read operations
 
 ### Environment Variables
@@ -395,7 +395,7 @@ ${NUM}. **Result**:
 User: "Allow npm commands without prompting"
 
 ${NUM}. **Read**: Existing permissions
-${NUM}. **Merge**: Add `Bash(npm:*)` to allow array
+${NUM}. **Merge**: Add `Bash(npm *)` to allow array
 ${NUM}. **Result**: Combined with existing allows
 
 ### Environment Variables
