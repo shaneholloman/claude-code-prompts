@@ -1,4 +1,4 @@
-# System Prompt: skipping-global-already-installed
+# System Prompt: skip-local-lsp-already-installed
 
 - Source: inline
 
