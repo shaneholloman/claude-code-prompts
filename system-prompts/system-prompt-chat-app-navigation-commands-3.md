@@ -183,6 +183,10 @@ settings:retry
 
 settings:close
 
+settings:periodDay
+
+settings:periodWeek
+
 voice:pushToTalk
 
 scroll:pageUp
