@@ -25,8 +25,8 @@ Settings load in order: user → project → local (later overrides earlier).
 ```json
 {
   "permissions": {
-    "allow": ["Bash(npm:*)", "Edit(.claude)", "Read"],
-    "deny": ["Bash(rm -rf:*)"],
+    "allow": ["Bash(npm *)", "Edit(.claude)", "Read"],
+    "deny": ["Bash(rm -rf *)"],
     "ask": ["Write(${PATH}*)"],
     "defaultMode": "default" | "plan" | "acceptEdits" | "dontAsk",
     "additionalDirectories": ["${PATH}"]
@@ -36,7 +36,7 @@ Settings load in order: user → project → local (later overrides earlier).
 
 **Permission Rule Syntax:**
 - Exact match: `"Bash(npm run test)"`
-- Prefix wildcard: `"Bash(git:*)"` - matches `git status`, `git commit`, etc.
+- Prefix wildcard: `"Bash(git *)"` - matches `git`, `git status`, `git commit`, etc.
 - Tool only: `"Read"` - allows all Read operations
 
 ### Environment Variables
