@@ -7,4 +7,4 @@
 Template for reporting an OAuth error string.
 
 # Raw Prompt Text
-OAuth error: ${NUM}
+OAuth error: ${EXPR_1}
