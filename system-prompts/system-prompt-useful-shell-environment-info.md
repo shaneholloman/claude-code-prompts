@@ -1,4 +1,4 @@
-# System Prompt: useful-shell-environment-info
+# System Prompt: useful-shell-directory-info
 
 - Source: inline
 
