@@ -22,10 +22,10 @@ This file contains WebFetch URLs for fetching current information from platform.
 
 ### Models & Pricing
 
-| Topic           | URL                                                                   | Extraction Prompt                                                               |
-| --------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Models Overview | `${URL} | "Extract current model IDs, context windows, and pricing for all Claude models" |
-| Pricing         | `${URL}                      | "Extract current pricing per million tokens for input and output"               |
+| Topic           | URL                                                                          | Extraction Prompt                                                               |
+| --------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Models Overview | `${URL}        | "Extract current model IDs, context windows, and pricing for all Claude models" |
+| Pricing         | `${URL}                             | "Extract current pricing per million tokens for input and output"               |
 
 ### Core Features
 
