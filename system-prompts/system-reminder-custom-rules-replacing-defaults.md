@@ -4,7 +4,7 @@
 
 ## Summary
 
-Manage custom rules to override defaults.
+Multiple prompts (6)
 
 # Raw Prompt Text
 ## allow (custom rules replacing defaults)
@@ -27,3 +27,5 @@ ${EXPR_5}
 
 Defaults being replaced:
 ${EXPR_6}
+
+${EXPR_7}
