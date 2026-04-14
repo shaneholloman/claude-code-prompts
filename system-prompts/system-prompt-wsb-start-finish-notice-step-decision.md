@@ -1,4 +1,6 @@
-# System Prompt: wsb-start-finish-notice-step-decision
+# System Prompt: wsb-process-steps
+
+- Source: inline
 
 ## Summary
 
