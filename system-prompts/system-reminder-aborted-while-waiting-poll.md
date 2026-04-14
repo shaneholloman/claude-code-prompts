@@ -1,4 +1,4 @@
-# System Prompt: aborted-while-waiting-poll
+# System Prompt: runner-aborted-while-waiting
 
 - Source: inline
 
