@@ -13,4 +13,4 @@ Guidelines for managing sleep commands in background tasks.
     - Do not retry failing commands in a sleep loop — diagnose the root cause or consider an alternative approach.
     - If waiting for a background task you started with `run_in_background`, you will be notified when it completes — do not poll.
     - If you must poll an external process, use a check command rather than sleeping first.
-    - If you must sleep, keep the duration short (${NUM}-${NUM} seconds) to avoid blocking the user.
+    - If you must sleep, keep the duration short to avoid blocking the user.
