@@ -1,4 +1,4 @@
-# System Prompt: failed-load-mcp-servers-2
+# System Prompt: mcp-servers-load-error
 
 - Source: inline
 
