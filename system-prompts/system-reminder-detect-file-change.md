@@ -7,4 +7,4 @@
 Report detected change to a target path.
 
 # Raw Prompt Text
-Detected change to ${EXPR_1}
+Detected change to ${EXPR_1}@${EXPR_2}
