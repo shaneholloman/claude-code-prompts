@@ -1,4 +1,4 @@
-# System Prompt: memory-consolidation-team-files
+# System Prompt: memory-consolidation-team-reflection-2
 
 - Source: inline
 
