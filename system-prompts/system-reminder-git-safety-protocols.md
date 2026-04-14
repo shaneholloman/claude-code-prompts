@@ -3,14 +3,14 @@
 - Source: inline
 
 # Raw Prompt Text
-local## Context
+${EXPR_1}## Context
 
 - `SAFEUSER`: stable
-- `whoami`: ${EXPR_1}
+- `whoami`: ${EXPR_2}
 - `git status`: !`git status`
 - `git diff HEAD`: !`git diff HEAD`
 - `git branch --show-current`: !`git branch --show-current`
-- `git diff ${EXPR_2}...HEAD`: !`git diff ${EXPR_3}...HEAD`
+- `git diff ${EXPR_3}...HEAD`: !`git diff ${EXPR_4}...HEAD`
 - `gh pr view --json number ${NUM}>${PATH} || true`: !`gh pr view --json number ${NUM}>${PATH} || true`
 
 ## Git Safety Protocol
@@ -24,19 +24,19 @@ local## Context
 
 ## Your task
 
-Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request from the git diff ${EXPR_4}...HEAD output above).
+Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request from the git diff ${EXPR_5}...HEAD output above).
 
 Based on the above changes:
-${NUM}. Create a new branch if on ${EXPR_5} (use SAFEUSER from context above for the branch name prefix, falling back to whoami if SAFEUSER is empty, e.g., `username${PATH}`)
+${NUM}. Create a new branch if on ${EXPR_6} (use SAFEUSER from context above for the branch name prefix, falling back to whoami if SAFEUSER is empty, e.g., `username${PATH}`)
 ${NUM}. Create a single commit with an appropriate message using heredoc syntax, ending with the attribution text shown in the example below:
 ```
 git commit -m "$(cat <<'EOF'
-Commit message here.${EXPR_6}
+Commit message here.${EXPR_7}
 EOF
 )"
 ```
 ${NUM}. Push the branch to origin
-${NUM}. If a PR already exists for this branch (check the gh pr view output above), update the PR title and body using `gh pr edit` to reflect the current diffglobal. Otherwise, create a pull request using `gh pr create` with heredoc syntax for the body${EXPR_7}.
+${NUM}. If a PR already exists for this branch (check the gh pr view output above), update the PR title and body using `gh pr edit` to reflect the current diffglobal. Otherwise, create a pull request using `gh pr create` with heredoc syntax for the body${EXPR_8}.
    - IMPORTANT: Keep PR titles short (under ${NUM} characters). Use the body for details.
 ```
 gh pr create --title "Short, descriptive title" --body "$(cat <<'EOF'
@@ -45,7 +45,7 @@ gh pr create --title "Short, descriptive title" --body "$(cat <<'EOF'
 Guidelines for safe git operations.
 
 ## Test plan
-[Bulleted markdown checklist of TODOs for testing the pull request...]${EXPR_8}${EXPR_9}
+[Bulleted markdown checklist of TODOs for testing the pull request...]${EXPR_9}${EXPR_10}
 EOF
 )"
 ```
