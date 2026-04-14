@@ -1,4 +1,4 @@
-# System Prompt: user-call-approval
+# System Prompt: user-approval-calls
 
 - Source: inline
 
