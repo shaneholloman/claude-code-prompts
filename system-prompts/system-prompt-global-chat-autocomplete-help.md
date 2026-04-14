@@ -1,4 +1,4 @@
-# System Prompt: global-chat-autocomplete-help
+# System Prompt: global-chat-features-overview
 
 - Source: inline
 
