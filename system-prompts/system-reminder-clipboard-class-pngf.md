@@ -1,4 +1,4 @@
-# System Prompt: clipboard-class-pngf
+# System Reminder: clipboard-class-pngf
 
 - Source: inline
 
