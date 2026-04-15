@@ -1,4 +1,4 @@
-# System Prompt: multiple-root-nodes-found
+# System Reminder: multiple-root-nodes-found
 
 - Source: inline
 
