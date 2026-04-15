@@ -6,6 +6,12 @@
 
 Instructions to concisely summarize a Claude Code transcript chunk with key details.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 Summarize this portion of a Claude Code session transcript. Focus on:
 ${NUM}. What the user asked for
