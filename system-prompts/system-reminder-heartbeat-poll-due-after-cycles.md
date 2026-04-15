@@ -1,4 +1,4 @@
-# System Prompt: heartbeat-poll-due-after-cycles
+# System Reminder: heartbeat-poll-due-after-cycles
 
 - Source: inline
 
