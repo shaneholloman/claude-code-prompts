@@ -1,4 +1,4 @@
-# System Prompt: wsb-process-steps
+# System Reminder: wsb-process-steps
 
 - Source: inline
 
