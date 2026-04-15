@@ -1,4 +1,4 @@
-# System Prompt: permissionsync-missing-leader-name
+# System Reminder: permissionsync-missing-leader-name
 
 - Source: inline
 
