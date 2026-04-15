@@ -1,4 +1,4 @@
-# System Prompt: no-installation-status
+# System Reminder: no-installation-status
 
 - Source: inline
 
