@@ -1,4 +1,4 @@
-# System Prompt: no-memories-saved
+# System Reminder: no-memories-saved
 
 - Source: inline
 
