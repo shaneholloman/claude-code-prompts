@@ -6,5 +6,11 @@
 
 States the user answered questions and future work should use their answers.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 User has answered your questions: ${EXPR_1}. You can now continue with the user's answers in mind.
