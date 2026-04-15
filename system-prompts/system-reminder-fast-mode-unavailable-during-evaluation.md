@@ -1,4 +1,4 @@
-# System Prompt: fast-mode-unavailable-during-evaluation
+# System Reminder: fast-mode-unavailable-during-evaluation
 
 - Source: inline
 
