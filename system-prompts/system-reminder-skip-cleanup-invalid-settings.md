@@ -1,4 +1,4 @@
-# System Prompt: skip-cleanup-invalid-settings
+# System Reminder: skip-cleanup-invalid-settings
 
 - Source: inline
 
