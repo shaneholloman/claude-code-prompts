@@ -1,10 +1,17 @@
-# System Prompt: invalid-command-argument-value
+# System Reminder: invalid-command-argument-value
 
 - Source: inline
 
 ## Summary
 
 Reports an invalid value for a command argument.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 error: command-argument value '${EXPR_1}' is invalid for argument '${EXPR_2}'.
