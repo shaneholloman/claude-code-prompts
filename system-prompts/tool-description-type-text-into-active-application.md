@@ -1,4 +1,4 @@
-# Tool Prompt: type-text-into-active-application
+# Tool Description: type-text-into-active-application
 
 - Name: type
 
