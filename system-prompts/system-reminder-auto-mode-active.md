@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-active
+# System Reminder: auto-mode-active
 
 - Source: inline
 
