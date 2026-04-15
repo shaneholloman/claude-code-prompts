@@ -1,4 +1,4 @@
-# System Prompt: get-customization-job-response
+# System Data Block: bedrock-customization-job-response
 
 - Source: inline
 
