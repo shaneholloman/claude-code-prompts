@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-dropping-result
+# System Reminder: remote-bridge-dropping-result
 
 - Source: inline
 
