@@ -1,10 +1,22 @@
-# System Prompt: custom-rules-replacing-defaults-18
+# System Data Block: git-status-snapshot-conversation
 
 - Source: inline
 
 ## Summary
 
 Overview of custom rules and their status.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 This is the git status at the start of the conversation. Note that this status is a snapshot in time, and will not update during the conversation.
