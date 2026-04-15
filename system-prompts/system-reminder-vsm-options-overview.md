@@ -1,4 +1,4 @@
-# System Prompt: vsm-options-overview
+# System Reminder: vsm-options-overview
 
 - Source: inline
 
