@@ -1,4 +1,4 @@
-# System Prompt: released-computer-use-lock
+# System Reminder: released-computer-use-lock
 
 - Source: inline
 
