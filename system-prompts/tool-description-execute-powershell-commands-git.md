@@ -1,10 +1,22 @@
-# Tool Prompt: execute-powershell-commands-git
+# Tool Description: execute-powershell-commands-git
 
 - Name: PowerShell
 
 ## Summary
 
 Executes PowerShell commands with directory verification.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 Executes a given PowerShell command with optional timeout. Working directory persists between commands; shell state (variables, functions) does not.
