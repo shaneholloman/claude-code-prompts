@@ -1,4 +1,4 @@
-# System Prompt: bridge-shutdown-sigint-received
+# System Reminder: bridge-shutdown-sigint-received
 
 - Source: inline
 
