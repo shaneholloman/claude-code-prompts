@@ -1,4 +1,4 @@
-# System Prompt: mcpb-source-file-missing-2
+# System Reminder: mcpb-source-file-missing-2
 
 - Source: inline
 
