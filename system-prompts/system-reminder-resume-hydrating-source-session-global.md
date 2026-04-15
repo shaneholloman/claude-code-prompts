@@ -1,4 +1,4 @@
-# System Prompt: resume-hydrating-source-session-global
+# System Reminder: resume-hydrating-source-session-global
 
 - Source: inline
 
