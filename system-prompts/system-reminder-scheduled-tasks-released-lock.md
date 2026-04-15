@@ -1,4 +1,4 @@
-# System Prompt: scheduled-tasks-released-lock
+# System Reminder: scheduled-tasks-released-lock
 
 - Source: inline
 
