@@ -53,10 +53,10 @@ ${EXPR_3}
 @anthropic-ai${PATH}
 
 ## Features to Try
- (PID ${EXPR_4})
+brew upgrade ${EXPR_4}
 
 ## Usage Patterns to Adopt
-${EXPR_5}
+ (PID ${EXPR_5})
 
 ## On the Horizon (ambitious workflows for better models)
 ${EXPR_6}
