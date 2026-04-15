@@ -1,4 +1,4 @@
-# System Prompt: full-snapshot-script-global
+# System Reminder: full-snapshot-script-global
 
 - Source: inline
 
