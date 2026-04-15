@@ -1,4 +1,4 @@
-# Tool Prompt: terminal-window-size-changed
+# Tool Description: terminal-window-size-changed
 
 - Name: SIGWINCH
 
