@@ -6,6 +6,17 @@
 
 Overview of managed agents for TypeScript.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | JSON stringified value | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
 # Raw Prompt Text
 # Managed Agents — TypeScript
 
