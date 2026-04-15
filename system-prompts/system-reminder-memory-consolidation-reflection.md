@@ -1,10 +1,22 @@
-# System Prompt: memory-consolidation-reflection
+# System Reminder: memory-consolidation-reflection
 
 - Source: inline
 
 ## Summary
 
 Reflect on and organize memories effectively.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | resolved string (119 chars) | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # Dream: Memory Consolidation
