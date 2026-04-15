@@ -1,4 +1,4 @@
-# System Data Block: custom-defaults-rules-replacing-8
+# System Data Block: custom-defaults-rules-replacing-16
 
 - Source: inline
 
@@ -39,4 +39,4 @@ ${EXPR_5}
 Defaults being replaced:
 ${EXPR_6}
 
-${NUM}
+${PATH}
