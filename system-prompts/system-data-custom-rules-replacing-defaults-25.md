@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Overview of custom rules and their replacements.
 
 ## Placeholder Hints (source-backed)
 
@@ -16,11 +16,10 @@ Multiple prompts (2)
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
-CLAUDE_PLUGIN_DATA
-
-## allow (custom rules replacing defaults)
+This screenshot was taken on monitor "## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_1}
 
@@ -40,3 +39,5 @@ ${EXPR_5}
 
 Defaults being replaced:
 ${EXPR_6}
+
+".${EXPR_7}
