@@ -1,8 +1,19 @@
 # System Prompt: schedule-recurring
 
+
 ## Summary
 
 Parse input to schedule prompts at specified intervals.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | resolved string (697 chars) | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # ${PATH} — schedule a recurring or self-paced prompt
