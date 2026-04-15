@@ -1,4 +1,4 @@
-# System Prompt: automated-reasoning-quality-report
+# System Data Block: reasoning-policy-quality-report-metrics
 
 - Source: inline
 
