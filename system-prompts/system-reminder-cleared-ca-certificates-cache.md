@@ -1,4 +1,4 @@
-# System Prompt: cleared-ca-certificates-cache
+# System Reminder: cleared-ca-certificates-cache
 
 - Source: inline
 
