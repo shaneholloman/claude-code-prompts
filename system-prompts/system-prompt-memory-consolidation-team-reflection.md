@@ -6,6 +6,17 @@
 
 Organize and synthesize team memories.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | CronDelete | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | CronDelete | None |
+| `EXPR_6` | None | None |
+
 # Raw Prompt Text
 # Dream: Memory Consolidation
 
@@ -14,7 +25,7 @@ You are performing a dream — a reflective pass over your memory files. Synthes
 Memory directory: `${EXPR_1}`
 This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
 
-Session transcripts: `what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_2} days, and that they can cancel sooner with ${EXPR_3} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.` (large JSONL files — grep narrowly, don't read whole files)
+Session transcripts: `what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_2} days, and that they can cancel sooner with ${EXPR_3: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.` (large JSONL files — grep narrowly, don't read whole files)
 
 ## Team memory (`team/` subdirectory)
 
@@ -45,7 +56,7 @@ Look for new information worth persisting. Sources in rough priority order:
 ${NUM}. **Daily logs** (`logs${PATH}`) if present — these are the append-only stream
 ${NUM}. **Existing memories that drifted** — facts that contradict something you see in the codebase now
 ${NUM}. **Transcript search** — if you need specific context (e.g., "what was the error message from yesterday's build failure?"), grep the JSONL transcripts for narrow terms:
-   `grep -rn "<narrow term>" what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_4} days, and that they can cancel sooner with ${EXPR_5} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in./ --include="*.jsonl" | tail -${NUM}`
+   `grep -rn "<narrow term>" what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_4} days, and that they can cancel sooner with ${EXPR_5: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in./ --include="*.jsonl" | tail -${NUM}`
 
 Don't exhaustively read transcripts. Look only for things you already suspect matter.
 
