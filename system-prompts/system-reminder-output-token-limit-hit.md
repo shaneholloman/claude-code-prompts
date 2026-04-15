@@ -1,4 +1,4 @@
-# System Prompt: output-token-limit-hit
+# System Reminder: output-token-limit-hit
 
 - Source: inline
 
