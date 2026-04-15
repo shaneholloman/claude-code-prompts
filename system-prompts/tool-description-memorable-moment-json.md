@@ -1,4 +1,4 @@
-# Tool Prompt: memorable-moment-json
+# Tool Description: memorable-moment-json
 
 - Name: fun_ending
 
