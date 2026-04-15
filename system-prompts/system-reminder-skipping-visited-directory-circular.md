@@ -1,4 +1,4 @@
-# System Prompt: skipping-visited-directory-circular
+# System Reminder: skipping-visited-directory-circular
 
 - Source: inline
 
