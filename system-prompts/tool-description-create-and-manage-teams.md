@@ -1,4 +1,4 @@
-# Tool Prompt: create-and-manage-teams
+# Tool Description: create-and-manage-teams
 
 - Name: TeamCreate
 
