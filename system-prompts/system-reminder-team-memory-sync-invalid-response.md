@@ -1,4 +1,4 @@
-# System Prompt: team-memory-sync-invalid-response
+# System Reminder: team-memory-sync-invalid-response
 
 - Source: inline
 
