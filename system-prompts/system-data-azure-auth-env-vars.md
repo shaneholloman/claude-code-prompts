@@ -1,4 +1,4 @@
-# System Prompt: azure-client-certificates-and-passwords
+# System Data Block: azure-auth-env-vars
 
 - Source: inline
 
