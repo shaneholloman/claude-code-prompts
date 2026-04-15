@@ -1,4 +1,4 @@
-# System Prompt: early-voice-stream-error
+# System Reminder: early-voice-stream-error
 
 - Source: inline
 
