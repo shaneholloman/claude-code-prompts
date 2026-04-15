@@ -1,4 +1,4 @@
-# System Prompt: create-import-job-request
+# System Data Block: bedrock-import-job-request
 
 - Source: inline
 
