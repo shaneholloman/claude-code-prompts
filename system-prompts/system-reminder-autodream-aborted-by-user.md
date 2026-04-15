@@ -1,4 +1,4 @@
-# System Prompt: autodream-aborted-by-user
+# System Reminder: autodream-aborted-by-user
 
 - Source: inline
 
