@@ -1,4 +1,4 @@
-# System Prompt: voice-focus-mode-disabled
+# System Reminder: voice-focus-mode-disabled
 
 - Source: inline
 
