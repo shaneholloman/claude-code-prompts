@@ -1,4 +1,4 @@
-# System Prompt: plugin-path-not-exist
+# System Reminder: plugin-path-not-exist
 
 - Source: inline
 
