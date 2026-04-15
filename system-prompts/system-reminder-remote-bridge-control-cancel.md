@@ -10,7 +10,7 @@ Dropping control cancel request during recovery.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | false | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[remote-bridge] Dropping control_cancel_request during ${NUM} recovery: ${EXPR_1: false}
+[remote-bridge] Dropping control_cancel_request during ${NUM} recovery: ${EXPR_1}
