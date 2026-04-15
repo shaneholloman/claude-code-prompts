@@ -1,4 +1,4 @@
-# System Prompt: lsp-notification-handlers-registered-2
+# System Reminder: lsp-notification-handlers-registered-2
 
 - Source: inline
 
