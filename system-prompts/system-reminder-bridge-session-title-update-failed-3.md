@@ -1,10 +1,17 @@
-# System Prompt: bridge-session-title-update-failed-3
+# System Reminder: bridge-session-title-update-failed-3
 
 - Source: inline
 
 ## Summary
 
 Session title update encountered a failure.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 [bridge] Session title update failed with status ${EXPR_1}: ${EXPR_2}
