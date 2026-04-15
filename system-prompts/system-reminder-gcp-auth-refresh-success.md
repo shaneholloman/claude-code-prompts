@@ -1,4 +1,4 @@
-# System Prompt: gcp-auth-refresh-success
+# System Reminder: gcp-auth-refresh-success
 
 - Source: inline
 
