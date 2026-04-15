@@ -1,4 +1,4 @@
-# System Prompt: tmux-backend-selected
+# System Reminder: tmux-backend-selected
 
 - Source: inline
 
