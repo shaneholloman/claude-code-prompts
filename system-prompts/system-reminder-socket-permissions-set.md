@@ -1,4 +1,4 @@
-# System Prompt: socket-permissions-set
+# System Reminder: socket-permissions-set
 
 - Source: inline
 
