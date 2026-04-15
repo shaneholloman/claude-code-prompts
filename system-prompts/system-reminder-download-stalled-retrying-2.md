@@ -1,4 +1,4 @@
-# System Prompt: download-stalled-retrying-2
+# System Reminder: download-stalled-retrying-2
 
 - Source: inline
 
