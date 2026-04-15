@@ -1,4 +1,4 @@
-# System Prompt: empty-skills-load-failure
+# System Reminder: empty-skills-load-failure
 
 - Source: inline
 
