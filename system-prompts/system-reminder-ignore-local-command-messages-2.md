@@ -1,4 +1,4 @@
-# System Prompt: ignore-local-command-messages-2
+# System Reminder: ignore-local-command-messages-2
 
 - Source: inline
 
