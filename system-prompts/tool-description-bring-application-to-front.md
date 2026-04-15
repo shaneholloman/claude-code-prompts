@@ -1,4 +1,4 @@
-# Tool Prompt: bring-application-to-front
+# Tool Description: bring-application-to-front
 
 - Name: open_application
 
