@@ -1,4 +1,4 @@
-# System Prompt: user-escape-aborting-turn
+# System Reminder: user-escape-aborting-turn
 
 - Source: inline
 
