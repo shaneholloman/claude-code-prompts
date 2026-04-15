@@ -1,4 +1,4 @@
-# System Prompt: empty-existing-file-warning
+# System Reminder: empty-existing-file-warning
 
 - Source: inline
 
