@@ -1,5 +1,6 @@
 # System Prompt: write-short-summary-label
 
+
 ## Summary
 
 Crafted concise labels for tool call achievements.
