@@ -1,4 +1,4 @@
-# Tool Prompt: high-res-screenshot-inspection
+# Tool Description: high-res-screenshot-inspection
 
 - Name: zoom
 
