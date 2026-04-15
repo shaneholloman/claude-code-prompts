@@ -1,4 +1,4 @@
-# System Prompt: extract-memories-skipping-user-prose
+# System Reminder: extract-memories-skipping-user-prose
 
 - Source: inline
 
