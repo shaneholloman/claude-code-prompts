@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-initial-keepalive
+# System Reminder: voice-stream-initial-keepalive
 
 - Source: inline
 
