@@ -1,10 +1,20 @@
-# Tool Prompt: at-a-glance-summary-guidelines-2
+# Tool Description: at-a-glance-summary-guidelines-2
 
 - Name: at_a_glance
 
 ## Summary
 
 Guidelines for creating effective usage summaries.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 You're writing an "At a Glance" summary for a Claude Code usage insights report for Claude Code users. The goal is to help them understand their usage and improve how they can use Claude better, especially as models improve.
