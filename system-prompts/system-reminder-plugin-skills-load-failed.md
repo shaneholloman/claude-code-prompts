@@ -1,4 +1,4 @@
-# System Prompt: plugin-skills-load-failed
+# System Reminder: plugin-skills-load-failed
 
 - Source: inline
 
