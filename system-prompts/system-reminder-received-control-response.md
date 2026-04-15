@@ -1,4 +1,4 @@
-# System Prompt: received-control-response
+# System Reminder: received-control-response
 
 - Source: inline
 
