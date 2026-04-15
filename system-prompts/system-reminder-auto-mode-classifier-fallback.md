@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-classifier-fallback
+# System Reminder: auto-mode-classifier-fallback
 
 - Source: inline
 
