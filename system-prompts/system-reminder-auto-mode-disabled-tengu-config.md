@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-disabled-tengu-config
+# System Reminder: auto-mode-disabled-tengu-config
 
 - Source: inline
 
