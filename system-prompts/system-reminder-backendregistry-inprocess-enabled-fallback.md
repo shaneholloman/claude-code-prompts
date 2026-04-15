@@ -1,4 +1,4 @@
-# System Prompt: backendregistry-inprocess-enabled-fallback
+# System Reminder: backendregistry-inprocess-enabled-fallback
 
 - Source: inline
 
