@@ -1,4 +1,4 @@
-# System Prompt: global-mtls-config-complete
+# System Reminder: global-mtls-config-complete
 
 - Source: inline
 
