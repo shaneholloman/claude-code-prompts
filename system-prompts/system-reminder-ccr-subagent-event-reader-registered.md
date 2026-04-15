@@ -1,4 +1,4 @@
-# System Prompt: ccr-subagent-event-reader-registered
+# System Reminder: ccr-subagent-event-reader-registered
 
 - Source: inline
 
