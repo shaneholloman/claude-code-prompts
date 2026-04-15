@@ -1,4 +1,4 @@
-# System Prompt: shallow-clone-head-only
+# System Reminder: shallow-clone-head-only
 
 - Source: inline
 
