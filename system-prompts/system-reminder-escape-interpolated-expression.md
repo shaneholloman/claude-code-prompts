@@ -1,10 +1,21 @@
-# System Prompt: escape-interpolated-expression
+# System Reminder: escape-interpolated-expression
 
 - Source: inline
 
 ## Summary
 
 Multiple prompts (3)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 -e
