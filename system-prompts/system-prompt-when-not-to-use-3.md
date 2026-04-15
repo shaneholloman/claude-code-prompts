@@ -6,6 +6,12 @@
 
 Guidance on tool usage for known targets.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 ## When not to use
 
