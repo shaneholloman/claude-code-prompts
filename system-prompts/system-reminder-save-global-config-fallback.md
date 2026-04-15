@@ -1,4 +1,4 @@
-# System Prompt: save-global-config-fallback
+# System Reminder: save-global-config-fallback
 
 - Source: inline
 
