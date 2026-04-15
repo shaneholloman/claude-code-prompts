@@ -1,4 +1,4 @@
-# System Prompt: end-of-input-marker
+# System Reminder: end-of-input-marker
 
 - Source: inline
 
