@@ -1,4 +1,4 @@
-# System Prompt: promoting-unreported-interim-2
+# System Reminder: promoting-unreported-interim-2
 
 - Source: inline
 
