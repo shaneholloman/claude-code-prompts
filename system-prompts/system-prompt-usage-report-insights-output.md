@@ -1,8 +1,21 @@
 # System Prompt: usage-report-insights-shareable
 
+
 ## Summary
 
 User generated a usage report with insights.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 The user just ran ${PATH} to generate a usage report analyzing their Claude Code sessions.
