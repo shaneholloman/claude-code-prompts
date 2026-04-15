@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-cache-unchanged-skipping-write
+# System Reminder: bootstrap-cache-unchanged-skipping-write
 
 - Source: inline
 
