@@ -1,4 +1,4 @@
-# System Prompt: no-stderr-output-captured
+# System Reminder: no-stderr-output-captured
 
 - Source: inline
 
