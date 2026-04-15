@@ -1,4 +1,4 @@
-# System Prompt: data-types-overview
+# System Data Block: sql-data-types-list
 
 - Source: inline
 
