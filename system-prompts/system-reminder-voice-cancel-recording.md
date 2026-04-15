@@ -1,4 +1,4 @@
-# System Prompt: voice-cancel-recording
+# System Reminder: voice-cancel-recording
 
 - Source: inline
 
