@@ -1,4 +1,4 @@
-# System Prompt: create-invocation-job
+# System Data Block: bedrock-create-invocation-job-request
 
 - Source: inline
 
