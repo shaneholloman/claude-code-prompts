@@ -1,4 +1,4 @@
-# System Prompt: using-cached-restrictions
+# System Reminder: using-cached-restrictions
 
 - Source: inline
 
