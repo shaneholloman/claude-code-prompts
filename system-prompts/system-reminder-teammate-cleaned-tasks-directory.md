@@ -1,4 +1,4 @@
-# System Prompt: teammate-cleaned-tasks-directory
+# System Reminder: teammate-cleaned-tasks-directory
 
 - Source: inline
 
