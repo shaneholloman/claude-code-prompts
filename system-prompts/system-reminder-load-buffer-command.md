@@ -1,4 +1,4 @@
-# System Prompt: load-buffer-command
+# System Reminder: load-buffer-command
 
 - Source: inline
 
