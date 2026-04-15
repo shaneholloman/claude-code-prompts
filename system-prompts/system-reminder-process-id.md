@@ -1,10 +1,19 @@
-# System Prompt: process-id
+# System Reminder: process-id
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (2)
+Multiple prompts (3)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | true | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}/${EXPR_2}/ (PID ${EXPR_3})
+${EXPR_1: true}
+
+ (PID ${EXPR_2})
