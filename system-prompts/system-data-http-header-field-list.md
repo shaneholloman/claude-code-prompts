@@ -1,4 +1,4 @@
-# System Prompt: access-control-policy-headers
+# System Data Block: http-header-field-list
 
 - Source: inline
 
