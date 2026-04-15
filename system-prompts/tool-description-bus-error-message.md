@@ -1,4 +1,4 @@
-# Tool Prompt: bus-error-message
+# Tool Description: bus-error-message
 
 - Name: SIGBUS
 
