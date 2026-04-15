@@ -1,4 +1,4 @@
-# System Prompt: permissionsync-missing-team-name-response
+# System Reminder: permissionsync-missing-team-name-response
 
 - Source: inline
 
