@@ -1,4 +1,4 @@
-# System Prompt: save-current-project-config-fallback
+# System Reminder: save-current-project-config-fallback
 
 - Source: inline
 
