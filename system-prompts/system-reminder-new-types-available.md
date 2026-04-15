@@ -1,4 +1,4 @@
-# System Prompt: new-types-available
+# System Reminder: new-types-available
 
 - Source: inline
 
