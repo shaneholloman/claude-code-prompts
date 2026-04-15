@@ -1,8 +1,18 @@
 # System Prompt: schedule-recurring-with-cron
 
+
 ## Summary
 
 Parse input to schedule prompts at specified intervals.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 # ${PATH} — schedule a recurring prompt
