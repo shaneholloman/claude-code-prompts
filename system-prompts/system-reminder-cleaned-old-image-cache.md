@@ -1,4 +1,4 @@
-# System Prompt: cleaned-old-image-cache
+# System Reminder: cleaned-old-image-cache
 
 - Source: inline
 
