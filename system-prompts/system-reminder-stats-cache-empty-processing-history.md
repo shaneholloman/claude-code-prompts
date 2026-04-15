@@ -1,4 +1,4 @@
-# System Prompt: stats-cache-empty-processing-history
+# System Reminder: stats-cache-empty-processing-history
 
 - Source: inline
 
