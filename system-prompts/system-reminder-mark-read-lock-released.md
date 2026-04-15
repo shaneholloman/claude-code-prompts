@@ -1,4 +1,4 @@
-# System Prompt: mark-read-lock-released
+# System Reminder: mark-read-lock-released
 
 - Source: inline
 
