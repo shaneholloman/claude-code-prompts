@@ -1,10 +1,16 @@
-# System Prompt: ruby-sdk-api
+# System Data Block: ruby-sdk-client-initialization
 
 - Source: inline
 
 ## Summary
 
 Guide for using Claude API with Ruby SDK.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Claude API — Ruby
