@@ -1,4 +1,4 @@
-# System Prompt: fetch-cache-passes-eligibility-failed
+# System Reminder: fetch-cache-passes-eligibility-failed
 
 - Source: inline
 
