@@ -1,4 +1,4 @@
-# System Prompt: stdio-transport-error
+# System Reminder: stdio-transport-error
 
 - Source: inline
 
