@@ -1,4 +1,4 @@
-# System Prompt: websocket-headers-refreshed-reconnect
+# System Reminder: websocket-headers-refreshed-reconnect
 
 - Source: inline
 
