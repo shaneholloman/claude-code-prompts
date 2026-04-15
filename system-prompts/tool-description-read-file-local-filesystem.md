@@ -1,10 +1,20 @@
-# Tool Prompt: read-file-local-filesystem
+# Tool Description: read-file-local-filesystem
 
 - Name: Read
 
 ## Summary
 
 Reads any file from the local filesystem.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 Reads a file from the local filesystem. You can access any file directly by using this tool.
