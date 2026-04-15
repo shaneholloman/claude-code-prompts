@@ -1,4 +1,4 @@
-# System Prompt: font-border-color-margin-size
+# System Data Block: report-page-css-styles
 
 - Source: inline
 
