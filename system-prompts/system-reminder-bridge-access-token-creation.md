@@ -1,4 +1,4 @@
-# System Prompt: bridge-access-token-session
+# System Reminder: bridge-access-token-session
 
 - Source: inline
 
