@@ -1,10 +1,16 @@
-# System Prompt: php-sdk-client-initialization
+# System Data Block: messages-block-type-client-content
 
 - Source: inline
 
 ## Summary
 
 Guide for initializing the PHP SDK client.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Claude API — PHP
