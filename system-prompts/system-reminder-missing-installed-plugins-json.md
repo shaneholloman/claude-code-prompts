@@ -1,4 +1,4 @@
-# System Prompt: missing-installed-plugins-json
+# System Reminder: missing-installed-plugins-json
 
 - Source: inline
 
