@@ -1,10 +1,23 @@
-# System Prompt: persistent-memory-user-collaboration-6
+# System Reminder: memory-user-collaboration-2
 
 - Source: inline
 
 ## Summary
 
 Multiple prompts (2)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | resolved string (518 chars) | [system-prompt-when-to-access-memories-3.md](system-prompt-when-to-access-memories-3.md) |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # Memory
