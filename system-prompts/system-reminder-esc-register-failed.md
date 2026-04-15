@@ -1,4 +1,4 @@
-# System Prompt: esc-register-failed
+# System Reminder: esc-register-failed
 
 - Source: inline
 
