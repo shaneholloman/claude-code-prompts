@@ -1,4 +1,4 @@
-# System Prompt: env-local-lock-package-json
+# System Data Block: env-local-lock-package-json
 
 - Source: inline
 
