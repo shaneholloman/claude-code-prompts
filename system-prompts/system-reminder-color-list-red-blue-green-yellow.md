@@ -1,4 +1,4 @@
-# System Prompt: color-list-red-blue-green-yellow
+# System Reminder: color-list-red-blue-green-yellow
 
 - Source: inline
 
