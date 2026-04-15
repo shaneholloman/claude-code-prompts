@@ -1,4 +1,4 @@
-# System Prompt: provided-value-not-uuid-2
+# System Reminder: provided-value-not-uuid-2
 
 - Source: inline
 
