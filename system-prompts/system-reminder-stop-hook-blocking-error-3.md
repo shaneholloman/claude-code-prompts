@@ -1,4 +1,4 @@
-# System Prompt: stop-hook-blocking-error-3
+# System Reminder: stop-hook-blocking-error-3
 
 - Source: inline
 
