@@ -1,4 +1,4 @@
-# System Prompt: official-marketplace-auto-install-disabled
+# System Reminder: official-marketplace-auto-install-disabled
 
 - Source: inline
 
