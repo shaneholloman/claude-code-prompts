@@ -1,4 +1,4 @@
-# System Prompt: hooks-detected-request
+# System Reminder: hooks-detected-request
 
 - Source: inline
 
