@@ -1,10 +1,16 @@
-# Tool Prompt: write-file-to-local-filesystem-3
+# Tool Description: write-file-to-local-filesystem-3
 
 - Name: Write
 
 ## Summary
 
 Overwrites an existing file in the local filesystem.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Writes a file to the local filesystem.
