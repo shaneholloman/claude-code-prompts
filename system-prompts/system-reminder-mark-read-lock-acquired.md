@@ -1,4 +1,4 @@
-# System Prompt: mark-read-lock-acquired
+# System Reminder: mark-read-lock-acquired
 
 - Source: inline
 
