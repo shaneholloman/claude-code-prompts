@@ -1,4 +1,4 @@
-# System Prompt: team-memory-sync-giving-up
+# System Reminder: team-memory-sync-giving-up
 
 - Source: inline
 
