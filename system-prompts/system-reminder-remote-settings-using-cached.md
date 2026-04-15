@@ -1,4 +1,4 @@
-# System Prompt: remote-settings-using-cached
+# System Reminder: remote-settings-using-cached
 
 - Source: inline
 
