@@ -1,4 +1,4 @@
-# System Prompt: missing-session-token-persistence
+# System Reminder: missing-session-token-persistence
 
 - Source: inline
 
