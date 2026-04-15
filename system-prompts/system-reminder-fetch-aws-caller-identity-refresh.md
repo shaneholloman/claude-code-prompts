@@ -1,4 +1,4 @@
-# System Prompt: fetch-aws-caller-identity-refresh
+# System Reminder: fetch-aws-caller-identity-refresh
 
 - Source: inline
 
