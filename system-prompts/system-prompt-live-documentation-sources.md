@@ -6,6 +6,12 @@
 
 File for fetching current information from sources.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_NAME` | None | None |
+
 # Raw Prompt Text
 # Live Documentation Sources
 
