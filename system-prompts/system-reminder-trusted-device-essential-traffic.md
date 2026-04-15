@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-essential-traffic
+# System Reminder: trusted-device-essential-traffic
 
 - Source: inline
 
