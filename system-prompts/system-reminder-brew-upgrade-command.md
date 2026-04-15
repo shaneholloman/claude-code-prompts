@@ -4,13 +4,16 @@
 
 ## Summary
 
-Command to upgrade a package using brew.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | true | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-brew upgrade ${EXPR_1}
+${EXPR_1: true}
+
+brew upgrade ${EXPR_2}
