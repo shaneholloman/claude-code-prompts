@@ -1,4 +1,4 @@
-# System Prompt: dropped-hint-unsupported-type-2
+# System Reminder: dropped-hint-unsupported-type-2
 
 - Source: inline
 
