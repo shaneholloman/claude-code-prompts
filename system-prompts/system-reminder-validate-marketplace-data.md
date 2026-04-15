@@ -1,4 +1,4 @@
-# System Prompt: validate-marketplace-data
+# System Reminder: validate-marketplace-data
 
 - Source: inline
 
