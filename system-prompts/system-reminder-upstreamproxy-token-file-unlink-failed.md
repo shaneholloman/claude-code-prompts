@@ -1,4 +1,4 @@
-# System Prompt: upstreamproxy-token-file-unlink-failed
+# System Reminder: upstreamproxy-token-file-unlink-failed
 
 - Source: inline
 
