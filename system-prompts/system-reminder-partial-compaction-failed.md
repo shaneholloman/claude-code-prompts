@@ -1,4 +1,4 @@
-# System Prompt: partial-compaction-failed
+# System Reminder: partial-compaction-failed
 
 - Source: inline
 
