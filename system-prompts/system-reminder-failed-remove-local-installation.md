@@ -1,4 +1,4 @@
-# System Prompt: failed-remove-local-installation
+# System Reminder: failed-remove-local-installation
 
 - Source: inline
 
