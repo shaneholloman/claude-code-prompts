@@ -1,4 +1,4 @@
-# Tool Prompt: request-process-information
+# Tool Description: request-process-information
 
 - Name: SIGINFO
 
