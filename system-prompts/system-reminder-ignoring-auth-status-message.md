@@ -1,4 +1,4 @@
-# System Prompt: ignoring-auth-status-message
+# System Reminder: ignoring-auth-status-message
 
 - Source: inline
 
