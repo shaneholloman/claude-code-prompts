@@ -1,4 +1,4 @@
-# System Prompt: waiting-for-user-input
+# System Reminder: waiting-for-user-input
 
 - Source: inline
 
