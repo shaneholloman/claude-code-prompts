@@ -1,10 +1,20 @@
-# System Prompt: template-expression-placeholders
+# System Reminder: template-expression-placeholders
 
 - Source: inline
 
 ## Summary
 
 Template with expression placeholders for later substitution.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
