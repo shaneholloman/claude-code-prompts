@@ -1,4 +1,4 @@
-# System Prompt: call-hierarchy-item-missing-uri
+# System Reminder: call-hierarchy-item-missing-uri
 
 - Source: inline
 
