@@ -1,4 +1,4 @@
-# System Prompt: planning-context-and-reminders
+# System Data Block: hook-context-reminders
 
 - Source: inline
 
