@@ -1,8 +1,15 @@
 # System Prompt: worker-fork-execution-directive
 
+
 ## Summary
 
 Execute one directive and stop.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 <fork-boilerplate>
