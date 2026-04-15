@@ -1,4 +1,4 @@
-# System Prompt: invalid-marketplace-source-format
+# System Reminder: invalid-marketplace-source-format
 
 - Source: inline
 
