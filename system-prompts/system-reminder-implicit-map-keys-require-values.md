@@ -1,4 +1,4 @@
-# System Prompt: implicit-map-keys-require-values
+# System Reminder: implicit-map-keys-require-values
 
 - Source: inline
 
