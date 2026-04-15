@@ -6,6 +6,12 @@
 
 Overview of managed agents architecture and components.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+
 # Raw Prompt Text
 # Managed Agents — Core Concepts
 
