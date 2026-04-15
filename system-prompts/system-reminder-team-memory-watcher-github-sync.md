@@ -1,4 +1,4 @@
-# System Prompt: team-memory-watcher-github-sync
+# System Reminder: team-memory-watcher-github-sync
 
 - Source: inline
 
