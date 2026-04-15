@@ -1,10 +1,21 @@
-# System Prompt: autonomous-defaults-replacing-rules
+# System Data Block: custom-defaults-autonomous-replacing
 
 - Source: inline
 
 ## Summary
 
 Schedule and run autonomous checks with custom rules.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # ${PATH} — schedule the autonomous default
