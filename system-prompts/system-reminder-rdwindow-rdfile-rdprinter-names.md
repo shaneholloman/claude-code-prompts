@@ -1,4 +1,4 @@
-# System Prompt: rdwindow-rdfile-rdprinter-names
+# System Reminder: rdwindow-rdfile-rdprinter-names
 
 - Source: inline
 
