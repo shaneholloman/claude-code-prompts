@@ -1,4 +1,4 @@
-# System Prompt: cleaning-temp-file-stable
+# System Reminder: cleaning-temp-file-stable
 
 - Source: inline
 
