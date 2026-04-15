@@ -1,4 +1,4 @@
-# System Prompt: query-profiling-disabled
+# System Reminder: query-profiling-disabled
 
 - Source: inline
 
