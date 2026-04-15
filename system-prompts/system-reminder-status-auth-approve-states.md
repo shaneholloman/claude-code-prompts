@@ -1,4 +1,4 @@
-# System Prompt: status-auth-approve-states
+# System Reminder: status-auth-approve-states
 
 - Source: inline
 
