@@ -1,4 +1,4 @@
-# System Prompt: cleared-proxy-cache
+# System Reminder: cleared-proxy-cache
 
 - Source: inline
 
