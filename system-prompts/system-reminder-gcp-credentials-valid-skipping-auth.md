@@ -1,4 +1,4 @@
-# System Prompt: gcp-credentials-valid-skipping-auth
+# System Reminder: gcp-credentials-valid-skipping-auth
 
 - Source: inline
 
