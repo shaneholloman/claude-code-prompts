@@ -1,10 +1,16 @@
-# Tool Prompt: web-search-with-sources-2
+# Tool Description: web-search-with-sources-2
 
 - Name: WebSearch
 
 ## Summary
 
 Enables automatic web search and mandates a Sources section with linked result URLs.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 - Allows Claude to search the web and use the results to inform responses
