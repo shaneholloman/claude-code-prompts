@@ -1,4 +1,4 @@
-# System Prompt: socket-permissions-set-failure
+# System Reminder: socket-permissions-set-failure
 
 - Source: inline
 
