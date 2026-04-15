@@ -1,4 +1,4 @@
-# System Prompt: profiler-turn-start
+# System Reminder: profiler-turn-start
 
 - Source: inline
 
@@ -6,5 +6,11 @@
 
 Logs start of a headless profiler turn with turn identifier.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | -1 | None |
+
 # Raw Prompt Text
-[headlessProfiler] Started turn ${EXPR_1}
+[headlessProfiler] Started turn ${EXPR_1: -1}
