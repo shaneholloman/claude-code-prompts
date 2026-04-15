@@ -1,4 +1,4 @@
-# Tool Prompt: test-asks-for-permission
+# Tool Description: test-asks-for-permission
 
 - Name: TestingPermission
 
