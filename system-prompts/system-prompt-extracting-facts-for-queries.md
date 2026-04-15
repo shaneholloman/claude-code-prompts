@@ -1,5 +1,6 @@
 # System Prompt: extracting-facts-for-queries
 
+
 ## Summary
 
 Extract relevant facts from memory files for queries.
