@@ -1,4 +1,4 @@
-# System Prompt: stable-hit-deadline-proceeding
+# System Reminder: stable-hit-deadline-proceeding
 
 - Source: inline
 
