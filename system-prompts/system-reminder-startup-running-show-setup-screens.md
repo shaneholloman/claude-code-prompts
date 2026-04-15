@@ -1,4 +1,4 @@
-# System Prompt: startup-running-show-setup-screens
+# System Reminder: startup-running-show-setup-screens
 
 - Source: inline
 
