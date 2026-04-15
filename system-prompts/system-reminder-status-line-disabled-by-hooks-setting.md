@@ -1,4 +1,4 @@
-# System Prompt: status-line-disabled-by-hooks-setting
+# System Reminder: status-line-disabled-by-hooks-setting
 
 - Source: inline
 
