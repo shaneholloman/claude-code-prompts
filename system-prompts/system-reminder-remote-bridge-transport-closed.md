@@ -10,7 +10,7 @@ Indicates a closed transport status for remote bridge.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | false | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[remote-bridge] v2 transport closed (code=${EXPR_1: false})
+[remote-bridge] v2 transport closed (code=${EXPR_1})
