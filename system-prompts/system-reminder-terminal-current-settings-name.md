@@ -1,4 +1,4 @@
-# System Prompt: terminal-current-settings-name
+# System Reminder: terminal-current-settings-name
 
 - Source: inline
 
