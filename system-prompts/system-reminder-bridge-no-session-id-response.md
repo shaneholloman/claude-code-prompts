@@ -1,4 +1,4 @@
-# System Prompt: bridge-session-response
+# System Reminder: bridge-session-response
 
 - Source: inline
 
