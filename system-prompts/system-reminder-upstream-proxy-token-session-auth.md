@@ -1,4 +1,4 @@
-# System Prompt: upstream-proxy-token-session-auth
+# System Reminder: upstream-proxy-token-session-auth
 
 - Source: inline
 
