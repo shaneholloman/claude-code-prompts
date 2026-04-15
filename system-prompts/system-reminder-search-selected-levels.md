@@ -1,4 +1,4 @@
-# System Prompt: search-selected-levels
+# System Reminder: search-selected-levels
 
 - Source: inline
 
