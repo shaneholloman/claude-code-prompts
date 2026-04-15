@@ -1,4 +1,4 @@
-# System Prompt: stdin-resume-called-no-listeners
+# System Reminder: stdin-resume-called-no-listeners
 
 - Source: inline
 
