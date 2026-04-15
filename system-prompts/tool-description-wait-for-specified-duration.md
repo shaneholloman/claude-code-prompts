@@ -1,4 +1,4 @@
-# Tool Prompt: wait-for-specified-duration
+# Tool Description: wait-for-specified-duration
 
 - Name: wait
 
