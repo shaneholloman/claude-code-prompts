@@ -1,4 +1,4 @@
-# System Prompt: validating-local-marketplace
+# System Reminder: validating-local-marketplace
 
 - Source: inline
 
