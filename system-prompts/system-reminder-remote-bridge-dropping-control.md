@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-dropping-control
+# System Reminder: remote-bridge-dropping-control
 
 - Source: inline
 
