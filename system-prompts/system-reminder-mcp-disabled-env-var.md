@@ -1,4 +1,4 @@
-# System Prompt: mcp-disabled-env-var
+# System Reminder: mcp-disabled-env-var
 
 - Source: inline
 
