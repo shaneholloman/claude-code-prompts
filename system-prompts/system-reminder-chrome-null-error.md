@@ -1,4 +1,4 @@
-# System Prompt: chrome-null-error
+# System Reminder: chrome-null-error
 
 - Source: inline
 
