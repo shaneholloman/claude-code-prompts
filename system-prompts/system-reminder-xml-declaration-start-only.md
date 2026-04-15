@@ -1,4 +1,4 @@
-# System Prompt: xml-declaration-start-only
+# System Reminder: xml-declaration-start-only
 
 - Source: inline
 
