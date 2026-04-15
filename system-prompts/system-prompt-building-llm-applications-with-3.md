@@ -6,6 +6,15 @@
 
 Guidance for creating applications using Claude.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_NAME` | None | None |
+| `OPUS_ID` | None | None |
+| `SONNET_ID` | None | None |
+| `PREV_SONNET_ID` | None | None |
+
 # Raw Prompt Text
 # Building LLM-Powered Applications with Claude
 
