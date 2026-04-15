@@ -1,10 +1,17 @@
-# System Prompt: session-outcome-json
+# System Reminder: session-outcome-json
 
 - Source: inline
 
 ## Summary
 
 Request JSON evaluation of user goals, outcomes, satisfaction, and session friction.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | resolved string (1067 chars) | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}${EXPR_2}
