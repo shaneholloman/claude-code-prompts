@@ -1,4 +1,4 @@
-# System Prompt: remote-settings-user-rejected-new
+# System Reminder: remote-settings-user-rejected-new
 
 - Source: inline
 
