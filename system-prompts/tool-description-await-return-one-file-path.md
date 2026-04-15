@@ -1,10 +1,16 @@
-# Tool Prompt: await-return-one-file-path
+# Tool Description: await-return-one-file-path
 
 - Name: REPL
 
 ## Summary
 
 Script to await and return a single file path.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 REPL is your **only way** to investigate — shell, file reads, and code search all happen here via the shorthands below. Edit, Write, and Agent are still available as top-level tools for direct use.
