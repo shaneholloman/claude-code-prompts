@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-consent-policy
+# System Reminder: auto-mode-consent-policy
 
 - Source: inline
 
