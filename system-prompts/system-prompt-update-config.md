@@ -1,4 +1,4 @@
-# System Prompt: update-config
+# Skill: update-config
 
 - Source: inline
 
