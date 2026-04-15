@@ -1,4 +1,4 @@
-# System Prompt: trading-platforms-comparison
+# System Data Block: trading-platforms-list
 
 - Source: inline
 
