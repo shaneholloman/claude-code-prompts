@@ -1,4 +1,4 @@
-# System Prompt: marketplace-config-save-failure
+# System Reminder: marketplace-config-save-failure
 
 - Source: inline
 
