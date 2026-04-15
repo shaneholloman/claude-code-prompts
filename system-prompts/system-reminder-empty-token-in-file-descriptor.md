@@ -1,4 +1,4 @@
-# System Prompt: empty-token-in-file-descriptor
+# System Reminder: empty-token-in-file-descriptor
 
 - Source: inline
 
