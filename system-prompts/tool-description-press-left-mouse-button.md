@@ -1,4 +1,4 @@
-# Tool Prompt: press-left-mouse-button
+# Tool Description: press-left-mouse-button
 
 - Name: left_mouse_down
 
