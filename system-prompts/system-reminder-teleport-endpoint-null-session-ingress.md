@@ -1,4 +1,4 @@
-# System Prompt: teleport-endpoint-null-session-ingress
+# System Reminder: teleport-endpoint-null-session-ingress
 
 - Source: inline
 
