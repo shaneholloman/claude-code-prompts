@@ -1,8 +1,17 @@
 # System Prompt: remote-launched-ccr
 
+
 ## Summary
 
 A remote agent has been launched in CCR.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Remote agent launched in CCR.
