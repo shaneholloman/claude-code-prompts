@@ -6,6 +6,12 @@
 
 Automated notification for background tasks.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 [SYSTEM NOTIFICATION - NOT USER INPUT]
 This is an automated background-task event, NOT a message from the user.
