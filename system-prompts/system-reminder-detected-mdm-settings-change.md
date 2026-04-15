@@ -1,4 +1,4 @@
-# System Prompt: mdm-settings-change-detected
+# System Reminder: mdm-settings-change-detected
 
 - Source: inline
 
