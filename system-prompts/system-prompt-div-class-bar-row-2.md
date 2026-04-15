@@ -6,6 +6,13 @@
 
 HTML structure for a bar with labels and values.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 <div class="bar-row">
         <div class="bar-label">${EXPR_1}<${PATH}>
