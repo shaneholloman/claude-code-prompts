@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-oauth-token
+# System Reminder: remote-bridge-oauth-token
 
 - Source: inline
 
