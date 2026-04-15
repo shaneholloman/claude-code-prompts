@@ -1,4 +1,4 @@
-# System Prompt: vmview-vmselect-vmnavigation
+# System Reminder: vmview-vmselect-vmnavigation
 
 - Source: inline
 
