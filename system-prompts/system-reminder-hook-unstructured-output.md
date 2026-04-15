@@ -1,4 +1,4 @@
-# System Prompt: hook-unstructured-output
+# System Reminder: hook-unstructured-output
 
 - Source: inline
 
