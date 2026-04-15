@@ -23,7 +23,7 @@ Guidelines for managing agent interactions.
 | `EXPR_11` | None | None |
 
 # Raw Prompt Text
-(PID ${EXPR_1})
+brew upgrade ${EXPR_1}
 ${EXPR_2}
 ## Usage notes
 
