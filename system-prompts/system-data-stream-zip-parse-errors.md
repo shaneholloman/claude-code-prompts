@@ -1,4 +1,4 @@
-# System Prompt: invalid-stream-data-errors
+# System Data Block: stream-zip-parse-errors
 
 - Source: inline
 
