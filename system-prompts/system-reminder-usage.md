@@ -1,10 +1,18 @@
-# System Prompt: usage
+# System Reminder: usage
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (2)
+Reminder to use the specified model.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | unknown | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5} --model ${EXPR_6}
+${EXPR_1}@${EXPR_2: 'unknown'} --model ${EXPR_3}
