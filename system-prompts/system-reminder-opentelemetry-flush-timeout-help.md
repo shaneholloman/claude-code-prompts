@@ -4,7 +4,7 @@
 
 ## Summary
 
-Explains an OpenTelemetry flush timeout and suggests increasing timeout, checking backend, or disabling telemetry.
+Warn that OpenTelemetry flush timed out and show current and suggested timeout values.
 
 ## Placeholder Hints (source-backed)
 
@@ -14,11 +14,11 @@ Explains an OpenTelemetry flush timeout and suggests increasing timeout, checkin
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-OpenTelemetry telemetry flush timed out after ${EXPR_1}ms
+OpenTelemetry telemetry flush timed out after  (PID ${EXPR_1})ms
 
 To resolve this issue, you can:
 ${NUM}. Increase the timeout by setting CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS env var (e.g., ${NUM} for ${NUM} seconds)
 ${NUM}. Check if your OpenTelemetry backend is experiencing scalability issues
 ${NUM}. Disable OpenTelemetry by unsetting CLAUDE_CODE_ENABLE_TELEMETRY env var
 
-Current timeout: ${EXPR_2}ms
+Current timeout:  (PID ${EXPR_2})ms
