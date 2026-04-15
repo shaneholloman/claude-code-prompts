@@ -1,4 +1,4 @@
-# Tool Prompt: socket-out-of-band-data
+# Tool Description: socket-out-of-band-data
 
 - Name: SIGURG
 
