@@ -1,4 +1,4 @@
-# System Prompt: advisor-stnone-stauthenticating
+# System Reminder: advisor-stnone-stauthenticating
 
 - Source: inline
 
