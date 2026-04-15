@@ -1,4 +1,4 @@
-# System Prompt: backendregistry-it2-status
+# System Reminder: backendregistry-it2-status
 
 - Source: inline
 
