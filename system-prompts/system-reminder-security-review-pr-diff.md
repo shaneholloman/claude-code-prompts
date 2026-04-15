@@ -1,4 +1,4 @@
-# System Prompt: security-review-pr-diff
+# System Reminder: security-review-pr-diff
 
 - Source: inline
 
