@@ -1,10 +1,16 @@
-# System Prompt: save-marketplace-autoinstall-failure-state
+# System Reminder: save-marketplace-autoinstall-failure-state
 
 - Source: inline
 
 ## Summary
 
 Indicates an error saving marketplace auto-install failure state.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Failed to save marketplace auto-install failure state: ${EXPR_1}
