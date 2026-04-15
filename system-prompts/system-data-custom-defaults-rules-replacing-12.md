@@ -4,7 +4,7 @@
 
 ## Summary
 
-Custom rules replace default settings.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
@@ -18,30 +18,51 @@ Custom rules replace default settings.
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | @anthropic-ai/claude-code | None |
+| `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | @anthropic-ai/claude-code | None |
+| `EXPR_14` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}//## allow (custom rules replacing defaults)
-Custom:
+${EXPR_1} loaded with errors
+
 ${EXPR_2}
 
-Defaults being replaced:
-${EXPR_3}
+brew upgrade ${EXPR_3}
 
-## soft_deny (custom rules replacing defaults)
-Custom:
-${EXPR_4}
+ (PID ${EXPR_4})
 
-Defaults being replaced:
+global
+
 ${EXPR_5}
 
-## environment (custom rules replacing defaults)
+@anthropic-ai${PATH}
+
+## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_6}
 
 Defaults being replaced:
 ${EXPR_7}
 
-stable${EXPR_8}npm view ${EXPR_9: '@anthropic-ai/claude-code'}@${EXPR_10} version${EXPR_11}
+## soft_deny (custom rules replacing defaults)
+Custom:
+${EXPR_8}
+
+Defaults being replaced:
+${EXPR_9}
+
+## environment (custom rules replacing defaults)
+Custom:
+${EXPR_10}
+
+Defaults being replaced:
+${EXPR_11}
+
+
+
+${EXPR_12}
+
+npm view ${EXPR_13: '@anthropic-ai/claude-code'}@${EXPR_14} version
