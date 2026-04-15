@@ -1,4 +1,4 @@
-# System Prompt: cleaned-old-paste-stable
+# System Reminder: cleaned-old-paste-stable
 
 - Source: inline
 
