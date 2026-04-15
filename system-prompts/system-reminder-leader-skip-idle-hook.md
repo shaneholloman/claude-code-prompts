@@ -1,4 +1,4 @@
-# System Prompt: leader-skip-idle-hook
+# System Reminder: leader-skip-idle-hook
 
 - Source: inline
 
