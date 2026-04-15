@@ -1,4 +1,4 @@
-# System Prompt: passes-reuse-inflight-fetch
+# System Reminder: passes-reuse-inflight-fetch
 
 - Source: inline
 
