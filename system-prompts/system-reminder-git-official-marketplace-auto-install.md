@@ -1,4 +1,4 @@
-# System Prompt: git-official-marketplace-auto-install
+# System Reminder: git-official-marketplace-auto-install
 
 - Source: inline
 
