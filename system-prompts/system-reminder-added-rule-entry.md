@@ -4,7 +4,7 @@
 
 ## Summary
 
-Logs that a rule was added with given parameters.
+Log that a rule was added, including the type and rule name.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,6 +12,9 @@ Logs that a rule was added with given parameters.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Added ${EXPR_1} rule ${EXPR_2}
+${EXPR_1}
+
+Added ${EXPR_2} rule ${EXPR_3}
