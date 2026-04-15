@@ -1,4 +1,4 @@
-# System Prompt: starting-voice-recording-session
+# System Reminder: starting-voice-recording-session
 
 - Source: inline
 
