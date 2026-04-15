@@ -1,4 +1,4 @@
-# System Prompt: sdk-getoauthtoken-callback-expired
+# System Reminder: sdk-getoauthtoken-callback-expired
 
 - Source: inline
 
