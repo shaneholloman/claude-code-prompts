@@ -1,4 +1,4 @@
-# System Prompt: failed-readdir-versions-directory-2
+# System Reminder: failed-readdir-versions-directory-2
 
 - Source: inline
 
