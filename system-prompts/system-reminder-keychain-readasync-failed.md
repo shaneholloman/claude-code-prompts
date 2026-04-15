@@ -1,4 +1,4 @@
-# System Prompt: keychain-readasync-failed
+# System Reminder: keychain-readasync-failed
 
 - Source: inline
 
