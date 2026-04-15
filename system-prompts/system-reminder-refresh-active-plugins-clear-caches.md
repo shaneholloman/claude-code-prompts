@@ -1,4 +1,4 @@
-# System Prompt: refresh-active-plugins-clear-caches
+# System Reminder: refresh-active-plugins-clear-caches
 
 - Source: inline
 
