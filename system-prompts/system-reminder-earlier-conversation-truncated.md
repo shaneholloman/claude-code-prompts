@@ -1,4 +1,4 @@
-# System Prompt: earlier-conversation-truncated
+# System Reminder: earlier-conversation-truncated
 
 - Source: inline
 
