@@ -1,10 +1,18 @@
-# System Prompt: scheduled-follow-up-refresh-2
+# System Reminder: scheduled-follow-up-refresh-2
 
 - Source: inline
 
 ## Summary
 
 Scheduled token refresh for session ID.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 [${EXPR_1}:token] Scheduled follow-up refresh for sessionId=${EXPR_2} in ${EXPR_3}s
