@@ -1,10 +1,18 @@
-# System Prompt: streaming-typescript-content-event
+# System Data Block: streaming-typescript-quick-start
 
 - Source: inline
 
 ## Summary
 
 Example of streaming messages with TypeScript.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 # Streaming — TypeScript
