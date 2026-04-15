@@ -1,4 +1,4 @@
-# System Prompt: corrupted-config-backup-global
+# System Reminder: corrupted-config-backup-global
 
 - Source: inline
 
