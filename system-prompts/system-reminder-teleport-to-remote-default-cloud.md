@@ -1,4 +1,4 @@
-# System Prompt: teleport-to-remote-default-cloud
+# System Reminder: teleport-to-remote-default-cloud
 
 - Source: inline
 
