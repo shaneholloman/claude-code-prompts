@@ -1,4 +1,4 @@
-# System Prompt: itermbackend-unavailable-outside-iterm2
+# System Reminder: itermbackend-unavailable-outside-iterm2
 
 - Source: inline
 
