@@ -1,5 +1,6 @@
 # System Prompt: chrome-automation-guidelines
 
+
 ## Summary
 
 Guidelines for using Claude-in-Chrome tools including GIF recording and console log filtering.
