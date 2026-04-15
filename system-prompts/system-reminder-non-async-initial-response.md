@@ -1,4 +1,4 @@
-# System Prompt: non-async-initial-response
+# System Reminder: non-async-initial-response
 
 - Source: inline
 
