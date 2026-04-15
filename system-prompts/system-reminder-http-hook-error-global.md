@@ -1,4 +1,4 @@
-# System Prompt: http-hook-error-global
+# System Reminder: http-hook-error-global
 
 - Source: inline
 
