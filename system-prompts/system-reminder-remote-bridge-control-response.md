@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-control-response
+# System Reminder: remote-bridge-control-response
 
 - Source: inline
 
