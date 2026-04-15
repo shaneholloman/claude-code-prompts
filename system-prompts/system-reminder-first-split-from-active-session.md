@@ -1,4 +1,4 @@
-# System Prompt: first-split-from-active-session
+# System Reminder: first-split-from-active-session
 
 - Source: inline
 
