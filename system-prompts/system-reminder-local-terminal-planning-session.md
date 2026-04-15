@@ -1,4 +1,4 @@
-# System Prompt: local-terminal-planning-session
+# System Reminder: local-terminal-planning-session
 
 - Source: inline
 
