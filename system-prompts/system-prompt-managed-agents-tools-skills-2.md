@@ -6,6 +6,12 @@
 
 Overview of server and client tools for agents.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+
 # Raw Prompt Text
 # Managed Agents — Tools & Skills
 
