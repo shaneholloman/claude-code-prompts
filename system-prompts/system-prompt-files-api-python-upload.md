@@ -1,10 +1,16 @@
-# System Prompt: files-api-python-upload
+# System Data Block: files-api-python-upload
 
 - Source: inline
 
 ## Summary
 
 Upload and manage files for API requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Files API — Python
