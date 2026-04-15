@@ -1,4 +1,4 @@
-# System Prompt: cleaned-global-npm-installation
+# System Reminder: cleaned-global-npm-installation
 
 - Source: inline
 
