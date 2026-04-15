@@ -1,4 +1,4 @@
-# System Prompt: handoff-classifier-unavailable
+# System Reminder: handoff-classifier-unavailable
 
 - Source: inline
 
