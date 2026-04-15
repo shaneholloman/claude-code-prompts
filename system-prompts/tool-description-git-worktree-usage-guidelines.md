@@ -1,4 +1,4 @@
-# Tool Prompt: git-worktree-usage-guidelines
+# Tool Description: git-worktree-usage-guidelines
 
 - Name: EnterWorktree
 
