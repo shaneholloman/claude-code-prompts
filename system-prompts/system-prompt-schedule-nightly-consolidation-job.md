@@ -1,8 +1,17 @@
 # System Prompt: schedule-nightly-consolidation-job
 
+
 ## Summary
 
 Set up a recurring nightly memory consolidation task.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 # Dream: Schedule Nightly Consolidation
