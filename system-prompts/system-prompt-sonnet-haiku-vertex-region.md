@@ -1,4 +1,4 @@
-# System Prompt: sonnet-haiku-vertex-region
+# System Data Block: vertex-region-vars
 
 - Source: inline
 
