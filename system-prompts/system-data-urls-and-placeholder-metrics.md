@@ -1,4 +1,4 @@
-# System Prompt: multiple-paths-example
+# System Data Block: urls-and-placeholder-metrics
 
 - Source: inline
 
