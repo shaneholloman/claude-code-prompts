@@ -1,4 +1,4 @@
-# System Prompt: tiny-memory-edit-restrictions
+# System Reminder: tiny-memory-edit-restrictions
 
 - Source: inline
 
