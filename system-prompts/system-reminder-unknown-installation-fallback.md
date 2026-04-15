@@ -1,4 +1,4 @@
-# System Prompt: unknown-installation-fallback
+# System Reminder: unknown-installation-fallback
 
 - Source: inline
 
