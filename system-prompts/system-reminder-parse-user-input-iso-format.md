@@ -1,10 +1,19 @@
-# System Prompt: parse-user-input-iso-format
+# System Reminder: parse-user-input-iso-format
 
 - Source: inline
 
 ## Summary
 
 Parse user input into ISO format.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 Current context:
