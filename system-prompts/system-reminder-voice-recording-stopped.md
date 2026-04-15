@@ -1,4 +1,4 @@
-# System Prompt: voice-recording-stopped
+# System Reminder: voice-recording-stopped
 
 - Source: inline
 
