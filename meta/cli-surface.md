@@ -4,8 +4,8 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 524
-- Config keys: 856
+- Env vars: 539
+- Config keys: 886
 - Tools: 3
 - Skills: 0
 - Models: 97
@@ -304,6 +304,8 @@
 - `BUGHUNTER_DEV_BUNDLE_B64`
 - `BUILDKITE`
 - `C`
+- `C9_PID`
+- `C9_USER`
 - `CCR_ENABLE_BUNDLE`
 - `CCR_FORCE_BUNDLE`
 - `CCR_UPSTREAM_PROXY_ENABLED`
@@ -386,7 +388,9 @@
 - `CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS`
 - `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
 - `CLAUDE_CODE_ENABLE_AWAY_SUMMARY`
+- `CLAUDE_CODE_ENABLE_BACKGROUND_PLUGIN_REFRESH`
 - `CLAUDE_CODE_ENABLE_CFC`
+- `CLAUDE_CODE_ENABLE_EXPERIMENTAL_ADVISOR_TOOL`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
@@ -405,6 +409,7 @@
 - `CLAUDE_CODE_EXTRA_METADATA`
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
+- `CLAUDE_CODE_FORCE_FULLSCREEN_UPSELL`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
@@ -497,6 +502,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
 - `CLAUDE_CODE_TMUX_TRUECOLOR`
+- `CLAUDE_CODE_TUI_JUST_SWITCHED`
 - `CLAUDE_CODE_ULTRAREVIEW_PREFLIGHT_FIXTURE`
 - `CLAUDE_CODE_USE_ANTHROPIC_AWS`
 - `CLAUDE_CODE_USE_BEDROCK`
@@ -525,13 +531,17 @@
 - `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
 - `CLAUDE_REPL_VARIANT`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
+- `CLAUDE_SLOW_FIRST_BYTE_MS`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
 - `CLAUDE_TRUSTED_DEVICE_TOKEN`
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
+- `CLOUD_WORKSTATIONS_CLUSTER_ID`
 - `CLOUDSDK_CONFIG`
+- `CODER`
+- `CODER_WORKSPACE_NAME`
 - `CODESPACES`
 - `COLORFGBG`
 - `COLORTERM`
@@ -539,12 +549,15 @@
 - `COMPUTER_USE_SWIFT_NODE_PATH`
 - `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
+- `DAYTONA_WS_ID`
 - `DEBUG`
 - `DEBUG_AUTH`
 - `DEBUG_SDK`
 - `DEMO_VERSION`
 - `DENO_DEPLOYMENT_ID`
 - `DETECT_GCP_RETRIES`
+- `DEVPOD`
+- `DEVPOD_WORKSPACE_UID`
 - `DISABLE_AUTO_COMPACT`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
@@ -728,6 +741,8 @@
 - `TILIX_ID`
 - `TMUX`
 - `TMUX_PANE`
+- `TRACEPARENT`
+- `TRACESTATE`
 - `UNDICI_NO_FG`
 - `URL_HANDLER_NODE_PATH`
 - `USE_API_CONTEXT_MANAGEMENT`
@@ -814,6 +829,7 @@
 - `anchor_uuid`
 - `annotations`
 - `answers`
+- `api_error_status`
 - `apiKeyHelper`
 - `apiKeySource`
 - `apiProvider`
@@ -849,6 +865,7 @@
 - `autoDreamEnabled`
 - `autoMemoryDirectory`
 - `autoMemoryEnabled`
+- `autoModeActive`
 - `autoSubmit`
 - `autoUpdate`
 - `autoUpdatesChannel`
@@ -858,14 +875,12 @@
 - `awaySummaryEnabled`
 - `awsAuthRefresh`
 - `awsCredentialExport`
-- `Ax`
 - `backendType`
 - `background`
 - `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
 - `bashCount`
-- `bE`
 - `behavior`
 - `betas`
 - `billing_note`
@@ -883,12 +898,16 @@
 - `cache_creation`
 - `cache_creation_input_tokens`
 - `cache_read_input_tokens`
+- `cacheControlHash`
 - `cacheCreationInputTokens`
+- `cacheDeletionsPending`
+- `cachedMCEnabled`
 - `cacheLeadMs`
 - `cacheReadInputTokens`
 - `callback_id`
 - `callback_url`
 - `callbackPort`
+- `callCount`
 - `callTokens`
 - `cancelled`
 - `canReadOutputFile`
@@ -974,6 +993,7 @@
 - `disableAutoMode`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
+- `disabledReason`
 - `disableSkillShellExecution`
 - `disallowedTools`
 - `discardedCommits`
@@ -997,6 +1017,7 @@
 - `effective`
 - `effort`
 - `effortLevel`
+- `effortValue`
 - `elapsed_time_seconds`
 - `elicitation_id`
 - `email`
@@ -1033,6 +1054,7 @@
 - `experimental`
 - `expires_in`
 - `explanation`
+- `extraBodyHash`
 - `extraKnownMarketplaces`
 - `failed`
 - `failIfUnavailable`
@@ -1065,13 +1087,16 @@
 - `format`
 - `from`
 - `gcpAuthRefresh`
+- `gE`
 - `getOAuthToken`
 - `getUserId`
 - `gitBranch`
 - `gitCommitSha`
 - `gitDiff`
+- `globalCacheStrategy`
 - `globs`
 - `gridRows`
+- `hasFocus`
 - `hasTaskTool`
 - `head_uuid`
 - `header`
@@ -1100,6 +1125,7 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
+- `idleSec`
 - `if`
 - `ignoreViolations`
 - `image`
@@ -1147,6 +1173,7 @@
 - `jsonSchema`
 - `key`
 - `keywords`
+- `kind`
 - `label`
 - `language`
 - `languages`
@@ -1165,6 +1192,7 @@
 - `linkScanOffset`
 - `linkScanPath`
 - `load_reason`
+- `localSent`
 - `localSettings`
 - `login`
 - `lspServers`
@@ -1197,6 +1225,7 @@
 - `message`
 - `message_uuid`
 - `messageBreakdown`
+- `messageHashes`
 - `meta`
 - `metadata`
 - `method`
@@ -1258,6 +1287,7 @@
 - `options`
 - `organization`
 - `organizationId`
+- `origin`
 - `original_file`
 - `originalCwd`
 - `originalFile`
@@ -1294,6 +1324,8 @@
 - `payload`
 - `pending_mcp_servers`
 - `pending_permission_requests`
+- `perBlockHashes`
+- `perBlockLengths`
 - `percentage`
 - `permission_denials`
 - `permission_mode`
@@ -1307,7 +1339,9 @@
 - `persistedOutputPath`
 - `persistedOutputSize`
 - `persistent`
+- `perToolHashes`
 - `pid`
+- `pinned`
 - `plan`
 - `planContent`
 - `planFilePath`
@@ -1327,6 +1361,7 @@
 - `preceding_tool_use_ids`
 - `prefersReducedMotion`
 - `preserved_segment`
+- `prevCacheReadTokens`
 - `preview`
 - `previousValue`
 - `priority`
@@ -1339,6 +1374,7 @@
 - `prompt_response`
 - `promptSuggestionEnabled`
 - `promptSuggestions`
+- `pushSent`
 - `q`
 - `query`
 - `question`
@@ -1395,6 +1431,7 @@
 - `ripgrep`
 - `risk`
 - `riskLevel`
+- `routine`
 - `ruleContent`
 - `rules`
 - `run_in_background`
@@ -1431,6 +1468,7 @@
 - `shell`
 - `should_show_app_upgrade_message`
 - `shouldBlock`
+- `shouldQuery`
 - `showClearContextOnPlanAccept`
 - `showThinkingSummaries`
 - `size`
@@ -1501,6 +1539,8 @@
 - `symlinkDirectories`
 - `syncedFrom`
 - `syntaxHighlightingDisabled`
+- `systemCharCount`
+- `systemHash`
 - `systemMessage`
 - `systemPrompt`
 - `systemPromptSections`
@@ -1533,6 +1573,7 @@
 - `tips`
 - `title`
 - `tmuxSessionName`
+- `tmuxSocket`
 - `to`
 - `token_refresh_buffer_ms`
 - `token_type`
@@ -1548,8 +1589,10 @@
 - `toolCallsByType`
 - `toolCallTokens`
 - `toolName`
+- `toolNames`
 - `toolResultTokens`
 - `tools`
+- `toolsHash`
 - `toolStats`
 - `toolUseId`
 - `toolUseID`
@@ -1568,6 +1611,7 @@
 - `trigger_file_path`
 - `truncated`
 - `ttft_ms`
+- `tui`
 - `turns`
 - `type`
 - `ultraplan`
@@ -1615,6 +1659,7 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
+- `Zx`
 
 ## Tools
 
