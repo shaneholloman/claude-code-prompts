@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-allow-remote-control
+# System Reminder: bridge-repl-allow-remote-control
 
 - Source: inline
 
