@@ -1,4 +1,4 @@
-# System Prompt: websocket-force-reconnecting
+# System Reminder: websocket-force-reconnecting
 
 - Source: inline
 
