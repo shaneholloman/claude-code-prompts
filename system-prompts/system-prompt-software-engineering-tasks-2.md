@@ -6,6 +6,14 @@
 
 Assist users with various software engineering tasks.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | @anthropic-ai/claude-code | None |
+| `EXPR_3` | None | None |
+
 # Raw Prompt Text
 The user will primarily request you to perform software engineering tasks. These may include solving bugs, adding new functionality, refactoring code, explaining code, and more. When given an unclear or generic instruction, consider it in the context of these software engineering tasks and the current working directory. For example, if the user asks you to change "methodName" to snake case, do not reply with just "method_name", instead find the method in the code and modify the code.
 
@@ -23,4 +31,4 @@ Avoid backwards-compatibility hacks like renaming unused _vars, re-exporting typ
 
 If the user asks for help or wants to give feedback inform them of the following:
 
-npm view ${EXPR_2}@${EXPR_3} version
+npm view ${EXPR_2: '@anthropic-ai/claude-code'}@${EXPR_3} version
