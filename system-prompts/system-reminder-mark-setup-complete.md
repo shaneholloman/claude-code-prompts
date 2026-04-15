@@ -1,4 +1,4 @@
-# System Prompt: mark-setup-complete
+# System Reminder: mark-setup-complete
 
 - Source: inline
 
