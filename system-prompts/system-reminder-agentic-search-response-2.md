@@ -1,4 +1,4 @@
-# System Prompt: agentic-search-response-2
+# System Reminder: agentic-search-response-2
 
 - Source: inline
 
