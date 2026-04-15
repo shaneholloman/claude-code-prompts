@@ -1,4 +1,4 @@
-# System Prompt: repl-bash-sandbox-violation
+# System Reminder: repl-bash-sandbox-violation
 
 - Source: inline
 
