@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-skipping-org-uuid
+# System Reminder: bridge-repl-skipping-org-uuid
 
 - Source: inline
 
