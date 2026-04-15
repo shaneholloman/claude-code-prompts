@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-circuit-breaker-active
+# System Reminder: auto-mode-circuit-breaker-active
 
 - Source: inline
 
