@@ -1,4 +1,4 @@
-# Tool Prompt: request-user-permission-apps
+# Tool Description: request-user-permission-apps
 
 - Name: request_access
 
