@@ -6,6 +6,14 @@
 
 Notification for a failed remote review task.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
 # Raw Prompt Text
 <task-notification>
 <task-id>${EXPR_1}<${PATH}>
