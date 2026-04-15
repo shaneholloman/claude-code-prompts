@@ -1,4 +1,4 @@
-# System Prompt: new-sessions-current-directory
+# System Reminder: new-sessions-current-directory
 
 - Source: inline
 
