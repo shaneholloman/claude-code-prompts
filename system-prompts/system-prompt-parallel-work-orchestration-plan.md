@@ -1,8 +1,16 @@
 # System Prompt: parallel-work-orchestration-plan
 
+
 ## Summary
 
 Orchestrate a large change across the codebase.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | resolved string (849 chars) | None |
 
 # Raw Prompt Text
 # Batch: Parallel Work Orchestration
