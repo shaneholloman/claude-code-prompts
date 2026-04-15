@@ -1,4 +1,4 @@
-# Tool Prompt: cancel-cron-job-session
+# Tool Description: cancel-cron-job-session
 
 - Name: CronDelete
 
