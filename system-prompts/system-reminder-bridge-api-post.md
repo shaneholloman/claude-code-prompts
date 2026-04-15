@@ -1,10 +1,16 @@
-# System Prompt: bridge-api-post
+# System Reminder: bridge-api-post
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (8)
+API bridge for POST requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[bridge:api] POST ...${PATH}${EXPR_1}${PATH}
+[bridge:api] POST ...${PATH} -> ${EXPR_1}
