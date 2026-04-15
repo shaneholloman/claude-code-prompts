@@ -1,4 +1,4 @@
-# System Prompt: missing-response-body
+# System Reminder: missing-response-body
 
 - Source: inline
 
