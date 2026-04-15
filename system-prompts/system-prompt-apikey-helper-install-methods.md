@@ -1,4 +1,4 @@
-# System Prompt: apikey-helper-installation-options
+# System Data Block: apikey-helper-settings
 
 - Source: inline
 
