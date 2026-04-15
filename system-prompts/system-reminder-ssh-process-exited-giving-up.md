@@ -1,4 +1,4 @@
-# System Prompt: ssh-process-exited-giving-up
+# System Reminder: ssh-process-exited-giving-up
 
 - Source: inline
 
