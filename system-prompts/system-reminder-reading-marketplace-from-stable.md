@@ -1,4 +1,4 @@
-# System Prompt: reading-marketplace-from-stable
+# System Reminder: reading-marketplace-from-stable
 
 - Source: inline
 
