@@ -1,4 +1,4 @@
-# System Prompt: javascript-keywords-list
+# System Data Block: javascript-keyword-list
 
 - Source: inline
 
