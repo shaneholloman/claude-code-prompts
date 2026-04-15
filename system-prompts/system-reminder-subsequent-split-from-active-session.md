@@ -1,4 +1,4 @@
-# System Prompt: subsequent-split-from-active-session
+# System Reminder: subsequent-split-from-active-session
 
 - Source: inline
 
