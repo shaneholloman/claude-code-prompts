@@ -1,4 +1,4 @@
-# System Prompt: delete-remote-settings-cache-file
+# System Reminder: delete-remote-settings-cache-file
 
 - Source: inline
 
