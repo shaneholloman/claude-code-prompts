@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-recovery-in-flight
+# System Reminder: remote-bridge-recovery-in-flight
 
 - Source: inline
 
