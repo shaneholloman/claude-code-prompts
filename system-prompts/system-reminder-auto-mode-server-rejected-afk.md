@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-server-rejected-afk
+# System Reminder: auto-mode-server-rejected-afk
 
 - Source: inline
 
