@@ -1,4 +1,4 @@
-# System Prompt: secret-access-key-required
+# System Reminder: secret-access-key-required
 
 - Source: inline
 
