@@ -1,4 +1,4 @@
-# System Prompt: teleport-found-branch-anthropic
+# System Reminder: teleport-found-branch-anthropic
 
 - Source: inline
 
