@@ -1,4 +1,4 @@
-# Tool Prompt: left-click-at-coordinates
+# Tool Description: left-click-at-coordinates
 
 - Name: left_click
 
