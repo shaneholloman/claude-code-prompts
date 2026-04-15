@@ -1,4 +1,4 @@
-# System Prompt: upstream-proxy-session-token-disabled
+# System Reminder: upstream-proxy-session-token-disabled
 
 - Source: inline
 
