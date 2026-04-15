@@ -1,4 +1,4 @@
-# System Prompt: fast-mode-unavailable-bedrock
+# System Reminder: fast-mode-unavailable-bedrock
 
 - Source: inline
 
