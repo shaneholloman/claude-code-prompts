@@ -1,4 +1,4 @@
-# System Prompt: reference-documentation-for-agents
+# System Data Block: reference-documentation-caching-agents
 
 - Source: inline
 
