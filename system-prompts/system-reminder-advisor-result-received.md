@@ -1,4 +1,4 @@
-# System Prompt: advisor-result-received
+# System Reminder: advisor-result-received
 
 - Source: inline
 
