@@ -1,4 +1,4 @@
-# System Prompt: team-memory-sync-not-modified
+# System Reminder: team-memory-sync-not-modified
 
 - Source: inline
 
