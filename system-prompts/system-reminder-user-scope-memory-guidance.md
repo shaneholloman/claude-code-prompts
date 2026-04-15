@@ -1,4 +1,4 @@
-# System Prompt: user-scope-memory-guidance
+# System Reminder: user-scope-memory-guidance
 
 - Source: inline
 
