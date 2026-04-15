@@ -1,4 +1,4 @@
-# System Prompt: inprocess-enabled-noninteractive
+# System Reminder: inprocess-enabled-noninteractive
 
 - Source: inline
 
