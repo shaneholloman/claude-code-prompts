@@ -6,6 +6,13 @@
 
 Facilitates exact string edits in existing files.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 Performs exact string replacements in files.
 
