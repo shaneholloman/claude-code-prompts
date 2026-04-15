@@ -1,4 +1,4 @@
-# Tool Prompt: list-current-allowlist-applications
+# Tool Description: list-current-allowlist-applications
 
 - Name: list_granted_applications
 
