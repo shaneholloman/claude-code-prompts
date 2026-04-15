@@ -1,4 +1,4 @@
-# System Prompt: shutdown-skip-init
+# System Reminder: shutdown-skip-init
 
 - Source: inline
 
