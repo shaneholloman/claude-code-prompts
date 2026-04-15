@@ -1,4 +1,4 @@
-# System Prompt: settings-file-locations-and-permissions-2
+# System Data Block: settings-file-locations
 
 - Source: inline
 
