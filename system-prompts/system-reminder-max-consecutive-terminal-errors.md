@@ -1,4 +1,4 @@
-# System Prompt: max-consecutive-terminal-errors
+# System Reminder: max-consecutive-terminal-errors
 
 - Source: inline
 
