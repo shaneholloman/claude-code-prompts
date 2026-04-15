@@ -1,4 +1,4 @@
-# System Prompt: found-sandbox-permission-responses
+# System Reminder: found-sandbox-permission-responses
 
 - Source: inline
 
@@ -6,5 +6,11 @@
 
 Reports number of sandbox permission responses found by InboxPoller.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | 7 | None |
+
 # Raw Prompt Text
-[InboxPoller] Found ${EXPR_1} sandbox permission response(s)
+[InboxPoller] Found ${EXPR_1: 7} sandbox permission response(s)
