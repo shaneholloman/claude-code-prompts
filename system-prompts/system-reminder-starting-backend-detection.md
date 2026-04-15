@@ -1,4 +1,4 @@
-# System Prompt: starting-backend-detection
+# System Reminder: starting-backend-detection
 
 - Source: inline
 
