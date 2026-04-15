@@ -1,4 +1,4 @@
-# System Prompt: fetch-aws-caller-identity-export
+# System Reminder: fetch-aws-caller-identity-export
 
 - Source: inline
 
