@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-transport-torn-down
+# System Reminder: bridge-repl-transport-torn-down
 
 - Source: inline
 
