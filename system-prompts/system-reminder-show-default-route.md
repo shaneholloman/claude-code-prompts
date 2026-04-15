@@ -1,4 +1,4 @@
-# System Prompt: show-default-route
+# System Reminder: show-default-route
 
 - Source: inline
 
