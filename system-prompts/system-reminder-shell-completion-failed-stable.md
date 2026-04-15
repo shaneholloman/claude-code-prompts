@@ -1,4 +1,4 @@
-# System Prompt: shell-completion-failed-stable
+# System Reminder: shell-completion-failed-stable
 
 - Source: inline
 
