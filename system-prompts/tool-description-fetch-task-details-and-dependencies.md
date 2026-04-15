@@ -1,4 +1,4 @@
-# Tool Prompt: fetch-task-details-and-dependencies
+# Tool Description: fetch-task-details-and-dependencies
 
 - Name: TaskGet
 
