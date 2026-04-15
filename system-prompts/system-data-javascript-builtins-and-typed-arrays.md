@@ -1,4 +1,4 @@
-# System Prompt: javascript-data-types-and-structures
+# System Data Block: javascript-builtins-and-typed-arrays
 
 - Source: inline
 
