@@ -1,4 +1,4 @@
-# System Prompt: fileindex-getfilesusinggit-called
+# System Reminder: fileindex-getfilesusinggit-called
 
 - Source: inline
 
