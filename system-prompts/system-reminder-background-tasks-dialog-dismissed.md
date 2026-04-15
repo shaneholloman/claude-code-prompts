@@ -1,4 +1,4 @@
-# System Prompt: background-tasks-dialog-dismissed
+# System Reminder: background-tasks-dialog-dismissed
 
 - Source: inline
 
