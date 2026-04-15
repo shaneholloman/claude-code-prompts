@@ -1,10 +1,17 @@
-# Tool Prompt: schedule-resume-work-dynamic-mode
+# Tool Description: schedule-resume-work-dynamic-mode
 
 - Name: ScheduleWakeup
 
 ## Summary
 
 Manage task iterations with user-defined intervals.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Schedule when to resume work in ${PATH} dynamic mode — the user invoked ${PATH} without an interval, asking you to self-pace iterations of a specific task.
