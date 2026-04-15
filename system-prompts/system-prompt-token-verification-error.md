@@ -6,6 +6,12 @@
 
 Error verifying organization due to token scope issues.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 Unable to verify organization for the current authentication token.
 This machine requires ${EXPR_1} but the profile could not be fetched.
