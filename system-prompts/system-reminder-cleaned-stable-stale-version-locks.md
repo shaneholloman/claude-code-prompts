@@ -1,4 +1,4 @@
-# System Prompt: cleaned-stable-stale-version-locks
+# System Reminder: cleaned-stable-stale-version-locks
 
 - Source: inline
 
