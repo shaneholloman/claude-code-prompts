@@ -1,4 +1,4 @@
-# System Reminder: missing-env-vars-plugin-mcp-4
+# System Reminder: missing-env-vars-lsp-config-2
 
 - Source: inline
 
