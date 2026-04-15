@@ -1,4 +1,4 @@
-# System Prompt: create-guardrail-request
+# System Data Block: create-guardrail-request-fields
 
 - Source: inline
 
