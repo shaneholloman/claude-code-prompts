@@ -1,4 +1,4 @@
-# System Prompt: local-update-install-package
+# System Reminder: local-update-install-package
 
 - Source: inline
 
