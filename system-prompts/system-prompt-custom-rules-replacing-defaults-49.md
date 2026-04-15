@@ -1,10 +1,23 @@
-# System Prompt: custom-rules-replacing-defaults-49
+# System Data Block: command-not-a
 
 - Source: inline
 
 ## Summary
 
 Defines custom rules to replace default settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1} is a ## allow (custom rules replacing defaults)
