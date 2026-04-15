@@ -1,4 +1,4 @@
-# System Prompt: background-plugin-installations-marketplaces
+# System Reminder: background-plugin-installations-marketplaces
 
 - Source: inline
 
