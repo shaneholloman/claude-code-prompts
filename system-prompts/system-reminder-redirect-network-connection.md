@@ -1,4 +1,4 @@
-# System Prompt: redirect-network-connection
+# System Reminder: redirect-network-connection
 
 - Source: inline
 
