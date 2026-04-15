@@ -1,4 +1,4 @@
-# System Prompt: handle-readable-stdin-listener-recovery
+# System Reminder: handle-readable-stdin-listener-recovery
 
 - Source: inline
 
