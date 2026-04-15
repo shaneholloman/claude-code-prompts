@@ -1,4 +1,4 @@
-# System Prompt: mcpb-content-hash-anthropic
+# System Reminder: mcpb-content-hash-anthropic
 
 - Source: inline
 
