@@ -1,4 +1,4 @@
-# System Prompt: remote-settings-changed-background-poll
+# System Reminder: remote-settings-changed-background-poll
 
 - Source: inline
 
