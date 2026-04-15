@@ -1,4 +1,4 @@
-# System Prompt: auto-installed-marketplace
+# System Reminder: auto-installed-marketplace
 
 - Source: inline
 
