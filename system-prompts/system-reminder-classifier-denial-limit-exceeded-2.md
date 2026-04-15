@@ -1,4 +1,4 @@
-# System Prompt: classifier-denial-limit-exceeded-2
+# System Reminder: classifier-denial-limit-exceeded-2
 
 - Source: inline
 
