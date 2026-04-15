@@ -1,4 +1,4 @@
-# System Prompt: path-is-required
+# System Reminder: path-is-required
 
 - Source: inline
 
