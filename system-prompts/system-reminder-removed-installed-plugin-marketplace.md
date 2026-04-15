@@ -1,4 +1,4 @@
-# System Prompt: removed-installed-plugin-marketplace
+# System Reminder: removed-installed-plugin-marketplace
 
 - Source: inline
 
