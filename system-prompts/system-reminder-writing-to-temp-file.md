@@ -1,4 +1,4 @@
-# System Prompt: writing-to-temp-file
+# System Reminder: writing-to-temp-file
 
 - Source: inline
 
