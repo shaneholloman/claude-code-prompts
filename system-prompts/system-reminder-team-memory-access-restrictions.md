@@ -1,4 +1,4 @@
-# System Prompt: team-memory-access-restrictions
+# System Reminder: team-memory-access-restrictions
 
 - Source: inline
 
