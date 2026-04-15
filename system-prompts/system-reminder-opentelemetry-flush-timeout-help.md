@@ -1,10 +1,17 @@
-# System Prompt: opentelemetry-flush-timeout-help
+# System Reminder: opentelemetry-flush-timeout-help
 
 - Source: inline
 
 ## Summary
 
 Explains an OpenTelemetry flush timeout and suggests increasing timeout, checking backend, or disabling telemetry.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 OpenTelemetry telemetry flush timed out after ${EXPR_1}ms
