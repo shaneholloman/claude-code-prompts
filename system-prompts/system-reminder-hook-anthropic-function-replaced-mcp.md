@@ -1,4 +1,4 @@
-# System Prompt: hook-anthropic-function-replaced-mcp
+# System Reminder: hook-anthropic-function-replaced-mcp
 
 - Source: inline
 
