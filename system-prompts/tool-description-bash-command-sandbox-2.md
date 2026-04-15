@@ -1,10 +1,20 @@
-# Tool Prompt: bash-command-sandbox-2
+# Tool Description: bash-command-sandbox-2
 
 - Name: Bash
 
 ## Summary
 
 Executes bash commands in a controlled environment.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 Executes a given bash command and returns its output.
