@@ -1,4 +1,4 @@
-# System Prompt: downloading-marketplace-from-stable
+# System Reminder: downloading-marketplace-from-stable
 
 - Source: inline
 
