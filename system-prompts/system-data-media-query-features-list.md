@@ -1,4 +1,4 @@
-# System Prompt: device-color-preferences
+# System Data Block: media-query-features-list
 
 - Source: inline
 
