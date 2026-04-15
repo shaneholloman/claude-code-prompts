@@ -1,10 +1,16 @@
-# System Prompt: attribution-header-value
+# System Reminder: attribution-header-value
 
 - Source: inline
 
 ## Summary
 
 Logs an attribution header value.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 attribution header ${EXPR_1}
