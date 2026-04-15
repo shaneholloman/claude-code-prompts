@@ -1,4 +1,4 @@
-# System Prompt: invalid-json-chrome
+# System Reminder: invalid-json-chrome
 
 - Source: inline
 
