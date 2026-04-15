@@ -1,4 +1,4 @@
-# System Prompt: skipping-official-marketplace-refresh
+# System Reminder: skipping-official-marketplace-refresh
 
 - Source: inline
 
