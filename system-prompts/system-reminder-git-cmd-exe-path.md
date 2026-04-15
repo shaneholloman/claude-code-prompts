@@ -1,4 +1,4 @@
-# System Prompt: git-cmd-exe-path
+# System Reminder: git-cmd-exe-path
 
 - Source: inline
 
