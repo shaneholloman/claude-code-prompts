@@ -1,8 +1,15 @@
 # System Prompt: interval-check-deploy
 
+
 ## Summary
 
 Multiple prompts (2)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Usage: ${PATH} [interval] <prompt>
