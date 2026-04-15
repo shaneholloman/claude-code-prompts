@@ -1,4 +1,4 @@
-# System Prompt: reactive-compact-fewer-groups
+# System Reminder: reactive-compact-fewer-groups
 
 - Source: inline
 
