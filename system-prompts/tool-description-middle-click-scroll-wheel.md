@@ -1,4 +1,4 @@
-# Tool Prompt: middle-click-scroll-wheel
+# Tool Description: middle-click-scroll-wheel
 
 - Name: middle_click
 
