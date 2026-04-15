@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-skipped-3p-provider
+# System Reminder: bootstrap-skipped-3p-provider
 
 - Source: inline
 
