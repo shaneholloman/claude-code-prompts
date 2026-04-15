@@ -1,4 +1,4 @@
-# Tool Prompt: extract-page-raw-text
+# Tool Description: extract-page-raw-text
 
 - Name: get_page_text
 
