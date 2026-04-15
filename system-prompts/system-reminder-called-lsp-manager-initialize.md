@@ -1,4 +1,4 @@
-# System Prompt: lsp-manager-reinitialization
+# System Reminder: lsp-manager-reinitialization
 
 - Source: inline
 
