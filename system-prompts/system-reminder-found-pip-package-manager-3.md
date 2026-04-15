@@ -1,4 +1,4 @@
-# System Prompt: found-pip-package-manager
+# System Reminder: found-pip-package-manager-3
 
 - Source: inline
 
