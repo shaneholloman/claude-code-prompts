@@ -1,4 +1,4 @@
-# System Prompt: shell-path-already-configured
+# System Reminder: shell-path-already-configured
 
 - Source: inline
 
