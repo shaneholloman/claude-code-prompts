@@ -1,4 +1,4 @@
-# System Prompt: teammate-init-idle-notification
+# System Reminder: teammate-init-idle-notification
 
 - Source: inline
 
