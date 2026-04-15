@@ -1,10 +1,21 @@
-# System Prompt: custom-rules-replacing-defaults-45
+# System Data Block: configured-default-environment
 
 - Source: inline
 
 ## Summary
 
 Configuring custom rules to replace defaults.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 Configured default environment ## allow (custom rules replacing defaults)
