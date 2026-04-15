@@ -1,4 +1,4 @@
-# Tool Prompt: write-text-to-clipboard
+# Tool Description: write-text-to-clipboard
 
 - Name: write_clipboard
 
