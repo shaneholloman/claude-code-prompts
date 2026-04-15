@@ -1,5 +1,6 @@
 # System Prompt: git-repo-required-error
 
+
 ## Summary
 
 Error indicating a missing git repository.
