@@ -6,6 +6,16 @@
 
 Guidelines for handling directories and file paths.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
 # Raw Prompt Text
 If your command will create new directories or files, first use this tool to run `ls` to verify the parent directory exists and is the correct location.
 
