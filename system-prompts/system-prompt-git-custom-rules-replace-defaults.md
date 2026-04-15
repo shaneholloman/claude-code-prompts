@@ -2,6 +2,31 @@
 
 - Source: inline
 
+## Summary
+
+Multiple prompts (2)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | @anthropic-ai/claude-code | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+
 # Raw Prompt Text
 ## allow (custom rules replacing defaults)
 Custom:
@@ -27,7 +52,7 @@ ${EXPR_6}
 ## Context
 
 - `SAFEUSER`: stable
-- `whoami`: npm view ${EXPR_7}@${EXPR_8} version
+- `whoami`: npm view ${EXPR_7: '@anthropic-ai/claude-code'}@${EXPR_8} version
 - `git status`: !`git status`
 - `git diff HEAD`: !`git diff HEAD`
 - `git branch --show-current`: !`git branch --show-current`
@@ -64,8 +89,7 @@ ${NUM}. If a PR already exists for this branch (check the gh pr view output abov
 ```
 gh pr create --title "Short, descriptive title" --body "$(cat <<'EOF'
 ## Summary
-
-Multiple prompts (2)
+<${NUM}-${NUM} bullet points>
 
 ## Test plan
 [Bulleted markdown checklist of TODOs for testing the pull request...]${EXPR_15}
