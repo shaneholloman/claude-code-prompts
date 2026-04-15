@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-oauth-token-issue
+# System Reminder: voice-stream-oauth-token-issue
 
 - Source: inline
 
