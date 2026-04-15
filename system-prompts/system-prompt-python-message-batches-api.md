@@ -6,6 +6,13 @@
 
 Python guide for creating and retrieving asynchronous message batches.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `HAIKU_ID` | None | None |
+
 # Raw Prompt Text
 # Message Batches API — Python
 
