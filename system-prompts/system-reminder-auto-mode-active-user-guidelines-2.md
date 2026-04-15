@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-active-user-guidelines-2
+# System Reminder: auto-mode-active-user-guidelines-2
 
 - Source: inline
 
