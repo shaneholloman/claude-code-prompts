@@ -1,4 +1,4 @@
-# System Prompt: policy-limits-fetched-successfully
+# System Reminder: policy-limits-fetched-successfully
 
 - Source: inline
 
