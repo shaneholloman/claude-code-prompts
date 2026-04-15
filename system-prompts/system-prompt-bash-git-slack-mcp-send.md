@@ -1,4 +1,4 @@
-# System Prompt: bash-git-slack-mcp-send
+# System Data Block: bash-git-slack-mcp-send
 
 - Source: inline
 
