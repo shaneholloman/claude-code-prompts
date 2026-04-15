@@ -1,4 +1,4 @@
-# System Prompt: aws-caller-identity-skip-auth-refresh
+# System Reminder: aws-caller-identity-skip-auth-refresh
 
 - Source: inline
 
