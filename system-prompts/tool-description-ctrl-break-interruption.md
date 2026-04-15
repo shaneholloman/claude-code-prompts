@@ -1,4 +1,4 @@
-# Tool Prompt: ctrl-break-interruption
+# Tool Description: ctrl-break-interruption
 
 - Name: SIGBREAK
 
