@@ -1,4 +1,4 @@
-# System Prompt: opentelemetry-flush-timeout
+# System Reminder: opentelemetry-flush-timeout
 
 - Source: inline
 
