@@ -1,4 +1,4 @@
-# System Prompt: extract-memories-skipping-conversation
+# System Reminder: extract-memories-skipping-conversation
 
 - Source: inline
 
