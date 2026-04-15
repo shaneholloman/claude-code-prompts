@@ -1,4 +1,4 @@
-# System Prompt: global-output-style-ignored
+# System Reminder: global-output-style-ignored
 
 - Source: inline
 
