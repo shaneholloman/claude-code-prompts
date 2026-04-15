@@ -6,6 +6,12 @@
 
 Overview of reusable configuration templates for sessions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+
 # Raw Prompt Text
 # Managed Agents — Environments & Resources
 
