@@ -1,4 +1,4 @@
-# System Prompt: pbpaste-failed-before-paste
+# System Reminder: pbpaste-failed-before-paste
 
 - Source: inline
 
