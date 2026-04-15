@@ -1,4 +1,4 @@
-# System Prompt: idle-notification-send-failure
+# System Reminder: idle-notification-send-failure
 
 - Source: inline
 
