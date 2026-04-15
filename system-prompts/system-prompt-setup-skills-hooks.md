@@ -1,5 +1,6 @@
 # System Prompt: setup-skills-hooks
 
+
 ## Summary
 
 Guide for setting up CLAUDE.md and related skills.
