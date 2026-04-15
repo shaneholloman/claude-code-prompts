@@ -1,4 +1,4 @@
-# System Prompt: cleared-mtls-configuration-cache
+# System Reminder: cleared-mtls-configuration-cache
 
 - Source: inline
 
