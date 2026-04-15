@@ -1,4 +1,4 @@
-# System Prompt: compact-streaming-failed-global
+# System Reminder: compact-streaming-failed-global
 
 - Source: inline
 
