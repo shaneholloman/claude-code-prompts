@@ -1,4 +1,4 @@
-# Tool Prompt: get-current-mouse-cursor-position
+# Tool Description: get-current-mouse-cursor-position
 
 - Name: cursor_position
 
