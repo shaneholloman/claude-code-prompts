@@ -1,4 +1,4 @@
-# Tool Prompt: ripgrep-search-guidelines
+# Tool Description: ripgrep-search-guidelines
 
 - Name: Grep
 
