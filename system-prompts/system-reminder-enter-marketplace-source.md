@@ -1,4 +1,4 @@
-# System Prompt: enter-marketplace-source
+# System Reminder: enter-marketplace-source
 
 - Source: inline
 
