@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-classifier-invalid-response
+# System Reminder: auto-mode-classifier-invalid-response
 
 - Source: inline
 
