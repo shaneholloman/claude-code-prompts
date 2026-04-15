@@ -1,4 +1,4 @@
-# System Prompt: streaming-endpoint-fallback
+# System Reminder: streaming-endpoint-fallback
 
 - Source: inline
 
