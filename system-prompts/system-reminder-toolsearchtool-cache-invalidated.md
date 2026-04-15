@@ -1,4 +1,4 @@
-# System Prompt: toolsearchtool-cache-invalidated
+# System Reminder: toolsearchtool-cache-invalidated
 
 - Source: inline
 
