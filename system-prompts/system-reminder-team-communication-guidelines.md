@@ -1,4 +1,4 @@
-# System Prompt: team-communication-guidelines
+# System Reminder: team-communication-guidelines
 
 - Source: inline
 
