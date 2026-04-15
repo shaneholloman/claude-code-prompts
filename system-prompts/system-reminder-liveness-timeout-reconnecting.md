@@ -1,4 +1,4 @@
-# System Prompt: liveness-timeout-reconnecting
+# System Reminder: liveness-timeout-reconnecting
 
 - Source: inline
 
