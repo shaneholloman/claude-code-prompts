@@ -1,4 +1,4 @@
-# Tool Prompt: key-combination-error-handling
+# Tool Description: key-combination-error-handling
 
 - Name: key
 
