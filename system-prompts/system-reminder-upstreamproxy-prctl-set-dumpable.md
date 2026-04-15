@@ -1,4 +1,4 @@
-# System Prompt: upstreamproxy-prctl-set-dumpable
+# System Reminder: upstreamproxy-prctl-set-dumpable
 
 - Source: inline
 
