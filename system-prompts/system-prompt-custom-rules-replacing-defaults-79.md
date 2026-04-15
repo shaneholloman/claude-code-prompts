@@ -1,10 +1,21 @@
-# System Prompt: custom-rules-replacing-defaults-79
+# System Data Block: symlink-target-custom-defaults
 
 - Source: inline
 
 ## Summary
 
 Defines custom rules that replace default settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 Symlink target: ## allow (custom rules replacing defaults)
