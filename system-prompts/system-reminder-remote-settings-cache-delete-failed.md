@@ -1,4 +1,4 @@
-# System Prompt: remote-settings-cache-delete-failed
+# System Reminder: remote-settings-cache-delete-failed
 
 - Source: inline
 
