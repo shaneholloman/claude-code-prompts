@@ -1,10 +1,18 @@
-# System Prompt: loaded-skills-custom-path
+# System Reminder: loaded-skills-custom-path
 
 - Source: inline
 
 ## Summary
 
 Reports skills loaded from a plugin custom path.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Loaded ${EXPR_1} skills from plugin ${EXPR_2} custom path: ${EXPR_3}
