@@ -1,4 +1,4 @@
-# System Prompt: wdt-data-types-overview
+# System Reminder: wdt-data-types-overview
 
 - Source: inline
 
