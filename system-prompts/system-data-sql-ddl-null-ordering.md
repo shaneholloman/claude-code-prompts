@@ -1,4 +1,4 @@
-# System Prompt: create-table-with-null-handling
+# System Data Block: sql-ddl-null-ordering
 
 - Source: inline
 
