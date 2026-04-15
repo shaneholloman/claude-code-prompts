@@ -1,4 +1,4 @@
-# System Prompt: no-branch-specified
+# System Reminder: no-branch-specified
 
 - Source: inline
 
