@@ -1,4 +1,4 @@
-# System Prompt: http-status-architecture
+# System Data Block: http-status-clienttype-arch
 
 - Source: inline
 
