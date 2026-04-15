@@ -1,4 +1,4 @@
-# System Prompt: hooks-processing-snapshot-path
+# System Reminder: hooks-processing-snapshot-path
 
 - Source: inline
 
