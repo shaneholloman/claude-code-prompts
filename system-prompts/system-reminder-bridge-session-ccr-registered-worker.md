@@ -1,4 +1,4 @@
-# System Prompt: bridge-session-ccr-registered-worker
+# System Reminder: bridge-session-ccr-registered-worker
 
 - Source: inline
 
@@ -6,5 +6,13 @@
 
 Manage registered worker session details.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | false | None |
+| `EXPR_3` | None | None |
+
 # Raw Prompt Text
-[bridge:session] CCR v2: registered worker sessionId=${EXPR_1} epoch=${EXPR_2} attempt=${EXPR_3}
+[bridge:session] CCR v2: registered worker sessionId=${EXPR_1} epoch=${EXPR_2: false} attempt=${EXPR_3}
