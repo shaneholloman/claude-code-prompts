@@ -1,4 +1,4 @@
-# System Prompt: mcp-xaa-setup
+# System Reminder: mcp-xaa-setup
 
 - Source: inline
 
