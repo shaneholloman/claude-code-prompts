@@ -1,4 +1,4 @@
-# System Prompt: voice-handle-key-event-idle
+# System Reminder: voice-handle-key-event-idle
 
 - Source: inline
 
