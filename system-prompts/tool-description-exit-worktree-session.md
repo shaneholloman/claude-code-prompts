@@ -1,4 +1,4 @@
-# Tool Prompt: exit-worktree-session
+# Tool Description: exit-worktree-session
 
 - Name: ExitWorktree
 
