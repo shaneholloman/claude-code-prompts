@@ -1,4 +1,4 @@
-# System Prompt: file-suggestion-helper-failed-2
+# System Reminder: file-suggestion-helper-failed-2
 
 - Source: inline
 
