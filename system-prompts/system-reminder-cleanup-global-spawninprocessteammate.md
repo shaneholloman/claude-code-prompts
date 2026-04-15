@@ -1,4 +1,4 @@
-# System Prompt: cleanup-global-spawninprocessteammate
+# System Reminder: cleanup-global-spawninprocessteammate
 
 - Source: inline
 
