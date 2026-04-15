@@ -1,4 +1,4 @@
-# Tool Prompt: explain-shell-command
+# Tool Description: explain-shell-command
 
 - Name: explain_command
 
