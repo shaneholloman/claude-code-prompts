@@ -1,4 +1,4 @@
-# System Prompt: core-ssh-command-batch-mode
+# System Reminder: core-ssh-command-batch-mode
 
 - Source: inline
 
