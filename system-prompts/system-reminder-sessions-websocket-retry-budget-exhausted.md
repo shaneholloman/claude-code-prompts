@@ -1,4 +1,4 @@
-# System Prompt: sessions-websocket-retry-budget-exhausted
+# System Reminder: sessions-websocket-retry-budget-exhausted
 
 - Source: inline
 
