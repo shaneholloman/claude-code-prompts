@@ -1,4 +1,4 @@
-# System Prompt: auto-install-official-marketplace
+# System Reminder: auto-install-official-marketplace
 
 - Source: inline
 
