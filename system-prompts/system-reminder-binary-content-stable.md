@@ -1,4 +1,4 @@
-# System Prompt: binary-content-stable
+# System Reminder: binary-content-stable
 
 - Source: inline
 
