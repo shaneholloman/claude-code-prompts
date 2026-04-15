@@ -6,6 +6,13 @@
 
 Integrating Claude API with Go SDK.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OfTool_addTool` | None | None |
+| `Text_longSystemPrompt_CacheControl_anthr` | None | None |
+
 # Raw Prompt Text
 # Claude API — Go
 
