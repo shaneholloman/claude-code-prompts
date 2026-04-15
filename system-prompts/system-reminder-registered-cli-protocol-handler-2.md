@@ -1,4 +1,4 @@
-# System Prompt: registered-cli-protocol-handler-2
+# System Reminder: registered-cli-protocol-handler-2
 
 - Source: inline
 
