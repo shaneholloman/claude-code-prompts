@@ -1,4 +1,4 @@
-# System Prompt: char-not-expected
+# System Reminder: char-not-expected
 
 - Source: inline
 
