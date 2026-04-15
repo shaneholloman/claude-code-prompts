@@ -1,4 +1,4 @@
-# System Prompt: windows-userprofile-detection-issue
+# System Reminder: windows-userprofile-detection-issue
 
 - Source: inline
 
