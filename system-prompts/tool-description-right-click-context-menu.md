@@ -1,4 +1,4 @@
-# Tool Prompt: right-click-context-menu
+# Tool Description: right-click-context-menu
 
 - Name: right_click
 
