@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-oauth-skip
+# System Reminder: trusted-device-oauth-skip
 
 - Source: inline
 
