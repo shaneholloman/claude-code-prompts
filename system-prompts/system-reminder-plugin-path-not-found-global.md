@@ -1,4 +1,4 @@
-# System Prompt: plugin-path-not-found-global
+# System Reminder: plugin-path-not-found-global
 
 - Source: inline
 
