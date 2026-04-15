@@ -1,4 +1,4 @@
-# System Prompt: unknown-platform-default-paths
+# System Reminder: unknown-platform-default-paths
 
 - Source: inline
 
