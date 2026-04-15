@@ -1,4 +1,4 @@
-# System Prompt: invalidate-session-env-cache-after-hook
+# System Reminder: invalidate-session-env-cache-after-hook
 
 - Source: inline
 
