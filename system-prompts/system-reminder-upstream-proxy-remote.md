@@ -1,4 +1,4 @@
-# System Prompt: upstream-proxy-remote
+# System Reminder: upstream-proxy-remote
 
 - Source: inline
 
