@@ -1,4 +1,4 @@
-# System Prompt: fan-out-subagents
+# System Reminder: fan-out-subagents
 
 - Source: inline
 
