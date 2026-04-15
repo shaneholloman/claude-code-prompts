@@ -1,10 +1,16 @@
-# System Prompt: copy-text-and-toggle-collapsible
+# System Data Block: copy-toggle-collapsible-js
 
 - Source: inline
 
 ## Summary
 
 Functions for toggling visibility and copying text.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 function toggleCollapsible(header) {
