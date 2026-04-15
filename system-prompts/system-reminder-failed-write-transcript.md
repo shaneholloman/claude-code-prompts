@@ -1,4 +1,4 @@
-# System Prompt: failed-write-transcript-internal-event
+# System Reminder: failed-write-transcript-internal-event
 
 - Source: inline
 
