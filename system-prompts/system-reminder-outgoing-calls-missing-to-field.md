@@ -1,4 +1,4 @@
-# System Prompt: outgoing-calls-missing-to-field
+# System Reminder: outgoing-calls-missing-to-field
 
 - Source: inline
 
