@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-oauth-token-expired
+# System Reminder: bridge-repl-oauth-token-expired
 
 - Source: inline
 
