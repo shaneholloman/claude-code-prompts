@@ -1,4 +1,4 @@
-# System Prompt: invalid-team-permission-update
+# System Reminder: invalid-team-permission-update
 
 - Source: inline
 
