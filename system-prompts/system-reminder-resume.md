@@ -1,4 +1,4 @@
-# System Prompt: resume
+# System Reminder: resume
 
 - Source: inline
 
