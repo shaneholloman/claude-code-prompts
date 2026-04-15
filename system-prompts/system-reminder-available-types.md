@@ -1,4 +1,4 @@
-# System Prompt: available-types
+# System Reminder: available-types
 
 - Source: inline
 
