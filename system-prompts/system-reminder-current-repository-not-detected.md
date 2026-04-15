@@ -1,4 +1,4 @@
-# System Prompt: current-repository-not-detected
+# System Reminder: current-repository-not-detected
 
 - Source: inline
 
