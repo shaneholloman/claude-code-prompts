@@ -1,4 +1,4 @@
-# System Prompt: create-evaluation-job-request
+# System Data Block: bedrock-evaluation-job-request
 
 - Source: inline
 
