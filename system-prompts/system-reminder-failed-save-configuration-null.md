@@ -1,4 +1,4 @@
-# System Prompt: failed-save-configuration-null
+# System Reminder: failed-save-configuration-null
 
 - Source: inline
 
