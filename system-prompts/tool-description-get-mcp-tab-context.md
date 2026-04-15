@@ -1,4 +1,4 @@
-# Tool Prompt: get-mcp-tab-context
+# Tool Description: get-mcp-tab-context
 
 - Name: tabs_context_mcp
 
