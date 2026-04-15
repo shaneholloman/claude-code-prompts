@@ -1,4 +1,4 @@
-# System Prompt: ccr-internal-event-writer-cleared
+# System Reminder: ccr-internal-event-writer-cleared
 
 - Source: inline
 
