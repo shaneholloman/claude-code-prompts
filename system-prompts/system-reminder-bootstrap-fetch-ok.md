@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-fetch-ok
+# System Reminder: bootstrap-fetch-ok
 
 - Source: inline
 
