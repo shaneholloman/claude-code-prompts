@@ -10,7 +10,7 @@ Sends a control cancel request for a remote bridge.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | false | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[remote-bridge] Sent control_cancel_request request_id=${EXPR_1: false}
+[remote-bridge] Sent control_cancel_request request_id=${EXPR_1}
