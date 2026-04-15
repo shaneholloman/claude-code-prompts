@@ -1,4 +1,4 @@
-# System Prompt: startup-loading-mcp-configs
+# System Reminder: startup-loading-mcp-configs
 
 - Source: inline
 
