@@ -1,4 +1,4 @@
-# System Prompt: run-apply-plugin-changes
+# System Reminder: run-apply-plugin-changes
 
 - Source: inline
 
