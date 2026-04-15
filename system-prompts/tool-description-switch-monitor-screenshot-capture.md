@@ -1,4 +1,4 @@
-# Tool Prompt: switch-monitor-screenshot-capture
+# Tool Description: switch-monitor-screenshot-capture
 
 - Name: switch_display
 
