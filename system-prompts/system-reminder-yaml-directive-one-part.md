@@ -1,4 +1,4 @@
-# System Prompt: yaml-directive-one-part
+# System Reminder: yaml-directive-one-part
 
 - Source: inline
 
