@@ -1,4 +1,4 @@
-# System Prompt: project-scope-memory-guidance
+# System Reminder: project-scope-memory-guidance
 
 - Source: inline
 
