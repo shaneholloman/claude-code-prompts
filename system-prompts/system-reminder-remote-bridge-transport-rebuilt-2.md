@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-transport-rebuilt-2
+# System Reminder: remote-bridge-transport-rebuilt-2
 
 - Source: inline
 
