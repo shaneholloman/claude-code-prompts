@@ -1,4 +1,4 @@
-# Tool Prompt: retrieve-task-output-file
+# Tool Description: retrieve-task-output-file
 
 - Name: TaskOutput
 
