@@ -1,4 +1,4 @@
-# System Prompt: user-approval-calls
+# System Reminder: user-call-permission-10
 
 - Source: inline
 
