@@ -1,4 +1,4 @@
-# System Prompt: design-patterns-overview
+# System Reminder: design-patterns-overview
 
 - Source: inline
 
