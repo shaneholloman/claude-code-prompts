@@ -1,4 +1,4 @@
-# System Prompt: no-connected-mcp-connectors
+# System Reminder: no-connected-mcp-connectors
 
 - Source: inline
 
