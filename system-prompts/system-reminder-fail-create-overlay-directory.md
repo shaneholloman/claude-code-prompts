@@ -1,4 +1,4 @@
-# System Prompt: fail-create-overlay-directory
+# System Reminder: fail-create-overlay-directory
 
 - Source: inline
 
