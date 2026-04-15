@@ -1,4 +1,4 @@
-# System Prompt: official-marketplace-already-installed
+# System Reminder: official-marketplace-already-installed
 
 - Source: inline
 
