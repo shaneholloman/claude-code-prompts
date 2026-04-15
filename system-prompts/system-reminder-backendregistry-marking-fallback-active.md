@@ -1,4 +1,4 @@
-# System Prompt: backendregistry-marking-fallback-active
+# System Reminder: backendregistry-marking-fallback-active
 
 - Source: inline
 
