@@ -1,4 +1,4 @@
-# System Prompt: auto-registered-cli
+# System Reminder: auto-registered-cli
 
 - Source: inline
 
