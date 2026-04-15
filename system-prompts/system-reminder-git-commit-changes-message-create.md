@@ -1,10 +1,17 @@
-# System Prompt: git-commit-changes-message-create
+# System Reminder: git-commit-changes-message-create
 
 - Source: inline
 
 ## Summary
 
 Guidelines for safely creating git commits.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}## Context
