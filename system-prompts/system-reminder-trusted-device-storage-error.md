@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-storage-error
+# System Reminder: trusted-device-storage-error
 
 - Source: inline
 
