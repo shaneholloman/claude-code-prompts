@@ -1,4 +1,4 @@
-# System Prompt: amazon-bedrock-get-imported-response
+# System Data Block: bedrock-imported-response-fields
 
 - Source: inline
 
