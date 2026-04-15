@@ -1,4 +1,4 @@
-# System Prompt: no-duplicate-notification-check
+# System Reminder: no-duplicate-notification-check
 
 - Source: inline
 
