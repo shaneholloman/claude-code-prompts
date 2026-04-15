@@ -1,4 +1,4 @@
-# System Prompt: socket-server-listening
+# System Reminder: socket-server-listening
 
 - Source: inline
 
