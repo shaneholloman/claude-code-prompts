@@ -1,4 +1,4 @@
-# System Prompt: policy-limits-applied-restrictions
+# System Reminder: policy-limits-applied-restrictions
 
 - Source: inline
 
