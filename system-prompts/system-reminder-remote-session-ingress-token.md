@@ -1,4 +1,4 @@
-# System Prompt: remote-session-ingress-token
+# System Reminder: remote-session-ingress-token
 
 - Source: inline
 
