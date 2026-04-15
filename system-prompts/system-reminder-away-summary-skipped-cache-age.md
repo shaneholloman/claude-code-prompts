@@ -1,4 +1,4 @@
-# System Prompt: away-summary-skipped-cache-age
+# System Reminder: away-summary-skipped-cache-age
 
 - Source: inline
 
