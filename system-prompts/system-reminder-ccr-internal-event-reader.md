@@ -1,4 +1,4 @@
-# System Prompt: ccr-internal-event-reader
+# System Reminder: ccr-internal-event-reader
 
 - Source: inline
 
