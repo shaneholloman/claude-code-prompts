@@ -1,4 +1,4 @@
-# System Prompt: skipping-retention-cleanup
+# System Reminder: skipping-retention-cleanup
 
 - Source: inline
 
