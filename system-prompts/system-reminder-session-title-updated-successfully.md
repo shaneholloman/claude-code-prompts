@@ -1,4 +1,4 @@
-# System Prompt: bridge-session-title-updated
+# System Reminder: bridge-session-title-updated
 
 - Source: inline
 
