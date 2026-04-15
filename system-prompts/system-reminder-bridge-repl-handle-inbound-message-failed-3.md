@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-handle-inbound-message-failed-3
+# System Reminder: bridge-repl-handle-inbound-message-failed-3
 
 - Source: inline
 
