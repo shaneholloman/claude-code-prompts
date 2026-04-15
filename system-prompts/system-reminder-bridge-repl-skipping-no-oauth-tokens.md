@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-skipping-oauth-tokens
+# System Reminder: bridge-repl-skipping-oauth-tokens
 
 - Source: inline
 
