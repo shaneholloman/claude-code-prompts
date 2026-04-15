@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-transport-connected
+# System Reminder: remote-bridge-transport-connected
 
 - Source: inline
 
