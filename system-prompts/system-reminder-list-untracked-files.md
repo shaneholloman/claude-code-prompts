@@ -1,4 +1,4 @@
-# System Prompt: list-untracked-files
+# System Reminder: list-untracked-files
 
 - Source: inline
 
