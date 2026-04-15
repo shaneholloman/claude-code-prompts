@@ -1,10 +1,16 @@
-# System Prompt: api-curl-examples
+# System Data Block: api-curl-raw-http
 
 - Source: inline
 
 ## Summary
 
 Examples for using Claude API with cURL requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Claude API — cURL / Raw HTTP
