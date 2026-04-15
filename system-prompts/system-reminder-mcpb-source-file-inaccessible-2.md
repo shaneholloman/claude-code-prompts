@@ -1,4 +1,4 @@
-# System Prompt: mcpb-source-file-inaccessible-2
+# System Reminder: mcpb-source-file-inaccessible-2
 
 - Source: inline
 
