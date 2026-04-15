@@ -1,10 +1,16 @@
-# System Prompt: separate-response
+# System Reminder: separate-response
 
 - Source: inline
 
 ## Summary
 
 Answer a user question in a single response.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 <system-reminder>This is a side question from the user. You must answer this question directly in a single response.
