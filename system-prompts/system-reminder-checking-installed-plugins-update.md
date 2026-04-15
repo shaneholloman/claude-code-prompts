@@ -1,4 +1,4 @@
-# System Prompt: checking-installed-plugins-update
+# System Reminder: checking-installed-plugins-update
 
 - Source: inline
 
