@@ -1,4 +1,4 @@
-# System Prompt: itermbackend-subsequent-split-2
+# System Reminder: itermbackend-subsequent-split-2
 
 - Source: inline
 
