@@ -1,4 +1,4 @@
-# System Prompt: missing-access-token-assume-not-installed
+# System Reminder: missing-access-token-assume-not-installed
 
 - Source: inline
 
