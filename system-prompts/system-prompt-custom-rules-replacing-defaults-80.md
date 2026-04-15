@@ -1,10 +1,21 @@
-# System Prompt: custom-rules-replacing-defaults-80
+# System Data Block: modify-custom-defaults-replacing
 
 - Source: inline
 
 ## Summary
 
 Modifies custom rules to replace default settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 This will modify ## allow (custom rules replacing defaults)
