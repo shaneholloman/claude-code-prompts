@@ -1,4 +1,4 @@
-# System Prompt: chrome-extension-check-failed-3
+# System Reminder: chrome-extension-check-failed-3
 
 - Source: inline
 
