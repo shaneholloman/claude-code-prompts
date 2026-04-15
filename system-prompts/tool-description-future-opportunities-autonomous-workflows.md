@@ -1,4 +1,4 @@
-# Tool Prompt: future-opportunities-autonomous-workflows
+# Tool Description: future-opportunities-autonomous-workflows
 
 - Name: on_the_horizon
 
