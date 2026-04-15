@@ -1,4 +1,4 @@
-# Tool Prompt: api-trigger-actions
+# Tool Description: api-trigger-actions
 
 - Name: RemoteTrigger
 
