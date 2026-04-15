@@ -1,4 +1,4 @@
-# System Prompt: vt-compare-operators
+# System Reminder: vt-compare-operators
 
 - Source: inline
 
