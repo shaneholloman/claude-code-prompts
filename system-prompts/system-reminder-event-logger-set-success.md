@@ -1,4 +1,4 @@
-# System Prompt: event-logger-set-success
+# System Reminder: event-logger-set-success
 
 - Source: inline
 
