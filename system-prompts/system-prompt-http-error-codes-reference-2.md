@@ -6,6 +6,13 @@
 
 Documentation of HTTP error codes for Claude API.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 # HTTP Error Codes Reference
 
