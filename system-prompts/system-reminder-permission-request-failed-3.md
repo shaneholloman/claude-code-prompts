@@ -1,4 +1,4 @@
-# System Prompt: permission-request-failed-3
+# System Reminder: permission-request-failed-3
 
 - Source: inline
 
