@@ -1,10 +1,18 @@
-# System Prompt: repeat-url-and-expression
+# System Reminder: repeat-url-and-expression
 
 - Source: inline
 
 ## Summary
 
 Multiple prompts (8)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
