@@ -1,4 +1,4 @@
-# System Prompt: websocket-already-connecting
+# System Reminder: websocket-already-connecting
 
 - Source: inline
 
