@@ -6,8 +6,15 @@
 
 Verify repository name, access, and required GitHub token scopes.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | unknown | None |
+
 # Raw Prompt Text
-Check that the repository name is correct: ${EXPR_1}@${EXPR_2}
+Check that the repository name is correct: ${EXPR_1}@${EXPR_2: 'unknown'}
 
 Ensure you have access to this repository
 
