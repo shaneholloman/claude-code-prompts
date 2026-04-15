@@ -6,6 +6,12 @@
 
 Execute tasks with dynamic pacing for the user.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 # ${PATH} — loop.md tasks with dynamic pacing
 
