@@ -1,4 +1,4 @@
-# System Prompt: session-env-windows-unsupported
+# System Reminder: session-env-windows-unsupported
 
 - Source: inline
 
