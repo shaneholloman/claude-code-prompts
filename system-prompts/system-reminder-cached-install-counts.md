@@ -1,4 +1,4 @@
-# System Prompt: cached-install-counts
+# System Reminder: cached-install-counts
 
 - Source: inline
 
