@@ -1,4 +1,4 @@
-# System Prompt: plist-xml
+# System Data Block: key-string-plist
 
 - Source: inline
 
