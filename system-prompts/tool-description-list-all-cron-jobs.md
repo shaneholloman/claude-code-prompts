@@ -1,4 +1,4 @@
-# Tool Prompt: list-all-cron-jobs
+# Tool Description: list-all-cron-jobs
 
 - Name: CronList
 
