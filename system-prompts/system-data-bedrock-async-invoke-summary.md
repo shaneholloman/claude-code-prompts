@@ -1,4 +1,4 @@
-# System Prompt: async-invoke-summary-aws
+# System Data Block: bedrock-async-invoke-summary
 
 - Source: inline
 
