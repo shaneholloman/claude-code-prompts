@@ -6,6 +6,13 @@
 
 Set up future recurring or one-time reminders.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 Schedule a prompt to be enqueued at a future time. Use for both recurring schedules and one-shot reminders.
 
