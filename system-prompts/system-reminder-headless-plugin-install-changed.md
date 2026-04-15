@@ -1,4 +1,4 @@
-# System Prompt: headless-plugin-install-changed
+# System Reminder: headless-plugin-install-changed
 
 - Source: inline
 
