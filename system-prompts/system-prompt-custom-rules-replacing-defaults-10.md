@@ -1,10 +1,22 @@
-# System Prompt: custom-rules-replacing-defaults-10
+# System Data Block: authentication-token-organization
 
 - Source: inline
 
 ## Summary
 
 Details on custom rules for authentication tokens.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 Your authentication token belongs to organization ## allow (custom rules replacing defaults)
