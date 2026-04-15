@@ -1,4 +1,4 @@
-# System Prompt: downloading-marketplace-from-url
+# System Reminder: downloading-marketplace-from-url
 
 - Source: inline
 
