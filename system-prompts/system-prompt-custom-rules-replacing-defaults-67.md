@@ -1,10 +1,21 @@
-# System Prompt: custom-rules-replacing-defaults-67
+# System Data Block: github-cli-authentication
 
 - Source: inline
 
 ## Summary
 
 Guidelines for replacing default settings with custom rules.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 GitHub CLI not authenticated. Run `gh auth login` and try again, or connect GitHub on the web: ## allow (custom rules replacing defaults)
