@@ -1,4 +1,4 @@
-# System Prompt: global-update-method
+# System Reminder: global-update-method
 
 - Source: inline
 
