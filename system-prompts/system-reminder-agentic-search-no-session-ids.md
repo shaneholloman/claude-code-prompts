@@ -1,4 +1,4 @@
-# System Prompt: agentic-search-no-session-ids
+# System Reminder: agentic-search-no-session-ids
 
 - Source: inline
 
