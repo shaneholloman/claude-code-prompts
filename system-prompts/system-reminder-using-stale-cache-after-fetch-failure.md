@@ -1,4 +1,4 @@
-# System Prompt: using-stale-cache-after-fetch-failure
+# System Reminder: using-stale-cache-after-fetch-failure
 
 - Source: inline
 
