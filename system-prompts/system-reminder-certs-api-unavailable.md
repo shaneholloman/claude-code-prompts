@@ -1,4 +1,4 @@
-# System Prompt: certs-api-unavailable
+# System Reminder: certs-api-unavailable
 
 - Source: inline
 
