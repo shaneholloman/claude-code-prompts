@@ -1,10 +1,17 @@
-# System Prompt: ignoring-dangerous-permission
+# System Reminder: ignoring-dangerous-permission
 
 - Source: inline
 
 ## Summary
 
 Ignoring dangerous permissions that bypass classifiers.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Ignoring dangerous permission ${EXPR_1} from ${EXPR_2} (bypasses classifier)
