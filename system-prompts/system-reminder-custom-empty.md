@@ -1,4 +1,4 @@
-# System Prompt: custom-empty
+# System Reminder: custom-empty
 
 - Source: inline
 
