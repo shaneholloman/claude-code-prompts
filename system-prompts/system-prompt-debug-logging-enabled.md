@@ -6,6 +6,12 @@
 
 Debug logging is now active for issue reproduction.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 ## Debug Logging Just Enabled
 
