@@ -6,6 +6,12 @@
 
 JavaScript code for batch file editing using async functions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 REPL is your programming interface to Claude Code's tools. Use it to loop, branch, and compose tool calls with code.
 
@@ -43,3 +49,4 @@ const { stdout } = await Bash({ command: 'git status' })
 - `haiku(prompt, schema?)` — one-turn model sampling. Without schema returns text; with a JSON schema returns the parsed object.
 - `registerTool(name, desc, schema, handler)` defines a new tool; `unregisterTool(name)`, `listTools()`, `getTool(name)` manage them
 - `shQuote(s)` quotes a string for Bash — use this instead of `JSON.stringify` (double quotes don't protect backticks or `$`)
+- Don't write a temp file just to feed a shell command — pipe via heredoc: `await Bash({command: "${EXPR_1}"})`. Generic temp paths get clobbered by parallel agents.
