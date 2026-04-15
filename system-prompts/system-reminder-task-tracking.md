@@ -1,4 +1,4 @@
-# System Prompt: task-tracking
+# System Reminder: task-tracking
 
 - Source: inline
 
