@@ -1,4 +1,4 @@
-# System Prompt: cleaned-orphaned-temp-file
+# System Reminder: cleaned-orphaned-temp-file
 
 - Source: inline
 
