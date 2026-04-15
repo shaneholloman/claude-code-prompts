@@ -1,4 +1,4 @@
-# System Prompt: ca-certs-config-fallback
+# System Reminder: ca-certs-config-fallback
 
 - Source: inline
 
