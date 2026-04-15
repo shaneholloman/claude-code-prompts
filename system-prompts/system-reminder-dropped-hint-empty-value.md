@@ -1,4 +1,4 @@
-# System Prompt: dropped-hint-empty-value
+# System Reminder: dropped-hint-empty-value
 
 - Source: inline
 
