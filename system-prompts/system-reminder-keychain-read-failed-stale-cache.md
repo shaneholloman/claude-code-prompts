@@ -1,4 +1,4 @@
-# System Prompt: keychain-read-failed-stale-cache
+# System Reminder: keychain-read-failed-stale-cache
 
 - Source: inline
 
