@@ -1,4 +1,4 @@
-# System Prompt: resource-attributes-header
+# System Reminder: resource-attributes-header
 
 - Source: inline
 
