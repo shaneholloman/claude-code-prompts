@@ -1,4 +1,4 @@
-# System Prompt: load-plugin-hooks-settings-changed-2
+# System Reminder: load-plugin-hooks-settings-changed-2
 
 - Source: inline
 
