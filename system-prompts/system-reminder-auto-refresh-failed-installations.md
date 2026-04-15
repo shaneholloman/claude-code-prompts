@@ -1,4 +1,4 @@
-# System Prompt: auto-refresh-failed-installations
+# System Reminder: auto-refresh-failed-installations
 
 - Source: inline
 
