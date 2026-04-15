@@ -1,4 +1,4 @@
-# System Prompt: websockettransport-keep-alive
+# System Reminder: websockettransport-keep-alive
 
 - Source: inline
 
