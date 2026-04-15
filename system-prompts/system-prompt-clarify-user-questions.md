@@ -6,6 +6,14 @@
 
 User seeks clarification on specific questions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
 # Raw Prompt Text
 The user wants to clarify these questions.
     This means they may have additional information, context or questions for you.
