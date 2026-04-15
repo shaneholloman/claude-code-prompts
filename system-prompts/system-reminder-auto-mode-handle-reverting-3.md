@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-handle-reverting-3
+# System Reminder: auto-mode-handle-reverting-3
 
 - Source: inline
 
