@@ -1,10 +1,22 @@
-# System Prompt: available-environments-json-format
+# System Reminder: available-environments-json-format
 
 - Source: inline
 
 ## Summary
 
 List of available environments and formats.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 Available environments:
