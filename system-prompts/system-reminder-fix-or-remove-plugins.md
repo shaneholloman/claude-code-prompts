@@ -1,4 +1,4 @@
-# System Prompt: fix-or-remove-plugins
+# System Reminder: fix-or-remove-plugins
 
 - Source: inline
 
