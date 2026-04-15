@@ -1,4 +1,4 @@
-# System Prompt: checking-gcp-credentials-validity
+# System Reminder: checking-gcp-credentials-validity
 
 - Source: inline
 
