@@ -6,6 +6,12 @@
 
 Overview of using tools in Python SDK.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+
 # Raw Prompt Text
 # Tool Use — Python
 
