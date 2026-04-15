@@ -1,4 +1,4 @@
-# System Prompt: bigquery-exporter-shutdown-complete
+# System Reminder: bigquery-exporter-shutdown-complete
 
 - Source: inline
 
