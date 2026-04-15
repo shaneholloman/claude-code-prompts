@@ -1,4 +1,4 @@
-# Tool Prompt: read-resource-by-uri
+# Tool Description: read-resource-by-uri
 
 - Name: ReadMcpResourceTool
 
