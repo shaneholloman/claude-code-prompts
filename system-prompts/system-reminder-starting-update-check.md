@@ -1,4 +1,4 @@
-# System Prompt: starting-update-check
+# System Reminder: starting-update-check
 
 - Source: inline
 
