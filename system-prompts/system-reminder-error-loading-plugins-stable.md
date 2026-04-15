@@ -1,4 +1,4 @@
-# System Prompt: error-loading-plugins-stable
+# System Reminder: error-loading-plugins-stable
 
 - Source: inline
 
