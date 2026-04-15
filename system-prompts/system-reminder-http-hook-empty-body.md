@@ -1,4 +1,4 @@
-# System Prompt: http-hook-empty-body
+# System Reminder: http-hook-empty-body
 
 - Source: inline
 
