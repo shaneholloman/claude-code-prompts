@@ -1,4 +1,4 @@
-# System Prompt: shutdown-team-before-response
+# System Reminder: shutdown-team-before-response
 
 - Source: inline
 
