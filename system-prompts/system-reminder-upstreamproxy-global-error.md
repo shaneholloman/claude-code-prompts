@@ -1,4 +1,4 @@
-# System Prompt: upstreamproxy-global-error
+# System Reminder: upstreamproxy-global-error
 
 - Source: inline
 
