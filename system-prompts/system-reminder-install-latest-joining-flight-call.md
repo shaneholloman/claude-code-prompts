@@ -1,4 +1,4 @@
-# System Prompt: install-latest-joining-flight-call
+# System Reminder: install-latest-joining-flight-call
 
 - Source: inline
 
