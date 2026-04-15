@@ -1,4 +1,4 @@
-# System Prompt: find-ide-helper-processes
+# System Reminder: find-ide-helper-processes
 
 - Source: inline
 
