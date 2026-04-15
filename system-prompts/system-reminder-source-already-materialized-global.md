@@ -1,4 +1,4 @@
-# System Prompt: source-already-materialized-global
+# System Reminder: source-already-materialized-global
 
 - Source: inline
 
