@@ -290,7 +290,7 @@ Styling elements with font, color, and borders.
       <${PATH}>
     <${PATH}>
 
-     (PID ${EXPR_35})
+    brew upgrade ${EXPR_35}
 
     <div class="charts-row">
       <div class="chart-card">
