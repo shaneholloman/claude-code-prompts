@@ -1,4 +1,4 @@
-# System Prompt: launch-multiple-agents-concurrently-2
+# System Reminder: launch-multiple-agents-concurrently-2
 
 - Source: inline
 
