@@ -1,4 +1,4 @@
-# System Prompt: remote-managed-settings
+# System Reminder: remote-managed-settings
 
 - Source: inline
 
