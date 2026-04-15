@@ -1,4 +1,4 @@
-# System Prompt: team-memory-sync-inaccessible
+# System Reminder: team-memory-sync-inaccessible
 
 - Source: inline
 
