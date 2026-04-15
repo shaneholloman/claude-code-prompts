@@ -1,4 +1,4 @@
-# System Prompt: git-repo-url-specify
+# System Reminder: git-repo-url-specify
 
 - Source: inline
 
