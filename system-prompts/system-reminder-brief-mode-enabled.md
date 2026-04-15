@@ -1,4 +1,4 @@
-# System Prompt: brief-mode-enabled
+# System Reminder: brief-mode-enabled
 
 - Source: inline
 
