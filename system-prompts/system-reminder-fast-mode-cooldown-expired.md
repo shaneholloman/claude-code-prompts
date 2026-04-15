@@ -1,4 +1,4 @@
-# System Prompt: fast-mode-cooldown-expired
+# System Reminder: fast-mode-cooldown-expired
 
 - Source: inline
 
