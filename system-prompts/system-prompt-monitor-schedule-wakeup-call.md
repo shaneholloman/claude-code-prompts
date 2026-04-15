@@ -6,6 +6,15 @@
 
 Instructions for managing monitor and scheduling wakeup.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
 # Raw Prompt Text
 ${NUM}. **Run ${EXPR_1} now**, following the instructions inlined below.
 ${NUM}. **If the next tick is gated on an event** (CI finishing, a PR comment, a log line) and no Monitor is already running for it: arm one now with `persistent: true`. Its events wake this loop immediately — you do not wait for the ScheduleWakeup deadline. Arm once; on later ticks call TaskList first and skip if a monitor is already running.
