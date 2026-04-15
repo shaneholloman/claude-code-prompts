@@ -1,4 +1,4 @@
-# System Prompt: finalize-voice-stream-3
+# System Reminder: finalize-voice-stream-3
 
 - Source: inline
 
