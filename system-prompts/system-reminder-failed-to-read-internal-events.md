@@ -1,4 +1,4 @@
-# System Prompt: failed-to-read-internal-events
+# System Reminder: failed-to-read-internal-events
 
 - Source: inline
 
