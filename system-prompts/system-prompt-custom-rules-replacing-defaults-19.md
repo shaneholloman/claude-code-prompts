@@ -1,10 +1,21 @@
-# System Prompt: custom-rules-replacing-defaults-19
+# System Data Block: custom-defaults-replacing-rules-7
 
 - Source: inline
 
 ## Summary
 
 Multiple prompts (2)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 ## allow (custom rules replacing defaults)
