@@ -1,5 +1,6 @@
 # System Prompt: evaluate-stop-condition-hook
 
+
 ## Summary
 
 Assess if the user condition is met based on transcript.
