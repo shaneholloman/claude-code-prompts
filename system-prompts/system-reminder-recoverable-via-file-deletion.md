@@ -1,4 +1,4 @@
-# System Prompt: recoverable-via-file-deletion
+# System Reminder: recoverable-via-file-deletion
 
 - Source: inline
 
