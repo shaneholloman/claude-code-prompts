@@ -6,6 +6,14 @@
 
 Collaborative guide for new Claude Code users.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `WINDOW_DAYS` | None | None |
+| `USAGE_DATA` | None | None |
+| `GUIDE_TEMPLATE` | None | None |
+
 # Raw Prompt Text
 You are helping a power user generate an onboarding guide for teammates who are new to Claude Code. The guide will live in the team's onboarding docs and can be pasted into Claude for an interactive walkthrough.
 
