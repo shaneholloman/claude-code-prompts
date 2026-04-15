@@ -1,4 +1,4 @@
-# System Prompt: hooks-error-parsing-json-3
+# System Reminder: hooks-error-parsing-json-3
 
 - Source: inline
 
