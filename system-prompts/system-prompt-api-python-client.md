@@ -6,6 +6,15 @@
 
 Guide for using the Claude API in Python.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `SONNET_ID` | None | None |
+| `HAIKU_ID` | None | None |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 # Claude API — Python
 
