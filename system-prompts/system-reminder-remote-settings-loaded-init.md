@@ -1,4 +1,4 @@
-# System Prompt: remote-settings-loaded-init
+# System Reminder: remote-settings-loaded-init
 
 - Source: inline
 
