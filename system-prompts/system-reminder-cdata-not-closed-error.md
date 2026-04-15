@@ -1,4 +1,4 @@
-# System Prompt: cdata-not-closed-error
+# System Reminder: cdata-not-closed-error
 
 - Source: inline
 
