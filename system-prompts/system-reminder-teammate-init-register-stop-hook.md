@@ -1,4 +1,4 @@
-# System Prompt: teammate-init-register-stop-hook
+# System Reminder: teammate-init-register-stop-hook
 
 - Source: inline
 
