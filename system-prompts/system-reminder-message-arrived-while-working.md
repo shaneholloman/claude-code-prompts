@@ -1,10 +1,17 @@
-# System Prompt: message-arrived-while-working
+# System Reminder: message-arrived-while-working
 
 - Source: inline
 
 ## Summary
 
 A message from an external channel is received.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 A message arrived from ${EXPR_1} while you were working:
