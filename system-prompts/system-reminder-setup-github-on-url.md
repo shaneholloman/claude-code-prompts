@@ -1,4 +1,4 @@
-# System Prompt: setup-github-on-url
+# System Reminder: setup-github-on-url
 
 - Source: inline
 
