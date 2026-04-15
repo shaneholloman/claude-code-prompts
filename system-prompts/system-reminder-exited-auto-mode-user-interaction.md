@@ -1,4 +1,4 @@
-# System Prompt: exited-auto-mode-user-interaction
+# System Reminder: exited-auto-mode-user-interaction
 
 - Source: inline
 
