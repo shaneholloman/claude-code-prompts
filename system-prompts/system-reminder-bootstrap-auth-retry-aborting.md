@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-auth-retry-aborting
+# System Reminder: bootstrap-auth-retry-aborting
 
 - Source: inline
 
