@@ -1,4 +1,4 @@
-# System Prompt: check-github-token-synced-2
+# System Reminder: check-github-token-synced-2
 
 - Source: inline
 
