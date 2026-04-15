@@ -6,6 +6,15 @@
 
 Overview of tool use concepts in Claude API.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `OPUS_NAME` | None | None |
+| `SONNET_NAME` | None | None |
+| `HAIKU_NAME` | None | None |
+
 # Raw Prompt Text
 # Tool Use Concepts
 
