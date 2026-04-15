@@ -1,4 +1,4 @@
-# System Prompt: stopnode-not-closed-error
+# System Reminder: stopnode-not-closed-error
 
 - Source: inline
 
