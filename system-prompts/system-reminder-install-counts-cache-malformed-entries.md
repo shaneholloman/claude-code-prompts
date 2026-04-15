@@ -1,4 +1,4 @@
-# System Prompt: install-counts-cache-malformed-entries
+# System Reminder: install-counts-cache-malformed-entries
 
 - Source: inline
 
