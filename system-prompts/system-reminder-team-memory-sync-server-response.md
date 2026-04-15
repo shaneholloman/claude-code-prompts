@@ -1,4 +1,4 @@
-# System Prompt: team-memory-sync-server-response
+# System Reminder: team-memory-sync-server-response
 
 - Source: inline
 
