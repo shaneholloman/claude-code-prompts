@@ -1,4 +1,4 @@
-# System Prompt: register-iterm-backend-undefined-class
+# System Reminder: register-iterm-backend-undefined-class
 
 - Source: inline
 
