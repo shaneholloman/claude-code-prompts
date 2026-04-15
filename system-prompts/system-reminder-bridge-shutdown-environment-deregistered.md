@@ -1,4 +1,4 @@
-# System Prompt: bridge-shutdown-environment-offline
+# System Reminder: bridge-shutdown-environment-offline
 
 - Source: inline
 
