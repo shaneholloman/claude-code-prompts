@@ -1,4 +1,4 @@
-# System Prompt: chat-app-navigation-commands-3
+# System Data Block: chat-app-commands
 
 - Source: inline
 
