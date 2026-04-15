@@ -1,4 +1,4 @@
-# System Prompt: invalid-message-chrome
+# System Reminder: invalid-message-chrome
 
 - Source: inline
 
