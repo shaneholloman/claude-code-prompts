@@ -1,4 +1,4 @@
-# System Prompt: check-deploy-5m
+# System Reminder: check-deploy-5m
 
 - Source: inline
 
