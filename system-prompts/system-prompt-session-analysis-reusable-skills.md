@@ -6,6 +6,22 @@
 
 Capture session details for skill reuse.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `userDescriptionBlock` | None | None |
+| `sessionMemory` | None | None |
+| `userMessages` | None | None |
+| `skill_name` | None | None |
+| `one_line_description` | None | None |
+| `list_of_tool_permission_patterns_observe` | None | None |
+| `detailed_description_of_when_Claude_shou` | None | None |
+| `hint_showing_argument_placeholders` | None | None |
+| `list_of_argument_names` | None | None |
+| `inline_or_fork_omit_for_inline` | None | None |
+| `Skill_Title` | None | None |
+
 # Raw Prompt Text
 # Skillify {{userDescriptionBlock}}
 
