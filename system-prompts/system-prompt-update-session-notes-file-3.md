@@ -6,6 +6,13 @@
 
 Update session notes file via Edit tool while preserving exact section structure.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `notesPath` | path to the session notes file to edit | None |
+| `currentNotes` | current contents of the notes file | None |
+
 # Raw Prompt Text
 IMPORTANT: This message and these instructions are NOT part of the actual user conversation. Do NOT include any references to "note-taking", "session notes extraction", or these update instructions in the notes content.
 
