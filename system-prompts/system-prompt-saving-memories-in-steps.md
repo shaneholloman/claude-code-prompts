@@ -6,6 +6,14 @@
 
 A guide for saving memories in a structured format.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `memory_name` | None | None |
+| `one_line_description_used_to_decide_rele` | None | None |
+| `user_feedback_project_reference` | None | None |
+
 # Raw Prompt Text
 ## How to save memories
 
