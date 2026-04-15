@@ -1,4 +1,4 @@
-# System Prompt: get-copy-job-response
+# System Data Block: bedrock-copy-job-response-fields
 
 - Source: inline
 
