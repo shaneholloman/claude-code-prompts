@@ -1,4 +1,4 @@
-# System Prompt: amazon-bedrock-converse-stream
+# System Data Block: bedrock-converse-stream-output-events
 
 - Source: inline
 
