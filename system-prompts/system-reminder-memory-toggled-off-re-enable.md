@@ -1,4 +1,4 @@
-# System Prompt: memory-toggled-off-re-enable
+# System Reminder: memory-toggled-off-re-enable
 
 - Source: inline
 
