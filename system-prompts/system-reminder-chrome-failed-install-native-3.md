@@ -1,4 +1,4 @@
-# System Prompt: chrome-failed-install-native-3
+# System Reminder: chrome-failed-install-native-3
 
 - Source: inline
 
