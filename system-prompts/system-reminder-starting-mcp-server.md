@@ -1,4 +1,4 @@
-# System Prompt: starting-mcp-server
+# System Reminder: starting-mcp-server
 
 - Source: inline
 
