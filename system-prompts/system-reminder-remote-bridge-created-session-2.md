@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-created-session-2
+# System Reminder: remote-bridge-created-session-2
 
 - Source: inline
 
