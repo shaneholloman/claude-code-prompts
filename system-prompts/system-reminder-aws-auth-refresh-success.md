@@ -1,4 +1,4 @@
-# System Prompt: aws-auth-refresh-success
+# System Reminder: aws-auth-refresh-success
 
 - Source: inline
 
