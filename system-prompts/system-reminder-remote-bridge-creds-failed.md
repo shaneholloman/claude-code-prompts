@@ -10,7 +10,7 @@ Notification of failed credentials in remote bridge.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | false | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-[remote-bridge] Creds failed; onStateChange UNSET, msg="${EXPR_1: false}"
+[remote-bridge] Creds failed; onStateChange UNSET, msg="${EXPR_1}"
