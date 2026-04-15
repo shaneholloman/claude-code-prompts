@@ -1,4 +1,4 @@
-# System Prompt: plugin-configuration-skipped
+# System Reminder: plugin-configuration-skipped
 
 - Source: inline
 
