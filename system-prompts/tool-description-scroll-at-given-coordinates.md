@@ -1,4 +1,4 @@
-# Tool Prompt: scroll-at-given-coordinates
+# Tool Description: scroll-at-given-coordinates
 
 - Name: scroll
 
