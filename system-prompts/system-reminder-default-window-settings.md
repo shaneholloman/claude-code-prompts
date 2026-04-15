@@ -1,4 +1,4 @@
-# System Prompt: default-window-settings
+# System Reminder: default-window-settings
 
 - Source: inline
 
