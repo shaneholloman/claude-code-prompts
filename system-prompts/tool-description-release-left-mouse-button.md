@@ -1,4 +1,4 @@
-# Tool Prompt: release-left-mouse-button
+# Tool Description: release-left-mouse-button
 
 - Name: left_mouse_up
 
