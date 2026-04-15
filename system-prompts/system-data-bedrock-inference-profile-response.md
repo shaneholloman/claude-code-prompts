@@ -1,4 +1,4 @@
-# System Prompt: get-inference-profile-response
+# System Data Block: bedrock-inference-profile-response
 
 - Source: inline
 
