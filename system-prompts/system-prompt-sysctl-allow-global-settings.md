@@ -1,10 +1,17 @@
-# System Prompt: sysctl-allow-global-settings
+# System Data Block: macos-sandbox-policy-rules
 
 - Source: inline
 
 ## Summary
 
 Configuration for global system settings and permissions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 (version ${NUM})
