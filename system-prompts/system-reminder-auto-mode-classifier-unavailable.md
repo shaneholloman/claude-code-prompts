@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-classifier-unavailable
+# System Reminder: auto-mode-classifier-unavailable
 
 - Source: inline
 
