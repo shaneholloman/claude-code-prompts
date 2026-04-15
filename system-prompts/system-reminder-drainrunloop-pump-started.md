@@ -1,4 +1,4 @@
-# System Prompt: drainrunloop-pump-started
+# System Reminder: drainrunloop-pump-started
 
 - Source: inline
 
