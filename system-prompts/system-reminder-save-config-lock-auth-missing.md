@@ -1,4 +1,4 @@
-# System Prompt: save-config-lock-auth-missing
+# System Reminder: save-config-lock-auth-missing
 
 - Source: inline
 
