@@ -1,4 +1,4 @@
-# System Prompt: team-memory-sync-conflict
+# System Reminder: team-memory-sync-conflict
 
 - Source: inline
 
