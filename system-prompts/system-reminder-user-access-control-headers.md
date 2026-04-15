@@ -1,4 +1,4 @@
-# System Prompt: user-access-control-headers
+# System Reminder: user-access-control-headers
 
 - Source: inline
 
