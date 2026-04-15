@@ -23,6 +23,6 @@ Current context:
 
 User input: "${EXPR_3}"
 
-Output format:  (PID ${EXPR_4})
+Output format: brew upgrade ${EXPR_4}
 
 Parse the user's input into ISO ${NUM} format. Return ONLY the formatted string, or "INVALID" if the input is incomplete or unparseable.
