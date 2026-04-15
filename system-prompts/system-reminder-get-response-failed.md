@@ -1,4 +1,4 @@
-# System Prompt: get-response-failed
+# System Reminder: get-response-failed
 
 - Source: inline
 
