@@ -1,4 +1,4 @@
-# System Prompt: failed-create-shell-snapshot
+# System Reminder: failed-create-shell-snapshot
 
 - Source: inline
 
