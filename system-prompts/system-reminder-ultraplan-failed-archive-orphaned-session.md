@@ -1,4 +1,4 @@
-# System Prompt: ultraplan-failed-archive-orphaned-session
+# System Reminder: ultraplan-failed-archive-orphaned-session
 
 - Source: inline
 
