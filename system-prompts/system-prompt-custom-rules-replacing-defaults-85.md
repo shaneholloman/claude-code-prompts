@@ -1,4 +1,4 @@
-# System Data Block: custom-defaults-replacing-rules
+# System Data Block: allow-custom-rules-replacing-defaults
 
 - Source: inline
 
