@@ -1,4 +1,4 @@
-# System Prompt: wiring-ssh-session-manager
+# System Reminder: wiring-ssh-session-manager
 
 - Source: inline
 
