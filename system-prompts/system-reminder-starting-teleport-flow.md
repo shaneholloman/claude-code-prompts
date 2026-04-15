@@ -1,4 +1,4 @@
-# System Prompt: starting-teleport-flow
+# System Reminder: starting-teleport-flow
 
 - Source: inline
 
