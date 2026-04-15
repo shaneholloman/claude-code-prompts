@@ -1,4 +1,4 @@
-# System Prompt: ambiguous-anchor-ending
+# System Reminder: ambiguous-anchor-ending
 
 - Source: inline
 
