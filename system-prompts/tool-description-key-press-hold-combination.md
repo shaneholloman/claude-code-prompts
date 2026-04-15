@@ -1,4 +1,4 @@
-# Tool Prompt: key-press-hold-combination
+# Tool Description: key-press-hold-combination
 
 - Name: hold_key
 
