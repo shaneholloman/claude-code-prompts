@@ -1,4 +1,4 @@
-# System Prompt: colon-indicator-sequence-key-limit
+# System Reminder: colon-indicator-sequence-key-limit
 
 - Source: inline
 
