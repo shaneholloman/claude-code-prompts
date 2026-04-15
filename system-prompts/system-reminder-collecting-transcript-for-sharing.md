@@ -1,4 +1,4 @@
-# System Prompt: collecting-transcript-for-sharing
+# System Reminder: collecting-transcript-for-sharing
 
 - Source: inline
 
