@@ -1,4 +1,4 @@
-# System Prompt: event-loop-stall-detector-started
+# System Reminder: event-loop-stall-detector-started
 
 - Source: inline
 
