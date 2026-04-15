@@ -1,4 +1,4 @@
-# System Prompt: aws-sts-assume-role-request
+# System Data Block: sts-assume-role-request-fields
 
 - Source: inline
 
