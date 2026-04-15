@@ -1,4 +1,4 @@
-# System Prompt: plan-file-recovery-failed
+# System Reminder: plan-file-recovery-failed
 
 - Source: inline
 
