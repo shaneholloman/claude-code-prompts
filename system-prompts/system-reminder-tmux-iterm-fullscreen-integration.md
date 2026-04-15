@@ -1,4 +1,4 @@
-# System Prompt: tmux-iterm-fullscreen-integration
+# System Reminder: tmux-iterm-fullscreen-integration
 
 - Source: inline
 
