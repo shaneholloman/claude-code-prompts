@@ -1,4 +1,4 @@
-# System Prompt: automated-reasoning-policy-test-case
+# System Data Block: bedrock-create-policy-test-case-fields
 
 - Source: inline
 
