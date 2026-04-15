@@ -1,5 +1,6 @@
 # System Prompt: scheduling-not-available
 
+
 ## Summary
 
 Notify user about scheduling limitations.
