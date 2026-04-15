@@ -1,4 +1,4 @@
-# System Prompt: github-connection-sync-credentials-3
+# System Prompt: github-connection-sync-credentials-2
 
 - Source: inline
 
