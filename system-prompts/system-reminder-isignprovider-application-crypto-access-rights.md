@@ -1,4 +1,4 @@
-# System Prompt: isignprovider-application-crypto-access-rights
+# System Reminder: isignprovider-application-crypto-access-rights
 
 - Source: inline
 
