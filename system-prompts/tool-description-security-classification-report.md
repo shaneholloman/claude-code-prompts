@@ -1,4 +1,4 @@
-# Tool Prompt: security-classification-report
+# Tool Description: security-classification-report
 
 - Name: classify_result
 
