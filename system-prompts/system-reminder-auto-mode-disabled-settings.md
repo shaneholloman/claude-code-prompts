@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-disabled-settings
+# System Reminder: auto-mode-disabled-settings
 
 - Source: inline
 
