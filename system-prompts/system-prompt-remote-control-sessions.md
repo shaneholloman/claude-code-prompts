@@ -6,6 +6,13 @@
 
 Control local sessions remotely with Claude.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 Remote Control - Connect your local environment to claude.ai${PATH}
 
