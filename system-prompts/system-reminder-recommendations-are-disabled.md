@@ -1,4 +1,4 @@
-# System Prompt: recommendations-are-disabled
+# System Reminder: recommendations-are-disabled
 
 - Source: inline
 
