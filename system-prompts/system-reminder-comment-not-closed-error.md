@@ -1,4 +1,4 @@
-# System Prompt: comment-not-closed-error
+# System Reminder: comment-not-closed-error
 
 - Source: inline
 
