@@ -1,4 +1,4 @@
-# System Prompt: reactive-compact-summarize-hit-media
+# System Reminder: reactive-compact-summarize-hit-media
 
 - Source: inline
 
