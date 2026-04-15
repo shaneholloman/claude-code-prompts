@@ -1,4 +1,4 @@
-# System Prompt: mailbox-mark-read-lock-released
+# System Reminder: mailbox-mark-read-lock-released
 
 - Source: inline
 
