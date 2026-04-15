@@ -15,4 +15,4 @@ Error decoding JWT expiry for session ID.
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-[${EXPR_1}:token] Could not decode JWT expiry for sessionId=${EXPR_2}, token prefix=${EXPR_3}…, keeping existing timer
+[${EXPR_1}:token] Could not decode JWT expiry for sessionId= (PID ${EXPR_2}), token prefix=${EXPR_3}…, keeping existing timer
