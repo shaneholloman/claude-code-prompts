@@ -1,4 +1,4 @@
-# System Prompt: voice-focus-gained-recording
+# System Reminder: voice-focus-gained-recording
 
 - Source: inline
 
