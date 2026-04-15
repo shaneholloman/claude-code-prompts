@@ -1,4 +1,4 @@
-# System Prompt: enable-iterm2-python-api
+# System Reminder: enable-iterm2-python-api
 
 - Source: inline
 
