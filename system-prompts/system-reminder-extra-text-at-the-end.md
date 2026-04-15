@@ -1,4 +1,4 @@
-# System Prompt: extra-text-at-the-end
+# System Reminder: extra-text-at-the-end
 
 - Source: inline
 
