@@ -1,4 +1,4 @@
-# System Prompt: passes-no-cache-fetching
+# System Reminder: passes-no-cache-fetching
 
 - Source: inline
 
