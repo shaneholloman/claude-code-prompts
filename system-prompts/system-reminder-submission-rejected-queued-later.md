@@ -1,4 +1,4 @@
-# System Prompt: submission-rejected-queued-later
+# System Reminder: submission-rejected-queued-later
 
 - Source: inline
 
