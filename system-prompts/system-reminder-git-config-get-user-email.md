@@ -1,4 +1,4 @@
-# System Prompt: git-config-get-user-email
+# System Reminder: git-config-get-user-email
 
 - Source: inline
 
