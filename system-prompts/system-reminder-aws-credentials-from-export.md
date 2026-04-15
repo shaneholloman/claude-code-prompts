@@ -1,4 +1,4 @@
-# System Prompt: aws-credentials-from-export
+# System Reminder: aws-credentials-from-export
 
 - Source: inline
 
