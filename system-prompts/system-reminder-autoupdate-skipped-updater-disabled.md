@@ -1,4 +1,4 @@
-# System Prompt: autoupdate-skipped-updater-disabled
+# System Reminder: autoupdate-skipped-updater-disabled
 
 - Source: inline
 
