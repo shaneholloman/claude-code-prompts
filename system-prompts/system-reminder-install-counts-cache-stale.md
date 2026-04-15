@@ -1,4 +1,4 @@
-# System Prompt: install-counts-cache-stale
+# System Reminder: install-counts-cache-stale
 
 - Source: inline
 
