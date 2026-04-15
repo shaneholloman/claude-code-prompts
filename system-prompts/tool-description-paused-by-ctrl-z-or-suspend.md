@@ -1,4 +1,4 @@
-# Tool Prompt: paused-by-ctrl-z-or-suspend
+# Tool Description: paused-by-ctrl-z-or-suspend
 
 - Name: SIGTSTP
 
