@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-fetch-failed-unknown
+# System Reminder: bootstrap-fetch-failed-unknown
 
 - Source: inline
 
