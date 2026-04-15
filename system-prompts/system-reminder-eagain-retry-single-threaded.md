@@ -1,4 +1,4 @@
-# System Prompt: eagain-retry-single-threaded
+# System Reminder: eagain-retry-single-threaded
 
 - Source: inline
 
