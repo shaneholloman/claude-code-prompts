@@ -1,4 +1,4 @@
-# System Prompt: local-scope-memory-guidance
+# System Reminder: local-scope-memory-guidance
 
 - Source: inline
 
