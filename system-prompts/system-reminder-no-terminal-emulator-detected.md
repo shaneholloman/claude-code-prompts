@@ -1,4 +1,4 @@
-# System Prompt: no-terminal-emulator-detected
+# System Reminder: no-terminal-emulator-detected
 
 - Source: inline
 
