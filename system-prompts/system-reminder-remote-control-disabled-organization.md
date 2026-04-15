@@ -1,4 +1,4 @@
-# System Prompt: remote-control-disabled-organization
+# System Reminder: remote-control-disabled-organization
 
 - Source: inline
 
