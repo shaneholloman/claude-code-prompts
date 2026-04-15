@@ -1,4 +1,4 @@
-# System Prompt: stashed-working-changes
+# System Reminder: stashed-working-changes
 
 - Source: inline
 
