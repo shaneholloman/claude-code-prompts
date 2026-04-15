@@ -1,4 +1,4 @@
-# Tool Prompt: double-click-selects-word-10
+# Tool Description: triple-click-selects-line-10
 
 - Name: double_click
 
