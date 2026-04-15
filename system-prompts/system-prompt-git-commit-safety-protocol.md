@@ -2,6 +2,20 @@
 
 - Source: inline
 
+## Summary
+
+Guidelines for safely creating git commits.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
 # Raw Prompt Text
 # Committing changes with git
 
@@ -72,8 +86,7 @@ ${NUM}. Run the following commands in parallel:
 <example>
 gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Summary
-
-Guidelines for safely creating git commits.
+<${NUM}-${NUM} bullet points>
 
 ## Test plan
 [Bulleted markdown checklist of TODOs for testing the pull request...]
