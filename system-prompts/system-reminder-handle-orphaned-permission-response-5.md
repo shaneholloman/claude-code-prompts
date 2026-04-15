@@ -1,4 +1,4 @@
-# System Prompt: handle-orphaned-permission-response-5
+# System Reminder: handle-orphaned-permission-response-5
 
 - Source: inline
 
