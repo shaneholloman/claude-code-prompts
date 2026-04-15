@@ -1,4 +1,4 @@
-# Tool Prompt: floating-point-arithmetic-error
+# Tool Description: floating-point-arithmetic-error
 
 - Name: SIGFPE
 
