@@ -1,4 +1,4 @@
-# System Prompt: panebackendexecutor-terminate-invalid-agentid
+# System Reminder: panebackendexecutor-terminate-invalid-agentid
 
 - Source: inline
 
