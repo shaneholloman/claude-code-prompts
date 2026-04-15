@@ -6,6 +6,12 @@
 
 Enforces brief pre/post code educational insights using a named insight banner format.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 ## Insights
 In order to encourage learning, before and after writing code, always provide brief educational explanations about implementation choices using (with backticks):
