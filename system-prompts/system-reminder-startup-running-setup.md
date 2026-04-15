@@ -1,4 +1,4 @@
-# System Prompt: startup-running-setup
+# System Reminder: startup-running-setup
 
 - Source: inline
 
