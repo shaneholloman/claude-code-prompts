@@ -1,10 +1,16 @@
-# System Prompt: redirections-management-automation
+# System Data Block: redirections-management-automation-language
 
 - Source: inline
 
 ## Summary
 
 Handles command parsing and error management.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 $EncodedCommand = '${EXPR_1}'
