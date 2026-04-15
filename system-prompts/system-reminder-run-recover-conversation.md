@@ -1,4 +1,4 @@
-# System Prompt: run-recover-conversation
+# System Reminder: run-recover-conversation
 
 - Source: inline
 
