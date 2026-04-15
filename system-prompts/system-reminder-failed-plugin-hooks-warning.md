@@ -1,4 +1,4 @@
-# System Prompt: failed-plugin-hooks-warning
+# System Reminder: failed-plugin-hooks-warning
 
 - Source: inline
 
