@@ -6,6 +6,12 @@
 
 Execute tasks from the established loop contents.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 # ${PATH} tick — loop.md tasks
 
