@@ -1,4 +1,4 @@
-# System Prompt: session-idle-submit-immediately
+# System Reminder: session-idle-submit-immediately
 
 - Source: inline
 
