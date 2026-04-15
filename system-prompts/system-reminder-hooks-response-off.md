@@ -1,4 +1,4 @@
-# System Prompt: hooks-response-off
+# System Reminder: hooks-response-off
 
 - Source: inline
 
