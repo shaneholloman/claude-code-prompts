@@ -1,4 +1,4 @@
-# System Prompt: away-summary-cache-stale
+# System Reminder: away-summary-cache-stale
 
 - Source: inline
 
