@@ -1,4 +1,4 @@
-# System Prompt: block-collections-not-allowed
+# System Reminder: block-collections-not-allowed
 
 - Source: inline
 
