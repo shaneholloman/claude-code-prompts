@@ -1,4 +1,4 @@
-# System Prompt: wfet-query-parameter-text-delimiter-label
+# System Reminder: wfet-query-parameter-text-delimiter-label
 
 - Source: inline
 
