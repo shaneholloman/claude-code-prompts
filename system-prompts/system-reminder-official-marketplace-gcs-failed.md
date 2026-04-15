@@ -1,4 +1,4 @@
-# System Prompt: official-marketplace-gcs-failed
+# System Reminder: official-marketplace-gcs-failed
 
 - Source: inline
 
