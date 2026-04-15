@@ -1,4 +1,4 @@
-# System Prompt: extract-memories-running-extraction
+# System Reminder: extract-memories-running-extraction
 
 - Source: inline
 
