@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-requirement-skipped
+# System Reminder: trusted-device-requirement-skipped
 
 - Source: inline
 
