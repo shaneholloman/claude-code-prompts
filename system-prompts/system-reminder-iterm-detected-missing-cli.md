@@ -1,4 +1,4 @@
-# System Prompt: iterm-detected-missing-cli
+# System Reminder: iterm-detected-missing-cli
 
 - Source: inline
 
