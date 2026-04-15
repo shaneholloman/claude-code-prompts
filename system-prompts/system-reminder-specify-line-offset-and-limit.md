@@ -1,4 +1,4 @@
-# System Prompt: specify-line-offset-and-limit
+# System Reminder: specify-line-offset-and-limit
 
 - Source: inline
 
