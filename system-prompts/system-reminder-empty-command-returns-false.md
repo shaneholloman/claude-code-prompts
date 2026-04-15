@@ -1,4 +1,4 @@
-# System Prompt: empty-command-returns-false
+# System Reminder: empty-command-returns-false
 
 - Source: inline
 
