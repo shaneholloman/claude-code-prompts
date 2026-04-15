@@ -1,4 +1,4 @@
-# System Prompt: todo-list-cleanup
+# System Reminder: todo-list-cleanup
 
 - Source: inline
 
