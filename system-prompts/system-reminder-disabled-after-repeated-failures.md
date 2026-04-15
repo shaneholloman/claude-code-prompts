@@ -1,4 +1,4 @@
-# System Prompt: disabled-after-repeated-failures
+# System Reminder: disabled-after-repeated-failures
 
 - Source: inline
 
