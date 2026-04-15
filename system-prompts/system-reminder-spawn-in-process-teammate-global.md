@@ -1,4 +1,4 @@
-# System Prompt: spawn-in-process-teammate-global
+# System Reminder: spawn-in-process-teammate-global
 
 - Source: inline
 
