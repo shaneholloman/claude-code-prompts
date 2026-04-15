@@ -1,4 +1,4 @@
-# System Prompt: plugin-hooks-skipping-reload
+# System Reminder: plugin-hooks-skipping-reload
 
 - Source: inline
 
