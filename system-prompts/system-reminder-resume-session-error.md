@@ -1,4 +1,4 @@
-# System Prompt: resume-session-error
+# System Reminder: resume-session-error
 
 - Source: inline
 
