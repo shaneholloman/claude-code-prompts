@@ -1,10 +1,21 @@
-# System Prompt: custom-rules-replacing-defaults-53
+# System Data Block: custom-defaults-rules-replacing-5
 
 - Source: inline
 
 ## Summary
 
 Custom rules are replacing default settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 Forbidden by server policy: ## allow (custom rules replacing defaults)
