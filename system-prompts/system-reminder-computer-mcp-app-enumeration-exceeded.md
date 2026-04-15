@@ -1,4 +1,4 @@
-# System Prompt: computer-mcp-app-enumeration-exceeded
+# System Reminder: computer-mcp-app-enumeration-exceeded
 
 - Source: inline
 
