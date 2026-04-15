@@ -1,4 +1,4 @@
-# System Prompt: sdk-inline-settings
+# System Reminder: sdk-inline-settings
 
 - Source: inline
 
