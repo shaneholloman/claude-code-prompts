@@ -1,5 +1,6 @@
 # System Prompt: browser-timeout-extension
 
+
 ## Summary
 
 Instructs to open Chrome with the Claude extension after a browser timeout.
