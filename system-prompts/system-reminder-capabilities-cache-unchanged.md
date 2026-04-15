@@ -1,4 +1,4 @@
-# System Prompt: capabilities-cache-unchanged
+# System Reminder: capabilities-cache-unchanged
 
 - Source: inline
 
