@@ -6,6 +6,13 @@
 
 HTML usage section narrative with injected text and key-insight pattern markup placeholders
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 <h2 id="section-usage">How You Use Claude Code</h2>
     <div class="narrative">
