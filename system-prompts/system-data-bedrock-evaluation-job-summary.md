@@ -1,4 +1,4 @@
-# System Prompt: amazon-bedrock-evaluation-summary
+# System Data Block: bedrock-evaluation-job-summary
 
 - Source: inline
 
