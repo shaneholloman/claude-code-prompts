@@ -1,10 +1,22 @@
-# System Prompt: custom-rules-replacing-defaults-41
+# System Data Block: dangerous-operation-detected
 
 - Source: inline
 
 ## Summary
 
 Detects dangerous operations with custom rules.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 Dangerous ${EXPR_1} operation detected: '## allow (custom rules replacing defaults)
