@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-transport-not-configured
+# System Reminder: bridge-repl-transport-not-configured
 
 - Source: inline
 
