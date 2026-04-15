@@ -1,4 +1,4 @@
-# System Prompt: wsr-complete-navigation-options
+# System Reminder: wsr-complete-navigation-options
 
 - Source: inline
 
