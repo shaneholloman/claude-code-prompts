@@ -1,4 +1,4 @@
-# System Prompt: no-org-uuid-session-fetch
+# System Reminder: no-org-uuid-session-fetch
 
 - Source: inline
 
