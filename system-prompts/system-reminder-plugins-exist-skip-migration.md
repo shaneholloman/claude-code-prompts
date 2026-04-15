@@ -1,4 +1,4 @@
-# System Prompt: plugins-exist-skip-migration
+# System Reminder: plugins-exist-skip-migration
 
 - Source: inline
 
