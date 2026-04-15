@@ -1,4 +1,4 @@
-# System Prompt: opus-not-available-account
+# System Reminder: opus-not-available-account
 
 - Source: inline
 
