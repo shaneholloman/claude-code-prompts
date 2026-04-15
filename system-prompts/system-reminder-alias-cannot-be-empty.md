@@ -1,4 +1,4 @@
-# System Prompt: alias-cannot-be-empty
+# System Reminder: alias-cannot-be-empty
 
 - Source: inline
 
