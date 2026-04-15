@@ -1,4 +1,4 @@
-# System Prompt: preaction-plugin-dir-inline
+# System Reminder: preaction-plugin-dir-inline
 
 - Source: inline
 
