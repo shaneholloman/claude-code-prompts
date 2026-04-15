@@ -1,4 +1,4 @@
-# System Prompt: yaml-implicit-map-key-error
+# System Reminder: yaml-implicit-map-key-error
 
 - Source: inline
 
