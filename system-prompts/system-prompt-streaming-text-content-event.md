@@ -1,10 +1,16 @@
-# System Prompt: streaming-text-content-event
+# System Data Block: python-streaming-messages
 
 - Source: inline
 
 ## Summary
 
 Example of streaming text messages in Python.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Streaming — Python
