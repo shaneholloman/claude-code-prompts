@@ -1,4 +1,4 @@
-# System Prompt: remote-planning-session-guide
+# System Reminder: remote-planning-session-guide
 
 - Source: inline
 
