@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-sent-result
+# System Reminder: remote-bridge-sent-result
 
 - Source: inline
 
