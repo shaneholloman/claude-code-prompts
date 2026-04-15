@@ -1,4 +1,4 @@
-# System Prompt: extract-memories-progress
+# System Reminder: extract-memories-progress
 
 - Source: inline
 
