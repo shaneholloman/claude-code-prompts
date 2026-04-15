@@ -1,10 +1,16 @@
-# System Prompt: github-event-listener
+# System Data Block: mention-triggered-github-workflow
 
 - Source: inline
 
 ## Summary
 
 Listens for specific GitHub events involving Claude.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 name: Claude Code
