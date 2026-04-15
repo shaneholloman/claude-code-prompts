@@ -1,4 +1,4 @@
-# System Prompt: ccrclient-get-retries-exhausted
+# System Reminder: ccrclient-get-retries-exhausted
 
 - Source: inline
 
