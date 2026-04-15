@@ -1,4 +1,4 @@
-# System Prompt: grove-fresh-cached-config
+# System Reminder: grove-fresh-cached-config
 
 - Source: inline
 
