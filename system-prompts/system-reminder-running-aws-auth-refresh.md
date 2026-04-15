@@ -1,4 +1,4 @@
-# System Prompt: running-aws-auth-refresh
+# System Reminder: running-aws-auth-refresh
 
 - Source: inline
 
