@@ -1,4 +1,4 @@
-# System Prompt: verify-plan-completion
+# System Reminder: verify-plan-completion
 
 - Source: inline
 
