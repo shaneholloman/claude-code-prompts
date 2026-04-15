@@ -1,4 +1,4 @@
-# System Prompt: numerical-sequence
+# System Data Block: numeric-placeholder-block
 
 - Source: inline
 
