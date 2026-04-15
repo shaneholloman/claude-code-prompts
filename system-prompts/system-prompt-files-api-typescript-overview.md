@@ -1,10 +1,21 @@
-# System Prompt: files-api-typescript-overview
+# System Data Block: files-api-typescript-upload
 
 - Source: inline
 
 ## Summary
 
 Overview of the Files API for file uploads.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # Files API — TypeScript
