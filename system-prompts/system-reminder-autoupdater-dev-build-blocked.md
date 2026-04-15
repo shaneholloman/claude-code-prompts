@@ -1,4 +1,4 @@
-# System Prompt: autoupdater-dev-build-blocked
+# System Reminder: autoupdater-dev-build-blocked
 
 - Source: inline
 
