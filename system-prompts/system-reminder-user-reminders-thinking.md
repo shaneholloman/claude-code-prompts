@@ -1,4 +1,4 @@
-# System Prompt: user-reminders-thinking
+# System Reminder: user-reminders-thinking
 
 - Source: inline
 
