@@ -1,4 +1,4 @@
-# System Prompt: ssh-session-failed-before-connecting
+# System Reminder: ssh-session-failed-before-connecting
 
 - Source: inline
 
