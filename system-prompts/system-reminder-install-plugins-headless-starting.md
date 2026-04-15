@@ -1,4 +1,4 @@
-# System Prompt: install-plugins-headless-zip-cache
+# System Reminder: install-plugins-headless-zip-cache
 
 - Source: inline
 
