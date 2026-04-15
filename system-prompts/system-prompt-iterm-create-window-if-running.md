@@ -1,10 +1,16 @@
-# System Prompt: iterm-create-window-if-running
+# System Data Block: tell-application-current-window
 
 - Source: inline
 
 ## Summary
 
 Creates a new window in iTerm if it's running.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 tell application "iTerm"
