@@ -1,4 +1,4 @@
-# System Prompt: plugins-load-failure-2
+# System Reminder: plugins-load-failure-2
 
 - Source: inline
 
