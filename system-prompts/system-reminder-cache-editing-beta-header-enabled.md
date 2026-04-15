@@ -1,4 +1,4 @@
-# System Prompt: cache-editing-beta-header-enabled
+# System Reminder: cache-editing-beta-header-enabled
 
 - Source: inline
 
