@@ -1,4 +1,4 @@
-# System Prompt: missing-error
+# System Reminder: missing-error
 
 - Source: inline
 
