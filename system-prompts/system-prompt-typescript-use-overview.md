@@ -6,6 +6,15 @@
 
 Overview of using tools in TypeScript with Zod schemas.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
 # Raw Prompt Text
 # Tool Use — TypeScript
 
