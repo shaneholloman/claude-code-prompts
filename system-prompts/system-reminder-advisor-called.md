@@ -1,4 +1,4 @@
-# System Prompt: advisor-called
+# System Reminder: advisor-called
 
 - Source: inline
 
