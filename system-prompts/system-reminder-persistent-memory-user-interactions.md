@@ -1,10 +1,20 @@
-# System Prompt: persistent-memory-user-collaboration-7
+# System Reminder: persistent-memory-user-collaboration-7
 
 - Source: inline
 
 ## Summary
 
 Develop a memory system for user collaboration.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | resolved string (518 chars) | [system-prompt-when-to-access-memories-3.md](system-prompt-when-to-access-memories-3.md) |
 
 # Raw Prompt Text
 # ${EXPR_1}
