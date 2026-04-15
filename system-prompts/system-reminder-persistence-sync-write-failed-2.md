@@ -1,4 +1,4 @@
-# System Prompt: persistence-sync-write-failed-2
+# System Reminder: persistence-sync-write-failed-2
 
 - Source: inline
 
