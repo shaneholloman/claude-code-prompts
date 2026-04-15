@@ -1,4 +1,4 @@
-# System Prompt: global-actions-blocked-session
+# System Reminder: global-actions-blocked-session
 
 - Source: inline
 
