@@ -1,4 +1,4 @@
-# System Prompt: get-guardrail-response-details
+# System Data Block: get-guardrail-response-fields
 
 - Source: inline
 
