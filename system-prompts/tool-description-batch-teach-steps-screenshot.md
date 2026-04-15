@@ -1,4 +1,4 @@
-# Tool Prompt: batch-teach-steps-screenshot
+# Tool Description: batch-teach-steps-screenshot
 
 - Name: teach_batch
 
