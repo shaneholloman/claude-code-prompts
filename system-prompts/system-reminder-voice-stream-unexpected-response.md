@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-unexpected-response
+# System Reminder: voice-stream-unexpected-response
 
 - Source: inline
 
