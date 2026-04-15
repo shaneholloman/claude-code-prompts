@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-cache-updated-disk
+# System Reminder: bootstrap-cache-updated-disk
 
 - Source: inline
 
