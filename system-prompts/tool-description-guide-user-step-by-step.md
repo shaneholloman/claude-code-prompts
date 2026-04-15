@@ -1,4 +1,4 @@
-# Tool Prompt: guide-user-step-by-step
+# Tool Description: guide-user-step-by-step
 
 - Name: request_teach_access
 
