@@ -1,4 +1,4 @@
-# System Prompt: deferred-tools-appear
+# System Reminder: deferred-tools-appear
 
 - Source: inline
 
