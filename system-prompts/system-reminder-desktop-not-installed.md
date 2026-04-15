@@ -1,4 +1,4 @@
-# System Prompt: desktop-not-installed
+# System Reminder: desktop-not-installed
 
 - Source: inline
 
