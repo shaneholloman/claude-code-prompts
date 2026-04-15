@@ -1,4 +1,4 @@
-# System Prompt: upgrade-connection-stable
+# System Reminder: upgrade-connection-stable
 
 - Source: inline
 
