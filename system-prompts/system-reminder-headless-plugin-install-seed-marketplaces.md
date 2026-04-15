@@ -1,4 +1,4 @@
-# System Prompt: headless-plugin-install-seed-marketplaces
+# System Reminder: headless-plugin-install-seed-marketplaces
 
 - Source: inline
 
