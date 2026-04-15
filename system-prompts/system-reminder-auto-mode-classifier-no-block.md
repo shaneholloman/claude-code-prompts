@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-classifier-no-block
+# System Reminder: auto-mode-classifier-no-block
 
 - Source: inline
 
