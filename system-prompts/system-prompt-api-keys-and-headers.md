@@ -1,4 +1,4 @@
-# System Prompt: api-keys-and-headers
+# System Data Block: token-anthropic-key-headers-api
 
 - Source: inline
 
