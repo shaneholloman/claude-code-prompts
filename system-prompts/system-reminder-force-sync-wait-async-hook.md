@@ -1,4 +1,4 @@
-# System Prompt: force-sync-wait-async-hook
+# System Reminder: force-sync-wait-async-hook
 
 - Source: inline
 
