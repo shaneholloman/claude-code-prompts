@@ -1,4 +1,4 @@
-# System Prompt: project-id-required
+# System Reminder: project-id-required
 
 - Source: inline
 
