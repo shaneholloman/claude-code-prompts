@@ -6,6 +6,12 @@
 
 Guidelines to extract and count user goals, satisfaction signals, and friction types from session.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 Analyze this Claude Code session and extract structured facets.
 
