@@ -1,10 +1,16 @@
-# Tool Prompt: structured-todo-list
+# Tool Description: structured-todo-list
 
 - Name: TodoWrite
 
 ## Summary
 
 Guidance for when and how to use a structured task list tool.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | Edit | None |
 
 # Raw Prompt Text
 Use this tool to create and manage a structured task list for your current coding session. This helps you track progress, organize complex tasks, and demonstrate thoroughness to the user.
@@ -125,7 +131,7 @@ The assistant did not use the todo list because this is an informational request
 <example>
 User: Can you add a comment to the calculateTotal function to explain what it does?
 Assistant: Sure, let me add a comment to the calculateTotal function to explain what it does.
-* Uses the ${EXPR_1} tool to add a comment to the calculateTotal function *
+* Uses the ${EXPR_1: 'Edit'} tool to add a comment to the calculateTotal function *
 
 <reasoning>
 The assistant did not use the todo list because this is a single, straightforward task confined to one location in the code. Adding a comment doesn't require tracking multiple steps or systematic organization.
