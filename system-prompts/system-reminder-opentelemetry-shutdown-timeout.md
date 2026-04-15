@@ -1,4 +1,4 @@
-# System Prompt: opentelemetry-shutdown-timeout
+# System Reminder: opentelemetry-shutdown-timeout
 
 - Source: inline
 
