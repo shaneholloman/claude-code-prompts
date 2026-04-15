@@ -1,4 +1,4 @@
-# System Prompt: aws-proxy-settings
+# System Data Block: anthropic-aws-proxy
 
 - Source: inline
 
