@@ -1,4 +1,4 @@
-# System Prompt: cancelled-pending-deletion-file
+# System Reminder: cancelled-pending-deletion-file
 
 - Source: inline
 
@@ -6,5 +6,12 @@
 
 Cancelled deletion of a re-added file.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | unknown | None |
+
 # Raw Prompt Text
-Cancelled pending deletion of ${EXPR_1}@${EXPR_2} — file was re-added
+Cancelled pending deletion of ${EXPR_1}@${EXPR_2: 'unknown'} — file was re-added
