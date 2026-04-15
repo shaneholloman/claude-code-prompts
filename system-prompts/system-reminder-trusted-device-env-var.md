@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-env-var
+# System Reminder: trusted-device-env-var
 
 - Source: inline
 
