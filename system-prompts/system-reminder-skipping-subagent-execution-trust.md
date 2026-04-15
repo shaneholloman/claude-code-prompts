@@ -1,4 +1,4 @@
-# System Prompt: skipping-subagent-execution-trust
+# System Reminder: skipping-subagent-execution-trust
 
 - Source: inline
 
