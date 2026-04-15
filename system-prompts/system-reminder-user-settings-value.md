@@ -1,10 +1,17 @@
-# System Prompt: user-settings-value
+# System Reminder: user-settings-value
 
 - Source: inline
 
 ## Summary
 
 Manage configuration settings for the user.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Get or set Claude Code configuration settings.
