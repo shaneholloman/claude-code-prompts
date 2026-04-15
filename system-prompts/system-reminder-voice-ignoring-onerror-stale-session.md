@@ -1,4 +1,4 @@
-# System Prompt: voice-ignoring-onerror-stale-session
+# System Reminder: voice-ignoring-onerror-stale-session
 
 - Source: inline
 
