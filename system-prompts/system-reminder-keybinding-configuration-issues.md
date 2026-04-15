@@ -1,10 +1,17 @@
-# System Prompt: keybinding-configuration-issues
+# System Reminder: keybinding-configuration-issues
 
 - Source: inline
 
 ## Summary
 
 Guidance on validating keybinding configurations.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 ## Validation with ${PATH}
