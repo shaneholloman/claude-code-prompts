@@ -1,4 +1,4 @@
-# Tool Prompt: invalid-machine
+# Tool Description: invalid-machine
 
 - Name: SIGILL
 
