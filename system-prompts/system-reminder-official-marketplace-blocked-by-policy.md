@@ -1,4 +1,4 @@
-# System Prompt: official-marketplace-blocked-by-policy
+# System Reminder: official-marketplace-blocked-by-policy
 
 - Source: inline
 
