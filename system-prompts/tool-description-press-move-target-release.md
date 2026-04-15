@@ -1,4 +1,4 @@
-# Tool Prompt: press-move-target-release
+# Tool Description: press-move-target-release
 
 - Name: left_click_drag
 
