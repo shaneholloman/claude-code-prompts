@@ -1,4 +1,4 @@
-# System Prompt: reactive-compaction-failed
+# System Reminder: reactive-compaction-failed
 
 - Source: inline
 
