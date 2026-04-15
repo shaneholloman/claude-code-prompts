@@ -1,4 +1,4 @@
-# System Prompt: tag-directive-two-parts
+# System Reminder: tag-directive-two-parts
 
 - Source: inline
 
