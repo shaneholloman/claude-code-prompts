@@ -1,4 +1,4 @@
-# System Reminder: persistent-memory-user-collaboration-7
+# System Reminder: memory-user-collaboration
 
 - Source: inline
 
