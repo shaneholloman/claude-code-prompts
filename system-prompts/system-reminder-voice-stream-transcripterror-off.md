@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-transcripterror-off
+# System Reminder: voice-stream-transcripterror-off
 
 - Source: inline
 
