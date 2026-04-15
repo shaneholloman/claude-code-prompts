@@ -1,4 +1,4 @@
-# System Prompt: copy-job-summary
+# System Data Block: bedrock-copy-job-summary-fields
 
 - Source: inline
 
