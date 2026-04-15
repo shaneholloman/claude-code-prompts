@@ -6,6 +6,13 @@
 
 Schedule prompts to recur at specified intervals.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 # ${PATH} — schedule a recurring prompt
 
