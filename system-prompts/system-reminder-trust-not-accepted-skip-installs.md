@@ -1,4 +1,4 @@
-# System Prompt: trust-not-accepted-skip-installs
+# System Reminder: trust-not-accepted-skip-installs
 
 - Source: inline
 
