@@ -1,4 +1,4 @@
-# System Prompt: additional-user-stable
+# System Reminder: additional-user-stable
 
 - Source: inline
 
