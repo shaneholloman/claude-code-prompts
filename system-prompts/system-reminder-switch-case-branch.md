@@ -1,4 +1,4 @@
-# System Prompt: switch-case-branch
+# System Reminder: switch-case-branch
 
 - Source: inline
 
