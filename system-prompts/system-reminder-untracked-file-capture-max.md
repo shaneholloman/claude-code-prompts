@@ -1,4 +1,4 @@
-# System Prompt: untracked-file-capture-max-reached
+# System Reminder: untracked-file-capture-max-reached
 
 - Source: inline
 
