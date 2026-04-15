@@ -1,4 +1,4 @@
-# System Prompt: stream-first-chunk-received
+# System Reminder: stream-first-chunk-received
 
 - Source: inline
 
