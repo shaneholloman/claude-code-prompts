@@ -1,4 +1,4 @@
-# System Prompt: remote-credentials-fetch-failed
+# System Reminder: remote-credentials-fetch-failed
 
 - Source: inline
 
