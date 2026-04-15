@@ -6,6 +6,17 @@
 
 Persistent memory for user and team collaboration.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
 # Raw Prompt Text
 # Memory
 You have a persistent, file-based memory system with two directories: a private directory at `${EXPR_1}` and a shared team directory at `${EXPR_2}`. Both directories already exist — write to them directly with the Write tool (do not run mkdir or check for their existence).
