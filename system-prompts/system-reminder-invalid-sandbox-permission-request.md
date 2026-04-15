@@ -1,4 +1,4 @@
-# System Prompt: invalid-sandbox-permission-request
+# System Reminder: invalid-sandbox-permission-request
 
 - Source: inline
 
