@@ -1,10 +1,22 @@
-# System Prompt: custom-token-environment-organization
+# System Data Block: custom-token-organization-settings
 
 - Source: inline
 
 ## Summary
 
 Instructions for managing OAuth token settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 The CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR environment variable provides a token for a
