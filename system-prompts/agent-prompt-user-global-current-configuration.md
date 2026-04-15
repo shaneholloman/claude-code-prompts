@@ -9,6 +9,12 @@
 
 User's custom setup details for proactive suggestions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 global
 
