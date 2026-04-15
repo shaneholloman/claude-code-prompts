@@ -1,4 +1,4 @@
-# System Prompt: tabs-not-allowed-indentation
+# System Reminder: tabs-not-allowed-indentation
 
 - Source: inline
 
