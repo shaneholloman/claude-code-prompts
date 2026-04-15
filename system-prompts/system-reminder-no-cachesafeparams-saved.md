@@ -1,4 +1,4 @@
-# System Prompt: no-cachesafeparams-saved
+# System Reminder: no-cachesafeparams-saved
 
 - Source: inline
 
