@@ -4,7 +4,15 @@
 
 ## Summary
 
-HTML for feature and patterns sections with copy actions and placeholders.
+HTML for features and patterns sections with copy actions and injected content blocks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 <h2 id="section-features">Existing CC Features to Try</h2>
