@@ -1,4 +1,4 @@
-# System Prompt: file-changed-hook-failed-2
+# System Reminder: file-changed-hook-failed-2
 
 - Source: inline
 
