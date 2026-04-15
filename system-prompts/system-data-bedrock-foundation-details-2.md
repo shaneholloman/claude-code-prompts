@@ -1,4 +1,4 @@
-# System Prompt: foundation-details
+# System Data Block: bedrock-foundation-details-2
 
 - Source: inline
 
@@ -11,7 +11,7 @@ ${NUM}
 
 com.amazonaws.bedrock
 
-FoundationModelDetails
+FoundationModelSummary
 
 ${NUM}
 
