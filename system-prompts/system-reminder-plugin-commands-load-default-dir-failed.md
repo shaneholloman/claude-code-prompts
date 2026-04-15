@@ -1,10 +1,17 @@
-# System Prompt: plugin-commands-load-default-dir-failed
+# System Reminder: plugin-commands-load-default-dir-failed
 
 - Source: inline
 
 ## Summary
 
 error loading commands from a plugin default directory.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Failed to load commands from plugin ${EXPR_1} default directory: ${EXPR_2}
