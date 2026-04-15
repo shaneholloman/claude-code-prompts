@@ -1,4 +1,4 @@
-# System Prompt: permissionsync-failed-send-response
+# System Reminder: permissionsync-failed-send-response
 
 - Source: inline
 
