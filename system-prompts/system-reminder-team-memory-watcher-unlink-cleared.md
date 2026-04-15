@@ -1,4 +1,4 @@
-# System Prompt: team-memory-watcher-unlink-cleared
+# System Reminder: team-memory-watcher-unlink-cleared
 
 - Source: inline
 
