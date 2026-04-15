@@ -1,4 +1,4 @@
-# System Prompt: start-recording-buffering-audio
+# System Reminder: start-recording-buffering-audio
 
 - Source: inline
 
