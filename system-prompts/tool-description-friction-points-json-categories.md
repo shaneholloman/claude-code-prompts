@@ -1,4 +1,4 @@
-# Tool Prompt: friction-points-json-categories
+# Tool Description: friction-points-json-categories
 
 - Name: friction_analysis
 
