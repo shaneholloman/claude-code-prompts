@@ -1,4 +1,4 @@
-# Tool Prompt: background-process-terminal-output
+# Tool Description: background-process-terminal-output
 
 - Name: SIGTTOU
 
