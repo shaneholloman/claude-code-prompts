@@ -1,4 +1,4 @@
-# System Prompt: cleanup-npm-after-install
+# System Reminder: cleanup-npm-after-install
 
 - Source: inline
 
