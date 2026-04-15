@@ -1,4 +1,4 @@
-# System Prompt: session-ingress-token
+# System Reminder: session-ingress-token
 
 - Source: inline
 
