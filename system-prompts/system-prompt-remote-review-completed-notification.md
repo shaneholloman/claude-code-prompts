@@ -1,10 +1,17 @@
-# System Prompt: remote-review-completed-notification
+# System Data Block: remote-review-notification
 
 - Source: inline
 
 ## Summary
 
 Notification for completed remote review task.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 <task-notification>
