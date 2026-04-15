@@ -1,10 +1,19 @@
-# Tool Prompt: schedule-recurring-reminders-2
+# Tool Description: schedule-recurring-reminders-2
 
 - Name: CronCreate
 
 ## Summary
 
 Set up one-time or recurring reminders.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 Schedule a prompt to be enqueued at a future time. Use for both recurring schedules and one-shot reminders.
