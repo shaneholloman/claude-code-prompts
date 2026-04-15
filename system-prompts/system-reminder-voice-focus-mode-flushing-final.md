@@ -1,4 +1,4 @@
-# System Prompt: voice-focus-mode-flushing-final
+# System Reminder: voice-focus-mode-flushing-final
 
 - Source: inline
 
