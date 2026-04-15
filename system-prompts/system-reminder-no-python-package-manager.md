@@ -1,4 +1,4 @@
-# System Prompt: no-python-package-manager
+# System Reminder: no-python-package-manager
 
 - Source: inline
 
