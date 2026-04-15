@@ -1,4 +1,4 @@
-# System Prompt: snapshot-from-cli-override
+# System Reminder: snapshot-from-cli-override
 
 - Source: inline
 
