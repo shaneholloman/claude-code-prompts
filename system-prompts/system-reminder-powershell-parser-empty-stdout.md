@@ -1,4 +1,4 @@
-# System Prompt: powershell-parser-empty-stdout
+# System Reminder: powershell-parser-empty-stdout
 
 - Source: inline
 
