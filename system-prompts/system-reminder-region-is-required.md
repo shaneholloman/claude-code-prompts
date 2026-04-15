@@ -1,4 +1,4 @@
-# System Prompt: region-is-required
+# System Reminder: region-is-required
 
 - Source: inline
 
