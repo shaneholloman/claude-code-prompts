@@ -1,4 +1,4 @@
-# System Prompt: no-teammate-context-set
+# System Reminder: no-teammate-context-set
 
 - Source: inline
 
