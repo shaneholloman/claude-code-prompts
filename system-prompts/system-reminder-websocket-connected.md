@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-websocket-connected
+# System Reminder: voice-stream-websocket-connected
 
 - Source: inline
 
