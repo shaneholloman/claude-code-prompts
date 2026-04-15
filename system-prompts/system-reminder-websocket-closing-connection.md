@@ -1,4 +1,4 @@
-# System Prompt: websocket-closing-connection
+# System Reminder: websocket-closing-connection
 
 - Source: inline
 
