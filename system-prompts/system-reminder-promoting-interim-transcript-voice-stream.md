@@ -1,4 +1,4 @@
-# System Prompt: promoting-unreported-interim-transcript
+# System Reminder: promoting-unreported-interim-transcript
 
 - Source: inline
 
