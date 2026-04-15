@@ -1,4 +1,4 @@
-# System Prompt: hooks-error-anthropic
+# System Reminder: hooks-error-anthropic
 
 - Source: inline
 
