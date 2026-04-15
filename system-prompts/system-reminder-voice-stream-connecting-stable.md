@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-connecting-stable
+# System Reminder: voice-stream-connecting-stable
 
 - Source: inline
 
