@@ -1,4 +1,4 @@
-# System Prompt: update-guardrail-request-amazon-bedrock
+# System Data Block: bedrock-update-guardrail-request-fields
 
 - Source: inline
 
