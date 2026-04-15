@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-close-finalize
+# System Reminder: voice-stream-close-finalize
 
 - Source: inline
 
