@@ -1,4 +1,4 @@
-# System Prompt: skip-watcher-customization-disabled
+# System Reminder: skip-watcher-customization-disabled
 
 - Source: inline
 
