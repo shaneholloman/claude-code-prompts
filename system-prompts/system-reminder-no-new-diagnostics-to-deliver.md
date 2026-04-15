@@ -1,4 +1,4 @@
-# System Prompt: no-new-diagnostics-to-deliver
+# System Reminder: no-new-diagnostics-to-deliver
 
 - Source: inline
 
