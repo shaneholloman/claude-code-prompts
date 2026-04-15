@@ -1,10 +1,17 @@
-# System Prompt: powershell-process-ancestor-pids
+# System Reminder: powershell-process-ancestor-pids
 
 - Source: inline
 
 ## Summary
 
 Walk up parent process IDs to build and output a comma-separated ancestor list.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 $pid = ${EXPR_1}
