@@ -6,6 +6,14 @@
 
 Guide for initializing the Claude API client in TypeScript.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 # Claude API — TypeScript
 
