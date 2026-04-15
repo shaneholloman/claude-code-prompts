@@ -1,4 +1,4 @@
-# System Prompt: update-automated-reasoning-policy
+# System Data Block: update-policy-test-case-request
 
 - Source: inline
 
