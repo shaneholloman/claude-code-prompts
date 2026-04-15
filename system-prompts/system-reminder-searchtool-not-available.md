@@ -1,4 +1,4 @@
-# System Prompt: searchtool-not-available
+# System Reminder: searchtool-not-available
 
 - Source: inline
 
