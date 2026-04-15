@@ -1,4 +1,4 @@
-# System Prompt: plugin-hooks-reloading-settings-change
+# System Reminder: plugin-hooks-reloading-settings-change
 
 - Source: inline
 
