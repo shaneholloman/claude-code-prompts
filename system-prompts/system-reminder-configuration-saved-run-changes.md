@@ -1,4 +1,4 @@
-# System Prompt: configuration-saved-run-changes
+# System Reminder: configuration-saved-run-changes
 
 - Source: inline
 
