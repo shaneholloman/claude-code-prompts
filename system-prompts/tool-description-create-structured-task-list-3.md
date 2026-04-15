@@ -1,10 +1,17 @@
-# Tool Prompt: create-structured-task-list-3
+# Tool Description: create-structured-task-list-3
 
 - Name: TaskCreate
 
 ## Summary
 
 Tool for organizing multi-step tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Use this tool to create a structured task list for your current coding session. This helps you track progress, organize complex tasks, and demonstrate thoroughness to the user.
