@@ -1,4 +1,4 @@
-# System Prompt: headless-plugin-install-marketplaces
+# System Reminder: headless-plugin-install-marketplaces
 
 - Source: inline
 
