@@ -1,4 +1,4 @@
-# Tool Prompt: guided-tour-tooltip-user-actions
+# Tool Description: guided-tour-tooltip-user-actions
 
 - Name: teach_step
 
