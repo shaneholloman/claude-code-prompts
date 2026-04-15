@@ -1,4 +1,4 @@
-# System Prompt: tab-character-error
+# System Reminder: tab-character-error
 
 - Source: inline
 
