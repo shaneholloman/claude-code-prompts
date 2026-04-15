@@ -1,4 +1,4 @@
-# System Prompt: install-already-up-to-date
+# System Reminder: install-already-up-to-date
 
 - Source: inline
 
