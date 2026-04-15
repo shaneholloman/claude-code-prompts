@@ -1,4 +1,4 @@
-# System Prompt: stale-connection-econnreset
+# System Reminder: stale-connection-econnreset
 
 - Source: inline
 
