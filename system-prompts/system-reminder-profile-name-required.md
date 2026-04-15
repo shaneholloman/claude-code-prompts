@@ -1,4 +1,4 @@
-# System Prompt: profile-name-required
+# System Reminder: profile-name-required
 
 - Source: inline
 
