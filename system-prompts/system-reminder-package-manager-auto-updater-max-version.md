@@ -1,4 +1,4 @@
-# System Prompt: package-manager-auto-updater-max-version
+# System Reminder: package-manager-auto-updater-max-version
 
 - Source: inline
 
