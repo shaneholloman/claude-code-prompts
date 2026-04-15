@@ -1,4 +1,4 @@
-# Tool Prompt: background-process-terminal-read-blocked
+# Tool Description: background-process-terminal-read-blocked
 
 - Name: SIGTTIN
 
