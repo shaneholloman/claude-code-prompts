@@ -1,4 +1,4 @@
-# System Prompt: mirror-stream-json-bridge-repl
+# System Reminder: mirror-stream-json-bridge-repl
 
 - Source: inline
 
