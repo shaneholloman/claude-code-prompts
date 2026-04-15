@@ -1,4 +1,4 @@
-# Tool Prompt: fill-form-elements
+# Tool Description: fill-form-elements
 
 - Name: form_input
 
