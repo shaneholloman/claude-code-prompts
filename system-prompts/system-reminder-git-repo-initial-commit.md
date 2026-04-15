@@ -1,4 +1,4 @@
-# System Prompt: git-repo-initial-commit
+# System Reminder: git-repo-initial-commit
 
 - Source: inline
 
