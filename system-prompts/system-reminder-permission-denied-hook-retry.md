@@ -1,4 +1,4 @@
-# System Prompt: permission-denied-hook-retry
+# System Reminder: permission-denied-hook-retry
 
 - Source: inline
 
