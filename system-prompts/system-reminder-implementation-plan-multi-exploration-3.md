@@ -1,4 +1,4 @@
-# System Prompt: implementation-plan-multi-exploration-3
+# System Reminder: implementation-plan-multi-exploration-3
 
 - Source: inline
 
