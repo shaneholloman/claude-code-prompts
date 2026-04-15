@@ -1,4 +1,4 @@
-# System Prompt: read-mailbox-missing-file
+# System Reminder: read-mailbox-missing-file
 
 - Source: inline
 
