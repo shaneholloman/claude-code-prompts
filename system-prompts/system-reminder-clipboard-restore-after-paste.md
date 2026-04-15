@@ -1,4 +1,4 @@
-# System Prompt: clipboard-restore-after-paste
+# System Reminder: clipboard-restore-after-paste
 
 - Source: inline
 
