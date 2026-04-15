@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-sse-jwt-refresh
+# System Reminder: remote-bridge-sse-jwt-refresh
 
 - Source: inline
 
