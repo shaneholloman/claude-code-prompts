@@ -1,4 +1,4 @@
-# System Prompt: xtversion-terminal-query-ignored
+# System Reminder: xtversion-terminal-query-ignored
 
 - Source: inline
 
