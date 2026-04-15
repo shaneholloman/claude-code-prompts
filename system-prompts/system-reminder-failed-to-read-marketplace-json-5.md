@@ -1,4 +1,4 @@
-# System Prompt: failed-to-read-marketplace-json-5
+# System Reminder: failed-to-read-marketplace-json-5
 
 - Source: inline
 
