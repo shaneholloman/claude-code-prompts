@@ -1,4 +1,4 @@
-# System Prompt: using-stale-cache-after-error
+# System Reminder: using-stale-cache-after-error
 
 - Source: inline
 
