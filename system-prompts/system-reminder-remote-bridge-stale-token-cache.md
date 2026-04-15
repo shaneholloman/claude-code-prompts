@@ -1,4 +1,4 @@
-# System Prompt: remote-bridge-stale-token-cache
+# System Reminder: remote-bridge-stale-token-cache
 
 - Source: inline
 
