@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-control-response-error-4
+# System Reminder: bridge-repl-control-response-error-4
 
 - Source: inline
 
