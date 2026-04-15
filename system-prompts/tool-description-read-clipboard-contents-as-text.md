@@ -1,4 +1,4 @@
-# Tool Prompt: read-clipboard-contents-as-text
+# Tool Description: read-clipboard-contents-as-text
 
 - Name: read_clipboard
 
