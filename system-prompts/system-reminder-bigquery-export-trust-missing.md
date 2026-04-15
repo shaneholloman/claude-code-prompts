@@ -1,4 +1,4 @@
-# System Prompt: bigquery-export-trust-missing
+# System Reminder: bigquery-export-trust-missing
 
 - Source: inline
 
