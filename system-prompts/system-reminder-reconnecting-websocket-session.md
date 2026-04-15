@@ -1,4 +1,4 @@
-# System Prompt: reconnecting-websocket-session
+# System Reminder: reconnecting-websocket-session
 
 - Source: inline
 
