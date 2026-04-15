@@ -1,4 +1,4 @@
-# System Prompt: ignore-unknown-message-type
+# System Reminder: ignore-unknown-message-type
 
 - Source: inline
 
