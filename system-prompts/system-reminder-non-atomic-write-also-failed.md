@@ -1,4 +1,4 @@
-# System Prompt: non-atomic-write-also-failed
+# System Reminder: non-atomic-write-also-failed
 
 - Source: inline
 
