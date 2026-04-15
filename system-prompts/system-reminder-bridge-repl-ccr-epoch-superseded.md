@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-ccr-epoch-superseded
+# System Reminder: bridge-repl-ccr-epoch-superseded
 
 - Source: inline
 
