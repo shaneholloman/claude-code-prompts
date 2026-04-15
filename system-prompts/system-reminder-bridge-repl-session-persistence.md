@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-session-persistence
+# System Reminder: bridge-repl-session-persistence
 
 - Source: inline
 
