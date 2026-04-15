@@ -1,4 +1,4 @@
-# System Prompt: skipping-hook-condition-off
+# System Reminder: skipping-hook-condition-off
 
 - Source: inline
 
