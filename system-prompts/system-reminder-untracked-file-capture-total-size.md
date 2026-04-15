@@ -1,4 +1,4 @@
-# System Prompt: untracked-file-capture-limit
+# System Reminder: untracked-file-capture-limit
 
 - Source: inline
 
