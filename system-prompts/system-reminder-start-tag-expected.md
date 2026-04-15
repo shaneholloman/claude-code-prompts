@@ -1,4 +1,4 @@
-# System Prompt: start-tag-expected
+# System Reminder: start-tag-expected
 
 - Source: inline
 
