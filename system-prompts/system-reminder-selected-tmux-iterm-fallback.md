@@ -1,4 +1,4 @@
-# System Prompt: selected-tmux-iterm-fallback
+# System Reminder: selected-tmux-iterm-fallback
 
 - Source: inline
 
