@@ -1,4 +1,4 @@
-# System Prompt: skip-oauth-token
+# System Reminder: skip-oauth-token
 
 - Source: inline
 
