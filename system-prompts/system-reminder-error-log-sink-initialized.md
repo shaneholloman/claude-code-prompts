@@ -1,4 +1,4 @@
-# System Prompt: error-log-sink-initialized
+# System Reminder: error-log-sink-initialized
 
 - Source: inline
 
