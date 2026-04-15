@@ -1,4 +1,4 @@
-# System Prompt: transcript-shared-successfully
+# System Reminder: transcript-shared-successfully
 
 - Source: inline
 
