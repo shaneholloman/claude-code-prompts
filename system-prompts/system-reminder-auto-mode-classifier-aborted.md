@@ -1,4 +1,4 @@
-# System Prompt: auto-mode-classifier-aborted
+# System Reminder: auto-mode-classifier-aborted
 
 - Source: inline
 
