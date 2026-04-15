@@ -1,4 +1,4 @@
-# System Prompt: heapdump-global-written
+# System Reminder: heapdump-global-written
 
 - Source: inline
 
