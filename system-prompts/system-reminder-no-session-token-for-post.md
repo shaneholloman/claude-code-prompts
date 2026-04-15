@@ -1,4 +1,4 @@
-# System Prompt: no-session-token-for-post
+# System Reminder: no-session-token-for-post
 
 - Source: inline
 
