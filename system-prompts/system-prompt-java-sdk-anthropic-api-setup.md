@@ -1,10 +1,16 @@
-# System Prompt: java-sdk-anthropic-api-setup
+# System Data Block: anthropic-com-import-builder
 
 - Source: inline
 
 ## Summary
 
 Instructions for setting up the Java SDK for Claude API.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
 
 # Raw Prompt Text
 # Claude API — Java
