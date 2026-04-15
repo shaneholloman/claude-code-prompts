@@ -1,4 +1,4 @@
-# System Prompt: startup-loading-commands-agents
+# System Reminder: startup-loading-commands-agents
 
 - Source: inline
 
