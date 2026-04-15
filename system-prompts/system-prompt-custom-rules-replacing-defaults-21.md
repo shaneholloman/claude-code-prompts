@@ -1,10 +1,22 @@
-# System Prompt: custom-rules-replacing-defaults-21
+# System Data Block: invalid-messageactions-binding
 
 - Source: inline
 
 ## Summary
 
 Invalid messageActions binding for custom rules.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 Invalid messageActions binding "${EXPR_1}" for "## allow (custom rules replacing defaults)
