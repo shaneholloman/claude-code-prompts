@@ -1,4 +1,4 @@
-# Tool Prompt: ctrl-c-user-interruption
+# Tool Description: ctrl-c-user-interruption
 
 - Name: SIGINT
 
