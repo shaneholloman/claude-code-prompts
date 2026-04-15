@@ -1,4 +1,4 @@
-# System Prompt: remote-keep-alive-sent
+# System Reminder: remote-keep-alive-sent
 
 - Source: inline
 
