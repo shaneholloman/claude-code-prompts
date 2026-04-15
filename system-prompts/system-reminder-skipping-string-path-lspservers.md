@@ -1,4 +1,4 @@
-# System Prompt: skipping-string-path-lspservers
+# System Reminder: skipping-string-path-lspservers
 
 - Source: inline
 
