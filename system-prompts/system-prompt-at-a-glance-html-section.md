@@ -6,6 +6,15 @@
 
 At-a-glance HTML dashboard with four linked sections summarizing wins, friction, quick wins, horizons.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
 # Raw Prompt Text
 <div class="at-a-glance">
       <div class="glance-title">At a Glance<${PATH}>
