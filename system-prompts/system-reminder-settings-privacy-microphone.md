@@ -1,4 +1,4 @@
-# System Prompt: settings-privacy-microphone
+# System Reminder: settings-privacy-microphone
 
 - Source: inline
 
