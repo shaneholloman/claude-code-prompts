@@ -1,4 +1,4 @@
-# System Prompt: voice-ignoring-stale-onerror-3
+# System Reminder: voice-ignoring-stale-onerror-3
 
 - Source: inline
 
