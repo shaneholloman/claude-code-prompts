@@ -1,4 +1,4 @@
-# System Prompt: bare-skipping-dir-discovery
+# System Reminder: bare-skipping-dir-discovery
 
 - Source: inline
 
