@@ -1,4 +1,4 @@
-# System Prompt: background-async-hook-process
+# System Reminder: background-async-hook-process
 
 - Source: inline
 
