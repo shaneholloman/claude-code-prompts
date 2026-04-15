@@ -1,4 +1,4 @@
-# System Prompt: check-npm-latest-version
+# System Reminder: check-npm-latest-version
 
 - Source: inline
 
