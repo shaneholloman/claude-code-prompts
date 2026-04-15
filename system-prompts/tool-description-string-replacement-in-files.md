@@ -1,10 +1,18 @@
-# Tool Prompt: string-replacement-in-files
+# Tool Description: string-replacement-in-files
 
 - Name: Edit
 
 ## Summary
 
 Performs exact string replacements in existing files.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Performs exact string replacements in files.
