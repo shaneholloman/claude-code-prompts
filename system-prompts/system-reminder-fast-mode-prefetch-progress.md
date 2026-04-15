@@ -1,4 +1,4 @@
-# System Prompt: fast-mode-prefetch-progress
+# System Reminder: fast-mode-prefetch-progress
 
 - Source: inline
 
