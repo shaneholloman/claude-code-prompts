@@ -1,4 +1,4 @@
-# System Prompt: user-permission-calls-3
+# System Reminder: user-permission-calls-3
 
 - Source: inline
 
