@@ -1,4 +1,4 @@
-# System Prompt: preference-saved-change
+# System Reminder: preference-saved-change
 
 - Source: inline
 
