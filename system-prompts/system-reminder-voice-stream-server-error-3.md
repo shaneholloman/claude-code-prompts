@@ -1,4 +1,4 @@
-# System Prompt: voice-stream-server-error-3
+# System Reminder: voice-stream-server-error-3
 
 - Source: inline
 
