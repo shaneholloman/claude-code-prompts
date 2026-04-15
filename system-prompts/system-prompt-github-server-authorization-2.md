@@ -6,6 +6,15 @@
 
 Guide user to authorize the MCP server via URL.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
 # Raw Prompt Text
 Ask the user to open this URL in their browser to authorize the ${EXPR_1} MCP server:
 
