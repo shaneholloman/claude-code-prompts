@@ -1,4 +1,4 @@
-# System Prompt: no-repo-empty-sandbox
+# System Reminder: no-repo-empty-sandbox
 
 - Source: inline
 
