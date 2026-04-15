@@ -1,10 +1,16 @@
-# System Prompt: toolsearch-schemas-calling
+# System Reminder: toolsearch-schemas-calling
 
 - Source: inline
 
 ## Summary
 
 Use ToolSearch to load tool schemas before calling.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 The following deferred tools are now available via ToolSearch. Their schemas are NOT loaded — calling them directly will fail with InputValidationError. Use ToolSearch with query "select:<name>[,<name>...]" to load tool schemas before calling them:
