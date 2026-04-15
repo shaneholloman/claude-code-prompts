@@ -6,6 +6,13 @@
 
 Orchestrate a large change across the codebase.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | Skill | None |
+
 # Raw Prompt Text
 # Batch: Parallel Work Orchestration
 
@@ -59,7 +66,7 @@ For each agent, the prompt must be fully self-contained. Include:
 
 ```
 After you finish implementing the change:
-${NUM}. **Simplify** — Invoke the `${EXPR_2}` tool with `skill: "simplify"` to review and clean up your changes.
+${NUM}. **Simplify** — Invoke the `${EXPR_2: 'Skill'}` tool with `skill: "simplify"` to review and clean up your changes.
 ${NUM}. **Run unit tests** — Run the project's test suite (check for package.json scripts, Makefile targets, or common commands like `npm test`, `bun test`, `pytest`, `go test`). If tests fail, fix them.
 ${NUM}. **Test end-to-end** — Follow the e2e test recipe from the coordinator's prompt (below). If the recipe says to skip e2e for this unit, skip it.
 ${NUM}. **Commit and push** — Commit all changes with a clear message, push the branch, and create a PR with `gh pr create`. Use a descriptive title. If `gh` is not available or the push fails, note it in your final message.
