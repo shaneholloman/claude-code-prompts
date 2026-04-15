@@ -858,12 +858,14 @@
 - `awaySummaryEnabled`
 - `awsAuthRefresh`
 - `awsCredentialExport`
+- `Ax`
 - `backendType`
 - `background`
 - `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
 - `bashCount`
+- `bE`
 - `behavior`
 - `betas`
 - `billing_note`
@@ -1098,7 +1100,6 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
-- `IE`
 - `if`
 - `ignoreViolations`
 - `image`
@@ -1614,7 +1615,6 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
-- `zx`
 
 ## Tools
 
