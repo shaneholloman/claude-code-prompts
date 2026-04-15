@@ -6,6 +6,13 @@
 
 Instructions for saving memories in files.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `memory_name` | None | None |
+| `user_feedback_project` | None | None |
+
 # Raw Prompt Text
 ## How to save memories
 
