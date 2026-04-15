@@ -1,4 +1,4 @@
-# Tool Prompt: present-plan-for-approval
+# Tool Description: present-plan-for-approval
 
 - Name: update_plan
 
