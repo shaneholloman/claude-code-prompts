@@ -1,10 +1,18 @@
-# Tool Prompt: change-settings
+# Tool Description: change-settings
 
 - Name: Config
 
 ## Summary
 
 View or modify configuration settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Get or set Claude Code configuration settings.
