@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-gate-tengu-sessions
+# System Reminder: trusted-device-gate-tengu-sessions
 
 - Source: inline
 
