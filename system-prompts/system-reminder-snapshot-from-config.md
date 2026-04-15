@@ -1,4 +1,4 @@
-# System Prompt: snapshot-from-config
+# System Reminder: snapshot-from-config
 
 - Source: inline
 
