@@ -1,4 +1,4 @@
-# System Prompt: status-line-command-skipped
+# System Reminder: status-line-command-skipped
 
 - Source: inline
 
