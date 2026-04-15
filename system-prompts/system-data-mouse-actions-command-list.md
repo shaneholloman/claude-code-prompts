@@ -1,4 +1,4 @@
-# System Prompt: mouse-click-actions
+# System Data Block: mouse-actions-command-list
 
 - Source: inline
 
