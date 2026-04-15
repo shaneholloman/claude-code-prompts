@@ -1,4 +1,4 @@
-# System Prompt: perform-startup-checks-seed-marketplaces
+# System Reminder: perform-startup-checks-seed-marketplaces
 
 - Source: inline
 
