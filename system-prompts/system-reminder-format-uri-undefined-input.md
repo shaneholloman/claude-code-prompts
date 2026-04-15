@@ -1,4 +1,4 @@
-# System Prompt: format-uri-undefined-input
+# System Reminder: format-uri-undefined-input
 
 - Source: inline
 
