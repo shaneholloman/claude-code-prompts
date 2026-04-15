@@ -1,4 +1,4 @@
-# System Prompt: grove-no-cache-background-config
+# System Reminder: grove-no-cache-background-config
 
 - Source: inline
 
