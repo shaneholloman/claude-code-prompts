@@ -1,4 +1,4 @@
-# System Prompt: autonomous-cron-expression-scheduling-2
+# System Prompt: autonomous-cron-expression-scheduling
 
 - Source: inline
 
