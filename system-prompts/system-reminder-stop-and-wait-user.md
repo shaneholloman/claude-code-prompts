@@ -1,4 +1,4 @@
-# System Prompt: stop-and-wait-user
+# System Reminder: stop-and-wait-user
 
 - Source: inline
 
