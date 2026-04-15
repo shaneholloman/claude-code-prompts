@@ -6,6 +6,17 @@
 
 Summary of user interactions and improvement suggestions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | @anthropic-ai/claude-code | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
 # Raw Prompt Text
 You're writing an "At a Glance" summary for a Claude Code usage insights report for Claude Code users. The goal is to help them understand their usage and improve how they can use Claude better, especially as models improve.
 
@@ -30,7 +41,7 @@ RESPOND WITH ONLY A VALID JSON OBJECT:
 }
 
 SESSION DATA:
-npm view ${EXPR_1}@${EXPR_2} version
+npm view ${EXPR_1: '@anthropic-ai/claude-code'}@${EXPR_2} version
 
 ## Project Areas (what user works on)
 global
