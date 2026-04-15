@@ -1,10 +1,16 @@
-# Tool Prompt: plan-approach-signoff
+# Tool Description: plan-approach-signoff
 
 - Name: EnterPlanMode
 
 ## Summary
 
 Tool guidance to propose an implementation plan and get user approval before coding.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Use this tool proactively when you're about to start a non-trivial implementation task. Getting user sign-off on your approach before writing code prevents wasted effort and ensures alignment. This tool transitions you into plan mode where you can explore the codebase and design an implementation approach for user approval.
