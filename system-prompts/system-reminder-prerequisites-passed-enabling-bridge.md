@@ -1,4 +1,4 @@
-# System Prompt: bridge-prerequisites-passed
+# System Reminder: bridge-prerequisites-passed
 
 - Source: inline
 
