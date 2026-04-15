@@ -11,8 +11,8 @@ Manage registered worker session details.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | false | None |
+| `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-[bridge:session] CCR v2: registered worker sessionId=${EXPR_1} epoch=${EXPR_2: false} attempt=${EXPR_3}
+[bridge:session] CCR v2: registered worker sessionId=${EXPR_1} epoch=${EXPR_2} attempt=${EXPR_3}
