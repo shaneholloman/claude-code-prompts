@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-skipped-oauth-api
+# System Reminder: bootstrap-skipped-oauth-api
 
 - Source: inline
 
