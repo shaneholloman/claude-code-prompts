@@ -1,4 +1,4 @@
-# System Prompt: login-success
+# System Reminder: login-success
 
 - Source: inline
 
