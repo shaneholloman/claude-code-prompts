@@ -1,5 +1,6 @@
 # System Prompt: authenticate-account-first
 
+
 ## Summary
 
 User must authenticate with a claude.ai account.
