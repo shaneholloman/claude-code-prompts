@@ -1,4 +1,4 @@
-# System Prompt: bootstrap-skipped-nonessential-traffic
+# System Reminder: bootstrap-skipped-nonessential-traffic
 
 - Source: inline
 
