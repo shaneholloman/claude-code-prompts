@@ -1,4 +1,4 @@
-# System Prompt: failed-clean-staging-directories
+# System Reminder: failed-clean-staging-directories
 
 - Source: inline
 
