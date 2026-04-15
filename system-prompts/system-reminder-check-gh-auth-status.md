@@ -1,4 +1,4 @@
-# System Prompt: check-gh-auth-status
+# System Reminder: check-gh-auth-status
 
 - Source: inline
 
