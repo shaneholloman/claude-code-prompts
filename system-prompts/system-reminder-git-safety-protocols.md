@@ -1,6 +1,25 @@
-# System Prompt: git-safety-protocols
+# System Reminder: git-safety-protocols
 
 - Source: inline
+
+## Summary
+
+Guidelines for safe git operations.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}## Context
@@ -41,8 +60,7 @@ ${NUM}. If a PR already exists for this branch (check the gh pr view output abov
 ```
 gh pr create --title "Short, descriptive title" --body "$(cat <<'EOF'
 ## Summary
-
-Guidelines for safe git operations.
+<${NUM}-${NUM} bullet points>
 
 ## Test plan
 [Bulleted markdown checklist of TODOs for testing the pull request...]${EXPR_9}${EXPR_10}
