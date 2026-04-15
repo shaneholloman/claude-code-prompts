@@ -1,4 +1,4 @@
-# System Prompt: complete-task-fully
+# System Reminder: complete-task-fully
 
 - Source: inline
 
