@@ -1,4 +1,4 @@
-# System Prompt: binomial-normal-multi-inv-logit
+# System Data Block: stan-distributions-list
 
 - Source: inline
 
