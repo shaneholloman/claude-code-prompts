@@ -1,4 +1,4 @@
-# System Prompt: max-turns-reached
+# System Reminder: max-turns-reached
 
 - Source: inline
 
