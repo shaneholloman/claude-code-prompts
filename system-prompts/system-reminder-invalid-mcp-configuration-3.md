@@ -1,4 +1,4 @@
-# System Prompt: invalid-mcp-configuration-3
+# System Reminder: invalid-mcp-configuration-3
 
 - Source: inline
 
