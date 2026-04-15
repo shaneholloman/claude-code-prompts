@@ -1,4 +1,4 @@
-# System Prompt: bridge-repl-hook-init-cancelled-2
+# System Reminder: bridge-repl-hook-init-cancelled-2
 
 - Source: inline
 
