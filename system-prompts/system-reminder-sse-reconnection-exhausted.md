@@ -1,4 +1,4 @@
-# System Prompt: sse-reconnection-exhausted
+# System Reminder: sse-reconnection-exhausted
 
 - Source: inline
 
