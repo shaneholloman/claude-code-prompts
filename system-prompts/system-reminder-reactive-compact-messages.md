@@ -1,4 +1,4 @@
-# System Prompt: reactive-compact-messages
+# System Reminder: reactive-compact-messages
 
 - Source: inline
 
