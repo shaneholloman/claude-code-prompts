@@ -1,4 +1,4 @@
-# System Prompt: no-active-teammates-stop-poll
+# System Reminder: no-active-teammates-stop-poll
 
 - Source: inline
 
