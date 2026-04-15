@@ -1,4 +1,4 @@
-# System Prompt: invalid-mcp-configuration-2
+# System Reminder: invalid-mcp-configuration-2
 
 - Source: inline
 
