@@ -1,4 +1,4 @@
-# System Prompt: handle-orphaned-permission-duplicate-2
+# System Reminder: handle-orphaned-permission-duplicate-2
 
 - Source: inline
 
