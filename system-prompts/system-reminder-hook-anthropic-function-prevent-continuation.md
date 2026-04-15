@@ -1,4 +1,4 @@
-# System Prompt: hook-anthropic-function-prevent-continuation
+# System Reminder: hook-anthropic-function-prevent-continuation
 
 - Source: inline
 
