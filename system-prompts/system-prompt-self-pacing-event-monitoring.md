@@ -6,6 +6,12 @@
 
 Manage task iterations based on events or time.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 The user wants you to self-pace. Decide what makes the next iteration worth running — a passage of time, or an observable event.
 
