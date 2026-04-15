@@ -1,4 +1,4 @@
-# Tool Prompt: analyze-impressive-workflows
+# Tool Description: analyze-impressive-workflows
 
 - Name: what_works
 
