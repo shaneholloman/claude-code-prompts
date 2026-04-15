@@ -1,4 +1,4 @@
-# Tool Prompt: fast-glob-file-matching
+# Tool Description: fast-glob-file-matching
 
 - Name: Glob
 
