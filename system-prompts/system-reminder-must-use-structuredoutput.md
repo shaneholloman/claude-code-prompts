@@ -1,4 +1,4 @@
-# System Prompt: must-use-structuredoutput
+# System Reminder: must-use-structuredoutput
 
 - Source: inline
 
