@@ -1,4 +1,4 @@
-# System Prompt: implicit-keys-flow-pairs-single-line
+# System Reminder: implicit-keys-flow-pairs-single-line
 
 - Source: inline
 
