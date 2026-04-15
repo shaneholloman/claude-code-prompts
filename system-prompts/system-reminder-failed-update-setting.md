@@ -1,4 +1,4 @@
-# System Prompt: failed-update-setting
+# System Reminder: failed-update-setting
 
 - Source: inline
 
