@@ -1,4 +1,4 @@
-# System Prompt: mcp-retry-all-remote-servers
+# System Reminder: mcp-retry-all-remote-servers
 
 - Source: inline
 
