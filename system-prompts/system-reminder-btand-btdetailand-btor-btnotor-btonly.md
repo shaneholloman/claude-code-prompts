@@ -1,4 +1,4 @@
-# System Prompt: btand-btdetailand-btor-btnotor-btonly
+# System Reminder: btand-btdetailand-btor-btnotor-btonly
 
 - Source: inline
 
