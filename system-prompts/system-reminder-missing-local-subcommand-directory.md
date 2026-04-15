@@ -1,4 +1,4 @@
-# System Prompt: missing-local-subcommand-directory
+# System Reminder: missing-local-subcommand-directory
 
 - Source: inline
 
