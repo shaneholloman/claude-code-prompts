@@ -1,4 +1,4 @@
-# Tool Prompt: stack-empty-or-overflowed
+# Tool Description: stack-empty-or-overflowed
 
 - Name: SIGSTKFLT
 
