@@ -1,4 +1,4 @@
-# System Prompt: amazon-bedrock-custom-response
+# System Data Block: bedrock-get-custom-response-fields
 
 - Source: inline
 
