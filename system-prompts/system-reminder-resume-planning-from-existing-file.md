@@ -1,10 +1,17 @@
-# System Prompt: resume-planning-from-existing-file
+# System Reminder: resume-planning-from-existing-file
 
 - Source: inline
 
 ## Summary
 
 Review prior plan at EXPR_1, reconcile with new request, then update or overwrite before EXPR_2.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 ## Re-entering Plan Mode
