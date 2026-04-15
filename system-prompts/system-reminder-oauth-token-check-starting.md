@@ -1,4 +1,4 @@
-# System Prompt: oauth-token-check-starting
+# System Reminder: oauth-token-check-starting
 
 - Source: inline
 
