@@ -1,4 +1,4 @@
-# System Prompt: trusted-device-enrollment-missing-token
+# System Reminder: trusted-device-enrollment-missing-token
 
 - Source: inline
 
