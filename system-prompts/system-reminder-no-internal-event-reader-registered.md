@@ -1,4 +1,4 @@
-# System Prompt: no-internal-event-reader-registered
+# System Reminder: no-internal-event-reader-registered
 
 - Source: inline
 
