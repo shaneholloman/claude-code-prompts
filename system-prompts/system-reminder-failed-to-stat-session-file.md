@@ -1,4 +1,4 @@
-# System Prompt: failed-to-stat-session-file
+# System Reminder: failed-to-stat-session-file
 
 - Source: inline
 
