@@ -1,4 +1,4 @@
-# System Prompt: studio-visual-terminal
+# System Data Block: studio-visual-terminal-iterm
 
 - Source: inline
 
