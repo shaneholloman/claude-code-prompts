@@ -1,4 +1,4 @@
-# System Prompt: presence-terminal-focus-unknown
+# System Reminder: presence-terminal-focus-unknown
 
 - Source: inline
 
