@@ -1,10 +1,16 @@
-# System Prompt: session-filtered-issidechain-true
+# System Reminder: session-filtered-issidechain-true
 
 - Source: inline
 
 ## Summary
 
 Session filtered from path with isSidechain=true.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Session ${EXPR_1} filtered from ${PATH}: isSidechain=true
