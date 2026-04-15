@@ -1,4 +1,4 @@
-# System Prompt: number-sequence-repetition-3
+# System Data Block: repeated-number-placeholders
 
 - Source: inline
 
