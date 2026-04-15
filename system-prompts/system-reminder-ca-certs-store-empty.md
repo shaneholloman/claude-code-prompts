@@ -1,4 +1,4 @@
-# System Prompt: ca-certs-store-empty
+# System Reminder: ca-certs-store-empty
 
 - Source: inline
 
