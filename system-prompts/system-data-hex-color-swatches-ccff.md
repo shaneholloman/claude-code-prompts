@@ -1,4 +1,4 @@
-# System Prompt: color-list
+# System Data Block: hex-color-swatches-ccff
 
 - Source: inline
 
