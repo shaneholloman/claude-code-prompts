@@ -6,7 +6,36 @@
 
 Handles user, group, and role expressions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | false | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
 # Raw Prompt Text
-atUser atGroup atRole ${EXPR_1}apBegin apEnd alLeft alRight ${EXPR_2}cirCommon cirRevoked ctSignature ctEncode ctSignatureEncode clbUnchecked clbChecked clbGrayed ceISB ceAlways ceNever ${EXPR_3}cfInternal cfDisplay ciUnspecified ciWrite ciRead ${EXPR_4}${NUM}${EXPR_5}cltInternal cltPrimary cltGUI ${EXPR_6}dssEdit dssInsert dssBrowse dssInActive dftDate dftShortDate dftDateTime dftTimeStamp dotDays dotHours dotMinutes dotSeconds dtkndLocal dtkndUTC arNone arView arEdit arFull ddaView ddaEdit nullecotFile ecotProcess eaGet eaCopy eaCreate eaCreateStandardRoute edltAll edltNothing edltQuery essmText essmCard esvtLast esvtLastActive esvtSpecified edsfExecutive edsfArchive edstSQLServer edstFile edvstNone edvstEDocumentVersionCopy edvstFile edvstTemplate edvstScannedFile vsDefault vsDesign vsActive vsObsolete etNone etCertificate etPassword etCertificatePassword ecException ecWarning ecInformation estAll estApprovingOnly evtLast evtLastActive evtQuery ${EXPR_7}
+atUser atGroup atRole ${EXPR_1}apBegin apEnd alLeft alRight ${EXPR_2}cirCommon cirRevoked ctSignature ctEncode ctSignatureEncode clbUnchecked clbChecked clbGrayed ceISB ceAlways ceNever ${EXPR_3}cfInternal cfDisplay ciUnspecified ciWrite ciRead ${EXPR_4}${NUM}${EXPR_5: false}cltInternal cltPrimary cltGUI ${EXPR_6}dssEdit dssInsert dssBrowse dssInActive dftDate dftShortDate dftDateTime dftTimeStamp dotDays dotHours dotMinutes dotSeconds dtkndLocal dtkndUTC arNone arView arEdit arFull ddaView ddaEdit nullecotFile ecotProcess eaGet eaCopy eaCreate eaCreateStandardRoute edltAll edltNothing edltQuery essmText essmCard esvtLast esvtLastActive esvtSpecified edsfExecutive edsfArchive edstSQLServer edstFile edvstNone edvstEDocumentVersionCopy edvstFile edvstTemplate edvstScannedFile vsDefault vsDesign vsActive vsObsolete etNone etCertificate etPassword etCertificatePassword ecException ecWarning ecInformation estAll estApprovingOnly evtLast evtLastActive evtQuery ${EXPR_7}
 
 ${EXPR_8}Server status: ${EXPR_9}${EXPR_10}${EXPR_11}mcp__${EXPR_12}__${EXPR_13}30000nullnull${EXPR_14}${EXPR_15}completed${EXPR_16}${EXPR_17}${EXPR_18}${EXPR_19}${EXPR_20}shadowedvtEqual vtGreaterOrEqual vtLessOrEqual vtRange ${EXPR_21}rdWindow rdFile rdPrinter ${EXPR_22}${NUM}${EXPR_23}(${EXPR_24})${EXPR_25}nullstNone stAuthenticating stApproving ${EXPR_26} (sidechain)${EXPR_27}…${NUM} · ${EXPR_28}${EXPR_29}null${EXPR_30}${EXPR_31}${EXPR_32}${EXPR_33}${EXPR_34}${EXPR_35}btAnd btDetailAnd btOr btNotOr btOnly vmView vmSelect vmNavigation vsmSingle vsmMultiple vsmMultipleCheck vsmNoSelection null${EXPR_36}${EXPR_37}${EXPR_38}wfetQueryParameter wfetText wfetDelimiter wfetLabel nullwsrComplete wsrGoNext wsrGoPrevious wsrCustom wsrCancel wsrGoFinal wstForm wstEDocument wstTaskCard wstReferenceRecordCard wstFinal waAll waPerformers waManual wsbStart wsbFinish wsbNotice wsbStep wsbDecision wsbWait wsbMonitor wsbScript wsbConnector wsbSubTask wsbLifeCycleStage wsbPause wdtInteger wdtFloat wdtString wdtPick wdtDateTime wdtBoolean wdtTask wdtJob wdtFolder wdtEDocument wdtReferenceRecord wdtUser wdtGroup wdtRole wdtIntegerCollection wdtFloatCollection wdtStringCollection wdtPickCollection wdtDateTimeCollection wdtBooleanCollection wdtTaskCollection wdtJobCollection wdtFolderCollection wdtEDocumentCollection wdtReferenceRecordCollection wdtUserCollection wdtGroupCollection wdtRoleCollection wdtContents wdtUserList wdtSearchDescription wdtDeadLine wdtPickSet wdtAccountCollection ${EXPR_39}maintenance⚠ ${EXPR_40} ${EXPR_41} ${EXPR_42}. Consider switching to a newer model.wtmFull wtmFromCurrent wtmOnlyCurrent
