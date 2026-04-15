@@ -1,4 +1,4 @@
-# Tool Prompt: move-mouse-cursor-without-clicking
+# Tool Description: move-mouse-cursor-without-clicking
 
 - Name: mouse_move
 
