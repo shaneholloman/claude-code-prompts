@@ -6,6 +6,12 @@
 
 Require all temporary files be written to the session scratchpad directory.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 # Scratchpad Directory
 
