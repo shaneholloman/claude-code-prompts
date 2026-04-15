@@ -1,4 +1,4 @@
-# System Prompt: starting-speculation-stable
+# System Reminder: starting-speculation-stable
 
 - Source: inline
 
