@@ -1,4 +1,4 @@
-# System Prompt: malformed-call
+# System Reminder: malformed-call
 
 - Source: inline
 
