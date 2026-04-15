@@ -1,4 +1,4 @@
-# System Prompt: api-key-required
+# System Reminder: api-key-required
 
 - Source: inline
 
