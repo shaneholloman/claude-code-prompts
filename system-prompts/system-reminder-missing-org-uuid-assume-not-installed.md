@@ -1,4 +1,4 @@
-# System Prompt: missing-org-uuid-assume-not-installed
+# System Reminder: missing-org-uuid-assume-not-installed
 
 - Source: inline
 
