@@ -1,4 +1,4 @@
-# System Prompt: enable-channels-for-org
+# System Reminder: enable-channels-for-org
 
 - Source: inline
 
