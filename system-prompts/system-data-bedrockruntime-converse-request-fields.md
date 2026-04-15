@@ -1,4 +1,4 @@
-# System Prompt: amazon-bedrock-converse-request
+# System Data Block: bedrockruntime-converse-request-fields
 
 - Source: inline
 
@@ -11,7 +11,7 @@ ${NUM}
 
 com.amazonaws.bedrockruntime
 
-ConverseRequest
+ConverseStreamRequest
 
 ${NUM}
 
