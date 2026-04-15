@@ -1,4 +1,4 @@
-# System Prompt: capabilities-fetch-failed
+# System Reminder: capabilities-fetch-failed
 
 - Source: inline
 
