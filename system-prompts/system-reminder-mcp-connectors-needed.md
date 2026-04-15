@@ -1,4 +1,4 @@
-# System Prompt: mcp-connectors-needed
+# System Reminder: mcp-connectors-needed
 
 - Source: inline
 
