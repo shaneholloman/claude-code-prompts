@@ -1,4 +1,4 @@
-# System Prompt: no-pong-connection-dead
+# System Reminder: no-pong-connection-dead
 
 - Source: inline
 
