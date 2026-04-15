@@ -1,4 +1,4 @@
-# System Prompt: missing-notification-handler
+# System Reminder: missing-notification-handler
 
 - Source: inline
 
