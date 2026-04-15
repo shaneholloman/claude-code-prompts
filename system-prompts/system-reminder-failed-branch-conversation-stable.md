@@ -1,4 +1,4 @@
-# System Prompt: failed-branch-conversation-stable
+# System Reminder: failed-branch-conversation-stable
 
 - Source: inline
 
