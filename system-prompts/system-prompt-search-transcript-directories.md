@@ -6,6 +6,13 @@
 
 Search for matching session transcripts in specified directories.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
 # Raw Prompt Text
 Search query: "${EXPR_1}"
 
