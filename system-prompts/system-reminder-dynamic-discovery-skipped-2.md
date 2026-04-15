@@ -1,4 +1,4 @@
-# System Prompt: dynamic-discovery-skipped-2
+# System Reminder: dynamic-discovery-skipped-2
 
 - Source: inline
 
