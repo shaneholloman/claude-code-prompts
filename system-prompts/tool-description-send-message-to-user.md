@@ -1,4 +1,4 @@
-# Tool Prompt: send-message-to-user
+# Tool Description: send-message-to-user
 
 - Name: SendUserMessage
 
