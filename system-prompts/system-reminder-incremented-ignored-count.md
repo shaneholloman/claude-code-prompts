@@ -1,4 +1,4 @@
-# System Prompt: incremented-ignored-count
+# System Reminder: incremented-ignored-count
 
 - Source: inline
 
