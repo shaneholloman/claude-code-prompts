@@ -1,4 +1,4 @@
-# System Prompt: get-changed-files-failed
+# System Reminder: get-changed-files-failed
 
 - Source: inline
 
