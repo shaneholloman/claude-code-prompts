@@ -1,4 +1,4 @@
-# System Prompt: voice-auto-repeat-arming-timer
+# System Reminder: voice-auto-repeat-arming-timer
 
 - Source: inline
 
