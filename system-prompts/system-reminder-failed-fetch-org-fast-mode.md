@@ -1,4 +1,4 @@
-# System Prompt: failed-fetch-org-fast-mode
+# System Reminder: failed-fetch-org-fast-mode
 
 - Source: inline
 
