@@ -1,4 +1,4 @@
-# Tool Prompt: fetch-deferred-tools-schema
+# Tool Description: fetch-deferred-tools-schema
 
 - Name: ToolSearch
 
