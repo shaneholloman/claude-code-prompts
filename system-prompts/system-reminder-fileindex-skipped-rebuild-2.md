@@ -1,4 +1,4 @@
-# System Prompt: fileindex-skipped-rebuild-2
+# System Reminder: fileindex-skipped-rebuild-2
 
 - Source: inline
 
