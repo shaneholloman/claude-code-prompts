@@ -1,4 +1,4 @@
-# System Prompt: wstform-wstedocument-wsttaskcard
+# System Reminder: wstform-wstedocument-wsttaskcard
 
 - Source: inline
 
