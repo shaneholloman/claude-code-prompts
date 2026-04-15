@@ -1,4 +1,4 @@
-# System Prompt: ssetransport-stream-ended-reconnect
+# System Reminder: ssetransport-stream-ended-reconnect
 
 - Source: inline
 
