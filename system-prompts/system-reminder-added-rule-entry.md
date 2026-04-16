@@ -12,9 +12,6 @@ Log that a rule was added, including the type and rule name.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-Added ${EXPR_2} rule ${EXPR_3}
+Added ${EXPR_1} rule ${EXPR_2}
