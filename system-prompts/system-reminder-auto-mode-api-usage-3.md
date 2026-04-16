@@ -18,4 +18,4 @@ Details on API usage in auto mode.
 | `EXPR_6` | None | None |
 
 # Raw Prompt Text
-[auto-mode] API usage: actualInputTokens=  (uncached=${EXPR_1} cacheRead=${EXPR_2} cacheCreate=${EXPR_3}) estimateWas=${EXPR_4} deltaVsMainLoop=${EXPR_5} durationMs=${EXPR_6}
+[auto-mode] API usage: actualInputTokens=${NUM} (uncached=${EXPR_1} cacheRead=${EXPR_2} cacheCreate=${EXPR_3}) estimateWas=${EXPR_4} deltaVsMainLoop=${EXPR_5} durationMs=${EXPR_6}
