@@ -10,7 +10,7 @@ Update available for the package manager.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 2.1.111 | None |
+| `EXPR_1` | 2.1.112 | None |
 
 # Raw Prompt Text
-PackageManagerAutoUpdater: Update available ${EXPR_1: '2.1.111'} -> server
+PackageManagerAutoUpdater: Update available ${EXPR_1: '2.1.112'} -> server
