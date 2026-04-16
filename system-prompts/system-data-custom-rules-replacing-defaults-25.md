@@ -16,25 +16,28 @@ Multiple prompts (2)
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
-aws:cognito-identity-credentials:stable:## allow (custom rules replacing defaults)
+${EXPR_1}/## allow (custom rules replacing defaults)
 Custom:
-${EXPR_1}
+${EXPR_2}
 
 Defaults being replaced:
-${EXPR_2}
+${EXPR_3}
 
 ## soft_deny (custom rules replacing defaults)
 Custom:
-${EXPR_3}
+${EXPR_4}
 
 Defaults being replaced:
-${EXPR_4}
+${EXPR_5}
 
 ## environment (custom rules replacing defaults)
 Custom:
-${EXPR_5}
+${EXPR_6}
 
 Defaults being replaced:
-${EXPR_6}
+${EXPR_7}
+
+${PATH}
