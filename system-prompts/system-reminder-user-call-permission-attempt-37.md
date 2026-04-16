@@ -1,4 +1,4 @@
-# System Reminder: user-call-permission-9
+# System Reminder: user-output-permission
 
 - Source: inline
 
