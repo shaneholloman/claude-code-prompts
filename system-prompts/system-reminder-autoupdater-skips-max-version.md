@@ -14,4 +14,4 @@ Skip autoupdate because current PID version is already at or above maxVersion.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-AutoUpdater: current version  (PID ${EXPR_1}) is already at or above maxVersion ${EXPR_2}, skipping update
+AutoUpdater: current version  (PID ${EXPR_1}) is already at or above maxVersion pr-${EXPR_2}, skipping update
