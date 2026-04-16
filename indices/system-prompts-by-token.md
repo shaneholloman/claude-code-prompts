@@ -1,6 +1,6 @@
 # System Prompts Index – by tokens
 
-- Total prompt files: **4078**
+- Total prompt files: **4097**
 
 ## Categories
 
@@ -8,8 +8,8 @@
 - Tool prompts (121)
 - Agent prompts (5)
 - Skills (1)
-- System data (221)
-- System reminders (3291)
+- System data (232)
+- System reminders (3299)
 
 ## System prompts (439)
 
@@ -69,18 +69,18 @@ _Sorted by tokens (desc)._
 | [`system-prompt-schedule-recurring-interval.md`](../system-prompts/system-prompt-schedule-recurring-interval.md) | Schedule prompts to recur at specified intervals. | 1,580 | 2.1.101 | 2.1.101 |
 | [`system-prompt-schedule-recurring-2.md`](../system-prompts/system-prompt-schedule-recurring-2.md) | Schedule prompts based on specified intervals. | 1,567 | 2.1.101 | 2.1.101 |
 | [`system-prompt-python-message-batches-api.md`](../system-prompts/system-prompt-python-message-batches-api.md) | Python guide for creating and retrieving asynchronous message batches. | 1,538 | 2.1.77 | 2.1.77 |
-| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Guidelines for safely creating git commits. | 1,518 | 2.1.111 | 2.1.111 |
+| [`system-prompt-git-commit-safety-protocol.md`](../system-prompts/system-prompt-git-commit-safety-protocol.md) | Guidelines for safely creating git commits. | 1,518 | 2.1.112 | 2.1.112 |
 | [`system-prompt-nightly-memory-consolidation-job-2.md`](../system-prompts/system-prompt-nightly-memory-consolidation-job-2.md) | Set up a recurring nightly memory consolidation task. | 1,436 | 2.1.98 | 2.1.98 |
 | [`system-prompt-parallel-work-orchestration-plan-2.md`](../system-prompts/system-prompt-parallel-work-orchestration-plan-2.md) | Orchestrate a large change across the codebase. | 1,387 | 2.1.81 | 2.1.81 |
-| [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 1,363 | 2.1.111 | 2.1.111 |
+| [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 1,363 | 2.1.112 | 2.1.112 |
 | [`system-prompt-copy-text-and-toggle-collapsible.md`](../system-prompts/system-prompt-copy-text-and-toggle-collapsible.md) | Functions for toggling visibility and copying text. | 1,359 | 2.1.92 | 2.1.92 |
 | [`system-prompt-files-api-python-upload.md`](../system-prompts/system-prompt-files-api-python-upload.md) | Upload and manage files for API requests. | 1,283 | 2.1.77 | 2.1.77 |
 | [`system-prompt-plan-mode-edit-restrictions.md`](../system-prompts/system-prompt-plan-mode-edit-restrictions.md) | Enforce plan-only mode, allowing only incremental edits to the designated plan file. | 1,266 | 2.1.49 | 2.1.49 |
 | [`system-prompt-mcp-selection-for-apps.md`](../system-prompts/system-prompt-mcp-selection-for-apps.md) | Guidelines for selecting the appropriate MCP tool. | 1,221 | 2.1.89 | 2.1.89 |
 | [`system-prompt-onboarding-guide-for.md`](../system-prompts/system-prompt-onboarding-guide-for.md) | Collaborative guide for new Claude Code users. | 1,194 | 2.1.94 | 2.1.94 |
 | [`system-prompt-memory-consolidation-team-reflection.md`](../system-prompts/system-prompt-memory-consolidation-team-reflection.md) | Organize and synthesize team memories. | 1,168 | 2.1.105 | 2.1.105 |
-| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.111 | 2.1.111 |
-| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.111 | 2.1.111 |
+| [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,139 | 2.1.112 | 2.1.112 |
+| [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Interactive CLI encourages learning by requesting small code contributions and tracking them in todos | 1,137 | 2.1.112 | 2.1.112 |
 | [`system-prompt-parallel-work-orchestration-plan.md`](../system-prompts/system-prompt-parallel-work-orchestration-plan.md) | Orchestrate a large change across the codebase. | 1,122 | 2.1.81 | 2.1.81 |
 | [`system-prompt-autonomous-loop-check.md`](../system-prompts/system-prompt-autonomous-loop-check.md) | Advancing user work while they are occupied. | 1,072 | 2.1.101 | 2.1.101 |
 | [`system-prompt-memory-consolidation-team-files.md`](../system-prompts/system-prompt-memory-consolidation-team-files.md) | Multiple prompts (2) | 1,045 | 2.1.98 | 2.1.98 |
@@ -131,7 +131,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-custom-defaults-rules.md`](../system-prompts/system-prompt-custom-defaults-rules.md) | Custom rules replace default settings in the model. | 426 | 2.1.111 | 2.1.111 |
 | [`system-prompt-file-reading-2.md`](../system-prompts/system-prompt-file-reading-2.md) | Multiple prompts (2) | 426 | 2.1.105 | 2.1.105 |
 | [`system-prompt-plist-xml.md`](../system-prompts/system-prompt-plist-xml.md) | XML structure for Claude Code URL handler. | 408 | 2.1.83 | 2.1.83 |
-| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.111 | 2.1.111 |
+| [`system-prompt-install-github-app.md`](../system-prompts/system-prompt-install-github-app.md) | Explains adding a workflow to enable Claude Code via @claude mentions after merge. | 393 | 2.1.112 | 2.1.112 |
 | [`system-prompt-schedule-nightly-consolidation-job.md`](../system-prompts/system-prompt-schedule-nightly-consolidation-job.md) | Set up a recurring nightly memory consolidation task. | 392 | 2.1.108 | 2.1.108 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 381 | 1.0.112 | 1.0.112 |
 | [`system-prompt-saving-memories-guide-7.md`](../system-prompts/system-prompt-saving-memories-guide-7.md) | Steps for effectively saving memories. | 375 | 2.1.92 | 2.1.92 |
@@ -140,7 +140,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-webfetch-auth-url-warning.md`](../system-prompts/system-prompt-webfetch-auth-url-warning.md) | Warns WebFetch fails on authenticated URLs and suggests using an authenticated tool. | 361 | 2.1.77 | 2.1.77 |
 | [`system-prompt-remote-control-sessions.md`](../system-prompts/system-prompt-remote-control-sessions.md) | Control local sessions remotely with Claude. | 353 | 2.1.92 | 2.1.92 |
 | [`system-prompt-saving-memories-in-steps.md`](../system-prompts/system-prompt-saving-memories-in-steps.md) | A guide for saving memories in a structured format. | 347 | 2.1.83 | 2.1.83 |
-| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.111 | 2.1.111 |
+| [`system-prompt-md-features-section-html.md`](../system-prompts/system-prompt-md-features-section-html.md) | HTML for features and patterns sections with copy actions and injected content blocks. | 345 | 2.1.112 | 2.1.112 |
 | [`system-prompt-feature-add-task.md`](../system-prompts/system-prompt-feature-add-task.md) | Guidelines for adding code features. | 340 | 2.1.111 | 2.1.111 |
 | [`system-prompt-loop-tick-check-schedulewakeup.md`](../system-prompts/system-prompt-loop-tick-check-schedulewakeup.md) | Loop management and scheduling. | 330 | 2.1.110 | 2.1.110 |
 | [`system-prompt-autonomous-loop-tick-3.md`](../system-prompts/system-prompt-autonomous-loop-tick-3.md) | Autonomous loop tick for dynamic pacing. | 325 | 2.1.110 | 2.1.110 |
@@ -284,7 +284,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-custom-rules-replacing-defaults-23.md`](../system-prompts/system-prompt-custom-rules-replacing-defaults-23.md) | Invalid action for custom rules replacing defaults. | 109 | 2.1.108 | 2.1.108 |
 | [`system-prompt-custom-rules-replacing-defaults-45.md`](../system-prompts/system-prompt-custom-rules-replacing-defaults-45.md) | Configuring custom rules to replace defaults. | 109 | 2.1.108 | 2.1.108 |
 | [`system-prompt-custom-rules-replacing-defaults-59.md`](../system-prompts/system-prompt-custom-rules-replacing-defaults-59.md) | Defines custom rules to replace default settings. | 109 | 2.1.108 | 2.1.108 |
-| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.111 | 2.1.111 |
+| [`system-prompt-azure-workload-identity-error.md`](../system-prompts/system-prompt-azure-workload-identity-error.md) | Explains missing Azure workload identity parameters and required environment variables with a troubleshooting link. | 108 | 2.1.112 | 2.1.112 |
 | [`system-prompt-custom-rules-replacing-defaults-50.md`](../system-prompts/system-prompt-custom-rules-replacing-defaults-50.md) | Custom rules override default settings. | 108 | 2.1.108 | 2.1.108 |
 | [`system-prompt-custom-rules-replacing-defaults-77.md`](../system-prompts/system-prompt-custom-rules-replacing-defaults-77.md) | Defines custom rules that override default settings. | 108 | 2.1.108 | 2.1.108 |
 | [`system-prompt-write-short-summary-label.md`](../system-prompts/system-prompt-write-short-summary-label.md) | Crafted concise labels for tool call achievements. | 108 | 2.1.79 | 2.1.79 |
@@ -317,7 +317,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-debug-logging-enabled.md`](../system-prompts/system-prompt-debug-logging-enabled.md) | Debug logging is now active for issue reproduction. | 88 | 2.1.77 | 2.1.77 |
 | [`system-prompt-enterprise-config-scope-managed-2.md`](../system-prompts/system-prompt-enterprise-config-scope-managed-2.md) | Defines enterprise configuration scope for organizations. | 88 | 2.1.105 | 2.1.105 |
 | [`system-prompt-remote-review-completed-notification.md`](../system-prompts/system-prompt-remote-review-completed-notification.md) | Notification for completed remote review task. | 88 | 2.1.81 | 2.1.81 |
-| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.111 | 2.1.111 |
+| [`system-prompt-azure-pipelines-federated-identity-error.md`](../system-prompts/system-prompt-azure-pipelines-federated-identity-error.md) | Reports missing parameters needed for Azure Pipelines federated identity auth. | 87 | 2.1.112 | 2.1.112 |
 | [`system-prompt-fix-running-issues-help.md`](../system-prompts/system-prompt-fix-running-issues-help.md) | Assist with reported issues and confirm fixes before execution. | 87 | 2.1.105 | 2.1.105 |
 | [`system-prompt-json-action-response-exit.md`](../system-prompts/system-prompt-json-action-response-exit.md) | Handles JSON commands with specific actions and responses. | 87 | 2.1.77 | 2.1.77 |
 | [`system-prompt-memory-name-feedback.md`](../system-prompts/system-prompt-memory-name-feedback.md) | Template for memory management with user feedback. | 86 | 2.1.108 | 2.1.108 |
@@ -337,21 +337,21 @@ _Sorted by tokens (desc)._
 | [`system-prompt-search-transcript-directories.md`](../system-prompts/system-prompt-search-transcript-directories.md) | Search for matching session transcripts in specified directories. | 79 | 2.1.94 | 2.1.94 |
 | [`system-prompt-send-message-usage.md`](../system-prompts/system-prompt-send-message-usage.md) | Instructions for sending a message to an agent. | 78 | 2.1.77 | 2.1.77 |
 | [`system-prompt-usage-section-html-snippet.md`](../system-prompts/system-prompt-usage-section-html-snippet.md) | HTML usage section narrative with injected text and key-insight pattern markup placeholders | 78 | 2.1.30 | 2.1.30 |
-| [`system-prompt-autonomous-cron-expression-scheduling-4.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-4.md) | Details on scheduled tasks and their auto-expiration. | 77 | 2.1.109 | 2.1.109 |
+| [`system-prompt-autonomous-cron-expression-scheduling-5.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-5.md) | Details on scheduled tasks and their auto-expiration. | 77 | 2.1.109 | 2.1.109 |
 | [`system-prompt-executable-command-issues.md`](../system-prompts/system-prompt-executable-command-issues.md) | Guidance on handling executable command errors. | 76 | 2.1.92 | 2.1.92 |
 | [`system-prompt-loop-tasks-dynamic-pacing.md`](../system-prompts/system-prompt-loop-tasks-dynamic-pacing.md) | Execute tasks with dynamic pacing for the user. | 75 | 2.1.101 | 2.1.101 |
 | [`system-prompt-tick-tasks-user-configured-loop.md`](../system-prompts/system-prompt-tick-tasks-user-configured-loop.md) | Instructions for executing configured tasks in a loop. | 75 | 2.1.101 | 2.1.101 |
 | [`system-prompt-continue-npm-view-version-conversation.md`](../system-prompts/system-prompt-continue-npm-view-version-conversation.md) | Resume the conversation without interruptions. | 74 | 2.1.92 | 2.1.92 |
 | [`system-prompt-task-exit-handling.md`](../system-prompts/system-prompt-task-exit-handling.md) | Multiple prompts (2) | 74 | 2.1.109 | 2.1.109 |
-| [`system-prompt-autonomous-cron-expression-scheduling-3.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-3.md) | Details on scheduled tasks and their auto-expiration. | 73 | 2.1.109 | 2.1.109 |
+| [`system-prompt-autonomous-cron-expression-scheduling-4.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-4.md) | Details on scheduled tasks and their auto-expiration. | 73 | 2.1.109 | 2.1.109 |
 | [`system-prompt-list-mcp-server-resources.md`](../system-prompts/system-prompt-list-mcp-server-resources.md) | Lists available resources across MCP servers with optional server filtering. | 73 | 1.0.22 | 1.0.22 |
 | [`system-prompt-pause-and-wait-for-user.md`](../system-prompts/system-prompt-pause-and-wait-for-user.md) | Stop current work and wait for user instructions, noting any corrections. | 73 | 2.1.49 | 2.1.49 |
 | [`system-prompt-read-mcp-server-resource.md`](../system-prompts/system-prompt-read-mcp-server-resource.md) | Reads a resource from an MCP server by server name and URI. | 73 | 1.0.22 | 1.0.22 |
 | [`system-prompt-settings-change-user.md`](../system-prompts/system-prompt-settings-change-user.md) | Input for changing user settings in the session. | 73 | 2.1.49 | 2.1.49 |
-| [`system-prompt-autonomous-cron-expression-scheduling-5.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-5.md) | Details on scheduled tasks and their auto-expiration. | 72 | 2.1.109 | 2.1.109 |
+| [`system-prompt-autonomous-cron-expression-scheduling-6.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-6.md) | Details on scheduled tasks and their auto-expiration. | 72 | 2.1.109 | 2.1.109 |
 | [`system-prompt-remote-launched-ccr.md`](../system-prompts/system-prompt-remote-launched-ccr.md) | A remote agent has been launched in CCR. | 72 | 2.1.77 | 2.1.77 |
 | [`system-prompt-handle-subagent-exit-codes.md`](../system-prompts/system-prompt-handle-subagent-exit-codes.md) | Routes stdout and stderr visibility based on subagent exit codes from a JSON command input. | 71 | 2.1.26 | 2.1.26 |
-| [`system-prompt-autonomous-cron-expression-scheduling.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling.md) | Multiple prompts (5) | 70 | 2.1.105 | 2.1.105 |
+| [`system-prompt-autonomous-cron-expression-scheduling-3.md`](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-3.md) | Multiple prompts (2) | 70 | 2.1.112 | 2.1.112 |
 | [`system-prompt-shadow-bq-label-query-jobs.md`](../system-prompts/system-prompt-shadow-bq-label-query-jobs.md) | Echoes a command to label query jobs. | 70 | 2.1.108 | 2.1.108 |
 | [`system-prompt-exit-transcript-rules.md`](../system-prompts/system-prompt-exit-transcript-rules.md) | Specifies how stdout and stderr are displayed for tool call inputs and responses by exit code. | 69 | 2.0.41 | 2.0.41 |
 | [`system-prompt-handle-truncated-output.md`](../system-prompts/system-prompt-handle-truncated-output.md) | Handle MCP output truncation by paging/filtering retrieval or warning results may be incomplete. | 68 | 2.0.43 | 2.0.43 |
@@ -429,7 +429,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-stable-npm-view-version-6.md`](../system-prompts/system-prompt-stable-npm-view-version-6.md) | Fetch the stable version of a package. | 31 | 2.1.109 | 2.1.109 |
 | [`system-prompt-enterprise-config-scope-managed.md`](../system-prompts/system-prompt-enterprise-config-scope-managed.md) | Defines the scope for enterprise configuration management. | 30 | 2.1.105 | 2.1.105 |
 | [`system-prompt-npm-view-version-command-3.md`](../system-prompts/system-prompt-npm-view-version-command-3.md) | Query npm registry for a package version at a specified tag or version. | 30 | 2.1.109 | 2.1.109 |
-| [`system-prompt-npm-view-version-command-4.md`](../system-prompts/system-prompt-npm-view-version-command-4.md) | Query npm registry for a package version at a specified tag or version. | 30 | 2.1.109 | 2.1.109 |
+| [`system-prompt-npm-view-version-command-3.md`](../system-prompts/system-prompt-npm-view-version-command-3.md) | Query npm registry for a package version at a specified tag or version. | 30 | 2.1.109 | 2.1.109 |
 | [`system-prompt-npm-view-version-command-6.md`](../system-prompts/system-prompt-npm-view-version-command-6.md) | Multiple prompts (4) | 30 | 2.1.109 | 2.1.109 |
 | [`system-prompt-npm-view-version-command-7.md`](../system-prompts/system-prompt-npm-view-version-command-7.md) | Query npm registry for a package version at a specified tag or version. | 30 | 2.1.109 | 2.1.109 |
 | [`system-prompt-stable-npm-view-version-loaded.md`](../system-prompts/system-prompt-stable-npm-view-version-loaded.md) | Check stable version of a package with errors. | 28 | 2.1.105 | 2.1.105 |
@@ -467,7 +467,7 @@ _Sorted by tokens (desc)._
 | [`tool-description-create-and-manage-teams.md`](../system-prompts/tool-description-create-and-manage-teams.md) | Utilize TeammateTool for effective team collaboration. | 1,665 | 2.1.88 | 2.1.88 |
 | [`tool-description-execute-powershell-commands-git.md`](../system-prompts/tool-description-execute-powershell-commands-git.md) | Executes PowerShell commands with directory verification. | 1,338 | 2.1.88 | 2.1.88 |
 | [`tool-description-monitor-events-grep.md`](../system-prompts/tool-description-monitor-events-grep.md) | Monitor events from a long-running script. | 1,061 | 2.1.110 | 2.1.110 |
-| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.111 | 2.1.111 |
+| [`tool-description-collaborative-learning-cli.md`](../system-prompts/tool-description-collaborative-learning-cli.md) | Interactive CLI that blends task completion with learning by requesting meaningful human code contributions. | 1,009 | 2.1.112 | 2.1.112 |
 | [`tool-description-plan-approach-signoff.md`](../system-prompts/tool-description-plan-approach-signoff.md) | Tool guidance to propose an implementation plan and get user approval before coding. | 901 | 2.1.77 | 2.1.77 |
 | [`tool-description-await-return-single-file-path.md`](../system-prompts/tool-description-await-return-single-file-path.md) | Script to await and return a single file path. | 892 | 2.1.110 | 2.1.110 |
 | [`tool-description-schedule-recurring-reminders-2.md`](../system-prompts/tool-description-schedule-recurring-reminders-2.md) | Set up one-time or recurring reminders. | 839 | 2.1.83 | 2.1.83 |
@@ -522,7 +522,7 @@ _Sorted by tokens (desc)._
 | [`tool-description-get-mcp-tab-context.md`](../system-prompts/tool-description-get-mcp-tab-context.md) | Return context and tab IDs for the current MCP tab group. | 83 | 2.0.71 | 2.0.71 |
 | [`tool-description-request-user-permission-apps.md`](../system-prompts/tool-description-request-user-permission-apps.md) | Request user permission for app control. | 75 | 2.1.84 | 2.1.84 |
 | [`tool-description-upload-image-to-target.md`](../system-prompts/tool-description-upload-image-to-target.md) | Upload a screenshot or image to a file input or drag-and-drop target. | 75 | 2.0.71 | 2.0.71 |
-| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.111 | 2.1.111 |
+| [`tool-description-list-configured-mcp-resources.md`](../system-prompts/tool-description-list-configured-mcp-resources.md) | Tool to list MCP resources from all or a specified server including server field. | 74 | 2.1.112 | 2.1.112 |
 | [`tool-description-press-left-mouse-button.md`](../system-prompts/tool-description-press-left-mouse-button.md) | Press and hold the left mouse button at the cursor. | 71 | 2.1.84 | 2.1.84 |
 | [`tool-description-switch-monitor-screenshot-capture.md`](../system-prompts/tool-description-switch-monitor-screenshot-capture.md) | Change the monitor for screenshot capture. | 70 | 2.1.84 | 2.1.84 |
 | [`tool-description-webfetch-authenticated-urls-warning.md`](../system-prompts/tool-description-webfetch-authenticated-urls-warning.md) | WebFetch fails for authenticated or private URLs. | 70 | 2.1.77 | 2.1.77 |
@@ -591,7 +591,7 @@ _Sorted by tokens (desc)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-status-line-setup.md`](../system-prompts/agent-prompt-status-line-setup.md) | Creates or updates the statusLine command in settings. | 2,140 | 2.1.111 | 2.1.111 |
+| [`agent-prompt-status-line-setup.md`](../system-prompts/agent-prompt-status-line-setup.md) | Creates or updates the statusLine command in settings. | 2,140 | 2.1.112 | 2.1.112 |
 | [`agent-prompt-read-only-architecture-planning-2.md`](../system-prompts/agent-prompt-read-only-architecture-planning-2.md) | Explore the codebase and produce implementation plans in read-only mode. | 644 | 2.1.84 | 2.1.84 |
 | [`agent-prompt-read-only-codebase-search.md`](../system-prompts/agent-prompt-read-only-codebase-search.md) | Search and analyze an existing codebase without making any changes. | 503 | 2.1.84 | 2.1.84 |
 | [`agent-prompt-user-global-current-configuration.md`](../system-prompts/agent-prompt-user-global-current-configuration.md) | User's custom setup details for proactive suggestions. | 47 | 2.1.92 | 2.1.92 |
@@ -605,15 +605,15 @@ _Sorted by tokens (desc)._
 | --- | --- | ---: | --- | --- |
 | [`skill-customize-keyboard-shortcuts.md`](../system-prompts/skill-customize-keyboard-shortcuts.md) | Guides safe creation or editing of keybindings with required schema fields and keystroke syntax. | 824 | 2.1.20 | 2.1.20 |
 
-## System data (221)
+## System data (232)
 
 _Sorted by tokens (desc)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.111 | 2.1.111 |
+| [`system-data-character-mapping-table.md`](../system-prompts/system-data-character-mapping-table.md) | Contains numeric sequences and letter markers resembling a mapping table. | 184,755 | 2.1.112 | 2.1.112 |
 | [`system-data-wolfram-language-symbols-list.md`](../system-prompts/system-data-wolfram-language-symbols-list.md) | Alphabetical list of Wolfram Language built-in symbol names. | 35,789 | 0.2.9 | 0.2.9 |
-| [`system-data-html-style-settings.md`](../system-prompts/system-data-html-style-settings.md) | Styling elements with font, color, and borders. | 7,105 | 2.1.111 | 2.1.111 |
+| [`system-data-html-style-settings.md`](../system-prompts/system-data-html-style-settings.md) | Styling elements with font, color, and borders. | 7,105 | 2.1.112 | 2.1.112 |
 | [`system-data-stan-functions-reference-list.md`](../system-prompts/system-data-stan-functions-reference-list.md) | Partial catalog of Stan math, RNG, and distribution functions. | 2,155 | 0.2.9 | 0.2.9 |
 | [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox policy denying by default, allowing process control and whitelisted Mach service lookups. | 1,805 | 2.1.110 | 2.1.110 |
 | [`system-data-numeric-placeholder-sequence.md`](../system-prompts/system-data-numeric-placeholder-sequence.md) | Repeated numeric placeholder tokens in a long sequence. | 1,791 | 0.2.9 | 0.2.9 |
@@ -621,7 +621,7 @@ _Sorted by tokens (desc)._
 | [`system-data-python-streaming-messages.md`](../system-prompts/system-data-python-streaming-messages.md) | Python streaming patterns for text streams and mixed content handling. | 1,470 | 2.1.111 | 2.1.111 |
 | [`system-data-nature-and-animal-wordlist.md`](../system-prompts/system-data-nature-and-animal-wordlist.md) | List of nature, space, weather, and animal nouns for naming. | 1,163 | 2.0.58 | 2.0.58 |
 | [`system-data-truncated-numeric-placeholders.md`](../system-prompts/system-data-truncated-numeric-placeholders.md) | Truncated stream of numeric placeholders. | 1,119 | 1.0.59 | 1.0.59 |
-| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.111 | 2.1.111 |
+| [`system-data-sql-keywords-current-array.md`](../system-prompts/system-data-sql-keywords-current-array.md) | List of SQL reserved words and functions including current and array terms. | 1,000 | 2.1.112 | 2.1.112 |
 | [`system-data-repeated-numeric-placeholders.md`](../system-prompts/system-data-repeated-numeric-placeholders.md) | Long sequence of repeated numeric placeholder tokens. | 895 | 0.2.9 | 0.2.9 |
 | [`system-data-progress-verb-word-list.md`](../system-prompts/system-data-progress-verb-word-list.md) | List of whimsical present-participle activity words. | 869 | 2.1.32 | 2.1.32 |
 | [`system-data-julia-base-types-list.md`](../system-prompts/system-data-julia-base-types-list.md) | List of Julia core types and standard library names. | 723 | 0.2.9 | 0.2.9 |
@@ -633,14 +633,14 @@ _Sorted by tokens (desc)._
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
 | [`system-data-numeric-placeholder-block.md`](../system-prompts/system-data-numeric-placeholder-block.md) | Block of repeated numeric placeholder tokens. | 531 | 0.2.9 | 0.2.9 |
 | [`system-data-http-header-field-list.md`](../system-prompts/system-data-http-header-field-list.md) | List of HTTP request and response header fields including CORS and CSP. | 501 | 0.2.125 | 0.2.125 |
-| [`system-data-chain-policy-new-object.md`](../system-prompts/system-data-chain-policy-new-object.md) | Creates a new certificate collection and chain policy. | 457 | 2.1.111 | 2.1.111 |
+| [`system-data-chain-policy-new-object.md`](../system-prompts/system-data-chain-policy-new-object.md) | Creates a new certificate collection and chain policy. | 457 | 2.1.112 | 2.1.112 |
 | [`system-data-cron-expressions-custom-rules.md`](../system-prompts/system-data-cron-expressions-custom-rules.md) | Convert custom rules to cron expressions. | 456 | 2.1.111 | 2.1.111 |
 | [`system-data-group-name-custom-defaults.md`](../system-prompts/system-data-group-name-custom-defaults.md) | Custom group names and defaults. | 456 | 2.1.111 | 2.1.111 |
 | [`system-data-numeric-placeholders-sequence.md`](../system-prompts/system-data-numeric-placeholders-sequence.md) | Sequence of numeric placeholder lines. | 454 | 1.0.59 | 1.0.59 |
 | [`system-data-numeric-placeholders-dump.md`](../system-prompts/system-data-numeric-placeholders-dump.md) | Multiple prompts (10) | 447 | 1.0.59 | 1.0.59 |
 | [`system-data-github-actions-review.md`](../system-prompts/system-data-github-actions-review.md) | GitHub Actions PR workflow checking out repo and running Claude code-review plugin. | 405 | 2.0.36 | 2.0.36 |
 | [`system-data-hex-color-swatches-ccff.md`](../system-prompts/system-data-hex-color-swatches-ccff.md) | Sequence of hexadecimal color codes in CC/FF step combinations. | 387 | 0.2.9 | 0.2.9 |
-| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.111 | 2.1.111 |
+| [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 382 | 2.1.112 | 2.1.112 |
 | [`system-data-common-pronouns-and-verbs.md`](../system-prompts/system-data-common-pronouns-and-verbs.md) | List of high-frequency English function words, pronouns, and basic verbs. | 375 | 2.1.30 | 2.1.30 |
 | [`system-data-azure-access-token-script.md`](../system-prompts/system-data-azure-access-token-script.md) | Invoke PowerShell to get Az access token, optional tenant, secure-string conversion output JSON. | 327 | 2.0.45 | 2.1.33 |
 | [`system-data-playful-action-verbs-list.md`](../system-prompts/system-data-playful-action-verbs-list.md) | Whimsical gerund verb list describing playful activities. | 325 | 2.0.50 | 2.0.50 |
@@ -688,23 +688,27 @@ _Sorted by tokens (desc)._
 | [`system-data-bedrock-evaluation-job-summary.md`](../system-prompts/system-data-bedrock-evaluation-job-summary.md) | Evaluation job summary fields including status, identifiers, task types, and config summary. | 162 | 2.0.63 | 2.0.63 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.1.47 |
 | [`system-data-get-import-job-response-fields.md`](../system-prompts/system-data-get-import-job-response-fields.md) | Response fields for retrieving a Bedrock model import job. | 161 | 2.0.63 | 2.0.63 |
-| [`system-data-custom-defaults-rules-replacing-23.md`](../system-prompts/system-data-custom-defaults-rules-replacing-23.md) | Custom rules replace default settings. | 160 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-defaults-rules-replacing-18.md`](../system-prompts/system-data-custom-defaults-rules-replacing-18.md) | Custom rules replace default settings. | 160 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-23.md`](../system-prompts/system-data-custom-defaults-rules-replacing-23.md) | Custom rules replace default settings. | 160 | 2.1.111 | 2.1.111 |
 | [`system-data-html-element-name-list.md`](../system-prompts/system-data-html-element-name-list.md) | List of common HTML element tag names. | 160 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-constants-and-paths.md`](../system-prompts/system-data-numeric-constants-and-paths.md) | Lists core constants and environment paths like Inf, NaN, missing, and LOAD_PATH. | 159 | 0.2.9 | 0.2.9 |
+| [`system-data-stable-npm-view-custom-rules.md`](../system-prompts/system-data-stable-npm-view-custom-rules.md) | Multiple prompts (2) | 157 | 2.1.112 | 2.1.112 |
 | [`system-data-cognito-create-identity-pool-input.md`](../system-prompts/system-data-cognito-create-identity-pool-input.md) | Create identity pool input fields for auth options, providers, and tags. | 156 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-rules-replacing-defaults-8.md`](../system-prompts/system-data-custom-rules-replacing-defaults-8.md) | Defines custom rules to replace default settings. | 156 | 2.1.111 | 2.1.111 |
 | [`system-data-dom-media-input-events-list.md`](../system-prompts/system-data-dom-media-input-events-list.md) | List of common DOM, media, and form event names. | 153 | 0.2.33 | 0.2.33 |
 | [`system-data-bedrock-list-custom-models-request-fields.md`](../system-prompts/system-data-bedrock-list-custom-models-request-fields.md) | Field list for ListCustomModelsRequest including time filters, sorting, and pagination. | 151 | 2.0.63 | 2.0.63 |
 | [`system-data-swift-standard-library-functions.md`](../system-prompts/system-data-swift-standard-library-functions.md) | List of Swift standard library functions and assertions utilities. | 151 | 0.2.9 | 0.2.9 |
 | [`system-data-update-policy-test-case-request.md`](../system-prompts/system-data-update-policy-test-case-request.md) | Specifies fields to update an automated reasoning policy test case. | 151 | 2.0.63 | 2.0.63 |
-| [`system-data-custom-rules-replacing-defaults.md`](../system-prompts/system-data-custom-rules-replacing-defaults.md) | Multiple prompts (8) | 150 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-defaults-replacing-rules-6.md`](../system-prompts/system-data-custom-defaults-replacing-rules-6.md) | Multiple prompts (2) | 150 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-defaults-rules-replacing-25.md`](../system-prompts/system-data-custom-defaults-rules-replacing-25.md) | Custom rules replacing default settings. | 149 | 2.1.112 | 2.1.112 |
 | [`system-data-and-custom-rules.md`](../system-prompts/system-data-and-custom-rules.md) | Explains custom rules that override defaults. | 148 | 2.1.110 | 2.1.110 |
 | [`system-data-html-block-elements-list.md`](../system-prompts/system-data-html-block-elements-list.md) | List of uppercase HTML structural and block-level tag names. | 148 | 0.2.33 | 0.2.33 |
 | [`system-data-bedrock-copy-job-summary-fields.md`](../system-prompts/system-data-bedrock-copy-job-summary-fields.md) | Field list for ModelCopyJobSummary including jobArn, status, and target model details. | 147 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-copy-job-response-fields.md`](../system-prompts/system-data-bedrock-copy-job-response-fields.md) | Field list for GetModelCopyJobResponse including jobArn and status. | 146 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-defaults-replacing-rules-8.md`](../system-prompts/system-data-custom-defaults-replacing-rules-8.md) | Multiple prompts (11) | 146 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-10.md`](../system-prompts/system-data-custom-rules-replacing-defaults-10.md) | Multiple prompts (11) | 144 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-rules-replacing-defaults-4.md`](../system-prompts/system-data-custom-rules-replacing-defaults-4.md) | Multiple prompts (2) | 144 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-defaults-rules-replacing-being-18.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-18.md) | Custom rules replace default settings. | 142 | 2.1.112 | 2.1.112 |
 | [`system-data-bedrock-customization-job-summary-fields.md`](../system-prompts/system-data-bedrock-customization-job-summary-fields.md) | Field list for ModelCustomizationJobSummary including jobArn, status, and timestamps. | 141 | 2.0.63 | 2.0.63 |
 | [`system-data-list-copy-jobs-request-filters.md`](../system-prompts/system-data-list-copy-jobs-request-filters.md) | Specifies request parameters for filtering and sorting model copy jobs. | 141 | 2.0.63 | 2.0.63 |
 | [`system-data-sts-assume-role-request-fields.md`](../system-prompts/system-data-sts-assume-role-request-fields.md) | Parameters for AWS STS AssumeRoleRequest including session and policy options. | 140 | 2.0.63 | 2.0.63 |
@@ -722,12 +726,14 @@ _Sorted by tokens (desc)._
 | [`system-data-bedrock-evaluation-job-request.md`](../system-prompts/system-data-bedrock-evaluation-job-request.md) | Inputs for creating a Bedrock evaluation job request. | 131 | 2.0.63 | 2.0.63 |
 | [`system-data-list-provisioned-throughputs-request-filters.md`](../system-prompts/system-data-list-provisioned-throughputs-request-filters.md) | Request parameters for listing provisioned model throughputs. | 131 | 2.0.63 | 2.0.63 |
 | [`system-data-path-view-custom-defaults.md`](../system-prompts/system-data-path-view-custom-defaults.md) | Defines custom rules to replace default settings. | 131 | 2.1.111 | 2.1.111 |
+| [`system-data-npm-view-custom-rules-3.md`](../system-prompts/system-data-npm-view-custom-rules-3.md) | Defines custom rules to override default settings. | 130 | 2.1.112 | 2.1.112 |
 | [`system-data-reasoning-policy-quality-report-metrics.md`](../system-prompts/system-data-reasoning-policy-quality-report-metrics.md) | Captures counts and issues reported for automated reasoning policy definition quality. | 130 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-defaults-rules-replacing-24.md`](../system-prompts/system-data-custom-defaults-rules-replacing-24.md) | Custom rules replacing default settings. | 129 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-rules-replacing-26.md`](../system-prompts/system-data-custom-defaults-rules-replacing-26.md) | Custom rules for replacing default settings. | 129 | 2.1.110 | 2.1.110 |
 | [`system-data-billing-header-custom-rules.md`](../system-prompts/system-data-billing-header-custom-rules.md) | Custom rules are used to replace default settings. | 128 | 2.1.110 | 2.1.110 |
 | [`system-data-bedrock-list-evaluation-jobs-request.md`](../system-prompts/system-data-bedrock-list-evaluation-jobs-request.md) | List evaluation jobs request filters, pagination, and sorting parameters. | 127 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-rules-replacing-defaults-31.md`](../system-prompts/system-data-custom-rules-replacing-defaults-31.md) | Custom rules for replacing defaults. | 127 | 2.1.109 | 2.1.109 |
+| [`system-data-global-custom-rules-replacing-defaults.md`](../system-prompts/system-data-global-custom-rules-replacing-defaults.md) | Defines custom rules to replace default settings. | 127 | 2.1.112 | 2.1.112 |
 | [`system-data-bedrock-imported-response-fields.md`](../system-prompts/system-data-bedrock-imported-response-fields.md) | Lists fields returned for an imported Bedrock model response. | 126 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-list-custom-deployments.md`](../system-prompts/system-data-bedrock-list-custom-deployments.md) | List custom model deployments request with time filters, status, and pagination. | 126 | 2.0.63 | 2.0.63 |
 | [`system-data-format-stream-json-jan-feb.md`](../system-prompts/system-data-format-stream-json-jan-feb.md) | Stream and format settings for JSON output. | 126 | 2.1.111 | 2.1.111 |
@@ -735,12 +741,15 @@ _Sorted by tokens (desc)._
 | [`system-data-media-query-features-list.md`](../system-prompts/system-data-media-query-features-list.md) | List CSS media query features and prefers settings. | 124 | 0.2.9 | 0.2.9 |
 | [`system-data-npm-view-custom-rules-2.md`](../system-prompts/system-data-npm-view-custom-rules-2.md) | Custom rules for replacing default settings. | 123 | 2.1.110 | 2.1.110 |
 | [`system-data-task-notification-interactive.md`](../system-prompts/system-data-task-notification-interactive.md) | Notification for blocked interactive tasks. | 123 | 2.1.110 | 2.1.110 |
+| [`system-data-sub-values-custom-rules.md`](../system-prompts/system-data-sub-values-custom-rules.md) | Defines custom rules to replace default settings. | 122 | 2.1.112 | 2.1.112 |
 | [`system-data-bedrock-async-invoke-summary.md`](../system-prompts/system-data-bedrock-async-invoke-summary.md) | Async invoke summary fields including ARN, status, timing, and output config. | 121 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-get-async-invoke-response.md`](../system-prompts/system-data-bedrock-get-async-invoke-response.md) | Async invoke response fields including status, timestamps, and output config. | 121 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-guardrail-content-filter-config.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 121 | 2.1.109 | 2.1.109 |
+| [`system-data-custom-defaults-replacing-rules-12.md`](../system-prompts/system-data-custom-defaults-replacing-rules-12.md) | Multiple prompts (2) | 121 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-defaults-replacing-rules-5.md`](../system-prompts/system-data-custom-defaults-replacing-rules-5.md) | Custom rules for replacing defaults. | 121 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-11.md`](../system-prompts/system-data-custom-defaults-rules-replacing-11.md) | Defines custom rules replacing defaults. | 121 | 2.1.110 | 2.1.110 |
-| [`system-data-custom-defaults-rules-replacing-6.md`](../system-prompts/system-data-custom-defaults-rules-replacing-6.md) | Custom rules replace default settings. | 121 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults-21.md`](../system-prompts/system-data-custom-rules-replacing-defaults-21.md) | Multiple prompts (2) | 121 | 2.1.109 | 2.1.109 |
+| [`system-data-custom-defaults-rules-replacing-5.md`](../system-prompts/system-data-custom-defaults-rules-replacing-5.md) | Multiple prompts (2) | 121 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-rules-replacing-defaults-26.md`](../system-prompts/system-data-custom-rules-replacing-defaults-26.md) | Custom rules replace default settings. | 121 | 2.1.112 | 2.1.112 |
 | [`system-data-bedrock-create-policy-test-case-fields.md`](../system-prompts/system-data-bedrock-create-policy-test-case-fields.md) | Field list for CreateAutomatedReasoningPolicyTestCaseRequest including policyArn and expected results. | 120 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-guardrail-content-filter-config-2.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config-2.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 120 | 2.0.63 | 2.1.45 |
 | [`system-data-available-environments-and-format.md`](../system-prompts/system-data-available-environments-and-format.md) | List available environments and formats. | 119 | 2.1.111 | 2.1.111 |
@@ -754,13 +763,14 @@ _Sorted by tokens (desc)._
 | [`system-data-truncated-custom-rules.md`](../system-prompts/system-data-truncated-custom-rules.md) | Custom rules are replacing default settings. | 115 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-replacing-rules-4.md`](../system-prompts/system-data-custom-defaults-replacing-rules-4.md) | Multiple prompts (2) | 114 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-16.md`](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | Custom rules for replacing defaults. | 114 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults.md`](../system-prompts/system-data-custom-rules-replacing-defaults.md) | Multiple prompts (3) | 114 | 2.1.111 | 2.1.111 |
+| [`system-data-custom-rules-replacing-defaults.md`](../system-prompts/system-data-custom-rules-replacing-defaults.md) | Multiple prompts (3) | 114 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-rules-third-party-apps.md`](../system-prompts/system-data-custom-rules-third-party-apps.md) | Multiple prompts (3) | 114 | 2.1.111 | 2.1.111 |
 | [`system-data-warning-custom-rules-replacing-defaults.md`](../system-prompts/system-data-warning-custom-rules-replacing-defaults.md) | Warning about custom rules in place. | 114 | 2.1.109 | 2.1.109 |
 | [`system-data-csharp-keywords-list.md`](../system-prompts/system-data-csharp-keywords-list.md) | List of C# language keywords and modifiers. | 113 | 0.2.9 | 0.2.9 |
 | [`system-data-custom-rules-replacing-defaults-9.md`](../system-prompts/system-data-custom-rules-replacing-defaults-9.md) | Multiple prompts (2) | 113 | 2.1.109 | 2.1.109 |
 | [`system-data-stable-custom-rules-replacing-defaults-extended.md`](../system-prompts/system-data-stable-custom-rules-replacing-defaults-extended.md) | Custom rules replace default settings. | 113 | 2.1.110 | 2.1.110 |
 | [`system-data-available-environments-and-format-2.md`](../system-prompts/system-data-available-environments-and-format-2.md) | List available environments and formats. | 112 | 2.1.111 | 2.1.111 |
-| [`system-data-custom-rules-replacing-defaults-25.md`](../system-prompts/system-data-custom-rules-replacing-defaults-25.md) | Overview of custom rules and their replacements. | 112 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-rules-replacing-defaults-20.md`](../system-prompts/system-data-custom-rules-replacing-defaults-20.md) | Overview of custom rules and their replacements. | 112 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-rules-replacing-defaults-26.md`](../system-prompts/system-data-custom-rules-replacing-defaults-26.md) | Multiple prompts (2) | 112 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-5.md`](../system-prompts/system-data-custom-rules-replacing-defaults-5.md) | Defines custom rules replacing defaults. | 112 | 2.1.109 | 2.1.109 |
 | [`system-data-bucket-custom-rules.md`](../system-prompts/system-data-bucket-custom-rules.md) | Custom rules for bucket settings. | 111 | 2.1.109 | 2.1.109 |
@@ -772,31 +782,32 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-rules-replacing-defaults-6.md`](../system-prompts/system-data-custom-rules-replacing-defaults-6.md) | Defines custom rules replacing defaults. | 110 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-inline.md`](../system-prompts/system-data-custom-rules-replacing-defaults-inline.md) | Multiple prompts (2) | 110 | 2.1.110 | 2.1.110 |
 | [`system-data-bedrock-bidirectional-stream-output.md`](../system-prompts/system-data-bedrock-bidirectional-stream-output.md) | Bidirectional streaming invoke output with chunk and exception fields. | 109 | 2.0.63 | 2.0.63 |
-| [`system-data-custom-rules-replacing-defaults-25.md`](../system-prompts/system-data-custom-rules-replacing-defaults-25.md) | Multiple prompts (2) | 108 | 2.1.111 | 2.1.111 |
+| [`system-data-custom-rules-replacing-defaults-25.md`](../system-prompts/system-data-custom-rules-replacing-defaults-25.md) | Multiple prompts (2) | 108 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-15.md`](../system-prompts/system-data-custom-defaults-rules-replacing-15.md) | Custom rules replace default settings. | 107 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults-23.md`](../system-prompts/system-data-custom-rules-replacing-defaults-23.md) | Custom rules for replacing defaults. | 107 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-rules-replacing-defaults-19.md`](../system-prompts/system-data-custom-rules-replacing-defaults-19.md) | Custom rules for replacing defaults. | 107 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-rules-replacing-defaults-23.md`](../system-prompts/system-data-custom-rules-replacing-defaults-23.md) | Custom rules replacing defaults with additional expressions. | 107 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-3.md`](../system-prompts/system-data-custom-rules-replacing-defaults-3.md) | Multiple prompts (2) | 107 | 2.1.109 | 2.1.109 |
 | [`system-data-allow-custom-rules-defaults.md`](../system-prompts/system-data-allow-custom-rules-defaults.md) | Defines custom rules replacing defaults. | 106 | 2.1.111 | 2.1.111 |
 | [`system-data-bedrock-create-invocation-job-request.md`](../system-prompts/system-data-bedrock-create-invocation-job-request.md) | Request fields for creating a Bedrock model invocation job. | 106 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-rules-replacing-defaults-34.md`](../system-prompts/system-data-custom-rules-replacing-defaults-34.md) | Multiple prompts (3) | 106 | 2.1.109 | 2.1.109 |
 | [`system-data-stable-custom-rules-replacing-defaults.md`](../system-prompts/system-data-stable-custom-rules-replacing-defaults.md) | Custom rules replace default settings. | 106 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-defaults-rules-replacing-17.md`](../system-prompts/system-data-custom-defaults-rules-replacing-17.md) | Defines custom rules replacing defaults. | 105 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-22.md`](../system-prompts/system-data-custom-defaults-rules-replacing-22.md) | Multiple prompts (2) | 105 | 2.1.111 | 2.1.111 |
-| [`system-data-custom-defaults-rules-replacing-7.md`](../system-prompts/system-data-custom-defaults-rules-replacing-7.md) | Defines custom rules to replace default settings. | 105 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-15.md`](../system-prompts/system-data-custom-rules-replacing-defaults-15.md) | Multiple prompts (2) | 105 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults-24.md`](../system-prompts/system-data-custom-rules-replacing-defaults-24.md) | Defines custom rules replacing defaults. | 105 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-7.md`](../system-prompts/system-data-custom-rules-replacing-defaults-7.md) | Multiple prompts (2) | 105 | 2.1.109 | 2.1.109 |
 | [`system-data-bedrock-import-job-request.md`](../system-prompts/system-data-bedrock-import-job-request.md) | Model import job request fields including names, role, sources, tags, and VPC config. | 104 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-defaults-rules-replacing-being-11.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-11.md) | Defines custom rules for replacing defaults. | 104 | 2.1.110 | 2.1.110 |
 | [`system-data-custom-defaults-rules-replacing-being-13.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-13.md) | Defines custom rules replacing defaults. | 104 | 2.1.111 | 2.1.111 |
+| [`system-data-custom-defaults-rules-replacing-being-14.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-14.md) | Multiple prompts (2) | 104 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-defaults-rules-replacing-being-19.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-19.md) | Defines custom rules replacing defaults. | 104 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-rules-replacing-defaults-21.md`](../system-prompts/system-data-custom-rules-replacing-defaults-21.md) | Defines custom rules replacing defaults. | 104 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-at.md`](../system-prompts/system-data-custom-rules-replacing-defaults-at.md) | Custom rules for replacing defaults. | 104 | 2.1.110 | 2.1.110 |
 | [`system-data-custom-rules-replacing-defaults-simple.md`](../system-prompts/system-data-custom-rules-replacing-defaults-simple.md) | Multiple prompts (2) | 104 | 2.1.110 | 2.1.110 |
 | [`system-data-found-custom-rules-replacing-defaults.md`](../system-prompts/system-data-found-custom-rules-replacing-defaults.md) | Multiple prompts (2) | 104 | 2.1.110 | 2.1.110 |
 | [`system-data-custom-defaults-replacing-rules-13.md`](../system-prompts/system-data-custom-defaults-replacing-rules-13.md) | Defines custom rules replacing defaults. | 103 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults-28.md`](../system-prompts/system-data-custom-rules-replacing-defaults-28.md) | Defines custom rules replacing defaults. | 103 | 2.1.109 | 2.1.109 |
 | [`system-data-extra-usage-custom-defaults.md`](../system-prompts/system-data-extra-usage-custom-defaults.md) | Defines custom rules to replace default settings. | 102 | 2.1.111 | 2.1.111 |
 | [`system-data-scope-spans-custom-rules.md`](../system-prompts/system-data-scope-spans-custom-rules.md) | Custom rules for scope spans replacing defaults. | 102 | 2.1.109 | 2.1.109 |
+| [`system-data-url-allow-custom-rules.md`](../system-prompts/system-data-url-allow-custom-rules.md) | Defines custom rules replacing defaults. | 102 | 2.1.112 | 2.1.112 |
 | [`system-data-filesystem-api-operations-list.md`](../system-prompts/system-data-filesystem-api-operations-list.md) | List of filesystem functions for access, reading, writing, and metadata operations. | 101 | 2.0.24 | 2.0.24 |
 | [`system-data-scope-logs-custom-rules.md`](../system-prompts/system-data-scope-logs-custom-rules.md) | Custom rules for scope logs replacing defaults. | 101 | 2.1.109 | 2.1.109 |
 | [`system-data-switch-to-custom-rules.md`](../system-prompts/system-data-switch-to-custom-rules.md) | Custom rules replace default settings. | 101 | 2.1.110 | 2.1.110 |
@@ -808,6 +819,7 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-defaults-rules-replacing-being-10.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-10.md) | Defines custom rules replacing defaults. | 99 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-rules-replacing-being-5.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-5.md) | Multiple prompts (4) | 99 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-19.md`](../system-prompts/system-data-custom-rules-replacing-defaults-19.md) | Defines custom rules replacing defaults. | 99 | 2.1.109 | 2.1.109 |
+| [`system-data-custom-rules-replacing-defaults-5.md`](../system-prompts/system-data-custom-rules-replacing-defaults-5.md) | Custom rules for replacing defaults. | 99 | 2.1.112 | 2.1.112 |
 | [`system-data-pr-custom-rules-replacing-defaults.md`](../system-prompts/system-data-pr-custom-rules-replacing-defaults.md) | PR for custom rules replacing defaults. | 99 | 2.1.109 | 2.1.109 |
 | [`system-data-scope-custom-rules-replacing-defaults.md`](../system-prompts/system-data-scope-custom-rules-replacing-defaults.md) | Custom rules for scope replacing defaults. | 99 | 2.1.109 | 2.1.109 |
 | [`system-data-spans-custom-rules-replacing-defaults.md`](../system-prompts/system-data-spans-custom-rules-replacing-defaults.md) | Custom rules for spans replacing defaults. | 99 | 2.1.109 | 2.1.109 |
@@ -816,9 +828,8 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-rules-replacing-defaults-13.md`](../system-prompts/system-data-custom-rules-replacing-defaults-13.md) | Defines custom rules replacing defaults. | 98 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-14.md`](../system-prompts/system-data-custom-rules-replacing-defaults-14.md) | Custom rules for replacing default settings. | 98 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-20.md`](../system-prompts/system-data-custom-rules-replacing-defaults-20.md) | Custom rules for replacing defaults. | 98 | 2.1.110 | 2.1.110 |
+| [`system-data-global-allow-custom-rules.md`](../system-prompts/system-data-global-allow-custom-rules.md) | Custom rules replace default settings. | 98 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-16.md`](../system-prompts/system-data-custom-defaults-rules-replacing-16.md) | Multiple prompts (6) | 97 | 2.1.108 | 2.1.108 |
-| [`system-data-custom-defaults-rules-replacing-3.md`](../system-prompts/system-data-custom-defaults-rules-replacing-3.md) | Multiple prompts (6) | 97 | 2.1.108 | 2.1.108 |
-| [`system-data-custom-defaults-rules-replacing-6.md`](../system-prompts/system-data-custom-defaults-rules-replacing-6.md) | Multiple prompts (6) | 97 | 2.1.108 | 2.1.108 |
 | [`system-data-custom-rules-replacing-defaults-29.md`](../system-prompts/system-data-custom-rules-replacing-defaults-29.md) | Multiple prompts (2) | 97 | 2.1.109 | 2.1.109 |
 | [`system-data-cloud-throttling-exception-names.md`](../system-prompts/system-data-cloud-throttling-exception-names.md) | Collection of throttling and limit-exceeded exception identifiers. | 93 | 0.2.9 | 0.2.9 |
 | [`system-data-swift-compiler-directives-list.md`](../system-prompts/system-data-swift-compiler-directives-list.md) | List of Swift compiler directives and magic literals. | 83 | 0.2.9 | 0.2.9 |
@@ -833,9 +844,9 @@ _Sorted by tokens (desc)._
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 | [`system-data-npm-view-version-with-context.md`](../system-prompts/system-data-npm-view-version-with-context.md) | Runs npm view to fetch a package version using name and tag placeholders. | 26 | 2.1.109 | 2.1.109 |
 
-## System reminders (3291)
+## System reminders (3299)
 
-_Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens._
+_Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
@@ -845,19 +856,19 @@ _Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens
 | [`system-reminder-persistent-memory-user-interactions.md`](../system-prompts/system-reminder-persistent-memory-user-interactions.md) | Develop a memory system for user collaboration. | 2,496 | 2.1.105 | 2.1.105 |
 | [`system-reminder-design-patterns-overview.md`](../system-prompts/system-reminder-design-patterns-overview.md) | Guidelines for building agents on the Claude API. | 1,988 | 2.1.91 | 2.1.91 |
 | [`system-reminder-user-call-permission-attempt-17.md`](../system-prompts/system-reminder-user-call-permission-attempt-17.md) | Multiple prompts (2) | 1,940 | 2.1.109 | 2.1.109 |
-| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.111 | 2.1.111 |
+| [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.112 | 2.1.112 |
 | [`system-reminder-plan-workflow-read-only-mode.md`](../system-prompts/system-reminder-plan-workflow-read-only-mode.md) | Defines a read-only plan workflow for user interactions. | 978 | 2.1.77 | 2.1.77 |
 | [`system-reminder-bash-command-prefix-detection.md`](../system-prompts/system-reminder-bash-command-prefix-detection.md) | Policy spec for extracting command prefixes and flagging injection patterns. | 852 | 2.1.20 | 2.1.41 |
 | [`system-reminder-plan-mode-restrictions.md`](../system-prompts/system-reminder-plan-mode-restrictions.md) | Enforces plan-only workflow with edits restricted. | 765 | 2.1.81 | 2.1.81 |
 | [`system-reminder-user-permission-calls-3.md`](../system-prompts/system-reminder-user-permission-calls-3.md) | User must approve tool calls based on permission settings. | 751 | 2.1.98 | 2.1.98 |
 | [`system-reminder-git-safety-protocols.md`](../system-prompts/system-reminder-git-safety-protocols.md) | Guidelines for safe git operations. | 737 | 2.1.109 | 2.1.109 |
 | [`system-reminder-memory-consolidation-reflection.md`](../system-prompts/system-reminder-memory-consolidation-reflection.md) | Reflect on and organize memories effectively. | 733 | 2.1.98 | 2.1.98 |
-| [`system-reminder-user-call-permission-attempt-36.md`](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | User must approve tool calls based on permission settings. | 664 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-41.md`](../system-prompts/system-reminder-user-call-permission-attempt-41.md) | User must approve tool calls based on permission settings. | 664 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-4.md`](../system-prompts/system-reminder-user-call-permission-4.md) | Manages user permissions for tool execution. | 653 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-group-role-expressions.md`](../system-prompts/system-reminder-user-group-role-expressions.md) | Handles user, group, and role expressions. | 653 | 2.1.105 | 2.1.105 |
-| [`system-reminder-user-call-permission-attempt-21.md`](../system-prompts/system-reminder-user-call-permission-attempt-21.md) | Multiple prompts (2) | 642 | 2.1.110 | 2.1.110 |
-| [`system-reminder-user-call-permission-attempt-26.md`](../system-prompts/system-reminder-user-call-permission-attempt-26.md) | Multiple prompts (2) | 642 | 2.1.109 | 2.1.109 |
-| [`system-reminder-remote-planning-session-guide.md`](../system-prompts/system-reminder-remote-planning-session-guide.md) | Guide for conducting a remote planning session. | 616 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-summary.md`](../system-prompts/system-reminder-user-call-permission-summary.md) | Multiple prompts (2) | 642 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-summary-2.md`](../system-prompts/system-reminder-user-call-permission-summary-2.md) | User permissions affect tool execution. | 636 | 2.1.112 | 2.1.112 |
+| [`system-reminder-remote-planning-session-guide.md`](../system-prompts/system-reminder-remote-planning-session-guide.md) | Guide for conducting a remote planning session. | 616 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-settings-value.md`](../system-prompts/system-reminder-user-settings-value.md) | Manage configuration settings for the user. | 569 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-file-snapshot-call.md`](../system-prompts/system-reminder-user-file-snapshot-call.md) | Communicates user permissions for tool execution. | 559 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-access-control-headers.md`](../system-prompts/system-reminder-user-access-control-headers.md) | Manage user access and control headers. | 548 | 2.1.98 | 2.1.98 |
@@ -865,27 +876,31 @@ _Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens
 | [`system-reminder-keybinding-configuration-issues.md`](../system-prompts/system-reminder-keybinding-configuration-issues.md) | Guidance on validating keybinding configurations. | 502 | 2.1.98 | 2.1.98 |
 | [`system-reminder-git-commit-changes-message-create.md`](../system-prompts/system-reminder-git-commit-changes-message-create.md) | Guidelines for safely creating git commits. | 494 | 2.1.77 | 2.1.77 |
 | [`system-reminder-implementation-plan-multi-exploration-3.md`](../system-prompts/system-reminder-implementation-plan-multi-exploration-3.md) | Create a detailed implementation plan using multiple agents. | 461 | 2.1.88 | 2.1.88 |
-| [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.111 | 2.1.111 |
+| [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-custom-defaults-call.md`](../system-prompts/system-reminder-user-custom-defaults-call.md) | Communicate tool usage and permissions to the user. | 423 | 2.1.108 | 2.1.108 |
 | [`system-reminder-incorrect-choice-user-permission.md`](../system-prompts/system-reminder-incorrect-choice-user-permission.md) | Incorrect choice and user permission details. | 364 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-warning.md`](../system-prompts/system-reminder-invalid-option-warning.md) | User must approve tool calls. | 357 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-call-permission-attempt-29.md`](../system-prompts/system-reminder-user-call-permission-attempt-29.md) | User must approve tool calls based on permission settings. | 353 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-5.md`](../system-prompts/system-reminder-user-call-permission-5.md) | Multiple prompts (2) | 351 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-5.md`](../system-prompts/system-reminder-user-call-permission-5.md) | User must approve tool calls based on permission settings. | 351 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-6.md`](../system-prompts/system-reminder-user-call-permission-6.md) | Multiple prompts (2) | 351 | 2.1.110 | 2.1.110 |
-| [`system-reminder-user-call-permission-attempt-34.md`](../system-prompts/system-reminder-user-call-permission-attempt-34.md) | User must approve tool calls based on permission settings. | 351 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-32.md`](../system-prompts/system-reminder-user-call-permission-attempt-32.md) | Multiple prompts (2) | 351 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-attempt-39.md`](../system-prompts/system-reminder-user-call-permission-attempt-39.md) | User must approve tool calls based on permission settings. | 351 | 2.1.109 | 2.1.109 |
 | [`system-reminder-api-limit-exceeded-images.md`](../system-prompts/system-reminder-api-limit-exceeded-images.md) | User permissions affect tool calls. | 345 | 2.1.110 | 2.1.110 |
 | [`system-reminder-heads-up-user-call-permission.md`](../system-prompts/system-reminder-heads-up-user-call-permission.md) | User must approve denied tool calls. | 345 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-3.md`](../system-prompts/system-reminder-user-call-permission-3.md) | User must approve tool calls based on permission settings. | 345 | 2.1.110 | 2.1.110 |
+| [`system-reminder-invalid-option-user-permission.md`](../system-prompts/system-reminder-invalid-option-user-permission.md) | User permission issues with invalid options. | 344 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-13.md`](../system-prompts/system-reminder-user-call-permission-13.md) | User must approve tool calls based on permission settings. | 343 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-permission-calls-2.md`](../system-prompts/system-reminder-user-permission-calls-2.md) | Guide on user permissions for tool execution. | 343 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-call-permission-attempt-24.md`](../system-prompts/system-reminder-user-call-permission-attempt-24.md) | Multiple prompts (3) | 342 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission.md`](../system-prompts/system-reminder-user-call-permission.md) | Multiple prompts (2) | 342 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-details.md`](../system-prompts/system-reminder-user-call-permission-details.md) | Details on user tool call permissions. | 341 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-selection-user-permission.md`](../system-prompts/system-reminder-invalid-selection-user-permission.md) | Invalid selection and user permission handling. | 340 | 2.1.109 | 2.1.109 |
+| [`system-reminder-invalid-selection-user-permission.md`](../system-prompts/system-reminder-invalid-selection-user-permission.md) | Invalid selection and user permission handling. | 340 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-25.md`](../system-prompts/system-reminder-user-call-permission-attempt-25.md) | Multiple prompts (2) | 340 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unknown-key-found-user-call.md`](../system-prompts/system-reminder-unknown-key-found-user-call.md) | User must approve tool calls. | 338 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unknown-keys-warning.md`](../system-prompts/system-reminder-unknown-keys-warning.md) | User must approve tool calls. | 338 | 2.1.110 | 2.1.110 |
-| [`system-reminder-user-call-permission-attempt-35.md`](../system-prompts/system-reminder-user-call-permission-attempt-35.md) | User must approve tool calls based on permission settings. | 338 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-27.md`](../system-prompts/system-reminder-user-call-permission-attempt-27.md) | Multiple prompts (2) | 338 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-permission-calls.md`](../system-prompts/system-reminder-user-permission-calls.md) | Communicate user permissions for tool execution. | 338 | 2.1.112 | 2.1.112 |
 | [`system-reminder-invalid-option-user-call-2.md`](../system-prompts/system-reminder-invalid-option-user-call-2.md) | User must approve tool calls. | 337 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-approval.md`](../system-prompts/system-reminder-user-call-approval.md) | Multiple prompts (2) | 337 | 2.1.104 | 2.1.104 |
 | [`system-reminder-invalid-choice.md`](../system-prompts/system-reminder-invalid-choice.md) | User permissions affect tool execution. | 335 | 2.1.110 | 2.1.110 |
@@ -899,35 +914,37 @@ _Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens
 | [`system-reminder-user-call-permission-attempt-36.md`](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | Multiple prompts (2) | 334 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-permission-call-7.md`](../system-prompts/system-reminder-user-permission-call-7.md) | User must approve tool calls based on permission settings. | 334 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-expected-value.md`](../system-prompts/system-reminder-invalid-option-expected-value.md) | User permissions affect tool calls. | 333 | 2.1.111 | 2.1.111 |
-| [`system-reminder-user-call-permission-attempt-20.md`](../system-prompts/system-reminder-user-call-permission-attempt-20.md) | User must approve tool calls based on permission settings. | 333 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-36.md`](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | User must approve tool calls based on permission settings. | 333 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-user-message-fr.md`](../system-prompts/system-reminder-invalid-option-user-message-fr.md) | Invalid option message in French. | 332 | 2.1.109 | 2.1.109 |
+| [`system-reminder-unrecognized-key-user-permission.md`](../system-prompts/system-reminder-unrecognized-key-user-permission.md) | User permission for tool calls. | 332 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-18.md`](../system-prompts/system-reminder-user-call-permission-attempt-18.md) | Multiple prompts (2) | 332 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-39.md`](../system-prompts/system-reminder-user-call-permission-attempt-39.md) | User must approve tool calls based on permission settings. | 332 | 2.1.109 | 2.1.109 |
-| [`system-reminder-unknown-keys-user-call.md`](../system-prompts/system-reminder-unknown-keys-user-call.md) | User must approve unknown tool calls. | 331 | 2.1.110 | 2.1.110 |
 | [`system-reminder-unknown-keys-user-call.md`](../system-prompts/system-reminder-unknown-keys-user-call.md) | User must approve unknown tool calls. | 331 | 2.1.111 | 2.1.111 |
 | [`system-reminder-unrecognized-keys-user.md`](../system-prompts/system-reminder-unrecognized-keys-user.md) | User permissions affect tool calls. | 331 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-32.md`](../system-prompts/system-reminder-user-call-permission-attempt-32.md) | Multiple prompts (2) | 331 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-choice-user-permission.md`](../system-prompts/system-reminder-invalid-choice-user-permission.md) | Invalid choice based on user permissions. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-user-call-permission.md`](../system-prompts/system-reminder-invalid-option-user-call-permission.md) | User permission required for tool calls. | 330 | 2.1.110 | 2.1.110 |
-| [`system-reminder-invalid-option-user-call.md`](../system-prompts/system-reminder-invalid-option-user-call.md) | User must approve tool calls. | 330 | 2.1.109 | 2.1.109 |
-| [`system-reminder-invalid-option-user-call.md`](../system-prompts/system-reminder-invalid-option-user-call.md) | User must approve tool calls. | 330 | 2.1.111 | 2.1.111 |
+| [`system-reminder-invalid-option-user-call.md`](../system-prompts/system-reminder-invalid-option-user-call.md) | User must approve tool calls. | 330 | 2.1.112 | 2.1.112 |
+| [`system-reminder-setup-notes-user-permission.md`](../system-prompts/system-reminder-setup-notes-user-permission.md) | User must approve tool calls based on permissions. | 330 | 2.1.112 | 2.1.112 |
 | [`system-reminder-unrecognized-keys.md`](../system-prompts/system-reminder-unrecognized-keys.md) | Handling unrecognized keys in tool calls. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-approval-calls.md`](../system-prompts/system-reminder-user-approval-calls.md) | User must approve tool calls based on permissions. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-error.md`](../system-prompts/system-reminder-user-call-error.md) | Error handling for tool calls. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-7.md`](../system-prompts/system-reminder-user-call-permission-7.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-9.md`](../system-prompts/system-reminder-user-call-permission-9.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-15.md`](../system-prompts/system-reminder-user-call-permission-attempt-15.md) | Multiple prompts (3) | 330 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-call-permission-attempt-2.md`](../system-prompts/system-reminder-user-call-permission-attempt-2.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-23.md`](../system-prompts/system-reminder-user-call-permission-attempt-23.md) | Multiple prompts (2) | 330 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-attempt-28.md`](../system-prompts/system-reminder-user-call-permission-attempt-28.md) | User must approve tool calls. | 330 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-attempt-3.md`](../system-prompts/system-reminder-user-call-permission-attempt-3.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-31.md`](../system-prompts/system-reminder-user-call-permission-attempt-31.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-38.md`](../system-prompts/system-reminder-user-call-permission-attempt-38.md) | Multiple prompts (3) | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-40.md`](../system-prompts/system-reminder-user-call-permission-attempt-40.md) | Multiple prompts (3) | 330 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-permission-call-2.md`](../system-prompts/system-reminder-user-permission-call-2.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-call-permission-errors.md`](../system-prompts/system-reminder-call-permission-errors.md) | User must approve tool calls based on permission settings. | 329 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-3.md`](../system-prompts/system-reminder-invalid-option-3.md) | Handles invalid options for user tool calls. | 329 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-user-call-3.md`](../system-prompts/system-reminder-invalid-option-user-call-3.md) | User must approve tool calls. | 329 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-user-permission.md`](../system-prompts/system-reminder-invalid-option-user-permission.md) | User permission issues with invalid options. | 329 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-16.md`](../system-prompts/system-reminder-user-call-permission-attempt-16.md) | User must approve tool calls based on permission settings. | 329 | 2.1.110 | 2.1.110 |
+| [`system-reminder-user-call-permission-8.md`](../system-prompts/system-reminder-user-call-permission-8.md) | User permissions influence tool calls. | 329 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-attempt-14.md`](../system-prompts/system-reminder-user-call-permission-attempt-14.md) | Multiple prompts (2) | 329 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-attempt-24.md`](../system-prompts/system-reminder-user-call-permission-attempt-24.md) | User must approve tool calls based on permission settings. | 329 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-permission-call-4.md`](../system-prompts/system-reminder-user-permission-call-4.md) | Multiple prompts (2) | 329 | 2.1.107 | 2.1.107 |
 | [`system-reminder-unknown-keys-user-permission-2.md`](../system-prompts/system-reminder-unknown-keys-user-permission-2.md) | Managing unknown keys with user permissions. | 328 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-15.md`](../system-prompts/system-reminder-user-call-permission-attempt-15.md) | Multiple prompts (4) | 328 | 2.1.111 | 2.1.111 |
@@ -939,28 +956,30 @@ _Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens
 | [`system-reminder-user-call-permission-attempt-33.md`](../system-prompts/system-reminder-user-call-permission-attempt-33.md) | Multiple prompts (2) | 327 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unknown-keys.md`](../system-prompts/system-reminder-unknown-keys.md) | User permissions affect tool execution. | 326 | 2.1.111 | 2.1.111 |
 | [`system-reminder-unknown-keyword-user-message.md`](../system-prompts/system-reminder-unknown-keyword-user-message.md) | Unknown keyword message for user. | 326 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-11.md`](../system-prompts/system-reminder-user-call-permission-attempt-11.md) | User must approve tool calls based on permission settings. | 326 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-call-permission-attempt-13.md`](../system-prompts/system-reminder-user-call-permission-attempt-13.md) | Multiple prompts (2) | 326 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-14.md`](../system-prompts/system-reminder-user-call-permission-attempt-14.md) | User must approve tool calls based on permission settings. | 326 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-26.md`](../system-prompts/system-reminder-user-call-permission-attempt-26.md) | User must approve tool calls based on permission settings. | 326 | 2.1.110 | 2.1.110 |
+| [`system-reminder-user-call-permission-attempt-40.md`](../system-prompts/system-reminder-user-call-permission-attempt-40.md) | User must approve tool calls based on permission settings. | 326 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unknown-keys-permission.md`](../system-prompts/system-reminder-unknown-keys-permission.md) | Handling unknown keys in tool permissions. | 325 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unrecognized-keys-user-call.md`](../system-prompts/system-reminder-unrecognized-keys-user-call.md) | Handling unrecognized keys in tool calls. | 325 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-attempt.md`](../system-prompts/system-reminder-user-call-attempt.md) | User must grant permission for tools. | 324 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-11.md`](../system-prompts/system-reminder-user-call-permission-11.md) | User must approve tool calls based on permission settings. | 324 | 2.1.111 | 2.1.111 |
-| [`system-reminder-user-call-permission-attempt-31.md`](../system-prompts/system-reminder-user-call-permission-attempt-31.md) | User must approve tool calls based on permission settings. | 324 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-27.md`](../system-prompts/system-reminder-user-call-permission-attempt-27.md) | User must approve tool calls based on permission settings. | 323 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-attempt-18.md`](../system-prompts/system-reminder-user-call-permission-attempt-18.md) | User must approve tool calls based on permission settings. | 324 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-attempt-34.md`](../system-prompts/system-reminder-user-call-permission-attempt-34.md) | User must approve tool calls based on permission settings. | 324 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-attempt-11.md`](../system-prompts/system-reminder-user-call-permission-attempt-11.md) | Multiple prompts (2) | 323 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-attempt-35.md`](../system-prompts/system-reminder-user-call-permission-attempt-35.md) | User must approve tool calls based on permission settings. | 323 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-37.md`](../system-prompts/system-reminder-user-call-permission-attempt-37.md) | User must approve tool calls based on permission settings. | 323 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-7.md`](../system-prompts/system-reminder-user-call-permission-attempt-7.md) | User must approve tool calls based on permission settings. | 323 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-permission-call-5.md`](../system-prompts/system-reminder-user-permission-call-5.md) | User must approve tool calls based on permission settings. | 323 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-permission-call.md`](../system-prompts/system-reminder-user-permission-call.md) | Multiple prompts (49) | 323 | 2.1.107 | 2.1.107 |
 | [`system-reminder-user-call-permission-attempt-21.md`](../system-prompts/system-reminder-user-call-permission-attempt-21.md) | Multiple prompts (2) | 320 | 2.1.111 | 2.1.111 |
-| [`system-reminder-user-call-permission-attempt-27.md`](../system-prompts/system-reminder-user-call-permission-attempt-27.md) | Multiple prompts (2) | 319 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-8.md`](../system-prompts/system-reminder-user-call-permission-attempt-8.md) | User must approve tool calls based on permission settings. | 319 | 2.1.110 | 2.1.110 |
+| [`system-reminder-allowed-user-calls.md`](../system-prompts/system-reminder-allowed-user-calls.md) | User permissions affect tool calls. | 319 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-attempt-20.md`](../system-prompts/system-reminder-user-call-permission-attempt-20.md) | Multiple prompts (2) | 319 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-8.md`](../system-prompts/system-reminder-user-call-permission-attempt-8.md) | User must approve tool calls based on permission settings. | 319 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt.md`](../system-prompts/system-reminder-user-call-permission-attempt.md) | User must approve tool calls based on permission settings. | 319 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-permission-call-6.md`](../system-prompts/system-reminder-user-permission-call-6.md) | Multiple prompts (2) | 319 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-8.md`](../system-prompts/system-reminder-user-call-permission-8.md) | Multiple prompts (3) | 318 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-16.md`](../system-prompts/system-reminder-user-call-permission-attempt-16.md) | Multiple prompts (3) | 318 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-4.md`](../system-prompts/system-reminder-user-call-permission-attempt-4.md) | User must approve tool calls based on permission settings. | 318 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-5.md`](../system-prompts/system-reminder-user-call-permission-attempt-5.md) | User must approve tool calls based on permission settings. | 318 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-7.md`](../system-prompts/system-reminder-user-call-permission-attempt-7.md) | User must approve tool calls based on permission settings. | 318 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-7.md`](../system-prompts/system-reminder-user-call-permission-attempt-7.md) | User must approve tool calls based on permission settings. | 318 | 2.1.112 | 2.1.112 |
 | [`system-reminder-memory-extraction-custom-rules.md`](../system-prompts/system-reminder-memory-extraction-custom-rules.md) | Update persistent memory with recent messages. | 299 | 2.1.110 | 2.1.110 |
 | [`system-reminder-auto-mode-active-user-guidelines-2.md`](../system-prompts/system-reminder-auto-mode-active-user-guidelines-2.md) | Guidelines for executing in auto mode. | 278 | 2.1.84 | 2.1.84 |
 | [`system-reminder-session-outcome-json.md`](../system-prompts/system-reminder-session-outcome-json.md) | Request JSON evaluation of user goals, outcomes, satisfaction, and session friction. | 259 | 2.1.30 | 2.1.30 |
@@ -998,8 +1017,8 @@ _Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens
 | [`system-reminder-auto-mode-context-comparison-5.md`](../system-prompts/system-reminder-auto-mode-context-comparison-5.md) | Comparison of main loop tokens in auto mode. | 80 | 2.1.111 | 2.1.111 |
 | [`system-reminder-malware-analysis-only.md`](../system-prompts/system-reminder-malware-analysis-only.md) | Analyze suspected malware but refuse to improve or extend it. | 80 | 2.0.24 | 2.0.24 |
 | [`system-reminder-auto-mode-gate-access-check.md`](../system-prompts/system-reminder-auto-mode-gate-access-check.md) | Verify auto mode gate access settings. | 77 | 2.1.108 | 2.1.108 |
-| [`system-reminder-autonomous-cron-scheduled-tasks-2.md`](../system-prompts/system-reminder-autonomous-cron-scheduled-tasks-2.md) | Details on scheduled autonomous tasks and their expiration. | 76 | 2.1.109 | 2.1.109 |
-| [`system-reminder-autonomous-cron-scheduled-tasks.md`](../system-prompts/system-reminder-autonomous-cron-scheduled-tasks.md) | Multiple prompts (2) | 76 | 2.1.105 | 2.1.105 |
+| [`system-reminder-autonomous-cron-scheduled-tasks-2.md`](../system-prompts/system-reminder-autonomous-cron-scheduled-tasks-2.md) | Details on scheduled autonomous tasks and their expiration. | 76 | 2.1.112 | 2.1.112 |
+| [`system-reminder-autonomous-cron-scheduled-tasks-3.md`](../system-prompts/system-reminder-autonomous-cron-scheduled-tasks-3.md) | Details on scheduled autonomous tasks and their expiration. | 76 | 2.1.109 | 2.1.109 |
 | [`system-reminder-autonomous-cron-scheduled-tasks.md`](../system-prompts/system-reminder-autonomous-cron-scheduled-tasks.md) | Details on scheduled autonomous tasks and their expiration. | 76 | 2.1.111 | 2.1.111 |
 | [`system-reminder-auto-mode-api-usage-3.md`](../system-prompts/system-reminder-auto-mode-api-usage-3.md) | Details on API usage in auto mode. | 71 | 2.1.111 | 2.1.111 |
 | [`system-reminder-inner-errors-root-cause.md`](../system-prompts/system-reminder-inner-errors-root-cause.md) | Identifying likely root causes of inner tool errors. | 71 | 2.1.110 | 2.1.110 |
@@ -1146,7 +1165,7 @@ _Sorted by tokens (desc). Showing **453** reminders with more than **30** tokens
 | [`system-reminder-telemetry-otlp-log-exporters.md`](../system-prompts/system-reminder-telemetry-otlp-log-exporters.md) | Telemetry log exporter line showing types, protocol, and endpoint values. | 38 | 2.1.49 | 2.1.49 |
 | [`system-reminder-teleport-to-remote-env-vars.md`](../system-prompts/system-reminder-teleport-to-remote-env-vars.md) | Explicitly set environment variables for teleportation. | 38 | 2.1.81 | 2.1.81 |
 | [`system-reminder-token-refreshing-sessionid.md`](../system-prompts/system-reminder-token-refreshing-sessionid.md) | Refreshing token for session with new prefix. | 38 | 2.1.110 | 2.1.110 |
-| [`system-reminder-usage.md`](../system-prompts/system-reminder-usage.md) | Reminder to use the specified model. | 38 | 2.1.109 | 2.1.109 |
+| [`system-reminder-usage-2.md`](../system-prompts/system-reminder-usage-2.md) | Reminder to use the specified model. | 38 | 2.1.112 | 2.1.112 |
 | [`system-reminder-usage.md`](../system-prompts/system-reminder-usage.md) | Reminder to use the specified model. | 38 | 2.1.111 | 2.1.111 |
 | [`system-reminder-warning-failed-load-hooks.md`](../system-prompts/system-reminder-warning-failed-load-hooks.md) | Warning about failed plugin hooks. | 38 | 2.1.110 | 2.1.110 |
 | [`system-reminder-anthropic-billing-header-setup-4.md`](../system-prompts/system-reminder-anthropic-billing-header-setup-4.md) | Configuration for billing header in Anthropic. | 37 | 2.1.108 | 2.1.108 |
