@@ -1,4 +1,4 @@
-# System Prompt: memory-pruning-process-3
+# System Prompt: memory-pruning-process-2
 
 - Source: inline
 
