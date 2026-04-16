@@ -11,6 +11,7 @@ Invalid maxTurns value for plugin agent file.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Plugin agent file ${EXPR_1} has invalid maxTurns '${NUM}'. Must be a positive integer.
+Plugin agent file ${EXPR_1} has invalid maxTurns '${EXPR_2}'. Must be a positive integer.
