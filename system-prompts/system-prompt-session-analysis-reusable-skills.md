@@ -11,8 +11,6 @@ Capture session details for skill reuse.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `userDescriptionBlock` | None | None |
-| `sessionMemory` | None | None |
-| `userMessages` | None | None |
 | `skill_name` | None | None |
 | `one_line_description` | None | None |
 | `list_of_tool_permission_patterns_observe` | None | None |
@@ -27,17 +25,7 @@ Capture session details for skill reuse.
 
 You are capturing this session's repeatable process as a reusable skill.
 
-## Your Session Context
-
-Here is the session memory summary:
-<session_memory>
-{{sessionMemory}}
-<${PATH}>
-
-Here are the user's messages during this session. Pay attention to how they steered the process, to help capture their detailed preferences in the skill:
-<user_messages>
-{{userMessages}}
-<${PATH}>
+Review the conversation above — it is your source material. Pay particular attention to the user's messages (how they steered and corrected the process) and the tools${PATH} that were actually used.
 
 ## Your Task
 
