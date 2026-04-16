@@ -1,4 +1,4 @@
-# System Prompt: memory-types-user-team-contexts-2
+# System Prompt: memory-types-user-team-contexts
 
 - Source: inline
 
