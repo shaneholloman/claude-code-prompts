@@ -10,8 +10,8 @@ Indicates a failed session reconnection attempt.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | false | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-[bridge:token] reconnectSession(${EXPR_1}) failed: ${EXPR_2}
+[bridge:token] reconnectSession(${EXPR_1: false}) failed: ${EXPR_2}
