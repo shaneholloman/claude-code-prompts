@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (8)
+Multiple prompts (3)
 
 ## Placeholder Hints (source-backed)
 
@@ -18,7 +18,7 @@ Multiple prompts (8)
 | `EXPR_6` | None | None |
 
 # Raw Prompt Text
-[2m## allow (custom rules replacing defaults)
+## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_1}
 
@@ -39,4 +39,4 @@ ${EXPR_5}
 Defaults being replaced:
 ${EXPR_6}
 
-[22m
+ in extra usage for third-party apps · ${PATH}
