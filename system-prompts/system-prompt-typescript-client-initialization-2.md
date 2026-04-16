@@ -185,11 +185,11 @@ If `cache_read_input_tokens` is zero across repeated identical-prefix requests, 
 
 ## Extended Thinking
 
-> **Opus ${NUM} and Sonnet ${NUM}:** Use adaptive thinking. `budget_tokens` is deprecated on both Opus ${NUM} and Sonnet ${NUM}.
+> **Opus ${NUM}, Opus ${NUM}, and Sonnet ${NUM}:** Use adaptive thinking. `budget_tokens` is removed on Opus ${NUM} (${NUM} if sent); deprecated on Opus ${NUM} and Sonnet ${NUM}.
 > **Older models:** Use `thinking: {type: "enabled", budget_tokens: N}` (must be < `max_tokens`, min ${NUM}).
 
 ```typescript
-// Opus ${NUM}: adaptive thinking (recommended)
+// Opus ${NUM} / ${NUM}: adaptive thinking (recommended)
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
   max_tokens: ${NUM},
@@ -265,7 +265,7 @@ const response = await client.messages.create({
 
 ### Compaction (long conversations)
 
-> **Beta, Opus ${NUM} and Sonnet ${NUM}.** When conversations approach the 200K context window, compaction automatically summarizes earlier context server-side. The API returns a `compaction` block; you must pass it back on subsequent requests — append `response.content`, not just the text.
+> **Beta, Opus ${NUM}, Opus ${NUM}, and Sonnet ${NUM}.** When conversations approach the 200K context window, compaction automatically summarizes earlier context server-side. The API returns a `compaction` block; you must pass it back on subsequent requests — append `response.content`, not just the text.
 
 ```typescript
 import Anthropic from "@anthropic-ai${PATH}";
