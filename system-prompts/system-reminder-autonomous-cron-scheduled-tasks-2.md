@@ -1,4 +1,4 @@
-# System Reminder: autonomous-cron-scheduled-tasks-3
+# System Reminder: autonomous-cron-scheduled-tasks-2
 
 - Source: inline
 
@@ -11,7 +11,8 @@ Details on scheduled autonomous tasks and their expiration.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | CronDelete | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | CronDelete | None |
 
 # Raw Prompt Text
-what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_1} days, and that they can cancel sooner with ${EXPR_2: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.${NUM}
+${EXPR_1}what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_2} days, and that they can cancel sooner with ${EXPR_3: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.
