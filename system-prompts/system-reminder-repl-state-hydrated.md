@@ -14,4 +14,4 @@ Indicates REPL state has been hydrated.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-REPL state hydrated from ${EXPR_1} in  ms: ${EXPR_2}
+REPL state hydrated from ${EXPR_1} in 0ms: ${EXPR_2}
