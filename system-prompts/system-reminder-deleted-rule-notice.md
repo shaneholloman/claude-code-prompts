@@ -4,7 +4,7 @@
 
 ## Summary
 
-Confirms deletion of a specified rule.
+Indicates a specific rule and identifier were deleted.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,6 +12,9 @@ Confirms deletion of a specified rule.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Deleted ${EXPR_1} rule ${EXPR_2}
+${EXPR_1}
+
+Deleted ${EXPR_2} rule ${EXPR_3}
