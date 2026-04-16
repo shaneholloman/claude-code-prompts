@@ -4,11 +4,11 @@
 
 - Commands: 33
 - Options: 72
-- Env vars: 539
-- Config keys: 886
+- Env vars: 544
+- Config keys: 894
 - Tools: 3
 - Skills: 0
-- Models: 97
+- Models: 99
 - Providers: 8
 
 ## Commands
@@ -387,12 +387,14 @@
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS`
 - `CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES`
+- `CLAUDE_CODE_ENABLE_APPEND_SUBAGENT_PROMPT`
 - `CLAUDE_CODE_ENABLE_AWAY_SUMMARY`
 - `CLAUDE_CODE_ENABLE_BACKGROUND_PLUGIN_REFRESH`
 - `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_EXPERIMENTAL_ADVISOR_TOOL`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
+- `CLAUDE_CODE_ENABLE_PROXY_AUTH_HELPER`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TASKS`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
@@ -453,6 +455,7 @@
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
+- `CLAUDE_CODE_PROXY_AUTH_HELPER_TTL_MS`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_PWSH_PARSE_TIMEOUT_MS`
 - `CLAUDE_CODE_QUESTION_PREVIEW_FORMAT`
@@ -493,6 +496,7 @@
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
+- `CLAUDE_CODE_SYSTEM_PROMPT_GB_FEATURE`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TASK_LIST_ID`
 - `CLAUDE_CODE_TEAM_ONBOARDING`
@@ -685,6 +689,7 @@
 - `OTEL_EXPORTER_OTLP_TRACES_PROTOCOL`
 - `OTEL_EXPORTER_PROMETHEUS_HOST`
 - `OTEL_EXPORTER_PROMETHEUS_PORT`
+- `OTEL_LOG_RAW_API_BODIES`
 - `OTEL_LOG_TOOL_CONTENT`
 - `OTEL_LOG_TOOL_DETAILS`
 - `OTEL_LOG_USER_PROMPTS`
@@ -834,6 +839,7 @@
 - `apiKeySource`
 - `apiProvider`
 - `apiUsage`
+- `appendSubagentSystemPrompt`
 - `appendSystemPrompt`
 - `applied`
 - `appliedLimit`
@@ -1047,6 +1053,7 @@
 - `event`
 - `eventData`
 - `eventName`
+- `Ex`
 - `excludedCommands`
 - `excludeDefault`
 - `excludeDynamicSections`
@@ -1087,7 +1094,6 @@
 - `format`
 - `from`
 - `gcpAuthRefresh`
-- `gE`
 - `getOAuthToken`
 - `getUserId`
 - `gitBranch`
@@ -1156,6 +1162,7 @@
 - `is_error`
 - `is_image`
 - `is_interrupt`
+- `is1hCacheTTL`
 - `isAgent`
 - `isAuthenticating`
 - `isAutoCompactEnabled`
@@ -1329,6 +1336,7 @@
 - `percentage`
 - `permission_denials`
 - `permission_mode`
+- `permission_policy`
 - `permission_suggestions`
 - `permissionDecision`
 - `permissionDecisionReason`
@@ -1348,6 +1356,7 @@
 - `plansDirectory`
 - `planWasEdited`
 - `plugin`
+- `plugin_errors`
 - `pluginConfigs`
 - `pluginRoot`
 - `plugins`
@@ -1366,6 +1375,7 @@
 - `previousValue`
 - `priority`
 - `processed_at`
+- `projectKey`
 - `projectPath`
 - `projectSettings`
 - `prompt`
@@ -1374,9 +1384,12 @@
 - `prompt_response`
 - `promptSuggestionEnabled`
 - `promptSuggestions`
+- `proxyAuthHelper`
 - `pushSent`
 - `q`
+- `QE`
 - `query`
+- `queryDepth`
 - `question`
 - `questions`
 - `rate_limit_info`
@@ -1523,6 +1536,7 @@
 - `subagent_type`
 - `subagentStatusLine`
 - `subject`
+- `subpath`
 - `subscriptionType`
 - `subtype`
 - `success`
@@ -1659,7 +1673,6 @@
 - `worktreePath`
 - `ws_url`
 - `xaa`
-- `Zx`
 
 ## Tools
 
@@ -1735,6 +1748,7 @@ _None detected_
 - `claude-opus-4-5`
 - `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
+- `claude-opus-4-7`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
@@ -1763,6 +1777,7 @@ _None detected_
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
+- `opus-4-7`
 - `opus-pro-update`
 - `sonnet-3-7`
 - `sonnet-4`
