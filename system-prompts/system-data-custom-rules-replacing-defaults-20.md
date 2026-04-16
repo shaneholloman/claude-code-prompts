@@ -1,10 +1,10 @@
-# System Data Block: custom-rules-replacing-defaults-17
+# System Data Block: custom-rules-replacing-defaults-20
 
 - Source: inline
 
 ## Summary
 
-Custom rules for replacing defaults.
+Overview of custom rules and their replacements.
 
 ## Placeholder Hints (source-backed)
 
@@ -17,12 +17,9 @@ Custom rules for replacing defaults.
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
 
 # Raw Prompt Text
-## allow (custom rules replacing defaults)
+This screenshot was taken on monitor "## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_1}
 
@@ -43,14 +40,4 @@ ${EXPR_5}
 Defaults being replaced:
 ${EXPR_6}
 
-
-
-${EXPR_7}
-
-@anthropic-ai${PATH}
-
-brew upgrade ${EXPR_8}
-
- (PID ${EXPR_9})
-
-${EXPR_10}
+".${EXPR_7}
