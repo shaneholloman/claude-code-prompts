@@ -189,6 +189,8 @@ settings:periodDay
 
 settings:periodWeek
 
+settings:sortByTokens
+
 voice:pushToTalk
 
 scroll:pageUp
