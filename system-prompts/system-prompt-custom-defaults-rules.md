@@ -24,7 +24,7 @@ Custom rules replace default settings in the model.
 | `EXPR_12` | None | None |
 | `EXPR_13` | @anthropic-ai/claude-code | None |
 | `EXPR_14` | None | None |
-| `EXPR_15` | claude-opus-4-6 | None |
+| `EXPR_15` | claude-opus-4-7 | None |
 | `EXPR_16` | claude-sonnet-4-6 | None |
 | `EXPR_17` | claude-haiku-4-5-20251001 | None |
 
@@ -70,8 +70,8 @@ ${EXPR_12}
 
 npm view ${EXPR_13: '@anthropic-ai/claude-code'}@${EXPR_14} version
 
-The most recent Claude model family is Claude ${NUM} and ${NUM}. Model IDs — Opus ${NUM}: '${EXPR_15: 'claude-opus-4-6'}', Sonnet ${NUM}: '${EXPR_16: 'claude-sonnet-4-6'}', Haiku ${NUM}: '${EXPR_17: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
+The most recent Claude model family is Claude ${NUM}.X. Model IDs — Opus ${NUM}: '${EXPR_15: 'claude-opus-4-7'}', Sonnet ${NUM}: '${EXPR_16: 'claude-sonnet-4-6'}', Haiku ${NUM}: '${EXPR_17: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
 
 Claude Code is available as a CLI in the terminal, desktop app (Mac${PATH}), web app (claude.ai${PATH}), and IDE extensions (VS Code, JetBrains).
 
-Fast mode for Claude Code uses the same Claude Opus ${NUM} model with faster output. It does NOT switch to a different model. It can be toggled with ${PATH}
+Fast mode for Claude Code uses Claude Opus ${NUM} with faster output (it does not downgrade to a smaller model). It can be toggled with ${PATH} and is only available on Opus ${NUM}.
