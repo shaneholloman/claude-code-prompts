@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (6)
+Custom rules replace default settings.
 
 ## Placeholder Hints (source-backed)
 
@@ -16,27 +16,32 @@ Multiple prompts (6)
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | @anthropic-ai/claude-code | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
-## allow (custom rules replacing defaults)
+${EXPR_1}//## allow (custom rules replacing defaults)
 Custom:
-${EXPR_1}
+${EXPR_2}
 
 Defaults being replaced:
-${EXPR_2}
+${EXPR_3}
 
 ## soft_deny (custom rules replacing defaults)
 Custom:
-${EXPR_3}
+${EXPR_4}
 
 Defaults being replaced:
-${EXPR_4}
+${EXPR_5}
 
 ## environment (custom rules replacing defaults)
 Custom:
-${EXPR_5}
-
-Defaults being replaced:
 ${EXPR_6}
 
-${NUM}
+Defaults being replaced:
+${EXPR_7}
+
+stable${EXPR_8}npm view ${EXPR_9: '@anthropic-ai/claude-code'}@${EXPR_10} version${EXPR_11}
