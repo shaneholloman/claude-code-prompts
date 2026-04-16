@@ -121,7 +121,12 @@ Some ${NUM} errors are specifically related to parameter validation:
 - `budget_tokens` >= `max_tokens` in extended thinking
 - Invalid tool definition schema
 
-**Common mistake with extended thinking:**
+**Model-specific 400s on Opus ${NUM}:**
+
+- `temperature`, `top_p`, `top_k` are removed — sending any of them returns ${NUM}. Delete the parameter; see `shared${PATH}` → Per-SDK Syntax Reference.
+- `thinking: {type: "enabled", budget_tokens: N}` is removed — sending it returns ${NUM}. Use `thinking: {type: "adaptive"}` instead.
+
+**Common mistake with extended thinking on older models (Opus ${NUM} and earlier):**
 
 ```
 # Wrong: budget_tokens must be < max_tokens
@@ -177,7 +182,9 @@ thinking: budget_tokens=${NUM}, max_tokens=${NUM}
 
 | Mistake                         | Error            | Fix                                                     |
 | ------------------------------- | ---------------- | ------------------------------------------------------- |
-| `budget_tokens` >= `max_tokens` | ${NUM}              | Ensure `budget_tokens` < `max_tokens`                   |
+| `temperature`/`top_p`/`top_k` on Opus ${NUM} | ${NUM}    | Remove the parameter (see `shared${PATH}`)  |
+| `budget_tokens` on Opus ${NUM}     | ${NUM}              | Use `thinking: {type: "adaptive"}`                      |
+| `budget_tokens` >= `max_tokens` (older models) | ${NUM} | Ensure `budget_tokens` < `max_tokens`                  |
 | Typo in model ID                | ${NUM}              | Use valid model ID like `{{OPUS_ID}}`               |
 | First message is `assistant`    | ${NUM}              | First message must be `user`                            |
 | Consecutive same-role messages  | ${NUM}              | Alternate `user` and `assistant`                        |
