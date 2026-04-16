@@ -15,4 +15,4 @@ Manage slow permission decisions with specific parameters.
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Slow permission decision:  ms for ${EXPR_1} (mode=${EXPR_2}, behavior=${EXPR_3})
+Slow permission decision: 0ms for ${EXPR_1} (mode=${EXPR_2}, behavior=${EXPR_3})
