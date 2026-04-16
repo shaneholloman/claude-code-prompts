@@ -1,4 +1,4 @@
-# System Prompt: memory-extraction-custom-rules-2
+# System Prompt: memory-extraction-custom-rules
 
 - Source: inline
 
