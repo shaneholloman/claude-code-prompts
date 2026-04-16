@@ -49,7 +49,7 @@ All resources are under the `beta` namespace. Python and TypeScript share identi
 
 **Agent shorthand:** `agent` on session create accepts either a bare string (`agent="agent_abc123"` — uses latest version) or the full reference object (`{type: "agent", id: "agent_abc123", version: ${NUM}}`).
 
-**Model shorthand:** `model` on agent create accepts either a bare string (`model="claude-opus-${NUM}-${NUM}"` — uses `standard` speed) or the full config object (`{type: "model_config", id: "claude-opus-${NUM}-${NUM}", speed: "fast"}`).
+**Model shorthand:** `model` on agent create accepts either a bare string (`model="{{OPUS_ID}}"` — uses `standard` speed) or the full config object (`{type: "model_config", id: "claude-opus-${NUM}-${NUM}", speed: "fast"}`). Note: `speed: "fast"` is only supported on Opus ${NUM}.
 
 ---
 
