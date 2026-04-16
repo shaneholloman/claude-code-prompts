@@ -4,9 +4,11 @@
 
 ## Summary
 
-Multiple prompts (2)
+Guidelines for running Bash commands efficiently.
 
 # Raw Prompt Text
+When issuing multiple commands:
+
 If the commands are independent and can run in parallel, make multiple Bash tool calls in a single message. Example: if you need to run "git status" and "git diff", send a single message with two Bash tool calls in parallel.
 
 If the commands depend on each other and must run sequentially, use a single Bash call with '&&' to chain them together.
