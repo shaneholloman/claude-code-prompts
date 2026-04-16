@@ -1,4 +1,4 @@
-# System Prompt: watch-next-message-preferences-2
+# System Prompt: watch-next-message-preferences
 
 - Source: inline
 
