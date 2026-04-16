@@ -4,7 +4,7 @@
 
 ## Summary
 
-Reports hooks loaded and merged from a plugin manifest.
+Reports hooks loaded and merged from a plugin manifest with details.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,10 +12,6 @@ Reports hooks loaded and merged from a plugin manifest.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
-Loaded and merged hooks from manifest for plugin ${EXPR_1}: ${EXPR_2}${EXPR_3}${EXPR_4}${EXPR_5}${EXPR_6}
+Loaded and merged hooks from manifest for plugin ${EXPR_1}: ${EXPR_2}
