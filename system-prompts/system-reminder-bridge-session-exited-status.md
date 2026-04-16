@@ -10,10 +10,10 @@ Indicates session exit status and duration.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | false | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
-[bridge:session] sessionId=${EXPR_1} workId=${EXPR_2} exited status=${EXPR_3} duration=${EXPR_4}s
+[bridge:session] sessionId=${EXPR_1: false} workId=${EXPR_2} exited status=${EXPR_3} duration=${EXPR_4}s
