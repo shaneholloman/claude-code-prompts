@@ -16,6 +16,7 @@ Multiple prompts (3)
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 ## allow (custom rules replacing defaults)
@@ -39,4 +40,4 @@ ${EXPR_5}
 Defaults being replaced:
 ${EXPR_6}
 
- in extra usage for third-party apps · ${PATH}
+ (${EXPR_7})
