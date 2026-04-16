@@ -1,18 +1,18 @@
-# System Data Block: custom-defaults-rules-replacing-15
+# System Data Block: custom-defaults-rules-replacing-18
 
 - Source: inline
 
 ## Summary
 
-Defines custom rules that override default settings.
+Custom rules replace default settings.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | @anthropic-ai/claude-code | None |
+| `EXPR_2` | @anthropic-ai/claude-code | None |
+| `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
@@ -21,10 +21,16 @@ Defines custom rules that override default settings.
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
-| `EXPR_12` | CronDelete | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
-(?:${EXPR_1}${EXPR_2}npm view ${EXPR_3: '@anthropic-ai/claude-code'}@${EXPR_4} version)?stable## allow (custom rules replacing defaults)
+${EXPR_1}
+
+npm view ${EXPR_2: '@anthropic-ai/claude-code'}@${EXPR_3} version
+
+brew upgrade ${EXPR_4}
+
+## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_5}
 
@@ -45,4 +51,14 @@ ${EXPR_9}
 Defaults being replaced:
 ${EXPR_10}
 
-what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_11} days, and that they can cancel sooner with ${EXPR_12: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.
+
+
+stable
+
+${EXPR_11}
+
+global
+
+${EXPR_12}
+
+@anthropic-ai${PATH}
