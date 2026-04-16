@@ -309,12 +309,12 @@ Styling elements with font, color, and borders.
 
     ${EXPR_40}
 
-    GitHub not connected for ${EXPR_41}/${EXPR_42} — run ${PATH} to sync your GitHub credentials, or install the Claude GitHub App at ${URL}
+    pr-${EXPR_41}
 
     server
 
-    ${EXPR_43} failed to load
+    ${EXPR_42} failed to load
   <${PATH}>
-  <script>${EXPR_44}${EXPR_45}${EXPR_46}${EXPR_47}${EXPR_48}<${PATH}>
+  <script>${EXPR_43}<${PATH}>
 <${PATH}>
 <${PATH}>
