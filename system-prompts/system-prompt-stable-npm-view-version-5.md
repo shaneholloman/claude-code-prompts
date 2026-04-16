@@ -1,4 +1,4 @@
-# System Prompt: stable-npm-view-version-5
+# System Prompt: stable-npm-view-version-4
 
 - Source: inline
 
