@@ -11,7 +11,7 @@ Stripping beta headers from API requests.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | false | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-[API:client] SIMULATE_PROXY_USAGE: stripping ${EXPR_1} beta headers from request: ${EXPR_2: false}
+[API:client] SIMULATE_PROXY_USAGE: stripping ${EXPR_1} beta headers from request: ${EXPR_2}
