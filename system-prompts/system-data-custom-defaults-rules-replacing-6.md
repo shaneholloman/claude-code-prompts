@@ -4,7 +4,7 @@
 
 ## Summary
 
-Custom rules replace default settings.
+Multiple prompts (6)
 
 ## Placeholder Hints (source-backed)
 
@@ -16,9 +16,6 @@ Custom rules replace default settings.
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | @anthropic-ai/claude-code | None |
-| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 ## allow (custom rules replacing defaults)
@@ -42,8 +39,4 @@ ${EXPR_5}
 Defaults being replaced:
 ${EXPR_6}
 
-
-
-${EXPR_7}
-
-npm view ${EXPR_8: '@anthropic-ai/claude-code'}@${EXPR_9} version
+${NUM}
