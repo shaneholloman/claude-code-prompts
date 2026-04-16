@@ -14,4 +14,4 @@ Filtered sessions for a specific repo.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Filtered ${EXPR_1} sessions for repo   from ${EXPR_2} total
+Filtered ${EXPR_1} sessions for repo ${NUM} from ${EXPR_2} total
