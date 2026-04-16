@@ -31,6 +31,7 @@ This file contains WebFetch URLs for fetching current information from platform.
 | Topic           | URL                                                                          | Extraction Prompt                                                               |
 | --------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Models Overview | `${URL}        | "Extract current model IDs, context windows, and pricing for all Claude models" |
+| Migration Guide | `${URL} | "Extract breaking changes, deprecated parameters, and per-model migration steps when moving to a newer Claude model" |
 | Pricing         | `${URL}                             | "Extract current pricing per million tokens for input and output"               |
 
 ### Core Features
