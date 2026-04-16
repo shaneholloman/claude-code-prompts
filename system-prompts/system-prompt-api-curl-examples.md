@@ -1,4 +1,4 @@
-# System Data Block: api-curl-raw-http
+# System Prompt: api-curl-examples
 
 - Source: inline
 
@@ -197,11 +197,11 @@ For ${NUM}-hour TTL: `"cache_control": {"type": "ephemeral", "ttl": "1h"}`. Top-
 
 ## Extended Thinking
 
-> **Opus ${NUM} and Sonnet ${NUM}:** Use adaptive thinking. `budget_tokens` is deprecated on both Opus ${NUM} and Sonnet ${NUM}.
+> **Opus ${NUM}, Opus ${NUM}, and Sonnet ${NUM}:** Use adaptive thinking. `budget_tokens` is removed on Opus ${NUM} (${NUM} if sent); deprecated on Opus ${NUM} and Sonnet ${NUM}.
 > **Older models:** Use `"type": "enabled"` with `"budget_tokens": N` (must be < `max_tokens`, min ${NUM}).
 
 ```bash
-# Opus ${NUM}: adaptive thinking (recommended)
+# Opus ${NUM} / ${NUM}: adaptive thinking (recommended)
 curl ${URL} \
   -H "Content-Type: application${PATH}" \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
