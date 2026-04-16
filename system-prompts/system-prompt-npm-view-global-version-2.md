@@ -1,4 +1,4 @@
-# System Prompt: npm-view-global-version-2
+# System Prompt: npm-view-global-version
 
 - Source: inline
 
