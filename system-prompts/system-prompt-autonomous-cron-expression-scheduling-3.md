@@ -1,10 +1,10 @@
-# System Prompt: autonomous-cron-expression-scheduling-4
+# System Prompt: autonomous-cron-expression-scheduling-3
 
-- Source: inline
+- Source: projectSettings
 
 ## Summary
 
-Details on scheduled tasks and their auto-expiration.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
@@ -14,6 +14,4 @@ Details on scheduled tasks and their auto-expiration.
 | `EXPR_2` | CronDelete | None |
 
 # Raw Prompt Text
--c
-
 what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_1} days, and that they can cancel sooner with ${EXPR_2: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.
