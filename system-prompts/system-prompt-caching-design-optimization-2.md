@@ -120,7 +120,7 @@ Fix by moving the dynamic piece after the last breakpoint, making it determinist
 
 | Model | Minimum |
 |---|---:|
-| Opus ${NUM}, Opus ${NUM}, Haiku ${NUM} | ${NUM} tokens |
+| Opus ${NUM}, Opus ${NUM}, Opus ${NUM}, Haiku ${NUM} | ${NUM} tokens |
 | Sonnet ${NUM}, Haiku ${NUM}, Haiku ${NUM} | ${NUM} tokens |
 | Sonnet ${NUM}, Sonnet ${NUM}, Sonnet ${NUM}, Sonnet ${NUM} | ${NUM} tokens |
 
