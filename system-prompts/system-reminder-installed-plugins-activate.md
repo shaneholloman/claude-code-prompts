@@ -10,7 +10,7 @@ Multiple prompts (2)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | false | None |
 
 # Raw Prompt Text
-✓ Installed ${EXPR_1} plugin. Run ${PATH} to activate.
+✓ Installed ${EXPR_1: false} plugin. Run ${PATH} to activate.
