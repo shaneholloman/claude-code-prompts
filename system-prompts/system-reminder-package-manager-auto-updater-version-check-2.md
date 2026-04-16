@@ -10,7 +10,7 @@ Current version is at or above the maximum version.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 2.1.111 | None |
+| `EXPR_1` | 2.1.112 | None |
 
 # Raw Prompt Text
-PackageManagerAutoUpdater: current version ${EXPR_1: '2.1.111'} is already at or above maxVersion off, skipping update
+PackageManagerAutoUpdater: current version ${EXPR_1: '2.1.112'} is already at or above maxVersion off, skipping update
