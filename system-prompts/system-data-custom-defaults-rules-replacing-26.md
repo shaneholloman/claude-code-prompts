@@ -1,0 +1,45 @@
+# System Data Block: custom-defaults-rules-replacing-26
+
+- Source: inline
+
+## Summary
+
+Custom rules for replacing default settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | @anthropic-ai/claude-code | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+
+# Raw Prompt Text
+${EXPR_1}
+  description: npm view ${EXPR_2: '@anthropic-ai/claude-code'}@${EXPR_3} version
+  input_schema: ## allow (custom rules replacing defaults)
+Custom:
+${EXPR_4}
+
+Defaults being replaced:
+${EXPR_5}
+
+## soft_deny (custom rules replacing defaults)
+Custom:
+${EXPR_6}
+
+Defaults being replaced:
+${EXPR_7}
+
+## environment (custom rules replacing defaults)
+Custom:
+${EXPR_8}
+
+Defaults being replaced:
+${EXPR_9}
