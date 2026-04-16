@@ -1,10 +1,10 @@
-# System Data Block: custom-rules-replacing-defaults-11
+# System Data Block: custom-rules-replacing-defaults-26
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (2)
+Custom rules replace default settings.
 
 ## Placeholder Hints (source-backed)
 
@@ -17,9 +17,11 @@ Multiple prompts (2)
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | @anthropic-ai/claude-code | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
-(## allow (custom rules replacing defaults)
+## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_1}
 
@@ -40,4 +42,8 @@ ${EXPR_5}
 Defaults being replaced:
 ${EXPR_6}
 
-(?:(?!server${EXPR_7}).)*?)
+
+
+${EXPR_7}
+
+npm view ${EXPR_8: '@anthropic-ai/claude-code'}@${EXPR_9} version
