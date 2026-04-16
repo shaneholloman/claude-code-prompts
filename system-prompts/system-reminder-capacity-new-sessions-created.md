@@ -13,4 +13,4 @@ Indicates current capacity and new session creation.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Capacity: ${EXPR_1}/${NUM} · New sessions will be created in the current directory
+Capacity: pr-${EXPR_1}/${NUM} · New sessions will be created in the current directory
