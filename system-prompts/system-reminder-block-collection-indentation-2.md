@@ -14,4 +14,4 @@ Block collection must be sufficiently indented.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1} in block collection must be sufficiently indented and end with a brew upgrade ${EXPR_2}
+pr-${EXPR_1} in block collection must be sufficiently indented and end with a brew upgrade ${EXPR_2}
