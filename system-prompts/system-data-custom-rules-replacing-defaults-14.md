@@ -1,10 +1,10 @@
-# System Data Block: custom-rules-replacing-defaults-26
+# System Data Block: custom-rules-replacing-defaults-14
 
 - Source: inline
 
 ## Summary
 
-Defines custom rules replacing defaults.
+Custom rules for replacing default settings.
 
 ## Placeholder Hints (source-backed)
 
@@ -17,25 +17,30 @@ Defines custom rules replacing defaults.
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}:## allow (custom rules replacing defaults)
+## allow (custom rules replacing defaults)
 Custom:
-${EXPR_2}
+${EXPR_1}
 
 Defaults being replaced:
-${EXPR_3}
+${EXPR_2}
 
 ## soft_deny (custom rules replacing defaults)
 Custom:
-${EXPR_4}
+${EXPR_3}
 
 Defaults being replaced:
-${EXPR_5}
+${EXPR_4}
 
 ## environment (custom rules replacing defaults)
 Custom:
-${EXPR_6}
+${EXPR_5}
 
 Defaults being replaced:
-${EXPR_7}
+${EXPR_6}
+
+${EXPR_7}${EXPR_8}${EXPR_9}${EXPR_10}
