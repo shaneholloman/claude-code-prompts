@@ -14,7 +14,7 @@ Build a memory system for user collaboration.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | resolved string (468 chars) | [system-prompt-when-to-access-memories-2.md](system-prompt-when-to-access-memories-2.md), [system-prompt-memory-user-project-team.md](system-prompt-memory-user-project-team.md) |
+| `EXPR_5` | resolved string (468 chars) | [system-prompt-memory-user-project-team.md](system-prompt-memory-user-project-team.md), [system-prompt-when-to-access-memories-2.md](system-prompt-when-to-access-memories-2.md) |
 
 # Raw Prompt Text
 # ${EXPR_1}
