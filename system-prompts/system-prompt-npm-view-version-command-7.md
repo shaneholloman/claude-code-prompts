@@ -1,4 +1,4 @@
-# System Prompt: npm-view-version-command-5
+# System Prompt: npm-view-version-command-4
 
 - Source: inline
 
