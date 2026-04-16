@@ -1,10 +1,10 @@
-# System Data Block: custom-defaults-rules-replacing-20
+# System Data Block: custom-defaults-rules-replacing-25
 
 - Source: inline
 
 ## Summary
 
-Custom rules replace default settings.
+Custom rules replacing default settings.
 
 ## Placeholder Hints (source-backed)
 
@@ -14,57 +14,27 @@ Custom rules replace default settings.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | @anthropic-ai/claude-code | None |
+| `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
 
 # Raw Prompt Text
-(PID ${EXPR_1})
-
-${EXPR_2}
-
-${EXPR_3} loaded with errors
-
-${EXPR_4}
-
-stable
-
-npm view ${EXPR_5: '@anthropic-ai/claude-code'}@${EXPR_6} version
-
-## allow (custom rules replacing defaults)
+metrics.## allow (custom rules replacing defaults)
 Custom:
-${EXPR_7}
+${EXPR_1}
 
 Defaults being replaced:
-${EXPR_8}
+${EXPR_2}
 
 ## soft_deny (custom rules replacing defaults)
 Custom:
-${EXPR_9}
+${EXPR_3}
 
 Defaults being replaced:
-${EXPR_10}
+${EXPR_4}
 
 ## environment (custom rules replacing defaults)
 Custom:
-${EXPR_11}
+${EXPR_5}
 
 Defaults being replaced:
-${EXPR_12}
-
-
-
-${EXPR_13}
-
-global
-
-@anthropic-ai${PATH}
-
-${EXPR_14}
+${EXPR_6}
