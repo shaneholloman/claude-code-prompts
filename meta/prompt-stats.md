@@ -3259,7 +3259,7 @@
 | system-data | [Bedrock Provisioned Summary Fields](../system-prompts/system-data-bedrock-provisioned-summary-fields.md) | 412 | 175 | 2.0.63 | 2.0.63 |
 | system | [Mcp Selection For Apps](../system-prompts/system-prompt-mcp-selection-for-apps.md) | 4877 | 1221 | 2.1.89 | 2.1.89 |
 | system | [Guide Scope Docs](../system-prompts/system-prompt-guide-scope-docs.md) | 3026 | 755 | 2.1.84 | 2.1.84 |
-| system-reminder | [User Call Permission](../system-prompts/system-reminder-user-call-permission-7.md) | 1619 | 330 | 2.1.109 | 2.1.109 |
+| system-reminder | [User Call Permission](../system-prompts/system-reminder-user-call-permission.md) | 1619 | 330 | 2.1.109 | 2.1.109 |
 | system-reminder | [Invalid Option User Permission](../system-prompts/system-reminder-invalid-option-user-permission.md) | 1636 | 344 | 2.1.112 | 2.1.112 |
 | system-data | [Bedrock Get Async Invoke Response](../system-prompts/system-data-bedrock-get-async-invoke-response.md) | 289 | 121 | 2.0.63 | 2.0.63 |
 | system | [Identity Banner](../system-prompts/system-prompt-identity-banner.md) | 217 | 53 | 2.0.70 | 2.0.70 |
@@ -3405,13 +3405,13 @@
 | system-reminder | [Invalid Selection User Permission](../system-prompts/system-reminder-invalid-selection-user-permission.md) | 1620 | 340 | 2.1.112 | 2.1.112 |
 | system-reminder | [Unrecognized Key User Permission](../system-prompts/system-reminder-unrecognized-key-user-permission.md) | 1611 | 332 | 2.1.112 | 2.1.112 |
 | system-data | [Dom Media Input Events List](../system-prompts/system-data-dom-media-input-events-list.md) | 515 | 153 | 0.2.33 | 0.2.33 |
-| system-data | [Custom Defaults Replacing Rules 2](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | 340 | 114 | 2.1.109 | 2.1.109 |
+| system-data | [Custom Defaults Replacing Rules 2](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | 340 | 114 | 2.1.112 | 2.1.112 |
 | system-data | [Bedrockruntime Invoke Request Fields](../system-prompts/system-data-bedrockruntime-invoke-request-fields.md) | 304 | 132 | 2.0.63 | 2.0.63 |
 | system-data | [Custom Defaults Rules Replacing 23](../system-prompts/system-data-custom-defaults-rules-replacing-23.md) | 325 | 160 | 2.1.111 | 2.1.111 |
 | system-data | [Custom Rules Replacing Defaults Data](../system-prompts/system-data-custom-defaults-replacing-rules-13.md) | 311 | 103 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Call Permission Summary](../system-prompts/system-reminder-user-call-permission-summary.md) | 3207 | 642 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Call Permission Summary 2](../system-prompts/system-reminder-user-call-permission-summary-2.md) | 3197 | 636 | 2.1.112 | 2.1.112 |
-| system-data | [Custom Defaults Rules Replacing 20](../system-prompts/system-data-custom-defaults-rules-replacing-25.md) | 479 | 178 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Defaults Rules Replacing 20](../system-prompts/system-data-custom-defaults-rules-replacing-20.md) | 479 | 178 | 2.1.112 | 2.1.112 |
 | system | [Searching Past Context](../system-prompts/system-prompt-searching-past-context.md) | 325 | 90 | 2.1.77 | 2.1.77 |
 | system-data | [Files Api Python Upload](../system-prompts/system-prompt-files-api-python-upload.md) | 4051 | 1283 | 2.1.77 | 2.1.77 |
 | system-reminder | [User Call Permission Details](../system-prompts/system-reminder-user-call-permission-details.md) | 1636 | 341 | 2.1.109 | 2.1.109 |
@@ -3542,20 +3542,20 @@
 | system-data | [Old Session Custom Rules](../system-prompts/system-prompt-custom-rules-replacing-defaults-76.md) | 373 | 122 | 2.1.108 | 2.1.108 |
 | system | [Guide Scope Docs 2](../system-prompts/system-prompt-guide-scope-docs-2.md) | 3037 | 750 | 2.1.109 | 2.1.109 |
 | system-data | [Create Guardrail Request Fields](../system-prompts/system-data-create-guardrail-request-fields.md) | 471 | 180 | 2.0.63 | 2.0.63 |
-| system-data | [Custom Defaults Rules Replacing 13](../system-prompts/system-data-custom-rules-replacing-defaults-19.md) | 305 | 99 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Defaults Rules Replacing 13](../system-prompts/system-data-custom-defaults-rules-replacing-13.md) | 305 | 99 | 2.1.112 | 2.1.112 |
 | system-reminder | [User Reminders Thinking](../system-prompts/system-reminder-user-reminders-thinking.md) | 549 | 112 | 2.1.107 | 2.1.107 |
 | system | [Bash Command Prefix Risk Policy](../system-prompts/system-reminder-bash-command-prefix-detection.md) | 2910 | 852 | 2.1.20 | 2.1.41 |
 | system | [Building Apps With](../system-prompts/system-prompt-building-apps-with.md) | 32447 | 8976 | 2.1.111 | 2.1.111 |
 | system-data | [Ruby Sdk Client Initialization](../system-prompts/system-prompt-ruby-sdk-api.md) | 2914 | 926 | 2.1.83 | 2.1.83 |
 | system-reminder | [Invalid Option User Message Fr](../system-prompts/system-reminder-invalid-option-user-message-fr.md) | 1652 | 332 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Call Permission Attempt 19](../system-prompts/system-reminder-unknown-keys-user-permission-2.md) | 1626 | 328 | 2.1.109 | 2.1.109 |
-| system-reminder | [Invalid Selection User Permission 2](../system-prompts/system-reminder-invalid-selection-user-permission.md) | 1650 | 340 | 2.1.112 | 2.1.112 |
+| system-reminder | [Invalid Selection User Permission 2](../system-prompts/system-reminder-invalid-selection-user-permission-2.md) | 1650 | 340 | 2.1.112 | 2.1.112 |
 | system-data | [Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 2.1.47 |
 | system | [Architect Configs From Needs](../system-prompts/system-prompt-architect-configs-from-needs.md) | 5062 | 1139 | 2.1.112 | 2.1.112 |
 | system-data | [Whimsical Adjective Wordlist](../system-prompts/system-data-whimsical-adjective-wordlist.md) | 1968 | 628 | 2.0.58 | 2.0.58 |
 | system | [Advisor Call Approach](../system-prompts/system-prompt-advisor-call-approach.md) | 2017 | 436 | 2.1.98 | 2.1.98 |
 | system-data | [Filesystem Api Operations List](../system-prompts/system-data-filesystem-api-operations-list.md) | 280 | 101 | 2.0.24 | 2.0.24 |
-| system-data | [Custom Rules Replacing Defaults 11](../system-prompts/system-data-custom-rules-replacing-defaults-26.md) | 332 | 112 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Rules Replacing Defaults 11](../system-prompts/system-data-custom-rules-replacing-defaults-11.md) | 332 | 112 | 2.1.112 | 2.1.112 |
 | system-reminder | [User Call Permission Attempt 20](../system-prompts/system-reminder-user-call-permission-attempt-20.md) | 1605 | 319 | 2.1.112 | 2.1.112 |
 | system-data | [Report Page Css Styles](../system-prompts/system-prompt-font-border-color-margin-size.md) | 11221 | 4570 | 2.1.77 | 2.1.77 |
 | system | [Chrome Automation Guidelines 2](../system-prompts/system-prompt-chrome-automation-guidelines-2.md) | 3720 | 871 | 2.1.109 | 2.1.109 |
@@ -3588,7 +3588,7 @@
 | system-data | [Scope Spans Custom Rules](../system-prompts/system-data-scope-spans-custom-rules.md) | 313 | 102 | 2.1.109 | 2.1.109 |
 | system-data | [Spans Custom Rules Replacing Defaults](../system-prompts/system-data-spans-custom-rules-replacing-defaults.md) | 308 | 99 | 2.1.109 | 2.1.109 |
 | system-data | [Value Custom Rules Replacing Defaults](../system-prompts/system-data-value-custom-rules-replacing-defaults.md) | 308 | 99 | 2.1.109 | 2.1.109 |
-| system-reminder | [User Call Permission Attempt 21](../system-prompts/system-reminder-user-call-permission-attempt-32.md) | 1623 | 331 | 2.1.111 | 2.1.111 |
+| system-reminder | [User Call Permission Attempt 21](../system-prompts/system-reminder-user-call-permission-attempt-21.md) | 1623 | 331 | 2.1.112 | 2.1.112 |
 | system-reminder | [Invalid Option Expected Value](../system-prompts/system-reminder-invalid-option-expected-value.md) | 1641 | 333 | 2.1.111 | 2.1.111 |
 | system-data | [Http Status Clienttype Arch](../system-prompts/system-prompt-http-status-architecture.md) | 206 | 59 | 2.1.108 | 2.1.108 |
 | system-reminder | [User File Snapshot Call](../system-prompts/system-reminder-user-file-snapshot-call.md) | 2449 | 559 | 2.1.98 | 2.1.98 |
@@ -3603,7 +3603,7 @@
 | system-reminder | [User Call Permission Attempt 23](../system-prompts/system-reminder-user-call-permission-attempt-19.md) | 1634 | 334 | 2.1.109 | 2.1.109 |
 | system-data | [Apikey Helper Install Methods](../system-prompts/system-data-apikey-helper-install-methods.md) | 881 | 265 | 2.1.110 | 2.1.110 |
 | system | [Git Commit Safety Protocol](../system-prompts/system-prompt-git-commit-safety-protocol.md) | 6206 | 1518 | 2.1.112 | 2.1.112 |
-| system-data | [Custom Rules Replacing Defaults 17](../system-prompts/system-data-custom-rules-replacing-defaults-20.md) | 394 | 98 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Rules Replacing Defaults 17](../system-prompts/system-data-custom-rules-replacing-defaults-17.md) | 394 | 98 | 2.1.112 | 2.1.112 |
 | system-reminder | [User Permission Calls 3](../system-prompts/system-reminder-user-permission-calls-3.md) | 3546 | 751 | 2.1.98 | 2.1.98 |
 | system-data | [Bedrockruntime Guardrail Usage Units](../system-prompts/system-data-bedrockruntime-guardrail-usage-units.md) | 408 | 170 | 2.0.63 | 2.0.63 |
 | system-data | [Macos Sandbox Policy Rules](../system-prompts/system-data-macos-sandbox-policy-rules.md) | 4617 | 1805 | 2.1.110 | 2.1.110 |
@@ -3680,7 +3680,7 @@
 | system-data | [Html Element Name List](../system-prompts/system-data-html-element-name-list.md) | 442 | 160 | 0.2.9 | 0.2.9 |
 | system-data | [Numeric Placeholder Block](../system-prompts/system-data-numeric-placeholder-block.md) | 901 | 531 | 0.2.9 | 0.2.9 |
 | system | [Typescript Use Overview](../system-prompts/system-prompt-typescript-use-overview.md) | 15396 | 4854 | 2.1.77 | 2.1.77 |
-| system-reminder | [User Call Permission 7](../system-prompts/system-reminder-user-call-permission-attempt-40.md) | 1623 | 330 | 2.1.109 | 2.1.109 |
+| system-reminder | [User Call Permission 7](../system-prompts/system-reminder-user-call-permission-7.md) | 1623 | 330 | 2.1.112 | 2.1.112 |
 | system-reminder | [User Permission Call](../system-prompts/system-reminder-user-permission-call-7.md) | 1631 | 334 | 2.1.109 | 2.1.109 |
 | system-data | [Http Header Field List](../system-prompts/system-data-http-header-field-list.md) | 1575 | 501 | 0.2.125 | 0.2.125 |
 | system | [Spawn And Cleanup Team](../system-prompts/system-prompt-spawn-and-cleanup-team.md) | 83 | 19 | 2.1.32 | 2.1.32 |
@@ -3738,7 +3738,7 @@
 | system-reminder | [User Call Permission Attempt 29](../system-prompts/system-reminder-user-call-approval.md) | 1642 | 337 | 2.1.104 | 2.1.104 |
 | system | [Npm View Global Version 2](../system-prompts/system-prompt-npm-view-global-version.md) | 46 | 18 | 2.1.109 | 2.1.109 |
 | system-data | [Redirections Management Automation Language](../system-prompts/system-prompt-redirections-management-automation.md) | 11022 | 3497 | 2.1.90 | 2.1.90 |
-| system-reminder | [User Call Permission Attempt 30](../system-prompts/system-reminder-user-call-permission-attempt-21.md) | 1606 | 320 | 2.1.111 | 2.1.111 |
+| system-reminder | [User Call Permission Attempt 30](../system-prompts/system-reminder-user-call-permission-attempt-30.md) | 1606 | 320 | 2.1.111 | 2.1.111 |
 | system-data | [Format Stream Json Available Environments 2](../system-prompts/system-data-format-stream-json-available-environments-2.md) | 412 | 185 | 2.1.111 | 2.1.111 |
 | system-data | [Copy Toggle Collapsible Js](../system-prompts/system-prompt-copy-text-and-toggle-collapsible.md) | 4378 | 1359 | 2.1.92 | 2.1.92 |
 | system | [Stable Npm View Version Loaded](../system-prompts/system-prompt-stable-npm-view-version-loaded.md) | 74 | 28 | 2.1.105 | 2.1.105 |
@@ -3750,7 +3750,7 @@
 | system-data | [Bedrock Foundation Details 2](../system-prompts/system-data-bedrock-foundation-details-2.md) | 341 | 137 | 2.1.109 | 2.1.109 |
 | system-data | [Bedrock Get Custom Response Fields](../system-prompts/system-data-bedrock-get-custom-response-fields.md) | 468 | 182 | 2.0.63 | 2.0.63 |
 | system | [Install Cursor Keybinding Locally](../system-prompts/system-prompt-install-cursor-keybinding-locally-2.md) | 392 | 137 | 2.1.32 | 2.1.32 |
-| system-reminder | [User Call Permission Attempt 31](../system-prompts/system-reminder-user-call-permission-9.md) | 1629 | 330 | 2.1.109 | 2.1.109 |
+| system-reminder | [User Call Permission Attempt 31](../system-prompts/system-reminder-user-call-permission-attempt-31.md) | 1629 | 330 | 2.1.109 | 2.1.109 |
 | system-reminder | [Unknown Keys Permission](../system-prompts/system-reminder-unknown-keys-permission.md) | 1619 | 325 | 2.1.109 | 2.1.109 |
 | system-data | [Custom Defaults Replacing Rules 9](../system-prompts/system-data-custom-rules-replacing-defaults-9.md) | 339 | 113 | 2.1.109 | 2.1.109 |
 | system-data | [Invoke Response Stream Request Fields](../system-prompts/system-data-invoke-response-stream-request-fields.md) | 322 | 135 | 2.0.63 | 2.0.63 |
@@ -3802,7 +3802,7 @@
 | system | [Api Curl Examples](../system-prompts/system-prompt-api-curl-examples.md) | 6430 | 2216 | 2.1.111 | 2.1.111 |
 | system-reminder | [User Call Permission Attempt 36](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | 1610 | 333 | 2.1.109 | 2.1.109 |
 | system-data | [Function Command Ostype Argv](../system-prompts/system-prompt-bin-command-ostype-argv-elif.md) | 541 | 265 | 2.1.92 | 2.1.92 |
-| system-reminder | [User Call Permission Attempt 37](../system-prompts/system-reminder-user-call-permission-attempt-31.md) | 1614 | 330 | 2.1.109 | 2.1.109 |
+| system-reminder | [User Call Permission Attempt 37](../system-prompts/system-reminder-user-call-permission-attempt-37.md) | 1614 | 330 | 2.1.109 | 2.1.109 |
 | system | [Setup Skills Hooks](../system-prompts/system-prompt-setup-skills-hooks.md) | 18286 | 4884 | 2.1.81 | 2.1.81 |
 | system-data | [Custom Rules Replacing Defaults 21](../system-prompts/system-data-custom-rules-replacing-defaults-21.md) | 312 | 104 | 2.1.109 | 2.1.109 |
 | system | [Opus Sonnet Supported Haiku](../system-prompts/system-prompt-opus-sonnet-supported-haiku.md) | 8670 | 2728 | 2.1.111 | 2.1.111 |
@@ -3815,7 +3815,7 @@
 | system | [Git Commit Changes Message Create](../system-prompts/system-prompt-git-commit-changes-message-create.md) | 1908 | 501 | 2.1.77 | 2.1.77 |
 | system-data | [Custom Rules Overriding Defaults](../system-prompts/system-prompt-custom-rules-replacing-defaults-16.md) | 680 | 208 | 2.1.108 | 2.1.108 |
 | system-data | [Custom Defaults Autonomous Rules Replacing](../system-prompts/system-data-custom-defaults-autonomous-rules-replacing.md) | 973 | 280 | 2.1.111 | 2.1.111 |
-| system-data | [Custom Defaults Rules Replacing 15](../system-prompts/system-data-custom-defaults-rules-replacing-18.md) | 657 | 200 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Defaults Rules Replacing 15](../system-prompts/system-data-custom-defaults-rules-replacing-15.md) | 657 | 200 | 2.1.112 | 2.1.112 |
 | system | [Bash Read Only Commands 2](../system-prompts/system-prompt-bash-read-only-commands-2.md) | 444 | 130 | 2.1.105 | 2.1.105 |
 | system | [Autonomous Default Dynamic Pacing](../system-prompts/system-prompt-autonomous-default-dynamic-pacing.md) | 208 | 59 | 2.1.101 | 2.1.101 |
 | system | [Loop Tasks Dynamic Pacing](../system-prompts/system-prompt-loop-tasks-dynamic-pacing.md) | 235 | 75 | 2.1.101 | 2.1.101 |
@@ -3869,7 +3869,7 @@
 | system-reminder | [Unrecognized Keys User Permission](../system-prompts/system-reminder-unrecognized-keys-user-permission.md) | 1628 | 327 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Call Permission Attempt 40](../system-prompts/system-reminder-user-call-permission-attempt-40.md) | 1624 | 326 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Approval Calls](../system-prompts/system-reminder-user-approval-calls.md) | 1634 | 330 | 2.1.109 | 2.1.109 |
-| system-reminder | [Invalid Option User Permission 2](../system-prompts/system-reminder-invalid-option-user-permission.md) | 1633 | 329 | 2.1.112 | 2.1.112 |
+| system-reminder | [Invalid Option User Permission 2](../system-prompts/system-reminder-invalid-option-user-permission-2.md) | 1633 | 329 | 2.1.112 | 2.1.112 |
 | system-data | [Custom Defaults Replacing Rules 11](../system-prompts/system-data-custom-defaults-replacing-rules-9.md) | 307 | 99 | 2.1.109 | 2.1.109 |
 | system-data | [Global Chat Autocomplete Help](../system-prompts/system-prompt-global-chat-autocomplete-help.md) | 219 | 59 | 2.1.105 | 2.1.105 |
 | system | [Onboarding Guide For](../system-prompts/system-prompt-onboarding-guide-for.md) | 4664 | 1194 | 2.1.94 | 2.1.94 |
@@ -3894,11 +3894,11 @@
 | system | [When To Access Memories 2](../system-prompts/system-prompt-when-to-access-memories-2.md) | 801 | 180 | 2.1.94 | 2.1.94 |
 | system | [Complete Task With Multiple Files](../system-prompts/system-prompt-complete-task-with-multiple-files.md) | 1288 | 271 | 2.1.86 | 2.1.86 |
 | system-data | [Get Policy Build Workflow Response](../system-prompts/system-data-get-policy-build-workflow-response.md) | 327 | 136 | 2.0.63 | 2.0.63 |
-| system-data | [Custom Rules Replacing Defaults 16](../system-prompts/system-data-custom-rules-replacing-defaults-5.md) | 327 | 112 | 2.1.112 | 2.1.112 |
-| system-reminder | [User Call Permission 9](../system-prompts/system-reminder-user-call-permission-attempt-18.md) | 1635 | 332 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Rules Replacing Defaults 16](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | 327 | 112 | 2.1.112 | 2.1.112 |
+| system-reminder | [User Call Permission 9](../system-prompts/system-reminder-user-call-permission-9.md) | 1635 | 332 | 2.1.112 | 2.1.112 |
 | system-reminder | [Unrecognized Keys User](../system-prompts/system-reminder-unrecognized-keys-user.md) | 1624 | 331 | 2.1.111 | 2.1.111 |
 | system-reminder | [Unknown Keys User Call](../system-prompts/system-reminder-unknown-keys-user-call.md) | 1621 | 331 | 2.1.111 | 2.1.111 |
-| system-reminder | [Invalid Input Options](../system-prompts/system-reminder-user-call-permission-attempt-24.md) | 1632 | 342 | 2.1.110 | 2.1.110 |
+| system-reminder | [Invalid Input Options](../system-prompts/system-reminder-invalid-input-options.md) | 1632 | 342 | 2.1.112 | 2.1.112 |
 | system-data | [Nature And Animal Wordlist](../system-prompts/system-data-nature-and-animal-wordlist.md) | 3260 | 1163 | 2.0.58 | 2.0.58 |
 | system-data | [Bedrock Async Invoke Summary](../system-prompts/system-data-bedrock-async-invoke-summary.md) | 285 | 121 | 2.0.63 | 2.0.63 |
 | system-reminder | [User Custom Defaults Rules](../system-prompts/system-reminder-user-custom-defaults-rules.md) | 2279 | 537 | 2.1.108 | 2.1.108 |
@@ -3920,7 +3920,7 @@
 | system-data | [Dart Core Types List](../system-prompts/system-data-dart-core-types-list.md) | 218 | 61 | 0.2.9 | 0.2.9 |
 | system | [Avoid Duplicate Work 2](../system-prompts/system-prompt-avoid-duplicate-work-2.md) | 436 | 103 | 2.1.101 | 2.1.101 |
 | system | [Shadow Bq Label Query Jobs](../system-prompts/system-prompt-shadow-bq-label-query-jobs.md) | 178 | 70 | 2.1.108 | 2.1.108 |
-| system-reminder | [Function Stable Calls](../system-prompts/system-reminder-user-call-permission-attempt-39.md) | 1630 | 332 | 2.1.109 | 2.1.109 |
+| system-reminder | [Function Stable Calls](../system-prompts/system-reminder-function-stable-calls.md) | 1630 | 332 | 2.1.112 | 2.1.112 |
 | system | [Plan Mode Edit Restrictions](../system-prompts/system-prompt-plan-mode-edit-restrictions.md) | 5428 | 1266 | 2.1.49 | 2.1.49 |
 | system | [Efficient Calls In Parallel](../system-prompts/system-prompt-efficient-calls-in-parallel.md) | 715 | 163 | 2.1.111 | 2.1.111 |
 | system | [Prefer New Commit Over Amend](../system-prompts/system-prompt-git-commit-preferences.md) | 511 | 120 | 2.1.53 | 2.1.53 |
@@ -3934,11 +3934,11 @@
 | system | [Plan Mode Workflow Steps](../system-prompts/system-prompt-plan-mode-workflow-steps.md) | 416 | 123 | 2.1.49 | 2.1.49 |
 | system-data | [Token Anthropic Key Headers Api](../system-prompts/system-prompt-api-keys-and-headers.md) | 640 | 235 | 2.1.94 | 2.1.94 |
 | system-reminder | [Unknown Keys User](../system-prompts/system-reminder-user-call-permission-attempt-13.md) | 1625 | 326 | 2.1.109 | 2.1.109 |
-| system-reminder | [Invalid Option User](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | 1630 | 334 | 2.1.109 | 2.1.109 |
+| system-reminder | [Invalid Option User](../system-prompts/system-reminder-invalid-option-user.md) | 1630 | 334 | 2.1.112 | 2.1.112 |
 | system-reminder | [Invalid Option User Portuguese](../system-prompts/system-reminder-invalid-option-user-call-3.md) | 1631 | 329 | 2.1.110 | 2.1.110 |
 | system-reminder | [Unrecognized Keys User Call](../system-prompts/system-reminder-unrecognized-keys-user-call.md) | 1622 | 325 | 2.1.109 | 2.1.109 |
-| system-reminder | [User Output Permission](../system-prompts/system-reminder-user-call-permission-attempt-37.md) | 1618 | 323 | 2.1.109 | 2.1.109 |
-| system-reminder | [User Call Expressions](../system-prompts/system-reminder-user-call-permission-attempt-35.md) | 1616 | 335 | 2.1.111 | 2.1.111 |
+| system-reminder | [User Output Permission](../system-prompts/system-reminder-user-output-permission.md) | 1618 | 323 | 2.1.109 | 2.1.109 |
+| system-reminder | [User Call Expressions](../system-prompts/system-reminder-user-call-expressions.md) | 1616 | 335 | 2.1.112 | 2.1.112 |
 | system-data | [Session Date Project Duration](../system-prompts/system-prompt-session-date-project-duration.md) | 221 | 85 | 2.1.105 | 2.1.105 |
 | system-data | [Repeated Numeric Placeholders](../system-prompts/system-data-repeated-numeric-placeholders.md) | 1554 | 895 | 0.2.9 | 0.2.9 |
 | system-data | [Hook Context Reminders](../system-prompts/system-prompt-planning-context-and-reminders.md) | 530 | 155 | 2.1.108 | 2.1.108 |
@@ -3978,7 +3978,7 @@
 | system-reminder | [Memory User Collaboration 3](../system-prompts/system-reminder-persistent-memory-user-collaboration-5.md) | 12366 | 2830 | 2.1.105 | 2.1.105 |
 | system-reminder | [Incorrect Choice User Permission](../system-prompts/system-reminder-incorrect-choice-user-permission.md) | 1640 | 364 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Permission Calls](../system-prompts/system-reminder-user-permission-calls.md) | 1621 | 338 | 2.1.112 | 2.1.112 |
-| system-data | [Custom Defaults Rules Replacing 9](../system-prompts/system-data-custom-defaults-rules-replacing-15.md) | 321 | 107 | 2.1.109 | 2.1.109 |
+| system-data | [Custom Defaults Rules Replacing 9](../system-prompts/system-data-custom-defaults-rules-replacing-9.md) | 321 | 107 | 2.1.109 | 2.1.109 |
 | tool | [Monitor Events Grep](../system-prompts/tool-description-monitor-events-grep.md) | 4084 | 1061 | 2.1.110 | 2.1.110 |
 | tool | [Return Verification Result](../system-prompts/tool-description-return-verification-result.md) | 115 | 24 | 2.0.43 | 2.0.43 |
 | tool | [Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.83 |

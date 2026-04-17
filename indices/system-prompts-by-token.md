@@ -662,7 +662,7 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-rules-replacing-defaults-extended.md`](../system-prompts/system-data-custom-rules-replacing-defaults-extended.md) | Defines custom rules that replace default settings. | 216 | 2.1.110 | 2.1.110 |
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
 | [`system-data-custom-rules-defaults-replacement.md`](../system-prompts/system-data-custom-rules-defaults-replacement.md) | Custom rules for replacing default settings. | 210 | 2.1.111 | 2.1.111 |
-| [`system-data-custom-defaults-rules-replacing-18.md`](../system-prompts/system-data-custom-defaults-rules-replacing-18.md) | Defines custom rules that override default settings. | 200 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-defaults-rules-replacing-15.md`](../system-prompts/system-data-custom-defaults-rules-replacing-15.md) | Defines custom rules that override default settings. | 200 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-snapshot-rules.md`](../system-prompts/system-data-custom-defaults-snapshot-rules.md) | Snapshot rules replace defaults. | 200 | 2.1.110 | 2.1.110 |
 | [`system-data-custom-defaults-rules-replacing.md`](../system-prompts/system-data-custom-defaults-rules-replacing.md) | Custom rules replace default settings. | 195 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-2.md`](../system-prompts/system-data-custom-rules-replacing-defaults-2.md) | Custom rules for replacing defaults. | 193 | 2.1.111 | 2.1.111 |
@@ -673,7 +673,7 @@ _Sorted by tokens (desc)._
 | [`system-data-bedrock-get-custom-response-fields.md`](../system-prompts/system-data-bedrock-get-custom-response-fields.md) | Field list for GetCustomModelResponse including modelArn, metrics, and status. | 182 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-update-guardrail-request-fields.md`](../system-prompts/system-data-bedrock-update-guardrail-request-fields.md) | Field list for UpdateGuardrailRequest including guardrailIdentifier and policy configs. | 180 | 2.0.63 | 2.0.63 |
 | [`system-data-create-guardrail-request-fields.md`](../system-prompts/system-data-create-guardrail-request-fields.md) | Describes configuration fields used to create a Bedrock guardrail. | 180 | 2.0.63 | 2.0.63 |
-| [`system-data-custom-defaults-rules-replacing-25.md`](../system-prompts/system-data-custom-defaults-rules-replacing-25.md) | Custom rules replace default settings. | 178 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-defaults-rules-replacing-20.md`](../system-prompts/system-data-custom-defaults-rules-replacing-20.md) | Custom rules replace default settings. | 178 | 2.1.112 | 2.1.112 |
 | [`system-data-bedrock-provisioned-summary-fields.md`](../system-prompts/system-data-bedrock-provisioned-summary-fields.md) | Defines attributes included in a Bedrock provisioned model summary. | 175 | 2.0.63 | 2.0.63 |
 | [`system-data-automated-reasoning-policy-annotation-actions.md`](../system-prompts/system-data-automated-reasoning-policy-annotation-actions.md) | Action annotations for automated reasoning policy updates and ingestion. | 173 | 2.0.63 | 2.0.63 |
 | [`system-data-bedrock-get-evaluation-job-response.md`](../system-prompts/system-data-bedrock-get-evaluation-job-response.md) | Evaluation job response fields covering config, encryption, timestamps, and failures. | 173 | 2.0.63 | 2.0.63 |
@@ -770,9 +770,9 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-rules-replacing-defaults-9.md`](../system-prompts/system-data-custom-rules-replacing-defaults-9.md) | Multiple prompts (2) | 113 | 2.1.109 | 2.1.109 |
 | [`system-data-stable-custom-rules-replacing-defaults-extended.md`](../system-prompts/system-data-stable-custom-rules-replacing-defaults-extended.md) | Custom rules replace default settings. | 113 | 2.1.110 | 2.1.110 |
 | [`system-data-available-environments-and-format-2.md`](../system-prompts/system-data-available-environments-and-format-2.md) | List available environments and formats. | 112 | 2.1.111 | 2.1.111 |
+| [`system-data-custom-rules-replacing-defaults-11.md`](../system-prompts/system-data-custom-rules-replacing-defaults-11.md) | Defines custom rules replacing defaults. | 112 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-rules-replacing-defaults-16.md`](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | Defines custom rules replacing defaults. | 112 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-rules-replacing-defaults-20.md`](../system-prompts/system-data-custom-rules-replacing-defaults-20.md) | Overview of custom rules and their replacements. | 112 | 2.1.112 | 2.1.112 |
-| [`system-data-custom-rules-replacing-defaults-26.md`](../system-prompts/system-data-custom-rules-replacing-defaults-26.md) | Multiple prompts (2) | 112 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults-5.md`](../system-prompts/system-data-custom-rules-replacing-defaults-5.md) | Defines custom rules replacing defaults. | 112 | 2.1.109 | 2.1.109 |
 | [`system-data-bucket-custom-rules.md`](../system-prompts/system-data-bucket-custom-rules.md) | Custom rules for bucket settings. | 111 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-22.md`](../system-prompts/system-data-custom-rules-replacing-defaults-22.md) | Multiple prompts (4) | 111 | 2.1.110 | 2.1.110 |
 | [`system-data-custom-rules-replacing-defaults-extended-2.md`](../system-prompts/system-data-custom-rules-replacing-defaults-extended-2.md) | Defines custom rules replacing defaults. | 111 | 2.1.110 | 2.1.110 |
@@ -783,7 +783,7 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-rules-replacing-defaults-inline.md`](../system-prompts/system-data-custom-rules-replacing-defaults-inline.md) | Multiple prompts (2) | 110 | 2.1.110 | 2.1.110 |
 | [`system-data-bedrock-bidirectional-stream-output.md`](../system-prompts/system-data-bedrock-bidirectional-stream-output.md) | Bidirectional streaming invoke output with chunk and exception fields. | 109 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-rules-replacing-defaults-25.md`](../system-prompts/system-data-custom-rules-replacing-defaults-25.md) | Multiple prompts (2) | 108 | 2.1.112 | 2.1.112 |
-| [`system-data-custom-defaults-rules-replacing-15.md`](../system-prompts/system-data-custom-defaults-rules-replacing-15.md) | Custom rules replace default settings. | 107 | 2.1.109 | 2.1.109 |
+| [`system-data-custom-defaults-rules-replacing-9.md`](../system-prompts/system-data-custom-defaults-rules-replacing-9.md) | Custom rules replace default settings. | 107 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-19.md`](../system-prompts/system-data-custom-rules-replacing-defaults-19.md) | Custom rules for replacing defaults. | 107 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-rules-replacing-defaults-23.md`](../system-prompts/system-data-custom-rules-replacing-defaults-23.md) | Custom rules replacing defaults with additional expressions. | 107 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-3.md`](../system-prompts/system-data-custom-rules-replacing-defaults-3.md) | Multiple prompts (2) | 107 | 2.1.109 | 2.1.109 |
@@ -815,10 +815,10 @@ _Sorted by tokens (desc)._
 | [`system-data-bedrock-response-stream-chunks-errors.md`](../system-prompts/system-data-bedrock-response-stream-chunks-errors.md) | Defines response stream chunk output and possible streaming exceptions. | 100 | 2.0.63 | 2.0.63 |
 | [`system-data-custom-defaults-replacing-rules-2.md`](../system-prompts/system-data-custom-defaults-replacing-rules-2.md) | Custom rules for replacing defaults. | 99 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-replacing-rules-9.md`](../system-prompts/system-data-custom-defaults-replacing-rules-9.md) | Handle custom rules and defaults. | 99 | 2.1.109 | 2.1.109 |
+| [`system-data-custom-defaults-rules-replacing-13.md`](../system-prompts/system-data-custom-defaults-rules-replacing-13.md) | Defines custom rules replacing defaults. | 99 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-21.md`](../system-prompts/system-data-custom-defaults-rules-replacing-21.md) | Defines custom rules replacing defaults. | 99 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-rules-replacing-being-10.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-10.md) | Defines custom rules replacing defaults. | 99 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-rules-replacing-being-5.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-5.md) | Multiple prompts (4) | 99 | 2.1.109 | 2.1.109 |
-| [`system-data-custom-rules-replacing-defaults-19.md`](../system-prompts/system-data-custom-rules-replacing-defaults-19.md) | Defines custom rules replacing defaults. | 99 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-5.md`](../system-prompts/system-data-custom-rules-replacing-defaults-5.md) | Custom rules for replacing defaults. | 99 | 2.1.112 | 2.1.112 |
 | [`system-data-pr-custom-rules-replacing-defaults.md`](../system-prompts/system-data-pr-custom-rules-replacing-defaults.md) | PR for custom rules replacing defaults. | 99 | 2.1.109 | 2.1.109 |
 | [`system-data-scope-custom-rules-replacing-defaults.md`](../system-prompts/system-data-scope-custom-rules-replacing-defaults.md) | Custom rules for scope replacing defaults. | 99 | 2.1.109 | 2.1.109 |
@@ -827,7 +827,7 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-defaults-rules-replacing-being-7.md`](../system-prompts/system-data-custom-defaults-rules-replacing-being-7.md) | Custom rules replace default settings. | 98 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-rules-replacing-defaults-13.md`](../system-prompts/system-data-custom-rules-replacing-defaults-13.md) | Defines custom rules replacing defaults. | 98 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults-14.md`](../system-prompts/system-data-custom-rules-replacing-defaults-14.md) | Custom rules for replacing default settings. | 98 | 2.1.111 | 2.1.111 |
-| [`system-data-custom-rules-replacing-defaults-20.md`](../system-prompts/system-data-custom-rules-replacing-defaults-20.md) | Custom rules for replacing defaults. | 98 | 2.1.110 | 2.1.110 |
+| [`system-data-custom-rules-replacing-defaults-17.md`](../system-prompts/system-data-custom-rules-replacing-defaults-17.md) | Custom rules for replacing defaults. | 98 | 2.1.112 | 2.1.112 |
 | [`system-data-global-allow-custom-rules.md`](../system-prompts/system-data-global-allow-custom-rules.md) | Custom rules replace default settings. | 98 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-16.md`](../system-prompts/system-data-custom-defaults-rules-replacing-16.md) | Multiple prompts (6) | 97 | 2.1.108 | 2.1.108 |
 | [`system-data-custom-rules-replacing-defaults-29.md`](../system-prompts/system-data-custom-rules-replacing-defaults-29.md) | Multiple prompts (2) | 97 | 2.1.109 | 2.1.109 |
@@ -891,10 +891,10 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-invalid-option-user-permission.md`](../system-prompts/system-reminder-invalid-option-user-permission.md) | User permission issues with invalid options. | 344 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-13.md`](../system-prompts/system-reminder-user-call-permission-13.md) | User must approve tool calls based on permission settings. | 343 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-permission-calls-2.md`](../system-prompts/system-reminder-user-permission-calls-2.md) | Guide on user permissions for tool execution. | 343 | 2.1.98 | 2.1.98 |
-| [`system-reminder-user-call-permission-attempt-24.md`](../system-prompts/system-reminder-user-call-permission-attempt-24.md) | Multiple prompts (3) | 342 | 2.1.109 | 2.1.109 |
+| [`system-reminder-invalid-input-options.md`](../system-prompts/system-reminder-invalid-input-options.md) | User must approve tool calls. | 342 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission.md`](../system-prompts/system-reminder-user-call-permission.md) | Multiple prompts (2) | 342 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-details.md`](../system-prompts/system-reminder-user-call-permission-details.md) | Details on user tool call permissions. | 341 | 2.1.109 | 2.1.109 |
-| [`system-reminder-invalid-selection-user-permission.md`](../system-prompts/system-reminder-invalid-selection-user-permission.md) | Invalid selection and user permission handling. | 340 | 2.1.109 | 2.1.109 |
+| [`system-reminder-invalid-selection-user-permission-2.md`](../system-prompts/system-reminder-invalid-selection-user-permission-2.md) | Invalid selection and user permission handling. | 340 | 2.1.112 | 2.1.112 |
 | [`system-reminder-invalid-selection-user-permission.md`](../system-prompts/system-reminder-invalid-selection-user-permission.md) | Invalid selection and user permission handling. | 340 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-25.md`](../system-prompts/system-reminder-user-call-permission-attempt-25.md) | Multiple prompts (2) | 340 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unknown-key-found-user-call.md`](../system-prompts/system-reminder-unknown-key-found-user-call.md) | User must approve tool calls. | 338 | 2.1.109 | 2.1.109 |
@@ -906,22 +906,22 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-invalid-choice.md`](../system-prompts/system-reminder-invalid-choice.md) | User permissions affect tool execution. | 335 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-expected-one-of.md`](../system-prompts/system-reminder-invalid-option-expected-one-of.md) | User must approve tool calls. | 335 | 2.1.111 | 2.1.111 |
 | [`system-reminder-invalid-option-user-message.md`](../system-prompts/system-reminder-invalid-option-user-message.md) | Invalid option message for user. | 335 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-35.md`](../system-prompts/system-reminder-user-call-permission-attempt-35.md) | User must approve tool calls based on permission settings. | 335 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-expressions.md`](../system-prompts/system-reminder-user-call-expressions.md) | User permissions affect tool calls. | 335 | 2.1.112 | 2.1.112 |
 | [`system-reminder-invalid-option-permission-attempt.md`](../system-prompts/system-reminder-invalid-option-permission-attempt.md) | User permission issues with invalid options. | 334 | 2.1.109 | 2.1.109 |
+| [`system-reminder-invalid-option-user.md`](../system-prompts/system-reminder-invalid-option-user.md) | User permission required for tool calls. | 334 | 2.1.112 | 2.1.112 |
 | [`system-reminder-unrecognized-keys-permission-issues.md`](../system-prompts/system-reminder-unrecognized-keys-permission-issues.md) | User permission issues with unrecognized keys. | 334 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-14.md`](../system-prompts/system-reminder-user-call-permission-14.md) | User must approve tool calls based on permission settings. | 334 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-19.md`](../system-prompts/system-reminder-user-call-permission-attempt-19.md) | Multiple prompts (2) | 334 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-36.md`](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | Multiple prompts (2) | 334 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-permission-call-7.md`](../system-prompts/system-reminder-user-permission-call-7.md) | User must approve tool calls based on permission settings. | 334 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-expected-value.md`](../system-prompts/system-reminder-invalid-option-expected-value.md) | User permissions affect tool calls. | 333 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-36.md`](../system-prompts/system-reminder-user-call-permission-attempt-36.md) | User must approve tool calls based on permission settings. | 333 | 2.1.109 | 2.1.109 |
+| [`system-reminder-function-stable-calls.md`](../system-prompts/system-reminder-function-stable-calls.md) | User must approve tool calls. | 332 | 2.1.112 | 2.1.112 |
 | [`system-reminder-invalid-option-user-message-fr.md`](../system-prompts/system-reminder-invalid-option-user-message-fr.md) | Invalid option message in French. | 332 | 2.1.109 | 2.1.109 |
 | [`system-reminder-unrecognized-key-user-permission.md`](../system-prompts/system-reminder-unrecognized-key-user-permission.md) | User permission for tool calls. | 332 | 2.1.112 | 2.1.112 |
-| [`system-reminder-user-call-permission-attempt-18.md`](../system-prompts/system-reminder-user-call-permission-attempt-18.md) | Multiple prompts (2) | 332 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-39.md`](../system-prompts/system-reminder-user-call-permission-attempt-39.md) | User must approve tool calls based on permission settings. | 332 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-9.md`](../system-prompts/system-reminder-user-call-permission-9.md) | User must approve tool calls based on permission settings. | 332 | 2.1.112 | 2.1.112 |
 | [`system-reminder-unknown-keys-user-call.md`](../system-prompts/system-reminder-unknown-keys-user-call.md) | User must approve unknown tool calls. | 331 | 2.1.111 | 2.1.111 |
 | [`system-reminder-unrecognized-keys-user.md`](../system-prompts/system-reminder-unrecognized-keys-user.md) | User permissions affect tool calls. | 331 | 2.1.111 | 2.1.111 |
-| [`system-reminder-user-call-permission-attempt-32.md`](../system-prompts/system-reminder-user-call-permission-attempt-32.md) | Multiple prompts (2) | 331 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-21.md`](../system-prompts/system-reminder-user-call-permission-attempt-21.md) | Multiple prompts (3) | 331 | 2.1.112 | 2.1.112 |
 | [`system-reminder-invalid-choice-user-permission.md`](../system-prompts/system-reminder-invalid-choice-user-permission.md) | Invalid choice based on user permissions. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-user-call-permission.md`](../system-prompts/system-reminder-invalid-option-user-call-permission.md) | User permission required for tool calls. | 330 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-user-call.md`](../system-prompts/system-reminder-invalid-option-user-call.md) | User must approve tool calls. | 330 | 2.1.112 | 2.1.112 |
@@ -929,19 +929,19 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-unrecognized-keys.md`](../system-prompts/system-reminder-unrecognized-keys.md) | Handling unrecognized keys in tool calls. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-approval-calls.md`](../system-prompts/system-reminder-user-approval-calls.md) | User must approve tool calls based on permissions. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-error.md`](../system-prompts/system-reminder-user-call-error.md) | Error handling for tool calls. | 330 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-7.md`](../system-prompts/system-reminder-user-call-permission-7.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-9.md`](../system-prompts/system-reminder-user-call-permission-9.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-7.md`](../system-prompts/system-reminder-user-call-permission-7.md) | User must approve tool calls. | 330 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-2.md`](../system-prompts/system-reminder-user-call-permission-attempt-2.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-23.md`](../system-prompts/system-reminder-user-call-permission-attempt-23.md) | Multiple prompts (2) | 330 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-28.md`](../system-prompts/system-reminder-user-call-permission-attempt-28.md) | User must approve tool calls. | 330 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-3.md`](../system-prompts/system-reminder-user-call-permission-attempt-3.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-31.md`](../system-prompts/system-reminder-user-call-permission-attempt-31.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-attempt-37.md`](../system-prompts/system-reminder-user-call-permission-attempt-37.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-attempt-38.md`](../system-prompts/system-reminder-user-call-permission-attempt-38.md) | Multiple prompts (3) | 330 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-attempt-40.md`](../system-prompts/system-reminder-user-call-permission-attempt-40.md) | Multiple prompts (3) | 330 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission.md`](../system-prompts/system-reminder-user-call-permission.md) | User must approve tool calls based on permission settings. | 330 | 2.1.109 | 2.1.109 |
 | [`system-reminder-call-permission-errors.md`](../system-prompts/system-reminder-call-permission-errors.md) | User must approve tool calls based on permission settings. | 329 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-option-3.md`](../system-prompts/system-reminder-invalid-option-3.md) | Handles invalid options for user tool calls. | 329 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-user-call-3.md`](../system-prompts/system-reminder-invalid-option-user-call-3.md) | User must approve tool calls. | 329 | 2.1.110 | 2.1.110 |
-| [`system-reminder-invalid-option-user-permission.md`](../system-prompts/system-reminder-invalid-option-user-permission.md) | User permission issues with invalid options. | 329 | 2.1.109 | 2.1.109 |
+| [`system-reminder-invalid-option-user-permission-2.md`](../system-prompts/system-reminder-invalid-option-user-permission-2.md) | User permission issues with invalid options. | 329 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-8.md`](../system-prompts/system-reminder-user-call-permission-8.md) | User permissions influence tool calls. | 329 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-14.md`](../system-prompts/system-reminder-user-call-permission-attempt-14.md) | Multiple prompts (2) | 329 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-24.md`](../system-prompts/system-reminder-user-call-permission-attempt-24.md) | User must approve tool calls based on permission settings. | 329 | 2.1.110 | 2.1.110 |
@@ -967,10 +967,10 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-user-call-permission-attempt-34.md`](../system-prompts/system-reminder-user-call-permission-attempt-34.md) | User must approve tool calls based on permission settings. | 324 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-11.md`](../system-prompts/system-reminder-user-call-permission-attempt-11.md) | Multiple prompts (2) | 323 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-35.md`](../system-prompts/system-reminder-user-call-permission-attempt-35.md) | User must approve tool calls based on permission settings. | 323 | 2.1.111 | 2.1.111 |
-| [`system-reminder-user-call-permission-attempt-37.md`](../system-prompts/system-reminder-user-call-permission-attempt-37.md) | User must approve tool calls based on permission settings. | 323 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-output-permission.md`](../system-prompts/system-reminder-user-output-permission.md) | User must approve tool calls based on permission settings. | 323 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-permission-call-5.md`](../system-prompts/system-reminder-user-permission-call-5.md) | User must approve tool calls based on permission settings. | 323 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-permission-call.md`](../system-prompts/system-reminder-user-permission-call.md) | Multiple prompts (49) | 323 | 2.1.107 | 2.1.107 |
-| [`system-reminder-user-call-permission-attempt-21.md`](../system-prompts/system-reminder-user-call-permission-attempt-21.md) | Multiple prompts (2) | 320 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-attempt-30.md`](../system-prompts/system-reminder-user-call-permission-attempt-30.md) | Multiple prompts (2) | 320 | 2.1.111 | 2.1.111 |
 | [`system-reminder-allowed-user-calls.md`](../system-prompts/system-reminder-allowed-user-calls.md) | User permissions affect tool calls. | 319 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-20.md`](../system-prompts/system-reminder-user-call-permission-attempt-20.md) | Multiple prompts (2) | 319 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-8.md`](../system-prompts/system-reminder-user-call-permission-attempt-8.md) | User must approve tool calls based on permission settings. | 319 | 2.1.111 | 2.1.111 |
