@@ -1,4 +1,4 @@
-# System Data Block: custom-defaults-replacing-rules-4
+# System Data Block: custom-defaults-replacing-rules-2
 
 - Source: inline
 
@@ -20,7 +20,9 @@ Custom rules for replacing defaults.
 | `EXPR_8` | None | None |
 
 # Raw Prompt Text
-npm view ${EXPR_1: '@anthropic-ai/claude-code'}@${EXPR_2} version: ## allow (custom rules replacing defaults)
+npm view ${EXPR_1: '@anthropic-ai/claude-code'}@${EXPR_2} version
+
+## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_3}
 
