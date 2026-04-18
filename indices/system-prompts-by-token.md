@@ -761,8 +761,8 @@ _Sorted by tokens (desc)._
 | [`system-data-custom-rules-replacing-defaults-30.md`](../system-prompts/system-data-custom-rules-replacing-defaults-30.md) | Multiple prompts (3) | 116 | 2.1.109 | 2.1.109 |
 | [`system-data-bedrock-inference-profile-response.md`](../system-prompts/system-data-bedrock-inference-profile-response.md) | Response fields describing a Bedrock inference profile. | 115 | 2.0.63 | 2.0.63 |
 | [`system-data-truncated-custom-rules.md`](../system-prompts/system-data-truncated-custom-rules.md) | Custom rules are replacing default settings. | 115 | 2.1.111 | 2.1.111 |
-| [`system-data-custom-defaults-replacing-rules-4.md`](../system-prompts/system-data-custom-defaults-replacing-rules-4.md) | Multiple prompts (2) | 114 | 2.1.111 | 2.1.111 |
-| [`system-data-custom-rules-replacing-defaults-16.md`](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | Custom rules for replacing defaults. | 114 | 2.1.109 | 2.1.109 |
+| [`system-data-custom-defaults-replacing-rules-2.md`](../system-prompts/system-data-custom-defaults-replacing-rules-2.md) | Custom rules for replacing defaults. | 114 | 2.1.112 | 2.1.112 |
+| [`system-data-custom-defaults-replacing-rules-7.md`](../system-prompts/system-data-custom-defaults-replacing-rules-7.md) | Multiple prompts (2) | 114 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-rules-replacing-defaults.md`](../system-prompts/system-data-custom-rules-replacing-defaults.md) | Multiple prompts (3) | 114 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-rules-third-party-apps.md`](../system-prompts/system-data-custom-rules-third-party-apps.md) | Multiple prompts (3) | 114 | 2.1.111 | 2.1.111 |
 | [`system-data-warning-custom-rules-replacing-defaults.md`](../system-prompts/system-data-warning-custom-rules-replacing-defaults.md) | Warning about custom rules in place. | 114 | 2.1.109 | 2.1.109 |
@@ -813,7 +813,7 @@ _Sorted by tokens (desc)._
 | [`system-data-switch-to-custom-rules.md`](../system-prompts/system-data-switch-to-custom-rules.md) | Custom rules replace default settings. | 101 | 2.1.110 | 2.1.110 |
 | [`system-data-allow-custom-rules-environment.md`](../system-prompts/system-data-allow-custom-rules-environment.md) | Defines custom rules replacing defaults. | 100 | 2.1.111 | 2.1.111 |
 | [`system-data-bedrock-response-stream-chunks-errors.md`](../system-prompts/system-data-bedrock-response-stream-chunks-errors.md) | Defines response stream chunk output and possible streaming exceptions. | 100 | 2.0.63 | 2.0.63 |
-| [`system-data-custom-defaults-replacing-rules-2.md`](../system-prompts/system-data-custom-defaults-replacing-rules-2.md) | Custom rules for replacing defaults. | 99 | 2.1.111 | 2.1.111 |
+| [`system-data-custom-defaults-replacing-rules-4.md`](../system-prompts/system-data-custom-defaults-replacing-rules-4.md) | Custom rules for replacing defaults. | 99 | 2.1.111 | 2.1.111 |
 | [`system-data-custom-defaults-replacing-rules-9.md`](../system-prompts/system-data-custom-defaults-replacing-rules-9.md) | Handle custom rules and defaults. | 99 | 2.1.109 | 2.1.109 |
 | [`system-data-custom-defaults-rules-replacing-13.md`](../system-prompts/system-data-custom-defaults-rules-replacing-13.md) | Defines custom rules replacing defaults. | 99 | 2.1.112 | 2.1.112 |
 | [`system-data-custom-defaults-rules-replacing-21.md`](../system-prompts/system-data-custom-defaults-rules-replacing-21.md) | Defines custom rules replacing defaults. | 99 | 2.1.111 | 2.1.111 |
@@ -892,7 +892,7 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-user-call-permission-13.md`](../system-prompts/system-reminder-user-call-permission-13.md) | User must approve tool calls based on permission settings. | 343 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-permission-calls-2.md`](../system-prompts/system-reminder-user-permission-calls-2.md) | Guide on user permissions for tool execution. | 343 | 2.1.98 | 2.1.98 |
 | [`system-reminder-invalid-input-options.md`](../system-prompts/system-reminder-invalid-input-options.md) | User must approve tool calls. | 342 | 2.1.112 | 2.1.112 |
-| [`system-reminder-user-call-permission.md`](../system-prompts/system-reminder-user-call-permission.md) | Multiple prompts (2) | 342 | 2.1.109 | 2.1.109 |
+| [`system-reminder-user-call-permission-4.md`](../system-prompts/system-reminder-user-call-permission-4.md) | Multiple prompts (2) | 342 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-details.md`](../system-prompts/system-reminder-user-call-permission-details.md) | Details on user tool call permissions. | 341 | 2.1.109 | 2.1.109 |
 | [`system-reminder-invalid-selection-user-permission-2.md`](../system-prompts/system-reminder-invalid-selection-user-permission-2.md) | Invalid selection and user permission handling. | 340 | 2.1.112 | 2.1.112 |
 | [`system-reminder-invalid-selection-user-permission.md`](../system-prompts/system-reminder-invalid-selection-user-permission.md) | Invalid selection and user permission handling. | 340 | 2.1.112 | 2.1.112 |

@@ -3263,7 +3263,7 @@
 | system-reminder | [Invalid Option User Permission](../system-prompts/system-reminder-invalid-option-user-permission.md) | 1636 | 344 | 2.1.112 | 2.1.112 |
 | system-data | [Bedrock Get Async Invoke Response](../system-prompts/system-data-bedrock-get-async-invoke-response.md) | 289 | 121 | 2.0.63 | 2.0.63 |
 | system | [Identity Banner](../system-prompts/system-prompt-identity-banner.md) | 217 | 53 | 2.0.70 | 2.0.70 |
-| system-reminder | [User Call Permission 3](../system-prompts/system-reminder-user-call-permission-4.md) | 3217 | 653 | 2.1.111 | 2.1.111 |
+| system-reminder | [User Call Permission 3](../system-prompts/system-reminder-user-call-permission-4.md) | 3217 | 653 | 2.1.112 | 2.1.112 |
 | system-data | [Custom Rules Replacing Defaults 3](../system-prompts/system-data-custom-rules-replacing-defaults-3.md) | 317 | 107 | 2.1.109 | 2.1.109 |
 | system-data | [Custom Defaults Rules Replacing 11](../system-prompts/system-data-custom-defaults-rules-replacing-11.md) | 312 | 121 | 2.1.110 | 2.1.110 |
 | system-reminder | [Memory User Collaboration](../system-prompts/system-reminder-persistent-memory-user-interactions.md) | 10867 | 2496 | 2.1.105 | 2.1.105 |
@@ -3405,7 +3405,7 @@
 | system-reminder | [Invalid Selection User Permission](../system-prompts/system-reminder-invalid-selection-user-permission.md) | 1620 | 340 | 2.1.112 | 2.1.112 |
 | system-reminder | [Unrecognized Key User Permission](../system-prompts/system-reminder-unrecognized-key-user-permission.md) | 1611 | 332 | 2.1.112 | 2.1.112 |
 | system-data | [Dom Media Input Events List](../system-prompts/system-data-dom-media-input-events-list.md) | 515 | 153 | 0.2.33 | 0.2.33 |
-| system-data | [Custom Defaults Replacing Rules 2](../system-prompts/system-data-custom-rules-replacing-defaults-16.md) | 340 | 114 | 2.1.112 | 2.1.112 |
+| system-data | [Custom Defaults Replacing Rules 2](../system-prompts/system-data-custom-defaults-replacing-rules-2.md) | 340 | 114 | 2.1.112 | 2.1.112 |
 | system-data | [Bedrockruntime Invoke Request Fields](../system-prompts/system-data-bedrockruntime-invoke-request-fields.md) | 304 | 132 | 2.0.63 | 2.0.63 |
 | system-data | [Custom Defaults Rules Replacing 23](../system-prompts/system-data-custom-defaults-rules-replacing-23.md) | 325 | 160 | 2.1.111 | 2.1.111 |
 | system-data | [Custom Rules Replacing Defaults Data](../system-prompts/system-data-custom-defaults-replacing-rules-13.md) | 311 | 103 | 2.1.109 | 2.1.109 |
@@ -3435,7 +3435,7 @@
 | system | [Npm View Version Command](../system-prompts/system-prompt-npm-view-version-command-2.md) | 47 | 23 | 2.1.109 | 2.1.109 |
 | system | [Autonomous Cron Expression Scheduling 2](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-2.md) | 305 | 84 | 2.1.109 | 2.1.109 |
 | system | [New Messages Role Content Text](../system-prompts/system-prompt-new-messages-role-content-text.md) | 14373 | 4305 | 2.1.83 | 2.1.83 |
-| system-data | [Custom Defaults Replacing Rules 4](../system-prompts/system-data-custom-defaults-replacing-rules-2.md) | 340 | 99 | 2.1.111 | 2.1.111 |
+| system-data | [Custom Defaults Replacing Rules 4](../system-prompts/system-data-custom-defaults-replacing-rules-4.md) | 340 | 99 | 2.1.111 | 2.1.111 |
 | system-data | [Bedrock List Custom Models Request Fields](../system-prompts/system-data-bedrock-list-custom-models-request-fields.md) | 356 | 151 | 2.0.63 | 2.0.63 |
 | system | [Verification Specialist Checks Tests](../system-prompts/system-prompt-verification-specialist-checks-tests.md) | 11730 | 3035 | 2.1.90 | 2.1.90 |
 | system | [Use Concepts Api 2](../system-prompts/system-prompt-use-concepts-api-2.md) | 16308 | 4069 | 2.1.111 | 2.1.111 |
@@ -3468,7 +3468,7 @@
 | system | [Final Plan File Paths](../system-prompts/system-prompt-final-plan-file-paths.md) | 454 | 103 | 2.1.77 | 2.1.77 |
 | system-reminder | [User Call Permission Attempt 17](../system-prompts/system-reminder-user-call-permission-11.md) | 1621 | 324 | 2.1.111 | 2.1.111 |
 | system-data | [Html Style Settings](../system-prompts/system-data-html-style-settings.md) | 18220 | 7105 | 2.1.112 | 2.1.112 |
-| system-data | [Custom Defaults Replacing Rules 7](../system-prompts/system-data-custom-defaults-replacing-rules-4.md) | 339 | 114 | 2.1.111 | 2.1.111 |
+| system-data | [Custom Defaults Replacing Rules 7](../system-prompts/system-data-custom-defaults-replacing-rules-7.md) | 339 | 114 | 2.1.111 | 2.1.111 |
 | system | [Autonomous Cron Expression Scheduling 4](../system-prompts/system-prompt-autonomous-cron-expression-scheduling-4.md) | 289 | 73 | 2.1.109 | 2.1.109 |
 | system-data | [Custom Defaults Rules Replacing Being 17](../system-prompts/system-data-custom-defaults-rules-replacing-16.md) | 313 | 97 | 2.1.108 | 2.1.108 |
 | system-data | [Custom Defaults Rules Replacing 5](../system-prompts/system-data-custom-defaults-rules-replacing-5.md) | 342 | 121 | 2.1.112 | 2.1.112 |
@@ -3504,7 +3504,7 @@
 | system-data | [Truncated Numeric Placeholders](../system-prompts/system-data-truncated-numeric-placeholders.md) | 1970 | 1119 | 1.0.59 | 1.0.59 |
 | system | [Managed Agents Tools Skills 2](../system-prompts/system-prompt-managed-agents-tools-skills-2.md) | 13444 | 3896 | 2.1.105 | 2.1.105 |
 | system-data | [Streaming Typescript Quick Start](../system-prompts/system-data-streaming-typescript-quick-start.md) | 5661 | 1675 | 2.1.111 | 2.1.111 |
-| system-reminder | [User Call Permission 4](../system-prompts/system-reminder-user-call-permission.md) | 1645 | 342 | 2.1.109 | 2.1.109 |
+| system-reminder | [User Call Permission 4](../system-prompts/system-reminder-user-call-permission-4.md) | 1645 | 342 | 2.1.112 | 2.1.112 |
 | system | [Verify Repo Access And Scope](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | 262 | 61 | 2.1.105 | 2.1.105 |
 | system | [Install Github Cli](../system-prompts/system-prompt-install-github-cli.md) | 149 | 41 | 1.0.0 | 1.0.0 |
 | system | [Admin Setup Secrets Apps](../system-prompts/system-prompt-admin-setup-secrets-apps.md) | 174 | 33 | 1.0.0 | 1.0.0 |
