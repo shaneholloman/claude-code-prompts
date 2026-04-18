@@ -1,10 +1,10 @@
-# System Data Block: custom-defaults-replacing-rules-7
+# System Data Block: custom-defaults-replacing-rules-4
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (2)
+Custom rules for replacing defaults.
 
 ## Placeholder Hints (source-backed)
 
@@ -20,7 +20,7 @@ Multiple prompts (2)
 | `EXPR_8` | None | None |
 
 # Raw Prompt Text
-npm view ${EXPR_1: '@anthropic-ai/claude-code'}@${EXPR_2} version/## allow (custom rules replacing defaults)
+npm view ${EXPR_1: '@anthropic-ai/claude-code'}@${EXPR_2} version: ## allow (custom rules replacing defaults)
 Custom:
 ${EXPR_3}
 
