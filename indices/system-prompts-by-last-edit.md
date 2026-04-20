@@ -852,6 +852,7 @@ _Sorted by last edit (newest first). Showing **461** reminders with more than **
 | --- | --- | ---: | --- | --- |
 | [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-attempt-41.md`](../system-prompts/system-reminder-user-call-permission-attempt-41.md) | User must approve tool calls based on permission settings. | 664 | 2.1.112 | 2.1.112 |
+| [`system-reminder-user-call-permission-3.md`](../system-prompts/system-reminder-user-call-permission-3.md) | Manages user permissions for tool execution. | 653 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-summary-2.md`](../system-prompts/system-reminder-user-call-permission-summary-2.md) | User permissions affect tool execution. | 636 | 2.1.112 | 2.1.112 |
 | [`system-reminder-remote-planning-session-guide.md`](../system-prompts/system-reminder-remote-planning-session-guide.md) | Guide for conducting a remote planning session. | 616 | 2.1.112 | 2.1.112 |
 | [`system-reminder-local-terminal-planning-session.md`](../system-prompts/system-reminder-local-terminal-planning-session.md) | Run a lightweight planning process from a local terminal. | 427 | 2.1.112 | 2.1.112 |
@@ -884,7 +885,6 @@ _Sorted by last edit (newest first). Showing **461** reminders with more than **
 | [`system-reminder-user-call-permission-attempt-7.md`](../system-prompts/system-reminder-user-call-permission-attempt-7.md) | User must approve tool calls based on permission settings. | 318 | 2.1.112 | 2.1.112 |
 | [`system-reminder-autonomous-cron-scheduled-tasks-2.md`](../system-prompts/system-reminder-autonomous-cron-scheduled-tasks-2.md) | Details on scheduled autonomous tasks and their expiration. | 76 | 2.1.112 | 2.1.112 |
 | [`system-reminder-usage-2.md`](../system-prompts/system-reminder-usage-2.md) | Reminder to use the specified model. | 38 | 2.1.112 | 2.1.112 |
-| [`system-reminder-user-call-permission-4.md`](../system-prompts/system-reminder-user-call-permission-4.md) | Manages user permissions for tool execution. | 653 | 2.1.111 | 2.1.111 |
 | [`system-reminder-user-call-permission-attempt-32.md`](../system-prompts/system-reminder-user-call-permission-attempt-32.md) | Multiple prompts (2) | 351 | 2.1.111 | 2.1.111 |
 | [`system-reminder-invalid-option-user-call-2.md`](../system-prompts/system-reminder-invalid-option-user-call-2.md) | User must approve tool calls. | 337 | 2.1.111 | 2.1.111 |
 | [`system-reminder-invalid-option-expected-one-of.md`](../system-prompts/system-reminder-invalid-option-expected-one-of.md) | User must approve tool calls. | 335 | 2.1.111 | 2.1.111 |
@@ -941,7 +941,7 @@ _Sorted by last edit (newest first). Showing **461** reminders with more than **
 | [`system-reminder-invalid-option-warning.md`](../system-prompts/system-reminder-invalid-option-warning.md) | User must approve tool calls. | 357 | 2.1.110 | 2.1.110 |
 | [`system-reminder-user-call-permission-6.md`](../system-prompts/system-reminder-user-call-permission-6.md) | Multiple prompts (2) | 351 | 2.1.110 | 2.1.110 |
 | [`system-reminder-api-limit-exceeded-images.md`](../system-prompts/system-reminder-api-limit-exceeded-images.md) | User permissions affect tool calls. | 345 | 2.1.110 | 2.1.110 |
-| [`system-reminder-user-call-permission-3.md`](../system-prompts/system-reminder-user-call-permission-3.md) | User must approve tool calls based on permission settings. | 345 | 2.1.110 | 2.1.110 |
+| [`system-reminder-user-call-permission-6.md`](../system-prompts/system-reminder-user-call-permission-6.md) | User must approve tool calls based on permission settings. | 345 | 2.1.110 | 2.1.110 |
 | [`system-reminder-unknown-keys-warning.md`](../system-prompts/system-reminder-unknown-keys-warning.md) | User must approve tool calls. | 338 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-choice.md`](../system-prompts/system-reminder-invalid-choice.md) | User permissions affect tool execution. | 335 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-user-call-permission.md`](../system-prompts/system-reminder-invalid-option-user-call-permission.md) | User permission required for tool calls. | 330 | 2.1.110 | 2.1.110 |

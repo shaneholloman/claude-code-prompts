@@ -864,7 +864,7 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-git-safety-protocols.md`](../system-prompts/system-reminder-git-safety-protocols.md) | Guidelines for safe git operations. | 737 | 2.1.109 | 2.1.109 |
 | [`system-reminder-memory-consolidation-reflection.md`](../system-prompts/system-reminder-memory-consolidation-reflection.md) | Reflect on and organize memories effectively. | 733 | 2.1.98 | 2.1.98 |
 | [`system-reminder-user-call-permission-attempt-41.md`](../system-prompts/system-reminder-user-call-permission-attempt-41.md) | User must approve tool calls based on permission settings. | 664 | 2.1.112 | 2.1.112 |
-| [`system-reminder-user-call-permission-4.md`](../system-prompts/system-reminder-user-call-permission-4.md) | Manages user permissions for tool execution. | 653 | 2.1.111 | 2.1.111 |
+| [`system-reminder-user-call-permission-3.md`](../system-prompts/system-reminder-user-call-permission-3.md) | Manages user permissions for tool execution. | 653 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-group-role-expressions.md`](../system-prompts/system-reminder-user-group-role-expressions.md) | Handles user, group, and role expressions. | 653 | 2.1.105 | 2.1.105 |
 | [`system-reminder-user-call-permission-summary.md`](../system-prompts/system-reminder-user-call-permission-summary.md) | Multiple prompts (2) | 642 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-call-permission-summary-2.md`](../system-prompts/system-reminder-user-call-permission-summary-2.md) | User permissions affect tool execution. | 636 | 2.1.112 | 2.1.112 |
@@ -887,7 +887,7 @@ _Sorted by tokens (desc). Showing **461** reminders with more than **30** tokens
 | [`system-reminder-user-call-permission-attempt-39.md`](../system-prompts/system-reminder-user-call-permission-attempt-39.md) | User must approve tool calls based on permission settings. | 351 | 2.1.109 | 2.1.109 |
 | [`system-reminder-api-limit-exceeded-images.md`](../system-prompts/system-reminder-api-limit-exceeded-images.md) | User permissions affect tool calls. | 345 | 2.1.110 | 2.1.110 |
 | [`system-reminder-heads-up-user-call-permission.md`](../system-prompts/system-reminder-heads-up-user-call-permission.md) | User must approve denied tool calls. | 345 | 2.1.109 | 2.1.109 |
-| [`system-reminder-user-call-permission-3.md`](../system-prompts/system-reminder-user-call-permission-3.md) | User must approve tool calls based on permission settings. | 345 | 2.1.110 | 2.1.110 |
+| [`system-reminder-user-call-permission-6.md`](../system-prompts/system-reminder-user-call-permission-6.md) | User must approve tool calls based on permission settings. | 345 | 2.1.110 | 2.1.110 |
 | [`system-reminder-invalid-option-user-permission.md`](../system-prompts/system-reminder-invalid-option-user-permission.md) | User permission issues with invalid options. | 344 | 2.1.112 | 2.1.112 |
 | [`system-reminder-user-call-permission-13.md`](../system-prompts/system-reminder-user-call-permission-13.md) | User must approve tool calls based on permission settings. | 343 | 2.1.109 | 2.1.109 |
 | [`system-reminder-user-permission-calls-2.md`](../system-prompts/system-reminder-user-permission-calls-2.md) | Guide on user permissions for tool execution. | 343 | 2.1.98 | 2.1.98 |

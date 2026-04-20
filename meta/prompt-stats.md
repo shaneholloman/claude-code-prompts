@@ -3263,7 +3263,7 @@
 | system-reminder | [Invalid Option User Permission](../system-prompts/system-reminder-invalid-option-user-permission.md) | 1636 | 344 | 2.1.112 | 2.1.112 |
 | system-data | [Bedrock Get Async Invoke Response](../system-prompts/system-data-bedrock-get-async-invoke-response.md) | 289 | 121 | 2.0.63 | 2.0.63 |
 | system | [Identity Banner](../system-prompts/system-prompt-identity-banner.md) | 217 | 53 | 2.0.70 | 2.0.70 |
-| system-reminder | [User Call Permission 3](../system-prompts/system-reminder-user-call-permission-4.md) | 3217 | 653 | 2.1.112 | 2.1.112 |
+| system-reminder | [User Call Permission 3](../system-prompts/system-reminder-user-call-permission-3.md) | 3217 | 653 | 2.1.112 | 2.1.112 |
 | system-data | [Custom Rules Replacing Defaults 3](../system-prompts/system-data-custom-rules-replacing-defaults-3.md) | 317 | 107 | 2.1.109 | 2.1.109 |
 | system-data | [Custom Defaults Rules Replacing 11](../system-prompts/system-data-custom-defaults-rules-replacing-11.md) | 312 | 121 | 2.1.110 | 2.1.110 |
 | system-reminder | [Memory User Collaboration](../system-prompts/system-reminder-persistent-memory-user-interactions.md) | 10867 | 2496 | 2.1.105 | 2.1.105 |
@@ -3643,7 +3643,7 @@
 | system-reminder | [Invalid Option User Message](../system-prompts/system-reminder-invalid-option-user-message.md) | 1639 | 335 | 2.1.109 | 2.1.109 |
 | system-reminder | [Unknown Keyword User Message](../system-prompts/system-reminder-unknown-keyword-user-message.md) | 1622 | 326 | 2.1.109 | 2.1.109 |
 | system-reminder | [User Call Permission Attempt 25](../system-prompts/system-reminder-user-call-permission-attempt-38.md) | 1630 | 330 | 2.1.109 | 2.1.109 |
-| system-reminder | [User Call Permission 6](../system-prompts/system-reminder-user-call-permission-3.md) | 1652 | 345 | 2.1.110 | 2.1.110 |
+| system-reminder | [User Call Permission 6](../system-prompts/system-reminder-user-call-permission-6.md) | 1652 | 345 | 2.1.110 | 2.1.110 |
 | system-data | [Reasoning Policy Quality Report Metrics](../system-prompts/system-data-reasoning-policy-quality-report-metrics.md) | 302 | 130 | 2.0.63 | 2.0.63 |
 | system | [Enterprise Config Scope](../system-prompts/system-prompt-enterprise-config-scope.md) | 255 | 66 | 2.1.105 | 2.1.105 |
 | system-reminder | [Id Call Permission](../system-prompts/system-reminder-user-call-permission-attempt-17.md) | 9697 | 1940 | 2.1.109 | 2.1.109 |
