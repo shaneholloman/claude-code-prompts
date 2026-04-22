@@ -12,4 +12,4 @@ _Sorted by init (newest first). Showing **1** reminders with more than **30** to
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-user-memory.md`](../system-prompts/system-reminder-user-memory.md) | Guidelines for assisting users with software engineering tasks. | 6,050 | 2.1.116 | 2.1.116 |
+| [`system-reminder-user-memory.md`](../system-prompts/system-reminder-user-memory.md) | Guidelines for assisting users with software engineering tasks. | 6,050 | 2.1.117 | 2.1.117 |

@@ -1,11 +1,11 @@
-# Claude Code 2.1.116 – Flags
+# Claude Code 2.1.117 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `tengu_auto_mode_config` | config | ui | Gates “auto mode” availability, with circuit-breaker disable plus model and org allowlist checks. | Also respects user settings (disableAutoMode) and can disable fast mode. | high | 2 |
 | `tengu_bridge_min_version` | config | tools | Blocks Remote Control when Claude Code is below a configured minimum version. |  | high | 2 |
 | `tengu_bridge_poll_interval_config` | config | networking | Sets Tengu bridge poll interval (0 disables) plus session reclaim and keepalive timings. | Config is schema-validated; invalid values fall back to defaults. | medium | 2 |
-| `tengu_bridge_repl_v2_config` | config | other | Configuration named "tengu_bridge_repl_v2_config" referenced in bundle. | Only the flag name and type are visible; no behavioral context is provided. | low | 2 |
+| `tengu_bridge_repl_v2_config` | config | other | Config named "tengu_bridge_repl_v2_config" referenced, likely for a "bridge" REPL v2 setting set. | Only the config name/type is shown; no observable behavior or UI impact in the provided context. | low | 2 |
 | `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 4 |
 | `tengu_ccr_bridge_multi_session` | gate | tools | Toggles multi-session spawning behavior for a Tengu CCR bridge process. | Only spawn/session-related code is visible; the exact behavioral differences when enabled are not shown. | medium | 2 |
 | `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables seeding a CCR bundle for remote sessions when repo/env gate is set | Also influenced by CCR_FORCE_BUNDLE and CCR_ENABLE_BUNDLE env vars and various git/GitHub checks. | high | 6 |
