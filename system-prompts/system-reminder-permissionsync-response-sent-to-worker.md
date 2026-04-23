@@ -1,5 +1,21 @@
 # System Reminder: permissionsync-response-sent-to-worker
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: permissionsync-response-sent-to-worker - Source: inline Summary PermissionSync mailbox sent permission response for request to worker recipi…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: permissionsync-response-sent-to-worker
+
 - Source: inline
 
 ## Summary
