@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: anthropic-toolsearch-auto-optimistic - Source: native-reference-match Summary System Reminder: anthropic-toolsearch-auto-optimistic - Source…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: anthropic-toolsearch-auto-optimistic
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: anthropic-toolsearch-auto-optimistic - Source: inline Summary Reminder about tool search settings for Anthropic.
 
 ## Placeholder Hints (source-backed)
