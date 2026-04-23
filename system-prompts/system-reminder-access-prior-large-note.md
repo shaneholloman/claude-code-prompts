@@ -1,5 +1,21 @@
 # System Reminder: access-prior-large-note
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: access-prior-large-note - Source: inline Summary Reminds that … was previously read; use … tool to retrieve full contents.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: access-prior-large-note
+
 - Source: inline
 
 ## Summary
