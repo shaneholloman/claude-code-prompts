@@ -1,5 +1,20 @@
 # System Reminder: create-default-shell-config-snapshot
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: create-default-shell-config-snapshot - Source: inline Summary Notes missing shell config file and creates a snapshot with defaults only.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: create-default-shell-config-snapshot
+
 - Source: inline
 
 ## Summary
