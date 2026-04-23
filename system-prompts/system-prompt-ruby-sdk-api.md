@@ -1,3 +1,26 @@
+# System Data Block: ruby-sdk-api
+
+- Source: native-reference-match
+
+## Summary
+
+Guide for using Claude API with Ruby SDK.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+
+# Raw Prompt Text
 # System Data Block: ruby-sdk-client-initialization
 
 - Source: inline
@@ -42,7 +65,7 @@ client = Anthropic::Client.new(api_key: "your-api-key")
 ```ruby
 message = client.messages.create(
   model: :"{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_1},
   messages: [
     { role: "user", content: "What is the capital of France?" }
   ]
@@ -62,7 +85,7 @@ end
 ```ruby
 stream = client.messages.stream(
   model: :"{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_2},
   messages: [{ role: "user", content: "Write a haiku" }]
 )
 
@@ -88,13 +111,13 @@ class GetWeather < Anthropic::BaseTool
   input_schema GetWeatherInput
 
   def call(input)
-    "The weather in #{input.location} is sunny and ${NUM}°F."
+    "The weather in #{input.location} is sunny and ${EXPR_3}°F."
   end
 end
 
 client.beta.messages.tool_runner(
   model: :"{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_4},
   tools: [GetWeather.new],
   messages: [{ role: "user", content: "What's the weather in San Francisco?" }]
 ).each_message do |message|
@@ -104,18 +127,18 @@ end
 
 ### Manual Loop
 
-See the [shared tool use concepts](..${PATH}) for the tool definition format and agentic loop pattern.
+See the [shared tool use concepts](..${EXPR_5}) for the tool definition format and agentic loop pattern.
 
 ---
 
 ## Prompt Caching
 
-`system_:` (trailing underscore — avoids shadowing `Kernel#system`) takes an array of text blocks; set `cache_control` on the last block. Plain hashes work via the `OrHash` type alias. For placement patterns and the silent-invalidator audit checklist, see `shared${PATH}`.
+`system_:` (trailing underscore — avoids shadowing `Kernel#system`) takes an array of text blocks; set `cache_control` on the last block. Plain hashes work via the `OrHash` type alias. For placement patterns and the silent-invalidator audit checklist, see `shared${EXPR_6}`.
 
 ```ruby
 message = client.messages.create(
   model: :"{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_7},
   system_: [
     { type: "text", text: long_system_prompt, cache_control: { type: "ephemeral" } }
   ],
@@ -123,6 +146,6 @@ message = client.messages.create(
 )
 ```
 
-For ${NUM}-hour TTL: `cache_control: { type: "ephemeral", ttl: "1h" }`. There's also a top-level `cache_control:` on `messages.create` that auto-places on the last cacheable block.
+For ${EXPR_8}-hour TTL: `cache_control: { type: "ephemeral", ttl: "1h" }`. There's also a top-level `cache_control:` on `messages.create` that auto-places on the last cacheable block.
 
 Verify hits via `message.usage.cache_creation_input_tokens` / `message.usage.cache_read_input_tokens`.
