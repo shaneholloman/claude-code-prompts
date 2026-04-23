@@ -1,3 +1,18 @@
+# Tool Description: fetch-and-analyze-web-content
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: fetch-url-content-analyze - Source: inline Summary Describes a tool that fetches a URL, converts HTML to markdown, and analyzes it with a smal…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # System Prompt: fetch-url-content-analyze
 
 - Source: inline
@@ -21,6 +36,6 @@ Usage notes:
   - The prompt should describe what information you want to extract from the page
   - This tool is read-only and does not modify any files
   - Results may be summarized if the content is very large
-  - Includes a self-cleaning ${NUM}-minute cache for faster responses when repeatedly accessing the same URL
+  - Includes a self-cleaning ${EXPR_1}-minute cache for faster responses when repeatedly accessing the same URL
   - When a URL redirects to a different host, the tool will inform you and provide the redirect URL in a special format. You should then make a new WebFetch request with the redirect URL to fetch the content.
   - For GitHub URLs, prefer using the gh CLI via Bash instead (e.g., gh pr view, gh issue view, gh api).
