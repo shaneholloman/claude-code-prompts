@@ -1,3 +1,18 @@
+# System Data Block: command-cwd-env-exit-input
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: command-cwd-env-exit-input - Source: native-reference-match Summary System Prompt: command-cwd-env-exit-input - Source: inline Summary Handles…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # System Prompt: command-cwd-env-exit-input
 
 - Source: native-reference-match
