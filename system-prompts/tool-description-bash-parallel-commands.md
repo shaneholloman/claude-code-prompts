@@ -4,6 +4,22 @@
 
 ## Summary
 
+Make multiple tool calls if commands can run in parallel.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# Tool Description: bash-parallel-commands
+
+- Source: native-reference-match
+
+## Summary
+
 If the commands are independent and can run in parallel, make multiple … tool calls in a single message.
 
 ## Placeholder Hints (source-backed)
