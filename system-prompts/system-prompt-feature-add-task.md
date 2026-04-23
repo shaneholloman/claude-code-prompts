@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: feature-add-task - Source: native-reference-match Summary Guidelines for adding code features.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: feature-add-task
+
+- Source: native-reference-match
+
+## Summary
+
 Guidelines for adding code features.
 
 ## Placeholder Hints (source-backed)
