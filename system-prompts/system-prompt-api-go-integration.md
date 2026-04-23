@@ -1,5 +1,43 @@
 # System Prompt: api-go-integration
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: api-go-integration - Source: inline Summary Integrating Claude API with Go SDK.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `OfTool_addTool` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+
+# Raw Prompt Text
+# System Prompt: api-go-integration
+
 - Source: inline
 
 ## Summary
@@ -21,15 +59,15 @@ Integrating Claude API with Go SDK.
 ## Installation
 
 ```bash
-go get github.com${PATH}
+go get github.com${EXPR_1}
 ```
 
 ## Client Initialization
 
 ```go
 import (
-    "github.com${PATH}"
-    "github.com${PATH}"
+    "github.com${EXPR_2}"
+    "github.com${EXPR_3}"
 )
 
 // Default (uses ANTHROPIC_API_KEY env var)
@@ -48,7 +86,7 @@ client := anthropic.NewClient(
 ```go
 response, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
     Model:     anthropic.ModelClaudeOpus4_6,
-    MaxTokens: ${NUM},
+    MaxTokens: ${EXPR_4},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("What is the capital of France?")),
     },
@@ -71,7 +109,7 @@ for _, block := range response.Content {
 ```go
 stream := client.Messages.NewStreaming(context.Background(), anthropic.MessageNewParams{
     Model:     anthropic.ModelClaudeOpus4_6,
-    MaxTokens: ${NUM},
+    MaxTokens: ${EXPR_5},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("Write a haiku")),
     },
@@ -119,8 +157,8 @@ import (
     "fmt"
     "log"
 
-    "github.com${PATH}"
-    "github.com${PATH}"
+    "github.com${EXPR_6}"
+    "github.com${EXPR_7}"
 )
 
 // Define tool input with jsonschema tags for automatic schema generation
@@ -135,7 +173,7 @@ weatherTool, err := toolrunner.NewBetaToolFromJSONSchema(
     func(ctx context.Context, input GetWeatherInput) (anthropic.BetaToolResultBlockParamContentUnion, error) {
         return anthropic.BetaToolResultBlockParamContentUnion{
             OfText: &anthropic.BetaTextBlockParam{
-                Text: fmt.Sprintf("The weather in %s is sunny, ${NUM}°F", input.City),
+                Text: fmt.Sprintf("The weather in %s is sunny, ${EXPR_8}°F", input.City),
             },
         }, nil
     },
@@ -150,12 +188,12 @@ runner := client.Beta.Messages.NewToolRunner(
     anthropic.BetaToolRunnerParams{
         BetaMessageNewParams: anthropic.BetaMessageNewParams{
             Model:     anthropic.ModelClaudeOpus4_6,
-            MaxTokens: ${NUM},
+            MaxTokens: ${EXPR_9},
             Messages: []anthropic.BetaMessageParam{
                 anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("What's the weather in Paris?")),
             },
         },
-        MaxIterations: ${NUM},
+        MaxIterations: ${EXPR_10},
     },
 )
 
@@ -188,24 +226,24 @@ for _, block := range message.Content {
 
 For fine-grained control over the agentic loop, define tools with `ToolParam`, check `StopReason`, execute tools yourself, and feed `tool_result` blocks back. This is the pattern when you need to intercept, validate, or log tool calls.
 
-Derived from `anthropic-sdk-go${PATH}`.
+Derived from `anthropic-sdk-go${EXPR_11}`.
 
 ```go
 package main
 
 import (
     "context"
-    "encoding${PATH}"
+    "encoding${EXPR_12}"
     "fmt"
     "log"
 
-    "github.com${PATH}"
+    "github.com${EXPR_13}"
 )
 
 func main() {
     client := anthropic.NewClient()
 
-    // ${NUM}. Define tools. ToolParam.InputSchema uses a map, no struct tags needed.
+    // ${EXPR_14}. Define tools. ToolParam.InputSchema uses a map, no struct tags needed.
     addTool := anthropic.ToolParam{
         Name:        "add",
         Description: anthropic.String("Add two integers"),
@@ -220,13 +258,13 @@ func main() {
     tools := []anthropic.ToolUnionParam{{OfTool: &addTool}}
 
     messages := []anthropic.MessageParam{
-        anthropic.NewUserMessage(anthropic.NewTextBlock("What is ${NUM} + ${NUM}?")),
+        anthropic.NewUserMessage(anthropic.NewTextBlock("What is ${EXPR_15} + ${EXPR_16}?")),
     }
 
     for {
         resp, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
             Model:     anthropic.ModelClaudeSonnet4_6,
-            MaxTokens: ${NUM},
+            MaxTokens: ${EXPR_17},
             Messages:  messages,
             Tools:     tools,
         })
@@ -234,11 +272,11 @@ func main() {
             log.Fatal(err)
         }
 
-        // ${NUM}. Append the assistant response to history BEFORE processing tool calls.
+        // ${EXPR_18}. Append the assistant response to history BEFORE processing tool calls.
         //    resp.ToParam() converts Message → MessageParam in one call.
         messages = append(messages, resp.ToParam())
 
-        // ${NUM}. Walk content blocks. ContentBlockUnion is a flattened struct;
+        // ${EXPR_19}. Walk content blocks. ContentBlockUnion is a flattened struct;
         //    use block.AsAny().(type) to switch on the actual variant.
         toolResults := []anthropic.ContentBlockParamUnion{}
         for _, block := range resp.Content {
@@ -246,7 +284,7 @@ func main() {
             case anthropic.TextBlock:
                 fmt.Println(variant.Text)
             case anthropic.ToolUseBlock:
-                // ${NUM}. Parse the tool input. Use variant.JSON.Input.Raw() to get the
+                // ${EXPR_20}. Parse the tool input. Use variant.JSON.Input.Raw() to get the
                 //    raw JSON — block.Input is json.RawMessage, not the parsed value.
                 var in struct {
                     A int `json:"a"`
@@ -256,19 +294,19 @@ func main() {
                     log.Fatal(err)
                 }
                 result := fmt.Sprintf("%d", in.A+in.B)
-                // ${NUM}. NewToolResultBlock(toolUseID, content, isError) builds the
+                // ${EXPR_21}. NewToolResultBlock(toolUseID, content, isError) builds the
                 //    ContentBlockParamUnion for you. block.ID is the tool_use_id.
                 toolResults = append(toolResults,
                     anthropic.NewToolResultBlock(block.ID, result, false))
             }
         }
 
-        // ${NUM}. Exit when Claude stops asking for tools
+        // ${EXPR_22}. Exit when Claude stops asking for tools
         if resp.StopReason != anthropic.StopReasonToolUse {
             break
         }
 
-        // ${NUM}. Tool results go in a user message (variadic: all results in one turn)
+        // ${EXPR_23}. Tool results go in a user message (variadic: all results in one turn)
         messages = append(messages, anthropic.NewUserMessage(toolResults...))
     }
 }
@@ -292,9 +330,9 @@ func main() {
 
 Enable Claude's internal reasoning by setting `Thinking` in `MessageNewParams`. The response will contain `ThinkingBlock` content before the final `TextBlock`.
 
-**Adaptive thinking is the recommended mode for Claude ${NUM}+ models.** Claude decides dynamically when and how much to think. Combine with the `effort` parameter for cost-quality control.
+**Adaptive thinking is the recommended mode for Claude ${EXPR_24}+ models.** Claude decides dynamically when and how much to think. Combine with the `effort` parameter for cost-quality control.
 
-Derived from `anthropic-sdk-go${PATH}` (`ThinkingConfigParamUnion`, `NewThinkingConfigAdaptiveParam`).
+Derived from `anthropic-sdk-go${EXPR_25}` (`ThinkingConfigParamUnion`, `NewThinkingConfigAdaptiveParam`).
 
 ```go
 // There is no ThinkingConfigParamOfAdaptive helper — construct the union
@@ -302,7 +340,7 @@ Derived from `anthropic-sdk-go${PATH}` (`ThinkingConfigParamUnion`, `NewThinking
 adaptive := anthropic.NewThinkingConfigAdaptiveParam()
 params := anthropic.MessageNewParams{
     Model:     anthropic.ModelClaudeSonnet4_6,
-    MaxTokens: ${NUM},
+    MaxTokens: ${EXPR_26},
     Thinking:  anthropic.ThinkingConfigParamUnion{OfAdaptive: &adaptive},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("How many r's in strawberry?")),
@@ -325,7 +363,7 @@ for _, block := range resp.Content {
 }
 ```
 
-> **Deprecated:** `ThinkingConfigParamOfEnabled(budgetTokens)` (fixed-budget extended thinking) still works on Claude ${NUM} but is deprecated. Use adaptive thinking above.
+> **Deprecated:** `ThinkingConfigParamOfEnabled(budgetTokens)` (fixed-budget extended thinking) still works on Claude ${EXPR_27} but is deprecated. Use adaptive thinking above.
 
 To disable: `anthropic.ThinkingConfigParamUnion{OfDisabled: &anthropic.ThinkingConfigDisabledParam{}}`.
 
@@ -333,7 +371,7 @@ To disable: `anthropic.ThinkingConfigParamUnion{OfDisabled: &anthropic.ThinkingC
 
 ## Prompt Caching
 
-`System` is `[]TextBlockParam`; set `CacheControl` on the last block to cache tools + system together. For placement patterns and the silent-invalidator audit checklist, see `shared${PATH}`.
+`System` is `[]TextBlockParam`; set `CacheControl` on the last block to cache tools + system together. For placement patterns and the silent-invalidator audit checklist, see `shared${EXPR_28}`.
 
 ```go
 System: []anthropic.TextBlockParam{{
@@ -342,7 +380,7 @@ System: []anthropic.TextBlockParam{{
 }},
 ```
 
-For ${NUM}-hour TTL: `anthropic.CacheControlEphemeralParam{TTL: anthropic.CacheControlEphemeralTTLTTL1h}`. There's also a top-level `CacheControl` on `MessageNewParams` that auto-places on the last cacheable block.
+For ${EXPR_29}-hour TTL: `anthropic.CacheControlEphemeralParam{TTL: anthropic.CacheControlEphemeralTTLTTL1h}`. There's also a top-level `CacheControl` on `MessageNewParams` that auto-places on the last cacheable block.
 
 Verify hits via `resp.Usage.CacheCreationInputTokens` / `resp.Usage.CacheReadInputTokens`.
 
@@ -378,7 +416,7 @@ msg := anthropic.NewUserMessage(
 )
 ```
 
-Other sources: `URLPDFSourceParam{URL: "${URL} `PlainTextSourceParam{Data: "..."}`.
+Other sources: `URLPDFSourceParam{URL: "${EXPR_30} `PlainTextSourceParam{Data: "..."}`.
 
 ---
 
@@ -387,11 +425,11 @@ Other sources: `URLPDFSourceParam{URL: "${URL} `PlainTextSourceParam{Data: "..."
 Under `client.Beta.Files`. Method is **`Upload`** (NOT `New`/`Create`), params struct is `BetaFileUploadParams`. The `File` field takes an `io.Reader`; use `anthropic.File()` to attach a filename + content-type for the multipart encoding.
 
 ```go
-f, _ := os.Open(".${PATH}")
+f, _ := os.Open(".${EXPR_31}")
 defer f.Close()
 
 meta, err := client.Beta.Files.Upload(ctx, anthropic.BetaFileUploadParams{
-    File:  anthropic.File(f, "upload_me.txt", "text${PATH}"),
+    File:  anthropic.File(f, "upload_me.txt", "text${EXPR_32}"),
     Betas: []anthropic.AnthropicBeta{anthropic.AnthropicBetaFilesAPI2025_04_14},
 })
 // meta.ID is the file_id to reference in subsequent message requests
@@ -408,8 +446,8 @@ Use `Beta.Messages.New` with `ContextManagement` on `BetaMessageNewParams`. Ther
 ```go
 params := anthropic.BetaMessageNewParams{
     Model:     anthropic.ModelClaudeOpus4_6,  // also supported: ModelClaudeSonnet4_6
-    MaxTokens: ${NUM},
-    Betas:     []anthropic.AnthropicBeta{"compact-${DATE}"},
+    MaxTokens: ${EXPR_33},
+    Betas:     []anthropic.AnthropicBeta{"compact-${EXPR_34}"},
     ContextManagement: anthropic.BetaContextManagementConfigParam{
         Edits: []anthropic.BetaContextManagementConfigEditUnionParam{
             {OfCompact20260112: &anthropic.BetaCompact20260112EditParam{}},
