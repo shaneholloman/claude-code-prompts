@@ -1,5 +1,20 @@
 # System Prompt: final-plan-file-paths
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: final-plan-file-paths - Source: inline Summary Outline the final plan and file modifications.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: final-plan-file-paths
+
 - Source: inline
 
 ## Summary
@@ -7,7 +22,7 @@
 Outline the final plan and file modifications.
 
 # Raw Prompt Text
-### Phase ${NUM}: Final Plan
+### Phase ${EXPR_1}: Final Plan
 Goal: Write your final plan to the plan file (the only file you can edit).
 - One-line **Context**: what is being changed and why
 - Include only your recommended approach, not all alternatives
