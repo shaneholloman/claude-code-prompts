@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: missing-local-subcommand-directory - Source: native-reference-match Summary System Reminder: missing-local-subcommand-directory - Source: in…
+
+# Raw Prompt Text
+# System Reminder: missing-local-subcommand-directory
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: missing-local-subcommand-directory - Source: inline Summary Local subcommand search directory missing with advice to set executableDir.
 
 # Raw Prompt Text
