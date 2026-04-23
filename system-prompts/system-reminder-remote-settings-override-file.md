@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: remote-settings-override-file - Source: native-reference-match Summary System Reminder: remote-settings-override-file - Source: inline Summa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: remote-settings-override-file
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: remote-settings-override-file - Source: inline Summary Using override file for remote settings.
 
 ## Placeholder Hints (source-backed)
