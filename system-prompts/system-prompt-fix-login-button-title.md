@@ -1,12 +1,28 @@
 # System Prompt: fix-login-button-title
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: fix-login-button-title Summary Generate a clear title for coding sessions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: fix-login-button-title
+
 
 ## Summary
 
 Generate a clear title for coding sessions.
 
 # Raw Prompt Text
-Generate a concise, sentence-case title (${NUM}-${NUM} words) that captures the main topic or goal of this coding session. The title should be clear enough that the user recognizes the session in a list. Use sentence case: capitalize only the first word and proper nouns.
+Generate a concise, sentence-case title (${EXPR_1}-${EXPR_2} words) that captures the main topic or goal of this coding session. The title should be clear enough that the user recognizes the session in a list. Use sentence case: capitalize only the first word and proper nouns.
 
 Return JSON with a single "title" field.
 
