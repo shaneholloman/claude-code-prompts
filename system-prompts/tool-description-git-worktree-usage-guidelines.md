@@ -4,6 +4,23 @@
 
 ## Summary
 
+Tool Description: git-worktree-usage-guidelines - Source: native-reference-match Summary Instructions for using git worktrees correctly.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# Tool Description: git-worktree-usage-guidelines
+
+- Source: native-reference-match
+
+## Summary
+
 Instructions for using git worktrees correctly.
 
 ## Placeholder Hints (source-backed)
