@@ -1,5 +1,21 @@
 # System Reminder: registered-files-for-async-delivery
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: registered-files-for-async-delivery - Source: inline Summary Registered diagnostic files from a source for asynchronous LSP delivery.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: registered-files-for-async-delivery
+
 - Source: inline
 
 ## Summary
