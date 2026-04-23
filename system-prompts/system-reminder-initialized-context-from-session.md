@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: initialized-context-from-session - Source: native-reference-match Summary System Reminder: initialized-context-from-session - Source: inline…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: initialized-context-from-session
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: initialized-context-from-session - Source: inline Summary Reconnection notice initializing agent context from a prior session for a team mem…
 
 ## Placeholder Hints (source-backed)
