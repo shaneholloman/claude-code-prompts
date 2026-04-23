@@ -1,5 +1,20 @@
 # Tool Description: write-file-to-local-filesystem-3
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: write-file-to-local-filesystem-… - Name: Write Summary Overwrites an existing file in the local filesystem.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: write-file-to-local-filesystem-${NUM}
+
 - Name: Write
 
 ## Summary
