@@ -4,6 +4,15 @@
 
 ## Summary
 
+Working directory persists, but shell state does not.
+
+# Raw Prompt Text
+# Tool Description: bash-working-directory
+
+- Source: native-reference-match
+
+## Summary
+
 The working directory persists between commands, but shell state does not.
 
 # Raw Prompt Text
