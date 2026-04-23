@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: process-sandbox-permission-response - Source: native-reference-match Summary System Reminder: process-sandbox-permission-response - Source:…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: process-sandbox-permission-response
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: process-sandbox-permission-response - Source: inline Summary Logs processing of a sandbox response indicating allow decision for a request.
 
 ## Placeholder Hints (source-backed)
