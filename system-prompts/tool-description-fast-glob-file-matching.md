@@ -4,6 +4,15 @@
 
 ## Summary
 
+Tool Description: fast-glob-file-matching - Source: native-reference-match Summary Finds files by glob patterns and returns paths sorted by modification time.
+
+# Raw Prompt Text
+# Tool Description: fast-glob-file-matching
+
+- Source: native-reference-match
+
+## Summary
+
 Finds files by glob patterns and returns paths sorted by modification time.
 
 # Raw Prompt Text
