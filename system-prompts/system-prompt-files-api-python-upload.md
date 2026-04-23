@@ -1,5 +1,36 @@
 # System Data Block: files-api-python-upload
 
+- Source: native-reference-match
+
+## Summary
+
+System Data Block: files-api-python-upload - Source: inline Summary Upload and manage files for API requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+
+# Raw Prompt Text
+# System Data Block: files-api-python-upload
+
 - Source: inline
 
 ## Summary
@@ -17,12 +48,12 @@ Upload and manage files for API requests.
 
 The Files API uploads files for use in Messages API requests. Reference files via `file_id` in content blocks, avoiding re-uploads across multiple API calls.
 
-**Beta:** Pass `betas=["files-api-${DATE}"]` in your API calls (the SDK sets the required header automatically).
+**Beta:** Pass `betas=["files-api-${EXPR_1}"]` in your API calls (the SDK sets the required header automatically).
 
 ## Key Facts
 
-- Maximum file size: ${NUM} MB
-- Total storage: ${NUM} GB per organization
+- Maximum file size: ${EXPR_2} MB
+- Total storage: ${EXPR_3} GB per organization
 - Files persist until deleted
 - File operations (upload, list, delete) are free; content used in messages is billed as input tokens
 - Not available on Amazon Bedrock or Google Vertex AI
@@ -37,7 +68,7 @@ import anthropic
 client = anthropic.Anthropic()
 
 uploaded = client.beta.files.upload(
-    file=("report.pdf", open("report.pdf", "rb"), "application${PATH}"),
+    file=("report.pdf", open("report.pdf", "rb"), "application${EXPR_4}"),
 )
 print(f"File ID: {uploaded.id}")
 print(f"Size: {uploaded.size_bytes} bytes")
@@ -52,7 +83,7 @@ print(f"Size: {uploaded.size_bytes} bytes")
 ```python
 response = client.beta.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_5},
     messages=[{
         "role": "user",
         "content": [
@@ -65,7 +96,7 @@ response = client.beta.messages.create(
             }
         ]
     }],
-    betas=["files-api-${DATE}"],
+    betas=["files-api-${EXPR_6}"],
 )
 for block in response.content:
     if block.type == "text":
@@ -76,12 +107,12 @@ for block in response.content:
 
 ```python
 image_file = client.beta.files.upload(
-    file=("photo.png", open("photo.png", "rb"), "image${PATH}"),
+    file=("photo.png", open("photo.png", "rb"), "image${EXPR_7}"),
 )
 
 response = client.beta.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_8},
     messages=[{
         "role": "user",
         "content": [
@@ -92,7 +123,7 @@ response = client.beta.messages.create(
             }
         ]
     }],
-    betas=["files-api-${DATE}"],
+    betas=["files-api-${EXPR_9}"],
 )
 ```
 
@@ -142,13 +173,13 @@ import anthropic
 
 client = anthropic.Anthropic()
 
-# ${NUM}. Upload once
+# ${EXPR_10}. Upload once
 uploaded = client.beta.files.upload(
-    file=("contract.pdf", open("contract.pdf", "rb"), "application${PATH}"),
+    file=("contract.pdf", open("contract.pdf", "rb"), "application${EXPR_11}"),
 )
 print(f"Uploaded: {uploaded.id}")
 
-# ${NUM}. Ask multiple questions using the same file_id
+# ${EXPR_12}. Ask multiple questions using the same file_id
 questions = [
     "What are the key terms and conditions?",
     "What is the termination clause?",
@@ -158,7 +189,7 @@ questions = [
 for question in questions:
     response = client.beta.messages.create(
         model="{{OPUS_ID}}",
-        max_tokens=${NUM},
+        max_tokens=${EXPR_13},
         messages=[{
             "role": "user",
             "content": [
@@ -169,12 +200,12 @@ for question in questions:
                 }
             ]
         }],
-        betas=["files-api-${DATE}"],
+        betas=["files-api-${EXPR_14}"],
     )
     print(f"\nQ: {question}")
     text = next((b.text for b in response.content if b.type == "text"), "")
-    print(f"A: {text[:${NUM}]}")
+    print(f"A: {text[:${EXPR_15}]}")
 
-# ${NUM}. Clean up when done
+# ${EXPR_16}. Clean up when done
 client.beta.files.delete(uploaded.id)
 ```
