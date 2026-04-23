@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: automated-background-task-notification - Source: native-reference-match Summary System Prompt: automated-background-task-notification - Source…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: automated-background-task-notification
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: automated-background-task-notification - Source: inline Summary Automated notification for background tasks.
 
 ## Placeholder Hints (source-backed)
