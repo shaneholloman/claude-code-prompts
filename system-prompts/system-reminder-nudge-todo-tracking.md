@@ -13,6 +13,15 @@ System Reminder: nudge-todo-tracking - Source: native-reference-match Summary Sy
 
 ## Summary
 
+System Reminder: nudge-todo-tracking - Source: native-reference-match Summary System Reminder: todo-list-cleanup - Source: inline Summary Suggests using and…
+
+# Raw Prompt Text
+# System Reminder: nudge-todo-tracking
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: todo-list-cleanup - Source: inline Summary Suggests using and cleaning up the todo list when it would help track progress.
 
 # Raw Prompt Text
