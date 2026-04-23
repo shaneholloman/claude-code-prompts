@@ -1,4 +1,13 @@
-# Tool Description: triple-click-selects-line-2
+# Tool Description: triple-click-selects-line
+
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: triple-click-selects-line-… - Name: triple_click Summary Selects a line by triple-clicking at coordinates.
+
+# Raw Prompt Text
+# Tool Description: triple-click-selects-line-${NUM}
 
 - Name: triple_click
 
