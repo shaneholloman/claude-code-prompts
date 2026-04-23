@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: select-useful-memories-for-query - Source: native-reference-match Summary Identify relevant memories for user queries.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: select-useful-memories-for-query
+
+- Source: native-reference-match
+
+## Summary
+
 Identify relevant memories for user queries.
 
 ## Placeholder Hints (source-backed)
