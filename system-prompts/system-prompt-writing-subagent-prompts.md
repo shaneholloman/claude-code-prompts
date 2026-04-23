@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Prompt: briefing-a-fresh - Source: native-reference-match Summary Guide a new agent with essential context.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: writing-subagent-prompts
+
+- Source: native-reference-match
+
+## Summary
+
 Guide a new agent with essential context.
 
 ## Placeholder Hints (source-backed)
@@ -20,9 +37,9 @@ ${EXPR_1}Brief the agent like a smart colleague who just walked into the room â€
 - Explain what you're trying to accomplish and why.
 - Describe what you've already learned or ruled out.
 - Give enough context about the surrounding problem that the agent can make judgment calls rather than just following a narrow instruction.
-- If you need a short response, say so ("report in under ${NUM} words").
+- If you need a short response, say so ("report in under ${EXPR_2} words").
 - Lookups: hand over the exact command. Investigations: hand over the question â€” prescribed steps become dead weight when the premise is wrong.
 
-${EXPR_2} command-style prompts produce shallow, generic work.
+${EXPR_3} command-style prompts produce shallow, generic work.
 
 **Never delegate understanding.** Don't write "based on your findings, fix the bug" or "based on the research, implement it." Those phrases push synthesis onto the agent instead of doing it yourself. Write prompts that prove you understood: include file paths, line numbers, what specifically to change.
