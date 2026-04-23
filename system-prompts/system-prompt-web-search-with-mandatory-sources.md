@@ -4,6 +4,25 @@
 
 ## Summary
 
+System Prompt: web-search-with-mandatory-sources - Source: native-reference-match Summary System Prompt: web-search-with-mandatory-sources - Source: inline S…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Prompt: web-search-with-mandatory-sources
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: web-search-with-mandatory-sources - Source: inline Summary Enables automatic web search and mandates a Sources section with linked result URLs.
 
 ## Placeholder Hints (source-backed)
