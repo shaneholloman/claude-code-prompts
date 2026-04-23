@@ -1,5 +1,14 @@
 # System Prompt: write-file-to-local-filesystem-3
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: write-file-to-local-filesystem-… - Source: inline Summary Creates or rewrites a file on the local filesystem.
+
+# Raw Prompt Text
+# System Prompt: write-file-to-local-filesystem-${NUM}
+
 - Source: inline
 
 ## Summary
