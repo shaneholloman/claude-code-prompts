@@ -1,3 +1,20 @@
+# Tool Description: execute-within-main-conversation-when
+
+- Source: native-reference-match
+
+## Summary
+
+Execute a skill within the main conversation When users ask you to perform tasks, check if any of the available skills match.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
 # Tool Description: 8147b189
 
 - Source: native-prompt-markdown-tool
@@ -23,11 +40,11 @@ Important:
 - When a skill matches the user's request, this is a BLOCKING REQUIREMENT: invoke the relevant Skill tool BEFORE generating any other response about the task
 - NEVER mention a skill without actually calling this tool
 - Do not invoke a skill that is already running
-- Do not use this tool for built-in CLI commands (like ${PATH}, ${PATH}, etc.)
+- Do not use this tool for built-in CLI commands (like ${EXPR_1}, ${EXPR_2}, etc.)
 - If you see a <command-name> tag in the current conversation turn, the skill has ALREADY been loaded - follow the instructions directly instead of calling this tool again
 
 {
-  "$schema": "${URL}
+  "$schema": "${EXPR_3}
   "type": "object",
   "properties": {
     "skill": {
