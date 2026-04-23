@@ -1,5 +1,14 @@
 # Tool Description: structured-final-output
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: structured-final-output - Name: StructuredOutput Summary Require a single tool call to return the final structured response.
+
+# Raw Prompt Text
+# Tool Description: structured-final-output
+
 - Name: StructuredOutput
 
 ## Summary
