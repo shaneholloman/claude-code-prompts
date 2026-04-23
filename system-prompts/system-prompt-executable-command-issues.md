@@ -1,3 +1,19 @@
+# System Data Block: executable-command-issues
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: executable-command-issues - Source: native-reference-match Summary System Prompt: executable-command-issues - Source: inline Summary Guidance…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
 # System Prompt: executable-command-issues
 
 - Source: native-reference-match
