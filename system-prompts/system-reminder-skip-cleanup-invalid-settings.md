@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: skip-cleanup-invalid-settings - Source: native-reference-match Summary System Reminder: skip-cleanup-invalid-settings - Source: inline Summa…
+
+# Raw Prompt Text
+# System Reminder: skip-cleanup-invalid-settings
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: skip-cleanup-invalid-settings - Source: inline Summary Cleanup skipped because settings validation errors persist.
 
 # Raw Prompt Text
