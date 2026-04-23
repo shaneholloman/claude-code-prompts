@@ -1,5 +1,14 @@
 # Tool Description: exit-worktree-session
 
+- Source: native-reference-match
+
+## Summary
+
+Exit a worktree session and return to the original directory.
+
+# Raw Prompt Text
+# Tool Description: exit-worktree-session
+
 - Name: ExitWorktree
 
 ## Summary
