@@ -4,6 +4,23 @@
 
 ## Summary
 
+Tool Description: list-available-tasks - Source: native-reference-match Summary Tool Description: list-available-tasks - Name: TaskList Summary List all task…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# Tool Description: list-available-tasks
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: list-available-tasks - Name: TaskList Summary List all tasks and summarize status, owner, and blockers to choose next work.
 
 ## Placeholder Hints (source-backed)
