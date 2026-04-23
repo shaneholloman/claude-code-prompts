@@ -1,5 +1,22 @@
 # System Prompt: language-character-requirements
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: language-character-requirements - Source: inline Summary Always use specified language and maintain character accuracy.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: language-character-requirements
+
 - Source: inline
 
 ## Summary
