@@ -1,5 +1,14 @@
 # System Reminder: setup-notes-user-permission
 
+- Source: native-reference-match
+
+## Summary
+
+User must approve tool calls based on permissions.
+
+# Raw Prompt Text
+# System Reminder: setup-notes-user-permission
+
 - Source: inline
 
 ## Summary
