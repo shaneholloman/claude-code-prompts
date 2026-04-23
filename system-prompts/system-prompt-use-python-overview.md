@@ -1,5 +1,43 @@
 # System Prompt: use-python-overview
 
+- Source: native-reference-match
+
+## Summary
+
+Overview of using tools in Python SDK.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+
+# Raw Prompt Text
+# System Prompt: use-python-overview
+
 - Source: inline
 
 ## Summary
@@ -15,7 +53,7 @@ Overview of using tools in Python SDK.
 # Raw Prompt Text
 # Tool Use — Python
 
-For conceptual overview (tool definitions, tool choice, tips), see [shared${PATH}](..${PATH}).
+For conceptual overview (tool definitions, tool choice, tips), see [shared${EXPR_1}](..${EXPR_2}).
 
 ## Tool Runner (Recommended)
 
@@ -38,12 +76,12 @@ def get_weather(location: str, unit: str = "celsius") -> str:
         unit: Temperature unit, either "celsius" or "fahrenheit".
     """
     # Your implementation here
-    return f"${NUM}°F and sunny in {location}"
+    return f"${EXPR_3}°F and sunny in {location}"
 
 # The tool runner handles the agentic loop automatically
 runner = client.beta.messages.tool_runner(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_4},
     tools=[get_weather],
     messages=[{"role": "user", "content": "What's the weather in Paris?"}],
 )
@@ -66,7 +104,7 @@ For async usage, use `@beta_async_tool` with `async def` functions.
 
 ## MCP Tool Conversion Helpers
 
-**Beta.** Convert [MCP (Model Context Protocol)](${URL}) tools, prompts, and resources to Anthropic API types for use with the tool runner. Requires `pip install anthropic[mcp]` (Python ${NUM}+).
+**Beta.** Convert [MCP (Model Context Protocol)](${EXPR_5}) tools, prompts, and resources to Anthropic API types for use with the tool runner. Requires `pip install anthropic[mcp]` (Python ${EXPR_6}+).
 
 > **Note:** The Claude API also supports an `mcp_servers` parameter that lets Claude connect directly to remote MCP servers. Use these helpers instead when you need local MCP servers, prompts, resources, or more control over the MCP connection.
 
@@ -88,7 +126,7 @@ async with stdio_client(StdioServerParameters(command="mcp-server")) as (read, w
         # tool_runner is sync — returns the runner, not a coroutine
         runner = client.beta.messages.tool_runner(
             model="{{OPUS_ID}}",
-            max_tokens=${NUM},
+            max_tokens=${EXPR_7},
             messages=[{"role": "user", "content": "Use the available tools"}],
             tools=[async_mcp_tool(t, mcp_client) for t in tools_result.tools],
         )
@@ -106,7 +144,7 @@ from anthropic.lib.tools.mcp import mcp_message
 prompt = await mcp_client.get_prompt(name="my-prompt")
 response = await client.beta.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_8},
     messages=[mcp_message(m) for m in prompt.messages],
 )
 ```
@@ -116,10 +154,10 @@ response = await client.beta.messages.create(
 ```python
 from anthropic.lib.tools.mcp import mcp_resource_to_content
 
-resource = await mcp_client.read_resource(uri="file:${PATH}")
+resource = await mcp_client.read_resource(uri="file:${EXPR_9}")
 response = await client.beta.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_10},
     messages=[{
         "role": "user",
         "content": [
@@ -135,7 +173,7 @@ response = await client.beta.messages.create(
 ```python
 from anthropic.lib.tools.mcp import mcp_resource_to_file
 
-resource = await mcp_client.read_resource(uri="file:${PATH}")
+resource = await mcp_client.read_resource(uri="file:${EXPR_11}")
 uploaded = await client.beta.files.upload(file=mcp_resource_to_file(resource))
 ```
 
@@ -158,7 +196,7 @@ messages = [{"role": "user", "content": user_input}]
 while True:
     response = client.messages.create(
         model="{{OPUS_ID}}",
-        max_tokens=${NUM},
+        max_tokens=${EXPR_12},
         tools=tools,
         messages=messages
     )
@@ -205,7 +243,7 @@ final_text = next(b.text for b in response.content if b.type == "text")
 ```python
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_13},
     tools=tools,
     messages=[{"role": "user", "content": "What's the weather in Paris?"}]
 )
@@ -220,7 +258,7 @@ for block in response.content:
 
         followup = client.messages.create(
             model="{{OPUS_ID}}",
-            max_tokens=${NUM},
+            max_tokens=${EXPR_14},
             tools=tools,
             messages=[
                 {"role": "user", "content": "What's the weather in Paris?"},
@@ -257,7 +295,7 @@ for block in response.content:
 if tool_results:
     followup = client.messages.create(
         model="{{OPUS_ID}}",
-        max_tokens=${NUM},
+        max_tokens=${EXPR_15},
         tools=tools,
         messages=[
             *previous_messages,
@@ -287,7 +325,7 @@ tool_result = {
 ```python
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_16},
     tools=tools,
     tool_choice={"type": "tool", "name": "get_weather"},  # Force specific tool
     messages=[{"role": "user", "content": "What's the weather in Paris?"}]
@@ -307,10 +345,10 @@ client = anthropic.Anthropic()
 
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_17},
     messages=[{
         "role": "user",
-        "content": "Calculate the mean and standard deviation of [${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}]"
+        "content": "Calculate the mean and standard deviation of [${EXPR_18}, ${EXPR_19}, ${EXPR_20}, ${EXPR_21}, ${EXPR_22}, ${EXPR_23}, ${EXPR_24}, ${EXPR_25}, ${EXPR_26}, ${EXPR_27}]"
     }],
     tools=[{
         "type": "code_execution_20260120",
@@ -328,15 +366,15 @@ for block in response.content:
 ### Upload Files for Analysis
 
 ```python
-# ${NUM}. Upload a file
+# ${EXPR_28}. Upload a file
 uploaded = client.beta.files.upload(file=open("sales_data.csv", "rb"))
 
-# ${NUM}. Pass to code execution via container_upload block
+# ${EXPR_29}. Pass to code execution via container_upload block
 # Code execution is GA; Files API is still beta (pass via extra_headers)
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
-    extra_headers={"anthropic-beta": "files-api-${DATE}"},
+    max_tokens=${EXPR_30},
+    extra_headers={"anthropic-beta": "files-api-${EXPR_31}"},
     messages=[{
         "role": "user",
         "content": [
@@ -353,7 +391,7 @@ response = client.messages.create(
 ```python
 import os
 
-OUTPUT_DIR = ".${PATH}"
+OUTPUT_DIR = ".${EXPR_32}"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 for block in response.content:
@@ -380,7 +418,7 @@ for block in response.content:
 # First request: set up environment
 response1 = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_33},
     messages=[{"role": "user", "content": "Install tabulate and create data.json with sample data"}],
     tools=[{"type": "code_execution_20260120", "name": "code_execution"}]
 )
@@ -392,7 +430,7 @@ container_id = response1.container.id
 response2 = client.messages.create(
     container=container_id,
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_34},
     messages=[{"role": "user", "content": "Read data.json and display as a formatted table"}],
     tools=[{"type": "code_execution_20260120", "name": "code_execution"}]
 )
@@ -409,7 +447,7 @@ for block in response.content:
     elif block.type == "bash_code_execution_tool_result":
         result = block.content
         if result.type == "bash_code_execution_result":
-            if result.return_code == ${NUM}:
+            if result.return_code == ${EXPR_35}:
                 print(f"Output: {result.stdout}")
             else:
                 print(f"Error: {result.stderr}")
@@ -432,7 +470,7 @@ client = anthropic.Anthropic()
 
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_36},
     messages=[{"role": "user", "content": "Remember that my preferred language is Python."}],
     tools=[{"type": "memory_20250818", "name": "memory"}],
 )
@@ -458,7 +496,7 @@ memory = MyMemoryTool()
 # Use with tool runner
 runner = client.beta.messages.tool_runner(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_37},
     tools=[memory],
     messages=[{"role": "user", "content": "Remember my preferences"}],
 )
@@ -469,7 +507,7 @@ for message in runner:
 
 For full implementation examples, use WebFetch:
 
-- `${URL}
+- `${EXPR_38}
 
 ---
 
@@ -493,7 +531,7 @@ client = anthropic.Anthropic()
 
 response = client.messages.parse(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_39},
     messages=[{
         "role": "user",
         "content": "Extract: Jane Doe (jane@co.com) wants Enterprise, interested in API and SDKs, wants a demo."
@@ -512,7 +550,7 @@ print(contact.interests)      # ["API", "SDKs"]
 ```python
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_40},
     messages=[{
         "role": "user",
         "content": "Extract info: John Smith (john@example.com) wants the Enterprise plan."
@@ -546,8 +584,8 @@ data = json.loads(text)
 ```python
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
-    messages=[{"role": "user", "content": "Book a flight to Tokyo for ${NUM} passengers on March ${NUM}"}],
+    max_tokens=${EXPR_41},
+    messages=[{"role": "user", "content": "Book a flight to Tokyo for ${EXPR_42} passengers on March ${EXPR_43}"}],
     tools=[{
         "name": "book_flight",
         "description": "Book a flight to a destination",
@@ -557,7 +595,7 @@ response = client.messages.create(
             "properties": {
                 "destination": {"type": "string"},
                 "date": {"type": "string", "format": "date"},
-                "passengers": {"type": "integer", "enum": [${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}]}
+                "passengers": {"type": "integer", "enum": [${EXPR_44}, ${EXPR_45}, ${EXPR_46}, ${EXPR_47}, ${EXPR_48}, ${EXPR_49}, ${EXPR_50}, ${EXPR_51}]}
             },
             "required": ["destination", "date", "passengers"],
             "additionalProperties": False
@@ -571,7 +609,7 @@ response = client.messages.create(
 ```python
 response = client.messages.create(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_52},
     messages=[{"role": "user", "content": "Plan a trip to Paris next month"}],
     output_config={
         "format": {
