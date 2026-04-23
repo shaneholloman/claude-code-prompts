@@ -4,6 +4,27 @@
 
 ## Summary
 
+Guidelines for creating git commits safely.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# System Prompt: git-commit-changes-message-create
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: git-commit-changes-message-create - Source: native-reference-match Summary System Prompt: git-commit-changes-message-create - Source: inline S…
 
 ## Placeholder Hints (source-backed)
