@@ -1,3 +1,27 @@
+# System Reminder: plan-mode-restrictions
+
+- Source: native-reference-match
+
+## Summary
+
+Restricts edits during plan mode.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+
+# Raw Prompt Text
 # System Reminder: plan-mode-edit-restrictions
 
 - Source: inline
@@ -31,9 +55,9 @@ You are pair-planning with the user. Explore the code to build context, ask the 
 
 Repeat this cycle until the plan is complete:
 
-${NUM}. **Explore** — Use ${EXPR_2} to read code. Look for existing functions, utilities, and patterns to reuse.${EXPR_3}
-${NUM}. **Update the plan file** — After each discovery, immediately capture what you learned. Don't wait until the end.
-${NUM}. **Ask the user** — When you hit an ambiguity or decision you can't resolve from code alone, use AskUserQuestion. Then go back to step ${NUM}.
+${EXPR_2}. **Explore** — Use ${EXPR_3} to read code. Look for existing functions, utilities, and patterns to reuse.${EXPR_4}
+${EXPR_5}. **Update the plan file** — After each discovery, immediately capture what you learned. Don't wait until the end.
+${EXPR_6}. **Ask the user** — When you hit an ambiguity or decision you can't resolve from code alone, use AskUserQuestion. Then go back to step ${EXPR_7}.
 
 ### First Turn
 
@@ -57,12 +81,12 @@ Your plan file should be divided into clear sections using markdown headers, bas
 
 ### When to Converge
 
-Your plan is ready when you've addressed all ambiguities and it covers: what to change, which files to modify, what existing code to reuse (with file paths), and how to verify the changes. Call ${EXPR_4} when the plan is ready for approval.
+Your plan is ready when you've addressed all ambiguities and it covers: what to change, which files to modify, what existing code to reuse (with file paths), and how to verify the changes. Call ${EXPR_8} when the plan is ready for approval.
 
 ### Ending Your Turn
 
 Your turn should only end by either:
 - Using AskUserQuestion to gather more information
-- Calling ${EXPR_5} when the plan is ready for approval
+- Calling ${EXPR_9} when the plan is ready for approval
 
-**Important:** Use ${EXPR_6} to request plan approval. Do NOT ask about plan approval via text or AskUserQuestion.
+**Important:** Use ${EXPR_10} to request plan approval. Do NOT ask about plan approval via text or AskUserQuestion.
