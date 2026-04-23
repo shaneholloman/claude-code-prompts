@@ -4,6 +4,28 @@
 
 ## Summary
 
+System Prompt: create-view-instrument-selector - Source: native-reference-match Summary System Prompt: create-view-instrument-selector - Source: inline Summa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+
+# Raw Prompt Text
+# System Prompt: create-view-instrument-selector
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: create-view-instrument-selector - Source: inline Summary Create a new view with specified name, optional description, and InstrumentSelector v…
 
 ## Placeholder Hints (source-backed)
