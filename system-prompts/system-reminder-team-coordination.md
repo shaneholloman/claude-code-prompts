@@ -1,10 +1,31 @@
 # System Reminder: team-coordination
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: team-coordination - Source: inline Summary Multiple prompts (…) Placeholder Hints (source-backed) | Expression | Hint | Reference | | --- |…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# System Reminder: team-coordination
+
 - Source: inline
 
 ## Summary
 
-Multiple prompts (2)
+Multiple prompts (${NUM})
 
 ## Placeholder Hints (source-backed)
 
@@ -38,7 +59,7 @@ Read the team config to discover your teammates' names. Check the task list peri
 {
   "to": "team-lead",
   "message": "Your message here",
-  "summary": "Brief ${NUM}-${NUM} word preview"
+  "summary": "Brief ${EXPR_5}-${EXPR_6} word preview"
 }
 ```
-<${PATH}>
+<${EXPR_7}>
