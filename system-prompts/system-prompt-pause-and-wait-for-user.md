@@ -1,5 +1,14 @@
 # System Prompt: pause-and-wait-for-user
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: pause-and-wait-for-user - Source: inline Summary Stop current work and wait for user instructions, noting any corrections.
+
+# Raw Prompt Text
+# System Prompt: pause-and-wait-for-user
+
 - Source: inline
 
 ## Summary
