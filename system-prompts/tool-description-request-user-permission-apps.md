@@ -1,5 +1,14 @@
 # Tool Description: request-user-permission-apps
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: request-user-permission-apps - Name: request_access Summary Request user permission for app control.
+
+# Raw Prompt Text
+# Tool Description: request-user-permission-apps
+
 - Name: request_access
 
 ## Summary
