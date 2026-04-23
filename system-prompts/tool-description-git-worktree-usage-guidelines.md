@@ -1,5 +1,22 @@
 # Tool Description: git-worktree-usage-guidelines
 
+- Source: native-reference-match
+
+## Summary
+
+Instructions for using git worktrees correctly.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# Tool Description: git-worktree-usage-guidelines
+
 - Name: EnterWorktree
 
 ## Summary
@@ -22,13 +39,13 @@ Use this tool ONLY when explicitly instructed to work in a worktree — either b
 
 ## Requirements
 
-- Must be in a git repository, OR have WorktreeCreate${PATH} hooks configured in settings.json
+- Must be in a git repository, OR have WorktreeCreate${EXPR_1} hooks configured in settings.json
 - Must not already be in a worktree
 
 ## Behavior
 
-- In a git repository: creates a new git worktree inside `.claude${PATH}` with a new branch based on HEAD
-- Outside a git repository: delegates to WorktreeCreate${PATH} hooks for VCS-agnostic isolation
+- In a git repository: creates a new git worktree inside `.claude${EXPR_2}` with a new branch based on HEAD
+- Outside a git repository: delegates to WorktreeCreate${EXPR_3} hooks for VCS-agnostic isolation
 - Switches the session's working directory to the new worktree
 - Use ExitWorktree to leave the worktree mid-session (keep or remove). On session exit, if still in the worktree, the user will be prompted to keep or remove it
 
