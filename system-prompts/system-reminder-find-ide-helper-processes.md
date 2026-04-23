@@ -1,5 +1,14 @@
 # System Reminder: find-ide-helper-processes
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: find-ide-helper-processes - Source: inline Summary Shell command to locate IDE and helper processes via ps and grep.
+
+# Raw Prompt Text
+# System Reminder: find-ide-helper-processes
+
 - Source: inline
 
 ## Summary
