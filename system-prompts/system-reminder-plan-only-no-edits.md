@@ -19,6 +19,21 @@ System Reminder: plan-only-no-edits - Source: native-reference-match Summary Sys
 
 ## Summary
 
+System Reminder: plan-only-no-edits - Source: native-reference-match Summary System Reminder: plan-only-no-edits - Source: inline Summary Plan mode: only edi…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plan-only-no-edits
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: plan-only-no-edits - Source: inline Summary Plan mode: only edit designated plan file, otherwise perform read-only actions and ask clarifica…
 
 ## Placeholder Hints (source-backed)
