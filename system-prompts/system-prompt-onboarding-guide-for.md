@@ -33,6 +33,39 @@ Collaborative guide for new Claude Code users.
 # Raw Prompt Text
 # System Prompt: onboarding-guide-for
 
+- Source: native-reference-match
+
+## Summary
+
+Collaborative guide for new Claude Code users.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `WINDOW_DAYS` | None | None |
+| `USAGE_DATA` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `GUIDE_TEMPLATE` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+
+# Raw Prompt Text
+# System Prompt: onboarding-guide-for
+
 - Source: inline
 
 ## Summary
