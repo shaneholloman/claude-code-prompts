@@ -15,6 +15,21 @@ Run a lightweight planning process from a local terminal.
 # Raw Prompt Text
 # System Reminder: local-terminal-planning-session
 
+- Source: native-reference-match
+
+## Summary
+
+Run a lightweight planning process from a local terminal.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: local-terminal-planning-session
+
 - Source: inline
 
 ## Summary
