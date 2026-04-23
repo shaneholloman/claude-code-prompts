@@ -4,6 +4,26 @@
 
 ## Summary
 
+System Data Block: github-event-listener - Source: native-reference-match Summary System Data Block: mention-triggered-github-workflow - Source: inline Summa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# System Data Block: github-event-listener
+
+- Source: native-reference-match
+
+## Summary
+
 System Data Block: mention-triggered-github-workflow - Source: inline Summary Listens for specific GitHub events involving Claude.
 
 ## Placeholder Hints (source-backed)
