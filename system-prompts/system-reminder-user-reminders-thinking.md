@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: user-reminders-thinking - Source: native-reference-match Summary System Reminder: user-reminders-thinking - Source: inline Summary Guideline…
+
+# Raw Prompt Text
+# System Reminder: user-reminders-thinking
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: user-reminders-thinking - Source: inline Summary Guidelines for handling user messages effectively.
 
 # Raw Prompt Text
