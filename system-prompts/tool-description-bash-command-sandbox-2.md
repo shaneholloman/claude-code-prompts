@@ -1,5 +1,24 @@
 # Tool Description: bash-command-sandbox-2
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: bash-command-sandbox-… - Name: Bash Summary Executes bash commands in a controlled environment.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Tool Description: bash-command-sandbox-${NUM}
+
 - Name: Bash
 
 ## Summary
