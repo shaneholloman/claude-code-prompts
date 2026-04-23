@@ -1,5 +1,23 @@
 # System Prompt: interactive-question-guidance
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: interactive-question-guidance - Source: inline Summary Instructs when and how to ask users clarifying questions during execution and plan mode.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Prompt: interactive-question-guidance
+
 - Source: inline
 
 ## Summary
@@ -8,10 +26,10 @@ Instructs when and how to ask users clarifying questions during execution and pl
 
 # Raw Prompt Text
 Use this tool when you need to ask the user questions during execution. This allows you to:
-${NUM}. Gather user preferences or requirements
-${NUM}. Clarify ambiguous instructions
-${NUM}. Get decisions on implementation choices as you work
-${NUM}. Offer choices to the user about what direction to take.
+${EXPR_1}. Gather user preferences or requirements
+${EXPR_2}. Clarify ambiguous instructions
+${EXPR_3}. Get decisions on implementation choices as you work
+${EXPR_4}. Offer choices to the user about what direction to take.
 
 Usage notes:
 - Users will always be able to select "Other" to provide custom text input
