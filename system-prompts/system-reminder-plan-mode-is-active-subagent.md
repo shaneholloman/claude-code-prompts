@@ -4,6 +4,23 @@
 
 ## Summary
 
+Only edit designated plan file and ask clarifications.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plan-mode-is-active-subagent
+
+- Source: native-reference-match
+
+## Summary
+
 Plan mode: only edit designated plan file, otherwise perform read-only actions and ask clarifications.
 
 ## Placeholder Hints (source-backed)
