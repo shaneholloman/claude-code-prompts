@@ -1,3 +1,19 @@
+# System Data Block: settings-change-user
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: settings-change-user - Source: native-reference-match Summary System Prompt: settings-exit-user-change - Source: inline Summary Input for chan…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
 # System Prompt: settings-change-user
 
 - Source: native-reference-match
