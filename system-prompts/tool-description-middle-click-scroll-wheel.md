@@ -1,5 +1,14 @@
 # Tool Description: middle-click-scroll-wheel
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: middle-click-scroll-wheel - Name: middle_click Summary Executes a middle-click at specified coordinates.
+
+# Raw Prompt Text
+# Tool Description: middle-click-scroll-wheel
+
 - Name: middle_click
 
 ## Summary
