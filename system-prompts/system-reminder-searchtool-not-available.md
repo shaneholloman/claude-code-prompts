@@ -4,6 +4,15 @@
 
 ## Summary
 
+Notification about search tool unavailability.
+
+# Raw Prompt Text
+# System Reminder: searchtool-not-available
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: searchtool-not-available - Source: native-reference-match Summary System Reminder: searchtool-not-available - Source: inline Summary Explain…
 
 # Raw Prompt Text
