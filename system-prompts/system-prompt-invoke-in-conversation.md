@@ -20,6 +20,22 @@ System Prompt: invoke-in-conversation - Source: native-reference-match Summary I
 
 ## Summary
 
+System Prompt: invoke-in-conversation - Source: native-reference-match Summary Invoke skills based on user requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: invoke-in-conversation
+
+- Source: native-reference-match
+
+## Summary
+
 Invoke skills based on user requests.
 
 ## Placeholder Hints (source-backed)
