@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Prompt: json-action-response-exit - Source: native-reference-match Summary System Prompt: json-action-response-exit - Source: inline Summary Handles J…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: json-action-response-exit
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: json-action-response-exit - Source: inline Summary Handles JSON commands with specific actions and responses.
 
 ## Placeholder Hints (source-backed)
