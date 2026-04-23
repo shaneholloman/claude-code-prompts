@@ -1,5 +1,21 @@
 # System Reminder: preserve-intentional-file-changes
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: preserve-intentional-file-changes - Source: inline Summary Honor intentional modifications to EXPR_1; consider listed diffs without mentioni…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: preserve-intentional-file-changes
+
 - Source: inline
 
 ## Summary
