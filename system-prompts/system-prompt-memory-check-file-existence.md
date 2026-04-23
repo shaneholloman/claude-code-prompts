@@ -13,6 +13,15 @@ System Data Block: memory-check-file-existence - Source: native-reference-match 
 
 ## Summary
 
+System Data Block: memory-check-file-existence - Source: native-reference-match Summary System Prompt: memory-check-file-existence - Source: inline Summary V…
+
+# Raw Prompt Text
+# System Data Block: memory-check-file-existence
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: memory-check-file-existence - Source: inline Summary Verify existence of files or functions before recommending.
 
 # Raw Prompt Text
