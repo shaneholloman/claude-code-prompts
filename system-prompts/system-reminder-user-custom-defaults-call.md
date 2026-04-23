@@ -1,5 +1,25 @@
 # System Reminder: user-custom-defaults-call
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: user-custom-defaults-call - Source: inline Summary Communicate tool usage and permissions to the user.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# System Reminder: user-custom-defaults-call
+
 - Source: inline
 
 ## Summary
