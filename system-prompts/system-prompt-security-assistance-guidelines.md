@@ -21,6 +21,27 @@ Guidelines for authorized security assistance.
 # Raw Prompt Text
 # System Prompt: security-assistance-guidelines
 
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for authorized security assistance.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# System Prompt: security-assistance-guidelines
+
 - Source: inline
 
 ## Summary
