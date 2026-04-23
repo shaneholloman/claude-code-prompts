@@ -20,6 +20,22 @@ System Prompt: plan-mode-restrictions - Source: native-reference-match Summary S
 
 ## Summary
 
+System Prompt: plan-mode-restrictions - Source: native-reference-match Summary System Prompt: plan-mode-restrictions - Source: inline Summary Plan-only mode:…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: plan-mode-restrictions
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: plan-mode-restrictions - Source: inline Summary Plan-only mode: edit existing plan file at … via … only Placeholder Hints (source-backed) | Ex…
 
 ## Placeholder Hints (source-backed)
