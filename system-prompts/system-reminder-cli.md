@@ -1,3 +1,18 @@
+# System Reminder: cli
+
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: official-cli - Source: inline Summary Official CLI for Claude Code.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # System Reminder: official-cli
 
 - Source: inline
