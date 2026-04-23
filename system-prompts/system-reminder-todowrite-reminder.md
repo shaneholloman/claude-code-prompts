@@ -4,6 +4,15 @@
 
 ## Summary
 
+Gentle reminder to tidy up the todo list.
+
+# Raw Prompt Text
+# System Reminder: todowrite-reminder
+
+- Source: native-reference-match
+
+## Summary
+
 Gentle nudge to use and tidy up the todo list.
 
 # Raw Prompt Text
