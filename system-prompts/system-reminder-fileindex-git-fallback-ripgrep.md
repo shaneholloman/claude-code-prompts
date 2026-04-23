@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: fileindex-git-fallback-ripgrep - Source: native-reference-match Summary System Reminder: fileindex-git-fallback-ripgrep - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: fileindex-git-fallback-ripgrep
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: fileindex-git-fallback-ripgrep - Source: inline Summary Note git ls-files failure details and fallback to ripgrep scanning.
 
 ## Placeholder Hints (source-backed)
