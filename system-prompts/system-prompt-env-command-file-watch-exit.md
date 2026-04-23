@@ -1,3 +1,18 @@
+# System Data Block: env-command-file-watch-exit
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: env-command-file-watch-exit - Source: native-reference-match Summary System Prompt: env-command-file-watch-exit - Source: inline Summary Handl…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # System Prompt: env-command-file-watch-exit
 
 - Source: native-reference-match
