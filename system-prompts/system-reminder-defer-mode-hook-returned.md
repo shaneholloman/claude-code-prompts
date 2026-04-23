@@ -1,5 +1,20 @@
 # System Reminder: defer-mode-hook-returned
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: defer-mode-hook-returned - Source: inline Summary Defer permission decision in interactive mode.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: defer-mode-hook-returned
+
 - Source: inline
 
 ## Summary
