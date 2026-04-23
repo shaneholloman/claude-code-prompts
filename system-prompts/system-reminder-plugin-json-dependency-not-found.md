@@ -1,5 +1,21 @@
 # System Reminder: plugin-json-dependency-not-found
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: plugin-json-dependency-not-found - Source: inline Summary Dependency not found in marketplace.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plugin-json-dependency-not-found
+
 - Source: inline
 
 ## Summary
