@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Prompt: efficient-calls-in-parallel - Source: native-reference-match Summary System Prompt: efficient-calls-in-parallel - Source: inline Summary Use d…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: efficient-calls-in-parallel
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: efficient-calls-in-parallel - Source: inline Summary Use dedicated tools and maximize parallel calls.
 
 ## Placeholder Hints (source-backed)
