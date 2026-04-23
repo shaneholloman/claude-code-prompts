@@ -1,5 +1,23 @@
 # System Reminder: remote-bridge-failed-attempt-retrying
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: remote-bridge-failed-attempt-retrying - Source: inline Summary Indicates a failed remote bridge attempt with retries.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: remote-bridge-failed-attempt-retrying
+
 - Source: inline
 
 ## Summary
