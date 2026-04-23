@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Reminder: sent-control-response - Source: native-reference-match Summary System Reminder: bridge-repl-control-response - Source: inline Summary Sent c…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: sent-control-response
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: bridge-repl-control-response - Source: inline Summary Sent control response for specific request.
 
 ## Placeholder Hints (source-backed)
