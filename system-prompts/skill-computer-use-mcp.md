@@ -6,20 +6,39 @@
 
 Guidelines for selecting the appropriate MCP tool.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Skill: computer-use-mcp
+
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for selecting the appropriate MCP tool.
+
 # Raw Prompt Text
 You have a computer-use MCP available (tools named `mcp__computer-use__*`). It lets you take screenshots of the user's desktop and control it with mouse clicks, keyboard input, and scrolling.
 
-**Pick the right tool for the app.** Each tier trades speed${PATH} against coverage:
+**Pick the right tool for the app.** Each tier trades speed${EXPR_1} against coverage:
 
-${NUM}. **Dedicated MCP for the app** — if the task is in an app that has its own MCP (Slack, Gmail, Calendar, Linear, etc.) and that MCP is connected, use it. API-backed tools are fast and precise.
-${NUM}. **Chrome MCP** (`mcp__claude-in-chrome__*`) — if the target is a web app and there's no dedicated MCP for it, use the browser tools. DOM-aware, much faster than clicking pixels. If the Chrome extension isn't connected, ask the user to install it rather than falling through to computer use.
-${NUM}. **Computer use** — for native desktop apps (Maps, Notes, Finder, Photos, System Settings, any third-party native app) and cross-app workflows. Computer use IS the right tool here — don't decline a native-app task just because there's no dedicated MCP for it.
+${EXPR_2}. **Dedicated MCP for the app** — if the task is in an app that has its own MCP (Slack, Gmail, Calendar, Linear, etc.) and that MCP is connected, use it. API-backed tools are fast and precise.
+${EXPR_3}. **Chrome MCP** (`mcp__claude-in-chrome__*`) — if the target is a web app and there's no dedicated MCP for it, use the browser tools. DOM-aware, much faster than clicking pixels. If the Chrome extension isn't connected, ask the user to install it rather than falling through to computer use.
+${EXPR_4}. **Computer use** — for native desktop apps (Maps, Notes, Finder, Photos, System Settings, any third-party native app) and cross-app workflows. Computer use IS the right tool here — don't decline a native-app task just because there's no dedicated MCP for it.
 
 This is about what's available, not error handling — if a dedicated MCP tool errors, debug or report it rather than silently retrying via a slower tier.
 
 **Look before you assert.** If the user asks about app state (what's open, what's connected, what an app can do), take a screenshot and check before answering. Don't answer from memory — the user's setup or app version may differ from what you expect. If you're about to say an app doesn't support an action, that claim should be grounded in what you just saw on screen, not general knowledge. Similarly, `list_granted_applications` or a fresh `screenshot` is cheaper than a wrong assertion about what's running.
 
-**Loading via ToolSearch — load in bulk, not one-by-one:** if computer-use tools are in the deferred list, load them ALL in a single ToolSearch call: `{ query: "computer-use", max_results: ${NUM} }`. The keyword search matches the server-name substring in every tool name, so one query returns the entire toolkit. Don't use `select:` for individual tools — that's one round-trip per tool.
+**Loading via ToolSearch — load in bulk, not one-by-one:** if computer-use tools are in the deferred list, load them ALL in a single ToolSearch call: `{ query: "computer-use", max_results: ${EXPR_5} }`. The keyword search matches the server-name substring in every tool name, so one query returns the entire toolkit. Don't use `select:` for individual tools — that's one round-trip per tool.
 
 **Access flow:** before any computer-use action you must call `request_access` with the list of applications you need. The user approves each application explicitly, and you may need to call it again mid-task if you discover you need another application.
 
