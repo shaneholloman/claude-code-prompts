@@ -1,5 +1,21 @@
 # System Reminder: creating-api-client-headers-status
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: creating-api-client-headers-status - Source: inline Summary Log API client creation and whether custom headers and authorization header are…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: creating-api-client-headers-status
+
 - Source: inline
 
 ## Summary
