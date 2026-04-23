@@ -4,6 +4,27 @@
 
 ## Summary
 
+System Prompt: memory-pruning-process-… - Source: native-reference-match Summary Prune stale and duplicate memory files.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# System Prompt: memory-pruning-process-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 Prune stale and duplicate memory files.
 
 ## Placeholder Hints (source-backed)
@@ -17,13 +38,13 @@ Prune stale and duplicate memory files.
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-# System Prompt: memory-pruning-process-${NUM}
+# System Prompt: memory-pruning-process-${EXPR_1}
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (${NUM})
+Multiple prompts (${EXPR_2})
 
 ## Placeholder Hints (source-backed)
 
@@ -38,15 +59,15 @@ Multiple prompts (${NUM})
 
 You are performing a dream — a pruning pass over your memory files. The job is small: delete stale or invalidated memories, and collapse duplicates.
 
-Memory directory: `${EXPR_1}`
+Memory directory: `${EXPR_3}`
 This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
 
 Memory files are immutable: never edit them in place. Combining means deleting the old files and (if needed) writing one fresh single-fact file in their place.
 
 ## What to do
 
-${EXPR_2}. `find ${EXPR_3} -name '*.md'` to enumerate every memory file (including any `team/` subdirectory).
-${EXPR_4}. For each memory file, decide:
+${EXPR_4}. `find ${EXPR_5} -name '*.md'` to enumerate every memory file (including any `team/` subdirectory).
+${EXPR_6}. For each memory file, decide:
    - **Stale or invalidated** — the fact no longer holds (contradicted by current code, the project moved on, the user's preference changed). Delete the file.
    - **Duplicate or near-duplicate** — another memory already covers the same fact. Delete the redundant copies. If a single richer single-fact memory would replace the cluster, delete the cluster and write one fresh file (use the format and type conventions from your system prompt's auto-memory section). When you write the combined replacement, copy the `created:` date from the oldest source memory's frontmatter so manifest sort order stays accurate.
    - **Still good** — leave it alone.
@@ -57,4 +78,4 @@ Return a brief summary of what you deleted, combined, or left alone. If nothing 
 
 ## Additional context
 
-${EXPR_5}
+${EXPR_7}
