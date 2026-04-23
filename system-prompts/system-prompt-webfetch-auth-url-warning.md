@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: webfetch-auth-url-warning - Source: native-reference-match Summary System Prompt: webfetch-auth-url-warning - Source: inline Summary Warns Web…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: webfetch-auth-url-warning
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: webfetch-auth-url-warning - Source: inline Summary Warns WebFetch fails on authenticated URLs and suggests using an authenticated tool.
 
 ## Placeholder Hints (source-backed)
