@@ -22,6 +22,24 @@ System Reminder: lsp-diagnostics-handler-failed - Source: native-reference-match
 
 ## Summary
 
+System Reminder: lsp-diagnostics-handler-failed - Source: native-reference-match Summary System Reminder: lsp-diagnostics-handler-failed - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: lsp-diagnostics-handler-failed
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: lsp-diagnostics-handler-failed - Source: inline Summary Multiple prompts (…) Placeholder Hints (source-backed) | Expression | Hint | Referen…
 
 ## Placeholder Hints (source-backed)
