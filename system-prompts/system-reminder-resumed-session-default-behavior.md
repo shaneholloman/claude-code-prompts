@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: resumed-session-default-behavior - Source: native-reference-match Summary System Reminder: resumed-session-default-behavior - Source: inline…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: resumed-session-default-behavior
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: resumed-session-default-behavior - Source: inline Summary Warn resumed session referenced unavailable agent and revert to default behavior.
 
 ## Placeholder Hints (source-backed)
