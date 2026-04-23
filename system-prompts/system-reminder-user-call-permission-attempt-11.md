@@ -4,15 +4,31 @@
 
 ## Summary
 
-System Reminder: user-call-permission-attempt-… Summary Multiple prompts (…) Raw Prompt Text All text you output outside of tool use is displayed to the user.
+System Reminder: user-call-permission-attempt-… - Source: native-reference-match Summary System Reminder: user-call-permission-attempt-… Summary Multiple pro…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 # System Reminder: user-call-permission-attempt-${NUM}
 
+- Source: native-reference-match
 
 ## Summary
 
-Multiple prompts (${NUM})
+System Reminder: user-call-permission-attempt-… Summary Multiple prompts (…) Raw Prompt Text All text you output outside of tool use is displayed to the user.
+
+# Raw Prompt Text
+# System Reminder: user-call-permission-attempt-${EXPR_1}
+
+
+## Summary
+
+Multiple prompts (${EXPR_2})
 
 # Raw Prompt Text
 All text you output outside of tool use is displayed to the user. Output text to communicate with the user. You can use Github-flavored markdown for formatting, and will be rendered in a monospace font using the CommonMark specification.
