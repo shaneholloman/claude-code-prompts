@@ -4,6 +4,23 @@
 
 ## Summary
 
+Execute skills based on user requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# Tool Description: execute-within-main-conversation-when
+
+- Source: native-reference-match
+
+## Summary
+
 Execute a skill within the main conversation When users ask you to perform tasks, check if any of the available skills match.
 
 ## Placeholder Hints (source-backed)
