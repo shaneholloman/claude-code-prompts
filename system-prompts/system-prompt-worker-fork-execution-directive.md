@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Prompt: worker-fork-execution-directive - Source: native-reference-match Summary System Prompt: worker-fork-execution-directive Summary Execute one di…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: worker-fork-execution-directive
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: worker-fork-execution-directive Summary Execute one directive and stop.
 
 ## Placeholder Hints (source-backed)
