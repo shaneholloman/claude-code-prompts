@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: processing-sandbox-permission - Source: native-reference-match Summary System Reminder: processing-sandbox-permission - Source: inline Summa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: processing-sandbox-permission
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: processing-sandbox-permission - Source: inline Summary Logs InboxPoller processing a sandbox permission response for a target with allow sta…
 
 ## Placeholder Hints (source-backed)
