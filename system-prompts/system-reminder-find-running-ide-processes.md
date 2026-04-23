@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: find-running-ide-processes - Source: native-reference-match Summary System Reminder: find-running-ide-processes - Source: inline Summary Che…
+
+# Raw Prompt Text
+# System Reminder: find-running-ide-processes
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: find-running-ide-processes - Source: inline Summary Checks running processes for common IDE executables via tasklist and findstr.
 
 # Raw Prompt Text
