@@ -1,12 +1,27 @@
 # System Prompt: github-issue-title-generator
 
+- Source: native-reference-match
+
+## Summary
+
+Generates a concise technical GitHub issue title from a bug report.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: github-issue-title-generator
+
 
 ## Summary
 
 Generates a concise technical GitHub issue title from a bug report.
 
 # Raw Prompt Text
-Generate a concise, technical issue title (max ${NUM} chars) for a public GitHub issue based on this bug report for Claude Code.
+Generate a concise, technical issue title (max ${EXPR_1} chars) for a public GitHub issue based on this bug report for Claude Code.
 
 Claude Code is an agentic coding CLI based on the Anthropic API.
 
