@@ -1,3 +1,23 @@
+# System Data Block: redirect-detected
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: redirect-detected - Source: inline Summary Request WebFetch rerun to retrieve content from redirected host URL with new parameters.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
 # System Prompt: redirect-detected
 
 - Source: inline
