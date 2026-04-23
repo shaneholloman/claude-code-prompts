@@ -1,3 +1,21 @@
+# System Reminder: git-clone-failed
+
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: git-clone-failed-url - Source: inline Summary Git clone operation failed with an error.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
 # System Reminder: git-clone-failed-url
 
 - Source: inline
