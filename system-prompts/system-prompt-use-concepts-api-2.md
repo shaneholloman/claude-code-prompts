@@ -1,5 +1,43 @@
 # System Prompt: use-concepts-api-2
 
+- Source: native-reference-match
+
+## Summary
+
+Overview of tool use concepts in Claude API.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+
+# Raw Prompt Text
+# System Prompt: use-concepts-api-${NUM}
+
 - Source: inline
 
 ## Summary
@@ -77,11 +115,11 @@ Any `tool_choice` value can also include `"disable_parallel_tool_use": true` to 
 
 ### Tool Runner vs Manual Loop
 
-**Tool Runner (Recommended):** The SDK's tool runner handles the agentic loop automatically — it calls the API, detects tool use requests, executes your tool functions, feeds results back to Claude, and repeats until Claude stops calling tools. Available in Python, TypeScript, Java, Go, Ruby, and PHP SDKs (beta). The Python SDK also provides MCP conversion helpers (`anthropic.lib.tools.mcp`) to convert MCP tools, prompts, and resources for use with the tool runner — see `python${PATH}` for details.
+**Tool Runner (Recommended):** The SDK's tool runner handles the agentic loop automatically — it calls the API, detects tool use requests, executes your tool functions, feeds results back to Claude, and repeats until Claude stops calling tools. Available in Python, TypeScript, Java, Go, Ruby, and PHP SDKs (beta). The Python SDK also provides MCP conversion helpers (`anthropic.lib.tools.mcp`) to convert MCP tools, prompts, and resources for use with the tool runner — see `python${EXPR_1}` for details.
 
 **Manual Agentic Loop:** Use when you need fine-grained control over the loop (e.g., custom logging, conditional tool execution, human-in-the-loop approval). Loop until `stop_reason == "end_turn"`, always append the full `response.content` to preserve tool_use blocks, and ensure each `tool_result` includes the matching `tool_use_id`.
 
-**Stop reasons for server-side tools:** When using server-side tools (code execution, web search, etc.), the API runs a server-side sampling loop. If this loop reaches its default limit of ${NUM} iterations, the response will have `stop_reason: "pause_turn"`. To continue, re-send the user message and assistant response and make another API request — the server will resume where it left off. Do NOT add an extra user message like "Continue." — the API detects the trailing `server_tool_use` block and knows to resume automatically.
+**Stop reasons for server-side tools:** When using server-side tools (code execution, web search, etc.), the API runs a server-side sampling loop. If this loop reaches its default limit of ${EXPR_2} iterations, the response will have `stop_reason: "pause_turn"`. To continue, re-send the user message and assistant response and make another API request — the server will resume where it left off. Do NOT add an extra user message like "Continue." — the API detects the trailing `server_tool_use` block and knows to resume automatically.
 
 ```python
 # Handle pause_turn in your agentic loop
@@ -96,7 +134,7 @@ if response.stop_reason == "pause_turn":
     )
 ```
 
-Set a `max_continuations` limit (e.g., ${NUM}) to prevent infinite loops. For the full guide, see: `${URL}
+Set a `max_continuations` limit (e.g., ${EXPR_3}) to prevent infinite loops. For the full guide, see: `${EXPR_4}
 
 > **Security:** The tool runner executes your tool functions automatically whenever Claude requests them. For tools with side effects (sending emails, modifying databases, financial transactions), validate inputs within your tool functions and consider requiring confirmation for destructive operations. Use the manual agentic loop if you need human-in-the-loop approval before each tool execution.
 
@@ -106,9 +144,9 @@ Set a `max_continuations` limit (e.g., ${NUM}) to prevent infinite loops. For th
 
 When Claude uses a tool, the response contains a `tool_use` block. You must:
 
-${NUM}. Execute the tool with the provided input
-${NUM}. Send the result back in a `tool_result` message
-${NUM}. Continue the conversation
+${EXPR_5}. Execute the tool with the provided input
+${EXPR_6}. Send the result back in a `tool_result` message
+${EXPR_7}. Continue the conversation
 
 **Error handling in tool results:** When a tool execution fails, set `"is_error": true` and provide an informative error message. Claude will typically acknowledge the error and either try a different approach or ask for clarification.
 
@@ -122,11 +160,11 @@ The code execution tool lets Claude run code in a secure, sandboxed container. U
 
 ### Key Facts
 
-- Runs in an isolated container (${NUM} CPU, ${NUM} GiB RAM, ${NUM} GiB disk)
+- Runs in an isolated container (${EXPR_8} CPU, ${EXPR_9} GiB RAM, ${EXPR_10} GiB disk)
 - No internet access (fully sandboxed)
-- Python ${NUM} with data science libraries pre-installed
-- Containers persist for ${NUM} days and can be reused across requests
-- Free when used with web search${PATH} fetch tools; otherwise $${NUM}${PATH} after ${NUM},${NUM} free hours${PATH} per organization
+- Python ${EXPR_11} with data science libraries pre-installed
+- Containers persist for ${EXPR_12} days and can be reused across requests
+- Free when used with web search${EXPR_13} fetch tools; otherwise $${EXPR_14}${EXPR_15} after ${EXPR_16},${EXPR_17} free hours${EXPR_18} per organization
 
 ### Tool Definition
 
@@ -139,7 +177,7 @@ The tool requires no schema — just declare it in the `tools` array:
 }
 ```
 
-Claude automatically gains access to `bash_code_execution` (run shell commands) and `text_editor_code_execution` (create${PATH} files).
+Claude automatically gains access to `bash_code_execution` (run shell commands) and `text_editor_code_execution` (create${EXPR_19} files).
 
 ### Pre-installed Python Libraries
 
@@ -155,7 +193,7 @@ Additional packages can be installed at runtime via `pip install`.
 
 | Type   | Extensions                         |
 | ------ | ---------------------------------- |
-| Data   | CSV, Excel (.xlsx${PATH}), JSON, XML |
+| Data   | CSV, Excel (.xlsx${EXPR_20}), JSON, XML |
 | Images | JPEG, PNG, GIF, WebP               |
 | Text   | .txt, .md, .py, .js, etc.          |
 
@@ -169,7 +207,7 @@ The response contains interleaved text and tool result blocks:
 
 - `text` — Claude's explanation
 - `server_tool_use` — What Claude is doing
-- `bash_code_execution_tool_result` — Code execution output (check `return_code` for success${PATH})
+- `bash_code_execution_tool_result` — Code execution output (check `return_code` for success${EXPR_21})
 - `text_editor_code_execution_tool_result` — File operation results
 
 > **Security:** Always sanitize filenames with `os.path.basename()` / `path.basename()` before writing downloaded files to disk to prevent path traversal attacks. Write files to a dedicated output directory.
@@ -189,7 +227,7 @@ Web search and web fetch let Claude search the web and retrieve page content. Th
 ]
 ```
 
-### Dynamic Filtering (Opus ${NUM} / Opus ${NUM} / Sonnet ${NUM})
+### Dynamic Filtering (Opus ${EXPR_22} / Opus ${EXPR_23} / Sonnet ${EXPR_24})
 
 The `web_search_20260209` and `web_fetch_20260209` versions support **dynamic filtering** — Claude writes and executes code to filter search results before they reach the context window, improving accuracy and token efficiency. Dynamic filtering is built into these tool versions and activates automatically; you do not need to separately declare the `code_execution` tool or pass any beta header.
 
@@ -216,7 +254,7 @@ Programmatic tool calling lets Claude compose those calls into a script. The scr
 
 For full documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_25}
 
 ---
 
@@ -226,7 +264,7 @@ The tool search tool lets Claude dynamically discover tools from large libraries
 
 For full documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_26}
 
 ---
 
@@ -236,7 +274,7 @@ Skills package task-specific instructions that Claude loads only when relevant. 
 
 For full documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_27}
 
 ---
 
@@ -246,7 +284,7 @@ You can provide sample tool calls directly in your tool definitions to demonstra
 
 For full documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_28}
 
 ---
 
@@ -256,7 +294,7 @@ Computer use lets Claude interact with a desktop environment (screenshots, mouse
 
 For full documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_29}
 
 ---
 
@@ -266,7 +304,7 @@ Context editing clears stale tool results and thinking blocks from the transcrip
 
 For full documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_30}
 
 ---
 
@@ -278,14 +316,14 @@ The memory tool enables Claude to store and retrieve information across conversa
 
 - Client-side tool — you control storage via your implementation
 - Supports commands: `view`, `create`, `str_replace`, `insert`, `delete`, `rename`
-- Operates on files in a `${PATH}` directory
-- The Python, TypeScript, and Java SDKs provide helper classes${PATH} for implementing the memory backend
+- Operates on files in a `${EXPR_31}` directory
+- The Python, TypeScript, and Java SDKs provide helper classes${EXPR_32} for implementing the memory backend
 
 > **Security:** Never store API keys, passwords, tokens, or other secrets in memory files. Be cautious with personally identifiable information (PII) — check data privacy regulations (GDPR, CCPA) before persisting user data. The reference implementations have no built-in access control; in multi-user systems, implement per-user memory directories and authentication in your tool handlers.
 
 For full implementation examples, use WebFetch:
 
-- Docs: `${URL}
+- Docs: `${EXPR_33}
 
 ---
 
@@ -298,7 +336,7 @@ Two features are available:
 - **JSON outputs** (`output_config.format`): Control Claude's response format
 - **Strict tool use** (`strict: true`): Guarantee valid tool parameter schemas
 
-**Supported models:** {{OPUS_NAME}}, {{SONNET_NAME}}, and {{HAIKU_NAME}}. Legacy models (Claude Opus ${NUM}, Claude Opus ${NUM}) also support structured outputs.
+**Supported models:** {{OPUS_NAME}}, {{SONNET_NAME}}, and {{HAIKU_NAME}}. Legacy models (Claude Opus ${EXPR_34}, Claude Opus ${EXPR_35}) also support structured outputs.
 
 > **Recommended:** Use `client.messages.parse()` which automatically validates responses against your schema. When using `messages.create()` directly, use `output_config: {format: {...}}`. The `output_format` convenience parameter is also accepted by some SDK methods (e.g., `.parse()`), but `output_config.format` is the canonical API-level parameter.
 
@@ -323,23 +361,23 @@ The Python and TypeScript SDKs automatically handle unsupported constraints by r
 
 ### Important Notes
 
-- **First request latency**: New schemas incur a one-time compilation cost. Subsequent requests with the same schema use a ${NUM}-hour cache.
+- **First request latency**: New schemas incur a one-time compilation cost. Subsequent requests with the same schema use a ${EXPR_36}-hour cache.
 - **Refusals**: If Claude refuses for safety reasons (`stop_reason: "refusal"`), the output may not match your schema.
 - **Token limits**: If `stop_reason: "max_tokens"`, output may be incomplete. Increase `max_tokens`.
-- **Incompatible with**: Citations (returns ${NUM} error), message prefilling.
+- **Incompatible with**: Citations (returns ${EXPR_37} error), message prefilling.
 - **Works with**: Batches API, streaming, token counting, extended thinking.
 
 ---
 
 ## Tips for Effective Tool Use
 
-${NUM}. **Provide detailed descriptions**: Claude relies heavily on descriptions to understand when and how to use tools
-${NUM}. **Use specific tool names**: `get_current_weather` is better than `weather`
-${NUM}. **Validate inputs**: Always validate tool inputs before execution
-${NUM}. **Handle errors gracefully**: Return informative error messages so Claude can adapt
-${NUM}. **Limit tool count**: Too many tools can confuse the model — keep the set focused
-${NUM}. **Test tool interactions**: Verify Claude uses tools correctly in various scenarios
+${EXPR_38}. **Provide detailed descriptions**: Claude relies heavily on descriptions to understand when and how to use tools
+${EXPR_39}. **Use specific tool names**: `get_current_weather` is better than `weather`
+${EXPR_40}. **Validate inputs**: Always validate tool inputs before execution
+${EXPR_41}. **Handle errors gracefully**: Return informative error messages so Claude can adapt
+${EXPR_42}. **Limit tool count**: Too many tools can confuse the model — keep the set focused
+${EXPR_43}. **Test tool interactions**: Verify Claude uses tools correctly in various scenarios
 
 For detailed tool use documentation, use WebFetch:
 
-- URL: `${URL}
+- URL: `${EXPR_44}
