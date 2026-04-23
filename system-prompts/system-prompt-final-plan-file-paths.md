@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: final-plan-file-paths - Source: native-reference-match Summary System Prompt: final-plan-file-paths - Source: inline Summary Outline the final…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: final-plan-file-paths
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: final-plan-file-paths - Source: inline Summary Outline the final plan and file modifications.
 
 ## Placeholder Hints (source-backed)
