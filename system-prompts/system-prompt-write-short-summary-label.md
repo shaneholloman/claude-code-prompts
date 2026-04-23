@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: write-short-summary-label - Source: native-reference-match Summary System Prompt: write-short-summary-label Summary Crafted concise labels for…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: write-short-summary-label
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: write-short-summary-label Summary Crafted concise labels for tool call achievements.
 
 ## Placeholder Hints (source-backed)
