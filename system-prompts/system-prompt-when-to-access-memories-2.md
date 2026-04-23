@@ -4,10 +4,25 @@
 
 ## Summary
 
-System Prompt: when-to-access-memories-… - Source: inline Summary Guidelines for accessing user memories.
+System Prompt: when-to-access-memories-… - Source: native-reference-match Summary System Prompt: when-to-access-memories-… - Source: inline Summary Guideline…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: when-to-access-memories-… - Source: inline Summary Guidelines for accessing user memories.
+
+# Raw Prompt Text
+# System Prompt: when-to-access-memories-${EXPR_1}
 
 - Source: inline
 
