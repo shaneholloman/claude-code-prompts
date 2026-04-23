@@ -4,6 +4,21 @@
 
 ## Summary
 
+Indicates the user opened a specific IDE file.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: file-opened-in-ide
+
+- Source: native-reference-match
+
+## Summary
+
 Indicates the user opened a specific IDE file that may relate to task.
 
 ## Placeholder Hints (source-backed)
