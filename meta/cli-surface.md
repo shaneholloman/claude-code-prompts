@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 34
-- Options: 78
-- Env vars: 563
+- Commands: 33
+- Options: 72
+- Env vars: 557
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 96
+- Models: 95
 - Providers: 8
 
 ## Commands
@@ -44,7 +44,6 @@
 - `setup-token`
 - `show`
 - `status`
-- `tag`
 - `uninstall`
 - `update`
 - `validate`
@@ -83,7 +82,6 @@
 - `setup-token`
 - `show`
 - `status`
-- `tag [path]`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
@@ -118,7 +116,6 @@
 - `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
-- `--dry-run`
 - `--email`
 - `--env`
 - `--fallback-model`
@@ -135,15 +132,12 @@
 - `--keep-data`
 - `--mcp-config`
 - `--mcp-debug`
-- `--message`
 - `--model`
 - `--name`
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir`
 - `--print`
-- `--push`
-- `--remote`
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
 - `--resume`
@@ -164,9 +158,7 @@
 - `-c`
 - `-d`
 - `-e`
-- `-f`
 - `-H`
-- `-m`
 - `-n`
 - `-p`
 - `-r`
@@ -194,7 +186,6 @@
 - `--debug-file <path>`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
-- `--dry-run`
 - `--email <email>`
 - `--fallback-model <model>`
 - `--file <specs...>`
@@ -213,8 +204,6 @@
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir <path>`
-- `--push`
-- `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
 - `--scope <scope>`
@@ -233,9 +222,7 @@
 - `-d, --debug`
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
-- `-f, --force`
 - `-H, --header <header...>`
-- `-m, --message <msg>`
 - `-n, --name <name>`
 - `-p, --print`
 - `-r, --resume [value]`
@@ -283,7 +270,6 @@
 - `ANTHROPIC_UNIX_SOCKET`
 - `ANTHROPIC_VERTEX_BASE_URL`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
-- `API_FORCE_IDLE_TIMEOUT`
 - `API_TIMEOUT_MS`
 - `APP_URL`
 - `APPDATA`
@@ -347,8 +333,6 @@
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BG_BACKEND`
-- `CLAUDE_BRIDGE_REATTACH_SEQ`
-- `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BRIDGE_USE_CCR_V2`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
@@ -440,7 +424,6 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_FULLSCREEN_UPSELL`
-- `CLAUDE_CODE_FORK_SUBAGENT`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
@@ -488,7 +471,6 @@
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_PWSH_PARSE_TIMEOUT_MS`
 - `CLAUDE_CODE_QUESTION_PREVIEW_FORMAT`
-- `CLAUDE_CODE_RATE_LIMIT_TIER`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
@@ -525,7 +507,6 @@
 - `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
-- `CLAUDE_CODE_SUBSCRIPTION_TYPE`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
@@ -612,11 +593,11 @@
 - `DISABLE_PROMPT_CACHING_OPUS`
 - `DISABLE_PROMPT_CACHING_SONNET`
 - `DISABLE_TELEMETRY`
-- `DISABLE_UPDATES`
 - `DISABLE_UPGRADE_COMMAND`
 - `DO_NOT_TRACK`
 - `DYNO`
 - `EDITOR`
+- `EMBEDDED_SEARCH_TOOLS`
 - `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
@@ -878,7 +859,6 @@ _None detected_
 - `claude-code-user`
 - `claude-context`
 - `claude-desktop`
-- `claude-desktop-3p`
 - `claude-dev`
 - `claude-empty-`
 - `claude-folder`
