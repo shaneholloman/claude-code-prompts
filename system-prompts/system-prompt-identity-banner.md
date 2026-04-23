@@ -1,5 +1,14 @@
 # System Prompt: identity-banner
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: identity-banner - Source: inline Summary Declares the CLI identity as Claude Code running on the Claude Agent SDK.
+
+# Raw Prompt Text
+# System Prompt: identity-banner
+
 - Source: inline
 
 ## Summary
