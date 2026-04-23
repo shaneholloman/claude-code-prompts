@@ -1,5 +1,40 @@
 # System Prompt: managed-agents-client-patterns-2
 
+- Source: native-reference-match
+
+## Summary
+
+Patterns for driving a Managed Agent session.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+
+# Raw Prompt Text
+# System Prompt: managed-agents-client-patterns-${NUM}
+
 - Source: inline
 
 ## Summary
@@ -11,11 +46,11 @@ Patterns for driving a Managed Agent session.
 
 Patterns you'll write on the client side when driving a Managed Agent session, grounded in working SDK examples.
 
-Code samples are TypeScript — Python and cURL follow the same shape; see `python${PATH}` and `curl${PATH}` for equivalents.
+Code samples are TypeScript — Python and cURL follow the same shape; see `python${EXPR_1}` and `curl${EXPR_2}` for equivalents.
 
 ---
 
-## ${NUM}. Lossless stream reconnect
+## ${EXPR_3}. Lossless stream reconnect
 
 **Problem:** SSE has no replay. If the connection drops mid-session, a naive reconnect re-opens the stream from "now" and you silently miss every event emitted in between.
 
@@ -46,9 +81,9 @@ for await (const event of stream) {
 
 ---
 
-## ${NUM}. `processed_at` — queued vs processed
+## ${EXPR_4}. `processed_at` — queued vs processed
 
-Every event on the stream carries `processed_at` (ISO ${NUM}). For client-sent events (`user.message`, `user.interrupt`, `user.tool_confirmation`, `user.custom_tool_result`) it's `null` when the event has been queued but not yet picked up by the agent, and populated once the agent processes it. The same event appears on the stream twice — once with `processed_at: null`, once with a timestamp.
+Every event on the stream carries `processed_at` (ISO ${EXPR_5}). For client-sent events (`user.message`, `user.interrupt`, `user.tool_confirmation`, `user.custom_tool_result`) it's `null` when the event has been queued but not yet picked up by the agent, and populated once the agent processes it. The same event appears on the stream twice — once with `processed_at: null`, once with a timestamp.
 
 ```ts
 for await (const event of stream) {
@@ -63,7 +98,7 @@ Use this to drive pending → acknowledged UI state for anything you send. How y
 
 ---
 
-## ${NUM}. Interrupt a running session
+## ${EXPR_6}. Interrupt a running session
 
 Send `user.interrupt` as a normal event. The session keeps running until it reaches a safe boundary, then goes idle.
 
@@ -72,7 +107,7 @@ await client.beta.sessions.events.send(session.id, {
   events: [{ type: 'user.interrupt' }],
 })
 
-// Drain until the session is truly done — see Pattern ${NUM} for the full gate.
+// Drain until the session is truly done — see Pattern ${EXPR_7} for the full gate.
 for await (const event of stream) {
   if (event.type === 'session.status_terminated') break
   if (
@@ -86,7 +121,7 @@ Reference: `interrupt.ts` — sends the interrupt the moment it sees `span.model
 
 ---
 
-## ${NUM}. `tool_confirmation` round-trip
+## ${EXPR_8}. `tool_confirmation` round-trip
 
 When the agent has `permission_policy: { type: 'always_ask' }`, any call to that tool fires an `agent.tool_use` event with `evaluated_permission === 'ask'` and the session goes idle waiting for a decision. Respond with `user.tool_confirmation`.
 
@@ -114,7 +149,7 @@ Reference: `tool-permissions.ts`.
 
 ---
 
-## ${NUM}. Correct idle-break gate
+## ${EXPR_9}. Correct idle-break gate
 
 Do not break on `session.status_idle` alone. The session goes idle transiently — e.g. between parallel tool executions, while waiting for a `user.tool_confirmation`, or while awaiting a `user.custom_tool_result`. Break when idle with a terminal `stop_reason`, or on `session.status_terminated`.
 
@@ -136,18 +171,18 @@ for await (const event of stream) {
 
 ---
 
-## ${NUM}. Post-idle status-write race
+## ${EXPR_10}. Post-idle status-write race
 
-The SSE stream emits `session.status_idle` slightly before the session's queryable status reflects it. Clients that break on idle and immediately call `sessions.delete()` or `sessions.archive()` will intermittently ${NUM} with "cannot delete${PATH} while running."
+The SSE stream emits `session.status_idle` slightly before the session's queryable status reflects it. Clients that break on idle and immediately call `sessions.delete()` or `sessions.archive()` will intermittently ${EXPR_11} with "cannot delete${EXPR_12} while running."
 
 Poll before cleanup:
 
 ```ts
 let s
-for (let i = ${NUM}; i < ${NUM}; i++) {
+for (let i = ${EXPR_13}; i < ${EXPR_14}; i++) {
   s = await client.beta.sessions.retrieve(session.id)
   if (s.status !== 'running') break
-  await new Promise(r => setTimeout(r, ${NUM}))
+  await new Promise(r => setTimeout(r, ${EXPR_15}))
 }
 if (s?.status !== 'running') {
   await client.beta.sessions.archive(session.id)
@@ -156,7 +191,7 @@ if (s?.status !== 'running') {
 
 ---
 
-## ${NUM}. Stream-first, then send
+## ${EXPR_16}. Stream-first, then send
 
 Always open the stream **before** sending the kickoff event. Otherwise the agent may process the event and emit the first events before your consumer is attached, and you'll miss them.
 
@@ -172,7 +207,7 @@ The `Promise.all([stream, send])` shape works too, but stream-first is simpler a
 
 ---
 
-## ${NUM}. File-mount gotchas
+## ${EXPR_17}. File-mount gotchas
 
 **The mounted resource has a different `file_id` than the file you uploaded.** Session creation makes a session-scoped copy.
 
@@ -181,16 +216,16 @@ const uploaded = await client.beta.files.upload({ file, purpose: 'agent_resource
 // uploaded.id         → the original file
 const session = await client.beta.sessions.create({
   /* ... */
-  resources: [{ type: 'file', file_id: uploaded.id, mount_path: '${PATH}' }],
+  resources: [{ type: 'file', file_id: uploaded.id, mount_path: '${EXPR_18}' }],
 })
-// session.resources[${NUM}].file_id !== uploaded.id  ← different IDs
+// session.resources[${EXPR_19}].file_id !== uploaded.id  ← different IDs
 ```
 
-Delete the original via `files.delete(uploaded.id)`; the session-scoped copy is garbage-collected with the session. `mount_path` must be absolute — see `shared${PATH}`.
+Delete the original via `files.delete(uploaded.id)`; the session-scoped copy is garbage-collected with the session. `mount_path` must be absolute — see `shared${EXPR_20}`.
 
 ---
 
-## ${NUM}. Secrets for non-MCP APIs and CLIs — keep them host-side via custom tools
+## ${EXPR_21}. Secrets for non-MCP APIs and CLIs — keep them host-side via custom tools
 
 **Problem:** you want the agent to call a third-party API or run a CLI that needs a secret (API key, token, service-account credential), but there is currently no way to set environment variables inside the session container, and vaults currently hold MCP credentials only — they are not exposed to the container's shell. So `curl`, installed CLIs, or SDK clients running via the `bash` tool have no first-class place to read a secret from.
 
