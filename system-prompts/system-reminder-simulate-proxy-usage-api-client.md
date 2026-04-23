@@ -1,5 +1,21 @@
 # System Reminder: simulate-proxy-usage-api-client
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: simulate-proxy-usage-api-client - Source: inline Summary Stripping beta headers from API requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: simulate-proxy-usage-api-client
+
 - Source: inline
 
 ## Summary
