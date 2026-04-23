@@ -1,5 +1,23 @@
 # System Reminder: user-call-permission-5
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: user-call-permission-… - Source: inline Summary User must approve tool calls based on permission settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: user-call-permission-${NUM}
+
 - Source: inline
 
 ## Summary
