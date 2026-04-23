@@ -1,5 +1,20 @@
 # System Reminder: only-read-shell-commands
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: only-read-shell-commands - Source: inline Summary Read-only shell commands are allowed.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: only-read-shell-commands
+
 - Source: inline
 
 ## Summary
