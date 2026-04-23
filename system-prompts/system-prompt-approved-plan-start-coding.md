@@ -1,5 +1,22 @@
 # System Prompt: approved-plan-start-coding
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: approved-plan-start-coding - Source: inline Summary User can now begin coding the approved plan.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: approved-plan-start-coding
+
 - Source: inline
 
 ## Summary
