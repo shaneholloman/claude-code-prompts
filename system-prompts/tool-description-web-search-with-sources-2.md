@@ -4,6 +4,26 @@
 
 ## Summary
 
+Tool Description: web-search-with-sources-… - Source: native-reference-match Summary Tool Description: web-search-with-sources-… - Name: WebSearch Summary En…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# Tool Description: web-search-with-sources-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: web-search-with-sources-… - Name: WebSearch Summary Enables automatic web search and mandates a Sources section with linked result URLs.
 
 ## Placeholder Hints (source-backed)
@@ -17,7 +37,7 @@ Tool Description: web-search-with-sources-… - Name: WebSearch Summary Enables 
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-# Tool Description: web-search-with-sources-${NUM}
+# Tool Description: web-search-with-sources-${EXPR_1}
 
 - Name: WebSearch
 
@@ -47,13 +67,13 @@ CRITICAL REQUIREMENT - You MUST follow this:
     [Your answer here]
 
     Sources:
-    - [Source Title ${EXPR_1}](${EXPR_2})
-    - [Source Title ${EXPR_3}](${EXPR_4})
+    - [Source Title ${EXPR_2}](${EXPR_3})
+    - [Source Title ${EXPR_4}](${EXPR_5})
 
 Usage notes:
   - Domain filtering is supported to include or block specific websites
   - Web search is only available in the US
 
 IMPORTANT - Use the correct year in search queries:
-  - The current month is ${EXPR_5}. You MUST use this year when searching for recent information, documentation, or current events.
+  - The current month is ${EXPR_6}. You MUST use this year when searching for recent information, documentation, or current events.
   - Example: If the user asks for "latest React docs", search for "React documentation" with the current year, NOT last year
