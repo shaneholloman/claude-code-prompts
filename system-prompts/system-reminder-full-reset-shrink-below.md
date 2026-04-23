@@ -1,5 +1,22 @@
 # System Reminder: full-reset-shrink-below
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: full-reset-shrink-below - Source: inline Summary Log full reset when height shrinks below viewport, showing prev and next heights.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: full-reset-shrink-below
+
 - Source: inline
 
 ## Summary
