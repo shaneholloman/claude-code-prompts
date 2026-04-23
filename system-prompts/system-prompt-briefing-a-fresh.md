@@ -1,5 +1,20 @@
 # System Prompt: briefing-a-fresh
 
+- Source: native-reference-match
+
+## Summary
+
+Guide a new agent with essential context.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: briefing-a-fresh
+
 - Source: inline
 
 ## Summary
@@ -13,7 +28,7 @@ When spawning a fresh agent (with a `subagent_type`), it starts with zero contex
 - Explain what you're trying to accomplish and why.
 - Describe what you've already learned or ruled out.
 - Give enough context about the surrounding problem that the agent can make judgment calls rather than just following a narrow instruction.
-- If you need a short response, say so ("report in under ${NUM} words").
+- If you need a short response, say so ("report in under ${EXPR_1} words").
 - Lookups: hand over the exact command. Investigations: hand over the question — prescribed steps become dead weight when the premise is wrong.
 
 For fresh agents, terse command-style prompts produce shallow, generic work.
