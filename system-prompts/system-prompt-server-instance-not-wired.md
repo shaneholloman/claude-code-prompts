@@ -1,3 +1,12 @@
+# System Data Block: server-instance-not-wired
+
+- Source: native-reference-match
+
+## Summary
+
+Computer server instance lacks session connection.
+
+# Raw Prompt Text
 # System Prompt: server-instance-not-wired
 
 - Source: native-reference-match
