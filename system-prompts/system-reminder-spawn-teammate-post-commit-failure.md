@@ -1,5 +1,21 @@
 # System Reminder: spawn-teammate-post-commit-failure
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: spawn-teammate-post-commit-failure - Source: inline Summary Handles post-commit failure for a running agent.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: spawn-teammate-post-commit-failure
+
 - Source: inline
 
 ## Summary
