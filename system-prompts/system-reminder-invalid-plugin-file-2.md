@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Reminder: invalid-plugin-file-… - Source: native-reference-match Summary System Reminder: invalid-plugin-file-… - Source: inline Summary Invalid maxTu…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: invalid-plugin-file-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: invalid-plugin-file-… - Source: inline Summary Invalid maxTurns value for plugin agent file.
 
 ## Placeholder Hints (source-backed)
@@ -14,7 +31,7 @@ System Reminder: invalid-plugin-file-… - Source: inline Summary Invalid maxTur
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-# System Reminder: invalid-plugin-file-${NUM}
+# System Reminder: invalid-plugin-file-${EXPR_1}
 
 - Source: inline
 
@@ -30,4 +47,4 @@ Invalid maxTurns value for plugin agent file.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Plugin agent file ${EXPR_1} has invalid maxTurns '${EXPR_2}'. Must be a positive integer.
+Plugin agent file ${EXPR_2} has invalid maxTurns '${EXPR_3}'. Must be a positive integer.
