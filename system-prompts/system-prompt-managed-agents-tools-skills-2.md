@@ -1,5 +1,43 @@
 # System Prompt: managed-agents-tools-skills-2
 
+- Source: native-reference-match
+
+## Summary
+
+Overview of server and client tools for agents.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# System Prompt: managed-agents-tools-skills-${NUM}
+
 - Source: inline
 
 ## Summary
@@ -21,7 +59,7 @@ Overview of server and client tools for agents.
 
 | Type | Who runs it | How it works |
 |---|---|---|
-| **Prebuilt Claude Agent tools** (`agent_toolset_20260401`) | Anthropic, on the session's container | File ops, bash, web search, etc. Enable all at once or configure individually with `enabled: true${PATH}`. |
+| **Prebuilt Claude Agent tools** (`agent_toolset_20260401`) | Anthropic, on the session's container | File ops, bash, web search, etc. Enable all at once or configure individually with `enabled: true${EXPR_1}`. |
 | **MCP tools** (`mcp_toolset`) | Anthropic, on the session's container | Capabilities exposed by connected MCP servers. Grant access per-server via the toolset. |
 | **Custom tools** | **You** — your application handles the call and returns results | Agent emits a `agent.custom_tool_use` event, session goes `idle`, you send back a `user.custom_tool_result` event. |
 
@@ -130,11 +168,11 @@ To enable only specific tools, flip the default off and opt-in per tool:
 
 Custom tools are executed by **your application**, not Anthropic. The flow:
 
-${NUM}. Agent decides to use the tool → session emits a `agent.custom_tool_use` event with inputs
-${NUM}. Session goes `idle` waiting for you
-${NUM}. Your application executes the tool
-${NUM}. You send back a `user.custom_tool_result` event with the output
-${NUM}. Session resumes `running`
+${EXPR_2}. Agent decides to use the tool → session emits a `agent.custom_tool_use` event with inputs
+${EXPR_3}. Session goes `idle` waiting for you
+${EXPR_4}. Your application executes the tool
+${EXPR_5}. You send back a `user.custom_tool_result` event with the output
+${EXPR_6}. Session resumes `running`
 
 No permission policy needed — you're the one executing.
 
@@ -161,8 +199,8 @@ No permission policy needed — you're the one executing.
 
 MCP (Model Context Protocol) servers expose standardized third-party capabilities (e.g. Asana, GitHub, Linear). **Configuration is split across agent and vault:**
 
-${NUM}. **Agent creation** declares which servers to connect to (`type`, `name`, `url` — no auth). The agent's `mcp_servers` array has no auth field.
-${NUM}. **Vault** stores the OAuth credentials. Attach via `vault_ids` on session create.
+${EXPR_7}. **Agent creation** declares which servers to connect to (`type`, `name`, `url` — no auth). The agent's `mcp_servers` array has no auth field.
+${EXPR_8}. **Vault** stores the OAuth credentials. Attach via `vault_ids` on session create.
 
 This keeps secrets out of reusable agent definitions. Each vault credential is tied to one MCP server URL; Anthropic matches credentials to servers by URL.
 
@@ -177,7 +215,7 @@ This keeps secrets out of reusable agent definitions. Each vault credential is t
 ```json
 {
   "mcp_servers": [
-    { "type": "url", "name": "linear", "url": "${URL} }
+    { "type": "url", "name": "linear", "url": "${EXPR_9} }
   ],
   "tools": [
     { "type": "mcp_toolset", "mcp_server_name": "linear" }
@@ -201,7 +239,7 @@ This keeps secrets out of reusable agent definitions. Each vault credential is t
 
 ### Vaults — the MCP credential store
 
-**Vaults** store OAuth credentials (access token + refresh token) that Anthropic auto-refreshes on your behalf via standard OAuth ${NUM} `refresh_token` grant. This is the only way to authenticate MCP servers in the launch SDK.
+**Vaults** store OAuth credentials (access token + refresh token) that Anthropic auto-refreshes on your behalf via standard OAuth ${EXPR_10} `refresh_token` grant. This is the only way to authenticate MCP servers in the launch SDK.
 
 #### Credentials and the sandbox
 
@@ -213,18 +251,18 @@ Vaults store credentials; those credentials **never enter the sandbox**. This is
 **Not yet supported:** running other authenticated CLIs (e.g. `aws`, `gcloud`, `stripe`) directly inside the sandbox. There is currently no way to set container environment variables or expose vault credentials to arbitrary processes. If you need one of these today:
 
 - **Prefer an MCP server** for that service if one exists — it gets the same vault-backed injection.
-- **Otherwise, register a custom tool:** the agent emits `agent.custom_tool_use`, your orchestrator (which already holds the credential) executes the call and returns `user.custom_tool_result` over the same authenticated event stream. No public endpoint is exposed; the sandbox never sees the secret. See `shared${PATH}` → Pattern ${NUM}.
+- **Otherwise, register a custom tool:** the agent emits `agent.custom_tool_use`, your orchestrator (which already holds the credential) executes the call and returns `user.custom_tool_result` over the same authenticated event stream. No public endpoint is exposed; the sandbox never sees the secret. See `shared${EXPR_11}` → Pattern ${EXPR_12}.
 
 **Do not put API keys in the system prompt or user messages as a workaround** — they persist in the session's event history.
 
-> Formerly known internally as TATs (Tool${PATH} Access Tokens).
+> Formerly known internally as TATs (Tool${EXPR_13} Access Tokens).
 
 **Flow:**
 
-${NUM}. Create a vault (`client.beta.vaults.create(...)`) — one per tenant${PATH}, or one shared, depending on your model
-${NUM}. Add MCP credentials to it (`client.beta.vaults.credentials.create(...)`) — each credential is tied to one MCP server URL
-${NUM}. Reference the vault on session create via `vault_ids: ["vlt_..."]`
-${NUM}. Anthropic auto-refreshes tokens before they expire; the agent uses the current access token when calling MCP tools
+${EXPR_14}. Create a vault (`client.beta.vaults.create(...)`) — one per tenant${EXPR_15}, or one shared, depending on your model
+${EXPR_16}. Add MCP credentials to it (`client.beta.vaults.credentials.create(...)`) — each credential is tied to one MCP server URL
+${EXPR_17}. Reference the vault on session create via `vault_ids: ["vlt_..."]`
+${EXPR_18}. Anthropic auto-refreshes tokens before they expire; the agent uses the current access token when calling MCP tools
 
 **Credential shape**:
 
@@ -233,13 +271,13 @@ ${NUM}. Anthropic auto-refreshes tokens before they expire; the agent uses the c
   "display_name": "Notion (workspace-foo)",
   "auth": {
     "type": "mcp_oauth",
-    "mcp_server_url": "${URL}
+    "mcp_server_url": "${EXPR_19}
     "access_token": "<current access token>",
-    "expires_at": "${TIMESTAMP}",
+    "expires_at": "${EXPR_20}",
     "refresh": {
       "refresh_token": "<refresh token>",
       "client_id": "<your OAuth client_id>",
-      "token_endpoint": "${URL}
+      "token_endpoint": "${EXPR_21}
       "token_endpoint_auth": { "type": "none" }
     }
   }
@@ -273,7 +311,7 @@ Two types — both work the same way; the agent automatically uses them when rel
 | **Pre-built Anthropic skills** | Common document tasks (PowerPoint, Excel, Word, PDF). Reference by name (e.g. `xlsx`). |
 | **Custom skills** | Skills you've created in your organization via the Skills API. Reference by `skill_id` + optional `version`. |
 
-**Max ${NUM} skills per agent.** Agent creation uses `managed-agents-${DATE}`; the separate Skills API (for managing custom skill definitions) uses `skills-${DATE}`.
+**Max ${EXPR_22} skills per agent.** Agent creation uses `managed-agents-${EXPR_23}`; the separate Skills API (for managing custom skill definitions) uses `skills-${EXPR_24}`.
 
 ### Enabling skills on a session
 
@@ -319,11 +357,11 @@ agent = client.beta.agents.create(
 
 | Operation             | Method   | Path                                            |
 | --------------------- | -------- | ----------------------------------------------- |
-| Create Skill          | `POST`   | `${PATH}`                                    |
-| List Skills           | `GET`    | `${PATH}`                                    |
-| Get Skill             | `GET`    | `${PATH}{id}`                               |
-| Delete Skill          | `DELETE` | `${PATH}{id}`                               |
-| Create Version        | `POST`   | `${PATH}{id}${PATH}`                      |
-| List Versions         | `GET`    | `${PATH}{id}${PATH}`                      |
-| Get Version           | `GET`    | `${PATH}{id}${PATH}{version}`            |
-| Delete Version        | `DELETE` | `${PATH}{id}${PATH}{version}`            |
+| Create Skill          | `POST`   | `${EXPR_25}`                                    |
+| List Skills           | `GET`    | `${EXPR_26}`                                    |
+| Get Skill             | `GET`    | `${EXPR_27}{id}`                               |
+| Delete Skill          | `DELETE` | `${EXPR_28}{id}`                               |
+| Create Version        | `POST`   | `${EXPR_29}{id}${EXPR_30}`                      |
+| List Versions         | `GET`    | `${EXPR_31}{id}${EXPR_32}`                      |
+| Get Version           | `GET`    | `${EXPR_33}{id}${EXPR_34}{version}`            |
+| Delete Version        | `DELETE` | `${EXPR_35}{id}${EXPR_36}{version}`            |
