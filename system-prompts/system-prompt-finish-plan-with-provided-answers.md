@@ -1,3 +1,20 @@
+# System Data Block: finish-plan-with-provided-answers
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: finish-plan-with-provided-answers - Source: inline Summary Complete the plan using the user's provided information.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
 # System Prompt: finish-plan-with-provided-answers
 
 - Source: inline
