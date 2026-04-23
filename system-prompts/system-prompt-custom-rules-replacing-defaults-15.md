@@ -1,10 +1,33 @@
+# System Data Block: custom-rules-replacing-defaults-15
+
+- Source: native-reference-match
+
+## Summary
+
+System Data Block: recurring-tasks-autonomous-defaults - Source: inline Summary Multiple prompts (…) Placeholder Hints (source-backed) | Expression | Hint |…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+
+# Raw Prompt Text
 # System Data Block: recurring-tasks-autonomous-defaults
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (3)
+Multiple prompts (${NUM})
 
 ## Placeholder Hints (source-backed)
 
@@ -42,4 +65,4 @@ ${EXPR_6}
 Defaults being replaced:
 ${EXPR_7}
 
-what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_8} days, and that they can cancel sooner with ${EXPR_9: 'CronDelete'} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.
+what's scheduled, the cron expression, the human-readable cadence, that recurring tasks auto-expire after ${EXPR_8} days, and that they can cancel sooner with ${EXPR_9} (include the job ID). Mention this is the autonomous default and that the autonomous-loop instructions are baked in.
