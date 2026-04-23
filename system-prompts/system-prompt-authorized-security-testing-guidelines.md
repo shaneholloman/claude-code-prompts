@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: authorized-security-testing-guidelines - Source: native-reference-match Summary System Prompt: authorized-security-testing-guidelines - Source…
+
+# Raw Prompt Text
+# System Prompt: authorized-security-testing-guidelines
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: authorized-security-testing-guidelines - Source: inline Summary Allow defensive and authorized security work while refusing malicious or destr…
 
 # Raw Prompt Text
