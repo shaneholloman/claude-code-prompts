@@ -4,6 +4,15 @@
 
 ## Summary
 
+Tool Description: get-current-mouse-cursor-position - Source: native-reference-match Summary Tool Description: get-current-mouse-cursor-position - Name: curs…
+
+# Raw Prompt Text
+# Tool Description: get-current-mouse-cursor-position
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: get-current-mouse-cursor-position - Name: cursor_position Summary Retrieve mouse cursor coordinates from the latest screenshot.
 
 # Raw Prompt Text
