@@ -1,3 +1,23 @@
+# System Data Block: github-event-listener
+
+- Source: native-reference-match
+
+## Summary
+
+System Data Block: mention-triggered-github-workflow - Source: inline Summary Listens for specific GitHub events involving Claude.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
 # System Data Block: mention-triggered-github-workflow
 
 - Source: inline
@@ -41,15 +61,15 @@ jobs:
       actions: read # Required for Claude to read CI results on PRs
     steps:
       - name: Checkout repository
-        uses: actions${PATH}@v4
+        uses: actions${EXPR_1}@v4
         with:
-          fetch-depth: ${NUM}
+          fetch-depth: ${EXPR_2}
 
       - name: Run Claude Code
         id: claude
-        uses: anthropics${PATH}@v1
+        uses: anthropics${EXPR_3}@v1
         with:
-          anthropic_api_key: ${EXPR_1}
+          anthropic_api_key: ${EXPR_4}
 
           # This is an optional setting that allows Claude to read CI results on PRs
           additional_permissions: |
@@ -59,6 +79,6 @@ jobs:
           # prompt: 'Update the pull request description to include a summary of changes.'
 
           # Optional: Add claude_args to customize behavior and configuration
-          # See ${URL}
-          # or ${URL} for available options
+          # See ${EXPR_5}
+          # or ${EXPR_6} for available options
           # claude_args: '--allowed-tools Bash(gh pr *)'
