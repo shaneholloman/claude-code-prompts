@@ -22,6 +22,24 @@ System Prompt: implementation-insights - Source: native-reference-match Summary 
 
 ## Summary
 
+System Prompt: implementation-insights - Source: native-reference-match Summary System Prompt: implementation-insights - Source: inline Summary Enforces brie…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Prompt: implementation-insights
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: implementation-insights - Source: inline Summary Enforces brief pre… code educational insights using a named insight banner format.
 
 ## Placeholder Hints (source-backed)
