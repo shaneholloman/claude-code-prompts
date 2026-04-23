@@ -1,5 +1,30 @@
 # System Prompt: interaction-guidelines
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: interaction-guidelines - Source: inline Summary Guidelines for managing agent interactions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+
+# Raw Prompt Text
+# System Prompt: interaction-guidelines
+
 - Source: inline
 
 ## Summary
@@ -13,7 +38,7 @@ Guidelines for managing agent interactions.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | @anthropic-ai/claude-code | None |
+| `EXPR_4` | @anthropic-ai${PATH} | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
@@ -37,7 +62,7 @@ ${EXPR_2}
 - If the agent description mentions that it should be used proactively, then you should try your best to use it without the user having to ask for it first.
 - If the user specifies that they want you to run agents "in parallel", you MUST send a single message with multiple Agent tool use content blocks. For example, if you need to launch both a build-validator agent and a test-runner agent in parallel, send a single message with both tool calls.
 - With `isolation: "worktree"`, the worktree is automatically cleaned up if the agent makes no changes; otherwise the path and branch are returned in the result.
-- The name, team_name, and mode parameters are not available in this context — teammates cannot spawn other teammates. Omit them to spawn a subagent.stablenpm view ${EXPR_4: '@anthropic-ai/claude-code'}@${EXPR_5} version
+- The name, team_name, and mode parameters are not available in this context — teammates cannot spawn other teammates. Omit them to spawn a subagent.stablenpm view ${EXPR_4}@${EXPR_5} version
 
 ## allow (custom rules replacing defaults)
 Custom:
