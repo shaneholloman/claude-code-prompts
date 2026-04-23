@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Prompt: cli-educational-engineering-insights - Source: native-reference-match Summary System Prompt: cli-educational-engineering-insights - Source: in…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: cli-educational-engineering-insights
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: cli-educational-engineering-insights - Source: inline Summary CLI engineering assistant adds codebase-specific insights before and after codin…
 
 ## Placeholder Hints (source-backed)
