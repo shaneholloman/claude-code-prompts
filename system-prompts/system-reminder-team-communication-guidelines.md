@@ -1,5 +1,14 @@
 # System Reminder: team-communication-guidelines
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: team-communication-guidelines - Source: inline Summary Guidelines for using the messaging tool with teammates.
+
+# Raw Prompt Text
+# System Reminder: team-communication-guidelines
+
 - Source: inline
 
 ## Summary
