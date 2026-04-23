@@ -4,10 +4,25 @@
 
 ## Summary
 
-System Prompt: write-file-to-local-filesystem-… - Source: inline Summary Creates or rewrites a file on the local filesystem.
+System Prompt: write-file-to-local-filesystem-… - Source: native-reference-match Summary System Prompt: write-file-to-local-filesystem-… - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 # System Prompt: write-file-to-local-filesystem-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: write-file-to-local-filesystem-… - Source: inline Summary Creates or rewrites a file on the local filesystem.
+
+# Raw Prompt Text
+# System Prompt: write-file-to-local-filesystem-${EXPR_1}
 
 - Source: inline
 
