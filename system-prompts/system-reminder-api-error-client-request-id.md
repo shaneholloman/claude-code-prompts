@@ -1,5 +1,20 @@
 # System Reminder: api-error-client-request-id
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: api-error-client-request-id - Source: inline Summary Provide the client request ID for server log lookup.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: api-error-client-request-id
+
 - Source: inline
 
 ## Summary
