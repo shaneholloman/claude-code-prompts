@@ -1,5 +1,21 @@
 # System Reminder: no-plugin-commands-found
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: no-plugin-commands-found - Source: inline Summary No command markdown files were found in the plugin custom directory.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: no-plugin-commands-found
+
 - Source: inline
 
 ## Summary
