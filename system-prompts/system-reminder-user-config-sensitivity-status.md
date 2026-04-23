@@ -1,5 +1,23 @@
 # System Reminder: user-config-sensitivity-status
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: user-config-sensitivity-status - Source: inline Summary Indicates saved user config sensitivity.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: user-config-sensitivity-status
+
 - Source: inline
 
 ## Summary
