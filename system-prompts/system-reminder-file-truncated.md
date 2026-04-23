@@ -4,6 +4,23 @@
 
 ## Summary
 
+Warn about file content truncation.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: file-truncated
+
+- Source: native-reference-match
+
+## Summary
+
 Warn file content is truncated and instruct using a command to read more.
 
 ## Placeholder Hints (source-backed)
