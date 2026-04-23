@@ -1,5 +1,14 @@
 # System Reminder: local-scope-memory-guidance
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: local-scope-memory-guidance - Source: inline Summary Guidance to keep memories specific to this machine and project.
+
+# Raw Prompt Text
+# System Reminder: local-scope-memory-guidance
+
 - Source: inline
 
 ## Summary
