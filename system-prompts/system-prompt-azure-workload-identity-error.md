@@ -1,3 +1,18 @@
+# System Data Block: azure-workload-identity-error
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: azure-workload-identity-error - Source: native-reference-match Summary System Prompt: azure-workload-identity-error - Source: inline Summary E…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # System Prompt: azure-workload-identity-error
 
 - Source: native-reference-match
