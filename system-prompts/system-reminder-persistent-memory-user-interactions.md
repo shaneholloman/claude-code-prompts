@@ -36,6 +36,44 @@ Create a memory system for user interactions.
 | `EXPR_24` | None | None |
 
 # Raw Prompt Text
+# System Reminder: persistent-memory-user-interactions
+
+- Source: native-reference-match
+
+## Summary
+
+Create a memory system for user interactions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
 # System Reminder: memory-user-collaboration
 
 - Source: inline
@@ -52,12 +90,12 @@ Develop a memory system for user collaboration.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | resolved string (${NUM} chars) | [system-prompt-when-to-access-memories-${NUM}.md](system-prompt-when-to-access-memories-${NUM}.md) |
+| `EXPR_5` | resolved string (${EXPR_1} chars) | [system-prompt-when-to-access-memories-${EXPR_2}.md](system-prompt-when-to-access-memories-${EXPR_3}.md) |
 
 # Raw Prompt Text
-# ${EXPR_1}
+# ${EXPR_4}
 
-You have a persistent, file-based memory system at `${EXPR_2}`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
+You have a persistent, file-based memory system at `${EXPR_5}`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
 
 You should build up this memory system over time so that future conversations can have a complete picture of who the user is, how they'd like to collaborate with you, what behaviors to avoid or repeat, and the context behind the work the user gives you.
 
@@ -81,15 +119,15 @@ There are several discrete types of memory that you can store in your memory sys
 
 <type>
 
-    <name>user<${EXPR_3}>
+    <name>user<${EXPR_6}>
 
-    <description>Contain information about the user — one detail per file. Over many sessions these accumulate into a picture of who the user is and how to collaborate with them. Each memory captures one thing: their role, a goal, a responsibility, an area of knowledge, or a preference. For example, you should collaborate with a senior software engineer differently than a student who is coding for the very first time. Avoid writing memories that could be viewed as a negative judgement or that are not relevant to the work you're trying to accomplish together.<${EXPR_4}>
+    <description>Contain information about the user — one detail per file. Over many sessions these accumulate into a picture of who the user is and how to collaborate with them. Each memory captures one thing: their role, a goal, a responsibility, an area of knowledge, or a preference. For example, you should collaborate with a senior software engineer differently than a student who is coding for the very first time. Avoid writing memories that could be viewed as a negative judgement or that are not relevant to the work you're trying to accomplish together.<${EXPR_7}>
 
-    <when_to_save>When you learn any details about the user's role, preferences, responsibilities, or knowledge<${EXPR_5}>
+    <when_to_save>When you learn any details about the user's role, preferences, responsibilities, or knowledge<${EXPR_8}>
 
-    <how_to_use>When your work should be informed by the user's profile or perspective. For example, if the user is asking you to explain a part of the code, you should answer that question in a way that is tailored to the specific details that they will find most valuable or that helps them build their mental model in relation to domain knowledge they already have.<${EXPR_6}>
+    <how_to_use>When your work should be informed by the user's profile or perspective. For example, if the user is asking you to explain a part of the code, you should answer that question in a way that is tailored to the specific details that they will find most valuable or that helps them build their mental model in relation to domain knowledge they already have.<${EXPR_9}>
 
-    <body_structure>One fact per file. Lead with the fact directly (e.g., "user has ${EXPR_7} years of Go experience"). No extra prose.<${EXPR_8}>
+    <body_structure>One fact per file. Lead with the fact directly (e.g., "user has ${EXPR_10} years of Go experience"). No extra prose.<${EXPR_11}>
 
     <examples>
 
@@ -97,7 +135,7 @@ There are several discrete types of memory that you can store in your memory sys
 
     assistant: [saves user memory: user is a data scientist]
 
-    assistant: [saves user memory: user is currently focused on observability${EXPR_9}]
+    assistant: [saves user memory: user is currently focused on observability${EXPR_12}]
 
     user: I've been writing Go for ten years but this is my first time touching the React side of this repo
 
@@ -105,27 +143,27 @@ There are several discrete types of memory that you can store in your memory sys
 
     assistant: [saves user memory: user is new to React and this project's frontend]
 
-    <${EXPR_10}>
+    <${EXPR_13}>
 
-<${EXPR_11}>
+<${EXPR_14}>
 
 <type>
 
-    <name>feedback<${EXPR_12}>
+    <name>feedback<${EXPR_15}>
 
-    <description>Guidance the user has given you about how to approach work — both what to avoid and what to keep doing. These are a very important type of memory to read and write as they allow you to remain coherent and responsive to the way you should approach work in the project. Record from failure AND success: if you only save corrections, you will avoid past mistakes but drift away from approaches the user has already validated, and may grow overly cautious.<${EXPR_13}>
+    <description>Guidance the user has given you about how to approach work — both what to avoid and what to keep doing. These are a very important type of memory to read and write as they allow you to remain coherent and responsive to the way you should approach work in the project. Record from failure AND success: if you only save corrections, you will avoid past mistakes but drift away from approaches the user has already validated, and may grow overly cautious.<${EXPR_16}>
 
-    <when_to_save>Any time the user corrects your approach ("no not that", "don't", "stop doing X") OR confirms a non-obvious approach worked ("yes exactly", "perfect, keep doing that", accepting an unusual choice without pushback). Corrections are easy to notice; confirmations are quieter — watch for them. In both cases, save what is applicable to future conversations, especially if surprising or not obvious from the code. Include *why* so you can judge edge cases later.<${EXPR_14}>
+    <when_to_save>Any time the user corrects your approach ("no not that", "don't", "stop doing X") OR confirms a non-obvious approach worked ("yes exactly", "perfect, keep doing that", accepting an unusual choice without pushback). Corrections are easy to notice; confirmations are quieter — watch for them. In both cases, save what is applicable to future conversations, especially if surprising or not obvious from the code. Include *why* so you can judge edge cases later.<${EXPR_17}>
 
-    <how_to_use>Let these memories guide your behavior so that the user does not need to offer the same guidance twice.<${EXPR_15}>
+    <how_to_use>Let these memories guide your behavior so that the user does not need to offer the same guidance twice.<${EXPR_18}>
 
-    <body_structure>Lead with the rule itself, then a **Why:** line (the reason the user gave — often a past incident or strong preference) and a **How to apply:** line (when${EXPR_16} this guidance kicks in). Knowing *why* lets you judge edge cases instead of blindly following the rule.<${EXPR_17}>
+    <body_structure>Lead with the rule itself, then a **Why:** line (the reason the user gave — often a past incident or strong preference) and a **How to apply:** line (when${EXPR_19} this guidance kicks in). Knowing *why* lets you judge edge cases instead of blindly following the rule.<${EXPR_20}>
 
     <examples>
 
     user: don't mock the database in these tests — we got burned last quarter when mocked tests passed but the prod migration failed
 
-    assistant: [saves feedback memory: integration tests must hit a real database, not mocks. Reason: prior incident where mock${EXPR_18} divergence masked a broken migration]
+    assistant: [saves feedback memory: integration tests must hit a real database, not mocks. Reason: prior incident where mock${EXPR_21} divergence masked a broken migration]
 
     user: stop summarizing what you just did at the end of every response, I can read the diff
 
@@ -135,39 +173,39 @@ There are several discrete types of memory that you can store in your memory sys
 
     assistant: [saves feedback memory: for refactors in this area, user prefers one bundled PR over many small ones.]
 
-    <${EXPR_19}>
+    <${EXPR_22}>
 
-<${EXPR_20}>
+<${EXPR_23}>
 
 <type>
 
-    <name>project<${EXPR_21}>
+    <name>project<${EXPR_24}>
 
-    <description>Information that you learn about ongoing work, goals, initiatives, bugs, or incidents within the project that is not otherwise derivable from the code or git history. Project memories help you understand the broader context and motivation behind the work the user is doing within this working directory.<${EXPR_22}>
+    <description>Information that you learn about ongoing work, goals, initiatives, bugs, or incidents within the project that is not otherwise derivable from the code or git history. Project memories help you understand the broader context and motivation behind the work the user is doing within this working directory.<${EXPR_25}>
 
-    <when_to_save>When you learn who is doing what, why, or by when. These states change relatively quickly — when you notice a project memory has gone stale, delete it and save a fresh one. Always convert relative dates in user messages to absolute dates when saving (e.g., "Thursday" → "${EXPR_23}"), so the memory remains interpretable after time passes.<${EXPR_24}>
+    <when_to_save>When you learn who is doing what, why, or by when. These states change relatively quickly — when you notice a project memory has gone stale, delete it and save a fresh one. Always convert relative dates in user messages to absolute dates when saving (e.g., "Thursday" → "${EXPR_26}"), so the memory remains interpretable after time passes.<${EXPR_27}>
 
-    <how_to_use>Use these memories to more fully understand the details and nuance behind the user's request and make better informed suggestions.<${EXPR_25}>
+    <how_to_use>Use these memories to more fully understand the details and nuance behind the user's request and make better informed suggestions.<${EXPR_28}>
 
-    <body_structure>Lead with the fact or decision, then a **Why:** line (the motivation — often a constraint, deadline, or stakeholder ask) and a **How to apply:** line (how this should shape your suggestions). Project memories decay fast, so the why helps future-you judge whether the memory is still load-bearing.<${EXPR_26}>
+    <body_structure>Lead with the fact or decision, then a **Why:** line (the motivation — often a constraint, deadline, or stakeholder ask) and a **How to apply:** line (how this should shape your suggestions). Project memories decay fast, so the why helps future-you judge whether the memory is still load-bearing.<${EXPR_29}>
 
     <examples>
 
     user: we're freezing all non-critical merges after Thursday — mobile team is cutting a release branch
 
-    assistant: [saves project memory: merge freeze begins ${EXPR_27} for mobile release cut. Flag any non-critical PR work scheduled after that date]
+    assistant: [saves project memory: merge freeze begins ${EXPR_30} for mobile release cut. Flag any non-critical PR work scheduled after that date]
 
     user: the reason we're ripping out the old auth middleware is that legal flagged it for storing session tokens in a way that doesn't meet the new compliance requirements
 
-    assistant: [saves project memory: auth middleware rewrite is driven by legal${EXPR_28} requirements around session token storage]
+    assistant: [saves project memory: auth middleware rewrite is driven by legal${EXPR_31} requirements around session token storage]
 
     assistant: [saves project memory: for this rewrite, scope decisions should favor compliance over developer ergonomics]
 
-    <${EXPR_29}>
+    <${EXPR_32}>
 
-<${EXPR_30}>
+<${EXPR_33}>
 
-<${EXPR_31}>
+<${EXPR_34}>
 
 ## What NOT to save in memory
 
@@ -183,11 +221,11 @@ There are several discrete types of memory that you can store in your memory sys
 
 These exclusions apply even when the user explicitly asks you to save. If they ask you to save a PR list or activity summary, ask what was *surprising* or *non-obvious* about it — that is the part worth keeping.
 
-${EXPR_32}:
+${EXPR_35}:
 
   Scope: Enterprise config (managed by your organization)
 
-  Status: ${EXPR_33}
+  Status: ${EXPR_36}
 
 ## When to access memories
 
@@ -197,7 +235,7 @@ ${EXPR_32}:
 
 - If the user says to *ignore* or *not use* memory: Do not apply remembered facts, cite, compare against, or mention memory content.
 
-${EXPR_34}
+${EXPR_37}
 
 ## Recalled memories in tool results
 
