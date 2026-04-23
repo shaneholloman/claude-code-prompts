@@ -1,5 +1,22 @@
 # System Reminder: command-source-manifest-escapes
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: command-path-manifest-escapes - Source: inline Summary Command path specified in manifest escapes plugin directory.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: command-source-manifest-escapes
+
 - Source: inline
 
 ## Summary
