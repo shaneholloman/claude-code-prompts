@@ -4,6 +4,21 @@
 
 ## Summary
 
+Avoid using this tool unless no dedicated tool is available.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: bash-prefer-dedicated-tools
+
+- Source: native-reference-match
+
+## Summary
+
 IMPORTANT: Avoid using this tool to run … commands, unless explicitly instructed or after you have verified that a dedicated tool cannot accomplish your task.
 
 ## Placeholder Hints (source-backed)
