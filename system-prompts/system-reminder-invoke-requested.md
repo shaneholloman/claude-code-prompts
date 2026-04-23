@@ -1,5 +1,20 @@
 # System Reminder: invoke-requested
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: invoke-requested - Source: inline Summary Invoke the specified agent when the user requests it, passing required context.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: invoke-requested
+
 - Source: inline
 
 ## Summary
