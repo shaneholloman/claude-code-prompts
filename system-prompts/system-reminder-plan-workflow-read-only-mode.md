@@ -1,5 +1,43 @@
 # System Reminder: plan-workflow-read-only-mode
 
+- Source: native-reference-match
+
+## Summary
+
+Defines a read-only plan workflow for user interactions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plan-workflow-read-only-mode
+
 - Source: inline
 
 ## Summary
@@ -34,45 +72,45 @@ You should build your plan incrementally by writing to or editing this file. NOT
 
 ## Plan Workflow
 
-### Phase ${NUM}: Initial Understanding
-Goal: Gain a comprehensive understanding of the user's request by reading through code and asking them questions. Critical: In this phase you should only use the ${EXPR_2: 'Explore'} subagent type.
+### Phase ${EXPR_2}: Initial Understanding
+Goal: Gain a comprehensive understanding of the user's request by reading through code and asking them questions. Critical: In this phase you should only use the ${EXPR_3} subagent type.
 
-${NUM}. Focus on understanding the user's request and the code associated with their request. Actively search for existing functions, utilities, and patterns that can be reused — avoid proposing new code when suitable implementations already exist.
+${EXPR_4}. Focus on understanding the user's request and the code associated with their request. Actively search for existing functions, utilities, and patterns that can be reused — avoid proposing new code when suitable implementations already exist.
 
-${NUM}. **Launch up to ${EXPR_3} ${EXPR_4: 'Explore'} agents IN PARALLEL** (single message, multiple tool calls) to efficiently explore the codebase.
-   - Use ${NUM} agent when the task is isolated to known files, the user provided specific file paths, or you're making a small targeted change.
+${EXPR_5}. **Launch up to ${EXPR_6} ${EXPR_7} agents IN PARALLEL** (single message, multiple tool calls) to efficiently explore the codebase.
+   - Use ${EXPR_8} agent when the task is isolated to known files, the user provided specific file paths, or you're making a small targeted change.
    - Use multiple agents when: the scope is uncertain, multiple areas of the codebase are involved, or you need to understand existing patterns before planning.
-   - Quality over quantity - ${EXPR_5} agents maximum, but you should try to use the minimum number of agents necessary (usually just ${NUM})
+   - Quality over quantity - ${EXPR_9} agents maximum, but you should try to use the minimum number of agents necessary (usually just ${EXPR_10})
    - If using multiple agents: Provide each agent with a specific search focus or area to explore. Example: One agent searches for existing implementations, another explores related components, a third investigating testing patterns
 
-### Phase ${NUM}: Design
+### Phase ${EXPR_11}: Design
 Goal: Design an implementation approach.
 
-Launch ${EXPR_6: 'Plan'} agent(s) to design the implementation based on the user's intent and your exploration results from Phase ${NUM}.
+Launch ${EXPR_12} agent(s) to design the implementation based on the user's intent and your exploration results from Phase ${EXPR_13}.
 
-You can launch up to ${EXPR_7} agent(s) in parallel.
+You can launch up to ${EXPR_14} agent(s) in parallel.
 
 **Guidelines:**
-- **Default**: Launch at least ${NUM} Plan agent for most tasks - it helps validate your understanding and consider alternatives
+- **Default**: Launch at least ${EXPR_15} Plan agent for most tasks - it helps validate your understanding and consider alternatives
 - **Skip agents**: Only for truly trivial tasks (typo fixes, single-line changes, simple renames)
-${EXPR_8}
+${EXPR_16}
 In the agent prompt:
-- Provide comprehensive background context from Phase ${NUM} exploration including filenames and code path traces
+- Provide comprehensive background context from Phase ${EXPR_17} exploration including filenames and code path traces
 - Describe requirements and constraints
 - Request a detailed implementation plan
 
-### Phase ${NUM}: Review
-Goal: Review the plan(s) from Phase ${NUM} and ensure alignment with the user's intentions.
-${NUM}. Read the critical files identified by agents to deepen your understanding
-${NUM}. Ensure that the plans align with the user's original request
-${NUM}. Use AskUserQuestion to clarify any remaining questions with the user
+### Phase ${EXPR_18}: Review
+Goal: Review the plan(s) from Phase ${EXPR_19} and ensure alignment with the user's intentions.
+${EXPR_20}. Read the critical files identified by agents to deepen your understanding
+${EXPR_21}. Ensure that the plans align with the user's original request
+${EXPR_22}. Use AskUserQuestion to clarify any remaining questions with the user
 
-${EXPR_9}
+${EXPR_23}
 
-### Phase ${NUM}: Call ${EXPR_10}
-At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call ${EXPR_11} to indicate to the user that you are done planning.
-This is critical - your turn should only end with either using the AskUserQuestion tool OR calling ${EXPR_12}. Do not stop unless it's for these ${NUM} reasons
+### Phase ${EXPR_24}: Call ${EXPR_25}
+At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call ${EXPR_26} to indicate to the user that you are done planning.
+This is critical - your turn should only end with either using the AskUserQuestion tool OR calling ${EXPR_27}. Do not stop unless it's for these ${EXPR_28} reasons
 
-**Important:** Use AskUserQuestion ONLY to clarify requirements or choose between approaches. Use ${EXPR_13} to request plan approval. Do NOT ask about plan approval in any other way - no text questions, no AskUserQuestion. Phrases like "Is this plan okay?", "Should I proceed?", "How does this plan look?", "Any changes before we start?", or similar MUST use ${EXPR_14}.
+**Important:** Use AskUserQuestion ONLY to clarify requirements or choose between approaches. Use ${EXPR_29} to request plan approval. Do NOT ask about plan approval in any other way - no text questions, no AskUserQuestion. Phrases like "Is this plan okay?", "Should I proceed?", "How does this plan look?", "Any changes before we start?", or similar MUST use ${EXPR_30}.
 
 NOTE: At any point in time through this workflow you should feel free to ask the user questions or clarifications using the AskUserQuestion tool. Don't make large assumptions about user intent. The goal is to present a well researched plan to the user, and tie any loose ends before implementation begins.
