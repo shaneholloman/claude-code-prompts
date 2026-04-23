@@ -1,5 +1,14 @@
 # System Reminder: enable-native-installmethod-protection
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: enable-native-installmethod-protection - Source: inline Summary Sets installMethod to native and disables the legacy auto-updater for protec…
+
+# Raw Prompt Text
+# System Reminder: enable-native-installmethod-protection
+
 - Source: inline
 
 ## Summary
