@@ -1,5 +1,21 @@
 # System Reminder: team-memory-sync-file-skipped-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: team-memory-sync-file-skipped-… - Source: inline Summary Files skipped due to detected secrets.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: team-memory-sync-file-skipped-${NUM}
+
 - Source: inline
 
 ## Summary
