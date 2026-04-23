@@ -4,6 +4,22 @@
 
 ## Summary
 
+Reminder about previously read content access.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: compact-file-reference
+
+- Source: native-reference-match
+
+## Summary
+
 Reminds that … was previously read; use … tool to retrieve full contents.
 
 ## Placeholder Hints (source-backed)
