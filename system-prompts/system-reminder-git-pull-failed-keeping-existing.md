@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: git-pull-failed-keeping-existing - Source: native-reference-match Summary System Reminder: git-pull-failed-keeping-existing - Source: inline…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: git-pull-failed-keeping-existing
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: git-pull-failed-keeping-existing - Source: inline Summary Handling failed git pull while retaining the existing clone.
 
 ## Placeholder Hints (source-backed)
