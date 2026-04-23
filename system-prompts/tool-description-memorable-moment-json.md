@@ -4,6 +4,21 @@
 
 ## Summary
 
+Tool Description: memorable-moment-json - Source: native-reference-match Summary Tool Description: memorable-moment-json - Name: fun_ending Summary JSON form…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: memorable-moment-json
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: memorable-moment-json - Name: fun_ending Summary JSON format request to extract a qualitative, memorable moment with brief context from usa…
 
 ## Placeholder Hints (source-backed)
