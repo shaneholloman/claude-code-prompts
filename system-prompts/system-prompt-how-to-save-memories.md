@@ -4,6 +4,25 @@
 
 ## Summary
 
+System Prompt: how-to-save-memories - Source: native-reference-match Summary System Prompt: how-to-save-memories - Source: inline Summary Guidelines for orga…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `memory_name` | None | None |
+| `one_line_description_used_to_decide_rele` | None | None |
+| `user_feedback_project_reference` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: how-to-save-memories
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: how-to-save-memories - Source: inline Summary Guidelines for organizing and updating memories.
 
 ## Placeholder Hints (source-backed)
