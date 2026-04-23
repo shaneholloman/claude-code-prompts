@@ -1,5 +1,14 @@
 # System Prompt: communication-style-user-updates-2
 
+- Source: native-reference-match
+
+## Summary
+
+Provide clear and concise updates for users.
+
+# Raw Prompt Text
+# System Prompt: communication-style-user-updates-${NUM}
+
 - Source: inline
 
 ## Summary
