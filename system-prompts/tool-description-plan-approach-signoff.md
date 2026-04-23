@@ -25,6 +25,31 @@ Advise entering plan mode and getting user sign-off before non-trivial implement
 # Raw Prompt Text
 # Tool Description: plan-approach-signoff
 
+- Source: native-reference-match
+
+## Summary
+
+Advise entering plan mode and getting user sign-off before non-trivial implementation work.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+
+# Raw Prompt Text
+# Tool Description: plan-approach-signoff
+
 - Name: EnterPlanMode
 
 ## Summary
