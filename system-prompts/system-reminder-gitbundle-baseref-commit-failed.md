@@ -1,5 +1,21 @@
 # System Reminder: gitbundle-baseref-commit-failed
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: gitbundle-baseref-commit-failed - Source: inline Summary Error squashing git bundle without parent.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: gitbundle-baseref-commit-failed
+
 - Source: inline
 
 ## Summary
