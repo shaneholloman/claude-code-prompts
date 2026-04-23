@@ -1,5 +1,21 @@
 # System Prompt: launch-new-for-tasks
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: launch-new-for-tasks - Source: inline Summary Create a specialized agent for complex tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: launch-new-for-tasks
+
 - Source: inline
 
 ## Summary
@@ -15,6 +31,6 @@ Create a specialized agent for complex tasks.
 # Raw Prompt Text
 Launch a new agent to handle complex, multi-step tasks. Each agent type has specific capabilities and tools available to it.
 
-${EXPR_1}@anthropic-ai${PATH}
+${EXPR_1}@anthropic-ai${EXPR_2}
 
 When using the Agent tool, specify a subagent_type to use a specialized agent, or omit it to fork yourself — a fork inherits your full conversation context.
