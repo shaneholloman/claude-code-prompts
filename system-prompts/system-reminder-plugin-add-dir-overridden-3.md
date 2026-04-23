@@ -1,5 +1,23 @@
 # System Reminder: plugin-add-dir-overridden-3
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: plugin-add-dir-overridden-… - Source: inline Summary Indicates a plugin has been overridden.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plugin-add-dir-overridden-${NUM}
+
 - Source: inline
 
 ## Summary
