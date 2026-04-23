@@ -20,6 +20,22 @@ System Prompt: handle-truncated-output - Source: native-reference-match Summary 
 
 ## Summary
 
+System Prompt: handle-truncated-output - Source: native-reference-match Summary System Prompt: handle-truncated-output - Source: inline Summary Handle MCP ou…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: handle-truncated-output
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: handle-truncated-output - Source: inline Summary Handle MCP output truncation by paging… retrieval or warning results may be incomplete.
 
 ## Placeholder Hints (source-backed)
