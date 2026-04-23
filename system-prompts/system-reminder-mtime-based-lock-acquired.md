@@ -1,0 +1,16 @@
+# System Reminder: mtime-based-lock-acquired
+
+- Source: inline
+
+## Summary
+
+Report acquiring an mtime-based lock on the running version identifier.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+Acquired mtime-based lock on running version: ${EXPR_1}

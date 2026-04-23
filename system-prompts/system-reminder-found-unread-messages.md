@@ -1,0 +1,16 @@
+# System Reminder: found-unread-messages
+
+- Source: inline
+
+## Summary
+
+Reports number of unread messages found by InboxPoller in the inbox.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+[InboxPoller] Found ${EXPR_1} unread message(s)

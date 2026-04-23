@@ -1,0 +1,16 @@
+# System Reminder: kill-failed-task-not-found
+
+- Source: inline
+
+## Summary
+
+Log kill failure because the target task could not be found.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+[InProcessBackend] kill() failed: task not found for ${EXPR_1}
