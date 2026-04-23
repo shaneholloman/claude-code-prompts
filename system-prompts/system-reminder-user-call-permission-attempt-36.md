@@ -1,5 +1,14 @@
 # System Reminder: user-call-permission-attempt-36
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: user-call-permission-attempt-… - Source: inline Summary User must approve tool calls based on permission settings.
+
+# Raw Prompt Text
+# System Reminder: user-call-permission-attempt-${NUM}
+
 - Source: inline
 
 ## Summary
