@@ -19,6 +19,25 @@ Guidelines for building agents on the Claude API.
 # Raw Prompt Text
 # System Reminder: design-patterns-overview
 
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for building agents on the Claude API.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Reminder: design-patterns-overview
+
 - Source: inline
 
 ## Summary
