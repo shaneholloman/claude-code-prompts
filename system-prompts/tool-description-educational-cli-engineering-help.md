@@ -1,5 +1,20 @@
 # Tool Description: educational-cli-engineering-help
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: educational-cli-engineering-help - Name: Explanatory - Description: Claude explains its implementation choices and codebase patterns - Sour…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: educational-cli-engineering-help
+
 - Name: Explanatory
 - Description: Claude explains its implementation choices and codebase patterns
 - Source: built-in
