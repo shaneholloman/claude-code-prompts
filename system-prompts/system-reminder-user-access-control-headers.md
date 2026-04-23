@@ -9,6 +9,15 @@ Manage user access and control headers.
 # Raw Prompt Text
 # System Reminder: user-access-control-headers
 
+- Source: native-reference-match
+
+## Summary
+
+Manage user access and control headers.
+
+# Raw Prompt Text
+# System Reminder: user-access-control-headers
+
 - Source: inline
 
 ## Summary
