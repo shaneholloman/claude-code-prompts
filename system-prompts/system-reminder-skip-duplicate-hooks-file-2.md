@@ -1,5 +1,22 @@
 # System Reminder: skip-duplicate-hooks-file-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: skip-duplicate-hooks-file-… - Source: inline Summary Skip loading a plugin hooks file when it resolves to an already loaded path.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: skip-duplicate-hooks-file-${NUM}
+
 - Source: inline
 
 ## Summary
