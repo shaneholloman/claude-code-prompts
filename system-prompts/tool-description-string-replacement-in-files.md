@@ -4,6 +4,24 @@
 
 ## Summary
 
+Performs exact string replacements in existing files.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# Tool Description: string-replacement-in-files
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: string-replacement-in-files - Source: native-reference-match Summary Tool Description: string-replacement-in-files - Name: Edit Summary Per…
 
 ## Placeholder Hints (source-backed)
