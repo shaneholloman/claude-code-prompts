@@ -20,6 +20,22 @@ System Reminder: separate-response - Source: native-reference-match Summary Answ
 
 ## Summary
 
+System Reminder: separate-response - Source: native-reference-match Summary Answer a user question in a single response.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: separate-response
+
+- Source: native-reference-match
+
+## Summary
+
 Answer a user question in a single response.
 
 ## Placeholder Hints (source-backed)
