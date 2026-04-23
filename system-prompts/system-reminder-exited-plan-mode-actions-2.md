@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: exited-plan-mode-actions-… - Source: native-reference-match Summary System Reminder: exited-plan-mode-actions-… - Source: inline Summary You…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: exited-plan-mode-actions-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: exited-plan-mode-actions-… - Source: inline Summary You can now make edits and take actions.
 
 ## Placeholder Hints (source-backed)
@@ -13,7 +29,7 @@ System Reminder: exited-plan-mode-actions-… - Source: inline Summary You can n
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-# System Reminder: exited-plan-mode-actions-${NUM}
+# System Reminder: exited-plan-mode-actions-${EXPR_1}
 
 - Source: inline
 
@@ -30,4 +46,4 @@ You can now make edits and take actions.
 # Raw Prompt Text
 ## Exited Plan Mode
 
-You have exited plan mode. You can now make edits, run tools, and take actions.${EXPR_1}
+You have exited plan mode. You can now make edits, run tools, and take actions.${EXPR_2}
