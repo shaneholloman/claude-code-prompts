@@ -1,5 +1,14 @@
 # System Prompt: evaluate-stop-condition-hook
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: evaluate-stop-condition-hook Summary Assess if the user condition is met based on transcript.
+
+# Raw Prompt Text
+# System Prompt: evaluate-stop-condition-hook
+
 
 ## Summary
 
