@@ -1,3 +1,19 @@
+# System Data Block: search-transcript-directories
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: search-transcript-directories - Source: inline Summary Search for matching session transcripts in specified directories.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
 # System Prompt: search-transcript-directories
 
 - Source: inline
