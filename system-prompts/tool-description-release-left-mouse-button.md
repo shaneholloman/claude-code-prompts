@@ -4,6 +4,15 @@
 
 ## Summary
 
+Tool Description: release-left-mouse-button - Source: native-reference-match Summary Tool Description: release-left-mouse-button - Name: left_mouse_up Summar…
+
+# Raw Prompt Text
+# Tool Description: release-left-mouse-button
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: release-left-mouse-button - Name: left_mouse_up Summary Releases the left mouse button at the cursor position.
 
 # Raw Prompt Text
