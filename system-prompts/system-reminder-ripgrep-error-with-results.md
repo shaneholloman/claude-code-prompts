@@ -4,6 +4,24 @@
 
 ## Summary
 
+System Reminder: ripgrep-error-with-results - Source: native-reference-match Summary System Reminder: ripgrep-error-with-results - Source: inline Summary Rep…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: ripgrep-error-with-results
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: ripgrep-error-with-results - Source: inline Summary Reports a ripgrep error with signal, code, stderr, and result count.
 
 ## Placeholder Hints (source-backed)
