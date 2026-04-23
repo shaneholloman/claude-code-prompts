@@ -4,6 +4,27 @@
 
 ## Summary
 
+System Data Block: custom-rules-replacing-defaults-… - Source: native-reference-match Summary System Data Block: git-status-snapshot-conversation - Source: i…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# System Data Block: custom-rules-replacing-defaults-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Data Block: git-status-snapshot-conversation - Source: inline Summary Overview of custom rules and their status.
 
 ## Placeholder Hints (source-backed)
