@@ -4,6 +4,23 @@
 
 ## Summary
 
+Tool Description: request-plan-approval - Source: native-reference-match Summary Use a tool to signal planning finished and request user approval, without in…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# Tool Description: request-plan-approval
+
+- Source: native-reference-match
+
+## Summary
+
 Use a tool to signal planning finished and request user approval, without including plan content.
 
 ## Placeholder Hints (source-backed)
