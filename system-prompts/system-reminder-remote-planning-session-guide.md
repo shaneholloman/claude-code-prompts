@@ -16,6 +16,22 @@ Guide for conducting a remote planning session.
 # Raw Prompt Text
 # System Reminder: remote-planning-session-guide
 
+- Source: native-reference-match
+
+## Summary
+
+Guide for conducting a remote planning session.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: remote-planning-session-guide
+
 - Source: inline
 
 ## Summary
