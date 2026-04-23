@@ -27,6 +27,35 @@ Policy spec for extracting command prefixes and flagging injection patterns.
 | `EXPR_15` | None | None |
 
 # Raw Prompt Text
+# System Reminder: bash-command-prefix-detection
+
+- Source: native-reference-match
+
+## Summary
+
+Policy spec for extracting command prefixes and flagging injection patterns.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+
+# Raw Prompt Text
 # System Prompt: bash-command-prefix-risk-policy
 
 - Source: inline
