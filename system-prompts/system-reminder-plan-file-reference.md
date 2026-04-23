@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: continue-from-plan-file - Source: native-reference-match Summary System Reminder: continue-from-plan-file - Source: inline Summary Continue…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plan-file-reference
+
+- Source: native-reference-match
+
+## Summary
+
 Continue unfinished relevant work by resuming from an existing plan file’s contents.
 
 ## Placeholder Hints (source-backed)
