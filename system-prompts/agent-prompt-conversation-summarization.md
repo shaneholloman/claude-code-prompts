@@ -6,13 +6,51 @@
 
 Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: conversation-summarization
+
+- Source: native-reference-match
+
+## Summary
+
+Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
+
 # Raw Prompt Text
 Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
 This summary should be thorough in capturing technical details, code patterns, and architectural decisions that would be essential for continuing development work without losing context.
 
 Before providing your final summary, wrap your analysis in <analysis> tags to organize your thoughts and ensure you've covered all necessary points. In your analysis process:
 
-${NUM}. Chronologically analyze each message and section of the conversation. For each section thoroughly identify:
+${EXPR_1}. Chronologically analyze each message and section of the conversation. For each section thoroughly identify:
    - The user's explicit requests and intents
    - Your approach to addressing the user's requests
    - Key decisions, technical concepts and code patterns
@@ -23,19 +61,19 @@ ${NUM}. Chronologically analyze each message and section of the conversation. Fo
      - file edits
    - Errors that you ran into and how you fixed them
    - Pay special attention to specific user feedback that you received, especially if the user told you to do something differently.
-${NUM}. Double-check for technical accuracy and completeness, addressing each required element thoroughly.
+${EXPR_2}. Double-check for technical accuracy and completeness, addressing each required element thoroughly.
 
 Your summary should include the following sections:
 
-${NUM}. Primary Request and Intent: Capture all of the user's explicit requests and intents in detail
-${NUM}. Key Technical Concepts: List all important technical concepts, technologies, and frameworks discussed.
-${NUM}. Files and Code Sections: Enumerate specific files and code sections examined, modified, or created. Pay special attention to the most recent messages and include full code snippets where applicable and include a summary of why this file read or edit is important.
-${NUM}. Errors and fixes: List all errors that you ran into, and how you fixed them. Pay special attention to specific user feedback that you received, especially if the user told you to do something differently.
-${NUM}. Problem Solving: Document problems solved and any ongoing troubleshooting efforts.
-${NUM}. All user messages: List ALL user messages that are not tool results. These are critical for understanding the users' feedback and changing intent.
-${NUM}. Pending Tasks: Outline any pending tasks that you have explicitly been asked to work on.
-${NUM}. Current Work: Describe in detail precisely what was being worked on immediately before this summary request, paying special attention to the most recent messages from both user and assistant. Include file names and code snippets where applicable.
-${NUM}. Optional Next Step: List the next step that you will take that is related to the most recent work you were doing. IMPORTANT: ensure that this step is DIRECTLY in line with the user's most recent explicit requests, and the task you were working on immediately before this summary request. If your last task was concluded, then only list next steps if they are explicitly in line with the users request. Do not start on tangential requests or really old requests that were already completed without confirming with the user first.
+${EXPR_3}. Primary Request and Intent: Capture all of the user's explicit requests and intents in detail
+${EXPR_4}. Key Technical Concepts: List all important technical concepts, technologies, and frameworks discussed.
+${EXPR_5}. Files and Code Sections: Enumerate specific files and code sections examined, modified, or created. Pay special attention to the most recent messages and include full code snippets where applicable and include a summary of why this file read or edit is important.
+${EXPR_6}. Errors and fixes: List all errors that you ran into, and how you fixed them. Pay special attention to specific user feedback that you received, especially if the user told you to do something differently.
+${EXPR_7}. Problem Solving: Document problems solved and any ongoing troubleshooting efforts.
+${EXPR_8}. All user messages: List ALL user messages that are not tool results. These are critical for understanding the users' feedback and changing intent.
+${EXPR_9}. Pending Tasks: Outline any pending tasks that you have explicitly been asked to work on.
+${EXPR_10}. Current Work: Describe in detail precisely what was being worked on immediately before this summary request, paying special attention to the most recent messages from both user and assistant. Include file names and code snippets where applicable.
+${EXPR_11}. Optional Next Step: List the next step that you will take that is related to the most recent work you were doing. IMPORTANT: ensure that this step is DIRECTLY in line with the user's most recent explicit requests, and the task you were working on immediately before this summary request. If your last task was concluded, then only list next steps if they are explicitly in line with the users request. Do not start on tangential requests or really old requests that were already completed without confirming with the user first.
                        If there is a next step, include direct quotes from the most recent conversation showing exactly what task you were working on and where you left off. This should be verbatim to ensure there's no drift in task interpretation.
 
 Here's an example of how your output should be structured:
@@ -43,52 +81,52 @@ Here's an example of how your output should be structured:
 <example>
 <analysis>
 [Your thought process, ensuring all points are covered thoroughly and accurately]
-<${PATH}>
+<${EXPR_12}>
 
 <summary>
-${NUM}. Primary Request and Intent:
+${EXPR_13}. Primary Request and Intent:
    [Detailed description]
 
-${NUM}. Key Technical Concepts:
-   - [Concept ${NUM}]
-   - [Concept ${NUM}]
+${EXPR_14}. Key Technical Concepts:
+   - [Concept ${EXPR_15}]
+   - [Concept ${EXPR_16}]
    - [...]
 
-${NUM}. Files and Code Sections:
-   - [File Name ${NUM}]
+${EXPR_17}. Files and Code Sections:
+   - [File Name ${EXPR_18}]
       - [Summary of why this file is important]
       - [Summary of the changes made to this file, if any]
       - [Important Code Snippet]
-   - [File Name ${NUM}]
+   - [File Name ${EXPR_19}]
       - [Important Code Snippet]
    - [...]
 
-${NUM}. Errors and fixes:
-    - [Detailed description of error ${NUM}]:
+${EXPR_20}. Errors and fixes:
+    - [Detailed description of error ${EXPR_21}]:
       - [How you fixed the error]
       - [User feedback on the error if any]
     - [...]
 
-${NUM}. Problem Solving:
+${EXPR_22}. Problem Solving:
    [Description of solved problems and ongoing troubleshooting]
 
-${NUM}. All user messages:
+${EXPR_23}. All user messages:
     - [Detailed non tool use user message]
     - [...]
 
-${NUM}. Pending Tasks:
-   - [Task ${NUM}]
-   - [Task ${NUM}]
+${EXPR_24}. Pending Tasks:
+   - [Task ${EXPR_25}]
+   - [Task ${EXPR_26}]
    - [...]
 
-${NUM}. Current Work:
+${EXPR_27}. Current Work:
    [Precise description of current work]
 
-${NUM}. Optional Next Step:
+${EXPR_28}. Optional Next Step:
    [Optional Next step to take]
 
-<${PATH}>
-<${PATH}>
+<${EXPR_29}>
+<${EXPR_30}>
 
 Please provide your summary based on the conversation so far, following this structure and ensuring precision and thoroughness in your response.
 
@@ -96,9 +134,9 @@ There may be additional summarization instructions provided in the included cont
 <example>
 ## Compact Instructions
 When summarizing the conversation focus on typescript code changes and also remember the mistakes you made and how you fixed them.
-<${PATH}>
+<${EXPR_31}>
 
 <example>
 # Summary instructions
 When you are using compact - please focus on test output and code changes. Include file reads verbatim.
-<${PATH}>
+<${EXPR_32}>
