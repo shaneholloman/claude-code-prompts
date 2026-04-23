@@ -1,5 +1,21 @@
 # System Reminder: reconnect-time-budget-exhausted
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: reconnect-time-budget-exhausted - Source: inline Summary Log WebSocket reconnection time budget exhaustion after duration for a target.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: reconnect-time-budget-exhausted
+
 - Source: inline
 
 ## Summary
