@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: browser-timeout-extension - Source: native-reference-match Summary System Prompt: browser-timeout-extension Summary Instructs to open Chrome w…
+
+# Raw Prompt Text
+# System Prompt: browser-timeout-extension
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: browser-timeout-extension Summary Instructs to open Chrome with the Claude extension after a browser timeout.
 
 # Raw Prompt Text
