@@ -4,10 +4,25 @@
 
 ## Summary
 
-System Reminder: user-call-permission-attempt-… - Source: inline Summary User must approve tool calls based on permission settings.
+System Reminder: setup-notes-user-permission - Source: native-reference-match Summary User must approve tool calls based on permissions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 # System Reminder: user-call-permission-attempt-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: user-call-permission-attempt-… - Source: inline Summary User must approve tool calls based on permission settings.
+
+# Raw Prompt Text
+# System Reminder: user-call-permission-attempt-${EXPR_1}
 
 - Source: inline
 
