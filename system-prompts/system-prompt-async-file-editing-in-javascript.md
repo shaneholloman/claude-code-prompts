@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: async-file-editing-in-javascript - Source: native-reference-match Summary System Prompt: async-file-editing-in-javascript - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: async-file-editing-in-javascript
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: async-file-editing-in-javascript - Source: inline Summary JavaScript code for batch file editing using async functions.
 
 ## Placeholder Hints (source-backed)
