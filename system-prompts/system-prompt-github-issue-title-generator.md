@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: github-issue-title-generator - Source: native-reference-match Summary Generates a concise technical GitHub issue title from a bug report.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: github-issue-title-generator
+
+- Source: native-reference-match
+
+## Summary
+
 Generates a concise technical GitHub issue title from a bug report.
 
 ## Placeholder Hints (source-backed)
