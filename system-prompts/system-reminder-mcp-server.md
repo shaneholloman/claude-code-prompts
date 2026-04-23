@@ -19,6 +19,21 @@ System Reminder: mcp-server - Source: native-reference-match Summary System Remi
 
 ## Summary
 
+System Reminder: mcp-server - Source: native-reference-match Summary System Reminder: mcp-server - Source: inline Summary Instructions for using MCP servers.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: mcp-server
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: mcp-server - Source: inline Summary Instructions for using MCP servers.
 
 ## Placeholder Hints (source-backed)
