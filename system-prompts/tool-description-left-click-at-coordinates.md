@@ -4,6 +4,15 @@
 
 ## Summary
 
+Tool Description: left-click-at-coordinates - Source: native-reference-match Summary Tool Description: left-click-at-coordinates - Name: left_click Summary E…
+
+# Raw Prompt Text
+# Tool Description: left-click-at-coordinates
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: left-click-at-coordinates - Name: left_click Summary Executes a left-click at specified coordinates.
 
 # Raw Prompt Text
