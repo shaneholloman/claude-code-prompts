@@ -1,5 +1,37 @@
 # Skill: customize-keyboard-shortcuts
 
+- Source: native-reference-match
+
+## Summary
+
+Skill: customize-keyboard-shortcuts - Source: inline Summary Guides safe creation or editing of keybindings with required schema fields and keystroke syntax.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+
+# Raw Prompt Text
+# Skill: customize-keyboard-shortcuts
+
 - Source: inline
 
 ## Summary
@@ -18,9 +50,9 @@ Guides safe creation or editing of keybindings with required schema fields and k
 
 # Raw Prompt Text
 # Keybindings Skill
-Create or modify `~${PATH}` to customize keyboard shortcuts.
+Create or modify `~${EXPR_1}` to customize keyboard shortcuts.
 ## CRITICAL: Read Before Write
-**Always read `~${PATH}` first** (it may not exist yet). Merge changes with existing bindings — never replace the entire file.
+**Always read `~${EXPR_2}` first** (it may not exist yet). Merge changes with existing bindings — never replace the entire file.
 - Use **Edit** tool for modifications to existing files
 - Use **Write** tool only if the file does not exist yet
 
@@ -36,7 +68,7 @@ Always include the `$schema` and `$docs` fields.
 - `shift`
 - `meta` (aliases: `cmd`, `command`)
 **Special keys**: `escape`/`esc`, `enter`/`return`, `tab`, `space`, `backspace`, `delete`, `up`, `down`, `left`, `right`
-**Chords**: Space-separated keystrokes, e.g. `ctrl+k ctrl+s` (${NUM}-second timeout between keystrokes)
+**Chords**: Space-separated keystrokes, e.g. `ctrl+k ctrl+s` (${EXPR_3}-second timeout between keystrokes)
 **Examples**: `ctrl+shift+p`, `alt+enter`, `ctrl+k ctrl+n`
 
 ## Unbinding Default Shortcuts
@@ -59,21 +91,21 @@ To change the external editor shortcut from `ctrl+g` to `ctrl+e`:
 ```
 
 ## Behavioral Rules
-${NUM}. Only include contexts the user wants to change (minimal overrides)
-${NUM}. Validate that actions and contexts are from the known lists below
-${NUM}. Warn the user proactively if they choose a key that conflicts with reserved shortcuts or common tools like tmux (`ctrl+b`) and screen (`ctrl+a`)
-${NUM}. When adding a new binding for an existing action, the new binding is additive (existing default still works unless explicitly unbound)
-${NUM}. To fully replace a default binding, unbind the old key AND add the new one
+${EXPR_4}. Only include contexts the user wants to change (minimal overrides)
+${EXPR_5}. Validate that actions and contexts are from the known lists below
+${EXPR_6}. Warn the user proactively if they choose a key that conflicts with reserved shortcuts or common tools like tmux (`ctrl+b`) and screen (`ctrl+a`)
+${EXPR_7}. When adding a new binding for an existing action, the new binding is additive (existing default still works unless explicitly unbound)
+${EXPR_8}. To fully replace a default binding, unbind the old key AND add the new one
 
-## Validation with ${PATH}
-The `${PATH}` command includes a "Keybinding Configuration Issues" section that validates `~${PATH}`.
+## Validation with ${EXPR_9}
+The `${EXPR_10}` command includes a "Keybinding Configuration Issues" section that validates `~${EXPR_11}`.
 ### Common Issues and Fixes
-| ${EXPR_1} |
-| ${EXPR_2} |
-### Example ${PATH} Output
+| ${EXPR_12} |
+| ${EXPR_13} |
+### Example ${EXPR_14} Output
 ```
 Keybinding Configuration Issues
-Location: ~${PATH}
+Location: ~${EXPR_15}
   └ [Error] Unknown context "chat"
     → Valid contexts: Global, Chat, Autocomplete, ...
   └ [Warning] "ctrl+c" may not work: Terminal interrupt (SIGINT)
@@ -82,12 +114,12 @@ Location: ~${PATH}
 
 ## Reserved Shortcuts
 
-${EXPR_3}
+${EXPR_16}
 
 ## Available Contexts
 
-${EXPR_4}
+${EXPR_17}
 
 ## Available Actions
 
-${EXPR_5}
+${EXPR_18}
