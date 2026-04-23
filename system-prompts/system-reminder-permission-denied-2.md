@@ -1,5 +1,14 @@
 # System Reminder: permission-denied-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: permission-denied-… - Source: inline Summary Indicates a requested tool action was rejected and no changes were applied.
+
+# Raw Prompt Text
+# System Reminder: permission-denied-${NUM}
+
 - Source: inline
 
 ## Summary
