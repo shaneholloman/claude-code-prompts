@@ -1,5 +1,23 @@
 # System Prompt: load-chrome-mcp-tools-first
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: load-chrome-mcp-tools-first - Source: inline Summary Require ToolSearch loading of Claude-in-Chrome MCP tools before calling them.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Prompt: load-chrome-mcp-tools-first
+
 - Source: inline
 
 ## Summary
@@ -10,9 +28,9 @@ Require ToolSearch loading of Claude-in-Chrome MCP tools before calling them.
 **IMPORTANT: Before using any chrome browser tools, you MUST first load them using ToolSearch.**
 
 Chrome browser tools are MCP tools that require loading before use. Before calling any mcp__claude-in-chrome__* tool:
-${NUM}. Use ToolSearch with `select:mcp__claude-in-chrome__<tool_name>` to load the specific tool
-${NUM}. Then call the tool
+${EXPR_1}. Use ToolSearch with `select:mcp__claude-in-chrome__<tool_name>` to load the specific tool
+${EXPR_2}. Then call the tool
 
 For example, to get tab context:
-${NUM}. First: ToolSearch with query "select:mcp__claude-in-chrome__tabs_context_mcp"
-${NUM}. Then: Call mcp__claude-in-chrome__tabs_context_mcp
+${EXPR_3}. First: ToolSearch with query "select:mcp__claude-in-chrome__tabs_context_mcp"
+${EXPR_4}. Then: Call mcp__claude-in-chrome__tabs_context_mcp
