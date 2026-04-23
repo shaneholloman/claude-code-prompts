@@ -13,6 +13,15 @@ Tool Description: key-press-hold-combination - Source: native-reference-match Su
 
 ## Summary
 
+Tool Description: key-press-hold-combination - Source: native-reference-match Summary Tool Description: key-press-hold-combination - Name: hold_key Summary H…
+
+# Raw Prompt Text
+# Tool Description: key-press-hold-combination
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: key-press-hold-combination - Name: hold_key Summary Hold a key or combination for a set duration.
 
 # Raw Prompt Text
