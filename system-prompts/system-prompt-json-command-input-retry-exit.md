@@ -1,3 +1,18 @@
+# System Data Block: json-command-input-retry-exit
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: json-command-input-retry-exit - Source: native-reference-match Summary System Prompt: json-command-input-retry-exit - Source: inline Summary H…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # System Prompt: json-command-input-retry-exit
 
 - Source: native-reference-match
