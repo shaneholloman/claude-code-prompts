@@ -4,6 +4,44 @@
 
 ## Summary
 
+Summarize the conversation context thoroughly.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# System Prompt: partial-compaction-instructions
+
+- Source: native-reference-match
+
+## Summary
+
 Create a detailed summary of the conversation context.
 
 # Raw Prompt Text
@@ -11,7 +49,7 @@ Your task is to create a detailed summary of this conversation. This summary wil
 
 Before providing your final summary, wrap your analysis in <analysis> tags to organize your thoughts and ensure you've covered all necessary points. In your analysis process:
 
-${NUM}. Chronologically analyze each message and section of the conversation. For each section thoroughly identify:
+${EXPR_1}. Chronologically analyze each message and section of the conversation. For each section thoroughly identify:
    - The user's explicit requests and intents
    - Your approach to addressing the user's requests
    - Key decisions, technical concepts and code patterns
@@ -22,60 +60,60 @@ ${NUM}. Chronologically analyze each message and section of the conversation. Fo
      - file edits
    - Errors that you ran into and how you fixed them
    - Pay special attention to specific user feedback that you received, especially if the user told you to do something differently.
-${NUM}. Double-check for technical accuracy and completeness, addressing each required element thoroughly.
+${EXPR_2}. Double-check for technical accuracy and completeness, addressing each required element thoroughly.
 
 Your summary should include the following sections:
 
-${NUM}. Primary Request and Intent: Capture the user's explicit requests and intents in detail
-${NUM}. Key Technical Concepts: List important technical concepts, technologies, and frameworks discussed.
-${NUM}. Files and Code Sections: Enumerate specific files and code sections examined, modified, or created. Include full code snippets where applicable and include a summary of why this file read or edit is important.
-${NUM}. Errors and fixes: List errors encountered and how they were fixed.
-${NUM}. Problem Solving: Document problems solved and any ongoing troubleshooting efforts.
-${NUM}. All user messages: List ALL user messages that are not tool results.
-${NUM}. Pending Tasks: Outline any pending tasks.
-${NUM}. Work Completed: Describe what was accomplished by the end of this portion.
-${NUM}. Context for Continuing Work: Summarize any context, decisions, or state that would be needed to understand and continue the work in subsequent messages.
+${EXPR_3}. Primary Request and Intent: Capture the user's explicit requests and intents in detail
+${EXPR_4}. Key Technical Concepts: List important technical concepts, technologies, and frameworks discussed.
+${EXPR_5}. Files and Code Sections: Enumerate specific files and code sections examined, modified, or created. Include full code snippets where applicable and include a summary of why this file read or edit is important.
+${EXPR_6}. Errors and fixes: List errors encountered and how they were fixed.
+${EXPR_7}. Problem Solving: Document problems solved and any ongoing troubleshooting efforts.
+${EXPR_8}. All user messages: List ALL user messages that are not tool results.
+${EXPR_9}. Pending Tasks: Outline any pending tasks.
+${EXPR_10}. Work Completed: Describe what was accomplished by the end of this portion.
+${EXPR_11}. Context for Continuing Work: Summarize any context, decisions, or state that would be needed to understand and continue the work in subsequent messages.
 
 Here's an example of how your output should be structured:
 
 <example>
 <analysis>
 [Your thought process, ensuring all points are covered thoroughly and accurately]
-<${PATH}>
+<${EXPR_12}>
 
 <summary>
-${NUM}. Primary Request and Intent:
+${EXPR_13}. Primary Request and Intent:
    [Detailed description]
 
-${NUM}. Key Technical Concepts:
-   - [Concept ${NUM}]
-   - [Concept ${NUM}]
+${EXPR_14}. Key Technical Concepts:
+   - [Concept ${EXPR_15}]
+   - [Concept ${EXPR_16}]
 
-${NUM}. Files and Code Sections:
-   - [File Name ${NUM}]
+${EXPR_17}. Files and Code Sections:
+   - [File Name ${EXPR_18}]
       - [Summary of why this file is important]
       - [Important Code Snippet]
 
-${NUM}. Errors and fixes:
+${EXPR_19}. Errors and fixes:
     - [Error description]:
       - [How you fixed it]
 
-${NUM}. Problem Solving:
+${EXPR_20}. Problem Solving:
    [Description]
 
-${NUM}. All user messages:
+${EXPR_21}. All user messages:
     - [Detailed non tool use user message]
 
-${NUM}. Pending Tasks:
-   - [Task ${NUM}]
+${EXPR_22}. Pending Tasks:
+   - [Task ${EXPR_23}]
 
-${NUM}. Work Completed:
+${EXPR_24}. Work Completed:
    [Description of what was accomplished]
 
-${NUM}. Context for Continuing Work:
+${EXPR_25}. Context for Continuing Work:
    [Key context, decisions, or state needed to continue the work]
 
-<${PATH}>
-<${PATH}>
+<${EXPR_26}>
+<${EXPR_27}>
 
 Please provide your summary following this structure, ensuring precision and thoroughness in your response.
