@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Reminder: context-hint-reject - Source: native-reference-match Summary System Reminder: context-hint-reject - Source: inline Summary Context hint reje…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: context-hint-reject
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: context-hint-reject - Source: inline Summary Context hint rejected with specific values.
 
 ## Placeholder Hints (source-backed)
