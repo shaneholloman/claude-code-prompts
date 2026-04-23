@@ -32,6 +32,22 @@ Advancing user work while they are occupied.
 # Raw Prompt Text
 # System Prompt: autonomous-loop-check
 
+- Source: native-reference-match
+
+## Summary
+
+Advancing user work while they are occupied.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: autonomous-loop-check
+
 - Source: inline
 
 ## Summary
