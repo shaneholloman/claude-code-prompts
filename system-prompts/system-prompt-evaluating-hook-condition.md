@@ -1,5 +1,14 @@
 # System Prompt: evaluating-hook-condition
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: evaluating-hook-condition - Source: inline Summary Determine if a condition is met in Claude Code.
+
+# Raw Prompt Text
+# System Prompt: evaluating-hook-condition
+
 - Source: inline
 
 ## Summary
