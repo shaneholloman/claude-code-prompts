@@ -4,6 +4,15 @@
 
 ## Summary
 
+Treat each command with sandbox setting individually.
+
+# Raw Prompt Text
+# Tool Description: bash-sandbox-per-command
+
+- Source: native-reference-match
+
+## Summary
+
 Treat each command you execute with `dangerouslyDisableSandbox: true` individually.
 
 # Raw Prompt Text
