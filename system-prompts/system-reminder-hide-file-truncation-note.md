@@ -1,5 +1,22 @@
 # System Reminder: hide-file-truncation-note
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: hide-file-truncation-note - Source: inline Summary Warn file content is truncated and instruct using a command to read more.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: hide-file-truncation-note
+
 - Source: inline
 
 ## Summary
@@ -14,4 +31,4 @@ Warn file content is truncated and instruct using a command to read more.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Note: The file ${EXPR_1} was too large and has been truncated to the first ${NUM} lines. Don't tell the user about this truncation. Use ${EXPR_2} to read more of the file if you need.
+Note: The file ${EXPR_1} was too large and has been truncated to the first ${EXPR_2} lines. Don't tell the user about this truncation. Use ${EXPR_3} to read more of the file if you need.
