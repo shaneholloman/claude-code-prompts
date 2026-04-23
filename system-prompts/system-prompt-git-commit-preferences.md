@@ -1,3 +1,12 @@
+# System Prompt: git-commit-preferences
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: prefer-new-commit-over-amend - Source: inline Summary Prefer new commits over amending existing ones.
+
+# Raw Prompt Text
 # System Prompt: prefer-new-commit-over-amend
 
 - Source: inline
