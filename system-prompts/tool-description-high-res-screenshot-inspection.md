@@ -1,5 +1,14 @@
 # Tool Description: high-res-screenshot-inspection
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: high-res-screenshot-inspection - Name: zoom Summary Capture detailed screenshots for better readability.
+
+# Raw Prompt Text
+# Tool Description: high-res-screenshot-inspection
+
 - Name: zoom
 
 ## Summary
