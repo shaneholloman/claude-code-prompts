@@ -21,6 +21,23 @@ System Reminder: hide-file-truncation-note - Source: native-reference-match Summ
 
 ## Summary
 
+System Reminder: hide-file-truncation-note - Source: native-reference-match Summary System Reminder: hide-file-truncation-note - Source: inline Summary Warn…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: hide-file-truncation-note
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: hide-file-truncation-note - Source: inline Summary Warn file content is truncated and instruct using a command to read more.
 
 ## Placeholder Hints (source-backed)
