@@ -1,5 +1,20 @@
 # System Reminder: date-changed-dont-mention
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: date-changed-dont-mention - Source: inline Summary Update the current date value while instructing not to mention it to user.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: date-changed-dont-mention
+
 - Source: inline
 
 ## Summary
