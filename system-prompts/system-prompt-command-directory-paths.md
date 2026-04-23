@@ -4,6 +4,25 @@
 
 ## Summary
 
+System Prompt: command-directory-paths - Source: native-reference-match Summary System Prompt: command-directory-paths - Source: inline Summary Guidelines fo…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Prompt: command-directory-paths
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: command-directory-paths - Source: inline Summary Guidelines for handling commands and directories.
 
 ## Placeholder Hints (source-backed)
