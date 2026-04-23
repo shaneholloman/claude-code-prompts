@@ -1,5 +1,24 @@
 # System Reminder: design-patterns-overview
 
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for building agents on the Claude API.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Reminder: design-patterns-overview
+
 - Source: inline
 
 ## Summary
@@ -49,10 +68,10 @@ A **bash tool** gives Claude broad programmatic leverage — it can perform almo
 | --- | --- | --- | --- |
 | **Bash** | Client | Claude needs to execute shell commands. | Claude emits commands; your harness executes them. Reference implementation provided. |
 | **Text editor** | Client | Claude needs to read or edit files. | Claude views, creates, and edits files via your implementation. Reference implementation provided. |
-| **Computer use** | Client or Server | Claude needs to interact with GUIs, web apps, or visual interfaces. | Claude takes screenshots and issues mouse${PATH} commands. Can be self-hosted (you run the environment) or Anthropic-hosted. |
+| **Computer use** | Client or Server | Claude needs to interact with GUIs, web apps, or visual interfaces. | Claude takes screenshots and issues mouse${EXPR_1} commands. Can be self-hosted (you run the environment) or Anthropic-hosted. |
 | **Code execution** | Server | Claude needs to run code in a sandbox you don't want to manage. | Anthropic-hosted container with built-in file and bash sub-tools. No client-side execution. |
 | **Web search / fetch** | Server | Claude needs information past its training cutoff (news, current events, recent docs) or the content of a specific URL. | Claude issues a query or URL; Anthropic executes it and returns results with citations. |
-| **Memory** | Client | Claude needs to save context across sessions. | Claude reads${PATH} a `${PATH}` directory. You implement the storage backend. |
+| **Memory** | Client | Claude needs to save context across sessions. | Claude reads${EXPR_2} a `${EXPR_3}` directory. You implement the storage backend. |
 
 **Client-side** tools are defined by Anthropic (name, schema, Claude's usage pattern) but executed by your harness. Anthropic provides reference implementations. **Server-side** tools run entirely on Anthropic infrastructure — declare them in `tools` and Claude handles the rest.
 
@@ -87,7 +106,7 @@ Both patterns keep the fixed context small and load detail on demand.
 | --- | --- | --- |
 | **Context editing** | Context grows stale over many turns (old tool results, completed thinking). | Tool results and thinking blocks are cleared based on configurable thresholds. Keeps the transcript lean without summarizing. |
 | **Compaction** | Conversation likely to reach or exceed the context window limit. | Earlier context is summarized into a compaction block server-side. See `SKILL.md` §Compaction for the critical `response.content` handling. |
-| **Memory** | State must persist across sessions (not just within one conversation). | Claude reads${PATH} files in a memory directory. Survives process restarts. |
+| **Memory** | State must persist across sessions (not just within one conversation). | Claude reads${EXPR_4} files in a memory directory. Survives process restarts. |
 
 **Choosing between them:** Context editing and compaction operate within a session — editing prunes stale turns, compaction summarizes when you're near the limit. Memory is for cross-session persistence. Many long-running agents use all three.
 
@@ -101,7 +120,7 @@ Both patterns keep the fixed context small and load detail on demand.
 | --- | --- |
 | Editing the system prompt mid-session invalidates the cache. | Append a `<system-reminder>` block in the `messages` array instead. The cached prefix stays intact. Claude Code uses this for time updates and mode transitions. |
 | Switching models mid-session invalidates the cache. | Spawn a **subagent** with the cheaper model for the sub-task; keep the main loop on one model. Claude Code's Explore subagents use Haiku this way. |
-| Adding${PATH} tools mid-session invalidates the cache. | Use **tool search** for dynamic discovery — it appends tool schemas rather than swapping them, so the existing prefix is preserved. |
+| Adding${EXPR_5} tools mid-session invalidates the cache. | Use **tool search** for dynamic discovery — it appends tool schemas rather than swapping them, so the existing prefix is preserved. |
 
 For multi-turn breakpoint placement, use top-level auto-caching — see `prompt-caching.md` §Placement patterns.
 
