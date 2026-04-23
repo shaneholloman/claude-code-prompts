@@ -21,6 +21,23 @@ System Prompt: block-action-output-reason-allowed - Source: native-reference-mat
 
 ## Summary
 
+System Prompt: block-action-output-reason-allowed - Source: native-reference-match Summary System Prompt: block-action-output-reason-allowed - Source: inline…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: block-action-output-reason-allowed
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: block-action-output-reason-allowed - Source: inline Summary Defines output format for blocking or allowing actions.
 
 ## Placeholder Hints (source-backed)
