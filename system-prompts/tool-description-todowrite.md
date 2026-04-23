@@ -4,6 +4,44 @@
 
 ## Summary
 
+Instructions for using a structured task list tool.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# Tool Description: todowrite
+
+- Source: native-reference-match
+
+## Summary
+
 Instructions for using a structured task list tool during coding sessions.
 
 ## Placeholder Hints (source-backed)
@@ -19,21 +57,21 @@ It also helps the user understand the progress of the task and overall progress 
 ## When to Use This Tool
 Use this tool proactively in these scenarios:
 
-${NUM}. Complex multi-step tasks - When a task requires ${NUM} or more distinct steps or actions
-${NUM}. Non-trivial and complex tasks - Tasks that require careful planning or multiple operations
-${NUM}. User explicitly requests todo list - When the user directly asks you to use the todo list
-${NUM}. User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
-${NUM}. After receiving new instructions - Immediately capture user requirements as todos
-${NUM}. When you start working on a task - Mark it as in_progress BEFORE beginning work. Ideally you should only have one todo as in_progress at a time
-${NUM}. After completing a task - Mark it as completed and add any new follow-up tasks discovered during implementation
+${EXPR_1}. Complex multi-step tasks - When a task requires ${EXPR_2} or more distinct steps or actions
+${EXPR_3}. Non-trivial and complex tasks - Tasks that require careful planning or multiple operations
+${EXPR_4}. User explicitly requests todo list - When the user directly asks you to use the todo list
+${EXPR_5}. User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
+${EXPR_6}. After receiving new instructions - Immediately capture user requirements as todos
+${EXPR_7}. When you start working on a task - Mark it as in_progress BEFORE beginning work. Ideally you should only have one todo as in_progress at a time
+${EXPR_8}. After completing a task - Mark it as completed and add any new follow-up tasks discovered during implementation
 
 ## When NOT to Use This Tool
 
 Skip using this tool when:
-${NUM}. There is only a single, straightforward task
-${NUM}. The task is trivial and tracking it provides no organizational benefit
-${NUM}. The task can be completed in less than ${NUM} trivial steps
-${NUM}. The task is purely conversational or informational
+${EXPR_9}. There is only a single, straightforward task
+${EXPR_10}. The task is trivial and tracking it provides no organizational benefit
+${EXPR_11}. The task can be completed in less than ${EXPR_12} trivial steps
+${EXPR_13}. The task is purely conversational or informational
 
 NOTE that you should not use this tool if there is only one trivial task to do. In this case you are better off just doing the task directly.
 
@@ -42,35 +80,35 @@ NOTE that you should not use this tool if there is only one trivial task to do. 
 <example>
 User: I want to add a dark mode toggle to the application settings. Make sure you run the tests and build when you're done!
 Assistant: *Creates todo list with the following items:*
-${NUM}. Creating dark mode toggle component in Settings page
-${NUM}. Adding dark mode state management (context${PATH})
-${NUM}. Implementing CSS-in-JS styles for dark theme
-${NUM}. Updating existing components to support theme switching
-${NUM}. Running tests and build process, addressing any failures or errors that occur
+${EXPR_14}. Creating dark mode toggle component in Settings page
+${EXPR_15}. Adding dark mode state management (context${EXPR_16})
+${EXPR_17}. Implementing CSS-in-JS styles for dark theme
+${EXPR_18}. Updating existing components to support theme switching
+${EXPR_19}. Running tests and build process, addressing any failures or errors that occur
 *Begins working on the first task*
 
 <reasoning>
 The assistant used the todo list because:
-${NUM}. Adding dark mode is a multi-step feature requiring UI, state management, and styling changes
-${NUM}. The user explicitly requested tests and build be run afterward
-${NUM}. The assistant inferred that tests and build need to pass by adding "Ensure tests and build succeed" as the final task
-<${PATH}>
-<${PATH}>
+${EXPR_20}. Adding dark mode is a multi-step feature requiring UI, state management, and styling changes
+${EXPR_21}. The user explicitly requested tests and build be run afterward
+${EXPR_22}. The assistant inferred that tests and build need to pass by adding "Ensure tests and build succeed" as the final task
+<${EXPR_23}>
+<${EXPR_24}>
 
 <example>
 User: Help me rename the function getCwd to getCurrentWorkingDirectory across my project
 Assistant: *Uses grep or search tools to locate all instances of getCwd in the codebase*
-I've found ${NUM} instances of 'getCwd' across ${NUM} different files.
+I've found ${EXPR_25} instances of 'getCwd' across ${EXPR_26} different files.
 *Creates todo list with specific items for each file that needs updating*
 
 <reasoning>
 The assistant used the todo list because:
-${NUM}. First, the assistant searched to understand the scope of the task
-${NUM}. Upon finding multiple occurrences across different files, it determined this was a complex task with multiple steps
-${NUM}. The todo list helps ensure every instance is tracked and updated systematically
-${NUM}. This approach prevents missing any occurrences and maintains code consistency
-<${PATH}>
-<${PATH}>
+${EXPR_27}. First, the assistant searched to understand the scope of the task
+${EXPR_28}. Upon finding multiple occurrences across different files, it determined this was a complex task with multiple steps
+${EXPR_29}. The todo list helps ensure every instance is tracked and updated systematically
+${EXPR_30}. This approach prevents missing any occurrences and maintains code consistency
+<${EXPR_31}>
+<${EXPR_32}>
 
 
 <example>
@@ -80,28 +118,28 @@ Let's start with user registration. This will involve creating database models, 
 
 <reasoning>
 The assistant used the todo list because:
-${NUM}. The user provided multiple complex features to implement in a comma separated list
-${NUM}. The todo list helps organize these large features into manageable tasks
-${NUM}. This approach allows for tracking progress across the entire implementation
-<${PATH}>
-<${PATH}>
+${EXPR_33}. The user provided multiple complex features to implement in a comma separated list
+${EXPR_34}. The todo list helps organize these large features into manageable tasks
+${EXPR_35}. This approach allows for tracking progress across the entire implementation
+<${EXPR_36}>
+<${EXPR_37}>
 
 <example>
 User: Can you help optimize my React application? It's rendering slowly and has performance issues.
 Assistant: *Reviews component structure, render patterns, state management, and data fetching*
 After analyzing your codebase, I've identified several performance issues.
-*Creates todo list with items like: ${NUM}) Implementing memoization for expensive calculations in ProductList, ${NUM}) Adding virtualization for long lists in Dashboard, ${NUM}) Optimizing image loading in Gallery component, ${NUM}) Fixing state update loops in ShoppingCart, ${NUM}) Reviewing bundle size and implementing code splitting*
+*Creates todo list with items like: ${EXPR_38}) Implementing memoization for expensive calculations in ProductList, ${EXPR_39}) Adding virtualization for long lists in Dashboard, ${EXPR_40}) Optimizing image loading in Gallery component, ${EXPR_41}) Fixing state update loops in ShoppingCart, ${EXPR_42}) Reviewing bundle size and implementing code splitting*
 Let's start by implementing memoization for the expensive calculations in your ProductList component.
 
 <reasoning>
 The assistant used the todo list because:
-${NUM}. First, the assistant examined the codebase to identify specific performance issues
-${NUM}. Based on this analysis, it identified multiple optimization opportunities
-${NUM}. Performance optimization is a non-trivial task requiring multiple steps
-${NUM}. The todo list helps methodically track improvements across different components
-${NUM}. This systematic approach ensures all performance bottlenecks are addressed
-<${PATH}>
-<${PATH}>
+${EXPR_43}. First, the assistant examined the codebase to identify specific performance issues
+${EXPR_44}. Based on this analysis, it identified multiple optimization opportunities
+${EXPR_45}. Performance optimization is a non-trivial task requiring multiple steps
+${EXPR_46}. The todo list helps methodically track improvements across different components
+${EXPR_47}. This systematic approach ensures all performance bottlenecks are addressed
+<${EXPR_48}>
+<${EXPR_49}>
 
 ## Examples of When NOT to Use the Todo List
 
@@ -116,8 +154,8 @@ This will output the text "Hello World" to the console when executed.
 
 <reasoning>
 The assistant did not use the todo list because this is a single, trivial task that can be completed in one step. There's no need to track multiple tasks or steps for such a straightforward request.
-<${PATH}>
-<${PATH}>
+<${EXPR_50}>
+<${EXPR_51}>
 
 <example>
 User: What does the git status command do?
@@ -125,18 +163,18 @@ Assistant: The git status command shows the current state of your working direct
 
 <reasoning>
 The assistant did not use the todo list because this is an informational request with no actual coding task to complete. The user is simply asking for an explanation, not for the assistant to perform multiple steps or tasks.
-<${PATH}>
-<${PATH}>
+<${EXPR_52}>
+<${EXPR_53}>
 
 <example>
 User: Can you add a comment to the calculateTotal function to explain what it does?
 Assistant: Sure, let me add a comment to the calculateTotal function to explain what it does.
-* Uses the ${EXPR_1} tool to add a comment to the calculateTotal function *
+* Uses the ${EXPR_54} tool to add a comment to the calculateTotal function *
 
 <reasoning>
 The assistant did not use the todo list because this is a single, straightforward task confined to one location in the code. Adding a comment doesn't require tracking multiple steps or systematic organization.
-<${PATH}>
-<${PATH}>
+<${EXPR_55}>
+<${EXPR_56}>
 
 <example>
 User: Run npm install for me and tell me what happens.
@@ -151,12 +189,12 @@ All dependencies have been installed according to your package.json file.
 
 <reasoning>
 The assistant did not use the todo list because this is a single command execution with immediate results. There are no multiple steps to track or organize, making the todo list unnecessary for this straightforward task.
-<${PATH}>
-<${PATH}>
+<${EXPR_57}>
+<${EXPR_58}>
 
 ## Task States and Management
 
-${NUM}. **Task States**: Use these states to track progress:
+${EXPR_59}. **Task States**: Use these states to track progress:
    - pending: Task not yet started
    - in_progress: Currently working on (limit to ONE task at a time)
    - completed: Task finished successfully
@@ -165,14 +203,14 @@ ${NUM}. **Task States**: Use these states to track progress:
    - content: The imperative form describing what needs to be done (e.g., "Run tests", "Build the project")
    - activeForm: The present continuous form shown during execution (e.g., "Running tests", "Building the project")
 
-${NUM}. **Task Management**:
+${EXPR_60}. **Task Management**:
    - Update task status in real-time as you work
    - Mark tasks complete IMMEDIATELY after finishing (don't batch completions)
    - Exactly ONE task must be in_progress at any time (not less, not more)
    - Complete current tasks before starting new ones
    - Remove tasks that are no longer relevant from the list entirely
 
-${NUM}. **Task Completion Requirements**:
+${EXPR_61}. **Task Completion Requirements**:
    - ONLY mark a task as completed when you have FULLY accomplished it
    - If you encounter errors, blockers, or cannot finish, keep the task as in_progress
    - When blocked, create a new task describing what needs to be resolved
@@ -182,7 +220,7 @@ ${NUM}. **Task Completion Requirements**:
      - You encountered unresolved errors
      - You couldn't find necessary files or dependencies
 
-${NUM}. **Task Breakdown**:
+${EXPR_62}. **Task Breakdown**:
    - Create specific, actionable items
    - Break complex tasks into smaller, manageable steps
    - Use clear, descriptive task names
