@@ -1,5 +1,14 @@
 # System Reminder: git-official-marketplace-auto-install
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: git-official-marketplace-auto-install - Source: inline Summary Issue with git as a non-functional macOS xcrun shim.
+
+# Raw Prompt Text
+# System Reminder: git-official-marketplace-auto-install
+
 - Source: inline
 
 ## Summary
