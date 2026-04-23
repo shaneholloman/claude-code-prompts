@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: halt-after-rejected-action - Source: native-reference-match Summary System Reminder: halt-after-rejected-action - Source: inline Summary Sto…
+
+# Raw Prompt Text
+# System Reminder: halt-after-rejected-action
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: halt-after-rejected-action - Source: inline Summary Stop and wait when the user rejects the attempted action.
 
 # Raw Prompt Text
