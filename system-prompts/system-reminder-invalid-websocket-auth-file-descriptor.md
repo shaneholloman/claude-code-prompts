@@ -1,5 +1,20 @@
 # System Reminder: invalid-websocket-auth-file-descriptor
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: invalid-websocket-auth-file-descriptor - Source: inline Summary Error when websocket auth file descriptor is not a valid number.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: invalid-websocket-auth-file-descriptor
+
 - Source: inline
 
 ## Summary
