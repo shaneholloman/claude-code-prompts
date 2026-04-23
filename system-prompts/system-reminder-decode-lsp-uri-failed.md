@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Reminder: decode-lsp-uri-failed - Source: native-reference-match Summary System Reminder: decode-lsp-uri-failed - Source: inline Summary Log failure d…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: decode-lsp-uri-failed
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: decode-lsp-uri-failed - Source: inline Summary Log failure decoding an LSP URI and fall back to raw path.
 
 ## Placeholder Hints (source-backed)
