@@ -6,8 +6,23 @@
 
 Provide clear and concise updates for users.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
 # System Prompt: communication-style-user-updates-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+Provide clear and concise updates for users.
+
+# Raw Prompt Text
+# System Prompt: communication-style-user-updates-${EXPR_1}
 
 - Source: inline
 
