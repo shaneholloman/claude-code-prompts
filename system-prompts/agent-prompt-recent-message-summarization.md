@@ -4,6 +4,44 @@
 
 ## Summary
 
+Summarize key points from recent conversations.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: recent-message-summarization
+
+- Source: native-reference-match
+
+## Summary
+
 Summarize recent conversation messages and key points.
 
 ## Placeholder Hints (source-backed)
@@ -19,56 +57,56 @@ ${EXPR_1}
 
 Your summary should include the following sections:
 
-${NUM}. Primary Request and Intent: Capture the user's explicit requests and intents from the recent messages
-${NUM}. Key Technical Concepts: List important technical concepts, technologies, and frameworks discussed recently.
-${NUM}. Files and Code Sections: Enumerate specific files and code sections examined, modified, or created. Include full code snippets where applicable and include a summary of why this file read or edit is important.
-${NUM}. Errors and fixes: List errors encountered and how they were fixed.
-${NUM}. Problem Solving: Document problems solved and any ongoing troubleshooting efforts.
-${NUM}. All user messages: List ALL user messages from the recent portion that are not tool results.
-${NUM}. Pending Tasks: Outline any pending tasks from the recent messages.
-${NUM}. Current Work: Describe precisely what was being worked on immediately before this summary request.
-${NUM}. Optional Next Step: List the next step related to the most recent work. Include direct quotes from the most recent conversation.
+${EXPR_2}. Primary Request and Intent: Capture the user's explicit requests and intents from the recent messages
+${EXPR_3}. Key Technical Concepts: List important technical concepts, technologies, and frameworks discussed recently.
+${EXPR_4}. Files and Code Sections: Enumerate specific files and code sections examined, modified, or created. Include full code snippets where applicable and include a summary of why this file read or edit is important.
+${EXPR_5}. Errors and fixes: List errors encountered and how they were fixed.
+${EXPR_6}. Problem Solving: Document problems solved and any ongoing troubleshooting efforts.
+${EXPR_7}. All user messages: List ALL user messages from the recent portion that are not tool results.
+${EXPR_8}. Pending Tasks: Outline any pending tasks from the recent messages.
+${EXPR_9}. Current Work: Describe precisely what was being worked on immediately before this summary request.
+${EXPR_10}. Optional Next Step: List the next step related to the most recent work. Include direct quotes from the most recent conversation.
 
 Here's an example of how your output should be structured:
 
 <example>
 <analysis>
 [Your thought process, ensuring all points are covered thoroughly and accurately]
-<${PATH}>
+<${EXPR_11}>
 
 <summary>
-${NUM}. Primary Request and Intent:
+${EXPR_12}. Primary Request and Intent:
    [Detailed description]
 
-${NUM}. Key Technical Concepts:
-   - [Concept ${NUM}]
-   - [Concept ${NUM}]
+${EXPR_13}. Key Technical Concepts:
+   - [Concept ${EXPR_14}]
+   - [Concept ${EXPR_15}]
 
-${NUM}. Files and Code Sections:
-   - [File Name ${NUM}]
+${EXPR_16}. Files and Code Sections:
+   - [File Name ${EXPR_17}]
       - [Summary of why this file is important]
       - [Important Code Snippet]
 
-${NUM}. Errors and fixes:
+${EXPR_18}. Errors and fixes:
     - [Error description]:
       - [How you fixed it]
 
-${NUM}. Problem Solving:
+${EXPR_19}. Problem Solving:
    [Description]
 
-${NUM}. All user messages:
+${EXPR_20}. All user messages:
     - [Detailed non tool use user message]
 
-${NUM}. Pending Tasks:
-   - [Task ${NUM}]
+${EXPR_21}. Pending Tasks:
+   - [Task ${EXPR_22}]
 
-${NUM}. Current Work:
+${EXPR_23}. Current Work:
    [Precise description of current work]
 
-${NUM}. Optional Next Step:
+${EXPR_24}. Optional Next Step:
    [Optional Next step to take]
 
-<${PATH}>
-<${PATH}>
+<${EXPR_25}>
+<${EXPR_26}>
 
 Please provide your summary based on the RECENT messages only (after the retained earlier context), following this structure and ensuring precision and thoroughness in your response.
