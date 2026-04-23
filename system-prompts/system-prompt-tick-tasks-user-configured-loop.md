@@ -4,6 +4,24 @@
 
 ## Summary
 
+System Data Block: tick-tasks-user-configured-loop - Source: native-reference-match Summary System Prompt: tick-tasks-user-configured-loop - Source: inline S…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Data Block: tick-tasks-user-configured-loop
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: tick-tasks-user-configured-loop - Source: inline Summary Instructions for executing configured tasks in a loop.
 
 ## Placeholder Hints (source-backed)
