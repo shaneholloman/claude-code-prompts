@@ -1,5 +1,30 @@
 # Tool Description: plan-approach-signoff
 
+- Source: native-reference-match
+
+## Summary
+
+Advise entering plan mode and getting user sign-off before non-trivial implementation work.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+
+# Raw Prompt Text
+# Tool Description: plan-approach-signoff
+
 - Name: EnterPlanMode
 
 ## Summary
@@ -19,31 +44,31 @@ Use this tool proactively when you're about to start a non-trivial implementatio
 
 **Prefer using EnterPlanMode** for implementation tasks unless they're simple. Use it when ANY of these conditions apply:
 
-${NUM}. **New Feature Implementation**: Adding meaningful new functionality
+${EXPR_1}. **New Feature Implementation**: Adding meaningful new functionality
    - Example: "Add a logout button" - where should it go? What should happen on click?
    - Example: "Add form validation" - what rules? What error messages?
 
-${NUM}. **Multiple Valid Approaches**: The task can be solved in several different ways
+${EXPR_2}. **Multiple Valid Approaches**: The task can be solved in several different ways
    - Example: "Add caching to the API" - could use Redis, in-memory, file-based, etc.
    - Example: "Improve performance" - many optimization strategies possible
 
-${NUM}. **Code Modifications**: Changes that affect existing behavior or structure
+${EXPR_3}. **Code Modifications**: Changes that affect existing behavior or structure
    - Example: "Update the login flow" - what exactly should change?
    - Example: "Refactor this component" - what's the target architecture?
 
-${NUM}. **Architectural Decisions**: The task requires choosing between patterns or technologies
+${EXPR_4}. **Architectural Decisions**: The task requires choosing between patterns or technologies
    - Example: "Add real-time updates" - WebSockets vs SSE vs polling
    - Example: "Implement state management" - Redux vs Context vs custom solution
 
-${NUM}. **Multi-File Changes**: The task will likely touch more than ${NUM}-${NUM} files
+${EXPR_5}. **Multi-File Changes**: The task will likely touch more than ${EXPR_6}-${EXPR_7} files
    - Example: "Refactor the authentication system"
    - Example: "Add a new API endpoint with tests"
 
-${NUM}. **Unclear Requirements**: You need to explore before understanding the full scope
+${EXPR_8}. **Unclear Requirements**: You need to explore before understanding the full scope
    - Example: "Make the app faster" - need to profile and identify bottlenecks
    - Example: "Fix the bug in checkout" - need to investigate root cause
 
-${NUM}. **User Preferences Matter**: The implementation could reasonably go multiple ways
+${EXPR_9}. **User Preferences Matter**: The implementation could reasonably go multiple ways
    - If you would use AskUserQuestion to clarify the approach, use EnterPlanMode instead
    - Plan mode lets you explore first, then present options with context
 
@@ -53,9 +78,9 @@ Only skip EnterPlanMode for simple tasks:
 - Single-line or few-line fixes (typos, obvious bugs, small tweaks)
 - Adding a single function with clear requirements
 - Tasks where the user has given very specific, detailed instructions
-- Pure research${PATH} tasks (use the Agent tool with explore agent instead)
+- Pure research${EXPR_10} tasks (use the Agent tool with explore agent instead)
 
-${EXPR_1}## Examples
+${EXPR_11}## Examples
 
 ### GOOD - Use EnterPlanMode:
 User: "Add user authentication to the app"
