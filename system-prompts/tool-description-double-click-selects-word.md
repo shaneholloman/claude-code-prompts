@@ -4,6 +4,21 @@
 
 ## Summary
 
+Selects a word by double-clicking at specified coordinates.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: double-click-selects-word
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: double-click-selects-word - Source: native-reference-match Summary Tool Description: triple-click-selects-line-… - Name: double_click Summa…
 
 ## Placeholder Hints (source-backed)
