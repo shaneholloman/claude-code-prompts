@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: authorized-security-rules - Source: native-reference-match Summary System Prompt: authorized-security-rules - Source: inline Summary Security…
+
+# Raw Prompt Text
+# System Prompt: authorized-security-rules
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: authorized-security-rules - Source: inline Summary Security assistance policy emphasizing authorization limits and no URL guessing.
 
 # Raw Prompt Text
