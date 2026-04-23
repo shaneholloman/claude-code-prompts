@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Prompt: async-launched-successfully - Source: native-reference-match Summary System Prompt: async-launched-successfully - Source: inline Summary Agent…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Prompt: async-launched-successfully
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: async-launched-successfully - Source: inline Summary Agent launched and running in the background.
 
 ## Placeholder Hints (source-backed)
