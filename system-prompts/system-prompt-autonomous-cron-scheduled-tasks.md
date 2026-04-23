@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Data Block: autonomous-cron-scheduled-tasks - Source: native-reference-match Summary System Prompt: autonomous-cron-scheduled-tasks - Source: inline S…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Data Block: autonomous-cron-scheduled-tasks
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: autonomous-cron-scheduled-tasks - Source: inline Summary Details on autonomous scheduled tasks and cron expressions.
 
 ## Placeholder Hints (source-backed)
