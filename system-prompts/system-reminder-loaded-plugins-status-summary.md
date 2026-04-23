@@ -4,6 +4,25 @@
 
 ## Summary
 
+System Reminder: loaded-plugins-status-summary - Source: native-reference-match Summary System Reminder: loaded-plugins-status-summary - Source: inline Summa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Reminder: loaded-plugins-status-summary
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: loaded-plugins-status-summary - Source: inline Summary Report loaded plugin status, listing enabled, disabled, commands, agents, and errors.
 
 ## Placeholder Hints (source-backed)
