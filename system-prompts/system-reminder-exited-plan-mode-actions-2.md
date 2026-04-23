@@ -1,5 +1,20 @@
 # System Reminder: exited-plan-mode-actions-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: exited-plan-mode-actions-… - Source: inline Summary You can now make edits and take actions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: exited-plan-mode-actions-${NUM}
+
 - Source: inline
 
 ## Summary
