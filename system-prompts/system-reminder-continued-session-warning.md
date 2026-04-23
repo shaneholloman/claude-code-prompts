@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: continued-session-warning - Source: native-reference-match Summary System Reminder: continued-session-warning - Source: inline Summary Warns…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: continued-session-warning
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: continued-session-warning - Source: inline Summary Warns session resumed on another machine and reports updated working directory path.
 
 ## Placeholder Hints (source-backed)
