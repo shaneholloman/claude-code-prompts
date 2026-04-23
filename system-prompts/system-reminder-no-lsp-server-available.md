@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Reminder: no-lsp-server-available - Source: native-reference-match Summary System Reminder: no-lsp-server-available - Source: inline Summary Warns no…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: no-lsp-server-available
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: no-lsp-server-available - Source: inline Summary Warns no LSP server supports the specified file type and operation.
 
 ## Placeholder Hints (source-backed)
