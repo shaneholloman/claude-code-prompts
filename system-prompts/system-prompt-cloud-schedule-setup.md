@@ -4,6 +4,30 @@
 
 ## Summary
 
+System Prompt: cloud-schedule-setup - Source: native-reference-match Summary Check conditions for cloud scheduling options.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+
+# Raw Prompt Text
+# System Prompt: cloud-schedule-setup
+
+- Source: native-reference-match
+
+## Summary
+
 Check conditions for cloud scheduling options.
 
 ## Placeholder Hints (source-backed)
