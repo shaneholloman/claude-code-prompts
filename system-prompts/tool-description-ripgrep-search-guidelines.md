@@ -1,5 +1,14 @@
 # Tool Description: ripgrep-search-guidelines
 
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for using the Grep search tool with regex, filters, and output modes.
+
+# Raw Prompt Text
+# Tool Description: ripgrep-search-guidelines
+
 - Name: Grep
 
 ## Summary
