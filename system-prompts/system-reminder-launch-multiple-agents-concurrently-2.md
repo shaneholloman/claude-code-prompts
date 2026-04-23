@@ -4,6 +4,22 @@
 
 ## Summary
 
+Send agents in one message for independent tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: launch-multiple-agents-concurrently-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: launch-multiple-agents-concurrently-… - Source: native-reference-match Summary System Reminder: launch-multiple-agents-concurrently-… - Sour…
 
 ## Placeholder Hints (source-backed)
@@ -13,7 +29,7 @@ System Reminder: launch-multiple-agents-concurrently-… - Source: native-refere
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-# System Reminder: launch-multiple-agents-concurrently-${NUM}
+# System Reminder: launch-multiple-agents-concurrently-${EXPR_1}
 
 - Source: native-reference-match
 
@@ -22,7 +38,7 @@ System Reminder: launch-multiple-agents-concurrently-… - Source: native-refere
 System Reminder: launch-multiple-agents-concurrently-… - Source: inline Summary Send agents in one message for independent tasks.
 
 # Raw Prompt Text
-# System Reminder: launch-multiple-agents-concurrently-${EXPR_1}
+# System Reminder: launch-multiple-agents-concurrently-${EXPR_2}
 
 - Source: inline
 
