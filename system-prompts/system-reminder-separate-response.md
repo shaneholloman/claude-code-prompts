@@ -1,5 +1,21 @@
 # System Reminder: separate-response
 
+- Source: native-reference-match
+
+## Summary
+
+Answer a user question in a single response.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: separate-response
+
 - Source: inline
 
 ## Summary
@@ -28,6 +44,6 @@ CRITICAL CONSTRAINTS:
 - NEVER say things like "Let me try...", "I'll now...", "Let me check...", or promise to take any action
 - If you don't know the answer, say so - do not offer to look it up or investigate
 
-Simply answer the question with the information you have.<${PATH}>
+Simply answer the question with the information you have.<${EXPR_1}>
 
-${EXPR_1}
+${EXPR_2}
