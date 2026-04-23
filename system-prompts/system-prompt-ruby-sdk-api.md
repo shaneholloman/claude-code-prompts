@@ -4,6 +4,29 @@
 
 ## Summary
 
+System Data Block: ruby-sdk-api - Source: native-reference-match Summary Guide for using Claude API with Ruby SDK.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+
+# Raw Prompt Text
+# System Data Block: ruby-sdk-api
+
+- Source: native-reference-match
+
+## Summary
+
 Guide for using Claude API with Ruby SDK.
 
 ## Placeholder Hints (source-backed)
