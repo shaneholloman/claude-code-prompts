@@ -1,5 +1,14 @@
 # System Reminder: enable-channels-for-org
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: enable-channels-for-org - Source: inline Summary Administrator needs to enable channels for the organization.
+
+# Raw Prompt Text
+# System Reminder: enable-channels-for-org
+
 - Source: inline
 
 ## Summary
