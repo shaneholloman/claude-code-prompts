@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 33
-- Options: 72
-- Env vars: 560
+- Commands: 34
+- Options: 78
+- Env vars: 563
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 95
+- Models: 96
 - Providers: 8
 
 ## Commands
@@ -44,6 +44,7 @@
 - `setup-token`
 - `show`
 - `status`
+- `tag`
 - `uninstall`
 - `update`
 - `validate`
@@ -82,6 +83,7 @@
 - `setup-token`
 - `show`
 - `status`
+- `tag [path]`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
@@ -116,6 +118,7 @@
 - `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
+- `--dry-run`
 - `--email`
 - `--env`
 - `--fallback-model`
@@ -132,12 +135,15 @@
 - `--keep-data`
 - `--mcp-config`
 - `--mcp-debug`
+- `--message`
 - `--model`
 - `--name`
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir`
 - `--print`
+- `--push`
+- `--remote`
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
 - `--resume`
@@ -158,7 +164,9 @@
 - `-c`
 - `-d`
 - `-e`
+- `-f`
 - `-H`
+- `-m`
 - `-n`
 - `-p`
 - `-r`
@@ -186,6 +194,7 @@
 - `--debug-file <path>`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
+- `--dry-run`
 - `--email <email>`
 - `--fallback-model <model>`
 - `--file <specs...>`
@@ -204,6 +213,8 @@
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir <path>`
+- `--push`
+- `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
 - `--scope <scope>`
@@ -222,7 +233,9 @@
 - `-d, --debug`
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
+- `-f, --force`
 - `-H, --header <header...>`
+- `-m, --message <msg>`
 - `-n, --name <name>`
 - `-p, --print`
 - `-r, --resume [value]`
@@ -334,6 +347,8 @@
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BG_BACKEND`
+- `CLAUDE_BRIDGE_REATTACH_SEQ`
+- `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BRIDGE_USE_CCR_V2`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
@@ -597,6 +612,7 @@
 - `DISABLE_PROMPT_CACHING_OPUS`
 - `DISABLE_PROMPT_CACHING_SONNET`
 - `DISABLE_TELEMETRY`
+- `DISABLE_UPDATES`
 - `DISABLE_UPGRADE_COMMAND`
 - `DO_NOT_TRACK`
 - `DYNO`
@@ -862,6 +878,7 @@ _None detected_
 - `claude-code-user`
 - `claude-context`
 - `claude-desktop`
+- `claude-desktop-3p`
 - `claude-dev`
 - `claude-empty-`
 - `claude-folder`
