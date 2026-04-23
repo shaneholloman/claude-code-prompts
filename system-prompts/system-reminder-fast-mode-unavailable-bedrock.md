@@ -1,5 +1,14 @@
 # System Reminder: fast-mode-unavailable-bedrock
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: fast-mode-unavailable-bedrock - Source: inline Summary Fast mode is not available on Bedrock.
+
+# Raw Prompt Text
+# System Reminder: fast-mode-unavailable-bedrock
+
 - Source: inline
 
 ## Summary
