@@ -1,5 +1,20 @@
 # System Reminder: active-style-guidelines
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: active-style-guidelines - Source: inline Summary Reminder that the active output style must be followed exactly for responses.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: active-style-guidelines
+
 - Source: inline
 
 ## Summary
