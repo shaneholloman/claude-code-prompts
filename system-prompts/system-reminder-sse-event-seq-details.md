@@ -4,6 +4,25 @@
 
 ## Summary
 
+System Reminder: sse-event-seq-details - Source: native-reference-match Summary System Reminder: sse-event-seq-details - Source: inline Summary Logs SSE even…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Reminder: sse-event-seq-details
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: sse-event-seq-details - Source: inline Summary Logs SSE event sequence, ids, types, and payload type with extra metadata.
 
 ## Placeholder Hints (source-backed)
