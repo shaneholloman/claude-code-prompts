@@ -1,5 +1,23 @@
 # System Reminder: mcp-config-invalid-json
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: mcp-config-invalid-json - Source: inline Summary Invalid JSON detected in MCP config.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: mcp-config-invalid-json
+
 - Source: inline
 
 ## Summary
