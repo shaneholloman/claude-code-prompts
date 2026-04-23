@@ -1,5 +1,14 @@
 # Tool Description: move-mouse-cursor-without-clicking
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: move-mouse-cursor-without-clicking - Name: mouse_move Summary Triggers hover states without mouse clicks.
+
+# Raw Prompt Text
+# Tool Description: move-mouse-cursor-without-clicking
+
 - Name: mouse_move
 
 ## Summary
