@@ -11,9 +11,25 @@ System Reminder: user-call-permission-… - Source: inline Summary User must app
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 # System Reminder: user-call-permission-attempt-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: user-call-permission-… - Source: inline Summary User must approve tool calls based on permission settings.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: user-call-permission-attempt-${EXPR_1}
 
 - Source: inline
 
@@ -28,7 +44,7 @@ User must approve tool calls based on permission settings.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
+${EXPR_2}
 
 All text you output outside of tool use is displayed to the user. Output text to communicate with the user. You can use Github-flavored markdown for formatting, and will be rendered in a monospace font using the CommonMark specification.
 
