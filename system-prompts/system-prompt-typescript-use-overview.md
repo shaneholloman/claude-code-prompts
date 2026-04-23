@@ -1,5 +1,43 @@
 # System Prompt: typescript-use-overview
 
+- Source: native-reference-match
+
+## Summary
+
+Overview of using tools in TypeScript with Zod schemas.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+
+# Raw Prompt Text
+# System Prompt: typescript-use-overview
+
 - Source: inline
 
 ## Summary
@@ -18,7 +56,7 @@ Overview of using tools in TypeScript with Zod schemas.
 # Raw Prompt Text
 # Tool Use — TypeScript
 
-For conceptual overview (tool definitions, tool choice, tips), see [shared${PATH}](..${PATH}).
+For conceptual overview (tool definitions, tool choice, tips), see [shared${EXPR_1}](..${EXPR_2}).
 
 ## Tool Runner (Recommended)
 
@@ -27,8 +65,8 @@ For conceptual overview (tool definitions, tool choice, tips), see [shared${PATH
 Use `betaZodTool` with Zod schemas to define tools with a `run` function, then pass them to `client.beta.messages.toolRunner()`:
 
 ```typescript
-import Anthropic from "@anthropic-ai${PATH}";
-import { betaZodTool } from "@anthropic-ai${PATH}";
+import Anthropic from "@anthropic-ai${EXPR_3}";
+import { betaZodTool } from "@anthropic-ai${EXPR_4}";
 import { z } from "zod";
 
 const client = new Anthropic();
@@ -42,14 +80,14 @@ const getWeather = betaZodTool({
   }),
   run: async (input) => {
     // Your implementation here
-    return `${NUM}°F and sunny in ${EXPR_1}`;
+    return `${EXPR_5}°F and sunny in ${EXPR_6}`;
   },
 });
 
 // The tool runner handles the agentic loop and returns the final message
 const finalMessage = await client.beta.messages.toolRunner({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_7},
   tools: [getWeather],
   messages: [{ role: "user", content: "What's the weather in Paris?" }],
 });
@@ -71,7 +109,7 @@ console.log(finalMessage.content);
 Use this when you need fine-grained control (custom logging, conditional tool execution, streaming individual iterations, human-in-the-loop approval):
 
 ```typescript
-import Anthropic from "@anthropic-ai${PATH}";
+import Anthropic from "@anthropic-ai${EXPR_8}";
 
 const client = new Anthropic();
 const tools: Anthropic.Tool[] = [...]; // Your tool definitions
@@ -80,7 +118,7 @@ let messages: Anthropic.MessageParam[] = [{ role: "user", content: userInput }];
 while (true) {
   const response = await client.messages.create({
     model: "{{OPUS_ID}}",
-    max_tokens: ${NUM},
+    max_tokens: ${EXPR_9},
     tools: tools,
     messages: messages,
   });
@@ -118,7 +156,7 @@ while (true) {
 Use `client.messages.stream()` + `finalMessage()` instead of `.create()` when you need streaming within a manual loop. Text deltas are streamed on each iteration; `finalMessage()` collects the complete `Message` so you can inspect `stop_reason` and extract tool-use blocks:
 
 ```typescript
-import Anthropic from "@anthropic-ai${PATH}";
+import Anthropic from "@anthropic-ai${EXPR_10}";
 
 const client = new Anthropic();
 const tools: Anthropic.Tool[] = [...];
@@ -127,7 +165,7 @@ let messages: Anthropic.MessageParam[] = [{ role: "user", content: userInput }];
 while (true) {
   const stream = client.messages.stream({
     model: "{{OPUS_ID}}",
-    max_tokens: ${NUM},
+    max_tokens: ${EXPR_11},
     tools,
     messages,
   });
@@ -169,9 +207,9 @@ while (true) {
 }
 ```
 
-> **Important:** Don't wrap `.on()` events in `new Promise()` to collect the final message — use `stream.finalMessage()` instead. The SDK handles all error${PATH} states internally.
+> **Important:** Don't wrap `.on()` events in `new Promise()` to collect the final message — use `stream.finalMessage()` instead. The SDK handles all error${EXPR_12} states internally.
 
-> **Error handling in the loop:** Use the SDK's typed exceptions (e.g., `Anthropic.RateLimitError`, `Anthropic.APIError`) — see [Error Handling](.${PATH}#error-handling) for examples. Don't check error messages with string matching.
+> **Error handling in the loop:** Use the SDK's typed exceptions (e.g., `Anthropic.RateLimitError`, `Anthropic.APIError`) — see [Error Handling](.${EXPR_13}#error-handling) for examples. Don't check error messages with string matching.
 
 > **SDK types:** Use `Anthropic.MessageParam`, `Anthropic.Tool`, `Anthropic.ToolUseBlock`, `Anthropic.ToolResultBlockParam`, `Anthropic.Message`, etc. for all API-related data structures. Don't redefine equivalent interfaces.
 
@@ -182,7 +220,7 @@ while (true) {
 ```typescript
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_14},
   tools: tools,
   messages: [{ role: "user", content: "What's the weather in Paris?" }],
 });
@@ -193,7 +231,7 @@ for (const block of response.content) {
 
     const followup = await client.messages.create({
       model: "{{OPUS_ID}}",
-      max_tokens: ${NUM},
+      max_tokens: ${EXPR_15},
       tools: tools,
       messages: [
         { role: "user", content: "What's the weather in Paris?" },
@@ -217,7 +255,7 @@ for (const block of response.content) {
 ```typescript
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_16},
   tools: tools,
   tool_choice: { type: "tool", name: "get_weather" },
   messages: [{ role: "user", content: "What's the weather in Paris?" }],
@@ -228,7 +266,7 @@ const response = await client.messages.create({
 
 ## Server-Side Tools
 
-Version-suffixed `type` literals; `name` is fixed per interface. Pass plain object literals — the `ToolUnion` type is satisfied structurally. **The `name`/`type` pair must match the interface**: mixing `str_replace_based_edit_tool` (${NUM} name) with `text_editor_20250124` (which expects `str_replace_editor`) is a TS2322.
+Version-suffixed `type` literals; `name` is fixed per interface. Pass plain object literals — the `ToolUnion` type is satisfied structurally. **The `name`/`type` pair must match the interface**: mixing `str_replace_based_edit_tool` (${EXPR_17} name) with `text_editor_20250124` (which expects `str_replace_editor`) is a TS2322.
 
 **Don't type-annotate as `Tool[]`** — `Tool` is just the custom-tool variant. Let structural typing infer from the `tools` param, or annotate as `Anthropic.Messages.ToolUnion[]` if you must:
 
@@ -236,7 +274,7 @@ Version-suffixed `type` literals; `name` is fixed per interface. Pass plain obje
 // ✓ let inference work — no annotation
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_18},
   tools: [
     { type: "text_editor_20250728", name: "str_replace_based_edit_tool" },
     { type: "bash_20250124", name: "bash" },
@@ -270,18 +308,18 @@ const response = await client.messages.create({
 ### Basic Usage
 
 ```typescript
-import Anthropic from "@anthropic-ai${PATH}";
+import Anthropic from "@anthropic-ai${EXPR_19}";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_20},
   messages: [
     {
       role: "user",
       content:
-        "Calculate the mean and standard deviation of [${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}]",
+        "Calculate the mean and standard deviation of [${EXPR_21}, ${EXPR_22}, ${EXPR_23}, ${EXPR_24}, ${EXPR_25}, ${EXPR_26}, ${EXPR_27}, ${EXPR_28}, ${EXPR_29}, ${EXPR_30}]",
     },
   ],
   tools: [{ type: "code_execution_20260120", name: "code_execution" }],
@@ -301,30 +339,30 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const pdfBytes = readFileSync(join(__dirname, "sample.pdf"));
 ```
 
-Or use a CWD-relative path if the script runs from a known directory: `readFileSync(".${PATH}")`.
+Or use a CWD-relative path if the script runs from a known directory: `readFileSync(".${EXPR_31}")`.
 
 ### Upload Files for Analysis
 
 ```typescript
-import Anthropic, { toFile } from "@anthropic-ai${PATH}";
+import Anthropic, { toFile } from "@anthropic-ai${EXPR_32}";
 import { createReadStream } from "fs";
 
 const client = new Anthropic();
 
-// ${NUM}. Upload a file
+// ${EXPR_33}. Upload a file
 const uploaded = await client.beta.files.upload({
   file: await toFile(createReadStream("sales_data.csv"), undefined, {
-    type: "text${PATH}",
+    type: "text${EXPR_34}",
   }),
-  betas: ["files-api-${DATE}"],
+  betas: ["files-api-${EXPR_35}"],
 });
 
-// ${NUM}. Pass to code execution
+// ${EXPR_36}. Pass to code execution
 // Code execution is GA; Files API is still beta (pass via RequestOptions)
 const response = await client.messages.create(
   {
     model: "{{OPUS_ID}}",
-    max_tokens: ${NUM},
+    max_tokens: ${EXPR_37},
     messages: [
       {
         role: "user",
@@ -339,7 +377,7 @@ const response = await client.messages.create(
     ],
     tools: [{ type: "code_execution_20260120", name: "code_execution" }],
   },
-  { headers: { "anthropic-beta": "files-api-${DATE}" } },
+  { headers: { "anthropic-beta": "files-api-${EXPR_38}" } },
 );
 ```
 
@@ -349,7 +387,7 @@ const response = await client.messages.create(
 import path from "path";
 import fs from "fs";
 
-const OUTPUT_DIR = ".${PATH}";
+const OUTPUT_DIR = ".${EXPR_39}";
 await fs.promises.mkdir(OUTPUT_DIR, { recursive: true });
 
 for (const block of response.content) {
@@ -365,12 +403,12 @@ for (const block of response.content) {
           const fileBytes = Buffer.from(await downloadResponse.arrayBuffer());
           const safeName = path.basename(metadata.filename);
           if (!safeName || safeName === "." || safeName === "..") {
-            console.warn(`Skipping invalid filename: ${EXPR_2}`);
+            console.warn(`Skipping invalid filename: ${EXPR_40}`);
             continue;
           }
           const outputPath = path.join(OUTPUT_DIR, safeName);
           await fs.promises.writeFile(outputPath, fileBytes);
-          console.log(`Saved: ${EXPR_3}`);
+          console.log(`Saved: ${EXPR_41}`);
         }
       }
     }
@@ -384,7 +422,7 @@ for (const block of response.content) {
 // First request: set up environment
 const response1 = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_42},
   messages: [
     {
       role: "user",
@@ -401,7 +439,7 @@ const containerId = response1.container!.id;
 const response2 = await client.messages.create({
   container: containerId,
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_43},
   messages: [
     {
       role: "user",
@@ -421,7 +459,7 @@ const response2 = await client.messages.create({
 ```typescript
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_44},
   messages: [
     {
       role: "user",
@@ -440,7 +478,7 @@ Use `betaMemoryTool` with a `MemoryToolHandlers` implementation:
 import {
   betaMemoryTool,
   type MemoryToolHandlers,
-} from "@anthropic-ai${PATH}";
+} from "@anthropic-ai${EXPR_45}";
 
 const handlers: MemoryToolHandlers = {
   async view(command) { ... },
@@ -455,7 +493,7 @@ const memory = betaMemoryTool(handlers);
 
 const runner = client.beta.messages.toolRunner({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_46},
   tools: [memory],
   messages: [{ role: "user", content: "Remember my preferences" }],
 });
@@ -467,7 +505,7 @@ for await (const message of runner) {
 
 For full implementation examples, use WebFetch:
 
-- `${URL}
+- `${EXPR_47}
 
 ---
 
@@ -476,9 +514,9 @@ For full implementation examples, use WebFetch:
 ### JSON Outputs (Zod — Recommended)
 
 ```typescript
-import Anthropic from "@anthropic-ai${PATH}";
+import Anthropic from "@anthropic-ai${EXPR_48}";
 import { z } from "zod";
-import { zodOutputFormat } from "@anthropic-ai${PATH}";
+import { zodOutputFormat } from "@anthropic-ai${EXPR_49}";
 
 const ContactInfoSchema = z.object({
   name: z.string(),
@@ -492,7 +530,7 @@ const client = new Anthropic();
 
 const response = await client.messages.parse({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_50},
   messages: [
     {
       role: "user",
@@ -514,11 +552,11 @@ console.log(response.parsed_output!.name); // "Jane Doe"
 ```typescript
 const response = await client.messages.create({
   model: "{{OPUS_ID}}",
-  max_tokens: ${NUM},
+  max_tokens: ${EXPR_51},
   messages: [
     {
       role: "user",
-      content: "Book a flight to Tokyo for ${NUM} passengers on March ${NUM}",
+      content: "Book a flight to Tokyo for ${EXPR_52} passengers on March ${EXPR_53}",
     },
   ],
   tools: [
@@ -533,7 +571,7 @@ const response = await client.messages.create({
           date: { type: "string", format: "date" },
           passengers: {
             type: "integer",
-            enum: [${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}, ${NUM}],
+            enum: [${EXPR_54}, ${EXPR_55}, ${EXPR_56}, ${EXPR_57}, ${EXPR_58}, ${EXPR_59}, ${EXPR_60}, ${EXPR_61}],
           },
         },
         required: ["destination", "date", "passengers"],
