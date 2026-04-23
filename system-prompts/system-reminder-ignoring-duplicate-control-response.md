@@ -1,5 +1,21 @@
 # System Reminder: ignoring-duplicate-control-response
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: ignoring-duplicate-control-response - Source: inline Summary Ignoring duplicate control response for resolved request.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: ignoring-duplicate-control-response
+
 - Source: inline
 
 ## Summary
