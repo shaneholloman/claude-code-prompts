@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Prompt: briefing-a-fresh - Source: native-reference-match Summary Guide a new agent with essential context.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Prompt: briefing-a-fresh
+
+- Source: native-reference-match
+
+## Summary
+
 Guide a new agent with essential context.
 
 ## Placeholder Hints (source-backed)
