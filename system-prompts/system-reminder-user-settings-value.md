@@ -17,6 +17,23 @@ Manage configuration settings for the user.
 # Raw Prompt Text
 # System Reminder: user-settings-value
 
+- Source: native-reference-match
+
+## Summary
+
+Manage configuration settings for the user.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: user-settings-value
+
 - Source: inline
 
 ## Summary
