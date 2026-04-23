@@ -4,7 +4,7 @@
 
 ## Summary
 
-System Prompt: api-go-integration - Source: native-reference-match Summary System Prompt: api-go-integration - Source: inline Summary Integrating Claude API…
+Integrating Claude API with Go SDK.
 
 ## Placeholder Hints (source-backed)
 
