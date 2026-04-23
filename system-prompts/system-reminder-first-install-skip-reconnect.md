@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: first-install-skip-reconnect - Source: native-reference-match Summary System Reminder: first-install-skip-reconnect - Source: inline Summary…
+
+# Raw Prompt Text
+# System Reminder: first-install-skip-reconnect
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: first-install-skip-reconnect - Source: inline Summary First-time install detected but extension missing so reconnect skipped.
 
 # Raw Prompt Text
