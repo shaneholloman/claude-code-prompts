@@ -1,5 +1,22 @@
 # System Prompt: install-github-app
 
+- Source: native-reference-match
+
+## Summary
+
+Explains adding a workflow to enable Claude Code via @claude mentions after merge.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: install-github-app
+
 - Source: inline
 
 ## Summary
@@ -13,7 +30,7 @@ This PR adds a GitHub Actions workflow that enables Claude Code integration in o
 
 ### What is Claude Code?
 
-[Claude Code](${URL}) is an AI coding agent that can help with:
+[Claude Code](${EXPR_1}) is an AI coding agent that can help with:
 - Bug fixes and improvements
 - Documentation updates
 - Implementing new features
@@ -38,13 +55,13 @@ Once the workflow is triggered, Claude will analyze the comment and surrounding 
 - Our Anthropic API key is securely stored as a GitHub Actions secret
 - Only users with write access to the repository can trigger the workflow
 - All Claude runs are stored in the GitHub Actions run history
-- Claude's default tools are limited to reading${PATH} files and interacting with our repo by creating comments, branches, and commits.
+- Claude's default tools are limited to reading${EXPR_2} files and interacting with our repo by creating comments, branches, and commits.
 - We can add more allowed tools by adding them to the workflow file like:
 
 ```
 allowed_tools: Bash(npm install),Bash(npm run build),Bash(npm run lint),Bash(npm run test)
 ```
 
-There's more information in the [Claude Code action repo](${URL}).
+There's more information in the [Claude Code action repo](${EXPR_3}).
 
 After merging this PR, let's try mentioning @claude in a comment on any PR to get started!
