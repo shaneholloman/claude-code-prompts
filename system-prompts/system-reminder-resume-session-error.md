@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: resume-session-error - Source: native-reference-match Summary System Reminder: resume-session-error - Source: inline Summary Invalid session…
+
+# Raw Prompt Text
+# System Reminder: resume-session-error
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: resume-session-error - Source: inline Summary Invalid session ID or title required for resuming.
 
 # Raw Prompt Text
