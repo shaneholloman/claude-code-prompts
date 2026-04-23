@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: sub-handing-back-control - Source: native-reference-match Summary System Prompt: sub-handing-back-control Summary Review sub-agent's work for…
+
+# Raw Prompt Text
+# System Prompt: sub-handing-back-control
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: sub-handing-back-control Summary Review sub-agent's work for any dangerous files.
 
 # Raw Prompt Text
