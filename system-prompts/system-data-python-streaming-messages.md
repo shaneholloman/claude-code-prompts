@@ -1,5 +1,36 @@
 # System Data Block: python-streaming-messages
 
+- Source: native-reference-match
+
+## Summary
+
+System Data Block: python-streaming-messages - Source: inline Summary Python streaming patterns for text streams and mixed content handling.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `OPUS_ID` | None | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+
+# Raw Prompt Text
+# System Data Block: python-streaming-messages
+
 - Source: inline
 
 ## Summary
@@ -20,7 +51,7 @@ Python streaming patterns for text streams and mixed content handling.
 ```python
 with client.messages.stream(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_1},
     messages=[{"role": "user", "content": "Write a story"}]
 ) as stream:
     for text in stream.text_stream:
@@ -32,7 +63,7 @@ with client.messages.stream(
 ```python
 async with async_client.messages.stream(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_2},
     messages=[{"role": "user", "content": "Write a story"}]
 ) as stream:
     async for text in stream.text_stream:
@@ -45,12 +76,12 @@ async with async_client.messages.stream(
 
 Claude may return text, thinking blocks, or tool use. Handle each appropriately:
 
-> **Opus ${NUM} / Opus ${NUM}:** Use `thinking: {type: "adaptive"}`. On older models, use `thinking: {type: "enabled", budget_tokens: N}` instead.
+> **Opus ${EXPR_3} / Opus ${EXPR_4}:** Use `thinking: {type: "adaptive"}`. On older models, use `thinking: {type: "enabled", budget_tokens: N}` instead.
 
 ```python
 with client.messages.stream(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_5},
     thinking={"type": "adaptive"},
     messages=[{"role": "user", "content": "Analyze this problem"}]
 ) as stream:
@@ -77,7 +108,7 @@ The Python tool runner currently returns complete messages. Use streaming for in
 ```python
 with client.messages.stream(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_6},
     tools=tools,
     messages=messages
 ) as stream:
@@ -95,7 +126,7 @@ with client.messages.stream(
 ```python
 with client.messages.stream(
     model="{{OPUS_ID}}",
-    max_tokens=${NUM},
+    max_tokens=${EXPR_7},
     messages=[{"role": "user", "content": "Hello"}]
 ) as stream:
     for text in stream.text_stream:
@@ -113,7 +144,7 @@ with client.messages.stream(
 ```python
 def stream_with_progress(client, **kwargs):
     """Stream a response with progress updates."""
-    total_tokens = ${NUM}
+    total_tokens = ${EXPR_8}
     content_parts = []
 
     with client.messages.stream(**kwargs) as stream:
@@ -142,7 +173,7 @@ def stream_with_progress(client, **kwargs):
 try:
     with client.messages.stream(
         model="{{OPUS_ID}}",
-        max_tokens=${NUM},
+        max_tokens=${EXPR_9},
         messages=[{"role": "user", "content": "Write a story"}]
     ) as stream:
         for text in stream.text_stream:
@@ -162,16 +193,16 @@ except anthropic.APIStatusError as e:
 | Event Type            | Description                 | When it fires                     |
 | --------------------- | --------------------------- | --------------------------------- |
 | `message_start`       | Contains message metadata   | Once at the beginning             |
-| `content_block_start` | New content block beginning | When a text${PATH} block starts |
-| `content_block_delta` | Incremental content update  | For each token${PATH}              |
+| `content_block_start` | New content block beginning | When a text${EXPR_10} block starts |
+| `content_block_delta` | Incremental content update  | For each token${EXPR_11}              |
 | `content_block_stop`  | Content block complete      | When a block finishes             |
 | `message_delta`       | Message-level updates       | Contains `stop_reason`, usage     |
 | `message_stop`        | Message complete            | Once at the end                   |
 
 ## Best Practices
 
-${NUM}. **Always flush output** — Use `flush=True` to show tokens immediately
-${NUM}. **Handle partial responses** — If the stream is interrupted, you may have incomplete content
-${NUM}. **Track token usage** — The `message_delta` event contains usage information
-${NUM}. **Use timeouts** — Set appropriate timeouts for your application
-${NUM}. **Default to streaming** — Use `.get_final_message()` to get the complete response even when streaming, giving you timeout protection without needing to handle individual events
+${EXPR_12}. **Always flush output** — Use `flush=True` to show tokens immediately
+${EXPR_13}. **Handle partial responses** — If the stream is interrupted, you may have incomplete content
+${EXPR_14}. **Track token usage** — The `message_delta` event contains usage information
+${EXPR_15}. **Use timeouts** — Set appropriate timeouts for your application
+${EXPR_16}. **Default to streaming** — Use `.get_final_message()` to get the complete response even when streaming, giving you timeout protection without needing to handle individual events
