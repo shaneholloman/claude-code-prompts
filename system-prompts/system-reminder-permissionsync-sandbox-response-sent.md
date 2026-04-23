@@ -1,5 +1,23 @@
 # System Reminder: permissionsync-sandbox-response-sent
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: permissionsync-sandbox-response-sent - Source: inline Summary PermissionSync mailbox sent sandbox permission response including host and all…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: permissionsync-sandbox-response-sent
+
 - Source: inline
 
 ## Summary
