@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: setmode-bypasspermissions-session-scoped - Source: native-reference-match Summary System Reminder: setmode-bypasspermissions-session-scoped…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: setmode-bypasspermissions-session-scoped
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: setmode-bypasspermissions-session-scoped - Source: inline Summary SetMode bypassPermissions is session-scoped.
 
 ## Placeholder Hints (source-backed)
