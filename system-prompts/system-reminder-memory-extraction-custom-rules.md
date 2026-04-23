@@ -4,6 +4,30 @@
 
 ## Summary
 
+System Reminder: memory-extraction-custom-rules - Source: native-reference-match Summary System Reminder: memory-extraction-custom-rules - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+
+# Raw Prompt Text
+# System Reminder: memory-extraction-custom-rules
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: memory-extraction-custom-rules - Source: inline Summary Update persistent memory with recent messages.
 
 ## Placeholder Hints (source-backed)
