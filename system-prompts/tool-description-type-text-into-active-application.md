@@ -4,6 +4,15 @@
 
 ## Summary
 
+Tool Description: type-text-into-active-application - Source: native-reference-match Summary Tool Description: type-text-into-active-application - Name: type…
+
+# Raw Prompt Text
+# Tool Description: type-text-into-active-application
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: type-text-into-active-application - Name: type Summary Types text into the focused application.
 
 # Raw Prompt Text
