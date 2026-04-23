@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: compaction-detected - Source: native-reference-match Summary System Reminder: bridge-repl-compaction-detected - Source: inline Summary Compa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: compaction-detected
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: bridge-repl-compaction-detected - Source: inline Summary Compaction detected with last written index exceeding limit.
 
 ## Placeholder Hints (source-backed)
