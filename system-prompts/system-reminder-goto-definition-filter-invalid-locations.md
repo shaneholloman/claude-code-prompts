@@ -1,5 +1,20 @@
 # System Reminder: goto-definition-filter-invalid-locations
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: goto-definition-filter-invalid-locations - Source: inline Summary Filters out invalid go-to-definition locations during result formatting, e…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: goto-definition-filter-invalid-locations
+
 - Source: inline
 
 ## Summary
