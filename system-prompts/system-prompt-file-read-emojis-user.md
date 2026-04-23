@@ -1,5 +1,14 @@
 # System Prompt: file-read-emojis-user
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: file-read-emojis-user - Source: inline Summary Use emojis only when requested by the user.
+
+# Raw Prompt Text
+# System Prompt: file-read-emojis-user
+
 - Source: inline
 
 ## Summary
