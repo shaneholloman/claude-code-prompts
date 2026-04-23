@@ -4,6 +4,15 @@
 
 ## Summary
 
+Always run commands within the sandbox.
+
+# Raw Prompt Text
+# Tool Description: bash-sandbox-default-to-sandbox
+
+- Source: native-reference-match
+
+## Summary
+
 You should always default to running commands within the sandbox.
 
 # Raw Prompt Text
