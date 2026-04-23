@@ -1,3 +1,23 @@
+# Tool Description: update-task-status-details
+
+- Source: native-reference-match
+
+## Summary
+
+Guidance for updating task status and details.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
 # Tool Description: update-task-status-guidance
 
 - Name: TaskUpdate
@@ -59,25 +79,25 @@ Make sure to read a task's latest state using `TaskGet` before updating it.
 
 Mark task as in progress when starting work:
 ```json
-{"taskId": "${NUM}", "status": "in_progress"}
+{"taskId": "${EXPR_1}", "status": "in_progress"}
 ```
 
 Mark task as completed after finishing work:
 ```json
-{"taskId": "${NUM}", "status": "completed"}
+{"taskId": "${EXPR_2}", "status": "completed"}
 ```
 
 Delete a task:
 ```json
-{"taskId": "${NUM}", "status": "deleted"}
+{"taskId": "${EXPR_3}", "status": "deleted"}
 ```
 
 Claim a task by setting owner:
 ```json
-{"taskId": "${NUM}", "owner": "my-name"}
+{"taskId": "${EXPR_4}", "owner": "my-name"}
 ```
 
 Set up task dependencies:
 ```json
-{"taskId": "${NUM}", "addBlockedBy": ["${NUM}"]}
+{"taskId": "${EXPR_5}", "addBlockedBy": ["${EXPR_6}"]}
 ```
