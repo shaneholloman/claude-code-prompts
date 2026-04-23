@@ -1,5 +1,14 @@
 # System Reminder: exited-auto-mode-user-interaction
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: exited-auto-mode-user-interaction - Source: inline Summary User can now engage directly with clarifying questions.
+
+# Raw Prompt Text
+# System Reminder: exited-auto-mode-user-interaction
+
 - Source: inline
 
 ## Summary
