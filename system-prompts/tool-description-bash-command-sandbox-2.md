@@ -4,6 +4,26 @@
 
 ## Summary
 
+Tool Description: bash-command-sandbox-… - Source: native-reference-match Summary Tool Description: bash-command-sandbox-… - Name: Bash Summary Executes bash…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# Tool Description: bash-command-sandbox-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: bash-command-sandbox-… - Name: Bash Summary Executes bash commands in a controlled environment.
 
 ## Placeholder Hints (source-backed)
@@ -17,7 +37,7 @@ Tool Description: bash-command-sandbox-… - Name: Bash Summary Executes bash co
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-# Tool Description: bash-command-sandbox-${NUM}
+# Tool Description: bash-command-sandbox-${EXPR_1}
 
 - Name: Bash
 
@@ -38,13 +58,13 @@ Executes bash commands in a controlled environment.
 # Raw Prompt Text
 Executes a given bash command and returns its output.
 The working directory persists between commands, but shell state does not. The shell environment is initialized from the user's profile (bash or zsh).
-IMPORTANT: Avoid using this tool to run ${EXPR_1} commands, unless explicitly instructed or after you have verified that a dedicated tool cannot accomplish your task. Instead, use the appropriate dedicated tool as this will provide a much better experience for the user:
+IMPORTANT: Avoid using this tool to run ${EXPR_2} commands, unless explicitly instructed or after you have verified that a dedicated tool cannot accomplish your task. Instead, use the appropriate dedicated tool as this will provide a much better experience for the user:
 While the Bash tool can do similar things, it’s better to use the built-in tools as they provide a better user experience and make it easier to review tool calls and give permission.
 # Instructions
 ## Command sandbox
 By default, your command will be run in a sandbox. This sandbox controls which directories and network hosts commands may access or modify without an explicit override.
 The sandbox has the following restrictions:
-${EXPR_2}
 ${EXPR_3}
 ${EXPR_4}
 ${EXPR_5}
+${EXPR_6}
