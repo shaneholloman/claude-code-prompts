@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: created-opened-editor - Source: native-reference-match Summary System Reminder: created-opened-editor - Source: inline Summary Confirm agent…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: created-opened-editor
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: created-opened-editor - Source: inline Summary Confirm agent was created and opened in editor, restart to load edits.
 
 ## Placeholder Hints (source-backed)
