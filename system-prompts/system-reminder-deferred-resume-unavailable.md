@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: deferred-resume-unavailable - Source: native-reference-match Summary System Reminder: deferred-resume-unavailable - Source: inline Summary T…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: deferred-resume-unavailable
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: deferred-resume-unavailable - Source: inline Summary Tool is no longer available due to disconnection.
 
 ## Placeholder Hints (source-backed)
