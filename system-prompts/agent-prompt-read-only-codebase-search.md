@@ -4,6 +4,25 @@
 
 ## Summary
 
+Fast exploration of codebases without modifications.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: read-only-codebase-search
+
+- Source: native-reference-match
+
+## Summary
+
 Agent Prompt: read-only-codebase-search - Source: native-reference-match Summary Agent Prompt: read-only-codebase-search - Agent Type: Explore - When to use:…
 
 ## Placeholder Hints (source-backed)
