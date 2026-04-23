@@ -4,6 +4,22 @@
 
 ## Summary
 
+Tool Description: delete-team-task-directories - Source: native-reference-match Summary Removes team and task directories and clears session context after te…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# Tool Description: delete-team-task-directories
+
+- Source: native-reference-match
+
+## Summary
+
 Removes team and task directories and clears session context after teammates shut down.
 
 ## Placeholder Hints (source-backed)
