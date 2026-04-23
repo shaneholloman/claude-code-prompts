@@ -13,6 +13,15 @@ System Reminder: stop-and-wait-user - Source: native-reference-match Summary Sys
 
 ## Summary
 
+System Reminder: stop-and-wait-user - Source: native-reference-match Summary System Reminder: stop-and-wait-user - Source: inline Summary Instructs to stop t…
+
+# Raw Prompt Text
+# System Reminder: stop-and-wait-user
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: stop-and-wait-user - Source: inline Summary Instructs to stop the current action and wait for user direction.
 
 # Raw Prompt Text
