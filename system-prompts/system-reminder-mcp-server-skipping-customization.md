@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: mcp-server-skipping-customization - Source: native-reference-match Summary System Reminder: mcp-server-skipping-customization - Source: inli…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: mcp-server-skipping-customization
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: mcp-server-skipping-customization - Source: inline Summary Skipping MCP servers due to strict plugin-only settings.
 
 ## Placeholder Hints (source-backed)
