@@ -1,5 +1,43 @@
 # System Prompt: managed-agents-events-steering
 
+- Source: native-reference-match
+
+## Summary
+
+Overview of sending and receiving events in sessions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# System Prompt: managed-agents-events-steering
+
 - Source: inline
 
 ## Summary
@@ -13,27 +51,27 @@ Overview of sending and receiving events in sessions.
 
 ### Sending Events
 
-Send events to a session via `POST ${PATH}{id}${PATH}`.
+Send events to a session via `POST ${EXPR_1}{id}${EXPR_2}`.
 
 | Event Type                | When to Send                                        |
 | ------------------------- | --------------------------------------------------- |
 | `user.message`            | Send a user message |
 | `user.interrupt`          | Interrupt the agent while it's running |
-| `user.tool_confirmation`  | Approve${PATH} a tool call (when `always_ask` policy) |
+| `user.tool_confirmation`  | Approve${EXPR_3} a tool call (when `always_ask` policy) |
 | `user.custom_tool_result` | Provide result for a custom tool call |
 
 ### Receiving Events
 
 Two methods:
 
-${NUM}. **Streaming (SSE)**: `GET ${PATH}{id}${PATH}` — real-time Server-Sent Events. **Long-lived** — the server sends periodic heartbeats to keep the connection alive.
-${NUM}. **Polling**: `GET ${PATH}{id}${PATH}` — paginated event list (query params: `limit` default ${NUM}, `page`). **Returns immediately** — this is a plain paginated GET, not a long-poll.
+${EXPR_4}. **Streaming (SSE)**: `GET ${EXPR_5}{id}${EXPR_6}` — real-time Server-Sent Events. **Long-lived** — the server sends periodic heartbeats to keep the connection alive.
+${EXPR_7}. **Polling**: `GET ${EXPR_8}{id}${EXPR_9}` — paginated event list (query params: `limit` default ${EXPR_10}, `page`). **Returns immediately** — this is a plain paginated GET, not a long-poll.
 
-All received events carry `id`, `type`, and `processed_at` (ISO ${NUM}; `null` if not yet processed by the agent).
+All received events carry `id`, `type`, and `processed_at` (ISO ${EXPR_11}; `null` if not yet processed by the agent).
 
-> ⚠️ **Robust polling (raw HTTP).** If you bypass the SDK and roll your own poll loop, don't rely on `requests` or `httpx` timeouts as wall-clock caps — they're **per-chunk** read timeouts, reset every time a byte arrives. A trickling response (heartbeats, a wedged chunked-encoding body, a misbehaving proxy) can keep the call blocked indefinitely even with `timeout=(${NUM}, ${NUM})` or `httpx.Timeout(${NUM})`. Neither library has a "total wall-clock" timeout built in. For a hard deadline: track `time.monotonic()` at the loop level and break${PATH} if a single request exceeds your budget (e.g. via a watchdog thread, or `asyncio.wait_for()` around async httpx). **Prefer the SDK** — `client.beta.sessions.events.stream()` and `client.beta.sessions.events.list()` handle timeout + retry sanely.
+> ⚠️ **Robust polling (raw HTTP).** If you bypass the SDK and roll your own poll loop, don't rely on `requests` or `httpx` timeouts as wall-clock caps — they're **per-chunk** read timeouts, reset every time a byte arrives. A trickling response (heartbeats, a wedged chunked-encoding body, a misbehaving proxy) can keep the call blocked indefinitely even with `timeout=(${EXPR_12}, ${EXPR_13})` or `httpx.Timeout(${EXPR_14})`. Neither library has a "total wall-clock" timeout built in. For a hard deadline: track `time.monotonic()` at the loop level and break${EXPR_15} if a single request exceeds your budget (e.g. via a watchdog thread, or `asyncio.wait_for()` around async httpx). **Prefer the SDK** — `client.beta.sessions.events.stream()` and `client.beta.sessions.events.list()` handle timeout + retry sanely.
 >
-> If `GET ${PATH}{id}${PATH}` (paginated) ever hangs after headers, you've likely hit `GET ${PATH}{id}${PATH}` by mistake or a server-side stall — report it; don't treat it as a client-config problem.
+> If `GET ${EXPR_16}{id}${EXPR_17}` (paginated) ever hangs after headers, you've likely hit `GET ${EXPR_18}{id}${EXPR_19}` by mistake or a server-side stall — report it; don't treat it as a client-config problem.
 
 ### Event Types (Received)
 
@@ -81,7 +119,7 @@ await sendMessage(sessionId, text);
 const response = await streamEvents(sessionId);
 ```
 
-**For full history,** use `GET ${PATH}{id}${PATH}` (paginated list) — the stream only gives you live events from connection onward.
+**For full history,** use `GET ${EXPR_20}{id}${EXPR_21}` (paginated list) — the stream only gives you live events from connection onward.
 
 ### Reconnecting after a dropped stream
 
@@ -91,15 +129,15 @@ const response = await streamEvents(sessionId);
 
 ```python
 def connect_with_consolidation(client, session_id):
-    # ${NUM}. Open the SSE stream first
+    # ${EXPR_22}. Open the SSE stream first
     stream = client.beta.sessions.events.stream(session_id=session_id)
 
-    # ${NUM}. Fetch history to cover any gap
+    # ${EXPR_23}. Fetch history to cover any gap
     history = client.beta.sessions.events.list(
         session_id=session_id,
     )
 
-    # ${NUM}. Yield history first, then stream — dedupe by event.id
+    # ${EXPR_24}. Yield history first, then stream — dedupe by event.id
     seen = set()
     for ev in history.data:
         seen.add(ev.id)
@@ -146,7 +184,7 @@ some events carry useful metadata beyond the status change itself:
 ```json
 {
   "id": "sevt_456",
-  "processed_at": "${TIMESTAMP}",
+  "processed_at": "${EXPR_25}",
   "stop_reason": {
     "event_ids": [
       "sevt_123"
@@ -166,12 +204,12 @@ some events carry useful metadata beyond the status change itself:
   "is_error": false,
   "model_request_start_id": "sevt_123",
   "model_usage": {
-    "cache_creation_input_tokens": ${NUM},
-    "cache_read_input_tokens": ${NUM},
-    "input_tokens": ${NUM},
-    "output_tokens": ${NUM}
+    "cache_creation_input_tokens": ${EXPR_26},
+    "cache_read_input_tokens": ${EXPR_27},
+    "input_tokens": ${EXPR_28},
+    "output_tokens": ${EXPR_29}
   },
-  "processed_at": "${TIMESTAMP}"
+  "processed_at": "${EXPR_30}"
 }
 ```
 
@@ -180,7 +218,7 @@ some events carry useful metadata beyond the status change itself:
 ```json
 {
   "id": "sevt_abc123",
-  "processed_at": "${TIMESTAMP}",
+  "processed_at": "${EXPR_31}",
   "type": "agent.thread_context_compacted"
 }
 ```
@@ -193,4 +231,4 @@ When done with a session, archive it to free resources:
 await client.beta.sessions.archive(sessionId);
 ```
 
-> Archiving a **session** is routine cleanup — sessions are per-run and disposable. **Do not generalize this to agents or environments**: those are persistent, reusable resources, and archiving them is permanent (no unarchive; new sessions cannot reference them). See `shared${PATH}` → Common Pitfalls.
+> Archiving a **session** is routine cleanup — sessions are per-run and disposable. **Do not generalize this to agents or environments**: those are persistent, reusable resources, and archiving them is permanent (no unarchive; new sessions cannot reference them). See `shared${EXPR_32}` → Common Pitfalls.
