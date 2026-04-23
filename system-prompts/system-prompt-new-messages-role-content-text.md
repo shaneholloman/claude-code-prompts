@@ -1,5 +1,40 @@
 # System Prompt: new-messages-role-content-text
 
+- Source: native-reference-match
+
+## Summary
+
+Overview of using the Claude API for message handling.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+
+# Raw Prompt Text
+# System Prompt: new-messages-role-content-text
+
 - Source: inline
 
 ## Summary
@@ -41,7 +76,7 @@ using Anthropic.Models.Messages;
 var parameters = new MessageCreateParams
 {
     Model = Model.ClaudeOpus4_6,
-    MaxTokens = ${NUM},
+    MaxTokens = ${EXPR_1},
     Messages = [new() { Role = Role.User, Content = "What is the capital of France?" }]
 };
 var response = await client.Messages.Create(parameters);
@@ -65,7 +100,7 @@ using Anthropic.Models.Messages;
 var parameters = new MessageCreateParams
 {
     Model = Model.ClaudeOpus4_6,
-    MaxTokens = ${NUM},
+    MaxTokens = ${EXPR_2},
     Messages = [new() { Role = Role.User, Content = "Write a haiku" }]
 };
 
@@ -85,7 +120,7 @@ await foreach (RawMessageStreamEvent streamEvent in client.Messages.CreateStream
 
 ## Thinking
 
-**Adaptive thinking is the recommended mode for Claude ${NUM}+ models.** Claude decides dynamically when and how much to think.
+**Adaptive thinking is the recommended mode for Claude ${EXPR_3}+ models.** Claude decides dynamically when and how much to think.
 
 ```csharp
 using Anthropic.Models.Messages;
@@ -93,13 +128,13 @@ using Anthropic.Models.Messages;
 var response = await client.Messages.Create(new MessageCreateParams
 {
     Model = Model.ClaudeOpus4_6,
-    MaxTokens = ${NUM},
+    MaxTokens = ${EXPR_4},
     // ThinkingConfigParam? implicitly converts from the concrete variant classes —
     // no wrapper needed.
     Thinking = new ThinkingConfigAdaptive(),
     Messages =
     [
-        new() { Role = Role.User, Content = "Solve: ${NUM} * ${NUM}" },
+        new() { Role = Role.User, Content = "Solve: ${EXPR_5} * ${EXPR_6}" },
     ],
 });
 
@@ -117,7 +152,7 @@ foreach (var block in response.Content)
 }
 ```
 
-> **Deprecated:** `new ThinkingConfigEnabled { BudgetTokens = N }` (fixed-budget extended thinking) still works on Claude ${NUM} but is deprecated. Use adaptive thinking above.
+> **Deprecated:** `new ThinkingConfigEnabled { BudgetTokens = N }` (fixed-budget extended thinking) still works on Claude ${EXPR_7} but is deprecated. Use adaptive thinking above.
 
 Alternative to `TryPick*`: `.Select(b => b.Value).OfType<ThinkingBlock>()` (same LINQ pattern as the Basic Message example).
 
@@ -136,7 +171,7 @@ using Anthropic.Models.Messages;
 var parameters = new MessageCreateParams
 {
     Model = Model.ClaudeSonnet4_6,
-    MaxTokens = ${NUM},
+    MaxTokens = ${EXPR_8},
     Tools = [
         new Tool {
             Name = "get_weather",
@@ -154,9 +189,9 @@ var parameters = new MessageCreateParams
 };
 ```
 
-Derived from `anthropic-sdk-csharp${PATH}` and `ToolUnion.cs:${NUM}` (implicit conversion).
+Derived from `anthropic-sdk-csharp${EXPR_9}` and `ToolUnion.cs:${EXPR_10}` (implicit conversion).
 
-See [shared tool use concepts](..${PATH}) for the loop pattern.
+See [shared tool use concepts](..${EXPR_11}) for the loop pattern.
 ### Converting response content to the follow-up assistant message
 
 When echoing Claude's response back in the assistant turn, **there is no `.ToParam()` helper** — manually reconstruct each `ContentBlock` variant as its `*Param` counterpart. Do NOT use `new ContentBlockParam(block.Json)`: it compiles and serializes, but `.Value` stays `null` so `TryPick*`/`Validate()` fail (degraded JSON pass-through, not the typed path).
@@ -224,7 +259,7 @@ List<MessageParam> followUpMessages =
 
 ## Context Editing / Compaction (Beta)
 
-**Beta-namespace prefix is inconsistent** (source-verified against `src${PATH}*.cs` @ ${NUM}.${NUM}). No prefix: `MessageCreateParams`, `MessageCountTokensParams`, `Role`. **Everything else has the `Beta` prefix**: `BetaMessageParam`, `BetaMessage`, `BetaContentBlock`, `BetaToolUseBlock`, all block param types. The unprefixed `Role` WILL collide with `Anthropic.Models.Messages.Role` if you import both namespaces (CS0104). Safest: import only Beta; if mixing, alias the beta `Role`:
+**Beta-namespace prefix is inconsistent** (source-verified against `src${EXPR_12}*.cs` @ ${EXPR_13}.${EXPR_14}). No prefix: `MessageCreateParams`, `MessageCountTokensParams`, `Role`. **Everything else has the `Beta` prefix**: `BetaMessageParam`, `BetaMessage`, `BetaContentBlock`, `BetaToolUseBlock`, all block param types. The unprefixed `Role` WILL collide with `Anthropic.Models.Messages.Role` if you import both namespaces (CS0104). Safest: import only Beta; if mixing, alias the beta `Role`:
 
 ```csharp
 using Anthropic.Models.Beta.Messages;
@@ -233,16 +268,16 @@ using NonBeta = Anthropic.Models.Messages;  // only if you also need non-beta ty
 ```
 
 
-`BetaMessage.Content` is `IReadOnlyList<BetaContentBlock>` — a ${NUM}-variant discriminated union. Narrow with `TryPick*`. **Response `BetaContentBlock` is NOT assignable to param `BetaContentBlockParam`** — there's no `.ToParam()` in C#. Round-trip by converting each block:
+`BetaMessage.Content` is `IReadOnlyList<BetaContentBlock>` — a ${EXPR_15}-variant discriminated union. Narrow with `TryPick*`. **Response `BetaContentBlock` is NOT assignable to param `BetaContentBlockParam`** — there's no `.ToParam()` in C#. Round-trip by converting each block:
 
 ```csharp
 using Anthropic.Models.Beta.Messages;
 
-var betaParams = new MessageCreateParams   // no Beta prefix — one of only ${NUM} unprefixed
+var betaParams = new MessageCreateParams   // no Beta prefix — one of only ${EXPR_16} unprefixed
 {
     Model = Model.ClaudeOpus4_6,
-    MaxTokens = ${NUM},
-    Betas = ["compact-${DATE}"],
+    MaxTokens = ${EXPR_17},
+    Betas = ["compact-${EXPR_18}"],
     ContextManagement = new BetaContextManagementConfig
     {
         Edits = [new BetaCompact20260112Edit()],
@@ -280,7 +315,7 @@ foreach (var b in resp.Content)
 messages.Add(new BetaMessageParam { Role = Role.Assistant, Content = paramBlocks });
 ```
 
-All ${NUM} `BetaContentBlock.TryPick*` variants: `Text`, `Thinking`, `RedactedThinking`, `ToolUse`, `ServerToolUse`, `WebSearchToolResult`, `WebFetchToolResult`, `CodeExecutionToolResult`, `BashCodeExecutionToolResult`, `TextEditorCodeExecutionToolResult`, `ToolSearchToolResult`, `McpToolUse`, `McpToolResult`, `ContainerUpload`, `Compaction`.
+All ${EXPR_19} `BetaContentBlock.TryPick*` variants: `Text`, `Thinking`, `RedactedThinking`, `ToolUse`, `ServerToolUse`, `WebSearchToolResult`, `WebFetchToolResult`, `CodeExecutionToolResult`, `BashCodeExecutionToolResult`, `TextEditorCodeExecutionToolResult`, `ToolSearchToolResult`, `McpToolUse`, `McpToolResult`, `ContainerUpload`, `Compaction`.
 
 **`BetaToolUseBlock.Input` is `IReadOnlyDictionary<string, JsonElement>`** — index by key then call the `JsonElement` extractor:
 
@@ -308,7 +343,7 @@ Values: `Effort.Low`, `Effort.Medium`, `Effort.High`, `Effort.Max`. Combine with
 
 ## Prompt Caching
 
-`System` takes `MessageCreateParamsSystem?` — a union of `string` or `List<TextBlockParam>`. There is no `SystemTextBlockParam`; use plain `TextBlockParam`. The implicit conversion needs the concrete `List<TextBlockParam>` type (array literals won't convert). For placement patterns and the silent-invalidator audit checklist, see `shared${PATH}`.
+`System` takes `MessageCreateParamsSystem?` — a union of `string` or `List<TextBlockParam>`. There is no `SystemTextBlockParam`; use plain `TextBlockParam`. The implicit conversion needs the concrete `List<TextBlockParam>` type (array literals won't convert). For placement patterns and the silent-invalidator audit checklist, see `shared${EXPR_20}`.
 
 ```csharp
 System = new List<TextBlockParam> {
@@ -360,7 +395,7 @@ OutputConfig = new OutputConfig {
 
 ## PDF / Document Input
 
-`DocumentBlockParam` takes a `DocumentBlockParamSource` union: `Base64PdfSource` / `UrlPdfSource` / `PlainTextSource` / `ContentBlockSource`. `Base64PdfSource` auto-sets `MediaType = "application${PATH}"` and `Type = "base64"`.
+`DocumentBlockParam` takes a `DocumentBlockParamSource` union: `Base64PdfSource` / `UrlPdfSource` / `PlainTextSource` / `ContentBlockSource`. `Base64PdfSource` auto-sets `MediaType = "application${EXPR_21}"` and `Type = "base64"`.
 
 ```csharp
 new MessageParam {
