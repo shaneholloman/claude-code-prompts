@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: stop-after-rejection - Source: native-reference-match Summary System Prompt: stop-after-rejection - Source: inline Summary Stops work when the…
+
+# Raw Prompt Text
+# System Prompt: stop-after-rejection
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: stop-after-rejection - Source: inline Summary Stops work when the user rejects a tool action and waits for guidance.
 
 # Raw Prompt Text
