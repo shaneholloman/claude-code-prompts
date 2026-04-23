@@ -1,5 +1,14 @@
 # System Prompt: server-instance-not-wired
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: server-instance-not-wired Summary Computer server instance lacks session connection.
+
+# Raw Prompt Text
+# System Prompt: server-instance-not-wired
+
 
 ## Summary
 
