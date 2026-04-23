@@ -1,3 +1,18 @@
+# Tool Description: writes-file-local-filesystem
+
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: bb8e496f - Source: native-prompt-markdown-tool Summary Writes a file to the local filesystem.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
 # Tool Description: bb8e496f
 
 - Source: native-prompt-markdown-tool
@@ -16,7 +31,7 @@ Usage:
 - NEVER create documentation files (*.md) or README files unless explicitly requested by the User.
 - Only use emojis if the user explicitly requests it. Avoid writing emojis to files unless asked.
 {
-  "$schema": "${URL}
+  "$schema": "${EXPR_1}
   "type": "object",
   "properties": {
     "file_path": {
