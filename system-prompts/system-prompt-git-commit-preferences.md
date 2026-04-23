@@ -1,3 +1,12 @@
+# System Data Block: git-commit-preferences
+
+- Source: native-reference-match
+
+## Summary
+
+Prefer new commits over amending existing ones.
+
+# Raw Prompt Text
 # System Prompt: git-commit-preferences
 
 - Source: native-reference-match
