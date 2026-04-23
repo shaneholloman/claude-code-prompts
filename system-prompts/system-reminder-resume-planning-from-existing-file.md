@@ -4,6 +4,26 @@
 
 ## Summary
 
+System Reminder: resume-planning-from-existing-file - Source: native-reference-match Summary System Reminder: resume-planning-from-existing-file - Source: in…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# System Reminder: resume-planning-from-existing-file
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: resume-planning-from-existing-file - Source: inline Summary Review prior plan at EXPR_1, reconcile with new request, then update or overwrit…
 
 ## Placeholder Hints (source-backed)
