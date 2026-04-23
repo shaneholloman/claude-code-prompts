@@ -1,5 +1,14 @@
 # System Reminder: heads-up-user-call-permission
 
+- Source: native-reference-match
+
+## Summary
+
+User must approve denied tool calls.
+
+# Raw Prompt Text
+# System Reminder: heads-up-user-call-permission
+
 - Source: inline
 
 ## Summary
