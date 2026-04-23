@@ -27,6 +27,29 @@ System Prompt: branch-ship-readiness-audit - Source: native-reference-match Summ
 
 ## Summary
 
+System Prompt: branch-ship-readiness-audit - Source: native-reference-match Summary Audit remaining tasks before branch shipping.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+
+# Raw Prompt Text
+# System Prompt: branch-ship-readiness-audit
+
+- Source: native-reference-match
+
+## Summary
+
 Audit remaining tasks before branch shipping.
 
 ## Placeholder Hints (source-backed)
