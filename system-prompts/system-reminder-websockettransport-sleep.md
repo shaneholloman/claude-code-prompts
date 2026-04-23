@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: websockettransport-sleep - Source: native-reference-match Summary System Reminder: websockettransport-sleep-gap - Source: inline Summary Det…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: websockettransport-sleep
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: websockettransport-sleep-gap - Source: inline Summary Detected system sleep, resetting reconnection budget.
 
 ## Placeholder Hints (source-backed)
