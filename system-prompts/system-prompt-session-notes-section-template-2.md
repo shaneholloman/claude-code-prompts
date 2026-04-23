@@ -1,5 +1,22 @@
 # System Prompt: session-notes-section-template-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: session-notes-section-template-… - Source: inline Summary Defines the required sections and guiding questions for session notes.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: session-notes-section-template-${NUM}
+
 - Source: inline
 
 ## Summary
@@ -8,7 +25,7 @@ Defines the required sections and guiding questions for session notes.
 
 # Raw Prompt Text
 # Session Title
-_A short and distinctive ${NUM}-${NUM} word descriptive title for the session. Super info dense, no filler_
+_A short and distinctive ${EXPR_1}-${EXPR_2} word descriptive title for the session. Super info dense, no filler_
 
 # Current State
 _What is actively being worked on right now? Pending tasks not yet completed. Immediate next steps._
@@ -26,7 +43,7 @@ _What bash commands are usually run and in what order? How to interpret their ou
 _Errors encountered and how they were fixed. What did the user correct? What approaches failed and should not be tried again?_
 
 # Codebase and System Documentation
-_What are the important system components? How do they work${PATH} together?_
+_What are the important system components? How do they work${EXPR_3} together?_
 
 # Learnings
 _What has worked well? What has not? What to avoid? Do not duplicate items from other sections_
