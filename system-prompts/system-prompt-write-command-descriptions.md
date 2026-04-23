@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Prompt: write-command-descriptions - Source: native-reference-match Summary System Prompt: write-command-descriptions - Source: inline Summary Rules f…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: write-command-descriptions
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: write-command-descriptions - Source: inline Summary Rules for generating clear active-voice descriptions of shell commands.
 
 ## Placeholder Hints (source-backed)
