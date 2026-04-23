@@ -1,5 +1,21 @@
 # System Reminder: create-teammate-pane-with-color
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: create-teammate-pane-with-color - Source: inline Summary Logs createTeammatePaneInSwarmView invocation for a target with a specified color.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: create-teammate-pane-with-color
+
 - Source: inline
 
 ## Summary
