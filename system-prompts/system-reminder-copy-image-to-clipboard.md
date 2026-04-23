@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: copy-image-to-clipboard - Source: native-reference-match Summary System Reminder: copy-image-to-clipboard - Source: inline Summary Loads an…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: copy-image-to-clipboard
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: copy-image-to-clipboard - Source: inline Summary Loads an image file and sets it to the Windows clipboard.
 
 ## Placeholder Hints (source-backed)
