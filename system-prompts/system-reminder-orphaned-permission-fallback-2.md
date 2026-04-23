@@ -1,5 +1,20 @@
 # System Reminder: orphaned-permission-fallback-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: orphaned-permission-fallback-… - Source: inline Summary Fallback handling for orphaned permissions.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: orphaned-permission-fallback-${NUM}
+
 - Source: inline
 
 ## Summary
