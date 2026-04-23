@@ -1,3 +1,12 @@
+# System Data Block: wsb-start-finish-notice-step-decision
+
+- Source: native-reference-match
+
+## Summary
+
+Defines key terms for workflow management.
+
+# Raw Prompt Text
 # System Prompt: wsb-start-finish-notice-step-decision
 
 - Source: native-reference-match
