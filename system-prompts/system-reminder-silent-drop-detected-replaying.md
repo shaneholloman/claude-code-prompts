@@ -1,5 +1,20 @@
 # System Reminder: silent-drop-detected-replaying
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: silent-drop-detected-replaying - Source: inline Summary Silent-drop detected with no data timeout.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: silent-drop-detected-replaying
+
 - Source: inline
 
 ## Summary
