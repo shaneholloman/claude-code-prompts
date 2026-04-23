@@ -1,5 +1,43 @@
 # Tool Description: create-and-manage-teams
 
+- Source: native-reference-match
+
+## Summary
+
+Utilize TeammateTool for effective team collaboration.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# Tool Description: create-and-manage-teams
+
 - Name: TeamCreate
 
 ## Summary
@@ -24,11 +62,11 @@ When spawning teammates via the Agent tool, choose the `subagent_type` based on 
 
 - **Read-only agents** (e.g., Explore, Plan) cannot edit or write files. Only assign them research, search, or planning tasks. Never assign them implementation work.
 - **Full-capability agents** (e.g., general-purpose) have access to all tools including file editing, writing, and bash. Use these for tasks that require making changes.
-- **Custom agents** defined in `.claude${PATH}` may have their own tool restrictions. Check their descriptions to understand what they can and cannot do.
+- **Custom agents** defined in `.claude${EXPR_1}` may have their own tool restrictions. Check their descriptions to understand what they can and cannot do.
 
 Always review the agent type descriptions and their available tools listed in the Agent tool prompt before selecting a `subagent_type` for a teammate.
 
-Create a new team to coordinate multiple agents working on a project. Teams have a ${NUM}:${NUM} correspondence with task lists (Team = TaskList).
+Create a new team to coordinate multiple agents working on a project. Teams have a ${EXPR_2}:${EXPR_3} correspondence with task lists (Team = TaskList).
 
 ```
 {
@@ -38,18 +76,18 @@ Create a new team to coordinate multiple agents working on a project. Teams have
 ```
 
 This creates:
-- A team file at `~${PATH}{team-name}${PATH}`
-- A corresponding task list directory at `~${PATH}{team-name}/`
+- A team file at `~${EXPR_4}{team-name}${EXPR_5}`
+- A corresponding task list directory at `~${EXPR_6}{team-name}/`
 
 ## Team Workflow
 
-${NUM}. **Create a team** with TeamCreate - this creates both the team and its task list
-${NUM}. **Create tasks** using the Task tools (TaskCreate, TaskList, etc.) - they automatically use the team's task list
-${NUM}. **Spawn teammates** using the Agent tool with `team_name` and `name` parameters to create teammates that join the team
-${NUM}. **Assign tasks** using TaskUpdate with `owner` to give tasks to idle teammates
-${NUM}. **Teammates work on assigned tasks** and mark them completed via TaskUpdate
-${NUM}. **Teammates go idle between turns** - after each turn, teammates automatically go idle and send a notification. IMPORTANT: Be patient with idle teammates! Don't comment on their idleness until it actually impacts your work.
-${NUM}. **Shutdown your team** - when the task is completed, gracefully shut down your teammates via SendMessage with `message: {type: "shutdown_request"}`.
+${EXPR_7}. **Create a team** with TeamCreate - this creates both the team and its task list
+${EXPR_8}. **Create tasks** using the Task tools (TaskCreate, TaskList, etc.) - they automatically use the team's task list
+${EXPR_9}. **Spawn teammates** using the Agent tool with `team_name` and `name` parameters to create teammates that join the team
+${EXPR_10}. **Assign tasks** using TaskUpdate with `owner` to give tasks to idle teammates
+${EXPR_11}. **Teammates work on assigned tasks** and mark them completed via TaskUpdate
+${EXPR_12}. **Teammates go idle between turns** - after each turn, teammates automatically go idle and send a notification. IMPORTANT: Be patient with idle teammates! Don't comment on their idleness until it actually impacts your work.
+${EXPR_13}. **Shutdown your team** - when the task is completed, gracefully shut down your teammates via SendMessage with `message: {type: "shutdown_request"}`.
 
 ## Task Ownership
 
@@ -81,12 +119,12 @@ Teammates go idle after every turn—this is completely normal and expected. A t
 ## Discovering Team Members
 
 Teammates can read the team config file to discover other team members:
-- **Team config location**: `~${PATH}{team-name}${PATH}`
+- **Team config location**: `~${EXPR_14}{team-name}${EXPR_15}`
 
 The config file contains a `members` array with each teammate's:
 - `name`: Human-readable name (**always use this** for messaging and task assignment)
 - `agentId`: Unique identifier (for reference only - do not use for communication)
-- `agentType`: Role${PATH} of the agent
+- `agentType`: Role${EXPR_16} of the agent
 
 **IMPORTANT**: Always refer to teammates by their NAME (e.g., "team-lead", "researcher", "tester"). Names are used for:
 - `to` when sending messages
@@ -94,20 +132,20 @@ The config file contains a `members` array with each teammate's:
 
 Example of reading team config:
 ```
-Use the Read tool to read ~${PATH}{team-name}${PATH}
+Use the Read tool to read ~${EXPR_17}{team-name}${EXPR_18}
 ```
 
 ## Task List Coordination
 
-Teams share a task list that all teammates can access at `~${PATH}{team-name}/`.
+Teams share a task list that all teammates can access at `~${EXPR_19}{team-name}/`.
 
 Teammates should:
-${NUM}. Check TaskList periodically, **especially after completing each task**, to find available work or see newly unblocked tasks
-${NUM}. Claim unassigned, unblocked tasks with TaskUpdate (set `owner` to your name). **Prefer tasks in ID order** (lowest ID first) when multiple tasks are available, as earlier tasks often set up context for later ones
-${NUM}. Create new tasks with `TaskCreate` when identifying additional work
-${NUM}. Mark tasks as completed with `TaskUpdate` when done, then check TaskList for next work
-${NUM}. Coordinate with other teammates by reading the task list status
-${NUM}. If all available tasks are blocked, notify the team lead or help resolve blocking tasks
+${EXPR_20}. Check TaskList periodically, **especially after completing each task**, to find available work or see newly unblocked tasks
+${EXPR_21}. Claim unassigned, unblocked tasks with TaskUpdate (set `owner` to your name). **Prefer tasks in ID order** (lowest ID first) when multiple tasks are available, as earlier tasks often set up context for later ones
+${EXPR_22}. Create new tasks with `TaskCreate` when identifying additional work
+${EXPR_23}. Mark tasks as completed with `TaskUpdate` when done, then check TaskList for next work
+${EXPR_24}. Coordinate with other teammates by reading the task list status
+${EXPR_25}. If all available tasks are blocked, notify the team lead or help resolve blocking tasks
 
 **IMPORTANT notes for communication with your team**:
 - Do not use terminal tools to view your team's activity; always send a message to your teammates (and remember, refer to them by name).
