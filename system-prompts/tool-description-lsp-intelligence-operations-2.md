@@ -4,6 +4,26 @@
 
 ## Summary
 
+Tool Description: lsp-intelligence-operations-… - Source: native-reference-match Summary Use LSP to navigate symbols, references, hover, and call hierarchy i…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# Tool Description: lsp-intelligence-operations-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 Use LSP to navigate symbols, references, hover, and call hierarchy in code.
 
 ## Placeholder Hints (source-backed)
@@ -17,7 +37,7 @@ Use LSP to navigate symbols, references, hover, and call hierarchy in code.
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-# Tool Description: lsp-intelligence-operations-${NUM}
+# Tool Description: lsp-intelligence-operations-${EXPR_1}
 
 - Name: LSP
 
@@ -35,13 +55,13 @@ Supported operations:
 - documentSymbol: Get all symbols (functions, classes, variables) in a document
 - workspaceSymbol: Search for symbols across the entire workspace
 - goToImplementation: Find implementations of an interface or abstract method
-- prepareCallHierarchy: Get call hierarchy item at a position (functions${EXPR_1})
-- incomingCalls: Find all functions${EXPR_2} that call the function at a position
-- outgoingCalls: Find all functions${EXPR_3} called by the function at a position
+- prepareCallHierarchy: Get call hierarchy item at a position (functions${EXPR_2})
+- incomingCalls: Find all functions${EXPR_3} that call the function at a position
+- outgoingCalls: Find all functions${EXPR_4} called by the function at a position
 
 All operations require:
 - filePath: The file to operate on
-- line: The line number (${EXPR_4}-based, as shown in editors)
-- character: The character offset (${EXPR_5}-based, as shown in editors)
+- line: The line number (${EXPR_5}-based, as shown in editors)
+- character: The character offset (${EXPR_6}-based, as shown in editors)
 
 Note: LSP servers must be configured for the file type. If no server is available, an error will be returned.
