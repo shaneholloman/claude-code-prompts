@@ -1,3 +1,40 @@
+# System Data Block: java-sdk-anthropic-api-setup
+
+- Source: native-reference-match
+
+## Summary
+
+Java SDK for Claude API installation.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+
+# Raw Prompt Text
 # System Data Block: anthropic-com-import-builder
 
 - Source: inline
@@ -23,16 +60,16 @@ Maven:
 
 ```xml
 <dependency>
-    <groupId>com.anthropic<${PATH}>
-    <artifactId>anthropic-java<${PATH}>
-    <version>${NUM}.${NUM}<${PATH}>
-<${PATH}>
+    <groupId>com.anthropic<${EXPR_1}>
+    <artifactId>anthropic-java<${EXPR_2}>
+    <version>${EXPR_3}.${EXPR_4}<${EXPR_5}>
+<${EXPR_6}>
 ```
 
 Gradle:
 
 ```groovy
-implementation("com.anthropic:anthropic-java:${NUM}.${NUM}")
+implementation("com.anthropic:anthropic-java:${EXPR_7}.${EXPR_8}")
 ```
 
 ## Client Initialization
@@ -97,7 +134,7 @@ try (StreamResponse<RawMessageStreamEvent> streamResponse = client.messages().cr
 
 ## Thinking
 
-**Adaptive thinking is the recommended mode for Claude ${NUM}+ models.** Claude decides dynamically when and how much to think. The builder has a direct `.thinking(ThinkingConfigAdaptive)` overload — no manual union wrapping.
+**Adaptive thinking is the recommended mode for Claude ${EXPR_9}+ models.** Claude decides dynamically when and how much to think. The builder has a direct `.thinking(ThinkingConfigAdaptive)` overload — no manual union wrapping.
 
 ```java
 import com.anthropic.models.messages.ContentBlock;
@@ -109,7 +146,7 @@ MessageCreateParams params = MessageCreateParams.builder()
     .model(Model.CLAUDE_SONNET_4_6)
     .maxTokens(16000L)
     .thinking(ThinkingConfigAdaptive.builder().build())
-    .addUserMessage("Solve this step by step: ${NUM} * ${NUM}")
+    .addUserMessage("Solve this step by step: ${EXPR_10} * ${EXPR_11}")
     .build();
 
 for (ContentBlock block : client.messages().create(params).content()) {
@@ -118,7 +155,7 @@ for (ContentBlock block : client.messages().create(params).content()) {
 }
 ```
 
-> **Deprecated:** `ThinkingConfigEnabled.builder().budgetTokens(N)` (and the `.enabledThinking(N)` shortcut) still works on Claude ${NUM} but is deprecated. Use adaptive thinking above.
+> **Deprecated:** `ThinkingConfigEnabled.builder().budgetTokens(N)` (and the `.enabledThinking(N)` shortcut) still works on Claude ${EXPR_12} but is deprecated. Use adaptive thinking above.
 
 `ContentBlock` narrowing: `.thinking()` / `.text()` return `Optional<T>` — use `.ifPresent(...)` or `.stream().flatMap(...)`. Alternative: `isThinking()` / `asThinking()` boolean+unwrap pairs (throws on wrong variant).
 
@@ -145,7 +182,7 @@ static class GetWeather implements Supplier<String> {
 
     @Override
     public String get() {
-        return "The weather in " + location + " is sunny and ${NUM}°F";
+        return "The weather in " + location + " is sunny and ${EXPR_13}°F";
     }
 }
 
@@ -153,7 +190,7 @@ BetaToolRunner toolRunner = client.beta().messages().toolRunner(
     MessageCreateParams.builder()
         .model("{{OPUS_ID}}")
         .maxTokens(16000L)
-        .putAdditionalHeader("anthropic-beta", "structured-outputs-${DATE}")
+        .putAdditionalHeader("anthropic-beta", "structured-outputs-${EXPR_14}")
         .addTool(GetWeather.class)
         .addUserMessage("What's the weather in San Francisco?")
         .build());
@@ -196,7 +233,7 @@ for (BetaMessage message : toolRunner) {
 }
 ```
 
-See the [shared memory tool concepts](..${PATH}) for more details on the memory tool.
+See the [shared memory tool concepts](..${EXPR_15}) for more details on the memory tool.
 
 ### Non-Beta Tool Declaration (manual JSON schema)
 
@@ -225,7 +262,7 @@ MessageCreateParams params = MessageCreateParams.builder()
     .build();
 ```
 
-For manual tool loops, handle `tool_use` blocks in the response, send `tool_result` back, loop until `stop_reason` is `"end_turn"`. See [shared tool use concepts](..${PATH}).
+For manual tool loops, handle `tool_use` blocks in the response, send `tool_result` back, loop until `stop_reason` is `"end_turn"`. See [shared tool use concepts](..${EXPR_16}).
 
 ### Building `MessageParam` with Content Blocks (Tool Result Round-Trip)
 
@@ -269,7 +306,7 @@ Combine with `Thinking = ThinkingConfigAdaptive` for cost-quality control.
 
 ## Prompt Caching
 
-System message as a list of `TextBlockParam` with `CacheControlEphemeral`. Use `.systemOfTextBlockParams(...)` — the plain `.system(String)` overload can't carry cache control. For placement patterns and the silent-invalidator audit checklist, see `shared${PATH}`.
+System message as a list of `TextBlockParam` with `CacheControlEphemeral`. Use `.systemOfTextBlockParams(...)` — the plain `.system(String)` overload can't carry cache control. For placement patterns and the silent-invalidator audit checklist, see `shared${EXPR_17}`.
 
 ```java
 import com.anthropic.models.messages.TextBlockParam;
@@ -319,7 +356,7 @@ StructuredMessageCreateParams<BookList> params = MessageCreateParams.builder()
     .model(Model.CLAUDE_SONNET_4_6)
     .maxTokens(16000L)
     .outputConfig(BookList.class)  // returns a typed builder
-    .addUserMessage("List ${NUM} classic novels")
+    .addUserMessage("List ${EXPR_18} classic novels")
     .build();
 
 client.messages().create(params).content().stream()
@@ -344,7 +381,7 @@ import com.anthropic.models.messages.ContentBlockParam;
 import com.anthropic.models.messages.TextBlockParam;
 
 DocumentBlockParam doc = DocumentBlockParam.builder()
-    .base64Source(base64String)  // or .urlSource("${URL}) or .textSource("...")
+    .base64Source(base64String)  // or .urlSource("${EXPR_19}) or .textSource("...")
     .title("My Document")        // optional
     .build();
 
@@ -389,12 +426,12 @@ import com.anthropic.models.beta.messages.BetaRequestMcpServerUrlDefinition;
 MessageCreateParams params = MessageCreateParams.builder()
     .model(Model.CLAUDE_OPUS_4_6)
     .maxTokens(16000L)
-    .addBeta("mcp-client-${DATE}")
+    .addBeta("mcp-client-${EXPR_20}")
     .addTool(BetaToolBash20250124.builder().build())
     .addTool(BetaCodeExecutionTool20260120.builder().build())
     .addMcpServer(BetaRequestMcpServerUrlDefinition.builder()
         .name("my-server")
-        .url("${URL})
+        .url("${EXPR_21})
         .build())
     .addUserMessage("...")
     .build();
@@ -435,7 +472,7 @@ import java.nio.file.Paths;
 
 FileMetadata meta = client.beta().files().upload(
     FileUploadParams.builder()
-        .file(Paths.get("${PATH}"))  // or .file(InputStream) or .file(byte[])
+        .file(Paths.get("${EXPR_22}"))  // or .file(InputStream) or .file(byte[])
         .build());
 
 // Reference in a beta message:
