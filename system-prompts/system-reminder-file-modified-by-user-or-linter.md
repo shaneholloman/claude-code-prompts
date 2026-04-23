@@ -4,6 +4,22 @@
 
 ## Summary
 
+Honor intentional modifications to EXPR_1.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: file-modified-by-user-or-linter
+
+- Source: native-reference-match
+
+## Summary
+
 Honor intentional modifications to EXPR_1; consider listed diffs without mentioning them to user.
 
 ## Placeholder Hints (source-backed)
