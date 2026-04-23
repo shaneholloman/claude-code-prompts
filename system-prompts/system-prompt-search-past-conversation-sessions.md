@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: search-past-conversation-sessions - Source: native-reference-match Summary System Prompt: search-past-conversation-sessions Summary Finds user…
+
+# Raw Prompt Text
+# System Prompt: search-past-conversation-sessions
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: search-past-conversation-sessions Summary Finds user-specific past conversation sessions.
 
 # Raw Prompt Text
