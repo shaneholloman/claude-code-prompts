@@ -18,6 +18,24 @@ System Reminder: manifest-command-path-not-found - Source: inline Summary Warn t
 # Raw Prompt Text
 # System Reminder: manifest-command-path-not-found
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: manifest-command-path-not-found - Source: inline Summary Warn that a manifest command path was specified but not found for a target.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Reminder: manifest-command-path-not-found
+
 - Source: inline
 
 ## Summary
