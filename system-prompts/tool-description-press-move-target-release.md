@@ -13,6 +13,15 @@ Tool Description: press-move-target-release - Source: native-reference-match Sum
 
 ## Summary
 
+Tool Description: press-move-target-release - Source: native-reference-match Summary Tool Description: press-move-target-release - Name: left_click_drag Summ…
+
+# Raw Prompt Text
+# Tool Description: press-move-target-release
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: press-move-target-release - Name: left_click_drag Summary Controls the frontmost application with specific actions.
 
 # Raw Prompt Text
