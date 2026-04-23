@@ -1,4 +1,4 @@
-# Tool Description: schedule-resume-work-dynamic-mode
+# Tool Description: schedule-resume-work-dynamic
 
 - Source: native-prompt-markdown-tool
 
