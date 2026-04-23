@@ -1,3 +1,41 @@
+# System Data Block: php-sdk-client-initialization
+
+- Source: native-reference-match
+
+## Summary
+
+Guide for initializing the PHP SDK client.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+
+# Raw Prompt Text
 # System Data Block: messages-block-type-client-content
 
 - Source: inline
@@ -20,7 +58,7 @@ Guide for initializing the PHP SDK client.
 ## Installation
 
 ```bash
-composer require "anthropic-ai${PATH}"
+composer require "anthropic-ai${EXPR_1}"
 ```
 
 ## Client Initialization
@@ -38,7 +76,7 @@ $client = new Client(apiKey: getenv("ANTHROPIC_API_KEY"));
 use Anthropic\Bedrock;
 
 // Constructor is private — use the static factory. Reads AWS credentials from env.
-$client = Bedrock\Client::fromEnvironment(region: 'us-east-${NUM}');
+$client = Bedrock\Client::fromEnvironment(region: 'us-east-${EXPR_2}');
 ```
 
 ### Google Vertex AI
@@ -61,7 +99,7 @@ use Anthropic\Foundry;
 // Constructor is private. baseUrl or resource is required.
 $client = Foundry\Client::withCredentials(
     authToken: getenv('ANTHROPIC_FOUNDRY_AUTH_TOKEN'),
-    baseUrl: '${URL}
+    baseUrl: '${EXPR_3}
 );
 ```
 
@@ -72,14 +110,14 @@ $client = Foundry\Client::withCredentials(
 ```php
 $message = $client->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_4},
     messages: [
         ['role' => 'user', 'content' => 'What is the capital of France?'],
     ],
 );
 
 // content is an array of polymorphic blocks (TextBlock, ToolUseBlock,
-// ThinkingBlock). Accessing ->text on content[${NUM}] without checking the block
+// ThinkingBlock). Accessing ->text on content[${EXPR_5}] without checking the block
 // type will throw if the first block is not a TextBlock (e.g., when extended
 // thinking is enabled and a ThinkingBlock comes first). Always guard:
 foreach ($message->content as $block) {
@@ -104,7 +142,7 @@ foreach ($message->content as $block) {
 
 ## Streaming
 
-> **Requires SDK v0.${NUM}+.** v0.${NUM} and earlier used a single `$params` array; calling with named parameters throws `Unknown named parameter $model`. Upgrade: `composer require "anthropic-ai${PATH}:^${NUM}"`
+> **Requires SDK v0.${EXPR_6}+.** v0.${EXPR_7} and earlier used a single `$params` array; calling with named parameters throws `Unknown named parameter $model`. Upgrade: `composer require "anthropic-ai${EXPR_8}:^${EXPR_9}"`
 
 ```php
 use Anthropic\Messages\RawContentBlockDeltaEvent;
@@ -112,7 +150,7 @@ use Anthropic\Messages\TextDelta;
 
 $stream = $client->messages->createStream(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_10},
     messages: [
         ['role' => 'user', 'content' => 'Write a haiku'],
     ],
@@ -149,12 +187,12 @@ $weatherTool = new BetaRunnableTool(
         ],
     ],
     run: function (array $input): string {
-        return "The weather in {$input['location']} is sunny and ${NUM}°F.";
+        return "The weather in {$input['location']} is sunny and ${EXPR_11}°F.";
     },
 );
 
 $runner = $client->beta->messages->toolRunner(
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_12},
     messages: [['role' => 'user', 'content' => 'What is the weather in Paris?']],
     model: '{{OPUS_ID}}',
     tools: [$weatherTool],
@@ -171,7 +209,7 @@ foreach ($runner as $message) {
 
 ### Manual Loop
 
-Tools are passed as arrays. **The SDK uses camelCase keys** (`inputSchema`, `toolUseID`, `stopReason`) and auto-maps to the API's snake_case on the wire — since v0.${NUM}. See [shared tool use concepts](..${PATH}) for the loop pattern.
+Tools are passed as arrays. **The SDK uses camelCase keys** (`inputSchema`, `toolUseID`, `stopReason`) and auto-maps to the API's snake_case on the wire — since v0.${EXPR_13}. See [shared tool use concepts](..${EXPR_14}) for the loop pattern.
 
 ```php
 use Anthropic\Messages\ToolUseBlock;
@@ -194,7 +232,7 @@ $messages = [['role' => 'user', 'content' => 'What is the weather in SF?']];
 
 $response = $client->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_15},
     tools: $tools,
     messages: $messages,
 );
@@ -221,7 +259,7 @@ while ($response->stopReason === 'tool_use') {  // camelCase property
 
     $response = $client->messages->create(
         model: '{{OPUS_ID}}',
-        maxTokens: ${NUM},
+        maxTokens: ${EXPR_16},
         tools: $tools,
         messages: $messages,
     );
@@ -242,17 +280,17 @@ foreach ($response->content as $block) {
 
 ## Extended Thinking
 
-**Adaptive thinking is the recommended mode for Claude ${NUM}+ models.** Claude decides dynamically when and how much to think.
+**Adaptive thinking is the recommended mode for Claude ${EXPR_17}+ models.** Claude decides dynamically when and how much to think.
 
 ```php
 use Anthropic\Messages\ThinkingBlock;
 
 $message = $client->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_18},
     thinking: ['type' => 'adaptive'],
     messages: [
-        ['role' => 'user', 'content' => 'Solve: ${NUM} * ${NUM}'],
+        ['role' => 'user', 'content' => 'Solve: ${EXPR_19} * ${EXPR_20}'],
     ],
 );
 
@@ -268,7 +306,7 @@ foreach ($message->content as $block) {
 }
 ```
 
-> **Deprecated:** `['type' => 'enabled', 'budgetTokens' => N]` (fixed-budget extended thinking) still works on Claude ${NUM} but is deprecated. Use adaptive thinking above.
+> **Deprecated:** `['type' => 'enabled', 'budgetTokens' => N]` (fixed-budget extended thinking) still works on Claude ${EXPR_21} but is deprecated. Use adaptive thinking above.
 
 `$block->type === 'thinking'` also works for the check; `instanceof` narrows for PHPStan.
 
@@ -276,12 +314,12 @@ foreach ($message->content as $block) {
 
 ## Prompt Caching
 
-`system:` takes an array of text blocks; set `cacheControl` on the last block. Array-shape syntax (camelCase keys) is idiomatic. For placement patterns and the silent-invalidator audit checklist, see `shared${PATH}`.
+`system:` takes an array of text blocks; set `cacheControl` on the last block. Array-shape syntax (camelCase keys) is idiomatic. For placement patterns and the silent-invalidator audit checklist, see `shared${EXPR_22}`.
 
 ```php
 $message = $client->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_23},
     system: [
         ['type' => 'text', 'text' => $longSystemPrompt, 'cacheControl' => ['type' => 'ephemeral']],
     ],
@@ -289,7 +327,7 @@ $message = $client->messages->create(
 );
 ```
 
-For ${NUM}-hour TTL: `'cacheControl' => ['type' => 'ephemeral', 'ttl' => '1h']`. There's also a top-level `cacheControl:` on `messages->create(...)` that auto-places on the last cacheable block.
+For ${EXPR_24}-hour TTL: `'cacheControl' => ['type' => 'ephemeral', 'ttl' => '1h']`. There's also a top-level `cacheControl:` on `messages->create(...)` that auto-places on the last cacheable block.
 
 Verify hits via `$message->usage->cacheCreationInputTokens` / `$message->usage->cacheReadInputTokens`.
 
@@ -320,8 +358,8 @@ class Person implements StructuredOutputModel
 
 $message = $client->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
-    messages: [['role' => 'user', 'content' => 'Generate a profile for Alice, age ${NUM}']],
+    maxTokens: ${EXPR_25},
+    messages: [['role' => 'user', 'content' => 'Generate a profile for Alice, age ${EXPR_26}']],
     outputConfig: ['format' => Person::class],
 );
 
@@ -336,7 +374,7 @@ Types are inferred from PHP type hints. Use `#[Constrained(description: '...')]`
 ```php
 $message = $client->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_27},
     messages: [['role' => 'user', 'content' => 'Extract: John (john@co.com), Enterprise plan']],
     outputConfig: [
         'format' => [
@@ -375,14 +413,14 @@ use Anthropic\Beta\Messages\BetaRequestMCPServerURLDefinition;
 
 $response = $client->beta->messages->create(
     model: '{{OPUS_ID}}',
-    maxTokens: ${NUM},
+    maxTokens: ${EXPR_28},
     mcpServers: [
         BetaRequestMCPServerURLDefinition::with(
             name: 'my-server',
-            url: '${URL}
+            url: '${EXPR_29}
         ),
     ],
-    betas: ['mcp-client-${DATE}'],  // only valid on ->beta->messages
+    betas: ['mcp-client-${EXPR_30}'],  // only valid on ->beta->messages
     messages: [['role' => 'user', 'content' => 'Use the MCP tools']],
 );
 ```
