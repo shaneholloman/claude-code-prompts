@@ -4,6 +4,15 @@
 
 ## Summary
 
+Sets install method to native and disables legacy updater.
+
+# Raw Prompt Text
+# System Reminder: enable-native-installmethod-protection
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: enable-native-installmethod-protection - Source: native-reference-match Summary System Reminder: enable-native-installmethod-protection - So…
 
 # Raw Prompt Text
