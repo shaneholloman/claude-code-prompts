@@ -23,6 +23,25 @@ System Prompt: sandbox-command-restrictions - Source: native-reference-match Sum
 
 ## Summary
 
+System Prompt: sandbox-command-restrictions - Source: native-reference-match Summary Guidelines for handling sandbox command failures.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Prompt: sandbox-command-restrictions
+
+- Source: native-reference-match
+
+## Summary
+
 Guidelines for handling sandbox command failures.
 
 ## Placeholder Hints (source-backed)
