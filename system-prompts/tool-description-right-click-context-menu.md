@@ -13,6 +13,15 @@ Tool Description: right-click-context-menu - Source: native-reference-match Summ
 
 ## Summary
 
+Tool Description: right-click-context-menu - Source: native-reference-match Summary Tool Description: right-click-context-menu - Name: right_click Summary Op…
+
+# Raw Prompt Text
+# Tool Description: right-click-context-menu
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: right-click-context-menu - Name: right_click Summary Opens a context menu at specified coordinates.
 
 # Raw Prompt Text
