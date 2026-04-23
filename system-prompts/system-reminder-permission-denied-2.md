@@ -4,10 +4,25 @@
 
 ## Summary
 
-System Reminder: permission-denied-… - Source: inline Summary Indicates a requested tool action was rejected and no changes were applied.
+System Reminder: permission-denied-… - Source: native-reference-match Summary System Reminder: permission-denied-… - Source: inline Summary Indicates a reque…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: permission-denied-… - Source: inline Summary Indicates a requested tool action was rejected and no changes were applied.
+
+# Raw Prompt Text
+# System Reminder: permission-denied-${EXPR_1}
 
 - Source: inline
 
