@@ -19,6 +19,25 @@ Guidelines for selecting the appropriate MCP tool.
 # Raw Prompt Text
 # System Prompt: mcp-selection-for-apps
 
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for selecting the appropriate MCP tool.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Prompt: mcp-selection-for-apps
+
 - Source: inline
 
 ## Summary
