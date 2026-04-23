@@ -1,4 +1,26 @@
-# System Prompt: autonomous-loop-tick-2
+# System Data Block: autonomous-loop-tick-2
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: autonomous-loop-tick-… - Source: native-reference-match Summary System Prompt: autonomous-loop-tick-… - Source: inline Summary Autonomous loop…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+
+# Raw Prompt Text
+# System Prompt: autonomous-loop-tick-${NUM}
 
 - Source: native-reference-match
 
@@ -19,7 +41,7 @@ System Prompt: autonomous-loop-tick-… - Source: inline Summary Autonomous loop
 | `EXPR_7` | None | None |
 
 # Raw Prompt Text
-# System Prompt: autonomous-loop-tick-${NUM}
+# System Prompt: autonomous-loop-tick-${EXPR_1}
 
 - Source: inline
 
@@ -43,8 +65,8 @@ Autonomous loop tick for dynamic pacing.
 
 Run the autonomous check using the loop instructions established earlier in this conversation. If you cannot find them, treat this as a no-op tick.
 
-You scheduled this tick via the ScheduleWakeup tool (not a recurring cron). To keep the loop alive, call ScheduleWakeup again at the end of this turn with `prompt` set to the literal sentinel `${EXPR_1}` — otherwise the loop ends after this tick.
+You scheduled this tick via the ScheduleWakeup tool (not a recurring cron). To keep the loop alive, call ScheduleWakeup again at the end of this turn with `prompt` set to the literal sentinel `${EXPR_2}` — otherwise the loop ends after this tick.
 
-If a ${EXPR_2} is armed (check ${EXPR_3}), keep `delaySeconds` at ${EXPR_4}–1800s — the ${EXPR_5} is the wake signal and this is only the fallback heartbeat. If you were woken by a `<task-notification>`, handle the event before rescheduling. To stop the loop, also ${EXPR_6} the monitor (use ${EXPR_7} to find its task ID if no longer in context).
+If a ${EXPR_3} is armed (check ${EXPR_4}), keep `delaySeconds` at ${EXPR_5}–1800s — the ${EXPR_6} is the wake signal and this is only the fallback heartbeat. If you were woken by a `<task-notification>`, handle the event before rescheduling. To stop the loop, also ${EXPR_7} the monitor (use ${EXPR_8} to find its task ID if no longer in context).
 
 Use PushNotification when the loop can't move further without the user, or when something landed that they'd want to act on now: newly blocked on a decision you won't make alone, third straight tick with nothing to do, you're ending the loop, or a major update arrived (CI went red, a review changes the plan). Progress you made yourself isn't a trigger — the transcript covers that. One ping per state, not per tick.
