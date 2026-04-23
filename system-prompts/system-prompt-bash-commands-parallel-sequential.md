@@ -1,5 +1,14 @@
 # System Prompt: bash-commands-parallel-sequential
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: bash-commands-parallel-sequential - Source: inline Summary Guidelines for running Bash commands efficiently.
+
+# Raw Prompt Text
+# System Prompt: bash-commands-parallel-sequential
+
 - Source: inline
 
 ## Summary
