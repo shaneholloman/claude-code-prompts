@@ -4,6 +4,21 @@
 
 ## Summary
 
+Tool Description: fetch-and-analyze-web-content - Source: native-reference-match Summary System Prompt: fetch-url-content-analyze - Source: inline Summary De…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: fetch-and-analyze-web-content
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: fetch-url-content-analyze - Source: inline Summary Describes a tool that fetches a URL, converts HTML to markdown, and analyzes it with a smal…
 
 ## Placeholder Hints (source-backed)
