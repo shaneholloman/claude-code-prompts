@@ -4,6 +4,25 @@
 
 ## Summary
 
+System Reminder: plugin-add-dir-overridden-… - Source: native-reference-match Summary System Reminder: plugin-add-dir-overridden-… - Source: inline Summary I…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Reminder: plugin-add-dir-overridden-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: plugin-add-dir-overridden-… - Source: inline Summary Indicates a plugin has been overridden.
 
 ## Placeholder Hints (source-backed)
@@ -16,7 +35,7 @@ System Reminder: plugin-add-dir-overridden-… - Source: inline Summary Indicate
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
-# System Reminder: plugin-add-dir-overridden-${NUM}
+# System Reminder: plugin-add-dir-overridden-${EXPR_1}
 
 - Source: inline
 
@@ -34,4 +53,4 @@ Indicates a plugin has been overridden.
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
-Plugin ${EXPR_1} from --add-dir (${EXPR_2}) overridden by ${EXPR_3} (${EXPR_4})
+Plugin ${EXPR_2} from --add-dir (${EXPR_3}) overridden by ${EXPR_4} (${EXPR_5})
