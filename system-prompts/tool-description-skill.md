@@ -4,6 +4,23 @@
 
 ## Summary
 
+Invoke skills based on user requests.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# Tool Description: skill
+
+- Source: native-reference-match
+
+## Summary
+
 Execute a skill within the main conversation When users ask you to perform tasks, check if any of the available skills match.
 
 ## Placeholder Hints (source-backed)
@@ -29,5 +46,5 @@ Important:
 - When a skill matches the user's request, this is a BLOCKING REQUIREMENT: invoke the relevant Skill tool BEFORE generating any other response about the task
 - NEVER mention a skill without actually calling this tool
 - Do not invoke a skill that is already running
-- Do not use this tool for built-in CLI commands (like ${PATH}, ${PATH}, etc.)
-- If you see a <${EXPR_1}> tag in the current conversation turn, the skill has ALREADY been loaded - follow the instructions directly instead of calling this tool again
+- Do not use this tool for built-in CLI commands (like ${EXPR_1}, ${EXPR_2}, etc.)
+- If you see a <${EXPR_3}> tag in the current conversation turn, the skill has ALREADY been loaded - follow the instructions directly instead of calling this tool again
