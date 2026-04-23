@@ -20,15 +20,41 @@ System Prompt: file-reading-… - Source: inline Summary Multiple prompts (…) 
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 # System Prompt: file-reading-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: file-reading-… - Source: inline Summary Multiple prompts (…) Placeholder Hints (source-backed) | Expression | Hint | Reference | | --- | --- |…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+
+# Raw Prompt Text
+# System Prompt: file-reading-${EXPR_1}
 
 - Source: inline
 
 ## Summary
 
-Multiple prompts (${NUM})
+Multiple prompts (${EXPR_2})
 
 ## Placeholder Hints (source-backed)
 
@@ -45,13 +71,13 @@ Assume this tool is able to read all files on the machine. If the User provides 
 
 Usage:
 - The file_path parameter must be an absolute path, not a relative path
-- By default, it reads up to ${EXPR_1} lines starting from the beginning of the file${EXPR_2}
-${EXPR_3}
-${EXPR_4}
+- By default, it reads up to ${EXPR_3} lines starting from the beginning of the file${EXPR_4}
+${EXPR_5}
+${EXPR_6}
 - This tool allows Claude Code to read images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as Claude Code is a multimodal LLM.
-- This tool can read PDF files (.pdf). For large PDFs (more than ${EXPR_5} pages), you MUST provide the pages parameter to read specific page ranges (e.g., pages: "${EXPR_6}-${EXPR_7}"). Reading a large PDF without the pages parameter will fail. Maximum ${EXPR_8} pages per request.
+- This tool can read PDF files (.pdf). For large PDFs (more than ${EXPR_7} pages), you MUST provide the pages parameter to read specific page ranges (e.g., pages: "${EXPR_8}-${EXPR_9}"). Reading a large PDF without the pages parameter will fail. Maximum ${EXPR_10} pages per request.
 - This tool can read Jupyter notebooks (.ipynb files) and returns all cells with their outputs, combining code, text, and visualizations.
 - This tool can only read files, not directories. To read a directory, use an ls command via the Bash tool.
 - You will regularly be asked to read screenshots. If the user provides a path to a screenshot, ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths.
 - If you read a file that exists but has empty contents you will receive a system reminder warning in place of file contents.
-- Do NOT re-read a file you just edited to verify — Edit${EXPR_9} would have errored if the change failed, and the harness tracks file state for you.${EXPR_10}
+- Do NOT re-read a file you just edited to verify — Edit${EXPR_11} would have errored if the change failed, and the harness tracks file state for you.${EXPR_12}
