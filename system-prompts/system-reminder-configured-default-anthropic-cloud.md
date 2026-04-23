@@ -1,5 +1,20 @@
 # System Reminder: configured-default-anthropic-cloud
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: configured-default-anthropic-cloud - Source: inline Summary Retrying fetch due to missing configurations.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: configured-default-anthropic-cloud
+
 - Source: inline
 
 ## Summary
