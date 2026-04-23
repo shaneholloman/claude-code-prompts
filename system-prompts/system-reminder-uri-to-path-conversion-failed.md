@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Reminder: uri-to-path-conversion-failed - Source: native-reference-match Summary System Reminder: uri-to-path-conversion-failed - Source: inline Summa…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: uri-to-path-conversion-failed
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: uri-to-path-conversion-failed - Source: inline Summary URI to file path conversion failed; original URI used as fallback.
 
 ## Placeholder Hints (source-backed)
