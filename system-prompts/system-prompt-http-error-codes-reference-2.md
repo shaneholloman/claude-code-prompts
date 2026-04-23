@@ -4,6 +4,44 @@
 
 ## Summary
 
+System Prompt: http-error-codes-reference-… - Source: native-reference-match Summary System Prompt: http-error-codes-reference-… - Source: inline Summary Doc…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `OPUS_ID` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+
+# Raw Prompt Text
+# System Prompt: http-error-codes-reference-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: http-error-codes-reference-… - Source: inline Summary Documentation of HTTP error codes for Claude API.
 
 ## Placeholder Hints (source-backed)
@@ -36,7 +74,7 @@ System Prompt: http-error-codes-reference-… - Source: inline Summary Documenta
 | `EXPR_23` | None | None |
 
 # Raw Prompt Text
-# System Prompt: http-error-codes-reference-${NUM}
+# System Prompt: http-error-codes-reference-${EXPR_1}
 
 - Source: inline
 
@@ -60,18 +98,18 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 | Code | Error Type              | Retryable | Common Cause                         |
 | ---- | ----------------------- | --------- | ------------------------------------ |
-| ${EXPR_1}  | `invalid_request_error` | No        | Invalid request format or parameters |
-| ${EXPR_2}  | `authentication_error`  | No        | Invalid or missing API key           |
-| ${EXPR_3}  | `permission_error`      | No        | API key lacks permission             |
-| ${EXPR_4}  | `not_found_error`       | No        | Invalid endpoint or model ID         |
-| ${EXPR_5}  | `request_too_large`     | No        | Request exceeds size limits          |
-| ${EXPR_6}  | `rate_limit_error`      | Yes       | Too many requests                    |
-| ${EXPR_7}  | `api_error`             | Yes       | Anthropic service issue              |
-| ${EXPR_8}  | `overloaded_error`      | Yes       | API is temporarily overloaded        |
+| ${EXPR_2}  | `invalid_request_error` | No        | Invalid request format or parameters |
+| ${EXPR_3}  | `authentication_error`  | No        | Invalid or missing API key           |
+| ${EXPR_4}  | `permission_error`      | No        | API key lacks permission             |
+| ${EXPR_5}  | `not_found_error`       | No        | Invalid endpoint or model ID         |
+| ${EXPR_6}  | `request_too_large`     | No        | Request exceeds size limits          |
+| ${EXPR_7}  | `rate_limit_error`      | Yes       | Too many requests                    |
+| ${EXPR_8}  | `api_error`             | Yes       | Anthropic service issue              |
+| ${EXPR_9}  | `overloaded_error`      | Yes       | API is temporarily overloaded        |
 
 ## Detailed Error Information
 
-### ${EXPR_9} Bad Request
+### ${EXPR_10} Bad Request
 
 **Causes:**
 
@@ -79,7 +117,7 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 - Missing required parameters (`model`, `max_tokens`, `messages`)
 - Invalid parameter types (e.g., string where integer expected)
 - Empty messages array
-- Messages not alternating user${EXPR_10}
+- Messages not alternating user${EXPR_11}
 
 **Example error:**
 
@@ -102,7 +140,7 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 ---
 
-### ${EXPR_11} Unauthorized
+### ${EXPR_12} Unauthorized
 
 **Causes:**
 
@@ -114,7 +152,7 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 ---
 
-### ${EXPR_12} Forbidden
+### ${EXPR_13} Forbidden
 
 **Causes:**
 
@@ -126,11 +164,11 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 ---
 
-### ${EXPR_13} Not Found
+### ${EXPR_14} Not Found
 
 **Causes:**
 
-- Typo in model ID (e.g., `claude-sonnet-${EXPR_14}` instead of `claude-sonnet-${EXPR_15}-${EXPR_16}`)
+- Typo in model ID (e.g., `claude-sonnet-${EXPR_15}` instead of `claude-sonnet-${EXPR_16}-${EXPR_17}`)
 - Using deprecated model ID
 - Invalid API endpoint
 
@@ -138,7 +176,7 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 ---
 
-### ${EXPR_17} Request Too Large
+### ${EXPR_18} Request Too Large
 
 **Causes:**
 
@@ -146,37 +184,37 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 - Too many tokens in input
 - Image data too large
 
-**Fix:** Reduce input size — truncate conversation history, compress${EXPR_18} images, or split large documents into chunks.
+**Fix:** Reduce input size — truncate conversation history, compress${EXPR_19} images, or split large documents into chunks.
 
 ---
 
-### ${EXPR_19} Validation Errors
+### ${EXPR_20} Validation Errors
 
-Some ${EXPR_20} errors are specifically related to parameter validation:
+Some ${EXPR_21} errors are specifically related to parameter validation:
 
 - `max_tokens` exceeds model's limit
-- Invalid `temperature` value (must be ${EXPR_21}-${EXPR_22})
+- Invalid `temperature` value (must be ${EXPR_22}-${EXPR_23})
 - `budget_tokens` >= `max_tokens` in extended thinking
 - Invalid tool definition schema
 
-**Model-specific 400s on Opus ${EXPR_23}:**
+**Model-specific 400s on Opus ${EXPR_24}:**
 
-- `temperature`, `top_p`, `top_k` are removed — sending any of them returns ${EXPR_24}. Delete the parameter; see `shared${EXPR_25}` → Per-SDK Syntax Reference.
-- `thinking: {type: "enabled", budget_tokens: N}` is removed — sending it returns ${EXPR_26}. Use `thinking: {type: "adaptive"}` instead.
+- `temperature`, `top_p`, `top_k` are removed — sending any of them returns ${EXPR_25}. Delete the parameter; see `shared${EXPR_26}` → Per-SDK Syntax Reference.
+- `thinking: {type: "enabled", budget_tokens: N}` is removed — sending it returns ${EXPR_27}. Use `thinking: {type: "adaptive"}` instead.
 
-**Common mistake with extended thinking on older models (Opus ${EXPR_27} and earlier):**
+**Common mistake with extended thinking on older models (Opus ${EXPR_28} and earlier):**
 
 ```
 # Wrong: budget_tokens must be < max_tokens
-thinking: budget_tokens=${EXPR_28}, max_tokens=${EXPR_29}  → Error!
+thinking: budget_tokens=${EXPR_29}, max_tokens=${EXPR_30}  → Error!
 
 # Correct
-thinking: budget_tokens=${EXPR_30}, max_tokens=${EXPR_31}
+thinking: budget_tokens=${EXPR_31}, max_tokens=${EXPR_32}
 ```
 
 ---
 
-### ${EXPR_32} Rate Limited
+### ${EXPR_33} Rate Limited
 
 **Causes:**
 
@@ -190,22 +228,22 @@ thinking: budget_tokens=${EXPR_30}, max_tokens=${EXPR_31}
 - `x-ratelimit-limit-*`: Your limits
 - `x-ratelimit-remaining-*`: Remaining quota
 
-**Fix:** The Anthropic SDKs automatically retry ${EXPR_33} and 5xx errors with exponential backoff (default: `max_retries=${EXPR_34}`). For custom retry behavior, see the language-specific error handling examples.
+**Fix:** The Anthropic SDKs automatically retry ${EXPR_34} and 5xx errors with exponential backoff (default: `max_retries=${EXPR_35}`). For custom retry behavior, see the language-specific error handling examples.
 
 ---
 
-### ${EXPR_35} Internal Server Error
+### ${EXPR_36} Internal Server Error
 
 **Causes:**
 
 - Temporary Anthropic service issue
 - Bug in API processing
 
-**Fix:** Retry with exponential backoff. If persistent, check [status.anthropic.com](${EXPR_36}).
+**Fix:** Retry with exponential backoff. If persistent, check [status.anthropic.com](${EXPR_37}).
 
 ---
 
-### ${EXPR_37} Overloaded
+### ${EXPR_38} Overloaded
 
 **Causes:**
 
@@ -220,14 +258,14 @@ thinking: budget_tokens=${EXPR_30}, max_tokens=${EXPR_31}
 
 | Mistake                         | Error            | Fix                                                     |
 | ------------------------------- | ---------------- | ------------------------------------------------------- |
-| `temperature`/`top_p`/`top_k` on Opus ${EXPR_38} | ${EXPR_39}    | Remove the parameter (see `shared${EXPR_40}`)  |
-| `budget_tokens` on Opus ${EXPR_41}     | ${EXPR_42}              | Use `thinking: {type: "adaptive"}`                      |
-| `budget_tokens` >= `max_tokens` (older models) | ${EXPR_43} | Ensure `budget_tokens` < `max_tokens`                  |
-| Typo in model ID                | ${EXPR_44}              | Use valid model ID like `{{OPUS_ID}}`               |
-| First message is `assistant`    | ${EXPR_45}              | First message must be `user`                            |
-| Consecutive same-role messages  | ${EXPR_46}              | Alternate `user` and `assistant`                        |
-| API key in code                 | ${EXPR_47} (leaked key) | Use environment variable                                |
-| Custom retry needs              | ${EXPR_48}${EXPR_49}          | SDK retries automatically; customize with `max_retries` |
+| `temperature`/`top_p`/`top_k` on Opus ${EXPR_39} | ${EXPR_40}    | Remove the parameter (see `shared${EXPR_41}`)  |
+| `budget_tokens` on Opus ${EXPR_42}     | ${EXPR_43}              | Use `thinking: {type: "adaptive"}`                      |
+| `budget_tokens` >= `max_tokens` (older models) | ${EXPR_44} | Ensure `budget_tokens` < `max_tokens`                  |
+| Typo in model ID                | ${EXPR_45}              | Use valid model ID like `{{OPUS_ID}}`               |
+| First message is `assistant`    | ${EXPR_46}              | First message must be `user`                            |
+| Consecutive same-role messages  | ${EXPR_47}              | Alternate `user` and `assistant`                        |
+| API key in code                 | ${EXPR_48} (leaked key) | Use environment variable                                |
+| Custom retry needs              | ${EXPR_49}${EXPR_50}          | SDK retries automatically; customize with `max_retries` |
 
 ## Typed Exceptions in SDKs
 
@@ -235,12 +273,12 @@ thinking: budget_tokens=${EXPR_30}, max_tokens=${EXPR_31}
 
 | HTTP Code | TypeScript Class                  | Python Class                      |
 | --------- | --------------------------------- | --------------------------------- |
-| ${EXPR_50}       | `Anthropic.BadRequestError`       | `anthropic.BadRequestError`       |
-| ${EXPR_51}       | `Anthropic.AuthenticationError`   | `anthropic.AuthenticationError`   |
-| ${EXPR_52}       | `Anthropic.PermissionDeniedError` | `anthropic.PermissionDeniedError` |
-| ${EXPR_53}       | `Anthropic.NotFoundError`         | `anthropic.NotFoundError`         |
-| ${EXPR_54}       | `Anthropic.RateLimitError`        | `anthropic.RateLimitError`        |
-| ${EXPR_55}+      | `Anthropic.InternalServerError`   | `anthropic.InternalServerError`   |
+| ${EXPR_51}       | `Anthropic.BadRequestError`       | `anthropic.BadRequestError`       |
+| ${EXPR_52}       | `Anthropic.AuthenticationError`   | `anthropic.AuthenticationError`   |
+| ${EXPR_53}       | `Anthropic.PermissionDeniedError` | `anthropic.PermissionDeniedError` |
+| ${EXPR_54}       | `Anthropic.NotFoundError`         | `anthropic.NotFoundError`         |
+| ${EXPR_55}       | `Anthropic.RateLimitError`        | `anthropic.RateLimitError`        |
+| ${EXPR_56}+      | `Anthropic.InternalServerError`   | `anthropic.InternalServerError`   |
 | Any       | `Anthropic.APIError`              | `anthropic.APIError`              |
 
 ```typescript
@@ -251,7 +289,7 @@ try {
   if (error instanceof Anthropic.RateLimitError) {
     // Handle rate limiting
   } else if (error instanceof Anthropic.APIError) {
-    console.error(`API error ${EXPR_56}:`, error.message);
+    console.error(`API error ${EXPR_57}:`, error.message);
   }
 }
 
@@ -260,7 +298,7 @@ try {
   const response = await client.messages.create({...});
 } catch (error) {
   const msg = error instanceof Error ? error.message : String(error);
-  if (msg.includes("${EXPR_57}") || msg.includes("rate_limit")) { ... }
+  if (msg.includes("${EXPR_58}") || msg.includes("rate_limit")) { ... }
 }
 ```
 
