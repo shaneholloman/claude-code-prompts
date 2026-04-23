@@ -4,6 +4,21 @@
 
 ## Summary
 
+System Reminder: invalid-api-key-ttl-var - Source: native-reference-match Summary System Reminder: invalid-api-key-ttl-var - Source: inline Summary Warns API…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: invalid-api-key-ttl-var
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: invalid-api-key-ttl-var - Source: inline Summary Warns API key helper TTL environment variable is invalid, showing the received value.
 
 ## Placeholder Hints (source-backed)
