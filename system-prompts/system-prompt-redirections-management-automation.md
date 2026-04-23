@@ -1,3 +1,33 @@
+# System Data Block: redirections-management-automation
+
+- Source: native-reference-match
+
+## Summary
+
+System Data Block: redirections-management-automation-language - Source: inline Summary Handles command parsing and error management.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+
+# Raw Prompt Text
 # System Data Block: redirections-management-automation-language
 
 - Source: inline
@@ -17,7 +47,7 @@ $EncodedCommand = '${EXPR_1}'
 
 if (-not $EncodedCommand) {
     Write-Output '{"valid":false,"errors":[{"message":"No command provided","errorId":"NoInput"}],"statements":[],"variables":[],"hasStopParsing":false,"originalCommand":""}'
-    exit ${NUM}
+    exit ${EXPR_2}
 }
 
 $Command = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($EncodedCommand))
@@ -82,7 +112,7 @@ function Get-SecurityPatterns($A) {
         'ExpandableStringExpressionAst' { $p.hasExpandableStrings = $true }
         'ScriptBlockExpressionAst' { $p.hasScriptBlocks = $true }
     }}
-    if ($p.Count -gt ${NUM}) { return $p }
+    if ($p.Count -gt ${EXPR_3}) { return $p }
     return $null
 }
 
@@ -160,11 +190,11 @@ function Process-BlockStatements {
                 }
                 [void]$nestedCmds.Add($nested)
             }
-            if ($nestedCmds.Count -gt ${NUM}) {
+            if ($nestedCmds.Count -gt ${EXPR_4}) {
                 $statement.nestedCommands = @($nestedCmds)
             }
             $r = $stmt.FindAll({param($n) $n -is [System.Management.Automation.Language.FileRedirectionAst]}, $true)
-            if ($r.Count -gt ${NUM}) {
+            if ($r.Count -gt ${EXPR_5}) {
                 $rr = @(Get-RawRedirections -Redirections $r)
                 $statement.redirections = if ($statement.redirections) { @($statement.redirections) + $rr } else { $rr }
             }
@@ -182,11 +212,11 @@ function Process-BlockStatements {
                     redirections = @(Get-RawRedirections -Redirections $cmd.Redirections)
                 })
             }
-            if ($nested.Count -gt ${NUM}) {
+            if ($nested.Count -gt ${EXPR_6}) {
                 $statement.nestedCommands = @($nested)
             }
             $r = $stmt.FindAll({param($n) $n -is [System.Management.Automation.Language.FileRedirectionAst]}, $true)
-            if ($r.Count -gt ${NUM}) { $statement.redirections = @(Get-RawRedirections -Redirections $r) }
+            if ($r.Count -gt ${EXPR_7}) { $statement.redirections = @(Get-RawRedirections -Redirections $r) }
         }
 
         $sp = Get-SecurityPatterns $stmt
@@ -215,11 +245,11 @@ function Process-BlockStatements {
                 }
                 [void]$nestedCmds.Add($nested)
             }
-            if ($nestedCmds.Count -gt ${NUM}) {
+            if ($nestedCmds.Count -gt ${EXPR_8}) {
                 $statement.nestedCommands = @($nestedCmds)
             }
             $r = $trap.FindAll({param($n) $n -is [System.Management.Automation.Language.FileRedirectionAst]}, $true)
-            if ($r.Count -gt ${NUM}) { $statement.redirections = @(Get-RawRedirections -Redirections $r) }
+            if ($r.Count -gt ${EXPR_9}) { $statement.redirections = @(Get-RawRedirections -Redirections $r) }
             $sp = Get-SecurityPatterns $trap
             if ($sp) { $statement.securityPatterns = $sp }
             [void]$statements.Add($statement)
@@ -241,20 +271,20 @@ if ($ast.ParamBlock) {
   }
   $pr = $pb.FindAll({param($n) $n -is [System.Management.Automation.Language.FileRedirectionAst]}, $true)
   $ps = Get-SecurityPatterns $pb
-  if ($pn.Count -gt ${NUM} -or $pr.Count -gt ${NUM} -or $ps) {
+  if ($pn.Count -gt ${EXPR_10} -or $pr.Count -gt ${EXPR_11} -or $ps) {
     $st = @{type='ParamBlockAst';text=$pb.Extent.Text}
-    if ($pn.Count -gt ${NUM}) { $st.nestedCommands = @($pn) }
-    if ($pr.Count -gt ${NUM}) { $st.redirections = @(Get-RawRedirections -Redirections $pr) }
+    if ($pn.Count -gt ${EXPR_12}) { $st.nestedCommands = @($pn) }
+    if ($pr.Count -gt ${EXPR_13}) { $st.redirections = @(Get-RawRedirections -Redirections $pr) }
     if ($ps) { $st.securityPatterns = $ps }
     [void]$statements.Add($st)
   }
 }
 
-$hasUsingStatements = $ast.UsingStatements -and $ast.UsingStatements.Count -gt ${NUM}
+$hasUsingStatements = $ast.UsingStatements -and $ast.UsingStatements.Count -gt ${EXPR_14}
 $hasScriptRequirements = $ast.ScriptRequirements -ne $null
 
 $output = @{
-    valid = ($parseErrors.Count -eq ${NUM})
+    valid = ($parseErrors.Count -eq ${EXPR_15})
     errors = @($parseErrors | ForEach-Object {
         @{
             message = $_.Message
@@ -271,4 +301,4 @@ $output = @{
     hasBackgroundJob = [bool]$script:hasBg
 }
 
-$output | ConvertTo-Json -Depth ${NUM} -Compress
+$output | ConvertTo-Json -Depth ${EXPR_16} -Compress
