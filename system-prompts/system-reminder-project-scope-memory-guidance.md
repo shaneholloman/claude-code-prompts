@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Reminder: project-scope-memory-guidance - Source: native-reference-match Summary System Reminder: project-scope-memory-guidance - Source: inline Summa…
+
+# Raw Prompt Text
+# System Reminder: project-scope-memory-guidance
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: project-scope-memory-guidance - Source: inline Summary Guidance to keep memories tailored to the shared project.
 
 # Raw Prompt Text
