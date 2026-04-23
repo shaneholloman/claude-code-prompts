@@ -13,6 +13,15 @@ Tool Description: left-click-at-coordinates - Source: native-reference-match Sum
 
 ## Summary
 
+Tool Description: left-click-at-coordinates - Source: native-reference-match Summary Tool Description: left-click-at-coordinates - Name: left_click Summary E…
+
+# Raw Prompt Text
+# Tool Description: middle-click-scroll-wheel
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: middle-click-scroll-wheel - Name: middle_click Summary Executes a middle-click at specified coordinates.
 
 # Raw Prompt Text
