@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Reminder: bridge-work-starting-poll-loop - Source: native-reference-match Summary System Reminder: bridge-work-starting-poll-loop - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Reminder: bridge-work-starting-poll-loop
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: bridge-work-starting-poll-loop - Source: inline Summary Initiate the polling loop for the bridge work.
 
 ## Placeholder Hints (source-backed)
