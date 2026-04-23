@@ -1,0 +1,50 @@
+# Tool Description: user-question
+
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: user-question - Name: AskUserQuestion Summary Tool for gathering user input and preferences.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# Tool Description: user-question
+
+- Name: AskUserQuestion
+
+## Summary
+
+Tool for gathering user input and preferences.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | ExitPlanMode | None |
+| `EXPR_2` | ExitPlanMode | None |
+| `EXPR_3` | ExitPlanMode | None |
+
+# Raw Prompt Text
+Use this tool when you need to ask the user questions during execution. This allows you to:
+${EXPR_1}. Gather user preferences or requirements
+${EXPR_2}. Clarify ambiguous instructions
+${EXPR_3}. Get decisions on implementation choices as you work
+${EXPR_4}. Offer choices to the user about what direction to take.
+
+Usage notes:
+- Users will always be able to select "Other" to provide custom text input
+- Use multiSelect: true to allow multiple answers to be selected for a question
+- If you recommend a specific option, make that the first option in the list and add "(Recommended)" at the end of the label
+
+Plan mode note: In plan mode, use this tool to clarify requirements or choose between approaches BEFORE finalizing your plan. Do NOT use this tool to ask "Is my plan ready?" or "Should I proceed?" - use ${EXPR_5} for plan approval. IMPORTANT: Do not reference "the plan" in your questions (e.g., "Do you have feedback about the plan?", "Does the plan look good?") because the user cannot see the plan in the UI until you call ${EXPR_6}. If you need plan approval, use ${EXPR_7} instead.
