@@ -1,5 +1,14 @@
 # System Prompt: when-to-access-memories-2
 
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: when-to-access-memories-… - Source: inline Summary Guidelines for accessing user memories.
+
+# Raw Prompt Text
+# System Prompt: when-to-access-memories-${NUM}
+
 - Source: inline
 
 ## Summary
