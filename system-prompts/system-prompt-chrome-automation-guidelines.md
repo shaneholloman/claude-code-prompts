@@ -4,7 +4,7 @@
 
 ## Summary
 
-Guidelines for using Claude-in-Chrome tools including GIF recording and console log filtering.
+System Prompt: chrome-automation-guidelines-… - Source: native-reference-match Summary Guidelines for using Claude-in-Chrome tools including GIF recording an…
 
 ## Placeholder Hints (source-backed)
 
