@@ -4,6 +4,22 @@
 
 ## Summary
 
+System Data Block: fix-running-issues-help - Source: native-reference-match Summary System Prompt: fix-running-issues-help - Source: inline Summary Assist wi…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Data Block: fix-running-issues-help
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: fix-running-issues-help - Source: inline Summary Assist with reported issues and confirm fixes before execution.
 
 ## Placeholder Hints (source-backed)
