@@ -4,6 +4,15 @@
 
 ## Summary
 
+System Prompt: absolute-file-paths-only - Source: native-reference-match Summary System Prompt: absolute-file-paths-only - Source: inline Summary Always use…
+
+# Raw Prompt Text
+# System Prompt: absolute-file-paths-only
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: absolute-file-paths-only - Source: inline Summary Always use absolute file paths for clarity.
 
 # Raw Prompt Text
