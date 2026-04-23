@@ -13,6 +13,15 @@ Tool Description: press-left-mouse-button - Source: native-reference-match Summa
 
 ## Summary
 
+Tool Description: press-left-mouse-button - Source: native-reference-match Summary Tool Description: press-left-mouse-button - Name: left_mouse_down Summary…
+
+# Raw Prompt Text
+# Tool Description: press-left-mouse-button
+
+- Source: native-reference-match
+
+## Summary
+
 Tool Description: press-left-mouse-button - Name: left_mouse_down Summary Press and hold the left mouse button at the cursor.
 
 # Raw Prompt Text
