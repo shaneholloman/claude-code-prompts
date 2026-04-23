@@ -1,5 +1,20 @@
 # System Reminder: ide-file-opened-context
 
+- Source: native-reference-match
+
+## Summary
+
+System Reminder: ide-file-opened-context - Source: inline Summary Indicates the user opened a specific IDE file that may relate to task.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# System Reminder: ide-file-opened-context
+
 - Source: inline
 
 ## Summary
