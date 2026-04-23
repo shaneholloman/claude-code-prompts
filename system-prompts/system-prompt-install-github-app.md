@@ -4,6 +4,23 @@
 
 ## Summary
 
+System Prompt: install-github-app - Source: native-reference-match Summary Explains adding a workflow to enable Claude Code via @claude mentions after merge.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: install-github-app
+
+- Source: native-reference-match
+
+## Summary
+
 Explains adding a workflow to enable Claude Code via @claude mentions after merge.
 
 ## Placeholder Hints (source-backed)
