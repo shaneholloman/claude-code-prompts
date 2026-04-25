@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 34
-- Options: 78
-- Env vars: 579
+- Commands: 35
+- Options: 79
+- Env vars: 584
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 97
+- Models: 96
 - Providers: 8
 
 ## Commands
@@ -45,6 +45,7 @@
 - `show`
 - `status`
 - `tag`
+- `ultrareview`
 - `uninstall`
 - `update`
 - `validate`
@@ -84,6 +85,7 @@
 - `show`
 - `status`
 - `tag [path]`
+- `ultrareview [target]`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
@@ -155,6 +157,7 @@
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
+- `--timeout`
 - `--tmux`
 - `--tools`
 - `--transport`
@@ -225,6 +228,7 @@
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
+- `--timeout <minutes>`
 - `--tmux`
 - `--tools <tools...>`
 - `--verbose`
@@ -246,6 +250,7 @@
 ## Env Vars
 
 - `__CFB`
+- `AI_AGENT`
 - `ALACRITTY_LOG`
 - `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
@@ -386,6 +391,7 @@
 - `CLAUDE_CODE_COMMIT_LOG`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
+- `CLAUDE_CODE_DAEMON_COLD_START`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DEBUG_LOG_LEVEL`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
@@ -461,6 +467,7 @@
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
 - `CLAUDE_CODE_IS_COWORK`
+- `CLAUDE_CODE_LEAN_PROMPT`
 - `CLAUDE_CODE_MAX_CONTEXT_TOKENS`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
@@ -566,6 +573,7 @@
 - `CLAUDE_CODE_WORKSPACE_HOST_PATHS`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
+- `CLAUDE_COWORK_MEMORY_GUIDELINES`
 - `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_DEBUG`
 - `CLAUDE_ENABLE_BYTE_WATCHDOG`
@@ -594,6 +602,7 @@
 - `COLORFGBG`
 - `COLORTERM`
 - `COMPUTER_USE_SWIFT_NODE_PATH`
+- `COMSPEC`
 - `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
 - `DAYTONA_WS_ID`
@@ -889,7 +898,6 @@ _None detected_
 - `claude-code-marketplace`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
-- `claude-code-screenshots`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-context`
