@@ -1,4 +1,4 @@
-# Claude Code Version 2.1.119
+# Claude Code Version 2.1.120
 
 Release Date: Unknown
 
@@ -50,11 +50,11 @@ Today's date is 2026-04-16.
 </system-reminder>
 
 
-2026-04-23T23:23:47+00:00 is the date. Write a haiku about it.
+2026-04-25T00:20:25+00:00 is the date. Write a haiku about it.
 
 # System Prompt
 
-x-anthropic-billing-header: cc_version=2.1.119.native; cc_entrypoint=sdk-cli; cch=00000;
+x-anthropic-billing-header: cc_version=2.1.120.native; cc_entrypoint=sdk-cli; cch=00000;
 
 You are a Claude agent, built on Anthropic's Claude Agent SDK.
 
