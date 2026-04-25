@@ -35,6 +35,28 @@ Directs updating the notes file via edits while preserving structure.
 | `notesPath` | None | None |
 | `currentNotes` | None | None |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: session-memory-update-instructions
+
+- Source: native-reference-match
+
+## Summary
+
+Directs updating the notes file via edits while preserving structure.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `notesPath` | None | None |
+| `currentNotes` | None | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 IMPORTANT: This message and these instructions are NOT part of the actual user conversation. Do NOT include any references to "note-taking", "session notes extraction", or these update instructions in the notes content.
