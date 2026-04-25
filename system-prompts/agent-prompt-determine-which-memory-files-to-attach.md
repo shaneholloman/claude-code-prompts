@@ -21,6 +21,21 @@ Identify relevant memories for user queries.
 
 Identify relevant memories for user queries.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: determine-which-memory-files-to-attach
+
+- Source: native-reference-match
+
+## Summary
+
+Identify relevant memories for user queries.
+
 # Raw Prompt Text
 You are selecting memories that will be useful to Claude Code as it processes a user's query. The first message lists the available memory files with their filenames and descriptions; subsequent messages each contain one user query.
 
