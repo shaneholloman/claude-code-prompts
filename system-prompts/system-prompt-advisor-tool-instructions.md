@@ -13,6 +13,15 @@ Call advisor tool before starting substantive tasks.
 
 ## Summary
 
+Call advisor tool before starting substantive tasks.
+
+# Raw Prompt Text
+# System Prompt: advisor-tool-instructions
+
+- Source: native-reference-match
+
+## Summary
+
 Use the advisor tool before starting substantive work.
 
 # Raw Prompt Text
