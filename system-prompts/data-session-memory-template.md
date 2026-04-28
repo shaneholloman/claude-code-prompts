@@ -38,6 +38,23 @@ System Prompt: session-notes-section-template-… - Source: native-reference-mat
 
 ## Summary
 
+System Prompt: session-notes-section-template-… - Source: native-reference-match Summary System Prompt: session-notes-section-template-… - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+
+# Raw Prompt Text
+# System Prompt: data-session-memory-template
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: session-notes-section-template-… - Source: inline Summary Defines the required sections and guiding questions for session notes.
 
 ## Placeholder Hints (source-backed)
