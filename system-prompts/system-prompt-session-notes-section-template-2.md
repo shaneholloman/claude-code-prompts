@@ -17,6 +17,7 @@ System Prompt: session-notes-section-template-… - Source: native-reference-mat
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # System Prompt: session-notes-section-template-${NUM}
@@ -37,6 +38,7 @@ System Prompt: session-notes-section-template-… - Source: native-reference-mat
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # System Prompt: session-notes-section-template-${EXPR_1}
@@ -56,6 +58,7 @@ System Prompt: session-notes-section-template-… - Source: native-reference-mat
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # System Prompt: session-notes-section-template-${EXPR_2}
@@ -74,9 +77,28 @@ System Prompt: session-notes-section-template-… - Source: native-reference-mat
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # System Prompt: session-notes-section-template-${EXPR_3}
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: session-notes-section-template-… - Source: native-reference-match Summary System Prompt: session-notes-section-template-… - Source: inline Sum…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Prompt: session-notes-section-template-${EXPR_4}
 
 - Source: native-reference-match
 
@@ -93,7 +115,7 @@ System Prompt: session-notes-section-template-… - Source: inline Summary Defin
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-# System Prompt: session-notes-section-template-${EXPR_4}
+# System Prompt: session-notes-section-template-${EXPR_5}
 
 - Source: inline
 
@@ -103,7 +125,7 @@ Defines the required sections and guiding questions for session notes.
 
 # Raw Prompt Text
 # Session Title
-_A short and distinctive ${EXPR_5}-${EXPR_6} word descriptive title for the session. Super info dense, no filler_
+_A short and distinctive ${EXPR_6}-${EXPR_7} word descriptive title for the session. Super info dense, no filler_
 
 # Current State
 _What is actively being worked on right now? Pending tasks not yet completed. Immediate next steps._
@@ -121,7 +143,7 @@ _What bash commands are usually run and in what order? How to interpret their ou
 _Errors encountered and how they were fixed. What did the user correct? What approaches failed and should not be tried again?_
 
 # Codebase and System Documentation
-_What are the important system components? How do they work${EXPR_7} together?_
+_What are the important system components? How do they work${EXPR_8} together?_
 
 # Learnings
 _What has worked well? What has not? What to avoid? Do not duplicate items from other sections_
