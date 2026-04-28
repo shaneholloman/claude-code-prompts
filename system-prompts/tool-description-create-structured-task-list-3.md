@@ -19,6 +19,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${NUM}
@@ -41,6 +42,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_1}
@@ -62,6 +64,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_2}
@@ -82,6 +85,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_3}
@@ -101,9 +105,29 @@ Tool for organizing multi-step tasks.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_4}
+
+- Source: native-reference-match
+
+## Summary
+
+Tool for organizing multi-step tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Tool Description: create-structured-task-list-${EXPR_5}
 
 - Name: TaskCreate
 
@@ -126,8 +150,8 @@ It also helps the user understand the progress of the task and overall progress 
 
 Use this tool proactively in these scenarios:
 
-- Complex multi-step tasks - When a task requires ${EXPR_5} or more distinct steps or actions
-- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${EXPR_6}
+- Complex multi-step tasks - When a task requires ${EXPR_6} or more distinct steps or actions
+- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${EXPR_7}
 - Plan mode - When using plan mode, create a task list to track the work
 - User explicitly requests todo list - When the user directly asks you to use the todo list
 - User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
@@ -140,7 +164,7 @@ Use this tool proactively in these scenarios:
 Skip using this tool when:
 - There is only a single, straightforward task
 - The task is trivial and tracking it provides no organizational benefit
-- The task can be completed in less than ${EXPR_7} trivial steps
+- The task can be completed in less than ${EXPR_8} trivial steps
 - The task is purely conversational or informational
 
 NOTE that you should not use this tool if there is only one trivial task to do. In this case you are better off just doing the task directly.
@@ -156,5 +180,5 @@ All tasks are created with status `pending`.
 ## Tips
 
 - Create tasks with clear, specific subjects that describe the outcome
-- After creating tasks, use TaskUpdate to set up dependencies (blocks${EXPR_8}) if needed
-${EXPR_9}- Check TaskList first to avoid creating duplicate tasks
+- After creating tasks, use TaskUpdate to set up dependencies (blocks${EXPR_9}) if needed
+${EXPR_10}- Check TaskList first to avoid creating duplicate tasks
