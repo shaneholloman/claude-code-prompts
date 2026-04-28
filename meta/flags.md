@@ -1,4 +1,4 @@
-# Claude Code 2.1.120 – Flags
+# Claude Code 2.1.121 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -8,9 +8,7 @@
 | `tengu_bridge_repl_v2_config` | config | other | Config named "tengu_bridge_repl_v2_config" referenced, likely for a "bridge" REPL v2 setting set. | Only the config name/type is shown; no observable behavior or UI impact in the provided context. | low | 2 |
 | `tengu_ccr_bridge` | gate | tools | Enables the Tengu CCR bridge for Claude Code, with an optional minimum bridge version check. | Only gate checks and a min-version config are visible; what the bridge does beyond enabling is not shown. | medium | 4 |
 | `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables seeding a CCR bundle for remote sessions when repo/env gate is set | Also influenced by CCR_FORCE_BUNDLE and CCR_ENABLE_BUNDLE env vars and various git/GitHub checks. | high | 6 |
-| `tengu_chair_sermon` | gate | tools | Applies extra processing to attachment messages before they’re merged/added to the chat history. | Obfuscated helpers (K$_, nVq, O$_) hide exact transformation details. | medium | 8 |
 | `tengu_desktop_upsell` | config | prompts | Enables a startup dialog upsell for a desktop app on macOS or Windows x64. | Gate appears limited to darwin/win32 x64 and checks an enable_startup_dialog setting. | medium | 2 |
-| `tengu_disable_bypass_permissions_mode` | gate | safety | Blocks use of "bypassPermissions" mode (even if requested) due to gate/org policy. | Also checks a session/org setting (permissions.disableBypassPermissionsMode) alongside the gate. | high | 6 |
 | `tengu_harbor` | gate | auth | Gate controlling onboarding/opt-in flows and channel access including Claude AI OAuth token checks | Also influences UI dialogs (Onboarding, Trust, AutoMode opt-in) and a channel allowlist; not all behavior is fully visible. | medium | 2 |
 | `tengu_iron_gate_closed` | config | safety | Chooses fail-closed denial when auto-mode classifier is unavailable instead of falling back to normal permission handling. | Flag toggles deny-with-retry guidance (fail closed) vs fail-open fallback when classifier is unavailable. | high | 4 |
 | `tengu_kairos_brief` | config | prompts | Enables a “brief” user message/tool (markdown) when entitled or CLAUDE_CODE_BRIEF is set. | Gated by an entitlement check plus another condition (By()\|\|kZ()). | medium | 2 |
@@ -21,10 +19,5 @@
 | `tengu_kairos_push_notifications` | config | tools | Enables the PushNotification tool to notify users in-terminal and, with Remote Control, on mobile. | Also checks an agent setting (agentPushNotifEnabled) before allowing mobile push. | high | 2 |
 | `tengu_malort_pedway` | config | ui | Enables a “Chicago” UI feature (with coordinateMode) only for max/pro tiers. | Flag name is opaque; behavior inferred from exported getters and hotkey usage nearby. | medium | 2 |
 | `tengu_max_version_config` | config | tools | Minimum-version config used to block applying an update when the target version is too old. | Config also exposes optional `external` and `external_message` fields, likely for update messaging. | medium | 2 |
-| `tengu_scratch` | gate | filesystem | Enables writing a session-memory scratchpad with a summary.md file under a per-user Claude folder. |  | high | 2 |
 | `tengu_sm_config` | config | tools | Loads a config object likely related to Tengu “session memory” behavior. | Context only shows config retrieval; no direct fields or effects are visible here. | low | 2 |
-| `tengu_streaming_tool_execution2` | gate | tools | Enables streaming tool execution during a session. | Observed only as a session gate named "streamingToolExecution"; exact runtime behavior not shown. | medium | 2 |
-| `tengu_tool_pear` | gate | tools | Enables additional tool-definition handling for strict tools, including extra processing for supported models. | Exact effect is obfuscated; observable uses include adding a feature to the tool context list and gating a crypto hash path. | medium | 4 |
 | `tengu_version_config` | config | tools | Fetches a minimum required Claude Code version and shows an update-required message. | Minimum version appears server-configured via the config fetch. | high | 2 |
-| `tengu_vscode_onboarding` | gate | ui | Enables an onboarding experience/flow in the Claude VSCode integration. | Only seen being sent as an experiment gate; specific onboarding screens/steps aren’t shown. | medium | 2 |
-| `tengu_vscode_review_upsell` | gate | prompts | Enables a review upsell prompt/flow in the Claude VS Code integration. | Inferred mainly from the flag name; the surrounding code shows VS Code integration wiring and experiment gates. | medium | 2 |

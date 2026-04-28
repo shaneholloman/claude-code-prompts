@@ -2,8 +2,8 @@
 
 ## Summary
 
-- Commands: 35
-- Options: 79
+- Commands: 36
+- Options: 82
 - Env vars: 584
 - Config keys: 0
 - Tools: 10
@@ -36,6 +36,7 @@
 - `marketplace`
 - `mcp`
 - `plugin`
+- `prune`
 - `remote-control`
 - `remove`
 - `reset-project-choices`
@@ -76,6 +77,7 @@
 - `marketplace`
 - `mcp`
 - `plugin`
+- `prune`
 - `remote-control`
 - `remove <name>`
 - `reset-project-choices`
@@ -144,6 +146,7 @@
 - `--no-session-persistence`
 - `--plugin-dir`
 - `--print`
+- `--prune`
 - `--push`
 - `--remote`
 - `--remote-control-session-name-prefix`
@@ -163,6 +166,7 @@
 - `--transport`
 - `--verbose`
 - `--worktree`
+- `--yes`
 - `-a`
 - `-c`
 - `-d`
@@ -176,6 +180,7 @@
 - `-s`
 - `-t`
 - `-w`
+- `-y`
 
 ### Specs
 
@@ -216,6 +221,7 @@
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir <path>`
+- `--prune`
 - `--push`
 - `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
@@ -246,6 +252,7 @@
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
 - `-w, --worktree [name]`
+- `-y, --yes`
 
 ## Env Vars
 
@@ -401,6 +408,7 @@
 - `CLAUDE_CODE_DISABLE_1M_CONTEXT`
 - `CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING`
 - `CLAUDE_CODE_DISABLE_ADVISOR_TOOL`
+- `CLAUDE_CODE_DISABLE_AGENTS_FLEET`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
@@ -467,7 +475,6 @@
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
 - `CLAUDE_CODE_IS_COWORK`
-- `CLAUDE_CODE_LEAN_PROMPT`
 - `CLAUDE_CODE_MAX_CONTEXT_TOKENS`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
@@ -575,6 +582,7 @@
 - `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
 - `CLAUDE_COWORK_MEMORY_GUIDELINES`
 - `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
+- `CLAUDE_COWORK_MEMORY_SKIP_DEFAULT_ENTRYPOINT`
 - `CLAUDE_DEBUG`
 - `CLAUDE_ENABLE_BYTE_WATCHDOG`
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
@@ -693,7 +701,6 @@
 - `HOME`
 - `HTTP_PROXY`
 - `HTTPS_PROXY`
-- `INVOCATION_ID`
 - `IS_DEMO`
 - `IS_SANDBOX`
 - `ITERM_SESSION_ID`

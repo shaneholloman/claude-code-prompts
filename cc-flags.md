@@ -1,17 +1,10 @@
-# Claude Code Flags 2.1.120
+# Claude Code Flags 2.1.121
 
 ## Feature Gates
 
 - `tengu_ccr_bridge`
 - `tengu_ccr_bundle_seed_enabled`
-- `tengu_chair_sermon`
-- `tengu_disable_bypass_permissions_mode`
 - `tengu_harbor`
-- `tengu_scratch`
-- `tengu_streaming_tool_execution2`
-- `tengu_tool_pear`
-- `tengu_vscode_onboarding`
-- `tengu_vscode_review_upsell`
 
 ## Dynamic Configs
 
