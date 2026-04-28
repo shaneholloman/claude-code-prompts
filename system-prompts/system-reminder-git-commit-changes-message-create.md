@@ -67,6 +67,27 @@ System Reminder: git-commit-changes-message-create - Source: native-reference-ma
 
 ## Summary
 
+System Reminder: git-commit-changes-message-create - Source: native-reference-match Summary Guidelines for safely creating git commits.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# System Reminder: git-commit-changes-message-create
+
+- Source: native-reference-match
+
+## Summary
+
 Guidelines for safely creating git commits.
 
 ## Placeholder Hints (source-backed)
