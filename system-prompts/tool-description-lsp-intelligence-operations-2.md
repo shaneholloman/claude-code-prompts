@@ -20,6 +20,7 @@ Tool Description: lsp-intelligence-operations-… - Source: native-reference-mat
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
 # Tool Description: lsp-intelligence-operations-${NUM}
@@ -43,6 +44,7 @@ Tool Description: lsp-intelligence-operations-… - Source: native-reference-mat
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 # Tool Description: lsp-intelligence-operations-${EXPR_1}
@@ -65,6 +67,7 @@ Tool Description: lsp-intelligence-operations-… - Source: native-reference-mat
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # Tool Description: lsp-intelligence-operations-${EXPR_2}
@@ -86,6 +89,7 @@ Tool Description: lsp-intelligence-operations-… - Source: native-reference-mat
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # Tool Description: lsp-intelligence-operations-${EXPR_3}
@@ -106,9 +110,30 @@ Tool Description: lsp-intelligence-operations-… - Source: native-reference-mat
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # Tool Description: lsp-intelligence-operations-${EXPR_4}
+
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: lsp-intelligence-operations-… - Source: native-reference-match Summary Use LSP to navigate symbols, references, hover, and call hierarchy i…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+
+# Raw Prompt Text
+# Tool Description: lsp-intelligence-operations-${EXPR_5}
 
 - Source: native-reference-match
 
@@ -127,7 +152,7 @@ Use LSP to navigate symbols, references, hover, and call hierarchy in code.
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-# Tool Description: lsp-intelligence-operations-${EXPR_5}
+# Tool Description: lsp-intelligence-operations-${EXPR_6}
 
 - Name: LSP
 
@@ -145,13 +170,13 @@ Supported operations:
 - documentSymbol: Get all symbols (functions, classes, variables) in a document
 - workspaceSymbol: Search for symbols across the entire workspace
 - goToImplementation: Find implementations of an interface or abstract method
-- prepareCallHierarchy: Get call hierarchy item at a position (functions${EXPR_6})
-- incomingCalls: Find all functions${EXPR_7} that call the function at a position
-- outgoingCalls: Find all functions${EXPR_8} called by the function at a position
+- prepareCallHierarchy: Get call hierarchy item at a position (functions${EXPR_7})
+- incomingCalls: Find all functions${EXPR_8} that call the function at a position
+- outgoingCalls: Find all functions${EXPR_9} called by the function at a position
 
 All operations require:
 - filePath: The file to operate on
-- line: The line number (${EXPR_9}-based, as shown in editors)
-- character: The character offset (${EXPR_10}-based, as shown in editors)
+- line: The line number (${EXPR_10}-based, as shown in editors)
+- character: The character offset (${EXPR_11}-based, as shown in editors)
 
 Note: LSP servers must be configured for the file type. If no server is available, an error will be returned.
