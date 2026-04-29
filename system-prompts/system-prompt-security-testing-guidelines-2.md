@@ -16,6 +16,24 @@ Guidelines for authorized security testing.
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
+# System Prompt: security-testing-guidelines-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for authorized security testing.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
 # System Prompt: security-testing-guidelines
 
 - Source: native-fallback
