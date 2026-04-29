@@ -914,7 +914,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-`
+- `claude-empty-U`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
