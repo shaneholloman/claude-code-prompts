@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 36
-- Options: 82
-- Env vars: 587
+- Commands: 38
+- Options: 84
+- Env vars: 591
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 96
+- Models: 97
 - Providers: 8
 
 ## Commands
@@ -36,7 +36,9 @@
 - `marketplace`
 - `mcp`
 - `plugin`
+- `project`
 - `prune`
+- `purge`
 - `remote-control`
 - `remove`
 - `reset-project-choices`
@@ -77,7 +79,9 @@
 - `marketplace`
 - `mcp`
 - `plugin`
+- `project`
 - `prune`
+- `purge [path]`
 - `remote-control`
 - `remove <name>`
 - `reset-project-choices`
@@ -135,6 +139,7 @@
 - `--ide`
 - `--include-hook-events`
 - `--include-partial-messages`
+- `--interactive`
 - `--json`
 - `--keep-data`
 - `--mcp-config`
@@ -173,6 +178,7 @@
 - `-e`
 - `-f`
 - `-H`
+- `-i`
 - `-m`
 - `-n`
 - `-p`
@@ -187,6 +193,7 @@
 - `--add-dir <directories...>`
 - `--agent <agent>`
 - `--agents <json>`
+- `--all`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--available`
@@ -245,6 +252,7 @@
 - `-e, --env <env...>`
 - `-f, --force`
 - `-H, --header <header...>`
+- `-i, --interactive`
 - `-m, --message <msg>`
 - `-n, --name <name>`
 - `-p, --print`
@@ -332,6 +340,7 @@
 - `BETA_TRACING_ENDPOINT`
 - `BROWSER`
 - `BUGHUNTER_DEV_BUNDLE_B64`
+- `BUGHUNTER_FLEET_SIZE`
 - `BUILDKITE`
 - `BUN_DISABLE_DYNAMIC_CHUNK_SIZE`
 - `BUN_ENV`
@@ -342,6 +351,7 @@
 - `C`
 - `C9_PID`
 - `C9_USER`
+- `CCR_EGRESS_GATEWAY_ENABLED`
 - `CCR_ENABLE_BUNDLE`
 - `CCR_FORCE_BUNDLE`
 - `CCR_UPSTREAM_PROXY_ENABLED`
@@ -396,6 +406,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_COLD_COMPACT`
 - `CLAUDE_CODE_COMMIT_LOG`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
@@ -635,6 +646,7 @@
 - `DISABLE_ERROR_REPORTING`
 - `DISABLE_EXTRA_USAGE_COMMAND`
 - `DISABLE_FEEDBACK_COMMAND`
+- `DISABLE_GROWTHBOOK`
 - `DISABLE_INSTALL_GITHUB_APP_COMMAND`
 - `DISABLE_INSTALLATION_CHECKS`
 - `DISABLE_INTERLEAVED_THINKING`
@@ -914,7 +926,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-U`
+- `claude-empty-`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
@@ -942,6 +954,7 @@ _None detected_
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
 - `claude-plugins-official`
+- `claude-proactive`
 - `claude-prompt`
 - `claude-pwd-ps-`
 - `claude-resume-`
