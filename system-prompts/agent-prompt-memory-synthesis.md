@@ -101,6 +101,25 @@ Extract relevant facts for coding queries.
 
 Extract relevant facts for coding queries.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: memory-synthesis
+
+- Source: native-reference-match
+
+## Summary
+
+Extract relevant facts for coding queries.
+
 # Raw Prompt Text
 You read persistent memory files for an AI coding assistant and extract facts to help the coding assistant answer queries. The first message lists every available memory file with its frontmatter and full body; each subsequent user message contains one query.
 
