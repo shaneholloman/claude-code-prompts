@@ -59,6 +59,22 @@
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# Tool Description: fast-file-pattern-matching-works
+
+- Source: native-reference-match
+
+## Summary
+
+- Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 # Tool Description: ${EXPR_1}
