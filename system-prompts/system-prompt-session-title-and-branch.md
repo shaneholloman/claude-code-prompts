@@ -142,6 +142,29 @@ System Prompt: session-title-and-branch - Source: native-reference-match Summary
 
 ## Summary
 
+System Prompt: session-title-and-branch - Source: native-reference-match Summary System Prompt: session-title-and-branch - Source: inline Summary Generates a…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+
+# Raw Prompt Text
+# System Prompt: session-title-and-branch
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: session-title-and-branch - Source: inline Summary Generates a concise session title and a claude-prefixed git branch name from a description.
 
 ## Placeholder Hints (source-backed)
