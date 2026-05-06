@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 98
+- Models: 97
 - Providers: 8
 
 ## Commands
@@ -941,7 +941,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-D`
+- `claude-empty-`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
@@ -956,7 +956,6 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
-- `claude-mythos-preview`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
