@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 38
-- Options: 84
-- Env vars: 598
+- Options: 85
+- Env vars: 604
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 97
+- Models: 98
 - Providers: 8
 
 ## Commands
@@ -150,6 +150,7 @@
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir`
+- `--plugin-url`
 - `--print`
 - `--prune`
 - `--push`
@@ -228,6 +229,7 @@
 - `--no-chrome`
 - `--no-session-persistence`
 - `--plugin-dir <path>`
+- `--plugin-url <url>`
 - `--prune`
 - `--push`
 - `--remote <name>`
@@ -376,6 +378,7 @@
 - `CLAUDE_BG_ISOLATION`
 - `CLAUDE_BG_RENDEZVOUS_SOCK`
 - `CLAUDE_BG_SOURCE`
+- `CLAUDE_BG_STARTUP_WEDGE_MS`
 - `CLAUDE_BRIDGE_REATTACH_SEQ`
 - `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BRIDGE_USE_CCR_V2`
@@ -455,6 +458,8 @@
 - `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_EXPERIMENTAL_ADVISOR_TOOL`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
+- `CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY`
+- `CLAUDE_CODE_ENABLE_OPUS_4_7_FAST_MODE`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_PROXY_AUTH_HELPER`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
@@ -474,6 +479,7 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_FULLSCREEN_UPSELL`
+- `CLAUDE_CODE_FORCE_SYNC_OUTPUT`
 - `CLAUDE_CODE_FORK_SUBAGENT`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
@@ -490,6 +496,7 @@
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
 - `CLAUDE_CODE_INVESTIGATE_FIRST`
 - `CLAUDE_CODE_IS_COWORK`
+- `CLAUDE_CODE_LOOP_PERSISTENT`
 - `CLAUDE_CODE_MAX_CONTEXT_TOKENS`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
@@ -506,6 +513,7 @@
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`
 - `CLAUDE_CODE_PERFETTO_TRACE`
 - `CLAUDE_CODE_PERFORCE_MODE`
 - `CLAUDE_CODE_PLAN_MODE_INTERVIEW_PHASE`
@@ -933,7 +941,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-`
+- `claude-empty-D`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
@@ -948,6 +956,7 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
+- `claude-mythos-preview`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
