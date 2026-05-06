@@ -156,6 +156,25 @@ Tool Description: lsp-intelligence-operations-… - Source: native-reference-mat
 
 ## Summary
 
+Tool Description: lsp-intelligence-operations-… - Source: native-reference-match Summary Use LSP to navigate symbols, references, hover, and call hierarchy i…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Tool Description: lsp
+
+- Source: native-reference-match
+
+## Summary
+
 Use LSP to navigate symbols, references, hover, and call hierarchy in code.
 
 # Raw Prompt Text
