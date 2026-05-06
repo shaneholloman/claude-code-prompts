@@ -17,6 +17,7 @@ Guidelines for authorized security testing.
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # System Prompt: security-testing-guidelines-${NUM}
@@ -37,6 +38,7 @@ Guidelines for authorized security testing.
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # System Prompt: security-testing-guidelines-${EXPR_1}
@@ -56,6 +58,7 @@ Guidelines for authorized security testing.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # System Prompt: security-testing-guidelines-${EXPR_2}
@@ -74,9 +77,28 @@ Guidelines for authorized security testing.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # System Prompt: security-testing-guidelines-${EXPR_3}
+
+- Source: native-reference-match
+
+## Summary
+
+Guidelines for authorized security testing.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# System Prompt: security-testing-guidelines-${EXPR_4}
 
 - Source: native-reference-match
 
@@ -109,7 +131,7 @@ Guidelines for authorized security testing.
 | `EXPR_1` | value after api | None |
 
 # Raw Prompt Text
-x-anthropic-billing-header: cc_version=${EXPR_4}.${EXPR_5}.native; cc_entrypoint=sdk-cli; cch=${EXPR_6};
+x-anthropic-billing-header: cc_version=${EXPR_5}.${EXPR_6}.native; cc_entrypoint=sdk-cli; cch=${EXPR_7};
 
 You are a Claude agent, built on Anthropic's Claude Agent SDK.
 
@@ -124,4 +146,4 @@ IMPORTANT: You must NEVER generate or guess URLs for the user unless you are con
 Read, Edit, Write, Glob, Grep, Bash
  - TodoWrite# Git
 - Interactive flags (`-i`, e.g. `git rebase -i`, `git add -i`) are not supported in this environment.
-- Use the `gh` CLI for GitHub operations (PRs, issues, API).${EXPR_7}
+- Use the `gh` CLI for GitHub operations (PRs, issues, API).${EXPR_8}
