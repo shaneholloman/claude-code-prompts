@@ -1,3 +1,12 @@
+# System Data Block: advisor-tool-instructions
+
+- Source: native-reference-match
+
+## Summary
+
+Invoke advisor tool before starting tasks.
+
+# Raw Prompt Text
 # System Prompt: advisor-tool-instructions
 
 - Source: native-reference-match
