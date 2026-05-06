@@ -85,6 +85,15 @@ System Reminder: enable-chrome-browser-automation - Source: native-reference-mat
 
 ## Summary
 
+System Reminder: enable-chrome-browser-automation - Source: native-reference-match Summary System Reminder: enable-chrome-browser-automation - Source: inline…
+
+# Raw Prompt Text
+# System Reminder: enable-chrome-browser-automation
+
+- Source: native-reference-match
+
+## Summary
+
 System Reminder: enable-chrome-browser-automation - Source: inline Summary Require enabling the Chrome browser skill before using browser tools.
 
 # Raw Prompt Text
