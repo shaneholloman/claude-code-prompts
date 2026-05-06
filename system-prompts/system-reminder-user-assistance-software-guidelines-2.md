@@ -1,4 +1,4 @@
-# System Reminder: user-assistance-software-guidelines-2
+# System Reminder: user-assistance-software-guidelines
 
 - Source: native-reference-match
 
