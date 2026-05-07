@@ -4,7 +4,7 @@
 
 - Commands: 38
 - Options: 85
-- Env vars: 608
+- Env vars: 610
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -624,6 +624,7 @@
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_SLOW_FIRST_BYTE_MS`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
+- `CLAUDE_SUBAGENT_BG_SHELL_MAX_MS`
 - `CLAUDE_TMPDIR`
 - `CLAUDE_TRUSTED_DEVICE_TOKEN`
 - `CLI_WIDTH`
@@ -753,6 +754,7 @@
 - `MAX_STRUCTURED_OUTPUT_RETRIES`
 - `MAX_THINKING_TOKENS`
 - `MCP_CLIENT_SECRET`
+- `MCP_CONNECT_TIMEOUT_MS`
 - `MCP_CONNECTION_NONBLOCKING`
 - `MCP_OAUTH_CALLBACK_PORT`
 - `MCP_OAUTH_CLIENT_METADATA_URL`
@@ -945,7 +947,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-`
+- `claude-empty-K`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
