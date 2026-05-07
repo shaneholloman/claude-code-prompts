@@ -213,6 +213,25 @@ System Prompt: extract-facts-for-queries - Source: native-reference-match Summar
 
 ## Summary
 
+System Prompt: extract-facts-for-queries - Source: native-reference-match Summary Extract relevant facts for coding queries.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# System Prompt: extract-facts-for-queries
+
+- Source: native-reference-match
+
+## Summary
+
 Extract relevant facts for coding queries.
 
 ## Placeholder Hints (source-backed)
