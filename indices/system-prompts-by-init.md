@@ -1,40 +1,39 @@
 # System Prompts Index – by init
 
-- Total prompt files: **63**
+- Total prompt files: **64**
 
 ## Categories
 
-- System prompts (28)
-- Tool prompts (17)
+- System prompts (27)
+- Tool prompts (18)
 - Agent prompts (7)
 - Skills (3)
-- System reminders (8)
+- System reminders (9)
 
-## System prompts (28)
+## System prompts (27)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-memory-user-project-work.md`](../system-prompts/system-prompt-memory-user-project-work.md) | Manage tasks efficiently with memory. | 4,171 | 2.1.133 | 2.1.133 |
 | [`system-prompt-schedule-recurring-2.md`](../system-prompts/system-prompt-schedule-recurring-2.md) | Set up recurring prompts at defined intervals. | 2,439 | 2.1.118 | 2.1.133 |
 | [`system-prompt-schedule-recurring-interval.md`](../system-prompts/system-prompt-schedule-recurring-interval.md) | Set prompts to repeat at defined times. | 2,430 | 2.1.118 | 2.1.133 |
 | [`system-prompt-plan-mode-edit-restrictions.md`](../system-prompts/system-prompt-plan-mode-edit-restrictions.md) | Enforce plan-only mode, allowing only incremental edits to the designated plan file. | 2,307 | 2.1.118 | 2.1.133 |
 | [`system-prompt-user-summary-file.md`](../system-prompts/system-prompt-user-summary-file.md) | Create a detailed summary of the conversation. | 2,151 | 2.1.118 | 2.1.133 |
 | [`system-prompt-recent-messages-summary-analysis.md`](../system-prompts/system-prompt-recent-messages-summary-analysis.md) | Create a summary of recent conversation messages. | 1,738 | 2.1.118 | 2.1.133 |
-| [`system-prompt-conversation-summary-analysis.md`](../system-prompts/system-prompt-conversation-summary-analysis.md) | Generate a detailed conversation context summary. | 1,639 | 2.1.118 | 2.1.133 |
+| [`system-prompt-conversation-summary-analysis.md`](../system-prompts/system-prompt-conversation-summary-analysis.md) | System Prompt: conversation-summary-analysis - Source: native-reference-match Summary Generate a detailed conversation context summary. | 1,639 | 2.1.118 | 2.1.133 |
 | [`system-prompt-plan-mode-active-user-guidance.md`](../system-prompts/system-prompt-plan-mode-active-user-guidance.md) | User is in planning mode with no changes allowed. | 1,385 | 2.1.118 | 2.1.133 |
-| [`system-prompt-chrome-automation-guidelines-2.md`](../system-prompts/system-prompt-chrome-automation-guidelines-2.md) | Advanced guidelines for Claude-in-Chrome tools. | 1,378 | 2.1.118 | 2.1.133 |
+| [`system-prompt-chrome-automation-guidelines-2.md`](../system-prompts/system-prompt-chrome-automation-guidelines-2.md) | System Prompt: chrome-automation-guidelines-… - Source: native-reference-match Summary Advanced guidelines for Claude-in-Chrome tools. | 1,378 | 2.1.118 | 2.1.133 |
 | [`system-prompt-reference-documentation-for-agents.md`](../system-prompts/system-prompt-reference-documentation-for-agents.md) | System Data Block: reference-documentation-for-agents - Source: native-reference-match Summary Guidance on language-specific documentation for agents. | 1,326 | 2.1.118 | 2.1.133 |
-| [`system-prompt-chrome-automation-guidelines.md`](../system-prompts/system-prompt-chrome-automation-guidelines.md) | Guidelines for using Claude-in-Chrome tools including GIF recording and console log filtering. | 1,266 | 2.1.118 | 2.1.133 |
-| [`system-prompt-git-commit-changes-message-create.md`](../system-prompts/system-prompt-git-commit-changes-message-create.md) | Guidelines for creating git commits safely. | 964 | 2.1.118 | 2.1.133 |
+| [`system-prompt-chrome-automation-guidelines.md`](../system-prompts/system-prompt-chrome-automation-guidelines.md) | System Prompt: chrome-automation-guidelines - Source: native-reference-match Summary Guidelines for using Claude-in-Chrome tools including GIF recording and… | 1,266 | 2.1.118 | 2.1.133 |
+| [`system-prompt-git-commit-changes-message-create.md`](../system-prompts/system-prompt-git-commit-changes-message-create.md) | System Prompt: git-commit-changes-message-create - Source: native-reference-match Summary Guidelines for creating git commits safely. | 964 | 2.1.118 | 2.1.133 |
 | [`system-prompt-cloud-schedule-setup.md`](../system-prompts/system-prompt-cloud-schedule-setup.md) | System Prompt: cloud-schedule-setup - Source: native-reference-match Summary Check conditions for cloud scheduling options. | 928 | 2.1.118 | 2.1.133 |
-| [`system-prompt-partial-compaction-instructions.md`](../system-prompts/system-prompt-partial-compaction-instructions.md) | Summarize the conversation context thoroughly. | 886 | 2.1.118 | 2.1.133 |
-| [`system-prompt-claude-in-chrome-browser-automation.md`](../system-prompts/system-prompt-claude-in-chrome-browser-automation.md) | Guidelines for using Claude in Chrome tools. | 850 | 2.1.118 | 2.1.133 |
+| [`system-prompt-partial-compaction-instructions.md`](../system-prompts/system-prompt-partial-compaction-instructions.md) | System Prompt: partial-compaction-instructions - Source: native-reference-match Summary Summarize the conversation context thoroughly. | 886 | 2.1.118 | 2.1.133 |
+| [`system-prompt-claude-in-chrome-browser-automation.md`](../system-prompts/system-prompt-claude-in-chrome-browser-automation.md) | System Prompt: claude-in-chrome-browser-automation - Source: native-reference-match Summary Guidelines for using Claude in Chrome tools. | 850 | 2.1.118 | 2.1.133 |
 | [`system-prompt-session-title-and-branch.md`](../system-prompts/system-prompt-session-title-and-branch.md) | System Prompt: session-title-and-branch - Source: native-reference-match Summary System Prompt: session-title-and-branch - Source: inline Summary Generates a… | 797 | 2.1.118 | 2.1.133 |
 | [`system-prompt-extract-facts-for-queries.md`](../system-prompts/system-prompt-extract-facts-for-queries.md) | System Prompt: extract-facts-for-queries - Source: native-reference-match Summary Extract relevant facts for coding queries. | 767 | 2.1.118 | 2.1.133 |
 | [`system-prompt-custom-rules-replacing-defaults-18.md`](../system-prompts/system-prompt-custom-rules-replacing-defaults-18.md) | System Data Block: custom-rules-replacing-defaults-… - Source: native-reference-match Summary System Data Block: git-status-snapshot-conversation - Source: i… | 696 | 2.1.118 | 2.1.133 |
-| [`system-prompt-advisor-call-approach.md`](../system-prompts/system-prompt-advisor-call-approach.md) | Use advisor tool before substantive work. | 593 | 2.1.118 | 2.1.133 |
+| [`system-prompt-advisor-call-approach.md`](../system-prompts/system-prompt-advisor-call-approach.md) | System Prompt: advisor-call-approach - Source: native-reference-match Summary Use advisor tool before substantive work. | 593 | 2.1.118 | 2.1.133 |
 | [`system-prompt-auto-mode-classifier-rules-review.md`](../system-prompts/system-prompt-auto-mode-classifier-rules-review.md) | System Prompt: auto-mode-classifier-rules-review - Source: native-reference-match Summary Evaluate clarity and completeness of classifier rules. | 580 | 2.1.118 | 2.1.133 |
 | [`system-prompt-select-useful-memories-for-query.md`](../system-prompts/system-prompt-select-useful-memories-for-query.md) | System Prompt: select-useful-memories-for-query - Source: native-reference-match Summary Identify relevant memories for user queries. | 483 | 2.1.118 | 2.1.133 |
 | [`system-prompt-advisor-tool-instructions.md`](../system-prompts/system-prompt-advisor-tool-instructions.md) | Invoke advisor tool before starting tasks. | 476 | 2.1.118 | 2.1.133 |
@@ -45,20 +44,21 @@ _Sorted by init (newest first)._
 | [`system-prompt-tool-execution-denied.md`](../system-prompts/system-prompt-tool-execution-denied.md) | Guidance on reasonable alternatives after permission denial. | 176 | 2.1.118 | 2.1.133 |
 | [`system-prompt-git-status.md`](../system-prompts/system-prompt-git-status.md) | This is the git status at the start of the conversation. | 70 | 2.1.118 | 2.1.133 |
 
-## Tool prompts (17)
+## Tool prompts (18)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-invoke-in-conversation-3.md`](../system-prompts/tool-description-invoke-in-conversation-3.md) | Tool Description: invoke-in-conversation-… - Source: native-reference-match Summary Execute a skill within the main conversation. | 591 | 2.1.133 | 2.1.133 |
 | [`tool-description-invoke-in-conversation-2.md`](../system-prompts/tool-description-invoke-in-conversation-2.md) | Execute a skill within the main conversation. | 480 | 2.1.133 | 2.1.133 |
 | [`tool-description-invoke-in-conversation.md`](../system-prompts/tool-description-invoke-in-conversation.md) | Execute a skill within the main conversation When users ask you to perform tasks, check if any of the available skills match. | 425 | 2.1.128 | 2.1.128 |
 | [`tool-description-read-local-file.md`](../system-prompts/tool-description-read-local-file.md) | Reads a file from the local filesystem. | 723 | 2.1.121 | 2.1.121 |
 | [`tool-description-file-pattern-matching.md`](../system-prompts/tool-description-file-pattern-matching.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 255 | 2.1.121 | 2.1.121 |
-| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,102 | 2.1.118 | 2.1.133 |
+| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,488 | 2.1.118 | 2.1.133 |
 | [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.133 |
-| [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 2,021 | 2.1.118 | 2.1.133 |
-| [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 1,977 | 2.1.118 | 2.1.128 |
+| [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 2,251 | 2.1.118 | 2.1.133 |
+| [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 1,977 | 2.1.118 | 2.1.133 |
 | [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep Usage: - ALWAYS use Grep for search tasks. | 1,115 | 2.1.118 | 2.1.133 |
 | [`tool-description-schedule-resume-work-dynamic-mode.md`](../system-prompts/tool-description-schedule-resume-work-dynamic-mode.md) | Manage task iterations with user-defined intervals. | 939 | 2.1.118 | 2.1.118 |
 | [`tool-description-create-structured-task-list-3.md`](../system-prompts/tool-description-create-structured-task-list-3.md) | Tool for organizing multi-step tasks. | 878 | 2.1.118 | 2.1.133 |
@@ -93,12 +93,13 @@ _Sorted by init (newest first)._
 | [`skill-loop-cloud-first-scheduling-offer.md`](../system-prompts/skill-loop-cloud-first-scheduling-offer.md) | Check conditions before scheduling tasks. | 696 | 2.1.118 | 2.1.133 |
 | [`skill-build-with-claude-api-reference-guide.md`](../system-prompts/skill-build-with-claude-api-reference-guide.md) | Guide for using Claude API documentation effectively. | 675 | 2.1.118 | 2.1.133 |
 
-## System reminders (8)
+## System reminders (9)
 
-_Sorted by init (newest first). Showing **8** reminders with more than **30** tokens._
+_Sorted by init (newest first). Showing **9** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-anthropic-billing-header-version-native.md`](../system-prompts/system-reminder-anthropic-billing-header-version-native.md) | x-anthropic-billing-header: cc_version=….….native; cc_entrypoint=sdk-cli; cch=…; You are an interactive agent that helps users with software engineering tasks. | 4,189 | 2.1.133 | 2.1.133 |
 | [`system-reminder-plan-workflow-read-only-mode.md`](../system-prompts/system-reminder-plan-workflow-read-only-mode.md) | Defines a read-only workflow for user interactions. | 2,004 | 2.1.118 | 2.1.133 |
 | [`system-reminder-plan-mode-restrictions.md`](../system-prompts/system-reminder-plan-mode-restrictions.md) | Restricts edits during plan mode. | 1,278 | 2.1.118 | 2.1.133 |
 | [`system-reminder-git-commit-changes-message-create.md`](../system-prompts/system-reminder-git-commit-changes-message-create.md) | System Reminder: git-commit-changes-message-create - Source: native-reference-match Summary Guidelines for safely creating git commits. | 933 | 2.1.118 | 2.1.133 |

@@ -33,22 +33,22 @@ _None detected_
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-05-07 23:55:20 UTC
+- Snapshot generated at: 2026-05-08 17:45:04 UTC
 - Node runtime: `v20.20.1`
-- Config hash: `7946da28e99a4c4562ce2aac0548c899849b6ddd7e9161707651ea5a3a5efe4a`
+- Config hash: `01414611bf72f302295fa46f751ffcd1585ffd114160a87a3663a37420c44e57`
 - Embedded build timestamp: 2026-05-07 18:26:46 UTC
-- Relative to embedded build timestamp: 5h 28m 34s (2026-05-07 18:26:46 UTC → 2026-05-07 23:55:20 UTC)
+- Relative to embedded build timestamp: 23h 18m 18s (2026-05-07 18:26:46 UTC → 2026-05-08 17:45:04 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 62,019
-- Token p95 / p99: 2,430 / 3,102
+- Total prompt tokens: 63,244
+- Token p95 / p99: 2,430 / 3,488
 
 ### By Kind
 
-- `system`: 29,194 tokens (47.1%)
-- `tool`: 17,469 tokens (28.2%)
-- `system-reminder`: 6,153 tokens (9.9%)
-- `agent`: 4,097 tokens (6.6%)
+- `system`: 25,023 tokens (39.6%)
+- `tool`: 18,676 tokens (29.5%)
+- `system-reminder`: 10,342 tokens (16.4%)
+- `agent`: 4,097 tokens (6.5%)
 - `system-data`: 2,568 tokens (4.1%)
-- `skill`: 2,538 tokens (4.1%)
+- `skill`: 2,538 tokens (4.0%)
