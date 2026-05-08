@@ -4,11 +4,11 @@
 
 - Commands: 38
 - Options: 85
-- Env vars: 610
+- Env vars: 615
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 97
+- Models: 98
 - Providers: 8
 
 ## Commands
@@ -402,10 +402,12 @@
 - `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASE_REFS`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
+- `CLAUDE_CODE_BENCH_LIVE_COUNTS`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BRIEF`
 - `CLAUDE_CODE_BRIEF_UPLOAD`
 - `CLAUDE_CODE_BUBBLEWRAP`
+- `CLAUDE_CODE_BYOC_ENABLE_DATADOG`
 - `CLAUDE_CODE_CERT_STORE`
 - `CLAUDE_CODE_CLASSIFIER_SUMMARY`
 - `CLAUDE_CODE_CLIENT_CERT`
@@ -458,6 +460,7 @@
 - `CLAUDE_CODE_ENABLE_BACKGROUND_PLUGIN_REFRESH`
 - `CLAUDE_CODE_ENABLE_CFC`
 - `CLAUDE_CODE_ENABLE_EXPERIMENTAL_ADVISOR_TOOL`
+- `CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY`
 - `CLAUDE_CODE_ENABLE_OPUS_4_7_FAST_MODE`
@@ -503,6 +506,8 @@
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
 - `CLAUDE_CODE_MCP_ALLOWLIST_ENV`
+- `CLAUDE_CODE_MID_CONVERSATION_SYSTEM`
+- `CLAUDE_CODE_NATIVE_CURSOR`
 - `CLAUDE_CODE_NEW_INIT`
 - `CLAUDE_CODE_NO_FLICKER`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
@@ -947,7 +952,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-K`
+- `claude-empty-`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
@@ -962,6 +967,7 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
+- `claude-mythos-preview`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
