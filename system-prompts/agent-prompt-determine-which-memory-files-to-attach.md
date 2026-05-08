@@ -139,6 +139,21 @@ Choose useful memories for user queries.
 
 ## Summary
 
+Choose useful memories for user queries.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: determine-which-memory-files-to-attach
+
+- Source: native-reference-match
+
+## Summary
+
 Identify relevant memories for user queries.
 
 ## Placeholder Hints (source-backed)
