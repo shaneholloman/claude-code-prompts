@@ -22,6 +22,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${NUM}
@@ -47,6 +48,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_1}
@@ -71,6 +73,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_2}
@@ -94,6 +97,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_3}
@@ -116,6 +120,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_4}
@@ -137,6 +142,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_5}
@@ -157,6 +163,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_6}
@@ -176,6 +183,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_7}
@@ -194,6 +202,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_8}
@@ -211,6 +220,7 @@ Indicates a requested tool action was rejected.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_9}
@@ -227,9 +237,26 @@ Indicates a requested tool action was rejected.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 # System Reminder: permission-denied-${EXPR_10}
+
+- Source: native-reference-match
+
+## Summary
+
+Indicates a requested tool action was rejected.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# System Reminder: permission-denied-${EXPR_11}
 
 - Source: native-reference-match
 
@@ -244,7 +271,7 @@ System Reminder: permission-denied-… - Source: native-reference-match Summary 
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-# System Reminder: permission-denied-${EXPR_11}
+# System Reminder: permission-denied-${EXPR_12}
 
 - Source: native-reference-match
 
@@ -253,7 +280,7 @@ System Reminder: permission-denied-… - Source: native-reference-match Summary 
 System Reminder: permission-denied-… - Source: inline Summary Indicates a requested tool action was rejected and no changes were applied.
 
 # Raw Prompt Text
-# System Reminder: permission-denied-${EXPR_12}
+# System Reminder: permission-denied-${EXPR_13}
 
 - Source: inline
 
