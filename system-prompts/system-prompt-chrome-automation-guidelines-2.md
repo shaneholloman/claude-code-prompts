@@ -4,6 +4,44 @@
 
 ## Summary
 
+Advanced guidelines for Claude-in-Chrome tools.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
+
+# Raw Prompt Text
+# System Prompt: chrome-automation-guidelines-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: chrome-automation-guidelines-… - Source: native-reference-match Summary Advanced guidelines for Claude-in-Chrome tools.
 
 ## Placeholder Hints (source-backed)
@@ -33,42 +71,6 @@ System Prompt: chrome-automation-guidelines-… - Source: native-reference-match
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
-
-# Raw Prompt Text
-# System Prompt: chrome-automation-guidelines-${NUM}
-
-- Source: native-reference-match
-
-## Summary
-
-Advanced guidelines for Claude-in-Chrome tools.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_1}
@@ -104,6 +106,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_2}
@@ -138,6 +141,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_3}
@@ -171,6 +175,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_4}
@@ -203,6 +208,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_5}
@@ -234,6 +240,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_6}
@@ -264,6 +271,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_7}
@@ -293,6 +301,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_8}
@@ -321,6 +330,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_9}
@@ -329,7 +339,7 @@ Advanced guidelines for Claude-in-Chrome tools.
 
 ## Summary
 
-System Prompt: chrome-automation-guidelines-… - Source: native-reference-match Summary Guidelines for using Claude-in-Chrome tools including GIF recording an…
+Advanced guidelines for Claude-in-Chrome tools.
 
 ## Placeholder Hints (source-backed)
 
@@ -348,6 +358,7 @@ System Prompt: chrome-automation-guidelines-… - Source: native-reference-match
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_10}
@@ -374,6 +385,7 @@ System Prompt: chrome-automation-guidelines-… - Source: native-reference-match
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_11}
@@ -399,9 +411,35 @@ System Prompt: chrome-automation-guidelines-… - Source: native-reference-match
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 # System Prompt: chrome-automation-guidelines-${EXPR_12}
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: chrome-automation-guidelines-… - Source: native-reference-match Summary Guidelines for using Claude-in-Chrome tools including GIF recording an…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+
+# Raw Prompt Text
+# System Prompt: chrome-automation-guidelines-${EXPR_13}
 
 - Source: native-reference-match
 
@@ -425,7 +463,7 @@ Guidelines for using Claude-in-Chrome tools including GIF recording and console 
 | `EXPR_10` | None | None |
 
 # Raw Prompt Text
-# System Prompt: chrome-automation-guidelines-${EXPR_13}
+# System Prompt: chrome-automation-guidelines-${EXPR_14}
 
 - Source: inline
 
@@ -453,9 +491,9 @@ You can use mcp__claude-in-chrome__read_console_messages to read console output.
 ## Alerts and dialogs
 
 IMPORTANT: Do not trigger JavaScript alerts, confirms, prompts, or browser modal dialogs through your actions. These browser dialogs block all further browser events and will prevent the extension from receiving any subsequent commands. Instead, when possible, use console.log for debugging and then use the mcp__claude-in-chrome__read_console_messages tool to read those log messages. If a page has dialog-triggering elements:
-${EXPR_14}. Avoid clicking buttons or links that may trigger alerts (e.g., "Delete" buttons with confirmation dialogs)
-${EXPR_15}. If you must interact with such elements, warn the user first that this may interrupt the session
-${EXPR_16}. Use mcp__claude-in-chrome__javascript_tool to check for and dismiss any existing dialogs before proceeding
+${EXPR_15}. Avoid clicking buttons or links that may trigger alerts (e.g., "Delete" buttons with confirmation dialogs)
+${EXPR_16}. If you must interact with such elements, warn the user first that this may interrupt the session
+${EXPR_17}. Use mcp__claude-in-chrome__javascript_tool to check for and dismiss any existing dialogs before proceeding
 
 If you accidentally trigger a dialog and lose responsiveness, inform the user they need to manually dismiss it in the browser.
 
@@ -463,7 +501,7 @@ If you accidentally trigger a dialog and lose responsiveness, inform the user th
 
 When using browser automation tools, stay focused on the specific task. If you encounter any of the following, stop and ask the user for guidance:
 - Unexpected complexity or tangential browser exploration
-- Browser tool calls failing or returning errors after ${EXPR_17}-${EXPR_18} attempts
+- Browser tool calls failing or returning errors after ${EXPR_18}-${EXPR_19} attempts
 - No response from the browser extension
 - Page elements not responding to clicks or input
 - Pages not loading or timing out
@@ -475,11 +513,11 @@ Explain what you attempted, what went wrong, and ask how the user would like to 
 
 IMPORTANT: At the start of each browser automation session, call mcp__claude-in-chrome__tabs_context_mcp first to get information about the user's current browser tabs. Use this context to understand what the user might want to work with before creating new tabs.
 
-Never reuse tab IDs from a previous${EXPR_19} session. Follow these guidelines:
-${EXPR_20}. Only reuse an existing tab if the user explicitly asks to work with it
-${EXPR_21}. Otherwise, create a new tab with mcp__claude-in-chrome__tabs_create_mcp
-${EXPR_22}. If a tool returns an error indicating the tab doesn't exist or is invalid, call tabs_context_mcp to get fresh tab IDs
-${EXPR_23}. When a tab is closed by the user or a navigation error occurs, call tabs_context_mcp to see what tabs are available
+Never reuse tab IDs from a previous${EXPR_20} session. Follow these guidelines:
+${EXPR_21}. Only reuse an existing tab if the user explicitly asks to work with it
+${EXPR_22}. Otherwise, create a new tab with mcp__claude-in-chrome__tabs_create_mcp
+${EXPR_23}. If a tool returns an error indicating the tab doesn't exist or is invalid, call tabs_context_mcp to get fresh tab IDs
+${EXPR_24}. When a tab is closed by the user or a navigation error occurs, call tabs_context_mcp to see what tabs are available
 
 Now that this skill is invoked, you have access to Chrome browser automation tools. You can now use the mcp__claude-in-chrome__* tools to interact with web pages.
 
