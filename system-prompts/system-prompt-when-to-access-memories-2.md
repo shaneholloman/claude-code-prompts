@@ -26,6 +26,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${NUM}
@@ -55,6 +56,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_1}
@@ -83,6 +85,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_2}
@@ -110,6 +113,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_3}
@@ -136,6 +140,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_4}
@@ -161,6 +166,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_5}
@@ -185,6 +191,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_6}
@@ -208,6 +215,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_7}
@@ -230,6 +238,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_8}
@@ -251,6 +260,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_9}
@@ -271,6 +281,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_10}
@@ -290,6 +301,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_11}
@@ -308,6 +320,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_12}
@@ -325,6 +338,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_13}
@@ -341,6 +355,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_14}
@@ -356,6 +371,7 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_15}
@@ -364,10 +380,25 @@ System Prompt: when-to-access-memories-… - Source: native-reference-match Summ
 
 ## Summary
 
-System Prompt: when-to-access-memories-… - Source: inline Summary Guidelines for accessing user memories.
+System Prompt: when-to-access-memories-… - Source: native-reference-match Summary System Prompt: when-to-access-memories-… - Source: inline Summary Guideline…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 # System Prompt: when-to-access-memories-${EXPR_16}
+
+- Source: native-reference-match
+
+## Summary
+
+System Prompt: when-to-access-memories-… - Source: inline Summary Guidelines for accessing user memories.
+
+# Raw Prompt Text
+# System Prompt: when-to-access-memories-${EXPR_17}
 
 - Source: inline
 
