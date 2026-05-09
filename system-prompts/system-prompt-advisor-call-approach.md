@@ -4,6 +4,15 @@
 
 ## Summary
 
+Use advisor tool before substantive work.
+
+# Raw Prompt Text
+# System Prompt: advisor-call-approach
+
+- Source: native-reference-match
+
+## Summary
+
 System Prompt: advisor-call-approach - Source: native-reference-match Summary Use advisor tool before substantive work.
 
 # Raw Prompt Text
