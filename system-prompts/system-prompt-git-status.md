@@ -115,6 +115,15 @@ This is the git status at the start of the conversation.
 This is the git status at the start of the conversation.
 
 # Raw Prompt Text
+# System Data Block: git-status
+
+- Source: native-reference-match
+
+## Summary
+
+This is the git status at the start of the conversation.
+
+# Raw Prompt Text
 # System Prompt: git-status
 
 - Source: native-reference-match
