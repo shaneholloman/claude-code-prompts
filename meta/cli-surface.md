@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Commands: 38
+- Commands: 39
 - Options: 85
-- Env vars: 615
+- Env vars: 618
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -25,6 +25,7 @@
 - `config`
 - `critique`
 - `defaults`
+- `details`
 - `disable`
 - `doctor`
 - `enable`
@@ -67,6 +68,7 @@
 - `config`
 - `critique`
 - `defaults`
+- `details <name>`
 - `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
@@ -427,7 +429,7 @@
 - `CLAUDE_CODE_DISABLE_1M_CONTEXT`
 - `CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING`
 - `CLAUDE_CODE_DISABLE_ADVISOR_TOOL`
-- `CLAUDE_CODE_DISABLE_AGENTS_FLEET`
+- `CLAUDE_CODE_DISABLE_AGENT_VIEW`
 - `CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
@@ -505,6 +507,7 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
+- `CLAUDE_CODE_MAX_TURNS`
 - `CLAUDE_CODE_MCP_ALLOWLIST_ENV`
 - `CLAUDE_CODE_MID_CONVERSATION_SYSTEM`
 - `CLAUDE_CODE_NATIVE_CURSOR`
@@ -581,6 +584,7 @@
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
 - `CLAUDE_CODE_SUBSCRIPTION_TYPE`
+- `CLAUDE_CODE_SUPERVISED`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
@@ -588,6 +592,7 @@
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TASK_LIST_ID`
 - `CLAUDE_CODE_TEAM_ONBOARDING`
+- `CLAUDE_CODE_TEE_SDK_STDOUT`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_TMUX_PREFIX`
@@ -952,7 +957,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-`
+- `claude-empty-J`
 - `claude-folder`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
