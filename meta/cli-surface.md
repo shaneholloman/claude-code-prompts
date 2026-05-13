@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 39
-- Options: 85
-- Env vars: 619
+- Options: 86
+- Env vars: 622
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -122,6 +122,7 @@
 - `--client-secret`
 - `--console`
 - `--continue`
+- `--cwd`
 - `--dangerously-skip-permissions`
 - `--debug`
 - `--debug-file`
@@ -208,6 +209,7 @@
 - `--client-id <clientId>`
 - `--client-secret`
 - `--console`
+- `--cwd <path>`
 - `--dangerously-skip-permissions`
 - `--debug-file <path>`
 - `--disable-slash-commands`
@@ -310,6 +312,7 @@
 - `ANTHROPIC_UNIX_SOCKET`
 - `ANTHROPIC_VERTEX_BASE_URL`
 - `ANTHROPIC_VERTEX_PROJECT_ID`
+- `ANTHROPIC_WORKSPACE_ID`
 - `API_FORCE_IDLE_TIMEOUT`
 - `API_TIMEOUT_MS`
 - `APP_URL`
@@ -532,6 +535,7 @@
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
 - `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS`
 - `CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE`
+- `CLAUDE_CODE_PLUGIN_PREFER_HTTPS`
 - `CLAUDE_CODE_PLUGIN_SEED_DIR`
 - `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
@@ -612,6 +616,7 @@
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CODE_USER_EMAIL`
 - `CLAUDE_CODE_VERIFY_PROMPT`
+- `CLAUDE_CODE_VOICE_FORWARD_INTERIMS_TYPED`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_WORKER_EPOCH`
 - `CLAUDE_CODE_WORKSPACE_HOST_PATHS`
