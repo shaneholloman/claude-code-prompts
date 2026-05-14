@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 39
-- Options: 86
-- Env vars: 622
+- Options: 88
+- Env vars: 621
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -130,6 +130,7 @@
 - `--disallowed-tools`
 - `--disallowedTools`
 - `--dry-run`
+- `--effort`
 - `--email`
 - `--env`
 - `--fallback-model`
@@ -152,6 +153,7 @@
 - `--name`
 - `--no-chrome`
 - `--no-session-persistence`
+- `--permission-mode`
 - `--plugin-dir`
 - `--plugin-url`
 - `--print`
@@ -215,6 +217,7 @@
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--dry-run`
+- `--effort <level>`
 - `--email <email>`
 - `--fallback-model <model>`
 - `--file <specs...>`
@@ -232,6 +235,7 @@
 - `--model <model>`
 - `--no-chrome`
 - `--no-session-persistence`
+- `--permission-mode <mode>`
 - `--plugin-dir <path>`
 - `--plugin-url <url>`
 - `--prune`
@@ -379,6 +383,7 @@
 - `CLAUDE_AUTO_BACKGROUND_TASKS`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
+- `CLAUDE_BG_AUTH_SNAPSHOT_PATH`
 - `CLAUDE_BG_BACKEND`
 - `CLAUDE_BG_ISOLATION`
 - `CLAUDE_BG_RENDEZVOUS_SOCK`
@@ -467,7 +472,6 @@
 - `CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY`
-- `CLAUDE_CODE_ENABLE_OPUS_4_7_FAST_MODE`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_PROXY_AUTH_HELPER`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
@@ -852,7 +856,6 @@
 - `SYSTEM_OIDCREQUESTURI`
 - `SYSTEMROOT`
 - `TASK_MAX_OUTPUT_LENGTH`
-- `TEAM_MEMORY_SYNC_URL`
 - `TERM`
 - `TERM_PROGRAM`
 - `TERM_PROGRAM_VERSION`
