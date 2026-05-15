@@ -4,11 +4,11 @@
 
 - Commands: 39
 - Options: 88
-- Env vars: 621
+- Env vars: 626
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 98
+- Models: 99
 - Providers: 8
 
 ## Commands
@@ -197,6 +197,7 @@
 ### Specs
 
 - `--add-dir <directories...>`
+- `--add-dir <directory>`
 - `--agent <agent>`
 - `--agents <json>`
 - `--all`
@@ -230,6 +231,7 @@
 - `--include-partial-messages`
 - `--json`
 - `--keep-data`
+- `--mcp-config <config>`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
@@ -389,6 +391,7 @@
 - `CLAUDE_BG_RENDEZVOUS_SOCK`
 - `CLAUDE_BG_SOURCE`
 - `CLAUDE_BG_STARTUP_WEDGE_MS`
+- `CLAUDE_BG_TCC_DISCLAIMED`
 - `CLAUDE_BRIDGE_REATTACH_SEQ`
 - `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BRIDGE_USE_CCR_V2`
@@ -543,6 +546,7 @@
 - `CLAUDE_CODE_PLUGIN_SEED_DIR`
 - `CLAUDE_CODE_PLUGIN_USE_ZIP_CACHE`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
+- `CLAUDE_CODE_POWERSHELL_RESPECT_EXECUTION_POLICY`
 - `CLAUDE_CODE_PROACTIVE`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
@@ -590,6 +594,7 @@
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
+- `CLAUDE_CODE_STOP_HOOK_BLOCK_CAP`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
 - `CLAUDE_CODE_SUBSCRIPTION_TYPE`
@@ -631,6 +636,7 @@
 - `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_DEBUG`
 - `CLAUDE_ENABLE_BYTE_WATCHDOG`
+- `CLAUDE_ENABLE_BYTE_WATCHDOG_BEDROCK`
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
@@ -638,6 +644,7 @@
 - `CLAUDE_LOCAL_OAUTH_API_BASE`
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
 - `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
+- `CLAUDE_MEMORY_STORES`
 - `CLAUDE_PTY_RECORD`
 - `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
 - `CLAUDE_REPL_VARIANT`
@@ -950,6 +957,7 @@ _None detected_
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-api`
+- `claude-channel-`
 - `claude-cli`
 - `claude-cli-native-`
 - `claude-code`
