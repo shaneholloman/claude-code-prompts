@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.145
+# Claude Code Flags 2.1.146
 
 ## Feature Gates
 
@@ -11,13 +11,13 @@
 - `tengu_auto_mode_config`
 - `tengu_bridge_min_version`
 - `tengu_bridge_poll_interval_config`
+- `tengu_bridge_repl_v2_config`
 - `tengu_desktop_upsell`
 - `tengu_iron_gate_closed`
 - `tengu_kairos_brief`
 - `tengu_kairos_cron`
 - `tengu_kairos_cron_config`
 - `tengu_kairos_cron_durable`
-- `tengu_kairos_dream`
 - `tengu_kairos_push_notifications`
 - `tengu_malort_pedway`
 - `tengu_max_version_config`

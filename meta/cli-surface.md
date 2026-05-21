@@ -4,11 +4,11 @@
 
 - Commands: 39
 - Options: 89
-- Env vars: 636
+- Env vars: 638
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 100
+- Models: 102
 - Providers: 8
 
 ## Commands
@@ -394,6 +394,7 @@
 - `CLAUDE_BG_BACKEND`
 - `CLAUDE_BG_ISOLATION`
 - `CLAUDE_BG_RENDEZVOUS_SOCK`
+- `CLAUDE_BG_SESSION_PERMISSION_RULES`
 - `CLAUDE_BG_SOURCE`
 - `CLAUDE_BG_STARTUP_WEDGE_MS`
 - `CLAUDE_BG_TCC_DISCLAIMED`
@@ -636,6 +637,7 @@
 - `CLAUDE_CODE_VOICE_FORWARD_INTERIMS_TYPED`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_WORKER_EPOCH`
+- `CLAUDE_CODE_WORKFLOWS`
 - `CLAUDE_CODE_WORKSPACE_HOST_PATHS`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
@@ -988,6 +990,8 @@ _None detected_
 - `claude-dev`
 - `claude-empty-`
 - `claude-folder`
+- `claude-for-financial-services`
+- `claude-for-legal`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
