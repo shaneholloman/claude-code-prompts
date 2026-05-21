@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 39
-- Options: 89
-- Env vars: 638
+- Options: 90
+- Env vars: 640
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -120,6 +120,7 @@
 - `--claudeai`
 - `--client-id`
 - `--client-secret`
+- `--config`
 - `--console`
 - `--continue`
 - `--cwd`
@@ -212,6 +213,7 @@
 - `--claudeai`
 - `--client-id <clientId>`
 - `--client-secret`
+- `--config <key=value>`
 - `--console`
 - `--cwd <path>`
 - `--dangerously-skip-permissions`
@@ -393,11 +395,13 @@
 - `CLAUDE_BG_AUTH_SNAPSHOT_PATH`
 - `CLAUDE_BG_BACKEND`
 - `CLAUDE_BG_ISOLATION`
+- `CLAUDE_BG_MEMORY_TOGGLED_OFF`
 - `CLAUDE_BG_RENDEZVOUS_SOCK`
 - `CLAUDE_BG_SESSION_PERMISSION_RULES`
 - `CLAUDE_BG_SOURCE`
 - `CLAUDE_BG_STARTUP_WEDGE_MS`
 - `CLAUDE_BG_TCC_DISCLAIMED`
+- `CLAUDE_BRIDGE_REATTACH_OUTBOUND_ONLY`
 - `CLAUDE_BRIDGE_REATTACH_SEQ`
 - `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BRIDGE_USE_CCR_V2`
