@@ -508,6 +508,27 @@ Create new git commits based on current changes.
 
 ## Summary
 
+Create new git commits based on current changes.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: quick-git-commit
+
+- Source: native-reference-match
+
+## Summary
+
 …## Context - Current git status: !`git status` - Current git diff (staged and unstaged changes): !`git diff HEAD` - Current branch: !`git branch --show-curr…
 
 ## Placeholder Hints (source-backed)
