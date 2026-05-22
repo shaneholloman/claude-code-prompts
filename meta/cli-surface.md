@@ -4,11 +4,11 @@
 
 - Commands: 39
 - Options: 90
-- Env vars: 640
+- Env vars: 642
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 102
+- Models: 103
 - Providers: 8
 
 ## Commands
@@ -614,6 +614,8 @@
 - `CLAUDE_CODE_SUPERVISED`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
+- `CLAUDE_CODE_SYNC_SKILLS`
+- `CLAUDE_CODE_SYNC_SKILLS_WAIT_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_SYSTEM_PROMPT_GB_FEATURE`
 - `CLAUDE_CODE_TAGS`
@@ -1030,6 +1032,7 @@ _None detected_
 - `claude-resume-`
 - `claude-review`
 - `claude-settings`
+- `claude-skill-`
 - `claude-socks-`
 - `claude-sonnet-3-7`
 - `claude-sonnet-4`
