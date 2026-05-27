@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 39
+- Commands: 40
 - Options: 90
-- Env vars: 642
+- Env vars: 647
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 102
+- Models: 103
 - Providers: 8
 
 ## Commands
@@ -30,6 +30,7 @@
 - `doctor`
 - `enable`
 - `get`
+- `import-conversations`
 - `install`
 - `list`
 - `login`
@@ -73,6 +74,7 @@
 - `doctor`
 - `enable <plugin>`
 - `get <name>`
+- `import-conversations <exportPath>`
 - `install [target]`
 - `install <plugin>`
 - `list`
@@ -215,6 +217,7 @@
 - `--client-secret`
 - `--config <key=value>`
 - `--console`
+- `--cwd <dir>`
 - `--cwd <path>`
 - `--dangerously-skip-permissions`
 - `--debug-file <path>`
@@ -439,6 +442,7 @@
 - `CLAUDE_CODE_COLD_COMPACT`
 - `CLAUDE_CODE_COMMIT_LOG`
 - `CLAUDE_CODE_CONTAINER_ID`
+- `CLAUDE_CODE_COORDINATOR_MODE`
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
 - `CLAUDE_CODE_DAEMON_COLD_START`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
@@ -473,6 +477,7 @@
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DISABLE_THINKING`
 - `CLAUDE_CODE_DISABLE_VIRTUAL_SCROLL`
+- `CLAUDE_CODE_DISABLE_WORKFLOWS`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EAGER_FLUSH`
 - `CLAUDE_CODE_EFFORT_LEVEL`
@@ -561,6 +566,7 @@
 - `CLAUDE_CODE_POWERSHELL_RESPECT_EXECUTION_POLICY`
 - `CLAUDE_CODE_PROACTIVE`
 - `CLAUDE_CODE_PROFILE_STARTUP`
+- `CLAUDE_CODE_PROPAGATE_TRACEPARENT`
 - `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
 - `CLAUDE_CODE_PROXY_AUTH_HELPER_TTL_MS`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
@@ -605,6 +611,7 @@
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
+- `CLAUDE_CODE_SPAWN_TIMESTAMP_MS`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_STALL_TIMEOUT_MS_FOR_TESTING`
 - `CLAUDE_CODE_STOP_HOOK_BLOCK_CAP`
@@ -656,6 +663,7 @@
 - `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
+- `CLAUDE_IMPORT_CONVERSATIONS`
 - `CLAUDE_JOB_DIR`
 - `CLAUDE_LOCAL_OAUTH_API_BASE`
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
@@ -988,12 +996,14 @@ _None detected_
 - `claude-code-marketplace`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
+- `claude-code-remote`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-context`
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
+- `claude-export-import`
 - `claude-folder`
 - `claude-for-financial-services`
 - `claude-for-legal`
@@ -1005,7 +1015,6 @@ _None detected_
 - `claude-http-`
 - `claude-in-chrome`
 - `claude-in-chrome-default-enabled`
-- `claude-in-chrome.`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
