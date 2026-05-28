@@ -4,11 +4,11 @@
 
 - Commands: 40
 - Options: 90
-- Env vars: 647
+- Env vars: 649
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 104
+- Models: 107
 - Providers: 8
 
 ## Commands
@@ -460,6 +460,7 @@
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_API_SKILL`
+- `CLAUDE_CODE_DISABLE_CLAUDE_CODE_SKILL`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_CRON`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
@@ -510,6 +511,7 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_FORCE_FULLSCREEN_UPSELL`
+- `CLAUDE_CODE_FORCE_MID_CONVERSATION_SYSTEM`
 - `CLAUDE_CODE_FORCE_SYNC_OUTPUT`
 - `CLAUDE_CODE_FORK_SUBAGENT`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
@@ -536,7 +538,6 @@
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
 - `CLAUDE_CODE_MAX_TURNS`
 - `CLAUDE_CODE_MCP_ALLOWLIST_ENV`
-- `CLAUDE_CODE_MID_CONVERSATION_SYSTEM`
 - `CLAUDE_CODE_NATIVE_CURSOR`
 - `CLAUDE_CODE_NEW_INIT`
 - `CLAUDE_CODE_NO_FLICKER`
@@ -670,6 +671,7 @@
 - `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
 - `CLAUDE_MEMORY_STORES`
 - `CLAUDE_PTY_HOST_EXEC`
+- `CLAUDE_PTY_ORPHAN_CHECK_MS`
 - `CLAUDE_PTY_RECORD`
 - `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
 - `CLAUDE_REPL_VARIANT`
@@ -990,6 +992,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code-docs`
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
@@ -1031,6 +1034,7 @@ _None detected_
 - `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
+- `claude-opus-4-8`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
@@ -1060,6 +1064,7 @@ _None detected_
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
+- `opus-4-8`
 - `opus-pro-update`
 - `sonnet-3-7`
 - `sonnet-4`
