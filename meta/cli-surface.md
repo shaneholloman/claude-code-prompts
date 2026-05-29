@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 40
-- Options: 90
-- Env vars: 649
+- Commands: 41
+- Options: 94
+- Env vars: 655
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 107
+- Models: 108
 - Providers: 8
 
 ## Commands
@@ -31,6 +31,7 @@
 - `enable`
 - `get`
 - `import-conversations`
+- `init`
 - `install`
 - `list`
 - `login`
@@ -75,6 +76,7 @@
 - `enable <plugin>`
 - `get <name>`
 - `import-conversations <exportPath>`
+- `init <name>`
 - `install [target]`
 - `install <plugin>`
 - `list`
@@ -114,6 +116,8 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
+- `--author`
+- `--author-email`
 - `--available`
 - `--bare`
 - `--betas`
@@ -129,6 +133,7 @@
 - `--dangerously-skip-permissions`
 - `--debug`
 - `--debug-file`
+- `--description`
 - `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
@@ -180,6 +185,7 @@
 - `--tools`
 - `--transport`
 - `--verbose`
+- `--with`
 - `--worktree`
 - `--yes`
 - `-a`
@@ -207,6 +213,8 @@
 - `--all`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
+- `--author <name>`
+- `--author-email <email>`
 - `--available`
 - `--bare`
 - `--betas <betas...>`
@@ -221,6 +229,7 @@
 - `--cwd <path>`
 - `--dangerously-skip-permissions`
 - `--debug-file <path>`
+- `--description <text>`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--dry-run`
@@ -264,6 +273,7 @@
 - `--tmux`
 - `--tools <tools...>`
 - `--verbose`
+- `--with <components...>`
 - `-a, --all`
 - `-c, --continue`
 - `-d, --debug`
@@ -408,6 +418,7 @@
 - `CLAUDE_BRIDGE_REATTACH_SEQ`
 - `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BRIDGE_USE_CCR_V2`
+- `CLAUDE_BYTE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACCOUNT_TAGGED_ID`
@@ -531,6 +542,7 @@
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
 - `CLAUDE_CODE_INVESTIGATE_FIRST`
 - `CLAUDE_CODE_IS_COWORK`
+- `CLAUDE_CODE_LOOP_KEEPALIVE`
 - `CLAUDE_CODE_LOOP_PERSISTENT`
 - `CLAUDE_CODE_MAX_CONTEXT_TOKENS`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
@@ -622,6 +634,9 @@
 - `CLAUDE_CODE_SUPERVISED`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL`
 - `CLAUDE_CODE_SYNC_PLUGIN_INSTALL_TIMEOUT_MS`
+- `CLAUDE_CODE_SYNC_PLUGINS`
+- `CLAUDE_CODE_SYNC_PLUGINS_INSTALL_TIMEOUT_MS`
+- `CLAUDE_CODE_SYNC_PLUGINS_MCP_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNC_SKILLS`
 - `CLAUDE_CODE_SYNC_SKILLS_WAIT_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
@@ -926,6 +941,7 @@
 - `WEBSITE_SITE_NAME`
 - `WEBSITE_SKU`
 - `WSL_DISTRO_NAME`
+- `WSL_INTEROP`
 - `WT_SESSION`
 - `XDG_CONFIG_HOME`
 - `XDG_RUNTIME_DIR`
@@ -1035,6 +1051,7 @@ _None detected_
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
+- `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
