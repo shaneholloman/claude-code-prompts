@@ -25,6 +25,7 @@
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${NUM}
@@ -53,6 +54,7 @@
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_1}
@@ -80,6 +82,7 @@
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_2}
@@ -106,6 +109,7 @@
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_3}
@@ -131,6 +135,7 @@
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_4}
@@ -155,6 +160,7 @@
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_5}
@@ -178,6 +184,7 @@
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_6}
@@ -200,6 +207,7 @@
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_7}
@@ -221,6 +229,7 @@
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_8}
@@ -241,6 +250,7 @@
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_9}
@@ -260,6 +270,7 @@
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_10}
@@ -278,6 +289,7 @@
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_11}
@@ -295,6 +307,7 @@
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_12}
@@ -311,6 +324,7 @@
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_13}
@@ -326,9 +340,25 @@
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${EXPR_14}
+
+- Source: native-reference-match
+
+## Summary
+
+- Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: file-pattern-matching-${EXPR_15}
 
 - Source: native-reference-match
 
@@ -358,7 +388,7 @@ Fast file pattern matching tool that works with any codebase size - Supports glo
 - Use this tool when you need to find files by name patterns
 - When you are doing an open ended search that may require multiple rounds of globbing and grepping, use the Agent tool instead
 {
-  "$schema": "${EXPR_15}
+  "$schema": "${EXPR_16}
   "type": "object",
   "properties": {
     "pattern": {
