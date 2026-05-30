@@ -641,6 +641,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_16}
@@ -677,6 +678,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_17}
@@ -712,6 +714,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_18}
@@ -746,6 +749,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_19}
@@ -779,6 +783,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_20}
@@ -811,6 +816,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_21}
@@ -842,6 +848,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_22}
@@ -872,6 +879,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_23}
@@ -901,6 +909,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_24}
@@ -929,6 +938,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_25}
@@ -956,6 +966,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_26}
@@ -982,6 +993,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_27}
@@ -1007,6 +1019,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_28}
@@ -1031,6 +1044,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_29}
@@ -1054,6 +1068,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_30}
@@ -1076,6 +1091,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_31}
@@ -1097,6 +1113,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_32}
@@ -1117,6 +1134,7 @@ Tool for organizing multi-step tasks.
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_33}
@@ -1136,9 +1154,29 @@ Tool for organizing multi-step tasks.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 # Tool Description: create-structured-task-list-${EXPR_34}
+
+- Source: native-reference-match
+
+## Summary
+
+Tool for organizing multi-step tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+
+# Raw Prompt Text
+# Tool Description: create-structured-task-list-${EXPR_35}
 
 - Name: TaskCreate
 
@@ -1161,8 +1199,8 @@ It also helps the user understand the progress of the task and overall progress 
 
 Use this tool proactively in these scenarios:
 
-- Complex multi-step tasks - When a task requires ${EXPR_35} or more distinct steps or actions
-- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${EXPR_36}
+- Complex multi-step tasks - When a task requires ${EXPR_36} or more distinct steps or actions
+- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${EXPR_37}
 - Plan mode - When using plan mode, create a task list to track the work
 - User explicitly requests todo list - When the user directly asks you to use the todo list
 - User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
@@ -1175,7 +1213,7 @@ Use this tool proactively in these scenarios:
 Skip using this tool when:
 - There is only a single, straightforward task
 - The task is trivial and tracking it provides no organizational benefit
-- The task can be completed in less than ${EXPR_37} trivial steps
+- The task can be completed in less than ${EXPR_38} trivial steps
 - The task is purely conversational or informational
 
 NOTE that you should not use this tool if there is only one trivial task to do. In this case you are better off just doing the task directly.
@@ -1191,5 +1229,5 @@ All tasks are created with status `pending`.
 ## Tips
 
 - Create tasks with clear, specific subjects that describe the outcome
-- After creating tasks, use TaskUpdate to set up dependencies (blocks${EXPR_38}) if needed
-${EXPR_39}- Check TaskList first to avoid creating duplicate tasks
+- After creating tasks, use TaskUpdate to set up dependencies (blocks${EXPR_39}) if needed
+${EXPR_40}- Check TaskList first to avoid creating duplicate tasks
